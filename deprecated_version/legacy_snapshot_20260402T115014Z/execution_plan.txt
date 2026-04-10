@@ -1,0 +1,1576 @@
+EXECUTION PLAN
+Project: event-state-forecasting
+
+Purpose
+- This file is the build-order roadmap for the entire repository.
+- It defines the recommended order in which every file should be implemented, hardened, revisited, tested, and documented.
+- It is intentionally detailed and workflow-oriented rather than brief.
+
+Progress snapshot
+- Stages 0 through 14 are now implemented in first-pass form.
+- Stage 15 documentation hardening is now complete in first-pass form.
+- The plan remains useful as a maintenance and extension guide, but it is no longer only prospective.
+
+Important constraints
+- This plan assumes the local `.env` file exists and remains private.
+- This plan uses the current `README.md` as the project-level source of truth for research framing, risk priorities, and architectural decisions.
+- This plan uses `Complete_guidebook.txt` as the file-by-file repository map.
+
+Primary references to keep open while executing this roadmap
+- `README.md` - the main research and engineering specification.
+- `Complete_guidebook.txt` - the file-by-file map and current state summary.
+- `docs/architecture_overview.md` - intended system structure.
+- `docs/data_layout.md` - intended dataset layering.
+- `docs/evaluation_protocol.md` - intended evaluation rigor.
+- `docs/implementation_roadmap.md` - existing short roadmap that this file expands.
+
+How to read this plan
+- Each stage has a clear goal, dependencies, files to implement or update, tests to run, common traps, and revisit conditions.
+- "Implement" means writing executable logic.
+- "Update" means keeping documentation/config/support files aligned with the now-real behavior.
+- "Revisit" means the file may be logically correct at first pass but must be reopened once downstream modules reveal missing requirements.
+
+Non-negotiable execution principles
+- Correctness before speed.
+- Reproducibility before convenience.
+- Leakage safety before model sophistication.
+- Split-handling before labels.
+- Frozen intermediate artifacts before training.
+- Baselines before multimodal complexity.
+- Do not widen scope until the previous stage has both code and tests.
+
+README citation policy for this plan
+- When a stage is justified by research framing or risk, this plan cites the relevant `README.md` section by name.
+- Use those sections as the authoritative rationale when questions arise during implementation.
+
+================================================================================
+GLOBAL DEPENDENCY GRAPH
+================================================================================
+
+The repository should be built in this dependency order:
+
+1. Runtime and tooling foundations
+   - `.env.example`
+   - `requirements.txt`
+   - `pyproject.toml`
+   - `.gitignore`
+   - `Makefile`
+   - `configs/project.yaml`
+   - `configs/data_sources.yaml`
+
+2. Utility layer
+   - `src/utils/paths.py`
+   - `src/utils/config_loader.py`
+   - `src/utils/logging_setup.py`
+   - `src/utils/io_utils.py`
+   - `src/utils/time_and_calendars.py`
+   - `src/utils/reproducibility.py`
+   - `src/utils/hashing.py`
+
+3. Data contracts and storage policy
+   - `src/data/data_contracts.py`
+   - `docs/data_layout.md`
+   - `data/**/README.md`
+   - `tests/test_data_contracts.py`
+
+4. Universe and provider clients
+   - `src/data/universe_builder.py`
+   - `src/data/twelve_data_client.py`
+   - `src/data/finnhub_client.py`
+   - `src/data/sec_edgar_client.py`
+   - `src/data/split_events_client.py`
+
+5. Raw ingestion and normalization pipelines
+   - `src/data/incremental_updates.py`
+   - `src/data/quality_checks.py`
+   - `src/data/price_pipeline.py`
+   - `src/data/news_pipeline.py`
+   - `src/data/company_kb_pipeline.py`
+   - `src/cli/build_market_data.py`
+   - `src/cli/build_news_data.py`
+   - `src/cli/build_company_kb.py`
+
+6. Split handling and adjusted prices
+   - `src/data/corporate_actions.py`
+   - `tests/test_corporate_actions.py`
+
+7. Temporal alignment and leakage controls
+   - `src/split/alignment_rules.py`
+   - `src/split/leakage_checks.py`
+   - `tests/test_alignment.py`
+   - `tests/test_leakage.py`
+
+8. Feature layer
+   - `src/features/news_text.py`
+   - `src/features/market_features.py`
+   - `src/features/company_profile_features.py`
+   - `src/features/labels.py`
+   - `src/features/news_embeddings.py`
+   - `src/features/event_state.py`
+   - `tests/test_labels.py`
+   - `tests/test_event_state.py`
+
+9. Final modeling datasets
+   - `src/data/modeling_dataset.py`
+   - `src/cli/build_modeling_dataset.py`
+
+10. Temporal split generation
+   - `src/split/walk_forward_splits.py`
+   - `src/split/purged_embargo_splits.py`
+   - `tests/test_walk_forward.py`
+
+11. Modeling stack
+   - `src/models/baseline_models.py`
+   - `src/models/loss_functions.py`
+   - `src/models/dataloaders.py`
+   - `src/models/trainer.py`
+   - `src/cli/train_market_baseline.py`
+
+12. Multimodal modeling stack
+   - `src/models/multimodal_models.py`
+   - `src/cli/train_multimodal_model.py`
+
+13. Inference and evaluation stack
+   - `src/models/inference.py`
+   - `src/models/metric_registry.py`
+   - `src/models/calibration.py`
+   - `src/models/statistical_tests.py`
+   - `src/models/ablation_runner.py`
+   - `src/cli/evaluate_experiments.py`
+   - `src/cli/run_ablations.py`
+
+14. Living documentation and output conventions
+   - `README.md`
+   - `docs/*.md`
+   - `artifacts/**/*.README.md`
+   - `runs/README.md`
+   - `reports/README.md`
+   - `notebooks/README.md`
+   - `Complete_guidebook.txt`
+   - `project_extra_data.txt`
+   - `execution_plan.txt`
+
+================================================================================
+STAGE 0 - BOOTSTRAP, TOOLING, AND REPOSITORY HYGIENE
+================================================================================
+
+Goal
+- Ensure the repository can be installed, imported, linted, and tested before deeper logic is added.
+
+Reference sections in `README.md`
+- `Installation`
+- `Software Engineering Plan`
+- `Current Implemented Components`
+
+Files in scope
+- `.env.example`
+- `.gitignore`
+- `requirements.txt`
+- `pyproject.toml`
+- `Makefile`
+- `LICENSE`
+- `src/__init__.py`
+- `src/utils/__init__.py`
+- `src/cli/__init__.py`
+- `src/data/__init__.py`
+- `src/features/__init__.py`
+- `src/models/__init__.py`
+- `src/split/__init__.py`
+- `tests/__init__.py`
+
+Execution order inside Stage 0
+
+0.1 - Freeze environment interface
+- Confirm `.env.example` still matches real runtime needs.
+- Revisit `.env.example` only if a new required runtime variable appears in code.
+- Do not read or print `.env` itself.
+
+0.2 - Freeze dependency surface
+- Keep `requirements.txt` and `pyproject.toml` synchronized.
+- Add new dependencies only when a file actually uses them.
+- If a module imports a package not yet installed, update both files immediately.
+
+0.3 - Keep tooling safe
+- Ensure `.gitignore` excludes all generated raw/interim/final data and private `.env`.
+- Ensure `Makefile` stays minimal and accurate.
+- Do not add fake commands for unimplemented pipelines.
+
+0.4 - Package markers
+- Keep all `__init__.py` files lightweight and side-effect free.
+- No environment loading, network calls, or eager imports in package markers.
+
+Stage 0 exit criteria
+- All imports for implemented modules succeed in a properly installed environment.
+- `python -m compileall src` passes.
+- `ruff check src tests` passes after installation.
+- `pytest` should at least discover the blueprint tests without import failures.
+
+Tests to run after Stage 0
+- `python -m compileall src`
+- `python -c "import src, src.utils, src.data, src.features, src.models, src.split"`
+- `ruff check src tests`
+
+Common traps in Stage 0
+- Adding imports to blueprint files without adding dependencies.
+- Letting `.env.example` drift away from real code requirements.
+- Hiding build logic in package markers.
+
+Revisit conditions
+- Reopen this stage whenever any new top-level dependency, CLI command, or output directory is introduced.
+
+================================================================================
+STAGE 1 - CONFIGURATION AND RUNTIME FOUNDATION
+================================================================================
+
+Goal
+- Make configuration resolution deterministic, typed, and reusable across the project.
+
+Reference sections in `README.md`
+- `Environment handling`
+- `Installation`
+- `Current Implemented Components`
+
+Files in scope
+- `configs/project.yaml`
+- `configs/data_sources.yaml`
+- `configs/dataset_build.yaml`
+- `configs/features.yaml`
+- `configs/labels.yaml`
+- `configs/model_market_baseline.yaml`
+- `configs/model_multimodal.yaml`
+- `configs/training.yaml`
+- `configs/evaluation.yaml`
+- `src/utils/paths.py`
+- `src/utils/config_loader.py`
+- `src/utils/logging_setup.py`
+- `src/utils/io_utils.py`
+- `src/utils/reproducibility.py`
+
+Execution order inside Stage 1
+
+1.1 - Harden `src/utils/paths.py`
+- Keep `ProjectPaths` as the canonical path object.
+- Add any missing helper methods only if a real downstream use case appears.
+- Make sure no helper hard-codes machine-specific absolute paths.
+
+1.2 - Harden `src/utils/config_loader.py`
+- Keep `ResolvedSettings` the only high-level settings object passed to provider clients and future CLI entry points.
+- Expand support for config families only when needed by actual code.
+- Add explicit config schema validation if YAML complexity grows.
+- Ensure secrets remain masked in logs and serialization.
+
+1.3 - Implement `src/utils/logging_setup.py`
+- Add one shared logging setup function.
+- Required behaviors:
+  - console logging,
+  - optional file logging to `runs/logs`,
+  - no duplicated handlers on repeated imports,
+  - readable timestamps,
+  - run ID support.
+- Revisit when training starts and per-run structured metadata becomes necessary.
+
+1.4 - Implement `src/utils/io_utils.py`
+- Add wrappers for:
+  - parquet read/write,
+  - JSON read/write,
+  - manifest save/load,
+  - atomic write where appropriate.
+- Require explicit schema-aware behavior where possible.
+
+1.5 - Implement `src/utils/reproducibility.py`
+- Add helper(s) for:
+  - seeds,
+  - deterministic flags,
+  - environment snapshot,
+  - version capture.
+- Do not overspecify deterministic GPU behavior until training code exists.
+
+1.6 - Finalize YAML configs in order of use
+- `configs/project.yaml`: keep global runtime flags.
+- `configs/data_sources.yaml`: keep provider defaults only, no secrets.
+- `configs/dataset_build.yaml`: add realistic paths, build flags, and stage toggles.
+- `configs/features.yaml`: lock initial feature families to the conservative set described in `README.md` under `Market Feature Branch` and `News Processing and Event-State Modeling`.
+- `configs/labels.yaml`: ensure primary target matches README recommendation of forward excess/abnormal return.
+- `configs/model_market_baseline.yaml`: keep candidate baseline list compact.
+- `configs/model_multimodal.yaml`: keep first model simple and branch-switchable.
+- `configs/training.yaml`: set realistic defaults for a thesis-grade first pass.
+- `configs/evaluation.yaml`: define walk-forward + purge/embargo evaluation policy.
+
+Stage 1 exit criteria
+- `load_project_settings()` works from the repo root with the local `.env`.
+- Config loading produces a stable, typed object.
+- Safe serialization does not reveal secrets.
+- All YAML files can be loaded without schema surprises.
+
+Tests to run after Stage 1
+- Add and execute a small smoke test for config loading once tests are implemented.
+- For now run:
+  - `python -c "from src.utils.config_loader import load_project_settings; s=load_project_settings(); print(sorted(s.configs.keys()))"`
+  - `python -c "from src.utils.config_loader import load_project_settings; s=load_project_settings(); print(s.project_paths.data_raw_dir)"`
+  - `python -m compileall src`
+
+Additional trap tests
+- Missing required env vars should fail with readable messages.
+- Empty optional env vars should resolve to `None` or sensible defaults.
+- Relative path overrides should resolve correctly from the repo root.
+
+Revisit conditions
+- Reopen Stage 1 whenever a new provider, new output directory, or new training/evaluation setting is introduced.
+
+================================================================================
+STAGE 2 - DATA CONTRACTS, SCHEMAS, AND MANIFEST POLICY
+================================================================================
+
+Goal
+- Create the canonical table definitions that everything else will use.
+
+Reference sections in `README.md`
+- `Best-Practice Data Architecture`
+- `Canonical schemas to implement`
+
+Files in scope
+- `src/data/data_contracts.py`
+- `docs/data_layout.md`
+- `data/README.md`
+- `data/raw/README.md`
+- `data/raw/universe/README.md`
+- `data/interim/README.md`
+- `data/final/README.md`
+- `data/embeddings/README.md`
+- `data/kb/README.md`
+- `data/manifests/README.md`
+- `tests/test_data_contracts.py`
+
+Execution order inside Stage 2
+
+2.1 - Implement `src/data/data_contracts.py`
+- Define canonical table names and per-table required columns.
+- Include at least these tables immediately:
+  - raw market requests ledger,
+  - interim prices,
+  - interim news articles,
+  - split events,
+  - adjusted prices,
+  - embeddings,
+  - event states,
+  - company KB,
+  - labels,
+  - final modeling panel.
+- For each table define:
+  - key columns,
+  - required columns,
+  - optional columns,
+  - expected dtypes,
+  - nullable rules,
+  - uniqueness constraints,
+  - partition recommendations.
+
+2.2 - Add validation helpers
+- Required behaviors:
+  - validate required columns,
+  - reject unknown missing keys,
+  - assert key uniqueness for final tables,
+  - optionally coerce types in a controlled way,
+  - produce readable error messages.
+
+2.3 - Expand `docs/data_layout.md`
+- Translate code contracts into prose.
+- Document file naming conventions and partitioning strategy.
+- Add notes about Parquet, Arrow, DuckDB, and Polars roles.
+
+2.4 - Update `data/**/README.md`
+- Keep these files aligned with the real schemas once contracts exist.
+- Use them to document exactly what belongs in each layer.
+
+2.5 - Implement `tests/test_data_contracts.py`
+- First real test suite to build.
+- Include tests for:
+  - missing required columns,
+  - accepted optional columns,
+  - uniqueness of `(ticker, date)` where required,
+  - schema version presence in manifests.
+
+Stage 2 exit criteria
+- Every future pipeline module can import one canonical schema source.
+- A malformed dataset can be rejected before it contaminates downstream stages.
+
+Tests to run after Stage 2
+- `pytest tests/test_data_contracts.py -q`
+- `python -m compileall src`
+
+Additional trap tests
+- Type drift between raw parsers and contracts.
+- Silent acceptance of missing columns in final tables.
+- Confusing optional-vs-required semantics across interim and final layers.
+
+Revisit conditions
+- Reopen whenever any new canonical table is introduced or a major column contract changes.
+
+================================================================================
+STAGE 3 - UNIVERSE HANDLING AND PROVIDER CLIENT HARDENING
+================================================================================
+
+Goal
+- Make provider access stable enough that ingestion pipelines can be built confidently.
+
+Reference sections in `README.md`
+- `Verified Current Project Context`
+- `Data Sources and What Each Should Contribute`
+- especially `Market Data Source: Twelve Data`, `News Source: Finnhub`, and `SEC / Company Knowledge Base`.
+
+Files in scope
+- `src/data/universe_builder.py`
+- `src/data/twelve_data_client.py`
+- `src/data/finnhub_client.py`
+- `src/data/sec_edgar_client.py`
+- `src/data/split_events_client.py`
+- `data/raw/universe/README.md`
+
+Execution order inside Stage 3
+
+3.1 - Implement `src/data/universe_builder.py`
+- Add functions to:
+  - load the main universe snapshot,
+  - validate ticker uniqueness,
+  - normalize tickers without breaking dot tickers,
+  - write pilot subsets,
+  - preserve snapshot metadata.
+- Required special handling:
+  - `BRK.B`, `BF.B`, and any future dot tickers.
+- Add survivorship-bias warning output when using a latest snapshot historically.
+
+3.2 - Harden `src/data/twelve_data_client.py`
+- Current code already supports daily `time_series` access and parsing.
+- Before building the full pipeline, add if missing:
+  - tighter payload validation,
+  - optional request metadata normalization into a ledger-ready structure,
+  - response diagnostics for missing `values`,
+  - robust handling of empty but valid responses,
+  - clear symbol normalization policy.
+- Do not add split logic here.
+
+3.3 - Harden `src/data/finnhub_client.py`
+- Current code already supports `company-news` fetch and normalization.
+- Add if missing:
+  - explicit chunk-boundary helper,
+  - handling for articles missing summary/image/category,
+  - stable URL and provider ID normalization,
+  - helper for converting returned article timestamps to dates.
+
+3.4 - Harden `src/data/sec_edgar_client.py`
+- Current code already supports submissions fetch and metadata extraction.
+- Add if missing:
+  - stricter metadata extraction for addresses and former names,
+  - helper to emit a ticker/CIK/exchange mapping table,
+  - handling for issuers with multiple tickers or exchanges.
+
+3.5 - Implement `src/data/split_events_client.py`
+- This file is critical before corporate-action logic is written.
+- Implement an interface, not just a concrete provider:
+  - provider selection,
+  - canonical split-factor normalization,
+  - source metadata,
+  - validation against known split dates.
+- This module should support at least:
+  - future upgraded Twelve Data split endpoint access,
+  - one fallback external split source.
+
+Stage 3 exit criteria
+- You can reliably fetch pilot price history, pilot news, and pilot SEC metadata.
+- Provider clients return canonical parsed structures, not just raw JSON.
+- Split-event access strategy is decided enough to proceed into adjusted-price work.
+
+Tests to run after Stage 3
+- Client smoke scripts against a tiny pilot subset only.
+- `python -m compileall src`
+- Dot-ticker smoke checks.
+
+Additional trap tests
+- Test `BRK.B` and `BF.B` specifically through every client path that should support them.
+- Test empty-news date ranges from Finnhub.
+- Test one SEC issuer with richer metadata and one with sparse metadata.
+- Test that provider errors are surfaced readably and do not return malformed partial results.
+
+Revisit conditions
+- Reopen whenever a new provider is added, response shapes drift, or rate-limit behavior changes.
+
+================================================================================
+STAGE 4 - RAW MARKET INGESTION AND INCREMENTAL UPDATE PIPELINE
+================================================================================
+
+Goal
+- Build a reliable and traceable raw market-data ingestion workflow for Twelve Data Basic constraints.
+
+Reference sections in `README.md`
+- `Market Data Source: Twelve Data`
+- `Best-Practice Data Architecture`
+- `Incremental update strategy`
+- `Must-Do Now`
+
+Files in scope
+- `src/data/incremental_updates.py`
+- `src/data/quality_checks.py`
+- `src/data/price_pipeline.py`
+- `src/cli/build_market_data.py`
+- `configs/dataset_build.yaml`
+- `configs/data_sources.yaml`
+- `data/raw/README.md`
+- `data/interim/README.md`
+
+Execution order inside Stage 4
+
+4.1 - Implement `src/data/incremental_updates.py`
+- Add functions for:
+  - reading latest local date per ticker,
+  - determining missing date windows,
+  - repair-window scheduling,
+  - pilot-subset refresh.
+- This module must respect the Twelve Data Basic plan constraints documented in `README.md`.
+
+4.2 - Implement `src/data/quality_checks.py`
+- Add early quality checks for raw and normalized prices:
+  - duplicate rows,
+  - date sorting,
+  - large gaps,
+  - malformed values,
+  - suspicious price jumps,
+  - symbol-level coverage stats.
+
+4.3 - Implement `src/data/price_pipeline.py`
+- Required responsibilities:
+  - call `TwelveDataClient`,
+  - preserve raw JSON dumps,
+  - write request ledgers,
+  - normalize price rows into interim tables,
+  - trigger quality checks,
+  - produce coverage summaries.
+- Store raw and normalized layers separately.
+- Do not mix split adjustment into this stage yet.
+
+4.4 - Implement `src/cli/build_market_data.py`
+- Wire together:
+  - config loading,
+  - universe loading,
+  - incremental update logic,
+  - raw download,
+  - normalization,
+  - quality checks,
+  - manifest writing.
+
+4.5 - Refine `configs/dataset_build.yaml`
+- Add actual build flags for:
+  - pilot vs full universe,
+  - force refresh,
+  - repair windows,
+  - max symbols per run for quota safety.
+
+Stage 4 exit criteria
+- A pilot market-data run can:
+  - fetch data,
+  - save immutable raw dumps,
+  - normalize to interim schema,
+  - produce a ledger,
+  - rerun safely without silent duplication.
+
+Tests to run after Stage 4
+- `pytest tests/test_data_contracts.py -q`
+- add temporary smoke assertions around one pilot ticker with known history
+- `python -m src.cli.build_market_data ...` on a tiny pilot set once CLI is wired
+
+Additional trap tests
+- Missing or partially returned `values` list from Twelve Data.
+- Raw response order differences.
+- Duplicate downloads appended twice.
+- Date parsing shifts due to timezone assumptions.
+- Repeated re-download of unchanged data creating duplicate interim rows.
+
+Revisit conditions
+- Reopen after split handling is implemented, because normalized prices may need extra metadata to support raw-vs-adjusted comparisons.
+
+================================================================================
+STAGE 5 - SPLIT EVENT SOURCING AND CORPORATE ACTION ADJUSTMENT
+================================================================================
+
+Goal
+- Solve the most dangerous current scientific blocker: split handling.
+
+Reference sections in `README.md`
+- `Split / Corporate Action Handling`
+- `Current project risk`
+- `Highest-Risk Unresolved Issues`
+
+Files in scope
+- `src/data/split_events_client.py`
+- `src/data/corporate_actions.py`
+- `src/data/price_pipeline.py`
+- `tests/test_corporate_actions.py`
+- `docs/data_layout.md`
+- `README.md`
+
+Execution order inside Stage 5
+
+5.1 - Finalize split-source strategy
+- Decide whether split events come from:
+  - upgraded Twelve Data access,
+  - a secondary provider,
+  - or an audited local import process.
+- Explicitly record the choice in `README.md` and `docs/data_layout.md`.
+
+5.2 - Implement `src/data/split_events_client.py`
+- Required behaviors:
+  - fetch split history,
+  - normalize all split factors to one canonical direction,
+  - preserve raw source metadata,
+  - expose split rows for downstream adjustment logic.
+
+5.3 - Implement `src/data/corporate_actions.py`
+- Required behaviors:
+  - compute cumulative future split factors,
+  - back-adjust `open/high/low/close` by division,
+  - back-adjust `volume` by multiplication,
+  - emit both raw and adjusted outputs,
+  - emit validation diagnostics.
+- Keep the math traceable and testable.
+
+5.4 - Extend `src/data/price_pipeline.py`
+- Add a separate adjusted-price branch.
+- Do not overwrite raw or normalized unadjusted prices.
+- Ensure clear naming, such as raw-vs-adjusted table paths or columns.
+
+5.5 - Implement `tests/test_corporate_actions.py`
+- Must include:
+  - known split-date unit tests,
+  - cumulative-factor tests,
+  - price-direction tests,
+  - volume-direction tests,
+  - mitigation-path tests for missing split data.
+
+Stage 5 exit criteria
+- Adjusted prices exist and are auditable.
+- Known split windows no longer show mechanical false moves in adjusted series.
+- Raw prices remain preserved for sensitivity analysis.
+
+Tests to run after Stage 5
+- `pytest tests/test_corporate_actions.py -q`
+- manual audit of several known split windows described in `README.md`
+- outlier-return audit before vs after adjustment
+
+Additional trap tests
+- Wrong split-factor direction.
+- Applying split adjustment on or after the split date instead of only before.
+- Forgetting volume adjustment.
+- Mixing split-only and dividend-adjusted assumptions without documentation.
+
+Revisit conditions
+- Reopen if provider split semantics change or if a later factor-neutral label design requires additional adjustment metadata.
+
+================================================================================
+STAGE 6 - NEWS INGESTION, TEXT PREPARATION, AND CANONICAL ARTICLE TABLES
+================================================================================
+
+Goal
+- Build a trustworthy news pipeline before embeddings or event states are attempted.
+
+Reference sections in `README.md`
+- `News Source: Finnhub`
+- `News Processing and Event-State Modeling`
+- `EOD cutoff rule`
+
+Files in scope
+- `src/data/news_pipeline.py`
+- `src/features/news_text.py`
+- `src/utils/hashing.py`
+- `src/utils/time_and_calendars.py`
+- `src/data/quality_checks.py`
+- `src/cli/build_news_data.py`
+- `tests/test_alignment.py`
+- `tests/test_leakage.py`
+
+Execution order inside Stage 6
+
+6.1 - Implement `src/utils/time_and_calendars.py`
+- This must happen before alignment-sensitive logic.
+- Required functions:
+  - UTC normalization,
+  - market-close timestamp construction for the chosen exchange calendar,
+  - next-trading-day rollover,
+  - calendar-aware date shifts.
+
+6.2 - Implement `src/features/news_text.py`
+- Required behaviors:
+  - choose headline-only vs headline-plus-summary text,
+  - normalize whitespace and preserve financial meaning,
+  - define exact string used for embedding and hashing.
+
+6.3 - Implement `src/utils/hashing.py`
+- Required behaviors:
+  - stable text hashing,
+  - deterministic normalization before hashing,
+  - reusable duplicate-detection helpers.
+
+6.4 - Implement `src/data/news_pipeline.py`
+- Required responsibilities:
+  - fetch raw Finnhub payloads,
+  - preserve raw dumps,
+  - normalize canonical article fields,
+  - deduplicate by URL first and hash fallback second,
+  - emit per-run quality reports.
+- Important: separate raw payload preservation from cleaned canonical article tables.
+
+6.5 - Implement `src/cli/build_news_data.py`
+- Wire config loading, provider client, chunk scheduling, normalization, and report generation.
+
+6.6 - Implement first alignment utilities in `src/split/alignment_rules.py`
+- Required behaviors:
+  - after-hours article rollover,
+  - strict as-of-close mapping,
+  - reusable helpers for dataset building.
+
+6.7 - Implement first tests in `tests/test_alignment.py`
+- Test UTC normalization,
+- after-hours rollover,
+- same-day cutoff behavior,
+- missing-news day handling.
+
+Stage 6 exit criteria
+- Canonical article tables exist for a pilot subset.
+- Deduplication is measurable and reproducible.
+- Articles are timestamp-normalized and alignment-ready.
+
+Tests to run after Stage 6
+- `pytest tests/test_alignment.py -q`
+- manual article audit for a small pilot date range
+- duplicate-rate report on one or more pilot symbols
+
+Additional trap tests
+- Duplicate URLs with slightly different text.
+- Missing summaries creating hash drift.
+- DST boundary handling.
+- Mis-assignment of after-hours articles to the same day.
+
+Revisit conditions
+- Reopen if mainstream raw-news sources are added later, because source-aware normalization rules will expand.
+
+================================================================================
+STAGE 7 - SEC KNOWLEDGE BASE AND UNIVERSE ENRICHMENT
+================================================================================
+
+Goal
+- Build the company identity layer without yet overcommitting to a time-varying profile branch.
+
+Reference sections in `README.md`
+- `SEC / Company Knowledge Base`
+- `Company Knowledge Base / Profile Branch`
+
+Files in scope
+- `src/data/company_kb_pipeline.py`
+- `src/data/universe_builder.py`
+- `src/data/sec_edgar_client.py`
+- `data/kb/README.md`
+- `docs/architecture_overview.md`
+
+Execution order inside Stage 7
+
+7.1 - Extend `src/data/universe_builder.py`
+- Add optional enrichment hooks for:
+  - exchange,
+  - sector,
+  - CIK mapping.
+
+7.2 - Implement `src/data/company_kb_pipeline.py`
+- Required first-pass outputs:
+  - ticker-to-CIK mapping,
+  - canonical company identity table,
+  - optional alias table.
+- Keep this phase static-metadata-only unless a strong reason appears.
+
+7.3 - Implement `src/cli/build_company_kb.py`
+- Wire config loading, SEC client, metadata extraction, and manifest writing.
+
+7.4 - Update `data/kb/README.md`
+- Document actual tables and optional-vs-required KB outputs.
+
+Stage 7 exit criteria
+- Company identity metadata can be joined safely to the universe.
+- The KB is useful immediately for metadata and future entity-linking expansion.
+
+Tests to run after Stage 7
+- data-contract tests for KB tables
+- manual spot-check of pilot firms: ticker, CIK, name, exchange, SIC
+
+Additional trap tests
+- Multiple tickers or exchange entries for one SEC entity.
+- Missing `formerNames` or address structures.
+- Confusing static metadata with time-varying descriptive information.
+
+Revisit conditions
+- Reopen if a time-varying profile branch or raw mainstream-news entity linker is later introduced.
+
+================================================================================
+STAGE 8 - MARKET FEATURES AND LABELS
+================================================================================
+
+Goal
+- Build the market branch and target system only after adjusted prices are trustworthy.
+
+Reference sections in `README.md`
+- `Market Feature Branch`
+- `Labels and Multi-Horizon Tasks`
+- `Current project risk`
+
+Files in scope
+- `src/features/market_features.py`
+- `src/features/labels.py`
+- `configs/features.yaml`
+- `configs/labels.yaml`
+- `tests/test_labels.py`
+- `tests/test_leakage.py`
+
+Execution order inside Stage 8
+
+8.1 - Implement `src/features/market_features.py`
+- First-pass feature set should be conservative and exactly match README guidance:
+  - simple returns,
+  - log returns,
+  - rolling volatility,
+  - momentum,
+  - intraday range proxies,
+  - volume features,
+  - benchmark-relative features.
+- Keep technical indicators off by default.
+- Enforce strict use of past-only windows.
+
+8.2 - Implement `src/features/labels.py`
+- Required first-pass targets:
+  - forward return by horizon,
+  - forward excess return by horizon,
+  - direction labels,
+  - downside labels.
+- If abnormal-return logic is added, do it behind an explicit option.
+- Keep labels completely separate from feature creation.
+
+8.3 - Expand `tests/test_labels.py`
+- Test horizon correctness,
+- adjusted-price usage,
+- end-of-series missing horizon behavior,
+- direction and downside label behavior,
+- benchmark alignment if excess returns are used.
+
+8.4 - Expand `tests/test_leakage.py`
+- Add explicit assertions that feature windows and label horizons do not mix future information.
+
+Stage 8 exit criteria
+- Market features and labels are produced from adjusted prices.
+- No label can be built without the exact feature-date cutoff logic.
+
+Tests to run after Stage 8
+- `pytest tests/test_labels.py tests/test_leakage.py -q`
+- manual audit of label rows around known split dates
+
+Additional trap tests
+- Accidentally using unadjusted prices for labels while using adjusted prices for features.
+- Off-by-one horizon errors.
+- Mixing calendar days with trading days.
+- Silent alignment drift between stock and benchmark returns.
+
+Revisit conditions
+- Reopen when factor-neutralized or abnormal-return labels are added.
+
+================================================================================
+STAGE 9 - ARTICLE EMBEDDINGS AND EVENT-STATE AGGREGATION
+================================================================================
+
+Goal
+- Implement the text representation branch as an offline preprocessing system.
+
+Reference sections in `README.md`
+- `News Processing and Event-State Modeling`
+- `Embedding strategy`
+- `Event-state pooling`
+- `GPU / CUDA / Efficient Training Design`
+
+Files in scope
+- `src/features/news_embeddings.py`
+- `src/features/event_state.py`
+- `src/features/news_text.py`
+- `src/utils/hashing.py`
+- `src/utils/time_and_calendars.py`
+- `data/embeddings/README.md`
+- `tests/test_event_state.py`
+
+Execution order inside Stage 9
+
+9.1 - Implement `src/features/news_embeddings.py`
+- Required first-pass behaviors:
+  - load embedding model from config,
+  - build canonical text using `news_text.py`,
+  - batch articles efficiently,
+  - optionally use GPU,
+  - store embeddings with model ID, text hash, and dimension,
+  - skip re-embedding unchanged rows.
+- Do not put embeddings inside training-time dataloaders.
+
+9.2 - Implement `src/features/event_state.py`
+- Required first-pass behaviors:
+  - strict as-of-close selection,
+  - lookback-window aggregation,
+  - recency weighting,
+  - no-news fallback,
+  - scalar metadata such as count/density,
+  - optional novelty/conflict once baseline aggregation is verified.
+- Keep the first version simple and explainable.
+
+9.3 - Expand `tests/test_event_state.py`
+- Test lookback-window boundaries,
+- recency weighting,
+- same-day post-close exclusion,
+- caching stability,
+- no-news behavior.
+
+Stage 9 exit criteria
+- Article embeddings can be built offline and reused.
+- Event states can be computed per ticker/date without training-time text encoding.
+
+Tests to run after Stage 9
+- `pytest tests/test_event_state.py tests/test_alignment.py -q`
+- manual audit of one ticker/date event-state composition
+
+Additional trap tests
+- Embedding-cache invalidation failure when text changes.
+- Using summary text inconsistently across runs.
+- Including post-close articles in same-day event state.
+- Hidden dependence on article order inside aggregation.
+
+Revisit conditions
+- Reopen when experimenting with attention pooling, different embedding models, or sentiment-only baselines.
+
+================================================================================
+STAGE 10 - FINAL MODELING DATASET ASSEMBLY
+================================================================================
+
+Goal
+- Merge all branches into frozen, model-ready datasets keyed by `(ticker, date)`.
+
+Reference sections in `README.md`
+- `Best-Practice Data Architecture`
+- `Final`
+- `Current Implemented Components`
+
+Files in scope
+- `src/data/modeling_dataset.py`
+- `src/cli/build_modeling_dataset.py`
+- `data/final/README.md`
+- `data/manifests/README.md`
+- `tests/test_data_contracts.py`
+
+Execution order inside Stage 10
+
+10.1 - Implement `src/data/modeling_dataset.py`
+- Required behaviors:
+  - join adjusted prices, market features, labels, event states, and optional profile features,
+  - enforce one row per `(ticker, date)`,
+  - preserve debugging metadata,
+  - emit final panel parquet and manifest.
+
+10.2 - Implement `src/cli/build_modeling_dataset.py`
+- Wire together all upstream outputs.
+- Fail fast if any required upstream table is missing or schema-invalid.
+
+10.3 - Update `data/final/README.md` and `data/manifests/README.md`
+- Document actual final-table names and manifest contents.
+
+Stage 10 exit criteria
+- A frozen pilot final panel exists and can be consumed by the modeling layer without extra ad hoc joins.
+
+Tests to run after Stage 10
+- `pytest tests/test_data_contracts.py -q`
+- manual uniqueness check on `(ticker, date)`
+- manifest existence check for final dataset version
+
+Additional trap tests
+- Duplicate rows after joins.
+- Missing labels caused by branch-specific availability mismatches.
+- Loss of row identifiers needed for downstream debugging.
+- Silent implicit inner joins that remove too many rows.
+
+Revisit conditions
+- Reopen if any new feature branch is added or if training reveals missing metadata columns.
+
+================================================================================
+STAGE 11 - TEMPORAL VALIDATION, PURGE, EMBARGO, AND LEAKAGE HARDENING
+================================================================================
+
+Goal
+- Build the evaluation-time defenses before model training begins.
+
+Reference sections in `README.md`
+- `Evaluation, Validation, and Ablations`
+- `Common Failure Modes to Prioritize Against`
+- `Highest priority risks`
+
+Files in scope
+- `src/split/walk_forward_splits.py`
+- `src/split/purged_embargo_splits.py`
+- `src/split/alignment_rules.py`
+- `src/split/leakage_checks.py`
+- `tests/test_alignment.py`
+- `tests/test_leakage.py`
+- `tests/test_walk_forward.py`
+- `docs/evaluation_protocol.md`
+
+Execution order inside Stage 11
+
+11.1 - Finish `src/split/alignment_rules.py`
+- Make this the single source of truth for date/cutoff logic.
+
+11.2 - Implement `src/split/walk_forward_splits.py`
+- Support expanding-window folds first.
+- Add validation slices if needed.
+
+11.3 - Implement `src/split/purged_embargo_splits.py`
+- Use actual label horizons.
+- Make purge logic horizon-aware and explicit.
+
+11.4 - Implement `src/split/leakage_checks.py`
+- Provide reusable assertions and diagnostics that can run in CI.
+
+11.5 - Expand tests
+- `tests/test_alignment.py`
+- `tests/test_leakage.py`
+- `tests/test_walk_forward.py`
+
+11.6 - Expand `docs/evaluation_protocol.md`
+- Document the final temporal evaluation protocol in prose once code is stable.
+
+Stage 11 exit criteria
+- No training starts until temporal split generation and leakage checks pass.
+
+Tests to run after Stage 11
+- `pytest tests/test_alignment.py tests/test_leakage.py tests/test_walk_forward.py -q`
+
+Additional trap tests
+- Fold overlap due to horizon miscalculation.
+- Embargo applied in calendar days instead of trading days when that is wrong for the chosen logic.
+- Alignment logic duplicated elsewhere instead of using `alignment_rules.py`.
+
+Revisit conditions
+- Reopen if horizons change, label definitions change, or the company-profile branch becomes time-varying.
+
+================================================================================
+STAGE 12 - MARKET-ONLY BASELINES
+================================================================================
+
+Goal
+- Establish trustworthy baselines before touching multimodal model complexity.
+
+Reference sections in `README.md`
+- `Must-do baseline models`
+- `Recommended first main model`
+- `Baselines before multimodal complexity` implied throughout the design.
+
+Files in scope
+- `src/models/baseline_models.py`
+- `src/models/loss_functions.py`
+- `src/models/dataloaders.py`
+- `src/models/trainer.py`
+- `src/models/inference.py`
+- `src/cli/train_market_baseline.py`
+- `artifacts/checkpoints/README.md`
+- `runs/README.md`
+
+Execution order inside Stage 12
+
+12.1 - Implement `src/models/baseline_models.py`
+- Start with:
+  - ridge,
+  - elastic net,
+  - market-only MLP.
+- Keep interfaces consistent.
+
+12.2 - Implement `src/models/loss_functions.py`
+- First losses:
+  - regression loss,
+  - weighted multi-horizon loss.
+- Add robust losses only if needed.
+
+12.3 - Implement `src/models/dataloaders.py`
+- Build final-panel dataset objects.
+- Preserve row IDs for inference/debugging.
+
+12.4 - Implement `src/models/trainer.py`
+- Add plain PyTorch training loop with:
+  - config-driven construction,
+  - optimizer,
+  - checkpointing,
+  - logging,
+  - resolved-config saving.
+
+12.5 - Implement `src/models/inference.py`
+- Export predictions in joinable table form.
+
+12.6 - Implement `src/cli/train_market_baseline.py`
+- Wire the above pieces with the split utilities.
+
+Stage 12 exit criteria
+- A market-only baseline can train on the pilot final panel and produce saved predictions plus metrics per fold.
+
+Tests to run after Stage 12
+- smoke training on a tiny pilot dataset
+- import and checkpoint round-trip test
+- deterministic seed smoke test
+
+Additional trap tests
+- Baseline and multimodal runs accidentally using different folds or filters.
+- Feature scaling fit on validation/test data.
+- Predictions exported without row identifiers.
+
+Revisit conditions
+- Reopen when classification heads or abnormal-return targets are added.
+
+================================================================================
+STAGE 13 - MULTIMODAL MODEL FIRST PASS
+================================================================================
+
+Goal
+- Add the event-state branch with minimal complexity and maximum interpretability.
+
+Reference sections in `README.md`
+- `Must-do main multimodal model`
+- `Strongly recommended extension`
+- `Optional ambitious extension`
+
+Files in scope
+- `src/models/multimodal_models.py`
+- `src/models/dataloaders.py`
+- `src/models/loss_functions.py`
+- `src/models/trainer.py`
+- `src/cli/train_multimodal_model.py`
+- `configs/model_multimodal.yaml`
+
+Execution order inside Stage 13
+
+13.1 - Implement `src/models/multimodal_models.py`
+- First architecture only:
+  - market encoder,
+  - event-state encoder,
+  - concat-with-gating fusion,
+  - multi-horizon regression head,
+  - optional classification head only if already needed.
+- Keep branch toggles clean.
+
+13.2 - Extend `src/models/dataloaders.py`
+- Support optional event-state and company-profile branches without breaking baseline compatibility.
+
+13.3 - Extend `src/models/trainer.py`
+- Support multimodal batch structure and branch-specific logging.
+
+13.4 - Implement `src/cli/train_multimodal_model.py`
+- Use the exact same split logic as the baseline.
+
+Stage 13 exit criteria
+- Multimodal training runs on the same frozen dataset and same folds as the baseline.
+
+Tests to run after Stage 13
+- forward-pass smoke test,
+- batch schema test,
+- small overfit test on a tiny subset,
+- prediction export parity test with baseline format.
+
+Additional trap tests
+- Event-state branch silently missing for some rows without mask handling.
+- Different folds than baseline.
+- On-the-fly text encoding accidentally entering the training loop.
+
+Revisit conditions
+- Reopen when static company-profile branch is added or uncertainty heads are introduced.
+
+================================================================================
+STAGE 14 - METRICS, CALIBRATION, STATISTICAL TESTS, AND ABLATIONS
+================================================================================
+
+Goal
+- Make results comparable, auditable, and thesis-ready.
+
+Reference sections in `README.md`
+- `Evaluation, Validation, and Ablations`
+- `Core ablations`
+- `Common Failure Modes to Prioritize Against`
+
+Files in scope
+- `src/models/metric_registry.py`
+- `src/models/calibration.py`
+- `src/models/statistical_tests.py`
+- `src/models/ablation_runner.py`
+- `src/cli/evaluate_experiments.py`
+- `src/cli/run_ablations.py`
+- `artifacts/figures/README.md`
+- `artifacts/tables/README.md`
+- `reports/README.md`
+
+Execution order inside Stage 14
+
+14.1 - Implement `src/models/metric_registry.py`
+- Add regression metrics first,
+- then classification,
+- then ranking.
+- Keep NaN handling explicit.
+
+14.2 - Implement `src/models/statistical_tests.py`
+- Add bootstrap and confidence intervals first.
+- Add Diebold-Mariano-style comparison only after prediction arrays and loss-differential structure are settled.
+
+14.3 - Implement `src/models/calibration.py`
+- Keep optional.
+- Only activate once probability outputs exist.
+
+14.4 - Implement `src/models/ablation_runner.py`
+- Must guarantee same folds, same data version, and same evaluation rules across ablations.
+
+14.5 - Implement `src/cli/evaluate_experiments.py`
+- Generate machine-readable outputs first,
+- then human-readable reports,
+- then figures/tables.
+
+14.6 - Implement `src/cli/run_ablations.py`
+- Ensure one-change-at-a-time comparisons.
+
+Stage 14 exit criteria
+- Baseline vs multimodal can be compared on stored predictions with consistent metrics and documented uncertainty.
+
+Tests to run after Stage 14
+- metric unit tests once implemented
+- compare identical prediction arrays and verify expected metric equality
+- ablation reproducibility smoke test
+
+Additional trap tests
+- Comparing models trained on different sample sets.
+- Ranking metrics accidentally computed globally instead of per-date cross section.
+- Calibration fit on test data.
+- Statistical significance overstated for exploratory results.
+
+Revisit conditions
+- Reopen if new output heads are added or evaluation policy changes.
+
+================================================================================
+STAGE 15 - DOCUMENTATION HARDENING AND RESEARCH REPORTING SUPPORT
+================================================================================
+
+Goal
+- Make the repository self-explanatory and thesis-safe.
+
+Reference sections in `README.md`
+- all major sections, especially:
+  - `Verified Current Project Context`
+  - `Best-Practice Data Architecture`
+  - `Split / Corporate Action Handling`
+  - `News Processing and Event-State Modeling`
+  - `Evaluation, Validation, and Ablations`
+  - `Roadmap`
+
+Files in scope
+- `README.md`
+- `docs/architecture_overview.md`
+- `docs/data_layout.md`
+- `docs/evaluation_protocol.md`
+- `docs/implementation_roadmap.md`
+- `artifacts/README.md`
+- `artifacts/checkpoints/README.md`
+- `artifacts/figures/README.md`
+- `artifacts/tables/README.md`
+- `runs/README.md`
+- `reports/README.md`
+- `notebooks/README.md`
+- `Complete_guidebook.txt`
+- `project_extra_data.txt`
+- `execution_plan.txt`
+
+Execution order inside Stage 15
+
+15.1 - Update `README.md`
+- Every time a formerly blueprint-only subsystem becomes real, update `README.md` so it stays consistent with actual code.
+- Add citations or references to real implementation modules where useful.
+- Most important trigger points:
+  - when split handling becomes real,
+  - when final panel schemas are finalized,
+  - when baseline and multimodal result workflows exist,
+  - when additional provider assumptions are verified manually.
+
+15.2 - Expand `docs/architecture_overview.md`
+- Convert architecture from blueprint text into an actual design document.
+
+15.3 - Expand `docs/data_layout.md`
+- Replace future-tense descriptions with actual storage conventions.
+
+15.4 - Expand `docs/evaluation_protocol.md`
+- Replace blueprint with exact fold, purge, embargo, and reporting rules.
+
+15.5 - Expand `docs/implementation_roadmap.md`
+- Convert it into a retrospective plus remaining roadmap.
+
+15.6 - Update the storage-guide READMEs
+- Ensure they describe actual artifacts, not just intended ones.
+
+15.7 - Update `Complete_guidebook.txt`
+- Regenerate after any major file additions or role changes.
+
+15.8 - Update `project_extra_data.txt` only if maintaining a conversation archive is still useful.
+
+15.9 - Update `execution_plan.txt`
+- Mark stages as completed,
+- add deviations from original plan,
+- capture newly discovered traps.
+
+Stage 15 exit criteria
+- A new collaborator can understand the project without reverse-engineering the code.
+
+Tests to run after Stage 15
+- no special code tests,
+- but do a human consistency pass:
+  - do docs match code?
+  - do configs match runtime behavior?
+  - do README claims match actual implemented capabilities?
+
+Additional trap tests
+- Docs that still describe future behavior after code has changed.
+- README claiming split safety before the corporate-actions stage is truly complete.
+- Guide files drifting away from real output names and locations.
+
+Revisit conditions
+- Reopen every time architecture or scope changes.
+
+================================================================================
+SPECIAL NOTES ON FILES THAT ARE SUPPORTING, NOT PRIMARY EXECUTION TARGETS
+================================================================================
+
+These files should be updated as side effects of major stages rather than built first:
+
+`LICENSE`
+- No action unless licensing changes.
+
+`Complete_guidebook.txt`
+- Update after major structural changes or file additions.
+
+`project_extra_data.txt`
+- Low priority for core system execution.
+- Update only if maintaining conversation context as a repository artifact remains useful.
+
+`artifacts/**/*.README.md`, `runs/README.md`, `reports/README.md`, `notebooks/README.md`
+- Update only when the corresponding directories begin holding real outputs.
+
+================================================================================
+MANDATORY TEST GATES BY STAGE
+================================================================================
+
+Gate A - Before any raw ingestion run
+- config loading succeeds,
+- path resolution works,
+- provider imports succeed.
+
+Gate B - Before any feature generation
+- data contracts exist,
+- normalized interim tables validate,
+- split handling for adjusted prices is implemented if labels depend on adjusted returns.
+
+Gate C - Before any label generation
+- split-adjustment tests pass,
+- alignment rules are implemented,
+- benchmark data alignment is understood.
+
+Gate D - Before any model training
+- final panel exists,
+- walk-forward and purge/embargo utilities exist,
+- leakage tests pass,
+- baseline folds and multimodal folds use the same row universe.
+
+Gate E - Before any reported result is trusted
+- predictions are saved and joinable,
+- evaluation uses out-of-sample slices only,
+- ablations are systematic,
+- documentation reflects actual behavior.
+
+================================================================================
+COMMON DEVELOPMENT TRAPS THAT REQUIRE EXTRA TESTING
+================================================================================
+
+Trap 1 - Dot ticker breakage
+- Test `BRK.B` and `BF.B` anywhere symbols are normalized, stored, requested, or joined.
+
+Trap 2 - Silent raw/interim/final schema drift
+- Add contract tests early.
+
+Trap 3 - Date-order assumptions
+- Test ascending and descending provider responses.
+
+Trap 4 - Rate-limit retry logic that duplicates data
+- Verify idempotence after forced retries.
+
+Trap 5 - Split-factor direction mistakes
+- Always unit-test known split windows.
+
+Trap 6 - After-hours article leakage
+- Test before/after market close on normal days and near holidays.
+
+Trap 7 - Summary text inconsistency in embedding cache
+- Hash exactly the text actually embedded.
+
+Trap 8 - Hidden train/test normalization leakage
+- Make scaler fit location testable and explicit.
+
+Trap 9 - Purge logic detached from actual horizon definitions
+- Derive purge windows from `configs/labels.yaml`, not ad hoc constants.
+
+Trap 10 - Baseline vs multimodal non-comparability
+- Same data version, same filters, same folds, same metrics.
+
+Trap 11 - Ranking metric misuse
+- Compute per-date cross-sectional metrics, not one global rank correlation.
+
+Trap 12 - Overbuilding too early
+- Do not add time-varying company profiles, attention pooling, or end-to-end text fine-tuning before the baseline pipeline is stable.
+
+================================================================================
+FILE-BY-FILE STAGE ASSIGNMENT SUMMARY
+================================================================================
+
+Root and meta files
+- `README.md` -> Stage 15, but consult at every stage
+- `.env.example` -> Stage 0, revisit Stage 1 and whenever runtime inputs change
+- `.gitignore` -> Stage 0, revisit whenever new generated outputs appear
+- `LICENSE` -> static
+- `Makefile` -> Stage 0, revisit after new CLI commands become real
+- `pyproject.toml` -> Stage 0, revisit whenever imports change
+- `requirements.txt` -> Stage 0, revisit whenever imports change
+- `Complete_guidebook.txt` -> Stage 15 maintenance
+- `project_extra_data.txt` -> low-priority maintenance
+- `execution_plan.txt` -> living plan, revisit after every major milestone
+
+Configs
+- `configs/project.yaml` -> Stage 1
+- `configs/data_sources.yaml` -> Stage 1 and revisit Stage 3/5
+- `configs/dataset_build.yaml` -> Stage 4 and Stage 10
+- `configs/features.yaml` -> Stage 8 and Stage 9
+- `configs/labels.yaml` -> Stage 8 and Stage 11
+- `configs/model_market_baseline.yaml` -> Stage 12
+- `configs/model_multimodal.yaml` -> Stage 13
+- `configs/training.yaml` -> Stage 12 and Stage 13
+- `configs/evaluation.yaml` -> Stage 11 and Stage 14
+
+Docs
+- `docs/architecture_overview.md` -> Stage 15, consult from Stage 2 onward
+- `docs/data_layout.md` -> Stage 2 and revisit Stage 10/15
+- `docs/evaluation_protocol.md` -> Stage 11 and Stage 15
+- `docs/implementation_roadmap.md` -> Stage 15
+
+Data guide files
+- `data/README.md` -> Stage 2
+- `data/raw/README.md` -> Stage 4
+- `data/raw/universe/README.md` -> Stage 3
+- `data/interim/README.md` -> Stage 4/6/7
+- `data/final/README.md` -> Stage 10
+- `data/embeddings/README.md` -> Stage 9
+- `data/kb/README.md` -> Stage 7
+- `data/manifests/README.md` -> Stage 2 and Stage 10
+
+Artifact/output guide files
+- `artifacts/README.md` -> Stage 15
+- `artifacts/checkpoints/README.md` -> Stage 12
+- `artifacts/figures/README.md` -> Stage 14
+- `artifacts/tables/README.md` -> Stage 14
+- `runs/README.md` -> Stage 12
+- `reports/README.md` -> Stage 14/15
+- `notebooks/README.md` -> Stage 15
+
+Source package markers
+- `src/__init__.py`, `src/cli/__init__.py`, `src/data/__init__.py`, `src/features/__init__.py`, `src/models/__init__.py`, `src/split/__init__.py`, `src/utils/__init__.py`, `tests/__init__.py` -> Stage 0, then leave minimal
+
+Utilities
+- `src/utils/paths.py` -> Stage 1
+- `src/utils/config_loader.py` -> Stage 1
+- `src/utils/logging_setup.py` -> Stage 1
+- `src/utils/io_utils.py` -> Stage 1
+- `src/utils/time_and_calendars.py` -> Stage 6
+- `src/utils/reproducibility.py` -> Stage 1, revisit Stage 12
+- `src/utils/hashing.py` -> Stage 6, revisit Stage 9
+
+Data layer
+- `src/data/data_contracts.py` -> Stage 2
+- `src/data/twelve_data_client.py` -> Stage 3
+- `src/data/finnhub_client.py` -> Stage 3
+- `src/data/sec_edgar_client.py` -> Stage 3
+- `src/data/split_events_client.py` -> Stage 3 then Stage 5
+- `src/data/universe_builder.py` -> Stage 3
+- `src/data/incremental_updates.py` -> Stage 4
+- `src/data/quality_checks.py` -> Stage 4 and revisit Stage 6
+- `src/data/price_pipeline.py` -> Stage 4 and revisit Stage 5
+- `src/data/news_pipeline.py` -> Stage 6
+- `src/data/company_kb_pipeline.py` -> Stage 7
+- `src/data/corporate_actions.py` -> Stage 5
+- `src/data/modeling_dataset.py` -> Stage 10
+
+CLI layer
+- `src/cli/build_market_data.py` -> Stage 4
+- `src/cli/build_news_data.py` -> Stage 6
+- `src/cli/build_company_kb.py` -> Stage 7
+- `src/cli/build_modeling_dataset.py` -> Stage 10
+- `src/cli/train_market_baseline.py` -> Stage 12
+- `src/cli/train_multimodal_model.py` -> Stage 13
+- `src/cli/evaluate_experiments.py` -> Stage 14
+- `src/cli/run_ablations.py` -> Stage 14
+
+Feature layer
+- `src/features/market_features.py` -> Stage 8
+- `src/features/news_text.py` -> Stage 6
+- `src/features/news_embeddings.py` -> Stage 9
+- `src/features/event_state.py` -> Stage 9
+- `src/features/company_profile_features.py` -> Stage 8 for static metadata, later revisit if dynamic profiles are added
+- `src/features/labels.py` -> Stage 8
+
+Split/leakage layer
+- `src/split/alignment_rules.py` -> Stage 6 then Stage 11
+- `src/split/leakage_checks.py` -> Stage 11
+- `src/split/walk_forward_splits.py` -> Stage 11
+- `src/split/purged_embargo_splits.py` -> Stage 11
+
+Model layer
+- `src/models/baseline_models.py` -> Stage 12
+- `src/models/loss_functions.py` -> Stage 12
+- `src/models/dataloaders.py` -> Stage 12
+- `src/models/trainer.py` -> Stage 12
+- `src/models/inference.py` -> Stage 12
+- `src/models/multimodal_models.py` -> Stage 13
+- `src/models/metric_registry.py` -> Stage 14
+- `src/models/calibration.py` -> Stage 14
+- `src/models/statistical_tests.py` -> Stage 14
+- `src/models/ablation_runner.py` -> Stage 14
+
+Tests
+- `tests/test_data_contracts.py` -> Stage 2
+- `tests/test_corporate_actions.py` -> Stage 5
+- `tests/test_alignment.py` -> Stage 6 and Stage 11
+- `tests/test_leakage.py` -> Stage 8 and Stage 11
+- `tests/test_labels.py` -> Stage 8
+- `tests/test_event_state.py` -> Stage 9
+- `tests/test_walk_forward.py` -> Stage 11
+
+================================================================================
+FINAL RECOMMENDED BUILD ORDER IN ONE LIST
+================================================================================
+
+1. Stage 0 - bootstrap and tooling
+2. Stage 1 - configuration and runtime foundation
+3. Stage 2 - data contracts and manifests
+4. Stage 3 - universe + provider clients
+5. Stage 4 - raw market ingestion
+6. Stage 5 - split events + corporate actions
+7. Stage 6 - news ingestion + text prep + alignment helpers
+8. Stage 7 - SEC knowledge base
+9. Stage 8 - market features + labels
+10. Stage 9 - embeddings + event state
+11. Stage 10 - final modeling datasets
+12. Stage 11 - walk-forward + purge/embargo + leakage hardening
+13. Stage 12 - market-only baselines
+14. Stage 13 - multimodal model
+15. Stage 14 - evaluation + statistical tests + ablations
+16. Stage 15 - documentation and maintenance hardening
+
+End of execution plan.

@@ -1,0 +1,21 @@
+# Market-baseline model configuration blueprint.
+#
+# This file should eventually define:
+# - simple linear baselines,
+# - tree baselines if desired,
+# - neural market-only baselines,
+# - input feature families,
+# - output heads per horizon,
+# - loss selection,
+# - regularization defaults.
+
+model_family: market_baseline
+candidate_models:
+  - ridge
+  - elastic_net
+  - market_mlp
+
+outputs:
+  horizons: [1, 5, 20, 60]
+  regression: true
+  classification: optional

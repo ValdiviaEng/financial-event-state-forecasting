@@ -1,0 +1,38 @@
+# Project-wide configuration.
+
+project_name: event-state-forecasting
+project_stage: implementation_started
+default_random_seed: 42
+default_device: cuda
+
+environment:
+  default_env_file: .env
+  fail_on_missing_required_env: true
+
+runtime:
+  create_base_directories_on_load: false
+  strict_schema_validation: true
+  strict_leakage_checks: true
+  required_config_files:
+    - project
+    - data_sources
+    - dataset_build
+    - features
+    - labels
+    - model_market_baseline
+    - model_multimodal
+    - training
+    - evaluation
+
+paths:
+  data_root: data
+  raw_root: data/raw
+  interim_root: data/interim
+  final_root: data/final
+  embeddings_root: data/embeddings
+  kb_root: data/kb
+  manifests_root: data/manifests
+  runs_root: runs
+  artifacts_root: artifacts
+  reports_root: reports
+  notebooks_root: notebooks

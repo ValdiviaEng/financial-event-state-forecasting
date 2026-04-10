@@ -1,0 +1,39 @@
+Deprecation manifest
+====================
+
+UTC timestamp: 20260402T115014Z
+Repository root: /home/berserker/1_Projects/AA/event-state-forecasting
+Snapshot path: deprecated_version/legacy_snapshot_20260402T115014Z
+
+Policy:
+- The entire current repository implementation is deprecated.
+- The root is being cleared for a true fresh start.
+- Only .git, deprecated_version/, and the new root summary file are intended to remain.
+- This snapshot is historical reference only, not the active source of truth.
+
+Top-level items moved:
+- .cache
+- .env
+- .env.example
+- .gitignore
+- .pytest_cache
+- .ruff_cache
+- Complete_guidebook.txt
+- ExecutionFlow.md
+- Expanded_Testing.md
+- LICENSE
+- Makefile
+- README.md
+- artifacts
+- configs
+- data
+- docs
+- execution_plan.txt
+- notebooks
+- project_extra_data.txt
+- pyproject.toml
+- reports
+- requirements.txt
+- runs
+- src
+- tests

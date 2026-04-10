@@ -1,0 +1,30 @@
+# Label configuration blueprint.
+#
+# This file should eventually define:
+# - primary regression targets,
+# - secondary classification targets,
+# - optional uncertainty targets,
+# - benchmark or factor-neutralization choices,
+# - adjusted-price requirements,
+# - missing-horizon policy,
+# - label availability filters.
+
+horizons:
+  - 1
+  - 5
+  - 20
+  - 60
+
+primary_target:
+  type: forward_excess_return
+  adjusted_prices_required: true
+  benchmark_symbol: SPY
+
+secondary_targets:
+  direction_label: true
+  downside_label: true
+  uncertainty_targets: false
+
+availability:
+  drop_rows_missing_primary_target: true
+  require_all_horizons: false

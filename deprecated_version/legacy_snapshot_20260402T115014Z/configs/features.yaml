@@ -1,0 +1,42 @@
+# Feature configuration blueprint.
+#
+# This file should eventually define:
+# - market feature families,
+# - benchmark-relative feature options,
+# - technical indicator inclusion policy,
+# - event-state lookback windows,
+# - embedding model identifiers,
+# - company-profile feature toggles,
+# - feature selection and ablation switches.
+
+market_features:
+  use_returns: true
+  use_log_returns: true
+  use_volatility: true
+  use_volume_features: true
+  use_benchmark_relative_features: true
+  use_technical_indicators: false
+  return_windows: [1, 5, 20]
+  volatility_windows: [5, 20]
+  momentum_windows: [5, 20, 60]
+  volume_windows: [5, 20]
+  benchmark_symbol: SPY
+
+news_features:
+  use_headline: true
+  use_summary: true
+  text_variant: headline_plus_summary
+  lookback_days: 20
+  decay_half_life_days: 5
+  include_density: true
+  include_novelty: true
+  include_conflict: true
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+
+company_features:
+  enabled: false
+  static_profile_only: true
+  include_sector: true
+  include_industry: true
+  include_exchange: true
+  include_sic: true

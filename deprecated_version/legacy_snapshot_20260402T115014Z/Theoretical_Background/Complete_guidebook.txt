@@ -1,0 +1,1390 @@
+COMPLETE GUIDEBOOK
+Project: event-state-forecasting
+
+Purpose
+- This file is a full human-readable map of the repository contents.
+- It documents where each project-maintained file lives, what it currently contains, and what its comments/docstrings say it is supposed to do.
+- The local `.env` file is intentionally excluded, as requested.
+
+Scope notes
+- Included: all human-maintained project files currently present in the repository, including `.env.example`.
+- Excluded by request: `.env`.
+- Excluded as system-managed/generated: `.git/**` internals and `__pycache__/**` bytecode caches. They are not authored project files and do not define project architecture.
+
+Legend
+- State: implemented = contains working code now.
+- State: blueprint = mostly comments/docstrings and structure, little or no business logic yet.
+- State: mixed = has some real logic but is still incomplete.
+
+================================================================================
+ROOT-LEVEL FILES
+================================================================================
+
+1) Path: `README.md`
+- State: mixed.
+- Current role: the main repository guide and high-level project specification.
+- What it currently contains:
+  - the project identity,
+  - the core research hypothesis,
+  - verified current context for Twelve Data, Finnhub, SEC KB, universe, and environment,
+  - the intended data architecture,
+  - split-handling requirements,
+  - event-state and feature design guidance,
+  - label, model, evaluation, and engineering plan guidance,
+  - installation steps and implementation roadmap.
+- What it is supposed to have according to its current content:
+  - a complete English summary of the thesis-grade project requirements,
+  - the research framing, methodological constraints, and implementation priorities,
+  - current implemented components and highest-risk unresolved issues.
+
+2) Path: `.env.example`
+- State: implemented reference template.
+- Current role: public template for private local environment configuration.
+- What it currently contains:
+  - required provider credentials:
+    - `TWELVE_DATA_API_KEY`
+    - `FINNHUB_API_KEY`
+    - `SEC_USER_AGENT`
+  - optional provider and service credentials:
+    - `SPLIT_EVENTS_API_KEY`
+    - `HF_TOKEN`
+    - `WANDB_API_KEY`
+  - project paths,
+  - runtime defaults,
+  - timezone and calendar defaults,
+  - data collection defaults,
+  - embedding/cache defaults,
+  - training and evaluation defaults,
+  - optional experiment-tracking defaults.
+- What it is supposed to have according to its comments:
+  - the exact local variables needed to run the pipeline,
+  - placeholders only,
+  - no real secrets,
+  - clear separation between secrets and YAML config.
+
+3) Path: `.gitignore`
+- State: implemented.
+- Current role: ignore local secrets, caches, generated datasets, artifacts, runs, and reports.
+- What it currently contains:
+  - Python cache and environment ignores,
+  - tooling caches,
+  - `.env`,
+  - notebook checkpoints,
+  - generated contents under `data/`, `artifacts/`, `runs/`, and `reports/`, while keeping nested `README.md` guide files tracked.
+- What it is supposed to do:
+  - keep sensitive and generated outputs out of version control,
+  - preserve scaffold documentation files for tracked directory structure.
+
+4) Path: `LICENSE`
+- State: implemented.
+- Current role: MIT license file.
+- What it currently contains:
+  - standard MIT license text with placeholder copyright holder.
+- What it is supposed to do:
+  - define the legal distribution terms for the repository.
+
+5) Path: `Makefile`
+- State: implemented.
+- Current role: convenience commands for setup and basic developer workflow.
+- What it currently contains:
+  - `install`
+  - `install-dev`
+  - `create-dirs`
+  - `lint`
+  - `format`
+  - `test`
+- What its comments say it is supposed to do:
+  - stay intentionally simple,
+  - support environment setup and directory creation,
+  - avoid pretending the full pipeline already exists.
+
+6) Path: `pyproject.toml`
+- State: implemented.
+- Current role: Python project metadata and dependency definition.
+- What it currently contains:
+  - build-system configuration,
+  - package metadata,
+  - base dependencies,
+  - optional dev dependencies,
+  - setuptools package discovery,
+  - Black, Ruff, pytest, and mypy configuration.
+- What it is supposed to do:
+  - define packaging metadata,
+  - expose the installable dependency set,
+  - centralize core tooling configuration.
+
+7) Path: `requirements.txt`
+- State: implemented.
+- Current role: direct install list for easy local environment setup.
+- What it currently contains:
+  - numerical/dataframe stack,
+  - HTML table parsing support via explicit `lxml`,
+  - API/config utilities,
+  - split-event fallback support via explicit `yfinance`,
+  - modeling/statistics stack including explicit `joblib`,
+  - text/embedding dependencies,
+  - feature-engineering dependency,
+  - development helpers,
+  - note about CUDA-specific PyTorch installation.
+- What it is supposed to do:
+  - allow quick installation with `pip install -r requirements.txt`.
+
+8) Path: `Complete_guidebook.txt`
+- State: implemented reference document.
+- Current role: this file.
+- What it contains:
+  - a complete file-by-file project map.
+
+9) Path: `project_extra_data.txt`
+- State: implemented reference document.
+- Current role: conversation archive.
+- What it is supposed to contain:
+  - the visible user/assistant conversation history so far.
+
+================================================================================
+CONFIGURATION FILES
+================================================================================
+
+10) Path: `configs/project.yaml`
+- State: implemented.
+- Current role: top-level project configuration.
+- What it currently contains:
+  - project name and stage,
+  - default seed and device,
+  - environment loading policy,
+  - runtime strictness flags,
+  - canonical path roots.
+- What it is supposed to do:
+  - define project-wide defaults and runtime policies.
+
+11) Path: `configs/data_sources.yaml`
+- State: implemented.
+- Current role: non-secret provider defaults.
+- What it currently contains:
+  - Twelve Data base URL and request defaults,
+  - Finnhub base URL and request defaults,
+  - SEC EDGAR base URL and request defaults,
+  - placeholder split-event provider note.
+- What it is supposed to do:
+  - hold provider-specific settings while keeping credentials in `.env`.
+
+12) Path: `configs/dataset_build.yaml`
+- State: implemented.
+- Current role: dataset build blueprint.
+- What its comments say it should eventually define:
+  - universe inputs,
+  - date ranges,
+  - incremental update policy,
+  - build flags for each pipeline stage,
+  - output destinations and manifests.
+
+13) Path: `configs/features.yaml`
+- State: implemented.
+- Current role: feature-family configuration blueprint.
+- What its comments say it should eventually define:
+  - market feature toggles,
+  - news feature lookbacks and decay,
+  - company-profile branch flags,
+  - ablation-friendly switches.
+
+14) Path: `configs/labels.yaml`
+- State: blueprint.
+- Current role: label-system configuration blueprint.
+- What its comments say it should eventually define:
+  - target horizons,
+  - primary target type,
+  - secondary tasks,
+  - adjusted-price requirements,
+  - missing-horizon policy.
+
+15) Path: `configs/model_market_baseline.yaml`
+- State: blueprint.
+- Current role: market-baseline model configuration blueprint.
+- What its comments say it should eventually define:
+  - linear baselines,
+  - market-only neural baselines,
+  - output heads,
+  - loss and regularization defaults.
+
+16) Path: `configs/model_multimodal.yaml`
+- State: blueprint.
+- Current role: multimodal model configuration blueprint.
+- What its comments say it should eventually define:
+  - market branch,
+  - event-state branch,
+  - optional company-profile branch,
+  - fusion strategy,
+  - multi-horizon outputs,
+  - optional uncertainty heads.
+
+17) Path: `configs/training.yaml`
+- State: blueprint.
+- Current role: training configuration blueprint.
+- What its comments say it should eventually define:
+  - optimizer and scheduler choices,
+  - batch sizes,
+  - mixed precision policy,
+  - checkpointing,
+  - dataloader behavior,
+  - deterministic vs throughput tradeoffs.
+
+18) Path: `configs/evaluation.yaml`
+- State: blueprint.
+- Current role: evaluation configuration blueprint.
+- What its comments say it should eventually define:
+  - walk-forward with purge and embargo,
+  - regression/classification/ranking metrics,
+  - subgroup analyses,
+  - statistical tests,
+  - calibration,
+  - ablations.
+
+================================================================================
+DOCUMENTATION FILES
+================================================================================
+
+19) Path: `docs/architecture_overview.md`
+- State: mixed.
+- Current role: architectural summary document.
+- What it currently contains:
+  - the current implemented subsystem layout,
+  - explicit runtime/data/feature/model/evaluation layer boundaries,
+  - current limitations,
+  - immediate architectural priorities.
+
+20) Path: `docs/data_layout.md`
+- State: mixed.
+- Current role: storage layout specification.
+- Current implementation note:
+  - now documents concrete storage layers, canonical table summaries, partitioning guidance,
+    processing-engine roles, and manifest requirements tied to `src/data/data_contracts.py`.
+- What its comments say it should eventually document:
+  - directory structure,
+  - canonical schemas,
+  - file naming rules,
+  - partitioning and manifests,
+  - incremental update behavior.
+
+21) Path: `docs/evaluation_protocol.md`
+- State: mixed.
+- Current role: rigorous evaluation-spec document.
+- What it currently contains:
+  - the current temporal evaluation protocol,
+  - implemented split and leakage rules,
+  - implemented metrics/calibration/statistical comparison scope,
+  - remaining evaluation work.
+
+22) Path: `docs/implementation_roadmap.md`
+- State: mixed.
+- Current role: implementation sequencing document.
+- What it currently contains:
+  - a retrospective of implemented stages 0-14,
+  - a summary of current repository state,
+  - remaining priorities after the first-pass build-out.
+
+22a) Path: `docs/testing_commands.md`
+- State: implemented.
+- Current role: manual test execution guide.
+- What it currently contains:
+  - commands for running existing and newly added offline tests,
+  - grouped test-suite commands,
+  - opt-in live API integration test commands,
+  - environment activation notes for the recommended WSL `ai` venv.
+
+================================================================================
+DATA-DIRECTORY GUIDE FILES
+================================================================================
+
+23) Path: `data/README.md`
+- State: blueprint.
+- Current role: top-level data-layer guide.
+- What its comments say it should eventually explain:
+  - raw vs interim vs final vs embeddings vs KB vs manifests separation.
+
+24) Path: `data/raw/README.md`
+- State: blueprint.
+- Current role: raw-data layer guide.
+- What its comments say it should eventually cover:
+  - immutable provider dumps,
+  - request ledgers,
+  - source metadata,
+  - deterministic rebuild support.
+
+25) Path: `data/raw/universe/README.md`
+- State: blueprint.
+- Current role: universe-snapshot guide.
+- What its comments say it should eventually cover:
+  - frozen universe files,
+  - pilot subsets,
+  - snapshot source and date,
+  - possible future historical constituent snapshots.
+
+26) Path: `data/interim/README.md`
+- State: blueprint.
+- Current role: interim-data layer guide.
+- What its comments say it should eventually cover:
+  - normalized canonical tables,
+  - deduplicated news,
+  - split tables,
+  - adjusted OHLCV,
+  - validation outputs.
+
+27) Path: `data/final/README.md`
+- State: blueprint.
+- Current role: final model-ready layer guide.
+- What its comments say it should eventually cover:
+  - final panels,
+  - market/event/profile features,
+  - labels,
+  - dataset versioning.
+
+28) Path: `data/embeddings/README.md`
+- State: blueprint.
+- Current role: embeddings-layer guide.
+- What its comments say it should eventually cover:
+  - article embeddings,
+  - model identifiers,
+  - text hashes,
+  - optional cached event states.
+
+29) Path: `data/kb/README.md`
+- State: blueprint.
+- Current role: company-knowledge-base guide.
+- What its comments say it should eventually cover:
+  - ticker/CIK mappings,
+  - static metadata,
+  - optional time-varying profile snapshots.
+
+30) Path: `data/manifests/README.md`
+- State: blueprint.
+- Current role: dataset-manifest guide.
+- What its comments say it should eventually cover:
+  - dataset hashes,
+  - schema versions,
+  - coverage stats,
+  - upstream dependency tracking.
+
+================================================================================
+ARTIFACT / RUN / REPORT / NOTEBOOK GUIDE FILES
+================================================================================
+
+31) Path: `artifacts/README.md`
+- State: blueprint.
+- Current role: durable output guide.
+- What its comments say it should eventually cover:
+  - checkpoints,
+  - scalers,
+  - figures,
+  - tables,
+  - evaluation summaries.
+
+32) Path: `artifacts/checkpoints/README.md`
+- State: blueprint.
+- Current role: checkpoint storage guide.
+- What its comments say it should eventually cover:
+  - per-run/per-fold checkpoint naming,
+  - enough metadata for inference restoration.
+- Current implementation note:
+  - now documents current Stage 12 checkpoint types and naming behavior for baseline training.
+
+33) Path: `artifacts/figures/README.md`
+- State: blueprint.
+- Current role: figure storage guide.
+- What its comments say it should eventually cover:
+  - metric plots,
+  - calibration plots,
+  - subgroup visuals,
+  - generated-from-results policy.
+
+34) Path: `artifacts/tables/README.md`
+- State: blueprint.
+- Current role: table storage guide.
+- What its comments say it should eventually cover:
+  - main result tables,
+  - ablations,
+  - fold summaries,
+  - coverage reports.
+
+35) Path: `runs/README.md`
+- State: blueprint.
+- Current role: run-output guide.
+- What its comments say it should eventually cover:
+  - resolved configs,
+  - logs,
+  - predictions,
+  - metrics,
+  - environment snapshots,
+  - unique run IDs.
+- Current implementation note:
+  - now documents the Stage 12 run structure for baseline training outputs,
+    including checkpoints, predictions, metrics, run metadata, and training summaries.
+
+36) Path: `reports/README.md`
+- State: blueprint.
+- Current role: thesis/report output guide.
+- What its comments say it should eventually cover:
+  - generated figures,
+  - generated tables,
+  - experiment summaries,
+  - reproducible reporting.
+
+37) Path: `notebooks/README.md`
+- State: blueprint.
+- Current role: notebook policy guide.
+- What its comments say it should eventually enforce:
+  - notebooks for exploration only,
+  - no pipeline source-of-truth logic in notebooks,
+  - no hidden state for thesis results.
+
+================================================================================
+SOURCE PACKAGE: TOP LEVEL
+================================================================================
+
+38) Path: `src/__init__.py`
+- State: blueprint.
+- Current role: top-level package marker.
+- What its docstring says it should do:
+  - provide a stable package namespace,
+  - avoid side effects,
+  - avoid eager environment or model loading,
+  - keep imports lightweight.
+
+================================================================================
+SOURCE PACKAGE: CLI
+================================================================================
+
+39) Path: `src/cli/__init__.py`
+- State: blueprint.
+- Current role: CLI package marker.
+- What its docstring says it should do:
+  - expose thin orchestration commands,
+  - keep business logic out of CLI modules.
+
+40) Path: `src/cli/build_market_data.py`
+- State: blueprint.
+- Purpose from docstring:
+  - orchestrate market-data download and normalization,
+  - read configs,
+  - load universe,
+  - download missing Twelve Data OHLCV history,
+  - preserve raw dumps,
+  - normalize to interim price tables,
+  - emit coverage summaries and manifests.
+- Current implementation note:
+  - now implements config loading, universe resolution, ticker overrides, market update planning,
+    dry-run execution, market pipeline invocation, and JSON summary output.
+
+40a) Path: `src/cli/build_universe.py`
+- State: implemented.
+- Current role:
+  - CLI entry point for freezing a current S&P 500 universe snapshot.
+- What it currently implements:
+  - live S&P 500 snapshot fetch,
+  - snapshot save under `data/raw/universe/`,
+  - `latest_universe_snapshot.csv` generation,
+  - `pilot10.csv` generation,
+  - JSON summary output.
+
+40b) Path: `src/cli/build_split_events.py`
+- State: implemented.
+- Current role:
+  - CLI entry point for building split-event tables for a universe or ticker set.
+- What it currently implements:
+  - universe/ticker resolution,
+  - provider selection,
+  - split-event pipeline invocation,
+  - JSON summary output.
+
+40c) Path: `src/cli/build_adjusted_prices.py`
+- State: implemented.
+- Current role:
+  - CLI entry point for building split-adjusted prices from split-event tables.
+- What it currently implements:
+  - universe/ticker resolution,
+  - split-event parquet loading,
+  - adjusted-price pipeline invocation,
+  - JSON summary output.
+
+41) Path: `src/cli/build_news_data.py`
+- State: blueprint.
+- Purpose from docstring:
+  - orchestrate Finnhub company-news download and normalization,
+  - preserve raw payloads,
+  - normalize UTC timestamps,
+  - deduplicate articles,
+  - produce canonical interim news tables and quality reports.
+- Current implementation note:
+  - now implements config loading, universe resolution, ticker overrides, chunk scheduling,
+    dry-run execution, news pipeline invocation, and JSON summary output.
+
+42) Path: `src/cli/build_company_kb.py`
+- State: blueprint.
+- Purpose from docstring:
+  - orchestrate SEC metadata ingestion,
+  - build ticker/CIK mappings,
+  - store names, exchanges, SIC, addresses,
+  - optionally prepare time-indexed profiles later.
+- Current implementation note:
+  - now implements config loading, explicit CIK resolution from CLI inputs,
+    optional dry-run execution, company-KB pipeline invocation, and JSON summary output.
+
+43) Path: `src/cli/build_modeling_dataset.py`
+- State: blueprint.
+- Purpose from docstring:
+  - assemble adjusted prices, news embeddings, event states, optional profiles, and labels into final modeling panels.
+- Current implementation note:
+  - now implements a modeling-dataset CLI with dry-run support, explicit input-path wiring,
+    dataset-version selection, and final panel build invocation.
+
+44) Path: `src/cli/train_market_baseline.py`
+- State: blueprint.
+- Purpose from docstring:
+  - train market-only baseline models,
+  - create temporal folds,
+  - save checkpoints, metrics, predictions, and resolved configs.
+- Current implementation note:
+  - now implements final-panel loading, purged walk-forward split generation,
+    model selection, run directory creation, baseline fold training, and JSON run summaries.
+
+45) Path: `src/cli/train_multimodal_model.py`
+- State: blueprint.
+- Purpose from docstring:
+  - train the multimodal model with market and event-state branches,
+  - manage mixed precision later if appropriate,
+  - save run outputs and artifacts.
+- Current implementation note:
+  - now implements final-panel loading, purged walk-forward split generation,
+    multimodal fold training, run directory creation, optional device override,
+    and JSON run summaries.
+
+46) Path: `src/cli/evaluate_experiments.py`
+- State: blueprint.
+- Purpose from docstring:
+  - load saved predictions,
+  - compute metrics,
+  - run statistical tests,
+  - generate reports and figures.
+- Current implementation note:
+  - now implements stored-prediction evaluation against final panel labels,
+    machine-readable regression and ranking metric output writing,
+    run-summary based file resolution, and JSON evaluation summaries.
+
+47) Path: `src/cli/run_ablations.py`
+- State: blueprint.
+- Purpose from docstring:
+  - run controlled branch and feature ablations,
+  - keep folds and evaluation comparable across variants.
+- Current implementation note:
+  - now implements comparable-run summary loading, ablation aggregation,
+    summary/table writing, and CLI-driven one-command run comparison.
+
+================================================================================
+SOURCE PACKAGE: DATA
+================================================================================
+
+48) Path: `src/data/__init__.py`
+- State: blueprint.
+- Purpose from docstring:
+  - package marker for provider adapters, normalization, split handling, and dataset assembly.
+
+49) Path: `src/data/data_contracts.py`
+- State: blueprint.
+- Current implementation note:
+  - now defines executable table contracts, schema-version metadata, manifest requirements,
+    column/record validation helpers, and uniqueness checks.
+- Purpose from docstring:
+  - define canonical schemas and validation contracts for raw, interim, and final tables.
+
+50) Path: `src/data/twelve_data_client.py`
+- State: implemented.
+- Current role:
+  - thin client for Twelve Data daily market-history access.
+- What it currently implements:
+  - request session setup,
+  - settings-based construction,
+  - `time_series` download,
+  - response retries/backoff,
+  - request metadata capture,
+  - canonical row parsing into `date`, `ticker`, `open`, `high`, `low`, `close`, `volume`, `source`.
+- What its docstrings indicate it is for:
+  - daily OHLCV access with safe request defaults and reusable parsing.
+
+51) Path: `src/data/finnhub_client.py`
+- State: implemented.
+- Current role:
+  - thin client for Finnhub company-news retrieval.
+- What it currently implements:
+  - request session setup,
+  - settings-based construction,
+  - `company-news` fetch by symbol and date range,
+  - retry/backoff,
+  - request metadata capture,
+  - canonical article normalization including timestamps and key text fields,
+  - stable URL normalization,
+  - published-date extraction,
+  - deterministic date-chunk helper.
+
+52) Path: `src/data/sec_edgar_client.py`
+- State: implemented.
+- Current role:
+  - thin client for SEC EDGAR submissions metadata.
+- What it currently implements:
+  - SEC user-agent enforcement,
+  - settings-based construction,
+  - submissions JSON fetch by CIK,
+  - retry/backoff,
+  - metadata extraction into canonical company fields,
+  - CIK normalization,
+  - normalized former-name and address extraction,
+  - ticker/CIK/exchange mapping extraction.
+
+53) Path: `src/data/split_events_client.py`
+- State: blueprint.
+- Purpose from docstring:
+  - abstract split-event sourcing so the project can use either upgraded Twelve Data access or a secondary provider.
+- Current implementation note:
+  - now implements provider selection, canonical split-factor normalization, ratio-text parsing,
+    canonical split-event output, and expected-date validation.
+
+54) Path: `src/data/universe_builder.py`
+- State: blueprint.
+- Purpose from docstring:
+  - load and validate universe snapshots,
+  - preserve snapshot metadata,
+  - manage pilot subsets,
+  - document survivorship limitations.
+- Current implementation note:
+  - now implements CSV universe loading, ticker-column inference, dot-ticker-safe normalization,
+    duplicate-ticker validation, pilot-subset construction, survivorship-bias warnings, CSV writing,
+    optional enrichment hooks for joining fields such as CIK or exchange metadata,
+    and live S&P 500 snapshot fetch/parse/save support.
+
+54a) Path: `src/data/split_events_pipeline.py`
+- State: implemented.
+- Current role:
+  - split-event fetching, normalization, persistence, and manifest generation.
+- What it currently implements:
+  - Twelve Data split probing when available,
+  - `yfinance` fallback for split history,
+  - raw split payload writing,
+  - split-event ledger writing,
+  - canonical split-event parquet writing,
+  - split-event quality report writing,
+  - split-event manifest writing.
+
+55) Path: `src/data/price_pipeline.py`
+- State: blueprint.
+- Purpose from docstring:
+  - orchestrate raw market download, normalization, incremental refresh, continuity checks, and split-adjustment preparation.
+- Current implementation note:
+  - now implements per-ticker raw payload writing, interim parquet writing, request ledger writing,
+    quality report writing, update-plan integration, manifest writing, idempotent row merging,
+    and a separate adjusted-price branch with split-adjustment report writing.
+
+56) Path: `src/data/news_pipeline.py`
+- State: blueprint.
+- Purpose from docstring:
+  - orchestrate news download, normalization, deduplication, text cleaning, UTC normalization, and article-table creation.
+- Current implementation note:
+  - now implements raw Finnhub payload writing, request ledger writing, canonical article enrichment,
+    deterministic deduplication by URL then hash fallback, as-of-close alignment annotation,
+    interim parquet writing, news quality report writing, and manifest writing.
+
+57) Path: `src/data/company_kb_pipeline.py`
+- State: blueprint.
+- Purpose from docstring:
+  - orchestrate SEC metadata ingestion, alias tables, optional profile tables, and KB manifests.
+- Current implementation note:
+  - now implements raw SEC payload writing, request ledger writing, canonical company KB row generation,
+    ticker-to-CIK mapping table generation, alias table generation, KB quality reports,
+    and manifest writing.
+
+58) Path: `src/data/corporate_actions.py`
+- State: blueprint.
+- Purpose from docstring:
+  - load split tables,
+  - compute cumulative factors,
+  - back-adjust OHLC and volume,
+  - store raw and adjusted outputs,
+  - generate diagnostics.
+- Current implementation note:
+  - now implements split-event normalization intake, cumulative future split-factor computation,
+    back-adjustment math for OHLC and volume, mitigation handling for missing split events,
+    split-window exclusion helper, and split-adjustment diagnostics.
+
+59) Path: `src/data/modeling_dataset.py`
+- State: blueprint.
+- Purpose from docstring:
+  - join adjusted prices, event-state features, optional profile features, and labels into final modeling panels.
+- Current implementation note:
+  - now implements final panel assembly from adjusted prices, market features, labels,
+    optional event states, and optional company features; validates uniqueness on `(ticker, date)`;
+    and writes final-panel manifests.
+
+60) Path: `src/data/incremental_updates.py`
+- State: blueprint.
+- Purpose from docstring:
+  - detect latest local coverage,
+  - request missing date ranges only,
+  - manage rerun-safe update ledgers,
+  - support repair workflows.
+- Current implementation note:
+  - now implements latest-date detection, update-window planning, capped per-run plan generation,
+    repair-window generation, and per-ticker latest-date lookup from local price files.
+
+61) Path: `src/data/quality_checks.py`
+- State: blueprint.
+- Purpose from docstring:
+  - validate duplicates, gaps, outliers, malformed timestamps, broken ticker mappings, and schema drift.
+- Current implementation note:
+  - now implements duplicate detection, sorting checks, gap warnings, malformed-value checks,
+    suspicious return-spike warnings, coverage summaries, and blocking-issue assertion support.
+
+================================================================================
+SOURCE PACKAGE: FEATURES
+================================================================================
+
+62) Path: `src/features/__init__.py`
+- State: blueprint.
+- Purpose from docstring:
+  - package marker for market, text, embedding, event-state, company-profile, and label feature builders.
+
+63) Path: `src/features/market_features.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement conservative leakage-safe EOD market features such as returns, volatility, momentum, volume, and benchmark-relative inputs.
+- Current implementation note:
+  - now implements conservative adjusted-price market features including trailing returns,
+    log returns, rolling volatility, momentum, intraday range, volume ratios/surprises,
+    and optional benchmark-relative feature merges.
+
+64) Path: `src/features/news_text.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement text-field selection, normalization, hashing inputs, and conservative cleaning for financial text.
+- Current implementation note:
+  - now implements conservative text normalization, canonical article text construction,
+    and article text enrichment with explicit text-variant tracking.
+
+65) Path: `src/features/news_embeddings.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement offline article embedding generation, batching, GPU-aware precompute, cache invalidation via text hash, and embedding manifests.
+- Current implementation note:
+  - now implements offline embedding-cache generation, deterministic hashing-based embeddings,
+    optional sentence-transformer support when installed, cache reuse based on `(article_id, model_id, text_hash)`,
+    and embedding-cache load/write helpers.
+
+66) Path: `src/features/event_state.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement strict as-of-close article selection,
+  - recency-weighted aggregation,
+  - novelty/conflict/density features,
+  - event-state caching.
+- Current implementation note:
+  - now implements daily event-state construction from aligned articles and cached embeddings,
+    lookback-window aggregation, recency weighting, novelty/conflict/density features,
+    no-news fallback, and event-state coverage summaries.
+
+67) Path: `src/features/company_profile_features.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement static metadata features,
+  - optional profile-text embeddings,
+  - optional time-indexed profile snapshots,
+  - branch toggles for ablation.
+
+68) Path: `src/features/labels.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement multi-horizon forward returns,
+  - excess/abnormal returns,
+  - direction labels,
+  - downside labels,
+  - optional uncertainty targets,
+  - label diagnostics.
+- Current implementation note:
+  - now implements multi-horizon forward returns, excess returns, direction labels,
+    downside labels, missing-horizon handling, and label availability summaries
+    from adjusted price histories.
+
+================================================================================
+SOURCE PACKAGE: MODELS
+================================================================================
+
+69) Path: `src/models/__init__.py`
+- State: blueprint.
+- Purpose from docstring:
+  - package marker for baselines, multimodal models, training, inference, and evaluation helpers.
+
+70) Path: `src/models/baseline_models.py`
+- State: blueprint.
+- Purpose from docstring:
+  - define ridge, elastic net, market-only neural baselines, and a common fit/predict interface.
+- Current implementation note:
+  - now implements sklearn baseline wrappers for ridge and elastic net,
+    lazy market MLP construction, checkpoint save/load for sklearn baselines,
+    and baseline model factory helpers.
+
+71) Path: `src/models/multimodal_models.py`
+- State: blueprint.
+- Purpose from docstring:
+  - define market encoder, event-state encoder, optional company-profile encoder, fusion layers, and multi-horizon heads.
+- Current implementation note:
+  - now implements a first-pass multimodal regressor with a market encoder,
+    event-state encoder, optional company encoder, event-state gating,
+    and a multi-horizon regression head.
+
+72) Path: `src/models/loss_functions.py`
+- State: blueprint.
+- Purpose from docstring:
+  - define regression, robust, classification, and optional probabilistic losses with configurable horizon weighting.
+- Current implementation note:
+  - now implements weighted regression losses for NumPy arrays and lazy PyTorch tensors,
+    including MSE, MAE, and Huber-style variants.
+
+73) Path: `src/models/metric_registry.py`
+- State: blueprint.
+- Purpose from docstring:
+  - define regression, classification, ranking, and calibration metrics in a standardized reporting layer.
+- Current implementation note:
+  - now implements regression metrics, binary classification metrics,
+    daily cross-sectional ranking metrics, and prediction-frame evaluation helpers.
+
+74) Path: `src/models/calibration.py`
+- State: blueprint.
+- Purpose from docstring:
+  - define optional post-hoc calibration workflows, per-horizon calibration, and reliability-diagram support.
+- Current implementation note:
+  - now implements binary calibrator fitting/application, reliability-curve generation,
+    and expected calibration error utilities.
+
+75) Path: `src/models/dataloaders.py`
+- State: blueprint.
+- Purpose from docstring:
+  - define dataset objects and batch assembly for market, event-state, and profile inputs.
+- Current implementation note:
+  - now implements market-only and multimodal feature selection, target selection,
+    target filtering, torch-compatible market and multimodal panel datasets,
+    and lazy dataloader creation.
+
+76) Path: `src/models/trainer.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement model construction, optimizer/scheduler setup, training loops, checkpointing, and metric logging.
+- Current implementation note:
+  - now implements baseline fold training for sklearn models and optional market MLP,
+    multimodal fold training for market + event-state models,
+    checkpoint persistence, prediction export, simple fold metrics, and run metadata writing.
+
+77) Path: `src/models/inference.py`
+- State: blueprint.
+- Purpose from docstring:
+  - load checkpoints, generate predictions, preserve row identifiers, and export prediction tables.
+- Current implementation note:
+  - now implements checkpoint loading, sklearn prediction export,
+    optional torch prediction export for market-only and multimodal models,
+    and joinable prediction-frame generation with preserved row identifiers.
+
+78) Path: `src/models/statistical_tests.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement Diebold-Mariano-style tests where appropriate, confidence intervals, bootstraps, and fold comparison summaries.
+- Current implementation note:
+  - now implements bootstrap confidence intervals, paired bootstrap mean-difference intervals,
+    Diebold-Mariano-style loss comparisons, and paired prediction-error comparison helpers.
+
+79) Path: `src/models/ablation_runner.py`
+- State: blueprint.
+- Purpose from docstring:
+  - execute systematic branch/feature/target ablations with consistent training and evaluation settings.
+- Current implementation note:
+  - now implements comparable-run summary validation, metric row loading,
+    and aggregated ablation summary table construction.
+
+================================================================================
+SOURCE PACKAGE: TEMPORAL SPLITS AND LEAKAGE CONTROL
+================================================================================
+
+80) Path: `src/split/__init__.py`
+- State: blueprint.
+- Purpose from docstring:
+  - package marker for temporal validation logic.
+
+81) Path: `src/split/walk_forward_splits.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement expanding or rolling time-based folds, validation windows, and reproducible split serialization.
+- Current implementation note:
+  - now implements expanding and rolling walk-forward folds, optional validation windows,
+    deterministic fold generation, row-index mapping, and split summaries.
+
+82) Path: `src/split/purged_embargo_splits.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement horizon-aware purging and embargo for overlapping forward labels.
+- Current implementation note:
+  - now implements purge-and-embargo date filtering, purged walk-forward fold generation,
+    and fold metadata describing removed train dates.
+
+83) Path: `src/split/alignment_rules.py`
+- State: blueprint.
+- Purpose from docstring:
+  - define the official as-of-close rule, calendar-aware trading-day boundaries, and after-hours article handling.
+- Current implementation note:
+  - now implements single-article and batch article alignment helpers,
+    including as-of trade-date assignment and after-market-close flags.
+
+84) Path: `src/split/leakage_checks.py`
+- State: blueprint.
+- Purpose from docstring:
+  - validate that no future prices, future news, future profile information, or train/test normalization leakage enter the pipeline.
+- Current implementation note:
+  - now implements reusable assertions for date overlap, walk-forward chronology,
+    purged split validity, article alignment correctness, scaler-fit window safety,
+    and future profile effective-date leakage.
+
+================================================================================
+SOURCE PACKAGE: UTILITIES
+================================================================================
+
+85) Path: `src/utils/__init__.py`
+- State: blueprint.
+- Purpose from docstring:
+  - package marker for shared utility modules.
+
+86) Path: `src/utils/paths.py`
+- State: implemented.
+- Current role:
+  - central path resolution and directory creation.
+- What it currently implements:
+  - `ProjectPaths` dataclass,
+  - project-root discovery using `pyproject.toml`,
+  - path building with overrides,
+  - helper methods for base directory creation and per-provider/per-run directories.
+
+87) Path: `src/utils/config_loader.py`
+- State: implemented.
+- Current role:
+  - central configuration and environment loader.
+- What it currently implements:
+  - `.env` loading,
+  - required env validation,
+  - optional env handling,
+  - YAML loading,
+  - loading all configs from `configs/`,
+  - typed settings models with `pydantic`,
+  - safe dictionary export without revealing secrets,
+  - creation of resolved `ProjectPaths`.
+- Important note:
+  - this module is designed to use the local secret `.env` file without exposing its contents.
+
+88) Path: `src/utils/logging_setup.py`
+- State: blueprint.
+- Purpose from docstring:
+  - set up consistent console/file logging and avoid duplicated handlers.
+- Current implementation note:
+  - now implements shared console/file logger setup, handler reset behavior,
+    readable formatting, and run-id injection.
+
+89) Path: `src/utils/time_and_calendars.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement timezone normalization, exchange-calendar helpers, market-close logic, and trading-day calculations.
+- Current implementation note:
+  - now implements UTC normalization, market-close timestamp construction,
+    trading-day helpers, after-close detection, and as-of trade-date resolution.
+
+90) Path: `src/utils/io_utils.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement safe parquet/JSON reading and writing, manifest helpers, and atomic-write policies where appropriate.
+- Current implementation note:
+  - now implements JSON/text/parquet read-write helpers, manifest helpers,
+    checkpoint metadata writing, and atomic-write behavior.
+
+91) Path: `src/utils/reproducibility.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement seed setting, deterministic-mode toggles, environment snapshots, and reproducibility summaries.
+- Current implementation note:
+  - now implements runtime seeding, deterministic Torch support,
+    environment/package metadata capture, and run metadata construction.
+
+92) Path: `src/utils/hashing.py`
+- State: blueprint.
+- Purpose from docstring:
+  - implement stable hashing for article text, datasets, and configs.
+- Current implementation note:
+  - now implements stable text hashing, stable record hashing,
+    and fallback article duplicate-detection hashes.
+
+================================================================================
+TEST FILES
+================================================================================
+
+93) Path: `tests/__init__.py`
+- State: mixed.
+- Current role:
+  - test package marker and test-suite policy note.
+- What it currently contains:
+  - guidance that the repository now has:
+    - unit tests,
+    - synthetic integration-style tests,
+    - opt-in live API tests under `tests/integration/`.
+
+94) Path: `tests/test_baseline_training.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 12 market-only baseline training.
+- What it currently tests:
+  - feature and target selection for final panels,
+  - baseline artifact writing,
+  - sklearn checkpoint round-trip prediction export,
+  - deterministic ridge training behavior for the same seed.
+
+95) Path: `tests/test_data_contracts.py`
+- State: blueprint.
+- Current implementation note:
+  - now contains executable tests for contract existence, required columns, malformed rows,
+    uniqueness constraints, manifest validation, and strict unexpected-column rejection.
+- Purpose from docstring:
+  - test required columns, dtypes, uniqueness keys, manifests, and malformed dataset rejection.
+
+96) Path: `tests/test_corporate_actions.py`
+- State: blueprint.
+- Purpose from docstring:
+  - test split-factor normalization, cumulative factors, back-adjustment direction, and missing split-data behavior.
+- Current implementation note:
+  - now contains executable tests for cumulative factor logic, price and volume adjustment direction,
+    split-day jump reduction, missing-split mitigation, split-window exclusion,
+    and adjusted-price writing through the market pipeline.
+
+97) Path: `tests/test_alignment.py`
+- State: blueprint.
+- Purpose from docstring:
+  - test as-of-close alignment, timezone normalization, after-hours rollover, and correct price/news joins.
+- Current implementation note:
+  - now contains executable tests for UTC normalization, market-close timestamps,
+    after-close rollover, Friday-to-Monday rollover, weekend handling,
+    and alignment annotation behavior.
+
+98) Path: `tests/test_leakage.py`
+- State: blueprint.
+- Purpose from docstring:
+  - test future-price leakage, embargo enforcement, train-only scaling, and future profile leakage.
+- Current implementation note:
+  - now contains executable checks that market features use only past information,
+    labels use future horizons rather than past windows, raw unadjusted rows are rejected,
+    overlapping date groups are detected, scaler-fit contamination is detected,
+    and misaligned article trade dates are detected.
+
+99) Path: `tests/test_labels.py`
+- State: blueprint.
+- Purpose from docstring:
+  - test forward/excess return construction, horizon edges, and task-label correctness.
+- Current implementation note:
+  - now contains executable tests for forward return correctness, benchmark-aligned excess returns,
+    missing-horizon behavior, direction/downside labels, adjusted-price enforcement,
+    and label summary reporting.
+
+100) Path: `tests/test_event_state.py`
+- State: blueprint.
+- Purpose from docstring:
+  - test lookback logic, recency weighting, no-news behavior, and cache stability.
+- Current implementation note:
+  - now contains executable tests for embedding-cache reuse and invalidation,
+    recency-weighted event-state aggregation, same-day post-close exclusion via `asof_trade_date`,
+    no-news fallback behavior, and event-state build stability across reruns.
+
+101) Path: `tests/test_walk_forward.py`
+- State: blueprint.
+- Purpose from docstring:
+  - test temporal fold ordering, non-overlap, purging, embargo, and reproducibility.
+- Current implementation note:
+  - now contains executable tests for chronological fold ordering, non-overlap,
+    walk-forward reproducibility, purge-and-embargo date removal, and purged split validity.
+
+102) Path: `tests/test_provider_clients.py`
+- State: implemented.
+- Current role:
+  - executable smoke-style tests for Stage 3 universe handling and provider hardening.
+- What it currently tests:
+  - dot-ticker normalization across universe and provider helpers,
+  - universe snapshot loading and duplicate detection,
+  - pilot-subset creation,
+  - empty Twelve Data payload handling,
+  - Twelve Data provider-error surfacing,
+  - Finnhub date chunking and empty-response handling,
+  - SEC metadata extraction and ticker/CIK mapping,
+  - split-event normalization and expected-date validation.
+
+103) Path: `tests/test_market_pipeline.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 4 market ingestion planning and pipeline behavior.
+- What it currently tests:
+  - incremental update-window helpers,
+  - repair-window generation,
+  - raw/interim/quality/manifest writing for market ingestion,
+  - force-refresh reruns without duplicate `(ticker, date)` rows.
+
+104) Path: `tests/test_news_pipeline.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 6 news ingestion, deduplication, and interim storage behavior.
+- What it currently tests:
+  - canonical news ingestion and writing,
+  - URL-based deduplication,
+  - fallback hashing for articles without URLs,
+  - interim and quality-report writing,
+  - manifest writing,
+  - dry-run request planning.
+
+105) Path: `tests/test_company_kb_pipeline.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 7 company-KB generation and universe enrichment.
+- What it currently tests:
+  - canonical KB, ticker-mapping, and alias-table writing,
+  - KB quality-report and manifest writing,
+  - universe enrichment with CIK and exchange fields.
+
+106) Path: `tests/test_modeling_dataset.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 10 final modeling-panel assembly.
+- What it currently tests:
+  - unique `(ticker, date)` final panel assembly,
+  - manifest generation,
+  - optional event-state and company-feature joins,
+  - duplicate-row rejection in optional merge inputs,
+  - final parquet and manifest writing.
+
+107) Path: `tests/test_baseline_training.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 12 market-only baseline training.
+- What it currently tests:
+  - final-panel feature and target selection,
+  - baseline artifact writing,
+  - sklearn checkpoint round-trip prediction export,
+  - deterministic ridge training behavior.
+
+108) Path: `tests/test_multimodal_training.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 13 multimodal model training.
+- What it currently tests:
+  - multimodal forward-pass shape,
+  - multimodal batch schema,
+  - tiny-subset overfit behavior,
+  - multimodal prediction export parity with the baseline format.
+
+109) Path: `tests/test_evaluation_tools.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 14 metrics, calibration, and statistical comparison helpers.
+- What it currently tests:
+  - exact regression metrics on identical predictions,
+  - classification and calibration helpers,
+  - cross-sectional ranking metrics,
+  - bootstrap and Diebold-Mariano-style behavior,
+  - machine-readable evaluation table generation.
+
+110) Path: `tests/test_ablation_runner.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 14 ablation-summary construction.
+- What it currently tests:
+  - run summary loading,
+  - metric row loading,
+  - comparable-run validation,
+  - ablation summary aggregation.
+
+111) Path: `tests/test_text_normalization.py`
+- State: implemented.
+- Current role:
+  - executable tests for Stage 15 text normalization hardening.
+- What it currently tests:
+  - whitespace normalization,
+  - Unicode normalization,
+  - headline-only vs headline-plus-summary behavior,
+  - canonical text enrichment and text-variant tracking.
+
+112) Path: `tests/test_hashing.py`
+- State: implemented.
+- Current role:
+  - executable tests for deterministic hashing behavior.
+- What it currently tests:
+  - stable text hashing under normalized-equivalent inputs,
+  - hash changes when canonical text changes,
+  - stable record hashing,
+  - fallback article hash behavior.
+
+113) Path: `tests/test_news_deduplication.py`
+- State: implemented.
+- Current role:
+  - executable tests for practical news deduplication rules.
+- What it currently tests:
+  - URL-first deduplication,
+  - fallback-hash deduplication when URL is missing,
+  - preservation of distinct articles when both URL and fallback differ.
+
+114) Path: `tests/test_dataset_integrity.py`
+- State: implemented.
+- Current role:
+  - executable tests for final dataset integrity across joins and manifests.
+- What it currently tests:
+  - final-panel branch tracking,
+  - manifest source-table coverage,
+  - split-adjusted flag persistence,
+  - company-feature joins without duplicate rows.
+
+115) Path: `tests/test_research_integrity.py`
+- State: implemented.
+- Current role:
+  - executable tests for run comparability and research-safety assumptions.
+- What it currently tests:
+  - baseline vs multimodal row-universe comparability,
+  - run-summary comparability constraints,
+  - future profile effective-date rejection.
+
+116) Path: `tests/test_reproducibility_end_to_end.py`
+- State: implemented.
+- Current role:
+  - executable tests for deterministic reusable artifacts.
+- What it currently tests:
+  - deterministic embedding-cache outputs,
+  - run-metadata round-trip persistence.
+
+117) Path: `tests/test_end_to_end_minipipeline.py`
+- State: implemented.
+- Current role:
+  - executable synthetic end-to-end mini-pipeline test.
+- What it currently tests:
+  - adjusted-price to event-state to final-panel flow,
+  - baseline and multimodal training on the same synthetic panel,
+  - evaluation-table generation,
+  - ablation-summary generation.
+
+118) Path: `tests/integration/__init__.py`
+- State: implemented.
+- Current role:
+  - marker and policy note for opt-in live integration tests.
+
+119) Path: `tests/integration/test_live_twelvedata.py`
+- State: implemented.
+- Current role:
+  - opt-in live integration tests for tiny Twelve Data requests.
+- What it currently tests:
+  - small `AAPL` request structure,
+  - dot-ticker `BRK.B` request structure.
+
+120) Path: `tests/integration/test_live_finnhub.py`
+- State: implemented.
+- Current role:
+  - opt-in live integration test for tiny Finnhub company-news requests.
+- What it currently tests:
+  - small historical company-news request structure,
+  - normalized article output shape when data is returned.
+
+121) Path: `tests/integration/test_live_sec.py`
+- State: implemented.
+- Current role:
+  - opt-in live integration test for SEC submissions metadata.
+- What it currently tests:
+  - small submissions fetch for a known issuer,
+  - normalized company metadata,
+  - ticker/CIK mapping extraction.
+
+122) Path: `tests/test_universe_builder.py`
+- State: implemented.
+- Current role:
+  - executable tests for frozen S&P 500 universe snapshot creation.
+- What it currently tests:
+  - HTML table parsing,
+  - dot-ticker preservation,
+  - dated/latest/pilot file creation,
+  - manifest writing,
+  - failure when the constituents table cannot be found.
+
+123) Path: `tests/test_split_events_pipeline.py`
+- State: implemented.
+- Current role:
+  - executable tests for split-event fetching and persistence logic.
+- What it currently tests:
+  - split-event parquet and manifest writing,
+  - provider-order behavior,
+  - canonical split-event normalization through the pipeline.
+
+================================================================================
+CURRENT ARCHITECTURAL SUMMARY
+================================================================================
+
+What is already truly implemented now
+- local `.env` loading and validation via `src/utils/config_loader.py`,
+- path resolution via `src/utils/paths.py`,
+- logging, I/O, and reproducibility helpers,
+- thin request clients for Twelve Data, Finnhub, and SEC EDGAR.
+- universe snapshot loading and pilot-subset helpers,
+- live S&P 500 universe snapshot freezing,
+- provider-agnostic split-event normalization,
+- split-event fetching/persistence with Twelve Data plus yfinance fallback,
+- incremental market update planning and quality checks,
+- raw/interim market ingestion pipeline and CLI dry-run path,
+- whole-universe raw/interim market extraction completed locally for the current frozen snapshot,
+- split-adjustment math, diagnostics, and adjusted-price writing support,
+- whole-universe adjusted-price coverage completed locally for the current frozen snapshot,
+- news text normalization, hashing, calendar alignment, and canonical news ingestion pipeline,
+- static SEC company-KB generation with mappings, aliases, and enrichment hooks,
+- conservative market features and multi-horizon label generation from adjusted prices,
+- offline article embeddings and daily event-state aggregation,
+- final modeling-panel assembly with manifest generation,
+- walk-forward split generation, purged/embargoed split support, and reusable leakage assertions,
+- market-only baseline factories, training helpers, checkpointing, and prediction export,
+- first multimodal regressor, multimodal dataloaders, and multimodal training helpers,
+- regression/ranking evaluation helpers, calibration utilities, statistical comparison helpers, and ablation summaries,
+- CLI paths now exist for universe creation, split-event building, adjusted-price building, market/news/company-KB/modeling-dataset builds,
+- CLI/report outputs for evaluation and ablation comparison,
+- executable tests for data contracts, provider hardening, market ingestion, corporate actions, alignment, news ingestion, company-KB generation, labels, leakage checks, event-state behavior, walk-forward splits, final panel assembly, market-only baseline training, multimodal training, evaluation tools, ablation summaries, text normalization, hashing, dataset integrity, research integrity, reproducibility, and a synthetic end-to-end mini-pipeline,
+- opt-in live integration tests for Twelve Data, Finnhub, and SEC,
+- a manual test command guide in `docs/testing_commands.md`.
+
+What is still mostly scaffold/blueprint
+- later-stage multimodal extensions,
+- some richer evaluation/reporting extensions,
+- broader live-provider validation under real quotas,
+- optional advanced research extensions such as profile modeling and richer uncertainty outputs.
+
+Main project risk captured by the current file map
+- the most important remaining work has shifted from core implementation to external-provider verification, richer experiment/reporting polish, and avoiding research overreach beyond the current validated foundation.
+
+Practical next implementation order implied by this guidebook
+1. broader offline integrity and performance testing where useful
+2. controlled live-provider verification against real API behavior and quotas
+3. full-universe news ingestion and downstream full-universe feature assembly if desired
+4. later-stage multimodal extensions in `src/models/trainer.py`
+5. richer calibration/reporting extensions
+
+End of guidebook.
+- 122) Path: `tests/test_universe_builder.py`
++- State: implemented.
++- Current role:
++  - executable tests for frozen S&P 500 universe snapshot creation.
++- What it currently tests:
++  - HTML table parsing,
++  - dot-ticker preservation,
++  - dated/latest/pilot file creation,
++  - manifest writing,
++  - failure when the constituents table cannot be found.
+
+123) Path: `tests/test_split_events_pipeline.py`
++- State: implemented.
++- Current role:
++  - executable tests for split-event fetching and persistence logic.
++- What it currently tests:
++  - split-event parquet and manifest writing,
++  - provider-order behavior,
++  - canonical split-event normalization through the pipeline.

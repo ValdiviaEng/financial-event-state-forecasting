@@ -1,0 +1,25 @@
+# Multimodal model configuration blueprint.
+#
+# This file should eventually define:
+# - market encoder settings,
+# - event-state encoder settings,
+# - optional company-profile encoder settings,
+# - fusion strategy,
+# - per-horizon output heads,
+# - optional uncertainty heads,
+# - ablation-friendly switches for disabling branches.
+
+model_family: multimodal_event_state
+branches:
+  market: true
+  event_state: true
+  company_profile: false
+
+fusion:
+  type: concat_with_gating
+
+outputs:
+  horizons: [1, 5, 20, 60]
+  regression: true
+  classification: optional
+  uncertainty: optional

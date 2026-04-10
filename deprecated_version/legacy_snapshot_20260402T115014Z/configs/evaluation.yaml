@@ -1,0 +1,31 @@
+# Evaluation configuration blueprint.
+#
+# This file should eventually define:
+# - walk-forward folds,
+# - purge and embargo settings,
+# - metrics to compute by target type,
+# - subgroup analysis definitions,
+# - statistical tests,
+# - calibration analysis,
+# - artifact locations for figures and tables.
+
+validation:
+  strategy: walk_forward_with_purge_and_embargo
+  purge_horizon_aware: true
+  embargo_trading_days: 0
+
+metrics:
+  regression: [mae, rmse, r2, pearson, spearman]
+  classification: [auc, pr_auc, brier]
+  ranking: [daily_ic, icir]
+
+reporting:
+  save_prediction_tables: true
+  save_fold_metrics: true
+  save_figures: true
+  save_tables: true
+
+ablations:
+  market_only_vs_multimodal: true
+  split_adjusted_vs_raw_labels: true
+  with_profile_vs_without_profile: true

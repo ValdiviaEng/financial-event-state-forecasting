@@ -1,0 +1,40 @@
+# Data-source configuration used by the first real implementation phase.
+#
+# This file keeps provider-specific defaults that are not secrets. Credentials
+# stay in the local `.env` file and are loaded via `src.utils.config_loader`.
+
+market_data:
+  provider: twelve_data
+  base_url: https://api.twelvedata.com
+  endpoint_group: time_series
+  timeout_seconds: 30
+  max_retries: 3
+  backoff_seconds: 1.0
+  interval: 1day
+  outputsize: 5000
+  timezone: UTC
+  order: ASC
+  credits_per_minute: 8
+  credits_per_day: 800
+
+news_data:
+  provider: finnhub
+  base_url: https://finnhub.io/api/v1
+  endpoint_group: company_news
+  timeout_seconds: 30
+  max_retries: 3
+  backoff_seconds: 1.0
+  default_chunk_days: 30
+
+company_kb:
+  provider: sec_edgar
+  base_url: https://data.sec.gov
+  endpoint_group: submissions_json
+  timeout_seconds: 30
+  max_retries: 3
+  backoff_seconds: 1.0
+  max_requests_per_second: 10
+
+split_events:
+  provider: external_or_upgrade_path
+  note: verify the chosen split-event source before depending on adjusted labels

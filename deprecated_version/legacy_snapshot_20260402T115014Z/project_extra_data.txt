@@ -1,0 +1,1207 @@
+PROJECT EXTRA DATA
+Visible conversation transcript and working-context archive.
+
+Important note
+- This file records the visible user/assistant conversation only.
+- It does not include hidden system messages, hidden developer instructions, or tool-internal logs.
+- Extremely large repeated background blocks are consolidated when the same material was pasted again later in the conversation.
+- It is maintained as a human-readable project-history artifact, not as a verbatim legal transcript.
+
+================================================================================
+TURN 1 - USER
+================================================================================
+
+The user provided a very large initial project brief and asked the assistant to first understand all the background and read all the files.
+
+The user said that the current files were not updated and did not yet represent all the needs of the project.
+
+The user then pasted a long research prompt and background specification covering all of the following themes in detail:
+- strict anti-hallucination behavior,
+- Master's-level academic rigor,
+- reproducibility,
+- leakage awareness,
+- Linux and optional CUDA compatibility,
+- project identity,
+- hypothesis,
+- scope,
+- verified project context,
+- data sources,
+- data architecture,
+- split/corporate action handling,
+- company knowledge base design,
+- news processing,
+- market feature design,
+- label design,
+- model architecture options,
+- GPU/CUDA engineering,
+- evaluation and ablations,
+- failure modes,
+- software engineering plan,
+- implementation roadmap,
+- and response-format requirements.
+
+The user explicitly stated verified current project reality, including:
+- market data source: Twelve Data,
+- free-tier limits: 8 credits/minute and 800/day,
+- `time_series` daily usage with `interval=1day` and `outputsize=5000`,
+- saved market columns: `date, ticker, open, high, low, close, volume`,
+- apparent lack of split adjustment in at least the AAPL 2020-08-31 split window,
+- Finnhub as company-news source,
+- potential SEC/Wikipedia-derived knowledge base,
+- current S&P 500 snapshot size 503,
+- presence of `pilot10.csv`,
+- Linux environment,
+- rough repo structure under `src/`, `data/`, `runs/`, `artifacts/`, and `tests/`.
+
+The user also pasted a previous research writeup in Spanish and then an English draft/result version, asking that everything be in English and adapted to the project scenario.
+
+================================================================================
+TURN 1 - ASSISTANT
+================================================================================
+
+The assistant replied that it had read the current tracked repo files and aligned with the real project direction.
+
+The assistant summarized understanding of the project:
+- EOD, multimodal, multi-horizon research system,
+- market data + aggregated news event state,
+- optional company KB/profile,
+- target is not price level prediction,
+- methodological priorities are leakage safety, split correctness, walk-forward evaluation, and reproducibility.
+
+The assistant then described what the current repo actually was:
+- mostly a scaffold,
+- still centered on AlphaVantage instead of Twelve Data in several files,
+- missing `src/data/`,
+- many TODO-only modules,
+- fixed 2-day embargo assumptions that conflict with strict as-of-close alignment,
+- label code expecting `adj_close` even though the current saved schema does not have it,
+- tests also being placeholders.
+
+The assistant highlighted highest-priority mismatches:
+- repo does not reflect the real market-data source or real schema,
+- no actual ingestion layer for Twelve Data, Finnhub, or SEC,
+- split handling is missing despite being a blocking scientific requirement,
+- leakage risk around future-return logic,
+- dependency inconsistencies,
+- `.env.example` containing a real-looking API key.
+
+The assistant concluded:
+- the background/spec should be treated as authoritative,
+- the current repo should be viewed as an outdated skeleton,
+- the next implementation order should be:
+  1. align docs/config/contracts,
+  2. build `src/data/`,
+  3. solve split handling,
+  4. build final `(ticker, date)` panel,
+  5. then implement labels, baselines, and multimodal training.
+
+The assistant then asked one targeted question:
+- recommended default was to keep Twelve Data for OHLCV and use a separate split-only source if `/splits` is unavailable,
+- or else upgrade Twelve Data and keep corporate actions in the same vendor.
+
+================================================================================
+TURN 2 - USER
+================================================================================
+
+The user asked:
+
+"According to this, if I ever want to introduce raw news from mainstream news outlets (not financial news sources) would I be able to use them, if I scrap the data + clean it properly? Is it possible to add easily onto this project, without major pipeline/architecture changes?"
+
+================================================================================
+TURN 2 - ASSISTANT
+================================================================================
+
+The assistant answered yes, with caveats:
+- model-wise: yes, easily,
+- data-pipeline-wise: yes, if the news layer is designed to be source-agnostic now,
+- entity-linking/legal-wise: that is the real extra work.
+
+The assistant explained that the downstream pipeline only really needs canonical normalized article fields such as:
+- `published_ts_utc`
+- `source`
+- `headline`
+- optional `summary` or `body`
+- `url`
+- linked `ticker` or linked `company_id`
+
+The assistant said that once an article is normalized to that form, most of the downstream system can remain the same:
+- embedding generation,
+- event-state aggregation,
+- panel merge,
+- model training,
+- evaluation.
+
+The assistant highlighted what would stay the same and what would need strengthening:
+- source-specific ingestion adapters,
+- stronger deduplication,
+- source metadata tracking,
+- article-to-company/ticker linking,
+- legal/licensing tracking,
+- language and quality filters.
+
+The assistant emphasized that Finnhub already gives ticker-scoped news, whereas scraped mainstream news often does not, so entity linking becomes the main extra module and the SEC/company KB becomes much more useful.
+
+The assistant recommended planning the news architecture around canonical tables such as:
+- `news_raw_articles`
+- `news_articles_normalized`
+- `news_article_entities`
+- `news_article_ticker_links`
+- `news_embeddings`
+- `event_state_daily`
+
+The assistant listed major risks of mainstream scraped news:
+- licensing and ToS,
+- robots policy,
+- timestamp quality,
+- deduplication,
+- entity ambiguity,
+- noisy general content.
+
+The assistant recommended designing for this future possibility now, while keeping Finnhub company news as Phase 1.
+
+================================================================================
+TURN 3 - USER
+================================================================================
+
+The user asked to implement the bare minimum project files and folders, the basic structure, and to make every file include a detailed comment explaining what it would need to implement, but without implementing code yet.
+
+The user also requested:
+- complete structure,
+- logical and complete map of what needs to be implemented,
+- adequate naming for every file,
+- correct structure and logical flow,
+- a requirements file for easy dependency installation,
+- and permission to disregard most current files and redo the project from zero.
+
+================================================================================
+TURN 4 - USER
+================================================================================
+
+The user repeated the same request again immediately, reinforcing the desire to rebuild the repo skeleton from zero as a structured blueprint.
+
+================================================================================
+TURN 3/4 - ASSISTANT ACTION AND RESULT
+================================================================================
+
+The assistant rebuilt the repository into a blueprint-first scaffold aligned with the actual project:
+- Twelve Data + Finnhub + SEC,
+- split-aware design,
+- multimodal event-state pipeline,
+- no real implementation logic yet.
+
+The assistant reported that it had:
+- replaced the old mixed/outdated structure with a new scaffold,
+- added install-ready dependency files,
+- reworked configs,
+- rebuilt `src/` into logical implementation map,
+- added scaffold storage/docs for tracked folders,
+- replaced tests with blueprint test files,
+- and cleaned old AlphaVantage assumptions out of the scaffold.
+
+The assistant recommended the next implementation order after scaffolding:
+1. `src/data/data_contracts.py`
+2. `src/utils/config_loader.py`
+3. `src/data/twelve_data_client.py` and `src/data/price_pipeline.py`
+4. `src/data/corporate_actions.py`
+
+================================================================================
+TURN 5 - USER
+================================================================================
+
+The user asked to now start coding and specifically implement `.env.example` as a reference file for the required API keys and all other necessary environment variables.
+
+The user said to use the current one as reference, remove repeated instances if they occur, and add more if necessary.
+
+================================================================================
+TURN 5 - ASSISTANT
+================================================================================
+
+The assistant updated `.env.example` into a cleaner and more complete template.
+
+The assistant reported that it had added:
+- required credentials for `TWELVE_DATA_API_KEY`, `FINNHUB_API_KEY`, and `SEC_USER_AGENT`,
+- optional credentials for split-event fallback providers, Hugging Face, and Weights & Biases,
+- path variables for data/artifacts/runs/reports,
+- runtime defaults for device, seed, workers, logging, timezone, exchange calendar, and market close,
+- data-collection defaults for Twelve Data and Finnhub,
+- embedding/cache defaults,
+- training/evaluation flags,
+- and removed duplication while keeping secrets/config concerns separated.
+
+The assistant also stated that it had not run tests because this was just a reference template.
+
+It then suggested the next steps:
+1. implement `src/utils/config_loader.py`,
+2. wire env vars into first real data clients,
+3. add validation for missing required env vars.
+
+================================================================================
+TURN 6 - USER
+================================================================================
+
+The user stated that the `.env` file had been completed locally following the example and said explicitly not to check it because its contents were confidential.
+
+Then the user said:
+
+"Lets now work on the next files as you mentioned"
+
+================================================================================
+TURN 6 - ASSISTANT
+================================================================================
+
+The assistant responded by identifying the next best files to implement:
+- `src/utils/config_loader.py`
+- `src/data/twelve_data_client.py`
+- `src/data/finnhub_client.py`
+- `src/data/sec_edgar_client.py`
+
+The assistant explained the intended plan for each one:
+
+For `src/utils/config_loader.py`:
+- load `.env` with `python-dotenv`,
+- load YAML configs,
+- merge config + env,
+- validate required env vars early,
+- provide helpers such as `load_yaml`, `load_project_settings`, `require_env`, and `resolve_paths`.
+
+For `src/data/twelve_data_client.py`:
+- build a small `requests.Session`-based client,
+- read API key from resolved settings,
+- implement daily `time_series`,
+- support `interval=1day`, `outputsize=5000`, optional `start_date` and `end_date`,
+- add retry/backoff, timeout, validation, raw payload return, and OHLCV parsing.
+
+For `src/data/finnhub_client.py`:
+- small client class,
+- implement `company-news`,
+- ticker + date range,
+- raw article retrieval,
+- normalize key fields such as `id`, `datetime`, `headline`, `summary`, `source`, `url`, and `related`,
+- add retry/backoff.
+
+For `src/data/sec_edgar_client.py`:
+- minimal client for submissions JSON,
+- require `SEC_USER_AGENT`,
+- implement CIK normalization,
+- fetch submissions JSON,
+- extract company identity metadata,
+- do not parse filing text yet.
+
+The assistant recommended the implementation order:
+1. `src/utils/config_loader.py`
+2. `src/utils/paths.py`
+3. `src/data/twelve_data_client.py`
+4. `src/data/finnhub_client.py`
+5. `src/data/sec_edgar_client.py`
+
+The assistant then asked one targeted question:
+- recommended default: use a shared typed `Settings` object in `src/utils/config_loader.py` using `pydantic` and pass it into all clients,
+- alternative: lighter dict-based loader.
+
+================================================================================
+TURN 7 - USER
+================================================================================
+
+The user replied that those recommendations should be implemented.
+
+The user also asked for clarification that the new config loader would still use the local secret `.env` file for required variables.
+
+Then the user added a second major request:
+- ensure that the `README` fills all requirements of the project, specifications, and research results from the first large background context.
+
+To reinforce that request, the user pasted the earlier large project background and research material again, including the same core sections:
+- project identity,
+- hypothesis,
+- data sources,
+- split handling,
+- KB/profile branch,
+- event-state pipeline,
+- feature branch,
+- labels,
+- model architecture,
+- GPU/CUDA design,
+- evaluation,
+- failure modes,
+- software engineering plan,
+- roadmap,
+- and final “must-do now / strongly recommended next / optional extension / highest-risk unresolved issues” framing.
+
+================================================================================
+TURN 7 - ASSISTANT
+================================================================================
+
+The assistant answered first that yes, the new config layer was designed to use the local secret `.env` by default, not `.env.example`.
+
+The assistant said:
+- `src/utils/config_loader.py` would load the repo-local `.env` automatically when present,
+- required variables would be validated,
+- secrets would be kept masked with `SecretStr`,
+- and it had not inspected or printed the `.env` contents.
+
+The assistant then reported what it had implemented:
+- typed settings + path resolution in `src/utils/config_loader.py` and `src/utils/paths.py`,
+- first real provider clients in:
+  - `src/data/twelve_data_client.py`
+  - `src/data/finnhub_client.py`
+  - `src/data/sec_edgar_client.py`
+- richer provider config in `configs/data_sources.yaml`
+- updated project config in `configs/project.yaml`
+- a much more complete project/spec/research README in `README.md`
+
+The assistant summarized the new capabilities:
+- load YAML configs from `configs/`,
+- resolve project paths,
+- load `.env` safely from the project root,
+- validate required runtime variables,
+- provide thin provider clients with retries/backoff and canonical normalization helpers for:
+  - Twelve Data daily OHLCV,
+  - Finnhub company news,
+  - SEC submissions metadata.
+
+The assistant also reported validation:
+- `python -m compileall src` passed,
+- a direct import check failed in the current shell because `python-dotenv` was not installed there yet.
+
+The assistant then said that the code was in place but the shell still needed the Python dependencies from `requirements.txt` for runtime execution.
+
+Finally, it proposed the next steps:
+1. install/refresh dependencies with `pip install -r requirements.txt`
+2. implement `src/data/data_contracts.py`
+3. implement `src/data/price_pipeline.py` and `src/data/news_pipeline.py`
+4. then wire those into the CLI builders.
+
+================================================================================
+TURN 8 - USER
+================================================================================
+
+The user asked for two new files to be created:
+
+1. `Complete_guidebook.txt`
+- should contain a map of all files in the root folder,
+- should include the location of each file,
+- what it is supposed to have,
+- the comments inside it,
+- and so on,
+- should cover all files except `.env`,
+- and should include `.env.example` because that is a different file.
+
+2. `project_extra_data.txt`
+- should contain the whole conversation so far.
+
+The user also noted that the assistant was no longer in read-only mode and was permitted to make file changes.
+
+================================================================================
+CURRENT TURN - ASSISTANT ACTION
+================================================================================
+
+In response to Turn 8, the assistant is creating:
+- `Complete_guidebook.txt`
+- `project_extra_data.txt`
+
+End of visible conversation transcript so far.
+
+================================================================================
+TURN 9 - USER
+================================================================================
+
+The user asked for a detailed roadmap to be written into `execution_plan.txt`.
+
+The roadmap request had several constraints:
+- it should be the only output of that turn,
+- it should map the order each file must be built,
+- it should be ultra detailed,
+- it should read the current comments/docstrings in the files first,
+- it should include stage-by-stage execution notes,
+- it should explain revisit conditions,
+- it should define tests after each major stage,
+- and it should cover the entire repository.
+
+The user also explicitly supplied the contents of `Complete_guidebook.txt` as context and asked for the roadmap to account for it.
+
+================================================================================
+TURN 9 - ASSISTANT ACTION
+================================================================================
+
+The assistant created `execution_plan.txt`.
+
+The plan included:
+- a dependency graph across the repository,
+- stages from bootstrap through documentation hardening,
+- explicit ordering of modules,
+- test gates,
+- common development traps,
+- per-file stage mapping,
+- and recommended future build order.
+
+================================================================================
+TURN 10 - USER
+================================================================================
+
+The user asked whether the roadmap and guidebook were correct and truthful, and requested feedback.
+
+================================================================================
+TURN 10 - ASSISTANT
+================================================================================
+
+The assistant replied that both documents were mostly correct and useful, but not perfect.
+
+The assistant highlighted:
+- that they were directionally correct,
+- that they correctly prioritized split handling, leakage safety, and staged implementation,
+- that `project_extra_data.txt` was not literally a full verbatim transcript,
+- that `Complete_guidebook.txt` intentionally excluded `.git/**` and `__pycache__/**`,
+- and that both documents should be treated as living working documents rather than frozen truth.
+
+The assistant also recommended tightening them by:
+- clarifying transcript-vs-summary behavior,
+- clarifying excluded files,
+- strengthening completion criteria for later modeling/evaluation stages,
+- and adding explicit reality-check checkpoints.
+
+================================================================================
+TURN 11 - USER
+================================================================================
+
+The user asked to implement the first roadmap step and run the first round of testing, explicitly saying to use:
+- `execution_plan.txt`
+- `Complete_guidebook.txt`
+- `README.md`
+as context.
+
+================================================================================
+TURN 11 - ASSISTANT ACTION AND RESULT - STAGE 0
+================================================================================
+
+The assistant implemented Stage 0 (bootstrap/tooling/repository hygiene).
+
+Main changes:
+- updated `.gitignore` with cache/build ignores,
+- improved `Makefile` to use `python -m pip`, `python -m pytest`, `python -m ruff`, `python -m black`,
+- improved `create-dirs` to create the fuller project directory tree,
+- fixed import-order and formatting issues in implemented Python files,
+- fixed a formatting issue in `tests/__init__.py`.
+
+The assistant also installed missing environment packages needed for validation in the active shell, including:
+- `pytest`
+- `ruff`
+- `python-dotenv`
+- `pydantic`
+- `PyYAML`
+- `requests`
+
+Validation reported by the assistant:
+- `python -m compileall src` passed,
+- package/import smoke checks passed,
+- `python -m ruff check src tests` passed,
+- `python -m pytest --collect-only` passed.
+
+Important note recorded by the assistant:
+- test collection found `0` runnable tests at that moment because many test files were still blueprint/docstring-only.
+
+================================================================================
+TURN 12 - USER
+================================================================================
+
+The user asked why several tests appeared to fail and whether they were important.
+
+================================================================================
+TURN 12 - ASSISTANT
+================================================================================
+
+The assistant clarified that the transient failures were mostly setup and tooling issues rather than final code failures.
+
+The assistant explained:
+- `pytest --collect-only` had initially failed because `pytest` was missing,
+- `ruff` had initially failed because `ruff` was missing and later because of import-order issues,
+- `src.utils.config_loader` had initially failed to import because `python-dotenv` was missing,
+- a transient `compileall` permission issue had occurred once and then disappeared,
+- and that the more important problem was not failing tests, but the lack of real executable tests at that earlier stage.
+
+================================================================================
+TURN 13 - USER
+================================================================================
+
+The user asked to continue with the next stage in the same staged/testing style.
+
+================================================================================
+TURN 13 - ASSISTANT ACTION AND RESULT - STAGE 1
+================================================================================
+
+The assistant implemented Stage 1 (configuration and runtime foundation).
+
+Main changes:
+- hardened `src/utils/config_loader.py`,
+- implemented `src/utils/logging_setup.py`,
+- implemented `src/utils/io_utils.py`,
+- implemented `src/utils/reproducibility.py`,
+- refined several YAML configs:
+  - `configs/project.yaml`
+  - `configs/dataset_build.yaml`
+  - `configs/features.yaml`
+  - `configs/labels.yaml`
+  - `configs/training.yaml`
+  - `configs/evaluation.yaml`
+- updated `README.md` to reflect the new runtime utilities.
+
+Validation reported by the assistant:
+- config loading smoke checks passed,
+- optional env and required env behavior checks passed,
+- path override checks passed,
+- `compileall` passed,
+- `ruff` passed.
+
+================================================================================
+TURN 14 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 14 - ASSISTANT ACTION AND RESULT - STAGE 2
+================================================================================
+
+The assistant implemented Stage 2 (data contracts, schemas, manifests).
+
+Main changes:
+- implemented `src/data/data_contracts.py`,
+- replaced `tests/test_data_contracts.py` with executable tests,
+- upgraded `docs/data_layout.md`,
+- updated multiple `data/**/README.md` files.
+
+The assistant added canonical contracts for:
+- market request ledgers,
+- prices,
+- adjusted prices,
+- news articles,
+- split events,
+- article embeddings,
+- event states,
+- company KB,
+- labels,
+- modeling panel.
+
+Validation reported by the assistant:
+- `pytest tests/test_data_contracts.py -q` passed with 9 tests,
+- `compileall` passed,
+- `ruff` passed.
+
+================================================================================
+TURN 15 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 15 - ASSISTANT ACTION AND RESULT - STAGE 3
+================================================================================
+
+The assistant implemented Stage 3 (universe handling and provider hardening).
+
+Main changes:
+- implemented `src/data/universe_builder.py`,
+- implemented `src/data/split_events_client.py`,
+- hardened:
+  - `src/data/twelve_data_client.py`
+  - `src/data/finnhub_client.py`
+  - `src/data/sec_edgar_client.py`
+- added `tests/test_provider_clients.py`.
+
+Key capabilities added:
+- dot-ticker-safe universe handling,
+- pilot subsets,
+- split-event normalization and ratio parsing,
+- richer provider metadata export,
+- deterministic Finnhub chunking,
+- SEC mapping extraction.
+
+Validation reported by the assistant:
+- `pytest tests/test_provider_clients.py -q` passed with 9 tests,
+- `compileall` passed,
+- `ruff` passed.
+
+The assistant explicitly noted that no live provider calls were made yet.
+
+================================================================================
+TURN 16 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 16 - ASSISTANT ACTION AND RESULT - STAGE 4
+================================================================================
+
+The assistant implemented Stage 4 (raw market ingestion and incremental updates).
+
+Main changes:
+- implemented `src/data/incremental_updates.py`,
+- implemented `src/data/quality_checks.py`,
+- implemented `src/data/price_pipeline.py`,
+- implemented `src/cli/build_market_data.py`,
+- added `tests/test_market_pipeline.py`,
+- updated raw/interim README files.
+
+Capabilities added:
+- latest local date detection,
+- missing-range planning,
+- repair windows,
+- raw payload writing,
+- market request ledgers,
+- interim per-ticker parquet outputs,
+- quality reports,
+- market-data CLI dry-run mode.
+
+Validation reported by the assistant:
+- Stage 4 tests passed,
+- `compileall` passed,
+- `ruff` passed,
+- CLI dry-run worked for `AAPL` and `BRK.B`.
+
+================================================================================
+TURN 17 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 17 - ASSISTANT ACTION AND RESULT - STAGE 5
+================================================================================
+
+The assistant implemented Stage 5 (split event sourcing and corporate action adjustment).
+
+Main changes:
+- implemented `src/data/corporate_actions.py`,
+- extended `src/data/price_pipeline.py` with adjusted-price support,
+- implemented `tests/test_corporate_actions.py`,
+- updated split-handling documentation.
+
+Capabilities added:
+- cumulative future split factor computation,
+- explicit OHLC division and volume multiplication,
+- missing split mitigation policies,
+- split-window exclusion helper,
+- split-adjustment diagnostics,
+- adjusted-price writing through the market pipeline.
+
+Validation reported by the assistant:
+- `pytest tests/test_corporate_actions.py -q` passed with 7 tests,
+- `compileall` passed,
+- `ruff` passed,
+- split-adjustment smoke diagnostics showed raw split jumps were reduced after adjustment.
+
+================================================================================
+TURN 18 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 18 - ASSISTANT ACTION AND RESULT - STAGE 6
+================================================================================
+
+The assistant implemented Stage 6 (news ingestion, text preparation, canonical article tables).
+
+Main changes:
+- implemented `src/utils/time_and_calendars.py`,
+- implemented `src/features/news_text.py`,
+- implemented `src/utils/hashing.py`,
+- implemented `src/split/alignment_rules.py`,
+- extended `src/data/quality_checks.py` with news quality reporting,
+- implemented `src/data/news_pipeline.py`,
+- implemented `src/cli/build_news_data.py`,
+- implemented `tests/test_alignment.py`,
+- added `tests/test_news_pipeline.py`.
+
+Capabilities added:
+- UTC normalization,
+- market-close timestamps,
+- after-hours rollover,
+- canonical article text,
+- stable text hashing,
+- URL-first and fallback-hash deduplication,
+- aligned `asof_trade_date` fields,
+- raw/interim news artifacts and manifests.
+
+Validation reported by the assistant:
+- alignment and news pipeline tests passed,
+- `compileall` passed,
+- `ruff` passed,
+- news-data CLI dry-run worked for `AAPL` and `BRK.B`.
+
+================================================================================
+TURN 19 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 19 - ASSISTANT ACTION AND RESULT - STAGE 7
+================================================================================
+
+The assistant implemented Stage 7 (SEC KB and universe enrichment).
+
+Main changes:
+- implemented `src/data/company_kb_pipeline.py`,
+- implemented `src/cli/build_company_kb.py`,
+- extended `src/data/universe_builder.py` with enrichment hooks,
+- extended `src/data/data_contracts.py` with:
+  - `company_ticker_mappings`
+  - `company_aliases`
+- added `tests/test_company_kb_pipeline.py`,
+- updated KB documentation.
+
+Capabilities added:
+- KB row generation,
+- ticker/CIK mapping table,
+- alias table,
+- raw SEC payload writing,
+- KB quality reports,
+- KB manifest writing,
+- universe enrichment with extra static fields.
+
+Validation reported by the assistant:
+- KB tests passed,
+- `compileall` passed,
+- `ruff` passed,
+- company-KB CLI dry-run passed.
+
+================================================================================
+TURN 20 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 20 - ASSISTANT ACTION AND RESULT - STAGE 8
+================================================================================
+
+The assistant implemented Stage 8 (market features and labels).
+
+Main changes:
+- implemented `src/features/market_features.py`,
+- implemented `src/features/labels.py`,
+- replaced `tests/test_labels.py` with executable tests,
+- replaced `tests/test_leakage.py` with executable Stage 8 leakage checks,
+- updated docs/status.
+
+Capabilities added:
+- conservative EOD market features,
+- benchmark-relative features,
+- multi-horizon forward and excess returns,
+- direction labels,
+- downside labels,
+- label availability summaries,
+- adjusted-price enforcement in both feature and label builders.
+
+Validation reported by the assistant:
+- label and leakage tests passed,
+- `compileall` passed,
+- `ruff` passed,
+- a small feature/label smoke audit confirmed past-only features and future-only labels were correctly offset.
+
+================================================================================
+TURN 21 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 21 - ASSISTANT ACTION AND RESULT - STAGE 9
+================================================================================
+
+The assistant implemented Stage 9 (article embeddings and event-state aggregation).
+
+Main changes:
+- implemented `src/features/news_embeddings.py`,
+- implemented `src/features/event_state.py`,
+- replaced `tests/test_event_state.py` with executable tests,
+- updated `data/embeddings/README.md`,
+- updated docs/status.
+
+Capabilities added:
+- deterministic hashing-based embedding backend,
+- optional sentence-transformer path,
+- embedding cache reuse via `(article_id, model_id, text_hash)`,
+- event-state aggregation with recency weighting,
+- novelty/conflict/density,
+- no-news fallback,
+- event-state coverage summaries.
+
+Validation reported by the assistant:
+- event-state and alignment tests passed,
+- `compileall` passed,
+- `ruff` passed,
+- a smoke audit confirmed cache text hashes and event-state counts behaved as expected.
+
+================================================================================
+TURN 22 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 22 - ASSISTANT ACTION AND RESULT - STAGE 10
+================================================================================
+
+The assistant implemented Stage 10 (final modeling-dataset assembly).
+
+Main changes:
+- implemented `src/data/modeling_dataset.py`,
+- implemented `src/cli/build_modeling_dataset.py`,
+- added `tests/test_modeling_dataset.py`,
+- updated final/manifests docs,
+- updated README and guidebook.
+
+Capabilities added:
+- final `(ticker, date)` panel assembly,
+- market features + labels + optional event-state/company joins,
+- manifest generation,
+- CLI dry-run support.
+
+Validation reported by the assistant:
+- modeling-dataset tests passed,
+- `compileall` passed,
+- `ruff` passed,
+- modeling-dataset CLI dry-run passed.
+
+================================================================================
+TURN 23 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 23 - ASSISTANT ACTION AND RESULT - STAGE 11
+================================================================================
+
+The assistant implemented Stage 11 (temporal validation, purge, embargo, leakage hardening).
+
+Main changes:
+- implemented `src/split/walk_forward_splits.py`,
+- implemented `src/split/purged_embargo_splits.py`,
+- implemented `src/split/leakage_checks.py`,
+- replaced `tests/test_walk_forward.py` with executable tests,
+- expanded `tests/test_leakage.py`,
+- upgraded `docs/evaluation_protocol.md`.
+
+Capabilities added:
+- walk-forward split generation,
+- purge/embargo logic,
+- chronology and overlap checks,
+- article alignment leakage assertions,
+- scaler-fit contamination checks,
+- future profile effective-date checks.
+
+Validation reported by the assistant:
+- Stage 11 tests passed,
+- `compileall` passed,
+- `ruff` passed.
+
+================================================================================
+TURN 24 - USER
+================================================================================
+
+The user asked to continue to the next stage in the same style.
+
+================================================================================
+TURN 24 - ASSISTANT ACTION AND RESULT - STAGE 12
+================================================================================
+
+The assistant implemented Stage 12 (market-only baselines).
+
+Main changes:
+- implemented `src/models/baseline_models.py`,
+- implemented `src/models/loss_functions.py`,
+- implemented `src/models/dataloaders.py`,
+- implemented `src/models/inference.py`,
+- implemented `src/models/trainer.py` baseline path,
+- implemented `src/cli/train_market_baseline.py`,
+- added `tests/test_baseline_training.py`,
+- updated run/checkpoint docs.
+
+Capabilities added:
+- ridge baseline,
+- elastic-net baseline,
+- optional market MLP path,
+- checkpointing,
+- prediction export,
+- simple fold metrics,
+- baseline training CLI.
+
+Validation reported by the assistant:
+- baseline training tests passed,
+- `compileall` passed,
+- `ruff` passed,
+- a CLI smoke training run succeeded on a synthetic panel.
+
+The assistant also recorded one bug fix:
+- logging formatter issues around `run_id` were fixed by attaching the `RunContextFilter` to handlers.
+
+================================================================================
+TURN 25 - USER
+================================================================================
+
+The user asked to implement the next stage and explicitly explained how to activate the WSL `ai` environment:
+- `source ~/venvs/ai/bin/activate`
+
+The user also warned that this command was WSL-specific and that WSL might need to be invoked first.
+
+================================================================================
+TURN 25 - ASSISTANT ACTION AND RESULT - STAGE 13
+================================================================================
+
+The assistant implemented Stage 13 (first multimodal model) and used WSL commands to access the `ai` environment.
+
+The assistant explicitly checked the WSL `ai` environment using commands conceptually equivalent to:
+- checking the Python executable,
+- checking `torch` availability,
+- checking `sklearn` availability.
+
+Main changes:
+- implemented `src/models/multimodal_models.py`,
+- extended `src/models/dataloaders.py`,
+- extended `src/models/inference.py`,
+- extended `src/models/trainer.py` for multimodal folds,
+- implemented `src/cli/train_multimodal_model.py`,
+- added `tests/test_multimodal_training.py`,
+- updated docs/status.
+
+Capabilities added:
+- first multimodal regressor with market encoder + event-state encoder + gating fusion,
+- multimodal batch schema,
+- multimodal training path,
+- multimodal checkpointing,
+- multimodal prediction export.
+
+Validation reported by the assistant:
+- multimodal training tests passed in the WSL `ai` environment,
+- multimodal CLI smoke training succeeded,
+- full pytest suite passed in the `ai` environment at that point,
+- `compileall` passed,
+- `ruff` passed.
+
+================================================================================
+TURN 26 - USER
+================================================================================
+
+The user asked to implement the next stage and ensure all tests pass successfully.
+
+================================================================================
+TURN 26 - ASSISTANT ACTION AND RESULT - STAGE 14
+================================================================================
+
+The assistant implemented Stage 14 (metrics, calibration, statistical tests, evaluation, and ablations).
+
+Main changes:
+- implemented `src/models/metric_registry.py`,
+- implemented `src/models/calibration.py`,
+- implemented `src/models/statistical_tests.py`,
+- implemented `src/models/ablation_runner.py`,
+- implemented `src/cli/evaluate_experiments.py`,
+- implemented `src/cli/run_ablations.py`,
+- added:
+  - `tests/test_evaluation_tools.py`
+  - `tests/test_ablation_runner.py`
+- updated reporting-related docs/status.
+
+Capabilities added:
+- regression metrics,
+- classification metrics,
+- ranking metrics,
+- calibration utilities,
+- bootstrap and Diebold-Mariano-style comparisons,
+- evaluation CLI,
+- ablation CLI.
+
+Commands emphasized during this phase included smoke-style evaluation commands conceptually equivalent to:
+- evaluating baseline predictions against a panel,
+- evaluating multimodal predictions against a panel,
+- running ablation comparison over two run summaries.
+
+Validation reported by the assistant:
+- evaluation-tool tests passed,
+- ablation-runner tests passed,
+- CLI smoke evaluations passed,
+- full pytest suite in the `ai` environment passed,
+- `ruff` passed,
+- `compileall` passed.
+
+================================================================================
+TURN 27 - USER
+================================================================================
+
+The user asked to implement the next stage and ensure all tests pass successfully.
+
+================================================================================
+TURN 27 - ASSISTANT ACTION AND RESULT - STAGE 15
+================================================================================
+
+The assistant implemented Stage 15 (documentation hardening and research reporting support).
+
+Main changes:
+- updated `README.md`,
+- rewrote `docs/architecture_overview.md`,
+- rewrote `docs/implementation_roadmap.md`,
+- updated `docs/evaluation_protocol.md`,
+- updated several artifact/run/report/notebook guide files,
+- updated `Complete_guidebook.txt`,
+- updated `execution_plan.txt`,
+- added a clarification in `project_extra_data.txt` that it is a human-readable archive rather than a verbatim legal transcript.
+
+Validation reported by the assistant:
+- full pytest suite in the `ai` environment passed,
+- `ruff` passed,
+- `compileall` passed.
+
+================================================================================
+TURN 28 - USER
+================================================================================
+
+The user asked for a more elaborate testing strategy to ensure the whole system still works as expected, including:
+- API use,
+- parsing,
+- cleaning,
+- preprocessing,
+- performance and accuracy considerations,
+- common pitfalls,
+- and avoiding useless or contradictory tests.
+
+================================================================================
+TURN 28 - ASSISTANT
+================================================================================
+
+The assistant responded with a multi-layer testing strategy.
+
+The proposed layers included:
+- environment and dependency gates,
+- provider and API behavior tests,
+- parsing/cleaning/canonicalization tests,
+- data integrity and cross-table tests,
+- research integrity tests,
+- performance/scalability smoke tests,
+- reproducibility tests,
+- end-to-end mini pipeline tests.
+
+The assistant also clearly distinguished:
+- high-value tests worth adding,
+- live API tests that should be opt-in,
+- and low-value tests that were not worth implementing yet.
+
+================================================================================
+TURN 29 - USER
+================================================================================
+
+The user then asked to elaborate the tests but explicitly instructed:
+- do not execute any tests,
+- do implement them,
+- and provide commands to run them in a markdown document.
+
+================================================================================
+TURN 29 - ASSISTANT ACTION
+================================================================================
+
+The assistant added a stronger testing layer without executing the tests.
+
+Files created or updated during this step included:
+- `tests/test_text_normalization.py`
+- `tests/test_hashing.py`
+- `tests/test_news_deduplication.py`
+- `tests/test_dataset_integrity.py`
+- `tests/test_research_integrity.py`
+- `tests/test_reproducibility_end_to_end.py`
+- `tests/test_end_to_end_minipipeline.py`
+- `tests/integration/__init__.py`
+- `tests/integration/test_live_twelvedata.py`
+- `tests/integration/test_live_finnhub.py`
+- `tests/integration/test_live_sec.py`
+- `docs/testing_commands.md`
+- `tests/__init__.py`
+
+The assistant emphasized that:
+- the new offline tests were meaningful and aligned with the implemented architecture,
+- the live integration tests were explicitly opt-in,
+- and no tests were run in that turn.
+
+================================================================================
+TURN 30 - USER
+================================================================================
+
+The user asked to make sure:
+- `Complete_guidebook.txt`
+- `requirements.txt`
+were properly updated and matched the current repository state,
+and also asked for the command to install requirements.
+
+================================================================================
+TURN 30 - ASSISTANT ACTION AND RESULT
+================================================================================
+
+The assistant reviewed those files and updated them.
+
+Important specific result:
+- `requirements.txt` was updated to explicitly include `joblib>=1.4`, because it is directly imported by the current baseline checkpointing code.
+
+The assistant also updated `Complete_guidebook.txt` so it now reflected:
+- the new test files,
+- the testing command document,
+- updated repository summary and remaining-work notes,
+- the adjusted description of `requirements.txt`.
+
+The assistant then gave the recommended install commands for the WSL `ai` environment.
+
+The most recent install command given by the assistant was:
+
+`cd ~/1_Projects/AA/event-state-forecasting && source ~/venvs/ai/bin/activate && python -m pip install --upgrade pip && pip install -r requirements.txt`
+
+The assistant also gave a shorter version:
+
+`cd ~/1_Projects/AA/event-state-forecasting && source ~/venvs/ai/bin/activate && pip install -r requirements.txt`
+
+================================================================================
+TURN 31 - USER
+================================================================================
+
+The user asked to update `project_extra_data.txt` by adding all additional context possible, with special emphasis on:
+- the most recent commands,
+- and then climbing backward to cover as much of the rest of the conversation as possible.
+
+The user also reminded the assistant that the session was in build mode and file changes were allowed.
+
+================================================================================
+CURRENT TURN - ASSISTANT ACTION
+================================================================================
+
+The assistant is now updating `project_extra_data.txt` to extend the conversation archive with:
+- the entire staged implementation history after the original archive stopped,
+- the major architectural and testing milestones,
+- the most recent environment and installation commands,
+- and the latest testing/documentation expansion context.
+
+Special emphasis on latest command context at the time of this update
+
+Most recent high-importance commands discussed or supplied in visible conversation:
+- WSL `ai` environment activation:
+  - `source ~/venvs/ai/bin/activate`
+- WSL project navigation used repeatedly in examples and test command guidance:
+  - `cd ~/1_Projects/AA/event-state-forecasting`
+- full dependency install command recommended most recently:
+  - `cd ~/1_Projects/AA/event-state-forecasting && source ~/venvs/ai/bin/activate && python -m pip install --upgrade pip && pip install -r requirements.txt`
+- shorter dependency install command:
+  - `cd ~/1_Projects/AA/event-state-forecasting && source ~/venvs/ai/bin/activate && pip install -r requirements.txt`
+
+Most recent testing-command context added to the repository:
+- the file `docs/testing_commands.md` now contains grouped manual commands for:
+  - full offline suite,
+  - data correctness suite,
+  - temporal safety suite,
+  - modeling/evaluation suite,
+  - synthetic end-to-end suite,
+  - opt-in live provider tests,
+  - Ruff and compile-only smoke checks.
+
+Important current repository state at the time of this update
+- stages 0 through 15 have been implemented in first-pass form,
+- the repository now contains both offline and opt-in live integration tests,
+- `requirements.txt` explicitly includes `joblib`,
+- `Complete_guidebook.txt` has been updated to reflect the expanded test suite,
+- and `project_extra_data.txt` is being extended to capture the implementation and testing history beyond the first archive boundary.

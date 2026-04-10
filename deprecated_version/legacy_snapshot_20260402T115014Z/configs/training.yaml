@@ -1,0 +1,41 @@
+# Training configuration blueprint.
+#
+# This file should eventually define:
+# - optimizer and scheduler defaults,
+# - batch sizing,
+# - mixed precision policy,
+# - checkpoint rules,
+# - dataloader worker policy,
+# - early stopping behavior,
+# - run folder structure,
+# - deterministic vs throughput tradeoffs.
+
+trainer:
+  framework: plain_pytorch
+  max_epochs: 50
+  early_stopping_patience: 5
+  mixed_precision: optional
+  distributed_training: false
+
+optimization:
+  optimizer: adamw
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  scheduler: cosine_or_none
+
+dataloader:
+  train_batch_size: 256
+  eval_batch_size: 512
+  num_workers: 4
+  pin_memory: true
+
+checkpointing:
+  save_best_only: true
+  monitor: val_loss
+  mode: min
+
+logging:
+  save_resolved_config: true
+  save_predictions: true
+  save_metrics: true
+  save_run_metadata: true

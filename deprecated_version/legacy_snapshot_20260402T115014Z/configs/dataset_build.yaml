@@ -1,0 +1,40 @@
+# Dataset-build configuration blueprint.
+#
+# This file should eventually specify:
+# - universe inputs,
+# - date ranges,
+# - incremental update policy,
+# - raw-to-interim normalization jobs,
+# - final dataset assembly jobs,
+# - output destinations and manifest paths.
+
+universe:
+  source_file: data/raw/universe/latest_universe_snapshot.csv
+  pilot_file: data/raw/universe/pilot10.csv
+  active_mode: pilot
+  active_file: data/raw/universe/pilot10.csv
+
+dates:
+  start_date: 2006-01-01
+  end_date: null
+
+incremental_updates:
+  enabled: true
+  max_symbols_per_run: 25
+  repair_suspicious_windows: true
+  repair_window_trading_days: 5
+
+outputs:
+  write_manifests: true
+  write_coverage_reports: true
+  raw_market_subdir: twelvedata
+  raw_news_subdir: finnhub
+  raw_kb_subdir: sec
+
+build_flags:
+  refresh_market_data: false
+  refresh_news_data: false
+  refresh_company_kb: false
+  rebuild_features: false
+  rebuild_labels: false
+  rebuild_final_panel: false

@@ -1,0 +1,3804 @@
+.
+├── .cache
+│   ├── huggingface
+│   │   └── transformers
+│   └── torch
+├── .env
+├── .env.example
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── ORIG_HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       └── remotes
+│   ├── objects
+│   │   ├── 00
+│   │   │   └── 57277cbe17e994f8819baa1305d09aac7a63b0
+│   │   ├── 01
+│   │   │   └── 47b32d8383d575fede451ce870d3214da0e407
+│   │   ├── 02
+│   │   │   ├── 63ce4822ddc02f1ca3308ed5b01ac64a354368
+│   │   │   └── 9bb25226158b5544fa281c384b60319da6a33f
+│   │   ├── 03
+│   │   │   ├── 80c5dca0a74e4de6b89bfbcc1add3f58d761ef
+│   │   │   ├── 88b0ec5c10e87225e909cfc90eda1bc1008777
+│   │   │   ├── cd1d62efe37731cfad3609b73dcb5b303fc5ff
+│   │   │   └── f75a1e752db2e32af9ab53679df5dbbf07a0d6
+│   │   ├── 04
+│   │   │   ├── 083f6e8d7bd8d894aaf8c0b59653b007f705db
+│   │   │   └── 50091d33e74ecb851d745e3da69d37924fca88
+│   │   ├── 05
+│   │   │   ├── 0937ac90cde44c68ffe615ff110e3aa9637d33
+│   │   │   ├── 875a0479d649bfe1ea126e9395f832ff561a98
+│   │   │   └── bea1a8d032971ba2ddea3ab1c08cbdc298e0d5
+│   │   ├── 06
+│   │   │   ├── 5f2fc7c98e6ea0015bf3f0b4730e0ae4fc0884
+│   │   │   ├── 890ba0dc48eb6c218fe6801d66ac920c22e64e
+│   │   │   ├── 9ef1d2cfdac36e2806716f614c23cf56c97a90
+│   │   │   └── f94231ae0bc4ac58b89c00f6d7adf06bbe5f4b
+│   │   ├── 07
+│   │   │   ├── 6ad14d889642943250fe91dc87137cd09b84bc
+│   │   │   ├── 826e1bfcca7ebad5d4d7d42ae82b5c10a454ff
+│   │   │   └── 85d60212e2458aae1bb10d6153f9c3b8ad8a5b
+│   │   ├── 08
+│   │   │   └── 5ed6a39b5bb6f87904f356eed0541e9d3132c0
+│   │   ├── 09
+│   │   │   ├── 7d00dc474d30fdf667a3fab7b8c5ed34bebd16
+│   │   │   ├── 8c00e4c912fe6a650e9233f549e177e9d9af6d
+│   │   │   ├── 94ed1ea36430474aad64df705ce3ddffa74cf1
+│   │   │   ├── a2bcbba6e328398a4209515adca7f0ff761b3a
+│   │   │   ├── a760bb30efd2c6112b9cc0ef04c19527491bf8
+│   │   │   └── d369185e21430f5aacb7db656ebec8bafe6193
+│   │   ├── 0a
+│   │   │   └── c1ebb7fcd0707ff954d4dd7ca196213e80c633
+│   │   ├── 0b
+│   │   │   ├── a98b3f1dd3ac65aa410d12734c670837b894fb
+│   │   │   └── aac26878b99d62d66061387c0edef09545d632
+│   │   ├── 0c
+│   │   │   ├── 10c876357210686f1a8bb14549ca84c1259cd2
+│   │   │   ├── 3ce656d59c0fb501f02a8caedf138abbf997d3
+│   │   │   └── ce8c68c04a8e032091d619e6c31717577305d2
+│   │   ├── 0d
+│   │   │   ├── 6fa31068326ffe50553142ea1f21fb2cc38e3f
+│   │   │   └── c4eb05c83924ef8aaa745cb9b7bf182265b531
+│   │   ├── 0e
+│   │   │   ├── a2694c318f0b2780f171c6fe881276aef02c31
+│   │   │   └── af7efc33449def424858bd71c3e6a3fc556d92
+│   │   ├── 0f
+│   │   │   ├── 140faf3915005f0a2118dbb954c5f654c6df8e
+│   │   │   ├── 7618d0d71b2738aa1299b3876a5395dfbc9595
+│   │   │   └── 830b7276ec653dfac22b7e4528ef904bb87b28
+│   │   ├── 10
+│   │   │   └── 34cf332d0bceb1cf4c1b503c98ae99dab10d79
+│   │   ├── 11
+│   │   │   ├── 00aff69d00d53e1bbf2716f4022b3c06ec7e3a
+│   │   │   └── ded6320001a7f938556f98c7d2ab73c3c44a7b
+│   │   ├── 12
+│   │   │   ├── 009e603ef091505824c9c82580df7b5101e9c7
+│   │   │   └── d5d2817361b221930f3e89a5c781191a5ea2b7
+│   │   ├── 13
+│   │   │   └── 52dad683ae4f0adc11a4389a89257ba68f02c5
+│   │   ├── 15
+│   │   │   ├── 09f7968b9ea7d89958cee52ddb284383066f5e
+│   │   │   ├── b20ee9bd32dc411d260f868642c02b79e2d284
+│   │   │   └── f2845a792153e44538eddf1f18730ece6e7fb3
+│   │   ├── 16
+│   │   │   └── 0960dfcb739ebf2b6da946ba02c16e84433edb
+│   │   ├── 17
+│   │   │   ├── 82656e97b5a377797f2c7ab836edcfe2f6bf71
+│   │   │   ├── a2171347c56e8b6b4f282f18ee2dfa7c1368f0
+│   │   │   ├── d14acb548e57f3bfbdfd38e672ef4ad429f669
+│   │   │   └── fc25c6e1abb138a4dd73c03f98e561931d150f
+│   │   ├── 18
+│   │   │   ├── 8e4816de06735701a0cb396f7f0c654523df84
+│   │   │   ├── 918c72a2d20b36547e22e212a00e1abfcda25e
+│   │   │   ├── 96aff8114e681dd234190e35041e75831e9b98
+│   │   │   ├── 97020374d82c09f755d29a491b7697f838bbdf
+│   │   │   └── c8b5181d4a77dad4a83d3a99c35ae1631b003f
+│   │   ├── 19
+│   │   │   ├── 018677dc2e4cb35f1f53837bcdb17c3e756a40
+│   │   │   └── 82c3b5b95a7ae25044cb79fa0d66a29ee67676
+│   │   ├── 1a
+│   │   │   ├── 3e0042dce533666a2bfc78814120947b4d8cd2
+│   │   │   └── ff7a6451009d7bb39c2be51551ba8267f7c27f
+│   │   ├── 1b
+│   │   │   ├── 0760c3bf8e19c3b982101854065cb7e82cdf60
+│   │   │   ├── 1ca3032878467add4eb61a92782f6d0ac3b41b
+│   │   │   └── ec28e4985cefc5318af3f5d0c0ecf670b7cfe5
+│   │   ├── 1c
+│   │   │   └── e1f926d944a602bea8b515726fba32d8c3855e
+│   │   ├── 1d
+│   │   │   ├── 7639360b0c47aee34aff8de1145c5877c0d35a
+│   │   │   └── cf3692a578089c8b69d850ee746d2a39c07105
+│   │   ├── 1e
+│   │   │   ├── 5aec596ef8926b0a3172de107f3b90b67d2c58
+│   │   │   ├── 7771568b6043235053b02e11c84243ea823121
+│   │   │   └── dfb505d94e552edd9f1aea8587274d2bdfbe38
+│   │   ├── 1f
+│   │   │   ├── ac9e14576f8942044090c6f75f0584eb6ae2a0
+│   │   │   └── f3d5c0f0f72f951d43e2a94cda3a4a5e3b8c7b
+│   │   ├── 20
+│   │   │   ├── 059e3f47c67935ab9011902ac8dffcf96a2f47
+│   │   │   ├── 21b26b26df571373a0f8012b2ce147ef1524a1
+│   │   │   ├── 3760f7879837b56a3b1870c60f5d71e696ab23
+│   │   │   ├── 73723c3cf229b6d25c627e61d369dc4f314a8e
+│   │   │   └── a33fe5f7e60fa639de4dcc4531ba0c0fce5614
+│   │   ├── 21
+│   │   │   ├── ae87a7282afa0c16c4521446480f6982ad3f6f
+│   │   │   └── d3f7962bf727f7b0b197ae810eb390f1ed162d
+│   │   ├── 22
+│   │   │   ├── 4ee855ee68c5abbbeb2f8087370097b6d7e6cf
+│   │   │   ├── ab83c947863549977282e0d638442d41ec3e9f
+│   │   │   └── bf64436df964a25ac2d7acf99221f95b246c50
+│   │   ├── 23
+│   │   │   └── 45baa2d31462d9a7f5088a496ab02524a284d7
+│   │   ├── 24
+│   │   │   └── 8b0c4296a17544ee960cc0830f08a3bd21c957
+│   │   ├── 25
+│   │   │   ├── a7d30559e6efb481170f29a5b97a9675ce23b9
+│   │   │   └── f568049b8cc37fe8c86943fc0431698fc7cef9
+│   │   ├── 27
+│   │   │   └── a4c0850c6f2d15dfd8417eb6751c79a9c751a7
+│   │   ├── 28
+│   │   │   ├── 956727e6022e4788eed1f7471e459309ac1963
+│   │   │   ├── 99ecdc2e0179081f2c94a92fd9095e476d6703
+│   │   │   └── aca4da91c461233f3af569a2375b31f4b2ed2c
+│   │   ├── 29
+│   │   │   ├── 60be5b5e58310142f5fff1f129abf71cf31807
+│   │   │   └── ce48e2a47dcfb3609416645130ce11e9627918
+│   │   ├── 2a
+│   │   │   ├── cb7fe053159066665e19ee8c354a4b42653da8
+│   │   │   ├── e1122d88e7605afab618b67f57e7547c3e3d40
+│   │   │   └── f264a24488b12de62dd0fbb3376d53bad513df
+│   │   ├── 2b
+│   │   │   ├── 5ed716066f868d61167791e93246cd9cc92d48
+│   │   │   └── 9d91c36a40cd98d41da28b7262e46d66ac6c00
+│   │   ├── 2c
+│   │   │   └── db27261f8e4343a9f84380281a5e760dd27802
+│   │   ├── 2d
+│   │   │   └── 6ebebab2c8017e26b9823e8a4f3419d463a7ed
+│   │   ├── 2e
+│   │   │   ├── 21ae9f1aed04123605e3f598d593f46db6d58a
+│   │   │   ├── 21c86e1eab968eca156bcd52d8e0b7c3ad549d
+│   │   │   ├── deb21fa292247656f4d360ba647743d292cca5
+│   │   │   └── ea525d885d5148108f6f3a9a8613863f783d36
+│   │   ├── 2f
+│   │   │   └── 6c8ec48ecfe8af52b9b7ada24797f0eb313c3c
+│   │   ├── 30
+│   │   │   ├── 264b61f7741086806edaead4356842bf221f02
+│   │   │   └── 66a3ae7b234dfe40f2fd0a63aa50a7ffe8c004
+│   │   ├── 31
+│   │   │   └── e0ff8aa6d278c91934d93f8fc8b9485a87cce1
+│   │   ├── 32
+│   │   │   ├── 44ff93a5442bc4ab7c8eb7c0c7847d82391dc6
+│   │   │   ├── 91420ed98cea2ab43f8fe74f57cfaeb1ac2b7f
+│   │   │   └── d35c4910afd72f01baa364cf4ddfe45acd0244
+│   │   ├── 33
+│   │   │   └── b23ad8c444e436159da8eb96944d6b0cc0799e
+│   │   ├── 34
+│   │   │   ├── a769975209e85b8c96f84e45512b3268e4a078
+│   │   │   └── babc0309d08a5234417c8003411cb92b850c03
+│   │   ├── 35
+│   │   │   ├── 29e30d1d13a6ad0cdebd2779e070684ad01baa
+│   │   │   ├── 7d127fc0b1f4429bf852dd76729c127afc8653
+│   │   │   ├── 9d754b5d9138cab90612a67352e9c560231be5
+│   │   │   └── a066d8168aaedca5e9c60f7d909759cfdad4f3
+│   │   ├── 36
+│   │   │   ├── 0630c5862352263c52e6d05200d96fc64faf0c
+│   │   │   ├── 0910bfc898eb6d55736e37cb99a0e49d03141d
+│   │   │   └── 79f836eabce47f44cf23ae287c58951b9a8945
+│   │   ├── 38
+│   │   │   ├── 622680c1ffd8a01d74a6634c972dd9d6f42831
+│   │   │   ├── dc03faf2305c06f5ed832807c5a529848935e9
+│   │   │   └── ebc43a843cf4dec1172756faca285559c331e9
+│   │   ├── 39
+│   │   │   └── 31ae35664974c9ca61415f96fef017000e3881
+│   │   ├── 3a
+│   │   │   └── f3cc5f155a3df2e9869632f3611e1e4fad235b
+│   │   ├── 3b
+│   │   │   ├── 3a9b6391943bc7be612c64a1ccc53d208b642a
+│   │   │   └── ddf13e3ebb0b3de979c55706a00bac7f9f8c89
+│   │   ├── 3c
+│   │   │   └── 3753c1befbce73ad14464c3d010fe9f46b73a8
+│   │   ├── 3e
+│   │   │   ├── 065c86b4c84891bf17d13878e9459a806ccdb2
+│   │   │   └── 480a7d511ae05b16093885c2b32e74b1b00462
+│   │   ├── 40
+│   │   │   ├── 883a0aa13a6afd3e397dea10a31bc1c2e9044c
+│   │   │   ├── aba4f8ef684affb6d642229a831d25008eff09
+│   │   │   ├── c4679460e57bccd6cc25a11d83caa2f8b25bf6
+│   │   │   └── ff3a8f0884a02d0030666b353ba05dbac71f9b
+│   │   ├── 41
+│   │   │   ├── 436b3bd68e943e4603a25dca2cf926103a5a60
+│   │   │   └── cdc13837f238f72121fb5a824666a289679a5a
+│   │   ├── 42
+│   │   │   ├── 39b2f73d23b1ce6aec0c352a6ab7b95f3a97d6
+│   │   │   ├── 797def8f8be381cba7ac44002a040c4d285ff4
+│   │   │   └── b832c0d7630011a60c2588244b6ed5c591163e
+│   │   ├── 43
+│   │   │   ├── ca2196ef353ec74df2dec9d12bf8534fe08696
+│   │   │   ├── cf733beecdcc90c259730d88c4c3bb77f7915f
+│   │   │   └── f704dab5861088f54a9f0dac74726737a81a7d
+│   │   ├── 45
+│   │   │   └── 5a71d7e6932ec24d932be1c0044565cd2dffb4
+│   │   ├── 47
+│   │   │   └── 5650b8661a46184327355e637e9969fb83d208
+│   │   ├── 48
+│   │   │   └── 8edfb9e9b941001eac96a9edac9a1da5c3172d
+│   │   ├── 49
+│   │   │   └── 128f74f0e9801ac75627185a31bd3d06267289
+│   │   ├── 4a
+│   │   │   └── c421e5f10c66ec615f16cbbd41e4625ae32a1b
+│   │   ├── 4b
+│   │   │   ├── 051a591b3fcc4949bc31bb09df40399cd4323f
+│   │   │   ├── 113abfcaeb9d862881b24376740fede00b6827
+│   │   │   ├── c258e7503296d05e38f00c32d5e7754d353b7b
+│   │   │   └── fb0a675181fbc4739a27a34080ed66227de3cc
+│   │   ├── 4c
+│   │   │   └── cb57dd117ecaf1452ee95cf59f72d4ddcf5dbc
+│   │   ├── 4d
+│   │   │   ├── 19daa1499aacad15bc29b16a3a00ac14e939e8
+│   │   │   ├── 6a3a333af60b36cabb304d01b459f40b47df2a
+│   │   │   ├── 809ab248de949d9d20f7cf7251d481c67e9473
+│   │   │   ├── b21f4d1a86460d2c89e1831c4cb69a9ad9107c
+│   │   │   └── db80685df59bb12723a7d233ed0b707ee63f34
+│   │   ├── 4f
+│   │   │   ├── 0624d74de0d3f1d1f4d89c931c6f3276b8958e
+│   │   │   ├── 0ec4bed1a2707dd987c1a8c0aa437a12b9af28
+│   │   │   ├── 17177b855cdacea3a41bfb91dddf1a62a4b646
+│   │   │   ├── 2e29e36e04ada0601dfbd752ad0e3ca360dad8
+│   │   │   └── 4ac78fdf65717cfd14efc5ec443c04dd612a96
+│   │   ├── 50
+│   │   │   ├── 58d891d0b6013b2e26fb029c2670b1a99e6877
+│   │   │   └── 8bcad8ee4d69327f973ae29cfc52d6fca63d01
+│   │   ├── 51
+│   │   │   └── a1fbf97ef40d3d1259188a2261393aa48b6811
+│   │   ├── 52
+│   │   │   ├── 602b2a3a9656d5307756c1723f7417514a275d
+│   │   │   └── 66c556949ab399b6aaa0c9f85dc914916adcc8
+│   │   ├── 53
+│   │   │   ├── 8e1686be6cec0a7d8879263a23eeff6688d646
+│   │   │   ├── bd09f35ff35a6ef94f3659da70a2e01bcd5766
+│   │   │   └── e33f35431d5d61f3caf33d6fb492cd07d44888
+│   │   ├── 54
+│   │   │   └── ee1fa2ce68989fedd19f1ab33f9c79fa7349c7
+│   │   ├── 55
+│   │   │   ├── 47f74a64e80362e6ed6985d0db32c9f46cfc5d
+│   │   │   └── b75091c91963cf7c7433cf8e909b8e5092190a
+│   │   ├── 56
+│   │   │   ├── a8232b3556714453b6ef87116cdb6ab8d707d9
+│   │   │   └── bd8378bce0a37bcd72ccfe10825f5e6eb0f87d
+│   │   ├── 57
+│   │   │   ├── 0d5e6dc2c54a5ca79ba2e2dfcedd1bd75e8706
+│   │   │   ├── 2e54b2d3677166bbce82cc51ff7a3ad43bd09c
+│   │   │   └── a36d5aafe75c4c54f1bd19bb0ee878006afd0b
+│   │   ├── 58
+│   │   │   ├── 5afd9356fab3bb9874648cb63f61879d94fa6a
+│   │   │   ├── b1016544feaa10826ed9f19972d269ed10439a
+│   │   │   └── c2bb19fbcfa742d0bea6bf644bdf7674a599f3
+│   │   ├── 59
+│   │   │   └── 58732ec2f75e3c3e9724eae089f89752b444cc
+│   │   ├── 5a
+│   │   │   ├── 07b384efcdd41de96cc839f23590bc98f8b094
+│   │   │   └── c93d3406e39f10b1e5bb30fe9e5a590fde47b3
+│   │   ├── 5b
+│   │   │   ├── 902e12f74b6de6134de8c65cdb0ef7b171a236
+│   │   │   ├── a533fbf8561ef60cfb147144f50ef06961e19a
+│   │   │   └── ff17692388e7c8dc1a580e82d0edb5cabd21a3
+│   │   ├── 5c
+│   │   │   ├── 2ff176e1dc4e281b122a2afe885ef26f2c2207
+│   │   │   ├── 934b1290ea411eccb1d0e2b687cf5a4ea7029e
+│   │   │   └── d310bd1e46261a065adfef1c55305ef472726c
+│   │   ├── 5d
+│   │   │   ├── 0d721387fdda285f3a874c289d61c582219d54
+│   │   │   ├── 4fcc738b3ca2a5aa3b428d60d37551f5b9ee97
+│   │   │   └── fc03793a10b2c488247601712863fab3c2c2d5
+│   │   ├── 5e
+│   │   │   └── 537d5e76bdf49613e96a7bfa7a2141f0cb8ee0
+│   │   ├── 60
+│   │   │   ├── 647420d7329ee6e6458aeff3a61f18feda8b27
+│   │   │   └── cd36d236a7dd97c914ee9fffc5df25c6c7ae96
+│   │   ├── 61
+│   │   │   ├── 263a035bbf4e92dd6460156e5f3b6cba547670
+│   │   │   └── 6c0a0a48536a0af743f0ab0c542446a4bd73ff
+│   │   ├── 62
+│   │   │   ├── 5e0744f27dc269dc729f08593ce426fedc3ab6
+│   │   │   ├── 75b68b8bd57c21c71eb5ad7948b10039c1383f
+│   │   │   └── f587404bb0aa36fbdfe55447febf9677b09065
+│   │   ├── 63
+│   │   │   ├── 7f300ed648d05fe9ad1c7c51ac6461e7e61a76
+│   │   │   └── f9d53196da81a79213515b88cf2c9a9e0cebe2
+│   │   ├── 64
+│   │   │   ├── 5e3cd83c49e707976547e59c289eb6bcecb1d6
+│   │   │   └── d8167bc445fb179ecafec273ffc7ebdf681d07
+│   │   ├── 65
+│   │   │   ├── 38eb27706b06edbb48500253f1748b63a33340
+│   │   │   └── c0e24a93a537253466b62cd7b25705286aacdc
+│   │   ├── 66
+│   │   │   ├── 05f974797b3fe3b5e25ca951fa9c13df20b4af
+│   │   │   ├── 2a1d9f609d8866d05d084a143781787865a8f5
+│   │   │   ├── 5411708c445fc7a0829994ce59b778371430df
+│   │   │   └── c7f5b56c11a25003c3488ffb3582e7b1f96bf4
+│   │   ├── 67
+│   │   │   ├── 4aa9319e899b0eec566556bb9e9fbbb2411e21
+│   │   │   └── 75fd04cc5ad98ef33d264f5a7f3036a4874f6c
+│   │   ├── 68
+│   │   │   ├── 3a8ddcaca028b4cb9b7140e193086a8fc37116
+│   │   │   ├── 4ffd5ebe083eef7a1ce9e64cdffabb42f71228
+│   │   │   ├── 8183617c794c1fafb0a4823a1e8ee066c804fd
+│   │   │   ├── 84c9b6c15558e6222a597bda1066b269d323c1
+│   │   │   └── fe261dfb99551c61d726521a283f30b543e46e
+│   │   ├── 69
+│   │   │   ├── 7bec39da2abbdedf5a06dd92f51479f0e8f8c8
+│   │   │   └── da1eb2a11958db03a815ee151fdfbc9b77463d
+│   │   ├── 6a
+│   │   │   ├── 8accd9ab6f8c188e8ac659aaacff0fd6e129d4
+│   │   │   └── ad02e6f79eeccd149a1630b56d9491dca9f5f9
+│   │   ├── 6b
+│   │   │   ├── 51673c0be42670e76afc1611b2e753d794173e
+│   │   │   ├── 7a7a90f9cfb5a3285635255675f248c78b35f3
+│   │   │   └── db0b0db961fd87e9c739ff7d4d428f85210d49
+│   │   ├── 6c
+│   │   │   └── 3e08c7751991853e28c04f87254303a62c2168
+│   │   ├── 6d
+│   │   │   ├── 57a57aa2af15ed1b89d9063815c76ef392e54e
+│   │   │   └── d8d442dfcba2ed9486115e99eda6a6e239f536
+│   │   ├── 6e
+│   │   │   ├── 692db1d235d8ba415477efbcd0b213c9a5772a
+│   │   │   └── 6bc25587dc42fc7572ec5429bbc2b8180dea2e
+│   │   ├── 6f
+│   │   │   ├── a9d425cb928f833399a6186682ca8dc2f57d26
+│   │   │   ├── be87286f8a33abfbe6600d0986883ccbf75677
+│   │   │   └── d0ece80b90542323445ab7c14ecfac5b7dea4d
+│   │   ├── 71
+│   │   │   ├── 55a165c1ecf09da1cd599e1ac45db69c7c1e20
+│   │   │   └── f8899765c1ae07f1e469e94d8434be58b40b75
+│   │   ├── 72
+│   │   │   └── 28500f14c5a48d9c7e2994013ee1027dcf8946
+│   │   ├── 73
+│   │   │   ├── 54991fe335ec3145d5a05057c02b27bbdf19a7
+│   │   │   ├── 577ade131106198b8b82cd53a7f7eac208ffeb
+│   │   │   ├── 5da3ab3845eeb9ae6297dc61bc64637576e2a4
+│   │   │   ├── c49ada53d26712525adb3831b5892b663f7acd
+│   │   │   └── c4d62a48a77988dc9d3b902b92044c10235dad
+│   │   ├── 74
+│   │   │   ├── 3a13c9c2f6849e44f51489b6c31f967d0a0e72
+│   │   │   ├── 573beef06c440790a42cc784223ae21d80afff
+│   │   │   ├── 5b775fb5c3a70aa1a87a33e28333c650e53960
+│   │   │   ├── 79758cdf52d55337ee13105cd2064a096fd5f9
+│   │   │   └── 9a52d39c4adf013a942e515c29f2676967e329
+│   │   ├── 75
+│   │   │   ├── b79d112bdfea7120fc4fd2f2871a5ae07435cd
+│   │   │   ├── d1177c1de2e095bb26ee9ac8a75ba3655ac652
+│   │   │   └── daca75d92c59452018353ea31153f80947d2e7
+│   │   ├── 76
+│   │   │   └── 79fdb013d90225b574024a0f38eb48fc99713c
+│   │   ├── 77
+│   │   │   └── 398011ee8367179ffbedd7055d65bc21c5911f
+│   │   ├── 78
+│   │   │   ├── 27ddfffce5c5ec39434747e07917e89518a2bf
+│   │   │   └── cf848f34f992fd47feca852468f754ca37dbeb
+│   │   ├── 79
+│   │   │   └── abbf163dba25087a83e890978a3dff8a50ba25
+│   │   ├── 7a
+│   │   │   └── 8c374c805b9c1a9ea7acac5f5773df70a5199c
+│   │   ├── 7b
+│   │   │   ├── e42f029d4275ceaefa1a4189acddef38ee6116
+│   │   │   └── e50931b74c295124c6183167ff8abf7b48417b
+│   │   ├── 7c
+│   │   │   ├── 461a45bd71a1cf55bed3541bba21d712c07fc8
+│   │   │   └── 484e712ded200298d7eb6cdf611445694b19dc
+│   │   ├── 7e
+│   │   │   ├── 1fb83848633ecd1d291c051304bfefcfa902fb
+│   │   │   ├── 376c6339accc476d76875a1801f716ecea657a
+│   │   │   ├── 58619a90d8fa4d33b7d753860bd85ebbbb7f15
+│   │   │   ├── 7427b9ffd860e56206ef0fe001d1e129a94bb9
+│   │   │   └── ca7d3bdbc270c1603d9e7bc67c1d11ad59bf86
+│   │   ├── 7f
+│   │   │   ├── 03bb3396b76d812e7b1e76f8bd3cb179edfb41
+│   │   │   ├── 0fe0b5c8b9353ef086df6125bc7b59da7a4cb4
+│   │   │   └── e432ab298dfad061228c8146f32f4d63f028ba
+│   │   ├── 80
+│   │   │   ├── 17546117e3689e07ec647dc123994e1cd5f5dc
+│   │   │   ├── 5271916f5269c6b21a1f2c6fc4d3c75d2b1ef1
+│   │   │   ├── 9bf356cdbeec105f3f0d1225fdf39594a31d40
+│   │   │   └── ad866eb6f2433f514004dcd131e4a7a97de5da
+│   │   ├── 81
+│   │   │   ├── 47e313049c1e6d311128fa6eb558856d67f77f
+│   │   │   └── 9462845e6c72d716ed6c6b7d739a82731eb4ae
+│   │   ├── 82
+│   │   │   ├── 6fc0529687cfe05f7cba450f7b8f8e489eb466
+│   │   │   ├── 8cf7ffa58e64bb9fc135eada988c0c4e8d1d4c
+│   │   │   └── b973c08e8891f3edd316e5b38f57580dffc6d4
+│   │   ├── 83
+│   │   │   ├── 0c345ff14c1b8f4bded3d1add0c73387bd7e03
+│   │   │   ├── 9eb9bd984ed33ca5b0edf90d7f3cd63e49d43e
+│   │   │   └── fdd9ecdedc6c294ada7ca734bb38f86973059d
+│   │   ├── 84
+│   │   │   ├── 077995da3e5e603739477772197e03cf718ab1
+│   │   │   ├── 31ba016456c1ac90c47be265e2bc39552bcc8c
+│   │   │   ├── 64884e1cf2257f1c8c051fcac7a842c0d71699
+│   │   │   └── 8245144050ea81b6af5bae6053e4865ce90b5f
+│   │   ├── 86
+│   │   │   └── ddfc3493b8271e5565c3097cc7487e91e01002
+│   │   ├── 88
+│   │   │   └── 56c6870911ec5acc4ea97f743d68d5752c8003
+│   │   ├── 89
+│   │   │   ├── 35b3ca1767bd1bf5f7dc71249c1c66ab41023d
+│   │   │   └── 6931d7bfc71acd4a8529c11c44dd0f82cb59b5
+│   │   ├── 8a
+│   │   │   ├── 55ce549f4b2f1e307f26d0f370baaa8d72bb50
+│   │   │   ├── bd1cfe411c126c72e6f8fee48122384f57c5a8
+│   │   │   ├── d577320b9db86df498ee4137ac6591507169ab
+│   │   │   └── e500ccf8b619c3dd98ebcb6e32294895fdf78a
+│   │   ├── 8b
+│   │   │   ├── 0d76c1162c0a5192bcc5bbe85d39add0807728
+│   │   │   ├── 20405999d4e9897c6c2884d2ce28d2a4cff74d
+│   │   │   └── b25a26221d6c6132cd6f3d1adb13cfb97e1df8
+│   │   ├── 8d
+│   │   │   └── 486c79de7418342a8e1ee3bccfdbd2b547ede9
+│   │   ├── 8e
+│   │   │   └── 04f2c8813c002bee86a08202f33356e3cea7e3
+│   │   ├── 8f
+│   │   │   ├── 50bede5d42204fb46d92cfe5a89576006ef18b
+│   │   │   ├── 896ac0659ec50028b130eabde2ba8847b3c7f8
+│   │   │   └── 98a8c944e7ce8a9b5f4dddc0adace11d76ac54
+│   │   ├── 90
+│   │   │   └── 7dcbd80eff73027c5021a8f3ff899db41c9e85
+│   │   ├── 91
+│   │   │   ├── 4d7bd93b536ec30268bdc81086bf242ab3e2c4
+│   │   │   ├── 933979b23651698ab0bb33ef69065f67ca12bd
+│   │   │   └── 9ff5c1c89a5b0525a484a8b8e226558bf45bf7
+│   │   ├── 92
+│   │   │   └── 7e588da3c802b732efd495106195ae65801dd6
+│   │   ├── 93
+│   │   │   └── f767542c12c3eecae73ee386adc5f614d94d2f
+│   │   ├── 94
+│   │   │   ├── 20ab91a7656feb4d575d459246c5b1a2a03391
+│   │   │   └── 9d7b94d5ec45145df1554d5e93df35e1cea6ff
+│   │   ├── 95
+│   │   │   ├── a60a71d4d6996b764c21ec270f8dd3f63691a0
+│   │   │   ├── cd5a536fc5db9eb540d52dee2d96bdee9fc176
+│   │   │   └── dff12f823b85bc771d772273f4b3aaa00f4004
+│   │   ├── 96
+│   │   │   ├── 14a2ffcb5648881dda29199db961cd926dcb22
+│   │   │   ├── 36c7c2e56ae15e67d7c30dff57e2e6098d02f4
+│   │   │   └── b6185b2d3f1c1c586aa0305cec2049ecee9c85
+│   │   ├── 97
+│   │   │   ├── 2cff9242505ddaffd897b57685ef7b191197fa
+│   │   │   ├── 3dc463f050aed187bbf2bdae6d2245dfd3c029
+│   │   │   ├── 4981d11a59f28a73523679fae964f378dffc0f
+│   │   │   ├── 512afaff61c9da819cabc34611e99249576019
+│   │   │   ├── 8abd79658a40727cfc566882a202f5b70b7526
+│   │   │   ├── a448abbca5e66c00fa502063a290ee4d1ecc0d
+│   │   │   ├── b5942a5c3097dc5581b3934ae9a537f1aa9643
+│   │   │   └── d567273bdac0a1a24602da9ab02e7c9a1931f6
+│   │   ├── 98
+│   │   │   └── 34824a69cd6db7810ea96a02b70f6f888d2e00
+│   │   ├── 99
+│   │   │   ├── 028ad7f0af10abf7b7c49bd64249f74b15f23e
+│   │   │   ├── d7a5aa46f3098fa86518b4f1dfdd288a6d6a19
+│   │   │   └── dbbc7f68ab6434ff4e1f8f0f0ce15f75907279
+│   │   ├── 9a
+│   │   │   ├── b5649ff8be7974fe62c0cf6653920b5166a026
+│   │   │   └── c1bc4b1ecdeda91b4b9ce293cadfb6bca17bf4
+│   │   ├── 9b
+│   │   │   ├── 218b9d764436fbafff21f4384b7cfd71c092f1
+│   │   │   └── 62c35766e22fa6a6085a9493a81d9f6df82e94
+│   │   ├── 9c
+│   │   │   └── 4006889c4b426f0e6e04a5ab861d7b54d53d4d
+│   │   ├── 9d
+│   │   │   └── 36aa1d5c6e4525441c8bb42e4d07d2ac45012b
+│   │   ├── 9e
+│   │   │   └── 7ad8010e6d1d8ea697e89d436fd9f133cf344a
+│   │   ├── 9f
+│   │   │   ├── 7209d850acfc20d7c7e8a7bc4329f4232234ea
+│   │   │   └── 86007ca482887f7276c7645e7720573210f78e
+│   │   ├── a0
+│   │   │   ├── c6875ff13c0e9e807bf5ac2f5a3c3111f87567
+│   │   │   └── f636fb9144423fe8c7f2cb8ab76f5d9d79829d
+│   │   ├── a2
+│   │   │   ├── 0b3e8e4e4f6cd08a9981a3c415401faac8ea70
+│   │   │   ├── 50e3965ddb2116b3fe43f22b210941f564d7ad
+│   │   │   ├── 82a63fddbd6d198abd0dee814ce9b57a3e42c0
+│   │   │   └── ca531d6430b83df5bf073efcbf87d13a9bf11e
+│   │   ├── a4
+│   │   │   ├── 800ef201ef437b3e202b2cd6506518f46ee32c
+│   │   │   ├── 924dd3a3f62c4690a84609f1850d22899160bc
+│   │   │   └── ae832f200875d74907dabcc9495c7d9bf78955
+│   │   ├── a7
+│   │   │   ├── 007caaae623a3f333944223d25e98c38e609c0
+│   │   │   ├── 7afb5c206365cbc6240616f20531d147924757
+│   │   │   └── bfecb5a98de4fb695e3556552347be32c564f0
+│   │   ├── a8
+│   │   │   ├── 8a6676a4237ba2abdee9a5e2eef2891677c07e
+│   │   │   └── f17f0f70f9213464a43da7210645c331f2d4c1
+│   │   ├── a9
+│   │   │   ├── 058a80bde0c3323b519f8d06212084f4f583f2
+│   │   │   ├── 86b94a2e5317dfb2f83033cc10d8e3761730d2
+│   │   │   ├── 8e549f07b9f6a0553be4860840ead9ada12721
+│   │   │   └── e5ada3e8af419a3ff6b61cce33631e685b1387
+│   │   ├── ab
+│   │   │   ├── 8f2f828054bc78306de87621a8a5e93ecd1b45
+│   │   │   ├── d003d305e499c34aa29adc7e58bc35ffd02c05
+│   │   │   └── f34dcb2065995a5dc9e08aae023eed7adf00b9
+│   │   ├── ac
+│   │   │   ├── 0d3a7441184b2790e556eb37e999d7fca5e014
+│   │   │   └── 6e1ee6cc0bd3ee40ac690e99986912f0350326
+│   │   ├── ad
+│   │   │   ├── 020bbedf5ae2e343703872c0947081d3968305
+│   │   │   └── f68603852a91adf6fea7beb8f21eb7d9b207ed
+│   │   ├── b0
+│   │   │   ├── 30dfe56863e944d7b0b9fe3815d2f2da4fd940
+│   │   │   ├── 59db835b2032488fd2d162b7ea07c42b5acf5a
+│   │   │   ├── 7dc320861ac3b3c77d91e5e3be1fae018d1a09
+│   │   │   ├── dbebf33d9d6368cac29ac5f77aadce0411eed0
+│   │   │   └── ed6943bdc672797b217143dbabe94e726e6439
+│   │   ├── b1
+│   │   │   └── eb64793f8479f7bfa29498a3e63feb60a849f9
+│   │   ├── b2
+│   │   │   ├── d7f9d588750d68fe17a05aa223ef4b05777aa0
+│   │   │   └── f5e5333d155e7a890bf7b02fbc549006f104a4
+│   │   ├── b3
+│   │   │   └── 489d2018f8ab1178f56f57b762164f371404dd
+│   │   ├── b4
+│   │   │   ├── 3367d1c238d956bff9bde41fcc00f545de0c86
+│   │   │   └── 8dc7c471f19e4b1d5bb75db4552126a5417ca9
+│   │   ├── b5
+│   │   │   ├── 949523e43c5c70a968f0af1c4110689d0bf87d
+│   │   │   ├── a5882330b771a54bb57036499f7e52d7de15cb
+│   │   │   ├── ae2b36d35e4d79dba07b560087cb932927d049
+│   │   │   └── b7b8aab2bc170964e2475abeb3d0958a40c0fa
+│   │   ├── b6
+│   │   │   └── d8e30d051db81365e2e84d41c2159bb17b75a8
+│   │   ├── b7
+│   │   │   └── 40d378ff77dd58139c98d25bbd6c21995bd356
+│   │   ├── b8
+│   │   │   ├── 253d4ff2f40e1ba5d286818647bb444fe6f97b
+│   │   │   ├── 264dbb28fd8fdef36aad009702403705ba85e5
+│   │   │   ├── 30141b46b9625b470fd01780d66a78de68cbbd
+│   │   │   └── 724228dcb627d2daf13d76f97c0e2ff1833e86
+│   │   ├── ba
+│   │   │   ├── 2104932aaee47ad86e6f09eeba07ec1f942b24
+│   │   │   ├── 3093c1b2fc2d27418bc5af1952bdf04cd5e979
+│   │   │   └── 5b87aaf647ab360ecffdbb893c9c7fd499f74d
+│   │   ├── bb
+│   │   │   └── f4a082a805478dfcd641932b080439a031db1a
+│   │   ├── bc
+│   │   │   ├── 19a6028e0acb55e184078f1c091148bcc6e62b
+│   │   │   ├── 4c3aeee621ca1389500fe4cfde333b089a92b1
+│   │   │   ├── 9140bb17bf3b3a5c4d2ed891ffbd316077aef4
+│   │   │   ├── ca4e0631b57a787fee81a5804faa0e9bad4405
+│   │   │   └── d2821922144aad000a45c603b5fa55c4b41be6
+│   │   ├── bd
+│   │   │   ├── 42bf498aa8f66a6a995263b3c46086665588b9
+│   │   │   └── ac91051c8d9627e357ac92f06894f6d8957462
+│   │   ├── bf
+│   │   │   └── 24914503d6c69e7aa30f68d73d22ed3faa7a66
+│   │   ├── c0
+│   │   │   ├── 1f0a7e07f89b09029e64e68873a51fafcea069
+│   │   │   ├── 2a3cf1108b1f88aaacaeaba2a1679c4c43ca19
+│   │   │   ├── 5c8b95d2958fae2c753029259c125e2306c83c
+│   │   │   ├── 7d6a01757424a38cda0c7aa8692fb1bc4e5d5d
+│   │   │   └── edc1a59da7262c6875346eb69e2a1ddd75ee85
+│   │   ├── c2
+│   │   │   ├── 106f0cab872cafb1007291066d263a0fdb777e
+│   │   │   └── 88bf7136092dbc6f42d80286452113b4786305
+│   │   ├── c3
+│   │   │   ├── 1f26f5b9c6966914346a1a48d3daf58c602448
+│   │   │   └── 21d48f4a9e1e9122828cfe9bb5d61cb8c18171
+│   │   ├── c5
+│   │   │   ├── 29fe6e76afb284fd75d96a017fc7f57d142d4f
+│   │   │   └── 66f82826abf2a323fc967004f140f7009f697c
+│   │   ├── c6
+│   │   │   ├── 2962c54a73d2f6006295e1d7321ee4dfad96ba
+│   │   │   ├── acaad8abdc73393044f477208f4f7e0a93bfa9
+│   │   │   └── dfe046239abf5539f86e1a39e69c9e41c7019d
+│   │   ├── c7
+│   │   │   ├── 4304b623b0fb72a3f3f61ffe6b9349453965af
+│   │   │   └── 53a4dc3f695ebe0311276cdab41eeae2d264cb
+│   │   ├── c8
+│   │   │   └── bb14991ecf022ee6aa6efab6eaf2f4726f9938
+│   │   ├── c9
+│   │   │   ├── 9bfbda850c0f91da69270daf14de9d1f944c46
+│   │   │   └── feac68d68fd00b04db47702756710e99661df8
+│   │   ├── ca
+│   │   │   ├── 0933d5872af793f763b89eecba89ef17f6c3b0
+│   │   │   └── 569b28e1aecbeaa689e719b2a65762849e1270
+│   │   ├── cb
+│   │   │   ├── 80922b286511060a45ad5f59ef8c2f6fd38256
+│   │   │   └── b4bf31b7c2422ebd8cfa2b7a0542b3032742c5
+│   │   ├── cc
+│   │   │   ├── 183f0b78d5b13763639565e755558ca9bca19a
+│   │   │   ├── 91aa15042b0863057400ce46bbdc2348012611
+│   │   │   └── ddb8e4379fdbbd183426b0a4742e00d3ffd5a1
+│   │   ├── cd
+│   │   │   └── ed6a3642e92b2596e4e56269618ae047a8c8c9
+│   │   ├── ce
+│   │   │   └── 619f35f2d9eb15d1ae377b5b046eb78796cb26
+│   │   ├── cf
+│   │   │   ├── 6da125d0f2ff872e426ca40cccd139e29b826e
+│   │   │   └── c9042d5e8e897ffff5a6baf06026007c4aca75
+│   │   ├── d0
+│   │   │   ├── 3724f214d98c91c35098aaba2e01ce50d13ea9
+│   │   │   ├── 411802e85d60cd45ee8261b727cafe34c84280
+│   │   │   ├── 68bb2ac8602b660991296589e9ba1a20db10e9
+│   │   │   └── 8bbf126c7d7ca67f22e2c6f77ffb43db5abbc8
+│   │   ├── d1
+│   │   │   ├── 047c074282a249df7740c4957c2686a8ce8327
+│   │   │   ├── 1c1b43d60c7e0d68737513197dc88331fff83a
+│   │   │   ├── 63eb5fb15b7ab7a7c37b248f6a011ed27ac80f
+│   │   │   └── 996c6007205c1ccbb08ac26011128822c873d5
+│   │   ├── d2
+│   │   │   ├── 0a4720707ed89bcc29d1e3a8bb5b7e038ea514
+│   │   │   ├── 2dc05cf2b4e77bf21573cc8154ca2f4026ade7
+│   │   │   ├── 78b5665cee37eebdf60763000affdc3f894f23
+│   │   │   ├── 95952f826eb71794a0ab81bf0aeef49206e01a
+│   │   │   ├── b696b551a019a0e122cd7dd77cbdd150346fbd
+│   │   │   └── d989c6514d1de77544955bef31e100d8bf5d1b
+│   │   ├── d3
+│   │   │   ├── 3fdb73a7aec0bd4a8874e9e24810e54c055d4b
+│   │   │   └── 65d6fa8cc880a19c3ab771648485c7637ce383
+│   │   ├── d6
+│   │   │   ├── 9e03e9365cc8d86ba631505147eb69b9f3e967
+│   │   │   └── f1c9e36d2fc50a1028d23dbbaf95d7cc2c4d8e
+│   │   ├── d7
+│   │   │   ├── 2bc19e19b9ea83960dab1bbb907de1ee058088
+│   │   │   ├── 9a91e3ea8548a3e23cf8f668d0b643ef46e3ab
+│   │   │   └── baf8a56d9dac62a9bbc12d17c6c46f0a9e1629
+│   │   ├── d8
+│   │   │   ├── 06b72444be16fe221f8952fe260b534373b2c4
+│   │   │   └── e969e349daa8d7792833b0199b71ce6e3bff55
+│   │   ├── d9
+│   │   │   ├── 1b51a5ab6a9844f2302ab85412c58c7cf4a403
+│   │   │   ├── 3001098abc28fb26cbadc8b5688bc8d7dcf2e5
+│   │   │   ├── 9c0414b53a8a5778053dc6fae8163346487b0a
+│   │   │   └── a9b500170ed91e742af2a497788fb21e7dc35a
+│   │   ├── da
+│   │   │   ├── 45f114e73882f47290706764a16d5a79830cf6
+│   │   │   ├── 612768df50b6ceb1006efe6626c6856bdcd353
+│   │   │   ├── 6a07c98af253c202bec615364fa99584ab634b
+│   │   │   └── 6c5c04b7d19e8217d1adfab9ec21b965f58670
+│   │   ├── db
+│   │   │   ├── 4f89c4963803188c6d6b62a7bdd9383908837f
+│   │   │   └── e037bbb6c3607cf1880c0d8a2744fd357b4bc5
+│   │   ├── dc
+│   │   │   ├── 185e9ebcba6731951b6116fea44df61054d8f4
+│   │   │   └── e3a6f5d6635d43b3985e13fe9b37f3a727754e
+│   │   ├── de
+│   │   │   ├── 66fe3429ddc454a4e4b63550ae50c06aa76f9b
+│   │   │   ├── a486931a476829d6f4a7b0fbda2586ae78d7f9
+│   │   │   ├── ad36287d127f199d25a8c2ab6db28ced215644
+│   │   │   └── e9ab5bfb2d7a1dbc02ff6c88b7701dacba0d2d
+│   │   ├── df
+│   │   │   └── d1f151e36b094e583f796638f200d33fb03706
+│   │   ├── e0
+│   │   │   └── df3aac760c5fe993569117284dca443478467c
+│   │   ├── e1
+│   │   │   ├── 002a75dabe906e29e5440e3fe0745296aa3717
+│   │   │   ├── 02da733837861c5f9fd294bff3a19f373f2428
+│   │   │   ├── 696430623ee38c82f102c6094599e28c9b0f61
+│   │   │   ├── 7c9c3502f5a8cd16a6dbcb3641aecefdde6dc8
+│   │   │   ├── 90185538afd97f241959740538acb41a8dae6d
+│   │   │   └── f7c79dd42b32fea94a9592171cb1505daa0ac2
+│   │   ├── e2
+│   │   │   ├── 17a16a483b8ec0cf2d5cadb0a3f1771e402731
+│   │   │   ├── cc2a26890e42cbf041e2a81a5035ab054c39f5
+│   │   │   └── d287d4649a1756c9e7b7aa91f17d78ae6e74cb
+│   │   ├── e3
+│   │   │   ├── 99c01d266063f247edbd35f657d87cda039b50
+│   │   │   ├── a848409130874d0137eff40b5b8bc8a5caacf7
+│   │   │   └── af39ed3b1b4c2c8f58625c20f656e2039963d7
+│   │   ├── e5
+│   │   │   ├── 5faedd79d74b3e0d3e85712d6e6c672d5ef92f
+│   │   │   └── e04cebb62f3e93baf8ca8002e6dab55691c89b
+│   │   ├── e6
+│   │   │   ├── 0a891901f94750530478726478ae83c210264b
+│   │   │   ├── 4afb4e889767f7acd220b65cff0e3b25c99a6a
+│   │   │   └── 7dacc806138db2bde57752b4e6260727d94d6e
+│   │   ├── e7
+│   │   │   ├── 6b727bcd702df7ea0c9501415d2a2413aff914
+│   │   │   └── 74c48dfaeede9998dc25df351c39430f10b566
+│   │   ├── e8
+│   │   │   └── 527fbf113b754aa796d047046494bfbe5375e3
+│   │   ├── e9
+│   │   │   ├── 7e91a3fbaa86303d96bcbee76a10c359a31e19
+│   │   │   └── 9782425fadf626952d34acdee14065d23841a3
+│   │   ├── ea
+│   │   │   ├── 0337e0a9b83b7ecc0e03262301d884a2905fcf
+│   │   │   ├── 326f90b6349f10611cc3145dd3bbc606d82df8
+│   │   │   └── c8a7c7794f4482779b40fae9cf637f1f32bc2d
+│   │   ├── ec
+│   │   │   ├── 77c66867d56c9698e3784cb8918b7bca34538b
+│   │   │   └── c4aaad004d017da372dd20dedb6f144486c4c1
+│   │   ├── ee
+│   │   │   ├── 86fcb7cea389e3a62eecf10f59a9f6b3a62f14
+│   │   │   ├── 8b0dc66c17a4a636d297110403db20d6399943
+│   │   │   └── 8ee7d918a67e85ab0e8536a9c152c6e56dcc12
+│   │   ├── f1
+│   │   │   ├── 5da5bb529e4df15e307e9d46071f63c2240b1d
+│   │   │   └── 8be0cb37d5dc4cba36ac4f69505244a13746cf
+│   │   ├── f4
+│   │   │   └── e28390cb85ac422321cfb84f3e419139174020
+│   │   ├── f5
+│   │   │   ├── 7eb43d97727f5e708f0b0b016fa073f06ba49d
+│   │   │   └── a282081236b64d20a5f303b141c86f8dca1295
+│   │   ├── f7
+│   │   │   ├── 1c9441172d6b583fa0fe70a69455e68fac6d12
+│   │   │   ├── 76047cfd88c8f932f292c167bcbce74efbf9aa
+│   │   │   ├── 952c779f6381ff0faeeb490ce74873372acb28
+│   │   │   └── c079b186764f22f19ca6cd530cb10a35ddfc80
+│   │   ├── f9
+│   │   │   └── ae4201c739094c0ab77e0ddee2659ee086bba8
+│   │   ├── fa
+│   │   │   ├── 1ab7eec86a3a3b11a7a50df67075ff80e3bbf7
+│   │   │   ├── 451d8adf8225cfe5d9ce163659bb0ab3604f22
+│   │   │   ├── 60e66eaec93ebb8368517dc057d8214e7171c0
+│   │   │   └── 64d7bc178b23a51f0ac83e53b25e810ebdebdd
+│   │   ├── fb
+│   │   │   └── aa0814b8f2d3e34feab0480f411a4f75d45cbf
+│   │   ├── fc
+│   │   │   └── 888859a63a5e2781c7db0dd0fd60e1faa7ab8a
+│   │   ├── fd
+│   │   │   ├── 1b6d0e4973b855e9969833e2e61b7bad3fc56d
+│   │   │   ├── 5faf583d87139408d3551ca7bac3d2aa8485c0
+│   │   │   └── dbb440341ae625b11823a9af11548f8951a73c
+│   │   ├── fe
+│   │   │   ├── 9642f3bd6f17564b2c28050a24ae86460e9bfe
+│   │   │   ├── 9b2921d9f76b1487d9d93940541c1f7606a773
+│   │   │   └── d3b4f42d6fd2295d1eef0827df5200e82f32a6
+│   │   ├── ff
+│   │   │   ├── c592545c13d2c22b8a91c06c363b65e6277699
+│   │   │   └── e8cad859d76b4ee70883e8391394c02fffbf5e
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-17292e7f147ba455eb1e8fd36c1f1998f44343f7.idx
+│   │       ├── pack-17292e7f147ba455eb1e8fd36c1f1998f44343f7.pack
+│   │       └── pack-17292e7f147ba455eb1e8fd36c1f1998f44343f7.rev
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── master
+│       ├── remotes
+│       │   └── origin
+│       └── tags
+├── .gitignore
+├── .pytest_cache
+│   ├── .gitignore
+│   ├── CACHEDIR.TAG
+│   ├── README.md
+│   └── v
+│       └── cache
+│           ├── lastfailed
+│           └── nodeids
+├── .ruff_cache
+│   ├── .gitignore
+│   ├── 0.15.6
+│   │   ├── 13092868605501531196
+│   │   ├── 17712830133144477233
+│   │   ├── 6284613610105300939
+│   │   └── 8502826166657849283
+│   └── CACHEDIR.TAG
+├── Complete_guidebook.txt
+├── ExecutionFlow.md
+├── Expanded_Testing.md
+├── LICENSE
+├── Makefile
+├── README.md
+├── artifacts
+│   ├── README.md
+│   ├── checkpoints
+│   │   └── README.md
+│   ├── figures
+│   │   └── README.md
+│   ├── panel_stage12_smoke.parquet
+│   ├── panel_stage13_smoke.parquet
+│   └── tables
+│       └── README.md
+├── configs
+│   ├── data_sources.yaml
+│   ├── dataset_build.yaml
+│   ├── evaluation.yaml
+│   ├── features.yaml
+│   ├── labels.yaml
+│   ├── model_market_baseline.yaml
+│   ├── model_multimodal.yaml
+│   ├── project.yaml
+│   └── training.yaml
+├── data
+│   ├── README.md
+│   ├── embeddings
+│   │   ├── README.md
+│   │   └── article_embeddings__hashing.parquet
+│   ├── final
+│   │   ├── README.md
+│   │   ├── adjusted_prices__pilot10.parquet
+│   │   ├── benchmark_SPY__pilot10.parquet
+│   │   ├── event_states_daily__hashing.parquet
+│   │   └── modeling_panel__pilot10_hashing_v1.parquet
+│   ├── interim
+│   │   ├── README.md
+│   │   ├── adjusted_prices_daily
+│   │   │   ├── A.parquet
+│   │   │   ├── AAPL.parquet
+│   │   │   ├── ABBV.parquet
+│   │   │   ├── ABNB.parquet
+│   │   │   ├── ABT.parquet
+│   │   │   ├── ACGL.parquet
+│   │   │   ├── ACN.parquet
+│   │   │   ├── ADBE.parquet
+│   │   │   ├── ADI.parquet
+│   │   │   ├── ADM.parquet
+│   │   │   ├── ADP.parquet
+│   │   │   ├── ADSK.parquet
+│   │   │   ├── AEE.parquet
+│   │   │   ├── AEP.parquet
+│   │   │   ├── AES.parquet
+│   │   │   ├── AFL.parquet
+│   │   │   ├── AIG.parquet
+│   │   │   ├── AIZ.parquet
+│   │   │   ├── AJG.parquet
+│   │   │   ├── AKAM.parquet
+│   │   │   ├── ALB.parquet
+│   │   │   ├── ALGN.parquet
+│   │   │   ├── ALL.parquet
+│   │   │   ├── ALLE.parquet
+│   │   │   ├── AMAT.parquet
+│   │   │   ├── AMCR.parquet
+│   │   │   ├── AMD.parquet
+│   │   │   ├── AME.parquet
+│   │   │   ├── AMGN.parquet
+│   │   │   ├── AMP.parquet
+│   │   │   ├── AMT.parquet
+│   │   │   ├── AMZN.parquet
+│   │   │   ├── ANET.parquet
+│   │   │   ├── AON.parquet
+│   │   │   ├── AOS.parquet
+│   │   │   ├── APA.parquet
+│   │   │   ├── APD.parquet
+│   │   │   ├── APH.parquet
+│   │   │   ├── APO.parquet
+│   │   │   ├── APP.parquet
+│   │   │   ├── APTV.parquet
+│   │   │   ├── ARE.parquet
+│   │   │   ├── ARES.parquet
+│   │   │   ├── ATO.parquet
+│   │   │   ├── AVB.parquet
+│   │   │   ├── AVGO.parquet
+│   │   │   ├── AVY.parquet
+│   │   │   ├── AWK.parquet
+│   │   │   ├── AXON.parquet
+│   │   │   ├── AXP.parquet
+│   │   │   ├── AZO.parquet
+│   │   │   ├── BA.parquet
+│   │   │   ├── BAC.parquet
+│   │   │   ├── BALL.parquet
+│   │   │   ├── BAX.parquet
+│   │   │   ├── BBY.parquet
+│   │   │   ├── BDX.parquet
+│   │   │   ├── BEN.parquet
+│   │   │   ├── BF.B.parquet
+│   │   │   ├── BG.parquet
+│   │   │   ├── BIIB.parquet
+│   │   │   ├── BK.parquet
+│   │   │   ├── BKNG.parquet
+│   │   │   ├── BKR.parquet
+│   │   │   ├── BLDR.parquet
+│   │   │   ├── BLK.parquet
+│   │   │   ├── BMY.parquet
+│   │   │   ├── BR.parquet
+│   │   │   ├── BRK.B.parquet
+│   │   │   ├── BRO.parquet
+│   │   │   ├── BSX.parquet
+│   │   │   ├── BX.parquet
+│   │   │   ├── BXP.parquet
+│   │   │   ├── C.parquet
+│   │   │   ├── CAG.parquet
+│   │   │   ├── CAH.parquet
+│   │   │   ├── CARR.parquet
+│   │   │   ├── CAT.parquet
+│   │   │   ├── CB.parquet
+│   │   │   ├── CBOE.parquet
+│   │   │   ├── CBRE.parquet
+│   │   │   ├── CCI.parquet
+│   │   │   ├── CCL.parquet
+│   │   │   ├── CDNS.parquet
+│   │   │   ├── CDW.parquet
+│   │   │   ├── CEG.parquet
+│   │   │   ├── CF.parquet
+│   │   │   ├── CFG.parquet
+│   │   │   ├── CHD.parquet
+│   │   │   ├── CHRW.parquet
+│   │   │   ├── CHTR.parquet
+│   │   │   ├── CI.parquet
+│   │   │   ├── CIEN.parquet
+│   │   │   ├── CINF.parquet
+│   │   │   ├── CL.parquet
+│   │   │   ├── CLX.parquet
+│   │   │   ├── CMCSA.parquet
+│   │   │   ├── CME.parquet
+│   │   │   ├── CMG.parquet
+│   │   │   ├── CMI.parquet
+│   │   │   ├── CMS.parquet
+│   │   │   ├── CNC.parquet
+│   │   │   ├── CNP.parquet
+│   │   │   ├── COF.parquet
+│   │   │   ├── COIN.parquet
+│   │   │   ├── COO.parquet
+│   │   │   ├── COP.parquet
+│   │   │   ├── COR.parquet
+│   │   │   ├── COST.parquet
+│   │   │   ├── CPAY.parquet
+│   │   │   ├── CPB.parquet
+│   │   │   ├── CPRT.parquet
+│   │   │   ├── CPT.parquet
+│   │   │   ├── CRH.parquet
+│   │   │   ├── CRL.parquet
+│   │   │   ├── CRM.parquet
+│   │   │   ├── CRWD.parquet
+│   │   │   ├── CSCO.parquet
+│   │   │   ├── CSGP.parquet
+│   │   │   ├── CSX.parquet
+│   │   │   ├── CTAS.parquet
+│   │   │   ├── CTRA.parquet
+│   │   │   ├── CTSH.parquet
+│   │   │   ├── CTVA.parquet
+│   │   │   ├── CVNA.parquet
+│   │   │   ├── CVS.parquet
+│   │   │   ├── CVX.parquet
+│   │   │   ├── D.parquet
+│   │   │   ├── DAL.parquet
+│   │   │   ├── DASH.parquet
+│   │   │   ├── DD.parquet
+│   │   │   ├── DDOG.parquet
+│   │   │   ├── DE.parquet
+│   │   │   ├── DECK.parquet
+│   │   │   ├── DELL.parquet
+│   │   │   ├── DG.parquet
+│   │   │   ├── DGX.parquet
+│   │   │   ├── DHI.parquet
+│   │   │   ├── DHR.parquet
+│   │   │   ├── DIS.parquet
+│   │   │   ├── DLR.parquet
+│   │   │   ├── DLTR.parquet
+│   │   │   ├── DOC.parquet
+│   │   │   ├── DOV.parquet
+│   │   │   ├── DOW.parquet
+│   │   │   ├── DPZ.parquet
+│   │   │   ├── DRI.parquet
+│   │   │   ├── DTE.parquet
+│   │   │   ├── DUK.parquet
+│   │   │   ├── DVA.parquet
+│   │   │   ├── DVN.parquet
+│   │   │   ├── DXCM.parquet
+│   │   │   ├── EA.parquet
+│   │   │   ├── EBAY.parquet
+│   │   │   ├── ECL.parquet
+│   │   │   ├── ED.parquet
+│   │   │   ├── EFX.parquet
+│   │   │   ├── EG.parquet
+│   │   │   ├── EIX.parquet
+│   │   │   ├── EL.parquet
+│   │   │   ├── ELV.parquet
+│   │   │   ├── EME.parquet
+│   │   │   ├── EMR.parquet
+│   │   │   ├── EOG.parquet
+│   │   │   ├── EPAM.parquet
+│   │   │   ├── EQIX.parquet
+│   │   │   ├── EQR.parquet
+│   │   │   ├── EQT.parquet
+│   │   │   ├── ERIE.parquet
+│   │   │   ├── ES.parquet
+│   │   │   ├── ESS.parquet
+│   │   │   ├── ETN.parquet
+│   │   │   ├── ETR.parquet
+│   │   │   ├── EVRG.parquet
+│   │   │   ├── EW.parquet
+│   │   │   ├── EXC.parquet
+│   │   │   ├── EXE.parquet
+│   │   │   ├── EXPD.parquet
+│   │   │   ├── EXPE.parquet
+│   │   │   ├── EXR.parquet
+│   │   │   ├── F.parquet
+│   │   │   ├── FANG.parquet
+│   │   │   ├── FAST.parquet
+│   │   │   ├── FCX.parquet
+│   │   │   ├── FDS.parquet
+│   │   │   ├── FDX.parquet
+│   │   │   ├── FE.parquet
+│   │   │   ├── FFIV.parquet
+│   │   │   ├── FICO.parquet
+│   │   │   ├── FIS.parquet
+│   │   │   ├── FISV.parquet
+│   │   │   ├── FITB.parquet
+│   │   │   ├── FIX.parquet
+│   │   │   ├── FOX.parquet
+│   │   │   ├── FOXA.parquet
+│   │   │   ├── FRT.parquet
+│   │   │   ├── FSLR.parquet
+│   │   │   ├── FTNT.parquet
+│   │   │   ├── FTV.parquet
+│   │   │   ├── GD.parquet
+│   │   │   ├── GDDY.parquet
+│   │   │   ├── GE.parquet
+│   │   │   ├── GEHC.parquet
+│   │   │   ├── GEN.parquet
+│   │   │   ├── GEV.parquet
+│   │   │   ├── GILD.parquet
+│   │   │   ├── GIS.parquet
+│   │   │   ├── GL.parquet
+│   │   │   ├── GLW.parquet
+│   │   │   ├── GM.parquet
+│   │   │   ├── GNRC.parquet
+│   │   │   ├── GOOG.parquet
+│   │   │   ├── GOOGL.parquet
+│   │   │   ├── GPC.parquet
+│   │   │   ├── GPN.parquet
+│   │   │   ├── GRMN.parquet
+│   │   │   ├── GS.parquet
+│   │   │   ├── GWW.parquet
+│   │   │   ├── HAL.parquet
+│   │   │   ├── HAS.parquet
+│   │   │   ├── HBAN.parquet
+│   │   │   ├── HCA.parquet
+│   │   │   ├── HD.parquet
+│   │   │   ├── HIG.parquet
+│   │   │   ├── HII.parquet
+│   │   │   ├── HLT.parquet
+│   │   │   ├── HOLX.parquet
+│   │   │   ├── HON.parquet
+│   │   │   ├── HOOD.parquet
+│   │   │   ├── HPE.parquet
+│   │   │   ├── HPQ.parquet
+│   │   │   ├── HRL.parquet
+│   │   │   ├── HSIC.parquet
+│   │   │   ├── HST.parquet
+│   │   │   ├── HSY.parquet
+│   │   │   ├── HUBB.parquet
+│   │   │   ├── HUM.parquet
+│   │   │   ├── HWM.parquet
+│   │   │   ├── IBKR.parquet
+│   │   │   ├── IBM.parquet
+│   │   │   ├── ICE.parquet
+│   │   │   ├── IDXX.parquet
+│   │   │   ├── IEX.parquet
+│   │   │   ├── IFF.parquet
+│   │   │   ├── INCY.parquet
+│   │   │   ├── INTC.parquet
+│   │   │   ├── INTU.parquet
+│   │   │   ├── INVH.parquet
+│   │   │   ├── IP.parquet
+│   │   │   ├── IQV.parquet
+│   │   │   ├── IR.parquet
+│   │   │   ├── IRM.parquet
+│   │   │   ├── ISRG.parquet
+│   │   │   ├── IT.parquet
+│   │   │   ├── ITW.parquet
+│   │   │   ├── IVZ.parquet
+│   │   │   ├── J.parquet
+│   │   │   ├── JBHT.parquet
+│   │   │   ├── JBL.parquet
+│   │   │   ├── JCI.parquet
+│   │   │   ├── JKHY.parquet
+│   │   │   ├── JNJ.parquet
+│   │   │   ├── JPM.parquet
+│   │   │   ├── KDP.parquet
+│   │   │   ├── KEY.parquet
+│   │   │   ├── KEYS.parquet
+│   │   │   ├── KHC.parquet
+│   │   │   ├── KIM.parquet
+│   │   │   ├── KKR.parquet
+│   │   │   ├── KLAC.parquet
+│   │   │   ├── KMB.parquet
+│   │   │   ├── KMI.parquet
+│   │   │   ├── KO.parquet
+│   │   │   ├── KR.parquet
+│   │   │   ├── KVUE.parquet
+│   │   │   ├── L.parquet
+│   │   │   ├── LDOS.parquet
+│   │   │   ├── LEN.parquet
+│   │   │   ├── LH.parquet
+│   │   │   ├── LHX.parquet
+│   │   │   ├── LII.parquet
+│   │   │   ├── LIN.parquet
+│   │   │   ├── LLY.parquet
+│   │   │   ├── LMT.parquet
+│   │   │   ├── LNT.parquet
+│   │   │   ├── LOW.parquet
+│   │   │   ├── LRCX.parquet
+│   │   │   ├── LULU.parquet
+│   │   │   ├── LUV.parquet
+│   │   │   ├── LVS.parquet
+│   │   │   ├── LW.parquet
+│   │   │   ├── LYB.parquet
+│   │   │   ├── LYV.parquet
+│   │   │   ├── MA.parquet
+│   │   │   ├── MAA.parquet
+│   │   │   ├── MAR.parquet
+│   │   │   ├── MAS.parquet
+│   │   │   ├── MCD.parquet
+│   │   │   ├── MCHP.parquet
+│   │   │   ├── MCK.parquet
+│   │   │   ├── MCO.parquet
+│   │   │   ├── MDLZ.parquet
+│   │   │   ├── MDT.parquet
+│   │   │   ├── MET.parquet
+│   │   │   ├── META.parquet
+│   │   │   ├── MGM.parquet
+│   │   │   ├── MKC.parquet
+│   │   │   ├── MLM.parquet
+│   │   │   ├── MMM.parquet
+│   │   │   ├── MNST.parquet
+│   │   │   ├── MO.parquet
+│   │   │   ├── MOH.parquet
+│   │   │   ├── MOS.parquet
+│   │   │   ├── MPC.parquet
+│   │   │   ├── MPWR.parquet
+│   │   │   ├── MRK.parquet
+│   │   │   ├── MRNA.parquet
+│   │   │   ├── MRSH.parquet
+│   │   │   ├── MS.parquet
+│   │   │   ├── MSCI.parquet
+│   │   │   ├── MSFT.parquet
+│   │   │   ├── MSI.parquet
+│   │   │   ├── MTB.parquet
+│   │   │   ├── MTCH.parquet
+│   │   │   ├── MTD.parquet
+│   │   │   ├── MU.parquet
+│   │   │   ├── NCLH.parquet
+│   │   │   ├── NDAQ.parquet
+│   │   │   ├── NDSN.parquet
+│   │   │   ├── NEE.parquet
+│   │   │   ├── NEM.parquet
+│   │   │   ├── NFLX.parquet
+│   │   │   ├── NI.parquet
+│   │   │   ├── NKE.parquet
+│   │   │   ├── NOC.parquet
+│   │   │   ├── NOW.parquet
+│   │   │   ├── NRG.parquet
+│   │   │   ├── NSC.parquet
+│   │   │   ├── NTAP.parquet
+│   │   │   ├── NTRS.parquet
+│   │   │   ├── NUE.parquet
+│   │   │   ├── NVDA.parquet
+│   │   │   ├── NVR.parquet
+│   │   │   ├── NWS.parquet
+│   │   │   ├── NWSA.parquet
+│   │   │   ├── NXPI.parquet
+│   │   │   ├── O.parquet
+│   │   │   ├── ODFL.parquet
+│   │   │   ├── OKE.parquet
+│   │   │   ├── OMC.parquet
+│   │   │   ├── ON.parquet
+│   │   │   ├── ORCL.parquet
+│   │   │   ├── ORLY.parquet
+│   │   │   ├── OTIS.parquet
+│   │   │   ├── OXY.parquet
+│   │   │   ├── PANW.parquet
+│   │   │   ├── PAYC.parquet
+│   │   │   ├── PAYX.parquet
+│   │   │   ├── PCAR.parquet
+│   │   │   ├── PCG.parquet
+│   │   │   ├── PEG.parquet
+│   │   │   ├── PEP.parquet
+│   │   │   ├── PFE.parquet
+│   │   │   ├── PFG.parquet
+│   │   │   ├── PG.parquet
+│   │   │   ├── PGR.parquet
+│   │   │   ├── PH.parquet
+│   │   │   ├── PHM.parquet
+│   │   │   ├── PKG.parquet
+│   │   │   ├── PLD.parquet
+│   │   │   ├── PLTR.parquet
+│   │   │   ├── PM.parquet
+│   │   │   ├── PNC.parquet
+│   │   │   ├── PNR.parquet
+│   │   │   ├── PNW.parquet
+│   │   │   ├── PODD.parquet
+│   │   │   ├── POOL.parquet
+│   │   │   ├── PPG.parquet
+│   │   │   ├── PPL.parquet
+│   │   │   ├── PRU.parquet
+│   │   │   ├── PSA.parquet
+│   │   │   ├── PSKY.parquet
+│   │   │   ├── PSX.parquet
+│   │   │   ├── PTC.parquet
+│   │   │   ├── PWR.parquet
+│   │   │   ├── PYPL.parquet
+│   │   │   ├── Q.parquet
+│   │   │   ├── QCOM.parquet
+│   │   │   ├── RCL.parquet
+│   │   │   ├── REG.parquet
+│   │   │   ├── REGN.parquet
+│   │   │   ├── RF.parquet
+│   │   │   ├── RJF.parquet
+│   │   │   ├── RL.parquet
+│   │   │   ├── RMD.parquet
+│   │   │   ├── ROK.parquet
+│   │   │   ├── ROL.parquet
+│   │   │   ├── ROP.parquet
+│   │   │   ├── ROST.parquet
+│   │   │   ├── RSG.parquet
+│   │   │   ├── RTX.parquet
+│   │   │   ├── RVTY.parquet
+│   │   │   ├── SBAC.parquet
+│   │   │   ├── SBUX.parquet
+│   │   │   ├── SCHW.parquet
+│   │   │   ├── SHW.parquet
+│   │   │   ├── SJM.parquet
+│   │   │   ├── SLB.parquet
+│   │   │   ├── SMCI.parquet
+│   │   │   ├── SNA.parquet
+│   │   │   ├── SNDK.parquet
+│   │   │   ├── SNPS.parquet
+│   │   │   ├── SO.parquet
+│   │   │   ├── SOLV.parquet
+│   │   │   ├── SPG.parquet
+│   │   │   ├── SPGI.parquet
+│   │   │   ├── SPY.parquet
+│   │   │   ├── SRE.parquet
+│   │   │   ├── STE.parquet
+│   │   │   ├── STLD.parquet
+│   │   │   ├── STT.parquet
+│   │   │   ├── STX.parquet
+│   │   │   ├── STZ.parquet
+│   │   │   ├── SW.parquet
+│   │   │   ├── SWK.parquet
+│   │   │   ├── SWKS.parquet
+│   │   │   ├── SYF.parquet
+│   │   │   ├── SYK.parquet
+│   │   │   ├── SYY.parquet
+│   │   │   ├── T.parquet
+│   │   │   ├── TAP.parquet
+│   │   │   ├── TDG.parquet
+│   │   │   ├── TDY.parquet
+│   │   │   ├── TECH.parquet
+│   │   │   ├── TEL.parquet
+│   │   │   ├── TER.parquet
+│   │   │   ├── TFC.parquet
+│   │   │   ├── TGT.parquet
+│   │   │   ├── TJX.parquet
+│   │   │   ├── TKO.parquet
+│   │   │   ├── TMO.parquet
+│   │   │   ├── TMUS.parquet
+│   │   │   ├── TPL.parquet
+│   │   │   ├── TPR.parquet
+│   │   │   ├── TRGP.parquet
+│   │   │   ├── TRMB.parquet
+│   │   │   ├── TROW.parquet
+│   │   │   ├── TRV.parquet
+│   │   │   ├── TSCO.parquet
+│   │   │   ├── TSLA.parquet
+│   │   │   ├── TSN.parquet
+│   │   │   ├── TT.parquet
+│   │   │   ├── TTD.parquet
+│   │   │   ├── TTWO.parquet
+│   │   │   ├── TXN.parquet
+│   │   │   ├── TXT.parquet
+│   │   │   ├── TYL.parquet
+│   │   │   ├── UAL.parquet
+│   │   │   ├── UBER.parquet
+│   │   │   ├── UDR.parquet
+│   │   │   ├── UHS.parquet
+│   │   │   ├── ULTA.parquet
+│   │   │   ├── UNH.parquet
+│   │   │   ├── UNP.parquet
+│   │   │   ├── UPS.parquet
+│   │   │   ├── URI.parquet
+│   │   │   ├── USB.parquet
+│   │   │   ├── V.parquet
+│   │   │   ├── VICI.parquet
+│   │   │   ├── VLO.parquet
+│   │   │   ├── VLTO.parquet
+│   │   │   ├── VMC.parquet
+│   │   │   ├── VRSK.parquet
+│   │   │   ├── VRSN.parquet
+│   │   │   ├── VRTX.parquet
+│   │   │   ├── VST.parquet
+│   │   │   ├── VTR.parquet
+│   │   │   ├── VTRS.parquet
+│   │   │   ├── VZ.parquet
+│   │   │   ├── WAB.parquet
+│   │   │   ├── WAT.parquet
+│   │   │   ├── WBD.parquet
+│   │   │   ├── WDAY.parquet
+│   │   │   ├── WDC.parquet
+│   │   │   ├── WEC.parquet
+│   │   │   ├── WELL.parquet
+│   │   │   ├── WFC.parquet
+│   │   │   ├── WM.parquet
+│   │   │   ├── WMB.parquet
+│   │   │   ├── WMT.parquet
+│   │   │   ├── WRB.parquet
+│   │   │   ├── WSM.parquet
+│   │   │   ├── WST.parquet
+│   │   │   ├── WTW.parquet
+│   │   │   ├── WY.parquet
+│   │   │   ├── WYNN.parquet
+│   │   │   ├── XEL.parquet
+│   │   │   ├── XOM.parquet
+│   │   │   ├── XYL.parquet
+│   │   │   ├── XYZ.parquet
+│   │   │   ├── YUM.parquet
+│   │   │   ├── ZBH.parquet
+│   │   │   ├── ZBRA.parquet
+│   │   │   └── ZTS.parquet
+│   │   ├── adjusted_prices_daily_quality
+│   │   │   ├── A.json
+│   │   │   ├── AAPL.json
+│   │   │   ├── ABBV.json
+│   │   │   ├── ABNB.json
+│   │   │   ├── ABT.json
+│   │   │   ├── ACGL.json
+│   │   │   ├── ACN.json
+│   │   │   ├── ADBE.json
+│   │   │   ├── ADI.json
+│   │   │   ├── ADM.json
+│   │   │   ├── ADP.json
+│   │   │   ├── ADSK.json
+│   │   │   ├── AEE.json
+│   │   │   ├── AEP.json
+│   │   │   ├── AES.json
+│   │   │   ├── AFL.json
+│   │   │   ├── AIG.json
+│   │   │   ├── AIZ.json
+│   │   │   ├── AJG.json
+│   │   │   ├── AKAM.json
+│   │   │   ├── ALB.json
+│   │   │   ├── ALGN.json
+│   │   │   ├── ALL.json
+│   │   │   ├── ALLE.json
+│   │   │   ├── AMAT.json
+│   │   │   ├── AMCR.json
+│   │   │   ├── AMD.json
+│   │   │   ├── AME.json
+│   │   │   ├── AMGN.json
+│   │   │   ├── AMP.json
+│   │   │   ├── AMT.json
+│   │   │   ├── AMZN.json
+│   │   │   ├── ANET.json
+│   │   │   ├── AON.json
+│   │   │   ├── AOS.json
+│   │   │   ├── APA.json
+│   │   │   ├── APD.json
+│   │   │   ├── APH.json
+│   │   │   ├── APO.json
+│   │   │   ├── APP.json
+│   │   │   ├── APTV.json
+│   │   │   ├── ARE.json
+│   │   │   ├── ARES.json
+│   │   │   ├── ATO.json
+│   │   │   ├── AVB.json
+│   │   │   ├── AVGO.json
+│   │   │   ├── AVY.json
+│   │   │   ├── AWK.json
+│   │   │   ├── AXON.json
+│   │   │   ├── AXP.json
+│   │   │   ├── AZO.json
+│   │   │   ├── BA.json
+│   │   │   ├── BAC.json
+│   │   │   ├── BALL.json
+│   │   │   ├── BAX.json
+│   │   │   ├── BBY.json
+│   │   │   ├── BDX.json
+│   │   │   ├── BEN.json
+│   │   │   ├── BF.B.json
+│   │   │   ├── BG.json
+│   │   │   ├── BIIB.json
+│   │   │   ├── BK.json
+│   │   │   ├── BKNG.json
+│   │   │   ├── BKR.json
+│   │   │   ├── BLDR.json
+│   │   │   ├── BLK.json
+│   │   │   ├── BMY.json
+│   │   │   ├── BR.json
+│   │   │   ├── BRK.B.json
+│   │   │   ├── BRO.json
+│   │   │   ├── BSX.json
+│   │   │   ├── BX.json
+│   │   │   ├── BXP.json
+│   │   │   ├── C.json
+│   │   │   ├── CAG.json
+│   │   │   ├── CAH.json
+│   │   │   ├── CARR.json
+│   │   │   ├── CAT.json
+│   │   │   ├── CB.json
+│   │   │   ├── CBOE.json
+│   │   │   ├── CBRE.json
+│   │   │   ├── CCI.json
+│   │   │   ├── CCL.json
+│   │   │   ├── CDNS.json
+│   │   │   ├── CDW.json
+│   │   │   ├── CEG.json
+│   │   │   ├── CF.json
+│   │   │   ├── CFG.json
+│   │   │   ├── CHD.json
+│   │   │   ├── CHRW.json
+│   │   │   ├── CHTR.json
+│   │   │   ├── CI.json
+│   │   │   ├── CIEN.json
+│   │   │   ├── CINF.json
+│   │   │   ├── CL.json
+│   │   │   ├── CLX.json
+│   │   │   ├── CMCSA.json
+│   │   │   ├── CME.json
+│   │   │   ├── CMG.json
+│   │   │   ├── CMI.json
+│   │   │   ├── CMS.json
+│   │   │   ├── CNC.json
+│   │   │   ├── CNP.json
+│   │   │   ├── COF.json
+│   │   │   ├── COIN.json
+│   │   │   ├── COO.json
+│   │   │   ├── COP.json
+│   │   │   ├── COR.json
+│   │   │   ├── COST.json
+│   │   │   ├── CPAY.json
+│   │   │   ├── CPB.json
+│   │   │   ├── CPRT.json
+│   │   │   ├── CPT.json
+│   │   │   ├── CRH.json
+│   │   │   ├── CRL.json
+│   │   │   ├── CRM.json
+│   │   │   ├── CRWD.json
+│   │   │   ├── CSCO.json
+│   │   │   ├── CSGP.json
+│   │   │   ├── CSX.json
+│   │   │   ├── CTAS.json
+│   │   │   ├── CTRA.json
+│   │   │   ├── CTSH.json
+│   │   │   ├── CTVA.json
+│   │   │   ├── CVNA.json
+│   │   │   ├── CVS.json
+│   │   │   ├── CVX.json
+│   │   │   ├── D.json
+│   │   │   ├── DAL.json
+│   │   │   ├── DASH.json
+│   │   │   ├── DD.json
+│   │   │   ├── DDOG.json
+│   │   │   ├── DE.json
+│   │   │   ├── DECK.json
+│   │   │   ├── DELL.json
+│   │   │   ├── DG.json
+│   │   │   ├── DGX.json
+│   │   │   ├── DHI.json
+│   │   │   ├── DHR.json
+│   │   │   ├── DIS.json
+│   │   │   ├── DLR.json
+│   │   │   ├── DLTR.json
+│   │   │   ├── DOC.json
+│   │   │   ├── DOV.json
+│   │   │   ├── DOW.json
+│   │   │   ├── DPZ.json
+│   │   │   ├── DRI.json
+│   │   │   ├── DTE.json
+│   │   │   ├── DUK.json
+│   │   │   ├── DVA.json
+│   │   │   ├── DVN.json
+│   │   │   ├── DXCM.json
+│   │   │   ├── EA.json
+│   │   │   ├── EBAY.json
+│   │   │   ├── ECL.json
+│   │   │   ├── ED.json
+│   │   │   ├── EFX.json
+│   │   │   ├── EG.json
+│   │   │   ├── EIX.json
+│   │   │   ├── EL.json
+│   │   │   ├── ELV.json
+│   │   │   ├── EME.json
+│   │   │   ├── EMR.json
+│   │   │   ├── EOG.json
+│   │   │   ├── EPAM.json
+│   │   │   ├── EQIX.json
+│   │   │   ├── EQR.json
+│   │   │   ├── EQT.json
+│   │   │   ├── ERIE.json
+│   │   │   ├── ES.json
+│   │   │   ├── ESS.json
+│   │   │   ├── ETN.json
+│   │   │   ├── ETR.json
+│   │   │   ├── EVRG.json
+│   │   │   ├── EW.json
+│   │   │   ├── EXC.json
+│   │   │   ├── EXE.json
+│   │   │   ├── EXPD.json
+│   │   │   ├── EXPE.json
+│   │   │   ├── EXR.json
+│   │   │   ├── F.json
+│   │   │   ├── FANG.json
+│   │   │   ├── FAST.json
+│   │   │   ├── FCX.json
+│   │   │   ├── FDS.json
+│   │   │   ├── FDX.json
+│   │   │   ├── FE.json
+│   │   │   ├── FFIV.json
+│   │   │   ├── FICO.json
+│   │   │   ├── FIS.json
+│   │   │   ├── FISV.json
+│   │   │   ├── FITB.json
+│   │   │   ├── FIX.json
+│   │   │   ├── FOX.json
+│   │   │   ├── FOXA.json
+│   │   │   ├── FRT.json
+│   │   │   ├── FSLR.json
+│   │   │   ├── FTNT.json
+│   │   │   ├── FTV.json
+│   │   │   ├── GD.json
+│   │   │   ├── GDDY.json
+│   │   │   ├── GE.json
+│   │   │   ├── GEHC.json
+│   │   │   ├── GEN.json
+│   │   │   ├── GEV.json
+│   │   │   ├── GILD.json
+│   │   │   ├── GIS.json
+│   │   │   ├── GL.json
+│   │   │   ├── GLW.json
+│   │   │   ├── GM.json
+│   │   │   ├── GNRC.json
+│   │   │   ├── GOOG.json
+│   │   │   ├── GOOGL.json
+│   │   │   ├── GPC.json
+│   │   │   ├── GPN.json
+│   │   │   ├── GRMN.json
+│   │   │   ├── GS.json
+│   │   │   ├── GWW.json
+│   │   │   ├── HAL.json
+│   │   │   ├── HAS.json
+│   │   │   ├── HBAN.json
+│   │   │   ├── HCA.json
+│   │   │   ├── HD.json
+│   │   │   ├── HIG.json
+│   │   │   ├── HII.json
+│   │   │   ├── HLT.json
+│   │   │   ├── HOLX.json
+│   │   │   ├── HON.json
+│   │   │   ├── HOOD.json
+│   │   │   ├── HPE.json
+│   │   │   ├── HPQ.json
+│   │   │   ├── HRL.json
+│   │   │   ├── HSIC.json
+│   │   │   ├── HST.json
+│   │   │   ├── HSY.json
+│   │   │   ├── HUBB.json
+│   │   │   ├── HUM.json
+│   │   │   ├── HWM.json
+│   │   │   ├── IBKR.json
+│   │   │   ├── IBM.json
+│   │   │   ├── ICE.json
+│   │   │   ├── IDXX.json
+│   │   │   ├── IEX.json
+│   │   │   ├── IFF.json
+│   │   │   ├── INCY.json
+│   │   │   ├── INTC.json
+│   │   │   ├── INTU.json
+│   │   │   ├── INVH.json
+│   │   │   ├── IP.json
+│   │   │   ├── IQV.json
+│   │   │   ├── IR.json
+│   │   │   ├── IRM.json
+│   │   │   ├── ISRG.json
+│   │   │   ├── IT.json
+│   │   │   ├── ITW.json
+│   │   │   ├── IVZ.json
+│   │   │   ├── J.json
+│   │   │   ├── JBHT.json
+│   │   │   ├── JBL.json
+│   │   │   ├── JCI.json
+│   │   │   ├── JKHY.json
+│   │   │   ├── JNJ.json
+│   │   │   ├── JPM.json
+│   │   │   ├── KDP.json
+│   │   │   ├── KEY.json
+│   │   │   ├── KEYS.json
+│   │   │   ├── KHC.json
+│   │   │   ├── KIM.json
+│   │   │   ├── KKR.json
+│   │   │   ├── KLAC.json
+│   │   │   ├── KMB.json
+│   │   │   ├── KMI.json
+│   │   │   ├── KO.json
+│   │   │   ├── KR.json
+│   │   │   ├── KVUE.json
+│   │   │   ├── L.json
+│   │   │   ├── LDOS.json
+│   │   │   ├── LEN.json
+│   │   │   ├── LH.json
+│   │   │   ├── LHX.json
+│   │   │   ├── LII.json
+│   │   │   ├── LIN.json
+│   │   │   ├── LLY.json
+│   │   │   ├── LMT.json
+│   │   │   ├── LNT.json
+│   │   │   ├── LOW.json
+│   │   │   ├── LRCX.json
+│   │   │   ├── LULU.json
+│   │   │   ├── LUV.json
+│   │   │   ├── LVS.json
+│   │   │   ├── LW.json
+│   │   │   ├── LYB.json
+│   │   │   ├── LYV.json
+│   │   │   ├── MA.json
+│   │   │   ├── MAA.json
+│   │   │   ├── MAR.json
+│   │   │   ├── MAS.json
+│   │   │   ├── MCD.json
+│   │   │   ├── MCHP.json
+│   │   │   ├── MCK.json
+│   │   │   ├── MCO.json
+│   │   │   ├── MDLZ.json
+│   │   │   ├── MDT.json
+│   │   │   ├── MET.json
+│   │   │   ├── META.json
+│   │   │   ├── MGM.json
+│   │   │   ├── MKC.json
+│   │   │   ├── MLM.json
+│   │   │   ├── MMM.json
+│   │   │   ├── MNST.json
+│   │   │   ├── MO.json
+│   │   │   ├── MOH.json
+│   │   │   ├── MOS.json
+│   │   │   ├── MPC.json
+│   │   │   ├── MPWR.json
+│   │   │   ├── MRK.json
+│   │   │   ├── MRNA.json
+│   │   │   ├── MRSH.json
+│   │   │   ├── MS.json
+│   │   │   ├── MSCI.json
+│   │   │   ├── MSFT.json
+│   │   │   ├── MSI.json
+│   │   │   ├── MTB.json
+│   │   │   ├── MTCH.json
+│   │   │   ├── MTD.json
+│   │   │   ├── MU.json
+│   │   │   ├── NCLH.json
+│   │   │   ├── NDAQ.json
+│   │   │   ├── NDSN.json
+│   │   │   ├── NEE.json
+│   │   │   ├── NEM.json
+│   │   │   ├── NFLX.json
+│   │   │   ├── NI.json
+│   │   │   ├── NKE.json
+│   │   │   ├── NOC.json
+│   │   │   ├── NOW.json
+│   │   │   ├── NRG.json
+│   │   │   ├── NSC.json
+│   │   │   ├── NTAP.json
+│   │   │   ├── NTRS.json
+│   │   │   ├── NUE.json
+│   │   │   ├── NVDA.json
+│   │   │   ├── NVR.json
+│   │   │   ├── NWS.json
+│   │   │   ├── NWSA.json
+│   │   │   ├── NXPI.json
+│   │   │   ├── O.json
+│   │   │   ├── ODFL.json
+│   │   │   ├── OKE.json
+│   │   │   ├── OMC.json
+│   │   │   ├── ON.json
+│   │   │   ├── ORCL.json
+│   │   │   ├── ORLY.json
+│   │   │   ├── OTIS.json
+│   │   │   ├── OXY.json
+│   │   │   ├── PANW.json
+│   │   │   ├── PAYC.json
+│   │   │   ├── PAYX.json
+│   │   │   ├── PCAR.json
+│   │   │   ├── PCG.json
+│   │   │   ├── PEG.json
+│   │   │   ├── PEP.json
+│   │   │   ├── PFE.json
+│   │   │   ├── PFG.json
+│   │   │   ├── PG.json
+│   │   │   ├── PGR.json
+│   │   │   ├── PH.json
+│   │   │   ├── PHM.json
+│   │   │   ├── PKG.json
+│   │   │   ├── PLD.json
+│   │   │   ├── PLTR.json
+│   │   │   ├── PM.json
+│   │   │   ├── PNC.json
+│   │   │   ├── PNR.json
+│   │   │   ├── PNW.json
+│   │   │   ├── PODD.json
+│   │   │   ├── POOL.json
+│   │   │   ├── PPG.json
+│   │   │   ├── PPL.json
+│   │   │   ├── PRU.json
+│   │   │   ├── PSA.json
+│   │   │   ├── PSKY.json
+│   │   │   ├── PSX.json
+│   │   │   ├── PTC.json
+│   │   │   ├── PWR.json
+│   │   │   ├── PYPL.json
+│   │   │   ├── Q.json
+│   │   │   ├── QCOM.json
+│   │   │   ├── RCL.json
+│   │   │   ├── REG.json
+│   │   │   ├── REGN.json
+│   │   │   ├── RF.json
+│   │   │   ├── RJF.json
+│   │   │   ├── RL.json
+│   │   │   ├── RMD.json
+│   │   │   ├── ROK.json
+│   │   │   ├── ROL.json
+│   │   │   ├── ROP.json
+│   │   │   ├── ROST.json
+│   │   │   ├── RSG.json
+│   │   │   ├── RTX.json
+│   │   │   ├── RVTY.json
+│   │   │   ├── SBAC.json
+│   │   │   ├── SBUX.json
+│   │   │   ├── SCHW.json
+│   │   │   ├── SHW.json
+│   │   │   ├── SJM.json
+│   │   │   ├── SLB.json
+│   │   │   ├── SMCI.json
+│   │   │   ├── SNA.json
+│   │   │   ├── SNDK.json
+│   │   │   ├── SNPS.json
+│   │   │   ├── SO.json
+│   │   │   ├── SOLV.json
+│   │   │   ├── SPG.json
+│   │   │   ├── SPGI.json
+│   │   │   ├── SPY.json
+│   │   │   ├── SRE.json
+│   │   │   ├── STE.json
+│   │   │   ├── STLD.json
+│   │   │   ├── STT.json
+│   │   │   ├── STX.json
+│   │   │   ├── STZ.json
+│   │   │   ├── SW.json
+│   │   │   ├── SWK.json
+│   │   │   ├── SWKS.json
+│   │   │   ├── SYF.json
+│   │   │   ├── SYK.json
+│   │   │   ├── SYY.json
+│   │   │   ├── T.json
+│   │   │   ├── TAP.json
+│   │   │   ├── TDG.json
+│   │   │   ├── TDY.json
+│   │   │   ├── TECH.json
+│   │   │   ├── TEL.json
+│   │   │   ├── TER.json
+│   │   │   ├── TFC.json
+│   │   │   ├── TGT.json
+│   │   │   ├── TJX.json
+│   │   │   ├── TKO.json
+│   │   │   ├── TMO.json
+│   │   │   ├── TMUS.json
+│   │   │   ├── TPL.json
+│   │   │   ├── TPR.json
+│   │   │   ├── TRGP.json
+│   │   │   ├── TRMB.json
+│   │   │   ├── TROW.json
+│   │   │   ├── TRV.json
+│   │   │   ├── TSCO.json
+│   │   │   ├── TSLA.json
+│   │   │   ├── TSN.json
+│   │   │   ├── TT.json
+│   │   │   ├── TTD.json
+│   │   │   ├── TTWO.json
+│   │   │   ├── TXN.json
+│   │   │   ├── TXT.json
+│   │   │   ├── TYL.json
+│   │   │   ├── UAL.json
+│   │   │   ├── UBER.json
+│   │   │   ├── UDR.json
+│   │   │   ├── UHS.json
+│   │   │   ├── ULTA.json
+│   │   │   ├── UNH.json
+│   │   │   ├── UNP.json
+│   │   │   ├── UPS.json
+│   │   │   ├── URI.json
+│   │   │   ├── USB.json
+│   │   │   ├── V.json
+│   │   │   ├── VICI.json
+│   │   │   ├── VLO.json
+│   │   │   ├── VLTO.json
+│   │   │   ├── VMC.json
+│   │   │   ├── VRSK.json
+│   │   │   ├── VRSN.json
+│   │   │   ├── VRTX.json
+│   │   │   ├── VST.json
+│   │   │   ├── VTR.json
+│   │   │   ├── VTRS.json
+│   │   │   ├── VZ.json
+│   │   │   ├── WAB.json
+│   │   │   ├── WAT.json
+│   │   │   ├── WBD.json
+│   │   │   ├── WDAY.json
+│   │   │   ├── WDC.json
+│   │   │   ├── WEC.json
+│   │   │   ├── WELL.json
+│   │   │   ├── WFC.json
+│   │   │   ├── WM.json
+│   │   │   ├── WMB.json
+│   │   │   ├── WMT.json
+│   │   │   ├── WRB.json
+│   │   │   ├── WSM.json
+│   │   │   ├── WST.json
+│   │   │   ├── WTW.json
+│   │   │   ├── WY.json
+│   │   │   ├── WYNN.json
+│   │   │   ├── XEL.json
+│   │   │   ├── XOM.json
+│   │   │   ├── XYL.json
+│   │   │   ├── XYZ.json
+│   │   │   ├── YUM.json
+│   │   │   ├── ZBH.json
+│   │   │   ├── ZBRA.json
+│   │   │   └── ZTS.json
+│   │   ├── news_articles
+│   │   │   ├── AAPL.parquet
+│   │   │   ├── AMZN.parquet
+│   │   │   ├── BF.B.parquet
+│   │   │   ├── BRK.B.parquet
+│   │   │   ├── GOOGL.parquet
+│   │   │   ├── JPM.parquet
+│   │   │   ├── MSFT.parquet
+│   │   │   ├── NVDA.parquet
+│   │   │   ├── UNH.parquet
+│   │   │   └── XOM.parquet
+│   │   ├── news_articles_quality
+│   │   │   ├── AAPL.json
+│   │   │   ├── AMZN.json
+│   │   │   ├── BF.B.json
+│   │   │   ├── BRK.B.json
+│   │   │   ├── GOOGL.json
+│   │   │   ├── JPM.json
+│   │   │   ├── MSFT.json
+│   │   │   ├── NVDA.json
+│   │   │   ├── UNH.json
+│   │   │   └── XOM.json
+│   │   ├── prices_daily
+│   │   │   ├── A.parquet
+│   │   │   ├── AAPL.parquet
+│   │   │   ├── ABBV.parquet
+│   │   │   ├── ABNB.parquet
+│   │   │   ├── ABT.parquet
+│   │   │   ├── ACGL.parquet
+│   │   │   ├── ACN.parquet
+│   │   │   ├── ADBE.parquet
+│   │   │   ├── ADI.parquet
+│   │   │   ├── ADM.parquet
+│   │   │   ├── ADP.parquet
+│   │   │   ├── ADSK.parquet
+│   │   │   ├── AEE.parquet
+│   │   │   ├── AEP.parquet
+│   │   │   ├── AES.parquet
+│   │   │   ├── AFL.parquet
+│   │   │   ├── AIG.parquet
+│   │   │   ├── AIZ.parquet
+│   │   │   ├── AJG.parquet
+│   │   │   ├── AKAM.parquet
+│   │   │   ├── ALB.parquet
+│   │   │   ├── ALGN.parquet
+│   │   │   ├── ALL.parquet
+│   │   │   ├── ALLE.parquet
+│   │   │   ├── AMAT.parquet
+│   │   │   ├── AMCR.parquet
+│   │   │   ├── AMD.parquet
+│   │   │   ├── AME.parquet
+│   │   │   ├── AMGN.parquet
+│   │   │   ├── AMP.parquet
+│   │   │   ├── AMT.parquet
+│   │   │   ├── AMZN.parquet
+│   │   │   ├── ANET.parquet
+│   │   │   ├── AON.parquet
+│   │   │   ├── AOS.parquet
+│   │   │   ├── APA.parquet
+│   │   │   ├── APD.parquet
+│   │   │   ├── APH.parquet
+│   │   │   ├── APO.parquet
+│   │   │   ├── APP.parquet
+│   │   │   ├── APTV.parquet
+│   │   │   ├── ARE.parquet
+│   │   │   ├── ARES.parquet
+│   │   │   ├── ATO.parquet
+│   │   │   ├── AVB.parquet
+│   │   │   ├── AVGO.parquet
+│   │   │   ├── AVY.parquet
+│   │   │   ├── AWK.parquet
+│   │   │   ├── AXON.parquet
+│   │   │   ├── AXP.parquet
+│   │   │   ├── AZO.parquet
+│   │   │   ├── BA.parquet
+│   │   │   ├── BAC.parquet
+│   │   │   ├── BALL.parquet
+│   │   │   ├── BAX.parquet
+│   │   │   ├── BBY.parquet
+│   │   │   ├── BDX.parquet
+│   │   │   ├── BEN.parquet
+│   │   │   ├── BF.B.parquet
+│   │   │   ├── BG.parquet
+│   │   │   ├── BIIB.parquet
+│   │   │   ├── BK.parquet
+│   │   │   ├── BKNG.parquet
+│   │   │   ├── BKR.parquet
+│   │   │   ├── BLDR.parquet
+│   │   │   ├── BLK.parquet
+│   │   │   ├── BMY.parquet
+│   │   │   ├── BR.parquet
+│   │   │   ├── BRK.B.parquet
+│   │   │   ├── BRO.parquet
+│   │   │   ├── BSX.parquet
+│   │   │   ├── BX.parquet
+│   │   │   ├── BXP.parquet
+│   │   │   ├── C.parquet
+│   │   │   ├── CAG.parquet
+│   │   │   ├── CAH.parquet
+│   │   │   ├── CARR.parquet
+│   │   │   ├── CAT.parquet
+│   │   │   ├── CB.parquet
+│   │   │   ├── CBOE.parquet
+│   │   │   ├── CBRE.parquet
+│   │   │   ├── CCI.parquet
+│   │   │   ├── CCL.parquet
+│   │   │   ├── CDNS.parquet
+│   │   │   ├── CDW.parquet
+│   │   │   ├── CEG.parquet
+│   │   │   ├── CF.parquet
+│   │   │   ├── CFG.parquet
+│   │   │   ├── CHD.parquet
+│   │   │   ├── CHRW.parquet
+│   │   │   ├── CHTR.parquet
+│   │   │   ├── CI.parquet
+│   │   │   ├── CIEN.parquet
+│   │   │   ├── CINF.parquet
+│   │   │   ├── CL.parquet
+│   │   │   ├── CLX.parquet
+│   │   │   ├── CMCSA.parquet
+│   │   │   ├── CME.parquet
+│   │   │   ├── CMG.parquet
+│   │   │   ├── CMI.parquet
+│   │   │   ├── CMS.parquet
+│   │   │   ├── CNC.parquet
+│   │   │   ├── CNP.parquet
+│   │   │   ├── COF.parquet
+│   │   │   ├── COIN.parquet
+│   │   │   ├── COO.parquet
+│   │   │   ├── COP.parquet
+│   │   │   ├── COR.parquet
+│   │   │   ├── COST.parquet
+│   │   │   ├── CPAY.parquet
+│   │   │   ├── CPB.parquet
+│   │   │   ├── CPRT.parquet
+│   │   │   ├── CPT.parquet
+│   │   │   ├── CRH.parquet
+│   │   │   ├── CRL.parquet
+│   │   │   ├── CRM.parquet
+│   │   │   ├── CRWD.parquet
+│   │   │   ├── CSCO.parquet
+│   │   │   ├── CSGP.parquet
+│   │   │   ├── CSX.parquet
+│   │   │   ├── CTAS.parquet
+│   │   │   ├── CTRA.parquet
+│   │   │   ├── CTSH.parquet
+│   │   │   ├── CTVA.parquet
+│   │   │   ├── CVNA.parquet
+│   │   │   ├── CVS.parquet
+│   │   │   ├── CVX.parquet
+│   │   │   ├── D.parquet
+│   │   │   ├── DAL.parquet
+│   │   │   ├── DASH.parquet
+│   │   │   ├── DD.parquet
+│   │   │   ├── DDOG.parquet
+│   │   │   ├── DE.parquet
+│   │   │   ├── DECK.parquet
+│   │   │   ├── DELL.parquet
+│   │   │   ├── DG.parquet
+│   │   │   ├── DGX.parquet
+│   │   │   ├── DHI.parquet
+│   │   │   ├── DHR.parquet
+│   │   │   ├── DIS.parquet
+│   │   │   ├── DLR.parquet
+│   │   │   ├── DLTR.parquet
+│   │   │   ├── DOC.parquet
+│   │   │   ├── DOV.parquet
+│   │   │   ├── DOW.parquet
+│   │   │   ├── DPZ.parquet
+│   │   │   ├── DRI.parquet
+│   │   │   ├── DTE.parquet
+│   │   │   ├── DUK.parquet
+│   │   │   ├── DVA.parquet
+│   │   │   ├── DVN.parquet
+│   │   │   ├── DXCM.parquet
+│   │   │   ├── EA.parquet
+│   │   │   ├── EBAY.parquet
+│   │   │   ├── ECL.parquet
+│   │   │   ├── ED.parquet
+│   │   │   ├── EFX.parquet
+│   │   │   ├── EG.parquet
+│   │   │   ├── EIX.parquet
+│   │   │   ├── EL.parquet
+│   │   │   ├── ELV.parquet
+│   │   │   ├── EME.parquet
+│   │   │   ├── EMR.parquet
+│   │   │   ├── EOG.parquet
+│   │   │   ├── EPAM.parquet
+│   │   │   ├── EQIX.parquet
+│   │   │   ├── EQR.parquet
+│   │   │   ├── EQT.parquet
+│   │   │   ├── ERIE.parquet
+│   │   │   ├── ES.parquet
+│   │   │   ├── ESS.parquet
+│   │   │   ├── ETN.parquet
+│   │   │   ├── ETR.parquet
+│   │   │   ├── EVRG.parquet
+│   │   │   ├── EW.parquet
+│   │   │   ├── EXC.parquet
+│   │   │   ├── EXE.parquet
+│   │   │   ├── EXPD.parquet
+│   │   │   ├── EXPE.parquet
+│   │   │   ├── EXR.parquet
+│   │   │   ├── F.parquet
+│   │   │   ├── FANG.parquet
+│   │   │   ├── FAST.parquet
+│   │   │   ├── FCX.parquet
+│   │   │   ├── FDS.parquet
+│   │   │   ├── FDX.parquet
+│   │   │   ├── FE.parquet
+│   │   │   ├── FFIV.parquet
+│   │   │   ├── FICO.parquet
+│   │   │   ├── FIS.parquet
+│   │   │   ├── FISV.parquet
+│   │   │   ├── FITB.parquet
+│   │   │   ├── FIX.parquet
+│   │   │   ├── FOX.parquet
+│   │   │   ├── FOXA.parquet
+│   │   │   ├── FRT.parquet
+│   │   │   ├── FSLR.parquet
+│   │   │   ├── FTNT.parquet
+│   │   │   ├── FTV.parquet
+│   │   │   ├── GD.parquet
+│   │   │   ├── GDDY.parquet
+│   │   │   ├── GE.parquet
+│   │   │   ├── GEHC.parquet
+│   │   │   ├── GEN.parquet
+│   │   │   ├── GEV.parquet
+│   │   │   ├── GILD.parquet
+│   │   │   ├── GIS.parquet
+│   │   │   ├── GL.parquet
+│   │   │   ├── GLW.parquet
+│   │   │   ├── GM.parquet
+│   │   │   ├── GNRC.parquet
+│   │   │   ├── GOOG.parquet
+│   │   │   ├── GOOGL.parquet
+│   │   │   ├── GPC.parquet
+│   │   │   ├── GPN.parquet
+│   │   │   ├── GRMN.parquet
+│   │   │   ├── GS.parquet
+│   │   │   ├── GWW.parquet
+│   │   │   ├── HAL.parquet
+│   │   │   ├── HAS.parquet
+│   │   │   ├── HBAN.parquet
+│   │   │   ├── HCA.parquet
+│   │   │   ├── HD.parquet
+│   │   │   ├── HIG.parquet
+│   │   │   ├── HII.parquet
+│   │   │   ├── HLT.parquet
+│   │   │   ├── HOLX.parquet
+│   │   │   ├── HON.parquet
+│   │   │   ├── HOOD.parquet
+│   │   │   ├── HPE.parquet
+│   │   │   ├── HPQ.parquet
+│   │   │   ├── HRL.parquet
+│   │   │   ├── HSIC.parquet
+│   │   │   ├── HST.parquet
+│   │   │   ├── HSY.parquet
+│   │   │   ├── HUBB.parquet
+│   │   │   ├── HUM.parquet
+│   │   │   ├── HWM.parquet
+│   │   │   ├── IBKR.parquet
+│   │   │   ├── IBM.parquet
+│   │   │   ├── ICE.parquet
+│   │   │   ├── IDXX.parquet
+│   │   │   ├── IEX.parquet
+│   │   │   ├── IFF.parquet
+│   │   │   ├── INCY.parquet
+│   │   │   ├── INTC.parquet
+│   │   │   ├── INTU.parquet
+│   │   │   ├── INVH.parquet
+│   │   │   ├── IP.parquet
+│   │   │   ├── IQV.parquet
+│   │   │   ├── IR.parquet
+│   │   │   ├── IRM.parquet
+│   │   │   ├── ISRG.parquet
+│   │   │   ├── IT.parquet
+│   │   │   ├── ITW.parquet
+│   │   │   ├── IVZ.parquet
+│   │   │   ├── J.parquet
+│   │   │   ├── JBHT.parquet
+│   │   │   ├── JBL.parquet
+│   │   │   ├── JCI.parquet
+│   │   │   ├── JKHY.parquet
+│   │   │   ├── JNJ.parquet
+│   │   │   ├── JPM.parquet
+│   │   │   ├── KDP.parquet
+│   │   │   ├── KEY.parquet
+│   │   │   ├── KEYS.parquet
+│   │   │   ├── KHC.parquet
+│   │   │   ├── KIM.parquet
+│   │   │   ├── KKR.parquet
+│   │   │   ├── KLAC.parquet
+│   │   │   ├── KMB.parquet
+│   │   │   ├── KMI.parquet
+│   │   │   ├── KO.parquet
+│   │   │   ├── KR.parquet
+│   │   │   ├── KVUE.parquet
+│   │   │   ├── L.parquet
+│   │   │   ├── LDOS.parquet
+│   │   │   ├── LEN.parquet
+│   │   │   ├── LH.parquet
+│   │   │   ├── LHX.parquet
+│   │   │   ├── LII.parquet
+│   │   │   ├── LIN.parquet
+│   │   │   ├── LLY.parquet
+│   │   │   ├── LMT.parquet
+│   │   │   ├── LNT.parquet
+│   │   │   ├── LOW.parquet
+│   │   │   ├── LRCX.parquet
+│   │   │   ├── LULU.parquet
+│   │   │   ├── LUV.parquet
+│   │   │   ├── LVS.parquet
+│   │   │   ├── LW.parquet
+│   │   │   ├── LYB.parquet
+│   │   │   ├── LYV.parquet
+│   │   │   ├── MA.parquet
+│   │   │   ├── MAA.parquet
+│   │   │   ├── MAR.parquet
+│   │   │   ├── MAS.parquet
+│   │   │   ├── MCD.parquet
+│   │   │   ├── MCHP.parquet
+│   │   │   ├── MCK.parquet
+│   │   │   ├── MCO.parquet
+│   │   │   ├── MDLZ.parquet
+│   │   │   ├── MDT.parquet
+│   │   │   ├── MET.parquet
+│   │   │   ├── META.parquet
+│   │   │   ├── MGM.parquet
+│   │   │   ├── MKC.parquet
+│   │   │   ├── MLM.parquet
+│   │   │   ├── MMM.parquet
+│   │   │   ├── MNST.parquet
+│   │   │   ├── MO.parquet
+│   │   │   ├── MOH.parquet
+│   │   │   ├── MOS.parquet
+│   │   │   ├── MPC.parquet
+│   │   │   ├── MPWR.parquet
+│   │   │   ├── MRK.parquet
+│   │   │   ├── MRNA.parquet
+│   │   │   ├── MRSH.parquet
+│   │   │   ├── MS.parquet
+│   │   │   ├── MSCI.parquet
+│   │   │   ├── MSFT.parquet
+│   │   │   ├── MSI.parquet
+│   │   │   ├── MTB.parquet
+│   │   │   ├── MTCH.parquet
+│   │   │   ├── MTD.parquet
+│   │   │   ├── MU.parquet
+│   │   │   ├── NCLH.parquet
+│   │   │   ├── NDAQ.parquet
+│   │   │   ├── NDSN.parquet
+│   │   │   ├── NEE.parquet
+│   │   │   ├── NEM.parquet
+│   │   │   ├── NFLX.parquet
+│   │   │   ├── NI.parquet
+│   │   │   ├── NKE.parquet
+│   │   │   ├── NOC.parquet
+│   │   │   ├── NOW.parquet
+│   │   │   ├── NRG.parquet
+│   │   │   ├── NSC.parquet
+│   │   │   ├── NTAP.parquet
+│   │   │   ├── NTRS.parquet
+│   │   │   ├── NUE.parquet
+│   │   │   ├── NVDA.parquet
+│   │   │   ├── NVR.parquet
+│   │   │   ├── NWS.parquet
+│   │   │   ├── NWSA.parquet
+│   │   │   ├── NXPI.parquet
+│   │   │   ├── O.parquet
+│   │   │   ├── ODFL.parquet
+│   │   │   ├── OKE.parquet
+│   │   │   ├── OMC.parquet
+│   │   │   ├── ON.parquet
+│   │   │   ├── ORCL.parquet
+│   │   │   ├── ORLY.parquet
+│   │   │   ├── OTIS.parquet
+│   │   │   ├── OXY.parquet
+│   │   │   ├── PANW.parquet
+│   │   │   ├── PAYC.parquet
+│   │   │   ├── PAYX.parquet
+│   │   │   ├── PCAR.parquet
+│   │   │   ├── PCG.parquet
+│   │   │   ├── PEG.parquet
+│   │   │   ├── PEP.parquet
+│   │   │   ├── PFE.parquet
+│   │   │   ├── PFG.parquet
+│   │   │   ├── PG.parquet
+│   │   │   ├── PGR.parquet
+│   │   │   ├── PH.parquet
+│   │   │   ├── PHM.parquet
+│   │   │   ├── PKG.parquet
+│   │   │   ├── PLD.parquet
+│   │   │   ├── PLTR.parquet
+│   │   │   ├── PM.parquet
+│   │   │   ├── PNC.parquet
+│   │   │   ├── PNR.parquet
+│   │   │   ├── PNW.parquet
+│   │   │   ├── PODD.parquet
+│   │   │   ├── POOL.parquet
+│   │   │   ├── PPG.parquet
+│   │   │   ├── PPL.parquet
+│   │   │   ├── PRU.parquet
+│   │   │   ├── PSA.parquet
+│   │   │   ├── PSKY.parquet
+│   │   │   ├── PSX.parquet
+│   │   │   ├── PTC.parquet
+│   │   │   ├── PWR.parquet
+│   │   │   ├── PYPL.parquet
+│   │   │   ├── Q.parquet
+│   │   │   ├── QCOM.parquet
+│   │   │   ├── RCL.parquet
+│   │   │   ├── REG.parquet
+│   │   │   ├── REGN.parquet
+│   │   │   ├── RF.parquet
+│   │   │   ├── RJF.parquet
+│   │   │   ├── RL.parquet
+│   │   │   ├── RMD.parquet
+│   │   │   ├── ROK.parquet
+│   │   │   ├── ROL.parquet
+│   │   │   ├── ROP.parquet
+│   │   │   ├── ROST.parquet
+│   │   │   ├── RSG.parquet
+│   │   │   ├── RTX.parquet
+│   │   │   ├── RVTY.parquet
+│   │   │   ├── SBAC.parquet
+│   │   │   ├── SBUX.parquet
+│   │   │   ├── SCHW.parquet
+│   │   │   ├── SHW.parquet
+│   │   │   ├── SJM.parquet
+│   │   │   ├── SLB.parquet
+│   │   │   ├── SMCI.parquet
+│   │   │   ├── SNA.parquet
+│   │   │   ├── SNDK.parquet
+│   │   │   ├── SNPS.parquet
+│   │   │   ├── SO.parquet
+│   │   │   ├── SOLV.parquet
+│   │   │   ├── SPG.parquet
+│   │   │   ├── SPGI.parquet
+│   │   │   ├── SPY.parquet
+│   │   │   ├── SRE.parquet
+│   │   │   ├── STE.parquet
+│   │   │   ├── STLD.parquet
+│   │   │   ├── STT.parquet
+│   │   │   ├── STX.parquet
+│   │   │   ├── STZ.parquet
+│   │   │   ├── SW.parquet
+│   │   │   ├── SWK.parquet
+│   │   │   ├── SWKS.parquet
+│   │   │   ├── SYF.parquet
+│   │   │   ├── SYK.parquet
+│   │   │   ├── SYY.parquet
+│   │   │   ├── T.parquet
+│   │   │   ├── TAP.parquet
+│   │   │   ├── TDG.parquet
+│   │   │   ├── TDY.parquet
+│   │   │   ├── TECH.parquet
+│   │   │   ├── TEL.parquet
+│   │   │   ├── TER.parquet
+│   │   │   ├── TFC.parquet
+│   │   │   ├── TGT.parquet
+│   │   │   ├── TJX.parquet
+│   │   │   ├── TKO.parquet
+│   │   │   ├── TMO.parquet
+│   │   │   ├── TMUS.parquet
+│   │   │   ├── TPL.parquet
+│   │   │   ├── TPR.parquet
+│   │   │   ├── TRGP.parquet
+│   │   │   ├── TRMB.parquet
+│   │   │   ├── TROW.parquet
+│   │   │   ├── TRV.parquet
+│   │   │   ├── TSCO.parquet
+│   │   │   ├── TSLA.parquet
+│   │   │   ├── TSN.parquet
+│   │   │   ├── TT.parquet
+│   │   │   ├── TTD.parquet
+│   │   │   ├── TTWO.parquet
+│   │   │   ├── TXN.parquet
+│   │   │   ├── TXT.parquet
+│   │   │   ├── TYL.parquet
+│   │   │   ├── UAL.parquet
+│   │   │   ├── UBER.parquet
+│   │   │   ├── UDR.parquet
+│   │   │   ├── UHS.parquet
+│   │   │   ├── ULTA.parquet
+│   │   │   ├── UNH.parquet
+│   │   │   ├── UNP.parquet
+│   │   │   ├── UPS.parquet
+│   │   │   ├── URI.parquet
+│   │   │   ├── USB.parquet
+│   │   │   ├── V.parquet
+│   │   │   ├── VICI.parquet
+│   │   │   ├── VLO.parquet
+│   │   │   ├── VLTO.parquet
+│   │   │   ├── VMC.parquet
+│   │   │   ├── VRSK.parquet
+│   │   │   ├── VRSN.parquet
+│   │   │   ├── VRTX.parquet
+│   │   │   ├── VST.parquet
+│   │   │   ├── VTR.parquet
+│   │   │   ├── VTRS.parquet
+│   │   │   ├── VZ.parquet
+│   │   │   ├── WAB.parquet
+│   │   │   ├── WAT.parquet
+│   │   │   ├── WBD.parquet
+│   │   │   ├── WDAY.parquet
+│   │   │   ├── WDC.parquet
+│   │   │   ├── WEC.parquet
+│   │   │   ├── WELL.parquet
+│   │   │   ├── WFC.parquet
+│   │   │   ├── WM.parquet
+│   │   │   ├── WMB.parquet
+│   │   │   ├── WMT.parquet
+│   │   │   ├── WRB.parquet
+│   │   │   ├── WSM.parquet
+│   │   │   ├── WST.parquet
+│   │   │   ├── WTW.parquet
+│   │   │   ├── WY.parquet
+│   │   │   ├── WYNN.parquet
+│   │   │   ├── XEL.parquet
+│   │   │   ├── XOM.parquet
+│   │   │   ├── XYL.parquet
+│   │   │   ├── XYZ.parquet
+│   │   │   ├── YUM.parquet
+│   │   │   ├── ZBH.parquet
+│   │   │   ├── ZBRA.parquet
+│   │   │   └── ZTS.parquet
+│   │   ├── prices_daily_quality
+│   │   │   ├── A.json
+│   │   │   ├── AAPL.json
+│   │   │   ├── ABBV.json
+│   │   │   ├── ABNB.json
+│   │   │   ├── ABT.json
+│   │   │   ├── ACGL.json
+│   │   │   ├── ACN.json
+│   │   │   ├── ADBE.json
+│   │   │   ├── ADI.json
+│   │   │   ├── ADM.json
+│   │   │   ├── ADP.json
+│   │   │   ├── ADSK.json
+│   │   │   ├── AEE.json
+│   │   │   ├── AEP.json
+│   │   │   ├── AES.json
+│   │   │   ├── AFL.json
+│   │   │   ├── AIG.json
+│   │   │   ├── AIZ.json
+│   │   │   ├── AJG.json
+│   │   │   ├── AKAM.json
+│   │   │   ├── ALB.json
+│   │   │   ├── ALGN.json
+│   │   │   ├── ALL.json
+│   │   │   ├── ALLE.json
+│   │   │   ├── AMAT.json
+│   │   │   ├── AMCR.json
+│   │   │   ├── AMD.json
+│   │   │   ├── AME.json
+│   │   │   ├── AMGN.json
+│   │   │   ├── AMP.json
+│   │   │   ├── AMT.json
+│   │   │   ├── AMZN.json
+│   │   │   ├── ANET.json
+│   │   │   ├── AON.json
+│   │   │   ├── AOS.json
+│   │   │   ├── APA.json
+│   │   │   ├── APD.json
+│   │   │   ├── APH.json
+│   │   │   ├── APO.json
+│   │   │   ├── APP.json
+│   │   │   ├── APTV.json
+│   │   │   ├── ARE.json
+│   │   │   ├── ARES.json
+│   │   │   ├── ATO.json
+│   │   │   ├── AVB.json
+│   │   │   ├── AVGO.json
+│   │   │   ├── AVY.json
+│   │   │   ├── AWK.json
+│   │   │   ├── AXON.json
+│   │   │   ├── AXP.json
+│   │   │   ├── AZO.json
+│   │   │   ├── BA.json
+│   │   │   ├── BAC.json
+│   │   │   ├── BALL.json
+│   │   │   ├── BAX.json
+│   │   │   ├── BBY.json
+│   │   │   ├── BDX.json
+│   │   │   ├── BEN.json
+│   │   │   ├── BF.B.json
+│   │   │   ├── BG.json
+│   │   │   ├── BIIB.json
+│   │   │   ├── BK.json
+│   │   │   ├── BKNG.json
+│   │   │   ├── BKR.json
+│   │   │   ├── BLDR.json
+│   │   │   ├── BLK.json
+│   │   │   ├── BMY.json
+│   │   │   ├── BR.json
+│   │   │   ├── BRK.B.json
+│   │   │   ├── BRO.json
+│   │   │   ├── BSX.json
+│   │   │   ├── BX.json
+│   │   │   ├── BXP.json
+│   │   │   ├── C.json
+│   │   │   ├── CAG.json
+│   │   │   ├── CAH.json
+│   │   │   ├── CARR.json
+│   │   │   ├── CAT.json
+│   │   │   ├── CB.json
+│   │   │   ├── CBOE.json
+│   │   │   ├── CBRE.json
+│   │   │   ├── CCI.json
+│   │   │   ├── CCL.json
+│   │   │   ├── CDNS.json
+│   │   │   ├── CDW.json
+│   │   │   ├── CEG.json
+│   │   │   ├── CF.json
+│   │   │   ├── CFG.json
+│   │   │   ├── CHD.json
+│   │   │   ├── CHRW.json
+│   │   │   ├── CHTR.json
+│   │   │   ├── CI.json
+│   │   │   ├── CIEN.json
+│   │   │   ├── CINF.json
+│   │   │   ├── CL.json
+│   │   │   ├── CLX.json
+│   │   │   ├── CMCSA.json
+│   │   │   ├── CME.json
+│   │   │   ├── CMG.json
+│   │   │   ├── CMI.json
+│   │   │   ├── CMS.json
+│   │   │   ├── CNC.json
+│   │   │   ├── CNP.json
+│   │   │   ├── COF.json
+│   │   │   ├── COIN.json
+│   │   │   ├── COO.json
+│   │   │   ├── COP.json
+│   │   │   ├── COR.json
+│   │   │   ├── COST.json
+│   │   │   ├── CPAY.json
+│   │   │   ├── CPB.json
+│   │   │   ├── CPRT.json
+│   │   │   ├── CPT.json
+│   │   │   ├── CRH.json
+│   │   │   ├── CRL.json
+│   │   │   ├── CRM.json
+│   │   │   ├── CRWD.json
+│   │   │   ├── CSCO.json
+│   │   │   ├── CSGP.json
+│   │   │   ├── CSX.json
+│   │   │   ├── CTAS.json
+│   │   │   ├── CTRA.json
+│   │   │   ├── CTSH.json
+│   │   │   ├── CTVA.json
+│   │   │   ├── CVNA.json
+│   │   │   ├── CVS.json
+│   │   │   ├── CVX.json
+│   │   │   ├── D.json
+│   │   │   ├── DAL.json
+│   │   │   ├── DASH.json
+│   │   │   ├── DD.json
+│   │   │   ├── DDOG.json
+│   │   │   ├── DE.json
+│   │   │   ├── DECK.json
+│   │   │   ├── DELL.json
+│   │   │   ├── DG.json
+│   │   │   ├── DGX.json
+│   │   │   ├── DHI.json
+│   │   │   ├── DHR.json
+│   │   │   ├── DIS.json
+│   │   │   ├── DLR.json
+│   │   │   ├── DLTR.json
+│   │   │   ├── DOC.json
+│   │   │   ├── DOV.json
+│   │   │   ├── DOW.json
+│   │   │   ├── DPZ.json
+│   │   │   ├── DRI.json
+│   │   │   ├── DTE.json
+│   │   │   ├── DUK.json
+│   │   │   ├── DVA.json
+│   │   │   ├── DVN.json
+│   │   │   ├── DXCM.json
+│   │   │   ├── EA.json
+│   │   │   ├── EBAY.json
+│   │   │   ├── ECL.json
+│   │   │   ├── ED.json
+│   │   │   ├── EFX.json
+│   │   │   ├── EG.json
+│   │   │   ├── EIX.json
+│   │   │   ├── EL.json
+│   │   │   ├── ELV.json
+│   │   │   ├── EME.json
+│   │   │   ├── EMR.json
+│   │   │   ├── EOG.json
+│   │   │   ├── EPAM.json
+│   │   │   ├── EQIX.json
+│   │   │   ├── EQR.json
+│   │   │   ├── EQT.json
+│   │   │   ├── ERIE.json
+│   │   │   ├── ES.json
+│   │   │   ├── ESS.json
+│   │   │   ├── ETN.json
+│   │   │   ├── ETR.json
+│   │   │   ├── EVRG.json
+│   │   │   ├── EW.json
+│   │   │   ├── EXC.json
+│   │   │   ├── EXE.json
+│   │   │   ├── EXPD.json
+│   │   │   ├── EXPE.json
+│   │   │   ├── EXR.json
+│   │   │   ├── F.json
+│   │   │   ├── FANG.json
+│   │   │   ├── FAST.json
+│   │   │   ├── FCX.json
+│   │   │   ├── FDS.json
+│   │   │   ├── FDX.json
+│   │   │   ├── FE.json
+│   │   │   ├── FFIV.json
+│   │   │   ├── FICO.json
+│   │   │   ├── FIS.json
+│   │   │   ├── FISV.json
+│   │   │   ├── FITB.json
+│   │   │   ├── FIX.json
+│   │   │   ├── FOX.json
+│   │   │   ├── FOXA.json
+│   │   │   ├── FRT.json
+│   │   │   ├── FSLR.json
+│   │   │   ├── FTNT.json
+│   │   │   ├── FTV.json
+│   │   │   ├── GD.json
+│   │   │   ├── GDDY.json
+│   │   │   ├── GE.json
+│   │   │   ├── GEHC.json
+│   │   │   ├── GEN.json
+│   │   │   ├── GEV.json
+│   │   │   ├── GILD.json
+│   │   │   ├── GIS.json
+│   │   │   ├── GL.json
+│   │   │   ├── GLW.json
+│   │   │   ├── GM.json
+│   │   │   ├── GNRC.json
+│   │   │   ├── GOOG.json
+│   │   │   ├── GOOGL.json
+│   │   │   ├── GPC.json
+│   │   │   ├── GPN.json
+│   │   │   ├── GRMN.json
+│   │   │   ├── GS.json
+│   │   │   ├── GWW.json
+│   │   │   ├── HAL.json
+│   │   │   ├── HAS.json
+│   │   │   ├── HBAN.json
+│   │   │   ├── HCA.json
+│   │   │   ├── HD.json
+│   │   │   ├── HIG.json
+│   │   │   ├── HII.json
+│   │   │   ├── HLT.json
+│   │   │   ├── HOLX.json
+│   │   │   ├── HON.json
+│   │   │   ├── HOOD.json
+│   │   │   ├── HPE.json
+│   │   │   ├── HPQ.json
+│   │   │   ├── HRL.json
+│   │   │   ├── HSIC.json
+│   │   │   ├── HST.json
+│   │   │   ├── HSY.json
+│   │   │   ├── HUBB.json
+│   │   │   ├── HUM.json
+│   │   │   ├── HWM.json
+│   │   │   ├── IBKR.json
+│   │   │   ├── IBM.json
+│   │   │   ├── ICE.json
+│   │   │   ├── IDXX.json
+│   │   │   ├── IEX.json
+│   │   │   ├── IFF.json
+│   │   │   ├── INCY.json
+│   │   │   ├── INTC.json
+│   │   │   ├── INTU.json
+│   │   │   ├── INVH.json
+│   │   │   ├── IP.json
+│   │   │   ├── IQV.json
+│   │   │   ├── IR.json
+│   │   │   ├── IRM.json
+│   │   │   ├── ISRG.json
+│   │   │   ├── IT.json
+│   │   │   ├── ITW.json
+│   │   │   ├── IVZ.json
+│   │   │   ├── J.json
+│   │   │   ├── JBHT.json
+│   │   │   ├── JBL.json
+│   │   │   ├── JCI.json
+│   │   │   ├── JKHY.json
+│   │   │   ├── JNJ.json
+│   │   │   ├── JPM.json
+│   │   │   ├── KDP.json
+│   │   │   ├── KEY.json
+│   │   │   ├── KEYS.json
+│   │   │   ├── KHC.json
+│   │   │   ├── KIM.json
+│   │   │   ├── KKR.json
+│   │   │   ├── KLAC.json
+│   │   │   ├── KMB.json
+│   │   │   ├── KMI.json
+│   │   │   ├── KO.json
+│   │   │   ├── KR.json
+│   │   │   ├── KVUE.json
+│   │   │   ├── L.json
+│   │   │   ├── LDOS.json
+│   │   │   ├── LEN.json
+│   │   │   ├── LH.json
+│   │   │   ├── LHX.json
+│   │   │   ├── LII.json
+│   │   │   ├── LIN.json
+│   │   │   ├── LLY.json
+│   │   │   ├── LMT.json
+│   │   │   ├── LNT.json
+│   │   │   ├── LOW.json
+│   │   │   ├── LRCX.json
+│   │   │   ├── LULU.json
+│   │   │   ├── LUV.json
+│   │   │   ├── LVS.json
+│   │   │   ├── LW.json
+│   │   │   ├── LYB.json
+│   │   │   ├── LYV.json
+│   │   │   ├── MA.json
+│   │   │   ├── MAA.json
+│   │   │   ├── MAR.json
+│   │   │   ├── MAS.json
+│   │   │   ├── MCD.json
+│   │   │   ├── MCHP.json
+│   │   │   ├── MCK.json
+│   │   │   ├── MCO.json
+│   │   │   ├── MDLZ.json
+│   │   │   ├── MDT.json
+│   │   │   ├── MET.json
+│   │   │   ├── META.json
+│   │   │   ├── MGM.json
+│   │   │   ├── MKC.json
+│   │   │   ├── MLM.json
+│   │   │   ├── MMM.json
+│   │   │   ├── MNST.json
+│   │   │   ├── MO.json
+│   │   │   ├── MOH.json
+│   │   │   ├── MOS.json
+│   │   │   ├── MPC.json
+│   │   │   ├── MPWR.json
+│   │   │   ├── MRK.json
+│   │   │   ├── MRNA.json
+│   │   │   ├── MRSH.json
+│   │   │   ├── MS.json
+│   │   │   ├── MSCI.json
+│   │   │   ├── MSFT.json
+│   │   │   ├── MSI.json
+│   │   │   ├── MTB.json
+│   │   │   ├── MTCH.json
+│   │   │   ├── MTD.json
+│   │   │   ├── MU.json
+│   │   │   ├── NCLH.json
+│   │   │   ├── NDAQ.json
+│   │   │   ├── NDSN.json
+│   │   │   ├── NEE.json
+│   │   │   ├── NEM.json
+│   │   │   ├── NFLX.json
+│   │   │   ├── NI.json
+│   │   │   ├── NKE.json
+│   │   │   ├── NOC.json
+│   │   │   ├── NOW.json
+│   │   │   ├── NRG.json
+│   │   │   ├── NSC.json
+│   │   │   ├── NTAP.json
+│   │   │   ├── NTRS.json
+│   │   │   ├── NUE.json
+│   │   │   ├── NVDA.json
+│   │   │   ├── NVR.json
+│   │   │   ├── NWS.json
+│   │   │   ├── NWSA.json
+│   │   │   ├── NXPI.json
+│   │   │   ├── O.json
+│   │   │   ├── ODFL.json
+│   │   │   ├── OKE.json
+│   │   │   ├── OMC.json
+│   │   │   ├── ON.json
+│   │   │   ├── ORCL.json
+│   │   │   ├── ORLY.json
+│   │   │   ├── OTIS.json
+│   │   │   ├── OXY.json
+│   │   │   ├── PANW.json
+│   │   │   ├── PAYC.json
+│   │   │   ├── PAYX.json
+│   │   │   ├── PCAR.json
+│   │   │   ├── PCG.json
+│   │   │   ├── PEG.json
+│   │   │   ├── PEP.json
+│   │   │   ├── PFE.json
+│   │   │   ├── PFG.json
+│   │   │   ├── PG.json
+│   │   │   ├── PGR.json
+│   │   │   ├── PH.json
+│   │   │   ├── PHM.json
+│   │   │   ├── PKG.json
+│   │   │   ├── PLD.json
+│   │   │   ├── PLTR.json
+│   │   │   ├── PM.json
+│   │   │   ├── PNC.json
+│   │   │   ├── PNR.json
+│   │   │   ├── PNW.json
+│   │   │   ├── PODD.json
+│   │   │   ├── POOL.json
+│   │   │   ├── PPG.json
+│   │   │   ├── PPL.json
+│   │   │   ├── PRU.json
+│   │   │   ├── PSA.json
+│   │   │   ├── PSKY.json
+│   │   │   ├── PSX.json
+│   │   │   ├── PTC.json
+│   │   │   ├── PWR.json
+│   │   │   ├── PYPL.json
+│   │   │   ├── Q.json
+│   │   │   ├── QCOM.json
+│   │   │   ├── RCL.json
+│   │   │   ├── REG.json
+│   │   │   ├── REGN.json
+│   │   │   ├── RF.json
+│   │   │   ├── RJF.json
+│   │   │   ├── RL.json
+│   │   │   ├── RMD.json
+│   │   │   ├── ROK.json
+│   │   │   ├── ROL.json
+│   │   │   ├── ROP.json
+│   │   │   ├── ROST.json
+│   │   │   ├── RSG.json
+│   │   │   ├── RTX.json
+│   │   │   ├── RVTY.json
+│   │   │   ├── SBAC.json
+│   │   │   ├── SBUX.json
+│   │   │   ├── SCHW.json
+│   │   │   ├── SHW.json
+│   │   │   ├── SJM.json
+│   │   │   ├── SLB.json
+│   │   │   ├── SMCI.json
+│   │   │   ├── SNA.json
+│   │   │   ├── SNDK.json
+│   │   │   ├── SNPS.json
+│   │   │   ├── SO.json
+│   │   │   ├── SOLV.json
+│   │   │   ├── SPG.json
+│   │   │   ├── SPGI.json
+│   │   │   ├── SPY.json
+│   │   │   ├── SRE.json
+│   │   │   ├── STE.json
+│   │   │   ├── STLD.json
+│   │   │   ├── STT.json
+│   │   │   ├── STX.json
+│   │   │   ├── STZ.json
+│   │   │   ├── SW.json
+│   │   │   ├── SWK.json
+│   │   │   ├── SWKS.json
+│   │   │   ├── SYF.json
+│   │   │   ├── SYK.json
+│   │   │   ├── SYY.json
+│   │   │   ├── T.json
+│   │   │   ├── TAP.json
+│   │   │   ├── TDG.json
+│   │   │   ├── TDY.json
+│   │   │   ├── TECH.json
+│   │   │   ├── TEL.json
+│   │   │   ├── TER.json
+│   │   │   ├── TFC.json
+│   │   │   ├── TGT.json
+│   │   │   ├── TJX.json
+│   │   │   ├── TKO.json
+│   │   │   ├── TMO.json
+│   │   │   ├── TMUS.json
+│   │   │   ├── TPL.json
+│   │   │   ├── TPR.json
+│   │   │   ├── TRGP.json
+│   │   │   ├── TRMB.json
+│   │   │   ├── TROW.json
+│   │   │   ├── TRV.json
+│   │   │   ├── TSCO.json
+│   │   │   ├── TSLA.json
+│   │   │   ├── TSN.json
+│   │   │   ├── TT.json
+│   │   │   ├── TTD.json
+│   │   │   ├── TTWO.json
+│   │   │   ├── TXN.json
+│   │   │   ├── TXT.json
+│   │   │   ├── TYL.json
+│   │   │   ├── UAL.json
+│   │   │   ├── UBER.json
+│   │   │   ├── UDR.json
+│   │   │   ├── UHS.json
+│   │   │   ├── ULTA.json
+│   │   │   ├── UNH.json
+│   │   │   ├── UNP.json
+│   │   │   ├── UPS.json
+│   │   │   ├── URI.json
+│   │   │   ├── USB.json
+│   │   │   ├── V.json
+│   │   │   ├── VICI.json
+│   │   │   ├── VLO.json
+│   │   │   ├── VLTO.json
+│   │   │   ├── VMC.json
+│   │   │   ├── VRSK.json
+│   │   │   ├── VRSN.json
+│   │   │   ├── VRTX.json
+│   │   │   ├── VST.json
+│   │   │   ├── VTR.json
+│   │   │   ├── VTRS.json
+│   │   │   ├── VZ.json
+│   │   │   ├── WAB.json
+│   │   │   ├── WAT.json
+│   │   │   ├── WBD.json
+│   │   │   ├── WDAY.json
+│   │   │   ├── WDC.json
+│   │   │   ├── WEC.json
+│   │   │   ├── WELL.json
+│   │   │   ├── WFC.json
+│   │   │   ├── WM.json
+│   │   │   ├── WMB.json
+│   │   │   ├── WMT.json
+│   │   │   ├── WRB.json
+│   │   │   ├── WSM.json
+│   │   │   ├── WST.json
+│   │   │   ├── WTW.json
+│   │   │   ├── WY.json
+│   │   │   ├── WYNN.json
+│   │   │   ├── XEL.json
+│   │   │   ├── XOM.json
+│   │   │   ├── XYL.json
+│   │   │   ├── XYZ.json
+│   │   │   ├── YUM.json
+│   │   │   ├── ZBH.json
+│   │   │   ├── ZBRA.json
+│   │   │   └── ZTS.json
+│   │   └── split_events
+│   │       ├── split_events.parquet
+│   │       └── split_events_quality.json
+│   ├── kb
+│   │   ├── README.md
+│   │   ├── company_aliases.parquet
+│   │   ├── company_kb.parquet
+│   │   ├── company_kb_quality.json
+│   │   └── company_ticker_mappings.parquet
+│   ├── manifests
+│   │   ├── README.md
+│   │   ├── company_kb_manifest_pilot10_kb_20260319T160242Z.json
+│   │   ├── market_data_manifest_debug_spy_20260319T123826Z.json
+│   │   ├── market_data_manifest_debug_unh_20260319T123826Z.json
+│   │   ├── market_data_manifest_debug_xom_20260319T123826Z.json
+│   │   ├── market_data_manifest_pilot_recent_batch1_20260319T155439Z.json
+│   │   ├── market_data_manifest_pilot_recent_batch2_20260319T155618Z.json
+│   │   ├── market_data_manifest_q_2025_2026_20260319T150320Z.json
+│   │   ├── market_data_manifest_sndk_2025_2026_20260319T150320Z.json
+│   │   ├── modeling_panel__pilot10_hashing_v1.json
+│   │   ├── news_data_manifest_pilot_news_q1_2024_20260319T155232Z.json
+│   │   ├── news_data_manifest_pilot_news_recent_20260319T160151Z.json
+│   │   ├── split_events_manifest_benchmark_spy_20260319T153041Z.json
+│   │   ├── split_events_manifest_debug_splits_sample_20260319T152437Z.json
+│   │   ├── split_events_manifest_whole_universe_20260319T152908Z.json
+│   │   ├── whole_universe_adjusted_prices_summary_20260319.json
+│   │   ├── whole_universe_market_extract_progress.json
+│   │   └── whole_universe_market_extract_summary_20260319.json
+│   └── raw
+│       ├── README.md
+│       ├── finnhub
+│       │   ├── AAPL
+│       │   ├── AMZN
+│       │   ├── BF.B
+│       │   ├── BRK.B
+│       │   ├── GOOGL
+│       │   ├── JPM
+│       │   ├── MSFT
+│       │   ├── NVDA
+│       │   ├── UNH
+│       │   ├── XOM
+│       │   └── news_request_ledger.parquet
+│       ├── sec
+│       │   ├── pilot10_ciks.txt
+│       │   ├── sec_request_ledger.parquet
+│       │   └── submissions
+│       ├── split_events
+│       │   ├── split_event_request_ledger.parquet
+│       │   ├── twelve_data
+│       │   └── yfinance
+│       ├── twelvedata
+│       │   ├── A
+│       │   ├── AAPL
+│       │   ├── ABBV
+│       │   ├── ABNB
+│       │   ├── ABT
+│       │   ├── ACGL
+│       │   ├── ACN
+│       │   ├── ADBE
+│       │   ├── ADI
+│       │   ├── ADM
+│       │   ├── ADP
+│       │   ├── ADSK
+│       │   ├── AEE
+│       │   ├── AEP
+│       │   ├── AES
+│       │   ├── AFL
+│       │   ├── AIG
+│       │   ├── AIZ
+│       │   ├── AJG
+│       │   ├── AKAM
+│       │   ├── ALB
+│       │   ├── ALGN
+│       │   ├── ALL
+│       │   ├── ALLE
+│       │   ├── AMAT
+│       │   ├── AMCR
+│       │   ├── AMD
+│       │   ├── AME
+│       │   ├── AMGN
+│       │   ├── AMP
+│       │   ├── AMT
+│       │   ├── AMZN
+│       │   ├── ANET
+│       │   ├── AON
+│       │   ├── AOS
+│       │   ├── APA
+│       │   ├── APD
+│       │   ├── APH
+│       │   ├── APO
+│       │   ├── APP
+│       │   ├── APTV
+│       │   ├── ARE
+│       │   ├── ARES
+│       │   ├── ATO
+│       │   ├── AVB
+│       │   ├── AVGO
+│       │   ├── AVY
+│       │   ├── AWK
+│       │   ├── AXON
+│       │   ├── AXP
+│       │   ├── AZO
+│       │   ├── BA
+│       │   ├── BAC
+│       │   ├── BALL
+│       │   ├── BAX
+│       │   ├── BBY
+│       │   ├── BDX
+│       │   ├── BEN
+│       │   ├── BF.B
+│       │   ├── BG
+│       │   ├── BIIB
+│       │   ├── BK
+│       │   ├── BKNG
+│       │   ├── BKR
+│       │   ├── BLDR
+│       │   ├── BLK
+│       │   ├── BMY
+│       │   ├── BR
+│       │   ├── BRK.B
+│       │   ├── BRO
+│       │   ├── BSX
+│       │   ├── BX
+│       │   ├── BXP
+│       │   ├── C
+│       │   ├── CAG
+│       │   ├── CAH
+│       │   ├── CARR
+│       │   ├── CAT
+│       │   ├── CB
+│       │   ├── CBOE
+│       │   ├── CBRE
+│       │   ├── CCI
+│       │   ├── CCL
+│       │   ├── CDNS
+│       │   ├── CDW
+│       │   ├── CEG
+│       │   ├── CF
+│       │   ├── CFG
+│       │   ├── CHD
+│       │   ├── CHRW
+│       │   ├── CHTR
+│       │   ├── CI
+│       │   ├── CIEN
+│       │   ├── CINF
+│       │   ├── CL
+│       │   ├── CLX
+│       │   ├── CMCSA
+│       │   ├── CME
+│       │   ├── CMG
+│       │   ├── CMI
+│       │   ├── CMS
+│       │   ├── CNC
+│       │   ├── CNP
+│       │   ├── COF
+│       │   ├── COIN
+│       │   ├── COO
+│       │   ├── COP
+│       │   ├── COR
+│       │   ├── COST
+│       │   ├── CPAY
+│       │   ├── CPB
+│       │   ├── CPRT
+│       │   ├── CPT
+│       │   ├── CRH
+│       │   ├── CRL
+│       │   ├── CRM
+│       │   ├── CRWD
+│       │   ├── CSCO
+│       │   ├── CSGP
+│       │   ├── CSX
+│       │   ├── CTAS
+│       │   ├── CTRA
+│       │   ├── CTSH
+│       │   ├── CTVA
+│       │   ├── CVNA
+│       │   ├── CVS
+│       │   ├── CVX
+│       │   ├── D
+│       │   ├── DAL
+│       │   ├── DASH
+│       │   ├── DD
+│       │   ├── DDOG
+│       │   ├── DE
+│       │   ├── DECK
+│       │   ├── DELL
+│       │   ├── DG
+│       │   ├── DGX
+│       │   ├── DHI
+│       │   ├── DHR
+│       │   ├── DIS
+│       │   ├── DLR
+│       │   ├── DLTR
+│       │   ├── DOC
+│       │   ├── DOV
+│       │   ├── DOW
+│       │   ├── DPZ
+│       │   ├── DRI
+│       │   ├── DTE
+│       │   ├── DUK
+│       │   ├── DVA
+│       │   ├── DVN
+│       │   ├── DXCM
+│       │   ├── EA
+│       │   ├── EBAY
+│       │   ├── ECL
+│       │   ├── ED
+│       │   ├── EFX
+│       │   ├── EG
+│       │   ├── EIX
+│       │   ├── EL
+│       │   ├── ELV
+│       │   ├── EME
+│       │   ├── EMR
+│       │   ├── EOG
+│       │   ├── EPAM
+│       │   ├── EQIX
+│       │   ├── EQR
+│       │   ├── EQT
+│       │   ├── ERIE
+│       │   ├── ES
+│       │   ├── ESS
+│       │   ├── ETN
+│       │   ├── ETR
+│       │   ├── EVRG
+│       │   ├── EW
+│       │   ├── EXC
+│       │   ├── EXE
+│       │   ├── EXPD
+│       │   ├── EXPE
+│       │   ├── EXR
+│       │   ├── F
+│       │   ├── FANG
+│       │   ├── FAST
+│       │   ├── FCX
+│       │   ├── FDS
+│       │   ├── FDX
+│       │   ├── FE
+│       │   ├── FFIV
+│       │   ├── FICO
+│       │   ├── FIS
+│       │   ├── FISV
+│       │   ├── FITB
+│       │   ├── FIX
+│       │   ├── FOX
+│       │   ├── FOXA
+│       │   ├── FRT
+│       │   ├── FSLR
+│       │   ├── FTNT
+│       │   ├── FTV
+│       │   ├── GD
+│       │   ├── GDDY
+│       │   ├── GE
+│       │   ├── GEHC
+│       │   ├── GEN
+│       │   ├── GEV
+│       │   ├── GILD
+│       │   ├── GIS
+│       │   ├── GL
+│       │   ├── GLW
+│       │   ├── GM
+│       │   ├── GNRC
+│       │   ├── GOOG
+│       │   ├── GOOGL
+│       │   ├── GPC
+│       │   ├── GPN
+│       │   ├── GRMN
+│       │   ├── GS
+│       │   ├── GWW
+│       │   ├── HAL
+│       │   ├── HAS
+│       │   ├── HBAN
+│       │   ├── HCA
+│       │   ├── HD
+│       │   ├── HIG
+│       │   ├── HII
+│       │   ├── HLT
+│       │   ├── HOLX
+│       │   ├── HON
+│       │   ├── HOOD
+│       │   ├── HPE
+│       │   ├── HPQ
+│       │   ├── HRL
+│       │   ├── HSIC
+│       │   ├── HST
+│       │   ├── HSY
+│       │   ├── HUBB
+│       │   ├── HUM
+│       │   ├── HWM
+│       │   ├── IBKR
+│       │   ├── IBM
+│       │   ├── ICE
+│       │   ├── IDXX
+│       │   ├── IEX
+│       │   ├── IFF
+│       │   ├── INCY
+│       │   ├── INTC
+│       │   ├── INTU
+│       │   ├── INVH
+│       │   ├── IP
+│       │   ├── IQV
+│       │   ├── IR
+│       │   ├── IRM
+│       │   ├── ISRG
+│       │   ├── IT
+│       │   ├── ITW
+│       │   ├── IVZ
+│       │   ├── J
+│       │   ├── JBHT
+│       │   ├── JBL
+│       │   ├── JCI
+│       │   ├── JKHY
+│       │   ├── JNJ
+│       │   ├── JPM
+│       │   ├── KDP
+│       │   ├── KEY
+│       │   ├── KEYS
+│       │   ├── KHC
+│       │   ├── KIM
+│       │   ├── KKR
+│       │   ├── KLAC
+│       │   ├── KMB
+│       │   ├── KMI
+│       │   ├── KO
+│       │   ├── KR
+│       │   ├── KVUE
+│       │   ├── L
+│       │   ├── LDOS
+│       │   ├── LEN
+│       │   ├── LH
+│       │   ├── LHX
+│       │   ├── LII
+│       │   ├── LIN
+│       │   ├── LLY
+│       │   ├── LMT
+│       │   ├── LNT
+│       │   ├── LOW
+│       │   ├── LRCX
+│       │   ├── LULU
+│       │   ├── LUV
+│       │   ├── LVS
+│       │   ├── LW
+│       │   ├── LYB
+│       │   ├── LYV
+│       │   ├── MA
+│       │   ├── MAA
+│       │   ├── MAR
+│       │   ├── MAS
+│       │   ├── MCD
+│       │   ├── MCHP
+│       │   ├── MCK
+│       │   ├── MCO
+│       │   ├── MDLZ
+│       │   ├── MDT
+│       │   ├── MET
+│       │   ├── META
+│       │   ├── MGM
+│       │   ├── MKC
+│       │   ├── MLM
+│       │   ├── MMM
+│       │   ├── MNST
+│       │   ├── MO
+│       │   ├── MOH
+│       │   ├── MOS
+│       │   ├── MPC
+│       │   ├── MPWR
+│       │   ├── MRK
+│       │   ├── MRNA
+│       │   ├── MRSH
+│       │   ├── MS
+│       │   ├── MSCI
+│       │   ├── MSFT
+│       │   ├── MSI
+│       │   ├── MTB
+│       │   ├── MTCH
+│       │   ├── MTD
+│       │   ├── MU
+│       │   ├── NCLH
+│       │   ├── NDAQ
+│       │   ├── NDSN
+│       │   ├── NEE
+│       │   ├── NEM
+│       │   ├── NFLX
+│       │   ├── NI
+│       │   ├── NKE
+│       │   ├── NOC
+│       │   ├── NOW
+│       │   ├── NRG
+│       │   ├── NSC
+│       │   ├── NTAP
+│       │   ├── NTRS
+│       │   ├── NUE
+│       │   ├── NVDA
+│       │   ├── NVR
+│       │   ├── NWS
+│       │   ├── NWSA
+│       │   ├── NXPI
+│       │   ├── O
+│       │   ├── ODFL
+│       │   ├── OKE
+│       │   ├── OMC
+│       │   ├── ON
+│       │   ├── ORCL
+│       │   ├── ORLY
+│       │   ├── OTIS
+│       │   ├── OXY
+│       │   ├── PANW
+│       │   ├── PAYC
+│       │   ├── PAYX
+│       │   ├── PCAR
+│       │   ├── PCG
+│       │   ├── PEG
+│       │   ├── PEP
+│       │   ├── PFE
+│       │   ├── PFG
+│       │   ├── PG
+│       │   ├── PGR
+│       │   ├── PH
+│       │   ├── PHM
+│       │   ├── PKG
+│       │   ├── PLD
+│       │   ├── PLTR
+│       │   ├── PM
+│       │   ├── PNC
+│       │   ├── PNR
+│       │   ├── PNW
+│       │   ├── PODD
+│       │   ├── POOL
+│       │   ├── PPG
+│       │   ├── PPL
+│       │   ├── PRU
+│       │   ├── PSA
+│       │   ├── PSKY
+│       │   ├── PSX
+│       │   ├── PTC
+│       │   ├── PWR
+│       │   ├── PYPL
+│       │   ├── Q
+│       │   ├── QCOM
+│       │   ├── RCL
+│       │   ├── REG
+│       │   ├── REGN
+│       │   ├── RF
+│       │   ├── RJF
+│       │   ├── RL
+│       │   ├── RMD
+│       │   ├── ROK
+│       │   ├── ROL
+│       │   ├── ROP
+│       │   ├── ROST
+│       │   ├── RSG
+│       │   ├── RTX
+│       │   ├── RVTY
+│       │   ├── SBAC
+│       │   ├── SBUX
+│       │   ├── SCHW
+│       │   ├── SHW
+│       │   ├── SJM
+│       │   ├── SLB
+│       │   ├── SMCI
+│       │   ├── SNA
+│       │   ├── SNDK
+│       │   ├── SNPS
+│       │   ├── SO
+│       │   ├── SOLV
+│       │   ├── SPG
+│       │   ├── SPGI
+│       │   ├── SPY
+│       │   ├── SRE
+│       │   ├── STE
+│       │   ├── STLD
+│       │   ├── STT
+│       │   ├── STX
+│       │   ├── STZ
+│       │   ├── SW
+│       │   ├── SWK
+│       │   ├── SWKS
+│       │   ├── SYF
+│       │   ├── SYK
+│       │   ├── SYY
+│       │   ├── T
+│       │   ├── TAP
+│       │   ├── TDG
+│       │   ├── TDY
+│       │   ├── TECH
+│       │   ├── TEL
+│       │   ├── TER
+│       │   ├── TFC
+│       │   ├── TGT
+│       │   ├── TJX
+│       │   ├── TKO
+│       │   ├── TMO
+│       │   ├── TMUS
+│       │   ├── TPL
+│       │   ├── TPR
+│       │   ├── TRGP
+│       │   ├── TRMB
+│       │   ├── TROW
+│       │   ├── TRV
+│       │   ├── TSCO
+│       │   ├── TSLA
+│       │   ├── TSN
+│       │   ├── TT
+│       │   ├── TTD
+│       │   ├── TTWO
+│       │   ├── TXN
+│       │   ├── TXT
+│       │   ├── TYL
+│       │   ├── UAL
+│       │   ├── UBER
+│       │   ├── UDR
+│       │   ├── UHS
+│       │   ├── ULTA
+│       │   ├── UNH
+│       │   ├── UNP
+│       │   ├── UPS
+│       │   ├── URI
+│       │   ├── USB
+│       │   ├── V
+│       │   ├── VICI
+│       │   ├── VLO
+│       │   ├── VLTO
+│       │   ├── VMC
+│       │   ├── VRSK
+│       │   ├── VRSN
+│       │   ├── VRTX
+│       │   ├── VST
+│       │   ├── VTR
+│       │   ├── VTRS
+│       │   ├── VZ
+│       │   ├── WAB
+│       │   ├── WAT
+│       │   ├── WBD
+│       │   ├── WDAY
+│       │   ├── WDC
+│       │   ├── WEC
+│       │   ├── WELL
+│       │   ├── WFC
+│       │   ├── WM
+│       │   ├── WMB
+│       │   ├── WMT
+│       │   ├── WRB
+│       │   ├── WSM
+│       │   ├── WST
+│       │   ├── WTW
+│       │   ├── WY
+│       │   ├── WYNN
+│       │   ├── XEL
+│       │   ├── XOM
+│       │   ├── XYL
+│       │   ├── XYZ
+│       │   ├── YUM
+│       │   ├── ZBH
+│       │   ├── ZBRA
+│       │   ├── ZTS
+│       │   └── market_data_request_ledger.parquet
+│       └── universe
+│           ├── README.md
+│           ├── latest_universe_snapshot.csv
+│           ├── pilot10.csv
+│           ├── sp500_snapshot_2026-03-19.csv
+│           ├── sp500_snapshot_2026-03-19.html
+│           └── sp500_snapshot_2026-03-19.json
+├── deprecate_legacy_snapshot.sh
+├── deprecated_version
+│   └── legacy_snapshot_20260402T115014Z
+│       └── ROOT_TREE_BEFORE.txt
+├── docs
+│   ├── Complete_Agent_Background.txt
+│   ├── Complete_guidebook.txt
+│   ├── ExecutionFlow.md
+│   ├── Expanded_Testing.md
+│   ├── RESEARCH_DESIGN_old.md
+│   ├── architecture_overview.md
+│   ├── data_layout.md
+│   ├── evaluation_protocol.md
+│   ├── execution_plan.txt
+│   ├── implementation_roadmap.md
+│   └── testing_commands.md
+├── execution_plan.txt
+├── notebooks
+│   └── README.md
+├── project_extra_data.txt
+├── pyproject.toml
+├── reports
+│   ├── README.md
+│   ├── ablations_stage14
+│   │   ├── ablation_summary.json
+│   │   └── ablation_summary.parquet
+│   ├── eval_stage14_baseline
+│   │   ├── evaluation_summary.json
+│   │   ├── ranking_metrics.parquet
+│   │   └── regression_metrics.parquet
+│   └── eval_stage14_multimodal
+│       ├── evaluation_summary.json
+│       ├── ranking_metrics.parquet
+│       └── regression_metrics.parquet
+├── requirements.txt
+├── runs
+│   ├── README.md
+│   ├── baseline_stage12_smoke
+│   │   ├── baseline_training_summary.json
+│   │   ├── checkpoints
+│   │   │   └── split_0__ridge.joblib
+│   │   ├── metrics
+│   │   │   └── split_0__ridge.json
+│   │   ├── predictions
+│   │   │   └── split_0__ridge.parquet
+│   │   └── run_metadata
+│   │       └── split_0__ridge.json
+│   ├── baseline_stage12_smoke_fix
+│   │   ├── baseline_training_summary.json
+│   │   ├── checkpoints
+│   │   │   └── split_0__ridge.joblib
+│   │   ├── metrics
+│   │   │   └── split_0__ridge.json
+│   │   ├── predictions
+│   │   │   └── split_0__ridge.parquet
+│   │   └── run_metadata
+│   │       └── split_0__ridge.json
+│   ├── baseline_stage14_eval_smoke
+│   │   ├── baseline_training_summary.json
+│   │   ├── checkpoints
+│   │   │   └── split_0__ridge.joblib
+│   │   ├── metrics
+│   │   │   └── split_0__ridge.json
+│   │   ├── predictions
+│   │   │   └── split_0__ridge.parquet
+│   │   └── run_metadata
+│   │       └── split_0__ridge.json
+│   ├── logs
+│   ├── multimodal_stage13_smoke
+│   └── multimodal_stage13_smoke_fix
+│       ├── checkpoints
+│       │   └── split_0__multimodal_event_state.pt
+│       ├── metrics
+│       │   └── split_0__multimodal_event_state.json
+│       ├── multimodal_training_summary.json
+│       ├── predictions
+│       │   └── split_0__multimodal_event_state.parquet
+│       └── run_metadata
+│           └── split_0__multimodal_event_state.json
+├── src
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   └── __init__.cpython-314.pyc
+│   ├── cli
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── __init__.cpython-314.pyc
+│   │   │   ├── build_adjusted_prices.cpython-312.pyc
+│   │   │   ├── build_company_kb.cpython-312.pyc
+│   │   │   ├── build_company_kb.cpython-314.pyc
+│   │   │   ├── build_market_data.cpython-312.pyc
+│   │   │   ├── build_market_data.cpython-314.pyc
+│   │   │   ├── build_modeling_dataset.cpython-312.pyc
+│   │   │   ├── build_modeling_dataset.cpython-314.pyc
+│   │   │   ├── build_news_data.cpython-312.pyc
+│   │   │   ├── build_news_data.cpython-314.pyc
+│   │   │   ├── build_split_events.cpython-312.pyc
+│   │   │   ├── build_universe.cpython-312.pyc
+│   │   │   ├── evaluate_experiments.cpython-312.pyc
+│   │   │   ├── evaluate_experiments.cpython-314.pyc
+│   │   │   ├── run_ablations.cpython-312.pyc
+│   │   │   ├── run_ablations.cpython-314.pyc
+│   │   │   ├── train_market_baseline.cpython-312.pyc
+│   │   │   ├── train_market_baseline.cpython-314.pyc
+│   │   │   ├── train_multimodal_model.cpython-312.pyc
+│   │   │   └── train_multimodal_model.cpython-314.pyc
+│   │   ├── build_adjusted_prices.py
+│   │   ├── build_company_kb.py
+│   │   ├── build_market_data.py
+│   │   ├── build_modeling_dataset.py
+│   │   ├── build_news_data.py
+│   │   ├── build_split_events.py
+│   │   ├── build_universe.py
+│   │   ├── evaluate_experiments.py
+│   │   ├── run_ablations.py
+│   │   ├── train_market_baseline.py
+│   │   └── train_multimodal_model.py
+│   ├── data
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── __init__.cpython-314.pyc
+│   │   │   ├── company_kb_pipeline.cpython-312.pyc
+│   │   │   ├── company_kb_pipeline.cpython-314.pyc
+│   │   │   ├── corporate_actions.cpython-312.pyc
+│   │   │   ├── corporate_actions.cpython-314.pyc
+│   │   │   ├── data_contracts.cpython-312.pyc
+│   │   │   ├── data_contracts.cpython-314.pyc
+│   │   │   ├── finnhub_client.cpython-312.pyc
+│   │   │   ├── finnhub_client.cpython-314.pyc
+│   │   │   ├── incremental_updates.cpython-312.pyc
+│   │   │   ├── incremental_updates.cpython-314.pyc
+│   │   │   ├── modeling_dataset.cpython-312.pyc
+│   │   │   ├── modeling_dataset.cpython-314.pyc
+│   │   │   ├── news_pipeline.cpython-312.pyc
+│   │   │   ├── news_pipeline.cpython-314.pyc
+│   │   │   ├── price_pipeline.cpython-312.pyc
+│   │   │   ├── price_pipeline.cpython-314.pyc
+│   │   │   ├── quality_checks.cpython-312.pyc
+│   │   │   ├── quality_checks.cpython-314.pyc
+│   │   │   ├── sec_edgar_client.cpython-312.pyc
+│   │   │   ├── sec_edgar_client.cpython-314.pyc
+│   │   │   ├── split_events_client.cpython-312.pyc
+│   │   │   ├── split_events_client.cpython-314.pyc
+│   │   │   ├── split_events_pipeline.cpython-312.pyc
+│   │   │   ├── twelve_data_client.cpython-312.pyc
+│   │   │   ├── twelve_data_client.cpython-314.pyc
+│   │   │   ├── universe_builder.cpython-312.pyc
+│   │   │   └── universe_builder.cpython-314.pyc
+│   │   ├── company_kb_pipeline.py
+│   │   ├── corporate_actions.py
+│   │   ├── data_contracts.py
+│   │   ├── finnhub_client.py
+│   │   ├── incremental_updates.py
+│   │   ├── modeling_dataset.py
+│   │   ├── news_pipeline.py
+│   │   ├── price_pipeline.py
+│   │   ├── quality_checks.py
+│   │   ├── sec_edgar_client.py
+│   │   ├── split_events_client.py
+│   │   ├── split_events_pipeline.py
+│   │   ├── twelve_data_client.py
+│   │   └── universe_builder.py
+│   ├── features
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── __init__.cpython-314.pyc
+│   │   │   ├── company_profile_features.cpython-312.pyc
+│   │   │   ├── company_profile_features.cpython-314.pyc
+│   │   │   ├── event_state.cpython-312.pyc
+│   │   │   ├── event_state.cpython-314.pyc
+│   │   │   ├── labels.cpython-312.pyc
+│   │   │   ├── labels.cpython-314.pyc
+│   │   │   ├── market_features.cpython-312.pyc
+│   │   │   ├── market_features.cpython-314.pyc
+│   │   │   ├── news_embeddings.cpython-312.pyc
+│   │   │   ├── news_embeddings.cpython-314.pyc
+│   │   │   ├── news_text.cpython-312.pyc
+│   │   │   └── news_text.cpython-314.pyc
+│   │   ├── company_profile_features.py
+│   │   ├── event_state.py
+│   │   ├── labels.py
+│   │   ├── market_features.py
+│   │   ├── news_embeddings.py
+│   │   └── news_text.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── __init__.cpython-314.pyc
+│   │   │   ├── ablation_runner.cpython-312.pyc
+│   │   │   ├── ablation_runner.cpython-314.pyc
+│   │   │   ├── baseline_models.cpython-312.pyc
+│   │   │   ├── baseline_models.cpython-314.pyc
+│   │   │   ├── calibration.cpython-312.pyc
+│   │   │   ├── calibration.cpython-314.pyc
+│   │   │   ├── dataloaders.cpython-312.pyc
+│   │   │   ├── dataloaders.cpython-314.pyc
+│   │   │   ├── inference.cpython-312.pyc
+│   │   │   ├── inference.cpython-314.pyc
+│   │   │   ├── loss_functions.cpython-312.pyc
+│   │   │   ├── loss_functions.cpython-314.pyc
+│   │   │   ├── metric_registry.cpython-312.pyc
+│   │   │   ├── metric_registry.cpython-314.pyc
+│   │   │   ├── multimodal_models.cpython-312.pyc
+│   │   │   ├── multimodal_models.cpython-314.pyc
+│   │   │   ├── statistical_tests.cpython-312.pyc
+│   │   │   ├── statistical_tests.cpython-314.pyc
+│   │   │   ├── trainer.cpython-312.pyc
+│   │   │   └── trainer.cpython-314.pyc
+│   │   ├── ablation_runner.py
+│   │   ├── baseline_models.py
+│   │   ├── calibration.py
+│   │   ├── dataloaders.py
+│   │   ├── inference.py
+│   │   ├── loss_functions.py
+│   │   ├── metric_registry.py
+│   │   ├── multimodal_models.py
+│   │   ├── statistical_tests.py
+│   │   └── trainer.py
+│   ├── split
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── __init__.cpython-314.pyc
+│   │   │   ├── alignment_rules.cpython-312.pyc
+│   │   │   ├── alignment_rules.cpython-314.pyc
+│   │   │   ├── leakage_checks.cpython-312.pyc
+│   │   │   ├── leakage_checks.cpython-314.pyc
+│   │   │   ├── purged_embargo_splits.cpython-312.pyc
+│   │   │   ├── purged_embargo_splits.cpython-314.pyc
+│   │   │   ├── walk_forward.cpython-314.pyc
+│   │   │   ├── walk_forward_splits.cpython-312.pyc
+│   │   │   └── walk_forward_splits.cpython-314.pyc
+│   │   ├── alignment_rules.py
+│   │   ├── leakage_checks.py
+│   │   ├── purged_embargo_splits.py
+│   │   └── walk_forward_splits.py
+│   └── utils
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-312.pyc
+│       │   ├── __init__.cpython-314.pyc
+│       │   ├── config_loader.cpython-312.pyc
+│       │   ├── config_loader.cpython-314.pyc
+│       │   ├── hashing.cpython-312.pyc
+│       │   ├── hashing.cpython-314.pyc
+│       │   ├── io_utils.cpython-312.pyc
+│       │   ├── io_utils.cpython-314.pyc
+│       │   ├── logging_setup.cpython-312.pyc
+│       │   ├── logging_setup.cpython-314.pyc
+│       │   ├── paths.cpython-312.pyc
+│       │   ├── paths.cpython-314.pyc
+│       │   ├── reproducibility.cpython-312.pyc
+│       │   ├── reproducibility.cpython-314.pyc
+│       │   ├── time_and_calendars.cpython-312.pyc
+│       │   └── time_and_calendars.cpython-314.pyc
+│       ├── config_loader.py
+│       ├── hashing.py
+│       ├── io_utils.py
+│       ├── logging_setup.py
+│       ├── paths.py
+│       ├── reproducibility.py
+│       └── time_and_calendars.py
+└── tests
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-312.pyc
+    │   ├── __init__.cpython-314.pyc
+    │   ├── test_ablation_runner.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_ablation_runner.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_alignment.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_alignment.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_baseline_training.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_baseline_training.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_company_kb_pipeline.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_company_kb_pipeline.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_corporate_actions.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_corporate_actions.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_data_contracts.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_data_contracts.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_dataset_integrity.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_end_to_end_minipipeline.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_end_to_end_minipipeline.cpython-312.pyc
+    │   ├── test_evaluation_tools.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_evaluation_tools.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_event_state.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_event_state.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_hashing.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_labels.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_labels.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_leakage.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_leakage.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_market_pipeline.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_market_pipeline.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_modeling_dataset.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_modeling_dataset.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_multimodal_training.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_news_deduplication.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_news_pipeline.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_news_pipeline.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_provider_clients.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_provider_clients.cpython-314-pytest-9.0.2.pyc
+    │   ├── test_reproducibility_end_to_end.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_research_integrity.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_split_events_pipeline.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_text_normalization.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_universe_builder.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_walk_forward.cpython-312-pytest-8.4.2.pyc
+    │   └── test_walk_forward.cpython-314-pytest-9.0.2.pyc
+    ├── integration
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   │   ├── __init__.cpython-312.pyc
+    │   │   ├── test_live_finnhub.cpython-312-pytest-8.4.2.pyc
+    │   │   ├── test_live_sec.cpython-312-pytest-8.4.2.pyc
+    │   │   └── test_live_twelvedata.cpython-312-pytest-8.4.2.pyc
+    │   ├── test_live_finnhub.py
+    │   ├── test_live_sec.py
+    │   └── test_live_twelvedata.py
+    ├── results
+    │   ├── ExpandedTesting
+    │   │   └── Expanded_Testing_20260319_064228.md
+    │   └── Expanded_Testing_20260319T121411Z.md
+    ├── test_ablation_runner.py
+    ├── test_alignment.py
+    ├── test_baseline_training.py
+    ├── test_company_kb_pipeline.py
+    ├── test_corporate_actions.py
+    ├── test_data_contracts.py
+    ├── test_dataset_integrity.py
+    ├── test_end_to_end_minipipeline.py
+    ├── test_evaluation_tools.py
+    ├── test_event_state.py
+    ├── test_hashing.py
+    ├── test_labels.py
+    ├── test_leakage.py
+    ├── test_market_pipeline.py
+    ├── test_modeling_dataset.py
+    ├── test_multimodal_training.py
+    ├── test_news_deduplication.py
+    ├── test_news_pipeline.py
+    ├── test_provider_clients.py
+    ├── test_reproducibility_end_to_end.py
+    ├── test_research_integrity.py
+    ├── test_split_events_pipeline.py
+    ├── test_text_normalization.py
+    ├── test_universe_builder.py
+    └── test_walk_forward.py
+
+837 directories, 2965 files

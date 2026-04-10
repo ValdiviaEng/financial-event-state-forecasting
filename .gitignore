@@ -1,0 +1,65 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Local environment and secrets
+.env
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Raw and generated data contents
+data/raw/**
+!data/raw/
+!data/raw/**/
+!data/raw/**/README.md
+data/interim/**
+!data/interim/
+!data/interim/**/
+!data/interim/**/README.md
+data/final/**
+!data/final/
+!data/final/**/
+!data/final/**/README.md
+data/embeddings/**
+!data/embeddings/
+!data/embeddings/**/
+!data/embeddings/**/README.md
+data/kb/**
+!data/kb/
+!data/kb/**/
+!data/kb/**/README.md
+data/manifests/**
+!data/manifests/
+!data/manifests/**/
+!data/manifests/**/README.md
+
+# Experiment outputs
+artifacts/**
+!artifacts/
+!artifacts/**/
+!artifacts/**/README.md
+runs/**
+!runs/
+!runs/**/
+!runs/**/README.md
+reports/**
+!reports/
+!reports/**/
+!reports/**/README.md
