@@ -1,0 +1,3928 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Joshua Burd"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.323956,
+      "source": "Real Estate NJ",
+      "source_domain": "Real Estate NJ",
+      "summary": "Developers of the Hahne & Co. building in downtown Newark have announced that Barnes & Noble Education Inc. and Rutgers-University Newark will open a 10,000-square-foot bookstore in the rehabilitated building. This addition follows the upcoming opening of Newark's first Whole Foods and aims to drive more traffic to the revitalized downtown area. The project, led by L+M Development Partners, Prudential Financial, and Goldman Sachs Group, also includes 160 rental apartments and 160,000 square feet of retail, office, and community/educational space.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.928021",
+          "ticker": "BNED",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344652"
+        },
+        {
+          "relevance_score": "0.745930",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338776"
+        },
+        {
+          "relevance_score": "0.624285",
+          "ticker": "PRU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301393"
+        }
+      ],
+      "time_published": "20161221T060152",
+      "title": "Report: Barnes & Noble, Rutgers bookstore coming to rehabbed Newark building",
+      "topics": [
+        {
+          "relevance_score": "0.917324",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.810359",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://re-nj.com/report-barnes-noble-rutgers-bookstore-coming-to-newarks-hahnes-building/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.231717,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "A Reuters analysis found that major foreign investment banks in Britain, including U.S. banks like Bank of America and J.P. Morgan Chase, paid an average tax rate of only 6% on their profits last year, significantly below the 20% corporate rate. This legal tax reduction often involves using losses accumulated during the financial crisis to offset current tax bills. The data has sparked criticism from the opposition Labour Party, who argue the government is too lenient on banks benefiting from tax loopholes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.236618"
+        },
+        {
+          "relevance_score": "0.915346",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.243102"
+        },
+        {
+          "relevance_score": "0.747061",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.210491"
+        },
+        {
+          "relevance_score": "0.601036",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.248447"
+        }
+      ],
+      "time_published": "20161216T055729",
+      "title": "How Bank of America and J.P. Morgan Chase Dodge Taxes In England, Too",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.905971",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.728756",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://fortune.com/2016/12/16/how-bank-of-america-and-j-p-morgan-chase-dodge-taxes-in-england-too/"
+    },
+    {
+      "authors": [
+        "Vige Barrie"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.211587,
+      "source": "Hamilton College",
+      "source_domain": "Hamilton College",
+      "summary": "David M. Solomon \u201984, a Hamilton College alumnus and trustee, has been named president and co-chief operating officer of The Goldman Sachs Group, Inc. He will share the role with Harvey M. Schwartz. Solomon previously served as co-head of Goldman's investment banking division and joined the firm as a partner in 1999.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.326976",
+          "ticker": "GS-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024609"
+        },
+        {
+          "relevance_score": "0.970303",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414100"
+        }
+      ],
+      "time_published": "20161214T063731",
+      "title": "Goldman Sachs Names Trustee Solomon \u201984 President",
+      "topics": [
+        {
+          "relevance_score": "0.921205",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.hamilton.edu/news/story/goldman-sachs-names-trustee-solomon-84-president"
+    },
+    {
+      "authors": [
+        "Emily Peck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.212478,
+      "source": "HuffPost",
+      "source_domain": "HuffPost",
+      "summary": "American Express announced a new policy offering 20 weeks of paid leave to all new parents, including adoptive and surrogate parents, beginning in 2017. This generous benefit also extends to hourly customer care representatives and includes an additional 6 to 8 weeks for birth mothers. The company is also introducing a \"parent concierge\" to assist new parents, recognizing the diverse needs of its employees and the positive impact of parental leave on retention and productivity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442717"
+        },
+        {
+          "relevance_score": "0.635985",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128534"
+        },
+        {
+          "relevance_score": "0.633536",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120258"
+        }
+      ],
+      "time_published": "20161212T153500",
+      "title": "American Express To Offer 5 Months Of Paternity And Maternity Leave",
+      "topics": [
+        {
+          "relevance_score": "0.843386",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.613576",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.huffpost.com/entry/american-express-parental-leave_n_584ef60fe4b0e05aded4fbad"
+    },
+    {
+      "authors": [
+        "Ken Thomas and Josh Boak"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.090172,
+      "source": "PBS",
+      "source_domain": "PBS",
+      "summary": "President-elect Donald Trump is expected to name Goldman Sachs president Gary Cohn to lead the White House National Economic Council. This selection is notable given Trump's previous criticisms of Goldman Sachs during his campaign, and Cohn would be the third Goldman Sachs alum appointed to a key position in Trump's administration. Cohn's appointment would require him to leave his $21 million-a-year job at Goldman Sachs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.338008",
+          "ticker": "GS-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045041"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109156"
+        }
+      ],
+      "time_published": "20161209T161100",
+      "title": "Trump expected to tap Goldman Sachs banker for White House economic post",
+      "topics": [
+        {
+          "relevance_score": "0.928767",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.837035",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.pbs.org/newshour/politics/trump-expected-tap-goldman-sachs-banker-economic-post"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.125357,
+      "source": "Bermuda Re",
+      "source_domain": "Bermuda Re",
+      "summary": "Athene Holding announced the pricing of its initial public offering of 27,000,000 Class A common shares at $40 per share. The shares began trading on the New York Stock Exchange under the symbol ATH on December 9, 2016, with the closing expected on December 14, 2016. Goldman, Sachs & Co., Barclays, Citigroup, and Wells Fargo Securities served as joint bookrunners for the offering.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.850865",
+          "ticker": "APO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131914"
+        },
+        {
+          "relevance_score": "0.633760",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110520"
+        },
+        {
+          "relevance_score": "0.640556",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106027"
+        },
+        {
+          "relevance_score": "0.629331",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138040"
+        }
+      ],
+      "time_published": "20161209T055652",
+      "title": "Athene announces pricing for IPO shares",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.838728",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.748951",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bermudareinsurancemagazine.com/news/athene-announces-pricing-for-ipo-shares-2988"
+    },
+    {
+      "authors": [
+        "Jonathan Kent",
+        "Business Editor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.113063,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "Bermudian-based insurer Athene Holding Ltd debuted on the New York Stock Exchange in an initial public offering (IPO) that raised approximately $1.1 billion. The shares, trading under the ticker \"ATH\", closed 10.1 per cent above the IPO price at $44.05. This offering marks the third largest IPO in the US in 2016 and follows significant growth by Athene, which has become the seventh-largest provider of annuities in the US.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.348149",
+          "ticker": "ATH-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026809"
+        },
+        {
+          "relevance_score": "0.702250",
+          "ticker": "APO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239370"
+        },
+        {
+          "relevance_score": "0.603108",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119590"
+        },
+        {
+          "relevance_score": "0.606722",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116913"
+        },
+        {
+          "relevance_score": "0.612484",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113270"
+        }
+      ],
+      "time_published": "20161209T041700",
+      "title": "Bermuda insurer in $1.1bn New York IPO",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.846946",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.706533",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.722699",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.royalgazette.com/other/business/article/20161209/bermuda-insurer-in-1-1bn-new-york-ipo/"
+    },
+    {
+      "authors": [
+        "Allen Cone"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.268296,
+      "source": "UPI.com",
+      "source_domain": "UPI.com",
+      "summary": "The European Commission has fined JPMorgan Chase & Co., HSBC Holdings Plc, and Credit Agricole SA a combined $520 million for colluding to manipulate a benchmark euro interest rate between 2005 and 2008. The banks exchanged sensitive information and colluded on derivative pricing, violating EU antitrust rules. While JPMorgan and Credit Agricole faced larger fines due to longer participation, all three banks are considering an appeal, denying wrongdoing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.312510",
+          "ticker": "AMJB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.027450"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.442903"
+        },
+        {
+          "relevance_score": "0.602764",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.449150"
+        },
+        {
+          "relevance_score": "0.590982",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.226900"
+        },
+        {
+          "relevance_score": "0.557659",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.202049"
+        }
+      ],
+      "time_published": "20161207T092200",
+      "title": "European Commission fines JP Morgan Chase, HSBC, Credit Agricole $520M for collusion",
+      "topics": [
+        {
+          "relevance_score": "0.906620",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.804144",
+          "topic": "economy_monetary"
+        }
+      ],
+      "url": "https://www.upi.com/Business_News/2016/12/07/European-Commission-fines-JP-Morgan-Chase-HSBC-Credit-Agricole-520M-for-collusion/9811481115794/"
+    },
+    {
+      "authors": [
+        "Bruce Kelly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.086541,
+      "source": "InvestmentNews",
+      "source_domain": "InvestmentNews",
+      "summary": "LPL Financial Holdings Inc. hired Goldman Sachs Group Inc. to evaluate an unsolicited acquisition offer that LPL considered a low-ball bid. The article discusses potential suitors for LPL, including private equity funds or other brokerage firms, and the challenges a strategic buyer would face given LPL's independent advisers and financial struggles. Analysts raise concerns about the impact on LPL's independent advisers and the strategic fit for potential buyers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LPLA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.269298"
+        },
+        {
+          "relevance_score": "0.701007",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013728"
+        },
+        {
+          "relevance_score": "0.625829",
+          "ticker": "RJF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146676"
+        },
+        {
+          "relevance_score": "0.553169",
+          "ticker": "SCHW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132198"
+        },
+        {
+          "relevance_score": "0.580538",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.164400"
+        }
+      ],
+      "time_published": "20161201T065706",
+      "title": "LPL hired Goldman after receiving an unsolicited acquisition offer",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.925787",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.632733",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.645257",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.investmentnews.com/independent-broker-dealers/lpl-hired-goldman-after-receiving-an-unsolicited-acquisition-offer/69500"
+    },
+    {
+      "authors": [
+        "Daphne Howland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.164469,
+      "source": "Retail Dive",
+      "source_domain": "Retail Dive",
+      "summary": "Bed Bath & Beyond has acquired e-commerce site PersonalizationMall for $190 million in cash, aiming to boost its product personalization assortment and fiscal 2016 earnings. This strategic move is intended to help the retailer recapture market share and offer unique gift options amidst slipping sales and challenges from online competition. The acquisition comes as Bed Bath & Beyond attempts to address declining margins and increase its appeal beyond basic home goods.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BBBY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110653"
+        },
+        {
+          "relevance_score": "0.640880",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120116"
+        },
+        {
+          "relevance_score": "0.607242",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.171637"
+        },
+        {
+          "relevance_score": "0.632808",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.191695"
+        }
+      ],
+      "time_published": "20161128T060112",
+      "title": "Bed Bath & Beyond snaps up PersonalizationMall for $190M",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.934180",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.829974",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.retaildive.com/news/bed-bath-beyond-snaps-up-personalizationmall-for-190m/431170/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://www.reuters.com/A/C-logo-JPMorgan-logo.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.369639,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "JPMorgan Chase & Co. has agreed to pay $264 million to U.S. authorities to settle allegations that it hired relatives of Chinese officials to secure banking deals, a practice that violated the U.S. Foreign Corrupt Practices Act. The settlement allocates funds to the SEC, Justice Department, and the U.S. Federal Reserve. JPMorgan stated that the \"Sons and Daughters\" hiring program, which gave preferential treatment to candidates recommended by influential Chinese officials and clients, was halted in 2013.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.643498"
+        },
+        {
+          "relevance_score": "0.606785",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.133109"
+        }
+      ],
+      "time_published": "20161117T200700",
+      "title": "JPMorgan to pay $264 million to resolve China hiring probe: SEC, DoJ",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/jpmorgan-to-pay-264-million-to-resolve-china-hiring-probe-sec-doj-idUSKBN13C1Z8/"
+    },
+    {
+      "authors": [
+        "Eric Levitz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.411774,
+      "source": "New York Magazine",
+      "source_domain": "New York Magazine",
+      "summary": "Following Donald Trump's presidential victory, Wall Street's initial apprehension quickly transformed into enthusiasm due to his promises of tax cuts and deregulation. The article highlights the influx of former Goldman Sachs executives and other financial titans into key positions in his administration, signaling a restoration of financial industry power. Despite potential long-term economic and societal risks, the immediate financial gains and anticipated policy shifts have left the financial sector feeling \"giddy again.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.639202",
+          "ticker": "EMR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313934"
+        },
+        {
+          "relevance_score": "0.832980",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.437283"
+        },
+        {
+          "relevance_score": "0.716504",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400419"
+        },
+        {
+          "relevance_score": "0.733905",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403232"
+        },
+        {
+          "relevance_score": "0.621219",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448818"
+        }
+      ],
+      "time_published": "20161117T062156",
+      "title": "Trump Has Made Wall Street Giddy Again",
+      "topics": [
+        {
+          "relevance_score": "0.935828",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.880107",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.782970",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.640536",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://nymag.com/daily/intelligencer/2016/11/trump-has-made-wall-street-giddy-again.html?utm_source=google&utm_medium=h5d&utm_campaign=h_st_000315&fbclid=IwAR0Klm1i7AdvmOy_ZP3FiZ3Qw1tZvErk-pvxrNo2KmMFYDM0zuy28pqmvmw&gclid=CjwKCAiApY-7BhBjEiwAQMrrEXi4J6k5iUIxoC14MJjbocE0gNyV6JXYnKMJAGQsue0MWmfl_DJVChoCfecQAvD_BwE&msclkid=5013dbc0b9ee1e8eec38bd572385f6ac&gad_source=1&gad_campaignid=21619354550&gbraid=0AAAAA9k5E7DaPnwGi2qOCmmnPgWIeZLwk"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.340467,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "The U.S. dollar reached an 11-month peak following Donald Trump's presidential victory, driven by expectations of faster inflation and wider budget deficits from potential U.S. spending. This prospect led to higher Treasury yields and a strong dollar, while emerging market currencies and global bonds experienced significant sell-offs. The market action is interpreted as a \"buy dollar\" theme based on anticipated debt-fueled fiscal expansion and subsequent Federal Reserve repricing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.816949",
+          "ticker": "CPER",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.526198"
+        },
+        {
+          "relevance_score": "0.601112",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320720"
+        },
+        {
+          "relevance_score": "0.634101",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346399"
+        },
+        {
+          "relevance_score": "0.625510",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335473"
+        },
+        {
+          "relevance_score": "0.631881",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343998"
+        }
+      ],
+      "time_published": "20161114T061229",
+      "title": "U.S. Dollar Soars on Bets That Donald Trump Could Spur Inflation",
+      "topics": [
+        {
+          "relevance_score": "0.909743",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.926821",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.826323",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.826803",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2016/11/14/donald-trump-victory-dollar-inflation/"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.42155,
+      "source": "South China Morning Post",
+      "source_domain": "South China Morning Post",
+      "summary": "US stocks rallied significantly following Donald Trump's presidential victory, with the Dow Jones Industrial Average nearing an all-time high, driven by expectations of business-friendly policies. Financial and pharmaceutical sectors saw substantial gains as investors anticipated less regulatory scrutiny than under a potential Hillary Clinton administration. Despite initial market uncertainty, the rally was fueled by hopes for increased fiscal spending and a more conciliatory tone from the president-elect.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411579"
+        },
+        {
+          "relevance_score": "0.921276",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.440159"
+        },
+        {
+          "relevance_score": "0.838709",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417116"
+        },
+        {
+          "relevance_score": "0.735895",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407157"
+        }
+      ],
+      "time_published": "20161110T063000",
+      "title": "US stocks rally as Trump seen pursuing business friendly policies",
+      "topics": [
+        {
+          "relevance_score": "0.931397",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.830655",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.717131",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.605109",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.620038",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.scmp.com/business/companies/article/2044645/us-stocks-rally-trump-seen-pursuing-business-friendly-policies"
+    },
+    {
+      "authors": [
+        "PTI"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.160223,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Reliance Nippon Life Asset Management will take over the management of all schemes of Goldman Sachs Mutual Fund from November 5, following an all-cash deal worth Rs 243 crore announced in October 2015. Goldman Sachs MF has 12 schemes that will be transferred and integrated into Reliance MF, with name changes for eight of these schemes. Reliance MF is one of India's largest mutual funds, managing assets worth over Rs 1.83 lakh crore as of September.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.308020",
+          "ticker": "GIND",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012822"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307964"
+        },
+        {
+          "relevance_score": "0.645504",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128100"
+        }
+      ],
+      "time_published": "20161103T102400",
+      "title": "Reliance Mutual Fund to manage Goldman Sachs MF's schemes from Nov 5",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.819949",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://m.economictimes.com/mf/mf-news/reliance-mutual-fund-to-manage-goldman-sachs-mfs-schemes-from-nov-5/articleshow/55218956.cms"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.122382,
+      "source": "www.renaissancecapital.com",
+      "source_domain": "www.renaissancecapital.com",
+      "summary": "Vantage Energy officially withdrew its estimated $600 million IPO plans after being acquired by Rice Energy for $2.7 billion. The oil and gas E&P company had initially postponed its IPO in 2014 and re-filed in September 2016 before the acquisition. Goldman Sachs, Barclays, Credit Suisse, Citi, J.P. Morgan and Wells Fargo Securities were named as joint bookrunners for the cancelled NYSE listing under the symbol VEI.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340703",
+          "ticker": "IPO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.004200"
+        },
+        {
+          "relevance_score": "0.612934",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144214"
+        },
+        {
+          "relevance_score": "0.632428",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117917"
+        },
+        {
+          "relevance_score": "0.627273",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101027"
+        }
+      ],
+      "time_published": "20161101T064639",
+      "title": "VEI IPO News - Vantage Energy officially withdraws estimated $600 million IPO following sale to Rice Energy",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.731717",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.617383",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.628760",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.renaissancecapital.com/IPO-Center/News/42542/Vantage-Energy-officially-withdraws-estimated-$600-million-IPO-following-sa?"
+    },
+    {
+      "authors": [
+        "Telis Demos",
+        "Liz Hoffman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.188066,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Goldman Sachs is adopting a new strategy, mirroring Apple's model, by allowing rival firms to sell their investment products through its web application. This move, which marks a significant shift for the bank, enables Goldman to broaden its reach by creating an open online platform for various financial products, including those from competitors. The bank aims to become a central hub for investment product distribution, similar to how Apple's App Store hosts various third-party applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.328954",
+          "ticker": "GS-P-D",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.034252"
+        },
+        {
+          "relevance_score": "0.931777",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323274"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322853"
+        },
+        {
+          "relevance_score": "0.629499",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149064"
+        }
+      ],
+      "time_published": "20161031T063732",
+      "title": "Goldman Sachs Has a New Model: Apple",
+      "topics": [
+        {
+          "relevance_score": "0.942035",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.816642",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/goldman-sachs-has-a-new-model-apple-1477863314?gaa_at=eafs&gaa_n=AWEtsqfInq8if5V9ErsWXnkIppCxYDYuulWoyukfRQrpy7psiSWOxuq3EcmL&gaa_ts=690850ca&gaa_sig=gRbYdCaaXZWvL6BwwYm9KiYUlqMLxDCIU40if4ScQ2EO_Q72oByI1LBI3YwOZ1Wk6lk38V8OgMDe_HPgrxlgXw%3D%3D"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.090314,
+      "source": "Fox Business",
+      "source_domain": "Fox Business",
+      "summary": "A New York state appeals court has allowed billionaire investor Carl Icahn's CVR Energy Inc. to proceed with a malpractice lawsuit against the law firm Wachtell, Lipton, Rosen & Katz. The lawsuit stems from CVR's 2012 hostile takeover, alleging Wachtell should have disclosed higher fees Goldman Sachs and Deutsche Bank would earn if the takeover succeeded, leading to CVR overpaying. This decision overturns previous rulings that had dismissed the malpractice claim, clearing the way for the case to move forward.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.311989",
+          "ticker": "CVI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.023401"
+        },
+        {
+          "relevance_score": "0.711987",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145449"
+        }
+      ],
+      "time_published": "20161027T155400",
+      "title": "Court clears Icahn's CVR to sue Wachtell law firm for malpractice",
+      "topics": [
+        {
+          "relevance_score": "0.800094",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.730953",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.foxbusiness.com/politics/court-clears-icahns-cvr-to-sue-wachtell-law-firm-for-malpractice"
+    },
+    {
+      "authors": [
+        "Michael Petch"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.292428,
+      "source": "3D Printing Industry",
+      "source_domain": "3D Printing Industry",
+      "summary": "Soroban Capital Partners LP, a New York-based hedge fund with over $16 billion in assets, has doubled its investment in Autodesk Inc (NASDAQ:ADSK), becoming one of its largest investors. The hedge fund now owns 8% of the company, up from 4%, with the current holding of 17.8 million shares valued at approximately $1.3 billion. Soroban's strategy is described as 'activist', though in Autodesk's case, the increased investment reflects a growing tendency to invest in larger companies rather than pressing for strategic changes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ADSK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.420324"
+        },
+        {
+          "relevance_score": "0.618057",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146656"
+        }
+      ],
+      "time_published": "20161012T161600",
+      "title": "$16 billion Hedge fund doubles investment in Autodesk",
+      "topics": [
+        {
+          "relevance_score": "0.925540",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.816955",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.749748",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://3dprintingindustry.com/news/16-billion-hedge-fund-doubles-investment-autodesk-96787/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.044029,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "A consortium comprising Bass Pro Shops, Goldman Sachs Group's private equity arm, and Capital One Financial Corp is reportedly in the lead to acquire outdoor gear retailer Cabela's. The deal is expected to unite two major hunting and fishing retailers, valuing Cabela's at well over $4 billion, and has prevailed over a rival bid from Sycamore Partners and Synchrony Financial. The acquisition follows Cabela's exploration of strategic alternatives under pressure from activist fund Elliott Management Corp.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236038"
+        },
+        {
+          "relevance_score": "0.809048",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122568"
+        },
+        {
+          "relevance_score": "0.718080",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103172"
+        },
+        {
+          "relevance_score": "0.612422",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113536"
+        }
+      ],
+      "time_published": "20161003T061217",
+      "title": "Here\u2019s Who Is Expected to Buy the Cabela\u2019s Sporting Goods Chain",
+      "topics": [
+        {
+          "relevance_score": "0.945296",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.807225",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.600402",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://fortune.com/2016/10/03/cabelas-suitors-goldman-bass-pro/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.331753,
+      "source": "The Business Times",
+      "source_domain": "The Business Times",
+      "summary": "Gautam Saxena, Bank of America's head of Asia Pacific telecom and media investment banking, and managing director Saikat Mukherjee have reportedly left the firm. This comes as Bank of America plans to eliminate around a dozen senior positions in its Asia corporate and investment-banking operations, marking the second round of job cuts in the region this year. Global investment banks are facing pressure to reduce costs due to a slowdown in South-east Asia dealmaking and increased competition from Chinese firms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.310352"
+        },
+        {
+          "relevance_score": "0.613583",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.348911"
+        }
+      ],
+      "time_published": "20161003T013700",
+      "title": "Bank of America dealmakers Saxena, Mukherjee said to depart",
+      "topics": [
+        {
+          "relevance_score": "0.925376",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.840894",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/bank-america-dealmakers-saxena-mukherjee-said-depart"
+    },
+    {
+      "authors": [
+        "Liz Moyer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.182416,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Todd Combs, an investment manager at Berkshire Hathaway and prot\u00e9g\u00e9 of Warren Buffett, has been appointed to JPMorgan Chase's board of directors, effective immediately. Combs brings extensive experience in financial services investment, previously managing Castle Point Capital and holding stakes in financial companies. Jamie Dimon, JPMorgan's chairman and chief executive, expressed confidence that Combs' wisdom and judgment would benefit the company and its board.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421981"
+        },
+        {
+          "relevance_score": "0.629151",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115279"
+        },
+        {
+          "relevance_score": "0.554902",
+          "ticker": "USB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143401"
+        },
+        {
+          "relevance_score": "0.569455",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148651"
+        }
+      ],
+      "time_published": "20160920T065129",
+      "title": "JPMorgan Picks Todd Combs, a Warren Buffett Prot\u00e9g\u00e9, to Join Board (Published 2016)",
+      "topics": [
+        {
+          "relevance_score": "0.929728",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.604409",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.nytimes.com/2016/09/21/business/dealbook/jpmorgan-picks-todd-combs-a-warren-buffett-protege-to-join-board.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.23536,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "The US Department of Justice is seeking $14bn from Deutsche Bank to settle an investigation into mortgage-backed securities, a figure the bank says it has \"no intention to settle... anywhere near\". This demand is significantly higher than anticipated and comes at a difficult time for Deutsche Bank, which has seen falling revenues and profits, and recently failed a Federal Reserve stress test. The bank expects negotiations to lead to a settlement similar to peer banks, which have paid materially lower amounts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DB",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.429665"
+        },
+        {
+          "relevance_score": "0.723672",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.214779"
+        },
+        {
+          "relevance_score": "0.641037",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.230276"
+        },
+        {
+          "relevance_score": "0.649205",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145017"
+        },
+        {
+          "relevance_score": "0.703375",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.216813"
+        }
+      ],
+      "time_published": "20160916T061714",
+      "title": "US asks Deutsche Bank for $14bn to settle mortgage investigation",
+      "topics": [
+        {
+          "relevance_score": "0.938016",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.837710",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.bbc.com/news/business-37380895"
+    },
+    {
+      "authors": [
+        "Paul Ingrassia"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.204792,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Mary Barra, CEO of General Motors, has successfully steered the company through challenges like the ignition-switch scandal and led a financial rebound, despite the stock price not fully reflecting performance. The article highlights her leadership skills, the company's strong financial results, and potential future challenges such as rising gas prices or technological revolutions in the auto industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333470"
+        },
+        {
+          "relevance_score": "0.843058",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121475"
+        },
+        {
+          "relevance_score": "0.646533",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331967"
+        },
+        {
+          "relevance_score": "0.635039",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104465"
+        }
+      ],
+      "time_published": "20160909T063715",
+      "title": "How GM\u2019s Mary Barra Does It",
+      "topics": [
+        {
+          "relevance_score": "0.942706",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.917546",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.839968",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.637230",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.600338",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://fortune.com/longform/mary-barra-general-motors-essay/"
+    },
+    {
+      "authors": [
+        "Funds Society"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.085431,
+      "source": "Funds Society",
+      "source_domain": "Funds Society",
+      "summary": "Ludovic Colin has been appointed Head of Global Flexible Investment team at Vontobel Asset Management\u2019s Fixed Income boutique, effective September 1st. This newly formed team will manage the Vontobel Fund \u2013 Bond Global Aggregate and Vontobel Fund \u2013 Absolute Return Bond, with Colin also leading Absolute Return Bond strategies alongside Jack Loudoun as deputy. The move aims to broaden Vontobel's flexible fixed-income capabilities and capitalize on the growing success of their fixed-income offerings, which have reached CHF 25 billion in assets under management.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.324875",
+          "ticker": "VBF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011595"
+        },
+        {
+          "relevance_score": "0.649296",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124520"
+        }
+      ],
+      "time_published": "20160908T012100",
+      "title": "Ludovic Colin New Head of Global Flexible Investment at Vontobel AM's Fixed Income Boutique",
+      "topics": [
+        {
+          "relevance_score": "0.913996",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.726412",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.fundssociety.com/en/news/appointments/ludovic-colin-new-head-of-global-flexible-investment-at-vontobel-ams-fixed-income-boutique-2/"
+    },
+    {
+      "authors": [
+        "MassDevice (Reuters)"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.31132,
+      "source": "MassDevice",
+      "source_domain": "MassDevice",
+      "summary": "Danaher Corp. announced its acquisition of molecular diagnostics company Cepheid for $4 billion, including debt, to bolster its diagnostics business. The deal, valued at $53 per share in cash, represents a 54% premium for Cepheid shareholders and is expected to add about 5 cents to Danaher's adjusted earnings per share in the first full year post-acquisition. This strategic move aims to enhance operational efficiencies and expand margins within Danaher's $5 billion diagnostics segment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DHR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.472280"
+        },
+        {
+          "relevance_score": "0.644293",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130355"
+        }
+      ],
+      "time_published": "20160906T061726",
+      "title": "Danaher to buy Cepheid in $4B deal to expand in diagnostics",
+      "topics": [
+        {
+          "relevance_score": "0.940208",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.804139",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.728469",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.massdevice.com/danaher-buy-cepheid-4b-deal-expand-diagnostics/"
+    },
+    {
+      "authors": [
+        "Chad Bray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.111691,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "John Cryan, CEO of Deutsche Bank, called for more consolidation in the European banking industry, arguing that monetary policy has weighed on bank profits and that there are too many banks, especially in Germany. He emphasized the need for greater efficiency and technological improvement, while also urging central banks to act to ensure financial stability. Cryan explicitly stated that Deutsche Bank was not planning any large mergers \"any time soon\" despite earlier reports.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.962048",
+          "ticker": "DGP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.193670"
+        },
+        {
+          "relevance_score": "0.554204",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.057832"
+        },
+        {
+          "relevance_score": "0.573782",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.069856"
+        },
+        {
+          "relevance_score": "0.587445",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.070539"
+        },
+        {
+          "relevance_score": "0.595591",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.055620"
+        }
+      ],
+      "time_published": "20160831T061723",
+      "title": "Deutsche Bank C.E.O. Calls for More European Bank Mergers (Published 2016)",
+      "topics": [
+        {
+          "relevance_score": "0.929696",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.933638",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.809437",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.726940",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.632265",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nytimes.com/2016/09/01/business/dealbook/deutsche-bank-ceo-calls-for-more-european-bank-mergers.html"
+    },
+    {
+      "authors": [
+        "Monica Watrous"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.227268,
+      "source": "Food Business News",
+      "source_domain": "Food Business News",
+      "summary": "Annie's, a subsidiary of General Mills, plans to introduce 30 new certified organic products this year across various categories, supported by its largest marketing campaign to date, \"Organic for Everybunny.\" This initiative aims to make organic food more accessible to a wider consumer base. Since its acquisition by General Mills, Annie's has expanded into seven new categories, demonstrating its commitment to growth without compromising its mission or quality standards.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334168",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.037897"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.465860"
+        }
+      ],
+      "time_published": "20160829T140600",
+      "title": "Annie\u2019s launching 30 new organic products this year",
+      "topics": [
+        {
+          "relevance_score": "0.943221",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.foodbusinessnews.net/articles/8528-annie-s-launching-30-new-organic-products-this-year"
+    },
+    {
+      "authors": [
+        "Jeffrey Weiss"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.185163,
+      "source": "Dallas News",
+      "source_domain": "Dallas News",
+      "summary": "NextEra, a Florida-based energy company, has announced it has financial advisors ready for a proposed $18 billion deal to acquire Oncor, the largest utility in Texas. The acquisition also requires regulatory approval and a sign-off from a Delaware bankruptcy court, as Oncor's parent company, Energy Future Holdings, is in Chapter 11 bankruptcy. NextEra is seeking $9.5 billion in financing for the deal, and analysts note significant work remains to secure funding commitments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.952930",
+          "ticker": "NEE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.288377"
+        },
+        {
+          "relevance_score": "0.631863",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.161723"
+        },
+        {
+          "relevance_score": "0.569640",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.168730"
+        },
+        {
+          "relevance_score": "0.558377",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.154209"
+        },
+        {
+          "relevance_score": "0.592907",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.156876"
+        }
+      ],
+      "time_published": "20160829T101000",
+      "title": "NextEra says it has advisors ready for deal to buy giant Texas utility Oncor",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.947895",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.822867",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.dallasnews.com/business/energy/2016/08/29/nextera-says-it-has-advisors-ready-for-deal-to-buy-giant-texas-utility-oncor/"
+    },
+    {
+      "authors": [
+        "Liz Hoffman"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.108967,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Goldman Sachs and Morgan Stanley are undergoing a significant transformation, moving towards more traditional banking services like deposits and loans for the middle class. This shift comes after they became bank-holding companies during the financial crisis. The move signals a fundamental change from their pre-crisis focus on trading and investment banking.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314282",
+          "ticker": "GS-P-C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049400"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143738"
+        },
+        {
+          "relevance_score": "0.914953",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111363"
+        }
+      ],
+      "time_published": "20160828T060300",
+      "title": "Goldman Sachs, Morgan Stanley Take a Tough Assignment: Reinventing Themselves",
+      "topics": [
+        {
+          "relevance_score": "0.941412",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.722352",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/goldman-sachs-morgan-stanley-take-a-tough-assignment-reinventing-themselves-1472378401?gaa_at=eafs&gaa_n=AWEtsqd2mjpgxbPSg6diGEtTBAvWt7o--yFOqTrVa6bP7rFujkapSMBfGrYb&gaa_ts=690850cc&gaa_sig=2QWa-Yhg7UmNqZv9nVij4RbccykI_7YB9WhOZRXD99rsJS4RhIbrZmYLXM-zzPn8V3YshDASeAtiwJg8i76uBQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Liz Hoffman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.095617,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Goldman Sachs and Morgan Stanley are undertaking a major shift, moving towards more traditional banking services like deposits and loans for the middle class. This strategic pivot comes despite their initial intention to revert to their core trading and investment-banking operations after the financial crisis, when they became bank-holding companies for stability. The move signifies a fundamental change in their business models to adapt to a new financial landscape.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327700",
+          "ticker": "GS-P-D",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014907"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142620"
+        },
+        {
+          "relevance_score": "0.933496",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138781"
+        }
+      ],
+      "time_published": "20160828T060300",
+      "title": "Goldman Sachs, Morgan Stanley Take a Tough Assignment: Reinventing Themselves",
+      "topics": [
+        {
+          "relevance_score": "0.940754",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.708602",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.627993",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/goldman-sachs-morgan-stanley-take-a-tough-assignment-reinventing-themselves-1472378401?gaa_at=eafs&gaa_n=AWEtsqeetNC0rcXcphzDTWdc9BzRWxNsFkmuN9x-wFD9asbwQ4Zg4rS9rmEN&gaa_ts=690850ca&gaa_sig=oJ3fgM8RFq13m37SEUPNn-u-Np3lZj6h6bjUsLaswxzr3escChAcGWVdCbNqPt1EkcZ2-dzY4pMNIszdIYF_eA%3D%3D"
+    },
+    {
+      "authors": [
+        "Liz Hoffman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.085106,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Goldman Sachs and Morgan Stanley are reportedly shifting towards more traditional banking services, including deposits and loans, targeting the middle class. This strategic pivot comes after both firms became bank-holding companies during the financial crisis to bolster confidence and secure Federal Reserve backing, moving beyond their core trading and investment-banking operations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.318644",
+          "ticker": "MS-P-E",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007417"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116585"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111986"
+        }
+      ],
+      "time_published": "20160828T060300",
+      "title": "Goldman Sachs, Morgan Stanley Take a Tough Assignment: Reinventing Themselves",
+      "topics": [
+        {
+          "relevance_score": "0.934838",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.704943",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.614827",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/goldman-sachs-morgan-stanley-take-a-tough-assignment-reinventing-themselves-1472378401?gaa_at=eafs&gaa_n=AWEtsqcVRpS4T3e4OByLox4dPniJ1EXVdeCxtbe7DKAfrnDMLOzDign4tiym&gaa_ts=6908568f&gaa_sig=lRbQn7HPpdnRBUEgJf30paoXk3rzZkOuParl3bMZFo76csn4qfMjAvpL8wJN0mMjg0Q3GJ9Swt5SO41C_mvKUw%3D%3D"
+    },
+    {
+      "authors": [
+        "Paul Clarke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.099506,
+      "source": "eFinancialCareers",
+      "source_domain": "eFinancialCareers",
+      "summary": "Morgan Stanley has hired Thomas Chen as a managing director and vice chairman within its financial institutions group (FIG) from Guggenheim Partners. This move comes as Morgan Stanley's FIG M&A rankings have significantly dropped from top position in 2015 to eighth place in 2016. Chen brings extensive experience, including previous roles at Piper Jaffray and Merrill Lynch.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.071959"
+        },
+        {
+          "relevance_score": "0.649291",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106495"
+        },
+        {
+          "relevance_score": "0.640997",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133517"
+        },
+        {
+          "relevance_score": "0.568140",
+          "ticker": "BEN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.056292"
+        }
+      ],
+      "time_published": "20160826T070139",
+      "title": "Morgan Stanley has just made a big FIG hire",
+      "topics": [
+        {
+          "relevance_score": "0.916272",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.814487",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.efinancialcareers.com/news/2016/08/morgan-stanley-has-just-made-a-big-fig-hire"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.056591,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "This article provides a detailed overview of the Direxion Daily Financial Bull 3X Shares ETF (FAS), including current price, historical performance, key statistics, holdings, and expense ratios. It highlights that FAS seeks to deliver daily investment results of 300% the performance of the Russell 1000 Financial Services Index. The fund also lists its major holdings, including Berkshire Hathaway, JPMorgan Chase, and Visa.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FAS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120806"
+        },
+        {
+          "relevance_score": "0.610170",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030704"
+        },
+        {
+          "relevance_score": "0.581870",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049368"
+        },
+        {
+          "relevance_score": "0.581811",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041629"
+        }
+      ],
+      "time_published": "20160815T210935",
+      "title": "Direxion Daily Financial Bull 3X Shares ETF Price, Holdings, & News (NYSEARCA:FAS)",
+      "topics": [
+        {
+          "relevance_score": "0.924991",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.823101",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/NYSEARCA/FAS/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.041855,
+      "source": "Financial IT",
+      "source_domain": "Financial IT",
+      "summary": "Cowen Group, Inc. has expanded its investment banking team by appointing four new managing directors: Stephen Clarke (Industrials), Zachary Fisher (TMT), A. Scott Lemone (Retail and Consumer), and Prasad Parmeshwaran (Health Care M&A). These appointments are part of Cowen's strategic plan to enhance its investment banking capabilities within key focus sectors, with some new hires also bringing existing client mandates to the company. The new directors bring significant experience and a proven track record, strengthening Cowen's advisory services in various industries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "COWNL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.459946"
+        },
+        {
+          "relevance_score": "0.573378",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.138436"
+        },
+        {
+          "relevance_score": "0.562667",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136009"
+        },
+        {
+          "relevance_score": "0.586445",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132352"
+        }
+      ],
+      "time_published": "20160815T134500",
+      "title": "Cowen Group Strengthens Investment Banking Team with New Appointments",
+      "topics": [
+        {
+          "relevance_score": "0.930720",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.815489",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.740115",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.608942",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.647609",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://financialit.net/news/people-moves/cowen-group-strengthens-investment-banking-team-new-appointments"
+    },
+    {
+      "authors": [
+        "Insider Monkey Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.153057,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "Baker Bros. Advisors, managed by Julian Baker and Felix Baker, increased its stake in Acadia Pharmaceuticals Inc. (NASDAQ: ACAD) by purchasing approximately 1.3 million shares at $33.00 each through a public offering. This acquisition brings their total holdings to 25.9 million shares, representing about 21.6% of the company's common stock. Acadia Pharmaceuticals recently received FDA approval for Nuplazid, its drug for Parkinson\u2019s disease psychosis, and reported a Q2 loss of $71.3 million with $97,000 in revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.978655",
+          "ticker": "ACAD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247449"
+        },
+        {
+          "relevance_score": "0.643274",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124449"
+        },
+        {
+          "relevance_score": "0.631439",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137381"
+        },
+        {
+          "relevance_score": "0.617718",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142306"
+        }
+      ],
+      "time_published": "20160815T100100",
+      "title": "Acadia Pharmaceuticals (ACAD): Baker Bros. Advisors Buys More Shares",
+      "topics": [
+        {
+          "relevance_score": "0.918181",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.809522",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.712503",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.643105",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/acadia-pharmaceuticals-acad-baker-bros-advisors-buys-more-shares-468920/?singlepage=1"
+    },
+    {
+      "authors": [
+        "Mason Braswell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.038012,
+      "source": "AdvisorHub",
+      "source_domain": "AdvisorHub",
+      "summary": "A FINRA arbitration panel ordered Morgan Stanley to pay a fired Florida broker, Dale Cebert, more than $2 million for defamation. The ruling stems from Morgan Stanley's inaccurate regulatory report and false communications to Cebert's customers, which alleged he was fired for criminal activity and an undisclosed outside business, despite the firm initially suing him for a signing bonus repayment. Cebert was awarded $2.4 million and the U-5 form must be changed to state \"terminated without cause.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.431611"
+        },
+        {
+          "relevance_score": "0.610320",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143884"
+        },
+        {
+          "relevance_score": "0.632798",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140194"
+        },
+        {
+          "relevance_score": "0.633710",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145284"
+        },
+        {
+          "relevance_score": "0.623884",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129125"
+        }
+      ],
+      "time_published": "20160803T070140",
+      "title": "Fired Broker Wins $2.4 Million from Morgan Stanley over Defamation",
+      "topics": [
+        {
+          "relevance_score": "0.921938",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.605568",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.advisorhub.com/fired-broker-wins-2-4-million-morgan-stanley-defamation/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.228164,
+      "source": "Consultancy.uk",
+      "source_domain": "Consultancy.uk",
+      "summary": "Total global alternative assets under management have reached $6.2 trillion, with the 100 largest managers controlling nearly 60% of this market, totaling $3.6 trillion. Real estate managers hold the largest share of these assets, and pension funds are a significant source of capital for alternative investment managers. North America remains the primary destination for these investments, though other regions are growing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314490",
+          "ticker": "IGR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033555"
+        },
+        {
+          "relevance_score": "0.922731",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314738"
+        },
+        {
+          "relevance_score": "0.826276",
+          "ticker": "CBRE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320747"
+        },
+        {
+          "relevance_score": "0.731744",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.298108"
+        },
+        {
+          "relevance_score": "0.640991",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237467"
+        }
+      ],
+      "time_published": "20160728T064621",
+      "title": "Total global alternative assets under management grows to $6.2 trillion",
+      "topics": [
+        {
+          "relevance_score": "0.914628",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.844240",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.704300",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.618649",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.consultancy.uk/news/12343/total-global-alternative-assets-under-management-grows-to-62-trillion"
+    },
+    {
+      "authors": [
+        "Lucinda Shen"
+      ],
+      "banner_image": "https://content.fortune.com/wp-content/uploads/2016/07/rtxyj0a.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.05583,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Goldman Sachs downgraded Whole Foods to \"Sell\" with a 12-month price target of $31, citing a competitive barrage from rivals like Costco and Kroger. Analysts believe Whole Foods is losing market share in its core natural and organic business as \"wellness has gone mass.\" While acknowledging the potential of Whole Foods' 365 value chain, Goldman Sachs remains skeptical of its ability to \"move the needle\" without a clear strategy and significant expansion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.604951",
+          "ticker": "SFM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148745"
+        },
+        {
+          "relevance_score": "0.726463",
+          "ticker": "COST",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232745"
+        },
+        {
+          "relevance_score": "0.741862",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.269078"
+        },
+        {
+          "relevance_score": "0.633196",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134752"
+        },
+        {
+          "relevance_score": "0.939233",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.412994"
+        }
+      ],
+      "time_published": "20160726T072653",
+      "title": "Goldman Sachs Has Little Hope for Whole Foods",
+      "topics": [
+        {
+          "relevance_score": "0.810804",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.724559",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.629248",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://fortune.com/2016/07/26/goldman-sachs-whole-foods-no-hope/"
+    },
+    {
+      "authors": [
+        "Innealta Capital"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.082341,
+      "source": "ETF Trends",
+      "source_domain": "ETF Trends",
+      "summary": "This article examines the impact of rising interest rates on domestic (U.S.) versus international equity performance. It analyzes past monetary policy regimes, both contractionary and accommodative, to determine how equity markets have historically responded to changes in the Federal Funds Effective Rate. The findings suggest a negative correlation between U.S. interest rates and U.S. equity returns, and a positive correlation with international equity returns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.318188",
+          "ticker": "INTL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046529"
+        },
+        {
+          "relevance_score": "0.730855",
+          "ticker": "SPGI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128716"
+        },
+        {
+          "relevance_score": "0.623331",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120742"
+        },
+        {
+          "relevance_score": "0.646497",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112958"
+        },
+        {
+          "relevance_score": "0.637060",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112094"
+        }
+      ],
+      "time_published": "20160629T064633",
+      "title": "Interest Rates: Inside Domestic vs. International Equity Performance",
+      "topics": [
+        {
+          "relevance_score": "0.924909",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.806761",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.etftrends.com/2016/06/rising-interest-rates-a-review-of-domestic-vs-international-equity-performance/"
+    },
+    {
+      "authors": [
+        "Niall McGee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.222947,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Jefferies Securities Inc. has received regulatory approval to expand its investment banking operations in Canada, allowing it to lead IPOs and participate in secondary stock issues. Despite robust secondary financing activity, Jefferies plans to maintain a minimal physical presence in Canada, basing institutional sales and research staff in the U.S. and internationally. This \"briefcase model\" approach, similar to other global investment banks, will see Jefferies competing with established Canadian bank-owned dealers, leveraging its U.S. product offerings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JEF",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425823"
+        },
+        {
+          "relevance_score": "0.627117",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119763"
+        },
+        {
+          "relevance_score": "0.631391",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120391"
+        }
+      ],
+      "time_published": "20160615T064700",
+      "title": "Jefferies beefs up investment banking in Canada",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.939381",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830357",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/streetwise/jefferies-beefs-up-investment-banking-footprint-in-canada/article30457433/"
+    },
+    {
+      "authors": [
+        "Fielding Buck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.347207,
+      "source": "Press Enterprise",
+      "source_domain": "Press Enterprise",
+      "summary": "Monster Beverage Corp. announced two new products: Mutant, a \"super soda\" targeting Mountain Dew drinkers, and Hydro, a non-carbonated drink. The Corona-based company has seen its stock trading near a 52-week high, with Goldman Sachs reissuing a \"buy\" rating with a $173 target price. This expansion follows a partnership with Coca-Cola Company that diversified Monster's product lines.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MNST",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.460966"
+        },
+        {
+          "relevance_score": "0.746208",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330595"
+        },
+        {
+          "relevance_score": "0.615976",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208002"
+        }
+      ],
+      "time_published": "20160614T230200",
+      "title": "CORONA: Monster Beverage is taking on Mountain Dew with new Mutant soda",
+      "topics": [
+        {
+          "relevance_score": "0.847442",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.947203",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.pressenterprise.com/2016/06/14/corona-monster-beverage-is-taking-on-mountain-dew-with-new-mutant-soda/"
+    },
+    {
+      "authors": [
+        "Sarah Krouse"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.136956,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Affiliated Managers Group (AMG) is set to acquire minority stakes in five money management firms, including Winton Capital Group and Capula Investment Management, from a Goldman Sachs-run fund. This $800 million all-cash deal will increase AMG's assets under management by $55 billion, bringing its total to approximately $700 billion. The acquisition involves firms that were initially invested in by Petershill Fund I, a private-equity fund managed by Goldman's asset-management unit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.331337",
+          "ticker": "MGRE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040519"
+        },
+        {
+          "relevance_score": "0.831965",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283909"
+        }
+      ],
+      "time_published": "20160606T070114",
+      "title": "AMG to Buy Stakes in 5 Money Managers",
+      "topics": [
+        {
+          "relevance_score": "0.913560",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.842040",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.707985",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/amg-to-buy-stakes-in-5-money-managers-1465210802?gaa_at=eafs&gaa_n=AWEtsqcmjVeujhFJnLvdoRzk07Gz0U_sl6KL4e3bImQCldB6nqzzAtivsFb7&gaa_ts=69085669&gaa_sig=ce-eLs52ll7jwMtaKCnWvydJ4cM6MuQ8nhctqQDuvoRd7NrHxzpoy6FWWgvueDhaWfHovg-H5xi8604dYJCGag%3D%3D"
+    },
+    {
+      "authors": [
+        "Sarah Krouse"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.144829,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Affiliated Managers Group (AMG) has agreed to acquire minority stakes in five money managers, including Winton Capital Group Ltd. and Capula Investment Management LLP, from a fund run by Goldman Sachs for $800 million in cash. This deal will increase AMG's assets under management by $55 billion, bringing its total to approximately $700 billion. The acquisition involves stakes previously held by Petershill Fund I, Goldman's private-equity fund, which first invested in Winton in 2007.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.349486",
+          "ticker": "MGRB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008079"
+        },
+        {
+          "relevance_score": "0.871564",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262578"
+        },
+        {
+          "relevance_score": "0.640244",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137043"
+        },
+        {
+          "relevance_score": "0.560465",
+          "ticker": "AMP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115448"
+        }
+      ],
+      "time_published": "20160606T070002",
+      "title": "AMG to Buy Stakes in 5 Money Managers",
+      "topics": [
+        {
+          "relevance_score": "0.934142",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.845344",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/amg-to-buy-stakes-in-5-money-managers-1465210802?gaa_at=eafs&gaa_n=AWEtsqczPq_q-k3-H6H--6vSR6Y-EaDb02o2eAx_fDCc2bqL0xUekpLz8W_F&gaa_ts=69085666&gaa_sig=DLRzt3yPx9k7roVJm0VsiIcIhwfUyn_eEwaFeEfeQjyXPrC8tZZ_le5zC6NEbTfb0i_-f3AW808z7r2sQ0KK1g%3D%3D"
+    },
+    {
+      "authors": [
+        "John Cody Lyon",
+        "Lynn McGee",
+        "Manny Romero"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.517857,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Borough of Manhattan Community College (BMCC) held its 51st Commencement ceremonies at Madison Square Garden on June 3, 2016, celebrating its largest graduating class in history with over 4,200 associate degrees conferred. President's Medals were awarded to Lloyd Blankfein, Chairman and CEO of The Goldman Sachs Group, and American Express and Kenneth I. Chenault, Chairman and CEO of American Express Company, during the morning and afternoon ceremonies respectively. The event highlighted the achievements of valedictorians Alex Guarino and Teri Talbot, along with first-ever graduates from specific programs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.931822",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.503370"
+        },
+        {
+          "relevance_score": "0.857205",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.463531"
+        }
+      ],
+      "time_published": "20160602T135900",
+      "title": "BMCC HOSTS 51st COMMENCEMENT AT MADISON SQUARE GARDEN, June",
+      "topics": [
+        {
+          "relevance_score": "0.806098",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2016/06/02/845770/10163237/en/BMCC-HOSTS-51st-COMMENCEMENT-AT-MADISON-SQUARE-GARDEN-June-3-WITH-LARGEST-GRADUATING-CLASS-IN-THE-COLLEGE-S-HISTORY.html"
+    },
+    {
+      "authors": [
+        "Anita Raghavan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.079484,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "The merger talks between Deutsche B\u00f6rse and the London Stock Exchange have brought together former star deal makers from Morgan Stanley who now operate their own boutique investment banks. This trend highlights a shift in the market for merger advice, with independent firms increasingly competing with larger global banks. Key figures involved include Joseph R. Perella of Perella Weinberg Partners and Simon Robey of Robey Warshaw, both representing the exchanges, and Caroline Silver of Moelis & Company working for a rival bid.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145632"
+        },
+        {
+          "relevance_score": "0.739691",
+          "ticker": "ICE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125528"
+        },
+        {
+          "relevance_score": "0.627388",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115557"
+        },
+        {
+          "relevance_score": "0.645944",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100794"
+        }
+      ],
+      "time_published": "20160602T070140",
+      "title": "Former Morgan Stanley Deal Makers Reunite on Exchange Merger (Published 2016)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.802632",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.709740",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nytimes.com/2016/06/03/business/dealbook/former-morgan-stanley-deal-makers-reunite-on-exchange-merger.html"
+    },
+    {
+      "authors": [
+        "Eddie van der Walt and Stephen Morris"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.071552,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "ICBC Standard Bank Plc has agreed to acquire one of Europe's largest gold vaults from Barclays Plc, solidifying its presence in the London precious metals market. The deal, expected to close in July, follows ICBC's controlling stake purchase in Standard Bank Plc's global markets business. This move underscores China's growing influence in the global gold trade.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347220",
+          "ticker": "BCM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013931"
+        },
+        {
+          "relevance_score": "0.635756",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140043"
+        },
+        {
+          "relevance_score": "0.592980",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127340"
+        }
+      ],
+      "time_published": "20160516T101900",
+      "title": "China\u2019s ICBC Buys 2,000-Ton London Gold Vault From Barclays",
+      "topics": [
+        {
+          "relevance_score": "0.931579",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.720119",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2016-05-16/icbc-standard-bank-buys-vault-in-push-into-london-s-gold-market"
+    },
+    {
+      "authors": [
+        "Chad Bray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.01011,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Philips announced that the initial public offering of its lighting business could value the unit at up to \u20ac4.92 billion ($5.6 billion), including debt. The offering on the Euronext stock exchange in Amsterdam will consist of 37.5 million shares, representing about 25 percent of Philips Lighting's shares, with conditional trading expected to begin on May 27. The move is part of Philips' strategy to reshape the company and focus on health care and technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PHG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.180491"
+        },
+        {
+          "relevance_score": "0.639274",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144323"
+        },
+        {
+          "relevance_score": "0.606144",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126878"
+        }
+      ],
+      "time_published": "20160516T071620",
+      "title": "I.P.O. Could Value Philips Lighting at $5.6 Billion, Including Debt",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.812250",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.748996",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.604789",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nytimes.com/2016/05/17/business/dealbook/philips-lighting-ipo.html"
+    },
+    {
+      "authors": [
+        "Michael Erman and Joy Wiltermuth"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fwww.reuters.com%2Fresources%2Fr%2F%3Fm%3D02%26d%3D20160510%26t%3D2%26i%3D1137021743%26w%3D900%26jh%3D337%26h%3D506%26v%3D1%26f%3Djpe%3Frandom%3D1718817290197&w=640&h=360&quality=80&c=1&ic=true",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.249713,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Lending Club's founder and CEO, Renaud Laplanche, resigned after an internal probe revealed the company knowingly sold an investor $22 million in unwanted loans. This resignation, coupled with the company's shares plummeting 35%, adds significant pressure to the online lending industry already facing weakening investor appetite and increased regulatory scrutiny. The incident also exposed material weaknesses in Lending Club's financial reporting and raised concerns about self-regulation in the nascent fintech sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.813896"
+        },
+        {
+          "relevance_score": "0.643022",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.127312"
+        },
+        {
+          "relevance_score": "0.643011",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.144295"
+        },
+        {
+          "relevance_score": "0.633237",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113196"
+        },
+        {
+          "relevance_score": "0.638369",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.144241"
+        }
+      ],
+      "time_published": "20160510T015700",
+      "title": "Lending Club CEO resigns after internal probe, shares plummet",
+      "topics": [
+        {
+          "relevance_score": "0.942474",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.824254",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.729047",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/lending-club-ceo-resigns-after-internal-probe-shares-plummet-idUSKCN0Y01BK/"
+    },
+    {
+      "authors": [
+        "Post Staff Report"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.173578,
+      "source": "New York Post",
+      "source_domain": "New York Post",
+      "summary": "The Obama administration blocked Halliburton's $28 billion merger with Baker Hughes, a deal first proposed in November 2014. Regulators believed the merger between the second and third largest oil services companies would lead to higher prices and reduced competition, leaving only Schlumberger as a major sector player. Halliburton will pay Baker Hughes a $3.5 billion breakup fee due to the termination of the deal, which also faced headwinds from European regulators and a drop in oil prices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HAL",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.424395"
+        },
+        {
+          "relevance_score": "0.934458",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.428285"
+        },
+        {
+          "relevance_score": "0.626171",
+          "ticker": "SLB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.217786"
+        },
+        {
+          "relevance_score": "0.620574",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126525"
+        }
+      ],
+      "time_published": "20160502T100600",
+      "title": "Obama blocks Halliburton\u2019s $28B oil patch deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.812299",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.617571",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://nypost.com/2016/05/02/obama-blocks-halliburtons-28b-oil-patch-deal/"
+    },
+    {
+      "authors": [
+        "Max Chen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.184195,
+      "source": "ETF Trends",
+      "source_domain": "ETF Trends",
+      "summary": "Newer ETF providers are using competitive fees, often supported by fee waivers, to attract investors and challenge established players. Goldman Sachs, for example, entered the ETF market with smart-beta offerings featuring low expense ratios, initially through waivers which were later made permanent. While fee waivers are common in the ETF industry, experts caution about the difficulty of removing them without losing competitiveness.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.306537",
+          "ticker": "GEM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010252"
+        },
+        {
+          "relevance_score": "0.908042",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332597"
+        }
+      ],
+      "time_published": "20160413T063657",
+      "title": "Fee Waivers Help Newer ETF Players to Undercut the Competition",
+      "topics": [
+        {
+          "relevance_score": "0.802276",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.732915",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.etftrends.com/2016/04/fee-waivers-help-newer-etf-players-to-undercut-the-competition/"
+    },
+    {
+      "authors": [
+        "Suzanne Barlyn"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.370142,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Goldman Sachs has agreed to pay $5.06 billion to settle claims with the U.S. Department of Justice regarding its role in misleading mortgage bond investors during the financial crisis. The settlement includes a civil penalty and other relief, while preserving the government's ability to pursue criminal charges against individuals. This agreement follows similar settlements with other major financial institutions made by a state and federal working group.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.303382",
+          "ticker": "GS-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.004858"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.619321"
+        },
+        {
+          "relevance_score": "0.734488",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.416798"
+        },
+        {
+          "relevance_score": "0.730631",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.428598"
+        },
+        {
+          "relevance_score": "0.718586",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.408367"
+        }
+      ],
+      "time_published": "20160412T184500",
+      "title": "Goldman Sachs to pay $5 billion in U.S. Justice Dept mortgage bond pact",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.947642",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.604201",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/goldman-sachs-to-pay-5-billion-in-us-justice-dept-mortgage-bond-pact-idUSKCN0X81TH/"
+    },
+    {
+      "authors": [
+        "Gary D. Cohn",
+        "Lloyd C. Blankfein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.088325,
+      "source": "Goldman Sachs",
+      "source_domain": "Goldman Sachs",
+      "summary": "The Goldman Sachs 2015 Annual Report reflects on a challenging year marked by economic headwinds and a significant RMBS settlement, yet highlights the firm's stable net revenues of $33.82 billion and strong performance in Investment Banking and Investment Management. The report details the firm's financial profile, strategic adaptations to structural and cyclical factors, and commitment to client services, investing, lending, and investment management. It also underscores Goldman Sachs's impact investing initiatives, technological advancements, and dedication to fostering top talent despite a volatile global economic landscape.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.323980",
+          "ticker": "GS-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044879"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132881"
+        }
+      ],
+      "time_published": "20160408T063731",
+      "title": "2015 Annual Report",
+      "topics": [
+        {
+          "relevance_score": "0.947652",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.821033",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.707684",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.614770",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.goldmansachs.com/investor-relations/financials/archived/annual-reports/2015-annual-report"
+    },
+    {
+      "authors": [
+        "Bloomberg/Houston"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.254084,
+      "source": "Gulf Times",
+      "source_domain": "Gulf Times",
+      "summary": "Sherwin-Williams Co. announced its agreement to acquire rival Valspar Corp. for approximately $9.3 billion in cash, aiming to become the world's largest coatings maker. This acquisition is expected to expand Sherwin-Williams' presence in the Asia Pacific region and Europe, leveraging Valspar's international revenue streams and industrial coatings expertise. The deal, valued at $11.3 billion including assumed debt, is projected to generate $280 million in annual savings within two years and is expected to close by the end of the first quarter next year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.612171",
+          "ticker": "PPG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130175"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SHW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447118"
+        },
+        {
+          "relevance_score": "0.735606",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305820"
+        },
+        {
+          "relevance_score": "0.604298",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335235"
+        },
+        {
+          "relevance_score": "0.606394",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315188"
+        }
+      ],
+      "time_published": "20160321T202100",
+      "title": "Sherwin-Williams to acquire Valspar in $9.3bn paint deal| Gulf Times",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.729767",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.624380",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.gulf-times.com/story/485445/sherwin-williams-to-acquire-valspar-in-93bn-paint-deal"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333896,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Sherwin-Williams Co has agreed to acquire rival U.S. paint company Valspar Corp in an all-cash deal valued at about $9.3 billion. This acquisition is expected to expand Sherwin-Williams' brand portfolio, strengthen its Global Finishes business, and extend its capabilities into new geographies. The combined company would have pro forma 2015 revenues of $15.6 billion and an estimated annual savings of $280 million within two years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SHW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.420282"
+        },
+        {
+          "relevance_score": "0.639172",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318641"
+        },
+        {
+          "relevance_score": "0.637528",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339205"
+        },
+        {
+          "relevance_score": "0.638344",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346093"
+        },
+        {
+          "relevance_score": "0.603509",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304839"
+        }
+      ],
+      "time_published": "20160321T025300",
+      "title": "Sherwin-Williams paint company to buy Valspar for $9.3 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.827256",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.729814",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/sherwin-williams-paint-company-to-buy-valspar-for-93-billion-idUSKCN0WM0W1/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.17833,
+      "source": "Yale School of Management",
+      "source_domain": "Yale School of Management",
+      "summary": "Denise M. Morrison, president and CEO of Campbell Soup Company, was honored with the Legend in Leadership Award by the Yale School of Management\u2019s Chief Executive Leadership Institute. She was recognized for her strategic realignment of Campbell's as a purpose-driven organization, focusing on natural ingredients and improved financial returns. The award ceremony took place at the Yale CEO Caucus, where various global corporate leaders also participated in discussions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CPB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.473594"
+        },
+        {
+          "relevance_score": "0.609890",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136947"
+        },
+        {
+          "relevance_score": "0.615854",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111414"
+        },
+        {
+          "relevance_score": "0.601668",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125549"
+        },
+        {
+          "relevance_score": "0.612422",
+          "ticker": "DIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112888"
+        }
+      ],
+      "time_published": "20160314T061227",
+      "title": "Chief Executive Leadership Institute Honors Denise Morrison of Campbell Soup Company",
+      "topics": [
+        {
+          "relevance_score": "0.828965",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://som.yale.edu/news/2016/03/yale-som-s-chief-executive-leadership-institute-honors-denise-morrison-of-campbell-soup-company-with-legend-in-leadership-award"
+    },
+    {
+      "authors": [
+        "Tom P. Davis",
+        "PhD",
+        "CFA"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.16598,
+      "source": "FactSet Insight",
+      "source_domain": "FactSet Insight",
+      "summary": "This article explains the valuation of interest rate swaps, which are prominent in the global derivatives market. It outlines the components of a plain vanilla swap, distinguishing between fixed and floating legs, and details the role of overnight and IBOR curves in their valuation. The author emphasizes the significance of non-zero LIBOR spreads post-2008 financial crisis and the importance of accurate modeling to avoid mispricing and disputes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926520",
+          "ticker": "FDS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266155"
+        },
+        {
+          "relevance_score": "0.610961",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129750"
+        },
+        {
+          "relevance_score": "0.619388",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122492"
+        },
+        {
+          "relevance_score": "0.611144",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148250"
+        },
+        {
+          "relevance_score": "0.647404",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141180"
+        }
+      ],
+      "time_published": "20160309T062716",
+      "title": "Understanding Interest Rate Swap Valuation",
+      "topics": [
+        {
+          "relevance_score": "0.927285",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.822096",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.744374",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://insight.factset.com/understanding-interest-rate-swap-valuation"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.155326,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Goldman Sachs is cutting between five and 10 percent of its staff in the fixed income and currency trading business as part of its annual workforce adjustments. This division is facing increased pressure due to low interest rates and stricter regulations, which have significantly impacted its profitability. CEO Lloyd Blankfein indicated that cost cuts are necessary given stalled revenues and market turmoil.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327746",
+          "ticker": "GS-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001148"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.298263"
+        },
+        {
+          "relevance_score": "0.619833",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119867"
+        },
+        {
+          "relevance_score": "0.552061",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130520"
+        }
+      ],
+      "time_published": "20160304T063732",
+      "title": "Goldman Sachs Is Cutting Up to 10% of Its Fixed Income Traders: Reuters",
+      "topics": [
+        {
+          "relevance_score": "0.931605",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.839172",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.719115",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.632234",
+          "topic": "economy_monetary"
+        }
+      ],
+      "url": "https://fortune.com/2016/03/04/goldman-sachs-layoffs/"
+    },
+    {
+      "authors": [
+        "Oliver Lam"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14381,
+      "source": "BCBusiness",
+      "source_domain": "BCBusiness",
+      "summary": "Daniel Eberhard, CEO of Koho Financial Inc., is featured for his entrepreneurial spirit, having previously built and sold a wind farm company. He then founded Koho Financial, aiming to disrupt traditional banking by offering a fee-free prepaid Visa card and mobile banking software. Koho generates revenue through interchange fees and has successfully raised $1 million from investors, earning Eberhard the NASDAQ FinTech Innovation Award.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.701690",
+          "ticker": "AQN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.193305"
+        },
+        {
+          "relevance_score": "0.659430",
+          "ticker": "V",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.169483"
+        },
+        {
+          "relevance_score": "0.566249",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114044"
+        },
+        {
+          "relevance_score": "0.568873",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143404"
+        },
+        {
+          "relevance_score": "0.564449",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135362"
+        }
+      ],
+      "time_published": "20160303T055654",
+      "title": "Daniel Eberhard",
+      "topics": [
+        {
+          "relevance_score": "0.934196",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.802494",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bcbusiness.ca/people/general/daniel-eberhard/"
+    },
+    {
+      "authors": [
+        "David Dayen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.041621,
+      "source": "The Intercept",
+      "source_domain": "The Intercept",
+      "summary": "The article discusses the potential for BlackRock CEO Larry Fink and his team to take over Hillary Clinton's Treasury Department if she becomes president. It highlights BlackRock's significant influence as the world's largest asset management firm and Fink's ambition to become Treasury Secretary. The piece also details former Treasury Department officials working at BlackRock and policy alignments between Fink and Clinton, particularly on financial regulation and \"short-termism.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137804"
+        },
+        {
+          "relevance_score": "0.723711",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.025535"
+        },
+        {
+          "relevance_score": "0.618156",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010889"
+        },
+        {
+          "relevance_score": "0.566563",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029217"
+        }
+      ],
+      "time_published": "20160302T145800",
+      "title": "Larry Fink and His BlackRock Team Poised to Take Over Hillary Clinton's Treasury Department",
+      "topics": [
+        {
+          "relevance_score": "0.940259",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.829109",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.706666",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://theintercept.com/2016/03/02/larry-fink-and-his-blackrock-team-poised-to-take-over-hillary-clintons-treasury-department/"
+    },
+    {
+      "authors": [
+        "Paul Clarke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.148558,
+      "source": "eFinancialCareers",
+      "source_domain": "eFinancialCareers",
+      "summary": "This article details the rigorous hiring process at Blackstone, highlighting the importance of cultural fit, top education, and internships for aspiring private equity professionals. It explains that while getting in is tough, staying and progressing to associate level is a significant hurdle, requiring maturity and the ability to manage both up and down. The piece also touches on compensation, workload, and the firm's perception regarding diversity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.994337",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.285104"
+        },
+        {
+          "relevance_score": "0.705624",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106474"
+        },
+        {
+          "relevance_score": "0.675686",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.093502"
+        }
+      ],
+      "time_published": "20160224T060653",
+      "title": "How to fight your way into a job at Blackstone, and stay there",
+      "topics": [
+        {
+          "relevance_score": "0.910225",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.efinancialcareers.com/news/2016/02/getting-a-job-at-blackstone"
+    },
+    {
+      "authors": [
+        "Sonali Basak"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.030671,
+      "source": "Carrier Management",
+      "source_domain": "Carrier Management",
+      "summary": "Brian Schreiber, AIG's key dealmaker responsible for $265 billion in transactions and negotiating its 2008 government rescue, is departing the company. His departure comes amid executive tensions and as AIG prepares to sell billions in assets, despite activist investors considering him capable of executing restructuring plans. Schreiber, known for his deep company knowledge and fierce advocacy, worked for six CEOs and was instrumental in significant deals, but also faced criticism for his volatile personality.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.197680"
+        },
+        {
+          "relevance_score": "0.640232",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125345"
+        },
+        {
+          "relevance_score": "0.576359",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117357"
+        }
+      ],
+      "time_published": "20160224T055209",
+      "title": "Departing AIG Dealmaker Schreiber Was Equal Parts Volatile and Invaluable",
+      "topics": [
+        {
+          "relevance_score": "0.912982",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.806522",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.carriermanagement.com/news/2016/02/24/151361.htm"
+    },
+    {
+      "authors": [
+        "Reghu Balakrishnan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.397678,
+      "source": "Mint",
+      "source_domain": "Mint",
+      "summary": "Global private equity firm KKR has acquired a 9.95% stake in Max Financial Services for \u20b9951 crore, making it the largest institutional shareholder in the company. Max Financial Services, the newly spun-off arm of the Max Group, holds approximately 72% stake in Max Life, India\u2019s fourth-largest private life insurance firm. This investment allows KKR to capitalize on India's growth potential in the life insurance sector through a pure-play route.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408613"
+        },
+        {
+          "relevance_score": "0.722464",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349849"
+        }
+      ],
+      "time_published": "20160219T014700",
+      "title": "KKR acquires 10% stake in Max Financial Services",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.940416",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/29WQCOLz411b8alkJWo39M/KKR-buys-10-stake-in-Max-Financial-Services.html"
+    },
+    {
+      "authors": [
+        "Michael Corkery"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.052787,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Citigroup increased CEO Michael L. Corbat's compensation by 27% to $16.5 million for 2015, reflecting the bank's improved financial performance and success in stress tests. This pay raise comes as Citigroup achieved its highest profit since 2006 and continued to shed unwanted assets. Other bank CEOs also saw significant compensation changes, with JPMorgan Chase's Jamie Dimon receiving $27 million, while Goldman Sachs' and Morgan Stanley's chiefs experienced pay cuts or smaller raises.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289424"
+        },
+        {
+          "relevance_score": "0.733400",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106072"
+        },
+        {
+          "relevance_score": "0.702276",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132828"
+        },
+        {
+          "relevance_score": "0.642223",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118093"
+        },
+        {
+          "relevance_score": "0.642896",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.240360"
+        }
+      ],
+      "time_published": "20160218T060658",
+      "title": "Citigroup Raises Chief Executive\u2019s Pay 27% (Published 2016)",
+      "topics": [
+        {
+          "relevance_score": "0.912794",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.837586",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.nytimes.com/2016/02/19/business/dealbook/citigroup-raises-chief-executives-pay-27.html"
+    },
+    {
+      "authors": [
+        "Jana Kasperkevic"
+      ],
+      "banner_image": "https://assets.guim.co.uk/img/media/5d5483fdd82c3c13dc0f69a19fb00b213b19b7ce/0_106_3600_2160/master/3600.jpg?width=620&dpr=2&s=none",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.065125,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "Morgan Stanley will pay $3.2bn to settle federal and state charges related to misleading investors in residential mortgage-backed securities before the 2008 financial crisis. This settlement follows a similar $5.06bn payment by Goldman Sachs, making them among the last major banks to resolve such claims. The New York attorney general announced that the settlement includes consumer relief and funds for affordable housing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104758"
+        },
+        {
+          "relevance_score": "0.709031",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.043508"
+        },
+        {
+          "relevance_score": "0.635673",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.027304"
+        },
+        {
+          "relevance_score": "0.622023",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024734"
+        }
+      ],
+      "time_published": "20160211T103800",
+      "title": "Morgan Stanley to pay $3.2bn over mortgage-backed securities",
+      "topics": [
+        {
+          "relevance_score": "0.931538",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.835529",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.726111",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.636980",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2016/feb/11/morgan-stanley-mortgage-backed-securities-2008-financial-crisis"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.26937,
+      "source": "The Business Times",
+      "source_domain": "The Business Times",
+      "summary": "Citigroup Inc. is set to hire Yusuke Asai, a former managing director at Goldman Sachs Group Inc., as its head of investment banking in Japan and deputy president at Citigroup Global Markets Japan Inc. Mr. Asai, who previously worked at Goldman Sachs in financial institutions and was CEO of Reinsurance Group of America Inc.'s Japan unit, will assume his new roles in April. This marks a significant senior hire for Citi in Japan following the sale of its local retail banking and card businesses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349863"
+        },
+        {
+          "relevance_score": "0.846870",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236005"
+        }
+      ],
+      "time_published": "20160205T070600",
+      "title": "Citigroup to hire ex-Goldman MD as Japan investment banking head",
+      "topics": [
+        {
+          "relevance_score": "0.909065",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.602022",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/citigroup-hire-ex-goldman-md-japan-investment-banking-head"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.2418,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "BeiGene, a drug company specializing in immuno-oncology drugs, made its market debut as the first IPO of 2016. Its shares opened above the initial public offering issue price, trading at $28.97 against an issue price of $24. The company successfully raised approximately $158 million by selling 6.6 million shares.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ONC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.534401"
+        },
+        {
+          "relevance_score": "0.641157",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126900"
+        },
+        {
+          "relevance_score": "0.633409",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103309"
+        }
+      ],
+      "time_published": "20160203T105100",
+      "title": "BeiGene, first IPO of 2016, begins trading above issue price",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.821191",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.716482",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.635342",
+          "topic": "finance"
+        }
+      ],
+      "url": "http://www.marketwatch.com/story/beigene-first-ipo-of-2016-begins-trading-above-issue-price-2016-02-03?gaa_at=eafs&gaa_n=AWEtsqf-l0PA6-k5A1A_LPU95PUJZEz26koCpLKZMy5nKfXDWEoVjxCY6_TQ&gaa_ts=690858c8&gaa_sig=o_-VUNip5_MS-dArMiO9JweQpb1xt1iujaAsItTbvNN0rJqn72FRjTliXXoS3rSOBSkoKqbAvCzv_-6fyJlAeA%3D%3D"
+    },
+    {
+      "authors": [
+        "Ayodale Braimah"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.267972,
+      "source": "BlackPast.org",
+      "source_domain": "BlackPast.org",
+      "summary": "Robert F. Smith is celebrated as the founder, chairman, and CEO of Vista Equity Partners, a multi-billion-dollar private equity firm focusing on enterprise software. Ranked among the richest individuals in the U.S., Smith is also a significant philanthropist, known for major donations to educational institutions and initiatives supporting inner-city youth and African American advancement in technology and education. His career transitioned from engineering and patents to finance at Goldman Sachs before establishing his highly successful private equity venture.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.732598",
+          "ticker": "APD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139383"
+        },
+        {
+          "relevance_score": "0.867738",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.280290"
+        },
+        {
+          "relevance_score": "0.767335",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253162"
+        },
+        {
+          "relevance_score": "0.792981",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299764"
+        },
+        {
+          "relevance_score": "0.772594",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.288321"
+        }
+      ],
+      "time_published": "20160131T055649",
+      "title": "Robert F. Smith (1962- )",
+      "topics": [
+        {
+          "relevance_score": "0.913088",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.811343",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.744291",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blackpast.org/african-american-history/smith-robert-f-1962/"
+    },
+    {
+      "authors": [
+        "Paul Clarke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.078165,
+      "source": "eFinancialCareers",
+      "source_domain": "eFinancialCareers",
+      "summary": "Morgan Stanley has announced its 2016 managing director promotions, with 156 individuals making the cut. The majority of promotions are long-serving employees, with a significant number based in New York. Interestingly, the markets division saw more promotions than M&A, and technologists accounted for the third-highest number of promotions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136518"
+        },
+        {
+          "relevance_score": "0.602622",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033181"
+        }
+      ],
+      "time_published": "20160125T070139",
+      "title": "A detailed breakdown of Morgan Stanley's 2016 managing director promotions",
+      "topics": [
+        {
+          "relevance_score": "0.924693",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.639640",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.efinancialcareers.com/news/2016/01/detailed-breakdown-morgan-stanleys-2015-managing-director-promotions"
+    },
+    {
+      "authors": [
+        "Matthew Goldstein"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.120678,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Morgan Stanley's private bank has arranged a personal loan for billionaire investor Steven A. Cohen, secured by his art collection, estimated to be worth $1 billion. This move comes at a time when Cohen's business prospects are improving, and follows previous similar financing arrangements he had with other major banks. The loan signifies Morgan Stanley's willingness to engage with Cohen despite his former hedge fund's past legal issues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.193794"
+        },
+        {
+          "relevance_score": "0.635741",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.080781"
+        },
+        {
+          "relevance_score": "0.584891",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105263"
+        }
+      ],
+      "time_published": "20160119T070139",
+      "title": "Morgan Stanley Provides Billionaire Steven Cohen With Loan Secured by Art (Published 2016)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.609580",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nytimes.com/2016/01/20/business/dealbook/morgan-stanley-backs-billionaire-steven-cohen-with-loan-secured-by-art.html"
+    },
+    {
+      "authors": [
+        "Leena Rao"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.127476,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "eBay Motors, once a dominant force in online automotive sales, has seen a nearly 30% decline in sales over the past five years due to competition from new car-sales startups and limitations in its platform. While used car sales struggle, eBay sees a strong future in its parts and accessories business, which has shown significant growth. The company aims to create an ecosystem for car owners to find both parts and services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.927088",
+          "ticker": "KMX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341150"
+        },
+        {
+          "relevance_score": "0.918512",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.321518"
+        },
+        {
+          "relevance_score": "0.626718",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338900"
+        },
+        {
+          "relevance_score": "0.580456",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115963"
+        }
+      ],
+      "time_published": "20160115T065151",
+      "title": "As Used-Car Startups Take Off, eBay Motors Faces Uncertain Future",
+      "topics": [
+        {
+          "relevance_score": "0.848361",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.813813",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.714701",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.619736",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.627261",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://fortune.com/2016/01/15/ebay-motors-decline/"
+    },
+    {
+      "authors": [
+        "U.S. Global Investors"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.136081,
+      "source": "Mining.com",
+      "source_domain": "Mining.com",
+      "summary": "This article details the history and business model of Franco-Nevada, the world's first and largest gold royalty company, founded by Seymour Schulich and Pierre Lassonde. It highlights the superiority of the royalty model in the precious metals industry, leading to high margins, dividend growth, and avoidance of many risks faced by traditional miners. The piece also celebrates the co-founders' significant philanthropic contributions and suggests that current investment trends by royalty companies indicate a potential bottom in gold prices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.304669",
+          "ticker": "GROW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.021457"
+        },
+        {
+          "relevance_score": "0.739478",
+          "ticker": "NEM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343823"
+        },
+        {
+          "relevance_score": "0.637976",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116879"
+        },
+        {
+          "relevance_score": "0.634543",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122561"
+        },
+        {
+          "relevance_score": "0.624220",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124903"
+        }
+      ],
+      "time_published": "20160115T020300",
+      "title": "Franco-Nevada: Royalty of the gold industry",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.906331",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.mining.com/web/franco-nevada-royalty-of-the-gold-industry/"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/vP7S3Vq8YjKkGg82o6L6P9-e77E=/1920x0/filters:format(jpg):quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/5WOCX4QBBBL3FH42L4SH3B272I.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.00961,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Former Qwest Communications CEO Joseph Nacchio won a $14.2 million jury verdict against Goldman Sachs Group Inc.'s Ayco financial planning unit and an adviser. The lawsuit alleged that Ayco and adviser David Weinstein breached fiduciary duties by failing to disclose that $95 million in variable life insurance policies purchased in 2000 would lapse prematurely. Nacchio and his wife were forced to cancel the policies and paid $26 million to replace them.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.329533",
+          "ticker": "CTBB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029300"
+        },
+        {
+          "relevance_score": "0.940792",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013145"
+        }
+      ],
+      "time_published": "20160108T125100",
+      "title": "Ex-Qwest CEO Nacchio wins $14 million verdict vs Goldman unit: lawyer",
+      "topics": [
+        {
+          "relevance_score": "0.912129",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/ex-qwest-ceo-nacchio-wins-14-million-verdict-vs-goldman-unit-lawyer-idUSKBN0UL2QN/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.052783,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Morgan Stanley has promoted its investment banking chief, Colm Kelleher, to president, making him the heir apparent to CEO James Gorman. This move led to the departure of Greg Fleming, the head of wealth management, who was previously considered a successor to Gorman. Kelleher will now also oversee wealth management, consolidating power and potentially balancing the firm's focus between wealth management and traditional securities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.950367",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124461"
+        },
+        {
+          "relevance_score": "0.623256",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131438"
+        },
+        {
+          "relevance_score": "0.642210",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143326"
+        },
+        {
+          "relevance_score": "0.563553",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.094878"
+        }
+      ],
+      "time_published": "20160107T070139",
+      "title": "Morgan Stanley Just Promoted Colm Kelleher to President",
+      "topics": [
+        {
+          "relevance_score": "0.914440",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.603434",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://fortune.com/2016/01/07/morgan-stanley-colm-kelleher/"
+    },
+    {
+      "authors": [
+        "Telis Demos and Liz Hoffman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.189358,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Goldman Sachs is adopting a new strategy by allowing rival investment products to be sold through its web application, Securities DataBase, traditionally used for analyzing risk and measuring securities. This move emulates Apple's platform model, aiming to create an online hub for various financial products, including those from competitors. The bank, Goldman Sachs Group Inc. (GS), seeks to broaden its reach and become a central platform for customers and other firms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.316137",
+          "ticker": "GS-P-C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048295"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316459"
+        },
+        {
+          "relevance_score": "0.873715",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233342"
+        },
+        {
+          "relevance_score": "0.630333",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139385"
+        }
+      ],
+      "time_published": "20160101T000000",
+      "title": "Goldman Sachs Has a New Model: Apple",
+      "topics": [
+        {
+          "relevance_score": "0.803103",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.649060",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/goldman-sachs-has-a-new-model-apple-1477863314?gaa_at=eafs&gaa_n=AWEtsqecruRCDnnDoP6q731RDt3T2KCazs5dCumZS9ERTXPW7dzBjvpbsSDw&gaa_ts=690850cc&gaa_sig=txNRCerFEf01X7-CoCgWo7wFdDe3WD0-CiCI_4TyZgUSBe_gSevBUUv6LFKy47WjRvQZ1Tf4-JeBLyaWbMBvSA%3D%3D"
+    },
+    {
+      "authors": [
+        "Sarah Krouse"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.197965,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Affiliated Managers Group (AMG) is set to acquire minority stakes in five money managers, including Winton Capital Group Ltd. and Capula Investment Management LLP, from a Goldman Sachs fund. This $800 million all-cash deal will increase AMG's assets under management by $55 billion, bringing its total to approximately $700 billion. The acquisition involves firms previously invested in by Petershill Fund I, a private-equity fund run by Goldman's asset-management unit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416886"
+        },
+        {
+          "relevance_score": "0.846971",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105151"
+        }
+      ],
+      "time_published": "20160101T000000",
+      "title": "AMG to Buy Stakes in 5 Money Managers",
+      "topics": [
+        {
+          "relevance_score": "0.904680",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.730179",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/amg-to-buy-stakes-in-5-money-managers-1465210802?gaa_at=eafs&gaa_n=AWEtsqe8SawZbuqxJWp_y_Nm-TWNDG8PSjmaXZ1j5T6RualN5EAOXzoi6mc9&gaa_ts=69084643&gaa_sig=cu03o9IiM168igAWmZMWqbH0W_Sq_n-KbDNHBmAgYzHyOpXWPYi7Qf0vunTyc42qvGd1FWPTM9b6zFMY5KnrtA%3D%3D"
+    }
+  ],
+  "items": "76",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

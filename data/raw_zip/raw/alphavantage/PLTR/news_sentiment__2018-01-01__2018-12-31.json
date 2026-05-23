@@ -1,0 +1,352 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309349,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This page provides a comprehensive profile of the iShares U.S. Tech Independence Focused ETF (IETC), detailing its current price, dividend information, expense ratio, and a list of its top holdings. It also includes performance comparisons against peers, technical analysis, and ESG scores, giving a thorough overview for potential investors. The fund is actively managed and primarily invests in U.S. large-cap technology equities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IETC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115085"
+        },
+        {
+          "relevance_score": "0.908157",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347788"
+        },
+        {
+          "relevance_score": "0.878910",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305843"
+        },
+        {
+          "relevance_score": "0.812160",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304974"
+        },
+        {
+          "relevance_score": "0.758320",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329610"
+        }
+      ],
+      "time_published": "20181026T153947",
+      "title": "iShares U.S. Tech Independence Focused ETF",
+      "topics": [
+        {
+          "relevance_score": "0.937183",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.824719",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://etfdb.com/etf/IETC/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.327068,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "The ARK Autonomous Technology & Robotics ETF (ARKQ) is an actively managed fund that invests in companies poised to benefit from advancements in energy, automation, manufacturing, materials, and transportation. Managed by ARK Invest, led by Catherine Wood, the ETF aims to outperform the market, with top holdings including Tesla. Despite a 0.75% management fee, ARKQ has historically shown strong performance compared to passive rivals in its category.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ARKQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.544395"
+        },
+        {
+          "relevance_score": "0.849332",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313906"
+        },
+        {
+          "relevance_score": "0.640188",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225530"
+        },
+        {
+          "relevance_score": "0.616333",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245981"
+        },
+        {
+          "relevance_score": "0.649705",
+          "ticker": "DE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235158"
+        }
+      ],
+      "time_published": "20181026T071044",
+      "title": "ARK Autonomous Technology & Robotics ETF",
+      "topics": [
+        {
+          "relevance_score": "0.943470",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.806340",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.748670",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.645151",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://etfdb.com/etf/ARKQ/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.242419,
+      "source": "NBC4 Washington",
+      "source_domain": "NBC4 Washington",
+      "summary": "Several prominent technology companies have active contracts with the United States Immigration and Customs Enforcement (ICE), profiting from the ongoing border crisis. These companies, including Hewlett Packard Enterprise, Thomson Reuters, Microsoft, Motorola Solutions, and Palantir, have contracts totaling millions of dollars, often operating out of public view. While some companies condemned the administration's family separation policy, their contractual relationships with ICE continue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.208393"
+        },
+        {
+          "relevance_score": "0.829045",
+          "ticker": "MSI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.217091"
+        },
+        {
+          "relevance_score": "0.748787",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.246011"
+        },
+        {
+          "relevance_score": "0.921600",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.203754"
+        }
+      ],
+      "time_published": "20180621T073000",
+      "title": "Tech Companies Quietly Work With ICE as Border Crisis Continues",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.847851",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nbcwashington.com/news/national-international/tech-companies-ice-border-crisis/2037418/"
+    },
+    {
+      "authors": [
+        "Thomas Franck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.260888,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "J.P. Morgan Chase reportedly ousted its \"special operations\" head, Peter Cavicchia III, after discovering he was spying on senior executives. Supported by over 100 Palantir engineers, Cavicchia's team, initially tasked with monitoring dishonest traders, began collecting extensive data on top bank officials, leading to an internal scandal and his forced resignation in 2013.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.209788"
+        },
+        {
+          "relevance_score": "0.714558",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.329800"
+        }
+      ],
+      "time_published": "20180419T130000",
+      "title": "JP Morgan reportedly had to oust a security chief backed by Palantir after executives found out he was spying on them",
+      "topics": [
+        {
+          "relevance_score": "0.804364",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.835410",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cnbc.com/2018/04/19/jp-morgan-reportedly-had-to-oust-a-security-chief-backed-by-palantir.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.292128,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "This article provides detailed information on the iShares U.S. Tech Independence Focused ETF (BATS:IETC), including its current price, holdings, and recent news. The ETF focuses on US stocks in the information technology sector, utilizing machine learning algorithms for stock selection and aiming for increased exposure to firms with high Technology Independence Scores. It also covers performance metrics, expenses, and frequently asked questions about investing in IETC.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IETC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207254"
+        },
+        {
+          "relevance_score": "0.628807",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311472"
+        },
+        {
+          "relevance_score": "0.643100",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333164"
+        },
+        {
+          "relevance_score": "0.627599",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317993"
+        },
+        {
+          "relevance_score": "0.617182",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302030"
+        }
+      ],
+      "time_published": "20180418T205433",
+      "title": "iShares U.S. Tech Independence Focused ETF ETF Price, Holdings, & News (BATS:IETC)",
+      "topics": [
+        {
+          "relevance_score": "0.911463",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.804392",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/BATS/IETC/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.115142,
+      "source": "Investing.com",
+      "source_domain": "Investing.com",
+      "summary": "This page provides live stock exchange data for Surface Oncology Inc (NASDAQ: SURF), including current stock price, symbol, recent movements, key statistics, and links to news and analysis. It indicates that the company's stock price today is 1.070, and it trades on the NASDAQ exchange. The article also includes details on the company's profile as a clinical-stage immuno-oncology company, its employee count, and recent news regarding Surf Air Mobility, which appears to be distinct from the main subject.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SURF",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.226662"
+        },
+        {
+          "relevance_score": "0.592311",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044432"
+        }
+      ],
+      "time_published": "20180410T103946",
+      "title": "Surface Oncology Inc Stock Price Today | NASDAQ: SURF Live",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.919876",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.817357",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.investing.com/equities/surface-oncology-inc"
+    },
+    {
+      "authors": [
+        "Jon Viktor Cabuenas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.350828,
+      "source": "GMA Network",
+      "source_domain": "GMA Network",
+      "summary": "More than 40 McDonald\u2019s restaurants in the Philippines have partnered with PayMaya Philippines, a digital financial services arm of PLDT Inc.'s Voyager Innovations, to accept cashless payments. This collaboration enables customers to use Mastercard and Visa credit, debit, and prepaid cards, with plans to expand to QR payments in select McCaf\u00e9 branches and for online bookings. The move aims to keep McDonald's relevant in the evolving digital landscape by embracing cashless transactions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424901"
+        },
+        {
+          "relevance_score": "0.630565",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327799"
+        }
+      ],
+      "time_published": "20180205T172200",
+      "title": "McDonald\u2019s customers can now pay for their fast food with PayMaya",
+      "topics": [
+        {
+          "relevance_score": "0.907091",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.831000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.723976",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.gmanetwork.com/news/money/companies/642224/mcdonald-rsquo-s-customers-can-now-pay-for-their-fast-food-with-paymaya/story/"
+    }
+  ],
+  "items": "7",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

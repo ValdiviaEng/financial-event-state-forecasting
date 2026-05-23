@@ -1,0 +1,477 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Chris Newmarker"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.232825,
+      "source": "Finance & Commerce",
+      "source_domain": "Finance & Commerce",
+      "summary": "UnitedHealth Group sold its former ADC campus in Eden Prairie for $50 million to AGNL Health LLC, generating a nearly $10 million profit from a sale-leaseback agreement. The health services giant will lease back the 450,000-square-foot campus for 12 years. This move provides UnitedHealth quick cash and aligns with a common corporate strategy to avoid becoming real estate managers, as it simultaneously plans a larger corporate campus development in Eden Prairie.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.987282",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337634"
+        },
+        {
+          "relevance_score": "0.718139",
+          "ticker": "CSGP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142466"
+        }
+      ],
+      "time_published": "20111213T175556",
+      "title": "UnitedHealth sells former ADC campus for $50M",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.704739",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.611285",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://finance-commerce.com/2011/12/unitedhealth-sells-former-adc-campus-for-50-million/"
+    },
+    {
+      "authors": [
+        "David Sell",
+        "Inquirer Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.049053,
+      "source": "Inquirer.com",
+      "source_domain": "Inquirer.com",
+      "summary": "Lipitor, the world's best-selling drug, is facing generic competition after losing its patent protection, a change expected to lower prices for patients. Pfizer, Lipitor's maker, is implementing strategies like coupon offers and a mail-order business to mitigate the impact of generic versions, while generic manufacturers prepare to enter the market. The introduction of generic atorvastatin is poised to disrupt the prescription drug market and impact pharmacies and pharmacy benefit managers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.233869"
+        },
+        {
+          "relevance_score": "0.730566",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140822"
+        },
+        {
+          "relevance_score": "0.608336",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002840"
+        },
+        {
+          "relevance_score": "0.601437",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142037"
+        }
+      ],
+      "time_published": "20111130T030100",
+      "title": "Top-seller Lipitor goes generic",
+      "topics": [
+        {
+          "relevance_score": "0.918598",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.706495",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.631249",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.inquirer.com/philly/business/20111130_Top-seller_Lipitor_goes_generic.html"
+    },
+    {
+      "authors": [
+        "Bee Staff Reports"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.155357,
+      "source": "Modesto Bee",
+      "source_domain": "Modesto Bee",
+      "summary": "Tenet Healthcare Corp. has appointed Warren Kirk as the new Chief Executive Officer for Doctors Medical Center in Modesto. Kirk, previously a hospital administrator in the Bay Area, aims to improve the hospital's current operations and achieve national recognition for quality care. He brings extensive experience from Alta Bates Summit Medical Center, where he focused on quality standards, employee satisfaction, and facility development.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "THC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209057"
+        },
+        {
+          "relevance_score": "0.628053",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105673"
+        },
+        {
+          "relevance_score": "0.633689",
+          "ticker": "BSX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144975"
+        },
+        {
+          "relevance_score": "0.601959",
+          "ticker": "UHS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110677"
+        },
+        {
+          "relevance_score": "0.637184",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124755"
+        }
+      ],
+      "time_published": "20111128T224400",
+      "title": "Doctors Medical Center in Modesto has new CEO",
+      "topics": [
+        {
+          "relevance_score": "0.933230",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.modbee.com/news/business/article3138920.html"
+    },
+    {
+      "authors": [
+        "Gregg Blesch"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.419527,
+      "source": "Modern Healthcare",
+      "source_domain": "Modern Healthcare",
+      "summary": "UnitedHealth is set to acquire Monarch HealthCare. This acquisition will expand UnitedHealth's provider network. The article briefly notes other healthcare news items.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439112"
+        }
+      ],
+      "time_published": "20110831T050000",
+      "title": "UnitedHealth to acquire Monarch HealthCare",
+      "topics": [
+        {
+          "relevance_score": "0.947113",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.802815",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "http://www.modernhealthcare.com/article/20110831/NEWS/308319965/unitedhealth-to-acquire-monarch-healthcare/"
+    },
+    {
+      "authors": [
+        "Ed Stych"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.101112,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "G. Mike Mikan is stepping down as CEO of Optum, a subsidiary of UnitedHealth Group Inc. Larry Renfro has been appointed as his replacement. The change in leadership was announced on Wednesday.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118752"
+        }
+      ],
+      "time_published": "20110706T175556",
+      "title": "Mikan leaves Optum, Renfro named new CEO",
+      "topics": [
+        {
+          "relevance_score": "0.748526",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.bizjournals.com/twincities/news/2011/07/06/mikan-optum-ceo-renfro-unitedhealth.html"
+    },
+    {
+      "authors": [
+        "Hartford Business Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.31474,
+      "source": "Hartford Business Journal",
+      "source_domain": "Hartford Business Journal",
+      "summary": "UnitedHealth Group has appointed Rich Baer, former general counsel for Qwest Communications International, as its new chief legal officer and executive vice president. Baer is credited with helping restore Qwest's reputation and overseeing its $22 billion merger with CenturyLink Inc. He will be responsible for UnitedHealth's legal, regulatory, and compliance matters.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331872"
+        }
+      ],
+      "time_published": "20110602T175556",
+      "title": "UnitedHealth taps Rich Baer as chief lawyer",
+      "topics": [
+        {
+          "relevance_score": "0.916918",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.816199",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.729443",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://hartfordbusiness.com/article/unitedhealth-taps-rich-baer-as-chief-lawyer/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.17154,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Megan Colleen Manfred and Timothy John Petrella were married on Saturday evening, May 20, 2011, at Immaculate Conception Church in Sleepy Hollow, N.Y. The couple met at Princeton University, where they both graduated with honors. Megan Manfred is a law student at New York University, and Timothy Petrella is an associate vice president at Marketing Evolution.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.605329",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.160230"
+        }
+      ],
+      "time_published": "20110520T175557",
+      "title": "Megan Manfred and Timothy Petrella (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "0.615830",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/05/22/fashion/weddings/megan-manfred-timothy-petrella-weddings.html"
+    },
+    {
+      "authors": [
+        "Adam J. Fein",
+        "Ph.D."
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.312281,
+      "source": "Drug Channels",
+      "source_domain": "Drug Channels",
+      "summary": "Humana experienced significant growth in Medicare Part D enrollment in 2011, driven largely by its Humana Walmart-Preferred Rx Plan, which quickly became the fifth-largest PDP. This success highlights the effectiveness of preferred pharmacy networks and positions Humana favorably for upcoming health care reforms and exchange models. The article also touches upon the emerging trend of preferred networks being adopted by other major players like UnitedHealth, despite some controversy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496317"
+        },
+        {
+          "relevance_score": "0.923357",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412102"
+        },
+        {
+          "relevance_score": "0.747227",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125480"
+        },
+        {
+          "relevance_score": "0.610430",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128598"
+        }
+      ],
+      "time_published": "20110428T165606",
+      "title": "2011 Part D Market Share: A Win for Humana and Walmart",
+      "topics": [
+        {
+          "relevance_score": "0.929141",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.835274",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.740935",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.614796",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.drugchannels.net/2011/04/2011-part-d-market-share-win-for-humana.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.435328,
+      "source": "revolutionsoccer.net",
+      "source_domain": "revolutionsoccer.net",
+      "summary": "UnitedHealthcare and the New England Revolution have partnered to promote healthy living and combat childhood obesity and diabetes through community programs and education. The partnership will involve UnitedHealthcare's logo on the team's jerseys and initiatives like inner-city soccer clinics. Both organizations aim to make a positive impact in New England and across the country by raising awareness about healthy lifestyles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424665"
+        }
+      ],
+      "time_published": "20110422T175556",
+      "title": "UnitedHealthcare, Revolution Announce Partnership",
+      "topics": [
+        {
+          "relevance_score": "0.908170",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.721969",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.revolutionsoccer.net/news/unitedhealthcare-revolution-announce-partnership"
+    },
+    {
+      "authors": [
+        "Melanie Evans"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.119481,
+      "source": "Modern Healthcare",
+      "source_domain": "Modern Healthcare",
+      "summary": "The article reports that UnitedHealth's Ingenix division has been rebranded with a new name. This change was announced by Melanie Evans on April 11, 2011.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138198"
+        }
+      ],
+      "time_published": "20110411T050000",
+      "title": "UnitedHealth's Ingenix gets new name",
+      "topics": [
+        {
+          "relevance_score": "0.916011",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "http://www.modernhealthcare.com/article/20110411/NEWS/304119988/unitedhealth-s-ingenix-gets-new-name/"
+    },
+    {
+      "authors": [
+        "JERRY SIEBENMARK"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.11536,
+      "source": "Wichita Eagle",
+      "source_domain": "Wichita Eagle",
+      "summary": "Tampa, Fla.-based HealthPlan Services has acquired Harrington Health, a benefit administration and claims processing unit of UnitedHealth Group. The acquisition of the Wichita-based operation, which started as Dorth Coombs in the 1950s, was confirmed by Harrington Health vice president Bob Langhofer, who declined to provide further details. Local insurance brokers offered mixed reactions regarding the implications of the acquisition for the Wichita office.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.100360"
+        }
+      ],
+      "time_published": "20110329T064000",
+      "title": "Fla. company buys Harrington",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.748778",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.630811",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.kansas.com/news/business/article1058196.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.640395,
+      "source": "U.S. Department of Labor (.gov)",
+      "source_domain": "U.S. Department of Labor (.gov)",
+      "summary": "The U.S. Department of Labor recovered over $934,000 in overtime back wages for 479 UnitedHealthcare employees in Hartford, Conn., in addition to assessing more than $104,000 in civil money penalties. An investigation by the Wage and Hour Division found that UnitedHealthcare incorrectly classified these employees as exempt from the Fair Labor Standards Act, denying them proper compensation for hours worked and violating recordkeeping standards. This action highlights the Labor Department's commitment to ensuring employers properly classify workers and adhere to labor laws.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.629965"
+        }
+      ],
+      "time_published": "20110207T175556",
+      "title": "US Labor Department recovers more than $934,000 in overtime back wages for 479 employees of UnitedHealthcare in Hartford, Conn.",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.739438",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.632731",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.dol.gov/newsroom/releases/whd/whd20110207"
+    }
+  ],
+  "items": "12",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

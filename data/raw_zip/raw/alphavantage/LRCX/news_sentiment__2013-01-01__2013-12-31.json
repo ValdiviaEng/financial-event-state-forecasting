@@ -1,0 +1,115 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.498367,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "ASML's customers are intensifying their development efforts in extreme ultraviolet (EUV) lithography, with CEO Eric Meurice expressing confidence in its capabilities for the 10 nm node. The company's acquisition of Cymer has significantly advanced light source development, enabling routine production at 40 wafers per hour. ASML projects increased wafer per hour throughput and expects higher tool shipments, anticipating significant revenue contribution from EUV tools and overall sales growth, driven by key technology nodes and the mobile DRAM market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.930414",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.723262"
+        },
+        {
+          "relevance_score": "0.613886",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418311"
+        },
+        {
+          "relevance_score": "0.627836",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423351"
+        },
+        {
+          "relevance_score": "0.612445",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418837"
+        }
+      ],
+      "time_published": "20130717T120632",
+      "title": "ASML customers \u2018intensify\u2019 EUV development",
+      "topics": [
+        {
+          "relevance_score": "0.943283",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.849025",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738741",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://optics.org/news/4/7/25"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.104009,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "Eric Meurice, CEO of ASML for over eight years, is stepping down in July to become chairman of ASML Holdings, with current CFO Peter Wennink taking over as CEO. The transition comes as ASML nears the completion of its merger with Cymer and continues to make progress in its extreme ultraviolet (EUV) production tools, despite facing some delays. Meurice's tenure saw significant growth in ASML's sales and net profit, and the company expects continued progress in EUV lithography with rising unit shipments in the coming years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148957"
+        },
+        {
+          "relevance_score": "0.593561",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130115"
+        },
+        {
+          "relevance_score": "0.586932",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134849"
+        }
+      ],
+      "time_published": "20130417T120632",
+      "title": "ASML chief Meurice steps down",
+      "topics": [
+        {
+          "relevance_score": "0.928687",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.824763",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.813688",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.705119",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.628200",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://optics.org/news/4/4/24"
+    }
+  ],
+  "items": "2",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

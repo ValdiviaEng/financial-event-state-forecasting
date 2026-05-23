@@ -1,0 +1,57 @@
+{
+  "artifact_schema_version": "stage6_evaluation_config_v1",
+  "metric_policy": {
+    "primary_regression_metrics": ["rmse", "mae", "r2_oos", "mean_loss_difference_vs_market_hurdle"],
+    "r2_baseline_model_id": "market_zero_excess_return",
+    "market_hurdle_policy": "per_horizon_best_market_only_by_validation_rmse_then_mae",
+    "market_hurdle_candidates": [
+      "market_zero_excess_return",
+      "market_train_mean",
+      "market_ridge",
+      "market_elastic_net",
+      "market_random_forest",
+      "market_hist_gradient_boosting",
+      "market_mlp"
+    ],
+    "event_state_model_id": "event_state_gated_fusion"
+  },
+  "ranking_diagnostics": {
+    "secondary_diagnostics": ["spearman_rank_ic", "kendall_rank_correlation", "directional_hit_rate", "top_minus_bottom_spread"],
+    "minimum_cross_section": 20,
+    "top_bottom_fraction": 0.2,
+    "ranking_is_primary": false
+  },
+  "paired_comparison_policy": {
+    "policy_id": "loss_delta_summary_no_p_values",
+    "report_standard_error": true,
+    "report_positive_row_rate": true,
+    "p_values_reported": false
+  },
+  "result_classification": {
+    "policy_id": "short_horizon_primary_3_v1",
+    "primary_horizons": ["1d", "5d", "10d"],
+    "reported_horizons": ["1d", "5d", "10d", "20d", "60d"],
+    "robust_positive_min_primary_horizons": 2,
+    "conditional_positive_min_primary_horizons": 1,
+    "required_primary_metrics_for_horizon_improvement": ["mean_squared_loss_diff", "mean_absolute_loss_diff"],
+    "all_horizons_must_still_be_reported": true
+  },
+  "lockbox_policy": {
+    "policy_id": "final_reporting_read_once_v1",
+    "compute_lockbox_metrics": true,
+    "use_lockbox_in_result_class": true,
+    "lockbox_tuning_allowed": false
+  },
+  "diagnostic_policy": {
+    "train_validation_gap_policy": "explicitly_block_if_train_predictions_absent",
+    "fold_dispersion_metrics": ["rmse", "mae", "r2_oos", "mean_squared_loss_diff", "mean_absolute_loss_diff"],
+    "positive_rate_model_id": "event_state_gated_fusion",
+    "multiple_comparison_note_required": true,
+    "search_space_summary_required": true
+  },
+  "claim_policy": {
+    "benchmark_claim_requires_full_serious_packet": true,
+    "sentiment_string_analysis_in_scope": false,
+    "direct_string_sentiment_requires_new_stage3_stage5_branch": true
+  }
+}

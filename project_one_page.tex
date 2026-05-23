@@ -1,0 +1,24 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Event-State Forecasting of Excess Stock Returns with Market Data and Financial News}}\\[0.5em]
+\end{center}
+
+\textbf{Abstract}\\
+This project studies whether a leakage-safe event state built from aligned firm-level financial news improves prediction of future excess stock returns beyond strong market-only baselines. The benchmark will use a reproducible top-50 large-cap U.S. equity universe, daily OHLCV market data, and news aligned by a same-day as-of-close rule. The main targets are forward excess returns over 1, 5, 10, 20, and 60 trading days. News will be represented with pooled dense embeddings plus simple scalar indicators, then combined with market features in a gated multimodal model. Evaluation will use purged and embargoed walk-forward validation with a final untouched lockbox. The goal is not to build a trading bot, but to produce a benchmark-clean answer to whether recent news-derived event states add incremental predictive value over market-only forecasting models.
+
+\textbf{Dataset}\\
+Primary financial news dataset: Alpha Vantage NEWS\_SENTIMENT API\\
+\url{https://www.alphavantage.co/documentation/#news-sentiment}
+
+\vspace{0.2em}
+Supporting daily market data source: Twelve Data time series API\\
+\url{https://twelvedata.com/docs#time-series}
+
+\end{document}

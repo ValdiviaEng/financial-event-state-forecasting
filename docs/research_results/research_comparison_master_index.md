@@ -29,6 +29,16 @@ Category-specific addenda
 - `docs/research_results/research_comparison_addendum_repo_fit_and_modularity.md`
   Detailed repository-fit and modularity comparison.
 
+Stage-specific research memos
+- `docs/research_results/stage7a_contextual_bandit_feasibility_2026-05-22.md`
+  Research-only contextual-bandit feasibility memo for historical daily replay ideas after Stage 6. It does not approve or implement Stage 7B/7C.
+- `docs/research_results/stage7b_contextual_bandit_decision_draft_2026-05-22.md`
+  Draft-only contextual-bandit decision matrix and pending decision bundle after Stage 7A. It records pending/unanswered decision options and does not approve Stage 7C or implementation.
+- `docs/research_results/stage10a_update_to_prediction_workflow_2026-05-22.md`
+  Research-only update-to-prediction and visualization workflow memo after Stage 9. It proposes future local artifact and Stage 10B decision topics but does not implement prediction outputs, visualization artifacts, provider calls, or service/API scope.
+- `docs/research_results/stage10b_update_to_prediction_decision_matrix_2026-05-23.md`
+  Decision-comparison and approval-capture memo after Stage 10A. It records recommended Stage 10C choices and answered `S10B-DQ-001` through `S10B-DQ-010` decisions but does not implement prediction outputs, visualization artifacts, provider calls, persisted inference packaging, or service/API scope.
+
 Logs
 - `docs/research_results/logs/research_comparison_log1.md`
 - `docs/research_results/logs/research_comparison_log2.md`

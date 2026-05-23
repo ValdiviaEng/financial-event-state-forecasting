@@ -1,0 +1,101 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Andrew L. Wang"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.181354,
+      "source": "Crain's Chicago Business",
+      "source_domain": "Crain's Chicago Business",
+      "summary": "Baxter International Inc.'s CEO, Robert Parkinson Jr., netted over $14.1 million in October 2011 by exercising stock options awarded in 2004 and selling shares. This transaction increased his company holdings and significantly exceeded his 2010 compensation and the company's executive stock ownership guidelines. The stock sales occurred under a pre-determined trading plan during a period when Baxter's stock was trading above $55 a share.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.930671",
+          "ticker": "BAX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107334"
+        },
+        {
+          "relevance_score": "0.638215",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204379"
+        }
+      ],
+      "time_published": "20111108T060000",
+      "title": "Baxter CEO Parkinson cashes in options, nets $14.1 million",
+      "topics": [
+        {
+          "relevance_score": "0.933483",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.802769",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.740721",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.624960",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.chicagobusiness.com/article/20111108/NEWS03/111109765/baxter-ceo-parkinson-cashes-in-options-nets-14-1-million"
+    },
+    {
+      "authors": [
+        "Matthew Perrone"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.334049,
+      "source": "Press Enterprise",
+      "source_domain": "Press Enterprise",
+      "summary": "Abbott Laboratories announced its plan to split into two separate companies: one focused on branded pharmaceuticals and the other on diversified medical products including nutritional formula, generic drugs, and medical implants. This strategic move aims to provide clearer investment options and distinct identities for both entities, addressing Abbott's reliance on blockbuster drugs like Humira facing patent expiration. The split will see a new pharma company led by Richard Gonzalez and the existing Abbott retaining the medical products business under CEO Miles White.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321570"
+        },
+        {
+          "relevance_score": "0.714817",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311246"
+        }
+      ],
+      "time_published": "20111020T121100",
+      "title": "INDUSTRY: Abbott Labs plans to split in 2",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.943137",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.828734",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.740129",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.pressenterprise.com/2011/10/20/industry-abbott-labs-plans-to-split-in-2/"
+    }
+  ],
+  "items": "2",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

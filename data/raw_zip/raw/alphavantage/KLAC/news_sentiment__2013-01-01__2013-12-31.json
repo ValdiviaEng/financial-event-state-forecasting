@@ -1,0 +1,60 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.483904,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "ASML's customers are intensifying their development efforts in extreme ultraviolet (EUV) lithography, with CEO Eric Meurice expressing confidence in its capabilities for the 10 nm node. The company's acquisition of Cymer has significantly advanced light source development, enabling routine production at 40 wafers per hour. ASML projects increased wafer per hour throughput and expects higher tool shipments, anticipating significant revenue contribution from EUV tools and overall sales growth, driven by key technology nodes and the mobile DRAM market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.918215",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.730262"
+        },
+        {
+          "relevance_score": "0.610866",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441649"
+        },
+        {
+          "relevance_score": "0.612692",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418337"
+        },
+        {
+          "relevance_score": "0.601446",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.449547"
+        }
+      ],
+      "time_published": "20130717T120632",
+      "title": "ASML customers \u2018intensify\u2019 EUV development",
+      "topics": [
+        {
+          "relevance_score": "0.913701",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.823826",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.712651",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://optics.org/news/4/7/25"
+    }
+  ],
+  "items": "1",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -695,6 +695,55 @@ The agent must stop and request explicit user approval before:
 
 The exact approval request structure must follow `docs/agent/AgentTemplates.md`.
 
+### 9.1 Decision-option presentation requirements
+
+When an approval gate requires the user to choose between serious design, scope,
+provider, benchmark, or methodology paths, the approval request must include a
+decision-option comparison matrix.
+
+Default rule:
+
+- present at least 3 options
+- if fewer than 3 credible options exist without fabrication, state that
+  explicitly and explain why a third credible option does not exist
+- keep the comparison concise, factual, and decision-oriented
+
+The matrix must include these 6 mandatory scored categories:
+
+- Accuracy
+- Complexity
+- Compute Intensity
+- Security
+- Compatibility
+- Governance
+
+Scoring rules:
+
+- use an explicit numeric scale from 0 to 10
+- score options relatively and as unbiasedly as possible
+- higher is better for all categories
+- Complexity score means lower implementation burden and lower conceptual
+  complexity when higher
+- Compute Intensity score means lighter compute or operational burden when
+  higher
+- Compatibility score means stronger alignment with current approved
+  definitions, decisions, benchmark constraints, and source-of-truth layers
+  when higher
+- Governance score means stronger auditability, data/process governance,
+  approval safety, and benchmark-discipline fit when higher
+
+In addition to the 6 mandatory categories, the matrix must include exactly 4
+context-specific scored categories chosen for that decision context.
+
+Each option must also include:
+
+- a brief explanation
+- main pros
+- main cons
+
+If confidence is materially limited by missing evidence, stale research, or
+uncertain provider behavior, that limitation must be stated explicitly.
+
 ---
 
 ## 10. Benchmark Invalidation and Comparability Rules

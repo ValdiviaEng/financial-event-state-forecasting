@@ -1,0 +1,952 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Neel Mehta"
+      ],
+      "banner_image": "https://executivebiz-media.s3.amazonaws.com/2022/08/19/30/9f/c3/a0/b7/6f/d4/64/Executive-Biz.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.107646,
+      "source": "ExecutiveBiz",
+      "source_domain": "ExecutiveBiz",
+      "summary": "This article profiles David Gore, NSA BD and Strategy Director at Raytheon. It details his extensive career trajectory, highlighting his roles at Raytheon, SAIC, L-3 Communications, Keane Federal Systems, Titan Systems Corp, NSA, AT&T, PwC, IBM, and Quantum Photonics. The profile also lists his educational background, which includes degrees from the University of Pittsburgh, Johns Hopkins University, and the University of Maryland.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SAIC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115002"
+        },
+        {
+          "relevance_score": "0.895630",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211031"
+        },
+        {
+          "relevance_score": "0.702363",
+          "ticker": "LHX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114193"
+        },
+        {
+          "relevance_score": "0.619973",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.082632"
+        },
+        {
+          "relevance_score": "0.562405",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.094906"
+        }
+      ],
+      "time_published": "20141030T120000",
+      "title": "Executive Profile: David Gore, NSA BD and Strategy Director at Raytheon",
+      "topics": [
+        {
+          "relevance_score": "0.807494",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.executivebiz.com/articles/executive-profile-david-gore-nsa-bd-and-strategy-director-at-raytheon"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.365272,
+      "source": "Army Technology",
+      "source_domain": "Army Technology",
+      "summary": "This article ranks the top 10 aerospace and defense companies based on revenue generated in the first half of 2014. Boeing leads the list with $42.5 billion, followed by Airbus Group and Lockheed Martin, highlighting the key players and their financial performance in the industry for that period. The article also details the core businesses and major products of each featured company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419041"
+        },
+        {
+          "relevance_score": "0.934765",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321906"
+        },
+        {
+          "relevance_score": "0.816089",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325217"
+        },
+        {
+          "relevance_score": "0.712176",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323665"
+        },
+        {
+          "relevance_score": "0.610088",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330016"
+        }
+      ],
+      "time_published": "20140928T100629",
+      "title": "The Top 10 Aerospace and Defence Companies in 2014",
+      "topics": [
+        {
+          "relevance_score": "0.912849",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.729115",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.army-technology.com/features/featurethe-top-10-aerospace-and-defence-companies-in-2014-4386382/"
+    },
+    {
+      "authors": [
+        "Rick Barrett"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.256698,
+      "source": "Milwaukee Journal Sentinel",
+      "source_domain": "Milwaukee Journal Sentinel",
+      "summary": "Oshkosh Corp.'s prototype Joint Light Tactical Vehicle (JLTV) has completed a key Defense Department review, advancing its bid for a $31 billion military contract to replace Humvees. The company is competing against Lockheed Martin and AM General in what analysts describe as an intense \"knife fight\" for the largest pending contract for military vehicles. Oshkosh emphasizes its proven track record in cost-effectively building military trucks and its continuous production line as a significant advantage.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.941971",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010423"
+        },
+        {
+          "relevance_score": "0.800471",
+          "ticker": "TXT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327446"
+        },
+        {
+          "relevance_score": "0.642296",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324941"
+        },
+        {
+          "relevance_score": "0.587203",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327637"
+        }
+      ],
+      "time_published": "20140922T110117",
+      "title": "Oshkosh Corp. advances in military contractors' 'knife fight'",
+      "topics": [
+        {
+          "relevance_score": "0.917304",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.726535",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://archive.jsonline.com/business/oshkosh-prototype-vehicle-completes-defense-department-review-b99356360z1-275991501.html"
+    },
+    {
+      "authors": [
+        "Bertrand Marotte"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.246269,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Republic Airways Holdings Inc. is purchasing 50 of Embraer SA's E175 regional jets for $2.1-billion, deepening Embraer's competition with Bombardier Inc. This move casts further doubt on Republic's existing order for 40 Bombardier C Series planes, prompting speculation about the future of Bombardier's C Series program which is already facing delays and cost overruns. Embraer's success with its new E-jets is challenging Bombardier's market share and threatening directly against the C Series.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ERJ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419232"
+        },
+        {
+          "relevance_score": "0.717133",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118853"
+        },
+        {
+          "relevance_score": "0.643661",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107766"
+        }
+      ],
+      "time_published": "20140917T103200",
+      "title": "Embraer pushes deeper into Bombardier territory with Republic Airways deal",
+      "topics": [
+        {
+          "relevance_score": "0.919558",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.822090",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.602654",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/international-business/latin-american-business/embraer-pushes-deeper-into-bombardier-territory-with-republic-airways-deal/article20637065/"
+    },
+    {
+      "authors": [
+        "Sikorsky and Bristow Press Release"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.202751,
+      "source": "Vertical Mag",
+      "source_domain": "Vertical Mag",
+      "summary": "Sikorsky has delivered the first S-92 helicopter to Bristow Helicopters for the United Kingdom\u2019s search-and-rescue (SAR) service, a contract awarded in March 2013 set to begin in April 2015 and run until 2026. Bristow's U.K. SAR fleet will include 11 state-of-the-art Sikorsky S-92s, operating from 10 bases across the U.K. This delivery marks a continuation of a 40-year relationship between Sikorsky and Bristow, with Bristow having a long history of providing SAR services in the U.K.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.337723",
+          "ticker": "VTOL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026555"
+        },
+        {
+          "relevance_score": "0.744049",
+          "ticker": "TXT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304804"
+        },
+        {
+          "relevance_score": "0.622823",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349360"
+        }
+      ],
+      "time_published": "20140909T115140",
+      "title": "U.K. search-and-rescue Sikorsky S-92 enters service with Bristow Group",
+      "topics": [
+        {
+          "relevance_score": "0.929918",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.725693",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://verticalmag.com/press-releases/uksearchandrescuesikorskys92entersservicewithbristowgroup/"
+    },
+    {
+      "authors": [
+        "Edward Lundquist"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.136631,
+      "source": "Marine Link",
+      "source_domain": "Marine Link",
+      "summary": "BAE Systems Ship Repair is strategically positioned with facilities in Jacksonville and Mobile, allowing it to leverage its location, infrastructure, and skilled workforce for both naval and commercial shipbuilding. The company, led by Richard McCreary, focuses on maintenance, repair, overhaul, conversion, and new construction projects, particularly in the Gulf of Mexico, maintaining a competitive edge through its robust financial security and ability to handle large-scale programs. BAE Systems also emphasizes workforce development through training programs to address skill gaps, particularly in roles like welding, ensuring consistent employment and high-quality output.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.825134",
+          "ticker": "OII",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270336"
+        },
+        {
+          "relevance_score": "0.624548",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117421"
+        },
+        {
+          "relevance_score": "0.621225",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127542"
+        },
+        {
+          "relevance_score": "0.605530",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142607"
+        },
+        {
+          "relevance_score": "0.638569",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113018"
+        }
+      ],
+      "time_published": "20140908T111603",
+      "title": "BAE Systems Ship Repair: Leveraging Location, Infrastructure & Workforce",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.926903",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.610845",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marinelink.com/news/infrastructure-leveraging376616"
+    },
+    {
+      "authors": [
+        "Jerry Siebenmark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.059892,
+      "source": "Wichita Eagle",
+      "source_domain": "Wichita Eagle",
+      "summary": "This article traces the history of Hawker Beechcraft, starting from Walter and Olive Ann Beech founding Beech Aircraft Company in 1932. It covers the company's growth through WWII, Olive Ann Beech's leadership, acquisition by Raytheon, and challenges faced with innovative but problematic aircraft like the Starship and Premiere I. The narrative concludes with Jim Schuster's turnaround efforts and the company's eventual sale to private equity firms amid a recession.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.620169",
+          "ticker": "CW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130569"
+        },
+        {
+          "relevance_score": "0.857126",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139342"
+        },
+        {
+          "relevance_score": "0.647965",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116407"
+        },
+        {
+          "relevance_score": "0.560432",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137691"
+        }
+      ],
+      "time_published": "20140808T101000",
+      "title": "A look at Hawker Beechcraft through the years",
+      "topics": [
+        {
+          "relevance_score": "0.944426",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.840300",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.601207",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.kansas.com/news/business/aviation/article1091528.html"
+    },
+    {
+      "authors": [
+        "Neel Mehta"
+      ],
+      "banner_image": "https://executivebiz-media.s3.amazonaws.com/2022/08/19/30/9f/c3/a0/b7/6f/d4/64/Executive-Biz.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.361075,
+      "source": "ExecutiveBiz",
+      "source_domain": "ExecutiveBiz",
+      "summary": "Tracy Atkinson, executive vice president of finance at State Street Corp., has been elected to join the Raytheon board of directors. Raytheon Chairman William Swanson stated that Atkinson brings valuable financial management skills and international business experience to the company's board. Atkinson's background includes roles at State Street, PricewaterhouseCoopers, and MFS Investment Management.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "STT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430294"
+        },
+        {
+          "relevance_score": "0.738721",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320589"
+        }
+      ],
+      "time_published": "20140730T000000",
+      "title": "Financial Services Vet Tracy Atkinson Joins Raytheon\u2019s Board: William Swanson Comments",
+      "topics": [
+        {
+          "relevance_score": "0.807687",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.executivebiz.com/articles/financial-services-vet-tracy-atkinson-joins-raytheons-board-william-swanson-comments"
+    },
+    {
+      "authors": [
+        "Jerry Underwood"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.272386,
+      "source": "Alabama Department of Commerce",
+      "source_domain": "Alabama Department of Commerce",
+      "summary": "Boeing is establishing a new research and development center in Huntsville, Alabama, focusing on simulation analytics, metals, and chemical technology. This center, an investment of $5 million to $6 million, is crucial for Boeing's competitiveness and future growth, creating 300 to 400 high-paying jobs. The move highlights Alabama's push for research-related jobs in the aerospace sector, with other companies like GKN and GE Aviation also expanding their R&D presence in the state.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435282"
+        },
+        {
+          "relevance_score": "0.638946",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239101"
+        },
+        {
+          "relevance_score": "0.641569",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248311"
+        },
+        {
+          "relevance_score": "0.604841",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.246679"
+        }
+      ],
+      "time_published": "20140716T100628",
+      "title": "Boeing Alabama research center to bring new innovation",
+      "topics": [
+        {
+          "relevance_score": "0.917545",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.832137",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.723268",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732871",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.madeinalabama.com/2014/07/boeing-alabama-research-center-bring-new-innovation/"
+    },
+    {
+      "authors": [
+        "Thomson Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.238298,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "The entire fleet of 97 Lockheed Martin F-35 fighter jets in the U.S. has been grounded pending additional inspections of their Pratt & Whitney engines following a June 23 engine fire during a takeoff attempt in Florida. The incident, which caused significant damage to the aircraft but left the pilot uninjured, is currently under investigation, with officials yet to determine the cause. This grounding impacts future flight tests, training, and operations, and has already affected planned participation in UK air shows.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.320669"
+        },
+        {
+          "relevance_score": "0.814590",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.228707"
+        },
+        {
+          "relevance_score": "0.613947",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115310"
+        }
+      ],
+      "time_published": "20140703T224100",
+      "title": "F-35 fighter jets grounded in U.S. until engine inspections complete",
+      "topics": [
+        {
+          "relevance_score": "0.913713",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/world/f-35-fighter-jets-grounded-in-u-s-until-engine-inspections-complete-1.2696032"
+    },
+    {
+      "authors": [
+        "Dave Majumdar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.453945,
+      "source": "USNI News",
+      "source_domain": "USNI News",
+      "summary": "The U.S. Navy and Air Force are developing adaptive-cycle jet engines for their sixth-generation fighters, like the F/A-XX and F-X programs. These engines, being developed by companies such as Pratt & Whitney and General Electric, are designed for extreme efficiency, speed, and range by varying their bypass ratios. This advanced propulsion technology is critical for the future aircraft, with development efforts like ADVENT and AETD aiming for high technological maturity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.959082",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.729381"
+        },
+        {
+          "relevance_score": "0.817057",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.603258"
+        },
+        {
+          "relevance_score": "0.716212",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411694"
+        },
+        {
+          "relevance_score": "0.635772",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341272"
+        },
+        {
+          "relevance_score": "0.583487",
+          "ticker": "HII",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220162"
+        }
+      ],
+      "time_published": "20140623T105100",
+      "title": "Next Generation Engine Work Points to Future U.S. Fighter Designs",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.usni.org/2014/06/23/next-generation-engine-work-points-future-u-s-fighter-designs"
+    },
+    {
+      "authors": [
+        "Danny English"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.378458,
+      "source": "Aerospace Manufacturing and Design",
+      "source_domain": "Aerospace Manufacturing and Design",
+      "summary": "This article details how Flow International Corp.'s composites machining center (CMC) achieves high-accuracy machining of composite wing skins, particularly for large monolithic parts. A key innovation is the use of Renishaw\u2019s HS10/HS20 laser encoders and companion RCU10 real-time compensation unit, which provide part-per-million positioning accuracy, addressing the challenges of traditional tape scales on long axes and the need for precision in aerospace manufacturing. The article also highlights the benefits of waterjet cutting for composites and the importance of part probing for expensive, complex components.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IFLO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400609"
+        },
+        {
+          "relevance_score": "0.641111",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310572"
+        }
+      ],
+      "time_published": "20140612T105116",
+      "title": "High-accuracy machining of composite wing skins",
+      "topics": [
+        {
+          "relevance_score": "0.931244",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.823151",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.aerospacemanufacturinganddesign.com/article/amd0614-high-accuracy-laser-encoders/"
+    },
+    {
+      "authors": [
+        "Sydney J. Freedberg Jr."
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.238567,
+      "source": "Breaking Defense",
+      "source_domain": "Breaking Defense",
+      "summary": "General Dynamics announced its withdrawal from the Army's Armored Multi-Purpose Vehicle (AMPV) program, citing that the bid requirements were unfairly tilted towards competitor BAE Systems. Despite past protests, General Dynamics will not pursue legal action, leaving BAE Systems as the unchallenged bidder for the program. The decision significantly increases the likelihood that the Army's aging M113s will be replaced by a turretless variant of BAE's Bradley, unless Congress intervenes or the program faces cancellation due to budget cuts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.601851"
+        },
+        {
+          "relevance_score": "0.882325",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.738708"
+        },
+        {
+          "relevance_score": "0.745329",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402778"
+        },
+        {
+          "relevance_score": "0.628949",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321904"
+        }
+      ],
+      "time_published": "20140528T160900",
+      "title": "BAE Bids, General Dynamics Drops Out Of Army\u2019s Biggest Vehicle Program, AMPV",
+      "topics": [
+        {
+          "relevance_score": "0.843168",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.628665",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://breakingdefense.com/2014/05/ampv-bae-bids-general-dynamics-drops-out-of-armys-biggest-vehicle-program/"
+    },
+    {
+      "authors": [
+        "Nicola Clark and David Jolly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.228585,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "General Electric is citing its successful 40-year joint venture with Snecma, CFM International, as a model for cooperation to persuade the French government to approve its $13.5 billion takeover offer for Alstom\u2019s power generation and transmission business. CFM, which builds best-selling aircraft engines, demonstrates GE's ability to work with France, despite initial political hurdles and skepticism. The strong performance and simple structure of CFM are highlighted as reasons for its enduring success.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335131"
+        },
+        {
+          "relevance_score": "0.703915",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345835"
+        },
+        {
+          "relevance_score": "0.645999",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200880"
+        },
+        {
+          "relevance_score": "0.560130",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105347"
+        }
+      ],
+      "time_published": "20140523T104127",
+      "title": "Exhibit A in G.E.\u2019s Case for Alstom Deal (Published 2014)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.940991",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.819295",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.nytimes.com/2014/05/26/business/international/general-electric-joint-venture-in-france.html"
+    },
+    {
+      "authors": [
+        "Dan Caplinger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.076708,
+      "source": "The Motley Fool",
+      "source_domain": "The Motley Fool",
+      "summary": "Ballard Power Systems is set to release its quarterly report, with investors hopeful for continued growth in the fuel-cell sector, following renewed interest and strong performance from partner Plug Power. Despite past challenges and potential shifts in its partnership with Plug Power, Ballard is diversifying its technology and customer base, including a recent deal with United Technologies to boost licensing revenue and expand into new technological opportunities. The upcoming earnings report will be crucial in demonstrating the fuel-cell industry's sustainable growth trajectory to investors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BLDP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.284697"
+        },
+        {
+          "relevance_score": "0.615027",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.211761"
+        },
+        {
+          "relevance_score": "0.584627",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111345"
+        }
+      ],
+      "time_published": "20140426T132500",
+      "title": "Ballard Power Systems Inc. (USA) Earnings: Will Fuel Cells Power Up?",
+      "topics": [
+        {
+          "relevance_score": "0.904763",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.816277",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.710325",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.710121",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.fool.com/investing/general/2014/04/26/ballard-power-systems-inc-usa-earnings-will-fuel-c.aspx"
+    },
+    {
+      "authors": [
+        "staff-author"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.010774,
+      "source": "Los Angeles Business Journal",
+      "source_domain": "Los Angeles Business Journal",
+      "summary": "Astrophysics Inc., a relatively small X-ray security system maker, is challenging larger competitors by setting an ambitious goal of 50% sales growth this year, aiming for 2,000 X-ray machines produced. The company, which specializes in airport, port, and border security devices, has seen consistent 30% revenue growth over the past four years due to increasing global security demands and plans to become the number one provider worldwide within three to five years. Astrophysics's success is attributed to its advanced imaging technology, responsiveness to custom orders, and the flexibility derived from being closely held, allowing it to prioritize long-term growth over short-term quarterly profits.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.932613",
+          "ticker": "OSIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134400"
+        },
+        {
+          "relevance_score": "0.603137",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115997"
+        }
+      ],
+      "time_published": "20140406T111618",
+      "title": "Security System Maker Risks Taking on Big Guys",
+      "topics": [
+        {
+          "relevance_score": "0.909619",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.817874",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://labusinessjournal.com/technology/security-system-maker-risks-taking-big-guys/"
+    },
+    {
+      "authors": [
+        "IAN McPHEDRAN"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.107075,
+      "source": "The Weekly Times",
+      "source_domain": "The Weekly Times",
+      "summary": "A government audit found that Australia's $8.5 billion project to build three hi-tech navy warships is a \"multi-tiered debacle,\" running two years late and $302 million over budget. The report criticizes the management of the Air Warfare Destroyer Alliance, the substantial premium paid for local construction, and highlights issues such as defective Chinese-made pipes and a lack of Australian industry capability for such a complex project. This raises questions about the future of government ownership of the ASC shipyard and the Australian naval shipbuilding industry as a whole.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.604723",
+          "ticker": "NWSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012893"
+        },
+        {
+          "relevance_score": "0.815714",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.225807"
+        }
+      ],
+      "time_published": "20140306T220800",
+      "title": "No defence for $8.5bn debacle",
+      "topics": [
+        {
+          "relevance_score": "0.916281",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.706663",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.625605",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.weeklytimesnow.com.au/news/national/navy-warships-project-heading-for-cost-blowout/news-story/7345574d47d31275537750f4bddf9237"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.115164,
+      "source": "gCaptain",
+      "source_domain": "gCaptain",
+      "summary": "Brazil's Vale SA is launching the first phase of its iron ore storage and distribution center in Malaysia in March to improve its access to China, its largest customer. This move is a strategic response to China's ban on Vale's massive Valemax vessels from directly docking at its ports, aiming to better compete with Australian rivals Rio Tinto and BHP Billiton. The Malaysian hub, alongside a floating terminal in the Philippines, will allow Vale to maximize the use of its Valemax ships and bring larger quantities of ore closer to Chinese ports, despite new Chinese restrictions on ship sizes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VALE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.127069"
+        },
+        {
+          "relevance_score": "0.640784",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130108"
+        }
+      ],
+      "time_published": "20140225T114643",
+      "title": "Vale Creeping on Australia\u2019s Turf as First Giant Ore Carrier Heads to Malaysia",
+      "topics": [
+        {
+          "relevance_score": "0.909633",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.748666",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.632400",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://gcaptain.com/vale-malaysia-iron-ore-discharge/"
+    },
+    {
+      "authors": [
+        "Bruce Rogers"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.156253,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "This article profiles Mark Aslett, CEO of Mercury Systems, detailing his journey from a ship welder to leading a major military defense company. It covers his critical role in turning around Mercury Systems by refocusing its business, selling off non-core units, and investing heavily in new technologies to achieve significant growth despite challenging market conditions. Aslett's unique background provides him with a valuable perspective, enabling him to navigate the complexities of the defense industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.965645",
+          "ticker": "MRCY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.252052"
+        },
+        {
+          "relevance_score": "0.603500",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114403"
+        },
+        {
+          "relevance_score": "0.625441",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129182"
+        },
+        {
+          "relevance_score": "0.642084",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113845"
+        },
+        {
+          "relevance_score": "0.583728",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140513"
+        }
+      ],
+      "time_published": "20140106T162100",
+      "title": "From Ship Welder to Military Defense Company CEO: Mercury Systems' Mark Aslett",
+      "topics": [
+        {
+          "relevance_score": "0.803349",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.635599",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.724061",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.839989",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/brucerogers/2014/01/06/from-ship-welder-to-military-defense-company-ceo-mercury-systems-mark-aslett/"
+    }
+  ],
+  "items": "19",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

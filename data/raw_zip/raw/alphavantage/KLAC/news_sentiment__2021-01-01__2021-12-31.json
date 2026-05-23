@@ -1,0 +1,1562 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Chen Cheng-hui"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2021/12/31/P12-211231-001.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.048648,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "Memorychip tester and packager Powertech Technology Inc (PTI) announced that strict COVID-19 control measures in Xian, China, are disrupting production at its subsidiary Powertech Semiconductor (Xian) Co, which is operating at 40-50% capacity. While the company expects limited short-term impact on revenue, longer-term effects depend on local government actions. Micron Technology Inc and Samsung Electronics Co are also experiencing disruptions at their Xian facilities due to the lockdown.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.961629",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.258901"
+        },
+        {
+          "relevance_score": "0.610484",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.085599"
+        },
+        {
+          "relevance_score": "0.591798",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.068211"
+        },
+        {
+          "relevance_score": "0.565703",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.081519"
+        }
+      ],
+      "time_published": "20211231T163008",
+      "title": "Xian outbreak affects Powertech output",
+      "topics": [
+        {
+          "relevance_score": "0.902084",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.836937",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.643283",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2021/12/31/2003770452"
+    },
+    {
+      "authors": [
+        "Heekyong Yang and Sophie Yu"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/IIGX3M5SBZITHMS3M7MRU3LGHM.jpg?auth=94d71bdc80c8620762fbd24bbe50647cb23dd271b900a3dd6de10be704941808&width=1920&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.212978,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "SK Hynix Inc has received Chinese antitrust approval for its $9 billion acquisition of Intel Corp's NAND memory chip business. The approval comes with conditions aimed at maintaining competition in China's solid-state drive markets, including requirements for SK Hynix to supply products at reasonable prices and expand output. This deal is crucial for SK Hynix to enhance its competitiveness in NAND Flash and SSD businesses and to narrow the gap with market leader Samsung.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424113"
+        },
+        {
+          "relevance_score": "0.822527",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234172"
+        },
+        {
+          "relevance_score": "0.626352",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106145"
+        },
+        {
+          "relevance_score": "0.641547",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137646"
+        },
+        {
+          "relevance_score": "0.644405",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149454"
+        }
+      ],
+      "time_published": "20211222T104100",
+      "title": "SK Hynix's Intel NAND business takeover wins China approval with conditions",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.921330",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/markets/deals/sk-hynix-gets-china-approval-takeover-intels-nand-business-2021-12-22/"
+    },
+    {
+      "authors": [
+        "Staff reporter"
+      ],
+      "banner_image": "https://www.digitimes.com/newsshow/20211213pr200_files/9_b.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.306198,
+      "source": "digitimes",
+      "source_domain": "digitimes",
+      "summary": "Synopsys is addressing the slowing pace of Moore's Law and rising chip development costs with its \"SysMoore\" strategy, which leverages AI-powered Electronic Design Automation (EDA) software. This innovation, spearheaded by tools like DSO.ai, aims to optimize chip design for performance, power, and area, accelerating the development of complex System-on-Chips (SoCs) and ultimately pushing semiconductor evolution beyond traditional hardware scaling. According to Synopsys President and COO Sassine Ghazi, this approach helps clients succeed by making chip design more efficient and reliable.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SNPS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.498300"
+        },
+        {
+          "relevance_score": "0.645138",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266788"
+        },
+        {
+          "relevance_score": "0.591430",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207982"
+        }
+      ],
+      "time_published": "20211215T164123",
+      "title": "Synopsys turns a new page in Moore's Law with software innovation",
+      "topics": [
+        {
+          "relevance_score": "0.909079",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.digitimes.com/news/a20211213PR200.html&chid=9"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.37409,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Lam Research has announced Syndion GP, a new product designed to provide deep silicon etch capabilities for chipmakers developing advanced power devices and power management integrated circuits. This solution addresses the increasing demand for higher power and improved performance in automotive, electric power delivery, and energy industries, particularly supporting the transition to 300 mm wafers for increased production capacity. Syndion GP builds on Lam's existing deep silicon etch expertise, expanding its portfolio for specialty technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.614251"
+        },
+        {
+          "relevance_score": "0.627499",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.203261"
+        },
+        {
+          "relevance_score": "0.588696",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.181436"
+        }
+      ],
+      "time_published": "20211207T093000",
+      "title": "Lam Research Unveils Syndion GP to Help Chipmakers Meet Demand for Advanced Power Devices",
+      "topics": [
+        {
+          "relevance_score": "0.821322",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2021/12/07/2347560/0/en/Lam-Research-Unveils-Syndion-GP-to-Help-Chipmakers-Meet-Demand-for-Advanced-Power-Devices.html"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://img.trendforce.com/EDM/2021/11/20211130_163643_1202_sr-3q21\u6676\u5713\u4ee3\u5de5\u7522\u503c.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.284972,
+      "source": "TrendForce",
+      "source_domain": "TrendForce",
+      "summary": "According to TrendForce, the total foundry revenue for 3Q21 increased by 11.8% quarter-over-quarter to a record high of US$27.28 billion, driven by strong demand from the traditional peak season for smartphones, ongoing inventory building by OEMs, and increasing wafer prices. Top foundries like TSMC, Samsung, UMC, and GlobalFoundries all reported significant revenue growth, while second and third-tier foundries also showed high growth rates due to robust demand for mature nodes and rising ASPs. Despite capacity expansions, the chip shortage is expected to continue, with forecasts indicating sustained revenue growth for the top 10 foundries in 4Q21, albeit at a more moderate pace.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.809442",
+          "ticker": "TSEM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228328"
+        },
+        {
+          "relevance_score": "0.619146",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321946"
+        },
+        {
+          "relevance_score": "0.627490",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340519"
+        },
+        {
+          "relevance_score": "0.617856",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329398"
+        },
+        {
+          "relevance_score": "0.601439",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344179"
+        }
+      ],
+      "time_published": "20211202T164519",
+      "title": "Foundry Revenue Rises by 12% QoQ for 3Q21 Thanks to Peak Season, New Production Capacity, and Rising Prices, Says TrendForce",
+      "topics": [
+        {
+          "relevance_score": "0.919384",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.827732",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.744364",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.trendforce.com/presscenter/news/20211202-11036.html"
+    },
+    {
+      "authors": [
+        "Barbra Murray"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.27935,
+      "source": "Commercial Search",
+      "source_domain": "Commercial Search",
+      "summary": "Texas Instruments Inc. is investing up to $30 billion to develop a 300-millimeter semiconductor wafer fabrication facility in Sherman, Texas. The project will be built in four phases, with the first phase costing approximately $6.5 billion and production expected to begin in 2025. This expansion aims to reduce outsourcing, improve cost-efficiency, and accommodate long-term demand in the electronics, industrial, and automotive markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402369"
+        },
+        {
+          "relevance_score": "0.613357",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211934"
+        },
+        {
+          "relevance_score": "0.566010",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232064"
+        },
+        {
+          "relevance_score": "0.573763",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238429"
+        }
+      ],
+      "time_published": "20211118T212720",
+      "title": "Texas Instruments Plans $30B Wafer Plant",
+      "topics": [
+        {
+          "relevance_score": "0.944119",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.802997",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.711148",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.627512",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.647995",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.commercialsearch.com/news/texas-instruments-plans-30b-wafer-facility/"
+    },
+    {
+      "authors": [
+        "Jake Bekemeyer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.452195,
+      "source": "DBusiness Magazine",
+      "source_domain": "DBusiness Magazine",
+      "summary": "KLA Corp., a leader in semiconductor manufacturing equipment, has opened its second U.S. headquarters in Ann Arbor, Michigan. The $200 million facility, announced in 2018, currently employs over 300 people with plans to hire an additional 300 in the next 12-18 months. This Ann Arbor campus will house the company's AI Center of Excellence and various corporate functions, playing a critical role in serving global customers and advancing semiconductor technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.455054"
+        }
+      ],
+      "time_published": "20211108T203711",
+      "title": "KLA Corp. Opens $200 Million Headquarters in Ann Arbor",
+      "topics": [
+        {
+          "relevance_score": "0.814041",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.704353",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.602627",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.dbusiness.com/daily-news/kla-corp-opens-200-million-headquarters-in-ann-arbor/"
+    },
+    {
+      "authors": [
+        "EP&T Magazine"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.474023,
+      "source": "Electronic Products & Technology",
+      "source_domain": "Electronic Products & Technology",
+      "summary": "KLA Corp. has unveiled its second U.S. headquarters, a $200 million facility in Ann Arbor, Michigan, which will house an AI Center of Excellence and a large clean room for R&D. The new campus currently employs over 300 people with plans to hire an additional 300 in the next 12-18 months. Michigan officials, including Governor Gretchen Whitmer, celebrated the investment for its contribution to growing the state's economy and high-tech industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.493154"
+        }
+      ],
+      "time_published": "20211106T203711",
+      "title": "KLA unveils 2nd U.S. headquarters in Ann Arbor, MI",
+      "topics": [
+        {
+          "relevance_score": "0.904793",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.945121",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.703669",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ept.ca/2021/11/kla-unveils-2nd-u-s-headquarters-in-ann-arbor-mi/"
+    },
+    {
+      "authors": [
+        "Kathleen Achtenberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.413029,
+      "source": "Michigan Economic Development Corporation",
+      "source_domain": "Michigan Economic Development Corporation",
+      "summary": "KLA Corporation celebrated the grand opening of its new 230,000-square-foot headquarters in Ann Arbor, Michigan, demonstrating a significant commitment to the state's semiconductor industry. The facility, which has attracted $200 million in investment and created hundreds of high-tech jobs, further solidifies Michigan's leadership in semiconductor R&D and supply chain development. This expansion highlights Michigan's ability to meet high-tech talent needs and foster growth for technological companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417140"
+        }
+      ],
+      "time_published": "20211105T203711",
+      "title": "Michigan Underscores Leadership in Semiconductor R&D and Supply Chain with Grand Opening of KLA Corporation\u2019s New Ann Arbor Headquarters",
+      "topics": [
+        {
+          "relevance_score": "0.920841",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.812041",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.603263",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.michiganbusiness.org/press-releases/2021/11/mi-underscores-leadership-in-semiconductor-rd-supply-chain-grand-opening-kla-ann-arbor/"
+    },
+    {
+      "authors": [
+        "Meredith Bruckner"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.488022,
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "source_domain": "ClickOnDetroit | WDIV Local 4",
+      "summary": "KLA Corporation has opened its new North American headquarters in Ann Arbor, a $200 million facility designed to house nearly 1,000 employees. The global technology company, pivotal in semiconductor chip manufacturing, chose Ann Arbor due to its proximity to the University of Michigan and its appeal as a growing tech hub. Michigan Governor Gretchen Whitmer and KLA executives celebrated the grand opening, highlighting the company's commitment to job creation and innovation in the state.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496305"
+        }
+      ],
+      "time_published": "20211105T154200",
+      "title": "Look inside KLA\u2019s new $200M headquarters in Ann Arbor",
+      "topics": [
+        {
+          "relevance_score": "0.845705",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.clickondetroit.com/all-about-ann-arbor/2021/11/05/look-inside-klas-new-200m-headquarters-in-ann-arbor/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://mma.prnewswire.com/media/806571/KLA_Corporation_Logo.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.463696,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA Corporation announced the official opening of its $200 million second U.S. headquarters in Ann Arbor, Michigan. The facility currently houses over 300 employees with plans to add 300 more and includes an AI Center of Excellence and a 51,000-square-foot clean room for semiconductor manufacturing R&D. Michigan Governor Gretchen Whitmer highlighted the investment's role in boosting Michigan's economy and high-tech presence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.476900"
+        }
+      ],
+      "time_published": "20211105T122000",
+      "title": "KLA Announces Grand Opening of $200 Million Second Headquarters in Ann Arbor, Michigan",
+      "topics": [
+        {
+          "relevance_score": "0.935892",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.843861",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736077",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-announces-grand-opening-of-200-million-second-headquarters-in-ann-arbor-michigan-301417723.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.453058,
+      "source": "Indian Institute of Technology Madras",
+      "source_domain": "Indian Institute of Technology Madras",
+      "summary": "KLA Corporation announced the opening of its Artificial Intelligence-Advanced Computing Lab (AI-ACL) in partnership with IIT Madras, alongside a new office in Chennai to support its growth in India. This move strengthens KLA's investment in AI-focused research and development for the semiconductor industry and expands its operational presence. KLA also made a significant donation to support India's COVID-19 relief efforts and expand ICU capacity in regional hospitals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.483507"
+        }
+      ],
+      "time_published": "20211101T203711",
+      "title": "Office of Alumni & Corporate Relations",
+      "topics": [
+        {
+          "relevance_score": "0.818559",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://acr.iitm.ac.in/iitm_in_news/kla-corporation-opens-new-artificial-intelligence-advanced-computing-lab-at-indian-institute-of-technology-madras-research-park/"
+    },
+    {
+      "authors": [
+        "Vignesh Anantharaj"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.251527,
+      "source": "Techcircle",
+      "source_domain": "Techcircle",
+      "summary": "KLA Corporation is expanding its presence in India by opening two new facilities in Chennai to boost semiconductor-based research and talent development. This includes an AI-Advanced Computing Lab in partnership with IIT-Madras and a new office space for operations and talent expansion. These efforts aim to advance AI, software, image processing, and physics modeling for the global semiconductor industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428662"
+        },
+        {
+          "relevance_score": "0.609015",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238345"
+        },
+        {
+          "relevance_score": "0.619825",
+          "ticker": "NXPI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.246918"
+        },
+        {
+          "relevance_score": "0.642765",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242184"
+        }
+      ],
+      "time_published": "20211101T203711",
+      "title": "KLA Corp expands India presence for semiconductor-based R&D",
+      "topics": [
+        {
+          "relevance_score": "0.746948",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.946035",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techcircle.in/2021/11/01/kla-corp-expands-india-presence-for-semiconductor-based-r-d/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://mma.prnewswire.com/media/806571/KLA_Corporation_Logo.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.459051,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA Corporation has opened a new Artificial Intelligence-Advanced Computing Lab (AI-ACL) in Chennai, India, in partnership with the Indian Institute of Technology Madras, to serve as a center for AI-focused research and development. The company also inaugurated a new office space in Chennai to accommodate its ongoing growth and talent acquisition in the region. This expansion reinforces KLA's commitment to advancing AI in process control systems for the semiconductor industry and includes a $550,000 India pandemic relief fund.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.485086"
+        }
+      ],
+      "time_published": "20211101T171746",
+      "title": "KLA Corporation Opens New Artificial Intelligence-Advanced Computing Lab at Indian Institute of Technology Madras Research Park",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.701860",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/in/news-releases/kla-corporation-opens-new-artificial-intelligence-advanced-computing-lab-at-indian-institute-of-technology-madras-research-park-810573557.html"
+    },
+    {
+      "authors": [
+        "Luisa Beltran"
+      ],
+      "banner_image": "https://images.barrons.com/im-424657?width=639&height=426",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.201381,
+      "source": "Barron's",
+      "source_domain": "Barron's",
+      "summary": "GlobalFoundries, a chip maker, has priced its initial public offering at $47 per share. The company's IPO was highly anticipated and is set to begin trading on October 28th.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.933560",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402345"
+        },
+        {
+          "relevance_score": "0.621787",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130818"
+        },
+        {
+          "relevance_score": "0.561572",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133842"
+        },
+        {
+          "relevance_score": "0.520594",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135700"
+        }
+      ],
+      "time_published": "20211027T180328",
+      "title": "Chip Maker GlobalFoundries Prices IPO at $47 a Share",
+      "topics": [
+        {
+          "relevance_score": "0.936620",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.728194",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.603873",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.611736",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.barrons.com/articles/chip-maker-globalfoundries-ipo-51635381435?gaa_at=eafs&gaa_n=AWEtsqfCSleNg6LyeO5lOM9wz8yH3iUwHFTG3pH4d0w6YIcPZNt2SZiOJi1k&gaa_ts=699b4872&gaa_sig=YDtfhBxECAGM0IS7EotQLMwnTiEziFk1ZvZ9uwG2OObbFGJ5wBLoRRrt4HclhAUVPr9OrL5zt903iR6vQ_4pzA%3D%3D"
+    },
+    {
+      "authors": [
+        "KLA Corporation"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.457941,
+      "source": "Crain's Detroit Business",
+      "source_domain": "Crain's Detroit Business",
+      "summary": "KLA Corporation, a semiconductor veteran, is expanding its North American headquarters in Ann Arbor, Michigan, tapping into the region's rich talent pipeline and fostering a culture of inclusivity and diversity. The company prioritizes a \"whole person\" approach to hiring, focusing on attitude, intelligence, and curiosity, and is making significant strides in female representation in leadership and overall workforce diversity. KLA is also committed to ESG initiatives, supporting local communities through its KLA Foundation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.450359"
+        }
+      ],
+      "time_published": "20211025T060000",
+      "title": "KLA taps top talent for a Silicon Valley career \u2014 Great Lakes style",
+      "topics": [
+        {
+          "relevance_score": "0.924590",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.613623",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.crainsdetroit.com/sponsored-content/kla-taps-top-talent-silicon-valley-career-great-lakes-style"
+    },
+    {
+      "authors": [
+        "Terrence Horan"
+      ],
+      "banner_image": "https://images.mktw.net/im-220105?width=700&height=466",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.237579,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "KLA Corp. stock (KLAC) dropped 0.64% on Wednesday, closing at $329.10, despite a positive trading session for the broader market. This performance left KLA Corp. $45.50 below its 52-week high. The stock also underperformed against competitors like ASML Holding N.V., Applied Materials Inc., and Lam Research Corp., which all experienced declines but KLA's decline was more significant than ASML's.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.733603",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.271013"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.223532"
+        },
+        {
+          "relevance_score": "0.613382",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.234227"
+        }
+      ],
+      "time_published": "20211006T170400",
+      "title": "KLA Corp. stock underperforms Wednesday when compared to competitors",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/kla-corp-stock-underperforms-wednesday-when-compared-to-competitors-01633554243-9ae04f38dedf?gaa_at=eafs&gaa_n=AWEtsqetmuwCz7ENXMJVj9IgQzb34HMvWbZ7bu1S_d5qyjOLNQfl5TgQDGgG&gaa_ts=699b4454&gaa_sig=BTn0bDxZiTmwAqWcBw_YIlndPeQyfJNOQBiHqyu_26yhn_ViLpSyNWkE18B1tOdyyDrmzA40v26PU-rVD1301w%3D%3D"
+    },
+    {
+      "authors": [
+        "Susan Dziubinski"
+      ],
+      "banner_image": "https://morningstar-morningstar-prod.web.arc-cdn.net/resizer/8jtKZ4lQxqqlWKQsiRjGhzD4QOE=/2000x2000/author-service-images-prod-us-east-1.publishing.aws.arc.pub/morningstar/35408bfa-dc38-4ae5-81e8-b11e52d70005.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.381407,
+      "source": "Morningstar",
+      "source_domain": "Morningstar",
+      "summary": "This article identifies 10 undervalued stocks included in the Morningstar Wide Moat Focus Index, highlighting companies with strong competitive advantages trading at attractive prices. It details recent additions to the index, including technology firms like KLA Corp and Lam Research, and removals, explaining the methodology behind the index's semi-annual reconstitution. The Morningstar Wide Moat Focus Index has historically outperformed the broader market, making its constituents appealing to investors seeking high-quality stocks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CHRW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299341"
+        },
+        {
+          "relevance_score": "0.893699",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411132"
+        },
+        {
+          "relevance_score": "0.854405",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405712"
+        },
+        {
+          "relevance_score": "0.852827",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415236"
+        }
+      ],
+      "time_published": "20210928T184449",
+      "title": "10 Undervalued Wide-Moat Stocks",
+      "topics": [
+        {
+          "relevance_score": "0.902651",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.840154",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.638561",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.624232",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.morningstar.com/markets/10-undervalued-wide-moat-stocks"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.theworldfolio.com/img_db/articles/article-614112c6d1207.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.304239,
+      "source": "The Worldfolio",
+      "source_domain": "The Worldfolio",
+      "summary": "Yamaha Robotics Holdings (YRH) serves as a one-stop smart solution provider in the semiconductor industry, operating in back-end semiconductor manufacturing, surface mount technology (SMT), and factory automation. As demand for semiconductors grows with Industry 4.0, YRH leverages Japan's expertise in \"integral manufacturing\" and its significant investments in advanced technologies to meet the market's evolving needs. The company aims to become the number one one-stop smart solution provider globally within three years, particularly strengthening its position in European SMT sales and utilizing its strong presence in the automotive inspection market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.577083",
+          "ticker": "SPY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266037"
+        },
+        {
+          "relevance_score": "0.714530",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445452"
+        },
+        {
+          "relevance_score": "0.605526",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302219"
+        },
+        {
+          "relevance_score": "0.638621",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323473"
+        },
+        {
+          "relevance_score": "0.585998",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277637"
+        }
+      ],
+      "time_published": "20210914T191809",
+      "title": "Satisfying the ever-evolving demands of the the semiconductor industry",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.944179",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theworldfolio.com/news/satisfying-the-evere/4487/"
+    },
+    {
+      "authors": [
+        "Trefis Team"
+      ],
+      "banner_image": "https://imageio.forbes.com/specials-images/imageserve/6114ebfa14aa3b342416fbaa/0x0.jpg?format=jpg&width=1200",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.085192,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Micron Technology's stock recently dropped 6% in a week, following its 52-week high in April 2021 despite strong Q3 2021 earnings. This decline occurred amidst a record 20-week order-filling time for semiconductor companies. A Trefis Machine Learning Engine analysis suggests a 5.3% average return in the subsequent month after such a drop, indicating potential for recovery.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110713"
+        },
+        {
+          "relevance_score": "0.609074",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113722"
+        },
+        {
+          "relevance_score": "0.593259",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116476"
+        },
+        {
+          "relevance_score": "0.564993",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148236"
+        }
+      ],
+      "time_published": "20210812T050000",
+      "title": "After 6% Drop In A Week, What\u2019s Next For Micron Technology Stock?",
+      "topics": [
+        {
+          "relevance_score": "0.933666",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.819602",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.722490",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.607963",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/greatspeculations/2021/08/12/after-6-drop-in-a-week-whats-next-for-micron-technology-stock/"
+    },
+    {
+      "authors": [
+        "KLA Instruments\u2122"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.416825,
+      "source": "AZoNano",
+      "source_domain": "AZoNano",
+      "summary": "KLA Instruments, formed in summer 2020 by KLA Corporation, is expanding its market beyond semiconductor manufacturing to include research and development departments in universities and industrial labs. The group offers a diverse portfolio of measurement and defect inspection systems, including optical and stylus profilometers, nanoindenters, and benchtop film metrology, catering to industries from compound semiconductor to biotech. KLA Instruments differentiates itself with focused service support and aims to deliver trusted measurement solutions across a wide range of industries and laboratories.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412298"
+        }
+      ],
+      "time_published": "20210728T203711",
+      "title": "KLA Instruments Expands its Market to Labs and Fabs",
+      "topics": [
+        {
+          "relevance_score": "0.847698",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732052",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.610172",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.azonano.com/article.aspx?ArticleID=5785"
+    },
+    {
+      "authors": [
+        "Matt Swayne"
+      ],
+      "banner_image": "https://thequantuminsider.com/wp-content/uploads/Screen-Shot-2021-07-19-at-11.12.39-AM.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.104766,
+      "source": "The Quantum Insider",
+      "source_domain": "The Quantum Insider",
+      "summary": "Intel is reportedly in talks to acquire GlobalFoundries for $30 billion, a move that would significantly impact the quantum computing industry by combining two companies with growing quantum ambitions. Intel has been developing its Horse Ridge cryogenic control chips for qubits, while GlobalFoundries is partnering with PsiQuantum to manufacture silicon photonic and electronic chips for quantum systems. This merger could create a dominant force in both classical and quantum computing sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.322045",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002954"
+        },
+        {
+          "relevance_score": "0.934787",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216510"
+        },
+        {
+          "relevance_score": "0.610544",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101798"
+        },
+        {
+          "relevance_score": "0.556502",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113705"
+        },
+        {
+          "relevance_score": "0.599905",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120488"
+        }
+      ],
+      "time_published": "20210719T203557",
+      "title": "Possible Intel, GlobalFoundries Merger Would Impact Quantum Industry",
+      "topics": [
+        {
+          "relevance_score": "0.903309",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.808112",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://thequantuminsider.com/2021/07/19/possible-intel-globalfoundaries-merger-would-tie-together-two-quantum-curious-companies/"
+    },
+    {
+      "authors": [
+        "Priyanka Khandelwal",
+        "Eswara Prasad"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.239304,
+      "source": "Allied Market Research",
+      "source_domain": "Allied Market Research",
+      "summary": "The next-generation industrial metrology and inspection market is projected to reach $16,104.2 million by 2030, growing at a CAGR of 6.9% from $8,125.0 million in 2020. This growth is driven by increased R&D spending, adoption of big data analytics, and demand for coordinate measuring machines, with North America expected to dominate the market. The report segments the market by offering, equipment, application, and region, identifying key players and growth opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.931069",
+          "ticker": "FARO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319692"
+        },
+        {
+          "relevance_score": "0.709429",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289786"
+        },
+        {
+          "relevance_score": "0.674814",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247666"
+        },
+        {
+          "relevance_score": "0.645200",
+          "ticker": "HWM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239848"
+        },
+        {
+          "relevance_score": "0.573873",
+          "ticker": "APH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.183147"
+        }
+      ],
+      "time_published": "20210703T201225",
+      "title": "Next Generation Industrial Metrology and Inspection Market 2030",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.839286",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.alliedmarketresearch.com/next-generation-industrial-metrology-and-inspection-market-A11863"
+    },
+    {
+      "authors": [
+        "Akanksha Rana and Krystal Hu"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.31974,
+      "source": "ET Auto",
+      "source_domain": "ET Auto",
+      "summary": "MKS Instruments Inc. will acquire specialty chemicals group Atotech Ltd. for approximately $5.1 billion in a cash-and-stock deal. This acquisition aims to broaden MKS's offerings in chip manufacturing and enhance its position in advanced electronics, especially given the global semiconductor shortage. The deal is expected to close by the fourth quarter of this year, providing MKS with more recurring revenue streams and expanded capabilities in plating chemicals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.938993",
+          "ticker": "CG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313087"
+        },
+        {
+          "relevance_score": "0.641556",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330240"
+        },
+        {
+          "relevance_score": "0.603819",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311948"
+        },
+        {
+          "relevance_score": "0.632140",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331610"
+        },
+        {
+          "relevance_score": "0.601704",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338992"
+        }
+      ],
+      "time_published": "20210703T075500",
+      "title": "MKS Instruments to buy Atotech for $5.1 bln to expand chip manufacturing offerings",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.925980",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.818184",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.610532",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.618694",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://auto.economictimes.indiatimes.com/news/auto-components/mks-instruments-to-buy-atotech-for-5-1-bln-to-expand-chip-manufacturing-offerings/84084745"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://mma.prnewswire.com/media/806571/KLA_Corporation_Logo.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.477834,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA Corporation announced the launch of four new products designed to improve chip yield and reliability for automotive manufacturing, including new inspection systems and an inline screening solution. These products address the automotive industry's increasing demand for semiconductors in advanced vehicle features and the critical need for high reliability in these chips. The new portfolio aims to help chipmakers detect and mitigate defects, ensuring high-quality, high-reliability chips for automotive applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.474626"
+        }
+      ],
+      "time_published": "20210622T160500",
+      "title": "KLA Launches New Portfolio of Automotive Products to Improve Chip Yield and Reliability",
+      "topics": [
+        {
+          "relevance_score": "0.908413",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.947705",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-launches-new-portfolio-of-automotive-products-to-improve-chip-yield-and-reliability-301317630.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.261508,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "Edge computing is revolutionizing healthcare by bringing data processing closer to the source, enabling rapid advancements in IoT, AI, and robotics. This technology addresses critical needs for real-time data analysis, especially highlighted during the pandemic, supporting remote monitoring, virtual services, and smart hospital applications. While offering unprecedented opportunities for efficiency and patient care, challenges such as data security and regulatory compliance, particularly with HIPAA, remain crucial considerations for widespread adoption.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LUMN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447469"
+        },
+        {
+          "relevance_score": "0.704267",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344019"
+        },
+        {
+          "relevance_score": "0.630227",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204383"
+        },
+        {
+          "relevance_score": "0.622787",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239434"
+        },
+        {
+          "relevance_score": "0.628305",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220382"
+        }
+      ],
+      "time_published": "20210610T213745",
+      "title": "Transforming health care at the edge",
+      "topics": [
+        {
+          "relevance_score": "0.949765",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.816490",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2021/06/10/1026038/transforming-health-care-at-the-edge/"
+    },
+    {
+      "authors": [
+        "Christiaan Hetzner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.564701,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "ASML Holding NV, a Dutch semiconductor equipment supplier, has significantly upgraded its revenue outlook due to a \"supercycle in demand\" driven by the global chip shortage. The company expects nearly 30% growth this year, benefiting from increased customer demand and a shift towards onshoring semiconductor production. ASML is also advancing innovation as the sole provider of cutting-edge EUV lithography systems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.865079"
+        },
+        {
+          "relevance_score": "0.631923",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.527909"
+        },
+        {
+          "relevance_score": "0.623073",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.514220"
+        },
+        {
+          "relevance_score": "0.576175",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.470377"
+        },
+        {
+          "relevance_score": "0.561843",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.474808"
+        }
+      ],
+      "time_published": "20210421T193623",
+      "title": "Semiconductor equipment supplier ASML profits big time from continued global chip shortage",
+      "topics": [
+        {
+          "relevance_score": "0.944496",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.801189",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.714878",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.639742",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2021/04/21/asml-global-microchip-shortage-chips-semiconductor-equipment-supplier-asml-profits/"
+    },
+    {
+      "authors": [
+        "Dean Takahashi"
+      ],
+      "banner_image": "https://venturebeat.com/_next/image?url=https%3A%2F%2Folk2kzr7lpbpdtkx.public.blob.vercel-storage.com%2Fwp-content%2Fuploads%2F2021%2F03%2Famat-1.jpg%3Fw%3D1000%26q%3D100&w=3840&q=85",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.368499,
+      "source": "VentureBeat",
+      "source_domain": "VentureBeat",
+      "summary": "Applied Materials has launched a new generation of optical semiconductor wafer inspection machines, the Enlight systems, which integrate AI and big data techniques to improve defect detection and manufacturing efficiency. These machines aim to address the increasing complexity and cost of chip manufacturing by speeding up inspection processes and reducing yield loss. The system, comprising Enlight, ExtractAI, and SemVision, can quickly distinguish critical defects from noise, learn and adapt, and ultimately save chipmakers significant revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431746"
+        },
+        {
+          "relevance_score": "0.631719",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316885"
+        },
+        {
+          "relevance_score": "0.636281",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318778"
+        }
+      ],
+      "time_published": "20210316T234146",
+      "title": "Applied Materials brings AI and big data into semiconductor inspection machines",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://venturebeat.com/technology/applied-materials-brings-ai-and-big-data-into-semiconductor-inspection-machines"
+    },
+    {
+      "authors": [
+        "Kevin Heidrich"
+      ],
+      "banner_image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/Onto_Untangling-3D-NAND-fig1.png?resize=981%2C905&ssl=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.231288,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The article discusses the increasing manufacturing challenges in 3D NAND technology due to extreme aspect ratios and tier stacking. It highlights the difficulties in controlling channel hole geometry, profile, and critical dimensions, as well as the new issues of tilt, registration, and misalignment in multi-tier devices. The author emphasizes the need for advanced metrology to identify and control these sources of variability to ensure yield and reliability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.941646",
+          "ticker": "ONTO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306953"
+        },
+        {
+          "relevance_score": "0.727171",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221621"
+        },
+        {
+          "relevance_score": "0.654586",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216741"
+        },
+        {
+          "relevance_score": "0.646706",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.172074"
+        },
+        {
+          "relevance_score": "0.559457",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118420"
+        }
+      ],
+      "time_published": "20210309T001129",
+      "title": "Untangling 3D NAND: Tilt, Registration, And Misalignment",
+      "topics": [
+        {
+          "relevance_score": "0.934765",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.826929",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/untangling-3d-nand-tilt-registration-and-misalignment/"
+    },
+    {
+      "authors": [
+        "Tyler Clifford"
+      ],
+      "banner_image": "https://image.cnbcfm.com/api/v1/image/106838954-16130056064ED3-MM-Block-F-short-021021.jpg?v=1613005605&w=750&h=422&vtcrop=y",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.317477,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Jim Cramer urges the U.S. government to invest in semiconductor foundries to tackle the global chip shortage and high unemployment. He argues that building such facilities would create jobs and reduce America's reliance on foreign chip manufacturers, which is currently harming various domestic industries like automotive production. Cramer sees this as an opportunity to strengthen U.S. competitiveness and leverage its technological expertise.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.703625",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334668"
+        },
+        {
+          "relevance_score": "0.928083",
+          "ticker": "F",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324025"
+        },
+        {
+          "relevance_score": "0.810791",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242803"
+        },
+        {
+          "relevance_score": "0.740660",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322002"
+        },
+        {
+          "relevance_score": "0.716342",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334102"
+        }
+      ],
+      "time_published": "20210210T083116",
+      "title": "Cramer calls on U.S. to build factories to address chip shortage, unemployment",
+      "topics": [
+        {
+          "relevance_score": "0.920122",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.843226",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.727600",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.625360",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cnbc.com/2021/02/10/cramer-calls-on-us-to-fund-plants-to-address-chip-shortage-unemployment.html"
+    },
+    {
+      "authors": [
+        "Terrence Horan"
+      ],
+      "banner_image": "https://images.mktw.net/im-220105?width=700&height=466",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.341253,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Lam Research Corp. (LRCX) stock declined 2.66% on Tuesday, closing at $552.66, underperforming the broader market indices like the S&P 500 and Dow Jones Industrial Average, which also saw minor dips. The stock closed $32.76 below its 52-week high and also lagged behind competitors such as Applied Materials Inc., KLA Corp., and ASM International N.V. Trading volume was slightly below its 50-day average.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.743622",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.330481"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.416953"
+        },
+        {
+          "relevance_score": "0.600074",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.318507"
+        }
+      ],
+      "time_published": "20210126T165500",
+      "title": "Lam Research Corp. stock falls Tuesday, underperforms market",
+      "topics": [
+        {
+          "relevance_score": "0.929107",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.738299",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/lam-research-corp-stock-falls-tuesday-underperforms-market-01611698103-0ff5e1c8f05d?gaa_at=eafs&gaa_n=AWEtsqcIUsu7XTT7HUh3-YAAEP01YXL_sG7uhU5RcDijlX7U2-CF3bYUYl0k&gaa_ts=699baf1f&gaa_sig=aZoh2_b1TkXsSP8i-CI8QjhDDOqIP2SvXmPAihl7ubXUw77AQ3ZkMNBpEE5PG74z1XAEWJ1ycGjBHbgM4mZP9Q%3D%3D"
+    },
+    {
+      "authors": [
+        "Paul Ausick"
+      ],
+      "banner_image": "https://247wallst.com/wp-content/uploads/2020/12/imageForEntry1-Fha.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.345093,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Taiwan Semiconductor Manufacturing Co. (TSMC) announced a significant capital expenditure plan of $25 billion to $28 billion for 2021, following a strong financial performance in 2020. This substantial investment is expected to greatly benefit several semiconductor equipment suppliers. The article highlights five key suppliers: ASML Holding N.V., Applied Materials Inc., Lam Research Corp., KLA Corp., and Teradyne Inc., along with ASE Technology Holding Co. Ltd., detailing their recent stock performance and their positioning to gain from TSMC's increased spending.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.996767",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345859"
+        },
+        {
+          "relevance_score": "0.890777",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300926"
+        },
+        {
+          "relevance_score": "0.832778",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300453"
+        },
+        {
+          "relevance_score": "0.715599",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304193"
+        }
+      ],
+      "time_published": "20210114T104900",
+      "title": "Taiwan Semiconductor\u2019s $25 Billion+ 2021 Capex a Boon for These 5 Suppliers",
+      "topics": [
+        {
+          "relevance_score": "0.922407",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.814939",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736634",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.644726",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.601249",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://247wallst.com/technology-3/2021/01/14/taiwan-semiconductors-25-billion-2021-capex-a-boon-for-these-5-suppliers/"
+    }
+  ],
+  "items": "32",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

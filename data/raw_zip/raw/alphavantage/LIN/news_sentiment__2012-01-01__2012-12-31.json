@@ -1,0 +1,81 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "David Kopf"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.273692,
+      "source": "HME Business",
+      "source_domain": "HME Business",
+      "summary": "German pharmaceutical and medical gas firm Linde AG is set to acquire Clearwater, Fla.-based national provider Lincare Holdings Inc. for $4.6 billion, marking Linde's largest acquisition since 2006. This acquisition will provide Linde with a significant platform to expand its business into the homecare sector, leveraging Lincare's leading position in the U.S. home healthcare market. The deal also represents a historic re-linking of Lincare to Linde, as Lincare originated from a U.S. company created by Linde AG.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LIN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416214"
+        },
+        {
+          "relevance_score": "0.643266",
+          "ticker": "RMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107908"
+        }
+      ],
+      "time_published": "20120705T150601",
+      "title": "Linde AG Buys Lincare Holdings",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.918389",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://hme-business.com/linde-ag-buys-lincare-holdings/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.338539,
+      "source": "Romania Insider",
+      "source_domain": "Romania Insider",
+      "summary": "Linde Gaz Romania, part of The Linde Group, has acquired the respiratory home care company Oxigen Plus. This strategic acquisition aims to expand Linde Gaz's presence in the Romanian healthcare market, complementing its existing medical gas and related services portfolio. Oxigen Plus, with a 2011 turnover of EUR 2.44 million, provides services such as oxygen therapy, sleep therapy, and ventilation services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LIN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340394"
+        }
+      ],
+      "time_published": "20120321T150601",
+      "title": "Linde Gaz Romania buys respiratory home-care company Oxigen Plus",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.900386",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.736147",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.romania-insider.com/linde-gaz-romania-buys-respiratory-homecare-company-oxigen-plus"
+    }
+  ],
+  "items": "2",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

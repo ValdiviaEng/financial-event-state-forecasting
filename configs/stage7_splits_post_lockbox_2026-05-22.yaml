@@ -1,0 +1,31 @@
+{
+  "artifact_schema_version": "stage4_splits_v1",
+  "split_protocol": "purged_embargoed_walk_forward_with_final_untouched_lockbox",
+  "benchmark_family_id": "phase1_top50",
+  "horizons": ["1d", "5d", "10d", "20d", "60d"],
+  "fold_schedule": {
+    "cadence": "monthly",
+    "training_window": "expanding",
+    "initial_training_date_count": 126,
+    "validation_date_count": 21,
+    "drop_partial_validation_windows": true,
+    "decision_basis": "stage7c_approved_data_update_preserves_stage6_truth_and_uses_only_post_2026_02_13_holdout_for_new_claims"
+  },
+  "purge_embargo": {
+    "policy": "maximum_approved_label_horizon",
+    "trading_date_count": 60,
+    "basis": "approved maximum 60d horizon and docs/Data_Separation_And_Overfitting_Control.md default"
+  },
+  "lockbox": {
+    "policy": "explicit_post_stage6_lockbox_holdout_start_date",
+    "fraction": 0.20,
+    "start_date": "2026-02-17",
+    "expected_start_date": "2026-02-17",
+    "expected_end_date": "2026-02-25",
+    "old_stage6_lockbox_end": "2026-02-13",
+    "decision_basis": "stage7c_new_holdout_after_approved_twelvedata_update_2026_05_22",
+    "access_policy": "reporting_only_after_development_freeze"
+  },
+  "random_shuffle_allowed": false,
+  "benchmark_claim": false
+}

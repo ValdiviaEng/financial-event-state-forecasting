@@ -1,0 +1,3329 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Dubi Ben-Gedalyahu"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.092995,
+      "source": "Globes - Israel Business News",
+      "source_domain": "Globes - Israel Business News",
+      "summary": "Chinese automaker Qoros, controlled by Kenon Holdings and Chery, is establishing an auto R&D center in Israel to develop smart car technologies, focusing on electric vehicle charging networks and autonomous driving. This move is part of Qoros's strategy to concentrate on rechargeable electric and hybrid cars, aligning with the broader trend of global auto manufacturers investing in Israeli smart vehicle know-how. The company plans to launch a fully electric car in China this year and a second generation of advanced electric vehicles by 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.948153",
+          "ticker": "KEN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319690"
+        },
+        {
+          "relevance_score": "0.607121",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113824"
+        },
+        {
+          "relevance_score": "0.571977",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.053104"
+        },
+        {
+          "relevance_score": "0.605332",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147711"
+        }
+      ],
+      "time_published": "20161229T173500",
+      "title": "Qoros to set up smart car R&D center in Israel",
+      "topics": [
+        {
+          "relevance_score": "0.844894",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.917042",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.616297",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://en.globes.co.il/en/article-qoros-to-set-up-smart-car-rd-center-in-israel-1001169580"
+    },
+    {
+      "authors": [
+        "Se Young Lee and Stephen Nellis"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-2.images.arcpublishing.com%2Freuters%2FVOWKAFN4LRPZ3M6R6IUGZ5J3TM.jpg?auth=a770cc579c506161b9e07890e0b3c65c276a16087b3226d9c72e2938a9e0481d&width=800&quality=80&smart=true",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.130515,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "South Korea's antitrust regulator has fined Qualcomm Inc. 1.03 trillion won ($854 million) for unfair business practices in patent licensing and modem chip sales, the largest such fine ever in South Korea. Qualcomm plans to challenge the decision in court. The ruling could significantly impact Qualcomm's business model and lower costs for mobile phone makers, while also setting a precedent for other regulators globally investigating the chipmaker.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.403153"
+        },
+        {
+          "relevance_score": "0.728478",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.217664"
+        },
+        {
+          "relevance_score": "0.603649",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.138221"
+        },
+        {
+          "relevance_score": "0.645248",
+          "ticker": "NXPI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242752"
+        }
+      ],
+      "time_published": "20161228T233700",
+      "title": "South Korea fines Qualcomm $854 million for violating competition laws",
+      "topics": [
+        {
+          "relevance_score": "0.924522",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/south-korea-fines-qualcomm-854-million-for-violating-competition-laws-idUSKBN14H05X/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.10127,
+      "source": "The Indian Express",
+      "source_domain": "The Indian Express",
+      "summary": "South Korea's antitrust regulator fined Qualcomm Inc 1.03 trillion won ($854 million) for unfair business practices in patent licensing and modem chip sales, the largest fine ever levied in South Korea. Qualcomm plans to challenge the decision, which alleges the company abused its dominant market position and restricted competition by refusing or limiting licensing of its standard essential patents to rival chipmakers. This ruling could significantly impact Qualcomm's business model and dealings with major tech companies globally.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.405143"
+        },
+        {
+          "relevance_score": "0.608266",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132705"
+        },
+        {
+          "relevance_score": "0.583842",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015367"
+        }
+      ],
+      "time_published": "20161228T184500",
+      "title": "South Korea fines Qualcomm $854 million for violating competition laws",
+      "topics": [
+        {
+          "relevance_score": "0.816104",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/south-korea-fines-qualcomm-854-million-for-violating-competition-laws-4449051/"
+    },
+    {
+      "authors": [
+        "Anirban Sen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.151207,
+      "source": "mint",
+      "source_domain": "mint",
+      "summary": "Cloudtail India, a joint venture between Amazon.com Inc. and Catamaran Ventures, reported a fourfold increase in revenue to Rs4,591.2 crore in the year ended March 2016. Despite incurring heavy expenses, its loss marginally narrowed to Rs30.2 crore. Cloudtail is a primary growth driver for Amazon India, especially in electronics and fashion, leveraging gaps in India's FDI rules for e-commerce.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972882",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329991"
+        },
+        {
+          "relevance_score": "0.603994",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.082708"
+        }
+      ],
+      "time_published": "20161221T081100",
+      "title": "Amazon India top seller Cloudtail\u2019s revenue rises fourfold to Rs4,600 crore",
+      "topics": [
+        {
+          "relevance_score": "0.928385",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.824275",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/1EdpKoAY7GoZLh57pXuwkO/Amazon-India-top-seller-Cloudtails-revenue-rises-fourfold-t.html"
+    },
+    {
+      "authors": [
+        "Claire Zillman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.329875,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "American Express announced enhanced parental leave and employee benefits, including 20 weeks of fully-paid leave for new parents, and $35,000 for adoption, surrogacy, and infertility treatments. This move aims to support employees in balancing personal and professional responsibilities and to remain competitive in attracting and retaining top talent. The new policy is more equitable by not distinguishing between primary and secondary caregivers, and it includes additional benefits like lactation consultants and breast-milk shipping.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.449644"
+        },
+        {
+          "relevance_score": "0.647399",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331464"
+        },
+        {
+          "relevance_score": "0.564193",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.261945"
+        },
+        {
+          "relevance_score": "0.569472",
+          "ticker": "NFLX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.298375"
+        }
+      ],
+      "time_published": "20161212T055720",
+      "title": "American Express Is Giving Workers 20 Weeks of Parental Leave and $35,000 for Infertility Treatment",
+      "topics": [
+        {
+          "relevance_score": "0.713007",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.621351",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2016/12/12/american-express-parental-maternity-leave/"
+    },
+    {
+      "authors": [
+        "Dave Lammers"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.314442,
+      "source": "GlobalFoundries",
+      "source_domain": "GlobalFoundries",
+      "summary": "This article discusses the increasing relevance of Magneto-resistive Random Access Memory (MRAM) in embedded applications, highlighting its advantages over existing non-volatile memories, such as unlimited data retention and power-saving capabilities. It explores how GlobalFoundries is integrating MRAM with its 22FDX platform, leveraging its partnership with Everspin Technologies to accelerate time-to-market for eMRAM solutions in industries like mobile, automotive, and IoT. The article emphasizes MRAM's potential to enable new system capabilities and drive innovation in memory architecture.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.997045",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.601771"
+        },
+        {
+          "relevance_score": "0.749552",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323560"
+        },
+        {
+          "relevance_score": "0.630237",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108608"
+        },
+        {
+          "relevance_score": "0.581256",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235053"
+        }
+      ],
+      "time_published": "20161206T063700",
+      "title": "MRAM Meets Embedded",
+      "topics": [
+        {
+          "relevance_score": "0.846898",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://gf.com/blog/mram-meets-embedded/"
+    },
+    {
+      "authors": [
+        "Aaron Tilley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.259517,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "This article chronicles Nvidia's transformation from a company focused on powering video games with its GPUs to a leader in artificial intelligence, particularly deep learning. It details how the same technology used for gaming graphics proved optimal for AI research, attracting tech giants and startups alike. The piece highlights Nvidia's market dominance, stock performance, and cultural emphasis on innovation and employee well-being, while also acknowledging growing competition in the AI chip sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496395"
+        },
+        {
+          "relevance_score": "0.701525",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046771"
+        },
+        {
+          "relevance_score": "0.632506",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130265"
+        },
+        {
+          "relevance_score": "0.610542",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349539"
+        },
+        {
+          "relevance_score": "0.587024",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.275104"
+        }
+      ],
+      "time_published": "20161130T093000",
+      "title": "The New Intel: How Nvidia Went From Powering Video Games To Revolutionizing Artificial Intelligence",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602027",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.624821",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.605994",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/aarontilley/2016/11/30/nvidia-deep-learning-ai-intel/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.378409,
+      "source": "thewaltdisneycompany.com",
+      "source_domain": "thewaltdisneycompany.com",
+      "summary": "Disney and Intel are collaborating to launch \"Starbright Holidays \u2013 An Intel Collaboration\" at Disney Springs, a light show featuring 300 Intel Shooting Star drones. This innovative show combines Intel's drone technology with Disney's creativity, creating synchronized choreography set to holiday music. Both companies see this as a pioneering step in entertainment, with potential for future expansion into various Disney experiences.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DIS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427136"
+        },
+        {
+          "relevance_score": "0.887061",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304557"
+        }
+      ],
+      "time_published": "20161118T061728",
+      "title": "Disney and Intel to Debut Groundbreaking Show at Disney Springs That Explores New Technology",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.820958",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://thewaltdisneycompany.com/disney-intel-debut-groundbreaking-show-disney-springs-explores-new-technology/"
+    },
+    {
+      "authors": [
+        "Sarah Buhr"
+      ],
+      "banner_image": "https://img.techcrunch.com/wp-content/uploads/2016/11/shutterstock_430331077.jpg?w=1200&h=900&crop=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.237084,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "CareCloud, a cloud-based healthcare management platform, announced it has raised $31.5 million in Series C financing. The company plans to use the funds to modernize healthcare and address the shifting healthcare marketplace, including increased patient responsibility for costs and potential regulatory changes. CareCloud manages over $4 billion in annualized accounts receivable and aims to be \"the single log-in for healthcare.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CCLD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.481708"
+        },
+        {
+          "relevance_score": "0.636403",
+          "ticker": "PNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273850"
+        },
+        {
+          "relevance_score": "0.642813",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110709"
+        },
+        {
+          "relevance_score": "0.599301",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102503"
+        },
+        {
+          "relevance_score": "0.550250",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135532"
+        }
+      ],
+      "time_published": "20161115T000100",
+      "title": "CareCloud raises $31.5 million in Series C for its cloud health care management platform",
+      "topics": [
+        {
+          "relevance_score": "0.942617",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.822853",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747605",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://techcrunch.com/2016/11/15/carecloud-raises-31-5-million-in-series-c-for-its-cloud-based-healthcare-revenue-management-platform/"
+    },
+    {
+      "authors": [
+        "Fraser Tennant"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.238964,
+      "source": "Financier Worldwide",
+      "source_domain": "Financier Worldwide",
+      "summary": "SoftBank Group Corp is set to acquire UK-based chip designer ARM Holdings plc for approximately \u00a332bn in an all-cash deal. SoftBank plans to invest significantly in ARM, double its UK workforce, and maintain its independent business model, aiming to capitalize on the Internet of Things market. The acquisition, pending ARM shareholder approval, is expected to close in Q3 2016.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ARM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408344"
+        },
+        {
+          "relevance_score": "0.646085",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104322"
+        },
+        {
+          "relevance_score": "0.580519",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138242"
+        }
+      ],
+      "time_published": "20161110T055658",
+      "title": "Softbank to acquire ARM Holdings in $32bn deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.936581",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.financierworldwide.com/softbank-to-acquire-arm-holdings-in-32bn-deal"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.193712,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Broadcom is reportedly nearing a deal to acquire network gear maker Brocade Communications, with an announcement possibly coming this week. Broadcom, known for frequent acquisitions in the semiconductor industry, plans to retain Brocade's fiber channel and storage business, valued at $1.5 billion in annual revenue, while divesting its networking business. This potential acquisition follows other major consolidations in the semiconductor sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.464370"
+        },
+        {
+          "relevance_score": "0.727217",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102294"
+        },
+        {
+          "relevance_score": "0.628676",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135468"
+        },
+        {
+          "relevance_score": "0.595633",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120343"
+        }
+      ],
+      "time_published": "20161101T055715",
+      "title": "Broadcom Nears Big Acquisition",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.820645",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://fortune.com/2016/11/01/broadcom-nears-big-acquisition/"
+    },
+    {
+      "authors": [
+        "David Silver"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.131223,
+      "source": "Morningstar",
+      "source_domain": "Morningstar",
+      "summary": "The article discusses the spin-off of Air Products' electronic materials division into Versum, highlighting it as a high-quality business opportunity for investors due to its strong customer relationships, innovation, and narrow economic moat. It examines Versum's leadership, customer concentration risks, and the rationale behind the spin-off.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.911777",
+          "ticker": "APD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128126"
+        },
+        {
+          "relevance_score": "0.738385",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328590"
+        },
+        {
+          "relevance_score": "0.614505",
+          "ticker": "KMB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102612"
+        }
+      ],
+      "time_published": "20161026T055649",
+      "title": "Air Products Spin-Off Worth Keeping an Eye On",
+      "topics": [
+        {
+          "relevance_score": "0.933787",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.742698",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.609815",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.643134",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.morningstar.com/stocks/air-products-spin-off-worth-keeping-an-eye"
+    },
+    {
+      "authors": [
+        "Sebastian Moss"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.295062,
+      "source": "Data Center Dynamics",
+      "source_domain": "Data Center Dynamics",
+      "summary": "D-Wave Systems has established a Washington-based subsidiary, D-Wave Government Inc, to sell its quantum computing products to the US government. The subsidiary will have an independent board comprised of executives with extensive experience in US government agencies. This move aims to further sales to the US government and its affiliates, which have already shown interest in D-Wave's technology for solving complex problems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QBTS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407753"
+        },
+        {
+          "relevance_score": "0.732714",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318325"
+        },
+        {
+          "relevance_score": "0.633771",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248207"
+        },
+        {
+          "relevance_score": "0.630969",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231267"
+        },
+        {
+          "relevance_score": "0.649319",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209918"
+        }
+      ],
+      "time_published": "20161019T071648",
+      "title": "D-Wave forms subsidiary to sell quantum computers to the US government",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.749926",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.datacenterdynamics.com/en/news/d-wave-forms-subsidiary-to-sell-quantum-computers-to-the-us-government/"
+    },
+    {
+      "authors": [
+        "btarunr"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.390242,
+      "source": "TechPowerUp",
+      "source_domain": "TechPowerUp",
+      "summary": "HP Inc. unveiled its latest premium consumer PC line-up for the 2016 holidays, featuring thinner, lighter convertibles with improved battery life and exquisitely designed all-in-ones offering enhanced sound experiences. The new portfolio includes the HP Spectre x360, HP ENVY laptop, HP ENVY AIO 27, and HP ENVY 27 Display, all designed to deliver powerful performance in sleek packages with advanced features. Pricing and availability for these new products were also announced.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.455951"
+        },
+        {
+          "relevance_score": "0.637211",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300841"
+        }
+      ],
+      "time_published": "20161012T013800",
+      "title": "HP Inc. Innovates Its Premium Consumer Portfolio for Holiday",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techpowerup.com/226682/hp-inc-innovates-its-premium-consumer-portfolio-for-holiday"
+    },
+    {
+      "authors": [
+        "Elana Pidgeon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309426,
+      "source": "Windows Blog",
+      "source_domain": "Windows Blog",
+      "summary": "HP Inc. has unveiled its holiday lineup of new Windows 10 PCs, including updated laptops, an all-in-one desktop, and a 4K display. These devices feature improvements like longer battery life, enhanced audio, and new designs, catering to diverse user needs from performance to aesthetics. Key products include the HP Spectre x360, HP ENVY Laptop, HP ENVY All-in-One 27, and HP ENVY 27 Display.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.488120"
+        },
+        {
+          "relevance_score": "0.623263",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241465"
+        },
+        {
+          "relevance_score": "0.642336",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.268024"
+        },
+        {
+          "relevance_score": "0.561251",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207509"
+        }
+      ],
+      "time_published": "20161011T064145",
+      "title": "Here\u2019s a look at HP\u2019s holiday lineup of new Windows 10 PCs",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.821400",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://blogs.windows.com/windowsexperience/2016/10/11/heres-a-look-at-hps-holiday-lineup-of-new-windows-10-pcs/"
+    },
+    {
+      "authors": [
+        "Stephen Law"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.295432,
+      "source": "Electronic Products & Technology",
+      "source_domain": "Electronic Products & Technology",
+      "summary": "D-Wave Systems Inc. has unveiled its newest quantum computing system, featuring a 2000-qubit processor, doubling the capacity of its previous model. This advancement allows for solving larger problems and introduces new control features that improve performance by up to 1000 times in early tests. The company aims to deliver practical quantum technology for real-world applications, including machine learning.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QBTS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441573"
+        },
+        {
+          "relevance_score": "0.640678",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116425"
+        }
+      ],
+      "time_published": "20161004T071648",
+      "title": "D-Wave Systems previews 2000-Qubit Quantum \u2018supercomputer\u2019",
+      "topics": [
+        {
+          "relevance_score": "0.930123",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ept.ca/2016/10/d-wave-systems-previews-2000-qubit-quantum-supercomputer/"
+    },
+    {
+      "authors": [
+        "Stu Woo and Maarten van Tartwijk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.28166,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "This article highlights how ASML Holding NV, a lesser-known Dutch company, is crucial for the future of the global semiconductor industry. It explores the challenge of continuing to make chips more powerful while maintaining their compact size, effectively preserving Moore's Law. ASML is positioned as the potential solution to this industry-wide hurdle.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441396"
+        },
+        {
+          "relevance_score": "0.735377",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144081"
+        }
+      ],
+      "time_published": "20161003T055704",
+      "title": "Can This Little-Known Chip Company Preserve Moore\u2019s Law?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.915065",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/asml-steps-up-to-chip-industry-challenge-1475435759?gaa_at=eafs&gaa_n=AWEtsqfEtejQ1PcQYNIbDGoSnV96cg5QU4WdsZa3mST2YbdvagFCRd7vVHaY&gaa_ts=6908474d&gaa_sig=p26HgctO9Sim_5trPHZh3NyV5RU51ZCxphnjOHmUFryNErVEGMf7UqBpDQ6O-c5-qrIEy-mwg8qWG_KbZP4ucA%3D%3D"
+    },
+    {
+      "authors": [
+        "Teresa Esser"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.063749,
+      "source": "Milwaukee Journal Sentinel",
+      "source_domain": "Milwaukee Journal Sentinel",
+      "summary": "This article details Silicon Pastures Angel Investment Network's investment in Indiana Integrated Circuits (IIC) and how this led to IIC collaborating with Plexus. The collaboration focuses on IIC's Quilt Packaging technology for microchip integration, enabling smaller, more efficient, and less power-consuming electronic systems for various industries. The partnership highlights the impact of angel investments in fostering innovation and connecting smaller companies with global partners.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PLXS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.193597"
+        },
+        {
+          "relevance_score": "0.609365",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134209"
+        },
+        {
+          "relevance_score": "0.615370",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109495"
+        }
+      ],
+      "time_published": "20160929T071627",
+      "title": "Esser: Making connections",
+      "topics": [
+        {
+          "relevance_score": "0.825074",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.807683",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.723331",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.644848",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.jsonline.com/story/money/business/onramp/blog/2016/09/29/esser-making-connections/91267136/"
+    },
+    {
+      "authors": [
+        "Lilly Rockwell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.618956,
+      "source": "Austin American-Statesman",
+      "source_domain": "Austin American-Statesman",
+      "summary": "Advanced Micro Devices (AMD) has seen a significant stock price surge of 168 percent this year, largely due to a turnaround strategy initiated by CEO Lisa Su and the highly anticipated new microprocessor, Zen. Zen, partly designed in Austin, is crucial for AMD to compete with Intel. A recent demonstration of Zen's performance against rivals has further impressed analysts and investors, leading to a nearly 10 percent stock increase last week.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.861204"
+        },
+        {
+          "relevance_score": "0.735755",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342686"
+        }
+      ],
+      "time_published": "20160929T055226",
+      "title": "What is Zen and why is it driving up AMD's stock price?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.947411",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.statesman.com/story/news/2016/09/29/what-is-zen-and-why-is-it-driving-up-amds-stock-price/10173484007/"
+    },
+    {
+      "authors": [
+        "Brian Gaar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.122468,
+      "source": "Austin American-Statesman",
+      "source_domain": "Austin American-Statesman",
+      "summary": "Dell Inc. has hired Rory Read, former CEO of Advanced Micro Devices, to oversee global commercial sales, and Paul P\u00e9rez, a former Cisco Systems executive, as chief technology officer of its Enterprise Solutions Group. Both new hires are expected to strengthen Dell's position as an enterprise powerhouse. Read will focus on go-to-market initiatives, while P\u00e9rez will drive long-term enterprise technology strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.846970",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126449"
+        },
+        {
+          "relevance_score": "0.727639",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139022"
+        },
+        {
+          "relevance_score": "0.901088",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338245"
+        },
+        {
+          "relevance_score": "0.623312",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106514"
+        }
+      ],
+      "time_published": "20160924T055226",
+      "title": "Dell adds ex-AMD chief, former Cisco exec",
+      "topics": [
+        {
+          "relevance_score": "0.836404",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.statesman.com/story/business/2016/09/24/dell-adds-ex-amd-chief-former-cisco-exec/9883724007/"
+    },
+    {
+      "authors": [
+        "Paul Alcorn"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.349118,
+      "source": "Tom's Hardware",
+      "source_domain": "Tom's Hardware",
+      "summary": "GlobalFoundries announced the integration of embedded non-volatile Magnetoresistive RAM (ST-MRAM) into its 22FDX platform, marking a significant advancement in memory technology for SoCs and MCUs. This partnership with Everspin, the only company to commercialize ST-MRAM, aims to provide high-speed, persistent memory with low power consumption and high endurance. The article also discusses potential future integration into GlobalFoundries' 12FDX platform and the broader implications for processor design and memory markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRAM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.532392"
+        },
+        {
+          "relevance_score": "0.727095",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347951"
+        },
+        {
+          "relevance_score": "0.621310",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316678"
+        },
+        {
+          "relevance_score": "0.609961",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340245"
+        },
+        {
+          "relevance_score": "0.612457",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331683"
+        }
+      ],
+      "time_published": "20160919T070134",
+      "title": "GlobalFoundries Infuses 22FDX Platform With ST-MRAM Memory",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.742488",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.tomshardware.com/news/globalfoundries-everspin-st-mram-22fdx,32712.html"
+    },
+    {
+      "authors": [
+        "Omar Sohail"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.234157,
+      "source": "Wccftech",
+      "source_domain": "Wccftech",
+      "summary": "Samsung is selling stakes in several companies, including Seagate, Rambus, ASML Holding NV, and Sharp, to raise cash. This decision comes after the costly Galaxy Note 7 recall and a general move to shed non-core assets under heir apparent Lee Jae-yong. The funds raised might also be used to expedite the launch of the Galaxy S8 to offset losses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.934138",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.259895"
+        },
+        {
+          "relevance_score": "0.709483",
+          "ticker": "STX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227031"
+        },
+        {
+          "relevance_score": "0.675218",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.225097"
+        },
+        {
+          "relevance_score": "0.642125",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.192755"
+        },
+        {
+          "relevance_score": "0.597166",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.160846"
+        }
+      ],
+      "time_published": "20160919T050900",
+      "title": "Samsung (KRX:005930) Moving Swiftly to Sell Stakes to Raise Abundant Levels of Cash",
+      "topics": [
+        {
+          "relevance_score": "0.616177",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.735899",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://wccftech.com/samsung-krx005930-moving-swiftly-sell-stakes-raise-abundant-levels-cash/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.158027,
+      "source": "Supply & Demand Chain Executive",
+      "source_domain": "Supply & Demand Chain Executive",
+      "summary": "Intel Corporation is reportedly supplying wireless chips for some of Apple Inc.'s new iPhone 7 models. This partnership aims to add critical flexibility to both companies' supply chains, with Intel's baseband modern semiconductors replacing those previously supplied by Qualcomm Inc. This collaboration marks a significant breakthrough for Intel in the smartphone market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349678"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336704"
+        },
+        {
+          "relevance_score": "0.724972",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.210080"
+        }
+      ],
+      "time_published": "20160912T055135",
+      "title": "Intel and Apple Partner to Create Supply Chain Flexibility",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.846963",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.sdcexec.com/sourcing-procurement/article/12255709/intel-intel-and-apple-partner-to-create-supply-chain-flexibility"
+    },
+    {
+      "authors": [
+        "Miriam McNabb"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.249079,
+      "source": "Dronelife",
+      "source_domain": "Dronelife",
+      "summary": "This article highlights five key drone component companies that are poised to benefit from the growth of the commercial drone industry. It details their contributions, ranging from power semiconductors and sensors to hardware components and autopilot systems, emphasizing their importance beyond just drone manufacturers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INVN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.376318"
+        },
+        {
+          "relevance_score": "0.846671",
+          "ticker": "TDG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333438"
+        },
+        {
+          "relevance_score": "0.814199",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.398018"
+        },
+        {
+          "relevance_score": "0.644068",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011648"
+        },
+        {
+          "relevance_score": "0.641297",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011303"
+        }
+      ],
+      "time_published": "20160906T064635",
+      "title": "Top 5 Drone Component Companies to Watch",
+      "topics": [
+        {
+          "relevance_score": "0.912147",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.744497",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.624411",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://dronelife.com/2016/09/06/top-5-drone-component-companies/"
+    },
+    {
+      "authors": [
+        "Puja Tayal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.082761,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article traces Nvidia's journey from a standard PC graphics chip company in 1993 to a specialized platform company. It outlines Nvidia's shift in focus from the declining PC market to key areas like gaming, professional visualization, data centers, and automotive, and discusses potential risks such as competition from AMD and reliance on third-party manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.260525"
+        },
+        {
+          "relevance_score": "0.749237",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046534"
+        },
+        {
+          "relevance_score": "0.637874",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.038472"
+        },
+        {
+          "relevance_score": "0.597461",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119429"
+        }
+      ],
+      "time_published": "20160826T090400",
+      "title": "Nvidia\u2019s Journey from a Startup to the Fastest-Growing Company",
+      "topics": [
+        {
+          "relevance_score": "0.935576",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.745966",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.614615",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://marketrealist.com/2016/08/nvidias-journey-startup-fastest-growing-company/"
+    },
+    {
+      "authors": [
+        "Don Reisinger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.302352,
+      "source": "eWeek",
+      "source_domain": "eWeek",
+      "summary": "HP's new Omen X desktop PC is designed to appeal to high-end users and DIY enthusiasts with its unique cube design, powerful graphics options, VR readiness, and full upgradability. The company is offering both pre-built systems and an empty shell for customization, as well as a partnership with Maingear for further personalization, starting at $1,800.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.963887",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.482588"
+        },
+        {
+          "relevance_score": "0.649362",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323933"
+        },
+        {
+          "relevance_score": "0.641073",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346152"
+        },
+        {
+          "relevance_score": "0.609219",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336700"
+        },
+        {
+          "relevance_score": "0.575310",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115040"
+        }
+      ],
+      "time_published": "20160819T064145",
+      "title": "HP Inc.'s Omen X Design Seeks to Excite Buyer Interest in Desktop PCs",
+      "topics": [
+        {
+          "relevance_score": "0.908380",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.eweek.com/pc-hardware/high-end-hp-omen-x-design-shows-why-there-s-a-future-for-desktop-pcs/"
+    },
+    {
+      "authors": [
+        "Nathan Donato-Weinstein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.041944,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "AMD is moving its headquarters to Santa Clara, ending a 47-year presence in Sunnyvale. The company's new location will be Santa Clara Square. This move comes as AMD continues to navigate the competitive landscape against Intel and Nvidia.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.954840",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106056"
+        },
+        {
+          "relevance_score": "0.747571",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.050216"
+        },
+        {
+          "relevance_score": "0.628416",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.061963"
+        }
+      ],
+      "time_published": "20160819T055226",
+      "title": "AMD moving headquarters to Santa Clara, ending 47-year history in Sunnyvale",
+      "topics": [
+        {
+          "relevance_score": "0.906766",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.747579",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanjose/news/2016/08/19/amd-moving-headquarters-to-santa-clara-ending-47.html"
+    },
+    {
+      "authors": [
+        "Mollie Ruiz-Hopper"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.332852,
+      "source": "Windows Blog",
+      "source_domain": "Windows Blog",
+      "summary": "HP has unveiled a new class of Windows 10 gaming devices, including the OMEN X Desktop, OMEN X by HP Curved Display, OMEN by HP with SteelSeries accessories, and the OMEN 17 Laptop. These new products are designed to provide the ultimate PC gaming experience, featuring advanced thermal management, powerful processors and graphics, and specialized accessories. The OMEN X Desktop offers full customization and will be available in configurations starting at $2,099.99 in October, while the OMEN 17 Laptop, priced from $1,599.99, focuses on portability and performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.480664"
+        },
+        {
+          "relevance_score": "0.628277",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337491"
+        },
+        {
+          "relevance_score": "0.550469",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338738"
+        },
+        {
+          "relevance_score": "0.562668",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307770"
+        },
+        {
+          "relevance_score": "0.568815",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308701"
+        }
+      ],
+      "time_published": "20160816T064144",
+      "title": "HP unveils a new class of Windows 10 gaming devices",
+      "topics": [
+        {
+          "relevance_score": "0.947946",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.windows.com/windowsexperience/2016/08/16/hp-unveils-a-new-class-of-windows-10-gaming-devices/"
+    },
+    {
+      "authors": [
+        "Allyn Malventano"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.255747,
+      "source": "PC Perspective",
+      "source_domain": "PC Perspective",
+      "summary": "Micron announced new 3D UFS SSDs at FMS 2016, designed for mobile devices to replace eMMC with faster storage. These 3D NAND-based solutions offer 32GB capacity and include LPDDR4X for power savings. Micron also officially branded its 3D XPoint technology as \"QuantX,\" similar to Intel's Optane branding.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.635778"
+        },
+        {
+          "relevance_score": "0.607711",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.203121"
+        },
+        {
+          "relevance_score": "0.607484",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128279"
+        }
+      ],
+      "time_published": "20160809T070154",
+      "title": "FMS 2016: Micron Launches 3D UFS SSDs, Brands 3D XPoint as QuantX",
+      "topics": [
+        {
+          "relevance_score": "0.941295",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://pcper.com/2016/08/fms-2016-micron-launches-3d-ufs-ssds-brands-3d-xpoint-as-quantx/"
+    },
+    {
+      "authors": [
+        "Patrick Moorhead"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.283763,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Patrick Moorhead reviews the HP Spectre 13 after a month of use, highlighting its incredibly thin design, premium build quality, and surprisingly high-performance components for such a slim device. He discusses its features like the piston hinge, Intel Core i7 processor, PCIe storage, and USB Type-C ports with Thunderbolt 3, as well as the trade-offs such as the non-touch display and battery life under continuous use. Moorhead concludes that the Spectre 13 is a marvel of engineering, setting a new standard for premium, thin, and light laptops.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.996599",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.480162"
+        },
+        {
+          "relevance_score": "0.745288",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347359"
+        },
+        {
+          "relevance_score": "0.553932",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102636"
+        },
+        {
+          "relevance_score": "0.607330",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144698"
+        }
+      ],
+      "time_published": "20160804T085300",
+      "title": "HP Spectre 13: A Month With What Could Be The Sexiest Laptop Alive",
+      "topics": [
+        {
+          "relevance_score": "0.924048",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/patrickmoorhead/2016/08/04/hp-spectre-13-a-month-with-what-could-be-the-sexiest-laptop-alive/"
+    },
+    {
+      "authors": [
+        "Brian Benchoff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333037,
+      "source": "Hackaday",
+      "source_domain": "Hackaday",
+      "summary": "Analog Devices and Linear Technology are merging in a $30 billion deal, following a trend of consolidation in the semiconductor industry. The move, expected to save $150 million annually, raises questions about the future landscape of the industry and potential for a single gigantic semiconductor company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.995941",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.449968"
+        },
+        {
+          "relevance_score": "0.617799",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311696"
+        },
+        {
+          "relevance_score": "0.602522",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344129"
+        },
+        {
+          "relevance_score": "0.595284",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311951"
+        }
+      ],
+      "time_published": "20160726T075150",
+      "title": "Mergers And Acquisitions: Analog And Linear",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.904570",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://hackaday.com/2016/07/26/mergers-and-acquisitions-analog-and-linear/"
+    },
+    {
+      "authors": [
+        "The Week Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.119739,
+      "source": "The Week",
+      "source_domain": "The Week",
+      "summary": "The article discusses the controversial \u00a324bn acquisition of UK tech firm ARM Holdings by Japanese company Softbank. It explores arguments from critics who view it as a surrender of British innovation and warn of potential job losses and compromised independence, contrasting these with perspectives that see the investment as an endorsement of UK tech and a necessary step for ARM to compete globally. The deal\u2019s impact on Softbank\u2019s share price and potential rival bids are also examined.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ARM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.058378"
+        },
+        {
+          "relevance_score": "0.576966",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111640"
+        },
+        {
+          "relevance_score": "0.716322",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105571"
+        },
+        {
+          "relevance_score": "0.643377",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244668"
+        },
+        {
+          "relevance_score": "0.525406",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136539"
+        }
+      ],
+      "time_published": "20160725T055658",
+      "title": "Is the sale of ARM a 'surrender' or an 'endorsement' for the UK?",
+      "topics": [
+        {
+          "relevance_score": "0.934121",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.804374",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.646261",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://theweek.com/74605/is-24bn-arm-takeover-now-in-doubt"
+    },
+    {
+      "authors": [
+        "Robert Lavine"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.180738,
+      "source": "Global Corporate Venturing",
+      "source_domain": "Global Corporate Venturing",
+      "summary": "Impinj, a US-based radio-frequency identification technology provider, successfully raised $67.2 million in its initial public offering, pricing shares at $14.00. The company, which develops item tracking technology, saw its stock open strongly on Nasdaq, increasing over 28% from its IPO price. Intel, an early investor, saw its stake diluted from 8.1% to 5.9% following the IPO, alongside other significant shareholders like Arch Venture Partners and Polaris.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.449639"
+        },
+        {
+          "relevance_score": "0.830688",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145887"
+        },
+        {
+          "relevance_score": "0.700997",
+          "ticker": "UPS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131154"
+        },
+        {
+          "relevance_score": "0.613380",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108437"
+        }
+      ],
+      "time_published": "20160722T071622",
+      "title": "Intel tracks exit in $67m Impinj IPO",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.933365",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.828768",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://globalventuring.com/blog/2016/07/22/intel-tracks-exit-in-67m-impinj-ipo/"
+    },
+    {
+      "authors": [
+        "Brian Barrett"
+      ],
+      "banner_image": "https://media.wired.com/photos/5926ecba8d49a71691a32aea/master/w_2560%2Cc_limit/ARMsoftbankGettyImages-545277564.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.094229,
+      "source": "WIRED",
+      "source_domain": "WIRED",
+      "summary": "SoftBank has bid $32 billion to acquire ARM Holdings, a company known for designing chips found in smartphones. The acquisition is a strategic move by SoftBank to capitalize on the nascent but growing Internet of Things (IoT) market, anticipating that ARM's technology, which is ideal for IoT applications, can replicate its success in mobile. This bet comes as smartphone sales are slowing, highlighting SoftBank's pivot towards future growth areas.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ARM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425002"
+        },
+        {
+          "relevance_score": "0.633053",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.338685"
+        }
+      ],
+      "time_published": "20160718T162100",
+      "title": "Softbank Is Betting $32 Billion on ARM That the Internet of Things Will Pay Out",
+      "topics": [
+        {
+          "relevance_score": "0.946087",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.801629",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wired.com/2016/07/softbank-arm-acquisition/"
+    },
+    {
+      "authors": [
+        "Arjun Kharpal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.272583,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Japan's Softbank has agreed to acquire U.K. semiconductor firm ARM Holdings for over $32 billion. ARM supplies chip designs for major tech companies like Apple, Samsung, and Huawei, and Softbank aims to strengthen its presence in the growing internet of things (IoT) sector. The deal, which offers a 43 percent premium on ARM's stock, is Softbank's bid to aggressively expand into new markets like IoT and connected cars.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300356",
+          "ticker": "ARM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.025160"
+        },
+        {
+          "relevance_score": "0.714890",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270713"
+        },
+        {
+          "relevance_score": "0.625256",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335164"
+        },
+        {
+          "relevance_score": "0.647315",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333975"
+        },
+        {
+          "relevance_score": "0.620648",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334418"
+        }
+      ],
+      "time_published": "20160718T085400",
+      "title": "Japan\u2019s Softbank to buy chip-design powerhouse ARM for $32 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.924570",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.624161",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cnbc.com/2016/07/17/softbank-poised-to-take-uks-arm-for-234-billion.html"
+    },
+    {
+      "authors": [
+        "Jasen Lee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.245338,
+      "source": "Deseret News",
+      "source_domain": "Deseret News",
+      "summary": "IM Flash, a joint venture between Micron and Intel, announced it would lay off about 7% of its Utah workforce, approximately 130 positions, as a cost-cutting measure to remain competitive in the flash memory industry. The company stated the workforce reduction is aimed at achieving greater efficiencies and saving costs in a highly competitive market for an article about layoffs at IM Flash.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.209730"
+        },
+        {
+          "relevance_score": "0.908807",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.213544"
+        }
+      ],
+      "time_published": "20160711T145000",
+      "title": "IM Flash to lay off 7% of Utah workforce",
+      "topics": [
+        {
+          "relevance_score": "0.715575",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.829440",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.615789",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.deseret.com/2016/7/11/20591763/im-flash-to-lay-off-7-of-utah-workforce/"
+    },
+    {
+      "authors": [
+        "Alan Lu"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.08098,
+      "source": "IT Pro",
+      "source_domain": "IT Pro",
+      "summary": "The HP EliteBook Folio G1 is reviewed, highlighting its sleek design and comfortable keyboard as positives, but criticizing its problematic touchpad, awkward port placement, overheating issues, and inconsistent battery life. Despite its attractive appearance and portability, the numerous functional flaws make it difficult to recommend wholeheartedly. The article details its specifications and compares it to other ultra-portable laptops.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.973905",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.301903"
+        },
+        {
+          "relevance_score": "0.704552",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.063416"
+        },
+        {
+          "relevance_score": "0.686570",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.087436"
+        }
+      ],
+      "time_published": "20160706T064146",
+      "title": "HP EliteBook Folio G1 review",
+      "topics": [
+        {
+          "relevance_score": "0.946975",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.itpro.com/ultra-portable-laptops/26855/hp-elitebook-folio-g1-review"
+    },
+    {
+      "authors": [
+        "Malia Spencer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.230378,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "HP, which has been in Vancouver since 1979, is expanding its operations and hiring new workers. The company now occupies 275,000 square feet, including a new 58,000 square foot office that currently houses 250 employees but has room for growth as HP plans to hire more. This expansion highlights HP's continued presence and investment in the Vancouver area.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.936351",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301643"
+        },
+        {
+          "relevance_score": "0.632288",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148435"
+        }
+      ],
+      "time_published": "20160630T115300",
+      "title": "HP is hiring. Here's the expanded Vancouver space where some newbies might work (Photos)",
+      "topics": [
+        {
+          "relevance_score": "0.834643",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/portland/blog/techflash/2016/06/hp-is-hiring-heres-the-expanded-vancouver-space.html"
+    },
+    {
+      "authors": [
+        "Don Clark and Ezequiel Minaya"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.246145,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Micron Technology Inc. reported a loss in its recent quarter and unveiled plans for job cuts as it grapples with declining demand for personal computers and difficulties in the mobile phone market. The company aims to reduce its workforce by about 7.5% through layoffs and eliminating open positions, impacting around 2,400 jobs from its total of 32,000 employees. This cost-cutting program is expected to save approximately $80 million per quarter during fiscal year 2017.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.434644"
+        },
+        {
+          "relevance_score": "0.719463",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.228773"
+        },
+        {
+          "relevance_score": "0.644804",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.234463"
+        },
+        {
+          "relevance_score": "0.602343",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.217369"
+        },
+        {
+          "relevance_score": "0.638042",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232969"
+        }
+      ],
+      "time_published": "20160630T070154",
+      "title": "Micron Swings to Loss in Latest Quarter, Announces Job Cuts",
+      "topics": [
+        {
+          "relevance_score": "0.943844",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.827478",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/micron-swings-to-loss-in-latest-quarter-announces-job-cuts-1467319609?gaa_at=eafs&gaa_n=AWEtsqf3SsDKpYDyfZB3Af8D7UhIgoTODhCfM0VQGdjN2LoHaKkFai0ENi3C&gaa_ts=690856a2&gaa_sig=S8PqL7fVzQ-SU6Lz-4H-U_8gWoIbFTNNcP0EWrB5slTXqWtwaolXtS4ybt5a-vySiAfDsL7ygwYWz_plODd-bg%3D%3D"
+    },
+    {
+      "authors": [
+        "Lisa Wang"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.192813,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "Hermes Microvision Inc (HMI) accepted a NT$100 billion (US$3.09 billion) buyout offer from ASML Holding NV, aiming to jointly develop advanced inspection technologies for smaller chips and address challenges in sub-10 nanometer dimensions. The acquisition will make HMI a wholly-owned subsidiary of ASML, boost HMI's e-beam business, and enable it to compete better with rivals. The deal marks the second-largest acquisition in Taiwan this year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.472568"
+        },
+        {
+          "relevance_score": "0.610030",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129513"
+        },
+        {
+          "relevance_score": "0.723019",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135796"
+        },
+        {
+          "relevance_score": "0.649431",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106782"
+        },
+        {
+          "relevance_score": "0.632648",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149348"
+        }
+      ],
+      "time_published": "20160617T055704",
+      "title": "HMI agrees to NT$100m buyout bid from ASML",
+      "topics": [
+        {
+          "relevance_score": "0.922351",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.846854",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/front/archives/2016/06/17/2003648801"
+    },
+    {
+      "authors": [
+        "Quentin Hardy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.202852,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Regeneron Pharmaceuticals has committed to a 10-year, $100 million sponsorship of the Science Talent Search, significantly increasing its funding. This comes after Intel's unexpected withdrawal from sponsoring the competition last year. The announcement highlights the growing involvement of American businesses in supporting STEM education.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "REGN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.264709"
+        },
+        {
+          "relevance_score": "0.603122",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144327"
+        }
+      ],
+      "time_published": "20160526T072128",
+      "title": "Regeneron Pharmaceuticals to Sponsor Science Talent Search (Published 2016)",
+      "topics": [
+        {
+          "relevance_score": "0.902778",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.744708",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2016/05/26/technology/regeneron-pharmaceuticals-to-sponsor-science-talent-search.html"
+    },
+    {
+      "authors": [
+        "Ron Winslow"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.032581,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Regeneron Pharmaceuticals Inc. has been selected as the new named sponsor of the Science Talent Search, a 75-year-old high-school science competition. This marks Regeneron as the third corporate benefactor, succeeding Intel Corp. Notably, Regeneron's top two executives are alumni of the competition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "REGN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277963"
+        },
+        {
+          "relevance_score": "0.647516",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.247589"
+        }
+      ],
+      "time_published": "20160526T072128",
+      "title": "Regeneron Named as Science Talent Search Sponsor",
+      "topics": [
+        {
+          "relevance_score": "0.927998",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.613530",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/regeneron-named-as-science-talent-search-sponsor-1464235262?gaa_at=eafs&gaa_n=AWEtsqeQHf9w121suWmReu6IuFpYVGHG6X5zL1MHZE-9Ljaqm7XpiwRXsbo-&gaa_ts=69085b36&gaa_sig=N_A5BWkU8gaOSVa9WtQJo17KMyCUgKnd6hGMxpLijiBBQ57TjVB69Lf3A41Qcddld3pGi4Em9nbbm9jg4QRMKA%3D%3D"
+    },
+    {
+      "authors": [
+        "Ransdell Pierson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.098522,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Regeneron Pharmaceuticals Inc. has replaced Intel Corp. as the title sponsor of the U.S. Science Talent Search, pledging $100 million through 2026. This move doubles awards for top scientists and their schools, reflecting the personal commitment of Regeneron's two top executives who were past participants in the competition. The sponsorship change highlights a shift from tech to biotech as Intel ends its 18-year involvement, possibly due to austerity measures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972901",
+          "ticker": "REGN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334210"
+        },
+        {
+          "relevance_score": "0.839811",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.218106"
+        }
+      ],
+      "time_published": "20160526T040500",
+      "title": "Biotech Regeneron replaces Intel as sponsor of Science Talent Search",
+      "topics": [
+        {
+          "relevance_score": "0.923374",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.812445",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/lifestyle/science/biotech-regeneron-replaces-intel-as-sponsor-of-science-talent-search-idUSKCN0YH09F/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.413859,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "ANSYS has introduced ANSYS SeaScape and ANSYS SeaHawk, the industry's first big data and machine learning system for engineering simulation. This new platform leverages elastic computing and big data technologies to accelerate the optimization of next-generation chips, leading to significant reductions in die size and development time for electronic products. The collaboration with Intel Corporation has optimized SeaScape to utilize multi-core Intel Xeon processors, enabling improved simulation performance and design insights.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ANSS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.524242"
+        },
+        {
+          "relevance_score": "0.883214",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312995"
+        }
+      ],
+      "time_published": "20160519T070900",
+      "title": "ANSYS Introduces First Big Data and Machine Learning System For Engineering Simulation",
+      "topics": [
+        {
+          "relevance_score": "0.914905",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.725338",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/ansys-introduces-first-big-data-and-machine-learning-system-for-engineering-simulation-300271454.html"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://content.fortune.com/wp-content/uploads/2016/05/rtxp69y.jpg?resize=1200,600",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.18543,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Oracle\u2019s CEO Safra Catz testified in court that Google's distribution of Android for free significantly impacted Oracle's licensing revenue from Java, causing a \"very negative impact\" on payments from companies like Samsung and Amazon. Oracle claimed Google stole its copyrighted software for the smartphone market, leading to a lawsuit seeking $9 billion in damages. Catz also revealed that Oracle had considered developing its own phone but ultimately did not pursue the project.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.276826"
+        },
+        {
+          "relevance_score": "0.864362",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.331008"
+        },
+        {
+          "relevance_score": "0.868851",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.325696"
+        },
+        {
+          "relevance_score": "0.620462",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128488"
+        },
+        {
+          "relevance_score": "0.709548",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032030"
+        }
+      ],
+      "time_published": "20160517T071207",
+      "title": "Oracle Says It Considered Developing Its Own Phone Before Google Suit",
+      "topics": [
+        {
+          "relevance_score": "0.949768",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://fortune.com/2016/05/17/oracle-safra-catz-google-revenue/"
+    },
+    {
+      "authors": [
+        "Puja Tayal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.028269,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "NVIDIA reported strong revenue growth in 2015, outperforming the declining semiconductor industry, by focusing on strategic growth opportunities in geography and new technology. The company's success is attributed to its two-part business model: platform and network, which it successfully applied from gaming to other markets like automotive and data centers. This approach allows NVIDIA to reach a larger user base and drive growth amidst industry slowdowns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.607892",
+          "ticker": "IWD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101348"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428229"
+        },
+        {
+          "relevance_score": "0.712092",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.225613"
+        },
+        {
+          "relevance_score": "0.603954",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.240217"
+        },
+        {
+          "relevance_score": "0.635807",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224734"
+        }
+      ],
+      "time_published": "20160510T022400",
+      "title": "NVIDIA\u2019s Strategy to Reach Out to a Larger User Base",
+      "topics": [
+        {
+          "relevance_score": "0.881769",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.800695",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602563",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://marketrealist.com/2016/05/nvidias-strategy-reach-larger-user-base/"
+    },
+    {
+      "authors": [
+        "Mollie Ruiz-Hopper"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.382299,
+      "source": "Windows Blog",
+      "source_domain": "Windows Blog",
+      "summary": "HP Inc. unveiled a redesigned portfolio of Windows 10 PCs, including convertibles, notebooks, and desktops, aimed at students and families. These new devices feature updated color options, B&O PLAY audio, 6th generation Intel processors, and Windows Hello biometric authentication. The article details the specific features, pricing, and availability of the HP Pavilion x360, HP Pavilion All-in-Ones, and HP Pavilion Desktop.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.444175"
+        },
+        {
+          "relevance_score": "0.748793",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345818"
+        },
+        {
+          "relevance_score": "0.643849",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312096"
+        }
+      ],
+      "time_published": "20160503T064145",
+      "title": "HP announces redesigned portfolio of Windows 10 PCs",
+      "topics": [
+        {
+          "relevance_score": "0.933793",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.windows.com/windowsexperience/2016/05/03/hp-announces-redesigned-portfolio-of-windows-10-pcs/"
+    },
+    {
+      "authors": [
+        "Chris Lange"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.037158,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Short interest data for semiconductor stocks as of April 15 showed mixed trends. While some companies like Intel and Broadcom saw slight increases in short interest, others such as AMD, Qualcomm, and Micron experienced decreases. The report highlights individual company figures, 52-week trading ranges, and changes in short interest compared to previous periods for several major semiconductor firms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249061"
+        },
+        {
+          "relevance_score": "0.926267",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007643"
+        },
+        {
+          "relevance_score": "0.701770",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237079"
+        },
+        {
+          "relevance_score": "0.630930",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.000369"
+        }
+      ],
+      "time_published": "20160427T082500",
+      "title": "Short Interest on Major Semiconductors Remains Mixed",
+      "topics": [
+        {
+          "relevance_score": "0.933146",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.817726",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://247wallst.com/technology-3/2016/04/27/short-interest-on-major-semiconductors-remains-mixed/"
+    },
+    {
+      "authors": [
+        "Khalid Moammer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.359252,
+      "source": "Wccftech",
+      "source_domain": "Wccftech",
+      "summary": "AMD's stock surged 52% to $3.99, marking its highest single-day gain since its 1979 listing, driven by a strong Q1 2016 report and optimistic Q2 outlook. The company announced a lucrative joint venture for x86 chips in China and revealed three new semicustom wins estimated at $1.5 billion, with anticipated product launches like Polaris GPUs and Zen CPUs expected to significantly boost future earnings. These new products are crucial for AMD's long-term success and market re-entry into high-end CPU segments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.957404",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.792566"
+        },
+        {
+          "relevance_score": "0.645669",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130375"
+        },
+        {
+          "relevance_score": "0.614348",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308628"
+        },
+        {
+          "relevance_score": "0.550919",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127998"
+        }
+      ],
+      "time_published": "20160422T184700",
+      "title": "AMD Stock Up 52%, The Highest Climb Since Its Listing",
+      "topics": [
+        {
+          "relevance_score": "0.939114",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.806086",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.905404",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://wccftech.com/amd-stock-52-highest-percentage-gain-listing/"
+    },
+    {
+      "authors": [
+        "David Gilbert"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.118047,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "Apple has refreshed its 12-inch MacBook with the latest Intel Skylake processors, offering improved performance and an additional 30 minutes of battery life. The new models also feature 8GB of RAM as standard and introduce a rose gold color option, bringing the laptop's aesthetic in line with Apple's iOS devices. Configurations start at $1,299 for the 1.1 GHz Core m3 model and $1,599 for the 1.2GHz Core m5 version.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.959525",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319636"
+        },
+        {
+          "relevance_score": "0.739057",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245253"
+        },
+        {
+          "relevance_score": "0.630561",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140388"
+        },
+        {
+          "relevance_score": "0.596690",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.086891"
+        }
+      ],
+      "time_published": "20160419T093100",
+      "title": "Apple Inc. MacBook Updated With Faster Processors, Longer Battery Life And Rose Gold Option",
+      "topics": [
+        {
+          "relevance_score": "0.918408",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ibtimes.com/apple-inc-macbook-updated-faster-processors-longer-battery-life-rose-gold-option-2356037"
+    },
+    {
+      "authors": [
+        "Bourree Lam"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.269566,
+      "source": "The Atlantic",
+      "source_domain": "The Atlantic",
+      "summary": "Leyla Seka and Cindy Robbins, two senior Salesforce employees, successfully convinced CEO Marc Benioff to conduct an internal salary audit that revealed and corrected gender-pay disparities, costing the company $3 million. Their initiative, born from their involvement in the Women\u2019s Surge program, led to 6% of employees receiving raises for equal pay. Seka and Robbins hope their experience encourages other companies to address pay equality, emphasizing the importance of transparency and courage.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331012"
+        },
+        {
+          "relevance_score": "0.674376",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.293061"
+        },
+        {
+          "relevance_score": "0.607287",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.286056"
+        },
+        {
+          "relevance_score": "0.567660",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278496"
+        }
+      ],
+      "time_published": "20160412T061237",
+      "title": "The Two Women Who Kicked Off Salesforce's Company-Wide Salary Review",
+      "topics": [
+        {
+          "relevance_score": "0.804494",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theatlantic.com/business/archive/2016/04/salesforce-seka-robbins/477912/"
+    },
+    {
+      "authors": [
+        "Don Clark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.358052,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Enovix Corp. is addressing mobile device battery life complaints by using manufacturing techniques borrowed from computer chip and solar cell makers, rather than focusing on chemistry changes. The Silicon Valley startup aims to produce batteries for wearables and other mobile applications with at least double the capacity of current products. The company is backed by Intel and Qualcomm.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ENVX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.508319"
+        },
+        {
+          "relevance_score": "0.714371",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329307"
+        },
+        {
+          "relevance_score": "0.728104",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300337"
+        },
+        {
+          "relevance_score": "0.636964",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332875"
+        },
+        {
+          "relevance_score": "0.614687",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346893"
+        }
+      ],
+      "time_published": "20160406T062159",
+      "title": "Enovix Tries to Build a Better Battery With Chipmaking Techniques",
+      "topics": [
+        {
+          "relevance_score": "0.900124",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.708410",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.629621",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/enovix-tries-to-build-a-better-battery-with-chipmaking-techniques-1459978546?gaa_at=eafs&gaa_n=AWEtsqdgvYdngUDZbkKhvvdT9kBXJzQ_XramcJXxr59JK4kLx6TA9_MyRCXE&gaa_ts=69084d53&gaa_sig=X_qNy2XXdQptNdQwaP6wFGRXWIpojYgM-To7qAhoDmgzxoqiqtaBMSj4GPoeq6luFH8GjWsbV36-kTir9A7qBw%3D%3D"
+    },
+    {
+      "authors": [
+        "Fred Lambert"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.072575,
+      "source": "Electrek",
+      "source_domain": "Electrek",
+      "summary": "Tesla has significantly expanded its Autopilot team by hiring top chip architects and executives from AMD, following the earlier recruitment of legendary chip architect Jim Keller. This move suggests Tesla is developing its second-generation Autopilot hardware to enable fully autonomous driving, potentially hinting at the company designing its own chips despite past collaborations with NVIDIA and Mobileye. The new hires include key figures like David Glasco, Thaddeus Fortenberry, Debjit Das Sarma, and Keith Witek, all working under Keller's leadership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224831"
+        },
+        {
+          "relevance_score": "0.922358",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225273"
+        },
+        {
+          "relevance_score": "0.626278",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104995"
+        },
+        {
+          "relevance_score": "0.865859",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.197559"
+        },
+        {
+          "relevance_score": "0.592062",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.147375"
+        }
+      ],
+      "time_published": "20160405T082000",
+      "title": "Tesla poached a team of chip architects and execs from AMD to develop the next gen Autopilot",
+      "topics": [
+        {
+          "relevance_score": "0.938345",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.730568",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://electrek.co/2016/04/05/tesla-chip-architect-amd-autopilot/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.257905,
+      "source": "NVIDIA Newsroom",
+      "source_domain": "NVIDIA Newsroom",
+      "summary": "NVIDIA has unveiled the NVIDIA DGX-1, which it claims is the world's first deep learning supercomputer designed to meet the demands of artificial intelligence. This system integrates hardware, deep learning software, and development tools, delivering the equivalent throughput of 250 x86 servers. Powered by NVIDIA Tesla P100 GPUs and built on the new NVIDIA Pascal GPU architecture, the DGX-1 aims to significantly accelerate the training of sophisticated deep neural networks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.488744"
+        },
+        {
+          "relevance_score": "0.623622",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107864"
+        },
+        {
+          "relevance_score": "0.607964",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349506"
+        }
+      ],
+      "time_published": "20160405T070644",
+      "title": "NVIDIA Launches World's First Deep Learning Supercomputer",
+      "topics": [
+        {
+          "relevance_score": "0.943657",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-world-s-first-deep-learning-supercomputer"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.341295,
+      "source": "Renesas Electronics",
+      "source_domain": "Renesas Electronics",
+      "summary": "Integrated Device Technology, Inc. (IDT) announced that its memory interface components (4RCD0124K register, 4DB0226KA3 data buffer, and TSE2004 temperature sensor) have been qualified by industry leaders for DDR4 DIMM applications on Intel Xeon processor E5-2600 v4 family-based systems. This qualification highlights IDT's leadership in optimizing DDR4 performance, latency, and power, enabling significant performance gains for various demanding applications. The chipset, compliant with JEDEC specifications, facilitates up to 3 TB of memory capacity and achieves top memory bandwidth on fully populated systems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.871331",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300541"
+        },
+        {
+          "relevance_score": "0.988933",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404946"
+        },
+        {
+          "relevance_score": "0.825786",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316203"
+        },
+        {
+          "relevance_score": "0.934396",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.444468"
+        },
+        {
+          "relevance_score": "0.637806",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213702"
+        }
+      ],
+      "time_published": "20160405T070155",
+      "title": "IDT Memory Interface Devices Qualified for DDR4 Enterprise DIMMs on Intel Xeon Processor E5-2600 v4 Product Family-Based Systems",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.renesas.com/en/about/newsroom/idt-memory-interface-devices-qualified-ddr4-enterprise-dimms-intel-xeon-processor-e5-2600-v4-product"
+    },
+    {
+      "authors": [
+        "Paul Alcorn"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.459043,
+      "source": "Tom's Hardware",
+      "source_domain": "Tom's Hardware",
+      "summary": "This segment of the Intel Xeon E5-2600 v4 review focuses on Supermicro and NVMe RAID testing, showcasing its ability to achieve over 3 million IOPS and 21 GB/s sequential read throughput in a compact 1U server. The article details the setup using Intel DC P3700 SSDs and highlights the importance of multi-core CPUs for maximizing NVMe performance in server environments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SMCI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.719846"
+        },
+        {
+          "relevance_score": "0.930113",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341344"
+        },
+        {
+          "relevance_score": "0.645060",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344946"
+        }
+      ],
+      "time_published": "20160331T073245",
+      "title": "Intel Xeon E5-2600 v4 Broadwell-EP Review",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602758",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.tomshardware.com/reviews/intel-xeon-e5-2600-v4-broadwell-ep,4514-4.html"
+    },
+    {
+      "authors": [
+        "Patrick Kennedy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.266214,
+      "source": "ServeTheHome",
+      "source_domain": "ServeTheHome",
+      "summary": "Supermicro has announced extensive support for the new Intel Xeon E5-2600 v4 processor family across its server, storage, and workstation product lines, alongside new NVMe SSDs launched by Intel. This update includes over 200 building blocks leveraging the increased compute performance and up to 44 cores and 3TB of 2400MHz DDR4 memory. Supermicro highlights solutions like the 2U TwinPro, 2U Simply Double with 48x 2.5\u201d hot-swap NVMe/SAS3 drives, and 4U 60x 3.5\u201d hot-swap bay SuperStorage, aiming to provide highly scalable, energy-efficient IaaS offerings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SMCI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417290"
+        },
+        {
+          "relevance_score": "0.826803",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314827"
+        },
+        {
+          "relevance_score": "0.621109",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112223"
+        },
+        {
+          "relevance_score": "0.601071",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101006"
+        }
+      ],
+      "time_published": "20160331T073245",
+      "title": "Supermicro Intel Xeon E5-2600 V4 server updates and NVMe expansion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.servethehome.com/supermicro-intel-xeon-e5-2600-v4-server-updates-nvme/"
+    },
+    {
+      "authors": [
+        "William Harmon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.397671,
+      "source": "ServeTheHome",
+      "source_domain": "ServeTheHome",
+      "summary": "This article reviews the Supermicro SuperServer 8048B-TR4FT, a 4-socket Intel Xeon E7 V3 platform designed for demanding server workloads. It details the server's specifications, target markets like business processing, analytics, and virtualization, and provides performance benchmarks and power consumption tests. The review highlights the server's impressive CPU and memory bandwidth performance, suitable for mission-critical applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SMCI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.540670"
+        },
+        {
+          "relevance_score": "0.878073",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328475"
+        },
+        {
+          "relevance_score": "0.602664",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301034"
+        }
+      ],
+      "time_published": "20160324T110000",
+      "title": "Supermicro SuperServer 8048B-TR4FT 4P E7 V3 big iron!",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.servethehome.com/supermicro-superserver-8048b-tr4ft-4p-e7-v3-big-iron/"
+    },
+    {
+      "authors": [
+        "Josh Grunzweig",
+        "Bryan Lee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.159496,
+      "source": "Unit 42",
+      "source_domain": "Unit 42",
+      "summary": "This article details the evolution of the SamSa ransomware, first observed in December 2015, highlighting a shift towards targeted attacks rather than broad-net phishing campaigns. It discusses how the malware is manually deployed post-compromise using common system administrator tools and outlines its technical changes over time, including code obfuscation, file extension variations, ransom notice alterations, and changes in Bitcoin demands. Palo Alto Networks also tracks the attacker's profits and speculates on possible links to high-profile ransomware incidents.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344309"
+        },
+        {
+          "relevance_score": "0.641510",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127043"
+        },
+        {
+          "relevance_score": "0.620433",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145023"
+        },
+        {
+          "relevance_score": "0.627099",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127570"
+        }
+      ],
+      "time_published": "20160324T071215",
+      "title": "Evolution of SamSa Malware Suggests New Ransomware Tactics In Play",
+      "topics": [
+        {
+          "relevance_score": "0.909046",
+          "topic": "blockchain"
+        },
+        {
+          "relevance_score": "0.807413",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://unit42.paloaltonetworks.com/evolution-of-samsa-malware-suggests-new-ransomware-tactics-in-play/"
+    },
+    {
+      "authors": [
+        "Patrick Moorhead"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.25298,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "AMD has partnered with HP to deliver affordable enterprise client computing solutions, particularly highlighted by the HP EliteBook 725 G3. This notebook features AMD PRO APUs and provides enterprise-grade security and manageability, aiming to offer a competitive alternative in the business laptop market. The article details features, performance, and price point of the EliteBook 725 G3, emphasizing its suitability for corporate environments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.999423",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419994"
+        },
+        {
+          "relevance_score": "0.870360",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341690"
+        },
+        {
+          "relevance_score": "0.609730",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.076343"
+        },
+        {
+          "relevance_score": "0.598490",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135738"
+        }
+      ],
+      "time_published": "20160315T081000",
+      "title": "AMD Delivers Affordable Enterprise Client Computing With HP's EliteBook 725 G3",
+      "topics": [
+        {
+          "relevance_score": "0.909731",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/patrickmoorhead/2016/03/15/amd-delivers-affordable-enterprise-client-computing-with-hps-elitebook-725-g3/"
+    },
+    {
+      "authors": [
+        "Don Clark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.105872,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Intel has disclosed a compensation package for Venkata \u2018Murthy\u2019 Renduchintala, an executive recruited from rival Qualcomm, that could exceed $25 million. The comprehensive package includes an $8.1 million sign-on bonus, an initial $8.1 million in restricted stock units, an annual salary of $900,000, and eligibility for an annual cash bonus of up to $2.1 million, along with a performance-based equity award of up to $6 million per year. Renduchintala will serve as executive vice president and president overseeing most of Intel\u2019s product businesses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.827294",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108636"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107869"
+        }
+      ],
+      "time_published": "20160212T071649",
+      "title": "Intel to Pay $25 Million to Former Qualcomm Executive",
+      "topics": [
+        {
+          "relevance_score": "0.912836",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.827290",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/intel-to-pay-25-million-to-former-qualcomm-executive-1455312038?gaa_at=eafs&gaa_n=AWEtsqdUAV9ENhM0BMfdGv4SXsf_0IpPi6ZxapccxMDIZsraUhK1M3PVcaIC&gaa_ts=69085a3d&gaa_sig=Q1w7SFepF6ZmFn-2VYEWrea4WK-eYCNHKDZXx6UoEYkflRJnxCh5wKVAad8EhgiUWLWLPPAhlLb6yysp7uZx5Q%3D%3D"
+    },
+    {
+      "authors": [
+        "JUMOKE AKIYODE"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.312659,
+      "source": "Businessday NG",
+      "source_domain": "Businessday NG",
+      "summary": "AG Mobile, a South African mobile technology company, has launched its products in Nigeria, marking its ninth African market entry and first independent launch without a retail partner. This move is part of the brand's expansion strategy to provide affordable and quality products to more Africans, establishing partnerships with local brands like MTN, Etisalat, Ringo, and Jumia. The company emphasizes advanced specifications, features, and customer service, leveraging a strategic partnership with MediaTek Inc. for its device technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.821148",
+          "ticker": "JMIA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325609"
+        },
+        {
+          "relevance_score": "0.598703",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.275792"
+        }
+      ],
+      "time_published": "20160209T065123",
+      "title": "AG Mobile launches in Nigeria",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://businessday.ng/technology/article/ag-mobile-launches-in-nigeria/"
+    },
+    {
+      "authors": [
+        "Patrick Kennedy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.200506,
+      "source": "ServeTheHome",
+      "source_domain": "ServeTheHome",
+      "summary": "This article reviews the Supermicro X10SDV-4C-TLN4F motherboard featuring the new Intel Xeon D-1518 processor. The platform, designed for low power consumption, offers a 4 core/8 thread CPU with a 35W TDP and includes features like Intel DPDK support and additional 1Gb Ethernet NICs. The review highlights its compact mITX form factor, thermal performance, power consumption, and Supermicro's management features, positioning it as a strong contender for low-power 10Gbase-T platforms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SMCI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.443435"
+        },
+        {
+          "relevance_score": "0.848428",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.290584"
+        },
+        {
+          "relevance_score": "0.585610",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146643"
+        },
+        {
+          "relevance_score": "0.597212",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108366"
+        },
+        {
+          "relevance_score": "0.556659",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144051"
+        }
+      ],
+      "time_published": "20160201T073246",
+      "title": "Supermicro X10SDV-4C-TLN4F Review \u2013 Xeon D-1518 mITX",
+      "topics": [
+        {
+          "relevance_score": "0.931448",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.servethehome.com/supermicro-x10sdv-4c-tln4f-review-xeon-d-1518-mitx/"
+    },
+    {
+      "authors": [
+        "Seth Weintraub"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.185533,
+      "source": "Electrek",
+      "source_domain": "Electrek",
+      "summary": "Tesla has hired Jim Keller, a high-profile microprocessor engineer known for his work on Apple's A4 and A5 processors and AMD's Zen architecture, as Vice President of Autopilot Hardware Engineering. Keller will be responsible for developing advanced autopilot systems, leveraging his expertise in low-power design. This move follows Tesla's search for \"hardcore\" engineers for its Autopilot team and adds another Apple alumnus to its senior staff.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.887985",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109332"
+        },
+        {
+          "relevance_score": "0.999249",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414282"
+        },
+        {
+          "relevance_score": "0.734142",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.296523"
+        },
+        {
+          "relevance_score": "0.632223",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.081054"
+        },
+        {
+          "relevance_score": "0.594384",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128795"
+        }
+      ],
+      "time_published": "20160128T182600",
+      "title": "The chip guru who built Apple's Ax microprocessors joins Tesla to lead the Autopilot Hardware Engineering team",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.831340",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://electrek.co/2016/01/28/tesla-jim-keller-apple-processor-architect-2/"
+    },
+    {
+      "authors": [
+        "Tech Desk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.273018,
+      "source": "The Indian Express",
+      "source_domain": "The Indian Express",
+      "summary": "Microsoft announced that Windows 10 will be the only operating system supported on new processor generations from Intel, AMD, NVidia, and Qualcomm. The company urges users and enterprises to upgrade from Windows 7 and 8.1, with support for older OS versions on Skylake devices ending by July 2017. This move aims to ensure security and optimal performance exclusively with Windows 10.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320801"
+        },
+        {
+          "relevance_score": "0.630699",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255278"
+        },
+        {
+          "relevance_score": "0.643652",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255788"
+        },
+        {
+          "relevance_score": "0.635039",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.252249"
+        },
+        {
+          "relevance_score": "0.602966",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.269089"
+        }
+      ],
+      "time_published": "20160118T132500",
+      "title": "Microsoft: Windows 10 will be the only OS supported on new processors",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://indianexpress.com/article/technology/tech-news-technology/microsoft-windows-10-will-be-the-only-os-supported-on-new-processors/"
+    },
+    {
+      "authors": [
+        "Puja Tayal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.185885,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article analyzes Nvidia's cost structure, comparing it to competitors like AMD and Intel, to determine its favorability for investors. It examines COGS, operating expenses, and R&D spending, highlighting Nvidia's controlled expenses and stable return on equity. The analysis suggests that Nvidia's cost management positions it for stable returns in 2016.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306171"
+        },
+        {
+          "relevance_score": "0.724744",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138153"
+        },
+        {
+          "relevance_score": "0.746224",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111520"
+        },
+        {
+          "relevance_score": "0.631108",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127745"
+        }
+      ],
+      "time_published": "20160118T090600",
+      "title": "Is Nvidia\u2019s Cost Structure Favorable for Investors?",
+      "topics": [
+        {
+          "relevance_score": "0.810003",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.710865",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://marketrealist.com/2016/01/nvidias-cost-structure-favorable-investors/"
+    },
+    {
+      "authors": [
+        "Puja Tayal"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.197388,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article examines the external risks facing Nvidia (NVDA), categorized into technological, strategic, legal, and market risks. Key concerns include product defects, factors impacting gross margin, intellectual property licensing disputes, and international market exposure. The article highlights a specific patent lawsuit against Samsung and Qualcomm as a legal risk.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245632"
+        },
+        {
+          "relevance_score": "0.646061",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136982"
+        },
+        {
+          "relevance_score": "0.742693",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.235693"
+        }
+      ],
+      "time_published": "20160115T100500",
+      "title": "What External Risks Pose Threats to Nvidia?",
+      "topics": [
+        {
+          "relevance_score": "0.931544",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.637253",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://marketrealist.com/2016/01/external-risks-pose-threats-nvidia/"
+    },
+    {
+      "authors": [
+        "Scot Strong"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.372774,
+      "source": "The SSD Review",
+      "source_domain": "The SSD Review",
+      "summary": "Silicon Motion updated on their SSD controller roadmap at CES 2016, showcasing the SM2246EN's compatibility with 3D NAND from various vendors and the widely adopted SM2256 for TLC NAND. They also announced future controllers like the SM2258 for 3D TLC NAND and the SM2260, a PCIe-based controller for both 2D and 3D NAND in MLC and TLC versions, indicating continued growth in market share.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SIMO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429736"
+        },
+        {
+          "relevance_score": "0.620269",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340913"
+        },
+        {
+          "relevance_score": "0.603042",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347288"
+        }
+      ],
+      "time_published": "20160106T072701",
+      "title": "Silicon Motion Discusses Their SSD Controller Roadmap \u2014 CES 2016 Update",
+      "topics": [
+        {
+          "relevance_score": "0.902961",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.thessdreview.com/daily-news/latest-buzz/silicon-motion-discusses-their-ssd-controller-roadmap-ces-2016-update/"
+    },
+    {
+      "authors": [
+        "Ben Delaney"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.2858,
+      "source": "BikeRadar",
+      "source_domain": "BikeRadar",
+      "summary": "Garmin has introduced Varia Vision, a sunglass attachment that provides cyclists with live data directly in their line of sight. This device connects to GSP computers and other Garmin devices to display metrics like heart rate, speed, navigation, and even warnings from the Varia rearview radar, offering an alternative to self-contained smart glasses with longer battery life. The Varia Vision will be available in the first quarter of the year for $399.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.968822",
+          "ticker": "GRMN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422689"
+        },
+        {
+          "relevance_score": "0.641496",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102430"
+        }
+      ],
+      "time_published": "20160105T120000",
+      "title": "Garmin Varia Vision adds live data to your eyewear",
+      "topics": [
+        {
+          "relevance_score": "0.917712",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bikeradar.com/news/garmin-varia-vision-adds-live-data-to-your-eyewear"
+    }
+  ],
+  "items": "69",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

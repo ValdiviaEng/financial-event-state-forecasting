@@ -1,0 +1,969 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.12685,
+      "source": "Lubbock Avalanche-Journal",
+      "source_domain": "Lubbock Avalanche-Journal",
+      "summary": "Pfizer is implementing an unprecedented strategy to protect its blockbuster cholesterol drug Lipitor from generic competition, which begins this week. The company is offering substantial discounts and incentives to patients, insurers, and prescription processors to make Lipitor as cheap or cheaper than generic alternatives for at least the next six months. This aggressive move aims to retain market share for the historically best-selling drug, which still generates nearly $11 billion annually.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447495"
+        },
+        {
+          "relevance_score": "0.743975",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136227"
+        },
+        {
+          "relevance_score": "0.638824",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147695"
+        },
+        {
+          "relevance_score": "0.613963",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146455"
+        }
+      ],
+      "time_published": "20111130T172618",
+      "title": "Pfizer maneuvers to protect Lipitor from generics",
+      "topics": [
+        {
+          "relevance_score": "0.926652",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.702961",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.lubbockonline.com/story/lifestyle/health-fitness/2011/11/30/pfizer-maneuvers-to-protect-lipitor/15194863007/"
+    },
+    {
+      "authors": [
+        "Globe and Mail Update"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.326964,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Merck & Co. has agreed to pay roughly $950-million (U.S.) to settle criminal and civil charges related to the promotion of its painkiller Vioxx for unapproved uses. The settlement concludes a long-running investigation by the U.S. Justice Department into Merck's marketing practices for the drug, which was withdrawn in 2004 due to heart risks. Merck previously paid $4.85-billion in 2007 to settle lawsuits filed by former Vioxx users.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.339500"
+        }
+      ],
+      "time_published": "20111122T171615",
+      "title": "Merck to pay $950-million to settle Vioxx charges",
+      "topics": [
+        {
+          "relevance_score": "0.945327",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.707377",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/globe-investor/merck-to-pay-950-million-to-settle-vioxx-charges/article1359049/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.435834,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "US drugs firm Merck & Co has agreed to pay nearly $1bn to settle criminal and civil charges related to the marketing of its painkiller Vioxx. The company will pay a $322m criminal fine and $628m in civil charges, though it denies liability or wrongdoing. This settlement follows a 2007 payment of $4.85bn for Vioxx-related lawsuits after studies linked the drug to increased risks of heart attacks and strokes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.407822"
+        }
+      ],
+      "time_published": "20111122T171614",
+      "title": "Merck & Co agrees $1bn Vioxx settlement in US",
+      "topics": [
+        {
+          "relevance_score": "0.912231",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.738301",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bbc.com/news/business-15847909"
+    },
+    {
+      "authors": [
+        "Pierre V\u00e9ron (V\u00e9ron & Associ\u00e9s)"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.155035,
+      "source": "Wolters Kluwer",
+      "source_domain": "Wolters Kluwer",
+      "summary": "This article discusses the legal battle between Novartis and Actavis concerning the supplementary protection certificate (SPC) for valsartan, an antihypertensive compound. The core of the dispute revolves around whether the SPC for valsartan alone extends protection to combination products containing valsartan and another active ingredient like hydrochlorothiazide. Different courts in France, Norway, Austria, and Germany have issued conflicting rulings, highlighting the contentious interpretation of EU regulations on SPCs and ultimately leading to a referral to the CJEU for a preliminary ruling.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.994688",
+          "ticker": "NVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278811"
+        },
+        {
+          "relevance_score": "0.644150",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134081"
+        },
+        {
+          "relevance_score": "0.627999",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130412"
+        }
+      ],
+      "time_published": "20111121T172126",
+      "title": "SPC - Novartis v Actavis (valsartan): the sequel",
+      "topics": [
+        {
+          "relevance_score": "0.925256",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://legalblogs.wolterskluwer.com/patent-blog/spc-novartis-v-actavis-valsartan-the-sequel/"
+    },
+    {
+      "authors": [
+        "Tom Moran"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.032252,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "New Jersey loses an estimated $50 million annually due to a tax reciprocity agreement with Pennsylvania, allowing wealthy executives working in NJ to live in PA and pay lower income taxes. This loophole, dating back to 1976, benefits highly paid individuals like Johnson & Johnson CEO William Weldon, while middle-class New Jersey residents working in Pennsylvania could face higher taxes if the agreement were rescinded. Despite attempts to change it, political resistance from South Jersey, due to the potential impact on middle-class commuters, has kept the controversial system in place.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042939"
+        },
+        {
+          "relevance_score": "0.736554",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033448"
+        }
+      ],
+      "time_published": "20111120T130400",
+      "title": "Moran: N.J. lets wealthy executives live in Pennsylvania, at a big cost",
+      "topics": [
+        {
+          "relevance_score": "0.723541",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.906672",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.611169",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.615255",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nj.com/njv_tom_moran/2011/11/nj_lets_wealthy_executives_liv.html"
+    },
+    {
+      "authors": [
+        "Philip Soos"
+      ],
+      "banner_image": "https://theconversation.com/the-most-powerful-companies-youve-never-heard-of-merck-3187",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.32353,
+      "source": "The Conversation",
+      "source_domain": "The Conversation",
+      "summary": "This article examines pharmaceutical giant Merck, detailing its history, growth through mergers and acquisitions, and its significant financial standing. It focuses on the Vioxx scandal, where the drug caused numerous heart attacks and strokes, leading to a massive $US4.85 billion settlement and exposing Merck's attempts to suppress critical information and discredit doctors. Despite past controversies, Merck is working to recover by developing new high-profile drugs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.319570"
+        }
+      ],
+      "time_published": "20111018T153800",
+      "title": "The most powerful companies you\u2019ve never heard of: Merck",
+      "topics": [
+        {
+          "relevance_score": "0.914865",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.745152",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://theconversation.com/the-most-powerful-companies-youve-never-heard-of-merck-3187"
+    },
+    {
+      "authors": [
+        "Tim Wright"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.003884,
+      "source": "Contract Pharma",
+      "source_domain": "Contract Pharma",
+      "summary": "McNEIL-PPC, Inc. has acquired full ownership of the Johnson & Johnson-Merck Consumer Pharmaceuticals Co. joint venture in the U.S. from Merck Sharp & Dohme Corp. The venture will be renamed McNeil Consumer Pharmaceuticals Co. and will continue to market popular digestive health products. This acquisition, along with a similar deal in Canada, significantly enhances McNeil's presence in the North American digestive health market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.321567",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003524"
+        }
+      ],
+      "time_published": "20110929T171614",
+      "title": "McNEIL-PPC Acquires J&J-Merck Consumer J",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.934101",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.716003",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.contractpharma.com/breaking-news/mcneil-ppc-acquires-jj-merck-consumer-j/"
+    },
+    {
+      "authors": [
+        "Susan Todd"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.130863,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Merck has ended its joint venture with Johnson & Johnson concerning the manufacturing and marketing of over-the-counter products like Mylanta and Pepcid. Merck received a one-time payment of $175 million for its 50 percent interest, allowing it to focus on its consumer products division gained from the Schering-Plough acquisition. The joint venture, which began in 1989, will now operate under the name McNeil Consumer Pharmaceuticals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141522"
+        },
+        {
+          "relevance_score": "0.941140",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141065"
+        }
+      ],
+      "time_published": "20110928T214000",
+      "title": "Merck ends partnership with Johnson & Johnson around Mylanta and other over-the-counter products",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.949064",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.nj.com/business/2011/09/merck_ends_joint_venture_with.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.443667,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Merck and MedImmune have entered into a 15-year agreement to address manufacturing capacity issues. MedImmune will provide space in its Frederick, MD, facility for Merck's bulk product manufacturing. Both companies are also evaluating Merck plants for use by AstraZeneca's MedImmune unit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447163"
+        }
+      ],
+      "time_published": "20110926T143600",
+      "title": "Merck, MedImmune deal space",
+      "topics": [
+        {
+          "relevance_score": "0.942104",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.823141",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.704416",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/manufacturing/merck-medimmune-deal-space"
+    },
+    {
+      "authors": [
+        "David Ewing Duncan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.174823,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "The article discusses the exponential increase in human genome sequencing and the lack of standardization in storing, analyzing, and interpreting this vast amount of DNA data. Researchers and companies are working on developing common standards and platforms to make genomic data interoperable, which will accelerate research into disease links and enable personalized health insights.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.864606",
+          "ticker": "PACB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.298646"
+        },
+        {
+          "relevance_score": "0.630887",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119041"
+        },
+        {
+          "relevance_score": "0.583534",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128708"
+        }
+      ],
+      "time_published": "20110923T172608",
+      "title": "A DNA Tower of Babel",
+      "topics": [
+        {
+          "relevance_score": "0.931516",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.802831",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2011/09/23/191143/a-dna-tower-of-babel/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.235026,
+      "source": "\u30df\u30af\u30b9Online",
+      "source_domain": "\u30df\u30af\u30b9Online",
+      "summary": "MSD announced the launch of Gardasil, an HPV vaccine effective against HPV types 6, 11, 16, and 18, which cause cervical cancer and genital warts. The vaccine is administered in three doses to females aged 9 and older, with public subsidies anticipated from the Ministry of Health, Labour and Welfare. Gardasil is the second HPV vaccine on the market, following GlaxoSmithKline's Cervarix.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334067",
+          "ticker": "PGEN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016412"
+        },
+        {
+          "relevance_score": "0.941592",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330890"
+        },
+        {
+          "relevance_score": "0.619282",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312077"
+        }
+      ],
+      "time_published": "20110829T040000",
+      "title": "\uff2d\uff33\uff24 HPV\u30ef\u30af\u30c1\u30f3\u306e\u30ac\u30fc\u30c0\u30b7\u30eb\u767a\u58f2 \u5b50\u5bae\u9838\u304c\u3093\u306a\u3069\u3092\u4e88\u9632",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.mixonline.jp/tabid55.html?artid=41297"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019408,
+      "source": "Business Insider",
+      "source_domain": "Business Insider",
+      "summary": "This article provides a brief biography of Thomas H. Glocer, highlighting his career ascent at Reuters Group and Thomson Reuters, where he serves as CEO. It also lists his various board memberships and affiliations with prominent organizations. The article includes a link to a video featuring Christine Lagarde discussing the IMF's role.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300011",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011879"
+        }
+      ],
+      "time_published": "20110727T154500",
+      "title": "Thomas H. Glocer",
+      "topics": [
+        {
+          "relevance_score": "0.809577",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.620849",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.businessinsider.com/author/thomas-h-glocer"
+    },
+    {
+      "authors": [
+        "ABC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.268617,
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source_domain": "ABC News - Breaking News, Latest News and Videos",
+      "summary": "This article discusses ten of the world's top-selling prescription drugs that are nearing the end of their patent protection, which will lead to the availability of cheaper generic versions. The expiration of these patents is predicted to be bad for drug makers but good for patients, as generic alternatives could cost up to 80 percent less. Key drugs mentioned include Lipitor, Plavix, and Seroquel, with details on their 2010 U.S. sales and projected generic availability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.930768",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.322960"
+        },
+        {
+          "relevance_score": "0.811302",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.339817"
+        },
+        {
+          "relevance_score": "0.619124",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.296839"
+        },
+        {
+          "relevance_score": "0.594682",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.211521"
+        }
+      ],
+      "time_published": "20110725T094200",
+      "title": "10 Top-Selling Drugs Coming Off Patent",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.701450",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://abcnews.go.com/Health/Drugs/prescription-drug-prices-plummet/story?id=14152014"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.257775,
+      "source": "Dignity Memorial",
+      "source_domain": "Dignity Memorial",
+      "summary": "Joseph Mark Fitzpatrick, a founding partner of the intellectual property law firm Fitzpatrick, Cella, Harper & Scinto, passed away on July 22, 2011, at the age of 86. He was a prominent intellectual property lawyer, serving major multinational corporations, and also dedicated 25 years to the Daytop Family Association, an organization focused on drug-free self-help programs. Fitzpatrick is survived by his wife, four children, grandchildren, and great-grandchildren.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.807742",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283457"
+        },
+        {
+          "relevance_score": "0.714018",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.287639"
+        },
+        {
+          "relevance_score": "0.717554",
+          "ticker": "DD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270579"
+        }
+      ],
+      "time_published": "20110722T171614",
+      "title": "Joseph Fitzpatrick Obituary - Scarsdale, NY",
+      "topics": [
+        {
+          "relevance_score": "0.618884",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.dignitymemorial.com/obituaries/scarsdale-ny/joseph-fitzpatrick-4753493"
+    },
+    {
+      "authors": [
+        "Ben Adams"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.344958,
+      "source": "Pharmafile",
+      "source_domain": "Pharmafile",
+      "summary": "Bayer and Johnson & Johnson's oral blood thinner Xarelto has received FDA approval in the US for the prevention of deep vein thrombosis following surgery. This approval comes after an earlier setback in 2009 and is based on new clinical trial data. Xarelto is part of a new generation of anticoagulants aiming to compete with warfarin and other new oral blood thinners like Eliquis and Pradaxa.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425787"
+        },
+        {
+          "relevance_score": "0.705905",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341054"
+        },
+        {
+          "relevance_score": "0.738467",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345487"
+        },
+        {
+          "relevance_score": "0.605673",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324389"
+        }
+      ],
+      "time_published": "20110704T170123",
+      "title": "Xarelto receives FDA approval",
+      "topics": [
+        {
+          "relevance_score": "0.910548",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://pharmafile.com/news/xarelto-receives-fda-approval/"
+    },
+    {
+      "authors": [
+        "JEFFERY DELVISCIO and ROGENE FISHER JACQUETTE"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.280918,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "This feature profiles seven leading German women in various fields, offering their perspectives on leadership, work-life balance, and gender equality in German society and business. These women, ranging from bankers to military captains, share their personal experiences, challenges, and aspirations, highlighting both the progress made and the persistent hurdles for women in leadership roles in Germany. The article explores themes of support systems, the role of family businesses, the impact of quotas, and the differences in professional environments compared to other countries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.939627",
+          "ticker": "DB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345513"
+        },
+        {
+          "relevance_score": "0.741780",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291428"
+        }
+      ],
+      "time_published": "20110628T163109",
+      "title": "German Women Who Lead",
+      "topics": [
+        {
+          "relevance_score": "0.936549",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.702726",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.646659",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.607743",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nytimes.com/interactive/2011/06/29/world/europe/20110629-femalefactor-german-business-women.html?_r=0"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.364591,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "Ligand Pharmaceuticals Inc. announced a Captisol supply agreement with Merck & Co., Inc. for an undisclosed program. Ligand will provide clinical and commercial supplies of Captisol, a patented cyclodextrin designed to optimize drug solubility and stability, with potential annual delivery of multiple metric tons if the program is commercialized. The financial terms of the deal were not disclosed, but Ligand expressed satisfaction with the long-term commercial partnership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LGND",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441146"
+        },
+        {
+          "relevance_score": "0.868401",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309236"
+        }
+      ],
+      "time_published": "20110620T081000",
+      "title": "Ligand Pharma Inks Captisol Supply Agreement With Merck - Quick Facts",
+      "topics": [
+        {
+          "relevance_score": "0.627614",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.rttnews.com/amp/1649671/ligand-pharma-inks-captisol-supply-agreement-with-merck-quick-facts.aspx"
+    },
+    {
+      "authors": [
+        "X Castellsagu\u00e9",
+        "N Mu\u00f1oz",
+        "P Pitisuttithum",
+        "D Ferris",
+        "J Monsonego",
+        "K Ault",
+        "J Luna",
+        "E Myers",
+        "S Mallary",
+        "O M Bautista",
+        "J Bryan",
+        "S Vuocolo",
+        "R M Haupt",
+        "A Saah"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.645711,
+      "source": "Nature",
+      "source_domain": "Nature",
+      "summary": "This study evaluates the end-of-study efficacy, safety, and immunogenicity of the quadrivalent HPV (qHPV) vaccine in women aged 24\u201345 years, with a median follow-up of 4.0 years. The qHPV vaccine demonstrated high efficacy (88.7% in the per-protocol population) against persistent infection, cervical intraepithelial neoplasia (CIN), and external genital lesions related to HPV 6/11/16/18, acceptable safety, and robust immunogenicity. The findings suggest benefits for sexually active adult women, even those with previous HPV exposure, strengthening existing recommendations for HPV vaccination.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.951921",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.644937"
+        }
+      ],
+      "time_published": "20110531T171614",
+      "title": "End-of-study safety, immunogenicity, and efficacy of quadrivalent HPV (types 6, 11, 16, 18) recombinant vaccine in adult women 24\u201345 years of age",
+      "topics": [
+        {
+          "relevance_score": "0.940027",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.nature.com/articles/bjc2011185"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.180881,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "Spectrum Pharmaceuticals Inc. received FDA approval for the expanded use of its drug Fusilev in combination with 5-fluorouracil for patients with advanced metastatic colorectal cancer. This new indication is expected to be a significant growth catalyst for the company, as colorectal cancer is a leading cause of cancer death in the U.S. Fusilev has shown increasing sales in previous years and has substantial ex-U.S. sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SPPI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406198"
+        },
+        {
+          "relevance_score": "0.602614",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116176"
+        },
+        {
+          "relevance_score": "0.648948",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121010"
+        },
+        {
+          "relevance_score": "0.624700",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121022"
+        }
+      ],
+      "time_published": "20110501T031400",
+      "title": "Spectrum Pharma Wins FDA Approval For Expanded Use Of Fusilev",
+      "topics": [
+        {
+          "relevance_score": "0.912424",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.726168",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.rttnews.com/amp/1611305/spectrum-pharma-wins-fda-approval-for-expanded-use-of-fusilev.aspx"
+    },
+    {
+      "authors": [
+        "Ben Adams"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.363957,
+      "source": "Pharmafile",
+      "source_domain": "Pharmafile",
+      "summary": "Johnson & Johnson and Merck & Co have resolved an 18-month dispute over the regional rights to their arthritis drugs Remicade and Simponi. Merck will cede exclusive marketing rights for these drugs in certain international territories to J&J\u2019s subsidiary Janssen, while retaining exclusive rights in Europe, Russia, and Turkey. The agreement includes a $500 million payment from Merck to J&J and a 50-50 profit split for Merck's distribution in its retained territories, with both companies expecting the financial impact to equalize by 2014.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411813"
+        },
+        {
+          "relevance_score": "0.983597",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333608"
+        }
+      ],
+      "time_published": "20110419T170122",
+      "title": "J&J and Merck reach compromise on arthritis drug rights",
+      "topics": [
+        {
+          "relevance_score": "0.918922",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.830181",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.643180",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://pharmafile.com/news/jj-and-merck-reach-compromise-arthritis-drug-rights/"
+    },
+    {
+      "authors": [
+        "Susan Todd/The Star-Ledger KRT"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.349917,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Merck and Johnson & Johnson have resolved their disagreement over the distribution rights of the arthritis medicine Remicade, which was triggered by Merck's acquisition of Schering-Plough in 2009. The resolution requires Merck to relinquish certain international sales rights for Remicade and Simponi, share profits equally on European sales, and pay Johnson & Johnson a one-time $500 million settlement, significantly impacting Merck's revenues from the drug. Despite the financial setback for Merck, the resolution was viewed positively by analysts due to the end of the ongoing dispute.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401170"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249091"
+        }
+      ],
+      "time_published": "20110415T100500",
+      "title": "N.J.'s Merck signs away revenues from Remicade to resolve disagreement with Johnson & Johnson",
+      "topics": [
+        {
+          "relevance_score": "0.909209",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.941265",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.730720",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.nj.com/business/2011/04/njs_merck_signs_away_revenues.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.307593,
+      "source": "Genetic Engineering and Biotechnology News",
+      "source_domain": "Genetic Engineering and Biotechnology News",
+      "summary": "Abbott Laboratories has entered an agreement with Seattle Genetics to utilize its antibody-drug conjugate (ADC) technology for an oncology target, involving an $8 million upfront payment. Seattle Genetics could receive up to $200 million in milestone payments, along with royalties and annual maintenance fees. This collaboration adds to Seattle Genetics' growing list of ADC licensing deals, highlighting the potential of its ADC platform.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.390172"
+        },
+        {
+          "relevance_score": "0.559215",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308042"
+        },
+        {
+          "relevance_score": "0.510159",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229228"
+        }
+      ],
+      "time_published": "20110322T160135",
+      "title": "Abbott to Use Seattle Genetics\u2019 Antibody-Drug Conjugate Platform for $8M Up Front",
+      "topics": [
+        {
+          "relevance_score": "0.929405",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.837719",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.genengnews.com/news/abbott-to-use-seattle-genetics-antibody-drug-conjugate-platform-for-8m-up-front/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.193135,
+      "source": "Legacy obituary",
+      "source_domain": "Legacy obituary",
+      "summary": "John J. Horan, former Chairman and CEO of Merck & Co., Inc., died on January 22, 2011, at the age of 90. He led Merck to become the largest pharmaceutical company globally and was instrumental in developing medicine for river blindness and fostering humanitarian efforts with the Carter Center. Horan also had a distinguished military career in World War II and was involved in various corporate and civic organizations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.437374"
+        },
+        {
+          "relevance_score": "0.640838",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129727"
+        },
+        {
+          "relevance_score": "0.643840",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119183"
+        },
+        {
+          "relevance_score": "0.602225",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128393"
+        },
+        {
+          "relevance_score": "0.622857",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121173"
+        }
+      ],
+      "time_published": "20110126T171614",
+      "title": "JOHN HORAN Obituary (2011) - New York, NY - New York Times",
+      "topics": [
+        {
+          "relevance_score": "0.920819",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.legacy.com/us/obituaries/nytimes/name/john-horan-obituary?id=27074848"
+    }
+  ],
+  "items": "23",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

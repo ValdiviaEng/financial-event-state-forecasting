@@ -1,0 +1,1543 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Salvador Rodriguez"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.271423,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "T-Mobile has officially reached an agreement with Apple to bring its products to the T-Mobile market next year, making it the last major U.S. network to offer Apple's flagship devices. While exact products weren't specified, it's expected to include iPhones and possibly cellular versions of the iPad. This move will allow T-Mobile to compete more directly with its rivals, Verizon, AT&T, and Sprint, which already sell Apple products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408546"
+        },
+        {
+          "relevance_score": "0.946596",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419480"
+        },
+        {
+          "relevance_score": "0.616062",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126974"
+        },
+        {
+          "relevance_score": "0.614274",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101006"
+        }
+      ],
+      "time_published": "20121206T155059",
+      "title": "T-Mobile reaches pact with Apple; iPhone coming soon",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.725390",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-xpm-2012-dec-06-la-fi-tn-t-mobile-apple-iphone-ipad-20121206-story.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.162063,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "AT&T has expanded its 4G LTE network in the Florida Keys, bringing ultra-fast mobile Internet to more customers in areas like Big Pine Key, Marathon, Islamorada, and Key Largo. This expansion follows earlier launches in Miami, Fort Lauderdale, West Palm Beach, and Key West, and is part of an ongoing rollout across South Florida. The service offers faster speeds, supports new LTE devices, provides faster response times due to lower latency, and uses spectrum more efficiently.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.332910",
+          "ticker": "TBC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044075"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "T",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423223"
+        },
+        {
+          "relevance_score": "0.580888",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131638"
+        },
+        {
+          "relevance_score": "0.566945",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115822"
+        }
+      ],
+      "time_published": "20121108T120100",
+      "title": "AT&T 4G LTE Expands In Florida Keys",
+      "topics": [
+        {
+          "relevance_score": "0.938569",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/att-4g-lte-expands-in-florida-keys-177799141.html"
+    },
+    {
+      "authors": [
+        "Sinead Carew"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fstorage.googleapis.com%2Freuters-reuters-reuters-prod%2Fimages%2FAAAAAAAEAAX0QBPZ3Q2K4A42ZAE%2F2012-10-30T214415Z_1_BRE89T1N8_RTROPTP_3_USA-STORM-SANDY-TELECOM-idUSL1E8LWJ7G.jpg?auth=a7c13038676a084adcc49265f8a0058e&quality=80&smart=true",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.135976,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Hurricane Sandy significantly disrupted telecommunications services across the Northeastern U.S. due to power outages and flooding, affecting cellphones, television, home telephones, and Internet. Verizon Communications suffered some of the worst damage to its wireline network, with crucial central offices flooded and many cell towers out of service. Various other providers like AT&T, Sprint Nextel, T-Mobile USA, Cablevision, Comcast, and Time Warner Cable also reported widespread service interruptions, with restoration efforts ongoing as companies battled continued challenges and assessed damage.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.296346"
+        },
+        {
+          "relevance_score": "0.987109",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.234678"
+        },
+        {
+          "relevance_score": "0.832739",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035539"
+        },
+        {
+          "relevance_score": "0.724537",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104007"
+        },
+        {
+          "relevance_score": "0.633139",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005357"
+        }
+      ],
+      "time_published": "20121030T214400",
+      "title": "Hurricane Sandy disrupts Northeast U.S. telecom networks",
+      "topics": [
+        {
+          "relevance_score": "0.821266",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/technology/hurricane-sandy-disrupts-northeast-us-telecom-networks-idUSBRE89T0YU/"
+    },
+    {
+      "authors": [
+        "Trey Thoelcke"
+      ],
+      "banner_image": "https://247wallst.com/wp-content/uploads/2012/10/thinkstock_cell_tower.jpeg?w=200",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.358961,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "MetroPCS Communications Inc. reported a significant increase in net income for the third quarter, more than doubling its earnings per share to $0.52, largely due to a securities settlement gain and reduced costs. While the company's subscriber base saw a slight year-over-year decline, MetroPCS expressed satisfaction with the initial results of its \"4G LTE For All\" launch and reaffirmed its full-year outlook. This report comes shortly after MetroPCS agreed to merge with T-Mobile USA.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PCS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.471663"
+        },
+        {
+          "relevance_score": "0.701793",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.269309"
+        }
+      ],
+      "time_published": "20121030T103200",
+      "title": "MetroPCS Earnings More Than Double in Q3",
+      "topics": [
+        {
+          "relevance_score": "0.926897",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.716718",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.638742",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.635426",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://247wallst.com/telecom-wireless/2012/10/30/metropcs-earnings-more-than-double-in-q3/"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://photos.prnewswire.com/prnh/20121008/LA88183-a",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.304656,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "LG Electronics USA and T-Mobile USA announced the upcoming availability of the LG Optimus L9 smartphone. This stylish device features a 4.5-inch qHD display, a long-lasting 2,150 mAh battery, and runs on Android 4.0 Ice Cream Sandwich, offering a superior 4G experience on T-Mobile's network. The LG Optimus L9 also includes LG QuickMemo\u2122 for note-taking and a 5-megapixel camera with HD video recording.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.933670",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303086"
+        }
+      ],
+      "time_published": "20121008T120000",
+      "title": "LG And T-Mobile Announce Stylish, Powerful LG Optimus L9",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/lg-and-t-mobile-announce-stylish-powerful-lg-optimus-l9-173133061.html"
+    },
+    {
+      "authors": [
+        "Mikey Campbell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.194655,
+      "source": "AppleInsider",
+      "source_domain": "AppleInsider",
+      "summary": "T-Mobile has reportedly begun stocking nano-SIM cards compatible with the iPhone 5, making it possible to activate unlocked versions of the device on its HSPA+ network. This move comes less than a month after the iPhone 5's official release with other U.S. carriers, and is a surprising early development given previous expectations. The article notes that unlocked iPhone 5 units from AT&T or Verizon, or purchased directly from Apple, will operate on T-Mobile's network, which supports the phone's 4G HSPA+ and LTE bandwidths.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.962468",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.288662"
+        },
+        {
+          "relevance_score": "0.942852",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213907"
+        },
+        {
+          "relevance_score": "0.701911",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100906"
+        },
+        {
+          "relevance_score": "0.733198",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131806"
+        }
+      ],
+      "time_published": "20121006T215600",
+      "title": "T-Mobile reportedly stocking iPhone 5 compatible nano-SIM cards",
+      "topics": [
+        {
+          "relevance_score": "0.916316",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://appleinsider.com/articles/12/10/07/t-mobile-reportedly-stocking-iphone-5-compatible-nano-sim-cards"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.32693,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "Wireless Vision LLC has acquired 40 locations of Catcorp Inc., making it T-Mobile USA's largest T-Mobile Premium Retailer with nearly 200 retail locations across 13 states. This acquisition marks a significant milestone for Wireless Vision as it approaches its 200th retail location and strengthens its partnership with T-Mobile. Catcorp employees in the affected locations will be offered positions with Wireless Vision.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.949240",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301286"
+        }
+      ],
+      "time_published": "20121004T170300",
+      "title": "Retailer Wireless Vision Acquires Catcorp",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.946286",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.706130",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cbsnews.com/detroit/news/retailer-wireless-vision-acquires-catcorp/"
+    },
+    {
+      "authors": [
+        "Michelle Kantrow-V\u00e1zquez"
+      ],
+      "banner_image": "https://newsismybusiness.com/wp-content/uploads/2012/04/Jorge-Martel.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.248103,
+      "source": "News is My Business",
+      "source_domain": "News is My Business",
+      "summary": "The merger between T-Mobile USA's parent, Deutsche Telekom, and MetroPCS Communications Inc. is expected to benefit Puerto Rico consumers. Jorge Martel, general manager of T-Mobile Puerto Rico, stated the combined company will have expanded scale and resources, leading to reinvestment in better services and greater access to equipment. The deal aims to create a stronger competitor in the U.S. wireless market, offering diverse plans and solidifying T-Mobile's presence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.332474",
+          "ticker": "PCS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029944"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412940"
+        },
+        {
+          "relevance_score": "0.707988",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212470"
+        }
+      ],
+      "time_published": "20121004T031026",
+      "title": "TMobile, MetroPCS merger may prove positive for Puerto Rico",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.837789",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.629825",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://newsismybusiness.com/tmobile-metropcs-merger-may-prove-positive-for-puerto-rico/"
+    },
+    {
+      "authors": [
+        "Todd Bishop"
+      ],
+      "banner_image": "https://cdn.geekwire.com/wp-content/uploads/2017/04/tmobile1-1024x744.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.297601,
+      "source": "GeekWire",
+      "source_domain": "GeekWire",
+      "summary": "T-Mobile USA and MetroPCS have officially announced their merger, creating a combined company with 42.5 million subscribers. The new entity, which will retain the T-Mobile name, will be headquartered in Bellevue and aims to enhance its competitive position against other national U.S. wireless carriers. The deal involves MetroPCS shareholders receiving $1.5 billion in cash and 26% ownership, with Deutsche Telekom, T-Mobile's parent company, owning the remaining stake.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PCS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421602"
+        },
+        {
+          "relevance_score": "0.908122",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.392869"
+        },
+        {
+          "relevance_score": "0.649033",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108762"
+        },
+        {
+          "relevance_score": "0.554019",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109079"
+        },
+        {
+          "relevance_score": "0.737520",
+          "ticker": "DTE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315266"
+        }
+      ],
+      "time_published": "20121003T060200",
+      "title": "Confirmed: T-Mobile USA and MetroPCS to combine, based in Seattle region",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.814348",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.geekwire.com/2012/confirmed-tmobile-usa-metropcs-merge-based-seattle-region/"
+    },
+    {
+      "authors": [
+        "Anders Bylund"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.133917,
+      "source": "Yahoo",
+      "source_domain": "Yahoo",
+      "summary": "T-Mobile (NYS: TMUS) has struck a deal with Crown Castle International (NYS: CCI) to sell the rights to lease 7,200 cell towers for $2.4 billion upfront, with an option for Crown Castle to buy the properties outright later. This deal provides much-needed cash for T-Mobile to compete in the next-generation network wars. For Crown Castle, it represents a 33% expansion of its tower network, concentrated in lucrative metro areas, strengthening its position against rivals like American Tower (NYS: AMT).",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CCI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439730"
+        },
+        {
+          "relevance_score": "0.708795",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110283"
+        },
+        {
+          "relevance_score": "0.717598",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143779"
+        }
+      ],
+      "time_published": "20120928T220000",
+      "title": "This Surprising Deal Has 2 Big Winners",
+      "topics": [
+        {
+          "relevance_score": "0.909143",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.823746",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ca.sports.yahoo.com/sports/news/2012-09-28-this-surprising-deal-has-2-big-winners.html"
+    },
+    {
+      "authors": [
+        "Ashlee Vance"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.031231,
+      "source": "SFGATE",
+      "source_domain": "SFGATE",
+      "summary": "This article profiles Elon Musk, CEO of Tesla and SpaceX, highlighting his demanding leadership style and ambitious vision spanning electric cars, space exploration, and solar energy. It details his entrepreneurial journey, from PayPal to his current ventures, and his personal sacrifices in pursuit of groundbreaking innovations. The piece emphasizes his long-term goals of sustainable energy and multi-planetary existence, portraying him as a modern-day industrialist charting a course beyond incremental advancements.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.293575"
+        },
+        {
+          "relevance_score": "0.604716",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143680"
+        },
+        {
+          "relevance_score": "0.574528",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142257"
+        },
+        {
+          "relevance_score": "0.596070",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143228"
+        },
+        {
+          "relevance_score": "0.583466",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.056802"
+        }
+      ],
+      "time_published": "20120928T142900",
+      "title": "Tesla chief Elon Musk reaches for stars",
+      "topics": [
+        {
+          "relevance_score": "0.919467",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.896945",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.724106",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.641864",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.603016",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.sfgate.com/technology/article/Tesla-chief-Elon-Musk-reaches-for-stars-3887880.php"
+    },
+    {
+      "authors": [
+        "David Beren"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.377938,
+      "source": "TmoNews",
+      "source_domain": "TmoNews",
+      "summary": "T-Mobile USA has agreed to a $2.4 billion deal with Crown Castle International Corp to lease the rights to operate 7,200 of its wireless towers. This transaction will allow T-Mobile to accelerate its LTE launch and network modernization, while Crown Castle strengthens its position as the largest provider of wireless infrastructure in the US. T-Mobile will maintain its equipment on the towers for at least 10 years, and the proceeds will also help pay down Deutsche Telekom's corporate debt.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CCI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445713"
+        },
+        {
+          "relevance_score": "0.925675",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320979"
+        }
+      ],
+      "time_published": "20120928T142105",
+      "title": "T-Mobile Tower Deal Leases 7,200 Locations For $2.4 Billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.823957",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.619389",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.tmonews.com/2012/09/t-mobile-tower-deal-leases-7200-locations-for-2-4-billion/"
+    },
+    {
+      "authors": [
+        "Amanda DeMarco"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.121019,
+      "source": "Publishing Perspectives",
+      "source_domain": "Publishing Perspectives",
+      "summary": "As self-publishing in Germany matures, platforms like XinXii and Epubli are expanding their offerings to include mobile and international distribution. XinXii's deal with Mondia Media allows indie authors access to e-book shops on Vodafone live!, T-Mobile T-Zones, and Sony Mobile PlayNow, marking a significant step towards wider mobile reading acceptance. German platforms are also increasingly focusing on international markets, with Epubli creating a separate dot-com domain and XinXii offering multi-language and multi-currency support.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.721434",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120916"
+        }
+      ],
+      "time_published": "20120926T155100",
+      "title": "German Self-Published Authors Reach Mobile, Int\u2019l Platforms",
+      "topics": [
+        {
+          "relevance_score": "0.824118",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://publishingperspectives.com/2012/09/german-self-published-authors-reach-mobile-intl-platforms/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.093742,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "New T-Mobile CEO John Legere states there will be no major strategic changes, but rather a \"maniacal focus\" on execution for the wireless carrier. He plans to bring back the \"coolness\" factor to T-Mobile, emphasize its West Coast tech company image, and target both consumer and business sectors to increase market share. Legere also highlights T-Mobile's strong spectrum position and Deutsche Telekom's commitment to the U.S. market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328674"
+        },
+        {
+          "relevance_score": "0.714499",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142719"
+        },
+        {
+          "relevance_score": "0.721002",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134130"
+        },
+        {
+          "relevance_score": "0.644503",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144224"
+        }
+      ],
+      "time_published": "20120920T160600",
+      "title": "New T-Mobile CEO Plans To Bring Cool Back To The Carrier",
+      "topics": [
+        {
+          "relevance_score": "0.844150",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cbsnews.com/miami/news/new-t-mobile-ceo-plans-to-bring-cool-back-to-the-carrier/"
+    },
+    {
+      "authors": [
+        "Post Staff Report"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.229733,
+      "source": "New York Post",
+      "source_domain": "New York Post",
+      "summary": "T-Mobile USA has appointed John Legere, former CEO of Global Crossing, as its new chief executive. Legere, 54, takes over from interim CEO Jim Alling, who will resume his role as chief operating officer. Legere brings extensive telecommunications experience from his previous roles at Global Crossing, Asia Global Crossing, Dell Computer Corp., and AT&T.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213129"
+        }
+      ],
+      "time_published": "20120919T132700",
+      "title": "T-Mobile names former Global Crossing head John Legere as its new CEO",
+      "topics": [
+        {
+          "relevance_score": "0.831910",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://nypost.com/2012/09/19/t-mobile-names-former-global-crossing-head-john-legere-as-its-new-ceo/"
+    },
+    {
+      "authors": [
+        "Raymond Wong"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.270213,
+      "source": "Yahoo",
+      "source_domain": "Yahoo",
+      "summary": "T-Mobile and Samsung announced the upcoming release of the Samsung Galaxy S Relay 4G, an exclusive slider smartphone for T-Mobile featuring a QWERTY keyboard and Android 4.0 Ice Cream Sandwich. This device is designed with business-friendly features like enhanced Microsoft Exchange ActiveSYNC and AES-256 bit encryption, along with entertainment options. It will run on T-Mobile\u2019s 4G HSPA+ 42 network and is expected to be available in the coming weeks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312680"
+        },
+        {
+          "relevance_score": "0.616735",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222695"
+        }
+      ],
+      "time_published": "20120907T024000",
+      "title": "T-Mobile gets Samsung Galaxy S Relay 4G with QWERTY keyboard and Ice Cream Sandwich",
+      "topics": [
+        {
+          "relevance_score": "0.919458",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.yahoo.com/news/t-mobile-gets-samsung-galaxy-relay-4g-qwerty-024031268.html"
+    },
+    {
+      "authors": [
+        "Staff Writer The Patriot Ledger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.136034,
+      "source": "The Patriot Ledger",
+      "source_domain": "The Patriot Ledger",
+      "summary": "Nokia unveiled its new Lumia 920 smartphone, running Windows Phone 8, as it seeks to regain market share. This phone features advanced camera technology and wireless charging, launching in select markets in the fourth quarter. The company is in a crucial partnership with Microsoft to compete against Apple's iPhone and Google's Android devices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NOK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236755"
+        },
+        {
+          "relevance_score": "0.807579",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.296098"
+        },
+        {
+          "relevance_score": "0.728580",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.213791"
+        },
+        {
+          "relevance_score": "0.644427",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118658"
+        },
+        {
+          "relevance_score": "0.580106",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144452"
+        }
+      ],
+      "time_published": "20120906T151609",
+      "title": "Nokia looks to regain phone mojo with Lumia 920",
+      "topics": [
+        {
+          "relevance_score": "0.940661",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.patriotledger.com/story/business/2012/09/06/nokia-looks-to-regain-phone/40059042007/"
+    },
+    {
+      "authors": [
+        "David Beren"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.469944,
+      "source": "TmoNews",
+      "source_domain": "TmoNews",
+      "summary": "T-Mobile celebrates its 10th anniversary as a wireless brand in the US, marking the occasion with the launch of its \"Unlimited Nationwide 4G Data\" plan. The company highlights a decade of innovation, including the first Personal Coverage Check, Wi-Fi Calling Service in the U.S., Android phone (T-Mobile G1), HSPA+ network, and breaking from the subsidy model. T-Mobile states that its new unlimited 4G data plan offers no data caps, speed limits, or overages, catering to data-hungry smartphone customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.483908"
+        }
+      ],
+      "time_published": "20120905T155059",
+      "title": "T-Mobile Celebrates 10 Years As A Wireless Brand In The US",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.tmonews.com/2012/09/t-mobile-celebrates-10-years-as-a-wireless-brand-in-the-us/"
+    },
+    {
+      "authors": [
+        "Gus Burns"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.029367,
+      "source": "MLive.com",
+      "source_domain": "MLive.com",
+      "summary": "T-Mobile plans to install a 90-foot \"mono-pine,\" a mobile phone tower disguised as a pine tree, in West Bloomfield Township. Despite initial denial by the local planning commission and subsequent legal battles, a District Court ruling upheld by the Sixth Circuit U.S. Court of Appeals suggests the tower will likely proceed. This reflects a growing trend among telecommunication companies to disguise towers as natural vegetation to address aesthetic concerns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.848117",
+          "ticker": "DTE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011255"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017157"
+        },
+        {
+          "relevance_score": "0.623059",
+          "ticker": "AMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.031773"
+        }
+      ],
+      "time_published": "20120822T234500",
+      "title": "Pine tree-disguised mobile phone tower with antenna limbs could be coming to West Bloomfield",
+      "topics": [
+        {
+          "relevance_score": "0.903827",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.821048",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.mlive.com/news/detroit/2012/08/pine_tree-disguised_mobile_pho.html"
+    },
+    {
+      "authors": [
+        "KHOU Staff and KHOU.com (KHOU)"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.132151,
+      "source": "KHOU",
+      "source_domain": "KHOU",
+      "summary": "T-Mobile USA announced it will reintroduce an unlimited data plan on September 5, joining other smaller wireless carriers like MetroPCS in bringing back such offerings. This move comes as these companies aim to compete with larger rivals like AT&T and Verizon, who have largely phased out unlimited data plans, and as the iPhone 5 is anticipated to be released. Sprint Nextel Corp. already offers an unlimited data plan and attributes it to attracting smartphone customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.958059",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322344"
+        },
+        {
+          "relevance_score": "0.705984",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146645"
+        },
+        {
+          "relevance_score": "0.730671",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128433"
+        },
+        {
+          "relevance_score": "0.559565",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030117"
+        }
+      ],
+      "time_published": "20120822T112000",
+      "title": "T-Mobile brings back unlimited data plan",
+      "topics": [
+        {
+          "relevance_score": "0.935528",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.636717",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.khou.com/article/tech/t-mobile-brings-back-unlimited-data-plan/285-339682446"
+    },
+    {
+      "authors": [
+        "Advance Media NY Editorial Board"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.193385,
+      "source": "Syracuse.com",
+      "source_domain": "Syracuse.com",
+      "summary": "This article discusses the controversial $3.9 billion deal between Verizon Wireless and a consortium of four cable companies, which includes Time Warner Cable Inc. Critics argue the partnership, intended for Verizon to buy airwaves and cable companies to offer a \"quadruple play,\" could stifle competition, widen the \"digital divide,\" and lead to job losses, despite conditions imposed by the Justice Department. The editorial board suggests that such collaborations between former competitors could result in higher prices and limited consumer choice, urging stricter government oversight.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.231148"
+        },
+        {
+          "relevance_score": "0.626327",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145713"
+        },
+        {
+          "relevance_score": "0.723169",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.264207"
+        },
+        {
+          "relevance_score": "0.623676",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.182642"
+        },
+        {
+          "relevance_score": "0.719940",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.250715"
+        }
+      ],
+      "time_published": "20120817T060000",
+      "title": "Best of 'Frenemies': Verizon-cable partnership raises consumer red flags",
+      "topics": [
+        {
+          "relevance_score": "0.909463",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.723218",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.607305",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.syracuse.com/opinion/2012/08/best_of_frenemies_verizon-cabl.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.682496,
+      "source": "Department of Justice (.gov)",
+      "source_domain": "Department of Justice (.gov)",
+      "summary": "Adiel Lopez, a member of the \"Interstate Boys,\" was sentenced to 33 months in prison for a multi-state identity theft and fraud conspiracy targeting Wal-Mart Stores Inc. and T-Mobile USA. The group used stolen identities to open phone plans, obtain discounted phones for resale, and caused approximately $1 million in losses to the companies. Several co-conspirators have also been sentenced or are awaiting sentencing for their roles in the scheme.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.704214"
+        },
+        {
+          "relevance_score": "0.940167",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.687771"
+        }
+      ],
+      "time_published": "20120806T155059",
+      "title": "District of New Jersey",
+      "topics": [
+        {
+          "relevance_score": "0.801046",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.717219",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.justice.gov/archive/usao/nj/Press/files/Lopez,%20Adiel%20Sentencing%20News%20Release.html"
+    },
+    {
+      "authors": [
+        "Alexander Eichler"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.443101,
+      "source": "HuffPost",
+      "source_domain": "HuffPost",
+      "summary": "The Labor Department alleges that T-Mobile USA moved call-center jobs overseas after laying off approximately 2,800 U.S. workers in March and May. This allegation came after a complaint from the Communication Workers of America union, suggesting T-Mobile hired foreign workers for roles competitive with those of its former U.S. employees. The Labor Department's decision allows former U.S. employees to apply for retraining and assistance, while T-Mobile disputes the findings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.415314"
+        }
+      ],
+      "time_published": "20120718T114600",
+      "title": "T-Mobile Moved Call-Center Jobs Overseas, Labor Department Alleges",
+      "topics": [
+        {
+          "relevance_score": "0.917863",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.748564",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.huffpost.com/entry/t-mobile-call-center-jobs-overseas_n_1682862"
+    },
+    {
+      "authors": [
+        "Mark Gruenberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.346214,
+      "source": "People's World",
+      "source_domain": "People's World",
+      "summary": "Unionists demonstrated at a T-Mobile retail store in Washington D.C. to protest the company's offshoring of jobs, just ahead of a potential Senate vote on an anti-offshoring bill. The protest highlighted T-Mobile's move of 3,300 call center jobs overseas and its resistance to union organizing efforts. The \"Bring The Jobs Home Act,\" proposed by Sen. Debbie Stabenow and Rep. Bill Pascrell, aims to provide tax credits for companies creating jobs in the U.S. and eliminate tax deductions for those outsourcing them.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.311436"
+        }
+      ],
+      "time_published": "20120713T121000",
+      "title": "Unionists target T-Mobile before anti-offshoring vote",
+      "topics": [
+        {
+          "relevance_score": "0.947662",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.734098",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.609267",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.611316",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.peoplesworld.org/article/unionists-target-t-mobile-before-anti-offshoring-vote/"
+    },
+    {
+      "authors": [
+        "Peter Svensson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.11433,
+      "source": "Lubbock Avalanche-Journal",
+      "source_domain": "Lubbock Avalanche-Journal",
+      "summary": "Verizon Wireless is phasing out most of its current phone plans in favor of new \"Share Everything\" plans designed to encourage customers to connect non-phone devices like tablets and PCs to their network. These new plans allow families to share a monthly data allowance across up to 10 devices, include unlimited calls and texts, and aim to boost data usage as phone activations slow. This move is seen as the most significant pricing change in the telecom industry in 20 years and is expected to strengthen Verizon and AT&T's market dominance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.726743",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130235"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342407"
+        },
+        {
+          "relevance_score": "0.600934",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132520"
+        }
+      ],
+      "time_published": "20120613T154557",
+      "title": "Verizon to phase out most existing phone plans",
+      "topics": [
+        {
+          "relevance_score": "0.830243",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.lubbockonline.com/story/entertainment/local/2012/06/13/verizon-phase-out-most-existing-phone-plans/15151308007/"
+    },
+    {
+      "authors": [
+        "Peter Svensson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.054958,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Verizon Wireless is revamping its pricing structure, moving away from traditional phone plans to new \"Share Everything\" plans that allow consumers to share data usage among up to ten devices. This change, effective June 28, includes unlimited calls and texting and aims to capitalize on the growing popularity of tablets by making it cheaper to add multiple devices to a plan. The new structure means subscribers will need to monitor data consumption closely, with penalties for exceeding monthly allowances.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108117"
+        },
+        {
+          "relevance_score": "0.747130",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.052675"
+        },
+        {
+          "relevance_score": "0.628343",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.037185"
+        }
+      ],
+      "time_published": "20120612T104900",
+      "title": "Verizon to ditch phone plans, go with shared plans",
+      "topics": [
+        {
+          "relevance_score": "0.817057",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nbcnews.com/tech/gadgets/verizon-ditch-phone-plans-go-shared-plans-flna824652"
+    },
+    {
+      "authors": [
+        "Quentyn Kennemer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.261722,
+      "source": "Phandroid",
+      "source_domain": "Phandroid",
+      "summary": "T-Mobile has officially announced that it will launch the Samsung Galaxy S3 on June 21st, the same day as Sprint. T-Mobile's version will feature HSPA+ 42 and a 1.5GHz dual-core S4 processor by Qualcomm, but will not include LTE radios or the Exynos processor. The phone boasts a 4.8-inch 720p display, 8-megapixel HD camera, 2GB of RAM, and a 2,100 mAh battery, with availability in metallic blue or ceramic white.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324206"
+        },
+        {
+          "relevance_score": "0.816051",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.286349"
+        },
+        {
+          "relevance_score": "0.611730",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141595"
+        }
+      ],
+      "time_published": "20120604T155100",
+      "title": "T-Mobile launching Samsung Galaxy S3 June 21st",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://phandroid.com/2012/06/04/t-mobile-launching-samsung-galaxy-s3-june-21st/"
+    },
+    {
+      "authors": [
+        "PETER SVENSSON (AP)"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.106744,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "Samsung's new flagship smartphone, the Galaxy S III, will be sold by all four major national U.S. wireless carriers and regional carrier U.S. Cellular starting in June, priced from $199. This marks a significant move for Samsung, with the Galaxy S III maintaining a consistent name across all U.S. carriers, despite network adaptations. The Galaxy S III features a larger screen than the iPhone and runs Google's Android software, establishing itself as a strong competitor in the smartphone market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127279"
+        },
+        {
+          "relevance_score": "0.846704",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136011"
+        },
+        {
+          "relevance_score": "0.726838",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132254"
+        },
+        {
+          "relevance_score": "0.711239",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105034"
+        },
+        {
+          "relevance_score": "0.615053",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105105"
+        }
+      ],
+      "time_published": "20120604T154557",
+      "title": "5 US carriers to sell new Samsung Galaxy in June",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.833578",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://phys.org/news/2012-06-carriers-samsung-galaxy-june.html"
+    },
+    {
+      "authors": [
+        "Kevin Krause"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.03681,
+      "source": "Phandroid",
+      "source_domain": "Phandroid",
+      "summary": "T-Mobile announced the upcoming availability of the Huawei-made Prism, a budget Android handset priced at $19.99 on a two-year contract after a $50 mail-in rebate. The entry-level smartphone features a 3.5-inch HVGA display, 3.2MP camera, and runs Android 2.3. It will be available through Best Buy on May 6th, Walmart on May 9th, and T-Mobile retail stores starting May 23rd.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.304571",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049283"
+        }
+      ],
+      "time_published": "20120502T155100",
+      "title": "T-Mobile announces Prism for May 6th, only $20 on contract",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732757",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://phandroid.com/2012/05/02/t-mobile-announces-prism-for-may-6th-only-20-on-contract/"
+    },
+    {
+      "authors": [
+        "Jason Gilbert"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.237899,
+      "source": "HuffPost",
+      "source_domain": "HuffPost",
+      "summary": "T-Mobile's popular spokesperson, Carly, is shedding her traditional pink dresses for a edgier leather look and a Ducati superbike in a new advertising campaign. This \"Alter Ego\" transformation symbolizes the speed and capabilities of T-Mobile's burgeoning 4G network and its challenging stance in the market. The makeover comes as T-Mobile faces significant business challenges, including subscriber loss and layoffs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.223180"
+        }
+      ],
+      "time_published": "20120417T103500",
+      "title": "Carly, T-Mobile Girl, Gets New Look: Leather Makeover Debuts In New Commercials (VIDEO)",
+      "topics": [
+        {
+          "relevance_score": "0.830528",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.huffpost.com/entry/carly-tmobile-girl-new-look_n_1431089"
+    },
+    {
+      "authors": [
+        "Molly Young"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.354581,
+      "source": "OregonLive.com",
+      "source_domain": "OregonLive.com",
+      "summary": "T-Mobile USA announced the closure of its Redmond call center, impacting 359 workers, as part of a nationwide consolidation effort following the failed $39 billion merger with AT&T Inc. The layoffs effective June 22, 2012, are a significant blow to the Redmond economy, where leaders had been reassured the center would remain open. The company plans to eliminate 1,900 jobs nationally, while investing $4 billion in a network upgrade to improve competitiveness.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.940884",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.321503"
+        },
+        {
+          "relevance_score": "0.925251",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.410446"
+        }
+      ],
+      "time_published": "20120323T125400",
+      "title": "T-Mobile call center in Redmond, and its 359 workers, caught in broader consolidation efforts",
+      "topics": [
+        {
+          "relevance_score": "0.925103",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.824959",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.711529",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.oregonlive.com/business/2012/03/t-mobile_call_center_in_redmon.html"
+    },
+    {
+      "authors": [
+        "Alex Wagner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.114379,
+      "source": "Phonedog",
+      "source_domain": "Phonedog",
+      "summary": "MetroPCS has added the ZTE Score M, an entry-level Android handset, to its lineup for $49 after a mail-in rebate. This device features a 3.5-inch HVGA display, 600MHz processor, 3.2-megapixel camera, and Android 2.3 Gingerbread. The Score M aims to provide an affordable smartphone experience for customers looking for budget-friendly Android options.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.318188",
+          "ticker": "PCS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033223"
+        },
+        {
+          "relevance_score": "0.846164",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.182470"
+        }
+      ],
+      "time_published": "20120316T152611",
+      "title": "ZTE Score M now available for purchase from MetroPCS",
+      "topics": [
+        {
+          "relevance_score": "0.914610",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.wirefly.com/2012/03/16/zte-score-m-now-available-for-purchase-from-metropcs"
+    },
+    {
+      "authors": [
+        "Jordan Kahn"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.20075,
+      "source": "9to5Google",
+      "source_domain": "9to5Google",
+      "summary": "T-Mobile officially announced the Samsung Galaxy S Blaze 4G, a new Android smartphone, which is set to launch in late March for $149.99 after a mail-in rebate and a two-year commitment. The device features a 3.97-inch Super AMOLED display, a 1.5GHz dual-core Snapdragon S3 processor, and 4G HSPA+42 capabilities. It runs Android 2.3 and offers entertainment and productivity features like Netflix, T-Mobile TV, Samsung Media Hub, and a suite of business applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.957888",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315215"
+        },
+        {
+          "relevance_score": "0.617602",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105481"
+        },
+        {
+          "relevance_score": "0.583380",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117494"
+        }
+      ],
+      "time_published": "20120222T102900",
+      "title": "Samsung Galaxy S Blaze 4G lands on T-Mobile for $150 in March",
+      "topics": [
+        {
+          "relevance_score": "0.911026",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://9to5google.com/2012/02/22/samsung-galaxy-s-blaze-4g-lands-on-t-mobile-for-150-in-march/"
+    },
+    {
+      "authors": [
+        "Peter Svensson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.067735,
+      "source": "Lubbock Avalanche-Journal",
+      "source_domain": "Lubbock Avalanche-Journal",
+      "summary": "AT&T customers on \"unlimited data\" plans are experiencing unexpected speed reductions after consuming relatively small amounts of data, often less than what is offered on AT&T's \"limited\" plans. This \"throttling\" policy targets the top 5 percent of heavy data users in congested areas, leading to frustration and calls for customers to switch to tiered data plans. While Verizon and T-Mobile have different approaches to managing data usage, AT&T's implementation has left many users feeling their \"unlimited\" plans are functionally useless.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.986370",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.330317"
+        },
+        {
+          "relevance_score": "0.708017",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100279"
+        },
+        {
+          "relevance_score": "0.648447",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.095196"
+        }
+      ],
+      "time_published": "20120219T154556",
+      "title": "AT&T customers surprised by 'unlimited data' limit",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.lubbockonline.com/story/entertainment/2012/02/19/att-customers-surprised-unlimited-data-limit/15175353007/"
+    },
+    {
+      "authors": [
+        "Matt Chan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.123916,
+      "source": "OS X Daily",
+      "source_domain": "OS X Daily",
+      "summary": "This article provides detailed instructions on how to use an unlocked iPhone 4S on the T-Mobile network. It covers the requirements for activation and specific settings needed for data and MMS functionality, acknowledging that full 3G access on T-Mobile for the iPhone 4S is limited but expanding.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116097"
+        }
+      ],
+      "time_published": "20120128T155059",
+      "title": "How to Use iPhone 4S on T-Mobile",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://osxdaily.com/2012/01/28/use-iphone-4s-on-tmobile/"
+    },
+    {
+      "authors": [
+        "Jenna Wortham"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.104846,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "AT&T reported a significant $6.7 billion loss in the fourth quarter of 2011, primarily due to breakup fees from its failed acquisition of T-Mobile USA. Despite the loss, the company saw increased revenue spurred by strong iPhone sales and an influx of new subscribers, outperforming competitors in smartphone sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.915067",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042718"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "T",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.617074"
+        },
+        {
+          "relevance_score": "0.704598",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434158"
+        }
+      ],
+      "time_published": "20120126T155059",
+      "title": "AT&T in $6.7 Billion Loss on Failure of T-Mobile Deal (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.908659",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.819243",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.645020",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/01/27/technology/atts-net-loss-tied-to-t-mobile-merger-fees.html"
+    }
+  ],
+  "items": "36",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

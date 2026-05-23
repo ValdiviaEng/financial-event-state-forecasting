@@ -1,0 +1,233 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "CBC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.305475,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "Health Canada's decision to halt the expansion of cigarette warning labels followed a co-ordinated and sometimes secretive lobbying campaign by major tobacco companies. An investigation by CBC News revealed dozens of communications between tobacco industry lobbyists, many with close ties to the Conservative party, and key government ministries, including the Prime Minister's Office. This lobbying effort appears to have successfully shifted the government's focus from warning labels to the issue of contraband cigarettes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.888034",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309457"
+        }
+      ],
+      "time_published": "20101208T205900",
+      "title": "Tobacco lobbying preceded label retreat",
+      "topics": [
+        {
+          "relevance_score": "0.907525",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.807036",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.733217",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.636313",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/canada/tobacco-lobbying-preceded-label-retreat-1.875187"
+    },
+    {
+      "authors": [
+        "Suzanne LaBarre"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.2628,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "This article highlights an infographic by Tiffany Farrant that visualizes the LGBT-friendliness of Fortune 500 companies based on the 2011 Corporate Equality Index. It reveals that companies like ExxonMobil and Philip Morris International ranked lowest, while others like Alcoa scored high. The analysis points out that financial considerations often influence policy implementation, yet overall progress in workplace equality has been significant since 2002.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.440969"
+        },
+        {
+          "relevance_score": "0.916090",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.442890"
+        },
+        {
+          "relevance_score": "0.822813",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143568"
+        }
+      ],
+      "time_published": "20101110T193059",
+      "title": "Infographic of the Day: The Best and Worst Places to Work If You\u2019re Gay",
+      "topics": [
+        {
+          "relevance_score": "0.619830",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.802880",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.fastcompany.com/1662672/infographic-of-the-day-the-best-and-worst-places-to-work-if-you-re-gay/"
+    },
+    {
+      "authors": [
+        "By Autoweek"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.040772,
+      "source": "Autoweek",
+      "source_domain": "Autoweek",
+      "summary": "Ferrari has denied that the \"bar code\" logo on its Formula One cars is a form of subliminal advertising for Marlboro cigarettes, despite scrutiny from European medical figures and a report in England's the Times newspaper. The statement from Ferrari comes amid ongoing controversy regarding tobacco advertising bans, and the team's continued sponsorship deal with Philip Morris. Ferrari maintains the bar code is an integral part of the car's livery, modified annually, and not a Marlboro logo, while Philip Morris asserts their relationship with Ferrari complies with advertising laws.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.325900",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042201"
+        }
+      ],
+      "time_published": "20100429T193059",
+      "title": "Ferrari denies Marlboro influence on Formula One logo",
+      "topics": [
+        {
+          "relevance_score": "0.648190",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.autoweek.com/racing/formula-1/a2007391/ferrari-denies-marlboro-influence-formula-one-logo/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.241072,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Altria Group Inc. announced a significant 38% increase in its first-quarter profit, driven by strong demand for its Marlboro cigarettes and Copenhagen smokeless tobacco. The tobacco giant reported earnings of $813 million, or 39 cents per share, which is a substantial rise from the previous year's $589 million, or 28 cents per share. This performance highlights the continued strength of its key brands in the market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.321873",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030856"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.458228"
+        }
+      ],
+      "time_published": "20100421T161500",
+      "title": "Copenhagen, Marlboro boost Altria profit",
+      "topics": [
+        {
+          "relevance_score": "0.905789",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.609997",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/altria-profit-jumps-38-on-smokeless-tobacco-2010-04-21?gaa_at=eafs&gaa_n=AWEtsqeSw0QH493yQxV5JOYe4n_Rj_ZgA7gDJ_UU0Fa_d_fThPi3KtSsMzLL&gaa_ts=69090651&gaa_sig=kAtQWzmJidT4HvPMgYYa7paC7o43bBihxFJOz139pMF98-9bRkcPAolGzKS8yyzrk3FXd6BmyodgjCm2Zb6M-w%3D%3D"
+    },
+    {
+      "authors": [
+        "Allan Dowd"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.230653,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "R.J. Reynolds Tobacco Co. and Japan Tobacco's JTI-MacDonald unit have reached settlements with the Canadian government totaling $550 million over their alleged involvement in cigarette smuggling operations in the 1990s. These settlements resolve a decade of litigation stemming from allegations that the companies exported Canadian cigarettes to the U.S. knowing they would be illegally re-imported into Canada to avoid taxes, an issue that had a significant impact on anti-smoking initiatives. The agreements conclude civil and criminal charges, with the Canadian government reporting a total of $1.7 billion collected from the industry for smuggling-related penalties.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.820378",
+          "ticker": "BTI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205136"
+        },
+        {
+          "relevance_score": "0.746951",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249565"
+        }
+      ],
+      "time_published": "20100413T182110",
+      "title": "Reynolds, JTI settle cigarette smuggling case",
+      "topics": [
+        {
+          "relevance_score": "0.938462",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/reynolds-jti-settle-cigarette-smuggling-case/article574363/"
+    },
+    {
+      "authors": [
+        "Duff Wilson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.232189,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Tobacco companies, facing a new federal law banning terms like \"light\" and \"mild\" on cigarette packaging, are circumventing the rules by using color coding to differentiate products. Marlboro Lights will become Marlboro Gold, and Marlboro Ultra Lights will be Marlboro Silver, a move critics argue perpetuates the myth of safer cigarettes. The FDA is reviewing this color-coding approach and has the authority to take further action against misleading descriptors to protect consumers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.272946"
+        },
+        {
+          "relevance_score": "0.746642",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232599"
+        }
+      ],
+      "time_published": "20100218T193059",
+      "title": "Coded to Obey Law, Lights Become Marlboro Gold (Published 2010)",
+      "topics": [
+        {
+          "relevance_score": "0.704626",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.624539",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2010/02/19/business/19smoke.html"
+    }
+  ],
+  "items": "6",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

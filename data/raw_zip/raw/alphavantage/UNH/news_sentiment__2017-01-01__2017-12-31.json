@@ -1,0 +1,3650 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Zachary Tracer",
+        "Robert Langreth",
+        "Matthew Boyle"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.03009,
+      "source": "Insurance Journal",
+      "source_domain": "Insurance Journal",
+      "summary": "CVS Health Corp.'s proposed $67.5 billion merger with Aetna Inc. aims to transform CVS stores into health hubs, offering medical care alongside retail products. The plan faces significant challenges, including the cost of remodeling stores and changing customer perceptions of health care delivery, with some analysts skeptical of its effectiveness in generating new customers or lowering health costs. The success of the deal hinges on managing customer health through in-store clinics, moving CVS further into the healthcare company sphere.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029669"
+        },
+        {
+          "relevance_score": "0.725740",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.129116"
+        },
+        {
+          "relevance_score": "0.613102",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.138520"
+        },
+        {
+          "relevance_score": "0.605253",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132629"
+        }
+      ],
+      "time_published": "20171228T041151",
+      "title": "Some Question CVS-Aetna Remodeling of Health Care",
+      "topics": [
+        {
+          "relevance_score": "0.944161",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.820199",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.701994",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.insurancejournal.com/news/national/2017/12/28/475434.htm"
+    },
+    {
+      "authors": [
+        "Christopher Snowbeck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.426833,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "UnitedHealth Group announced its plan to acquire Empresas Banm\u00e9dica, a Chilean health care provider and insurer operating in Chile, Colombia, and Peru, for approximately $2.8 billion. This acquisition is part of UnitedHealth's strategy to expand its global operations and diversify beyond its U.S. insurance and health services businesses. The deal is expected to close in the first quarter of 2018 and follows several other large acquisitions by UnitedHealth in 2017.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402406"
+        }
+      ],
+      "time_published": "20171223T040000",
+      "title": "UnitedHealth plans $2.8B bid to grow South America business",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.948369",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.612637",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.634324",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.startribune.com/unitedhealth-plans-2-8b-bid-to-grow-south-america-business/465954093"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-2.images.arcpublishing.com%2Freuters%2FVSCWHJPM7JMHLPF4EGYJ3J7PNU.jpg?auth=da75c0ef4f6a7d65b1ae2e95a9757a627d739af37829dce0a831e3d36b856b3e&width=800&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.420311,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "UnitedHealth Group Inc announced a definitive agreement to acquire Chilean healthcare company Banmedica SA for $2.8 billion, expanding its presence in South America. The deal involves UnitedHealth offering 2,150 pesos per share, with Banmedica's two controlling shareholders tendering their combined 57% ownership. Analysts view this international expansion as a supplement to UnitedHealth's primary growth strategy of vertical integration with Optum in the U.S.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407908"
+        }
+      ],
+      "time_published": "20171222T152700",
+      "title": "UnitedHealth to buy Chile's Banmedica for $2.8 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.806938",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/unitedhealth-to-buy-chiles-banmedica-for-28-billion-idUSKBN1EG1T4/"
+    },
+    {
+      "authors": [
+        "Jeff Byers"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.178759,
+      "source": "Healthcare Dive",
+      "source_domain": "Healthcare Dive",
+      "summary": "Humana, TPG Capital, and Welsh, Carson, Anderson & Stowe (WCAS) have announced a $4.1 billion deal to acquire Kindred Healthcare. Following the acquisition, Kindred's home health, hospice, and community care businesses will become a standalone company, 40% owned by Humana and 60% by TPG and WCAS. This move is part of a trend of cross-sector deals and vertical integration within the healthcare industry, particularly in Medicare Advantage, following Humana's failed merger attempt with Aetna.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.950357",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308407"
+        },
+        {
+          "relevance_score": "0.648809",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111252"
+        },
+        {
+          "relevance_score": "0.556913",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111561"
+        }
+      ],
+      "time_published": "20171218T043727",
+      "title": "Humana, private equity ink $4.1B deal for Kindred",
+      "topics": [
+        {
+          "relevance_score": "0.926595",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.836353",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.638057",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.healthcaredive.com/news/kindred-humana-deal/513300/"
+    },
+    {
+      "authors": [
+        "Debbie Cockrell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.204929,
+      "source": "Tacoma News Tribune",
+      "source_domain": "Tacoma News Tribune",
+      "summary": "Tacoma's Northwest Physicians Network was acquired by DaVita Medical Group, only to be subsequently bought by UnitedHealth Group\u2019s OptumCare division eight days later as part of a larger $4.9 billion deal for DaVita Medical Group. The rapid sequence of events stemmed from DaVita Inc.'s earlier consideration of divesting its medical group due to disappointing returns, with the transaction expected to close next year pending regulatory approval.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307829"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DVA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106534"
+        }
+      ],
+      "time_published": "20171208T165000",
+      "title": "Tacoma\u2019s Northwest Physicians Network bought, sold in the span of about a week",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.906663",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.736690",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.642836",
+          "topic": "finance"
+        }
+      ],
+      "url": "http://www.thenewstribune.com/news/business/article188899399.html"
+    },
+    {
+      "authors": [
+        "Margie Manning"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.046201,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "A new stand-alone heavy equipment company, Dobbs Equipment, has been formed through the co-investment of Dobbs and McNally. The company, which acquired seven John Deere stores in Florida, has chosen Riverview for its headquarters. It employs nearly 200 people across Florida and expects \"a few hundred million\" in revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315769"
+        },
+        {
+          "relevance_score": "0.632766",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130238"
+        },
+        {
+          "relevance_score": "0.646050",
+          "ticker": "DVA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104162"
+        }
+      ],
+      "time_published": "20171208T041643",
+      "title": "Dobbs, McNally co-invest in new heavy equipment firm, choose Riverview for headquarters",
+      "topics": [
+        {
+          "relevance_score": "0.918539",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.612615",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bizjournals.com/tampabay/news/2017/12/08/dobbs-mcnally-co-invest-in-new-heavy-equipment.html"
+    },
+    {
+      "authors": [
+        "Joe Carlson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.350662,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "UnitedHealth Group is acquiring DaVita Medical Group for $4.9 billion in an all-cash deal, further blurring the lines between health insurers and providers. The acquisition aims to leverage UnitedHealth's physician network to direct patients from high-cost hospital settings to lower-cost urgent care and outpatient facilities. DaVita Medical Group, which had been unprofitable, serves about 1.7 million patients annually through its network of clinics and urgent care centers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.471164"
+        },
+        {
+          "relevance_score": "0.933214",
+          "ticker": "DVA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345206"
+        },
+        {
+          "relevance_score": "0.744526",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313794"
+        }
+      ],
+      "time_published": "20171207T034000",
+      "title": "UnitedHealth acquiring DaVita Medical Group for $4.9B",
+      "topics": [
+        {
+          "relevance_score": "0.929520",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830009",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.621204",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.609157",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.startribune.com/unitedhealth-acquiring-davita-medical-group-for-4-9b/462281743"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.03704,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "UnitedHealth Group Inc. is set to acquire DaVita Inc.'s primary and urgent care services for $4.9 billion, marking its second major acquisition of the year to expand its medical group. This move is part of a broader trend among health insurers to reduce medical costs by integrating more directly into healthcare services. The deal is expected to add to UnitedHealth's earnings per share in 2018 and 2019, while DaVita plans to use the proceeds for stock buybacks and debt repayment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.311881",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032541"
+        }
+      ],
+      "time_published": "20171206T092800",
+      "title": "UnitedHealth to buy DaVita primary care unit for $4.9 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.937800",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.734974",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.600186",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/healthcare-pharmaceuticals/unitedhealth-to-buy-davita-primary-care-unit-for-49-billion-idUSKBN1E01HI/"
+    },
+    {
+      "authors": [
+        "Reed Abelson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.316612,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "UnitedHealth Group announced its acquisition of a large physician group from DaVita for approximately $4.9 billion in cash, further expanding its direct medical care delivery. This move, praised by analysts for its synergy with UnitedHealth's strategy, follows other significant consolidations in the healthcare industry, such as Aetna's planned merger with CVS Health. These transactions highlight a growing trend of blurring boundaries between traditional healthcare providers and insurers aiming to offer integrated services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.420706"
+        },
+        {
+          "relevance_score": "0.749085",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341709"
+        },
+        {
+          "relevance_score": "0.885123",
+          "ticker": "DVA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220440"
+        }
+      ],
+      "time_published": "20171206T053729",
+      "title": "UnitedHealth Buys Large Doctors Group as Lines Blur in Health Care (Published 2017)",
+      "topics": [
+        {
+          "relevance_score": "0.915983",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.814939",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.631753",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2017/12/06/health/unitedhealth-doctors-insurance.html"
+    },
+    {
+      "authors": [
+        "Mark Reilly and Margie Manning"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.27116,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "UnitedHealth Group is acquiring DaVita Medical Group, which includes JSA Medical Group in the Tampa Bay area, for $4.9 billion. The acquisition involves one of the largest physician practices in the region. This move signifies a significant consolidation in the healthcare provider market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428614"
+        },
+        {
+          "relevance_score": "0.833164",
+          "ticker": "DVA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348245"
+        },
+        {
+          "relevance_score": "0.633363",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118609"
+        }
+      ],
+      "time_published": "20171206T053729",
+      "title": "UnitedHealth buying DaVita's doctor group, including Tampa operations, for $4.9 billion",
+      "topics": [
+        {
+          "relevance_score": "0.915066",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.800437",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.bizjournals.com/tampabay/news/2017/12/06/unitedhealth-buying-davitas-doctor-group-including.html"
+    },
+    {
+      "authors": [
+        "Bob Herman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.300334,
+      "source": "Axios",
+      "source_domain": "Axios",
+      "summary": "UnitedHealth Group is acquiring DaVita Medical Group, a large physician network operating in six states, for $4.9 billion. This acquisition further expands UnitedHealth's Optum division into healthcare delivery beyond its traditional insurance business, following other recent acquisitions of healthcare providers. DaVita will use the proceeds to buy back stock and concentrate on its core dialysis business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.484875"
+        },
+        {
+          "relevance_score": "0.831138",
+          "ticker": "DVA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289695"
+        },
+        {
+          "relevance_score": "0.629528",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125839"
+        }
+      ],
+      "time_published": "20171206T053728",
+      "title": "UnitedHealth acquires DaVita's medical group for $4.9 billion",
+      "topics": [
+        {
+          "relevance_score": "0.946874",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.831182",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.624065",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.axios.com/2017/12/06/unitedhealth-acquires-1512562454"
+    },
+    {
+      "authors": [
+        "Tom Murphy",
+        "and David Koenig"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19213,
+      "source": "6abc Philadelphia",
+      "source_domain": "6abc Philadelphia",
+      "summary": "CVS Health is offering $69 billion to acquire insurer Aetna, aiming to become a comprehensive healthcare provider offering prescription drugs, clinics, and insurance plans. This acquisition would merge CVS's extensive retail and pharmacy benefit management operations with Aetna's insurance coverage, potentially transforming how healthcare services are delivered and managed for millions of Americans. The deal faces antitrust scrutiny but is seen as a strategic move to build a one-stop-shop for health, competing with large integrated healthcare providers and even potential new entrants like Amazon.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.993922",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339990"
+        },
+        {
+          "relevance_score": "0.690022",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144265"
+        },
+        {
+          "relevance_score": "0.613586",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130538"
+        }
+      ],
+      "time_published": "20171204T041151",
+      "title": "CVS pushes into insurance with $69 billion Aetna bid",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.942584",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.734774",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://6abc.com/post/cvs-pushes-into-insurance-with-$69-billion-aetna-bid/2732247/"
+    },
+    {
+      "authors": [
+        "Bruce Japsen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.26572,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "CVS Health Corp. announced its plan to acquire health insurer Aetna for $69 billion, creating a new healthcare giant that will rival UnitedHealth Group. This deal aims to integrate healthcare payer and medical provider services, potentially lowering costs and simplifying the consumer healthcare experience. The acquisition is expected to face antitrust scrutiny, particularly concerning the PBM operations, but proponents argue it could lead to significant cost savings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407203"
+        },
+        {
+          "relevance_score": "0.837971",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210898"
+        },
+        {
+          "relevance_score": "0.603796",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145267"
+        }
+      ],
+      "time_published": "20171203T182400",
+      "title": "CVS To Buy Aetna For $69B, And A UnitedHealth Rival Is Born",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.914714",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.704520",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.635565",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/brucejapsen/2017/12/03/cvs-to-buy-aetna-for-69b-and-a-unitedhealth-rival-is-born/"
+    },
+    {
+      "authors": [
+        "Camila Domonoske"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -8e-06,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "CVS Health Corp is acquiring health insurer Aetna Inc. for $69 billion, paying $207 per share in cash and stock. This acquisition aims to expand CVS's low-cost medical clinics and integrate pharmacy benefits with health care for Aetna's 22 million members. The merger is partly driven by the threat from Amazon entering the pharmacy business and Aetna's own challenges in the healthcare market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338894"
+        },
+        {
+          "relevance_score": "0.608672",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103210"
+        },
+        {
+          "relevance_score": "0.629518",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117402"
+        },
+        {
+          "relevance_score": "0.623961",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.112659"
+        }
+      ],
+      "time_published": "20171203T164800",
+      "title": "CVS To Buy Health Insurer Aetna For $69 Billion : The Two-Way",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.938954",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.736784",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.npr.org/sections/thetwo-way/2017/12/03/568189430/reports-cvs-to-buy-health-insurer-aetna-for-69-billion"
+    },
+    {
+      "authors": [
+        "Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.211403,
+      "source": "www.statnews.com",
+      "source_domain": "www.statnews.com",
+      "summary": "CVS Health is set to acquire insurance giant Aetna for approximately $69 billion, a move designed to deepen CVS's reach into customer healthcare and secure a key client. The deal, valued at $207 in cash and stock per Aetna share, aims to transform CVS into a one-stop-shop for health care services by leveraging its drugstores and clinics. This acquisition could also protect CVS's pharmacy benefit management business from potential competition from Amazon in the prescription drug market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435125"
+        },
+        {
+          "relevance_score": "0.749359",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136182"
+        },
+        {
+          "relevance_score": "0.643125",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113822"
+        }
+      ],
+      "time_published": "20171203T041151",
+      "title": "CVS agrees to buy insurance giant Aetna",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830758",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.734472",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.statnews.com/2017/12/03/cvs-acquires-aetna/"
+    },
+    {
+      "authors": [
+        "Carolyn Y. Johnson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.161853,
+      "source": "The Washington Post",
+      "source_domain": "The Washington Post",
+      "summary": "CVS Health has announced an agreement to acquire health insurer Aetna for $69 billion. This blockbuster acquisition aims to rein in health-care costs and transform CVS's 9,700 pharmacy storefronts into community medical hubs for primary care and basic procedures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417799"
+        },
+        {
+          "relevance_score": "0.647664",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125940"
+        },
+        {
+          "relevance_score": "0.643852",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100003"
+        },
+        {
+          "relevance_score": "0.632883",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144368"
+        },
+        {
+          "relevance_score": "0.609815",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113689"
+        }
+      ],
+      "time_published": "20171203T041151",
+      "title": "CVS agrees to buy Aetna in $69 billion deal that could shake up health-care industry",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.914439",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.701294",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.washingtonpost.com/news/wonk/wp/2017/12/03/cvs-agrees-to-buy-aetna-in-69-billion-deal-that-could-shake-up-health-care-industry/"
+    },
+    {
+      "authors": [
+        "MBA Skool Team"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.209685,
+      "source": "MBASkool",
+      "source_domain": "MBASkool",
+      "summary": "This article details the marketing mix (4Ps: Product, Price, Place, Promotion, and additionally the 7Ps for services: People, Process, Physical Evidence) of UnitedHealth Group. It outlines UnitedHealth's two main business platforms, UnitedHealthcare and Optum, their varying pricing strategies, global distribution, and diverse promotional activities including digital presence and CSR efforts. The article also provides a brief company background, noting its founding by physicians and its status as a publicly traded company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307282"
+        },
+        {
+          "relevance_score": "0.634467",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113516"
+        }
+      ],
+      "time_published": "20171122T053728",
+      "title": "UnitedHealth Group Marketing Mix (4Ps) & Marketing Strategy",
+      "topics": [
+        {
+          "relevance_score": "0.936306",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.715987",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.mbaskool.com/marketing-mix/services/16767-unitedhealth-group.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.342277,
+      "source": "samsung.com",
+      "source_domain": "samsung.com",
+      "summary": "Samsung Electronics America announced a collaboration with UnitedHealthcare and Qualcomm Life to include Samsung Gear Fit2 Pro and Samsung Gear Sport in the UnitedHealthcare Motion\u2122 wellness program. This allows UnitedHealthcare members to earn over $1,000 annually by achieving daily walking goals, tracked by a custom Samsung F.I.T. app that monitors frequency, intensity, and tenacity. The wearables offer comprehensive health and fitness tracking, water resistance, swim tracking, and improved heart rate monitoring to encourage active lifestyles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.844706",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347405"
+        },
+        {
+          "relevance_score": "0.907954",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419028"
+        },
+        {
+          "relevance_score": "0.728922",
+          "ticker": "HON",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307057"
+        }
+      ],
+      "time_published": "20171117T051619",
+      "title": "Samsung Can Help Members Get F.I.T. through UnitedHealthcare National Wellness Program",
+      "topics": [
+        {
+          "relevance_score": "0.901281",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.847700",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.608752",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://news.samsung.com/us/samsung-gear-wearable-unitedhealthcare-national-wellness-program/"
+    },
+    {
+      "authors": [
+        "Leslie Small"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.028359,
+      "source": "Fierce Healthcare",
+      "source_domain": "Fierce Healthcare",
+      "summary": "Anthem announced that CEO Joseph Swedish will step down, to be replaced by Gail Boudreaux, former CEO of UnitedHealthcare. Swedish will serve as executive chairman until May 2018, then as a senior adviser. Boudreaux is expected to lead Anthem's new phase of growth, including the rollout of its integrated PBM, IngenioRx.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.983915",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114916"
+        },
+        {
+          "relevance_score": "0.846457",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113850"
+        },
+        {
+          "relevance_score": "0.746216",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107893"
+        },
+        {
+          "relevance_score": "0.611958",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105483"
+        },
+        {
+          "relevance_score": "0.586450",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.100950"
+        }
+      ],
+      "time_published": "20171106T105500",
+      "title": "Anthem CEO Joseph Swedish to step down, will be replaced by Gail Boudreaux",
+      "topics": [
+        {
+          "relevance_score": "0.904788",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.816722",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.632242",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.fiercehealthcare.com/payer/anthem-ceo-joseph-swedish-to-step-down-will-be-replaced-by-gail-boudreaux"
+    },
+    {
+      "authors": [
+        "Mark Reilly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.167863,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Gail Boudreaux, former head of UnitedHealth Group Inc.'s health insurance business, has been named the new president and CEO of Anthem Inc. She will succeed Joseph Swedish on November 20, 2017. Boudreaux was previously considered a potential CEO candidate at UnitedHealth but departed after a management shuffle in 2014.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.904166",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106748"
+        },
+        {
+          "relevance_score": "0.801553",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291700"
+        },
+        {
+          "relevance_score": "0.561453",
+          "ticker": "XEL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142192"
+        }
+      ],
+      "time_published": "20171106T081000",
+      "title": "Ex-UnitedHealth exec Gail Boudreaux named Anthem CEO - Bizwomen",
+      "topics": [
+        {
+          "relevance_score": "0.903209",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.705128",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/triad/bizwomen/news/latest-news/2017/11/gail-boudreaux-named-anthem-ceo.html"
+    },
+    {
+      "authors": [
+        "Mark Reilly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.256298,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Gail Boudreaux, formerly CEO of UnitedHealth Group Inc.'s UnitedHealthcare division, has been named CEO of Anthem. Boudreaux previously led UnitedHealth's main insurance division until her departure in 2014. Anthem is noted as the nation's second-largest health insurer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.929955",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341016"
+        },
+        {
+          "relevance_score": "0.842890",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242033"
+        }
+      ],
+      "time_published": "20171106T053729",
+      "title": "Ex-UnitedHealth exec Gail Boudreaux named Anthem CEO",
+      "topics": [
+        {
+          "relevance_score": "0.729346",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.735998",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.bizjournals.com/twincities/news/2017/11/06/ex-unitedhealth-exec-gail-boudreaux-named-anthem.html"
+    },
+    {
+      "authors": [
+        "Contributed / Contributed Photo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288403,
+      "source": "Darien Times",
+      "source_domain": "Darien Times",
+      "summary": "This article showcases various community events and recognitions in Darien. It highlights Maura Carley's award for her work in healthcare advocacy, a sold-out event featuring New York Times columnist Thomas L. Friedman benefiting The Community Fund of Darien, and upcoming flu clinics. Other community news includes a play at the Darien Arts Center, an art exhibit by Jan Dilenschneider, and initiatives for seniors and youth mentoring.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.710210",
+          "ticker": "ICLR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328353"
+        },
+        {
+          "relevance_score": "0.621211",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277256"
+        }
+      ],
+      "time_published": "20171103T044129",
+      "title": "Community Soundings: Health care advocate honored, A sold-out audience",
+      "topics": [
+        {
+          "relevance_score": "0.943613",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.darientimes.com/news/article/Community-Soundings-Health-care-advocate-12329204.php"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.212394,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "USMD Holdings, Inc. announced the grand opening of its new USMD Fort Worth Clearfork Clinic on October 12, 2017, from 3 to 5 p.m. The 60,000-square-foot facility is located at 5450 Clearfork Main Street, Fort Worth, Texas, and will offer primary and specialty care, including family medicine, internal medicine, cardiology, and more, provided by over 30 care providers. The celebration included raffle prizes, food, tours, and a ribbon-cutting ceremony.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.312755",
+          "ticker": "USMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042162"
+        },
+        {
+          "relevance_score": "0.634505",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323781"
+        },
+        {
+          "relevance_score": "0.569991",
+          "ticker": "MCK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.202491"
+        }
+      ],
+      "time_published": "20171025T172237",
+      "title": "USMD Celebrates Grand Opening of Multispecialty Clinic Oct. 12 from 3 to 5 P.M.",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/usmd-celebrates-grand-opening-of-multispecialty-clinic-oct-12-from-3-to-5-pm-300525323.html"
+    },
+    {
+      "authors": [
+        "Bruce Japsen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.045218,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Trevor Fetter officially stepped down as CEO of Tenet Healthcare on Monday, with Ronald Rittenmeyer appointed as his temporary successor while the company searches for a permanent chief executive. Fetter had been a prominent figure at Tenet for over two decades, but the company has been underperforming, leading to speculation about strategic options including the sale of company parts. Tenet operates numerous hospitals and outpatient centers and is exploring various strategic options.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "THC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.292685"
+        },
+        {
+          "relevance_score": "0.636926",
+          "ticker": "HCA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124115"
+        },
+        {
+          "relevance_score": "0.612297",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125472"
+        }
+      ],
+      "time_published": "20171023T182000",
+      "title": "Trevor Fetter Leaves Tenet Healthcare As CEO",
+      "topics": [
+        {
+          "relevance_score": "0.932177",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.833859",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.638742",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/brucejapsen/2017/10/23/fetter-leaves-tenet-as-ceo/"
+    },
+    {
+      "authors": [
+        "Glenn Kessler"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.240279,
+      "source": "The Washington Post",
+      "source_domain": "The Washington Post",
+      "summary": "President Trump claimed that insurance companies like Anthem, Humana, Aetna, and Cigna \"have made a fortune\" from Obamacare, citing significant increases in their stock prices. This article analyzes that claim, suggesting Trump misleadingly correlates rising stock prices with direct profits related to Obamacare.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267612"
+        },
+        {
+          "relevance_score": "0.811229",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241917"
+        },
+        {
+          "relevance_score": "0.709372",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239701"
+        },
+        {
+          "relevance_score": "0.635678",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.198294"
+        }
+      ],
+      "time_published": "20171019T040652",
+      "title": "Analysis | President Trump\u2019s false claim that insurance companies \u2018have made a fortune\u2019 from Obamacare",
+      "topics": [
+        {
+          "relevance_score": "0.841620",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.713505",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.washingtonpost.com/news/fact-checker/wp/2017/10/19/president-trumps-false-claim-that-insurance-companies-have-made-a-fortune-from-obamacare/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.390235,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "CVS Health announced a five-year agreement with Anthem, Inc. to provide services for IngenioRx, Anthem's new pharmacy benefit manager. Under the agreement, CVS Caremark will manage claims processing and prescription fulfillment, with the contract running from January 1, 2020, through December 31, 2024. This collaboration aims to leverage CVS Health's integrated model, including its pharmacies and MinuteClinic, to improve health outcomes and lower healthcare costs for Anthem members.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.452688"
+        },
+        {
+          "relevance_score": "0.826801",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299940"
+        }
+      ],
+      "time_published": "20171018T061000",
+      "title": "CVS Health Signs Five-Year Agreement with Anthem, Inc. to Provide Services to Support IngenioRx",
+      "topics": [
+        {
+          "relevance_score": "0.949427",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.710237",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.609915",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/cvs-health-signs-five-year-agreement-with-anthem-inc-to-provide-services-to-support-ingeniorx-300538665.html"
+    },
+    {
+      "authors": [
+        "Jacob Bell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.134254,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Anthem Inc. is planning to launch its own pharmacy benefit manager (PBM) called IngenioRx by 2020, ending its relationship with Express Scripts Holding Co. This move, which follows intense litigation between the two companies, is expected to save Anthem an estimated $4 billion annually and includes a five-year agreement with CVS Health Corp. for prescription fulfillment and claims processing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.928011",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324304"
+        },
+        {
+          "relevance_score": "0.938501",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418845"
+        },
+        {
+          "relevance_score": "0.736239",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.432304"
+        },
+        {
+          "relevance_score": "0.617880",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130415"
+        }
+      ],
+      "time_published": "20171018T041152",
+      "title": "Anthem leaves Express Scripts behind to roll out its own PBM",
+      "topics": [
+        {
+          "relevance_score": "0.933672",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.833825",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.739638",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/anthem-pbm-express-scripts-cvs/507601/"
+    },
+    {
+      "authors": [
+        "Anna Wilde Mathews"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.194289,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Anthem Inc. announced it will launch its own pharmacy-benefit manager, IngenioRx, in 2020, ending its contract with Express Scripts. This move is expected to reshape the pharmacy-benefit sector, which is currently under pressure to reduce costs and increase transparency. CVS Health Corp. will provide services for IngenioRx.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311567"
+        },
+        {
+          "relevance_score": "0.713867",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110271"
+        },
+        {
+          "relevance_score": "0.746389",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133088"
+        },
+        {
+          "relevance_score": "0.744312",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148198"
+        }
+      ],
+      "time_published": "20171018T041151",
+      "title": "Anthem to Launch Its Own Pharmacy-Benefit Manager",
+      "topics": [
+        {
+          "relevance_score": "0.911337",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/anthem-signs-five-year-deal-with-cvs-for-services-to-new-pharmacy-benefit-manager-ingeniorx-1508326194?gaa_at=eafs&gaa_n=AWEtsqeCRMtBCP6Vi3I0tJYVWmFwK9676H4jr_2BQJJv-U-ElyIhwb5y12QB&gaa_ts=69082ebd&gaa_sig=W8G7cwvLsAiV9gb-TTA8VMTwZB_7o8eGhyXlMTnm3UQoPAYCR8CrlI2-WV1oUJVnIAZTn3IiVLzJhWeWhQCMiA%3D%3D"
+    },
+    {
+      "authors": [
+        "Leslie Small"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.470023,
+      "source": "Fierce Healthcare",
+      "source_domain": "Fierce Healthcare",
+      "summary": "UnitedHealth Group appears well-positioned to benefit from President Donald Trump's recent healthcare policy moves, particularly the expansion of short-term policies, association plans, and health reimbursement arrangements. The company already has significant experience in these areas and sees potential for growth. UnitedHealth also reported strong third-quarter earnings, beating Wall Street estimates, and raised its outlook for the full year despite anticipating headwinds from the health insurance tax in 2018.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.490322"
+        }
+      ],
+      "time_published": "20171017T125200",
+      "title": "UnitedHealth could benefit from Trump's executive order",
+      "topics": [
+        {
+          "relevance_score": "0.945141",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.840463",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.738928",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.634037",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.fiercehealthcare.com/aca/unitedhealth-q3-earnings-trump-executive-order"
+    },
+    {
+      "authors": [
+        "Elise Reuter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.323819,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "UnitedHealth Group announced plans to hire 500 new employees in Kansas. The jobs are available at the company's OptumRx operation located in Overland Park Xchange. This expansion reflects a significant local employment boost from the health care conglomerate.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320402"
+        }
+      ],
+      "time_published": "20171017T053728",
+      "title": "UnitedHealth Group plans to hire 500 in Kansas",
+      "topics": [
+        {
+          "relevance_score": "0.937040",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.600687",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bizjournals.com/kansascity/news/2017/10/17/unitedhealth-group-optumrx-hiring.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.269076,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "President Donald Trump tweeted about his pride in causing a plunge in health insurance stocks after his administration ended payments to insurers under the Affordable Care Act. He stated that health insurance stocks had \"gone through the roof during the ObamaCare years\" and that he had ended their \"Dems windfall.\" This action was blamed for a selloff in shares of health insurers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.700969",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303708"
+        },
+        {
+          "relevance_score": "0.651117",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.281716"
+        },
+        {
+          "relevance_score": "0.619431",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227627"
+        },
+        {
+          "relevance_score": "0.577051",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.184018"
+        }
+      ],
+      "time_published": "20171014T131900",
+      "title": "Trump brags about sparking plunge in health insurance stocks",
+      "topics": [
+        {
+          "relevance_score": "0.922054",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.805083",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.727352",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/trump-brags-about-sparking-plunge-in-health-insurance-stocks-2017-10-14?gaa_at=eafs&gaa_n=AWEtsqdjnwydkwMSpCvF1JgetkVEMJdvWqHOhdsiu2NQHyGh38jxb4YRJK4y&gaa_ts=69083956&gaa_sig=n8Rv73DXS9A9DIl2IYfegJmUTUw6sUiwNl1k1G3r6bjd9SSXPXGCfgZbqUT3v8hA7GewDVUzJoDeVj9wDlYWNA%3D%3D"
+    },
+    {
+      "authors": [
+        "Chad Terhune"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.100208,
+      "source": "California Healthline",
+      "source_domain": "California Healthline",
+      "summary": "Anthem Blue Cross agreed to reduce its planned 2018 premium increases in California for individual and small-employer markets after state regulators questioned its initial rate hike rationale. This intervention by the California Department of Managed Health Care will save individuals and small businesses an estimated $114 million. Regulators particularly challenged Anthem's predictions for pharmacy expense increases, leading to a significant reduction in the proposed rate hikes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.720532",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317075"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.330161"
+        },
+        {
+          "relevance_score": "0.627487",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306133"
+        },
+        {
+          "relevance_score": "0.649632",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.344674"
+        },
+        {
+          "relevance_score": "0.644575",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322387"
+        }
+      ],
+      "time_published": "20171012T045731",
+      "title": "Anthem Eases Up On Premium Hikes After State Scrutiny",
+      "topics": [
+        {
+          "relevance_score": "0.944629",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.716596",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.627720",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://californiahealthline.org/news/anthem-eases-up-on-premium-hikes-after-state-scrutiny/"
+    },
+    {
+      "authors": [
+        "Meg Bryant"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.039257,
+      "source": "Healthcare Dive",
+      "source_domain": "Healthcare Dive",
+      "summary": "Molina Healthcare has appointed Joseph Zubretsky, a former Aetna official and CEO of The Hanover Insurance Group, as its new president and CEO, replacing Mario Molina. This leadership change follows a turbulent year for Molina, marked by disappointing financial results including a $230 million loss in Q2 2017, management upheaval, workforce reductions of 1,500 jobs, and planned spending cuts of $300 million to $400 million. Zubretsky is expected to lead restructuring efforts to improve profitability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.257469"
+        },
+        {
+          "relevance_score": "0.642591",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122718"
+        },
+        {
+          "relevance_score": "0.621602",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108944"
+        },
+        {
+          "relevance_score": "0.630545",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132009"
+        },
+        {
+          "relevance_score": "0.629558",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146785"
+        }
+      ],
+      "time_published": "20171012T045730",
+      "title": "Molina names insurance veteran as new CEO",
+      "topics": [
+        {
+          "relevance_score": "0.916011",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.802614",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.725652",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.646235",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.healthcaredive.com/news/molina-names-insurance-veteran-as-new-ceo/507099/"
+    },
+    {
+      "authors": [
+        "staff-author"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019002,
+      "source": "Los Angeles Business Journal",
+      "source_domain": "Los Angeles Business Journal",
+      "summary": "Molina Healthcare Inc. has appointed Joseph Zubretsky as its new chief executive, effective Nov. 6. This appointment follows a summer of significant changes for the company, including layoffs and a C-suite shakeup due to falling earnings. Zubretsky, with 35 years of experience in insurance and financial services, previously led Hanover Insurance Group and a subsidiary of Aetna Inc.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.004561"
+        },
+        {
+          "relevance_score": "0.701993",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048492"
+        },
+        {
+          "relevance_score": "0.649058",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001149"
+        },
+        {
+          "relevance_score": "0.600664",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.047955"
+        },
+        {
+          "relevance_score": "0.607244",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030431"
+        }
+      ],
+      "time_published": "20171012T045730",
+      "title": "Molina Healthcare Names New CEO",
+      "topics": [
+        {
+          "relevance_score": "0.900682",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.844105",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.714487",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://labusinessjournal.com/news/weekly-news/molina-healthcare-names-new-ceo/"
+    },
+    {
+      "authors": [
+        "Christopher Snowbeck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.243932,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "UnitedHealthcare, the nation's largest health insurer, is expanding its presence in Minnesota by selling coverage to commercial groups and expanding into the state's Medicare market. This move is expected to increase competition in the local insurance market, which has historically been dominated by nonprofit health plans. The expansion is partly influenced by a new state law allowing for-profit HMOs and another regulatory change affecting Medicare plans.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.966968",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326099"
+        },
+        {
+          "relevance_score": "0.655085",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245012"
+        },
+        {
+          "relevance_score": "0.626749",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.180969"
+        },
+        {
+          "relevance_score": "0.576636",
+          "ticker": "AON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102442"
+        }
+      ],
+      "time_published": "20171010T102200",
+      "title": "UnitedHealthcare goes for bigger piece of Minnesota market",
+      "topics": [
+        {
+          "relevance_score": "0.933717",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.709060",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.startribune.com/unitedhealthcare-goes-for-bigger-piece-of-minnesota-market/450156433"
+    },
+    {
+      "authors": [
+        "Jill Sheridan"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.269792,
+      "source": "WFYI",
+      "source_domain": "WFYI",
+      "summary": "Diabetics and advocates protested at Eli Lilly headquarters in Indianapolis against the skyrocketing prices of insulin. They highlighted that many diabetics struggle to afford the life-saving medication, with some resorting to dangerous measures to conserve their supply. The protest aimed to draw attention to the lack of affordable generic options and the alleged price-fixing by major insulin manufacturers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.615391"
+        },
+        {
+          "relevance_score": "0.610100",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145037"
+        },
+        {
+          "relevance_score": "0.610871",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148485"
+        }
+      ],
+      "time_published": "20170911T045131",
+      "title": "Diabetics Protest Rising Insulin Prices At Drug Company Headquarters",
+      "topics": [
+        {
+          "relevance_score": "0.930720",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.704778",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.wfyi.org/news/articles/diabetics-protest-rising-insulin-prices-at-drug-company-headquarters"
+    },
+    {
+      "authors": [
+        "Leslie Small"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.364532,
+      "source": "Fierce Healthcare",
+      "source_domain": "Fierce Healthcare",
+      "summary": "Optum, the healthcare services arm of UnitedHealth Group, is set to acquire The Advisory Board Company\u2019s healthcare consulting and technology business for $1.3 billion. This acquisition, expected to close by early 2018, will expand Optum's services and user base, enhancing its data analytics capabilities. The deal marks Optum's second major acquisition this year, following its purchase of Surgical Care Affiliates.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404997"
+        },
+        {
+          "relevance_score": "0.640361",
+          "ticker": "MCK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305424"
+        },
+        {
+          "relevance_score": "0.637458",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302462"
+        },
+        {
+          "relevance_score": "0.640621",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339259"
+        },
+        {
+          "relevance_score": "0.630256",
+          "ticker": "LH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342793"
+        }
+      ],
+      "time_published": "20170829T124700",
+      "title": "UnitedHealth's Optum will acquire Advisory Board's healthcare business for $1.3B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.910613",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.813817",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.648933",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fiercehealthcare.com/payer/unitedhealth-s-optum-will-acquire-advisory-board-s-healthcare-business-for-1-3b"
+    },
+    {
+      "authors": [
+        "Alex Kacik"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.331116,
+      "source": "Modern Healthcare News",
+      "source_domain": "Modern Healthcare News",
+      "summary": "The Advisory Board Company is splitting its operations in a $2.6 billion deal, with UnitedHealth Group's Optum acquiring its healthcare business. This move sees a major healthcare consultancy's assets being divided, as its education business will go to a private equity firm. The transaction highlights continued consolidation and strategic shifts within the healthcare and education sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326427"
+        }
+      ],
+      "time_published": "20170829T050000",
+      "title": "Advisory Board split in $2.6B deal with UnitedHealth's Optum buying healthcare business",
+      "topics": [
+        {
+          "relevance_score": "0.931810",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.833538",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "http://www.modernhealthcare.com/article/20170829/NEWS/170829882/advisory-board-split-in-2-6b-deal-with-unitedhealth-s-optum-buying-healthcare-business/"
+    },
+    {
+      "authors": [
+        "Jeff Wells"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.295008,
+      "source": "Grocery Dive",
+      "source_domain": "Grocery Dive",
+      "summary": "Walmart, Kroger, and numerous food suppliers, in collaboration with IBM, are implementing a blockchain initiative to enhance food traceability and test the technology's widespread application. This effort aims to improve data management systems, speed up product tracking during foodborne illness outbreaks, and potentially reduce food waste and improve supply chain efficiency. Companies involved include Nestle, Unilever, and Tyson Foods, indicating a significant industry push toward adopting blockchain for food safety and transparency.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.955962",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309941"
+        },
+        {
+          "relevance_score": "0.900846",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314255"
+        },
+        {
+          "relevance_score": "0.850818",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339394"
+        },
+        {
+          "relevance_score": "0.645867",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240743"
+        },
+        {
+          "relevance_score": "0.627034",
+          "ticker": "TSN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245505"
+        }
+      ],
+      "time_published": "20170823T045106",
+      "title": "Walmart and Kroger join with suppliers for blockchain initiative",
+      "topics": [
+        {
+          "relevance_score": "0.937191",
+          "topic": "blockchain"
+        },
+        {
+          "relevance_score": "0.841380",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.712984",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.grocerydive.com/news/grocery--walmart-and-kroger-join-with-suppliers-for-blockchain-initiative/534772/"
+    },
+    {
+      "authors": [
+        "Staff and Wire Reports"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.296169,
+      "source": "Sarasota Herald-Tribune",
+      "source_domain": "Sarasota Herald-Tribune",
+      "summary": "U.S. hospital operators like HCA Healthcare and Tenet Healthcare anticipate continued weakness in patient admissions through 2018 due to rising out-of-pocket costs and uncertainty surrounding Obamacare. Patients are deferring non-emergency surgeries due to high-deductible health plans, impacting hospital revenues and growth forecasts. This trend might lead to a shift in seasonality, with fourth-quarter admissions performing better as patients meet deductibles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HCA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.332351"
+        },
+        {
+          "relevance_score": "0.749518",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.301189"
+        },
+        {
+          "relevance_score": "0.607661",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.211016"
+        },
+        {
+          "relevance_score": "0.625397",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.204142"
+        }
+      ],
+      "time_published": "20170823T043639",
+      "title": "Lower patient admissions expected to affect hospitals through 2018",
+      "topics": [
+        {
+          "relevance_score": "0.946737",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.906038",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.835833",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.611965",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.625290",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.heraldtribune.com/story/special/2017/08/23/lower-patient-admissions-expected-to-affect-hospitals-through-2018/19380708007/"
+    },
+    {
+      "authors": [
+        "Shawn Tully"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.496391,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Stephen Hemsley, CEO of UnitedHealth Group, is stepping down after a 19-year tenure that saw an astounding 4,500% total return for shareholders. Despite this remarkable success and pioneering the use of Big Data in healthcare, Hemsley remained a low-profile leader. He will be replaced by David Wichmann while assuming the role of executive chairman.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.471931"
+        }
+      ],
+      "time_published": "20170817T053729",
+      "title": "The Most Successful CEO of His Generation Steps Down",
+      "topics": [
+        {
+          "relevance_score": "0.840992",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.941697",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://fortune.com/2017/08/17/stephen-hemsley-unitedhealth-retires/"
+    },
+    {
+      "authors": [
+        "Christopher Snowbeck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.174642,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "Stephen Hemsley will step down as CEO of UnitedHealth Group on Sept. 1, 2017, after overseeing significant growth during his more than a decade in the role. He will assume the new position of executive chairman of the board, with company president Dave Wichmann succeeding him as CEO. The transition, which has been planned for four years, aims to continue the company's strategic direction in healthcare.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334318"
+        },
+        {
+          "relevance_score": "0.630256",
+          "ticker": "MCK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102603"
+        },
+        {
+          "relevance_score": "0.618318",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131894"
+        },
+        {
+          "relevance_score": "0.608228",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105759"
+        },
+        {
+          "relevance_score": "0.624918",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120340"
+        }
+      ],
+      "time_published": "20170817T002300",
+      "title": "UnitedHealth Group names new CEO; Stephen Hemsley will become executive chairman",
+      "topics": [
+        {
+          "relevance_score": "0.909259",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.735783",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.601556",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.startribune.com/unitedhealth-group-names-new-ceo-stephen-hemsley-will-become-executive-chairman/440716963"
+    },
+    {
+      "authors": [
+        "Bruce Japsen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.043356,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "UnitedHealth Group announced that current president David Wichmann will succeed Stephen Hemsley as CEO, effective September 1. Hemsley, 65, will transition to executive chairman after more than a decade steering the company to significant growth, particularly in Medicare Advantage and Optum health services. Wall Street's initial reaction to the news was positive, acknowledging Wichmann's extensive experience within UnitedHealth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.317921",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.037033"
+        }
+      ],
+      "time_published": "20170816T111200",
+      "title": "New CEO Named At UnitedHealth Group As Wichmann Succeeds Hemsley",
+      "topics": [
+        {
+          "relevance_score": "0.901819",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.740046",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/brucejapsen/2017/08/16/unitedhealth-groups-wichmann-to-succeed-hemsley-as-ceo/"
+    },
+    {
+      "authors": [
+        "Leslie Small"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.36886,
+      "source": "Fierce Healthcare",
+      "source_domain": "Fierce Healthcare",
+      "summary": "David Wichmann, current president of UnitedHealth Group, is set to replace Stephen Hemsley as CEO on September 1, 2017. Hemsley will transition to the newly created role of executive chairman. This leadership change comes as UnitedHealth reports strong earnings and a positive outlook, driven by its Optum services arm and significant presence in Medicare Advantage.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416780"
+        },
+        {
+          "relevance_score": "0.628245",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348777"
+        },
+        {
+          "relevance_score": "0.647392",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315286"
+        },
+        {
+          "relevance_score": "0.646213",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326798"
+        },
+        {
+          "relevance_score": "0.602473",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320947"
+        }
+      ],
+      "time_published": "20170816T101500",
+      "title": "David Wichmann to replace Stephen Hemsley as UnitedHealth CEO",
+      "topics": [
+        {
+          "relevance_score": "0.915048",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.815098",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.fiercehealthcare.com/payer/unitedhealth-ceo-stephen-hemsley-set-to-retire"
+    },
+    {
+      "authors": [
+        "Katharine Grayson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.142484,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "UnitedHealth Group CEO Stephen Hemsley, 65, is stepping down from his role and will become executive chairman of the company\u2019s board. President Dave Wichmann will succeed Hemsley as CEO, effective September 1.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135677"
+        }
+      ],
+      "time_published": "20170816T081700",
+      "title": "UnitedHealth CEO Hemsley to step down; Wichmann named top executive",
+      "topics": [
+        {
+          "relevance_score": "0.813198",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.622757",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/twincities/news/2017/08/16/unitedhealth-ceo-hemsley-to-step-down-wichmann.html"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.252157,
+      "source": "The Salt Lake Tribune",
+      "source_domain": "The Salt Lake Tribune",
+      "summary": "Molina Healthcare has announced a shake-up in its leadership, ousting CEO J. Mario Molina and CFO John Molina, sons of the company's founder, due to poor financial performance. Joseph White has been named interim CEO and CFO, and the company's stock soared after the announcement. The move comes as the insurer faces challenges with the Affordable Care Act's exchange marketplace and seeks to improve its operations and profitability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435348"
+        },
+        {
+          "relevance_score": "0.633026",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113301"
+        }
+      ],
+      "time_published": "20170803T045730",
+      "title": "Sons of founder out in shakeup at Molina Healthcare",
+      "topics": [
+        {
+          "relevance_score": "0.942188",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.806593",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.715773",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.612884",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.sltrib.com/news/business/2017/05/02/sons-of-founder-out-in-shakeup-at-molina-healthcare/"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.163651,
+      "source": "Cochrane",
+      "source_domain": "Cochrane",
+      "summary": "A new national license agreement will provide India with unlimited access to the Cochrane Library, offering over 7,000 published systematic reviews in healthcare interventions. This collaboration between Wiley, Cochrane, and the National Medical Library will grant 1.3 billion residents free access to evidence-based healthcare research from 2017 to 2020. This initiative aims to improve the quality of evidence used in healthcare across India and support the development of young medical practitioners.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347086",
+          "ticker": "WLYB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.023381"
+        },
+        {
+          "relevance_score": "0.638792",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335496"
+        }
+      ],
+      "time_published": "20170801T054615",
+      "title": "New national license agreement provides India with unlimited access to the Cochrane Library",
+      "topics": [
+        {
+          "relevance_score": "0.902230",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.625626",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cochrane.org/about-us/news/new-national-license-agreement-provides-india-unlimited-access-cochrane-library"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://s3-symbol-logo.tradingview.com/proshares--big.svg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.055608,
+      "source": "TradingView",
+      "source_domain": "TradingView",
+      "summary": "This article provides an overview of the SPXV ProShares S&P 500 Ex-Health Care ETF, including its price, chart, key statistics like AUM and expense ratio, and a detailed description of its investment strategy. It covers technical analysis ratings, seasonal trends, and answers frequently asked questions about ETFs and SPXV's performance, dividend payments, and investment focus.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SPXV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.184987"
+        },
+        {
+          "relevance_score": "0.631444",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109105"
+        },
+        {
+          "relevance_score": "0.646790",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.125427"
+        },
+        {
+          "relevance_score": "0.618097",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149555"
+        },
+        {
+          "relevance_score": "0.606362",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149908"
+        }
+      ],
+      "time_published": "20170731T085145",
+      "title": "SPXV Stock Fund Price and Chart \u2014 AMEX:SPXV",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.tradingview.com/symbols/AMEX-SPXV/"
+    },
+    {
+      "authors": [
+        "SCMR Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.380571,
+      "source": "Supply Chain Management Review",
+      "source_domain": "Supply Chain Management Review",
+      "summary": "TECSYS Inc. has partnered with Ryder System, Inc. to address the growing challenges of end-to-end supply chains within the health systems market. This collaboration will combine TECSYS' technology with Ryder's supply chain solutions to enhance operations and ensure on-time delivery of supplies for patient-centric care. The partnership aims to modernize technology platforms in the substantial U.S. health systems market, which includes approximately 550-delivery networks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "R",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.433140"
+        },
+        {
+          "relevance_score": "0.604270",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334601"
+        }
+      ],
+      "time_published": "20170725T051626",
+      "title": "TECSYS Partners with Ryder to Further Extend Its Reach into the Health Systems Market",
+      "topics": [
+        {
+          "relevance_score": "0.940474",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.842321",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.723162",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.scmr.com/article/tecsys_partners_with_ryder_to_further_extend_its_reach_into_the_health_syst"
+    },
+    {
+      "authors": [
+        "Patrick Coffee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.031685,
+      "source": "ADWEEK",
+      "source_domain": "ADWEEK",
+      "summary": "UnitedHealth Group, America's largest health insurance payer, has launched a media agency review for its approximately $240 million media planning and buying business across all its U.S. brands, including UnitedHealthcare. This comes amidst political uncertainty regarding the healthcare industry. Agencies from MDC Partners, Publicis Groupe, and WPP\u2019s GroupM are reportedly involved in the early stages of the pitch, with Leo Burnett remaining the company's creative agency of record.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.338193",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029669"
+        }
+      ],
+      "time_published": "20170721T053729",
+      "title": "UnitedHealth Group Launches $240 Million Media Agency Review Amid Chaos in Congress",
+      "topics": [
+        {
+          "relevance_score": "0.938084",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.729953",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.642083",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.adweek.com/brand-marketing/unitedhealth-group-launches-240-million-media-agency-review-amid-chaos-in-congress/"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "https://s3-symbol-logo.tradingview.com/unitedhealth--big.svg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.027226,
+      "source": "TradingView",
+      "source_domain": "TradingView",
+      "summary": "This article provides a detailed overview of UnitedHealth Group Incorporated (NYSE: UNH) stock, including its current price, performance metrics, key facts, upcoming earnings, and essential financial statistics. It also offers insights into its business segments, related stocks, and various analytical views like technicals, analyst ratings, and bond information.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.315126",
+          "ticker": "UNHG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041862"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.096140"
+        }
+      ],
+      "time_published": "20170721T021117",
+      "title": "UNH Stock Price Today \u2014 NYSE:UNH Chart",
+      "topics": [
+        {
+          "relevance_score": "0.933964",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.826286",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.708750",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.837673",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.tradingview.com/symbols/NYSE-UNH/"
+    },
+    {
+      "authors": [
+        "Bruce Japsen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.334722,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "UnitedHealth Group and AARP have extended their two-decade-old partnership to sell Medicare-related insurance products through at least 2025, with options to extend until 2030. This partnership has been instrumental in growing UnitedHealth's Medicare business to over 8.5 million seniors, despite past political controversies surrounding AARP's financial benefit from the deal. Both organizations emphasize their shared goal of improving healthcare outcomes for seniors through this collaboration.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345824"
+        }
+      ],
+      "time_published": "20170717T163900",
+      "title": "UnitedHealth Group, AARP Extend Medicare Partnership Beyond 2025",
+      "topics": [
+        {
+          "relevance_score": "0.838490",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.931360",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.721704",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/brucejapsen/2017/07/17/unitedhealth-aarp-extend-medicare-partnership-beyond-2025/"
+    },
+    {
+      "authors": [
+        "Meg Bryant"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.295962,
+      "source": "Healthcare Dive",
+      "source_domain": "Healthcare Dive",
+      "summary": "Teladoc is set to acquire Best Doctors, a medical consultation firm, for $440 million ($375 million cash, $65 million stock) to expand its global footprint and specialist network. The acquisition aims to combine Best Doctors' 50,000 specialists and advanced analytics with Teladoc's telehealth platform, with the deal expected to close in July. This move aligns with the growing interest in telemedicine for patient monitoring, population health improvement, and cost reduction.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TDOC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.490067"
+        },
+        {
+          "relevance_score": "0.645850",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111577"
+        }
+      ],
+      "time_published": "20170621T053150",
+      "title": "Teladoc to acquire medical consultation firm Best Doctors for $440M",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.934127",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.847411",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.700077",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.healthcaredive.com/news/teladoc-to-acquire-medical-consultation-firm-best-doctors-for-440m/445461/"
+    },
+    {
+      "authors": [
+        "Gretchen Jacobson",
+        "Anthony Damico",
+        "Tricia Neuman",
+        "and Marsha Gold"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.308086,
+      "source": "KFF",
+      "source_domain": "KFF",
+      "summary": "This report highlights trends in Medicare Advantage enrollment as of March 2017, showing continued growth despite payment reductions. Key findings include a 71% enrollment increase since 2010, high market concentration among a few firms (UnitedHealthcare and Humana account for 41%), and relatively stable average premiums but increasing out-of-pocket limits and Part D deductibles. The article also details enrollment variations by plan type, state, and firm, and discusses quality ratings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.986768",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405883"
+        },
+        {
+          "relevance_score": "0.854643",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332713"
+        },
+        {
+          "relevance_score": "0.633976",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283172"
+        },
+        {
+          "relevance_score": "0.576822",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211824"
+        }
+      ],
+      "time_published": "20170606T053728",
+      "title": "Medicare Advantage 2017 Spotlight: Enrollment Market Update",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.kff.org/medicare/medicare-advantage-2017-spotlight-enrollment-market-update/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.124495,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "A Sun Life report reveals that multi-million-dollar medical cases increased by 68% between 2013 and 2016, with cancer remaining the most costly catastrophic health condition. These high-cost cases, though a small percentage of total claimants, accounted for 23% of total stop-loss reimbursements in 2016. The report emphasizes the escalating healthcare costs, particularly due to life-saving treatments and IV medications, and highlights the need for self-insured employers to manage these claims.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SLF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230886"
+        },
+        {
+          "relevance_score": "0.602111",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122293"
+        },
+        {
+          "relevance_score": "0.642031",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117281"
+        },
+        {
+          "relevance_score": "0.618838",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136281"
+        },
+        {
+          "relevance_score": "0.624412",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114814"
+        }
+      ],
+      "time_published": "20170605T111600",
+      "title": "Multi-million-dollar medical cases increased 68% over past four years: Sun Life Report",
+      "topics": [
+        {
+          "relevance_score": "0.905007",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.842373",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/multi-million-dollar-medical-cases-increased-68-over-past-four-years-sun-life-report-300468634.html"
+    },
+    {
+      "authors": [
+        "Martin Moylan"
+      ],
+      "banner_image": "https://img.apmcdn.org/fdfa5d8521a0d828a2c2069255a823ed689cf60a/uncropped/ff7911-20120227-unitedhealth-minnetonka.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.027599,
+      "source": "MPR News",
+      "source_domain": "MPR News",
+      "summary": "Federal authorities have filed another lawsuit against UnitedHealth, alleging fraud. This marks an ongoing series of legal challenges for the company. The article references allegations detailed in the suit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.303374",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028797"
+        }
+      ],
+      "time_published": "20170517T074200",
+      "title": "Feds file another suit against UnitedHealth, detailing allegations of fraud",
+      "topics": [
+        {
+          "relevance_score": "0.845297",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.745489",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.mprnews.org/story/2017/05/17/feds-file-another-suit-against-unitedhealth"
+    },
+    {
+      "authors": [
+        "Fred Schulte"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.709256,
+      "source": "Center for Public Integrity",
+      "source_domain": "Center for Public Integrity",
+      "summary": "The Justice Department has accused UnitedHealth Group of overbilling the federal government by more than $1 billion through its Medicare Advantage plans. The lawsuit alleges that UnitedHealth made patients appear sicker to collect higher payments, a charge the company denies. This marks the second time the Justice Department has joined a whistleblower lawsuit against UnitedHealth regarding alleged Medicare overbilling.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.737394"
+        }
+      ],
+      "time_published": "20170517T053729",
+      "title": "UnitedHealth fudged Medicare claims, overbilled by $1 billion, feds say",
+      "topics": [
+        {
+          "relevance_score": "0.914821",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.707658",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.646220",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://publicintegrity.org/health/unitedhealth-fudged-medicare-claims-overbilled-by-1-billion-feds-say/"
+    },
+    {
+      "authors": [
+        "Mary Williams Walsh"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.025918,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "A former finance director at UnitedHealth Group, Benjamin Poehling, alleges that his company and others systematically defrauded the Medicare Advantage program for years by making patients appear sicker to receive higher payments. The Justice Department is taking these claims seriously, intending to sue UnitedHealth Group while investigating other insurers. Poehling described how finance directors monitored projects designed to manipulate diagnosis codes for increased reimbursement and bonuses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.312752",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045202"
+        }
+      ],
+      "time_published": "20170515T053729",
+      "title": "A Whistle-Blower Tells of Health Insurers Bilking Medicare (Published 2017)",
+      "topics": [
+        {
+          "relevance_score": "0.943542",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.714585",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.623528",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nytimes.com/2017/05/15/business/dealbook/a-whistle-blower-tells-of-health-insurers-bilking-medicare.html"
+    },
+    {
+      "authors": [
+        "Chad Terhune"
+      ],
+      "banner_image": "https://californiahealthline.org/wp-content/uploads/sites/3/2017/05/MolinaHealthcare050317_1200.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.229237,
+      "source": "California Healthline",
+      "source_domain": "California Healthline",
+      "summary": "Following the abrupt firing of CEO J. Mario Molina and CFO John Molina, speculation is rising that Molina Healthcare could be acquired by a rival insurer. The company cited \"disappointing financial performance\" for the management change, despite the interim CEO expressing optimism for stand-alone success. Shares of Molina Healthcare surged nearly 18% on the news, with analysts identifying potential buyers like Aetna and WellCare Health Plans.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220493"
+        },
+        {
+          "relevance_score": "0.711724",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347106"
+        },
+        {
+          "relevance_score": "0.602189",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213209"
+        },
+        {
+          "relevance_score": "0.644032",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129113"
+        }
+      ],
+      "time_published": "20170503T045730",
+      "title": "Brothers\u2019 Ouster Prompts Speculation Molina Healthcare Will Be Sold",
+      "topics": [
+        {
+          "relevance_score": "0.901018",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.803769",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.946350",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.617671",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://californiahealthline.org/news/brothers-ouster-prompts-speculation-molina-healthcare-will-be-sold/"
+    },
+    {
+      "authors": [
+        "Patrick Kennedy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.427901,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "Stephen Hemsley, CEO of UnitedHealth Group, earned $31.3 million in total compensation in 2016, a 55.8 percent increase from 2015, largely due to exercising stock options. The company saw a 38.4 percent shareholder return and increased revenue and earnings per share, contributing to a significant cash incentive award for Hemsley. His base salary has remained constant since 2006.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.390132"
+        }
+      ],
+      "time_published": "20170425T124300",
+      "title": "CEO Pay Watch: UnitedHealth's Stephen Hemsley made $31.3 million last year",
+      "topics": [
+        {
+          "relevance_score": "0.931578",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.811257",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.630741",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.644226",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.startribune.com/ceo-pay-watch-unitedhealth-s-stephen-hemsley-made-31-3-million-last-year/420284643"
+    },
+    {
+      "authors": [
+        "Fred Schulte"
+      ],
+      "banner_image": "https://media.npr.org/assets/img/2017/03/28/ap_152912448375-7b56a3500350c3886f68c4a9a089060b297b6ea5-s800-c85.webp",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.835388,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "The Justice Department has joined a California whistleblower's lawsuit accusing UnitedHealth Group of defrauding the Medicare Advantage program by exaggerating patients' sickness to receive higher payments. This intervention significantly raises the stakes, with potential damages speculated to top $1 billion. The lawsuit alleges that UnitedHealth \"gamed\" the system by making patients appear sicker than they were and failed to report overpayments despite knowing about them.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.804395"
+        }
+      ],
+      "time_published": "20170328T135000",
+      "title": "Justice Department Joins Second Lawsuit Against UnitedHealth",
+      "topics": [
+        {
+          "relevance_score": "0.934835",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.738687",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.645572",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.npr.org/sections/health-shots/2017/03/28/521691406/justice-department-joins-second-lawsuit-against-unitedhealth"
+    },
+    {
+      "authors": [
+        "Jon Brooks"
+      ],
+      "banner_image": "https://media.npr.org/assets/img/2017/03/24/istock-504780520_wide-ff95e7d41f531d044237195d88698ee50aa829bf-s1400-c100.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.069253,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "A RAND Corporation study found that while telehealth offers convenience, it does not necessarily lead to cheaper overall healthcare costs. For acute respiratory illnesses, total annual spending was $45 more per patient for those using telehealth, primarily because 88% of these visits represented new utilization that would not have otherwise occurred. This finding contradicts telehealth companies' claims of cost savings and suggests potential trade-offs between increased access and higher expenditures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TDOC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224138"
+        },
+        {
+          "relevance_score": "0.658019",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016528"
+        },
+        {
+          "relevance_score": "0.580234",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030327"
+        }
+      ],
+      "time_published": "20170326T080000",
+      "title": "Telehealth Doctor Visits May Be Handy, But Aren't Cheaper Overall",
+      "topics": [
+        {
+          "relevance_score": "0.914000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.npr.org/sections/health-shots/2017/03/26/519543337/telehealth-doctor-visits-may-be-handy-but-arent-cheaper-overall"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.069869,
+      "source": "Raw Story",
+      "source_domain": "Raw Story",
+      "summary": "Following the shelving of Republican legislation to repeal Obamacare, experts indicate that while current healthcare plans and premiums are safe for 2017, the market faces uncertainty in 2018. Insurers are contemplating their participation due to previous losses and the potential for a \"death spiral\" of decreasing competition and rising premiums. The Trump administration's approach to the Affordable Care Act's subsidies and individual mandate enforcement will critically impact the market's stability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.961707",
+          "ticker": "MOH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103410"
+        },
+        {
+          "relevance_score": "0.705552",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133945"
+        },
+        {
+          "relevance_score": "0.721380",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113933"
+        },
+        {
+          "relevance_score": "0.661714",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133084"
+        },
+        {
+          "relevance_score": "0.617375",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127721"
+        }
+      ],
+      "time_published": "20170325T231500",
+      "title": "Obamacare exploding? Maybe just a slow burn",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.833680",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.rawstory.com/2017/03/obamacare-exploding-maybe-just-a-slow-burn/"
+    },
+    {
+      "authors": [
+        "Jeff Sommer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.001193,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Despite public criticisms of Obamacare by managed care companies, major health insurers have experienced significant profit growth since the Affordable Care Act was signed into law in 2010. Companies like UnitedHealth Group, Aetna, Anthem, Cigna, Humana, and Centene have seen their stock performance far outpace the S&P 500 index, with UnitedHealth's stock returning 480 percent. This contradicts the narrative that Obamacare has been detrimental to the managed care sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.305812",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015964"
+        }
+      ],
+      "time_published": "20170318T053729",
+      "title": "Gripes About Obamacare Aside, Health Insurers Are in a Profit Spiral (Published 2017)",
+      "topics": [
+        {
+          "relevance_score": "0.923616",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.816256",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.729917",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.614465",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nytimes.com/2017/03/18/business/health-insurers-profit.html"
+    },
+    {
+      "authors": [
+        "Ana B. Ibarra"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.038138,
+      "source": "KFF Health News",
+      "source_domain": "KFF Health News",
+      "summary": "A new study suggests that while telehealth services boost access to physicians, they do not necessarily reduce health care spending. The research indicates that virtual visits often encourage patients to seek care for minor illnesses they otherwise would have ignored, leading to increased overall spending for insurers. Telehealth companies, like Teladoc, dispute these findings, citing their own data that show cost savings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TDOC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.237183"
+        },
+        {
+          "relevance_score": "0.620718",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113889"
+        },
+        {
+          "relevance_score": "0.612646",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149228"
+        },
+        {
+          "relevance_score": "0.636921",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135240"
+        }
+      ],
+      "time_published": "20170307T053150",
+      "title": "Are Virtual Doctor Visits Really Cost-Effective? Not So Much, Study Says",
+      "topics": [
+        {
+          "relevance_score": "0.917635",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.617793",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://kffhealthnews.org/news/are-virtual-doctor-visits-really-cost-effective-not-so-much-study-says/"
+    },
+    {
+      "authors": [
+        "Christopher Snowbeck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.458565,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "A whistleblower lawsuit alleges that UnitedHealth Group defrauded the Medicare program by submitting false information about patient conditions to inflate payment rates. The suit, joined by the U.S. Department of Justice, claims the scheme could have generated hundreds of millions, if not billions, of dollars in government overpayments. UnitedHealth denies the allegations and states it will vigorously contest them.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.992653",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.467044"
+        }
+      ],
+      "time_published": "20170218T172600",
+      "title": "Whistleblower suit alleges UnitedHealth defrauded Medicare",
+      "topics": [
+        {
+          "relevance_score": "0.900206",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.713888",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.startribune.com/whistleblower-suit-alleges-unitedhealth-defrauded-medicare/414083943"
+    },
+    {
+      "authors": [
+        "Mary Williams Walsh"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.430555,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "A lawsuit unsealed by the Justice Department accuses UnitedHealth Group of overbilling Medicare by hundreds of millions, possibly billions, of dollars through a scheme where it claimed members were sicker than they were. The accusations relate to the Medicare Advantage program. UnitedHealth has stated it rejects the claims and will contest them vigorously.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.411279"
+        }
+      ],
+      "time_published": "20170216T053729",
+      "title": "Scheme Tied to UnitedHealth Overbilled Medicare for Years, Suit Says (Published 2017)",
+      "topics": [
+        {
+          "relevance_score": "0.845805",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.910181",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.603047",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nytimes.com/2017/02/16/business/dealbook/unitedhealthcare-improperly-took-money-from-medicare-suit-says.html"
+    },
+    {
+      "authors": [
+        "Ana Mulero"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.065206,
+      "source": "Healthcare Dive",
+      "source_domain": "Healthcare Dive",
+      "summary": "Humana announced it will withdraw from the ACA exchanges starting in 2018, citing an unbalanced risk pool and financial losses. This decision comes shortly after its planned merger with Aetna was terminated. Humana plans to focus on other acquisition opportunities and expand its health IT portfolio and primary clinics.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.960710",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.306571"
+        },
+        {
+          "relevance_score": "0.627161",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112073"
+        },
+        {
+          "relevance_score": "0.591876",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.061099"
+        }
+      ],
+      "time_published": "20170215T043728",
+      "title": "Humana to exit ACA exchanges",
+      "topics": [
+        {
+          "relevance_score": "0.907604",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.816825",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.700516",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.healthcaredive.com/news/humana-to-exit-aca-exchanges/436256/"
+    },
+    {
+      "authors": [
+        "Tom Murphy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.180734,
+      "source": "San Antonio Express-News",
+      "source_domain": "San Antonio Express-News",
+      "summary": "Humana announced it is exiting the Affordable Care Act (ACA) exchange business in all 11 states where it operates for 2018, following the abandonment of its $34 billion merger with Aetna. This decision, along with the threatened acquisition of Cigna by Anthem, highlights the instability in the U.S. health insurance market and could lead to fewer options and higher prices for consumers on public exchanges. Insurers are pushing the Trump administration for clarity on future healthcare rules amidst substantial losses on ACA-compliant plans.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.970641",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.344558"
+        },
+        {
+          "relevance_score": "0.958353",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.328593"
+        },
+        {
+          "relevance_score": "0.701118",
+          "ticker": "CNC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113724"
+        },
+        {
+          "relevance_score": "0.620429",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.127690"
+        }
+      ],
+      "time_published": "20170214T182100",
+      "title": "Insurer Humana bails on ACA exchange business for 2018",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.911023",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.727931",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.expressnews.com/business/health-care/article/Insurer-Humana-bails-on-ACA-exchange-business-for-10932543.php"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.210783,
+      "source": "Jamaica Gleaner",
+      "source_domain": "Jamaica Gleaner",
+      "summary": "Major health insurers Aetna and Humana have canceled their US$34-billion merger after a federal judge rejected the deal due to concerns about prices and benefits. This decision follows a similar blocked merger between Anthem Inc and Cigna Corp, leaving the US health insurance market with five major players instead of a proposed three. Aetna's CEO cited the challenging environment as the reason for abandoning the transaction, with Humana set to receive a US$1 billion break-up fee.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.434841"
+        },
+        {
+          "relevance_score": "0.742716",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.413240"
+        },
+        {
+          "relevance_score": "0.644195",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113323"
+        },
+        {
+          "relevance_score": "0.588116",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145474"
+        }
+      ],
+      "time_published": "20170214T000000",
+      "title": "Aetna, Humana call off US$34b deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.931501",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://jamaica-gleaner.com/article/business/20170215/aetna-humana-call-us34b-deal"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.208675,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "A federal judge rejected Anthem's bid to acquire rival health insurer Cigna, citing concerns about diminished competition and potential higher costs for consumers. This decision follows a similar rejection of Aetna's merger with Humana, indicating the Justice Department's aggressive stance against consolidation in the health insurance industry. Insurers had argued that mergers would lead to better negotiation power and cost savings, but regulators and medical associations expressed worries about monopolistic control and reduced quality of care.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.416419"
+        },
+        {
+          "relevance_score": "0.848875",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.304317"
+        },
+        {
+          "relevance_score": "0.610438",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116998"
+        }
+      ],
+      "time_published": "20170209T074300",
+      "title": "Anthem-Cigna health insurance merger rejected by judge",
+      "topics": [
+        {
+          "relevance_score": "0.920503",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.835765",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.610859",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/anthem-cigna-health-insurance-merger-rejected-by-judge/"
+    },
+    {
+      "authors": [
+        "Caroline Humer",
+        "Rodrigo Campos"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.239665,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "President-elect Donald Trump criticized pharmaceutical companies for high drug prices, stating they are \"getting away with murder\" and vowed to change pricing policies. Following his comments, drug stocks experienced a sharp decline, with the S&P 500 index slipping and the iShares Nasdaq Biotech ETF dropping significantly. Trump indicated his intention to negotiate drug pricing, potentially allowing Medicare to bargain with drugmakers and making it easier to import cheaper drugs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IHE",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.474908"
+        },
+        {
+          "relevance_score": "0.610189",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139103"
+        },
+        {
+          "relevance_score": "0.616205",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148101"
+        },
+        {
+          "relevance_score": "0.622429",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.275118"
+        }
+      ],
+      "time_published": "20170111T233600",
+      "title": "Trump says pharma 'getting away with murder,' stocks slide",
+      "topics": [
+        {
+          "relevance_score": "0.941013",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.818728",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.741374",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/trump-says-pharma-getting-away-with-murder-stocks-slide-idUSKBN14V278/"
+    },
+    {
+      "authors": [
+        "Brooke Sutherland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.054052,
+      "source": "Employee Benefit News",
+      "source_domain": "Employee Benefit News",
+      "summary": "UnitedHealth Group Inc. is acquiring Surgical Care Affiliates Inc. for approximately $3.2 billion, including net debt, signaling a strategic focus on expanding its outpatient services. This move highlights UnitedHealth's approach to diversification within the healthcare sector, contrasting with its rivals' efforts to merge with other large insurance companies. The acquisition emphasizes the growing trend towards lower-cost healthcare alternatives like ambulatory surgery centers, aligning with the industry's need for expense reduction.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306935"
+        },
+        {
+          "relevance_score": "0.617887",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143273"
+        },
+        {
+          "relevance_score": "0.728753",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297366"
+        },
+        {
+          "relevance_score": "0.640254",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.213719"
+        },
+        {
+          "relevance_score": "0.619021",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.229404"
+        }
+      ],
+      "time_published": "20170110T093400",
+      "title": "UnitedHealth doesn't need another megasized deal to win",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.924389",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.benefitnews.com/advisers/opinion/unitedhealth-doesnt-need-another-megasized-deal-to-win"
+    },
+    {
+      "authors": [
+        "Anna Wilde Mathews"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.41223,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "UnitedHealth Group Inc.'s Optum health-services arm has agreed to acquire TPG-backed Surgical Care Affiliates Inc. for approximately $2.3 billion. This acquisition significantly expands UnitedHealth's healthcare provider footprint, adding a major surgical company to its growing portfolio of doctor groups and clinics. The deal involves a mixture of cash and stock.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423868"
+        }
+      ],
+      "time_published": "20170109T124900",
+      "title": "UnitedHealth\u2019s Optum to Acquire Surgical Care Affiliates for $2.3 Billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.942775",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/unitedhealths-optum-to-acquire-surgical-care-affiliates-for-2-3-billion-1483984162?gaa_at=eafs&gaa_n=AWEtsqcyBAwihTtwsjmpo6CFli6kSCTulI29VTQ-deZrWidU_xDCsHoJ_1zd&gaa_ts=690842b9&gaa_sig=k46AkT61be5n3ZyOzmvZBLYrSSk1MRL-jtfx8eBSvllalUZmAmZ4ka9LRRZq7DLfI12p4a05UIMF5J_H0oDpgg%3D%3D"
+    },
+    {
+      "authors": [
+        "MassDevice (Reuters)"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.443877,
+      "source": "MassDevice",
+      "source_domain": "MassDevice",
+      "summary": "UnitedHealth Group Inc. announced its intention to acquire Surgical Care Affiliates Inc. for approximately $2.30 billion, aiming to expand its health services operations. This acquisition, which involves Surgical Care's 205 surgical facilities, will integrate into UnitedHealth's Optum group. Analysts view this as a strategic move to complete Optum's ambulatory care delivery platform and better integrate post-surgery follow-up care into bundled payments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404041"
+        }
+      ],
+      "time_published": "20170109T053729",
+      "title": "UnitedHealth to buy Surgical Care Affiliates for $2.3B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.926916",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.708802",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.630235",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.massdevice.com/unitedhealth-buy-surgical-care-affiliates-2-3b/"
+    },
+    {
+      "authors": [
+        "Reed Abelson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.315168,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "UnitedHealth Group announced its plan to acquire Surgical Care Affiliates, an outpatient surgery chain, for approximately $2.3 billion. This acquisition is part of UnitedHealth's strategy to evolve from a traditional insurer into a diversified health services company, integrating the surgery centers with its Optum unit. Surgical Care Affiliates, backed by TPG Capital, operates 205 surgical facilities across 30 states.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312553"
+        }
+      ],
+      "time_published": "20170109T053728",
+      "title": "UnitedHealth Group to Buy Outpatient Surgery Chain for $2.3 Billion (Published 2017)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.721757",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2017/01/09/business/unitedhealth-surgical-care-affiliates.html"
+    },
+    {
+      "authors": [
+        "Modern Healthcare"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.443562,
+      "source": "Modern Healthcare",
+      "source_domain": "Modern Healthcare",
+      "summary": "UnitedHealth's Optum is set to acquire Surgical Care Affiliates for $2.3 billion. This acquisition highlights a significant merger in the healthcare sector, specifically involving providers and specialized care services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.437121"
+        }
+      ],
+      "time_published": "20170109T050000",
+      "title": "UnitedHealth's Optum to acquire Surgical Care Affiliates for $2.3 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.818242",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "http://www.modernhealthcare.com/article/20170109/NEWS/170109936/unitedhealth-s-optum-to-acquire-surgical-care-affiliates-for-2-3-billion/"
+    },
+    {
+      "authors": [
+        "Sandra Chefitz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.240209,
+      "source": "Munich Re",
+      "source_domain": "Munich Re",
+      "summary": "Munich Re assessed TransUnion's TrueRisk\u00ae Life Score, a predictive model using credit information to stratify mortality risk. The study, based on 16 million U.S. lives, confirmed the score's effectiveness in predicting mortality across various demographics and income bands. Munich Re recommends that life insurers conduct retrospective studies with their own data to calibrate the score for their specific underwriting paradigms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TRU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434626"
+        },
+        {
+          "relevance_score": "0.605159",
+          "ticker": "EFX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125078"
+        },
+        {
+          "relevance_score": "0.608553",
+          "ticker": "FICO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108814"
+        },
+        {
+          "relevance_score": "0.617903",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239446"
+        }
+      ],
+      "time_published": "20170106T053651",
+      "title": "TrueRisk\u00ae Life Score - Stratifying Mortality Risk Using Credit Information",
+      "topics": [
+        {
+          "relevance_score": "0.841247",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.munichre.com/us-life/en/insights/product-innovation/true-risk-life-score-using-credit-information.html"
+    }
+  ],
+  "items": "78",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

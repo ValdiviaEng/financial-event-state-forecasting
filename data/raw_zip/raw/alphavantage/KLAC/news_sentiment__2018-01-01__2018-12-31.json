@@ -1,0 +1,1402 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Lilach Baumer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.233906,
+      "source": "Caixin Global",
+      "source_domain": "Caixin Global",
+      "summary": "The acquisition of Orbotech Ltd. by semiconductor company KLA-Tencor Corp. for $3.4 billion is still awaiting regulatory approval in China, pushing the expected closing date into 2019. This delay, amidst U.S.-China trade tensions, negatively impacted the stock prices of both companies. The deal had already received approval from other key regions including Korea, Israel, the U.S., Taiwan, and Japan.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.241847"
+        },
+        {
+          "relevance_score": "0.729662",
+          "ticker": "NXPI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.290471"
+        },
+        {
+          "relevance_score": "0.640441",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224524"
+        }
+      ],
+      "time_published": "20181226T133200",
+      "title": "KLA-Tencor\u2019s $3.4 Billion Deal Stuck in China",
+      "topics": [
+        {
+          "relevance_score": "0.916929",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.839547",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.734662",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.619558",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.612659",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.caixinglobal.com/2018-12-26/kla-tencors-34-billion-deal-stuck-in-china-101363518.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.132296,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA-Tencor Corporation and Orbotech Ltd. announced that they are continuing discussions with China's State Administration for Market Regulation (SAMR) to obtain clearance for their proposed merger. The companies aim to secure this clearance as soon as practicable in 2019. The press release also includes details about both companies and forward-looking statements regarding the merger.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131575"
+        }
+      ],
+      "time_published": "20181224T090000",
+      "title": "KLA-Tencor Corporation and Orbotech Ltd. Continue to Pursue Merger Clearance in the People's Republic of China",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.815766",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.629605",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-tencor-corporation-and-orbotech-ltd-continue-to-pursue-merger-clearance-in-the-peoples-republic-of-china-300770574.html"
+    },
+    {
+      "authors": [
+        "Martin Slagter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.469653,
+      "source": "MLive.com",
+      "source_domain": "MLive.com",
+      "summary": "The University of Michigan has sold 17.8 acres of land in the Ann Arbor Technology Park to KLA-Tencor for $26.7 million, a move approved by the UM Board of Regents. KLA-Tencor plans to develop a research and development center to strengthen its relationship with the university, expecting to create 300 to 500 new jobs in the area. This sale aligns with the university's strategy to partner with companies whose missions are consistent with the university's and surrounding communities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.455126"
+        }
+      ],
+      "time_published": "20181206T191100",
+      "title": "University of Michigan sells 18 acres to KLA-Tencor for $26.7 million",
+      "topics": [
+        {
+          "relevance_score": "0.906282",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.742926",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.615941",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.637220",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.mlive.com/news/ann-arbor/2018/12/university-of-michigan-sells-18-acres-to-kla-tencor-for-267-million.html"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.191124,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The market for EUV mask blanks is experiencing a surge in demand with existing suppliers AGC and Hoya expanding production and Applied Materials looking to enter the market. The industry faces challenges with potential supply shortfalls of low-defect EUV mask blanks, high prices, and the technical complexities of manufacturing these critical components for next-generation lithography. Applied Materials aims to leverage its equipment expertise to innovate next-generation EUV blanks, while chipmakers seek more competition to boost quality and reduce costs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.956846",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.254400"
+        },
+        {
+          "relevance_score": "0.613189",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109339"
+        },
+        {
+          "relevance_score": "0.581381",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122632"
+        }
+      ],
+      "time_published": "20181115T014714",
+      "title": "EUV Mask Blank Battle Brewing",
+      "topics": [
+        {
+          "relevance_score": "0.934634",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.708505",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://semiengineering.com/euv-mask-blank-biz-heats-up/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.346523,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "This article provides an overview of the Semiconductor Wafer Cleaning Equipment Market from 2017 to 2023, highlighting growth drivers, restraints, and opportunities. Key market players, segmentation by technology, equipment, application, and geography are detailed. The report aims to offer stakeholders an in-depth analysis for profitable business decisions in this sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415487"
+        },
+        {
+          "relevance_score": "0.711703",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302645"
+        },
+        {
+          "relevance_score": "0.647262",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349002"
+        }
+      ],
+      "time_published": "20181113T093800",
+      "title": "Semiconductor Wafer Cleaning Equipment Market 2017-2023",
+      "topics": [
+        {
+          "relevance_score": "0.947849",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.824168",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1364336/semiconductor-wafer-cleaning-equipment-market-2017-2023-growth-analysis-trends-by-top-key-players-screen-holdings-co-ltd-tokyo-electron-limited-kla-tencor-corp.html"
+    },
+    {
+      "authors": [
+        "Jung Suk-yee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.011889,
+      "source": "Businesskorea",
+      "source_domain": "Businesskorea",
+      "summary": "The U.S. government has restricted exports of semiconductor production equipment to Chinese chipmaker Fujian Jinhua Integrated Circuit Co. (JHICC), citing national security concerns and potential threats to U.S. chipmakers. This move escalates the U.S.-China trade dispute and is seen as benefiting South Korean chip manufacturers Samsung Electronics and SK Hynix. JHICC's ability to mass-produce chips as planned is now in doubt, as it heavily relies on U.S. equipment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.333071",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007441"
+        }
+      ],
+      "time_published": "20181030T173400",
+      "title": "U.S. Restricts Exports of Chip Production Equipment to Chinese Chipmaker Fujian Jinhua",
+      "topics": [
+        {
+          "relevance_score": "0.922952",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.838809",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.742130",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.639750",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.601591",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=26153"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.302885,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This page provides a detailed profile of the Invesco Semiconductors ETF (PSI), including its price, performance, holdings, expense ratio, and ESG scores. The ETF tracks an index of U.S. semiconductor firms, focusing on medium and small-cap companies for growth opportunities within the technology sector. It also offers insights into its volatility, dividend yield, and comparisons to other technology and semiconductor ETFs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PSI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342419"
+        },
+        {
+          "relevance_score": "0.745615",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323028"
+        },
+        {
+          "relevance_score": "0.609754",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315485"
+        },
+        {
+          "relevance_score": "0.643490",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327486"
+        },
+        {
+          "relevance_score": "0.635398",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323929"
+        }
+      ],
+      "time_published": "20181026T205739",
+      "title": "Invesco Semiconductors ETF",
+      "topics": [
+        {
+          "relevance_score": "0.910041",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.843218",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://etfdb.com/etf/PSI/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.429442,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA-Tencor Corporation announced plans to establish a new research-and-development (R&D) center in Ann Arbor, Michigan. This project involves a capital investment exceeding $70 million and is expected to create up to 500 new high-tech jobs over the next five years. The decision is based on the region's talent pool, low cost of living, proximity to Detroit Metropolitan Airport, and the opportunity to strengthen partnership with the University of Michigan.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432004"
+        }
+      ],
+      "time_published": "20181024T161500",
+      "title": "KLA-Tencor Announces Plans to Establish R&D Facility in Ann Arbor, Michigan",
+      "topics": [
+        {
+          "relevance_score": "0.803007",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.748435",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.621766",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-tencor-announces-plans-to-establish-rd-facility-in-ann-arbor-michigan-300737378.html"
+    },
+    {
+      "authors": [
+        "Kathleen Achtenberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.499176,
+      "source": "Michigan Economic Development Corporation",
+      "source_domain": "Michigan Economic Development Corporation",
+      "summary": "KLA-Tencor Corporation (NASDAQ: KLAC) is establishing a new research-and-development center in Ann Arbor, Michigan, investing over $70 million and creating 500 high-tech jobs. This decision was influenced by Michigan's attractive business climate, logistical assets, and talent base, further expanding the state's high-tech footprint. Additionally, Coyote Logistics is expanding its operations in Detroit with a $3.6 million investment, creating 300 jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.469670"
+        }
+      ],
+      "time_published": "20181023T024628",
+      "title": "Silicon Valley-based KLA-Tencor Corporation establishing R&D facility in Ann Arbor, investing more than $70 million and creating 500 high-tech, high-paying jobs",
+      "topics": [
+        {
+          "relevance_score": "0.844417",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.730838",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.633783",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.611600",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.michiganbusiness.org/press-releases/2018/10/silicon-valley-based-kla-tencor-corporation-establishing-rd-facility-in-ann-arbor-investing-more-than-$70-million-and-creating-500-high-tech-high-paying-jobs/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.227338,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Shares of chip-equipment companies like Lam Research Corp. and ASML Holding NV saw a \"relief rally\" after their better-than-expected earnings reports and demand commentary. While Lam Research reiterated Q3 as the trough for equipment sales, and ASML provided an encouraging 2019 forecast, analysts remain concerned about the impact of trade-war issues on the sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.747231",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.187421"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277736"
+        },
+        {
+          "relevance_score": "0.634710",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213953"
+        },
+        {
+          "relevance_score": "0.608418",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.194393"
+        }
+      ],
+      "time_published": "20181017T144000",
+      "title": "Lam Research, ASML earnings spark \u2018relief rally\u2019 for chip-equipment sector, but doubts remain",
+      "topics": [
+        {
+          "relevance_score": "0.914131",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.843095",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.746267",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/lam-research-asml-earnings-spark-relief-rally-for-chip-equipment-sector-but-doubts-remain-2018-10-17?gaa_at=eafs&gaa_n=AWEtsqfM1OAnjngti7ruddtjtjR9yK7ORHezlEHl6d-Q_CNP7z9dnQ72LINr&gaa_ts=69080cc5&gaa_sig=X-0d6MxQyoNZL3BhqmTIggyk91Y45V1OIoaPIoGf2Vo6wTjwK9-68I5Mcf3xlzLuNh7Wwgsq3TSM6fBFF6jQ-g%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.341695,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Shares of chip-equipment companies like Lam Research Corp. and ASML Holding NV saw a \"relief rally\" after both companies provided better-than-expected earnings and outlooks. Despite this positive movement, analysts remain concerned about the potential impact of trade-war issues on the sector. Lam Research reiterated its forecast that the September quarter was the trough for equipment sales, while ASML offered an encouraging forecast for 2019.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.444688"
+        },
+        {
+          "relevance_score": "0.839767",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418772"
+        },
+        {
+          "relevance_score": "0.648680",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240780"
+        },
+        {
+          "relevance_score": "0.592680",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216011"
+        }
+      ],
+      "time_published": "20181017T144000",
+      "title": "Lam Research, ASML earnings spark \u2018relief rally\u2019 for chip-equipment sector, but doubts remain",
+      "topics": [
+        {
+          "relevance_score": "0.944611",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.822028",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.736318",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.616302",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/lam-research-asml-earnings-spark-relief-rally-for-chip-equipment-sector-but-doubts-remain-2018-10-17?gaa_at=eafs&gaa_n=AWEtsqdKY89c0WyjjTnRLpoDpxuPqnqP2MwppiuXQqj9WaX2juYJIvpJIBpt&gaa_ts=69080dd3&gaa_sig=MlI2hI1_RRpR54CWejOOCVsZ_50HRuVYjtRu4oUuzBy1T5m0-iw1gHPiM2mmHbA1F0k1T1JDWroAplmCy47-cw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.271233,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Shares in the chip-equipment sector experienced a \"relief rally\" after Lam Research Corp. and ASML Holding NV reported better-than-expected earnings and commentary on demand trends. Despite this, analysts remain concerned about the impact of trade-war issues on the contentious sector. Lam Research reiterated that the September quarter was the trough for equipment sales, while ASML provided an encouraging forecast for 2019.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333958"
+        },
+        {
+          "relevance_score": "0.633076",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299651"
+        },
+        {
+          "relevance_score": "0.639259",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.258171"
+        }
+      ],
+      "time_published": "20181017T144000",
+      "title": "Lam Research, ASML earnings spark \u2018relief rally\u2019 for chip-equipment sector, but doubts remain",
+      "topics": [
+        {
+          "relevance_score": "0.903223",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.828892",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.718361",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/lam-research-asml-earnings-spark-relief-rally-for-chip-equipment-sector-but-doubts-remain-2018-10-17?gaa_at=eafs&gaa_n=AWEtsqfrrqIR1rD-EdbQ7U_slLGdFaQo89HeguiVsJVcHcJZzo3HeD9RyGeI&gaa_ts=69081bdf&gaa_sig=w1NZSO3hYMAZm71MbguNT6QVSM2zHE6TdG24sp7g0leYnjOcMYRZBehdOTH0Es5S8eTdIS267YqWu4OVtI0LVw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.012406,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Chip-related stocks experienced their worst day in over two months following weaker-than-expected market outlooks from key players like Micron and KLA-Tencor. The PHLX Semiconductor Index fell 2.7%, marking its largest single-day percentage drop since June 25th. This decline suggests that the anticipated rebound in the chip industry may be softer than previously projected, particularly impacting chip-equipment companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.322229",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.021576"
+        }
+      ],
+      "time_published": "20180907T070800",
+      "title": "Micron, KLA-Tencor warnings send chip-related stocks to worst day in more than two months",
+      "topics": [
+        {
+          "relevance_score": "0.937864",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.842392",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.729396",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/chip-related-stocks-look-at-worst-day-in-nearly-two-months-on-forecast-weakness-2018-09-06?gaa_at=eafs&gaa_n=AWEtsqeOgbw2okkA7-MPfpkarUVqRKz3niiiVJmr8N16L1CRVp6KDE0mlimv&gaa_ts=69081ab2&gaa_sig=0vjx0uf5Vx1dXoPYmtS4b-EAQ1q6alP3idL9Z81vRlwI88w7zU2TqAkuGY2aKdpUGwdrJ-zP26UwHoDmNlpX7g%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.317824,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Chip-related stocks experienced their worst day in over two months after Micron and KLA-Tencor issued market outlooks weaker than previously forecasted. The PHLX Semiconductor Index dropped 2.7% on Thursday, marking its largest one-day percentage decline since June 25. This downturn suggests that a rebound in the chip industry may be softer than anticipated, impacting chip-equipment companies the hardest.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.344749",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010329"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.412458"
+        },
+        {
+          "relevance_score": "0.983669",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.404799"
+        },
+        {
+          "relevance_score": "0.742407",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.303875"
+        },
+        {
+          "relevance_score": "0.648639",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.300067"
+        }
+      ],
+      "time_published": "20180907T070800",
+      "title": "Micron, KLA-Tencor warnings send chip-related stocks to worst day in more than two months",
+      "topics": [
+        {
+          "relevance_score": "0.908497",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.825411",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.724667",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/chip-related-stocks-look-at-worst-day-in-nearly-two-months-on-forecast-weakness-2018-09-06?gaa_at=eafs&gaa_n=AWEtsqdXHrTmQ6qvA56ypcE_t2oq8eECp7w8kmOoSjVsu0squrJpmIhBjM8F&gaa_ts=69081bdf&gaa_sig=BvTCNvLqdxyVfEhb1URjfvlfKvTKEjPFGpClgQ7i4FdcTd4Af_i-EN-zpu9i12O_00xlApDxuQLhGCm3l6U1Vw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.349402,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Chip-related stocks experienced their worst day in over two months after Micron and KLA-Tencor issued warnings, suggesting a softer-than-expected rebound. The PHLX Semiconductor Index dropped 2.7%, significantly underperforming the S&P 500 and Nasdaq Composite. This indicates concerns about the outlook for semiconductor equipment companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.427840"
+        },
+        {
+          "relevance_score": "0.935830",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.406359"
+        },
+        {
+          "relevance_score": "0.725721",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.316603"
+        },
+        {
+          "relevance_score": "0.632044",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.300681"
+        },
+        {
+          "relevance_score": "0.633045",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.300993"
+        }
+      ],
+      "time_published": "20180907T070800",
+      "title": "Micron, KLA-Tencor warnings send chip-related stocks to worst day in more than two months",
+      "topics": [
+        {
+          "relevance_score": "0.848156",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.916123",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.938596",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/chip-related-stocks-look-at-worst-day-in-nearly-two-months-on-forecast-weakness-2018-09-06?gaa_at=eafs&gaa_n=AWEtsqe8HYDeZDHw5ts101SjT6Y0SwYqEm9H-je62q8fK6Ru82jwgrOpPdhG&gaa_ts=69081d1b&gaa_sig=bE3yoWC5jQIYVXfKa6DiyufKWzjVWVf6rJr9fD2s6OvUiP1MHyROwRmPPQ9KFgYiKW2peLe8EvyL-xq1p6x4hg%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.402886,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Chip-related stocks experienced their worst day in over two months following weak market outlooks from key players like Micron and KLA-Tencor. The PHLX Semiconductor Index fell 2.7% on Thursday, marking its most significant one-day percentage drop since June. This downturn suggests that the anticipated rebound in the chip industry may be softer than previously expected, especially impacting chip-equipment companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.345357",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033932"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.607388"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.648709"
+        },
+        {
+          "relevance_score": "0.710564",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.420723"
+        },
+        {
+          "relevance_score": "0.621684",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.364212"
+        }
+      ],
+      "time_published": "20180907T070800",
+      "title": "Micron, KLA-Tencor warnings send chip-related stocks to worst day in more than two months",
+      "topics": [
+        {
+          "relevance_score": "0.845399",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.919243",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.800080",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/chip-related-stocks-look-at-worst-day-in-nearly-two-months-on-forecast-weakness-2018-09-06?gaa_at=eafs&gaa_n=AWEtsqf_uxoxQdxYFiXfYy0KWc62enJTlpBCInIGIGDfFFQwE3MTZQBwwn0V&gaa_ts=6908253e&gaa_sig=O2R5Sj8s6KskVFZoe4x0P7r28D97xwkK1qt5riuGto9jkZxxdTDneZIH6rFBin-NCPYmzCePj8aDhXlHfKy0UQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.470502,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA-Tencor Corporation announced two new defect inspection products, the Kronos\u2122 1080 and ICOS\u2122 F160 systems, to address integrated circuit (IC) packaging challenges. The Kronos 1080 provides high sensitivity wafer inspection for advanced packaging process control, while the ICOS F160 delivers fast, accurate die sorting, including detection of difficult-to-find sidewall cracks. These systems expand KLA-Tencor's portfolio, aiming to accelerate packaging yield and improve die sort accuracy in response to the increasing complexity and value of packaged chips.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.482335"
+        }
+      ],
+      "time_published": "20180830T161500",
+      "title": "Announcing Kronos\u2122 1080 and ICOS\u2122 F160 Inspection Systems: Expanding KLA-Tencor's IC Packaging Portfolio",
+      "topics": [
+        {
+          "relevance_score": "0.841811",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.931123",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/announcing-kronos-1080-and-icos-f160-inspection-systems-expanding-kla-tencors-ic-packaging-portfolio-300704344.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.26857,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "The tech sector received a boost after Lam Research indicated that September would mark the low point for equipment demand. This forecast brought relief to investors in chip-equipment companies, leading to a rise in shares for Lam Research and its peers despite an initially disappointing outlook for the September quarter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.343830",
+          "ticker": "UCTT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007171"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.464684"
+        },
+        {
+          "relevance_score": "0.733424",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332413"
+        },
+        {
+          "relevance_score": "0.748983",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343213"
+        }
+      ],
+      "time_published": "20180728T102600",
+      "title": "Struggling tech sector gets a boost after Lam Research calls a bottom",
+      "topics": [
+        {
+          "relevance_score": "0.933832",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.822650",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736177",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.635155",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/struggling-tech-sector-gets-a-boost-after-lam-research-calls-a-bottom-2018-07-27?gaa_at=eafs&gaa_n=AWEtsqc-VjO-AOKYfgHbvKByoYHIYGhixYI_ifPQaRBfvqPGLS-DPZeXOWyy&gaa_ts=69082660&gaa_sig=03Hf2RlGTAp-u0n_jdp_p_MDUTZGJMnC4BiXoDg1lb7WvSaHXOvqnQQMQVXLxBlCZ270ZKuZr9--LeFV0Y2pAA%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.414304,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Lam Research's Chief Executive Martin Anstice stated that the September quarter would be the \"low point\" for temporary demand weakness in the chip-equipment sector, bringing relief to investors. This outlook caused Lam Research's stock to rise 7.5% in Friday morning trading and also positively impacted shares of peers like Applied Materials Inc. and KLA-Tencor Inc. The announcement provided a much-needed boost to the struggling tech sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.613820"
+        },
+        {
+          "relevance_score": "0.741926",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345229"
+        },
+        {
+          "relevance_score": "0.613908",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339546"
+        }
+      ],
+      "time_published": "20180728T102600",
+      "title": "Struggling tech sector gets a boost after Lam Research calls a bottom",
+      "topics": [
+        {
+          "relevance_score": "0.912181",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.806249",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.841392",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/struggling-tech-sector-gets-a-boost-after-lam-research-calls-a-bottom-2018-07-27?gaa_at=eafs&gaa_n=AWEtsqdKZesjeq7YVqVt3AwtRGqFLI1XLhWwuk4acf03h0BoIWX-iLpxL9pW&gaa_ts=69081bdc&gaa_sig=Q1FlepdmmyUkqud1ACv2eEqi8qgO1Tmt55U8HSSBgrWKuDnqlhRE5laSaO-o0yM2rhczJUtsA-brOJplVnQDMQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://photos.prnewswire.com/prnh/20140123/SF50413LOGO",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.478479,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA-Tencor Corporation announced two new defect inspection systems, the Voyager\u2122 1015 and Surfscan\u00ae SP7, to address critical challenges in silicon wafer and chip manufacturing. The Voyager 1015 inspects patterned wafers, including post-lithography rework, while the Surfscan SP7 provides unprecedented sensitivity for bare wafers and films, crucial for advanced device nodes. These systems aim to accelerate time-to-market for electronic devices by quickly identifying and rectifying process issues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.465981"
+        }
+      ],
+      "time_published": "20180710T123700",
+      "title": "KLA-Tencor Announces Voyager\u2122 1015 and Surfscan\u00ae SP7 Defect Inspection Systems: Addressing Two Key Challenges in Process and Tool Monitoring",
+      "topics": [
+        {
+          "relevance_score": "0.948146",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-tencor-announces-voyager-1015-and-surfscan-sp7-defect-inspection-systems-addressing-two-key-challenges-in-process-and-tool-monitoring-300678044.html"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.155429,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "Chipmakers are facing increasing challenges with contact and interconnect resistance as silicon scaling continues. New materials like cobalt are being introduced at advanced nodes (10nm/7nm) to reduce resistance, but their effectiveness is still under evaluation. The industry is also exploring other materials like ruthenium and advanced processes such as fully self-aligned vias and selective deposition/etch to overcome the limitations of traditional copper and tungsten.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.990925",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.286733"
+        },
+        {
+          "relevance_score": "0.874240",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231002"
+        },
+        {
+          "relevance_score": "0.720018",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109341"
+        },
+        {
+          "relevance_score": "0.617692",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.195527"
+        },
+        {
+          "relevance_score": "0.561260",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.088950"
+        }
+      ],
+      "time_published": "20180621T025128",
+      "title": "Dealing With Resistance In Chips",
+      "topics": [
+        {
+          "relevance_score": "0.944842",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.800654",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/dealing-with-resistance-in-chips/"
+    },
+    {
+      "authors": [
+        "KLA By Honggoo Lee a",
+        "Sangjun Han a",
+        "Jaeson Woo a",
+        "DongYoung Lee a",
+        "ChangRock Song a",
+        "Hoyoung Heo b",
+        "Irina Brinster b",
+        "DongSub Choi c",
+        "John C. Robinson b a SK Hynix",
+        "2091",
+        "Gyeongchung-daero",
+        "Bubal-eub",
+        "Icheon-si",
+        "Gyeonggi-do",
+        "467-701",
+        "Korea b KLA-Tencor Corp.",
+        "8834 N. Capital of Texas Hwy",
+        "Austin",
+        "TX 78759 c KLA-Tencor Korea",
+        "Starplaza bldg..",
+        "53 Metapolis-ro",
+        "Hwasung City",
+        "Gyeonggi-do",
+        "Korea"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.352984,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "This article discusses the challenges and solutions for non-zero overlay (NZO) process control in high-volume semiconductor manufacturing, particularly at advanced technology nodes. It details a hybrid control scheme using high-frequency optical metrology at DI and infrequent SEM-based metrology at FI, implemented within KLA-Tencor Corporation\u2019s 5D Analyzer, to characterize and control NZO variability. The study analyzes BLC and SCC layer data, identifying static NZO signatures and the potential of DI optical metrics like Qmerit to identify change points and minimize costly SEM FI metrology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.639416"
+        },
+        {
+          "relevance_score": "0.714162",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344862"
+        },
+        {
+          "relevance_score": "0.743400",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301848"
+        },
+        {
+          "relevance_score": "0.630611",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.215148"
+        }
+      ],
+      "time_published": "20180620T024629",
+      "title": "High-Volume Manufacturing Device Overlay Process Control",
+      "topics": [
+        {
+          "relevance_score": "0.938566",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.825556",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/high-volume-manufacturing-device-overlay-process-control/"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://www.globenewswire.com/NewsRoom/AttachmentNg/232b3f34-78b9-4a30-83e9-4318245176c7",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.405106,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Teradyne, Inc. was named \"THE BEST\" of all test equipment companies by customers in the VLSIresearch annual survey for the sixth consecutive year, placing first in \"THE BEST Suppliers of Test Equipment\" and \"The 10 BEST Large Suppliers of Chip Making Equipment\" categories. Customers also rated Teradyne highest in \"Recommend Supplier\" and \"Trust in Supplier.\" This recognition highlights Teradyne's commitment to customer satisfaction, innovation, and technological leadership in the semiconductor industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.817199"
+        },
+        {
+          "relevance_score": "0.647388",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318499"
+        },
+        {
+          "relevance_score": "0.607976",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309115"
+        },
+        {
+          "relevance_score": "0.620463",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326750"
+        },
+        {
+          "relevance_score": "0.576134",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.275435"
+        }
+      ],
+      "time_published": "20180523T130000",
+      "title": "Teradyne Tops VLSIresearch Customer Satisfaction Survey for Sixth Consecutive Year",
+      "topics": [
+        {
+          "relevance_score": "0.803291",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.937159",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2018/05/23/1511066/0/en/Teradyne-Tops-VLSIresearch-Customer-Satisfaction-Survey-for-Sixth-Consecutive-Year.html"
+    },
+    {
+      "authors": [
+        "NoCamels Team"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.355478,
+      "source": "NoCamels",
+      "source_domain": "NoCamels",
+      "summary": "International Flavors & Fragrances (IFF) is set to acquire Israeli company Frutarom for over $7 billion in cash and stocks. This deal marks the second-largest transaction for an Israeli firm this year and will see Frutarom shareholders receive $71.19 in cash and a portion of IFF common stock for each share. The acquisition aims to unite two industry leaders, expanding their reach in fast-growing markets and enhancing their focus on natural, health, and wellness products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.636875",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338866"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IFF",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.485824"
+        },
+        {
+          "relevance_score": "0.637125",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342897"
+        }
+      ],
+      "time_published": "20180507T024629",
+      "title": "Israel's Frutarom To Be Acquired For $7.1B By Global Flavoring Firm IFF",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.840793",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.713402",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://nocamels.com/2018/05/frutarom-acquired-7b-by-iff/"
+    },
+    {
+      "authors": [
+        "TaeHui Kim",
+        "JaeHyoung Oh",
+        "HyungWon Yoo",
+        "DoOh Kim",
+        "Tommaso Torelli"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.352832,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "This article discusses the increasing importance of wafer edge inspection and metrology data for root cause analysis and yield improvement, especially with growing device sizes and complex manufacturing processes. It highlights how a cluster inspection platform, like KLA-Tencor's CIRCL, can effectively monitor all-surface defectivity and correlate edge defects to front and back sides of the wafer, ultimately leading to faster decision-making and better yield management. The paper presents case studies demonstrating the platform's capabilities in identifying and addressing critical edge yield issues in film deposition and bevel etch processes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.983654",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.426153"
+        },
+        {
+          "relevance_score": "0.604781",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303656"
+        }
+      ],
+      "time_published": "20180419T024629",
+      "title": "Criticality of Wafer Edge Inspection and Metrology Data to All-Surface Defectivity Root Cause and Yield Analysis",
+      "topics": [
+        {
+          "relevance_score": "0.947730",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.828578",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/criticality-of-wafer-edge-inspection-and-metrology-data-to-all-surface-defectivity-root-cause-and-yield-analysis/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.35924,
+      "source": "Lam Research",
+      "source_domain": "Lam Research",
+      "summary": "Lam Research details its key semiconductor manufacturing processes: Deposition, Etch, Strip & Clean, and Mass Metrology. These processes enable precision control at the atomic scale for creating advanced chips with nanoscale features and complex 3D structures. The company's diverse product portfolio supports various stages of semiconductor fabrication, ensuring high performance and accuracy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401944"
+        },
+        {
+          "relevance_score": "0.733748",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342896"
+        },
+        {
+          "relevance_score": "0.649185",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326279"
+        }
+      ],
+      "time_published": "20180405T025128",
+      "title": "Our Processes",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.916153",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.lamresearch.com/products/our-processes/"
+    },
+    {
+      "authors": [
+        "Michael Bachner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.483299,
+      "source": "The Times of Israel",
+      "source_domain": "The Times of Israel",
+      "summary": "Israeli tech firm Orbotech was sold to US-based manufacturer KLA-Tencor for $3.4 billion, marking one of the largest-ever buyouts of an Israeli company. Orbotech will continue to operate as a standalone business based in Yavneh, Israel, and the deal is expected to be finalized by the end of 2018. The acquisition highlights a trend of billion-dollar-plus exits for Israeli tech firms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.466960"
+        }
+      ],
+      "time_published": "20180319T165600",
+      "title": "Israeli firm Orbotech sold to US company in $3.4 billion deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.903121",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.timesofisrael.com/israeli-tech-firm-orbotech-sold-to-us-company-in-3-4-billion-deal/"
+    },
+    {
+      "authors": [
+        "MAX SCHINDLER"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.381547,
+      "source": "The Jerusalem Post",
+      "source_domain": "The Jerusalem Post",
+      "summary": "Israeli start-up Orbotech has been sold for $3.4 billion, though it remains unclear how this acquisition will affect its operations in Israel and if any divisions will be relocated abroad. The article highlights the sale of the company and raises questions about its future presence in Israel.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.866564",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.395319"
+        }
+      ],
+      "time_published": "20180319T150500",
+      "title": "Israeli start-up Orbotech sold for $3.4 billion",
+      "topics": [
+        {
+          "relevance_score": "0.938608",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.802999",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.jpost.com/israel-news/israeli-start-up-orbotech-to-be-bought-for-34-billion-by-kla-tencor-545472"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://photos.prnewswire.com/prnh/20140123/SF50413LOGO",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.404595,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA-Tencor announced an agreement to acquire Orbotech Ltd. for approximately $3.4 billion in equity value, significantly diversifying KLA-Tencor's revenue base and expanding its addressable market in high-growth electronics. The acquisition is expected to be immediately accretive to KLA-Tencor's revenue growth, non-GAAP earnings, and free cash flow per share, with anticipated annualized cost synergies of $50 million. Additionally, KLA-Tencor authorized a $2 billion share repurchase program to be completed within 12 to 18 months post-transaction close.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422876"
+        }
+      ],
+      "time_published": "20180319T080000",
+      "title": "KLA-Tencor Announces Agreement to Acquire Orbotech Ltd.",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.834552",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.715828",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.608280",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.631362",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-tencor-announces-agreement-to-acquire-orbotech-ltd-300615762.html"
+    },
+    {
+      "authors": [
+        "KLA Instruments\u2122"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.426223,
+      "source": "AZoNano",
+      "source_domain": "AZoNano",
+      "summary": "This article describes the use of the express test (ET) method with high-temperature nanoindentation technology for high-resolution mechanical mapping of high-entropy alloys (HEAs). It details the methodology for testing single-phase CoCrFeNi and dual-phase AlCrFeNiTi HEAs at elevated temperatures, showcasing how the ET method reveals variations in Young's modulus and hardness. The study highlights ET's effectiveness in statistically evaluating material properties, extracting individual phase properties, and creating detailed mechanical property maps for microstructural and compositional comparisons.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405149"
+        }
+      ],
+      "time_published": "20180216T024629",
+      "title": "Express Test Indentation for High-Resolution Mechanical Mapping of HEAs at High Temperatures",
+      "topics": [
+        {
+          "relevance_score": "0.905772",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.808306",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.azonano.com/article.aspx?ArticleID=4783"
+    }
+  ],
+  "items": "30",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,1354 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Samantha Masunaga"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.339687,
+      "source": "Los Angeles Times - eNewspaper",
+      "source_domain": "Los Angeles Times - eNewspaper",
+      "summary": "The aerospace and defense industry is experiencing a significant hiring boom, driven by increased defense budgets, record commercial aircraft orders, and new, cutting-edge programs. Companies like Northrop Grumman, Raytheon, and Lockheed Martin are aggressively recruiting engineers and skilled workers, often competing with tech companies for talent. This surge is reminiscent of hiring levels seen in the 1980s, requiring companies to implement innovative recruitment strategies and address challenges like security clearances and an aging workforce.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.987841",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441250"
+        },
+        {
+          "relevance_score": "0.882381",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.426978"
+        },
+        {
+          "relevance_score": "0.789397",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338894"
+        },
+        {
+          "relevance_score": "0.691891",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267641"
+        }
+      ],
+      "time_published": "20181215T025116",
+      "title": "Aerospace industry hiring is at stratospheric level",
+      "topics": [
+        {
+          "relevance_score": "0.915973",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.804331",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.604148",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.638645",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://enewspaper.latimes.com/infinity/article_share.aspx?guid=e5b15a64-94b0-43b9-a0b0-efb8f58f131b"
+    },
+    {
+      "authors": [
+        "AFP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.308121,
+      "source": "The Business Times",
+      "source_domain": "The Business Times",
+      "summary": "NASA has selected nine private companies, mostly startups, to bid on $2.6 billion in contracts to build spacecraft for carrying payloads to the Moon as early as 2019, marking a shift towards privatization in space exploration. This initiative is part of NASA's broader goal to return humans to the Moon by the next decade and eventually send people to Mars by the 2030s. The selected companies include aerospace giant Lockheed Martin and several startups, with NASA acting as a customer to cut costs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.968532",
+          "ticker": "LUNR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441346"
+        },
+        {
+          "relevance_score": "0.928676",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302663"
+        },
+        {
+          "relevance_score": "0.725393",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.298338"
+        },
+        {
+          "relevance_score": "0.647042",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243557"
+        },
+        {
+          "relevance_score": "0.562044",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.180546"
+        }
+      ],
+      "time_published": "20181129T225300",
+      "title": "Nasa chooses nine companies to bid on flying to Moon",
+      "topics": [
+        {
+          "relevance_score": "0.804000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.businesstimes.com.sg/companies-markets/transport-logistics/nasa-chooses-nine-companies-bid-flying-moon"
+    },
+    {
+      "authors": [
+        "Thomas Black and Natasha Rausch"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.107379,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "S&P Global Ratings has cut United Technologies Corp.'s credit rating to BBB+ due to increased indebtedness following its $23 billion acquisition of Rockwell Collins and plans to split into three companies. The outlook for United Technologies, a maker of aircraft engines, climate-control equipment, and elevators, is negative, according to S&P.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.913454",
+          "ticker": "SPGI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340245"
+        },
+        {
+          "relevance_score": "0.705337",
+          "ticker": "CARR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.289324"
+        },
+        {
+          "relevance_score": "0.739290",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.299156"
+        },
+        {
+          "relevance_score": "0.608335",
+          "ticker": "ROK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.204802"
+        }
+      ],
+      "time_published": "20181128T210400",
+      "title": "United Technologies Credit Rating Cut by S&P After Breakup Plan",
+      "topics": [
+        {
+          "relevance_score": "0.922061",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.704495",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.602533",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2018-11-28/united-technologies-credit-rating-cut-by-s-p-after-breakup-plan"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.41671,
+      "source": "Florida Trend",
+      "source_domain": "Florida Trend",
+      "summary": "United Technologies (UTC) announced its intention to separate into three independent companies: an aerospace company (Collins Aerospace Systems and Pratt & Whitney), Otis, and Carrier. This decision follows UTC's acquisition of Rockwell Collins and is expected to be a tax-free separation for shareowners, aiming to provide strategic focus and financial flexibility for each entity. The separation is anticipated to be completed in 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CARR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.472050"
+        },
+        {
+          "relevance_score": "0.914617",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344368"
+        },
+        {
+          "relevance_score": "0.802127",
+          "ticker": "OTIS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415390"
+        }
+      ],
+      "time_published": "20181128T020142",
+      "title": "United Technologies Announces Intention to Separate Into Three Independent Companies",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.921049",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.731153",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.floridatrend.com/article/25917/united-technologies-announces-intention-to-separate-into-three-independent-companies/"
+    },
+    {
+      "authors": [
+        "Matthew Richardson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.277839,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Lockheed Martin's Missiles & Fire Control facility in Orlando has filed a permit for a new 5.52-acre test facility, marking its second new project announcement in the area recently. This development follows other significant activities for Lockheed Martin, including contract wins and sector growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400031"
+        },
+        {
+          "relevance_score": "0.624173",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.162197"
+        }
+      ],
+      "time_published": "20181108T025116",
+      "title": "Lockheed Martin files permit for 5.52-acre test facility in Orlando",
+      "topics": [
+        {
+          "relevance_score": "0.832022",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.702937",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bizjournals.com/orlando/news/2018/11/08/lockheed-martin-files-permit-for-5-52-acre-test.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.243298,
+      "source": "Airbus",
+      "source_domain": "Airbus",
+      "summary": "Delta Air Lines has taken delivery of its first Airbus A220, becoming the first U.S. carrier to receive the aircraft. The airline plans to introduce the A220 into service in early 2019 and is the largest A220-100 customer with a firm order for 75 aircraft. The A220 is lauded for its fuel efficiency and is expected to capture a significant share of the 100- to 150-seat aircraft market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DAL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445756"
+        },
+        {
+          "relevance_score": "0.800863",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330027"
+        },
+        {
+          "relevance_score": "0.732834",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248395"
+        },
+        {
+          "relevance_score": "0.631570",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113078"
+        },
+        {
+          "relevance_score": "0.642685",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135950"
+        }
+      ],
+      "time_published": "20181026T021128",
+      "title": "Delta Air Lines takes delivery of its first Airbus A220",
+      "topics": [
+        {
+          "relevance_score": "0.906064",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.748723",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.airbus.com/en/newsroom/press-releases/2018-10-delta-air-lines-takes-delivery-of-its-first-airbus-a220"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.122986,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This article provides a comprehensive profile of the Fidelity MSCI Industrial Index ETF (FIDU), noting its focus on U.S. industrial stocks and its competitive pricing. It highlights FIDU's suitability for tactical shifts or sector rotation strategies rather than core portfolio allocation. The report also details FIDU's holdings, performance metrics, expense ratios, and ESG scores.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FIDU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115965"
+        },
+        {
+          "relevance_score": "0.643300",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129574"
+        },
+        {
+          "relevance_score": "0.607513",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142541"
+        },
+        {
+          "relevance_score": "0.617846",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130815"
+        },
+        {
+          "relevance_score": "0.644254",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124912"
+        }
+      ],
+      "time_published": "20181025T101045",
+      "title": "Fidelity MSCI Industrial Index ETF",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.908358",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://etfdb.com/etf/FIDU/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.170575,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This article provides a comprehensive profile of the ProShares Ultra Industrials (UXI) ETF, which offers 2x daily long leverage to the Dow Jones U.S. Industrials Index. It details the ETF's price, expenses, holdings, performance, and ESG scores. The report also includes technical analysis, volatility data, and comparisons with alternative ETFs in its category, emphasizing its suitability for short-term bullish investors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UXI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.269154"
+        },
+        {
+          "relevance_score": "0.626058",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129315"
+        },
+        {
+          "relevance_score": "0.616770",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116417"
+        },
+        {
+          "relevance_score": "0.614763",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135215"
+        },
+        {
+          "relevance_score": "0.641836",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149218"
+        }
+      ],
+      "time_published": "20181025T054047",
+      "title": "ProShares Ultra Industrials",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.918903",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.815531",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://etfdb.com/etf/UXI/"
+    },
+    {
+      "authors": [
+        "Hayley Ringle"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.210263,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Honeywell has secured a $1 billion contract from the U.S. Air Force for logistics support of secondary power systems on seven aircraft types and ground-based auxiliary power systems. This contract will be managed out of Honeywell Aerospace offices in Phoenix and is a continuation of their existing support for the Air Force.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HON",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232081"
+        },
+        {
+          "relevance_score": "0.637891",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.229847"
+        },
+        {
+          "relevance_score": "0.643263",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.209501"
+        }
+      ],
+      "time_published": "20181025T023553",
+      "title": "Honeywell wins $1 billion U.S. Air Force contract",
+      "topics": [
+        {
+          "relevance_score": "0.838801",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.745429",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.bizjournals.com/phoenix/news/2018/10/25/honeywell-wins-1-billion-u-s-air-force-contract.html"
+    },
+    {
+      "authors": [
+        "Ben Hernandez"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.405416,
+      "source": "ETF Trends",
+      "source_domain": "ETF Trends",
+      "summary": "This article highlights four aerospace and defense ETFs to watch as major companies like Lockheed Martin, Boeing, and Raytheon prepare to release their third-quarter earnings. The sector is bolstered by significant U.S. defense spending, including an $854 billion bill with a large allocation to the Defense Department. The ETFs discussed are iShares U.S. Aerospace & Defense ETF (ITA), PowerShares Aerospace & Defense Portfolio (PPA), SPDR S&P Aerospace & Defense ETF (XAR), and Direxion Dly Aerospace&Def Bl 3X ShsETF (DFEN).",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ITA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408932"
+        },
+        {
+          "relevance_score": "0.946374",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423243"
+        },
+        {
+          "relevance_score": "0.880615",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447648"
+        },
+        {
+          "relevance_score": "0.711829",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441170"
+        },
+        {
+          "relevance_score": "0.777700",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434562"
+        }
+      ],
+      "time_published": "20181022T024145",
+      "title": "4 Aerospace & Defense ETFs Ahead of Lockheed Martin, Boeing, Raytheon Earnings",
+      "topics": [
+        {
+          "relevance_score": "0.930279",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.825347",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.736164",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.etftrends.com/4-aerospace-defense-etfs-lockheed-martin-boeing-raytheon-earnings/"
+    },
+    {
+      "authors": [
+        "Dana Hull and Rick Clough"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.335137,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Defense contractors Harris Corp. and L3 Technologies Inc. are merging to form a $33.5 billion company, L3 Harris Technologies Inc. This new entity will be one of the largest players in the industry, poised to benefit from increased military spending under President Donald Trump and challenging competitors like Raytheon and Northrop Grumman. The deal signifies a turning point in the defense sector, following similar consolidations by Boeing and United Technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LHX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448220"
+        },
+        {
+          "relevance_score": "0.748080",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320730"
+        },
+        {
+          "relevance_score": "0.702347",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304320"
+        },
+        {
+          "relevance_score": "0.626933",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305555"
+        },
+        {
+          "relevance_score": "0.646454",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323183"
+        }
+      ],
+      "time_published": "20181014T155400",
+      "title": "Harris, L3 to Form $33.5 Billion Giant as Weapons Spending Rises",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.832805",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2018-10-14/harris-l3-defense-contractors-are-said-to-be-close-to-merger"
+    },
+    {
+      "authors": [
+        "Richard Whittle"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.225656,
+      "source": "Breaking Defense",
+      "source_domain": "Breaking Defense",
+      "summary": "General Dynamics Land Systems and AeroVironment are partnering to integrate drone launch and control systems into future Army vehicles, initially driven by Marine Corps requirements for their Armored Reconnaissance Vehicle. This collaboration aims to equip combat vehicles with scout drones and loitering strike missiles, with the new Shrike 2 Hybrid VTOL reconnaissance drone and Switchblade missiles forming the core of their offering. The initiative builds on previous concepts like the Future Combat Systems and addresses the Army's Next Generation Combat Vehicle program, which includes various robotic and optionally manned platforms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVAV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.488380"
+        },
+        {
+          "relevance_score": "0.914726",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316967"
+        },
+        {
+          "relevance_score": "0.648760",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135131"
+        },
+        {
+          "relevance_score": "0.589430",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.055741"
+        }
+      ],
+      "time_published": "20181009T203900",
+      "title": "Robot Aircraft For Robot Tanks: GD & AeroVironment Team Up",
+      "topics": [
+        {
+          "relevance_score": "0.841551",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://breakingdefense.com/2018/10/robot-aircraft-for-robot-tanks-gd-and-aerovironment-team-up/"
+    },
+    {
+      "authors": [
+        "Our Bureau"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.324134,
+      "source": "Defense Mirror",
+      "source_domain": "Defense Mirror",
+      "summary": "Northrop Grumman has been awarded a $164 million Foreign Military Sales (FMS) contract by the Pentagon to procure one E-2D Advanced Hawkeye aircraft for Japan. This modification to an existing contract will see work completed across several countries by March 2020. The E-2D Advanced Hawkeye is an all-weather tactical airborne early warning aircraft.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.426371"
+        },
+        {
+          "relevance_score": "0.623649",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210997"
+        }
+      ],
+      "time_published": "20180906T063900",
+      "title": "Northrop Grumman Wins $164M FMS Contract For Japan\u2019s E-2D Advanced Hawkeye Aircraft",
+      "topics": [
+        {
+          "relevance_score": "0.908708",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.719364",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://defensemirror.com/news/23299/Northrop_Grumman_Wins__164M_FMS_Contract_For_Japan___s_E_2D_Advanced_Hawkeye_Aircraft"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.314552,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The Aerospace Fastener Market is experiencing significant growth, driven by increasing global air travel and advancements in aircraft technology. Key market players include B&B Specialties, Stanley Engineered Fasteners, and LISI Aerospace, among others. Asia Pacific is projected to be the fastest-growing region due to economic expansion and infrastructure investments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.918548",
+          "ticker": "TRS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301660"
+        },
+        {
+          "relevance_score": "0.724760",
+          "ticker": "APH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322338"
+        },
+        {
+          "relevance_score": "0.625673",
+          "ticker": "HWM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338797"
+        },
+        {
+          "relevance_score": "0.632046",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324833"
+        },
+        {
+          "relevance_score": "0.597745",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222219"
+        }
+      ],
+      "time_published": "20180827T181000",
+      "title": "Aerospace Fastener Market 2018 Key Players are B&B Specialties,",
+      "topics": [
+        {
+          "relevance_score": "0.841005",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.742212",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.600075",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1204333/aerospace-fastener-market-2018-key-players-are-b-b-specialties-stanley-engineered-fasteners-trimas-3v-fasteners-klx-b-e-aerospace-national-aerospace-fasteners-lisi-aerospace-alcoa-fastening-systems-tfi-aerospace-precision-castparts-tps-aviation.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.242134,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "This article provides an outlook on the Airport Security Systems market to 2025, highlighting key players like Honeywell International Inc., Bosch Security Systems, and Thales Group. It discusses the market's growth drivers, challenges, and opportunities, emphasizing the increasing integration of technology for enhanced airport safety. The report aims to offer in-depth analysis and insights for decision-makers in the global market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.955036",
+          "ticker": "HON",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.296098"
+        },
+        {
+          "relevance_score": "0.732643",
+          "ticker": "LHX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208673"
+        },
+        {
+          "relevance_score": "0.715838",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247219"
+        },
+        {
+          "relevance_score": "0.638682",
+          "ticker": "HII",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228898"
+        }
+      ],
+      "time_published": "20180718T105800",
+      "title": "Airport Security Systems Market Outlook to 2025 - Honeywell",
+      "topics": [
+        {
+          "relevance_score": "0.820529",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.735439",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1132390/airport-security-systems-market-outlook-to-2025-honeywell-international-inc-bosch-security-systems-axis-communication-flir-systems-hitachi-ltd-raytheon-company-thales-group-westminister-group-plc-and-smith-s-detection-inc.html"
+    },
+    {
+      "authors": [
+        "Robert J. Terry"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.454091,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Raytheon Co., Lockheed Martin Corp., and Northrop Grumman have won a significant $4.1 billion ballistic missile defense contract. This award comes as geopolitical tensions are rising and U.S. defense budgets are seeing increases, supporting the companies' ongoing missile defense programs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.485170"
+        },
+        {
+          "relevance_score": "0.993943",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.461179"
+        },
+        {
+          "relevance_score": "0.927021",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.456743"
+        }
+      ],
+      "time_published": "20180711T030115",
+      "title": "Lockheed, Northrop, Raytheon win multibillion-dollar missile defense contract",
+      "topics": [
+        {
+          "relevance_score": "0.642449",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.844232",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bizjournals.com/washington/news/2018/07/10/lockheed-northrop-raytheon-win-multibillion-dollar.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.402851,
+      "source": "JetBlue Airways Corporation - Investor Relations",
+      "source_domain": "JetBlue Airways Corporation - Investor Relations",
+      "summary": "JetBlue announced an order for 60 Airbus A220-300 aircraft, with options for 60 more, to begin delivery in 2020. These new aircraft will replace JetBlue's existing Embraer E190 fleet starting in 2020 and are expected to significantly improve fuel efficiency and enhance customer experience. The A220-300s will also offer greater flexibility for network expansion and long-term financial targets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JBLU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.475644"
+        },
+        {
+          "relevance_score": "0.637302",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341508"
+        }
+      ],
+      "time_published": "20180710T024200",
+      "title": "JetBlue Selects Airbus A220-300 as Key Component of Its Next Generation Fleet",
+      "topics": [
+        {
+          "relevance_score": "0.943497",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.729738",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.648762",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.636148",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://ir.jetblue.com/news/news-details/2018/JetBlue-Selects-Airbus-A220-300-as-Key-Component-of-Its-Next-Generation-Fleet-07-10-2018/default.aspx"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.180848,
+      "source": "The Fiji Times",
+      "source_domain": "The Fiji Times",
+      "summary": "Japan has selected Lockheed Martin Corp's advanced radar for its multibillion-dollar missile defence system, opting for it over Raytheon's SPY-6 due to better search capabilities and lower lifecycle costs. The two Aegis Ashore batteries, to be deployed in 2023, are intended to upgrade Japan's missile defences against North Korea and China and may also help ease trade friction with the United States. This decision allows Japan to include the purchase in its upcoming defence budget proposal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.491795"
+        },
+        {
+          "relevance_score": "0.859930",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103157"
+        }
+      ],
+      "time_published": "20180704T025117",
+      "title": "Japan picks Lockheed Martin radar for missile defence system \u2013 ministry official",
+      "topics": [
+        {
+          "relevance_score": "0.804617",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.713448",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.fijitimes.com.fj/japan-picks-lockheed-martin-radar-for-missile-defence-system-ministry-official/"
+    },
+    {
+      "authors": [
+        "Editor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.705546,
+      "source": "Joint Forces",
+      "source_domain": "Joint Forces",
+      "summary": "Leonardo DRS has been down-selected by the US Army to provide its mission equipment package for the accelerated Initial Maneuver Short-Range Air Defense (IM-SHORAD) effort. The system integrates kinetic and non-kinetic defeat capabilities, including Moog's RIwP turret, Raytheon's Stinger missiles, and Rada's Multi-mission Hemispheric Radar, to counter various air threats. This selection aims to deliver prototypes in 2019, providing critical air defense for Maneuver Brigade Combat Teams.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DRS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.820058"
+        },
+        {
+          "relevance_score": "0.807239",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.702530"
+        },
+        {
+          "relevance_score": "0.630285",
+          "ticker": "SYK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.542938"
+        }
+      ],
+      "time_published": "20180630T021213",
+      "title": "Leonardo DRS Down-Selected For US Army IM-SHORAD",
+      "topics": [
+        {
+          "relevance_score": "0.925296",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.821253",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.joint-forces.com/defence-equipment-news/15496-leonardo-drs-down-selected-for-us-army-im-shorad"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.226331,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Resorts World Las Vegas has selected Otis to provide and install over 200 elevator and escalator units for its new $4 billion resort and casino, scheduled to open in 2020. Otis's SkyRise\u00ae self-climbing elevators will be utilized to expedite construction, showcasing their reliability and experience in major projects. The partnership underscores the Genting Group's trust in Otis's ability to complete the project on time.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OTIS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434152"
+        },
+        {
+          "relevance_score": "0.612115",
+          "ticker": "CARR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126063"
+        },
+        {
+          "relevance_score": "0.620375",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104926"
+        }
+      ],
+      "time_published": "20180619T110000",
+      "title": "Resorts World Las Vegas Chooses Otis for New Resort & Casino",
+      "topics": [
+        {
+          "relevance_score": "0.940076",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.713103",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.625799",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/resorts-world-las-vegas-chooses-otis-for-new-resort--casino-300668655.html"
+    },
+    {
+      "authors": [
+        "Phil LeBeau"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.150745,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Boeing is challenging aerospace giants Honeywell and United Technologies by forming a new joint venture with French engine manufacturer Safran. This partnership aims to produce and service auxiliary power units (APUs) for commercial airplanes, a market currently dominated by Honeywell and United Technologies. The move is part of Boeing's strategy to expand its global services business as a major growth opportunity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.957412",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311063"
+        },
+        {
+          "relevance_score": "0.840091",
+          "ticker": "HON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135434"
+        },
+        {
+          "relevance_score": "0.790352",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146467"
+        },
+        {
+          "relevance_score": "0.572257",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.082154"
+        }
+      ],
+      "time_published": "20180604T084300",
+      "title": "Boeing takes on Honeywell, UTX with new joint venture",
+      "topics": [
+        {
+          "relevance_score": "0.917988",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.706471",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.642660",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.cnbc.com/2018/06/04/boeing-taking-on-honeywell-utx-with-new-joint-venture.html"
+    },
+    {
+      "authors": [
+        "James Careless"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.206561,
+      "source": "Vertical Mag",
+      "source_domain": "Vertical Mag",
+      "summary": "StandardAero, after acquiring Vector Aerospace in November 2017, has become the world\u2019s largest independent helicopter MRO provider. The company emphasizes expanded capacity, global coverage, improved customer service, and engineering expertise, boasting numerous OEM certifications and new capabilities in airframe, component, and engine services. Recent successes include a teaming agreement in Saudi Arabia, FAA approval for a crash-resistant fuel tank, and a multi-year contract with the Italian Ministry of Defense for engine support.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334091",
+          "ticker": "SARO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017734"
+        },
+        {
+          "relevance_score": "0.742355",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321475"
+        },
+        {
+          "relevance_score": "0.605625",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263680"
+        },
+        {
+          "relevance_score": "0.553470",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212819"
+        }
+      ],
+      "time_published": "20180601T032059",
+      "title": "Bigger. Better. Bolder.",
+      "topics": [
+        {
+          "relevance_score": "0.900025",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.715210",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.647755",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://verticalmag.com/bigger-better-bolder/"
+    },
+    {
+      "authors": [
+        "Brian Bandell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.313653,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Pratt & Whitney plans to create 215 new jobs and invest $100 million in Palm Beach County, spurred by a $3 million taxpayer incentive deal. This expansion was announced by David Carter, senior VP of engineering, alongside Gov. Rick Scott and Palm Beach County Commissioner Steven Abrams. The initiative is part of an ongoing focus on aviation and aerospace in South Florida.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.712229",
+          "ticker": "HEI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333998"
+        },
+        {
+          "relevance_score": "0.801402",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320586"
+        }
+      ],
+      "time_published": "20180523T155000",
+      "title": "Pratt & Whitney to create 215 jobs, invest $100M in Palm Beach",
+      "topics": [
+        {
+          "relevance_score": "0.900780",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.834875",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.719104",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.bizjournals.com/southflorida/news/2018/05/23/pratt-whitney-to-create-215-jobs-invest-100m-in.html"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.358977,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "The recent joint U.S., French, and U.K. missile strike on Syria marked the battlefield debut of Lockheed Martin's new stealthy Joint Air to Surface Standoff Missiles (JASSMs). Produced as part of a $4.6 billion defense program, these missiles, designed to be difficult to detect and capable of penetrating deep into enemy territory, were used to target the Barzah Research and Development Center. Although their performance wasn't specifically highlighted, Pentagon-provided images suggested the JASSMs were effective.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429154"
+        },
+        {
+          "relevance_score": "0.606210",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329050"
+        }
+      ],
+      "time_published": "20180414T025113",
+      "title": "Syria Strike Puts Lockheed Martin\u2019s Stealthy New Missile to Test",
+      "topics": [
+        {
+          "relevance_score": "0.821944",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.803176",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.638140",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2018/04/14/lockheed-martin-jassm-missile-syria/"
+    },
+    {
+      "authors": [
+        "Stew Magnuson"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.083714,
+      "source": "National Defense Magazine",
+      "source_domain": "National Defense Magazine",
+      "summary": "Marillyn Hewson, Lockheed Martin's CEO, refrained from commenting directly on the potential impact of a trade war on raw material prices and the company's operations, advocating instead for fair trade and global competitiveness. Industry associations, including NDIA and AIA, expressed concerns that tariffs on steel and aluminum could harm the defense industrial base and increase costs. Richard F. Ambrose, Lockheed Martin's space business EVP, highlighted cobalt as a potential concern if supply lines were disrupted by trade disputes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.080316"
+        },
+        {
+          "relevance_score": "0.633558",
+          "ticker": "HII",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125073"
+        },
+        {
+          "relevance_score": "0.608829",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148296"
+        },
+        {
+          "relevance_score": "0.612857",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121732"
+        },
+        {
+          "relevance_score": "0.642410",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132308"
+        }
+      ],
+      "time_published": "20180305T025114",
+      "title": "Lockheed Martin\u2019s Hewson Declines to Wade into Trade War Debate (UPDATED)",
+      "topics": [
+        {
+          "relevance_score": "0.930175",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.845755",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.718385",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nationaldefensemagazine.org/articles/2018/3/5/lockheed-martins-hewson-declines-to-wade-into-trade-war-debate"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.380497,
+      "source": "Innovation in Textiles",
+      "source_domain": "Innovation in Textiles",
+      "summary": "Hexcel will showcase its product innovations for aerospace, automotive, wind energy, and marine markets at JEC World 2018 in Paris. The company will highlight its carbon fibre materials used in the Airbus H160 helicopter and A350 XWB aircraft, emphasizing their contribution to lightweight and fuel-saving designs. Airbus has loaned Hexcel an H160 Blue Edge blade for display at their booth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HXL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.474750"
+        },
+        {
+          "relevance_score": "0.643865",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334718"
+        },
+        {
+          "relevance_score": "0.626911",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332376"
+        }
+      ],
+      "time_published": "20180226T023621",
+      "title": "Hexcel targets aerospace applications at JEC World",
+      "topics": [
+        {
+          "relevance_score": "0.943092",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.811406",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.648282",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.innovationintextiles.com/hexcel-targets-aerospace-applications-at-jec-world/"
+    },
+    {
+      "authors": [
+        "Valerie Bolden-Barrett"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.304729,
+      "source": "HR Dive",
+      "source_domain": "HR Dive",
+      "summary": "A year after President Trump's deal to save jobs at Carrier Corp., the Indianapolis plant announced a second round of layoffs, cutting 215 positions. This follows 340 job cuts in July, despite the initial agreement to prevent plant closure and save 800 furnace production jobs. The article also highlights how other companies are using tax savings for employee benefits, while automation continues to pose a threat to manufacturing jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.906308",
+          "ticker": "CARR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.333248"
+        },
+        {
+          "relevance_score": "0.620162",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.296805"
+        }
+      ],
+      "time_published": "20180116T020142",
+      "title": "A year after Trump deal, Carrier plant announces 2nd round of layoffs",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.938633",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.847942",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.hrdive.com/news/a-year-after-trump-deal-carrier-plant-announces-2nd-round-of-layoffs/514753/"
+    }
+  ],
+  "items": "27",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

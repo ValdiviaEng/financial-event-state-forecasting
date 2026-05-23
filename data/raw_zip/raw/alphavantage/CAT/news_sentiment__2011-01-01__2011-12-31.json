@@ -1,0 +1,989 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "CHRIS KAERGARD"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.08902,
+      "source": "Peoria Journal Star",
+      "source_domain": "Peoria Journal Star",
+      "summary": "Caterpillar Inc. expressed disappointment over the Illinois Legislature's failure to renew the state's research and development tax credit. A company spokesman indicated that this decision highlights an unfriendly business climate in the state, potentially making Illinois an unlikely location for Caterpillar's planned new North American plant. The tax credit was part of a larger bill that also aimed to prevent Sears Holdings Corp., CME Group Inc., and CBOE Holding Corp. from leaving Illinois.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.980447",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.427436"
+        },
+        {
+          "relevance_score": "0.726058",
+          "ticker": "CME",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121261"
+        },
+        {
+          "relevance_score": "0.672052",
+          "ticker": "CBOE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147112"
+        }
+      ],
+      "time_published": "20111201T162115",
+      "title": "Caterpillar upset by Illinois tax credit decision",
+      "topics": [
+        {
+          "relevance_score": "0.949064",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.801290",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.pjstar.com/story/news/2011/12/01/caterpillar-upset-by-illinois-tax/42447920007/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.482826,
+      "source": "mint",
+      "source_domain": "mint",
+      "summary": "Caterpillar Inc. plans to invest $210 million in India to grow its operations, anticipating increased road construction and infrastructure development. The investment includes $150 million for a new facility to produce Perkins branded 4000 Series engines and an additional $62 million to expand its existing off-highway truck manufacturing facility in Chennai. This new expansion at Chennai builds upon a previous $108 million investment announced in 2010.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.457076"
+        }
+      ],
+      "time_published": "20111130T180700",
+      "title": "Caterpillar to invest $210 mn in India",
+      "topics": [
+        {
+          "relevance_score": "0.935561",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.801020",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.724905",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.607277",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/joI2bDwD4qMSb1dVmRLqYM/Caterpillar-to-invest-210-mn-in-India.html"
+    },
+    {
+      "authors": [
+        "Motown India Bureau"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.445096,
+      "source": "www.motownindia.com",
+      "source_domain": "www.motownindia.com",
+      "summary": "Ashok Leyland and John Deere launched their first joint product, the 435 backhoe loader, at Excon, marking their entry into the Indian construction equipment business. The brand \"Leyland Deere\" aims to combine John Deere's technical expertise with Ashok Leyland's market knowledge and manufacturing capabilities. The 435 BHL is designed to offer lower operating costs, higher productivity, and greater uptime, supported by a comprehensive customer care program.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.520827"
+        },
+        {
+          "relevance_score": "0.627906",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349597"
+        }
+      ],
+      "time_published": "20111123T163113",
+      "title": "Leyland Deere launches its first products at Excon",
+      "topics": [
+        {
+          "relevance_score": "0.907620",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.708098",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.639514",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.motownindia.com/Bureau/Commercial-Vehicles/153/Leyland-Deere-launches-its-first-products-at-Excon"
+    },
+    {
+      "authors": [
+        "Carrie Ann"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.831696,
+      "source": "Industry Leaders Magazine",
+      "source_domain": "Industry Leaders Magazine",
+      "summary": "Caterpillar Inc. is demonstrating significant expansion and production boosts, with third-quarter profits up 44 percent. The company is acquiring Chinese mining firm ERA Mining Machinery, opening new manufacturing plants in the US and Indonesia, and increasing production at existing facilities to strengthen its position in the global mining sector and other markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.820073"
+        }
+      ],
+      "time_published": "20111118T162115",
+      "title": "Caterpillar Inc. is Coming Out of Its Cocoon",
+      "topics": [
+        {
+          "relevance_score": "0.901621",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.823740",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.945736",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.720688",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.industryleadersmagazine.com/caterpillar-inc-is-coming-out-of-its-cocoon/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.623277,
+      "source": "Jamaica Gleaner",
+      "source_domain": "Jamaica Gleaner",
+      "summary": "Caterpillar Inc. reported a significant increase in third-quarter earnings and revenue, driven by strong global demand for construction and mining equipment. The company raised its full-year forecast for revenue and earnings per share and expects continued growth into the following year, adding nearly 5,000 jobs in the quarter. This performance surpassed Wall Street expectations, indicating resilience despite global economic uncertainties.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.641183"
+        }
+      ],
+      "time_published": "20111025T120000",
+      "title": "Caterpillar 3Q profit soars, raises year view",
+      "topics": [
+        {
+          "relevance_score": "0.912298",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.811177",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.723009",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.607699",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://jamaica-gleaner.com/gleaner/20111025/business/business6.html"
+    },
+    {
+      "authors": [
+        "John Sharp"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.208059,
+      "source": "Peoria Journal Star",
+      "source_domain": "Peoria Journal Star",
+      "summary": "Caterpillar Inc. is requesting a $28 million reduction in the 2010 assessed values of its properties in Peoria and Tazewell counties. This request, initially made last year, might be revisited during the 2011 board of review hearings for both counties. Caterpillar is currently appealing the boards' previous decision not to change the assessments to the state's property tax appeals board.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.206172"
+        }
+      ],
+      "time_published": "20110803T162116",
+      "title": "Cat seeks $28 million drop in assessed values of its properties",
+      "topics": [
+        {
+          "relevance_score": "0.900274",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.828503",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.701244",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.pjstar.com/story/news/2011/08/03/cat-seeks-28-million-drop/42313589007/"
+    },
+    {
+      "authors": [
+        "SCOTT HILYARD"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333044,
+      "source": "Peoria Journal Star",
+      "source_domain": "Peoria Journal Star",
+      "summary": "Caterpillar Inc. officials announced that their visitors center is on track to open simultaneously with the Peoria Riverfront Museum in October 2012. Despite the museum's construction being further along, Caterpillar's director of corporate affairs, Jim Baumgartner, expressed confidence in a synchronized grand opening, noting their building is less complex.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317397"
+        }
+      ],
+      "time_published": "20110729T162115",
+      "title": "Cat making progress on visitors center",
+      "topics": [
+        {
+          "relevance_score": "0.715172",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.617536",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.pjstar.com/story/news/2011/07/29/cat-making-progress-on-visitors/42313675007/"
+    },
+    {
+      "authors": [
+        "IB Times Staff Reporter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.224344,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "This article details the pre-market stock performance of several companies on July 22, 2011, noting declines for CR Bard, Caterpillar, Cummins, Verizon Communications, FLIR Systems, Deere, and Honeywell International. It provides specific percentage decreases and share prices, along with brief summaries of their recent financial results or news that may have contributed to the declines. Key financial figures and company announcements, such as earnings reports and CEO changes, are highlighted for each company mentioned.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.611119"
+        },
+        {
+          "relevance_score": "0.827321",
+          "ticker": "CMI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.216569"
+        },
+        {
+          "relevance_score": "0.740035",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234813"
+        }
+      ],
+      "time_published": "20110722T084200",
+      "title": "Pre-market Losers on July 22 (BCR, CAT, CMI, VZ, FLIR, DE, HON)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.949497",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.827480",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.732673",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.634914",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ibtimes.com/pre-market-losers-july-22-bcr-cat-cmi-vz-flir-de-hon-300783"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.443022,
+      "source": "World Coal",
+      "source_domain": "World Coal",
+      "summary": "Caterpillar has completed its acquisition of Bucyrus International Inc. for approximately US$ 8.8 billion, funding the deal with cash and debt without issuing new equity. The acquisition significantly expands Caterpillar's Global Mining business, with Bucyrus products transitioning to the Caterpillar brand and distribution moving to Cat dealers. This strategic move aims to combine the strengths of both companies for improved sales, lower costs, and enhanced customer service in the mining industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429118"
+        }
+      ],
+      "time_published": "20110711T103000",
+      "title": "Caterpillar completes acquisition of Bucyrus",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.802189",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.727104",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.worldcoal.com/coal/11072011/Caterpillar_completes_acquisition_of_Bucyrus/"
+    },
+    {
+      "authors": [
+        "Associated Press business staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.504698,
+      "source": "Cleveland.com",
+      "source_domain": "Cleveland.com",
+      "summary": "Caterpillar Inc. announced plans to expand its hydraulic excavator plant under construction in Victoria, Texas, by adding $70 million and 200,000 square feet, increasing the total investment to $200 million and 1,050,000 square feet. This expansion will create an additional 100 jobs, bringing the total new positions to 600, due to higher demand for excavators. Production is expected to begin in mid-2012, significantly tripling Caterpillar's excavator manufacturing capability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.513274"
+        }
+      ],
+      "time_published": "20110617T144500",
+      "title": "Caterpillar plans to expand Texas plant, add jobs",
+      "topics": [
+        {
+          "relevance_score": "0.926102",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.726466",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.614917",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cleveland.com/business/2011/06/caterpillar_plans_to_expand_te.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.01599,
+      "source": "Dignity Memorial",
+      "source_domain": "Dignity Memorial",
+      "summary": "Jerry Lynn Swan, 68, passed away on June 15, 2011. He was born in Henry County, Iowa, and was a Salutatorian and University of Iowa graduate. Jerry was a 35-year veteran of Caterpillar, Inc., holding key leadership roles globally and was a \"founding father\" of Caterpillar's Building Construction Products Division. He was a devoted family man, outdoors enthusiast, and active in his community.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.909967",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008764"
+        }
+      ],
+      "time_published": "20110615T162116",
+      "title": "Jerry Swan Obituary - Cary, NC",
+      "topics": [
+        {
+          "relevance_score": "0.832208",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.dignitymemorial.com/obituaries/cary-nc/jerry-swan-4711049"
+    },
+    {
+      "authors": [
+        "Shandra Martinez"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.028522,
+      "source": "MLive.com",
+      "source_domain": "MLive.com",
+      "summary": "Mike Rowe, host of \"Dirty Jobs,\" has partnered with Rockford-based Wolverine World Wide Inc. to launch a signature series of work boots and shoes under the Cat Footwear brand, named \"Mike Rowe Works by Cat Footwear.\" This collaboration expands Rowe's existing relationship with Michigan companies, following his role as a pitchman for Ford trucks and his work with Caterpillar Inc. The footwear line, retailing between $100-$130, aims to leverage Rowe's advocacy for the American worker and skilled trades, with the company also seeking product feedback from his mikeroweWORKS.com platform.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327133",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046484"
+        }
+      ],
+      "time_published": "20110531T164800",
+      "title": "Dirty Jobs host Mike Rowe will use his feet to be the face of another Michigan company",
+      "topics": [
+        {
+          "relevance_score": "0.844175",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.937217",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.mlive.com/business/west-michigan/2011/05/dirty_jobs_host_mike_rowe_will.html"
+    },
+    {
+      "authors": [
+        "CATHARINE SCHAIDLE"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.145984,
+      "source": "Peoria Journal Star",
+      "source_domain": "Peoria Journal Star",
+      "summary": "Caterpillar's heritage wall in Peoria honors individuals who worked in manufacturing. Carl Lerch, 75, was eager to see this \"cool\" wall his granddaughter told him about. Many retired employees are unaware of the existence of this heritage wall.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142795"
+        }
+      ],
+      "time_published": "20110418T162115",
+      "title": "Caterpillar's heritage wall honors its past",
+      "topics": [
+        {
+          "relevance_score": "0.931341",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.pjstar.com/story/news/2011/04/18/caterpillar-s-heritage-wall-honors/42392097007/"
+    },
+    {
+      "authors": [
+        "Steve Tarter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.12537,
+      "source": "Peoria Journal Star",
+      "source_domain": "Peoria Journal Star",
+      "summary": "Former Caterpillar Inc. CEO Jim Owens received $22.5 million in total compensation in 2010, largely due to a $16 million stock award, making him the company's highest-paid executive that year despite stepping down. Current Chairman and CEO Doug Oberhelman earned $10.5 million for the same year, reflecting the company's record sales and profits. This compensation information was disclosed in the company's proxy statement filed with the U.S. Securities and Exchange Commission.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.966920",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120766"
+        }
+      ],
+      "time_published": "20110415T162116",
+      "title": "Ex-Cat CEO made $22.5M last year",
+      "topics": [
+        {
+          "relevance_score": "0.916253",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.726206",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.pjstar.com/story/news/2011/04/15/ex-cat-ceo-made-22/42496663007/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.408368,
+      "source": "Army Guide",
+      "source_domain": "Army Guide",
+      "summary": "BAE Systems and Caterpillar Inc. have partnered to integrate Caterpillar CX Series Transmissions into BAE Systems' new HybriDrive\u00ae parallel propulsion system for heavy-duty trucks. This collaboration aims to deliver a seamlessly integrated product that offers superior fuel efficiency, driveability, and emissions reductions, building on the success of BAE Systems' HybriDrive series system for transit buses. The HybriDrive parallel system, designed for vehicles requiring higher operating speeds, is expected to undergo road trials this spring and be globally deployed in 2012.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422478"
+        }
+      ],
+      "time_published": "20110401T162116",
+      "title": "BAE Systems to Integrate Caterpillar CX Series Transmissions into its HybriDrive\u00ae Parallel System for Heavy-duty Trucks",
+      "topics": [
+        {
+          "relevance_score": "0.803362",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.936269",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.700650",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "http://www.army-guide.com/eng/article/article_2155.html"
+    },
+    {
+      "authors": [
+        "JEMS Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.143321,
+      "source": "JEMS",
+      "source_domain": "JEMS",
+      "summary": "New equipment, including a diamond drill, has arrived at the Lucky Friday mine in Idaho to aid in the rescue of silver miner Larry Marek, who has been trapped more than a mile underground since a tunnel collapse four days prior. Rescuers are drilling a 2-inch hole to search for an open area that could have provided him refuge, while also shoring up the collapsed tunnel amidst challenging conditions. Marek, a 12-year employee of Hecla Mining Co., was working with his brother, who escaped, when the accident occurred.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.326325"
+        },
+        {
+          "relevance_score": "0.611614",
+          "ticker": "NEM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149008"
+        },
+        {
+          "relevance_score": "0.591422",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013109"
+        },
+        {
+          "relevance_score": "0.555207",
+          "ticker": "MSI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019832"
+        }
+      ],
+      "time_published": "20110331T165104",
+      "title": "New Equipment Arrives to Rescue Trapped Idaho Miner",
+      "topics": [
+        {
+          "relevance_score": "0.834064",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.jems.com/ems-operations/ems-equipment-gear/new-equipment-arrives-rescue-t/"
+    },
+    {
+      "authors": [
+        "KAREN McDONALD"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.509837,
+      "source": "Peoria Journal Star",
+      "source_domain": "Peoria Journal Star",
+      "summary": "Caterpillar Inc. CEO Doug Oberhelman supports the U.S.-Panama Free Trade Agreement, highlighting the importance of opening foreign markets for increased exports and economic growth. He believes the agreement will benefit manufacturing, agriculture, and service providers, while also strengthening democracy in the region. Oberhelman shared these views during a Ways and Means subcommittee on trade hearing in Washington, D.C.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.537928"
+        }
+      ],
+      "time_published": "20110331T162116",
+      "title": "Cat CEO touts benefits of trade agreement with Panama",
+      "topics": [
+        {
+          "relevance_score": "0.923514",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.800456",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.728652",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.pjstar.com/story/news/2011/03/31/cat-ceo-touts-benefits-trade/42398994007/"
+    },
+    {
+      "authors": [
+        "Steve Tarter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.304123,
+      "source": "Peoria Journal Star",
+      "source_domain": "Peoria Journal Star",
+      "summary": "Caterpillar Inc. confirmed that the potential sale of a portion of its logistics subsidiary would not impact the company's Morton parts facility. A company spokesman stated that the Morton facility is critical for Caterpillar's parts support and is not part of the sale consideration.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334868"
+        }
+      ],
+      "time_published": "20110325T162116",
+      "title": "Cat: Logistics division sale wouldn't affect Morton facility",
+      "topics": [
+        {
+          "relevance_score": "0.936861",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.707556",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.pjstar.com/story/news/2011/03/25/cat-logistics-division-sale-wouldn/42424442007/"
+    },
+    {
+      "authors": [
+        "Jim Galligan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.340188,
+      "source": "Transport Topics",
+      "source_domain": "Transport Topics",
+      "summary": "Caterpillar Inc. has introduced its first vocational on-highway truck model, the CT660, a heavy-duty Class 8 truck designed for severe duty applications, which will be built by Navistar International Corp. and sold exclusively by Caterpillar dealers. The CT660 will be powered by Caterpillar-branded CT11, CT13, and CT15 engines, featuring advanced exhaust gas recirculation and mated to a Caterpillar-built CX31 6-speed automatic transmission. Order boards for the CT660 open on April 1st, with shipments commencing in July, marking a significant entry for Caterpillar into the on-highway truck market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348235"
+        }
+      ],
+      "time_published": "20110322T113000",
+      "title": "Caterpillar Introduces Vocational Truck",
+      "topics": [
+        {
+          "relevance_score": "0.932794",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.847786",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ttnews.com/articles/caterpillar-introduces-vocational-truck"
+    },
+    {
+      "authors": [
+        "Jim McClure"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.126818,
+      "source": "York Daily Record",
+      "source_domain": "York Daily Record",
+      "summary": "This article details Caterpillar's historical and current presence in York County, Pennsylvania, dispelling the notion that the company completely left the area despite closing its manufacturing plant in 1998. It highlights Caterpillar's significant impact on the local economy through job creation and wage increases. The piece also includes a timeline of key events, including strikes and plant closures, and notes that a parts distribution facility remains operational in Springettsbury Township.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111315"
+        }
+      ],
+      "time_published": "20110314T162115",
+      "title": "Caterpillar - not the hairy, icky type - keeps presence in York County, Pa.",
+      "topics": [
+        {
+          "relevance_score": "0.902282",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.610695",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ydr.com/story/news/history/blogs/york-town-square/2011/03/14/caterpillar/31693013/"
+    },
+    {
+      "authors": [
+        "Rick Barrett"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.330108,
+      "source": "Milwaukee Journal Sentinel",
+      "source_domain": "Milwaukee Journal Sentinel",
+      "summary": "Bucyrus International Inc. CEO Tim Sullivan announced his departure from the company upon its acquisition by Caterpillar Inc., a deal valued at $7.6 billion. Sullivan, who will receive an estimated $29 million cash payout and potentially a total of $48.5 million in compensation, indicated he might pursue running another company, likely outside the Milwaukee area and the mining industry. CFO Craig Mackus also plans to leave after the acquisition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305982"
+        }
+      ],
+      "time_published": "20110218T162115",
+      "title": "Sullivan to leave Bucyrus when sale to Caterpillar closes",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.822565",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://archive.jsonline.com/business/116477773.html"
+    },
+    {
+      "authors": [
+        "Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.335998,
+      "source": "Heavy Duty Trucking",
+      "source_domain": "Heavy Duty Trucking",
+      "summary": "Cummins Inc. has announced the release of its High Output 6.7-liter Turbo Diesel engine for Ram Heavy Duty pickup trucks, boasting a peak torque of 800 lb-ft. This enhanced engine provides increased power across a wide speed range and maintains the integrated exhaust brake feature, offering superior towing confidence. The company emphasizes the engine's durability and low cost of ownership, noting it is still the only diesel in a heavy-duty pickup that does not require Diesel Exhaust Fluid.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CMI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.488525"
+        },
+        {
+          "relevance_score": "0.614529",
+          "ticker": "DE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322865"
+        },
+        {
+          "relevance_score": "0.577144",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263897"
+        }
+      ],
+      "time_published": "20110210T162609",
+      "title": "Cummins Announces High Output 6.7L Turbo Diesel",
+      "topics": [
+        {
+          "relevance_score": "0.915199",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.802805",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.truckinginfo.com/150879/cummins-announces-high-output-6-7l-turbo-diesel"
+    },
+    {
+      "authors": [
+        "David Cousins"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.179301,
+      "source": "Farmers Weekly",
+      "source_domain": "Farmers Weekly",
+      "summary": "This article features Ian Giles of Ashworth Contractors discussing his John Deere 6830 tractor, which has accumulated 10,342 hours in just 23 months. Giles details the tractor's comfort, usage for mixer wagon operation and slurry pumping, strict maintenance schedule, and fuel efficiency. He also mentions the company's practice of trading in machines after two years to keep their fleet up-to-date and running costs low.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266504"
+        },
+        {
+          "relevance_score": "0.630694",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134606"
+        },
+        {
+          "relevance_score": "0.554114",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.076703"
+        }
+      ],
+      "time_published": "20110204T163113",
+      "title": "High-hour Horsepower: John Deere does 10,342 hours in 23 months",
+      "topics": [
+        {
+          "relevance_score": "0.817353",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.fwi.co.uk/machinery/high-hours-heroes-ian-giles-s-deere-does-10-342-hours-in-23-months"
+    },
+    {
+      "authors": [
+        "Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.539512,
+      "source": "Construction Week Online",
+      "source_domain": "Construction Week Online",
+      "summary": "Caterpillar has unveiled its redesigned Olympian generator for the global marketplace, ranging from 26 to 200 kVA (50 Hz) and 27 to 175 kW (60 Hz). The redesign focused on the enclosure, now made of galvanized steel with durable powder-coated paint for harsh environments. Improvements include more robust materials, increased accessibility, state-of-the-art controls, and better performance in warmer climates and higher altitudes, based on extensive global customer research.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.505719"
+        }
+      ],
+      "time_published": "20110203T162116",
+      "title": "Cat unveils next-gen Olympian",
+      "topics": [
+        {
+          "relevance_score": "0.930922",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.722365",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.constructionweekonline.com/products-services/article-10963-cat-unveils-next-gen-olympian"
+    },
+    {
+      "authors": [
+        "Alyssa Dizon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.199915,
+      "source": "Lubbock Avalanche-Journal",
+      "source_domain": "Lubbock Avalanche-Journal",
+      "summary": "New interim Tier 4 emission standards for farm equipment are forcing farmers to choose between two fuel emission systems: Exhaust Gas Recirculation (EGR) and Selective Catalytic Reduction (SCR). While both systems reduce emissions, they present different cost implications and operational considerations for farmers. The adoption of these new technologies also comes with increased tractor prices, though manufacturers highlight potential fuel efficiency benefits.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.906474",
+          "ticker": "CMI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.280726"
+        },
+        {
+          "relevance_score": "0.837588",
+          "ticker": "DE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212753"
+        },
+        {
+          "relevance_score": "0.703699",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140175"
+        }
+      ],
+      "time_published": "20110127T162610",
+      "title": "New Tier 4 engine tractors create new decisions for farmers",
+      "topics": [
+        {
+          "relevance_score": "0.918951",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.lubbockonline.com/story/news/local/2011/01/27/new-tier-4-engine-tractors-create-new-decisions-farmers/15248062007/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.bbc.com/news/business-12229585",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.368573,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "The US has signed a $45bn (\u00a328bn) export deal with China during President Hu Jintao's state visit, which includes a $19bn purchase of 200 Boeing aircraft. This significant trade agreement is expected to create 235,000 jobs and benefits various US companies in agriculture, telecoms, computer, technology, construction equipment, and nuclear power sectors. The order for Boeing aircraft comes after a delay for its new Dreamliner and could help the company compete with its rival Airbus.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432408"
+        },
+        {
+          "relevance_score": "0.615196",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318638"
+        }
+      ],
+      "time_published": "20110119T161135",
+      "title": "China to buy 200 Boeing aircraft",
+      "topics": [
+        {
+          "relevance_score": "0.904489",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.847147",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.711310",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.bbc.com/news/business-12229585"
+    }
+  ],
+  "items": "26",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

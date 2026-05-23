@@ -1,0 +1,1538 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "NASDAQ.com News"
+      ],
+      "banner_image": "https://www.nasdaq.com/sites/acquia.prod/files/styles/720x400/public/image/f5307b88c8521a1fdb3a05bc81e9b5e0247d877c_finance97.jpg?1767150647224585691",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.010362,
+      "source": "Nasdaq",
+      "source_domain": "Nasdaq",
+      "summary": "Merrill Lynch Depositor, Inc. (CPP) has declared an ex-dividend date of December 12, 2012, with a cash dividend payment of $1.0063 per share scheduled for December 15, 2012. This marks the 23rd consecutive quarter the company has paid the same dividend. The stock last traded at $26.58, showing a slight decrease from its 52-week high but a significant increase from its 52-week low.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340002",
+          "ticker": "IPB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026523"
+        },
+        {
+          "relevance_score": "0.606361",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015624"
+        }
+      ],
+      "time_published": "20121210T090000",
+      "title": "Merrill Lynch Depositor, Inc. (CPP) Ex-Dividend Date Scheduled for December 12, 2012",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.834767",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nasdaq.com/articles/merrill-lynch-depositor-inc-cpp-ex-dividend-date-scheduled-december-12-2012-2012-12-10"
+    },
+    {
+      "authors": [
+        "Shah Gilani"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.145482,
+      "source": "MoneyMorning.com",
+      "source_domain": "MoneyMorning.com",
+      "summary": "The article discusses the partnership between American Express (NYSE: AXP) and Wal-Mart (NYSE: WMT) to offer Bluebird prepaid cards, highlighting the potential for hidden fees and the lack of FDIC insurance for funds held on these cards. It raises concerns about the safety of consumer money given American Express's past financial troubles and questions the long-term intentions behind offering \"no-fee\" cards, suggesting they primarily benefit from interchange fees. The author expresses worry about the uninsured nature of these non-bank \"depository\" services and how this trend might impact the financial future.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.221096"
+        },
+        {
+          "relevance_score": "0.982363",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.208772"
+        },
+        {
+          "relevance_score": "0.565532",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117342"
+        }
+      ],
+      "time_published": "20121109T141058",
+      "title": "The Dirty Little Secret Behind Wal-Mart's Bluebird Cards",
+      "topics": [
+        {
+          "relevance_score": "0.911718",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.832918",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.626058",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://moneymorning.com/2012/11/09/the-dirty-little-secret-behind-wal-marts-bluebird-cards/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.36889,
+      "source": "FedEx newsroom",
+      "source_domain": "FedEx newsroom",
+      "summary": "FedEx Corp. is supporting Small Business Saturday for a second year by giving away $1 million in American Express Shop Small Gift Cards to consumers via Facebook to drive traffic to local small businesses. Additionally, FedEx Office is offering free printing of Small Business Saturday posters to help small business owners attract customers during the critical holiday shopping season. These initiatives aim to boost the economy by encouraging consumers to shop at independent retailers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FDX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.426645"
+        },
+        {
+          "relevance_score": "0.708253",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336327"
+        }
+      ],
+      "time_published": "20121030T104900",
+      "title": "FedEx Delivers Second Year \u201cShop Small\u00ae\u201d Support with $1M Small Business Saturday\u00ae Gift Card Giveaway",
+      "topics": [
+        {
+          "relevance_score": "0.821721",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.713214",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.644038",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-delivers-second-year-shop-small-support-with-1m-small-business-saturday-gift-card-giveaway"
+    },
+    {
+      "authors": [
+        "Jim Bruene"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.001636,
+      "source": "Finovate",
+      "source_domain": "Finovate",
+      "summary": "American Express has released an iPhone app for its new Bluebird prepaid card, which will be sold in Walmart stores and other locations. The app allows new customers to sign up for a card and includes features like Billpay, P2P payments, request money, and mobile remote deposit, despite some initial user experience issues during the signup process. The author encountered difficulties during the application process, but despite the problems, expressed optimism about the app's potential once initial kinks are resolved.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.962697",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140885"
+        },
+        {
+          "relevance_score": "0.717684",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104163"
+        }
+      ],
+      "time_published": "20121016T141057",
+      "title": "American Express Launches Mobile App for its Bluebird Prepaid Card",
+      "topics": [
+        {
+          "relevance_score": "0.944472",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.815104",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://finovate.com/american_express_launches_mobile_app_for_its_bluebird_prepaid_card/"
+    },
+    {
+      "authors": [
+        "Jim Bruene"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.134984,
+      "source": "Finovate",
+      "source_domain": "Finovate",
+      "summary": "American Express and Walmart have partnered to launch the Amex-branded Bluebird prepaid card, which has garnered significant press attention. While analysts highlighted Walmart's expansion into \"banking\" services and the card's affordability compared to traditional checking accounts, the author notes that Walmart already offers a similar Visa prepaid card. A key difference highlighted is the Bluebird card's more limited merchant acceptance compared to the Green Dot Visa card, potentially causing confusion for Walmart customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.920415",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335080"
+        },
+        {
+          "relevance_score": "0.879564",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126747"
+        },
+        {
+          "relevance_score": "0.633366",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.069648"
+        },
+        {
+          "relevance_score": "0.594441",
+          "ticker": "COST",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017185"
+        }
+      ],
+      "time_published": "20121011T141058",
+      "title": "American Express Now Serves Walmart with Bluebird Prepaid Card",
+      "topics": [
+        {
+          "relevance_score": "0.933241",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.811583",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://finovate.com/american_express_now_serves_walmart/"
+    },
+    {
+      "authors": [
+        "Arab News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.412548,
+      "source": "Arab News",
+      "source_domain": "Arab News",
+      "summary": "Kanoo Travel and American Express Middle East have partnered to offer the American Express Business Travel Account (BTA) to large and mid-sized companies in the region. This partnership allows Kanoo clients to centralize corporate travel expenses into a single account, simplifying reconciliation, reducing paperwork, and improving cost control. The BTA program aims to provide enhanced visibility and significant savings on process costs related to travel expense management.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438487"
+        }
+      ],
+      "time_published": "20121009T141058",
+      "title": "Kanoo Travel, American Express offer cost savings",
+      "topics": [
+        {
+          "relevance_score": "0.836942",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.arabnews.com/node/426885/amp"
+    },
+    {
+      "authors": [
+        "Stephanie Clifford and Jessica Silver-Greenberg"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.247213,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Wal-Mart and American Express are launching a new prepaid card and debit account called \"Bluebird,\" targeting low-income consumers with features typically associated with credit cards. This partnership aims to strengthen both companies' positions in the largely unregulated prepaid card market, offering an alternative to traditional banking with transparent, generally lower fees. Consumer advocates, however, express concerns about the lack of regulation and potential for high fees in the prepaid card industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.974033",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253582"
+        },
+        {
+          "relevance_score": "0.917037",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.217547"
+        }
+      ],
+      "time_published": "20121008T141058",
+      "title": "Wal-Mart and AmEx in Prepaid Card Deal",
+      "topics": [
+        {
+          "relevance_score": "0.922888",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.833127",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/10/09/business/wal-mart-to-offer-prepaid-card.html"
+    },
+    {
+      "authors": [
+        "Danielle Douglas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.130734,
+      "source": "The Washington Post",
+      "source_domain": "The Washington Post",
+      "summary": "Walmart announced a new prepaid American Express card, marking its further expansion into financial services. This card aims to compete with traditional bank services, offering features like roadside assistance and mobile banking. It allows consumers an alternative to conventional debit and credit cards, though it operates under different consumer protection laws.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.910947",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311091"
+        },
+        {
+          "relevance_score": "0.709734",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.337681"
+        },
+        {
+          "relevance_score": "0.882283",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259873"
+        }
+      ],
+      "time_published": "20121008T141058",
+      "title": "Wal-Mart going head-to-head with banks with prepaid American Express card",
+      "topics": [
+        {
+          "relevance_score": "0.840323",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.829246",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.washingtonpost.com/business/economy/wal-mart-going-head-to-head-with-banks-with-prepaid-american-express-card/2012/10/08/c3be0110-1159-11e2-a16b-2c110031514a_story.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.445962,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "American Express and Walmart announced the launch of Bluebird, a new alternative to debit and checking accounts designed to help consumers manage their finances without traditional bank fees. Bluebird offers features like deposits by smartphone, mobile bill pay, and no minimum balance or monthly fees, targeting millions of Americans dissatisfied with rising banking costs. The service will be available online and in Walmart stores, providing a range of financial tools and protection benefits often associated with premium accounts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422438"
+        },
+        {
+          "relevance_score": "0.990716",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423463"
+        }
+      ],
+      "time_published": "20121008T080000",
+      "title": "American Express and Walmart Launch Bluebird\u00ae: a New Alternative to Debit and Checking Accounts",
+      "topics": [
+        {
+          "relevance_score": "0.949084",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.823366",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/10/08/american-express-and-walmart-launch-bluebird-a-new-alternative-to-debit-and-checking-accounts.html"
+    },
+    {
+      "authors": [
+        "Staff reports"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.404634,
+      "source": "bendbulletin.com",
+      "source_domain": "bendbulletin.com",
+      "summary": "American Express Co. is set to pay $112.5 million to resolve claims of consumer safeguard violations. These violations, which affected about 250,000 customers, ranged from marketing practices to debt collection tactics. The settlement addresses issues identified by the Consumer Financial Protection Bureau.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.445333"
+        }
+      ],
+      "time_published": "20121002T050000",
+      "title": "American Express to pay penalty",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.634107",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://bendbulletin.com/2012/10/02/american-express-to-pay-penalty/"
+    },
+    {
+      "authors": [
+        "Jessica Silver-Greenberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.313562,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "American Express will refund $85 million to approximately 250,000 customers due to violations of federal law in its marketing, billing, and debt collection practices. This settlement follows a multiagency investigation led by the Consumer Financial Protection Bureau, the Federal Reserve, and other regulators. The violations included misleading promotions, age-based discrimination in doling out credit, and falsely promising to improve credit scores for paying off stale debt.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.307872"
+        }
+      ],
+      "time_published": "20121001T141058",
+      "title": "American Express Says It Will Refund $85 Million (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.938758",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.602841",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/10/02/business/american-express-to-refund-85-million.html"
+    },
+    {
+      "authors": [
+        "Danielle Douglas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.602925,
+      "source": "The Washington Post",
+      "source_domain": "The Washington Post",
+      "summary": "American Express will pay $112.5 million to settle allegations of abusive debt collection practices, late-fee charges, and deceptive marketing. The settlement includes $85 million in refunds to approximately 250,000 customers and $27.5 million in civil fines. Federal regulators announced the settlement, highlighting instances where customers were charged illegal late fees and misled about debt forgiveness.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.613548"
+        }
+      ],
+      "time_published": "20121001T141057",
+      "title": "Amex to pay $112.5 million for violating consumer protection laws",
+      "topics": [
+        {
+          "relevance_score": "0.921200",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.629676",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.washingtonpost.com/business/economy/amex-to-pay-1125-million-for-violating-consumer-protection-laws/2012/10/01/fa064ae6-0bd4-11e2-a310-2363842b7057_story.html"
+    },
+    {
+      "authors": [
+        "THE NEW YORK TIMES"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.426814,
+      "source": "Worcester Telegram",
+      "source_domain": "Worcester Telegram",
+      "summary": "American Express will refund $85 million to approximately 250,000 customers and pay $27.5 million in fines to resolve accusations of violating federal laws in its marketing, billing, and debt collection practices. The settlement addresses issues discovered between 2003 and 2012 by a multiagency investigation, including deceptive reward offers, age-based discrimination, and misleading credit score improvements. This action is part of a broader regulatory effort to protect consumers from illegal credit card and debt collection practices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.432984"
+        }
+      ],
+      "time_published": "20121001T141057",
+      "title": "American Express to refund $85 million",
+      "topics": [
+        {
+          "relevance_score": "0.920982",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.614351",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.telegram.com/story/business/2012/10/01/american-express-to-refund-85/49376925007/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.054092,
+      "source": "Fox Business",
+      "source_domain": "Fox Business",
+      "summary": "Groupon Inc. has launched a credit card payment service, entering competition with PayPal and Square. The service aims to offer lower transaction rates for merchants, particularly those running daily deals with Groupon, and is part of Groupon's broader strategy to become an \"operating system\" for local commerce. This move is expected to provide Groupon with more customer data and attract more merchants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GRPN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273377"
+        },
+        {
+          "relevance_score": "0.710101",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148294"
+        },
+        {
+          "relevance_score": "0.615046",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022559"
+        },
+        {
+          "relevance_score": "0.643671",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009618"
+        },
+        {
+          "relevance_score": "0.637910",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.020288"
+        }
+      ],
+      "time_published": "20120919T124800",
+      "title": "Groupon Enters Credit Card Payment Business",
+      "topics": [
+        {
+          "relevance_score": "0.808644",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.815368",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.607501",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.603771",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.foxbusiness.com/features/groupon-enters-credit-card-payment-business"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.237685,
+      "source": "The Argus",
+      "source_domain": "The Argus",
+      "summary": "American Express is preparing to move into its new European Service Centre in Edward Street, Brighton, after work on the building's exterior is complete. The new 111ft to 137ft tall building will house approximately 3,000 employees, with phased moves from current Amex offices. Meanwhile, the previous office building on the south side of Edward Street, spanning 38,000 sq ft, has been listed for sale at about \u00a34 million.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244305"
+        }
+      ],
+      "time_published": "20120906T141058",
+      "title": "American Express ready to move into new office",
+      "topics": [
+        {
+          "relevance_score": "0.929923",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.716526",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theargus.co.uk/news/9915514.american-express-ready-to-move-into-new-office/"
+    },
+    {
+      "authors": [
+        "ABC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.299974,
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source_domain": "ABC News - Breaking News, Latest News and Videos",
+      "summary": "Many major credit card companies are discontinuing their credit-protection plans due to scrutiny over deceptive marketing practices and concerns from consumer groups about their value. Capital One will refund $150 million to customers and pay $60 million in penalties following charges of deceptive tactics. Other companies like Bank of America, American Express, and Chase have also stopped offering these products to new customers, while Citi Cards has paused telephone sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.526571"
+        },
+        {
+          "relevance_score": "0.806018",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.219721"
+        },
+        {
+          "relevance_score": "0.741281",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.228195"
+        },
+        {
+          "relevance_score": "0.616247",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249426"
+        },
+        {
+          "relevance_score": "0.556452",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.204540"
+        }
+      ],
+      "time_published": "20120905T211200",
+      "title": "Many card companies dumping credit-protection plans",
+      "topics": [
+        {
+          "relevance_score": "0.912908",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.723807",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://abcnews.go.com/Business/card-companies-dumping-credit-protection-plans/story?id=17166175"
+    },
+    {
+      "authors": [
+        "Rik Kirkland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.278,
+      "source": "McKinsey & Company",
+      "source_domain": "McKinsey & Company",
+      "summary": "This interview with Daniel Vasella, former CEO and Chairman of Novartis, explores modern leadership challenges. He discusses the impact of demographic shifts, global economic changes, and technological advancements on large organizations, as well as the importance of resilience, integrity, and personal well-being for leaders. Vasella also touches on the difficulty of teaching \"soft skills\" in leadership development.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334696"
+        },
+        {
+          "relevance_score": "0.648232",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220074"
+        },
+        {
+          "relevance_score": "0.624054",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213900"
+        }
+      ],
+      "time_published": "20120901T152105",
+      "title": "Leading in the 21st century: An interview with Daniel Vasella",
+      "topics": [
+        {
+          "relevance_score": "0.930369",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.738855",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.608428",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.mckinsey.com/featured-insights/leadership/an-interview-with-daniel-vasella"
+    },
+    {
+      "authors": [
+        "Zorianna Kit"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.207291,
+      "source": "Backstage",
+      "source_domain": "Backstage",
+      "summary": "The hit television show \"Glee\" and American Express have partnered on a new social action campaign to motivate viewers to volunteer, vote, and donate to make a difference in their communities. This collaboration, involving Fox and American Express's Members Project, will feature video vignettes starring the \"Glee\" cast and an online sweepstakes for fans to engage in volunteer work with the actors. The campaign aligns \"Glee\"'s inspirational message with American Express's values of giving back.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.984448",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.293218"
+        },
+        {
+          "relevance_score": "0.718726",
+          "ticker": "FOX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.189506"
+        },
+        {
+          "relevance_score": "0.673511",
+          "ticker": "FOXA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111717"
+        }
+      ],
+      "time_published": "20120815T141058",
+      "title": "'Glee,' American Express Team Up for Social Action",
+      "topics": [
+        {
+          "relevance_score": "0.608771",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.backstage.com/magazine/article/glee-american-express-team-social-action-63540/"
+    },
+    {
+      "authors": [
+        "Carol J. Loomis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.252488,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "This article chronicles the remarkable corporate journey of Sanford I. Weill, chairman of Travelers Group Inc., detailing his transformation of a small loan business into a financial services giant. It highlights Travelers' impressive growth, its ranking on the FORTUNE 500, Weill's strategic acquisitions, and his focus on shareholder value. The piece also delves into his personal life, family involvement in the business, and unique management style, offering insights into his past setbacks and continuous drive for deals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.940721",
+          "ticker": "PRI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339904"
+        },
+        {
+          "relevance_score": "0.836350",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204033"
+        },
+        {
+          "relevance_score": "0.606051",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208002"
+        },
+        {
+          "relevance_score": "0.619525",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244384"
+        }
+      ],
+      "time_published": "20120729T152635",
+      "title": "Sandy Weill: The Travelers chairman is happy",
+      "topics": [
+        {
+          "relevance_score": "0.948735",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.822720",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.711599",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://fortune.com/article/sandy-weill-the-travelers-chairman-is-happy-fortune-1997/"
+    },
+    {
+      "authors": [
+        "Kevin Drum"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.116141,
+      "source": "Mother Jones",
+      "source_domain": "Mother Jones",
+      "summary": "Former Citigroup CEO Sandy Weill, widely known for his role in repealing Glass-Steagall, has surprisingly advocated for the breakup of big banks. This reversal of his long-held stance occurred during an interview on CNBC's Squawk Box, where he suggested splitting investment banking from traditional deposit-taking and lending to protect taxpayers and depositors. While the motivation for his change of heart is speculated, it marks a significant shift from a key architect of financial deregulation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.329831",
+          "ticker": "TRV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.018311"
+        },
+        {
+          "relevance_score": "0.901103",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325819"
+        },
+        {
+          "relevance_score": "0.708057",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136126"
+        },
+        {
+          "relevance_score": "0.633377",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148377"
+        },
+        {
+          "relevance_score": "0.567052",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105994"
+        }
+      ],
+      "time_published": "20120725T155112",
+      "title": "Sandy Weill Joins Occupy Wall Street Movement",
+      "topics": [
+        {
+          "relevance_score": "0.912298",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.721814",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.motherjones.com/kevin-drum/2012/07/sandy-weill-joins-occupy-wall-street-movement/"
+    },
+    {
+      "authors": [
+        "Matt Brian"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.118638,
+      "source": "The Next Web",
+      "source_domain": "The Next Web",
+      "summary": "Chirpify, a Twitter commerce company, has appointed Rayburn Chan, former American Express director, as its Vice President of Corporate Development. This hiring follows a successful $1.3 million funding round and aims to boost Chirpify's social payment platform by leveraging Chan's expertise in payment processing and mobile development. Chan will focus on connecting users and brands on Twitter and facilitating in-stream payments for various purposes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.831713",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141966"
+        }
+      ],
+      "time_published": "20120711T145200",
+      "title": "Chirpify Snags Former American Express Director Rayburn Chan",
+      "topics": [
+        {
+          "relevance_score": "0.835498",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738547",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://thenextweb.com/news/chirpify-snags-former-american-express-director-to-help-boost-its-twitter-commerce-platform"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.405711,
+      "source": "Supply & Demand Chain Executive",
+      "source_domain": "Supply & Demand Chain Executive",
+      "summary": "American Express has launched PAYVE, a new digital payment service designed for large and mid-size companies. This platform centralizes and streamlines the processing of multiple payment methods like checks, ACH, international wires, and Buyer Initiated Payments (BIP), aiming to improve working capital management and reduce costs associated with paper checks. PAYVE helps companies transition to electronic payments and offers tools like Spend IQ for strategic payment optimization.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415103"
+        }
+      ],
+      "time_published": "20120625T141057",
+      "title": "American Express Launches PAYVE",
+      "topics": [
+        {
+          "relevance_score": "0.932011",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.700636",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.sdcexec.com/sourcing-procurement/news/10735057/american-express-american-express-launches-payve"
+    },
+    {
+      "authors": [
+        "Richard Blackwell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.33722,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Howard Grosfield, President of American Express Canada, discusses how Amex differentiates itself in a competitive market through superior service and customer experience. He highlights the profound impact of social media on service culture, transforming word-of-mouth and requiring companies to engage in authentic dialogue with customers. Grosfield also touches on Amex's diverse product offerings, its stance on household debt, the relevance of travellers cheques, and involvement in mobile payment solutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407913"
+        },
+        {
+          "relevance_score": "0.585094",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.269085"
+        }
+      ],
+      "time_published": "20120603T141058",
+      "title": "Building a better service culture in a social media world",
+      "topics": [
+        {
+          "relevance_score": "0.947640",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.719080",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/careers/careers-leadership/building-a-better-service-culture-in-a-social-media-world/article4227657/"
+    },
+    {
+      "authors": [
+        "Carole Donoghue"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14226,
+      "source": "CSP Daily News",
+      "source_domain": "CSP Daily News",
+      "summary": "Phillips 66 has issued a warning to its marketers about a new credit card scam targeting its stations, where \"customers\" attempt to purchase phone cards over the phone using stolen credit card numbers. Meanwhile, Chevron and CITGO are introducing new customer rewards programs, with Chevron revamping its Visa card rewards and CITGO launching a program rewarding customers with gift cards for multiple purchases. These new reward structures reflect a shift towards favoring banks and requiring higher customer spending to qualify for fuel discounts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PSX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.056721"
+        },
+        {
+          "relevance_score": "0.872069",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138892"
+        },
+        {
+          "relevance_score": "0.782218",
+          "ticker": "V",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255080"
+        },
+        {
+          "relevance_score": "0.636351",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102469"
+        }
+      ],
+      "time_published": "20120530T152641",
+      "title": "Phillips 66 Warns of New Credit Card Scam",
+      "topics": [
+        {
+          "relevance_score": "0.846399",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.737776",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.847706",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://cspdailynews.com/technologyservices/phillips-66-warns-new-credit-card-scam"
+    },
+    {
+      "authors": [
+        "Ajay"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.408794,
+      "source": "Live From A Lounge",
+      "source_domain": "Live From A Lounge",
+      "summary": "This article reviews the American Express Gold Charge Card in the Indian market, highlighting its features such as no pre-set spending limits, excellent customer service, and robust online fraud protection. The author emphasizes the Membership Rewards program as a key benefit, detailing earning potential through monthly bonuses and spending, and options for redemption including transfer to airline and hotel loyalty programs. The review also discusses the card's fee structure and eligibility requirements, concluding that it is a strong option for accumulating reward points for travel.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.956768",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416104"
+        }
+      ],
+      "time_published": "20120506T141058",
+      "title": "Sunday Plastic: The American Express Gold Charge Card",
+      "topics": [
+        {
+          "relevance_score": "0.912321",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.604238",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://livefromalounge.com/sunday-plastic-the-american-express-gold-charge-card/"
+    },
+    {
+      "authors": [
+        "By The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.251426,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "American Express reported a 7% increase in first-quarter earnings to $1.25 billion, or $1.07 a share, surpassing analyst expectations. The company's revenue rose 8% to $7.6 billion, driven by increased spending from cardholders, particularly in luxury sectors. American Express also announced plans for stock buybacks and increased its quarterly dividend.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403938"
+        },
+        {
+          "relevance_score": "0.644943",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127739"
+        }
+      ],
+      "time_published": "20120418T141057",
+      "title": "Profits Rise 7% at American Express (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.939864",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.816519",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.630254",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.644331",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/04/19/business/american-express-earnings-rise-7-beating-expectations.html"
+    },
+    {
+      "authors": [
+        "Joel Rose"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.041238,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "American Express and other companies are pulling gift cards from New Jersey shelves due to a law requiring merchants to collect buyer zip codes and allowing the state to take unused balances after two years. Retailers argue the law is unnecessary and unfeasible, citing existing consumer protections and the difficulty of tracking zip codes. The industry hopes for a compromise with Governor Chris Christie to avoid a complete withdrawal of gift cards from the state.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327085",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.025330"
+        }
+      ],
+      "time_published": "20120409T040000",
+      "title": "New Jersey Law Causes Companies To Pull Gift Cards",
+      "topics": [
+        {
+          "relevance_score": "0.803239",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.704377",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.622449",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.614336",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.npr.org/2012/04/09/150268403/retailers-may-stop-selling-gift-cards-in-new-jersey"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.225815,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "American Express is pulling its gift cards from New Jersey stores to avoid complying with a new state law requiring the collection of ZIP codes for gift card purchasers. The law allows the state to claim the value of unredeemed gift cards after two years, a policy which has been challenged in court by AmEx and others. The state is working on implementing the policy, which generated $79 million in fiscal 2011 from unclaimed property.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.235575"
+        }
+      ],
+      "time_published": "20120402T121000",
+      "title": "American Express to pull gift cards from N.J. stores to avoid state's unclaimed property law",
+      "topics": [
+        {
+          "relevance_score": "0.937867",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.827111",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.729239",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nj.com/news/2012/04/american_express_to_pull_gift.html"
+    },
+    {
+      "authors": [
+        "Michael Dinan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.091178,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "The family of the late Anne P. and Harold W. McGraw Jr. of Darien has donated $10 million to Norwalk Hospital for outpatient and emergency care facilities. This historic gift, the largest ever received by Norwalk Hospital, will establish The Anne P. and Harold W. McGraw, Jr. Center for outpatient care, including a new Cancer Center and expanded Emergency Department. Harold W. McGraw Jr. led the McGraw-Hill Companies, and both he and his wife were known for their philanthropy, particularly in education and healthcare.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.337762",
+          "ticker": "MH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026538"
+        },
+        {
+          "relevance_score": "0.818616",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146522"
+        }
+      ],
+      "time_published": "20120330T174500",
+      "title": "Norwalk Hospital Gets $10M in Memory of Darien's Anne & Harold McGraw Jr.",
+      "topics": [
+        {
+          "relevance_score": "0.940685",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://patch.com/connecticut/darien/norwalk-hospital-receives-10-million-gift-from-mcgraws-1637fba2"
+    },
+    {
+      "authors": [
+        "Tom Lydon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.118397,
+      "source": "ETF Trends",
+      "source_domain": "ETF Trends",
+      "summary": "Despite gold prices trading in a relatively dull range around $1,700 an ounce, investors with a long-term bullish view remain confident, seeing gold as a hedge against inflation and economic uncertainty. Key factors supporting gold include demand from emerging nations and central banks, as well as loose monetary policies. However, decreased demand from China and India, along with renewed optimism about the U.S. recovery, have weighed on gold prices in the short term.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.993982",
+          "ticker": "GLD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496837"
+        },
+        {
+          "relevance_score": "0.582645",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110592"
+        },
+        {
+          "relevance_score": "0.553150",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.144349"
+        }
+      ],
+      "time_published": "20120329T144643",
+      "title": "The Bullish Case for Gold ETFs",
+      "topics": [
+        {
+          "relevance_score": "0.918733",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.806289",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.702001",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.etftrends.com/2012/03/the-bullish-case-for-gold-etfs/amp/"
+    },
+    {
+      "authors": [
+        "Frank Byrt"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.186282,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "A top American Express executive accused JPMorgan Chase of copying its credit card strategy aimed at affluent consumers, though he acknowledged JPMorgan's effective execution. The executive asserted that American Express differentiates itself through growing charge volume and revenue, while JPMorgan's card segment revenue is still down year-over-year despite growing spend. An analyst noted that American Express has been more innovative recently and that JPMorgan's success in the affluent market doesn't appear to be negatively impacting Amex's strong growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430704"
+        },
+        {
+          "relevance_score": "0.912792",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107006"
+        },
+        {
+          "relevance_score": "0.624763",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012220"
+        }
+      ],
+      "time_published": "20120320T142600",
+      "title": "American Express: JPMorgan Is a Credit-Card Copycat",
+      "topics": [
+        {
+          "relevance_score": "0.936538",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.626969",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/03/20/american-express-jpmorgan-is-a-creditcard-copycat.html"
+    },
+    {
+      "authors": [
+        "Todd Gilchrist"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.322581,
+      "source": "The Hollywood Reporter",
+      "source_domain": "The Hollywood Reporter",
+      "summary": "Jay-Z performed a free hour-long concert at SXSW 2012 in Austin, sponsored by American Express, to introduce their new Twitter-based discount service. The iconic rapper played many of his hits to a capacity crowd, with the performance also broadcast live online. Despite technical glitches and arriving late, Jay-Z commanded the stage, expressing appreciation for the enthusiastic audience.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349958"
+        }
+      ],
+      "time_published": "20120313T055300",
+      "title": "SXSW 2012: Jay-Z & American Express Bring Brooklyn to Texas",
+      "topics": [
+        {
+          "relevance_score": "0.723141",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.603797",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.hollywoodreporter.com/music/music-news/jay-z-sxsw-american-express-beyonce-blue-ivy-kanye-west-twitter-298888/"
+    },
+    {
+      "authors": [
+        "Jessica Leber"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.18354,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "This article features a Q&A with Dan Schulman of American Express about the company's shift beyond traditional credit cards. Schulman discusses how American Express is adapting to the rise of mobile payments and digital commerce with products like \"Serve,\" and their strategies for global expansion and future innovation in a rapidly changing financial landscape. He also touches on topics such as the changing nature of money, digital wallets, and the role of social networking in their business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403140"
+        },
+        {
+          "relevance_score": "0.719059",
+          "ticker": "PYPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148848"
+        },
+        {
+          "relevance_score": "0.637022",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147473"
+        },
+        {
+          "relevance_score": "0.605015",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120812"
+        }
+      ],
+      "time_published": "20120307T141057",
+      "title": "Beyond Credit Cards: Q&A with Dan Schulman of American Express",
+      "topics": [
+        {
+          "relevance_score": "0.908575",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.844172",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709891",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.605845",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2012/03/07/187249/beyond-credit-cards-qa-with-dan-schulman-of-american-express/"
+    },
+    {
+      "authors": [
+        "Austin Carr"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.027968,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "American Express has launched a new program with Twitter that allows cardmembers to sync their accounts and earn savings from major brands like Whole Foods and Best Buy simply by retweeting specific hashtags. This initiative strengthens AmEx's position as a credit card for the social media generation, leveraging social interactions to drive commerce and provide valuable data to merchants, demonstrating the ROI of tweets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334551",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.047861"
+        }
+      ],
+      "time_published": "20120306T141057",
+      "title": "The Social Credit Card: AmEx Syncs With Twitter To Turn #Hashtags Into Savings",
+      "topics": [
+        {
+          "relevance_score": "0.748323",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.904618",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.835786",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.fastcompany.com/1823041/social-credit-card-amex-syncs-twitter-turn-hashtags-savings/"
+    },
+    {
+      "authors": [
+        "Staff"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.348405,
+      "source": "Emirates24|7",
+      "source_domain": "Emirates24|7",
+      "summary": "American Express Middle East (AEME) announced the appointment of Mazin Khoury as its new Chief Executive Officer. Khoury, who previously served as COO, will focus on growing the company's corporate and premium cards business across 18 markets in the MENA region. He takes over from William Keliehor and will continue to be based in Manama, Bahrain.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317775"
+        }
+      ],
+      "time_published": "20120305T141058",
+      "title": "Khoury named CEO of American Express Middle East",
+      "topics": [
+        {
+          "relevance_score": "0.906715",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.emirates247.com/business/corporate/khoury-named-ceo-of-american-express-middle-east-2012-03-05-1.446749"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.001097,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "American Express is considering moving up to 190 \"non-customer facing\" jobs from its Brighton European headquarters to India or Argentina. The company is consulting staff on these plans, with a decision expected in June. Despite potential job relocations, American Express affirmed its commitment to Brighton, where it is building a new European operations centre.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334955",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017195"
+        }
+      ],
+      "time_published": "20120222T141057",
+      "title": "190 Brighton American Express jobs could move overseas",
+      "topics": [
+        {
+          "relevance_score": "0.905467",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.637680",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bbc.com/news/uk-england-sussex-17127436"
+    },
+    {
+      "authors": [
+        "RON LIEBER THE NEW YORK TIMES"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.036145,
+      "source": "Lakeland Ledger",
+      "source_domain": "Lakeland Ledger",
+      "summary": "Suze Orman is launching a prepaid debit card called Approved, designed for individuals with limited or poor credit history, aiming to offer lower fees and additional services like unlimited credit report access. This move raises questions about profitability, potential conflicts of interest with CNBC, and the efficacy of using debit card data to improve credit scores as proposed by Orman and TransUnion. The card represents an alternative for consumers dissatisfied with traditional banks, despite some inherent limitations compared to checking accounts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.927188",
+          "ticker": "TRU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102675"
+        },
+        {
+          "relevance_score": "0.630920",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117992"
+        },
+        {
+          "relevance_score": "0.634545",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114086"
+        }
+      ],
+      "time_published": "20120112T155111",
+      "title": "CNBC's Suze Orman to Offer Prepaid Debit Card",
+      "topics": [
+        {
+          "relevance_score": "0.907332",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theledger.com/story/news/2012/01/12/cnbcs-suze-orman-to-offer-prepaid-debit-card/26468632007/"
+    }
+  ],
+  "items": "37",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

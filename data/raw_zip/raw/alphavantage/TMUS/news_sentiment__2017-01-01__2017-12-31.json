@@ -1,0 +1,1639 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.222253,
+      "source": "Communications Workers of America Union",
+      "source_domain": "Communications Workers of America Union",
+      "summary": "The Communications Workers of America (CWA) and three individuals have filed a class action lawsuit against T-Mobile US, Amazon, Cox Communications, and hundreds of other large employers. The lawsuit alleges that these companies unlawfully used Facebook's ad platform to exclude older workers (age 40 and over) from seeing job advertisements, violating age discrimination laws. The plaintiffs seek a court injunction to stop these practices, compensation for affected workers, and a declaration that such exclusions are illegal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.204540"
+        },
+        {
+          "relevance_score": "0.942192",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.216591"
+        },
+        {
+          "relevance_score": "0.622178",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.153682"
+        },
+        {
+          "relevance_score": "0.562726",
+          "ticker": "LDOS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.179610"
+        }
+      ],
+      "time_published": "20171220T053633",
+      "title": "Class Action Lawsuit Hits T-Mobile, Amazon, Cox and Hundreds of Large Employers for Allegedly Using Facebook to Exclude Millions of Older Americans from Job Ads in Violation of Age Discrimination Laws | Communications Workers of America",
+      "topics": [
+        {
+          "relevance_score": "0.947692",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.810771",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.705577",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.646782",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.628507",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://cwa-union.org/news/releases/class-action-lawsuit-hits-tmobile-amazon-cox-for-alleged-age-discrimination"
+    },
+    {
+      "authors": [
+        "Nat Levy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.132356,
+      "source": "GeekWire",
+      "source_domain": "GeekWire",
+      "summary": "T-Mobile announced its plan to launch a TV service in 2018, aiming to disrupt the cable and satellite industry with its \"Uncarrier\" approach. The company will acquire Layer3 TV Inc. to leverage its technology and team for the new service, promising to address issues like long-term contracts, hidden fees, and poor customer service. T-Mobile CEO John Legere has indicated a direct challenge to major cable companies, echoing the company's past strategies in the wireless market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.492811"
+        },
+        {
+          "relevance_score": "0.744590",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.342608"
+        },
+        {
+          "relevance_score": "0.652659",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249654"
+        },
+        {
+          "relevance_score": "0.609200",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.207249"
+        },
+        {
+          "relevance_score": "0.613869",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.342801"
+        }
+      ],
+      "time_published": "20171213T073200",
+      "title": "T-Mobile to launch TV service in 2018, challenging cable and satellite giants with purchase of Layer3 TV",
+      "topics": [
+        {
+          "relevance_score": "0.928749",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.831433",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.geekwire.com/2017/t-mobile-launch-tv-service-2018-challenging-cable-satellite-giants-acquisition-layer3-tv/"
+    },
+    {
+      "authors": [
+        "Henry T. Casey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.20532,
+      "source": "Tom's Guide",
+      "source_domain": "Tom's Guide",
+      "summary": "T-Mobile is acquiring Layer3 TV, a cable TV service that streams hundreds of channels over existing internet connections, eliminating the need for new cables. Layer3 TV uses High Efficiency Video Coding (HEVC) to deliver up to 275 channels, including 4K content, at reduced bandwidth. The service offers a Platinum allHD package for $75/month for about 150 channels, includes a 1TB DVR cable box, and supports customizable interfaces and integration with other streaming services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429323"
+        },
+        {
+          "relevance_score": "0.703409",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.147729"
+        },
+        {
+          "relevance_score": "0.741714",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300177"
+        },
+        {
+          "relevance_score": "0.632066",
+          "ticker": "NFLX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146662"
+        },
+        {
+          "relevance_score": "0.628459",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107801"
+        }
+      ],
+      "time_published": "20171213T053634",
+      "title": "What Is Layer3 TV and How Does It Work?",
+      "topics": [
+        {
+          "relevance_score": "0.812351",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.909448",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.tomsguide.com/us/layer3-faq-price-specs-t-mobile,news-26259.html"
+    },
+    {
+      "authors": [
+        "Candace Carlisle"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.449613,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "T-Mobile US Inc. is expanding its regional headquarters in Frisco, Texas, to accommodate growth in its North Texas employee base. This expansion is expected to create 350 new jobs at the facility. The regional headquarters is located along the Dallas North Tollway.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408885"
+        }
+      ],
+      "time_published": "20171213T053633",
+      "title": "T-Mobile to expand its DFW regional HQ in Frisco to bring in 350 new jobs",
+      "topics": [
+        {
+          "relevance_score": "0.711141",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.813163",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.623065",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bizjournals.com/dallas/news/2017/12/13/t-mobile-to-expand-its-dfw-regional-hq-in-frisco.html"
+    },
+    {
+      "authors": [
+        "Ryan Knutson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.095871,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Verizon Communications Inc. plans to launch home broadband service over its wireless network using 5G technology in late 2018, starting in three to five cities, including Sacramento, Calif. This move aims to challenge the cable industry's dominance in internet access by offering a new competitive option, particularly in areas outside Verizon's traditional landline footprint. Customers will need a special box to convert wireless signals to in-home Wi-Fi.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.999891",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320362"
+        },
+        {
+          "relevance_score": "0.610534",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113275"
+        },
+        {
+          "relevance_score": "0.604462",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140712"
+        },
+        {
+          "relevance_score": "0.737200",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137053"
+        },
+        {
+          "relevance_score": "0.645323",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148369"
+        }
+      ],
+      "time_published": "20171130T054222",
+      "title": "Verizon to Sell Wireless Home Broadband, Challenging Cable",
+      "topics": [
+        {
+          "relevance_score": "0.801459",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/verizon-to-sell-home-broadband-over-wireless-network-1512037801?gaa_at=eafs&gaa_n=AWEtsqfbvlCoLXK0tr8mwjfm1Cs-Y_RH_cMBzQojS8jRJk_A-GlIklrP-BRc&gaa_ts=690843fc&gaa_sig=bacs4RWAt3hBoqsZLbX3gwLq6qUuDurk4kIh9zzLGG7jGD9BXgyDYOUdi9dQIXz3bLeReHxsNSC0KnyANwlMHQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Ambrish Shah"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.265676,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "T-Mobile significantly increased its low-band spectrum holdings by 39% by the end of 3Q17, reaching an average of ~110 MHz nationwide. A large portion of this growth came from its 600 MHz spectrum procurement during the broadcast incentive auction. The company has also largely completed the deployment of its 700 MHz A-block spectrum, which now covers 271 million people, positively impacting customer growth and expanding T-Mobile's 4G LTE coverage.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.483557"
+        },
+        {
+          "relevance_score": "0.739404",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120319"
+        },
+        {
+          "relevance_score": "0.742888",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111556"
+        }
+      ],
+      "time_published": "20171122T103300",
+      "title": "Understanding the Trends in T-Mobile\u2019s Low-Band Spectrum Rollout",
+      "topics": [
+        {
+          "relevance_score": "0.811763",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://marketrealist.com/2017/11/understanding-trends-t-mobiles-low-band-spectrum-rollout/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.38112,
+      "source": "samsung.com",
+      "source_domain": "samsung.com",
+      "summary": "Samsung announced that its Galaxy S8 Active smartphone, previously an AT&T exclusive, will now be available through Sprint and T-Mobile starting this month. The phone is highlighted for its military-grade durability, shatter-resistant screen, long-lasting 4,000 mAh battery, and powerful performance with a 10nm processor. It also features an advanced camera, Bixby AI assistant, Activity Zone, and government-trusted Samsung Knox security.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447559"
+        },
+        {
+          "relevance_score": "0.719584",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344523"
+        },
+        {
+          "relevance_score": "0.601485",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345794"
+        }
+      ],
+      "time_published": "20171107T053633",
+      "title": "Samsung\u2019s Galaxy S8 Active Expands to Sprint and T-Mobile",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.632213",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://news.samsung.com/us/sprint-t-mobile-galaxy-s8-active/"
+    },
+    {
+      "authors": [
+        "Keris Alison Lahiff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.181244,
+      "source": "TheStreet",
+      "source_domain": "TheStreet",
+      "summary": "Stock futures were mixed after Broadcom Ltd. made a $103 billion unsolicited offer to acquire Qualcomm Inc., which would be the largest tech deal ever. The article also covers other market developments including the end of Sprint and T-Mobile merger talks, an upcoming retirement at the New York Fed, rising oil prices due to Saudi Arabian political events, and recent earnings reports from Mylan, CVS Health, and Sysco.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.955702",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346114"
+        },
+        {
+          "relevance_score": "0.908299",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341276"
+        },
+        {
+          "relevance_score": "0.744488",
+          "ticker": "NXPI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309476"
+        },
+        {
+          "relevance_score": "0.642693",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.328568"
+        }
+      ],
+      "time_published": "20171106T084500",
+      "title": "Nasdaq, Dow Futures Rise After Broadcom Makes Bid for Qualcomm",
+      "topics": [
+        {
+          "relevance_score": "0.913625",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.837971",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.703992",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.630564",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.615808",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.thestreet.com/investing/nasdaq-dow-futures-rise-after-broadcom-makes-bid-for-qualcomm-14377588"
+    },
+    {
+      "authors": [
+        "Ryan Knutson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.049714,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Sprint announced plans to significantly increase its network spending to $5 billion-$6 billion annually, up from $3.5 billion-$4 billion, after merger talks with T-Mobile fell apart. The wireless carrier also revealed a partnership with Altice USA Inc., allowing Altice to sell Sprint's wireless service and giving Sprint access to Altice's cable network. This strategic shift positions Sprint as a stand-alone company focusing on substantial network investment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.334857"
+        },
+        {
+          "relevance_score": "0.734884",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118153"
+        },
+        {
+          "relevance_score": "0.729594",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135631"
+        },
+        {
+          "relevance_score": "0.612560",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145623"
+        }
+      ],
+      "time_published": "20171106T053633",
+      "title": "Sprint, Without T-Mobile Deal, Says It Will Spend Billions More on Network",
+      "topics": [
+        {
+          "relevance_score": "0.903054",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.815877",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/sprint-without-t-mobile-deal-says-it-will-spend-billions-more-on-network-1509987246?gaa_at=eafs&gaa_n=AWEtsqcUc5eYyGHOYGMr1LG_92I7gi2d34zf6jX3OuTElzhKCfc2sPFxTxi0&gaa_ts=69084285&gaa_sig=wQd5BMcFMcD6zb7SHODJBTktrpR464gCWo5VIH7t8_-3MHPxlufjw5OM4ozla6iCxKKflkTtloxDdZUthMzJ6w%3D%3D"
+    },
+    {
+      "authors": [
+        "Ryan Knutson",
+        "Drew FitzGerald",
+        "Dana Mattioli"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.299353,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Sprint and T-Mobile officially called off their merger after months of talks, which would have united the nation's No. 3 and No. 4 wireless carriers. The decision followed a final meeting between key executives from both companies and Deutsche Telekom at Sprint Chairman Masayoshi Son's house in Tokyo. SoftBank still plans to increase its stake in Sprint, keeping it below an 85% threshold to avoid a tender offer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.295787"
+        }
+      ],
+      "time_published": "20171104T053633",
+      "title": "Sprint and T-Mobile Call Off Merger",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.804604",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/sprint-and-t-mobile-calling-off-merger-1509818355?gaa_at=eafs&gaa_n=AWEtsqfc2FgBb6GJa36YVYFYphU_BoB-RvH0lPIY5cdZ3I1ItMwfXfTCnJAj&gaa_ts=69084282&gaa_sig=_zLmfIeau45DBax3_HGTHDlNP9xfzBJ64-hYNtYRpFUVZO_yWcpg-3mIyN92KbjOem1EJFWekVjDQayRJC6mAg%3D%3D"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.159156,
+      "source": "The Fiji Times",
+      "source_domain": "The Fiji Times",
+      "summary": "AT&T Inc.'s quarterly results missed Wall Street estimates due to a loss of video subscribers and fewer device upgrades ahead of the iPhone X launch. The company is actively pursuing a strategy of bundling wireless and video services, bolstered by its pending acquisition of Time Warner Inc. AT&T reported a loss of 89,000 US video subscribers and 97,000 phone subscribers, partly attributed to intense competition and consumers delaying upgrades for the new iPhone.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "T",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.413123"
+        },
+        {
+          "relevance_score": "0.745779",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.221156"
+        },
+        {
+          "relevance_score": "0.646015",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116495"
+        },
+        {
+          "relevance_score": "0.720296",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.215412"
+        }
+      ],
+      "time_published": "20171026T053143",
+      "title": "Drop in AT&T profit",
+      "topics": [
+        {
+          "relevance_score": "0.904844",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.822222",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.747344",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fijitimes.com.fj/drop-in-att-profit/"
+    },
+    {
+      "authors": [
+        "Alex Sherman and Scott Moritz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.206817,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Sprint Corp. and T-Mobile US Inc. are likely to delay the announcement of their planned all-stock merger until several weeks after their quarterly earnings releases. The companies are struggling to finalize the deal details by the end of October, which is when wireless carriers typically announce their earnings. This suggests that despite addressing major concerns, the complexities of the merger are causing a postponement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.242259"
+        }
+      ],
+      "time_published": "20171019T213500",
+      "title": "Sprint, T-Mobile Deal Announcement Is Likely to Be Delayed",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.901789",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2017-10-19/sprint-t-mobile-deal-announcement-is-said-to-likely-be-delayed"
+    },
+    {
+      "authors": [
+        "Janet Morrissey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.062906,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "The marketing world often overlooks Baby Boomers in favor of millennials, despite Boomers' significant numbers and discretionary income. T-Mobile's CEO criticized competitors for neglecting this demographic, highlighting the need for more relevant advertising strategies. Marketing experts agree that brands should pay more attention to this \"forgotten generation.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343909"
+        },
+        {
+          "relevance_score": "0.712992",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224831"
+        },
+        {
+          "relevance_score": "0.710405",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245887"
+        }
+      ],
+      "time_published": "20171015T053634",
+      "title": "Baby Boomers to Advertisers: Don\u2019t Forget About Us (Published 2017)",
+      "topics": [
+        {
+          "relevance_score": "0.736710",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.829026",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2017/10/15/business/media/baby-boomers-marketing.html"
+    },
+    {
+      "authors": [
+        "Drew FitzGerald"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.048037,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "T-Mobile announced it will offer free Netflix subscriptions to new and existing family-plan subscribers, a move aimed at attracting customers from competitors. The offer applies to plans with at least two lines, costing $120 a month, and covers Netflix's standard $10 a month plan. This initiative represents T-Mobile's latest strategy to draw in more wireless users.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.329664",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013748"
+        }
+      ],
+      "time_published": "20170906T053633",
+      "title": "T-Mobile Offers Free Netflix to Lure New Customers",
+      "topics": [
+        {
+          "relevance_score": "0.936810",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/t-mobile-offers-free-netflix-to-lure-new-customers-1504716647?gaa_at=eafs&gaa_n=AWEtsqddfPDCH0ky_S0W3N6MZQb_rQU9xzhnnuxe_jRWU4e6fh-Z8rXem-q-&gaa_ts=69084285&gaa_sig=6UZPxYCcU7GlRPBr74ZlYzhQ3OT89GW8O6GU2wB5NmemgMkhvxpr_g_XEhhCy2S5L3XpcDZvptqjBBX-Z5aZhw%3D%3D"
+    },
+    {
+      "authors": [
+        "Andrew Grumke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.063025,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "A new consumer survey indicates that Sprint Corp. does not have the most loyal customers among wireless providers, with their customer loyalty appearing to flag. This finding comes amidst ongoing speculation about potential mergers involving Sprint.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.600232",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126198"
+        },
+        {
+          "relevance_score": "0.643780",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028151"
+        }
+      ],
+      "time_published": "20170825T053634",
+      "title": "Which wireless company has the most loyal customers? Not Sprint",
+      "topics": [
+        {
+          "relevance_score": "0.948646",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.832475",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/kansascity/news/2017/08/25/which-wireless-company-has-the-most-loyal.html"
+    },
+    {
+      "authors": [
+        "Jay Massaad"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.039269,
+      "source": "Esports Insider",
+      "source_domain": "Esports Insider",
+      "summary": "T-Mobile has significantly expanded its presence in esports by striking deals with North American powerhouses Cloud9 and Team SoloMid. Both organizations expressed excitement about the partnerships, with TSM highlighting community integration and Cloud9 anticipating \"exciting collaborations\" to elevate them to the next level. This simultaneous announcement with rival organizations marks a strategic move by T-Mobile to quickly gain a foothold in the North American esports scene.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.324198",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.004285"
+        }
+      ],
+      "time_published": "20170816T053634",
+      "title": "T-Mobile partners with both Cloud9 and TSM",
+      "topics": [
+        {
+          "relevance_score": "0.810029",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://esportsinsider.com/2017/08/t-mobile-partners-cloud9-tsm"
+    },
+    {
+      "authors": [
+        "Japhet Rotich"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.146388,
+      "source": "WorldAtlas",
+      "source_domain": "WorldAtlas",
+      "summary": "This article identifies and describes the largest telecom providers in the United States, focusing on Verizon Wireless, AT&T Mobility, and T-Mobile US. It details their subscriber numbers, market positions, and key historical developments, including their advancements in 4G LTE and future projections for 5G. A table ranking the top five providers by subscriber count is also included.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.317190",
+          "ticker": "UZD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.043196"
+        },
+        {
+          "relevance_score": "0.909347",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120839"
+        },
+        {
+          "relevance_score": "0.941639",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109281"
+        },
+        {
+          "relevance_score": "0.841854",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207372"
+        },
+        {
+          "relevance_score": "0.638624",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118021"
+        }
+      ],
+      "time_published": "20170801T054141",
+      "title": "The Largest Telecom Providers in the United States",
+      "topics": [
+        {
+          "relevance_score": "0.842521",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.718892",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.worldatlas.com/articles/the-largest-telecom-providers-in-the-united-states.html"
+    },
+    {
+      "authors": [
+        "Juan Pedro Tom\u00e1s"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.308368,
+      "source": "RCR Wireless",
+      "source_domain": "RCR Wireless",
+      "summary": "Ericsson will deploy a narrowband internet of things (NB-IoT) system for Taiwanese telecommunications operator Chunghwa Telecom. The NB-IoT system will enable Chunghwa Telecom to trial a range of IoT devices and applications, leveraging Ericsson's end-to-end solution including a radio system, massive IoT radio access network software, virtual evolved packet core, and virtual subscriber data management. This move highlights both companies' commitment to advancing IoT and exploring 5G use cases for industrial verticals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CHT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406875"
+        },
+        {
+          "relevance_score": "0.620793",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207394"
+        }
+      ],
+      "time_published": "20170717T040651",
+      "title": "Ericsson to deploy NB-IoT system for Chunghwa Telecom in Taiwan",
+      "topics": [
+        {
+          "relevance_score": "0.924036",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.638992",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.rcrwireless.com/20170717/internet-of-things/20170717nb-iotericsson-deploy-nb-iot-system-taiwan-tag23"
+    },
+    {
+      "authors": [
+        "Andrew Wallenstein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.093675,
+      "source": "Variety",
+      "source_domain": "Variety",
+      "summary": "Sprint has reportedly entered exclusive negotiations with Comcast and Charter, but analysts believe a full acquisition is unlikely, favoring a mobile virtual network operator (MVNO) agreement instead. While John Malone favors acquisition, Comcast CEO Brian Roberts prefers a better MVNO deal. This development also impacts T-Mobile's potential merger with Sprint and Dish's spectrum options.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.304400",
+          "ticker": "LBDAV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.037408"
+        },
+        {
+          "relevance_score": "0.959007",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022559"
+        },
+        {
+          "relevance_score": "0.964158",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.000028"
+        },
+        {
+          "relevance_score": "0.839614",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291641"
+        },
+        {
+          "relevance_score": "0.630166",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129483"
+        }
+      ],
+      "time_published": "20170627T174900",
+      "title": "Sprint Acquisition by Comcast, Charter Deemed Unlikely",
+      "topics": [
+        {
+          "relevance_score": "0.948481",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.847955",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.719777",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://variety.com/2017/digital/news/sprint-acquisition-by-comcast-charter-deemed-unlikely-1202479744/"
+    },
+    {
+      "authors": [
+        "Mike Dano"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.208291,
+      "source": "Fierce Network",
+      "source_domain": "Fierce Network",
+      "summary": "A jury awarded T-Mobile $4.8 million in a case against Huawei, finding that Huawei misappropriated T-Mobile's trade secrets related to a smartphone-testing robot named \"Tappy.\" T-Mobile had sought $500 million in damages, but the jury did not find Huawei's actions to be \"willful and malicious.\" Huawei stated it is analyzing the verdict and evaluating its legal options while maintaining its belief in the merits of its defense.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247296"
+        }
+      ],
+      "time_published": "20170522T124800",
+      "title": "T-Mobile wins $4.8M ruling against Huawei over alleged theft of smartphone-testing robot \u2018Tappy\u2019",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fierce-network.com/wireless/t-mobile-wins-4-8m-ruling-against-huawei-over-alleged-theft-smartphone-testing-robot-tappy"
+    },
+    {
+      "authors": [
+        "Zac Hall"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.025582,
+      "source": "9to5Mac",
+      "source_domain": "9to5Mac",
+      "summary": "Sprint and T-Mobile are reportedly engaging in informal talks for a renewed merger attempt. The potential deal faces significant regulatory challenges, similar to those that led to the abandonment of a previous merger effort. SoftBank, Sprint's largest shareholder, is reportedly willing to cede control to Deutsche Telekom, T-Mobile's owner, to facilitate the merger.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.301487",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022211"
+        }
+      ],
+      "time_published": "20170512T120900",
+      "title": "Sprint and T-Mobile reportedly holding \u2018informal\u2019 talks over a renewed merger effort",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.838079",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://9to5mac.com/2017/05/12/sprint-t-moble-merger-talks/"
+    },
+    {
+      "authors": [
+        "Wireless Estimator"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.364115,
+      "source": "Wireless Estimator",
+      "source_domain": "Wireless Estimator",
+      "summary": "A 51-year-old industry worker, Isidro Morales, was fatally injured in Dallas, Texas, when a crane tipped over and crashed into a cell tower compound. This incident marked the first industry fatality of 2017. Authorities are investigating the cause, with initial observations noting strong wind gusts and unextended crane outriggers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.609633",
+          "ticker": "AMT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.342008"
+        },
+        {
+          "relevance_score": "0.704069",
+          "ticker": "CCI",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.422729"
+        },
+        {
+          "relevance_score": "0.625045",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.324836"
+        },
+        {
+          "relevance_score": "0.635671",
+          "ticker": "SBAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.313018"
+        }
+      ],
+      "time_published": "20170425T035134",
+      "title": "Crane collapse takes the life of a 51-year-old Texas industry worker",
+      "topics": [
+        {
+          "relevance_score": "0.919825",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.742704",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://wirelessestimator.com/articles/2017/crane-collapse-takes-the-life-of-a-51-year-old-texas-industry-worker/"
+    },
+    {
+      "authors": [
+        "Claire Boston",
+        "Scott Moritz and Stephanie Baker"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.217646,
+      "source": "The Japan Times",
+      "source_domain": "The Japan Times",
+      "summary": "Sprint is exploring options beyond a merger with T-Mobile, despite Wall Street expectations, due to a perceived undervaluation of its wireless spectrum by parent company SoftBank Group Corp. The company is considering ways to highlight the value of its airwave licenses, including potentially spinning off some spectrum into a separate, publicly traded entity. Any deal, with T-Mobile or another party, would need to adequately compensate Sprint for its valuable airwaves.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.984042",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140780"
+        },
+        {
+          "relevance_score": "0.740456",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313757"
+        }
+      ],
+      "time_published": "20170424T053633",
+      "title": "In hunt for deal, Sprint said to look at options beyond T-Mobile",
+      "topics": [
+        {
+          "relevance_score": "0.908747",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.726923",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.japantimes.co.jp/news/2017/04/24/business/corporate-business/hunt-deal-sprint-said-look-options-beyond-t-mobile/"
+    },
+    {
+      "authors": [
+        "Ingrid Lunden"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.158609,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "Intel has confirmed its acquisition of Mobileye, a leader in computer vision for autonomous driving technology, for $15.3 billion. This deal marks Intel's significant push into the self-driving car market, bringing Mobileye's technology and automaker relationships under its wing. Intel's autonomous driving division will now be based in Israel, led by Mobileye's CTO and co-founder, Prof. Amnon Shashua.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.472356"
+        },
+        {
+          "relevance_score": "0.624139",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143076"
+        },
+        {
+          "relevance_score": "0.647420",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147020"
+        },
+        {
+          "relevance_score": "0.600216",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143571"
+        },
+        {
+          "relevance_score": "0.640458",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137952"
+        }
+      ],
+      "time_published": "20170313T031400",
+      "title": "Intel buys Mobileye in $15.3B deal, moves its automotive unit to Israel",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.928644",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732137",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://techcrunch.com/2017/03/13/reports-intel-buying-mobileye-for-up-to-16b-to-expand-in-self-driving-tech/"
+    },
+    {
+      "authors": [
+        "Lance Murray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.277149,
+      "source": "Dallas Innovates",
+      "source_domain": "Dallas Innovates",
+      "summary": "Farmer Brothers has moved its headquarters from Torrance, California, to a new 538,000-square-foot facility in Northlake, Texas. The new headquarters integrates a coffee house feel with modern production and distribution capabilities, designed for sustainability and employee well-being. This move marks a significant expansion for the company, enhancing its ability to import, roast, and distribute coffee.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FARM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416814"
+        },
+        {
+          "relevance_score": "0.600957",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132589"
+        }
+      ],
+      "time_published": "20170310T042246",
+      "title": "Farmer Brothers Brews Beautiful New HQ in Northlake",
+      "topics": [
+        {
+          "relevance_score": "0.916625",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://dallasinnovates.com/farmer-brothers-brews-a-beautiful-new-hq-in-northlake/"
+    },
+    {
+      "authors": [
+        "Erwan Lucas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.173405,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "South Korean telecom company KT Mobile plans to offer the first 5G experience to visitors at the Pyeongchang Winter Olympics in 2018, aiming for lightning-quick downloads and advanced services. While commercial 5G isn't expected until 2020 globally, South Korea sees the Olympics as a testbed, though some experts view it as a marketing move for \"pre-standards 5G\" due to differing international norms and frequencies. The country is in a fierce race to be a pioneer in 5G, facing competition and the challenge of establishing global standards.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262730"
+        },
+        {
+          "relevance_score": "0.615596",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146834"
+        },
+        {
+          "relevance_score": "0.614976",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114493"
+        },
+        {
+          "relevance_score": "0.642725",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135845"
+        },
+        {
+          "relevance_score": "0.550027",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.153213"
+        }
+      ],
+      "time_published": "20170228T045111",
+      "title": "In South Korea, the race is on for Olympics 5G next year",
+      "topics": [
+        {
+          "relevance_score": "0.918627",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://phys.org/news/2017-02-south-korea-olympics-5g-year.html"
+    },
+    {
+      "authors": [
+        "Thomas Gryta"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.049556,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "AT&T has lowered the price of its unlimited-data plans and is offering additional discounts to customers who subscribe to one of its television services. This move comes less than two weeks after the company made unlimited plans available to all subscribers, in response to smaller rivals T-Mobile and Sprint gaining market share with lower prices and no data caps. The unlimited plan for a single phone now costs $90 a month, a $10 reduction, and a new limited-speed unlimited plan is available for $60.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.187405"
+        },
+        {
+          "relevance_score": "0.721965",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139184"
+        },
+        {
+          "relevance_score": "0.633158",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122594"
+        },
+        {
+          "relevance_score": "0.591523",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.054160"
+        }
+      ],
+      "time_published": "20170227T053143",
+      "title": "AT&T Lowers Price of Unlimited Data Plans",
+      "topics": [
+        {
+          "relevance_score": "0.741287",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.832202",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/at-t-lowers-price-of-unlimited-data-plans-1488199594?gaa_at=eafs&gaa_n=AWEtsqeiIbac7yY9w0G55l1jOaMN717IchqOk6hYjLdoO_SrX9zcXdSaafYy&gaa_ts=6908418e&gaa_sig=OUaGBm4mIsbzQaTvwT1tpSBtAkgMx3G71YBkODuJZ2iCiI7c1skho6UgDPUCbhJFvkBd6Ve5aLM9rSlioDw8lg%3D%3D"
+    },
+    {
+      "authors": [
+        "Deepali Gupta",
+        "Anandita Singh Mankotia",
+        "Arijit Barman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.036647,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Softbank is reportedly in talks to acquire a 15-20% stake in the proposed merger between Idea Cellular and Vodafone's Indian unit. This investment would help Vodafone reduce its stake below 50% and potentially pave the way for a gradual exit from India, while also injecting capital into the merged entity to compete with rivals like Reliance Jio. The deal could also help bridge the valuation gap between Vodafone India and Idea Cellular for a \"merger of equals\" desired by the Aditya Birla group.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VOD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.220369"
+        },
+        {
+          "relevance_score": "0.634980",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117913"
+        },
+        {
+          "relevance_score": "0.608855",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124912"
+        }
+      ],
+      "time_published": "20170223T063100",
+      "title": "Softbank looks to pick up stake in the proposed Vodafone-Idea combine",
+      "topics": [
+        {
+          "relevance_score": "0.916812",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.731065",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://m.economictimes.com/news/company/corporate-trends/softbank-looks-to-pick-up-stake-in-the-proposed-vodafone-idea-combine/articleshow/57300514.cms"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.073106,
+      "source": "The Fiji Times",
+      "source_domain": "The Fiji Times",
+      "summary": "SoftBank Group Corp is reportedly willing to cede control of Sprint Corp to Deutsche Telekom AG\u2019s T-Mobile US Inc to facilitate a merger between the two U.S. wireless carriers. This shift in strategy comes after SoftBank's previous attempt to acquire T-Mobile was blocked by antitrust regulators, and T-Mobile's market value has significantly increased. Negotiations are expected to begin after an ongoing auction of airwaves concludes in April.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447748"
+        },
+        {
+          "relevance_score": "0.710904",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149497"
+        },
+        {
+          "relevance_score": "0.733130",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.112173"
+        }
+      ],
+      "time_published": "20170220T053634",
+      "title": "SoftBank willing to cede control of Sprint",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.841453",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.634929",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.fijitimes.com.fj/softbank-willing-to-cede-control-of-sprint/"
+    },
+    {
+      "authors": [
+        "Chris Lange"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.072104,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "This article compares unlimited data plans from major telecom providers: Verizon, AT&T, T-Mobile, and Sprint. It highlights costs for a four-line plan, data throttling thresholds, mobile hotspot allowances, and discusses current stock performance and analyst price targets for each company. The comparison aims to help consumers identify the best unlimited data option available.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.931774",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128926"
+        },
+        {
+          "relevance_score": "0.872549",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.050891"
+        },
+        {
+          "relevance_score": "0.867513",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.094981"
+        },
+        {
+          "relevance_score": "0.615709",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001870"
+        }
+      ],
+      "time_published": "20170217T124000",
+      "title": "How the Major Unlimited Data Plans Stack Up",
+      "topics": [
+        {
+          "relevance_score": "0.916885",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://247wallst.com/telecom-wireless/2017/02/17/how-the-major-unlimited-data-plans-stack-up/"
+    },
+    {
+      "authors": [
+        "Mike Dano"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.152044,
+      "source": "Fierce Network",
+      "source_domain": "Fierce Network",
+      "summary": "Nokia has announced its WING global IoT service, essentially positioning itself as a global MVNO for IoT by purchasing wholesale wireless services from various carriers. However, Nokia has chosen not to disclose the identities of its wholesale network providers. This move aims to grow the overall IoT sector by offering a unified global connectivity and services grid, while allowing participating wireless carriers to monetize their excess network capacity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NOK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327997"
+        },
+        {
+          "relevance_score": "0.727540",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104327"
+        },
+        {
+          "relevance_score": "0.701235",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134396"
+        },
+        {
+          "relevance_score": "0.642583",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121378"
+        }
+      ],
+      "time_published": "20170215T125900",
+      "title": "Nokia remains silent on its MVNO wholesale network providers for its WING global IoT service",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.741182",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.649845",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.fierce-network.com/iot/nokia-remains-silent-its-mvno-wholesale-network-providers-for-its-wing-global-iot-service"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.221393,
+      "source": "BNamericas",
+      "source_domain": "BNamericas",
+      "summary": "Tel\u00e9fonica Venezolana C.A. (Movistar Venezuela) is a major telecommunications company operating in Venezuela, offering a wide array of services including mobile, fixed, internet, and digital TV. The company, a subsidiary of Telef\u00f3nica S.A., was established in 2005 and reported revenues of US$1.6 billion in 2015. It continues to modernize its network, including 4G and testing 5G technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TEF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204490"
+        },
+        {
+          "relevance_score": "0.606078",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.246893"
+        },
+        {
+          "relevance_score": "0.618606",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225634"
+        },
+        {
+          "relevance_score": "0.580894",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.246440"
+        },
+        {
+          "relevance_score": "0.609021",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211434"
+        }
+      ],
+      "time_published": "20170209T053152",
+      "title": "Tel\u00e9fonica Venezolana C.A. (Movistar Venezuela)",
+      "topics": [
+        {
+          "relevance_score": "0.916406",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.822502",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.bnamericas.com/en/company-profile/telefonica-venezolana-ca-movistar-venezuela"
+    },
+    {
+      "authors": [
+        "Wireless Estimator"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.112685,
+      "source": "Wireless Estimator",
+      "source_domain": "Wireless Estimator",
+      "summary": "AT&T has acquired FiberTower Corporation, including its mmWave spectrum rights, after FiberTower previously filed for bankruptcy partly due to lost business from AT&T and T-Mobile. The acquisition was announced discreetly, raising questions about the financial details, especially given that many creditors and former stockholders of FiberTower received nothing in its earlier bankruptcy. This deal highlights the complicated relationship between the two companies, with AT&T now owning a company it once contributed to financially crippling.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.642573",
+          "ticker": "AMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336196"
+        },
+        {
+          "relevance_score": "0.902608",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213508"
+        },
+        {
+          "relevance_score": "0.731764",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102050"
+        },
+        {
+          "relevance_score": "0.629715",
+          "ticker": "CCI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.236513"
+        }
+      ],
+      "time_published": "20170202T035135",
+      "title": "AT&T sneakily buys FiberTower, a company they once inadvertently helped to cripple",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.839083",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://wirelessestimator.com/articles/2017/att-sneakily-buys-fibertower-a-company-they-once-inadvertently-helped-to-cripple/"
+    },
+    {
+      "authors": [
+        "Anne Bucher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.820048,
+      "source": "Class Action Lawsuits",
+      "source_domain": "Class Action Lawsuits",
+      "summary": "A class action lawsuit has been filed against T-Mobile USA Inc., alleging the company performs unauthorized hard credit checks on potential customers, violating federal and state credit reporting laws. Plaintiff Dean Boone claims a T-Mobile representative conducted a hard credit check without his consent, leading to a decreased credit score and other damages. The lawsuit seeks statutory and punitive damages for a nationwide class and a New Jersey subclass of consumers affected by these alleged unauthorized credit inquiries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.826176"
+        }
+      ],
+      "time_published": "20170123T053633",
+      "title": "T-Mobile Class Action Alleges Company Performs Unauthorized Credit Checks",
+      "topics": [
+        {
+          "relevance_score": "0.923651",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.742693",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/t-mobile-class-action-alleges-company-performs-unauthorized-credit-checks/"
+    },
+    {
+      "authors": [
+        "Paul Ferrill"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.096686,
+      "source": "Redmondmag.com",
+      "source_domain": "Redmondmag.com",
+      "summary": "HP has released the Elite x3, a new Windows Phone device specifically targeting enterprise users, aiming to fill the void left by BlackBerry. The device offers robust security features, Continuum capabilities with desktop and lapdock accessories, and a cloud-based application virtualization service called HP Workspace to address the limited app ecosystem. While it excels in business-specific use cases, some consumer-oriented apps on the Windows Phone platform still lag behind their Android and iOS counterparts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.275559"
+        },
+        {
+          "relevance_score": "0.727378",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.218485"
+        },
+        {
+          "relevance_score": "0.905987",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149460"
+        },
+        {
+          "relevance_score": "0.636122",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.056939"
+        },
+        {
+          "relevance_score": "0.610806",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.095238"
+        }
+      ],
+      "time_published": "20170113T043708",
+      "title": "The New HP Windows Phone Means Business",
+      "topics": [
+        {
+          "relevance_score": "0.707775",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://redmondmag.com/articles/2017/01/01/hp-windows-phone.aspx"
+    }
+  ],
+  "items": "35",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

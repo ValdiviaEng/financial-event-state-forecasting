@@ -1,0 +1,1831 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Stuart Pfeifer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.434599,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "Three American Express Co. subsidiaries are required to pay approximately $75 million in restitution and penalties due to illegal practices involving hundreds of thousands of credit-card customers. The companies were accused of unfair billing and deceptive marketing of add-on products like payment protection and credit monitoring. Regulators ordered the American Express subsidiaries to refund customers and pay penalties to three regulatory agencies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.414215"
+        },
+        {
+          "relevance_score": "0.646212",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.403931"
+        },
+        {
+          "relevance_score": "0.648854",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.437121"
+        }
+      ],
+      "time_published": "20131224T085500",
+      "title": "American Express to pay $75 million in deceptive practices case",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-fi-mo-regulators-fine-american-express-75-million-for-credit-card-practices-20131224-story.html"
+    },
+    {
+      "authors": [
+        "ABC News"
+      ],
+      "banner_image": "https://abcnews.go.com/images/Business/130415_gty_credit_card_bn_380.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.067666,
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source_domain": "ABC News - Breaking News, Latest News and Videos",
+      "summary": "Recent class action settlements involving American Express, Visa, and MasterCard may allow retailers to pass credit card \"swipe\" fees onto consumers through surcharges. While some large retailers oppose this move, nonretail businesses like doctors' offices and airlines are more likely to implement such charges, potentially leading to a two-tier pricing system. This change aims to bring transparency to swipe fees and incentivize customers to use debit cards or cash.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.988704",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137751"
+        },
+        {
+          "relevance_score": "0.908817",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117747"
+        },
+        {
+          "relevance_score": "0.881658",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105565"
+        },
+        {
+          "relevance_score": "0.707749",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015799"
+        },
+        {
+          "relevance_score": "0.676582",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035318"
+        }
+      ],
+      "time_published": "20131220T103000",
+      "title": "You Could Soon Pay More for Using a Credit Card",
+      "topics": [
+        {
+          "relevance_score": "0.906104",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://abcnews.go.com/Business/retailers-pass-swipe-fees-customers-paying-credit-cards/story?id=21289066"
+    },
+    {
+      "authors": [
+        "Kristin Tice Studeman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.145899,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Billy McFarland, a college dropout and entrepreneur, founded Magnises to create an aspirational black card for 20-somethings who desire the prestige of the American Express Centurion Card but cannot yet afford it. The Magnises card is made of heavyweight metal, similar to the original Amex Black Card, and promises exclusive perks. McFarland developed the idea after realizing he and his friends, all in their 20s, wanted a black card despite not meeting the spending requirements for the American Express version.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121592"
+        }
+      ],
+      "time_published": "20131218T120645",
+      "title": "A Hunk of Metal, a Chunk of Clout (Published 2013)",
+      "topics": [
+        {
+          "relevance_score": "0.718473",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.639670",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2013/12/19/fashion/Black-Card-Magnises.html"
+    },
+    {
+      "authors": [
+        "Marissa Alter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.190087,
+      "source": "WLKY",
+      "source_domain": "WLKY",
+      "summary": "The Better Business Bureau and Stock Yards Bank issued a warning about a robocall scam targeting people in the 502 area code. The calls claim there's an issue with a Stock Yards Bank debit or credit card and prompt users to enter card numbers. Both the BBB and Stock Yards Bank advise hanging up and calling the bank directly if personal information is requested, as banks will not ask for such details over unsolicited calls or texts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SYBT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.220235"
+        },
+        {
+          "relevance_score": "0.637344",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.124912"
+        }
+      ],
+      "time_published": "20131210T184300",
+      "title": "Robocalls targeting 502 area code claiming to be from Stock Yards Bank",
+      "topics": [
+        {
+          "relevance_score": "0.934307",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.608932",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.wlky.com/article/robocalls-targeting-502-area-code-claiming-to-be-from-stock-yards-bank/3746731"
+    },
+    {
+      "authors": [
+        "Boby Kurian & Mayur Shetty"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.115758,
+      "source": "The Times of India",
+      "source_domain": "The Times of India",
+      "summary": "Three global payment processing firms\u2014Global Payments, WorldPay, and Total System Services (TSYS)\u2014are bidding for Axis Bank's network of over two lakh credit and debit card swipe machines, a business valued at Rs 1,200 crore ($200 million). This potential M&A deal would be one of India's largest in the electronic payment industry, following similar acquisitions by First Data Corporation and Hitachi. The article highlights the booming domestic card payment market and the significant growth in POS terminals across major Indian private banks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GPN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118958"
+        },
+        {
+          "relevance_score": "0.604942",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143253"
+        }
+      ],
+      "time_published": "20131205T065400",
+      "title": "3 companies vie for Axis Bank\u2019s swipe business",
+      "topics": [
+        {
+          "relevance_score": "0.921491",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.842240",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.724979",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://timesofindia.indiatimes.com/business/india-business/3-companies-vie-for-axis-banks-swipe-business/articleshow/26877458.cms"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.198523,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "Online gambling in the US is facing significant hurdles as major credit-card issuers like Bank of America, Wells Fargo, American Express, and PayPal are rejecting transactions for newly legalized online betting. This resistance threatens a potentially $7.4 billion industry, stemming from banks' concerns over potential liability for illegal bets, such as those made by underage gamblers, despite Visa and MasterCard updating their systems to allow legal transactions. States like Delaware and Nevada, where online gambling is legal, are experiencing high rejection rates and are working with card issuers to resolve these issues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.278683"
+        },
+        {
+          "relevance_score": "0.831720",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.228618"
+        },
+        {
+          "relevance_score": "0.731800",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.233052"
+        },
+        {
+          "relevance_score": "0.930836",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.248991"
+        },
+        {
+          "relevance_score": "0.651428",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137147"
+        }
+      ],
+      "time_published": "20131116T223000",
+      "title": "Online casinos hobbled as credit-card issuers reject bets",
+      "topics": [
+        {
+          "relevance_score": "0.915041",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.743034",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/international/online-casinos-hobbled-as-credit-card-issuers-reject-bets-113111601257_1.html"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel",
+        "Luciana Lopez"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.173731,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Warren Buffett's Berkshire Hathaway Inc disclosed a new $3.45 billion stake in Exxon Mobil Corp, purchasing 40.1 million shares. This investment signals strong support for Exxon by the second-richest American, despite the stock having lagged the market in recent years. Berkshire also adjusted other holdings, reducing its stake in ConocoPhillips while increasing positions in several other companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.302153",
+          "ticker": "BRK-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011198"
+        },
+        {
+          "relevance_score": "0.997211",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.443446"
+        },
+        {
+          "relevance_score": "0.619681",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.311823"
+        },
+        {
+          "relevance_score": "0.643775",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326420"
+        },
+        {
+          "relevance_score": "0.646079",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340414"
+        }
+      ],
+      "time_published": "20131115T125300",
+      "title": "Buffett's Berkshire buys sizable new Exxon Mobil stake",
+      "topics": [
+        {
+          "relevance_score": "0.915073",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.826138",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.715629",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.629756",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.645091",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/buffett-s-berkshire-buys-sizable-new-exxon-mobil-stake-idUSBRE9AD1BQ/"
+    },
+    {
+      "authors": [
+        "Brian Steinberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.298102,
+      "source": "Variety",
+      "source_domain": "Variety",
+      "summary": "Fox and American Express have partnered in a new deal to promote the sharing of TV show clips on Twitter, with American Express sponsoring pre-roll ads before clips of popular Fox shows. This marks a new approach to advertising, attaching sponsors to scripted broadcast-network TV programs distributed on social media. The initiative aims to capitalize on social media conversations around TV content and encourage broader viewership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321338"
+        },
+        {
+          "relevance_score": "0.920934",
+          "ticker": "FOX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310315"
+        },
+        {
+          "relevance_score": "0.821346",
+          "ticker": "FOXA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335458"
+        },
+        {
+          "relevance_score": "0.620242",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122062"
+        }
+      ],
+      "time_published": "20131114T104700",
+      "title": "Fox, American Express Take To Twitter To Promote Sharing Of TV-Show Clips",
+      "topics": [
+        {
+          "relevance_score": "0.846568",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://variety.com/2013/tv/news/fox-american-express-take-to-twitter-to-promote-sharing-of-tv-show-clips-1200832450/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.346633,
+      "source": "CPA Practice Advisor",
+      "source_domain": "CPA Practice Advisor",
+      "summary": "Bill.com announced it secured $38 million in new financing, led by Scale Venture Partners, with significant investments from Bank of America, American Express, and Fifth Third Bank. The funds will be used to expand its Banking Platform, accelerate the Business Payments Network, and invest in customer acquisition and core product features for SMBs, accountants, and bookkeepers. This latest round brings Bill.com's total funding to $80 million as it continues to revolutionize business payments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FITB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406315"
+        },
+        {
+          "relevance_score": "0.826935",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343062"
+        },
+        {
+          "relevance_score": "0.824126",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341261"
+        }
+      ],
+      "time_published": "20131112T123624",
+      "title": "Bill.com Announces New Strategic Investments from Bank of America, American Express and Fifth Third Bank",
+      "topics": [
+        {
+          "relevance_score": "0.938194",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.845891",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cpapracticeadvisor.com/2013/11/12/bill-com-announces-new-strategic-investments-from-bank-of-america-american-express-and-fifth-third-bank/13398/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.314672,
+      "source": "India TV News",
+      "source_domain": "India TV News",
+      "summary": "Internet giant Google has been identified as the world's best multinational company to work for, according to the Great Place to Work Institute. They are followed by SAS Institute and NetApp. Microsoft was ranked fourth, and the list of 25 top companies includes predominantly American and European firms, with no India-based or Asian companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.817598",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346849"
+        },
+        {
+          "relevance_score": "0.947287",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348995"
+        },
+        {
+          "relevance_score": "0.630048",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321087"
+        },
+        {
+          "relevance_score": "0.604844",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321871"
+        },
+        {
+          "relevance_score": "0.608822",
+          "ticker": "ADSK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329847"
+        }
+      ],
+      "time_published": "20131023T235100",
+      "title": "'Google world's best multinational company to work'",
+      "topics": [
+        {
+          "relevance_score": "0.847923",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.indiatvnews.com/business/india/google-world-s-best-multinational-company-to-work-8370.html"
+    },
+    {
+      "authors": [
+        "Christina Chaey"
+      ],
+      "banner_image": "https://fastcompany.com/image/3020228/verifone-taxi-ad.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.30247,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "American Express is launching a new program allowing its cardholders to pay for taxi rides in over 7,000 NYC VeriFone cabs using Membership Rewards points. The system is designed to be seamless, with a conversion rate of 100 points to the dollar, and does not require users to change their existing payment behavior. This initiative is the first step in a broader partnership between American Express and VeriFone, potentially expanding point-based payments to other retail environments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431035"
+        },
+        {
+          "relevance_score": "0.701280",
+          "ticker": "VRSN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338365"
+        },
+        {
+          "relevance_score": "0.600440",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210443"
+        }
+      ],
+      "time_published": "20131021T120644",
+      "title": "American Express Brings Pay-With Points To NYC\u2019s VeriFone Taxicabs",
+      "topics": [
+        {
+          "relevance_score": "0.800490",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.815283",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.613247",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.622705",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.fastcompany.com/3020228/american-express-brings-pay-with-points-to-nycs-verifone-taxicabs/"
+    },
+    {
+      "authors": [
+        "Sarah Perez"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.168008,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "American Express has revamped its digital wallet platform, Serve, to target the \"under-banked\" population with prepaid cards that can be loaded with cash in retail stores. This strategic shift moves Serve away from directly competing with PayPal online and positions it as a more comprehensive alternative to traditional banking services, offering features like direct deposit and online bill pay. The cards will be available in 20,000+ stores by the end of 2013, with free cash loads, and a $1 monthly fee waived with direct deposits or other deposits of $500 or more.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335832"
+        },
+        {
+          "relevance_score": "0.746804",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220643"
+        },
+        {
+          "relevance_score": "0.601340",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140258"
+        },
+        {
+          "relevance_score": "0.619275",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114537"
+        },
+        {
+          "relevance_score": "0.622250",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102422"
+        }
+      ],
+      "time_published": "20131008T072100",
+      "title": "American Express Serve Goes After The \"Under-Banked\" With Prepaid Cards You Load With Cash In Stores",
+      "topics": [
+        {
+          "relevance_score": "0.921577",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.737327",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.632281",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://techcrunch.com/2013/10/08/american-express-serve-goes-after-the-under-banked-with-prepaid-cards-you-load-with-cash-in-stores/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.410686,
+      "source": "Anadolu Ajans\u0131",
+      "source_domain": "Anadolu Ajans\u0131",
+      "summary": "American Express announced plans to form a joint venture for its Global Business Travel (GBT) division, intending to share ownership with an investor group led by Certares. This move aims to accelerate GBT's transformation through increased investment, enhancing its product offerings and international growth. American Express will retain a 50% ownership stake, with the investor group contributing between $700 million and $1 billion to grow the business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.433452"
+        }
+      ],
+      "time_published": "20130925T121500",
+      "title": "American Express Announces Plans to Create New Joint Venture for Business Travel",
+      "topics": [
+        {
+          "relevance_score": "0.934160",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.724017",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.aa.com.tr/en/archive/american-express-announces-plans-to-create-new-joint-venture-for-business-travel/215629"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.201907,
+      "source": "www.lifehealth.com",
+      "source_domain": "www.lifehealth.com",
+      "summary": "MetLife, Inc. announced the election of former U.S. Ambassador William E. Kennard to its board of directors, effective September 18, 2013. Steven A. Kandarian, chairman, president, and CEO of MetLife, highlighted Kennard's strong knowledge of public policy and global investment expertise as valuable assets to the company and its shareholders. Kennard has a distinguished background, including serving as U.S. ambassador to the European Union, managing director of The Carlyle Group, and chairman of the U.S. Federal Communications Commission.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.952347",
+          "ticker": "MET",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304585"
+        },
+        {
+          "relevance_score": "0.690594",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.076786"
+        }
+      ],
+      "time_published": "20130918T130650",
+      "title": "William Kennard Named to MetLife\u2019s Board of Directors",
+      "topics": [
+        {
+          "relevance_score": "0.800369",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.lifehealth.com/people/william-kennard-named-metlifes-board-directors/"
+    },
+    {
+      "authors": [
+        "Sara Morrison"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.107353,
+      "source": "TheWrap",
+      "source_domain": "TheWrap",
+      "summary": "Time Inc. is acquiring all five of American Express Publishing\u2019s magazine titles, including Travel + Leisure and Food & Wine. This acquisition comes as Time Inc. prepares to spin off from its parent company, Time Warner, in early 2014. Time Inc. CEO Joseph Ripp expressed excitement about expanding these \"world-class brands.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926638",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111727"
+        }
+      ],
+      "time_published": "20130910T073900",
+      "title": "Time Inc. Acquires American Express Publishing",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.thewrap.com/time-inc-acquires-american-express-publishing/"
+    },
+    {
+      "authors": [
+        "Anthony Ha"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.329782,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "Mobile rewards startup Kiip announced it has received a strategic investment from American Express Ventures. This follows an $11 million Series B round last year which included advertising holding company Interpublic Group. American Express Ventures focuses on digital commerce companies, suggesting Kiip may expand its commerce features, aligning with its co-founder and CEO Brian Wong's vision of integrating value into everyday moments beyond gaming and advertising.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344426"
+        }
+      ],
+      "time_published": "20130815T070700",
+      "title": "Mobile Rewards Startup Kiip Announces Strategic Investment From American Express Ventures",
+      "topics": [
+        {
+          "relevance_score": "0.844009",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.726940",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://techcrunch.com/2013/08/15/kiip-american-express/"
+    },
+    {
+      "authors": [
+        "Alexa Ray Corriea"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.440731,
+      "source": "Polygon",
+      "source_domain": "Polygon",
+      "summary": "American Express is launching a line of credit and prepaid debit cards featuring characters and scenes from Riot Games' League of Legends. The prepaid cards reward users with Riot Points for real-world purchases and offer bonus points for signing up, adding funds, and linking to a checking account. This partnership aims to expand American Express's reach beyond traditional affluent customers by tapping into League of Legends' large and engaged player base.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400580"
+        }
+      ],
+      "time_published": "20130812T120644",
+      "title": "American Express launching line of League of Legends cards",
+      "topics": [
+        {
+          "relevance_score": "0.928374",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.808441",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.609414",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.polygon.com/2013/8/12/4614630/american-express-launching-line-of-league-of-legends-cards/"
+    },
+    {
+      "authors": [
+        "By Tanzina Vega"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.338249,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "American Express has partnered with Riot Games to launch prepaid debit cards linked to the online video game League of Legends, targeting the millennial generation. These cards feature game-themed designs and offer \"Riot Points\" for signing up, loading money, making purchases, and direct deposits, which can be used to buy in-game items. The initiative aims to expand AmEx's reach beyond its traditional affluent customer base, leveraging the game's 32 million global players.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.960229",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323091"
+        }
+      ],
+      "time_published": "20130811T120644",
+      "title": "AmEx Links a Debit Card to an Online Video Game (Published 2013)",
+      "topics": [
+        {
+          "relevance_score": "0.701135",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.947206",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.814716",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2013/08/12/business/media/amex-links-a-debit-card-to-an-online-video-game.html"
+    },
+    {
+      "authors": [
+        "Marguerite Reardon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.317503,
+      "source": "CNET",
+      "source_domain": "CNET",
+      "summary": "Isis and American Express are expanding their partnership to integrate the American Express Serve payment application into the Isis digital wallet. This collaboration will provide customers with more flexibility in mobile payments, including an alternative to traditional bank accounts and the ability to pay bills and send money digitally. The service is set for a nationwide rollout later this year, aiming to broaden the reach of Isis's mobile payment platform.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344385"
+        }
+      ],
+      "time_published": "20130808T132900",
+      "title": "Isis, American Express want to turn your phone into a wallet",
+      "topics": [
+        {
+          "relevance_score": "0.882594",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.830374",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cnet.com/tech/mobile/isis-american-express-want-to-turn-your-phone-into-a-wallet/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.155348,
+      "source": "South China Morning Post",
+      "source_domain": "South China Morning Post",
+      "summary": "American Express reported quarterly revenue that narrowly missed expectations due to muted cardmember spending. Despite the European Commission's plans to limit fees on card transactions, AmEx stated it expects limited impact as its proprietary consumer and credit card business would not be covered by the pricing caps. However, the EC proposal would directly affect its Global Network Services business, which contributes 17% of its revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.292829"
+        },
+        {
+          "relevance_score": "0.667270",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134175"
+        },
+        {
+          "relevance_score": "0.661938",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106970"
+        }
+      ],
+      "time_published": "20130718T104100",
+      "title": "AmEx revenue misses estimates; sees limited impact from EC cap",
+      "topics": [
+        {
+          "relevance_score": "0.948024",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.807437",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.scmp.com/business/banking-finance/article/1285226/amex-revenue-misses-estimates-sees-limited-impact-ec-cap"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.255978,
+      "source": "Times of Malta",
+      "source_domain": "Times of Malta",
+      "summary": "Bank of Valletta is offering a 50% discount on the first year's annual membership fee for American Express Platinum Cards until August 30, 2013, saving customers \u20ac275. Engel & V\u00f6lkers has opened a large Metropolitan Market Center in Barcelona, with plans for more globally, specializing in premium residential and commercial real estate. Additionally, the Agenda Bookshop outlet at Malta International Airport has been refurbished, and Sparkle Image opened its second outlet in Gzira, specializing in detergents and toiletries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.261320"
+        }
+      ],
+      "time_published": "20130717T120645",
+      "title": "Company briefs",
+      "topics": [
+        {
+          "relevance_score": "0.829973",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.744650",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.704883",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://timesofmalta.com/article/Company-briefs.478530"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": "https://cdn.businessoffashion.com/site/uploads/2013/07/The-Fancy.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.338538,
+      "source": "The Business of Fashion",
+      "source_domain": "The Business of Fashion",
+      "summary": "The online shop The Fancy has raised $53 million in a new funding round that values the company at $600 million. Investors in this round include American Express Co., billionaire Len Blavatnik, and actor Will Smith. This financing will help the New York-based company expand its operations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.905292",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332793"
+        }
+      ],
+      "time_published": "20130708T120645",
+      "title": "The Fancy Said Valued at $600 Million as American Express, Will Smith Invest",
+      "topics": [
+        {
+          "relevance_score": "0.828586",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.736194",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.809022",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.637825",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.businessoffashion.com/news/news-analysis/the-fancy-said-valued-at-600-million/"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://photos.newswire.ca/images/download/20130708_C5810_PHOTO_EN_28825.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.427006,
+      "source": "Newswire Canada",
+      "source_domain": "Newswire Canada",
+      "summary": "American Express Canada announced a new partnership with Tim Hortons, allowing customers to use their American Express Cards for purchases at most locations across Canada and to reload Tim Hortons Cards online. This collaboration expands American Express' presence in the quick service restaurant sector, aiming to offer greater convenience for Cardmembers on everyday spending. An integrated marketing campaign, including radio, digital, and social media, will support the new payment option.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422363"
+        }
+      ],
+      "time_published": "20130708T080000",
+      "title": "Ordering your morning double-double just got more rewarding: American Express serves up new relationship with Tim Hortons",
+      "topics": [
+        {
+          "relevance_score": "0.937819",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.831378",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.newswire.ca/news-releases/ordering-your-morning-double-double-just-got-more-rewarding-american-express-serves-up-new-relationship-with-tim-hortons-512694691.html"
+    },
+    {
+      "authors": [
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.275089,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article analyzes Visa Inc (V), Mastercard Inc (MA), and American Express Company (AXP) to determine which company offers the best investment opportunity in the credit card industry. It examines their market positions, growth prospects, financial health, and brand strength, recommending Visa and Mastercard as strong buys due to their moated brands and expected EPS growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225139"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "V",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337199"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321013"
+        }
+      ],
+      "time_published": "20130627T161600",
+      "title": "Visa Inc (V), American Express Company (AXP) & Mastercard Inc (MA): Who Is the Leader in the Credit Card Industry?",
+      "topics": [
+        {
+          "relevance_score": "0.947238",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.815555",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/visa-inc-v-american-express-company-axp-mastercard-inc-ma-who-is-the-leader-in-the-credit-card-industry-182851/"
+    },
+    {
+      "authors": [
+        "Moinak Mitra"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.423343,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "American Express boasts one of the financial sector's strongest retention rates, attributed to its focus on employee well-being and work-life integration. The company implements various initiatives, including programs supporting employees' personal relationships, health, and skill development, which leads to a low attrition rate. These efforts highlight a shift from traditional job-centric roles to a more holistic approach to employee engagement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407069"
+        }
+      ],
+      "time_published": "20130624T084500",
+      "title": "Best companies to work for 2013: American Express has one of the strongest retention rates in financial sector",
+      "topics": [
+        {
+          "relevance_score": "0.947024",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://m.economictimes.com/news/company/corporate-trends/best-companies-to-work-for-2013-american-express-has-one-of-the-strongest-retention-rates-in-financial-sector/articleshow/20727033.cms"
+    },
+    {
+      "authors": [
+        "Stephanie Mencimer"
+      ],
+      "banner_image": "https://www.shutterstock.com/pic-140429836/stock-photo-image-of-young-businessman-puppeteer-leadership-concept.html?src=MZFFlXYWNVk6Ih1t3B1Ucg-1-28",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.032259,
+      "source": "Mother Jones",
+      "source_domain": "Mother Jones",
+      "summary": "The Supreme Court, in American Express v. Italian Colors Restaurant, affirmed the right of corporations to use mandatory arbitration clauses, preventing small businesses from using class actions to challenge monopolistic practices. This 5-3 decision by the conservative majority makes it harder for consumers and small businesses to seek legal recourse against larger companies, effectively gutting protections enshrined in antitrust and consumer protection laws. Critics argue this decision allows corporations to insulate themselves from liability through contract clauses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.306544",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013611"
+        }
+      ],
+      "time_published": "20130620T120645",
+      "title": "The Supreme Court Just Made It Easier for Big Business to Screw the Little Guy",
+      "topics": [
+        {
+          "relevance_score": "0.944231",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.708684",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.642476",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.motherjones.com/politics/2013/06/consumers-get-screwed-scotus-american-express-decision-small-biz/"
+    },
+    {
+      "authors": [
+        "Edward Berbarie"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.485153,
+      "source": "Littler Mendelson P.C.",
+      "source_domain": "Littler Mendelson P.C.",
+      "summary": "The Supreme Court ruled in American Express Co. v. Italian Colors Restaurant that the Federal Arbitration Act (FAA) does not allow courts to invalidate arbitration agreements with class action waivers, even if individual arbitration costs outweigh potential recovery for federal statutory claims. This decision reinforces the rigorous enforcement of arbitration agreements as written, making it harder for plaintiffs to challenge class action waivers. The ruling questioned the viability of previous decisions that created barriers to enforcing class waivers, including the NLRB's stance in D.R. Horton.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.459206"
+        }
+      ],
+      "time_published": "20130620T120644",
+      "title": "Supreme Court's Amex Decision Creates High Hurdle for Plaintiffs Seeking to Invalidate Arbitration Agreements with Class Action Waivers | Littler",
+      "topics": [
+        {
+          "relevance_score": "0.803177",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.littler.com/news-analysis/asap/supreme-courts-amex-decision-creates-high-hurdle-plaintiffs-seeking-invalidate"
+    },
+    {
+      "authors": [
+        "Duane Marsteller"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.122873,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "A Nashville retailer, Genesco Inc., has filed a groundbreaking lawsuit against Visa, challenging the credit card giant's authority to fine merchants for data breaches. This case could significantly alter how security standards are enforced and potentially impact the cost of credit for consumers and merchants. Legal experts suggest the outcome could lead to broad implications for the credit card industry, including potential higher fees or the creation of an independent oversight entity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100592"
+        },
+        {
+          "relevance_score": "0.921350",
+          "ticker": "V",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249289"
+        },
+        {
+          "relevance_score": "0.867521",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227713"
+        },
+        {
+          "relevance_score": "0.642623",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143676"
+        },
+        {
+          "relevance_score": "0.582260",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128275"
+        }
+      ],
+      "time_published": "20130610T124135",
+      "title": "Retailer's lawsuit challenges credit card industry",
+      "topics": [
+        {
+          "relevance_score": "0.895210",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.798304",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.624949",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/business/2013/06/10/retailer-visa-challenge/2410335/"
+    },
+    {
+      "authors": [
+        "Marshall Hargrave"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.290787,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article discusses some of Warren Buffett's top stock holdings, including American Express (AXP), The Procter & Gamble Company (PG), Wells Fargo (WFC), and International Business Machines (IBM). It highlights the rationale behind these investments, such as American Express's return on equity and discount to industry average, P&G's activist campaign potential, and the long-term value and dividend yields of Buffett's mega-cap stocks. The author also provides personal opinions on the future prospects of these companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114539"
+        },
+        {
+          "relevance_score": "0.838487",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434462"
+        },
+        {
+          "relevance_score": "0.706052",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315063"
+        },
+        {
+          "relevance_score": "0.609636",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313790"
+        },
+        {
+          "relevance_score": "0.578895",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253008"
+        }
+      ],
+      "time_published": "20130603T123400",
+      "title": "International Business Machines Corp. (IBM), Wells Fargo & Co (WFC): Billionaire Warren Buffett\u2019s Top Stocks",
+      "topics": [
+        {
+          "relevance_score": "0.925601",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.830707",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/international-business-machines-corp-ibm-wells-fargo-co-wfc-billionaire-warren-buffetts-top-stocks-158373/2"
+    },
+    {
+      "authors": [
+        "Jason Hesse"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.286022,
+      "source": "UKTN",
+      "source_domain": "UKTN",
+      "summary": "Groupon and American Express have invested in the mobile payment startup SumUp, following a previous $20 million Series A funding round. The undisclosed investment will be used to develop new services and expand SumUp's market presence, which already spans across several European countries, with an upcoming launch in Russia. This move signifies increased competition in the mobile payment sector among startups like SumUp, iZettle, and payleven, attracting significant interest and investment from major credit card companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343998"
+        },
+        {
+          "relevance_score": "0.903953",
+          "ticker": "GPN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145337"
+        },
+        {
+          "relevance_score": "0.618046",
+          "ticker": "V",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.394332"
+        },
+        {
+          "relevance_score": "0.602172",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.398855"
+        }
+      ],
+      "time_published": "20130529T120645",
+      "title": "SumUp attracts investment from Groupon and Amex",
+      "topics": [
+        {
+          "relevance_score": "0.930471",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.811377",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.713291",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.602922",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.uktech.news/news/investment-news/sumup-attracts-investment-from-groupon-and-amex-20130529"
+    },
+    {
+      "authors": [
+        "MJBizDaily Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.340238,
+      "source": "MJBizDaily",
+      "source_domain": "MJBizDaily",
+      "summary": "Credit card companies, particularly American Express, are blacklisting dispensary owners from opening merchant accounts for their other businesses due to their involvement in the federally illegal cannabis industry. This practice can prevent entrepreneurs from ever obtaining merchant accounts, even for non-cannabis ventures, potentially impacting future business prospects in other sectors. The article highlights the unforeseen repercussions of involvement in the cannabis industry and suggests potential workarounds or hopes for federal policy changes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.966421",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.302987"
+        }
+      ],
+      "time_published": "20130514T120644",
+      "title": "Credit Card Companies Barring Dispensary Owners From Opening Accounts for Other Businesses",
+      "topics": [
+        {
+          "relevance_score": "0.849876",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.603819",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://mjbizdaily.com/entrepreneurs-beware-involvement-in-mmj-industry-could-hinder-other-business-prospects/"
+    },
+    {
+      "authors": [
+        "Nicole Perlroth and David E. Sanger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.250005,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "A new wave of corporate cyberattacks, potentially state-backed, are shifting from espionage to outright destruction, impacting major financial institutions and government operations globally. These attacks, as seen with American Express and South Korean banks, aim to disable operations and destroy data, representing a significant escalation in cyber threats. Experts note that nations are testing the limits of these destructive capabilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.984534",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.330282"
+        },
+        {
+          "relevance_score": "0.742672",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.336252"
+        },
+        {
+          "relevance_score": "0.632514",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149470"
+        }
+      ],
+      "time_published": "20130328T120644",
+      "title": "Cyberattacks Seem Meant to Destroy, Not Just Disrupt (Published 2013)",
+      "topics": [
+        {
+          "relevance_score": "0.843684",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738739",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2013/03/29/technology/corporate-cyberattackers-possibly-state-backed-now-seek-to-destroy-data.html"
+    },
+    {
+      "authors": [
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.246447,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article discusses the results of the 2013 stress tests administered by the Fed, focusing on Capital One Financial Corp. (COF) and American Express (AXP), both of which are bank holding companies. Both companies easily passed the stress test, with American Express showing a stronger projected minimum Tier 1 common ratio than Capital One. The article implies that strong performance in these stress tests could pave the way for dividend hikes for such institutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442873"
+        },
+        {
+          "relevance_score": "0.716576",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145765"
+        },
+        {
+          "relevance_score": "0.631984",
+          "ticker": "BK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134103"
+        }
+      ],
+      "time_published": "20130313T105700",
+      "title": "Will American Express Company (AXP) Hike Its Dividend? \u2013 Capital One Financial Corp. (COF), The Bank of New York Mellon Corporation (BK)",
+      "topics": [
+        {
+          "relevance_score": "0.915956",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.806349",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.729887",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/will-american-express-company-axp-hike-its-dividend-capital-one-financial-corp-cof-the-bank-of-new-york-mellon-corporation-bk-85779/"
+    },
+    {
+      "authors": [
+        "Dennis Schaal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.252522,
+      "source": "Skift",
+      "source_domain": "Skift",
+      "summary": "American Express has acquired an equity stake in the luxury vacation club Inspirato, leading to a rebranding of the company as \"Inspirato with American Express.\" This partnership comes as the Dow Jones Industry Average hit a record high, suggesting a recovering economy. Inspirato, which has a $17,500 initiation fee and $3,000 annual dues, offers upscale properties in nearly 60 destinations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.994725",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.261562"
+        }
+      ],
+      "time_published": "20130306T111000",
+      "title": "American Express takes stake in luxury vacation club Inspirato",
+      "topics": [
+        {
+          "relevance_score": "0.945642",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.837008",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.648923",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://skift.com/2013/03/06/american-express-invests-in-luxury-vacation-club-inspirato/"
+    },
+    {
+      "authors": [
+        "Ken Yeung"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.366546,
+      "source": "The Next Web",
+      "source_domain": "The Next Web",
+      "summary": "American Express has announced a new deal with Twitter that allows cardmembers to make purchases using special hashtags. This initiative, leveraging AmEx's CardSync technology, enables users to buy gift cards and products from various merchants like Amazon and Xbox directly through tweets. The company is offering a special promotion for early adopters, selling a $25 gift card for $15.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415114"
+        },
+        {
+          "relevance_score": "0.737642",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314562"
+        }
+      ],
+      "time_published": "20130212T123500",
+      "title": "American Express lets cardholders use hashtags to buy things on Twitter",
+      "topics": [
+        {
+          "relevance_score": "0.839037",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.934135",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.737424",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://thenextweb.com/news/american-express-lets-cardholders-use-hashtags-to-buy-things-on-twitter"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.335684,
+      "source": "Campaign",
+      "source_domain": "Campaign",
+      "summary": "This article chronicles the design and branding innovation of American Express, detailing its history from express mail to a global financial services giant. It highlights key product launches like Travellers Cheques, Gold Card, and the Centurion Card, emphasizing AmEx's strategy of exclusive branding and membership benefits. The piece also includes a brand lesson on how American Express uses design to project status and security, alongside a timeline of significant milestones.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332621"
+        }
+      ],
+      "time_published": "20130212T120644",
+      "title": "Champions of Design: American Express",
+      "topics": [
+        {
+          "relevance_score": "0.815563",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.643566",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.campaignlive.co.uk/article/champions-design-american-express/1170376"
+    },
+    {
+      "authors": [
+        "Brett Molina"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.530322,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "American Express has partnered with Twitter to enable cardholders to purchase items directly through the social media platform using specific hashtags. Users sync their Amex accounts, tweet a special hashtag for a desired item, confirm the purchase with @AmexSync within 15 minutes, and then the item is shipped to their billing address. This collaboration marks a new use for Twitter in e-commerce, allowing for direct purchases of products like gift cards, an Amazon Kindle Fire HD, a Sony Action Cam, and an Xbox 360.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.542535"
+        }
+      ],
+      "time_published": "20130212T120644",
+      "title": "Twitter, American Express let users buy with hashtag",
+      "topics": [
+        {
+          "relevance_score": "0.842771",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.742784",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/tech/personal/2013/02/12/twitter-american-express-hashtag/1912325/"
+    },
+    {
+      "authors": [
+        "Anita Bhoir"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.283871,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "The Reserve Bank of India (RBI) has granted American Express Bank (Amex) a restricted banking licence to operate credit card and travel-related businesses in India. This move facilitates the merger of Amex's banking operations in India with Standard Chartered Bank, stemming from an $860-million global acquisition deal where StanChart is acquiring AEBL, excluding Amex's credit card and travel business. Amex sought this special licence to retain its credit card and travel presence in India after its initial plan to transfer these operations to an NBFC was not approved by the RBI.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.251263"
+        }
+      ],
+      "time_published": "20130205T032100",
+      "title": "Amex gets limited licence for card, travel business",
+      "topics": [
+        {
+          "relevance_score": "0.914077",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.818450",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.638228",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/finance/amex-gets-limited-licence-for-card-travel-business-108022101028_1.html"
+    },
+    {
+      "authors": [
+        "Andrew Hampp"
+      ],
+      "banner_image": "https://www.billboard.com/wp-content/uploads/2023/07/american-express-john-hayes-midem-2013-billboard-1548.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.303392,
+      "source": "Billboard",
+      "source_domain": "Billboard",
+      "summary": "American Express CMO John Hayes possesses extensive data on concertgoers, revealing that 40% of their 102 million cardmembers spend on music yearly and contribute to 4 million ticket sales through AmEx pre-sales. AmEx's \"Unstaged\" program, a partnership with Vevo, leverages this insight to offer unique entertainment experiences to cardmembers and prospects, generating 22 million views in 2012. Hayes also highlights successful social media experiments, like selling out a show via a single tweet, and seeks new industry partnerships through AmericanExpress.com/Proposal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.982693",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303416"
+        }
+      ],
+      "time_published": "20130129T120645",
+      "title": "American Express CMO John Hayes on \u2018Unstaged,\u2019 Social Media, and Their Vast Amount of Data on Concertgoers",
+      "topics": [
+        {
+          "relevance_score": "0.830202",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.724151",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.billboard.com/music/music-news/american-express-cmo-john-hayes-on-unstaged-social-media-and-1535914/"
+    },
+    {
+      "authors": [
+        "BS Reporter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.310128,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "ExlService Holdings has signed an eight-year agreement with American Express Business Travel for back-office operations, including the acquisition of American Express\u2019 Global Travel Service Center operations in Gurgaon. This deal is expected to generate over $160 million in revenues for EXL, with an approximate purchase price of $30 million. The company also reported a quarterly profit of $3.9 million for Q3, a significant improvement from a loss in the corresponding quarter last year, and revised its calendar year 2009 revenue guidance upwards.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.947454",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338377"
+        }
+      ],
+      "time_published": "20130121T120645",
+      "title": "EXL signs eight-year back-office deal with American Express",
+      "topics": [
+        {
+          "relevance_score": "0.814201",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.804290",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.611355",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/companies/exl-signs-eight-year-back-office-deal-with-american-express-109110700068_1.html"
+    },
+    {
+      "authors": [
+        "Glenn Jochum"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.462663,
+      "source": "SBU News",
+      "source_domain": "SBU News",
+      "summary": "Bernie Brenner '90, a \"serial entrepreneur\" and Stony Brook University alumnus, redefined how entrepreneurs do business through his various ventures, including co-founding TrueCar Inc. He shares strategies from his book \"The Sumo Advantage\" on how smaller companies can leverage partnerships with industry giants to grow. Brenner also founded a nonprofit called Thanks-A-Bunch to provide thank-you cards to U.S. troops, veterans, and first responders.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972540",
+          "ticker": "TRUE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.747103"
+        },
+        {
+          "relevance_score": "0.600619",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.199821"
+        }
+      ],
+      "time_published": "20130114T134639",
+      "title": "In Business, Bernie Brenner \u201990 Takes on the Heavyweights",
+      "topics": [
+        {
+          "relevance_score": "0.944057",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.847319",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.632547",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.608079",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.617444",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.stonybrook.edu/alumni/in-business-bernie-brenner-90-takes-on-the-heavyweights-2/"
+    },
+    {
+      "authors": [
+        "Jim Bruene"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.177179,
+      "source": "Finovate",
+      "source_domain": "Finovate",
+      "summary": "Fifth Third Bank launched its DUO card in 2011, combining debit and credit functionality onto a single plastic card. This hybrid card has accounted for a significant portion of new credit card accounts at the bank, indicating consumer demand for such a combined offering. The article suggests that while mobile wallets promise a similar consolidation, hybrid cards provide an immediate and familiar solution for combining financial services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FITB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445704"
+        },
+        {
+          "relevance_score": "0.629194",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134988"
+        },
+        {
+          "relevance_score": "0.604049",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111936"
+        },
+        {
+          "relevance_score": "0.625714",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133324"
+        }
+      ],
+      "time_published": "20130104T123624",
+      "title": "Feature Friday: Fifth Third Combines Debit & Credit on DUO Card",
+      "topics": [
+        {
+          "relevance_score": "0.932810",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.612366",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://finovate.com/feature_friday_fifth_third_combines_debit_credit_on_duo_card/"
+    },
+    {
+      "authors": [
+        "Andr\u00e9s Sanguinetti"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.28934,
+      "source": "El Cronista",
+      "source_domain": "El Cronista",
+      "summary": "WPP, the world's largest advertising group, acquired a 20% stake in the Argentine software developer Globant for $70 million. This strategic investment aims to integrate Globant's software development capabilities into WPP's global digital marketing campaigns and help Globant expand its services internationally. Globant's co-founder Mart\u00edn Migoya highlighted the importance of this partnership for strategic growth and attracting international investors to Argentina.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GLOB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.465009"
+        },
+        {
+          "relevance_score": "0.600488",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.268724"
+        },
+        {
+          "relevance_score": "0.558086",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238145"
+        },
+        {
+          "relevance_score": "0.568318",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233154"
+        }
+      ],
+      "time_published": "20130103T124153",
+      "title": "El mayor grupo de publicidad del mundo ingresa al capital de Globant",
+      "topics": [
+        {
+          "relevance_score": "0.949856",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.802043",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cronista.com/negocios/El-mayor-grupo-de-publicidad-del-mundo-ingresa-al-capital-de-Globant-20130103-0011.html"
+    }
+  ],
+  "items": "43",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

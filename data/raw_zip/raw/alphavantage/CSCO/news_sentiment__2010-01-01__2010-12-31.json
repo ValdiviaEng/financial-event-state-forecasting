@@ -1,0 +1,1559 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.049408,
+      "source": "CRN Magazine",
+      "source_domain": "CRN Magazine",
+      "summary": "This article provides a retrospective look at Salesforce's 8th annual Dreamforce conference in 2010, highlighting key moments and observations. It features 25 scenes, including CEO Marc Benioff's keynotes, special guest performances by Willie.i.am and Stevie Wonder, competitive jabs from other CRM companies, and highlights from the Cloud Expo. The conference emphasized collaboration and boasted a significant increase in attendance, reinforcing Salesforce's position in cloud computing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319145"
+        },
+        {
+          "relevance_score": "0.739685",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.291336"
+        },
+        {
+          "relevance_score": "0.597939",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.135559"
+        }
+      ],
+      "time_published": "20101213T183102",
+      "title": "Was It All A (Cloud) Dream? 25 Scenes From Salesforce's Dreamforce 2010",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.crn.com/slide-shows/cloud/228800259/was-it-all-a-cloud-dream-25-scenes-from-salesforces-dreamforce-2010"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.486529,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced the successful software upgrade of an IP router aboard a commercial satellite in orbit and completed the industry's first Voice over Internet Protocol (VoIP) call made without terrestrial infrastructure. This achievement, part of the Internet Routing in Space (IRIS) initiative, represents a significant advancement in satellite communications, allowing for more efficient and cost-effective routing of voice, data, and video traffic. The IRIS technology aims to create a true mobile network that adapts continuously and extends the Internet into space.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.465279"
+        }
+      ],
+      "time_published": "20101207T183105",
+      "title": "Cisco's Space Router to Transform Satellite Communications: Company Debuts First VoIP Call From Space",
+      "topics": [
+        {
+          "relevance_score": "0.918532",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m12/cisco-s-space-router-to-transform-satellite-communications-company-debuts-first-voip-call-from-space.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.271012,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "Avago Technologies, now debt-free since its 2005 private equity takeover, has announced its first shareholder dividend of 7 cents per ordinary share, totaling approximately $17.5 million. This follows a strong financial year with record revenues and profits, driven by robust demand for its optical transceiver products. The company also repaid its remaining $230 million long-term debt ahead of schedule.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.910023",
+          "ticker": "A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138399"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.459233"
+        },
+        {
+          "relevance_score": "0.572074",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265630"
+        }
+      ],
+      "time_published": "20101203T180555",
+      "title": "Debt-free Avago pays out first dividend",
+      "topics": [
+        {
+          "relevance_score": "0.917878",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.846035",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.724055",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.739987",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.617447",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://optics.org/news/1/7/5"
+    },
+    {
+      "authors": [
+        "David Lidsky"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.486019,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "Laura Ipsen, SVP and GM Smart Grid at Cisco, is tasked with building the 21st-century energy ecosystem and capturing a significant share of the anticipated $100 billion smart-grid market. She has initiated key partnerships and acquisitions to develop open, interoperable systems and secure networks for utilities. Ipsen, with Cisco CEO John Chambers' backing, envisions creating a replicable model for smart, connected communities globally as she tackles environmental challenges through technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.482168"
+        }
+      ],
+      "time_published": "20101129T183105",
+      "title": "Cisco\u2019s Laura Ipsen: Solving the Smart Grid Puzzle With an Almost Unlimited Budget",
+      "topics": [
+        {
+          "relevance_score": "0.811318",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.710103",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.612867",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.fastcompany.com/1702263/ciscos-laura-ipsen-solving-smart-grid-puzzle-almost-unlimited-budget/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.136746,
+      "source": "WorldCity",
+      "source_domain": "WorldCity",
+      "summary": "WorldCity is a Miami-based media company established in 1998, focusing on international trade intelligence. It provides marketing and research tools through print, digital, and video services for airports, seaports, and border crossings across the U.S. Additionally, WorldCity hosts the Horizontes CEO Club, an exclusive gathering for top Latin America-focused executives.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.843142",
+          "ticker": "BSX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126881"
+        },
+        {
+          "relevance_score": "0.707422",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142979"
+        },
+        {
+          "relevance_score": "0.734227",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143149"
+        },
+        {
+          "relevance_score": "0.707265",
+          "ticker": "DAL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129990"
+        },
+        {
+          "relevance_score": "0.708154",
+          "ticker": "META",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102726"
+        }
+      ],
+      "time_published": "20101119T182109",
+      "title": "ABOUT US",
+      "topics": [
+        {
+          "relevance_score": "0.645682",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://worldcityweb.com/about-us"
+    },
+    {
+      "authors": [
+        "Larry Dignan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.310586,
+      "source": "ZDNET",
+      "source_domain": "ZDNET",
+      "summary": "NetApp has revamped 80 percent of its storage product line-up, including high-end and mid-range systems, and introduced a unified software architecture. This initiative, which also includes FlexPod in conjunction with Cisco and VMware, aims to help scale up datacenters and capture a larger share of the datacenter overhaul market by offering greater flexibility.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314321"
+        },
+        {
+          "relevance_score": "0.645215",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.260813"
+        }
+      ],
+      "time_published": "20101109T032900",
+      "title": "NetApp revamps storage product line-up",
+      "topics": [
+        {
+          "relevance_score": "0.918316",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.zdnet.com/article/netapp-revamps-storage-product-line-up/"
+    },
+    {
+      "authors": [
+        "Matt Keil"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.088772,
+      "source": "Palo Alto Networks",
+      "source_domain": "Palo Alto Networks",
+      "summary": "A report indicates that Facebook users at work exhibit passive, voyeuristic usage patterns rather than active game-playing or posting. This suggests that the \"productivity loss associated with games or posting\" is overblown, but security risks and general non-productivity still exist. The article also highlights Facebook's dominance in social networking bandwidth and explains potential social engineering risks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201613"
+        },
+        {
+          "relevance_score": "0.851689",
+          "ticker": "META",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010972"
+        },
+        {
+          "relevance_score": "0.641941",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126023"
+        },
+        {
+          "relevance_score": "0.593730",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009522"
+        }
+      ],
+      "time_published": "20101028T192608",
+      "title": "OMG! Facebook Users are Voyeurs!",
+      "topics": [
+        {
+          "relevance_score": "0.838051",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.paloaltonetworks.com/blog/2010/10/omg-facebook-users-are-voyeurs/"
+    },
+    {
+      "authors": [
+        "Peter Lattman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.013476,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Skype has hired Tony Bates, a top official from Cisco Systems, as its new chief executive. Bates will take over leadership as Skype's new owners, Silver Lake Partners, aim to strengthen the company and potentially take it public, despite challenges in the IPO market. This move is a significant leadership change following Skype's acquisition from eBay and comes as Skype seeks to increase profitability from its large user base.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.928864",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.206317"
+        },
+        {
+          "relevance_score": "0.736792",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108341"
+        },
+        {
+          "relevance_score": "0.649096",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125959"
+        }
+      ],
+      "time_published": "20101004T183104",
+      "title": "Cisco Executive Is Named Chief of Skype, as New Owners Build a Leadership Team (Published 2010)",
+      "topics": [
+        {
+          "relevance_score": "0.929215",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.825924",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746053",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.nytimes.com/2010/10/05/technology/companies/05skype.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.25371,
+      "source": "WRAL.com",
+      "source_domain": "WRAL.com",
+      "summary": "A former Triangle couple and a Hendersonville man were sentenced to federal prison for orchestrating a scheme that defrauded Cisco Systems Inc. of over $20 million. Mario Easevoli received 12\u00bd years, Jennifer Easevoli nine years, and Jason Allan Conway four years, with all three ordered to pay $21.7 million in restitution. The scheme involved using fictitious companies and names to obtain replacement parts from Cisco and then reselling them.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.262190"
+        }
+      ],
+      "time_published": "20100929T222724",
+      "title": "Couple gets prison time for defrauding Cisco Systems",
+      "topics": [
+        {
+          "relevance_score": "0.947812",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.804946",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wral.com/story/couple-gets-prison-time-for-defrauding-cisco-systems/8373456/"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.636655,
+      "source": "Department of Justice (.gov)",
+      "source_domain": "Department of Justice (.gov)",
+      "summary": "A husband, wife, and co-conspirator were sentenced in federal court for their involvement in a $23 million mail fraud and money laundering scheme that targeted Cisco Systems, Inc. The defendants, Mario and Jennifer Easevoli and Jason Allan Conway, fraudulently obtained replacement parts from Cisco's SMARTnet service and sold them on the grey market. All three were ordered to pay over $21 million in restitution and received significant prison sentences.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.606034"
+        }
+      ],
+      "time_published": "20100929T183104",
+      "title": "Eastern District of North Carolina",
+      "topics": [
+        {
+          "relevance_score": "0.840466",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.justice.gov/archive/usao/nce/press/2010/2010-sep-29_04.html"
+    },
+    {
+      "authors": [
+        "Dibeyendu Ganguly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.249244,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "The article explores why Pradeep Sindhu, founder of Juniper Networks, has chosen to remain the Chief Technical Officer (CTO) rather than take on the CEO role. Despite his capabilities, Sindhu prefers focusing on technology and innovation, leading a small team responsible for Juniper's high-end internet products that have driven $4 billion in annual sales. He emphasizes the importance of networking technology and the need for integrated software solutions in the telecom industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404204"
+        },
+        {
+          "relevance_score": "0.726271",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106231"
+        },
+        {
+          "relevance_score": "0.616416",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109433"
+        }
+      ],
+      "time_published": "20100910T070700",
+      "title": "Why Juniper Network's Pradeep Sindhu would rather be a CTO than a CEO?",
+      "topics": [
+        {
+          "relevance_score": "0.923663",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://m.economictimes.com/why-juniper-networks-pradeep-sindhu-would-rather-be-a-cto-than-a-ceo/articleshow/6528209.cms"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.193449,
+      "source": "Jamaica Gleaner",
+      "source_domain": "Jamaica Gleaner",
+      "summary": "Oracle Corp has hired former Hewlett-Packard Company CEO Mark Hurd as co-president, a move that highlights the growing competition between the two Silicon Valley giants. Hurd's appointment follows his resignation from HP amidst a sexual harassment investigation and is seen as Oracle's aggressive push into areas traditionally dominated by HP, particularly in selling computer servers. This move solidifies Oracle's strategy to intensify its presence in computing hardware, building on its recent acquisition of Sun Microsystems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332257"
+        },
+        {
+          "relevance_score": "0.833958",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228896"
+        },
+        {
+          "relevance_score": "0.616716",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124605"
+        },
+        {
+          "relevance_score": "0.600880",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123520"
+        }
+      ],
+      "time_published": "20100908T000000",
+      "title": "Oracle takes on Hurd",
+      "topics": [
+        {
+          "relevance_score": "0.903454",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.920462",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.644993",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://jamaica-gleaner.com/gleaner/20100908/business/business94.html"
+    },
+    {
+      "authors": [
+        "Casey Hibbard"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.476981,
+      "source": "Social Media Examiner",
+      "source_domain": "Social Media Examiner",
+      "summary": "Cisco successfully launched a new router product using an entirely social media-driven approach, saving over $100,000 compared to traditional launch methods. This innovative strategy engaged 9,000 attendees, generated significant press coverage, and set a new precedent for the company's future product introductions, demonstrating the robust business case for social media in marketing. The campaign utilized platforms like Second Life for virtual events and a 3D game to involve network engineers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.470869"
+        }
+      ],
+      "time_published": "20100830T183104",
+      "title": "Social Media Launch Saves Cisco $100,000+",
+      "topics": [
+        {
+          "relevance_score": "0.936984",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.648544",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.604572",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.socialmediaexaminer.com/cisco-social-media-product-launch/"
+    },
+    {
+      "authors": [
+        "Ashlee Vance"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.068236,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Intel acquired McAfee for $7.68 billion, aiming to integrate security software with its chips to gain an edge in smartphones and consumer electronics. The acquisition, Intel's largest to date, was met with skepticism from investors, sending Intel's shares down while boosting McAfee's. Analysts noted the high price and expected no immediate synergies, viewing it as a strategic move to acquire domain expertise and diversify beyond the PC market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.165787"
+        },
+        {
+          "relevance_score": "0.628517",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107660"
+        },
+        {
+          "relevance_score": "0.626356",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132464"
+        },
+        {
+          "relevance_score": "0.607437",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100636"
+        },
+        {
+          "relevance_score": "0.645827",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136601"
+        }
+      ],
+      "time_published": "20100819T190116",
+      "title": "With McAfee Deal, Intel Looks for Edge (Published 2010)",
+      "topics": [
+        {
+          "relevance_score": "0.947969",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.824633",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2010/08/20/technology/20chip.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.433479,
+      "source": "WebWire",
+      "source_domain": "WebWire",
+      "summary": "Cisco and NET Servi\u00e7ios are collaborating to expand Cisco's set-top box presence in the Brazilian video market. The partnership will deploy Cisco 4682DVB HD Digital Interactive Media Servers, enabling NET to offer advanced interactive services like HDTV, 3DTV, and video-on-demand to Brazilian consumers. This agreement highlights Cisco's commitment to the Brazilian market and NET's dedication to providing cutting-edge technology and services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431343"
+        }
+      ],
+      "time_published": "20100819T183104",
+      "title": "Cisco Works With NET to Expand Presence in the Brazilian Video Market",
+      "topics": [
+        {
+          "relevance_score": "0.925242",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.webwire.com/ViewPressRel.asp?aId=121659"
+    },
+    {
+      "authors": [
+        "Evan Selleck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.250706,
+      "source": "SlashGear",
+      "source_domain": "SlashGear",
+      "summary": "Intel has announced two new Atom processors, the D425 and D525, designed to boost performance for networked storage appliances like RAID arrays and NAS devices. These new processors, clocked at 1.8GHz, support faster processing speeds and the upcoming DDR3 SODIMM memory technology, building upon the earlier D410 and D510 models. Major manufacturers such as LaCie, LG Electronics, NETGEAR, and Synology are already incorporating or planning to incorporate these Atom processors in their products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415341"
+        },
+        {
+          "relevance_score": "0.642516",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204805"
+        },
+        {
+          "relevance_score": "0.623446",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245453"
+        },
+        {
+          "relevance_score": "0.620474",
+          "ticker": "SMCI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231008"
+        },
+        {
+          "relevance_score": "0.623383",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232781"
+        }
+      ],
+      "time_published": "20100816T162400",
+      "title": "Intel D425 & D525 Atom Processors Boost Performance For Faster Storage Processing",
+      "topics": [
+        {
+          "relevance_score": "0.931407",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.slashgear.com/intel-d425-d525-atom-processors-boost-performance-for-faster-storage-processing-1697891/"
+    },
+    {
+      "authors": [
+        "Royal Gazette Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.048478,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "The stock market experienced its third consecutive loss due to a disappointing earnings report from Cisco Systems and a downbeat jobs report. The Dow Jones industrial average fell, and the Nasdaq composite index saw a steeper percentage loss, reflecting the decline in tech stocks. Analysts noted that light trading volume, exacerbated by many traders being on vacation, contributed to skewed price changes, while a slight increase in unemployment claims further indicated a weakening economic recovery.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.316755",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001850"
+        }
+      ],
+      "time_published": "20100813T110000",
+      "title": "Markets fall on Cisco outlook and downbeat jobs report",
+      "topics": [
+        {
+          "relevance_score": "0.904558",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.914243",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.838831",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.743173",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.604328",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.royalgazette.com/other/business/article/20110211/markets-fall-on-cisco-outlook-and-downbeat-jobs-report/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.386005,
+      "source": "Interempresas.net",
+      "source_domain": "Interempresas.net",
+      "summary": "Telef\u00f3nica announces its new Global eHealth Unit and strategy to become a key player in the future of healthcare. The initiative aims to create quality products and services based on information and communication technologies, focusing on a more sustainable and efficient health model with the patient at its core. This move responds to increasing healthcare costs and an aging population, leveraging telemedicine and telecare to optimize resources and improve productivity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TEF",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.491826"
+        },
+        {
+          "relevance_score": "0.608274",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334693"
+        },
+        {
+          "relevance_score": "0.605891",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337469"
+        }
+      ],
+      "time_published": "20100714T195100",
+      "title": "Telef\u00f3nica presenta su unidad global de eHealth",
+      "topics": [
+        {
+          "relevance_score": "0.934410",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.830336",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.interempresas.net/TIC/169521-Telefonica-presenta-su-unidad-global-de-eHealth.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.407111,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco and Teliti Datacenters announced a collaboration to develop a green data center model in Malaysia, aiming for energy efficiency and reduced carbon emissions. This partnership will involve Cisco sharing best practices for data center management and governance, supporting Teliti in building a state-of-the-art facility at the Enstek high-technology business park. The initiative aligns with Malaysia's goal to cut carbon emissions by 40% by 2012 and positions the country as a regional IT hub.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410059"
+        }
+      ],
+      "time_published": "20100701T183105",
+      "title": "Cisco and Teliti Collaborate on Green Data Center Model in Malaysia",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.737404",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m07/cisco-and-teliti-collaborate-on-green-data-center-model-in-malaysia.html"
+    },
+    {
+      "authors": [
+        "Peter Svensson"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.157974,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Cisco Systems Inc. announced its plan to release the \"Cius,\" a 7-inch tablet computer designed for business use, in early 2011. Positioned as a rival to Apple's iPad, the Cius will feature two cameras for videoconferencing, run on Google's Android software, and aim for an \"IT friendly\" design. Cisco intends to sell the device for under $1,000, focusing on its potential as a desk computer replacement with virtualized applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.250533"
+        },
+        {
+          "relevance_score": "0.745218",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108388"
+        },
+        {
+          "relevance_score": "0.624857",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.085623"
+        }
+      ],
+      "time_published": "20100629T182200",
+      "title": "Cisco to launch iPad-like tablet for office use",
+      "topics": [
+        {
+          "relevance_score": "0.907846",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna38006681"
+    },
+    {
+      "authors": [
+        "ASSOCIATED PRESS"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.356783,
+      "source": "Victorville Daily Press",
+      "source_domain": "Victorville Daily Press",
+      "summary": "Russian President Dmitry Medvedev visited Silicon Valley, sending his first tweet and expressing optimism for Russia's adoption of a high-tech economy. He aimed to bring more high-tech innovation to Russia's oil-dependent economy and create a Russian Silicon Valley. Cisco Systems Inc. announced a $1 billion investment over 10 years to foster high-tech innovation in Russia, bolstering Medvedev's goals despite acknowledged challenges regarding corruption.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.939298",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.367419"
+        }
+      ],
+      "time_published": "20100624T183105",
+      "title": "Medvedev: New technologies would open access to information",
+      "topics": [
+        {
+          "relevance_score": "0.930964",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.824064",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.613112",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.vvdailypress.com/story/news/nation-world/2010/06/24/medvedev-new-technologies-would-open/37085849007/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.455982,
+      "source": "\u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442 \u0420\u043e\u0441\u0441\u0438\u0438",
+      "source_domain": "\u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442 \u0420\u043e\u0441\u0441\u0438\u0438",
+      "summary": "Dmitry Medvedev oversaw the signing of an agreement between the Foundation for Development for the Skolkovo Centre and Cisco Systems, Inc. for cooperation in information and communication technologies. The agreement aims to promote promising programs at the Skolkovo Innovation Centre, with Cisco helping Skolkovo become the first Russian town to implement its Smart+Connected Communities concept. Cisco Chairman and CEO John Chambers also joined the Skolkovo Foundation Council.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.471466"
+        }
+      ],
+      "time_published": "20100623T230000",
+      "title": "Visit to Cisco",
+      "topics": [
+        {
+          "relevance_score": "0.823700",
+          "topic": "technology"
+        }
+      ],
+      "url": "http://en.kremlin.ru/events/president/news/8148"
+    },
+    {
+      "authors": [
+        "BROOKE DONALD",
+        "Associated Press Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.410467,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "Cisco Systems Inc. announced a $1 billion investment over 10 years to foster high-tech innovation in Russia, a commitment made during a meeting between Cisco CEO John Chambers and Russian President Dmitry Medvedev. Medvedev, visiting Silicon Valley, expressed his vision for Russia to move towards an innovation-based economy, reducing its reliance on natural resources. Cisco plans to establish a physical presence and a second global headquarters for its emerging technologies group in Skolkovo, Russia.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409228"
+        }
+      ],
+      "time_published": "20100623T183104",
+      "title": "Cisco commits $1B in meeting with Russian leader",
+      "topics": [
+        {
+          "relevance_score": "0.907540",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.745255",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://phys.org/news/2010-06-cisco-commits-1b-russian-leader.html"
+    },
+    {
+      "authors": [
+        "Phyllis Korkki"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.172407,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Videoconferencing saw a rise in use during the recession and volcanic ash disruptions, with experts debating its long-term role. While effective for routine updates, in-person meetings remain crucial for strategic planning, new business generation, and building relationships, as they convey importance and can offer personal benefits beyond the meeting itself. Companies are weighing the financial savings and logistical advantages of virtual meetings against the irreplaceable value of physical presence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229195"
+        },
+        {
+          "relevance_score": "0.749946",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140012"
+        },
+        {
+          "relevance_score": "0.811331",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.206011"
+        }
+      ],
+      "time_published": "20100505T190602",
+      "title": "Beaming Into the Big Meeting (Published 2010)",
+      "topics": [
+        {
+          "relevance_score": "0.827875",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2010/05/06/business/06MEETING.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.264084,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco and EMC announced the appointment of Michael D. Capellas as the leader of the Virtual Computing Environment (VCE) coalition and CEO of Acadia, a joint venture with Intel and VMware. Capellas will drive the adoption of VCE's business-ready IT solutions and lead Acadia's \"build, operate and transfer\" business model for private cloud infrastructures. The VCE coalition aims to accelerate data center transformation and enable faster, more secure deployment of business applications through private cloud computing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448209"
+        },
+        {
+          "relevance_score": "0.644196",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270157"
+        },
+        {
+          "relevance_score": "0.579256",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109329"
+        }
+      ],
+      "time_published": "20100505T183105",
+      "title": "Cisco and EMC Appoint Michael D. Capellas to Lead VCE Coalition; Named CEO of Acadia Joint Venture",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m05/cisco-and-emc-appoint-michael-d-capellas-to-lead-vce-coalition-named-ceo-of-acadia-joint-venture.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.417479,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced the completion of its voluntary offer for TANDBERG, a global leader in video communications, and the launch of a compulsory acquisition of remaining shares. This acquisition integrates TANDBERG's product line into the Cisco TelePresence portfolio, aiming to accelerate Cisco's vision for collaboration and video communication. Cisco will acquire all outstanding TANDBERG shares for 170 Norwegian kroner per share, totaling approximately 19 billion Norwegian kroner or $3.3 billion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404019"
+        }
+      ],
+      "time_published": "20100418T183104",
+      "title": "Cisco Completes TANDBERG Offer and Launches Compulsory Acquisition",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.910254",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m04/cisco-completes-tandberg-offer-and-launches-compulsory-acquisition.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.433022,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco has announced a collaboration with Sime Darby Property and Mesiniaga Berhad to develop Smart+Connected Communities in Malaysia, focusing on social, economic, and environmental sustainability. This partnership, formalized through an MoU, will integrate Cisco's ICT solutions into SDP's present and future projects, including the Sime Darby Idea House. The initiative aims to utilize the network as a platform for sustainability, addressing challenges of urbanization and environmental impact.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442335"
+        }
+      ],
+      "time_published": "20100406T183105",
+      "title": "Cisco, Sime Darby Property and Mesiniaga Collaborate to Develop Smart+Connected Communities in Malaysia",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.936962",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.615527",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m04/cisco-sime-darby-property-and-mesiniaga-collaborate-to-develop-smart-connected-communities-in-malaysia.html"
+    },
+    {
+      "authors": [
+        "Peter Svensson"
+      ],
+      "banner_image": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630/newscms/2019_40/2996236/191004-cisco-linksys-ac-2007p-2996236.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.145346,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Cisco Systems Inc. is introducing a new brand of consumer Wi-Fi routers called \"Cisco Valet\" to simplify installation and setup, departing from the Linksys brand for these products. The Valet aims to address common consumer frustrations with router setup and will come with a USB flash drive for easy configuration, inspired by PureDigital's Flip camcorder success. While more expensive than equivalent Linksys models, the focus is on providing a better user experience.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137665"
+        }
+      ],
+      "time_published": "20100331T163000",
+      "title": "Cisco dropping Linksys brand from new routers",
+      "topics": [
+        {
+          "relevance_score": "0.802405",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna36121831"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.410699,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "The National Stock Exchange of India (NSE) has selected Cisco for an extensive deployment of its next-generation network architecture to enhance performance, security, and scalability. This deployment makes Cisco the exclusive networking technology provider to NSE, aimed at boosting network availability, security, and expanding NSE's reach across India. The solution includes Cisco routing, switching, and security technologies to support high-volume financial transactions and improve collaboration for 3,000 NSE member locations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424028"
+        }
+      ],
+      "time_published": "20100329T183105",
+      "title": "National Stock Exchange of India Selects Cisco to Enhance Network Performance, Security and Scalability",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.949410",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.826584",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m03/national-stock-exchange-of-india-selects-cisco-to-enhance-network-performance-security-and-scalability.html"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.241427,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "AT&T will offer a fix for wireless subscribers experiencing poor home reception: the 3G MicroCell, a femtocell device that routes calls and data over a broadband connection. The device, priced at $150, will launch in mid-April in select markets before a nationwide rollout. This makes AT&T's offering more advanced than competitors like Sprint and Verizon, as it supports both voice and 3G data services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259753"
+        },
+        {
+          "relevance_score": "0.715599",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239377"
+        }
+      ],
+      "time_published": "20100324T160400",
+      "title": "No bars at home? AT&T to offer $150 fix",
+      "topics": [
+        {
+          "relevance_score": "0.841380",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna36022810"
+    },
+    {
+      "authors": [
+        "Rich Miller"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.286666,
+      "source": "Data Center Knowledge",
+      "source_domain": "Data Center Knowledge",
+      "summary": "UnitedHealth Group is planning to construct a new data center worth over $100 million in Chaska, Minnesota, partnering with Cisco to build a national telehealth network. The 190,000-square-foot facility is expected to be completed in 2012 and will enhance the company's data center capabilities, supporting IT initiatives like the eSync Platform for synchronizing healthcare records. The project is also poised to benefit the local economy through property taxes and power sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410559"
+        },
+        {
+          "relevance_score": "0.739401",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305289"
+        },
+        {
+          "relevance_score": "0.622338",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335613"
+        },
+        {
+          "relevance_score": "0.638258",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201286"
+        },
+        {
+          "relevance_score": "0.614742",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136797"
+        }
+      ],
+      "time_published": "20100319T195618",
+      "title": "UnitedHealth Building $100 Million Data Center",
+      "topics": [
+        {
+          "relevance_score": "0.846780",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746470",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.605931",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.620671",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.datacenterknowledge.com/investing/unitedhealth-building-100-million-data-center"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.386498,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco has announced the Cisco CRS-3 Carrier Routing System, designed to be the foundation for the next-generation Internet, supporting the massive growth of video, mobile, and data center/cloud services. This new system offers significantly greater capacity than its predecessors and competitors, providing substantial savings and investment protection for existing Cisco CRS-1 customers. AT&T successfully field-tested the Cisco CRS-3, affirming its capabilities for future network requirements.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421805"
+        },
+        {
+          "relevance_score": "0.707228",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331228"
+        }
+      ],
+      "time_published": "20100309T183104",
+      "title": "Cisco Introduces Foundation for Next-Generation Internet: The Cisco CRS-3 Carrier Routing System",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m03/cisco-introduces-foundation-for-next-generation-internet-the-cisco-crs-3-carrier-routing-system.html"
+    },
+    {
+      "authors": [
+        "Greg Lindsay"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.186542,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "Hewlett Packard announced the first commercial application of its \"Central Nervous System for the Earth\" (CeNSE) initiative, planning to deploy billions of sensors to gather data for a \"smarter planet.\" Unlike rivals, HP intends to develop this system almost entirely in-house, from sensors to software and consulting. The first customer for CeNSE is Shell Oil, with a collaboration focusing on a wireless sensor network for oil exploration using HP's highly sensitive, custom-manufactured MEMS sensors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410889"
+        },
+        {
+          "relevance_score": "0.723872",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120759"
+        },
+        {
+          "relevance_score": "0.722873",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116996"
+        },
+        {
+          "relevance_score": "0.622312",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102846"
+        },
+        {
+          "relevance_score": "0.603023",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143593"
+        }
+      ],
+      "time_published": "20100212T185603",
+      "title": "HP Invents a \"Central Nervous System for Earth\" and Joins the Smarter Planet Sweepstakes",
+      "topics": [
+        {
+          "relevance_score": "0.910308",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fastcompany.com/1548674/hp-invents-central-nervous-system-earth-and-joins-smarter-planet-sweepstakes"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.322159,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "PepsiCo is deploying Cisco TelePresence systems globally to enhance cross-company collaboration with key distributors and retailers, utilizing managed services from BT. This initiative aims to increase productivity, reduce travel, and lessen PepsiCo's environmental footprint. The new technology provides an immersive virtual meeting experience that makes participants feel as though they are in the same room.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.943531",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347066"
+        },
+        {
+          "relevance_score": "0.969678",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303152"
+        }
+      ],
+      "time_published": "20100202T183105",
+      "title": "PepsiCo Strengthens Cross-Company Collaboration with BT and Cisco TelePresence",
+      "topics": [
+        {
+          "relevance_score": "0.824506",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m02/pepsico-strengthens-cross-company-collaboration-with-bt-and-cisco-telepresence.html"
+    },
+    {
+      "authors": [
+        "John Messina"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309126,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "Intel and Microsoft achieved 1 million IOPS over a single Gigabit Ethernet link using iSCSI, demonstrating significant performance gains for storage. This was accomplished by tightly coupling SSDs to a host and optimizing parameters like interrupts, driver software, and the physical interface. The test setup involved a quad-core Xeon server and both native and Hyper-V virtualized environments, with the 1 million IOPS equating to about 4 gigabytes per second of storage bandwidth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409674"
+        },
+        {
+          "relevance_score": "0.734335",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332353"
+        },
+        {
+          "relevance_score": "0.550252",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123413"
+        }
+      ],
+      "time_published": "20100120T190116",
+      "title": "Intel Squeezes 1 Million IOPS Over A Single Gigabit Ethernet Link",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://phys.org/news/2010-01-intel-million-iops-gigabit-ethernet.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.346266,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced the successful in-orbit test of its Internet Routing in Space (IRIS) technology, marking the first-ever deployment of an IP router aboard a commercial GEO satellite. Launched via Intelsat's IS-14 satellite, IRIS aims to provide radiation-tolerant IP routing for satellite communications, enabling mobile network capabilities for government agencies, military units, and allied forces. This technology offers enhancements like reduced latency and increased transponder utilization by eliminating the need for double-hopping to a teleport.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.922238",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320101"
+        }
+      ],
+      "time_published": "20100118T183104",
+      "title": "Cisco's Space Router Successfully Operates in Orbit",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m01/cisco-s-space-router-successfully-operates-in-orbit.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.111075,
+      "source": "SPAMfighter",
+      "source_domain": "SPAMfighter",
+      "summary": "The FBI and New York State Police are investigating the theft of $3.8 million from the Duanesburg Central School District's bank account in December 2009. Internet fraudsters made several illegal transfers to an overseas bank, with $2.5 million already retrieved. The school has temporarily halted Net-based access to accounts and implemented new security protocols, suspecting a banking Trojan may have compromised a school administrator's PC.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.936037",
+          "ticker": "NBTB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125123"
+        },
+        {
+          "relevance_score": "0.629281",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128485"
+        }
+      ],
+      "time_published": "20100116T192054",
+      "title": "Hackers Stole $3.8 Million from Duanesburg Central School Bank Account",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.841236",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.610943",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.spamfighter.com/News-13755-Hackers-Stole-$38-Million-from-Duanesburg-Central-School-Bank-Account.htm"
+    },
+    {
+      "authors": [
+        "Greg Lindsay"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.126225,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "IBM launched the second phase of its \"Smarter Planet\" campaign, declaring the 2010s \"the decade of smart\" where technology will pervade everything, generating vast amounts of data. IBM plans to capitalize on this by advising governments and businesses on how to make sense of this data, building on its success in securing multi-year contracts for \"smart solutions\" globally. While growth is fueled by public sector sales and emerging markets, the article notes that analysts perceive these initiatives as a way to stimulate IT spending rather than purely saving the world.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.602136",
+          "ticker": "ADSK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.122482"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401722"
+        },
+        {
+          "relevance_score": "0.721682",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339774"
+        },
+        {
+          "relevance_score": "0.638100",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107628"
+        },
+        {
+          "relevance_score": "0.618980",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.146360"
+        }
+      ],
+      "time_published": "20100114T180612",
+      "title": "IBM\u2019s Decade of Smart: Making Money by Making Sense of Data",
+      "topics": [
+        {
+          "relevance_score": "0.819979",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fastcompany.com/1514591/ibms-decade-smart-making-money-making-sense-data"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.548744,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco (NASDAQ: CSCO) announced a restructuring of its Asia Pacific and Japan operations, creating three distinct theaters: Greater China, Asia Pacific, and Japan, effective February 2010. This change aims to support focused strategies and resource investment in the region, with new leadership appointments for each theater. The Greater China theater, comprising China P.R.C., Hong Kong, and Taiwan, will be led by Owen Chan, while Edzard Overbeek will lead the combined Asia Pacific and Japan Theaters.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.520054"
+        }
+      ],
+      "time_published": "20100111T183104",
+      "title": "Cisco Announces Organizational Changes in Asia Pacific and Japan Region",
+      "topics": [
+        {
+          "relevance_score": "0.819813",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.730277",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.618573",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2010/m01/cisco-announces-organizational-changes-in-asia-pacific-and-japan-region.html"
+    }
+  ],
+  "items": "39",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

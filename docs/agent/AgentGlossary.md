@@ -437,6 +437,91 @@ It is the continuity backbone for long-lived work and fresh starts.
 **What it is not**  
 It is not casual note-taking and not transcript dumping.
 
+---
+
+### 2.22 Decision-option matrix
+
+**Strict definition**  
+A decision-option matrix is the canonical scored comparison block used in an
+approval-gate prompt when the user must choose between serious paths.
+
+**Why it matters operationally**  
+It forces option comparison to be explicit, auditable, and useful for owner
+decision-making instead of relying on vague narrative preference.
+
+**What it is not**  
+It is not a broad research-comparison profile and not a hidden winner-picking
+device. It is a user-facing decision aid for explicit path selection.
+
+**Typical consequences**  
+- include at least 3 options unless a third would require fabrication
+- score the mandatory categories and 4 context-specific categories
+- include brief explanation, main pros, and main cons for each option
+
+---
+
+### 2.23 Mandatory decision scoring dimensions
+
+**Strict definition**  
+The mandatory decision scoring dimensions are the required scored categories for
+approval-gate decision-option matrices: Accuracy, Complexity, Compute
+Intensity, Security, Compatibility, and Governance.
+
+**Why it matters operationally**  
+They create a stable minimum comparison surface across major owner decisions,
+improving consistency and reducing selective framing.
+
+**What it is not**  
+They are not a replacement for context-specific metrics. They are the minimum
+base layer, not the whole matrix.
+
+**Typical consequences**  
+- use all 6 in every serious decision-option matrix
+- add exactly 4 contextual scored categories for case-specific depth
+- keep score direction explicit: higher is better for every category
+
+---
+
+### 2.24 Compatibility score
+
+**Strict definition**  
+Compatibility score is the decision-matrix category that measures how well an
+option aligns with current approved definitions, decisions, benchmark
+constraints, and source-of-truth layers.
+
+**Why it matters operationally**  
+It reduces the risk that an option looks attractive locally while conflicting
+with already-approved project truth.
+
+**What it is not**  
+It is not mere code reuse convenience. Compatibility is broader and includes
+theory, design, benchmark, and governance fit.
+
+**Typical consequences**  
+- low compatibility should trigger stronger caution or explicit approval notes
+- high compatibility strengthens safe downstream propagation
+
+---
+
+### 2.25 Governance score
+
+**Strict definition**  
+Governance score is the decision-matrix category that measures how well an
+option preserves auditability, approval safety, data/process discipline, and
+benchmark-governed execution.
+
+**Why it matters operationally**  
+It keeps option comparisons from optimizing only for performance or convenience
+while ignoring repository-control quality.
+
+**What it is not**  
+It is not generic maintainability alone. Governance score specifically concerns
+truth control, evidence control, approval discipline, and benchmark integrity.
+
+**Typical consequences**  
+- low governance score should be called out explicitly in recommendation caveats
+- high governance score supports safer long-lived execution
+
 **Typical consequences**  
 - maintain `Current_State.md`
 - append `Event_Ledger.ndjson`

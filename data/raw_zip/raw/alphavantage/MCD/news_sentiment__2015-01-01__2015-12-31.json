@@ -1,0 +1,3843 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.154151,
+      "source": "macau daily times \u6fb3\u9580\u6bcf\u65e5\u6642\u5831",
+      "source_domain": "macau daily times \u6fb3\u9580\u6bcf\u65e5\u6642\u5831",
+      "summary": "A Shanghai court concluded the trial of OSI Group LLC, a U.S. meat supplier to McDonald\u2019s, which was accused of selling out-of-date products. No verdict schedule has been announced. This trial follows a Chinese TV report a year prior alleging that Husi workers were repackaging expired meat, impacting fast-food chains like McDonald\u2019s and Yum! Brands.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.329521"
+        },
+        {
+          "relevance_score": "0.804045",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.235697"
+        },
+        {
+          "relevance_score": "0.635079",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103099"
+        }
+      ],
+      "time_published": "20151231T095205",
+      "title": "McDonald\u2019s supplier trial concludes in Shanghai",
+      "topics": [
+        {
+          "relevance_score": "0.848232",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.732950",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://macaudailytimes.com.mo/mcdonalds-supplier-trial-concludes-in-shanghai.html"
+    },
+    {
+      "authors": [
+        "Austin Alonzo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.043722,
+      "source": "WATTPoultry.com",
+      "source_domain": "WATTPoultry.com",
+      "summary": "Representatives from General Mills and ARCOP Inc. discussed how evolving consumer preferences for sustainable practices and the 2015 avian influenza outbreak are shaping their business strategies. Topics included the growing demand for sustainably sourced ingredients, organic products, and antibiotic-free animal protein, alongside challenges related to supply chain changes and market volatility. The discussion highlighted the companies' efforts to respond to these trends while maintaining consistent supply and managing price fluctuations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.991492",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.055439"
+        },
+        {
+          "relevance_score": "0.635764",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119476"
+        },
+        {
+          "relevance_score": "0.569676",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019479"
+        },
+        {
+          "relevance_score": "0.569557",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029101"
+        }
+      ],
+      "time_published": "20151229T083707",
+      "title": "Big food animal protein buyers talk consumer trends",
+      "topics": [
+        {
+          "relevance_score": "0.848631",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.635173",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.wattagnet.com/broilers-turkeys/antibiotic-free-meat/article/15516234/big-food-animal-protein-buyers-talk-consumer-trends-wattagnet"
+    },
+    {
+      "authors": [
+        "Erica Shaffer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019545,
+      "source": "MEAT+POULTRY",
+      "source_domain": "MEAT+POULTRY",
+      "summary": "The European Union is investigating McDonald's for alleged preferential tax treatment by the Luxembourg government, specifically concerning its European royalties leading to double non-taxation. This probe is part of a broader EU crackdown on sweetheart tax deals for multinational companies, following similar investigations into Starbucks, Apple, and Amazon. McDonald's has denied any wrongdoing, despite reports claiming the company avoided over \u20ac1 billion in taxes between 2009 and 2013.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334553",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002394"
+        }
+      ],
+      "time_published": "20151203T102100",
+      "title": "EU to investigate McDonald\u2019s tax deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.836442",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.736069",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.meatpoultry.com/articles/12255-eu-to-investigate-mcdonald-s-tax-deal"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.124133,
+      "source": "The Straits Times",
+      "source_domain": "The Straits Times",
+      "summary": "Jollibee Foods Corp announced on Monday (Nov 23) that it is seeking to acquire one or two additional foreign food suppliers. These potential acquisitions would be comparable to or larger than its recent US$99 million purchase of a 40 per cent stake in US-based Smashburger. The company aims for these acquisitions, potentially including start-ups, to help achieve its goal of becoming one of the top five global food suppliers by market value.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.712727",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105163"
+        },
+        {
+          "relevance_score": "0.643246",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132839"
+        }
+      ],
+      "time_published": "20151123T154900",
+      "title": "Philippines' Jollibee says looking to buy 1 or 2 more foreign firms",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.817199",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.straitstimes.com/business/philippines-jollibee-says-looking-to-buy-1-or-2-more-foreign-firms"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.235716,
+      "source": "ABC13 Houston",
+      "source_domain": "ABC13 Houston",
+      "summary": "The Baybrook Mall in Friendswood, TX, officially opened its expansion with a ribbon cutting, featuring 30 new stores and several restaurants. The expansion includes new retailers like Zara and Kendra Scott, as well as entertainment venues such as Star Cinema and Dave & Busters. The general manager anticipates further growth for the mall, including a new power center.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.928675",
+          "ticker": "PLAY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331094"
+        },
+        {
+          "relevance_score": "0.725942",
+          "ticker": "DRI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219415"
+        },
+        {
+          "relevance_score": "0.631524",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242406"
+        },
+        {
+          "relevance_score": "0.590020",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200453"
+        }
+      ],
+      "time_published": "20151118T091712",
+      "title": "Dozens of new stores greet shoppers with Baybrook Mall expansion now open",
+      "topics": [
+        {
+          "relevance_score": "0.842883",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.941126",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://abc13.com/post/dozens-of-new-stores-greet-shoppers-at-baybrook-mall/1090362/"
+    },
+    {
+      "authors": [
+        "Dominique Haikel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.320993,
+      "source": "E! News",
+      "source_domain": "E! News",
+      "summary": "The Hershey Company announced it will be switching to simple ingredients for its Milk Chocolate Bars and Kisses, using fresh milk, responsibly sourced cocoa beans, pure cane sugar, and natural flavor. This move follows a trend of other major food brands like Chipotle, Taco Bell, and General Mills, which have also committed to removing harmful or artificial ingredients from their products. Hershey's will also use QR codes on holiday Kisses packs to provide detailed nutritional information.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HSY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.464585"
+        },
+        {
+          "relevance_score": "0.741503",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214133"
+        },
+        {
+          "relevance_score": "0.634667",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.203103"
+        },
+        {
+          "relevance_score": "0.644707",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349284"
+        },
+        {
+          "relevance_score": "0.568132",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.292780"
+        }
+      ],
+      "time_published": "20151118T010600",
+      "title": "Healthy and Delicious: Hershey's Will Switch to Chocolate With Simple Ingredients",
+      "topics": [
+        {
+          "relevance_score": "0.817911",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.eonline.com/news/716789/healthy-and-delicious-hershey-s-will-switch-to-chocolate-with-simple-ingredients"
+    },
+    {
+      "authors": [
+        "John Kell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.116109,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Former McDonald's CEO Don Thompson, who left the fast-food giant after a challenging 2 1/2-year tenure, has joined the board of vegan meat-substitute startup Beyond Meat. This move is seen as a coup for Beyond Meat, given Thompson's high-profile reputation. Beyond Meat also announced that Seth Goldman, co-founder of Honest Tea, would become executive chairman.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.913174",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.286660"
+        },
+        {
+          "relevance_score": "0.604340",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129567"
+        }
+      ],
+      "time_published": "20151109T090150",
+      "title": "A Former McDonald\u2019s CEO is Joining a Vegan Meat Startup",
+      "topics": [
+        {
+          "relevance_score": "0.823894",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.718003",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://fortune.com/2015/11/09/mcdonalds-beyond-meat-thompson/"
+    },
+    {
+      "authors": [
+        "Jonathan Chew"
+      ],
+      "banner_image": "https://content.fortune.com/wp-content/uploads/2014/06/venezuela.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.255802,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "McDonald's is bringing back its French fries to Venezuela, but due to skyrocketing inflation, a large order costs approximately $126, converted from 800 bolivars. This exorbitant price reflects Venezuela's severe economic crisis, driven by collapsing crude oil prices and dwindling foreign exchange reserves, leading to the world's highest inflation rates, which some analysts predict could exceed 100% this year. The article highlights the drastic increase in the cost of basic goods and the looming threat of the country defaulting on its debt.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299836"
+        }
+      ],
+      "time_published": "20151106T090151",
+      "title": "A Large McDonald\u2019s Fries Will Cost You This Much in Venezuela",
+      "topics": [
+        {
+          "relevance_score": "0.913519",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.847970",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.743912",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.621231",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://fortune.com/2015/11/06/mcdonalds-venezuela-fries/"
+    },
+    {
+      "authors": [
+        "Jonathan Chew"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.277759,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Two former McDonald's chicken suppliers, Thomas and Susan Blassingame, pleaded guilty to animal cruelty after an undercover video by Mercy for Animals exposed them beating sickly chickens. They were fined $25 each and given a year's probation. Both Tyson Foods and McDonald's condemned the actions, with McDonald's stating they no longer do business with T & S Farm and are committed to animal welfare.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309835"
+        },
+        {
+          "relevance_score": "0.808104",
+          "ticker": "TSN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.235002"
+        }
+      ],
+      "time_published": "20151030T090149",
+      "title": "Ex-McDonald's Suppliers Plead Guilty to Abusing Chickens",
+      "topics": [
+        {
+          "relevance_score": "0.837051",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://fortune.com/2015/10/30/mcdonalds-chicken-abuse/"
+    },
+    {
+      "authors": [
+        "Kevin P. O\u2019Connor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.812899,
+      "source": "Fall River Herald News",
+      "source_domain": "Fall River Herald News",
+      "summary": "A recently rebuilt McDonald's on President Avenue in Fall River has reopened, with a grand opening and ribbon-cutting ceremony scheduled. This location features upgrades like a Play Place, a double-lane drive-through, and new counter design, marking it as the third McDonald's in the city built in the company's new style. The reopening coincides with McDonald's Corporation's turnaround plan, which includes revamped menus, all-day breakfast, and a new store design, contributing to the company's stock hitting an all-time high and a 4% increase in sales at established restaurants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.812134"
+        }
+      ],
+      "time_published": "20151022T090151",
+      "title": "McDonald's is up and running again on President Avenue",
+      "topics": [
+        {
+          "relevance_score": "0.903135",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.heraldnews.com/story/business/2015/10/22/mcdonald-s-is-up-running/33223038007/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.131243,
+      "source": "Convenience Store News",
+      "source_domain": "Convenience Store News",
+      "summary": "McDonald's is testing sales of Monster energy drinks in approximately 20 U.S. restaurants across five states. This test follows The Coca-Cola Co.'s acquisition of a stake in Monster Beverage Corp. and leverages McDonald's existing beverage supply contract with Coca-Cola.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144344"
+        },
+        {
+          "relevance_score": "0.901923",
+          "ticker": "MNST",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236297"
+        },
+        {
+          "relevance_score": "0.706411",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129855"
+        },
+        {
+          "relevance_score": "0.626714",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144296"
+        }
+      ],
+      "time_published": "20151021T090151",
+      "title": "McDonald\u2019s Starts Selling Monster Energy Drinks",
+      "topics": [
+        {
+          "relevance_score": "0.822899",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.606198",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://csnews.com/mcdonalds-starts-selling-monster-energy-drinks"
+    },
+    {
+      "authors": [
+        "Mike Esterl"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.205141,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald's is currently test-selling Monster energy drinks in approximately 20 of its U.S. restaurants across five states. The fast-food chain began this modest test over the summer to gauge interest, although it has not yet decided on a wider expansion. Monster Beverage Corp. (MNST) is the supplier for these energy drinks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MNST",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265514"
+        },
+        {
+          "relevance_score": "0.844890",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120770"
+        }
+      ],
+      "time_published": "20151020T090212",
+      "title": "McDonald\u2019s Testing Sales of Monster\u2019s Energy Drinks",
+      "topics": [
+        {
+          "relevance_score": "0.908896",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/mcdonalds-testing-sales-of-monsters-energy-drinks-1445369289?gaa_at=eafs&gaa_n=AWEtsqcrhMzyPX484jtgg6bUpz4gnJAFvrGwGVu0VICFxHk_hioFmT9nqBxI&gaa_ts=690872c6&gaa_sig=RyWpaa3vBxdBg_PnsURbr-3eSyGJq0aUy0PvM207UXXc3eTZUGMNkuLz2oMb3YUtXbnsn3XB4XlQJPoiBHZ30A%3D%3D"
+    },
+    {
+      "authors": [
+        "Daniel Roberts"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.209145,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Starbucks plans to install video screens in 2,400 U.S. drive-throughs over the next 12 months to improve efficiency. These screens will allow customers to see their barista, enhancing personal connection and order accuracy. This initiative is part of Starbucks' broader emphasis on technology, including mobile ordering, to speed up service and stay competitive.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.959614",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318428"
+        },
+        {
+          "relevance_score": "0.635166",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104596"
+        }
+      ],
+      "time_published": "20151014T092701",
+      "title": "Starbucks Wants to Get You Caffeinated Faster\u2014With Video Screens",
+      "topics": [
+        {
+          "relevance_score": "0.948078",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.800157",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://fortune.com/2015/10/14/starbucks-video-screens/"
+    },
+    {
+      "authors": [
+        "Hannah Keyser"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.008636,
+      "source": "Mental Floss",
+      "source_domain": "Mental Floss",
+      "summary": "This article provides 11 \"toasty facts\" about the sandwich chain Quiznos, covering its founding based on fine-dining experience, its CEO's young age, and a failed venture into gyms. It also discusses Quiznos' rivalry with Subway, its subsequent setbacks, and its current strategy of expanding overseas. The piece highlights some of the brand's unique marketing efforts, including early commercials featuring Jim Parsons and the \"Spongemonkeys,\" as well as its recent success with viral online content.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QUIZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142445"
+        },
+        {
+          "relevance_score": "0.610314",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135299"
+        }
+      ],
+      "time_published": "20151013T092150",
+      "title": "11 Toasty Facts About Quiznos",
+      "topics": [
+        {
+          "relevance_score": "0.848563",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.mentalfloss.com/article/69298/11-toasty-facts-about-quiznos"
+    },
+    {
+      "authors": [
+        "Julie Jargon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.327491,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald's has appointed Chris Kempczinski, formerly of Kraft Foods Group, as its new executive vice president of strategy, business development, and innovation, effective October 26. This move is part of the company's efforts to reverse a three-year sales slump by bringing in new talent. Additionally, David Fairhurst will be named global chief people officer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303053"
+        }
+      ],
+      "time_published": "20150924T090151",
+      "title": "McDonald\u2019s Taps Chris Kempczinski as Head of Strategy",
+      "topics": [
+        {
+          "relevance_score": "0.811497",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.736659",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/mcdonalds-taps-chris-kempczinski-as-head-of-strategy-1443115900?gaa_at=eafs&gaa_n=AWEtsqfE8EPwkTKnCmKvTRRQkHvRPotXMBNnlc50_srs8AnMHtj8sTKA5HkQ&gaa_ts=690872b5&gaa_sig=ZLGuIpKvfkpupaJXQAT1nu13c_piEQSJBUp1DwN1wWLhnXXhMkvPP4_wyyzbX5uMGeZua9-XxPIRDR6yDsFEZA%3D%3D"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.100704,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "McDonald's Corp announced that its 16,000 U.S. and Canadian restaurants will serve only cage-free eggs within 10 years, a move that comes as the company prepares to serve all-day breakfast and rebuilds egg supplier flocks after a bird flu outbreak. This decision aligns McDonald's with other major companies like Burger King and Starbucks, which are also transitioning to cage-free eggs due to lobbying efforts from animal welfare groups. The shift also follows California's 2008 law requiring more spacious living conditions for egg-laying chickens, influencing other states and countries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262870"
+        },
+        {
+          "relevance_score": "0.601206",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147539"
+        },
+        {
+          "relevance_score": "0.624001",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131071"
+        },
+        {
+          "relevance_score": "0.613771",
+          "ticker": "COST",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.120746"
+        }
+      ],
+      "time_published": "20150910T090150",
+      "title": "Coming to a McDonald\u2019s near you: cage-free Egg McMuffins",
+      "topics": [
+        {
+          "relevance_score": "0.833770",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.646313",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://fortune.com/2015/09/10/coming-to-a-mcdonalds-near-you-cage-free-egg-mcmuffins/"
+    },
+    {
+      "authors": [
+        "Stephanie Strom"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.020676,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "McDonald's Corporation announced its plan to phase out the use of eggs from caged hens, a move with significant implications for American and Canadian egg producers. The company, which uses about two billion eggs annually, expects this transition to take up to 10 years as less than 10 percent of the nation's laying hens are currently cage-free. McDonald\u2019s believes its decision, alongside similar moves by other major egg users, will help mitigate the cost impact on its system by eventually driving down the price of cage-free eggs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.997276",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332888"
+        },
+        {
+          "relevance_score": "0.682473",
+          "ticker": "TSN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.215836"
+        },
+        {
+          "relevance_score": "0.557105",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117825"
+        }
+      ],
+      "time_published": "20150909T090150",
+      "title": "McDonald\u2019s Plans a Shift to Eggs From Only Cage-Free Hens (Published 2015)",
+      "topics": [
+        {
+          "relevance_score": "0.821648",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.616152",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nytimes.com/2015/09/10/business/mcdonalds-to-use-eggs-from-only-cage-free-hens.html"
+    },
+    {
+      "authors": [
+        "Dara Doyle"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.124724,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "McDonald's is being forced to stop using the term \"artisan\" to describe its McMor burger in Ireland due to new Irish guidelines defining what qualifies as artisan. The McMor, which roughly translates to Big Mac, contains Ballymaloe Relish, Charleville Cheddar Cheese, and a potato-flaked bun layered with shredded cabbage, beef, and bacon. This decision highlights the specific meaning artisan now holds under Irish regulations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.122739"
+        }
+      ],
+      "time_published": "20150901T113300",
+      "title": "McDonald's Loses Artisan Label on Irish Bacon and Cabbage Burger",
+      "topics": [
+        {
+          "relevance_score": "0.809224",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2015-09-01/mcdonald-s-loses-artisan-label-on-irish-bacon-and-cabbage-burger"
+    },
+    {
+      "authors": [
+        "Margie Manning"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.199487,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Jack Kemp, through his company Phase Three Star LLC, operates 40 Hardee's restaurants across Florida, having started with 10 in the Tampa market in 2013 and later adding two more. This expansion signifies a significant presence in the burger market. The article highlights his company's growth in the quick-service restaurant industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335778",
+          "ticker": "CADE-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.020288"
+        },
+        {
+          "relevance_score": "0.627675",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.366140"
+        }
+      ],
+      "time_published": "20150828T081109",
+      "title": "Cadence Bank, Phase Three Star take a big bite of the burger market",
+      "topics": [
+        {
+          "relevance_score": "0.841941",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.749676",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/tampabay/print-edition/2015/08/28/cadence-bank-phase-three-star-take-a-big-bite-of.html"
+    },
+    {
+      "authors": [
+        "Reuters in Los Angeles"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.374565,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "McDonald's and Tyson Foods severed ties with a Tennessee farm after an undercover video by Mercy For Animals showed workers committing animal cruelty against chickens. The farm, T&S Farm, was under contract to Tyson Foods, which supplies chicken meat to McDonald\u2019s for its McNuggets. Both companies condemned the behavior and initiated investigations, with Tyson terminating the farm's contract.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.953340",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.336268"
+        },
+        {
+          "relevance_score": "0.870197",
+          "ticker": "TSN",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.414790"
+        }
+      ],
+      "time_published": "20150827T230800",
+      "title": "McDonald's drops nuggets supplier after video shows animal cruelty",
+      "topics": [
+        {
+          "relevance_score": "0.803889",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.631553",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theguardian.com/us-news/2015/aug/27/mcdonalds-drops-chicken-nuggets-supplier-video"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.231664,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "McDonald's Corp and Tyson Foods both severed ties with T&S Farm in Tennessee after an undercover video released by Mercy For Animals showed workers engaging in severe animal cruelty towards chickens. Tyson Foods, which supplied chicken to McDonald's, terminated its contract with the farm following an investigation, and McDonald's supported this decision, calling the behavior unacceptable. The Weakley County Sheriff's Office has opened an investigation into the reported animal abuse.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.262304"
+        },
+        {
+          "relevance_score": "0.980683",
+          "ticker": "TSN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.239421"
+        }
+      ],
+      "time_published": "20150827T205700",
+      "title": "McDonald's, Tyson Foods Drop Farm After Videotape Shows Animal Cruelty",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.719431",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nbcnews.com/news/us-news/mcdonalds-tyson-foods-drop-farm-after-videotape-shows-animal-cruelty-n417436"
+    },
+    {
+      "authors": [
+        "By Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.133702,
+      "source": "Financial Post",
+      "source_domain": "Financial Post",
+      "summary": "McDonald's rejected Burger King's public proposal to create a hybrid \"McWhopper\" sandwich for charity, suggesting the two fast-food giants could collaborate on something \"bigger to make a difference\" rather than engaging in a publicized \"burger war\" analogy. McDonald's CEO Steve Easterbrook stated that a simple phone call would suffice for future proposals and emphasized focusing on friendly business competition. Burger King had taken out full-page ads in major newspapers and created a website to promote the idea, aiming to raise money for a peace charity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148949"
+        }
+      ],
+      "time_published": "20150826T090151",
+      "title": "McDonald's rejects Burger King's full-page ad proposal for 'McWhopper': 'A simple phone call will do next time'",
+      "topics": [
+        {
+          "relevance_score": "0.813166",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://financialpost.com/news/retail-marketing/mcdonalds-rejects-burger-kings-full-page-ad-proposal-for-mcwhopper-a-simple-phone-call-will-do-next-time"
+    },
+    {
+      "authors": [
+        "Craig Giammona"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.131959,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Burger King proposed a truce with McDonald's to create a \"McWhopper,\" a hybrid burger combining elements from both their signature sandwiches. The plan involves selling the burger for one day at a pop-up restaurant in Atlanta, with all profits going to an organization that promotes world peace. This initiative is a creative attempt by Burger King to set aside their long-standing rivalry for a charitable cause.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119681"
+        }
+      ],
+      "time_published": "20150826T040000",
+      "title": "Burger King Seeks McDonald\u2019s Truce With \u2018McWhopper\u2019 Proposal",
+      "topics": [
+        {
+          "relevance_score": "0.932582",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2015-08-26/burger-king-offers-to-sell-mcwhopper-in-truce-with-mcdonald-s"
+    },
+    {
+      "authors": [
+        "Economist Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.069027,
+      "source": "CFO.com",
+      "source_domain": "CFO.com",
+      "summary": "The article discusses the complex issue of defining \"employer\" in cases involving subcontracted labor, freelancers, and franchisees, focusing on an upcoming NLRB ruling concerning Republic Services and its subcontractor Leadpoint Business Services. It explores how this ruling could significantly impact contracting, outsourcing, and franchising across the U.S. economy, drawing parallels with cases like Uber's driver classification. The piece highlights the potential shift in the definition of \"joint employment\" and its far-reaching consequences for businesses and workers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.966200",
+          "ticker": "RSG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.311100"
+        },
+        {
+          "relevance_score": "0.824557",
+          "ticker": "UBER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107325"
+        },
+        {
+          "relevance_score": "0.677865",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115899"
+        }
+      ],
+      "time_published": "20150825T092648",
+      "title": "Companies and Employment: Who\u2019s the Boss?",
+      "topics": [
+        {
+          "relevance_score": "0.823615",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.744348",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cfo.com/news/companies-and-employment-whos-the-boss/663404/"
+    },
+    {
+      "authors": [
+        "Laurie Burkitt"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.103966,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Chinese Internet giants like Alibaba and Tencent are entering the food delivery market, challenging Western fast-food chains like KFC and McDonald's. These app-based startups are attracting urban consumers with discounts, free delivery, and a wide selection of restaurants. The rapid growth in food delivery reflects a significant shift in consumer behavior in China.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.306231",
+          "ticker": "YUMC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.039856"
+        },
+        {
+          "relevance_score": "0.710849",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.215542"
+        }
+      ],
+      "time_published": "20150809T095205",
+      "title": "In China, Fast-Food Fight Turns to Delivery",
+      "topics": [
+        {
+          "relevance_score": "0.819434",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.728701",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/in-china-fast-food-fight-turns-to-delivery-1439130011?gaa_at=eafs&gaa_n=AWEtsqf1A9y1peSnTyBz8trEUfvAvDlkLdT2_PqRfJdOzb10oOKrZRDzbJ5Y&gaa_ts=69087e8a&gaa_sig=UIrY_2v1ICZEyeDPpPCVAVm8ktb3l41cY0shsxfN6Crd5hdyVFYLuEbQx3nyDNCgRl8DMTtop_3UyOu_6XelaQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Michal Addady"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.313559,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "McDonald's is currently running a \"Create Your Taste\" contest in Australia, allowing customers to customize their own burgers from a selection of 30 ingredients. Participants can enter their creations online for a chance to win various prizes, including free meals or a trip to Thailand. The article highlights some of the unique and unusual burger combinations devised by contestants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316560"
+        }
+      ],
+      "time_published": "20150804T090151",
+      "title": "McDonald's Hosts 'Create Your Taste' Contest in Australia",
+      "topics": [
+        {
+          "relevance_score": "0.825976",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://fortune.com/2015/08/04/mcdonalds-contest-taste-weirdest-burgers/"
+    },
+    {
+      "authors": [
+        "CASEY LOGAN"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.307576,
+      "source": "The News-Press",
+      "source_domain": "The News-Press",
+      "summary": "The McDonald's at 3645 Cleveland Ave. in Fort Myers, the site of Florida's first McDonald's land deal, is being demolished and rebuilt with a modern, European-bistro feel and energy-efficient features. The new store, expected to open on October 22, will include a modular counter setup and three drive-thru windows. Owned and operated by Sam Homsi and his daughter Deana, the location is a significant historical site for McDonald's in Florida and aims to revitalize the surrounding area.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341236"
+        }
+      ],
+      "time_published": "20150802T090151",
+      "title": "McDonald's to rebuild on landmark Fort Myers site",
+      "topics": [
+        {
+          "relevance_score": "0.909973",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.742284",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.606455",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.news-press.com/story/news/2015/08/02/mcdonalds-rebuild-landmark-fort-myers-site/31021921/"
+    },
+    {
+      "authors": [
+        "Anna Douglas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.204511,
+      "source": "Rock Hill Herald",
+      "source_domain": "Rock Hill Herald",
+      "summary": "A McDonald's restaurant in Rock Hill operated for six days without air conditioning in its dining room, with temperatures reaching 94 degrees. The company stated employees were offered options to leave or take breaks in cooler areas, and the restaurant remained open due to high drive-thru traffic. The issue was resolved after a replacement part for repairs was received.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224249"
+        }
+      ],
+      "time_published": "20150730T164100",
+      "title": "McDonald\u2019s explains 6 days of no air conditioning in Rock Hill restaurant",
+      "topics": [
+        {
+          "relevance_score": "0.818039",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.heraldonline.com/news/local/article29570206.html"
+    },
+    {
+      "authors": [
+        "John Kell"
+      ],
+      "banner_image": "https://images.fortune.com/wp-content/uploads/2014/08/burger-king.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.111943,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Burger King has seen a significant boost in sales, largely attributed to the reintroduction of Chicken Fries and other menu streamlining efforts. The company reported a 19 percent surge in second-quarter net income and comparable sales jumped by 6.7%, outperforming rival McDonald's. This success follows a merger with Tim Hortons to form Restaurant Brands International.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QSR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.493573"
+        },
+        {
+          "relevance_score": "0.648394",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.341720"
+        }
+      ],
+      "time_published": "20150727T092149",
+      "title": "Burger King Sales Get a Boost From Chicken Fries",
+      "topics": [
+        {
+          "relevance_score": "0.919825",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.818203",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.622028",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://fortune.com/2015/07/27/burger-king-chicken-fries-boost/"
+    },
+    {
+      "authors": [
+        "Monica Watrous"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.217595,
+      "source": "MEAT+POULTRY",
+      "source_domain": "MEAT+POULTRY",
+      "summary": "McDonald's continues to face disappointing performance in the US, with net income and revenues falling significantly in the first half of the year. CEO Steve Easterbrook outlined plans to stabilize the business through menu reductions, the expansion of all-day breakfast, and the launch of a mobile app, acknowledging that recovery will be challenging but expressing confidence in the new direction.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.999011",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.319973"
+        },
+        {
+          "relevance_score": "0.680406",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101050"
+        }
+      ],
+      "time_published": "20150724T145600",
+      "title": "McDonald\u2019s still struggling in the US",
+      "topics": [
+        {
+          "relevance_score": "0.931901",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.804006",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.meatpoultry.com/articles/13186-mcdonald-s-still-struggling-in-the-us"
+    },
+    {
+      "authors": [
+        "Charles Lewis Sizemore"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.332693,
+      "source": "Kiplinger",
+      "source_domain": "Kiplinger",
+      "summary": "This article identifies three core dividend stocks suitable for a retirement portfolio: McDonald's (MCD), Realty Income (O), and Unilever (UL). The author highlights their consistent dividend growth, strong business models, and potential for long-term income generation to combat inflation. These stocks are presented as foundational holdings that offer stability and increasing income.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.900006",
+          "ticker": "O",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340826"
+        },
+        {
+          "relevance_score": "0.850191",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307140"
+        }
+      ],
+      "time_published": "20150723T091211",
+      "title": "3 Core Dividend Stocks for Retirement",
+      "topics": [
+        {
+          "relevance_score": "0.945585",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.708113",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.832489",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.kiplinger.com/article/retirement/t018-c032-s014-3-core-dividend-stocks-for-retirement.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.469172,
+      "source": "OCFL Newsroom",
+      "source_domain": "OCFL Newsroom",
+      "summary": "Orange County Mayor Teresa Jacobs joined McDonald's Corporation and Oerther Foods, Inc. to break ground on a new \"World\u2019s Largest Entertainment McDonald\u2019s\" on Sand Lake Road. This state-of-the-art facility will replace the iconic restaurant that has been operating since 1976, bringing innovative technology, entertainment, and a unique dining experience to Central Florida, including nearly 100 construction jobs. The new restaurant is slated to open in early 2016.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.474654"
+        }
+      ],
+      "time_published": "20150722T090149",
+      "title": "Orange County Helps Usher in a New Era for the Iconic \"World\u2019s Largest Entertainment McDonald\u2019s\"",
+      "topics": [
+        {
+          "relevance_score": "0.843488",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.703116",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://newsroom.ocfl.net/2015/07/orange-county-helps-usher-in-a-new-era-for-the-iconic-worlds-largest-entertainment-mcdonalds/"
+    },
+    {
+      "authors": [
+        "Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.201485,
+      "source": "MEAT+POULTRY",
+      "source_domain": "MEAT+POULTRY",
+      "summary": "McDonald\u2019s Japan is testing a fine-dining pop-up concept called \"Restaurant M\" in Tokyo. This one-day event on July 27 will offer a five-course meal, including a Fresh Mac burger, served in a white-tablecloth setting for 20 diners. This initiative aims to regain consumer trust and improve sales after significant declines, with June same-store sales dropping 23.4 percent.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227302"
+        }
+      ],
+      "time_published": "20150716T152200",
+      "title": "McDonald\u2019s Japan tests Restaurant M concept",
+      "topics": [
+        {
+          "relevance_score": "0.808755",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.meatpoultry.com/articles/13185-mcdonald-s-japan-tests-restaurant-m-concept"
+    },
+    {
+      "authors": [
+        "Marley Jay",
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.046577,
+      "source": "The State Journal-Register",
+      "source_domain": "The State Journal-Register",
+      "summary": "McDonald's is defending its \"Minions\" Happy Meal toys after some customers claimed the toys were uttering curse words. The company states the toys are speaking only nonsense words, a claim supported by experts who suggest humans are prone to finding patterns or words in random noise, a phenomenon known as pareidolia. Despite complaints, McDonald's plans to continue distributing the toys through July.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.025097"
+        }
+      ],
+      "time_published": "20150710T090151",
+      "title": "McDonald's swears its 'Minions' toys aren't cussing",
+      "topics": [
+        {
+          "relevance_score": "0.908705",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.sj-r.com/story/news/2015/07/10/mcdonald-s-swears-its-minions/33899110007/"
+    },
+    {
+      "authors": [
+        "Laurie Burkitt"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.290601,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald\u2019s and Yum Brands (KFC) are implementing digital payment and mobile ordering options in China to accelerate sales and recover market share. McDonald's specifically plans to test mobile ordering and payment in the current third quarter, aiming to cater to the increasingly digital habits of Chinese consumers. This move follows a challenging year for both companies in the crucial Chinese market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.996748",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303683"
+        },
+        {
+          "relevance_score": "0.957817",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262495"
+        }
+      ],
+      "time_published": "20150705T095204",
+      "title": "McDonald\u2019s, KFC Look to Get Faster in China by Adding Digital Pay Option",
+      "topics": [
+        {
+          "relevance_score": "0.809127",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.823905",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/mcdonalds-kfc-look-to-get-faster-in-china-by-adding-digital-options-1436120662?gaa_at=eafs&gaa_n=AWEtsqdniW3sRCTOty-1TMAJnuE4oY_jftkfx7QLwYwiBI69ntHRjhuyKGuT&gaa_ts=69087e93&gaa_sig=0RSnUUH6RRuRvg4nO44ezLirYKIeZGbUD45Cb6kcCjjWVZ8vskvPZ7VoAfz0z62ik9MEOAvK8WGLNrB2pKq78g%3D%3D"
+    },
+    {
+      "authors": [
+        "Lisa Jennings"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.11438,
+      "source": "Nation\u2019s Restaurant News",
+      "source_domain": "Nation\u2019s Restaurant News",
+      "summary": "A survey by the American Customer Satisfaction Index (ACSI) found Chick-fil-A and Texas Roadhouse to have the highest customer satisfaction among limited-service and full-service restaurants, respectively. The report indicated a consumer shift towards prioritizing food quality over value, leading to declining satisfaction for many quick-service and pizza delivery chains. While overall full-service satisfaction held steady, limited-service scores dropped significantly due to perceived declines in quality, speed, and staff helpfulness.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TXRH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438838"
+        },
+        {
+          "relevance_score": "0.679378",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331288"
+        },
+        {
+          "relevance_score": "0.815925",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.534118"
+        },
+        {
+          "relevance_score": "0.740802",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.255773"
+        },
+        {
+          "relevance_score": "0.615297",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.304717"
+        }
+      ],
+      "time_published": "20150630T094243",
+      "title": "Survey: Chick-fil-A, Texas Roadhouse rank highest among consumers",
+      "topics": [
+        {
+          "relevance_score": "0.834138",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.724558",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nrn.com/casual-dining/survey-chick-fil-a-texas-roadhouse-rank-highest-among-consumers"
+    },
+    {
+      "authors": [
+        "Victor Luckerson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14068,
+      "source": "Time Magazine",
+      "source_domain": "Time Magazine",
+      "summary": "McDonald's is selling fewer sodas with its Happy Meals after removing them from kids' menus and marketing materials. This change is part of a partnership with the Alliance for a Healthier Generation and reflects a broader pledge by McDonald's to promote healthier lifestyles by encouraging choices like milk and juice. Data shows a significant drop in soda consumption with Happy Meals since the initiative began.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112127"
+        }
+      ],
+      "time_published": "20150626T112300",
+      "title": "Why McDonald's Is Selling Fewer Sodas With Its Happy Meals",
+      "topics": [
+        {
+          "relevance_score": "0.827815",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://time.com/3937497/mcdonalds-happy-meals-soda/"
+    },
+    {
+      "authors": [
+        "Lisa Wang"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.041728,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "McDonald's plans to sell off its 350 company-owned branches in Taiwan to potential franchisees as part of a global turnaround strategy. This move would end 31 years of company-owned stores in the nation and is prompted by lackluster performance, though McDonald's asserts it is not exiting the Taiwanese market. The company is seeking suitable local franchisees with strong operational capabilities and market understanding.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.330990",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001272"
+        }
+      ],
+      "time_published": "20150625T090151",
+      "title": "McDonald\u2019s to sell local branches",
+      "topics": [
+        {
+          "relevance_score": "0.933435",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.800656",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.605536",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/front/archives/2015/06/25/2003621507"
+    },
+    {
+      "authors": [
+        "Alison Griswold"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.373038,
+      "source": "Slate",
+      "source_domain": "Slate",
+      "summary": "For the first time since at least 1970, McDonald's will close more U.S. restaurants in 2015 than it will open, indicating a downturn for the fast-food giant. This downsizing follows a period of declining sales and a series of efforts to revamp its image and menu under a new CEO. The closures are part of a broader plan to shut down about 700 underperforming restaurants worldwide this year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.389504"
+        }
+      ],
+      "time_published": "20150619T123300",
+      "title": "McDonald\u2019s Can\u2019t Win Back America\u2019s Love, So It\u2019s Closing Restaurants Instead",
+      "topics": [
+        {
+          "relevance_score": "0.907462",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.829929",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.631414",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.627059",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://slate.com/business/2015/06/mcdonalds-to-shrink-u-s-restaurants-in-2015-for-first-time-in-decades.html"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.280488,
+      "source": "AzerNews",
+      "source_domain": "AzerNews",
+      "summary": "KFC plans to open 150 new restaurants in Russia and the Commonwealth of Independent States (CIS) by 2017, following a 48% sales surge in Russia during the first quarter. This expansion, along with those of rivals like Burger King and McDonald's, targets the growing fast-food market in Russia due to a contracting economy and shrinking household incomes. Yum! Brands Inc. also plans to open 300 Pizza Hut outlets in Russia and potentially introduce Taco Bell in the future.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.498803"
+        },
+        {
+          "relevance_score": "0.612192",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102585"
+        }
+      ],
+      "time_published": "20150617T174300",
+      "title": "KFC to add 150 restaurants in Russia after 48% sales surge",
+      "topics": [
+        {
+          "relevance_score": "0.834981",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.803179",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.702553",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.azernews.az/bloomberg/83899.html"
+    },
+    {
+      "authors": [
+        "Adam Jones"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305074,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article examines the factors that influence the restaurant industry, highlighting significant sales growth in the past 12 months and projected growth to $709 billion in 2015. It discusses critical economic indicators for investors to track, such as the economic cycle, retail sales, labor market conditions (jobless claims, ADP data), consumer spending, and fuel prices. The piece also identifies major chain restaurants like McDonald's, Yum! Brands, Starbucks, and Chipotle Mexican Grill.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.949984",
+          "ticker": "XLY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315548"
+        },
+        {
+          "relevance_score": "0.848377",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321008"
+        },
+        {
+          "relevance_score": "0.706152",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302677"
+        },
+        {
+          "relevance_score": "0.704832",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327977"
+        },
+        {
+          "relevance_score": "0.605706",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339276"
+        }
+      ],
+      "time_published": "20150609T084000",
+      "title": "Factors That Influence the Restaurant Industry",
+      "topics": [
+        {
+          "relevance_score": "0.944461",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.816555",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.712341",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/06/indicators-impact-restaurant-industry/"
+    },
+    {
+      "authors": [
+        "ktrk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.364001,
+      "source": "ABC13 Houston",
+      "source_domain": "ABC13 Houston",
+      "summary": "Taco Bell and Pizza Hut are removing artificial colors and flavors from their menus, responding to consumer demand for more natural ingredients. Taco Bell aims to remove artificial colors, flavors, high-fructose corn syrup, and unsustainable palm oil by the end of 2015, while Pizza Hut will remove artificial colors and preservatives by the end of July. These changes reflect a broader industry trend where food companies are striving to distance themselves from ingredients perceived as unappetizing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.420469"
+        },
+        {
+          "relevance_score": "0.700930",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315154"
+        },
+        {
+          "relevance_score": "0.608071",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343678"
+        }
+      ],
+      "time_published": "20150526T095204",
+      "title": "Taco Bell, Pizza Hut: Artificial ingredients getting booted",
+      "topics": [
+        {
+          "relevance_score": "0.948672",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://abc13.com/post/big-change-coming-for-taco-bell-pizza-hut-food/742353/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.291942,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Hundreds of protesters marched at McDonald's suburban Chicago headquarters calling for $15 an hour pay and a union. Approximately 100 protesters were arrested for trespassing during the demonstration, which shut down part of the corporate campus and a nearby restaurant. McDonald's stated that the minimum wage is a national discussion, not solely a company issue, while earlier this year they announced a raise in starting pay to $1 above local minimum wage for company-owned stores.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.258742"
+        }
+      ],
+      "time_published": "20150520T192300",
+      "title": "Not Lovin' It: Hundreds March at McDonald's Headquarters to Protest Low Wages",
+      "topics": [
+        {
+          "relevance_score": "0.812776",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.707140",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nbcnews.com/business/economy/not-lovin-it-hundreds-march-mcdonalds-headquarters-protest-low-wages-n362291"
+    },
+    {
+      "authors": [
+        "Aria Hughes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.111483,
+      "source": "WWD",
+      "source_domain": "WWD",
+      "summary": "Emanuel Chirico, chairman and CEO of PVH Corp., was honored at the 23rd annual Ronald McDonald House New York gala, which raised $6 million. His sons Dominic, Michael, and Vincent Chirico introduced him, sharing personal stories including his battle with lymphoma. Other honorees included Keith S. Sherin, and the event highlighted growth plans for the nonprofit from Tina Lundgren.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PVH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131681"
+        },
+        {
+          "relevance_score": "0.637262",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136127"
+        }
+      ],
+      "time_published": "20150519T165900",
+      "title": "Emanuel Chirico Honored at Ronald McDonald House Gala",
+      "topics": [
+        {
+          "relevance_score": "0.939754",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.736003",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.601494",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://wwd.com/eye/people/feature/emanuel-chirico-ronald-mcdonald-house-gala-10131770/"
+    },
+    {
+      "authors": [
+        "Amiram Barkat"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.282183,
+      "source": "Globes - Israel Business News",
+      "source_domain": "Globes - Israel Business News",
+      "summary": "Mark Zandi, chief economist of Moody's Analytics, expresses great optimism about Israel's economy, calling it one of the world's best due to its strong fiscal situation, low debt-to-GDP ratio, consistent growth, and nearly full employment. He also discusses global economic trends, including interest rate outlooks for the US, Europe, and Japan, and the challenges of inequality and political influence in the US. Zandi believes Europe can avoid a \"second Japan\" scenario if its current policies continue effectively.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.941482",
+          "ticker": "MCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277053"
+        },
+        {
+          "relevance_score": "0.640848",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.293176"
+        },
+        {
+          "relevance_score": "0.604544",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277830"
+        },
+        {
+          "relevance_score": "0.605500",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272242"
+        }
+      ],
+      "time_published": "20150517T145700",
+      "title": "Moody's chief economist: Israel in good shape",
+      "topics": [
+        {
+          "relevance_score": "0.943383",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.910466",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.838931",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://en.globes.co.il/en/article-moodys-chief-economist-israel-in-good-shape-1001037016"
+    },
+    {
+      "authors": [
+        "Dan Mitchell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.059368,
+      "source": "Time Magazine",
+      "source_domain": "Time Magazine",
+      "summary": "This article reflects on McDonald's 75-year history, citing its deep association with American identity and its evolution into a global entity. It discusses the challenges the company faces due to changing consumer tastes towards healthier, higher-quality food, and pressures on the labor front. The article highlights McDonald's struggles to adapt, despite its long-standing position as the \"King of Burgers.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.006583"
+        },
+        {
+          "relevance_score": "0.741645",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142833"
+        },
+        {
+          "relevance_score": "0.645521",
+          "ticker": "PNR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115395"
+        },
+        {
+          "relevance_score": "0.632346",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131251"
+        }
+      ],
+      "time_published": "20150515T085100",
+      "title": "75 Years Later, This Is Why McDonald's Became So Huge",
+      "topics": [
+        {
+          "relevance_score": "0.803298",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.604243",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://time.com/3860028/mcdonalds-75-anniversary/"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.110976,
+      "source": "The Hollywood Reporter",
+      "source_domain": "The Hollywood Reporter",
+      "summary": "McDonald\u2019s is testing breakfast bowls featuring kale in Southern California locations as part of an effort to reinvent its image and boost declining sales. One new offering, the Turkey Sausage & Egg White bowl, includes kale, spinach, and bruschetta, while another is a Chorizo & Egg bowl. This move comes as CEO Steve Easterbrook aims to transform McDonald\u2019s into a \"modern, progressive burger company,\" despite the company previously mocking trendy ingredients like kale in an advertisement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124699"
+        }
+      ],
+      "time_published": "20150507T132100",
+      "title": "McDonald\u2019s Testing Kale in Southern California Locations",
+      "topics": [
+        {
+          "relevance_score": "0.921226",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/mcdonalds-testing-kale-southern-california-794157/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.262956,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "McDonald's is bringing back its classic character, the Hamburglar, after a 13-year absence as part of a new ad campaign. The campaign features a grown-up, suburban Hamburglar who is lured out of retirement by McDonald's new \"Sirloin Third Pound\" burgers. This move is part of McDonald's broader strategy to improve perceptions of its food quality and turn around declining sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.280379"
+        }
+      ],
+      "time_published": "20150507T001900",
+      "title": "McDonald's Brings Back The Hamburglar In Latest Ad Campaign",
+      "topics": [
+        {
+          "relevance_score": "0.829162",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cbsnews.com/boston/news/mcdonalds-brings-back-the-hamburglar-in-latest-ad-campaign/"
+    },
+    {
+      "authors": [
+        "Bruce Horovitz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.12561,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "The CEO of Freshii, Matthew Corrin, has openly challenged McDonald's CEO Steve Easterbrook to put a mini-Freshii unit inside one McDonald's location, predicting a 30% jump in same-store sales and $250,000 annual profit increase within a year. Corrin, who is also Freshii's founder, claims he will refund the difference if his prediction doesn't materialize, aiming to prove that fast food and fresh food can coexist. This move comes as McDonald's seeks new ways to attract Millennials, while Freshii rapidly expands its healthy fast-food concept.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.945646",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120641"
+        }
+      ],
+      "time_published": "20150506T090149",
+      "title": "Freshii CEO to McDonald's CEO: Try us",
+      "topics": [
+        {
+          "relevance_score": "0.802827",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.629957",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/2015/05/06/mcdonalds-freshii-fast-food-restaurants-dining/70888128/"
+    },
+    {
+      "authors": [
+        "Samantha Masunaga"
+      ],
+      "banner_image": "https://www.latimes.com/images/la-fi-panera-artificial-ingredients-20150505-story.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.253727,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "A growing number of food companies, including Panera, PepsiCo, Nestle, Hershey, Dunkin' Donuts, Kraft, McDonald's, and Tyson, are eliminating artificial ingredients and human antibiotics from their products. This trend is a response to increasing consumer demand for fresher, healthier, and more transparent food options. Companies are reformulating products and changing sourcing to meet these consumer preferences.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.988852",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.282592"
+        },
+        {
+          "relevance_score": "0.753552",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227203"
+        },
+        {
+          "relevance_score": "0.748119",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327189"
+        },
+        {
+          "relevance_score": "0.742528",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326043"
+        },
+        {
+          "relevance_score": "0.634407",
+          "ticker": "HSY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265473"
+        }
+      ],
+      "time_published": "20150505T094200",
+      "title": "From Panera to Pepsi: companies eliminating artificial ingredients",
+      "topics": [
+        {
+          "relevance_score": "0.828947",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-fi-panera-artificial-ingredients-20150505-story.html"
+    },
+    {
+      "authors": [
+        "Erica Shaffer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.326006,
+      "source": "Food Business News",
+      "source_domain": "Food Business News",
+      "summary": "McDonald's is testing a new \"TasteCrafted Burgers and Chicken\" customization program at select restaurants, parallel to its \"Create Your Taste\" platform. TasteCrafted offers drive-thru friendly customization with various bun and topping combinations, while Create Your Taste provides a premium, made-to-order experience served at tables. These initiatives aim to provide customers with more choice and customization options.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318611"
+        }
+      ],
+      "time_published": "20150501T095100",
+      "title": "McDonald\u2019s tests customization program",
+      "topics": [
+        {
+          "relevance_score": "0.931984",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.foodbusinessnews.net/articles/6076-mcdonald-s-tests-customization-program"
+    },
+    {
+      "authors": [
+        "China Daily/Asia News Network"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019169,
+      "source": "Inquirer.net",
+      "source_domain": "Inquirer.net",
+      "summary": "McDonald's announced that it would close 350 stores globally, including 220 in China and the United States, following an 8.3 percent slump in first-quarter comparable sales in the Asia Pacific, Middle East, and Africa regions. The company's operating income for the quarter also saw a significant 80 percent decline in the Asia Pacific, Middle East, and Africa due to strategic restaurant closings and issues in Japan and China. Fast-food companies, including McDonald's and Yum Brands, are struggling in China due to consumer perception issues, food scandals, changing tastes, and a slowing economy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.349017",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010833"
+        }
+      ],
+      "time_published": "20150425T145500",
+      "title": "McDonald\u2019s to shutter 220 stores in China and US",
+      "topics": [
+        {
+          "relevance_score": "0.903787",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.817770",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.602097",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://business.inquirer.net/190838/mcdonalds-to-shutter-220-stores-in-china-and-us"
+    },
+    {
+      "authors": [
+        "AISHA AL-MUSLIM"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.039274,
+      "source": "Newsday",
+      "source_domain": "Newsday",
+      "summary": "Three young Long Island McDonald's franchisees, Steven Frazier, Katie Hunt, and Josh Kaufman, are taking over their family businesses, collectively owning and operating 42 of Long Island's 82 McDonald's restaurants. They are navigating industry challenges like declining sales, changing consumer tastes, and demands for higher wages while actively expanding their businesses and adapting to new company initiatives. Despite these hurdles, they express confidence in McDonald's direction and the profitability of their family-owned franchises.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.963721",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134973"
+        },
+        {
+          "relevance_score": "0.604521",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115539"
+        },
+        {
+          "relevance_score": "0.562978",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115966"
+        }
+      ],
+      "time_published": "20150424T090151",
+      "title": "LI McDonald's franchisees face industry challenges, changes",
+      "topics": [
+        {
+          "relevance_score": "0.949995",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.731282",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.610882",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.newsday.com/business/li-mcdonald-s-franchisees-face-industry-challenges-changes-o61822"
+    },
+    {
+      "authors": [
+        "Phil Wahba"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.252601,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "McDonald's is closing 700 poorly performing stores globally in 2015, including 350 already shuttered in the first quarter in Japan, the U.S., and China. This aggressive move is part of the company's effort to boost sagging profits following an 11% decrease in revenue and a 30% drop in profit in Q1 2015. The closures target locations dragging down results, especially after struggling with new competitors, a tough economy, and food safety scares.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.415005"
+        },
+        {
+          "relevance_score": "0.638066",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103788"
+        }
+      ],
+      "time_published": "20150422T090150",
+      "title": "McDonald\u2019s is closing hundreds of stores this year",
+      "topics": [
+        {
+          "relevance_score": "0.936011",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.733457",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2015/04/22/mcdonalds-restaurants-closing/"
+    },
+    {
+      "authors": [
+        "By Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.72698,
+      "source": "Financial Post",
+      "source_domain": "Financial Post",
+      "summary": "McDonald's Japan is forecasting wider losses for the year and plans to close 131 stores and cut 100 jobs due to declining sales from food scandals. The company expects a 38 billion yen loss in 2015, an increase from 21.8 billion yen in 2014, and attributes the issues to foreign objects found in its food. President Sarah Casanova has pledged a 20% pay cut as part of efforts to rebuild customer trust.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.700601"
+        }
+      ],
+      "time_published": "20150416T090150",
+      "title": "McDonald's Corp to close stores in Japan after food scandals slam sales",
+      "topics": [
+        {
+          "relevance_score": "0.907980",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.840973",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.603147",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://financialpost.com/news/retail-marketing/mcdonalds-corp-to-close-stores-in-japan-after-food-scandals-slam-sales"
+    },
+    {
+      "authors": [
+        "Jennifer Latson"
+      ],
+      "banner_image": "https://time.com/3774670/mcdonalds-ray-kroc-history/",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.410685,
+      "source": "Time Magazine",
+      "source_domain": "Time Magazine",
+      "summary": "This article recounts how Ray Kroc, a late-blooming entrepreneur, transformed McDonald's into the world's largest burger chain. It details his journey from a salesman to acquiring the McDonald brothers' company and expanding it globally. Kroc's business acumen and vast vision were instrumental in the company's success, which now serves millions daily across thousands of locations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410142"
+        }
+      ],
+      "time_published": "20150415T103000",
+      "title": "How a Late-Blooming Entrepreneur Made McDonald\u2019s the World\u2019s Largest Burger Chain",
+      "topics": [
+        {
+          "relevance_score": "0.916610",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.625476",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.618952",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://time.com/3774670/mcdonalds-ray-kroc-history/"
+    },
+    {
+      "authors": [
+        "Liz Ronk",
+        "Lily Rothman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14749,
+      "source": "Time Magazine",
+      "source_domain": "Time Magazine",
+      "summary": "This article provides a look back at early images and advertisements from McDonald's first few decades, marking 60 years since Ray Kroc opened his first franchise. It highlights the company's evolution from a hamburger joint to a global chain, featuring several previously unpublished photos and key historical milestones such as the introduction of the Filet-O-Fish and Big Mac.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129193"
+        }
+      ],
+      "time_published": "20150414T140000",
+      "title": "See Early Ads and Photographs From the McDonald\u2019s Archives",
+      "topics": [
+        {
+          "relevance_score": "0.940662",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.608719",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://time.com/3817181/mcdonalds-history-gallery/"
+    },
+    {
+      "authors": [
+        "Eric Schroeder"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.337689,
+      "source": "Baking Business",
+      "source_domain": "Baking Business",
+      "summary": "McDonald's is expanding its menu in Southern California with the introduction of new baked goods. Starting this spring, customers will be able to purchase Bundt cakes, pastries, and fried pies at McDonald's restaurants in the region. These new items, offered in various flavors, will be available all day, all year long.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.906582",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315638"
+        }
+      ],
+      "time_published": "20150407T082900",
+      "title": "McDonald\u2019s adding baked foods at Southern California outlets",
+      "topics": [
+        {
+          "relevance_score": "0.818249",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.625761",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bakingbusiness.com/articles/28542-mcdonald-s-adding-baked-foods-at-southern-california-outlets"
+    },
+    {
+      "authors": [
+        "Deon Roberts"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.066837,
+      "source": "Charlotte Observer",
+      "source_domain": "Charlotte Observer",
+      "summary": "Tyrel Oates, a Wells Fargo employee who gained national attention for emailing CEO John Stumpf and thousands of co-workers to advocate for a $10,000 raise for every employee, has resigned from the company. Oates stated his decision to leave was personal, driven by a desire to pursue a career in agriculture, and criticized Wells Fargo's \"complacent stance\" on his pay raise request. He encouraged his former co-workers to continue pushing for higher pay.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.987536",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105200"
+        },
+        {
+          "relevance_score": "0.629968",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133785"
+        },
+        {
+          "relevance_score": "0.613422",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124163"
+        }
+      ],
+      "time_published": "20150406T145800",
+      "title": "Wells Fargo employee who emailed CEO about pay resigns",
+      "topics": [
+        {
+          "relevance_score": "0.942276",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.732767",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.charlotteobserver.com/news/business/banking/article17531582.html"
+    },
+    {
+      "authors": [
+        "Michelle Fox"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.201925,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Texas Roadhouse CEO Kent Taylor discusses the company's unchanged recipe for success, focusing on great service, food, and a fun atmosphere. The strategy has led to significant stock growth and strong customer loyalty, attracting younger diners who appreciate the experience and customization. The restaurant also emphasizes local community involvement over national advertising.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TXRH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405642"
+        },
+        {
+          "relevance_score": "0.646684",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126161"
+        },
+        {
+          "relevance_score": "0.642150",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143952"
+        }
+      ],
+      "time_published": "20150404T140000",
+      "title": "Texas Roadhouse attracts young diners with old recipe: CEO",
+      "topics": [
+        {
+          "relevance_score": "0.823577",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.648171",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.cnbc.com/2015/04/02/ouse-ceo-looks-to-attract-younger-diners-with-time-tested-recipe.html"
+    },
+    {
+      "authors": [
+        "Craig Giammona"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.400711,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "McDonald's Corp. announced that it will raise hourly wages to at least $1 above the local minimum wage and introduce vacation benefits for workers at its company-owned locations. This change, effective July 1, will impact approximately 90,000 employees, with the company expecting average pay to exceed $10 an hour by the end of 2016 for these workers. The initiative aims to improve competitiveness in the labor market, though it does not extend to franchised restaurants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425231"
+        }
+      ],
+      "time_published": "20150401T194700",
+      "title": "McDonald\u2019s to Increase Hourly Wages, Offer Paid Vacation",
+      "topics": [
+        {
+          "relevance_score": "0.848485",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.631308",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2015-04-01/mcdonald-s-will-raise-worker-pay-by-more-than-10-journal-says"
+    },
+    {
+      "authors": [
+        "Shan Li and Tiffany Hsu"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19119,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "McDonald's is set to increase the minimum wage for 90,000 U.S. workers by over 10% this summer and introduce paid time off, marking it as the first major fast-food corporation to significantly improve worker conditions. These changes, however, apply only to the 10% of company-owned restaurants, with franchisees retaining discretion over their employees' pay and benefits. The move comes amid declining sales and increased pressure for better worker welfare, potentially prompting competitors to follow suit as the job market tightens.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123176"
+        },
+        {
+          "relevance_score": "0.743605",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227441"
+        },
+        {
+          "relevance_score": "0.611244",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205546"
+        }
+      ],
+      "time_published": "20150401T175600",
+      "title": "McDonald\u2019s is giving 90,000 workers raises and vacation time",
+      "topics": [
+        {
+          "relevance_score": "0.802120",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.733690",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-fi-mcdonalds-pay-raise-20150401-story.html"
+    },
+    {
+      "authors": [
+        "Tom Huddleston Jr."
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.240851,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "McDonald's announced plans to raise the average hourly wage for workers at its company-owned U.S. restaurants to $9.90 starting July 1, reaching over $10 per hour by the end of 2016. These employees will also be eligible for up to five days of paid vacation annually after one year of employment. However, these changes do not apply to workers at franchised McDonald's locations, which constitute nearly 90% of the company's U.S. restaurant employees.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.219525"
+        }
+      ],
+      "time_published": "20150401T090151",
+      "title": "McDonald\u2019s plans to raise workers\u2019 pay to $10 per hour by end of 2016",
+      "topics": [
+        {
+          "relevance_score": "0.809987",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.628799",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.926210",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://fortune.com/2015/04/01/mcdonalds-worker-pay/"
+    },
+    {
+      "authors": [
+        "Annie Gasparro and Eric Morath"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.024627,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald\u2019s Corp. plans to raise wages by more than 10% for workers at its U.S. company-owned restaurants, impacting 90,000 employees. Starting July 1, these workers will earn at least $1 an hour more than the local minimum wage. This move reflects increasing wage pressure in the American labor market, though it excludes franchisee-owned locations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.328383",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.039086"
+        }
+      ],
+      "time_published": "20150401T090150",
+      "title": "McDonald\u2019s Joins Trend in Raising Pay",
+      "topics": [
+        {
+          "relevance_score": "0.847951",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.721411",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/mcdonalds-to-raise-hourly-pay-for-90-000-workers-1427916364?gaa_at=eafs&gaa_n=AWEtsqeAza6tpNE_rZf2YMUdPrHzYxwtkUuhFSbBSdGauB2R_IJ2aeZMWi1Y&gaa_ts=690872ab&gaa_sig=v8-zo1wBUQtHT2hawTD2m9XvIS0K-VClYO9cS0bgQyKEawXm2Bu62aZxTMJgANPlitsaTcdMfwGHwM_GHpFvHw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.21836,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald's Corp. announced a wage increase for approximately 90,000 low-income workers at its corporate-owned U.S. restaurants, paying at least $1 above the local minimum wage and offering paid vacation starting July 1. This move comes despite ongoing targeting from organized labor and the National Labor Relations Board. The article suggests this wage increase is a positive development driven by a competitive market for talent, rather than corporate stinginess, and notes that economic gains have been slow to reach workers due to existing policies and rising costs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214166"
+        }
+      ],
+      "time_published": "20150401T090149",
+      "title": "A Raise at McDonald\u2019s",
+      "topics": [
+        {
+          "relevance_score": "0.818556",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.615711",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/a-raise-at-mcdonalds-1427930726?gaa_at=eafs&gaa_n=AWEtsqdaDMb0qZRuWVImZHd89kn2ZsMGBId22hHNegIw_qcCrgGpcmVrJF0i&gaa_ts=6908729f&gaa_sig=_m4lnvv87n_cRawSOEv2woJAIMNwcrNdu0-tzYMOHr8Yf9JUtgUKS3KWJ3PjfCmMD-WGnCERibdDpOFapSTxFw%3D%3D"
+    },
+    {
+      "authors": [
+        "Reuters",
+        "Fortune Editors"
+      ],
+      "banner_image": "https://fortune.com/2015/03/23/mcdonalds-uk-ceo-jill-mcdonald-swaps-burgers-for-bikes-and-car-parts/",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.08672,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Jill McDonald, the CEO of McDonald's UK, has left her role to become the new chief executive at Halfords Plc, a leading U.K. bike store chain. Her move highlights a shift from the stagnating European fast-food market to the booming cycling industry. McDonald's new position at Halfords includes a significant salary and bonus entitlements.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.057941"
+        }
+      ],
+      "time_published": "20150323T090150",
+      "title": "McDonald\u2019s UK CEO Jill McDonald swaps burgers for bikes and car parts",
+      "topics": [
+        {
+          "relevance_score": "0.945866",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://fortune.com/2015/03/23/mcdonalds-uk-ceo-jill-mcdonald-swaps-burgers-for-bikes-and-car-parts/"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.292245,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "McDonald's workers in 19 cities have filed complaints with the U.S. Occupational Safety and Health Administration (OSHA) regarding workplace hazards such as burns from popping grease, lack of protective equipment, and inadequate training. These complaints are part of the ongoing \"Fight for $15\" campaign, spearheaded by the Service Employees International Union, which aims for higher wages and unionization for fast-food workers. The campaign also seeks to hold McDonald's accountable as a joint employer for working conditions and safety standards at its franchised locations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.292740"
+        }
+      ],
+      "time_published": "20150316T143100",
+      "title": "McDonald's workers in 19 cities file complaints over workplace hazards",
+      "topics": [
+        {
+          "relevance_score": "0.848097",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/business/mcdonald-s-workers-in-19-cities-file-complaints-over-workplace-hazards-1.2997183"
+    },
+    {
+      "authors": [
+        "Lisa Baertlein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.315848,
+      "source": "Insurance Journal",
+      "source_domain": "Insurance Journal",
+      "summary": "McDonald's workers from 19 U.S. cities filed complaints with OSHA and state authorities, alleging hazardous working conditions that have led to severe burns and other safety issues. These complaints, part of the \"Fight for $15\" campaign, aim to hold McDonald's Corp. responsible for conditions in its franchised restaurants, with workers reporting pressure to clean hot equipment and inadequate first aid.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.300963"
+        }
+      ],
+      "time_published": "20150316T090149",
+      "title": "McDonald\u2019s Workers in 19 Cities File OSHA Complaints",
+      "topics": [
+        {
+          "relevance_score": "0.820440",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.insurancejournal.com/news/national/2015/03/16/360735.htm"
+    },
+    {
+      "authors": [
+        "Lisa Baertlein and P.J. Huffstutter"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fexternal-preview.redd.it%2FKFC-faces-pressure-after-McDonalds-says-no-antibiotics-in-v0-x1Gj4g1u80H52B-jA3sM9w02K0F6V_yH1L5mG3GfF6o.jpg%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3Db69b4e0ca4bb09a25b11910da179f8c679a9cd70",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.123437,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "KFC is facing increased pressure from consumer and environmental groups to change how its poultry is raised after McDonald's announced it would switch to chicken raised without human antibiotics. This move by McDonald's to address concerns about \"superbugs\" puts Yum Brands Inc-owned KFC in the spotlight, especially given previous sales hits in China over antibiotic use. Competitors like Chick-fil-A and chains like Chipotle are already promoting antibiotic-free meats, highlighting a growing trend in the food industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305616"
+        },
+        {
+          "relevance_score": "0.949426",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.435610"
+        },
+        {
+          "relevance_score": "0.702894",
+          "ticker": "COST",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320557"
+        },
+        {
+          "relevance_score": "0.643159",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231305"
+        }
+      ],
+      "time_published": "20150312T185900",
+      "title": "KFC faces pressure after McDonald's says no antibiotics in chicken",
+      "topics": [
+        {
+          "relevance_score": "0.946777",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.748343",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/kfc-faces-pressure-after-mcdonalds-says-no-antibiotics-in-chicken-idUSKBN0M80B7/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.00301,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "McDonald's is reintroducing its Chicken Selects Tenders for a limited time in Southern California, available through April 20. This marks their return after a two-year absence from the menu.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015092"
+        }
+      ],
+      "time_published": "20150310T090150",
+      "title": "McDonald's brings back Chicken Selects Tenders",
+      "topics": [
+        {
+          "relevance_score": "0.837558",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bizjournals.com/losangeles/news/2015/03/10/mcdonald-s-brings-back-chicken-selects-tenders.html"
+    },
+    {
+      "authors": [
+        "Chris Lange"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.008706,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Analysts are shifting their preference towards McDonald's over Yum! Brands, with McDonald's receiving upgrades due to potential growth, new CEO leadership, and strong competitive advantages. Meanwhile, Yum! Brands faces elevated risk from an uncertain China recovery, leading to a downgrade by some analysts despite a strong start to 2015.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.295721"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299674"
+        }
+      ],
+      "time_published": "20150304T122500",
+      "title": "Why Analysts May Now Prefer McDonald\u2019s Over Yum Brands",
+      "topics": [
+        {
+          "relevance_score": "0.928694",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.846439",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.736270",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://247wallst.com/services/2015/03/04/why-analysts-may-now-prefer-mcdonalds-over-yum-brands/"
+    },
+    {
+      "authors": [
+        "David Kesmodel",
+        "Jacob Bunge and Annie Gasparro"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14737,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald's plans to phase out the use of antibiotics important to human health in its U.S. chicken supply over the next two years. This move is expected to influence the broader food industry's approach to combating drug-resistant bacteria. The company will still allow suppliers to use antibiotics not deemed critical for human medicine.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111151"
+        }
+      ],
+      "time_published": "20150304T090149",
+      "title": "McDonald\u2019s to Curb Antibiotics in Chicken",
+      "topics": [
+        {
+          "relevance_score": "0.834629",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.707727",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/mcdonalds-to-curb-purchases-of-chicken-raised-with-antibiotics-1425482366?gaa_at=eafs&gaa_n=AWEtsqcLSXT-5vv7xvb1Rjxrc7TUUk-RHE6EaYpImPwk-esagpKcQ6ZELhOw&gaa_ts=690872a2&gaa_sig=M7jyiPABdoJOHPgWtny8ALW8WtIq0wXPAdL5yksgnwCpCPw_K5fhSck4aWnnSVv1bbuvRPUT-xcddr3BwECiKQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Josh Beckerman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.121188,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald's announced that new CEO Steve Easterbrook will receive a 69% increase to his base salary, leading to a $1.1 million base pay and a 160% annual incentive opportunity. Concurrently, former CEO Don Thompson will receive $3 million for a one-year consulting agreement, paid in two installments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137461"
+        }
+      ],
+      "time_published": "20150303T090150",
+      "title": "McDonald\u2019s New CEO Gets 69% Pay Raise",
+      "topics": [
+        {
+          "relevance_score": "0.937047",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.812140",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.609375",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/mcdonalds-old-ceo-to-get-3-million-for-consulting-1425419984?gaa_at=eafs&gaa_n=AWEtsqe27AzL1jintZgniNFSTHFPYQ8U99Ic83iiwW8x0LlhUFoxQaIS91zQ&gaa_ts=690872ae&gaa_sig=VGjf2dO96lYRnMq7rwP6_lxtf2koIHJW6mMl_FSJj_qZJBq-yUbx-5weDVf-gdda7GXoxDb_wVUkFJuq6gpYXA%3D%3D"
+    },
+    {
+      "authors": [
+        "Annie Gasparro"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.125131,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald's new CEO, Steve Easterbrook, has taken command of the company after previous CEO Don Thompson retired. Easterbrook, known as a change agent, is expected to discuss his plans with U.S. restaurant operators, franchise owners, and suppliers. The company saw a revenue decline of 2.4% to $27.44 billion and a 15% decrease in net income to $4.76 billion last year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114245"
+        }
+      ],
+      "time_published": "20150301T090151",
+      "title": "McDonald\u2019s New Chief Plots Counter Attack",
+      "topics": [
+        {
+          "relevance_score": "0.940127",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.811531",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/mcdonalds-new-chief-plots-counter-attack-1425257325?gaa_at=eafs&gaa_n=AWEtsqf9AQU5b05QjhSh-na_7Mq573J5M1R5YcRszipVJdUaKhKXCkaiZPFZ&gaa_ts=690872b5&gaa_sig=PDlzKJ6m4HEIO7YQkk4LmALGc0FMjraTZ24fcjhxrGjK7cRTiSWSif026O-ZhGPl92aezgMqiCrGADihhHpRjw%3D%3D"
+    },
+    {
+      "authors": [
+        "Nathanael Johnson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.10479,
+      "source": "Grist",
+      "source_domain": "Grist",
+      "summary": "This article examines the shift in the fast-food industry from traditional chains like McDonald's to \"new-school\" options like Chipotle, driven by consumer demand for fresher and healthier food. It discusses the limitations of this change, noting its catering to affluent customers and incremental nature, rather than a radical break from corporate capitalism. The piece also explores how McDonald's new CEO, Steve Easterbrook, might adapt the company to this changing landscape by adopting more ethical and quality-focused practices reminiscent of Chipotle.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972473",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096823"
+        },
+        {
+          "relevance_score": "0.912702",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256702"
+        },
+        {
+          "relevance_score": "0.641233",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.176310"
+        },
+        {
+          "relevance_score": "0.573005",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.082647"
+        },
+        {
+          "relevance_score": "0.528438",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.096318"
+        }
+      ],
+      "time_published": "20150226T090150",
+      "title": "Is Chipotle the McDonald\u2019s of the future \u2014 or the future of McDonald\u2019s?",
+      "topics": [
+        {
+          "relevance_score": "0.808489",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.719533",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://grist.org/food/is-chipotle-the-mcdonalds-of-the-future-or-the-future-of-mcdonalds/"
+    },
+    {
+      "authors": [
+        "Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.307874,
+      "source": "The Columbus Dispatch",
+      "source_domain": "The Columbus Dispatch",
+      "summary": "McDonald's is set to bring back its Chicken Selects tenders to its menu next month for a limited time. The product, made with fried strips of tenderloin chicken meat, was previously on the menu for over a decade before being discontinued in 2013 and its return is expected to impact the poultry industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328019"
+        }
+      ],
+      "time_published": "20150220T090150",
+      "title": "McDonald's bringing back chicken tenders next month",
+      "topics": [
+        {
+          "relevance_score": "0.824245",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.626230",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.dispatch.com/story/entertainment/dining/2015/02/20/mcdonald-s-bringing-back-chicken/24166128007/"
+    },
+    {
+      "authors": [
+        "Shruti Date Singh and Craig Giammona"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.232113,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "McDonald's Corp. is reintroducing chicken tenders, called Chicken Selects, to its U.S. menu in March 2015 for a limited time. This move confirmation by the Oak Brook, Illinois-based company is expected to positively impact the poultry industry. The Chicken Selects, made from fried tenderloin strips, were previously available for over a decade before being discontinued in 2013.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.294438"
+        },
+        {
+          "relevance_score": "0.719548",
+          "ticker": "TSN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.223224"
+        },
+        {
+          "relevance_score": "0.649460",
+          "ticker": "HRL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.193459"
+        }
+      ],
+      "time_published": "20150219T050100",
+      "title": "McDonald\u2019s Brings Back Tenders, Giving Boost to Chicken Industry",
+      "topics": [
+        {
+          "relevance_score": "0.809249",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.627776",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2015-02-19/mcdonald-s-brings-back-tenders-giving-boost-to-chicken-industry"
+    },
+    {
+      "authors": [
+        "Trefis Team"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.095182,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Restaurant Brands International reported its full year and fourth quarter 2014 fiscal results, showing strong comparable store sales growth for Tim Hortons and Burger King. The company's net revenues increased significantly, especially with Tim Hortons' contribution, though it reported a net loss for the fiscal year. Both brands focused on expansion and menu innovation to drive growth, particularly Burger King's global expansion and Tim Hortons' efforts in the U.S.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QSR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345457"
+        },
+        {
+          "relevance_score": "0.592679",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118084"
+        },
+        {
+          "relevance_score": "0.566415",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137827"
+        },
+        {
+          "relevance_score": "0.555535",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.120404"
+        },
+        {
+          "relevance_score": "0.555607",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.199715"
+        }
+      ],
+      "time_published": "20150218T134000",
+      "title": "Restaurant Brands International FY 2014 Earnings: Improved Sales In The U.S. Drive Top-line Growth",
+      "topics": [
+        {
+          "relevance_score": "0.924092",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.819356",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.604787",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/greatspeculations/2015/02/18/restaurant-brands-international-fy-2014-earnings-improved-sales-in-the-u-s-drive-top-line-growth/"
+    },
+    {
+      "authors": [
+        "Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.128105,
+      "source": "MEAT+POULTRY",
+      "source_domain": "MEAT+POULTRY",
+      "summary": "McDonald's India has gradually reduced salt and calories in its burgers and french fries, cutting sodium in buns by 10 percent and fries by 20 percent, and calories in sauces by 30 to 40 percent. These adjustments were made to maintain customer traffic amid increasing competition and to cater to local Indian tastes, including offering vegetarian options and excluding beef or pork.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102850"
+        }
+      ],
+      "time_published": "20150210T100800",
+      "title": "McDonald's India cuts salt, calories",
+      "topics": [
+        {
+          "relevance_score": "0.812600",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.624929",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.meatpoultry.com/articles/12429-mcdonald-s-india-cuts-salt-calories"
+    },
+    {
+      "authors": [
+        "Edward G. Brown"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.235181,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "This article criticizes Don Thompson's leadership as CEO of McDonald's, suggesting he could have saved his job by focusing more on his employees. The author proposes a \"success triangle\" approach, emphasizing clear vision, employee capability, and motivation at a granular level. The piece argues that even heavily franchised businesses like McDonald's can implement these principles to improve performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.226845"
+        }
+      ],
+      "time_published": "20150210T090151",
+      "title": "How McDonald\u2019s Don Thompson could have saved his job",
+      "topics": [
+        {
+          "relevance_score": "0.803619",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://fortune.com/2015/02/10/how-mcdonalds-don-thompson-could-have-saved-his-job/"
+    },
+    {
+      "authors": [
+        "Candice Choi"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.097702,
+      "source": "The Detroit News",
+      "source_domain": "The Detroit News",
+      "summary": "McDonald's new CEO, Steve Easterbrook, takes the helm as the company faces intense competition from \"better-burger\" chains, fast-casual restaurants like Chipotle, and expanded food offerings from coffee shops and convenience stores. The company is implementing strategies like menu simplification, service improvements, and a \"Turnaround Summit\" for franchisees to combat declining customer visits. Rivals are investing heavily in new menu items and store remodels, forcing McDonald's to adapt its offerings and marketing to regain market share.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.339317"
+        },
+        {
+          "relevance_score": "0.832883",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314163"
+        },
+        {
+          "relevance_score": "0.717102",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234122"
+        },
+        {
+          "relevance_score": "0.635049",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112045"
+        }
+      ],
+      "time_published": "20150130T090150",
+      "title": "McDonald\u2019s new CEO faces onslaught of competition",
+      "topics": [
+        {
+          "relevance_score": "0.847169",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.639355",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.detroitnews.com/story/business/retail/2015/01/30/mcdonalds-ceo/22608759/"
+    },
+    {
+      "authors": [
+        "David Kesmodel and Ilan Brat"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.256358,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Steve Easterbrook will become McDonald's new CEO in March, bringing a fresh perspective and a history of turning businesses around. Investors hope his broad experience, including two years outside of McDonald's, will help address the challenges of fierce competition and changing consumer tastes that current CEO Don Thompson faced. Easterbrook, known for his high tolerance for risk and new ideas, previously revived McDonald's British business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270813"
+        }
+      ],
+      "time_published": "20150130T090149",
+      "title": "On McDonald\u2019s Menu: CEO With a Fresh Perspective",
+      "topics": [
+        {
+          "relevance_score": "0.838806",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/on-mcdonalds-menu-ceo-with-a-fresh-perspective-1422578857?gaa_at=eafs&gaa_n=AWEtsqdVfS2xYlVFbMqeg8APZAJE3gAV0mLB6lcvrnGp_DU-_TJb8YFE9_VA&gaa_ts=690872a2&gaa_sig=EdD_aIMEBItMXcmnyZRWQL1122rqe0QL9IkkiackX-NGzbqUwg1CNMlBrMVSktjIcrg8mAlKLL3urEviuGqh3A%3D%3D"
+    },
+    {
+      "authors": [
+        "Courier Newsroom"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.232702,
+      "source": "New Pittsburgh Courier",
+      "source_domain": "New Pittsburgh Courier",
+      "summary": "McDonald's CEO Don Thompson is stepping down after two-and-a-half years amid declining sales and fierce competition. He will be replaced by Steve Easterbrook, a company veteran. The company faces challenges including perceptions of fast-food as unhealthy, a bloated menu, and high prices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.218252"
+        }
+      ],
+      "time_published": "20150129T090151",
+      "title": "McDonald's first Black CEO steps down as sales decline",
+      "topics": [
+        {
+          "relevance_score": "0.853069",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.722428",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://newpittsburghcourier.com/2015/01/29/mcdonalds-first-black-ceo-steps-down-as-sales-decline/"
+    },
+    {
+      "authors": [
+        "Anjali Athavaley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.170852,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "McDonald's CEO Don Thompson is stepping down at the end of February after a challenging period for the company, and will be succeeded by Chief Brand Officer Steve Easterbrook. The news led to a 3.2 percent jump in McDonald's shares. Easterbrook, known for his success in turning around McDonald's UK business, will now face the task of revitalizing the brand globally, particularly in the U.S. where it's losing market share to rivals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413200"
+        },
+        {
+          "relevance_score": "0.616206",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101270"
+        }
+      ],
+      "time_published": "20150129T022500",
+      "title": "McDonald's CEO Don Thompson leaving after tumultuous run",
+      "topics": [
+        {
+          "relevance_score": "0.945856",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.847343",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.736333",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.642211",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/mcdonalds-ceo-don-thompson-leaving-after-tumultuous-run-idUSKBN0L12PR/"
+    },
+    {
+      "authors": [
+        "Danielle Haynes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.144044,
+      "source": "UPI.com",
+      "source_domain": "UPI.com",
+      "summary": "McDonald's CEO Don Thompson is retiring after nearly 25 years with the company, effective March 1, and will be replaced by Steve Easterbrook, the current chief brand officer. The change comes amidst slumping sales, with McDonald's having reported a challenging 2014 with declining global comparable sales. Following the news of Thompson's departure, McDonald's shares saw a 3.18 percent increase in after-hours trading.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148655"
+        }
+      ],
+      "time_published": "20150128T190300",
+      "title": "McDonald's CEO Don Thompson resigns; replaced by Steve Easterbrook - UPI.com",
+      "topics": [
+        {
+          "relevance_score": "0.932922",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.828674",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.743516",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.upi.com/Business_News/2015/01/28/McDonalds-announces-new-CEO/9401422487260/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.149113,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "McDonald's franchisees are suggesting significant changes to the menu, encouraging the company to \"listen more.\" Key recommendations include eliminating espresso drinks, trimming Happy Meal options, removing wraps and the \"postage-stamp\" fry size, and cutting the worst-selling 10% of the menu. These suggestions come as McDonald's new marketing philosophy emphasizes evolving from \"billions served\" to \"billions heard.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140869"
+        }
+      ],
+      "time_published": "20150123T081000",
+      "title": "McDonald\u2019s franchisees want these big changes to the menu",
+      "topics": [
+        {
+          "relevance_score": "0.816096",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/mcdonalds-franchisees-have-placed-their-orders-2015-01-21?gaa_at=eafs&gaa_n=AWEtsqchsa-00tYirD8aWz0xNg9O6YN_q0B86JA38EEn-tA6sYLukk8BDeGL&gaa_ts=690872a8&gaa_sig=qr9YvgzxO-pUP_Q39u0m1iT_DA2meNEGxKM9LDvVRtLHF9BGtur83OmoOwv-ElmF6ejsYkBoAscpJR2P6zvojw%3D%3D"
+    },
+    {
+      "authors": [
+        "Dan Mitchell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.192221,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "This article discusses how Wendy's is outperforming its fast-food rivals like McDonald's and Burger King, according to analysts. Wendy's strategy of focusing on quality while keeping prices reasonable has resonated with consumers and investors, leading to positive analyst ratings and stock performance. In contrast, McDonald's is facing its first domestic sales decline in decades, and Burger King's performance is mixed despite a boost from its acquisition of Tim Horton's.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WEN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.497231"
+        },
+        {
+          "relevance_score": "0.905361",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220018"
+        },
+        {
+          "relevance_score": "0.648218",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141102"
+        },
+        {
+          "relevance_score": "0.561219",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.120943"
+        }
+      ],
+      "time_published": "20150122T095131",
+      "title": "Wendy\u2019s shows that not all burger news is bad",
+      "topics": [
+        {
+          "relevance_score": "0.931566",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.823315",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.715205",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://fortune.com/2015/01/22/wendys-analysts/"
+    },
+    {
+      "authors": [
+        "Lidia Ryan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.141168,
+      "source": "CTPost",
+      "source_domain": "CTPost",
+      "summary": "This article details several well-known food brands that have significantly changed their recipes or ingredients. It covers reasons behind these changes, such as consumer protest, health concerns, ingredient shortages, and marketing strategies, highlighting the impact on brand perception and customer loyalty.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.937003",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.082156"
+        },
+        {
+          "relevance_score": "0.868957",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231332"
+        },
+        {
+          "relevance_score": "0.826890",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.167110"
+        },
+        {
+          "relevance_score": "0.632642",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099696"
+        },
+        {
+          "relevance_score": "0.779366",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103026"
+        }
+      ],
+      "time_published": "20150113T085645",
+      "title": "Food brands that changed recipes",
+      "topics": [
+        {
+          "relevance_score": "0.834172",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.ctpost.com/living/slideshow/Food-brands-that-changed-recipes-101030.php"
+    },
+    {
+      "authors": [
+        "The Week Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.140509,
+      "source": "The Week",
+      "source_domain": "The Week",
+      "summary": "McDonald's is opening its first-ever meat-free restaurants in India to cater to the country's large vegetarian population and tap into its growing fast-food market. The company will open vegetarian outlets in pilgrimage cities like Amritsar and Katra, leveraging its existing menu which is already 50 percent vegetarian. This move is seen as a strategic effort to adapt to local tastes and could serve as a testing ground for vegetarian fast-food concepts in other markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.993493",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.254924"
+        },
+        {
+          "relevance_score": "0.633997",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125936"
+        },
+        {
+          "relevance_score": "0.637694",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146871"
+        },
+        {
+          "relevance_score": "0.591147",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118878"
+        },
+        {
+          "relevance_score": "0.556184",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110980"
+        }
+      ],
+      "time_published": "20150110T090151",
+      "title": "The world's first vegetarian McDonald's: A guide",
+      "topics": [
+        {
+          "relevance_score": "0.846882",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.612301",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://theweek.com/articles/472661/worlds-first-vegetarian-mcdonalds-guide"
+    },
+    {
+      "authors": [
+        "News Desk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.401524,
+      "source": "Food Safety News",
+      "source_domain": "Food Safety News",
+      "summary": "McDonald\u2019s Japan and Cargill Inc. are facing scrutiny after a customer reportedly found a 1.5-inch strip of vinyl in chicken nuggets at a McDonald\u2019s outlet in Misawa, Japan. This incident is the latest in a series of food safety issues for McDonald\u2019s in Japan, contributing to a forecasted $156.7-million net loss for their Japanese operations in 2014. Cargill temporarily halted production at its chicken-processing plant in Thailand while investigations are underway.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.406610"
+        }
+      ],
+      "time_published": "20150108T090151",
+      "title": "Plastic Reported in Chicken Nuggets From McDonald\u2019s Outlet in Japan",
+      "topics": [
+        {
+          "relevance_score": "0.941798",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.833736",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.622913",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.629795",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.foodsafetynews.com/2015/01/plastic-found-in-chicken-nuggets-at-japanese-mcdonalds-outlet/"
+    },
+    {
+      "authors": [
+        "Chris Gallagher"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-2.images.arcpublishing.com%2Freuters%2F22564R5T4RLH5HAFZXE5TDRD6A.jpg?auth=884f33b1e7f33fd29910ed86d91f4a4eb2396173a11b7dfb1179d6c3fc4fb3c5&width=960&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.397614,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "McDonald's Japan apologized after various foreign objects, including a human tooth and plastic, were found in its food products. This incident adds to a series of challenges for the fast-food chain, which has been experiencing declining sales and recently faced a french fry shortage. Executives sought to reassure the public about food safety amidst investigations into the contamination.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.930733",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.426475"
+        }
+      ],
+      "time_published": "20150107T132900",
+      "title": "McDonald's Japan apologizes after tooth, plastic found in food",
+      "topics": [
+        {
+          "relevance_score": "0.836979",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.632281",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.604687",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/healthcare-pharmaceuticals/mcdonalds-japan-apologizes-after-tooth-plastic-found-in-food-idUSKBN0KG0G0/"
+    },
+    {
+      "authors": [
+        "Clint Davis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.532544,
+      "source": "WPTV",
+      "source_domain": "WPTV",
+      "summary": "McDonald's executives have publicly apologized for two embarrassing incidents in their Japanese restaurants involving foreign objects found in food. A human tooth was discovered in an order of fries, and a piece of plastic was found in an ice cream sundae. The company addressed these issues and expressed regret over the incidents.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.542613"
+        }
+      ],
+      "time_published": "20150107T090151",
+      "title": "McDonald's apologizes for tooth found in fries",
+      "topics": [
+        {
+          "relevance_score": "0.836357",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.wptv.com/news/national/mcdonalds-apologizes-after-tooth-plastic-found-in-food"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.283932,
+      "source": "VOA - Voice of America English News",
+      "source_domain": "VOA - Voice of America English News",
+      "summary": "McDonald's Japan issued an apology following several incidents where foreign objects, including a tooth and plastic, were found in its food products. This comes amidst ongoing efforts to combat declining sales and a prior food safety scandal involving a Chinese supplier. The company is facing its sixth straight year of sales declines and a projected first annual loss in 11 years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.403382"
+        },
+        {
+          "relevance_score": "0.609287",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102738"
+        }
+      ],
+      "time_published": "20150107T072100",
+      "title": "McDonald's Japan Apologizes After Objects Found in Food",
+      "topics": [
+        {
+          "relevance_score": "0.812638",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.732677",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.voanews.com/a/mcdonalds-japan-apologizes-after-objects-found-in-food/2588664.html"
+    },
+    {
+      "authors": [
+        "CBS/AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.241285,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "McDonald's executives in Japan apologized after customers found a human tooth in fries and plastic pieces in a shake and ice cream sundae. The company is investigating how the foreign objects entered its food, insisting these are isolated incidents despite acknowledging other cases of contamination.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.248499"
+        }
+      ],
+      "time_published": "20150107T005600",
+      "title": "McDonald's Japan apologizes for tooth in fries, plastic in shake",
+      "topics": [
+        {
+          "relevance_score": "0.842453",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/mcdonalds-japan-apologizes-for-tooth-in-fries-plastic-in-shake/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/1/5/1420485900593/The-President-having-lunc-011.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=a4ec9609f98457007e1554f63c8be6b5",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.105611,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "Shake Shack's initial public offering raises questions about the market's capacity for another burger chain, despite investor optimism for \"fast casual\" restaurants. While some are skeptical about its long-term fizzle, the company plans significant expansion beyond New York, facing competition from other premium burger chains and even McDonald's new customizable options.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.993875",
+          "ticker": "SHAK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149798"
+        },
+        {
+          "relevance_score": "0.719943",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.037358"
+        },
+        {
+          "relevance_score": "0.629147",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.196740"
+        },
+        {
+          "relevance_score": "0.570859",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044247"
+        }
+      ],
+      "time_published": "20150105T193000",
+      "title": "Shake Shack IPO raises question: how many more burgers can Americans eat?",
+      "topics": [
+        {
+          "relevance_score": "0.938622",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.804023",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.605722",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.634710",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.theguardian.com/money/us-money-blog/2015/jan/05/shake-shack-ipo-raises-the-question-how-many-more-burgers-can-americans-eat"
+    },
+    {
+      "authors": [
+        "Tom Huddleston Jr."
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.1417,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "McDonald's is launching a new ad campaign focusing on the \"lovin'\" aspect of its \"I'm Lovin' It\" slogan to reverse declining sales. This \"brand transformation\" will inspire all aspects of the company, from advertising to customer interaction, and follows a tough year with declining revenue and stiff competition. The campaign also aims to build a closer relationship with customers by encouraging questions about its food and will feature new television and online ads with \"odd couples\" coming together.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135856"
+        }
+      ],
+      "time_published": "20150102T090150",
+      "title": "McDonald\u2019s latest recipe to reverse declining sales: More \u2018lovin\u2019",
+      "topics": [
+        {
+          "relevance_score": "0.810186",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.910813",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://fortune.com/2015/01/02/mcdonalds-lovin-advertising/"
+    },
+    {
+      "authors": [
+        "Jonathan Maze"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.116368,
+      "source": "Nation\u2019s Restaurant News",
+      "source_domain": "Nation\u2019s Restaurant News",
+      "summary": "McDonald's is refreshing its \"I'm Lovin' It\" campaign with new ads to combat a sales decline experienced throughout 2014. The updated campaign emphasizes key products, freshness, and families, while also reflecting a shift towards greater transparency and customer engagement with initiatives like \"Our Food, Your Questions.\" This move is part of the company's broader efforts to transform its brand and business operations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102581"
+        }
+      ],
+      "time_published": "20150102T090149",
+      "title": "McDonald\u2019s updates \u2018I\u2019m Lovin\u2019 It\u2019 campaign",
+      "topics": [
+        {
+          "relevance_score": "0.812732",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.643227",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nrn.com/marketing-branding/mcdonald-s-updates-i-m-lovin-it-campaign"
+    },
+    {
+      "authors": [
+        "Laurie Burkitt"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305783,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "McDonald's and Yum Brands are introducing digital options in China, including mobile ordering and payments, to speed up service and regain market share after a challenging year. McDonald's specifically plans to test these features in the current third quarter to cater to the growing digital trend among Chinese consumers. This move aims to enhance efficiency and meet evolving consumer demands in the fast-food market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311275"
+        },
+        {
+          "relevance_score": "0.835547",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.261430"
+        }
+      ],
+      "time_published": "20150101T000000",
+      "title": "McDonald\u2019s, KFC Look to Get Faster in China by Adding Digital Pay Option",
+      "topics": [
+        {
+          "relevance_score": "0.931547",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.814959",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/mcdonalds-kfc-look-to-get-faster-in-china-by-adding-digital-options-1436120662?gaa_at=eafs&gaa_n=AWEtsqdHEvqtPFo3uaC9C0XQCTJIF1OhaXLqPpbvhKomempgGlGq0Mx-od5o&gaa_ts=690872a5&gaa_sig=Zh4JPUgihcqx3O3bPrg13Ut7DyMmz8L9-lLULlLvuVLWC81ojdm3C2xhbsadJxJxJHQQ3i8IqkrNXw7xag7TeA%3D%3D"
+    }
+  ],
+  "items": "98",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

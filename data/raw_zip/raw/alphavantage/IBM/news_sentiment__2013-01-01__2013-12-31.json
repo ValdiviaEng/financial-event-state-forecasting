@@ -1,0 +1,2818 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Eddy Elfenbein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.347531,
+      "source": "Crossing Wall Street",
+      "source_domain": "Crossing Wall Street",
+      "summary": "This article from December 2013 by Eddy Elfenbein details the 2014 Buy List, a portfolio of 20 stocks equally divided for tracking purposes, and reviews the performance of the 2013 Buy List which gained 36.42%. It also discusses the rationale behind the new stock selections and deletions, and provides market commentary including news on home prices, the final trading day of 2013, and recent economic reports like GDP.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.909336",
+          "ticker": "WEX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122519"
+        },
+        {
+          "relevance_score": "0.804710",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438164"
+        },
+        {
+          "relevance_score": "0.832983",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413216"
+        },
+        {
+          "relevance_score": "0.813682",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431571"
+        }
+      ],
+      "time_published": "20131231T080500",
+      "title": "Archive for December, 2013",
+      "topics": [
+        {
+          "relevance_score": "0.937668",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.925614",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.808282",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.726111",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.605711",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.crossingwallstreet.com/archives/2013/12"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.224266,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "IBM has acquired Aspera, a file transfer company known for its patented \"fasp\" technology, which significantly speeds up large data transfers. Aspera counts major companies like Apple and Netflix as customers, with Apple using its technology for video uploads to iTunes. This acquisition strengthens IBM's cloud computing strategy, leveraging Aspera's capabilities to handle the increasing volume of data from social media, devices, and sensors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.828155",
+          "ticker": "NFLX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108632"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402726"
+        },
+        {
+          "relevance_score": "0.737385",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149203"
+        }
+      ],
+      "time_published": "20131219T190100",
+      "title": "IBM Buys Aspera, A File Transfer Company That Counts Apple And Netflix As Customers",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.942778",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://techcrunch.com/2013/12/19/ibm-buys-aspera-a-file-transfer-company-that-counts-apple-and-netflix-as-customers/"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.438423,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "IBM announced the completion of its acquisition of Fiberlink Communications, a mobile management and security company. This acquisition enhances IBM MobileFirst solutions with new cloud-based capabilities, providing comprehensive mobile management and security for organizations. The deal strengthens IBM's enterprise mobility management strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.433629"
+        }
+      ],
+      "time_published": "20131218T113800",
+      "title": "IBM Completes Acquisition Of Fiberlink Communications",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830477",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.rttnews.com/2241712/ibm-completes-acquisition-of-fiberlink-communications.aspx"
+    },
+    {
+      "authors": [
+        "D'Angelo Gore"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.09111,
+      "source": "FactCheck.org",
+      "source_domain": "FactCheck.org",
+      "summary": "This FactCheck.org article investigates claims linking Michelle Obama's college classmate, Toni Townes-Whitley, to CGI Federal's contract for HealthCare.gov. It confirms Townes-Whitley's role at CGI and her Princeton connection with Obama but refutes the \"no-bid\" contract claim, explaining a competitive bidding process. The article also debunks the notion that CGI's campaign donations influenced the contract award.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.331452",
+          "ticker": "GIB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032449"
+        },
+        {
+          "relevance_score": "0.611189",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126495"
+        }
+      ],
+      "time_published": "20131210T124147",
+      "title": "Michelle Obama and CGI Federal",
+      "topics": [
+        {
+          "relevance_score": "0.946714",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.838597",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.factcheck.org/2013/12/michelle-obama-and-cgi-federal/"
+    },
+    {
+      "authors": [
+        "Jochelle Mendonca"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.163374,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Concentrix, having acquired IBM Daksh, is actively seeking further acquisitions, particularly in the technology sector in India, viewing the margins in the BPO business as highly attractive. The company plans to expand its presence in India, building more centers and investing in the Indian market, despite other Indian BPOs exiting the domestic business due to low margins. This strategy follows IBM's sale of its customer care business to Concentrix, where IBM retains a strategic partnership and a 5% stake in Concentrix's parent company, Synnex.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.303048",
+          "ticker": "CNXC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019730"
+        },
+        {
+          "relevance_score": "0.918222",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291326"
+        },
+        {
+          "relevance_score": "0.611667",
+          "ticker": "EG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144338"
+        }
+      ],
+      "time_published": "20131127T043012",
+      "title": "After IBM Daksh, Concentrix scouting for more acquisitions",
+      "topics": [
+        {
+          "relevance_score": "0.908569",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.825898",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://m.economictimes.com/tech/ites/after-ibm-daksh-concentrix-scouting-for-more-acquisitions/articleshow/26432800.cms"
+    },
+    {
+      "authors": [
+        "IHS Electronics360 News Desk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.118625,
+      "source": "Electronics360",
+      "source_domain": "Electronics360",
+      "summary": "A teardown analysis by IHS reveals that Microsoft's Xbox One costs $471 to produce, just $28 less than its retail price, making it initially unprofitable. This margin is similar to Sony's PlayStation 4, with both companies subsidizing hardware sales to gain market share in the connected home. Key cost drivers for the Xbox One include the integrated Kinect system and a more expensive AMD chip compared to the PS4.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.840021",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.279979"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220157"
+        },
+        {
+          "relevance_score": "0.613832",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.114298"
+        }
+      ],
+      "time_published": "20131126T120140",
+      "title": "Exclusive Video Teardown: Microsoft Xbox One",
+      "topics": [
+        {
+          "relevance_score": "0.901230",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.734118",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://electronics360.globalspec.com/article/3805/exclusive-video-teardown-microsoft-xbox-one"
+    },
+    {
+      "authors": [
+        "Bill Goodwin"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.151718,
+      "source": "Computer Weekly",
+      "source_domain": "Computer Weekly",
+      "summary": "Pegasystems CEO Alan Trefler discusses the company's strong performance, with licence revenues rising 34% year on year, contrasting with slower growth among competitors like Oracle and IBM. He outlines future plans including integrating Antenna Software's mobile technology, refining its core PRPC software, and making the software more accessible to a wider market. Trefler emphasizes the company's strategy of focusing on internal development over frequent acquisitions to maintain a coherent product architecture.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PEGA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411635"
+        },
+        {
+          "relevance_score": "0.723518",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138307"
+        },
+        {
+          "relevance_score": "0.632435",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115993"
+        }
+      ],
+      "time_published": "20131121T100000",
+      "title": "Pegasystems CEO Alan Trefler plans his next move for the $500m software company",
+      "topics": [
+        {
+          "relevance_score": "0.825231",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.708527",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.computerweekly.com/news/2240209379/Pegasystems-CEO-Alan-Trefler-on-raising-the-BPM-game"
+    },
+    {
+      "authors": [
+        "Data Center Knowledge"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.342366,
+      "source": "Data Center Knowledge",
+      "source_domain": "Data Center Knowledge",
+      "summary": "NVIDIA has launched its Tesla K40 GPU accelerator, boasting significant performance improvements over previous models and CPUs, along with increased memory. This new accelerator is designed for HPC and big data analytics, and is being integrated into systems by major server manufacturers and partners like TACC, HP, and Cray for enhanced scientific and engineering computing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446674"
+        },
+        {
+          "relevance_score": "0.712164",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.286058"
+        },
+        {
+          "relevance_score": "0.611463",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317530"
+        }
+      ],
+      "time_published": "20131119T131558",
+      "title": "NVIDIA Launches Tesla K40 GPU Accelerator",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.datacenterknowledge.com/data-center-construction/nvidia-launches-tesla-k40-gpu-accelerator"
+    },
+    {
+      "authors": [
+        "Liz Gannes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.218232,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Life360, a location-sharing app focused on families, has surpassed Foursquare and Path in registered users with 52 million. CEO Chris Hulls describes it as a \"red-state product\" and is focusing on Asia expansion and automotive integration after raising $20 million from investors including DCM, BMW, and Fontinalis Partners. Despite the challenge of growing a small-group utility app, Life360 is financially viable with premium subscriptions, offering features like emergency responders and roadside assistance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LIF",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.440231"
+        },
+        {
+          "relevance_score": "0.614374",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123047"
+        },
+        {
+          "relevance_score": "0.634447",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145215"
+        },
+        {
+          "relevance_score": "0.605962",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147356"
+        }
+      ],
+      "time_published": "20131111T103300",
+      "title": "Red State\" App Life360 Helps Families Track Themselves - Liz Gannes - Mobile",
+      "topics": [
+        {
+          "relevance_score": "0.922874",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://allthingsd.com/20131111/one-to-watch-red-state-app-life360-helps-families-track-themselves/"
+    },
+    {
+      "authors": [
+        "Alex Barinka"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.122992,
+      "source": "mint",
+      "source_domain": "mint",
+      "summary": "IBM's longest-serving CFO, Mark Loughridge, will retire at the end of the year and be replaced by Martin Schroeter, general manager of IBM's global financing. Loughridge helped the company achieve its profit goals amidst a shift to high-margin products, despite recent quarters of falling sales and a loss in the hardware business. The company is now focusing on cloud computing and share buybacks to reward shareholders.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128015"
+        }
+      ],
+      "time_published": "20131108T140000",
+      "title": "IBM CFO Mark Loughridge to retire this year",
+      "topics": [
+        {
+          "relevance_score": "0.936945",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.837476",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.735380",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/TIoIBNRQBQLyurHlr0zqmL/IBM-CFO-Mark-Loughridge-to-retire-this-year.html"
+    },
+    {
+      "authors": [
+        "Nicola Leske and Nadia Damouni"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.113009,
+      "source": "Yahoo! Finance Canada",
+      "source_domain": "Yahoo! Finance Canada",
+      "summary": "IBM's Chief Financial Officer Mark Loughridge is set to retire at the end of the year after a decade in the role, amidst the technology services provider's struggles with declining revenue. He will be succeeded by Martin Schroeter, the former head of global finance. Sources suggest Loughridge's departure, originally planned for 2015, was moved up due to undisclosed factors, and it might indicate IBM is rethinking its 2015 roadmap.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.120195"
+        }
+      ],
+      "time_published": "20131107T125106",
+      "title": "IBM's CFO Loughridge to retire by year-end",
+      "topics": [
+        {
+          "relevance_score": "0.842651",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.831488",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ca.finance.yahoo.com/news/ibms-cfo-loughridge-retire-end-212940254.html"
+    },
+    {
+      "authors": [
+        "By ABC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.042653,
+      "source": "ABC News",
+      "source_domain": "ABC News",
+      "summary": "Tech companies face scrutiny for their reliance on foreign workers, particularly after Infosys, an Indian consulting firm, settled a $34 million visa fraud case with the Justice Department. Critics argue that the H1-B visa program, which tech giants like Microsoft advocate for, facilitates outsourcing and undercuts American wages. The article lists the top 10 companies receiving H1-B visas, highlighting that most have significant offshoring operations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.326205",
+          "ticker": "INFY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.023284"
+        },
+        {
+          "relevance_score": "0.742978",
+          "ticker": "CTSH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134181"
+        },
+        {
+          "relevance_score": "0.655867",
+          "ticker": "ACN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.098540"
+        },
+        {
+          "relevance_score": "0.629004",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139267"
+        },
+        {
+          "relevance_score": "0.561952",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118655"
+        }
+      ],
+      "time_published": "20131104T070800",
+      "title": "Record Visa 'Fraud' Fine as Tech Firms Under Fire for Relying on Foreign Workers",
+      "topics": [
+        {
+          "relevance_score": "0.936195",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.827530",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://abcnews.go.com/Business/top-10-companies-request-visas-foreign-workers/story?id=20730536"
+    },
+    {
+      "authors": [
+        "Sven Wehrwein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.281012,
+      "source": "MinnPost",
+      "source_domain": "MinnPost",
+      "summary": "John Morgan, CEO of Winmark Corporation, discusses his candid leadership style and his journey from a challenging takeover of Grow Biz to building a successful franchise and leasing business. He shares insights into his investment philosophy, personal history, and philanthropic endeavors, including his \"No Filter\" approach and the Transformation Project for prisoners. The article highlights his significant impact on Winmark's market capitalization and his unique approach to stock ownership and employee motivation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WINA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.456952"
+        },
+        {
+          "relevance_score": "0.645479",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120400"
+        }
+      ],
+      "time_published": "20131004T100000",
+      "title": "Candid Winmark leader John Morgan has no filter",
+      "topics": [
+        {
+          "relevance_score": "0.815952",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.730500",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.605420",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.617796",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.minnpost.com/twin-cities-business/2013/10/candid-winmark-leader-john-morgan-has-no-filter/"
+    },
+    {
+      "authors": [
+        "Ken Belson and Mary Pilon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.067953,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Tata Consultancy Services (T.C.S.), an Indian technology giant, will replace ING as the title sponsor of the New York City Marathon, starting in 2014. This eight-year partnership aims to elevate T.C.S.'s presence in the United States and is expected to provide significant benefits to the New York Road Runners organization and runners. ING had been the marathon's first title sponsor for a decade since 2003.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.841780",
+          "ticker": "ING",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.214817"
+        },
+        {
+          "relevance_score": "0.611633",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123647"
+        }
+      ],
+      "time_published": "20131002T125119",
+      "title": "Technology Firm From India Will Be New York Marathon Title Sponsor (Published 2013)",
+      "topics": [
+        {
+          "relevance_score": "0.844420",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.701683",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2013/10/03/sports/tcs-to-replace-ing-as-marathons-title-sponsor.html"
+    },
+    {
+      "authors": [
+        "Kaja Whitehouse"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.451459,
+      "source": "New York Post",
+      "source_domain": "New York Post",
+      "summary": "Kieran Taylor, a former Akamai Technologies executive, was sued by the SEC for tipping off Danielle Chiesi about the company's financial plans. Taylor settled the charges for $145,000, having previously saved $20,635 by selling his Akamai stock before a revenue estimate downgrade. The article details Chiesi's manipulation of executives for insider information, leading to her recent release from prison.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AKAM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.642155"
+        },
+        {
+          "relevance_score": "0.621946",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.316683"
+        }
+      ],
+      "time_published": "20130920T234000",
+      "title": "Tipster was played now he pays (SEC)",
+      "topics": [
+        {
+          "relevance_score": "0.935080",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.833446",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://nypost.com/2013/09/20/tipster-was-played-now-he-pays-sec/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.136029,
+      "source": "Dignity Memorial",
+      "source_domain": "Dignity Memorial",
+      "summary": "Phil Hester, Senior Vice President of Research & Development at National Instruments, passed away at the age of 58. He had a distinguished career in technology, including roles at AMD, Newisys, and IBM, and held multiple patents. Hester was deeply dedicated to his family and was highly respected within the technology community.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.886491",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125951"
+        },
+        {
+          "relevance_score": "0.616168",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119069"
+        },
+        {
+          "relevance_score": "0.599192",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103842"
+        }
+      ],
+      "time_published": "20130917T120140",
+      "title": "Phil Hester Obituary - Austin, TX",
+      "topics": [
+        {
+          "relevance_score": "0.809470",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.dignitymemorial.com/obituaries/austin-tx/phil-hester-8219449"
+    },
+    {
+      "authors": [
+        "Sean Gallagher"
+      ],
+      "banner_image": "General Motors",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.321319,
+      "source": "Ars Technica",
+      "source_domain": "Ars Technica",
+      "summary": "General Motors has opened its first owned data center in nearly 20 years, the Warren Enterprise Data Center, as part of a major IT transformation. This $150 million facility aims to cut the company's energy consumption for IT infrastructure by 70 percent, earning LEED \"gold\" certification thanks to its eco-friendly construction and innovative cooling and power systems. The center centralizes GM's IT operations, replacing 23 scattered data centers, and utilizes advanced technologies like evaporative chillers, flywheel UPS systems, and a cloud-based server provisioning system.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.453891"
+        },
+        {
+          "relevance_score": "0.612346",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116233"
+        }
+      ],
+      "time_published": "20130915T160000",
+      "title": "Waterfalls and flywheels: General Motors\u2019 new hyper-green data center",
+      "topics": [
+        {
+          "relevance_score": "0.816617",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709674",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.629294",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://arstechnica.com/information-technology/2013/09/waterfalls-and-flywheels-general-motors-new-hyper-green-data-center/"
+    },
+    {
+      "authors": [
+        "staff-author"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.021979,
+      "source": "Orange County Business Journal",
+      "source_domain": "Orange County Business Journal",
+      "summary": "Western Digital Corp. has completed its $325 million acquisition of STEC Inc., integrating the Santa Ana-based solid-state drive maker into its Hitachi Global Storage Technologies Ltd. unit. This deal ends STEC's public trading and aims to strengthen Western Digital's position in the higher-margin enterprise market by leveraging STEC's technology and engineers. STEC's management and board, including Mark Moshayedi and Manouch Moshayedi, will not be retained.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320362"
+        },
+        {
+          "relevance_score": "0.639215",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.311848"
+        }
+      ],
+      "time_published": "20130913T135618",
+      "title": "WD Closes STEC Deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.812496",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ocbj.com/manufacturing/wd-closes-stec-deal/"
+    },
+    {
+      "authors": [
+        "Aaron Ricadela"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.039582,
+      "source": "San Antonio Express-News",
+      "source_domain": "San Antonio Express-News",
+      "summary": "Marius Haas, Dell's President of Enterprise Solutions, faces a significant challenge in transforming the company's enterprise server, storage, and networking business. Despite a shrinking PC market and past acquisition struggles, Haas is tasked with shifting Dell's focus towards enterprise technology as the company prepares to go private in a $24.9 billion deal. His efforts have shown some positive results, with sales in his division increasing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.984193",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032586"
+        },
+        {
+          "relevance_score": "0.901089",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046265"
+        },
+        {
+          "relevance_score": "0.607195",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144664"
+        },
+        {
+          "relevance_score": "0.618590",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116854"
+        },
+        {
+          "relevance_score": "0.550282",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.108347"
+        }
+      ],
+      "time_published": "20130911T222300",
+      "title": "Exec faces tough task at Dell",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.808529",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.expressnews.com/business/technology/article/Exec-faces-tough-task-at-Dell-4806667.php"
+    },
+    {
+      "authors": [
+        "Steve Rosenbush"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.045058,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Intel CFO Stacy Smith notes that the PC has \"died half a dozen times\" throughout his 25-year career, only to be reincarnated in various forms. The current transformation is complex, with the PC evolving into multiple devices simultaneously, posing a significant challenge for Intel as its profits and revenues have declined. The company also faces intense competition from rivals like ARM Holdings PLC in the mobile chip market and International Business Machines Corp. licensing its microprocessor designs to other tech giants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.907387",
+          "ticker": "ARM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.271869"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.325135"
+        },
+        {
+          "relevance_score": "0.748150",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110070"
+        },
+        {
+          "relevance_score": "0.615702",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122808"
+        },
+        {
+          "relevance_score": "0.630468",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.058901"
+        }
+      ],
+      "time_published": "20130904T120629",
+      "title": "Intel CFO Stacy Smith Says 'PC Has Died Half a Dozen Times'",
+      "topics": [
+        {
+          "relevance_score": "0.822287",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.706851",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/intel-cfo-stacy-smith-says-pc-has-died-half-a-dozen-times-1378332467?gaa_at=eafs&gaa_n=AWEtsqd_NTG9ysbRED2b0LhVEDYXl6OgqUDZOu6o7ZbvVf4BO6oiAFZg-650&gaa_ts=69089de6&gaa_sig=wSTcMTcerbfAp6K6h3-YJ1cO5mvjxIThf9RyBmQfjXPT_BCxBg-z5pIr7-OYDq0cn0zLeZtKMikNkC1tu2lHxQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Dave Lee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.022089,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "This article details the rapid decline of Nokia's dominance in the mobile phone market, attributing it to complacency and a failure to adapt to the smartphone era, particularly with the rise of the iPhone and superior operating systems. It covers Microsoft's acquisition of Nokia's mobile business for \u00a34.6bn and explores why Microsoft made the purchase, highlighting the role of Windows Phone and Microsoft's need to compete in the mobile space. The article also touches upon Nokia's history of reinvention and its remaining assets, such as patents and mapping software, suggesting a future \"behind the scenes\" role for the company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NOK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.330165"
+        },
+        {
+          "relevance_score": "0.924124",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330775"
+        },
+        {
+          "relevance_score": "0.710527",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126986"
+        },
+        {
+          "relevance_score": "0.629916",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.064551"
+        },
+        {
+          "relevance_score": "0.586515",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.059109"
+        }
+      ],
+      "time_published": "20130903T131549",
+      "title": "Nokia: The rise and fall of a mobile giant",
+      "topics": [
+        {
+          "relevance_score": "0.910546",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.819512",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bbc.com/news/technology-23947212"
+    },
+    {
+      "authors": [
+        "Alexander E.M. Hess"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.042557,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "This article lists the 10 largest employers in America, detailing their total employees, industry, and one-year stock price change as of August 20, 2013. It highlights the diversity of these companies, ranging from those offering mostly low-wage jobs like Walmart and McDonald's to technological innovators with highly skilled workforces like IBM and General Electric. The article also discusses the varying stances these companies take on unions and the challenges some face, such as job cuts and public perception of wages.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.956326",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133989"
+        },
+        {
+          "relevance_score": "0.904847",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.063549"
+        },
+        {
+          "relevance_score": "0.709966",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222489"
+        },
+        {
+          "relevance_score": "0.837286",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106809"
+        },
+        {
+          "relevance_score": "0.706440",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267503"
+        }
+      ],
+      "time_published": "20130822T124140",
+      "title": "The 10 largest employers in America",
+      "topics": [
+        {
+          "relevance_score": "0.916467",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.828860",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.749496",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.637024",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/business/2013/08/22/ten-largest-employers/2680249/"
+    },
+    {
+      "authors": [
+        "Erica Klarreich"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.139319,
+      "source": "Quanta Magazine",
+      "source_domain": "Quanta Magazine",
+      "summary": "A new protocol offers a way to verify if a quantum computer is genuinely harnessing quantum mechanics, addressing a major challenge in the field. This method, involving the interrogation of entangled components, could also significantly boost the security of quantum cryptography by providing proof of proper device function. While full-scale quantum computers are still decades away, this research represents a crucial proof of principle and a new level of security for transmitting secret keys.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.865519",
+          "ticker": "QBTS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140518"
+        },
+        {
+          "relevance_score": "0.638910",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346660"
+        },
+        {
+          "relevance_score": "0.595436",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.058438"
+        },
+        {
+          "relevance_score": "0.574463",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.082048"
+        }
+      ],
+      "time_published": "20130821T132624",
+      "title": "The Proof in the Quantum Pudding",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.quantamagazine.org/quantum-computing-test-offers-boost-to-quantum-cryptography-20130821/"
+    },
+    {
+      "authors": [
+        "Stabroek News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.206012,
+      "source": "Stabroek News",
+      "source_domain": "Stabroek News",
+      "summary": "Cisco Systems Inc. announced it is cutting 4,000 jobs, or 5 percent of its workforce, as it attempts to reduce costs and refocus on growth areas amidst uncertain demand for its networking equipment. Shares of the company fell over 9 percent after a lukewarm revenue forecast and the CEO, John Chambers, noted slower-than-anticipated expansion, especially due to weaknesses in Asia. The company aims to shift focus towards software and equipment for datacenters and corporate cloud networking.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.992827",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.341697"
+        },
+        {
+          "relevance_score": "0.646157",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.181213"
+        },
+        {
+          "relevance_score": "0.621363",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.178852"
+        },
+        {
+          "relevance_score": "0.602560",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.193207"
+        },
+        {
+          "relevance_score": "0.645124",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.161423"
+        }
+      ],
+      "time_published": "20130816T122147",
+      "title": "Cisco cutting 4,000 jobs, CEO sees slow progress",
+      "topics": [
+        {
+          "relevance_score": "0.907450",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.821575",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.733092",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.629715",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.625254",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.stabroeknews.com/2013/08/16/business/cisco-cutting-4000-jobs-ceo-sees-slow-progress/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.323873,
+      "source": "2Merkato.com",
+      "source_domain": "2Merkato.com",
+      "summary": "Commercial Bank of Ethiopia (CBE) has finalized a $3 million agreement with IBM to develop a new platform for mobile and internet banking services. This initiative is part of CBE's strategy to expand its business, aiming to increase its branches to 500 and boost account holders by 25% annually. The platform is expected to be operational by August, addressing the growing demand for banking services in Ethiopia, one of sub-Saharan Africa's fastest-growing economies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317830"
+        }
+      ],
+      "time_published": "20130814T125107",
+      "title": "Commercial Bank Concludes Mobile Banking Deal with IBM",
+      "topics": [
+        {
+          "relevance_score": "0.920073",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.804534",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.723651",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.2merkato.com/news/banking-and-finance/231-commercial-bank-concludes-mobile-banking-deal-with-ibm"
+    },
+    {
+      "authors": [
+        "Jim Finkle and Jennifer Saba"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fws.reuters.com%2F__gen%2Fwp-content%2Fuploads%2F2013%2F08%2FUSA-ORACLE-GOOGLE.jpg?account=thomsonreuters",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.154877,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Oracle CEO Larry Ellison publicly accused Google CEO Larry Page of acting \"absolutely evil\" over a lawsuit concerning Google's Android operating system infringing on Oracle's Java patents. This accusation, made during a \"CBS This Morning\" interview, stems from Oracle's ongoing legal battle with Google which Oracle alleges \"took our stuff.\" Ellison, known for his adversarial remarks against rivals, also discussed controversial topics such as NSA surveillance and the future of Apple post-Steve Jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.214498"
+        },
+        {
+          "relevance_score": "0.856853",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.225485"
+        },
+        {
+          "relevance_score": "0.851900",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.225753"
+        },
+        {
+          "relevance_score": "0.601923",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109709"
+        },
+        {
+          "relevance_score": "0.599569",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117853"
+        }
+      ],
+      "time_published": "20130813T164500",
+      "title": "Larry vs. Larry: Oracle's Ellison says Google's Page acted 'evil'",
+      "topics": [
+        {
+          "relevance_score": "0.904765",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/larry-vs-larry-oracles-ellison-says-googles-page-acted-evil-idUSBRE97C0HS/"
+    },
+    {
+      "authors": [
+        "James Willhite"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.047669,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Ciena Corp.'s CFO, James Moylan Jr., now dedicates a significant portion of his time to cybersecurity, a considerable increase from six years ago. This heightened focus is a direct response to rising cybercrime threats, including hackers and state-sponsored attacks, prompting him to consider cyber-risk insurance. The company is actively assessing strategies to mitigate the potential financial impact of data breaches.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CIEN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.236732"
+        },
+        {
+          "relevance_score": "0.641936",
+          "ticker": "AKAM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126840"
+        },
+        {
+          "relevance_score": "0.601117",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114862"
+        }
+      ],
+      "time_published": "20130813T121635",
+      "title": "On Alert Against Cybercrime",
+      "topics": [
+        {
+          "relevance_score": "0.826626",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/BL-CFOB-4173?gaa_at=eafs&gaa_n=AWEtsqcij3VFltHyNm3xwo68yTXia2P9sId1vf_beDeL1EyI4pruM58laPyX&gaa_ts=6908a077&gaa_sig=ZX1RjQww-jWp6OjURCH3uG0kzBr03YWHg7Emz91xzbhQwCWBwz9MwyxdO7MBSB8GDgivcLbjFNPIRN_BghrDEA%3D%3D"
+    },
+    {
+      "authors": [
+        "Pankaj Mishra"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.614173,
+      "source": "mint",
+      "source_domain": "mint",
+      "summary": "IBM has fired approximately two dozen employees in India for overstating revenue by at least $8 million from customer accounts to meet financial targets during 2011-2012. This is the second such instance of fraud discovered by IBM India this year, highlighting a broader issue of financial misreporting and fraud within the IT sector, often exacerbated by economic downturns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.627584"
+        }
+      ],
+      "time_published": "20130730T233000",
+      "title": "IBM sacks staff in India for overstating revenue",
+      "topics": [
+        {
+          "relevance_score": "0.941528",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.703910",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.602454",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.603581",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/t6e1AW2Q76IpdFkXzAocJJ/IBM-sacks-staff-in-India-for-overstating-revenue.html"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.103973,
+      "source": "mint",
+      "source_domain": "mint",
+      "summary": "IBM exceeded second-quarter earnings estimates and raised its annual forecast for 2013, driven by cost-cutting, share buybacks, and a strategic shift towards cloud computing and data analysis. Despite a revenue decline and negative impact from currency fluctuations, the company aims for $20 a share profit by 2015 through acquisitions and investments in faster-growing markets. The company's net income fell 17% but share performance improved slightly after the results were released.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413761"
+        },
+        {
+          "relevance_score": "0.617102",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029636"
+        },
+        {
+          "relevance_score": "0.639607",
+          "ticker": "ACN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040250"
+        },
+        {
+          "relevance_score": "0.612854",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.039361"
+        }
+      ],
+      "time_published": "20130719T001800",
+      "title": "IBM raises annual forecast after earnings exceed estimates",
+      "topics": [
+        {
+          "relevance_score": "0.917442",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.828020",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.646285",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.602866",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/JH8Z1DRO7PfJPiLaB7zuaN/IBM-raises-annual-forecast-after-earnings-exceed-estimates.html"
+    },
+    {
+      "authors": [
+        "VOA News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.141019,
+      "source": "VOA - Voice of America English News",
+      "source_domain": "VOA - Voice of America English News",
+      "summary": "Russia's Federal Guard Service (FSO) plans to purchase electric typewriters to protect sensitive information and prevent leaks, prompted by incidents like WikiLeaks and revelations from Edward Snowden. This move aims to counter digital espionage, despite the general obsolescence of typewriters, as experts note the unique identifiable patterns left by typewriters on paper documents, though paper documents are still susceptible to physical theft or photography. The article also references a past incident in the 1970s where Soviet spies bugged typewriters in U.S. diplomatic missions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.906637",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115268"
+        }
+      ],
+      "time_published": "20130711T154300",
+      "title": "Kremlin Turns to Old Technology to Avoid Leaks",
+      "topics": [
+        {
+          "relevance_score": "0.647737",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.815541",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.voanews.com/a/kremlin-turns-to-old-technology-to-avoid-leaks/1700056.html"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://www.globenewswire.com/newsroom/prs/?pkgid=19821",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.367683,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Entegris, Inc. announced that its 450mm wafer handling and shipping products have been selected by the Global 450mm Consortium (G450C) for the development of 450mm wafer technology. This collaboration will provide comprehensive wafer handling solutions, including various carriers and an innovative packaging system, along with on-site service to leverage Entegris' expertise. The partnership aims to maximize efficiency and accelerate the proliferation of 450mm processes, reinforcing New York's role in this critical industry evolution.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ENTG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.452775"
+        },
+        {
+          "relevance_score": "0.635084",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328429"
+        },
+        {
+          "relevance_score": "0.638734",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345459"
+        }
+      ],
+      "time_published": "20130710T174400",
+      "title": "Entegris' Full Suite of 450mm Wafer Handling Products Selected by Global 450mm Consortium at SUNY's NanoCollege",
+      "topics": [
+        {
+          "relevance_score": "0.912238",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.741663",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2013/07/10/559312/8633/en/Entegris-Full-Suite-of-450mm-Wafer-Handling-Products-Selected-by-Global-450mm-Consortium-at-SUNY-s-NanoCollege.html"
+    },
+    {
+      "authors": [
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.353712,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "Oracle Corporation experienced an 11% stock drop due to disappointing fiscal fourth-quarter results, but the article suggests the sell-off might be overdone given its strong push into Software-as-a-Service (SaaS) and positive financial indicators. Competitors like SAP AG and International Business Machine Corp. are also significantly investing in SaaS and cloud services, indicating a major industry shift towards these technologies. The article analyzes Oracle's strategic cloud acquisitions, partnerships, and financial improvements, including a dividend increase and share buybacks, positioning it for future growth despite recent setbacks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439843"
+        },
+        {
+          "relevance_score": "0.617523",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305563"
+        },
+        {
+          "relevance_score": "0.625399",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297402"
+        }
+      ],
+      "time_published": "20130703T110500",
+      "title": "Oracle Corporation (ORCL), SAP AG (ADR) (SAP): Kicking the Competition\u2019s SaaS",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.917098",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.833199",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/oracle-corporation-orcl-sap-ag-adr-sap-kicking-the-competitions-saas-187298/"
+    },
+    {
+      "authors": [
+        "Blogs @ The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.125801,
+      "source": "Seattle Post-Intelligencer",
+      "source_domain": "Seattle Post-Intelligencer",
+      "summary": "This article analyzes Red Hat ($RHT) by exploring \"the good, the bad, and the ugly\" aspects of the company. It highlights Red Hat's continued revenue growth and investment in future technologies like cloud management and OpenStack as positive aspects, while noting decelerating growth rates and strong competition from Amazon Web Services (AWS) as challenges. The author suggests that despite current bearish sentiment and competition, Red Hat's strategic investments and potential for OpenStack position it well for future growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.866758",
+          "ticker": "RXT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222243"
+        },
+        {
+          "relevance_score": "0.702809",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126743"
+        },
+        {
+          "relevance_score": "0.600584",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303088"
+        },
+        {
+          "relevance_score": "0.588341",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221420"
+        }
+      ],
+      "time_published": "20130701T133119",
+      "title": "Red Hat: The Good, the Bad, and the Ugly",
+      "topics": [
+        {
+          "relevance_score": "0.906392",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.801134",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.609993",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.seattlepi.com/business/fool/article/Red-Hat-The-Good-the-Bad-and-the-Ugly-4640827.php"
+    },
+    {
+      "authors": [
+        "KEN SCHACHTER"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.287019,
+      "source": "Newsday",
+      "source_domain": "Newsday",
+      "summary": "George Yancopoulos, Chief Scientific Officer for Regeneron Pharmaceuticals, was the highest-paid executive in the NYC metropolitan area in 2012, with a compensation package of $81.6 million. This substantial pay was largely due to his work on the blockbuster drug Eylea, which significantly boosted Regeneron's revenue and market capitalization. The compensation package included 500,000 shares of restricted stock, intended as a retention tool, and its value had appreciated significantly since the grant.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.643269",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.146201"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "REGN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.897474"
+        },
+        {
+          "relevance_score": "0.632495",
+          "ticker": "RL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107929"
+        },
+        {
+          "relevance_score": "0.617058",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146359"
+        }
+      ],
+      "time_published": "20130627T125107",
+      "title": "George Yancopoulos, Regeneron scientist, is top paid in NYC metro area with $81.6M pay",
+      "topics": [
+        {
+          "relevance_score": "0.812575",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.909579",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.newsday.com/business/george-yancopoulos-regeneron-scientist-is-top-paid-in-nyc-metro-area-with-81-6m-pay-b91500"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.071694,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "CDW Corp. cut the size of its initial public offering (IPO) and priced its shares at $17 each, the bottom end of its already lowered range, raising approximately $395 million. This occurred amid volatile U.S. stock markets due to concerns about the Federal Reserve potentially rolling back stimulus policies. Companies like HD Supply also experienced smaller-than-expected IPOs, indicating broader market caution.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CDW",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.203296"
+        },
+        {
+          "relevance_score": "0.609874",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143458"
+        },
+        {
+          "relevance_score": "0.640803",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148292"
+        },
+        {
+          "relevance_score": "0.634005",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131191"
+        }
+      ],
+      "time_published": "20130627T062000",
+      "title": "CDW Prices IPO at $17, Cuts Offer Size",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.905841",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.807401",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.721905",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.645480",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cnbc.com/2013/06/27/cdw-prices-ipo-at-17-cuts-offer-size.html"
+    },
+    {
+      "authors": [
+        "Quentin Hardy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.227845,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Oracle and Salesforce, former contentious rivals, are set to announce a data-sharing alliance aimed at unifying their cloud software. This deal, driven by increased competition and the growing importance of cloud computing, will allow customers to seamlessly use data across both companies' applications. The agreement marks a significant shift in their relationship, despite a history of public feuds between their CEOs, Larry Ellison and Marc Benioff.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309129"
+        },
+        {
+          "relevance_score": "0.920760",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314945"
+        },
+        {
+          "relevance_score": "0.605055",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127973"
+        },
+        {
+          "relevance_score": "0.628744",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107118"
+        },
+        {
+          "relevance_score": "0.637814",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141220"
+        }
+      ],
+      "time_published": "20130621T144000",
+      "title": "Oracle and Salesforce: a Data-Sharing Deal",
+      "topics": [
+        {
+          "relevance_score": "0.815926",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://archive.nytimes.com/bits.blogs.nytimes.com/2013/06/21/oracle-and-salesforce-a-data-sharing-deal/"
+    },
+    {
+      "authors": [
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14714,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "Clean Harbors Inc (CLH) stock has been underperforming since early 2012, yet it's held by notable investors Ron Baron and Steven Cohen. The company's recent $1.3 billion acquisition of Safety-Kleen, a leading oil re-refiner, is expected to strengthen its position in the small quantity waste generation market and expand its environmental services in North America, despite increasing its debt level. This strategic move could provide substantial cross-selling opportunities and significant cost synergies, making CLH an interesting prospect despite its current valuation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CLH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236337"
+        },
+        {
+          "relevance_score": "0.735167",
+          "ticker": "WM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.172107"
+        },
+        {
+          "relevance_score": "0.597273",
+          "ticker": "RSG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134751"
+        },
+        {
+          "relevance_score": "0.588111",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130982"
+        },
+        {
+          "relevance_score": "0.565110",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144670"
+        }
+      ],
+      "time_published": "20130612T133900",
+      "title": "Clean Harbors Inc (CLH), Waste Management, Inc. (WM): This Waste Disposal Company Looks Interesting After the Recent Acquisition",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.849357",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.741138",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/clean-harbors-inc-clh-waste-management-inc-wm-this-waste-disposal-company-looks-interesting-after-the-recent-acquisition-168541/"
+    },
+    {
+      "authors": [
+        "Knowledge at Wharton Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.095606,
+      "source": "Knowledge at Wharton",
+      "source_domain": "Knowledge at Wharton",
+      "summary": "This article reflects on the 20-year history of Adobe Acrobat and its Portable Document Format (PDF) with insights from Adobe co-founder John Warnock and SVP Bob Wulff. They discuss the product's origins, early struggles, the decision to make the Reader free, and its eventual success, including criticisms of the web's design and Apple's App Store model. The conversation highlights the technical and marketing challenges overcome to establish PDF as a universal document format.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438918"
+        },
+        {
+          "relevance_score": "0.741527",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001245"
+        },
+        {
+          "relevance_score": "0.619891",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022362"
+        },
+        {
+          "relevance_score": "0.606607",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010967"
+        },
+        {
+          "relevance_score": "0.606202",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.025717"
+        }
+      ],
+      "time_published": "20130605T120110",
+      "title": "Adobe Acrobat at 20: Successes, Second Guesses and a Few Miscues",
+      "topics": [
+        {
+          "relevance_score": "0.941215",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://knowledge.wharton.upenn.edu/article/adobe-acrobat-at-20-successes-second-guesses-and-a-few-miscues/"
+    },
+    {
+      "authors": [
+        "Barrie McKenna"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.31558,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Celestica, a contract electronics manufacturer born from IBM Canada, is innovating by integrating advanced circuitry into conventional products for non-electronics companies. The company emphasizes that technological improvement comes from identifying and fixing failures, actively testing products to destruction, and constantly reconfiguring its Toronto plant to launch numerous new products monthly. This strategy allows Celestica to climb the technology value chain despite its traditional business becoming commoditized and moving offshore.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CLS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.533845"
+        },
+        {
+          "relevance_score": "0.723705",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310701"
+        },
+        {
+          "relevance_score": "0.615275",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.218559"
+        },
+        {
+          "relevance_score": "0.599737",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139997"
+        }
+      ],
+      "time_published": "20130604T122115",
+      "title": "At Celestica, new products grow from trial and \u2018tons of errors\u2019",
+      "topics": [
+        {
+          "relevance_score": "0.900257",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.811640",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/breakthrough/at-celestica-new-products-grow-from-trial-and-tons-of-errors/article12340133/"
+    },
+    {
+      "authors": [
+        "Marshall Hargrave"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.31211,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article discusses some of Warren Buffett's top stock holdings, including American Express (AXP), The Procter & Gamble Company (PG), Wells Fargo (WFC), and International Business Machines (IBM). It highlights the rationale behind these investments, such as American Express's return on equity and discount to industry average, P&G's activist campaign potential, and the long-term value and dividend yields of Buffett's mega-cap stocks. The author also provides personal opinions on the future prospects of these companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127664"
+        },
+        {
+          "relevance_score": "0.805700",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416351"
+        },
+        {
+          "relevance_score": "0.743683",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305402"
+        },
+        {
+          "relevance_score": "0.636180",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330486"
+        },
+        {
+          "relevance_score": "0.596724",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291909"
+        }
+      ],
+      "time_published": "20130603T123400",
+      "title": "International Business Machines Corp. (IBM), Wells Fargo & Co (WFC): Billionaire Warren Buffett\u2019s Top Stocks",
+      "topics": [
+        {
+          "relevance_score": "0.928688",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.846818",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/international-business-machines-corp-ibm-wells-fargo-co-wfc-billionaire-warren-buffetts-top-stocks-158373/2"
+    },
+    {
+      "authors": [
+        "Shen Jingting"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.14562,
+      "source": "China Daily - Global Edition",
+      "source_domain": "China Daily - Global Edition",
+      "summary": "Chinese telecom giants ZTE Corp and Huawei Technologies Co Ltd experienced a decline in their global mobile phone market rankings in the first quarter of 2013, according to Gartner Inc. ZTE fell to fifth place, shipping 14.6 million mobile phones, while Huawei remained sixth globally but dropped to fourth in the smartphone sector. Both companies faced challenges in meeting smartphone sales targets and increasing market share against competitors like LG Electronics.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119151"
+        },
+        {
+          "relevance_score": "0.737705",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.112233"
+        },
+        {
+          "relevance_score": "0.632361",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141181"
+        },
+        {
+          "relevance_score": "0.602028",
+          "ticker": "SNA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110868"
+        },
+        {
+          "relevance_score": "0.632346",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130309"
+        }
+      ],
+      "time_published": "20130516T050700",
+      "title": "ZTE, Huawei global market rankings fall",
+      "topics": [
+        {
+          "relevance_score": "0.924455",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.831020",
+          "topic": "technology"
+        }
+      ],
+      "url": "http://usa.chinadaily.com.cn/a/201305/16/WS5a2f9ad6a3108bc8c6727825.html"
+    },
+    {
+      "authors": [
+        "Yuliya Polozova"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.212762,
+      "source": "Kaspersky",
+      "source_domain": "Kaspersky",
+      "summary": "Kaspersky Lab has announced an agreement with Qualcomm Technologies Inc. (QTI) to offer special terms for preloading Kaspersky Mobile Security and Kaspersky Tablet Security onto Android devices powered by Qualcomm Snapdragon processors. This partnership aims to provide security solutions to a wide range of device manufacturers creating Snapdragon-enabled mobile devices and tablets running on Android. Eugene Kaspersky, Chairman and CEO of Kaspersky Lab, highlighted QTI as one of their most important global partners.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417597"
+        },
+        {
+          "relevance_score": "0.622363",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125504"
+        },
+        {
+          "relevance_score": "0.641770",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132148"
+        },
+        {
+          "relevance_score": "0.622929",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121144"
+        }
+      ],
+      "time_published": "20130513T132625",
+      "title": "Qualcomm and Kaspersky partner to protect smartphones and tablets",
+      "topics": [
+        {
+          "relevance_score": "0.936677",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.kaspersky.com/blog/qualcomm-and-kaspersky-partner-to-protect-smartphones-and-tablets/1819/"
+    },
+    {
+      "authors": [
+        "Bibhu Ranjan Mishra",
+        "Indulekha Aravind"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.148321,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "Swami Swaminathan, the former CEO and MD of Infosys BPO, has been appointed executive chairman of Manipal Health Enterprises. This marks the second time a former Infosys executive has joined the Manipal Group, following T V Mohandas Pai. Manipal Health Enterprises is currently undergoing a significant expansion, aiming to double its hospital bed inventory after securing $180 million in funding last year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.616780",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143459"
+        }
+      ],
+      "time_published": "20130504T032400",
+      "title": "Former Infosys BPO head joins Manipal Group",
+      "topics": [
+        {
+          "relevance_score": "0.945283",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.743289",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/companies/former-infosys-bpo-head-joins-manipal-group-113050400034_1.html"
+    },
+    {
+      "authors": [
+        "Jon C. Ogg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.552673,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "IBM reported its first-quarter earnings, falling short of Thomson Reuters estimates with $3.00 operating EPS and $23.4 billion in revenue. Sales were down 5% year-over-year, and the company's shares dropped over 4% after the announcement. This decline in IBM's performance, as the largest DJIA component, is expected to pressure the Dow Jones Industrial Average.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.984387",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.407562"
+        },
+        {
+          "relevance_score": "0.572793",
+          "ticker": "DD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.635420"
+        },
+        {
+          "relevance_score": "0.586453",
+          "ticker": "KMB",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.609360"
+        },
+        {
+          "relevance_score": "0.572355",
+          "ticker": "MRNA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.638243"
+        },
+        {
+          "relevance_score": "0.595893",
+          "ticker": "CHTR",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.408176"
+        }
+      ],
+      "time_published": "20130418T161700",
+      "title": "IBM Corporate Earnings Face Revenue Decline, to Pressure DJIA",
+      "topics": [
+        {
+          "relevance_score": "0.923416",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.807549",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.745902",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://247wallst.com/investing/2013/04/18/ibm-corporate-earnings-face-revenue-decline-to-pressure-djia/?utm_source=robinhood&tpid=187278&tv=link&tc=in_content"
+    },
+    {
+      "authors": [
+        "ABC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.237865,
+      "source": "ABC News",
+      "source_domain": "ABC News",
+      "summary": "This article identifies 15 private companies that profit from border security contracts, particularly in light of potential funding increases from immigration reform. It highlights that the federal government spent nearly $18 billion on immigration enforcement in fiscal year 2012, with a significant portion going to private contractors for services ranging from IT to uniforms and drones. The article also touches on political donations made by some of these companies to politicians involved in immigration reform efforts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.907266",
+          "ticker": "UIS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313447"
+        },
+        {
+          "relevance_score": "0.838858",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212167"
+        },
+        {
+          "relevance_score": "0.638438",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135007"
+        },
+        {
+          "relevance_score": "0.700843",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243497"
+        }
+      ],
+      "time_published": "20130415T102000",
+      "title": "15 Companies That Profit From Border Security",
+      "topics": [
+        {
+          "relevance_score": "0.931119",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.739872",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.634045",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://abcnews.go.com/ABC_Univision/Politics/15-companies-profit-border-security/story?id=18957304"
+    },
+    {
+      "authors": [
+        "Arundhati Ramanthan",
+        "Anirban Sen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.118183,
+      "source": "mint",
+      "source_domain": "mint",
+      "summary": "Tata Consultancy Services (TCS) has surpassed Accenture to become the world's second-largest IT services employer with nearly 264,000 employees, though its revenue per employee is significantly lower than IBM and Accenture. IBM remains the largest employer in the services division. The article also discusses TCS's employee growth strategy and the evolving \"pyramid model\" of hiring in the IT sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127642"
+        },
+        {
+          "relevance_score": "0.900703",
+          "ticker": "ACN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128407"
+        },
+        {
+          "relevance_score": "0.747421",
+          "ticker": "CTSH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129547"
+        }
+      ],
+      "time_published": "20130402T225500",
+      "title": "TCS behind only IBM in employee strength",
+      "topics": [
+        {
+          "relevance_score": "0.928074",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.829414",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/bkMCAhvRg2xJvLqsLQh88I/TCS-behind-only-IBM-in-employee-strength.html"
+    },
+    {
+      "authors": [
+        "Nicole Perlroth and David E. Sanger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.238056,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "A new wave of corporate cyberattacks, potentially state-backed, are shifting from espionage to outright destruction, impacting major financial institutions and government operations globally. These attacks, as seen with American Express and South Korean banks, aim to disable operations and destroy data, representing a significant escalation in cyber threats. Experts note that nations are testing the limits of these destructive capabilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.997498",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.310237"
+        },
+        {
+          "relevance_score": "0.705736",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.336672"
+        },
+        {
+          "relevance_score": "0.622301",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104958"
+        }
+      ],
+      "time_published": "20130328T120644",
+      "title": "Cyberattacks Seem Meant to Destroy, Not Just Disrupt (Published 2013)",
+      "topics": [
+        {
+          "relevance_score": "0.831345",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.701781",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2013/03/29/technology/corporate-cyberattackers-possibly-state-backed-now-seek-to-destroy-data.html"
+    },
+    {
+      "authors": [
+        "STEVE TOBAK"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19531,
+      "source": "Inc.com",
+      "source_domain": "Inc.com",
+      "summary": "This article examines how small companies can successfully compete against industry giants by adopting five key strategies. These strategies include being a niche player, taking the battle to Goliath through media, differentiating products/services, partnering to achieve first-to-market advantage, and appearing larger than they are to instill customer confidence. The author emphasizes that a unique customer experience is paramount for success against larger competitors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.842367",
+          "ticker": "LUV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256706"
+        },
+        {
+          "relevance_score": "0.730215",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266249"
+        },
+        {
+          "relevance_score": "0.606121",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128306"
+        },
+        {
+          "relevance_score": "0.643583",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130125"
+        },
+        {
+          "relevance_score": "0.562581",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233920"
+        }
+      ],
+      "time_published": "20130327T130633",
+      "title": "David vs. Goliath: How Small Companies Make It Big",
+      "topics": [
+        {
+          "relevance_score": "0.836156",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.622034",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.inc.com/steve-tobak/david-vs-goliath-how-small-companies-make-it-big.html"
+    },
+    {
+      "authors": [
+        "Natalia Kosk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.201548,
+      "source": "Supply & Demand Chain Executive",
+      "source_domain": "Supply & Demand Chain Executive",
+      "summary": "This article highlights leading female executives in the supply chain industry, showcasing their achievements and insights in a field traditionally dominated by men. It features perspectives from 28 female decision-makers on driving value, addressing industry issues, breaking the \"glass ceiling,\" and positioning women for influential roles in the global supply chain. The article emphasizes that success is a result of hard work, passion, and perseverance regardless of gender, while also noting the increasing recognition and opportunities for women in the sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMBR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220606"
+        },
+        {
+          "relevance_score": "0.709242",
+          "ticker": "DD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236651"
+        },
+        {
+          "relevance_score": "0.629193",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.215783"
+        },
+        {
+          "relevance_score": "0.608822",
+          "ticker": "CSX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116967"
+        }
+      ],
+      "time_published": "20130314T120139",
+      "title": "Top Female Supply Chain Executives Lead the Way for Global Success",
+      "topics": [
+        {
+          "relevance_score": "0.948742",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.812153",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.sdcexec.com/warehousing/article/10882913/top-female-supply-chain-executives-lead-the-way-for-global-success"
+    },
+    {
+      "authors": [
+        "Pierpaolo De Laurentiis",
+        "Alberto Ferrara"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.270568,
+      "source": "www.embedded.com",
+      "source_domain": "www.embedded.com",
+      "summary": "This article describes a novel approach for optimizing clock tree distribution in SoCs, particularly for designs with multiple clock sinks. It introduces a two-phase distribution strategy\u2014top-level optimal distribution and local block-based distribution\u2014and an improved buffering and wiring apparatus (Multi-Driven Net) to reduce clock skew, latency, and uncertainty. The method aims to enhance performance and address challenges posed by modern technology nodes and on-chip variations, offering a more efficient and predictable design cycle.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.866579",
+          "ticker": "CDNS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340712"
+        },
+        {
+          "relevance_score": "0.590761",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222822"
+        }
+      ],
+      "time_published": "20130310T121623",
+      "title": "Optimizing clock tree distribution in SoCs with multiple clock sinks",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.embedded.com/optimizing-clock-tree-distribution-in-socs-with-multiple-clock-sinks/"
+    },
+    {
+      "authors": [
+        "Gary Strauss"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.147309,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "H.J. Heinz CEO William Johnson stands to receive a massive $212 million payout following the company's $23.6 billion buyout by Warren Buffett's Berkshire Hathaway and 3G Capital Partners. This considerable sum reflects his accumulated equity over a 30-year career and equity awards predating the merger. Chief Financial Officer Arthur Winkleblack and Executive Vice President David Moran are also set to receive large payouts, though significantly less than Johnson's.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148139"
+        },
+        {
+          "relevance_score": "0.629552",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148699"
+        }
+      ],
+      "time_published": "20130304T130059",
+      "title": "Heinz CEO William Johnson: $212 million man",
+      "topics": [
+        {
+          "relevance_score": "0.930110",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.824088",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/business/2013/03/04/heinz-ceo-johnson-212-million/1963253/"
+    },
+    {
+      "authors": [
+        "Jon C. Ogg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.253444,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Deutsche Bank released a research report recommending investors buy \"Enduring Eight\" large-cap tech stocks, expecting improved business fundamentals and corporate spending in 2013. The bank views these companies as key operational partners for multinational corporations, differentiating them from consumer tech products. The recommended stocks include Cisco Systems, EMC Corp., Hewlett-Packard Co., International Business Machines Corp., Intel Corp., Microsoft Corp., NetApp Inc., and Oracle Corp., all considered undervalued with strong growth potential.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.995789",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311950"
+        },
+        {
+          "relevance_score": "0.907101",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345579"
+        },
+        {
+          "relevance_score": "0.917326",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124831"
+        },
+        {
+          "relevance_score": "0.869441",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259014"
+        }
+      ],
+      "time_published": "20130304T085500",
+      "title": "Deutsche Bank Says Buy the Enduring Eight Tech Stocks (CSCO, EMC, HPQ, IBM, INTC, MSFT, NTAP, ORCL)",
+      "topics": [
+        {
+          "relevance_score": "0.905848",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.801488",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.704255",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.600252",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.618831",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://247wallst.com/investing/2013/03/04/deutsche-bank-says-buy-the-enduring-eight-tech-stocks-csco-emc-hpq-ibm-intc-msft-ntap-orcl/"
+    },
+    {
+      "authors": [
+        "Dena Aubin and Lawrence White"
+      ],
+      "banner_image": "https://www.reuters.com/image/2013/01/22/2013-01-22T083431Z_01_NOOTR_RTRMDSP_3_CHINA-CATERPILLAR-idUSL4N0APM9Q20130122",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.410003,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "U.S. multinational corporations investing in China face significant accounting risks due to widespread questionable business practices, government resistance to U.S. audit inspections, and routine bribery/fraud. The article highlights cases like Caterpillar's $654 million write-off and ongoing issues with SEC investigations into Chinese affiliates of major audit firms. These challenges create uncertainty for U.S. companies making substantial investments in the rapidly growing Chinese economy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.621618"
+        },
+        {
+          "relevance_score": "0.632281",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.520849"
+        },
+        {
+          "relevance_score": "0.600529",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.547045"
+        },
+        {
+          "relevance_score": "0.646413",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.534316"
+        },
+        {
+          "relevance_score": "0.644803",
+          "ticker": "WYNN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.206347"
+        }
+      ],
+      "time_published": "20130210T181200",
+      "title": "Accounting risk clouds big U.S. business bets in China",
+      "topics": [
+        {
+          "relevance_score": "0.905776",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.732202",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.633621",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.644462",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/accounting-risk-clouds-big-u-s-business-bets-in-china-idUSDEE91907F/"
+    },
+    {
+      "authors": [
+        "Erik Sherman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.073934,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "Hewlett-Packard's board is reportedly considering breaking up the company, an idea previously championed by former CEO Leo Apotheker, who was widely criticized for similar proposals. This move suggests retrospectively that Apotheker's strategic vision, particularly regarding spinning off the PC division and focusing on services, may have been correct despite investor backlash and his subsequent firing. The article highlights the irony of HP revisiting Apotheker's ideas after struggling with other acquisitions and failing to meet financial targets under his successor, Meg Whitman.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.241176"
+        },
+        {
+          "relevance_score": "0.602070",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132796"
+        },
+        {
+          "relevance_score": "0.629069",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106930"
+        }
+      ],
+      "time_published": "20130207T065000",
+      "title": "Why HP may owe an apology to ex-CEO Leo Apotheker",
+      "topics": [
+        {
+          "relevance_score": "0.934262",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.845255",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.715815",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/why-hp-may-owe-an-apology-to-ex-ceo-leo-apotheker/"
+    },
+    {
+      "authors": [
+        "David Zielenziger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.154529,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "General Electric Co. introduced its Proficy Vision software, designed to manage \"big data\" from structured and unstructured sources in manufacturing and automation. The software aims to compete with existing offerings from Oracle, SAP, and IBM, and has been used internally by GE since 2009. Proficy Vision is part of GE's larger push into automation and software, including a $1 billion global software center to develop its \"industrial Internet.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344378"
+        },
+        {
+          "relevance_score": "0.832686",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124533"
+        },
+        {
+          "relevance_score": "0.738183",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107879"
+        },
+        {
+          "relevance_score": "0.620796",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105856"
+        }
+      ],
+      "time_published": "20130207T055600",
+      "title": "GE's Proficy Vision Software To Handle 'Big Data' Vs. Oracle, IBM, In Automation",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.912554",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.734433",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.600394",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.ibtimes.com/ge-rolls-out-proficy-vision-software-handle-big-data-manufacturing-1067204"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.404049,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "IBM's shares rose by 2.9 percent after market close following the release of its financial results. The surge in stock price indicates a positive market reaction to the company's performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435975"
+        }
+      ],
+      "time_published": "20130122T210900",
+      "title": "IBM shares up 2.9 pct after the bell following results",
+      "topics": [
+        {
+          "relevance_score": "0.941971",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.712827",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/article/technology/ibm-shares-up-29-pct-after-the-bell-following-results-idUSWEN007B5/"
+    },
+    {
+      "authors": [
+        "Karen McIntyre"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.21527,
+      "source": "Nonwovens Industry -",
+      "source_domain": "Nonwovens Industry -",
+      "summary": "Kimberly-Clark has appointed Jennifer Sepull as its new chief information officer and vice president of IT Services. Sepull previously served as vice president and CIO of the Information Systems Division at American Honda Motor Co., Inc., where she supported Honda's $50 billion business in the Americas. Her background also includes a role as a principal in IBM's automotive consulting services practice and entrepreneurial ventures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KMB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334720"
+        },
+        {
+          "relevance_score": "0.601779",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100879"
+        }
+      ],
+      "time_published": "20130122T130103",
+      "title": "K-C names new chief information officer",
+      "topics": [
+        {
+          "relevance_score": "0.618917",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.728333",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nonwovens-industry.com/breaking-news/k-c-names-new-chief-information-officer/"
+    },
+    {
+      "authors": [
+        "Jonathan Gourlay"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.184976,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "Pacific Gas and Electric (PG&E) has implemented a knowledge management strategy to combat the loss of institutional knowledge as a significant portion of its experienced workforce approaches retirement. The utility company is focusing on identifying and transferring \"tacit knowledge\" from older employees to a younger generation to ensure continued operational effectiveness and safety. This involves risk assessments, mentoring programs, and creating new training materials, reflecting a broader challenge faced by many organizations with aging baby boomer workforces.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PCG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273323"
+        },
+        {
+          "relevance_score": "0.615160",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117475"
+        },
+        {
+          "relevance_score": "0.633359",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147370"
+        }
+      ],
+      "time_published": "20130117T132112",
+      "title": "Knowledge management strategy helps gas company retain worker know-how",
+      "topics": [
+        {
+          "relevance_score": "0.825611",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.701518",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.718777",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.techtarget.com/searchcontentmanagement/feature/Knowledge-management-strategy-helps-gas-company-retain-worker-know-how"
+    }
+  ],
+  "items": "58",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

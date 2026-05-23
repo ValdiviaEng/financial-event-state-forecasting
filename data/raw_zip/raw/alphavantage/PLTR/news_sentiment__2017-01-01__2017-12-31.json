@@ -1,0 +1,142 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Nicole Greenberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.038178,
+      "source": "www.ere.net",
+      "source_domain": "www.ere.net",
+      "summary": "This article examines the paradox created by OFCCP's diversity hiring enforcement, particularly focusing on the Palantir settlement and Oracle lawsuit. It highlights how government actions and statistical analysis methods clash with existing hiring complexities, such as H1-B visas and the definition of a \"qualified\" applicant. The author suggests methods for companies to better comply with OFCCP regulations while navigating these challenges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232879"
+        },
+        {
+          "relevance_score": "0.712617",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119668"
+        },
+        {
+          "relevance_score": "0.580920",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.037946"
+        },
+        {
+          "relevance_score": "0.584136",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.031732"
+        },
+        {
+          "relevance_score": "0.564169",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024921"
+        }
+      ],
+      "time_published": "20170524T051152",
+      "title": "The OFCCP Paradox: Government Actions Create a New Diversity Hiring Fallacy",
+      "topics": [
+        {
+          "relevance_score": "0.847506",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.741057",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ere.net/articles/the-ofccp-paradox-government-actions-create-a-new-diversity-hiring-fallacy"
+    },
+    {
+      "authors": [
+        "Sarah McBride"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.332439,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Mithril Capital Management LLC, co-founded by Peter Thiel, has successfully raised approximately $850 million for its second venture capital fund. The firm is employing an unconventional strategy by spreading management fees over 12 years, which is two years longer than the typical VC fund structure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.615189",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337048"
+        }
+      ],
+      "time_published": "20170120T035000",
+      "title": "Peter Thiel\u2019s Mithril Capital Raises $850 Million VC Fund",
+      "topics": [
+        {
+          "relevance_score": "0.921405",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.646290",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2017-01-20/peter-thiel-s-mithril-capital-raises-850-million-vc-fund"
+    },
+    {
+      "authors": [
+        "Andy Gensler"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.176898,
+      "source": "Billboard",
+      "source_domain": "Billboard",
+      "summary": "Live Nation, the world's largest music promoter, is relocating its headquarters from Times Square to a 100,000-square-foot building in New York City's Meatpacking District. This move follows Live Nation's record-breaking third quarter with $3.21 billion in revenues, a 23% increase year-over-year. The new location places Live Nation among other major tech and retail companies in the increasingly gentrified neighborhood.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LYV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.203912"
+        },
+        {
+          "relevance_score": "0.602329",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130094"
+        },
+        {
+          "relevance_score": "0.550476",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131042"
+        }
+      ],
+      "time_published": "20170111T045647",
+      "title": "Live Nation Headquarters Moving to NYC\u2019s Meatpacking District",
+      "topics": [
+        {
+          "relevance_score": "0.923293",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.718541",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.billboard.com/music/music-news/live-nation-headquarters-moving-nyc-meatpacking-district-7654357/"
+    }
+  ],
+  "items": "3",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

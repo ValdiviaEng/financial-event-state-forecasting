@@ -1,0 +1,75 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "WILL YAKOWICZ"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.360147,
+      "source": "Inc.com",
+      "source_domain": "Inc.com",
+      "summary": "Peter Thiel, co-founder of PayPal and early Facebook investor, shares three key pieces of startup advice based on his book \"Zero to One.\" He advises against competition, encourages building monopolies that create new value, and emphasizes the importance of a founding team with pre-existing chemistry and history. These insights aim to help entrepreneurs build successful and innovative companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.929478",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.385939"
+        },
+        {
+          "relevance_score": "0.632304",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319631"
+        }
+      ],
+      "time_published": "20141007T112151",
+      "title": "3 Pearls of Startup Wisdom From Peter Thiel",
+      "topics": [
+        {
+          "relevance_score": "0.701997",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.813130",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.inc.com/will-yakowicz/peter-thiel-3-pearls-of-startup-wisdom.html"
+    },
+    {
+      "authors": [
+        "PETER THIEL"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.038794,
+      "source": "Inc.com",
+      "source_domain": "Inc.com",
+      "summary": "Peter Thiel encourages entrepreneurs to seek out \"secrets\"\u2014important, unknown, and difficult but doable truths\u2014to build valuable, world-changing companies. He argues that modern society discourages this quest for discovery due to factors like incrementalism, risk aversion, complacency, and the perception of a \"flat\" globalized world, leading many to believe there are no significant secrets left to find. Thiel emphasizes that true innovation comes from exploring these unconventional truths.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.324769",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002638"
+        }
+      ],
+      "time_published": "20140916T112151",
+      "title": "Peter Thiel on Unearthing Secrets: \u2018What Valuable Company Is Nobody Building?\u2019",
+      "topics": [
+        {
+          "relevance_score": "0.843062",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.inc.com/peter-thiel/building-a-world-changing-company.html"
+    }
+  ],
+  "items": "2",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

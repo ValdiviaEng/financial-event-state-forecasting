@@ -1,0 +1,136 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Jeremy Gerrard"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.37645,
+      "source": "FoodEngineeringMag.com",
+      "source_domain": "FoodEngineeringMag.com",
+      "summary": "The Hershey Company and Palantir Technologies have formed a consortium for consumer packaged goods (CPG) manufacturers. This partnership aims to leverage Palantir's data analysis expertise to help CPG companies share and analyze data, stay ahead of emerging trends, and adjust business strategies according to consumer purchasing patterns. The initiative seeks to evolve the CPG business and better serve consumers in a dynamic industry landscape.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HSY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415057"
+        },
+        {
+          "relevance_score": "0.836568",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349973"
+        }
+      ],
+      "time_published": "20150721T084230",
+      "title": "Hershey and Palantir partner to form CPG consortium",
+      "topics": [
+        {
+          "relevance_score": "0.716390",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.846270",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.649730",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.foodengineeringmag.com/articles/94242-hershey-and-palantir-partner-to-form-cpg-consortium"
+    },
+    {
+      "authors": [
+        "ABC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.081685,
+      "source": "ABC News",
+      "source_domain": "ABC News",
+      "summary": "TurboTax resumed its state tax filing services nationwide after temporarily pausing them due to fraud concerns. Intuit, the maker of TurboTax, stated that the fraud instances did not result from a security breach of its systems and that they are working with states and security expert Palantir. This suspension followed actions by states like Minnesota, Utah, and Alabama to halt processing returns submitted through third-party software due to suspicious activity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026448"
+        },
+        {
+          "relevance_score": "0.604363",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124192"
+        },
+        {
+          "relevance_score": "0.612849",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.311478"
+        }
+      ],
+      "time_published": "20150206T215000",
+      "title": "TurboTax Resumes State Tax Filing Service Nationwide After Fraud Concerns",
+      "topics": [
+        {
+          "relevance_score": "0.932138",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.841105",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.703583",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://abcnews.go.com/Business/turbotax-suspends-state-tax-filing-service-nationwide-fraud/story?id=28776718"
+    },
+    {
+      "authors": [
+        "Ingrid Lunden"
+      ],
+      "banner_image": "https://techcrunch.com/wp-content/uploads/2015/02/fancy-that-e1423164993883.jpg?w=1390&crop=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.412655,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "Palantir has acquired Fancy That, a startup specializing in retail and shopping data analytics, to expand its platform beyond law enforcement, financial, and healthcare sectors. Fancy That's technology helps retailers optimize omnichannel strategies, inventory, and customer habits using machine learning and sensor technologies. This acquisition marks Palantir's fourth and second in the marketing/sales area, complementing the growing importance of omnichannel strategies in commerce.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404429"
+        }
+      ],
+      "time_published": "20150206T025200",
+      "title": "Palantir Buys Fancy That To Add Retail, Shopping Data To Its Analytics Platform",
+      "topics": [
+        {
+          "relevance_score": "0.911897",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830693",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.841999",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://techcrunch.com/2015/02/06/palantir-fancy-that/"
+    }
+  ],
+  "items": "3",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

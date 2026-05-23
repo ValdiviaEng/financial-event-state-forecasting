@@ -1,0 +1,75 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "The Moultrie Observer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.163019,
+      "source": "Moultrie Observer",
+      "source_domain": "Moultrie Observer",
+      "summary": "Dawn Johns, a board member of Moultrie Technical College since 2007, achieved Certified Board Member status from the Technical College Directors\u2019 Association of Georgia. Additionally, Lynn Lovett was sworn in as the newest board member for a nine-year term. Both individuals represent their respective counties and bring their professional expertise to the college's board.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.742898",
+          "ticker": "ABCB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208782"
+        },
+        {
+          "relevance_score": "0.645817",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142942"
+        }
+      ],
+      "time_published": "20121024T231600",
+      "title": "News from Moultrie Tech\u2019s board",
+      "topics": [
+        {
+          "relevance_score": "0.646148",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://moultrieobserver.com/2012/10/24/news-from-moultrie-techs-board/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.129197,
+      "source": "Foro Nuclear",
+      "source_domain": "Foro Nuclear",
+      "summary": "The Cofrentes nuclear power plant, operational since 1984 and owned by Iberdrola Generaci\u00f3n, is Spain's sixth nuclear power plant, located in Valencia. It provides electricity for nearly all households in the Community of Valencia, avoiding 6.5 million tons of CO2 emissions annually. Notably, it is one of only two plants in Spain using BWR technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.814475",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115725"
+        },
+        {
+          "relevance_score": "0.626518",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107984"
+        }
+      ],
+      "time_published": "20120524T144633",
+      "title": "The sixth Spanish nuclear power plant: Cofrentes",
+      "topics": [
+        {
+          "relevance_score": "0.925161",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.foronuclear.org/en/updates/in-depth/the-sixth-spanish-nuclear-power-plant-cofrentes/"
+    }
+  ],
+  "items": "2",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

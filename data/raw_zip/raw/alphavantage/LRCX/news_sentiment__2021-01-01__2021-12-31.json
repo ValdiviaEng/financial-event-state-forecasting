@@ -1,0 +1,4071 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Chen Cheng-hui"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2021/12/31/P12-211231-001.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.071689,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "Memorychip tester and packager Powertech Technology Inc (PTI) announced that strict COVID-19 control measures in Xian, China, are disrupting production at its subsidiary Powertech Semiconductor (Xian) Co, which is operating at 40-50% capacity. While the company expects limited short-term impact on revenue, longer-term effects depend on local government actions. Micron Technology Inc and Samsung Electronics Co are also experiencing disruptions at their Xian facilities due to the lockdown.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.983072",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.275868"
+        },
+        {
+          "relevance_score": "0.635584",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099944"
+        },
+        {
+          "relevance_score": "0.595747",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.089415"
+        },
+        {
+          "relevance_score": "0.563599",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.073217"
+        }
+      ],
+      "time_published": "20211231T163008",
+      "title": "Xian outbreak affects Powertech output",
+      "topics": [
+        {
+          "relevance_score": "0.944131",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.826023",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.628960",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2021/12/31/2003770452"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.645504,
+      "source": "AlphaStreet",
+      "source_domain": "AlphaStreet",
+      "summary": "Lam Research (LRCX) is positioned as a strong long-term investment due to its dominant role in wafer fabrication and the encouraging outlook for the semiconductor industry, which is predicted to see double-digit annual growth through 2030. The company's strong first-quarter results, investments in capacity expansion, and focus on advanced systems for memory chipmakers contribute to its positive prospects, despite its stock potentially trading sideways in the near term after recent peaks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.616275"
+        }
+      ],
+      "time_published": "20211229T204217",
+      "title": "Lam Research (LRCX) can be a great investment in 2022. Here\u2019s why",
+      "topics": [
+        {
+          "relevance_score": "0.908549",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.808478",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.839620",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.641653",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.603629",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://news.alphastreet.com/lam-research-lrcx-can-be-a-great-investment-in-2022-heres-why/"
+    },
+    {
+      "authors": [
+        "Heekyong Yang and Sophie Yu"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/IIGX3M5SBZITHMS3M7MRU3LGHM.jpg?auth=94d71bdc80c8620762fbd24bbe50647cb23dd271b900a3dd6de10be704941808&width=1920&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.218529,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "SK Hynix Inc has received Chinese antitrust approval for its $9 billion acquisition of Intel Corp's NAND memory chip business. The approval comes with conditions aimed at maintaining competition in China's solid-state drive markets, including requirements for SK Hynix to supply products at reasonable prices and expand output. This deal is crucial for SK Hynix to enhance its competitiveness in NAND Flash and SSD businesses and to narrow the gap with market leader Samsung.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416142"
+        },
+        {
+          "relevance_score": "0.842038",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236764"
+        },
+        {
+          "relevance_score": "0.617088",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147339"
+        },
+        {
+          "relevance_score": "0.607027",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119075"
+        },
+        {
+          "relevance_score": "0.637468",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104765"
+        }
+      ],
+      "time_published": "20211222T104100",
+      "title": "SK Hynix's Intel NAND business takeover wins China approval with conditions",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.945358",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/markets/deals/sk-hynix-gets-china-approval-takeover-intels-nand-business-2021-12-22/"
+    },
+    {
+      "authors": [
+        "Kamaron Leach",
+        "Crystal Tse"
+      ],
+      "banner_image": "https://img.businessoffashion.com/resizer/v2/ZA3C7P5EAJDCDPZDRBKP2OGA3Q.jpg?auth=21436a33a74bdda4ae38495ef692646bf88e03ee036a7d433eb1ec057c99b1a1&width=1440",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.216805,
+      "source": "The Business of Fashion",
+      "source_domain": "The Business of Fashion",
+      "summary": "Blackstone Inc.'s growth fund is acquiring a majority stake in Supergoop, a 15-year-old sunscreen brand, in a deal estimated to value the company at $600 million to $700 million. Supergoop's founder and CEO will retain significant equity, and the investment aims to fuel product and regional expansion, including into China. This acquisition highlights a trend of larger players buying clean beauty brands to attract younger, ingredient-conscious consumers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.461919"
+        },
+        {
+          "relevance_score": "0.620544",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117952"
+        },
+        {
+          "relevance_score": "0.633285",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134930"
+        },
+        {
+          "relevance_score": "0.552572",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137844"
+        },
+        {
+          "relevance_score": "0.556746",
+          "ticker": "EL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106941"
+        }
+      ],
+      "time_published": "20211220T160538",
+      "title": "Blackstone Buys Majority Stake in Sunscreen Brand Supergoop",
+      "topics": [
+        {
+          "relevance_score": "0.919046",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.726957",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.644273",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.businessoffashion.com/news/beauty/blackstone-buys-majority-stake-in-sunscreen-brand-supergoop/"
+    },
+    {
+      "authors": [
+        "Su-bin Lee",
+        "Yeonhee Kim"
+      ],
+      "banner_image": "https://www.kedglobal.com/data/ked/image/2021/12/13/ked202112130028.700x.9.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.179398,
+      "source": "KED Global",
+      "source_domain": "KED Global",
+      "summary": "Samsung Electronics has secured a foundry order from STMicroelectronics to produce 16-nanometer microcontroller units (MCUs) for Apple's next-generation iPhones. This marks the first time STMicroelectronics has outsourced MCU production for key clients, highlighting Samsung's growing presence in the foundry market. The deal is seen as a move by Samsung to challenge TSMC's dominance in outsourced MCU production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "STM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305350"
+        },
+        {
+          "relevance_score": "0.945443",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249987"
+        },
+        {
+          "relevance_score": "0.717545",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108276"
+        },
+        {
+          "relevance_score": "0.649905",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140629"
+        },
+        {
+          "relevance_score": "0.613639",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117454"
+        }
+      ],
+      "time_published": "20211213T193135",
+      "title": "Samsung to produce STMicro's MCUs for use in iPhones",
+      "topics": [
+        {
+          "relevance_score": "0.924567",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.839734",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.kedglobal.com/foundry-business/newsView/ked202112130017"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://theindiansun.wpenginepowered.com/wp-content/uploads/2021/12/Syndion_Press_release_1080x1080_final-0swVFl.jpeg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.614476,
+      "source": "The Indian Sun",
+      "source_domain": "The Indian Sun",
+      "summary": "Lam Research has unveiled Syndion GP, a new deep silicon etch product designed to help chipmakers produce advanced power devices and power management integrated circuits. This technology targets the growing demand in automotive, electric power delivery, and energy industries by enabling manufacturing on both 200 mm and 300 mm wafers, facilitating the transition to higher capacity production. Syndion GP builds on Lam's existing expertise and aims to support continuous innovation in specialty technologies like electric vehicles and 5G.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.605794"
+        }
+      ],
+      "time_published": "20211208T162706",
+      "title": "Lam Research Unveils Syndion GP to Help Chipmakers Meet Demand for Advanced Power Devices",
+      "topics": [
+        {
+          "relevance_score": "0.710977",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theindiansun.com.au/2021/12/08/lam-research-unveils-syndion-gp-to-help-chipmakers-meet-demand-for-advanced-power-devices/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.363382,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Lam Research has announced Syndion GP, a new product designed to provide deep silicon etch capabilities for chipmakers developing advanced power devices and power management integrated circuits. This solution addresses the increasing demand for higher power and improved performance in automotive, electric power delivery, and energy industries, particularly supporting the transition to 300 mm wafers for increased production capacity. Syndion GP builds on Lam's existing deep silicon etch expertise, expanding its portfolio for specialty technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.621021"
+        },
+        {
+          "relevance_score": "0.611948",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208798"
+        },
+        {
+          "relevance_score": "0.588211",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.197336"
+        }
+      ],
+      "time_published": "20211207T093000",
+      "title": "Lam Research Unveils Syndion GP to Help Chipmakers Meet Demand for Advanced Power Devices",
+      "topics": [
+        {
+          "relevance_score": "0.823120",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2021/12/07/2347560/0/en/Lam-Research-Unveils-Syndion-GP-to-Help-Chipmakers-Meet-Demand-for-Advanced-Power-Devices.html"
+    },
+    {
+      "authors": [
+        "Mike Rogoway"
+      ],
+      "banner_image": "https://www.oregonlive.com/resizer/v2/VXMGSQRUTJEBFDQQTZSKSPZHUA.jpg?auth=d14ea0f14dab7c0dbeb5d46ea8c013b878a161c1d3dae9cda3fcfcb26637b59b&width=1280&smart=true&quality=90",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.142961,
+      "source": "OregonLive.com",
+      "source_domain": "OregonLive.com",
+      "summary": "Oregon economic boosters are forming a task force to revitalize the state's computer chip manufacturing industry, which has seen little expansion since 1998 despite the overall growth in exports. Led by U.S. Sen. Ron Wyden and Portland General Electric CEO Maria Pope, the task force will address obstacles like the lack of large, shovel-ready industrial land and promote workforce development and research. This initiative comes as other states are attracting significant investments in new chip plants and Congress considers the CHIPS Act to boost domestic semiconductor production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.332815",
+          "ticker": "POR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011786"
+        },
+        {
+          "relevance_score": "0.851969",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228760"
+        },
+        {
+          "relevance_score": "0.639360",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149960"
+        },
+        {
+          "relevance_score": "0.555536",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123027"
+        },
+        {
+          "relevance_score": "0.576774",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120252"
+        }
+      ],
+      "time_published": "20211207T061500",
+      "title": "Oregon task force aims to renew growth in state\u2019s chip industry",
+      "topics": [
+        {
+          "relevance_score": "0.927002",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.843194",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.710967",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.617165",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.631439",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.oregonlive.com/silicon-forest/2021/12/oregon-task-force-aims-to-renew-growth-in-states-chip-industry.html"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://img.trendforce.com/EDM/2021/11/20211130_163643_1202_sr-3q21\u6676\u5713\u4ee3\u5de5\u7522\u503c.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.279553,
+      "source": "TrendForce",
+      "source_domain": "TrendForce",
+      "summary": "According to TrendForce, the total foundry revenue for 3Q21 increased by 11.8% quarter-over-quarter to a record high of US$27.28 billion, driven by strong demand from the traditional peak season for smartphones, ongoing inventory building by OEMs, and increasing wafer prices. Top foundries like TSMC, Samsung, UMC, and GlobalFoundries all reported significant revenue growth, while second and third-tier foundries also showed high growth rates due to robust demand for mature nodes and rising ASPs. Despite capacity expansions, the chip shortage is expected to continue, with forecasts indicating sustained revenue growth for the top 10 foundries in 4Q21, albeit at a more moderate pace.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.827692",
+          "ticker": "TSEM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.197029"
+        },
+        {
+          "relevance_score": "0.613556",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305098"
+        },
+        {
+          "relevance_score": "0.630032",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323807"
+        },
+        {
+          "relevance_score": "0.636814",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345014"
+        },
+        {
+          "relevance_score": "0.613275",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337835"
+        }
+      ],
+      "time_published": "20211202T164519",
+      "title": "Foundry Revenue Rises by 12% QoQ for 3Q21 Thanks to Peak Season, New Production Capacity, and Rising Prices, Says TrendForce",
+      "topics": [
+        {
+          "relevance_score": "0.922670",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.823015",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.733339",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.trendforce.com/presscenter/news/20211202-11036.html"
+    },
+    {
+      "authors": [
+        "Jash Kriplani"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.367447,
+      "source": "Moneycontrol",
+      "source_domain": "Moneycontrol",
+      "summary": "Tata Mutual Fund has filed with SEBI for a global semiconductor fund of fund (FoF) that will invest in overseas-listed semiconductor chip companies through various ETFs. This move comes amid a global chip shortage and a trend of mutual funds launching technology-focused themes, including other semiconductor-focused funds and electric vehicle funds. The fund aims to give investors exposure to the crucial semiconductor industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SMH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401064"
+        },
+        {
+          "relevance_score": "0.711045",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328523"
+        },
+        {
+          "relevance_score": "0.690756",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329983"
+        },
+        {
+          "relevance_score": "0.657438",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340117"
+        },
+        {
+          "relevance_score": "0.610934",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305292"
+        }
+      ],
+      "time_published": "20211125T165500",
+      "title": "Tata Mutual Fund files for semiconductor fund of fund",
+      "topics": [
+        {
+          "relevance_score": "0.917924",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.842153",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.moneycontrol.com/news/business/personal-finance/tata-mutual-fund-files-for-semiconductor-fund-of-fund-7761681.html"
+    },
+    {
+      "authors": [
+        "Sam Shead"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.345635,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "ASML, a Dutch chip firm, holds a critical monopoly in manufacturing the highly complex extreme ultraviolet lithography (EUV) machines essential for producing the most advanced chips. Despite its significant market value of $350 billion and being crucial to major chipmakers like TSMC, Samsung, and Intel, many investors may not be familiar with the company. Demand for ASML's machines is projected to lead to a significant sales boom over the next decade, with annual revenue expected to hit 24-30 billion euros by 2025.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.893674"
+        },
+        {
+          "relevance_score": "0.726414",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.189516"
+        },
+        {
+          "relevance_score": "0.605679",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143097"
+        },
+        {
+          "relevance_score": "0.550058",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133103"
+        }
+      ],
+      "time_published": "20211124T020700",
+      "title": "Investors are going wild over a Dutch chip firm. And you've probably never heard of it",
+      "topics": [
+        {
+          "relevance_score": "0.907710",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.921850",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.802838",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.705541",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.cnbc.com/2021/11/24/asml-the-biggest-company-in-europe-youve-probably-never-heard-of.html"
+    },
+    {
+      "authors": [
+        "Walter Lohman"
+      ],
+      "banner_image": "https://www.heritage.org/sites/default/files/styles/commentary_featured_image/public/2021-11/GettyImages-1232064121.jpg?itok=MvB-Z7fL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.163657,
+      "source": "The Heritage Foundation",
+      "source_domain": "The Heritage Foundation",
+      "summary": "Taiwan's robust semiconductor industry, a major global strength, is paradoxically becoming a political vulnerability as the world seeks to reduce its dependence on the island for microchip manufacturing. While awareness of threats to Taiwan is at a 50-year high, overemphasizing its role in the global electronics supply chain could backfire, potentially diminishing international interest in its security once chip production diversifies. The article warns against narratives that might prompt a global effort to move semiconductor production out of Taiwan, which could harm its economy in the long run.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.221063"
+        },
+        {
+          "relevance_score": "0.605500",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.133966"
+        },
+        {
+          "relevance_score": "0.617560",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.147641"
+        }
+      ],
+      "time_published": "20211123T212705",
+      "title": "Taiwan\u2019s Semiconductor Dilemma",
+      "topics": [
+        {
+          "relevance_score": "0.948968",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.827189",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.739298",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.614293",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.heritage.org/international-economies/commentary/taiwans-semiconductor-dilemma"
+    },
+    {
+      "authors": [
+        "Heirul Kamel"
+      ],
+      "banner_image": "https://www.lowyat.net/wp-content/uploads/2021/11/US-Malaysia-Deal-Supply-Chain-2-750x500.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.28593,
+      "source": "Lowyat.NET",
+      "source_domain": "Lowyat.NET",
+      "summary": "The US and Malaysia are set to sign a cooperation agreement by next year to enhance transparency, resilience, and security in the semiconductor and manufacturing supply chains. This initiative aims to address global shortages, particularly in semiconductor chips, which have been impacted by the COVID-19 pandemic. The agreement highlights Malaysia's crucial role in the global supply chain, with its chip assembly industry accounting for over US$20 billion in global trade.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.930267",
+          "ticker": "NXPI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316709"
+        },
+        {
+          "relevance_score": "0.709866",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.282203"
+        },
+        {
+          "relevance_score": "0.638561",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.246579"
+        },
+        {
+          "relevance_score": "0.552521",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.223506"
+        }
+      ],
+      "time_published": "20211119T100200",
+      "title": "US And Malaysia To Sign Deal On Supply Chain Improvements",
+      "topics": [
+        {
+          "relevance_score": "0.817625",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.940032",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.720406",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.lowyat.net/2021/258844/us-and-malaysia-to-sign-deal-on-supply-chain-improvements/"
+    },
+    {
+      "authors": [
+        "Barbra Murray"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.290422,
+      "source": "Commercial Search",
+      "source_domain": "Commercial Search",
+      "summary": "Texas Instruments Inc. is investing up to $30 billion to develop a 300-millimeter semiconductor wafer fabrication facility in Sherman, Texas. The project will be built in four phases, with the first phase costing approximately $6.5 billion and production expected to begin in 2025. This expansion aims to reduce outsourcing, improve cost-efficiency, and accommodate long-term demand in the electronics, industrial, and automotive markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445408"
+        },
+        {
+          "relevance_score": "0.647571",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249728"
+        },
+        {
+          "relevance_score": "0.591402",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200538"
+        },
+        {
+          "relevance_score": "0.595073",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232075"
+        }
+      ],
+      "time_published": "20211118T212720",
+      "title": "Texas Instruments Plans $30B Wafer Plant",
+      "topics": [
+        {
+          "relevance_score": "0.916866",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.803648",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.743167",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.607657",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.604944",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.commercialsearch.com/news/texas-instruments-plans-30b-wafer-facility/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://assets.theedgemarkets.com/pictures/CS-Sanjay-tem1395_theedgemarkets.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.62465,
+      "source": "KLSE Screener",
+      "source_domain": "KLSE Screener",
+      "summary": "Batu Kawan Industrial Park (BKIP) in Penang has become a magnet for international and local companies, attracting significant investments from tech giants like Micron Technology Inc and Lam Research Corp. Key reasons for this influx include the availability of skilled labor, proximity to regional customers, ease of doing business, and comprehensive infrastructure. The park, which began with Boon Siew Honda in 2011, is now a major economic zone for Penang, focusing on world-class technological companies and is poised for continued growth, with plans for further expansion from its tenants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.802207",
+          "ticker": "DXCM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.722077"
+        },
+        {
+          "relevance_score": "0.919633",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.718801"
+        },
+        {
+          "relevance_score": "0.900397",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.727822"
+        },
+        {
+          "relevance_score": "0.614167",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320348"
+        },
+        {
+          "relevance_score": "0.603225",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.518078"
+        }
+      ],
+      "time_published": "20211118T170512",
+      "title": "Cover Story: Why companies are flocking to Batu Kawan Industrial Park",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.716321",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.741896",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.623964",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.klsescreener.com/v2/news/view/911465/cover-story-why-companies-are-flocking-to-batu-kawan-industrial-park"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://theedgemalaysia.com/_next/image?url=https%3A%2F%2Fassets.theedgemarkets.com%2FCS-Batu-Kawan-Industrial-tem1395_20211109193326_theedgemarkets.jpg&w=1920&q=75",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.290859,
+      "source": "The Edge Malaysia",
+      "source_domain": "The Edge Malaysia",
+      "summary": "Penang, often called the Silicon Valley of the East due to its robust E&E ecosystem, is seeing its industrial landscape evolve with Batu Kawan emerging as a new, rapidly growing cluster. InvestPenang CEO Datuk Loo Lee Lian highlights the significant greenfield investments in Batu Kawan Industrial Park while also acknowledging the continued expansion in established areas like Bayan Lepas. The state aims to attract high-value companies that invest in talent and technology, diversify beyond E&E into areas like IC design and medical technology, and capitalize on global supply chain reconfigurations to maintain its competitive edge.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.823804",
+          "ticker": "A",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300627"
+        },
+        {
+          "relevance_score": "0.705181",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315198"
+        },
+        {
+          "relevance_score": "0.686972",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312305"
+        },
+        {
+          "relevance_score": "0.632227",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266819"
+        },
+        {
+          "relevance_score": "0.557930",
+          "ticker": "BSX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243414"
+        }
+      ],
+      "time_published": "20211118T165118",
+      "title": "Cover Story: Creating the Silicon Valley of the East 2.0",
+      "topics": [
+        {
+          "relevance_score": "0.914539",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.831923",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.711656",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.628881",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.607644",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://theedgemalaysia.com/article/cover-story-creating-silicon-valley-east-20"
+    },
+    {
+      "authors": [
+        "Staff writer",
+        "with CNA and Bloomberg"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2021/11/09/P01-211109-6a.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.119497,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) confirmed it has submitted its response to the US Department of Commerce's request for chip supply chain information. This request, part of an effort to address the global chip shortage, asked companies to provide data on inventories, demand, and delivery dynamics by a deadline earlier this week. While TSMC stated it did not disclose confidential customer information, the request has sparked concern in Taiwan and South Korea about sharing trade secrets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926703",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142227"
+        },
+        {
+          "relevance_score": "0.833257",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119940"
+        },
+        {
+          "relevance_score": "0.702111",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103581"
+        },
+        {
+          "relevance_score": "0.600335",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128785"
+        },
+        {
+          "relevance_score": "0.632857",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101284"
+        }
+      ],
+      "time_published": "20211109T172252",
+      "title": "TSMC answers US chip supply chain request",
+      "topics": [
+        {
+          "relevance_score": "0.832325",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.862580",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.704461",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.730683",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/front/archives/2021/11/09/2003767570"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.826869,
+      "source": "Compound Semiconductor",
+      "source_domain": "Compound Semiconductor",
+      "summary": "Amuneal Manufacturing has been honored with a 2021 Supplier Excellence Award by Lam Research in the Ramp Performance category for its outstanding support of Lam\u2019s customer needs. Amuneal, a magnetic shielding company, was recognized for exceeding Lam\u2019s performance standards for scalability, resiliency, and quality. This award highlights Amuneal's dedication to designing and fabricating high-quality magnetic shielding for critical applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.817007"
+        }
+      ],
+      "time_published": "20211103T204217",
+      "title": "Amuneal Receives Lam Research 2021 Excellence Award",
+      "topics": [
+        {
+          "relevance_score": "0.902903",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.811662",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://compoundsemiconductor.net/article/113798/Amuneal_Receives_Lam_Research_2021_Excellence_Award"
+    },
+    {
+      "authors": [
+        "Asma UL Husna"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.188715,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article examines hedge fund sentiment towards Uber Technologies (UBER) at the end of Q2 2021, noting that the number of hedge funds holding positions in UBER reached an all-time high of 135. Despite this increased bullish sentiment, UBER underperformed the market in the subsequent quarter, returning -12.6%. The article also compares UBER's popularity among hedge funds to other large-cap stocks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UBER",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.280083"
+        },
+        {
+          "relevance_score": "0.839215",
+          "ticker": "BKNG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222409"
+        },
+        {
+          "relevance_score": "0.613023",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145199"
+        },
+        {
+          "relevance_score": "0.705623",
+          "ticker": "ABNB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.182423"
+        }
+      ],
+      "time_published": "20211031T094400",
+      "title": "Was The Smart Money Right About Uber Technologies (UBER)?",
+      "topics": [
+        {
+          "relevance_score": "0.912006",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.812023",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/was-the-smart-money-right-about-uber-technologies-uber-997932/"
+    },
+    {
+      "authors": [
+        "Luisa Beltran"
+      ],
+      "banner_image": "https://images.barrons.com/im-424657?width=639&height=426",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.179943,
+      "source": "Barron's",
+      "source_domain": "Barron's",
+      "summary": "GlobalFoundries, a chip maker, has priced its initial public offering at $47 per share. The company's IPO was highly anticipated and is set to begin trading on October 28th.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926899",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405222"
+        },
+        {
+          "relevance_score": "0.639183",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110936"
+        },
+        {
+          "relevance_score": "0.570478",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118469"
+        },
+        {
+          "relevance_score": "0.541918",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107024"
+        }
+      ],
+      "time_published": "20211027T180328",
+      "title": "Chip Maker GlobalFoundries Prices IPO at $47 a Share",
+      "topics": [
+        {
+          "relevance_score": "0.925017",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.703290",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.603262",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.603033",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.barrons.com/articles/chip-maker-globalfoundries-ipo-51635381435?gaa_at=eafs&gaa_n=AWEtsqfCSleNg6LyeO5lOM9wz8yH3iUwHFTG3pH4d0w6YIcPZNt2SZiOJi1k&gaa_ts=699b4872&gaa_sig=YDtfhBxECAGM0IS7EotQLMwnTiEziFk1ZvZ9uwG2OObbFGJ5wBLoRRrt4HclhAUVPr9OrL5zt903iR6vQ_4pzA%3D%3D"
+    },
+    {
+      "authors": [
+        "Terrence Horan"
+      ],
+      "banner_image": "https://images.mktw.net/im-220105?width=700&height=466",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.254364,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "KLA Corp. stock (KLAC) dropped 0.64% on Wednesday, closing at $329.10, despite a positive trading session for the broader market. This performance left KLA Corp. $45.50 below its 52-week high. The stock also underperformed against competitors like ASML Holding N.V., Applied Materials Inc., and Lam Research Corp., which all experienced declines but KLA's decline was more significant than ASML's.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.709116",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.257095"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.240057"
+        },
+        {
+          "relevance_score": "0.608760",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227817"
+        }
+      ],
+      "time_published": "20211006T170400",
+      "title": "KLA Corp. stock underperforms Wednesday when compared to competitors",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/kla-corp-stock-underperforms-wednesday-when-compared-to-competitors-01633554243-9ae04f38dedf?gaa_at=eafs&gaa_n=AWEtsqetmuwCz7ENXMJVj9IgQzb34HMvWbZ7bu1S_d5qyjOLNQfl5TgQDGgG&gaa_ts=699b4454&gaa_sig=BTn0bDxZiTmwAqWcBw_YIlndPeQyfJNOQBiHqyu_26yhn_ViLpSyNWkE18B1tOdyyDrmzA40v26PU-rVD1301w%3D%3D"
+    },
+    {
+      "authors": [
+        "Mike Rogoway"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.223929,
+      "source": "OregonLive.com",
+      "source_domain": "OregonLive.com",
+      "summary": "Oregon's microelectronics industry is experiencing a severe labor shortage, prompting companies like Intel to launch aggressive recruitment campaigns including TV and radio ads and hiring students still in school. Despite high demand for chips and well-paying jobs, the industry struggles to attract workers due to misconceptions about the nature of the work. Educational institutions like Portland Community College are also seeing low enrollment in microelectronics programs, exacerbating the long-term staffing challenges for manufacturers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.290129"
+        },
+        {
+          "relevance_score": "0.868263",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211657"
+        },
+        {
+          "relevance_score": "0.743250",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200177"
+        },
+        {
+          "relevance_score": "0.613320",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.170219"
+        },
+        {
+          "relevance_score": "0.598487",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.179289"
+        }
+      ],
+      "time_published": "20211003T074300",
+      "title": "Oregon\u2019s chip industry, facing labor shortage, turns to TV and radio ads \u2013 and hiring people still in school",
+      "topics": [
+        {
+          "relevance_score": "0.934375",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.824208",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.705607",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.oregonlive.com/silicon-forest/2021/10/oregons-chip-industry-facing-labor-shortage-turns-to-tv-and-radio-ads-and-hiring-people-still-in-school.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.259093,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "The global Gallium Arsenide (GaAs) wafers market is projected to grow by 2.73 million tons between 2021 and 2025, exhibiting a CAGR of 15.30%. This growth is primarily fueled by the increasing adoption of smartphones and the rising demand for increased bandwidth. The report by Technavio provides a detailed analysis of market segments by type (SC GaAs and SI GaAs), application (mobile devices, wireless communication, aerospace and defense), and geography, with APAC expected to contribute significantly to this expansion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.963643",
+          "ticker": "AXTI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343881"
+        },
+        {
+          "relevance_score": "0.732573",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253447"
+        },
+        {
+          "relevance_score": "0.616133",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236949"
+        },
+        {
+          "relevance_score": "0.608746",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209267"
+        },
+        {
+          "relevance_score": "0.554641",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.166968"
+        }
+      ],
+      "time_published": "20210930T010000",
+      "title": "Gallium Arsenide (GaAs) Wafers Market Size Worth 2.73 Million Tons| Increasing adoption of Smartphones to Accelerate the market growth | Technavio",
+      "topics": [
+        {
+          "relevance_score": "0.913111",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.715945",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/gallium-arsenide-gaas-wafers-market-size-worth-2-73-million-tons-increasing-adoption-of-smartphones-to-accelerate-the-market-growth--technavio-301388249.html"
+    },
+    {
+      "authors": [
+        "Susan Dziubinski"
+      ],
+      "banner_image": "https://morningstar-morningstar-prod.web.arc-cdn.net/resizer/8jtKZ4lQxqqlWKQsiRjGhzD4QOE=/2000x2000/author-service-images-prod-us-east-1.publishing.aws.arc.pub/morningstar/35408bfa-dc38-4ae5-81e8-b11e52d70005.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.379834,
+      "source": "Morningstar",
+      "source_domain": "Morningstar",
+      "summary": "This article identifies 10 undervalued stocks included in the Morningstar Wide Moat Focus Index, highlighting companies with strong competitive advantages trading at attractive prices. It details recent additions to the index, including technology firms like KLA Corp and Lam Research, and removals, explaining the methodology behind the index's semi-annual reconstitution. The Morningstar Wide Moat Focus Index has historically outperformed the broader market, making its constituents appealing to investors seeking high-quality stocks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CHRW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.295602"
+        },
+        {
+          "relevance_score": "0.889534",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416106"
+        },
+        {
+          "relevance_score": "0.876584",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404025"
+        },
+        {
+          "relevance_score": "0.864146",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417879"
+        }
+      ],
+      "time_published": "20210928T184449",
+      "title": "10 Undervalued Wide-Moat Stocks",
+      "topics": [
+        {
+          "relevance_score": "0.901699",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.819016",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.641804",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.615030",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.morningstar.com/markets/10-undervalued-wide-moat-stocks"
+    },
+    {
+      "authors": [
+        "P\u00e1draig Belton"
+      ],
+      "banner_image": "https://i.guim.co.uk/img/media/e1b6696b5e6f19475c6c1c2045c88b5a480a82c0/0_57_2430_1458/master/2430.jpg?width=465&dpr=1&s=none&crop=none",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.153527,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "The computer chip industry, while crucial for green technologies, has a significant and growing carbon footprint due to its high energy and water consumption and hazardous waste production. Major players like Taiwan Semiconductor Manufacturing Company (TSMC) are beginning to address this by committing to net-zero emissions and investing in renewable energy, driven by investor pressure and demand for greener supply chains. Decarbonizing the industry will require substantial innovation in manufacturing processes, energy efficiency, and the use of less polluting materials.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.965668",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.284942"
+        },
+        {
+          "relevance_score": "0.746014",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115289"
+        },
+        {
+          "relevance_score": "0.618406",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.073567"
+        },
+        {
+          "relevance_score": "0.582361",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127955"
+        },
+        {
+          "relevance_score": "0.576471",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107108"
+        }
+      ],
+      "time_published": "20210918T080000",
+      "title": "The computer chip industry has a dirty climate secret",
+      "topics": [
+        {
+          "relevance_score": "0.918142",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.749591",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.614372",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.740673",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.630731",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theguardian.com/environment/2021/sep/18/semiconductor-silicon-chips-carbon-footprint-climate"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.theworldfolio.com/img_db/articles/article-614112c6d1207.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.344625,
+      "source": "The Worldfolio",
+      "source_domain": "The Worldfolio",
+      "summary": "Yamaha Robotics Holdings (YRH) serves as a one-stop smart solution provider in the semiconductor industry, operating in back-end semiconductor manufacturing, surface mount technology (SMT), and factory automation. As demand for semiconductors grows with Industry 4.0, YRH leverages Japan's expertise in \"integral manufacturing\" and its significant investments in advanced technologies to meet the market's evolving needs. The company aims to become the number one one-stop smart solution provider globally within three years, particularly strengthening its position in European SMT sales and utilizing its strong presence in the automotive inspection market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.574406",
+          "ticker": "SPY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291297"
+        },
+        {
+          "relevance_score": "0.718480",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408953"
+        },
+        {
+          "relevance_score": "0.631548",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324161"
+        },
+        {
+          "relevance_score": "0.611941",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348139"
+        },
+        {
+          "relevance_score": "0.572413",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272615"
+        }
+      ],
+      "time_published": "20210914T191809",
+      "title": "Satisfying the ever-evolving demands of the the semiconductor industry",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.929871",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theworldfolio.com/news/satisfying-the-evere/4487/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.323739,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Lam Research announced the expansion of its manufacturing footprint with a new 45,000 square foot semiconductor equipment manufacturing facility in Sherwood, Oregon, scheduled to open in December 2021. This new facility will create approximately 300 new jobs and career opportunities for local residents, including a multi-week paid training program and competitive benefits. The expansion aims to enhance Lam Research's resilience and ability to meet increasing customer demand for critical chip-building tools.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.443576"
+        },
+        {
+          "relevance_score": "0.610842",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214441"
+        }
+      ],
+      "time_published": "20210909T093000",
+      "title": "Lam Research to Open New Semiconductor Equipment Manufacturing Facility in Oregon",
+      "topics": [
+        {
+          "relevance_score": "0.920735",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.848124",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2021/09/09/2294500/0/en/Lam-Research-to-Open-New-Semiconductor-Equipment-Manufacturing-Facility-in-Oregon.html"
+    },
+    {
+      "authors": [
+        "Samuel Nwite"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.243437,
+      "source": "Tekedia",
+      "source_domain": "Tekedia",
+      "summary": "China's Semiconductor Manufacturing International Corp. (SMIC) announced plans to build an almost $9 billion chip plant in Shanghai to address the global chip shortage. The new facility will produce older-generation chips, targeting a capacity of 100,000 wafers per month using 28-nanometer technology or older. This investment aims to bolster China's self-reliant chip industry and alleviate the impact of U.S. sanctions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.802425",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.281703"
+        },
+        {
+          "relevance_score": "0.718330",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220259"
+        },
+        {
+          "relevance_score": "0.614306",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204473"
+        },
+        {
+          "relevance_score": "0.608024",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.295837"
+        }
+      ],
+      "time_published": "20210905T204218",
+      "title": "China\u2019s SMIC to Build $9 Billion Plant in Shanghai",
+      "topics": [
+        {
+          "relevance_score": "0.913541",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.838206",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738103",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.635483",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.tekedia.com/chinas-smic-to-build-9-billion-plant-in-shanghai/"
+    },
+    {
+      "authors": [
+        "Trefis Team"
+      ],
+      "banner_image": "https://imageio.forbes.com/specials-images/imageserve/6114ebfa14aa3b342416fbaa/0x0.jpg?format=jpg&width=1200",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.063774,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Micron Technology's stock recently dropped 6% in a week, following its 52-week high in April 2021 despite strong Q3 2021 earnings. This decline occurred amidst a record 20-week order-filling time for semiconductor companies. A Trefis Machine Learning Engine analysis suggests a 5.3% average return in the subsequent month after such a drop, indicating potential for recovery.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123009"
+        },
+        {
+          "relevance_score": "0.646312",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.138289"
+        },
+        {
+          "relevance_score": "0.577156",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142897"
+        },
+        {
+          "relevance_score": "0.584939",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115158"
+        }
+      ],
+      "time_published": "20210812T050000",
+      "title": "After 6% Drop In A Week, What\u2019s Next For Micron Technology Stock?",
+      "topics": [
+        {
+          "relevance_score": "0.939674",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.810925",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732959",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.603861",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/greatspeculations/2021/08/12/after-6-drop-in-a-week-whats-next-for-micron-technology-stock/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.8199,
+      "source": "Lam Research",
+      "source_domain": "Lam Research",
+      "summary": "Lam Research has established its largest manufacturing site globally in Batu Kawan, Penang, Malaysia, which opened in August 2021. This facility, spanning over 800,000 square feet, manufactures equipment for leading-edge chips and is expanding to meet future customer demands. The company is actively seeking dynamic individuals with drive to join its team in various professional roles, contributing to the semiconductor industry's growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.839570"
+        }
+      ],
+      "time_published": "20210805T204217",
+      "title": "Lam Manufacturing Malaysia",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.824152",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.lamresearch.com/careers/global-opportunities/manufacturing-malaysia/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.624155,
+      "source": "Lam Research",
+      "source_domain": "Lam Research",
+      "summary": "Lam Research has unveiled its new brand identity, reflecting its bold spirit, ambition, and commitment to driving semiconductor breakthroughs. The new brand emphasizes collaboration, innovation, and impact, aligning with the company's purpose of enabling a better world through technology. Lam Research continues to push technological boundaries, aiming to create a smaller, faster, and smarter world.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.624756"
+        }
+      ],
+      "time_published": "20210804T204217",
+      "title": "Meet Our New Brand",
+      "topics": [
+        {
+          "relevance_score": "0.644723",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.936463",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.lamresearch.com/brand/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.604287,
+      "source": "Lam Research",
+      "source_domain": "Lam Research",
+      "summary": "Lam Research has unveiled a new brand image that reflects its ambition to push technological boundaries and drive breakthroughs in the semiconductor industry. The company's updated purpose is \"Unleashing the power of innovation together for a better world,\" with a mission to define the next generation of semiconductor technology. This new identity emphasizes collaboration, innovation, and impact, reflecting their commitment to proving what's possible in a world of ever-smaller, faster, and smarter technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.613826"
+        }
+      ],
+      "time_published": "20210804T195405",
+      "title": "Meet Our New Brand",
+      "topics": [
+        {
+          "relevance_score": "0.947671",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.lamresearch.com/de/brand/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.649229,
+      "source": "\u7f8e\u901a\u793e",
+      "source_domain": "\u7f8e\u901a\u793e",
+      "summary": "Lam Research Corporation announced the opening of its largest manufacturing facility in Batu Kawan, Malaysia, to expand global capacity and meet rising demand for semiconductor technology. The new facility, Lam Research International Sdn Bhd (LRI), has expanded its initial planned size to over 800,000 sq. ft. and increased hiring projections to more than 600 employees by year-end. This strategic move aims to strengthen the company's manufacturing network and better serve customers and supply chain partners in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.610382"
+        }
+      ],
+      "time_published": "20210804T170900",
+      "title": "Lam Research Strengthens Global Manufacturing Network by Opening Its Largest Manufacturing Facility in Malaysia",
+      "topics": [
+        {
+          "relevance_score": "0.915493",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.815393",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://enmobile.prnasia.com/releases/apac/lam-research-strengthens-global-manufacturing-network-by-opening-its-largest-manufacturing-facility-in-malaysia-328143.shtml"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.646656,
+      "source": "Malay Mail",
+      "source_domain": "Malay Mail",
+      "summary": "Lam Research Corporation has officially launched its new manufacturing facility in Batu Kawan, Penang, with an investment of RM1 billion. The plant will serve as the hub for Lam Manufacturing\u2019s operations in Asia and is expected to become the highest volume manufacturing facility among the group\u2019s global sites. The company plans to hire more local talents, aiming for over 600 workers by the end of the year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.602591"
+        }
+      ],
+      "time_published": "20210803T162300",
+      "title": "Lam Research Corp launches manufacturing plant in Penang with RM1b investment",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.825084",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.606827",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.malaymail.com/news/money/2021/08/03/lam-research-corp-launches-manufacturing-plant-in-penang-with-rm1b-investme/1994881"
+    },
+    {
+      "authors": [
+        "Wallace Witkowski"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.62372,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Lam Research has reported its first-ever quarter with over $4 billion in sales, driven by the ongoing global semiconductor shortage. The company also achieved a record quarterly profit of more than $1.1 billion, establishing new annual sales and earnings records. This strong performance highlights the booming demand for chip-manufacturing equipment and services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.624733"
+        }
+      ],
+      "time_published": "20210728T162400",
+      "title": "Lam Research tops $4 billion in quarterly sales for first time amid semiconductor shortage",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.824189",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747377",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/lam-research-tops-4-billion-in-quarterly-sales-for-first-time-amid-semiconductor-shortage-11627503898?gaa_at=eafs&gaa_n=AWEtsqcgWga9bMoY1uqq4gIrfVSdknFfX1NqRv3JAaqAVIdxS_Y0h6oK5mOy&gaa_ts=6907c544&gaa_sig=k8sP7R-na6Wrxwh2ZxosCBDz2xqlBKl1qXxw44Gn1VJ0-T6TypNeBunWGnjmdVD2bb1Loe0zKBu960Q4g5KH2g%3D%3D"
+    },
+    {
+      "authors": [
+        "Swarajya Staff"
+      ],
+      "banner_image": "https://swarajya.gumlet.io/swarajya/2021-07/4661b6d6-167d-479a-bfec-98f46aebd64e/asml_dutch_company.jpg?w=610&q=75&compress=true&format=auto",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.03512,
+      "source": "Swarajya",
+      "source_domain": "Swarajya",
+      "summary": "ASML, a Dutch company with a near-monopoly on advanced EUV lithography equipment, finds itself caught in the U.S.-China chip war. The U.S. has successfully blocked the shipment of ASML's critical EUV machines to China, which is pursuing an ambitious plan for semiconductor self-sufficiency. ASML's CEO, Peter Wennink, has warned that such restrictions could negatively impact non-Chinese economies and ultimately lead to China developing its own technology, potentially shutting out foreign companies from a major chip market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.258445"
+        },
+        {
+          "relevance_score": "0.732711",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113679"
+        },
+        {
+          "relevance_score": "0.633780",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.129859"
+        },
+        {
+          "relevance_score": "0.644844",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.114130"
+        },
+        {
+          "relevance_score": "0.565874",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.077209"
+        }
+      ],
+      "time_published": "20210727T202018",
+      "title": "ASML: Most Important Tech Company In The World You May Have Never Heard About Is Unwittingly Caught In U.S-China Chip War",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.948794",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.617425",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://swarajyamag.com/analysis/asml-most-important-tech-company-in-the-world-you-may-have-never-heard-about-is-unwittingly-caught-in-us-china-chip-war"
+    },
+    {
+      "authors": [
+        "Qingpeng Wang",
+        "Yu De Chen",
+        "Cheng Li",
+        "Rui Bao",
+        "Jacky Huang",
+        "Joseph Ervin"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.014052,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "This paper investigates the impact of poly corner etch residue on 5nm FinFET device performance and yield using virtual fabrication. The study found that while large residues can cause hard failures by creating shorts, properly sized residues can unexpectedly boost device performance\u2014increasing on-state current by over 8% and decreasing off-state current by 50%. This performance improvement is attributed to reduced access resistance and better gate control, highlighting the critical need for precise residue size and variation control during the poly etch process.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.338469",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048660"
+        }
+      ],
+      "time_published": "20210721T204503",
+      "title": "The Effects Of Poly Corner Etch Residue On Advanced FinFET Device Performance",
+      "topics": [
+        {
+          "relevance_score": "0.907132",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.934202",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/the-effects-of-poly-corner-etch-residue-on-advanced-finfet-device-performance/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.prnewsfoto.com/prninfo/20110825/SF00407LOGO",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.043201,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Lam Research has funded the expansion of critical care facilities at the Hassan Institute of Medical Sciences (HIMS) in Karnataka, India, adding 18 Intensive Care Unit beds. This initiative is part of Lam Research's previously committed $1 million for COVID-19 relief efforts in India, aimed at providing medical support to healthcare providers. The expansion specifically addresses the shortage of ICU beds and prepares HIMS for potential pediatric cases during a projected third wave of COVID-19.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.303644",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045079"
+        }
+      ],
+      "time_published": "20210720T041700",
+      "title": "Lam Research funds the expansion of critical care infrastructure at Hassan Institute of Medical Sciences (HIMS), Karnataka",
+      "topics": [
+        {
+          "relevance_score": "0.949043",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.632918",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/lam-research-funds-the-expansion-of-critical-care-infrastructure-at-hassan-institute-of-medical-sciences-hims-karnataka-888697040.html"
+    },
+    {
+      "authors": [
+        "Matt Swayne"
+      ],
+      "banner_image": "https://thequantuminsider.com/wp-content/uploads/Screen-Shot-2021-07-19-at-11.12.39-AM.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.124803,
+      "source": "The Quantum Insider",
+      "source_domain": "The Quantum Insider",
+      "summary": "Intel is reportedly in talks to acquire GlobalFoundries for $30 billion, a move that would significantly impact the quantum computing industry by combining two companies with growing quantum ambitions. Intel has been developing its Horse Ridge cryogenic control chips for qubits, while GlobalFoundries is partnering with PsiQuantum to manufacture silicon photonic and electronic chips for quantum systems. This merger could create a dominant force in both classical and quantum computing sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.310683",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028073"
+        },
+        {
+          "relevance_score": "0.916988",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224380"
+        },
+        {
+          "relevance_score": "0.625730",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140037"
+        },
+        {
+          "relevance_score": "0.554932",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142202"
+        },
+        {
+          "relevance_score": "0.557265",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130844"
+        }
+      ],
+      "time_published": "20210719T203557",
+      "title": "Possible Intel, GlobalFoundries Merger Would Impact Quantum Industry",
+      "topics": [
+        {
+          "relevance_score": "0.920770",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.838932",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://thequantuminsider.com/2021/07/19/possible-intel-globalfoundaries-merger-would-tie-together-two-quantum-curious-companies/"
+    },
+    {
+      "authors": [
+        "Nicole Hemsoth Prickett"
+      ],
+      "banner_image": "https://www.nextplatform.com/wp-content/uploads/2021/07/TSMC_HQ_89s-1030x438.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.29406,
+      "source": "The Next Platform",
+      "source_domain": "The Next Platform",
+      "summary": "High-Performance Computing (HPC) is a significant driver of growth for Taiwan Semiconductor Manufacturing Company (TSMC), accounting for 39% of its Q2 revenue. The company's 5nm technology is crucial for both HPC and smartphone segments, with strong demand expected to continue. TSMC forecasts continued capacity constraints and rising wafer prices due to increased manufacturing costs and investments in both leading-edge and older nodes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.469124"
+        },
+        {
+          "relevance_score": "0.615154",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221975"
+        },
+        {
+          "relevance_score": "0.623215",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212414"
+        }
+      ],
+      "time_published": "20210716T210251",
+      "title": "HPC at the Heart of TSMC\u2019s Growth",
+      "topics": [
+        {
+          "relevance_score": "0.905652",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.815728",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.733729",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nextplatform.com/2021/07/16/hpc-at-the-heart-of-tsmcs-growth/"
+    },
+    {
+      "authors": [
+        "Tobias Mann"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.150779,
+      "source": "SDxCentral",
+      "source_domain": "SDxCentral",
+      "summary": "Intel is reportedly considering an acquisition of GlobalFoundries for as much as $30 billion to quickly bolster its manufacturing capacity. This move aligns with CEO Pat Gelsinger's strategy to revive Intel's foundry operations and compete with industry leaders like TSMC, following past manufacturing setbacks. While GlobalFoundries no longer focuses on leading-edge silicon, an acquisition would provide Intel with immediate capacity and potentially impact smaller semiconductor customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.349307",
+          "ticker": "FORR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048730"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.295959"
+        },
+        {
+          "relevance_score": "0.722939",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129583"
+        },
+        {
+          "relevance_score": "0.607016",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119353"
+        },
+        {
+          "relevance_score": "0.603043",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149602"
+        }
+      ],
+      "time_published": "20210716T203426",
+      "title": "Intel Weighs GlobalFoundries Buy to Bolster Capacity",
+      "topics": [
+        {
+          "relevance_score": "0.926420",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.813583",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.748668",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.633739",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.sdxcentral.com/news/intel-weighs-globalfoundries-buy-to-bolster-capacity/"
+    },
+    {
+      "authors": [
+        "Su-bin Lee"
+      ],
+      "banner_image": "https://www.kedglobal.com/data/ked/image/2021/07/12/ked202107120029.700x.0.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.018512,
+      "source": "KED Global",
+      "source_domain": "KED Global",
+      "summary": "SK Hynix has begun mass production of its 1a nanometer (1anm) LPDDR4 mobile DRAM chips, becoming the second company after Micron to produce fourth-generation 10nm DRAM. Unlike Micron, SK Hynix is utilizing extreme ultraviolet (EUV) lithography for this production, which is expected to offer long-term cost efficiencies and higher yield rates. The new DRAM chips offer a 25% increase in chip production per wafer and improved power efficiency.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.941572",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.219369"
+        },
+        {
+          "relevance_score": "0.615202",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101486"
+        },
+        {
+          "relevance_score": "0.566386",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140031"
+        }
+      ],
+      "time_published": "20210712T181404",
+      "title": "SK Hynix joins Micron in 4th-gen 10nm DRAM production",
+      "topics": [
+        {
+          "relevance_score": "0.813802",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202107120011"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.283963,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "Edge computing is revolutionizing healthcare by bringing data processing closer to the source, enabling rapid advancements in IoT, AI, and robotics. This technology addresses critical needs for real-time data analysis, especially highlighted during the pandemic, supporting remote monitoring, virtual services, and smart hospital applications. While offering unprecedented opportunities for efficiency and patient care, challenges such as data security and regulatory compliance, particularly with HIPAA, remain crucial considerations for widespread adoption.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LUMN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408914"
+        },
+        {
+          "relevance_score": "0.745609",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314529"
+        },
+        {
+          "relevance_score": "0.649539",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.202387"
+        },
+        {
+          "relevance_score": "0.614000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244145"
+        },
+        {
+          "relevance_score": "0.640226",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222022"
+        }
+      ],
+      "time_published": "20210610T213745",
+      "title": "Transforming health care at the edge",
+      "topics": [
+        {
+          "relevance_score": "0.917659",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.807500",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2021/06/10/1026038/transforming-health-care-at-the-edge/"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2021/05/14/p10-210514-304.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.207591,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "South Korea has announced a monumental US$450 billion investment plan over the next decade to build the world\u2019s largest chipmaking base, involving key players like Samsung Electronics and SK Hynix. This initiative, dubbed the \"K-semiconductor belt,\" aims to boost semiconductor research and production, enhance the nation's advanced logic chip capabilities, and reduce reliance on external manufacturers, amidst a global race for chip dominance and ongoing supply shortages. The government will support the industry with significant tax breaks, infrastructure improvements, and training programs to compete with global leaders like TSMC.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.868733",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306702"
+        },
+        {
+          "relevance_score": "0.667064",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.185466"
+        },
+        {
+          "relevance_score": "0.642228",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.176431"
+        },
+        {
+          "relevance_score": "0.604679",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136897"
+        },
+        {
+          "relevance_score": "0.604157",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110259"
+        }
+      ],
+      "time_published": "20210514T222840",
+      "title": "S Korea unveils US$450bn chipmaking master plan",
+      "topics": [
+        {
+          "relevance_score": "0.886804",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.957840",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.745269",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2021/05/14/2003757366"
+    },
+    {
+      "authors": [
+        "Joyce Lee",
+        "Rashmi Aich"
+      ],
+      "banner_image": "https://www.nippon.com/en/ncommon/contents/news/680290/680290.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.248651,
+      "source": "nippon.com",
+      "source_domain": "nippon.com",
+      "summary": "Samsung Electronics Co Ltd announced an increased investment of 171 trillion won ($151.10 billion) in non-memory chips through 2030, a significant rise from its 2019 target. This strategic move aims to strengthen its competitive position against rivals like TSMC and Qualcomm by accelerating R&D in chip contract manufacturing and expanding production lines, including the completion of a new facility by mid-2022.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.888581",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303911"
+        },
+        {
+          "relevance_score": "0.644219",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204760"
+        },
+        {
+          "relevance_score": "0.642826",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235376"
+        },
+        {
+          "relevance_score": "0.649695",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245320"
+        },
+        {
+          "relevance_score": "0.578894",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.298133"
+        }
+      ],
+      "time_published": "20210513T223723",
+      "title": "Samsung Elec raises non-memory chip investment to $151 billion through 2030",
+      "topics": [
+        {
+          "relevance_score": "0.936119",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.809022",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nippon.com/en/news/reu20210513KBN2CU0HZ/"
+    },
+    {
+      "authors": [
+        "Hyung-suk Song",
+        "Daniel Cho"
+      ],
+      "banner_image": "https://www.kedglobal.com/data/ked/image/2021/05/13/ked202105130024.630x.0.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.371205,
+      "source": "KED Global",
+      "source_domain": "KED Global",
+      "summary": "ASML is investing $210 million by 2025 to build a remanufacturing facility and a training center in Hwaseong, South Korea, joining the government-led K-Semiconductor Belt initiative. This move aims to strengthen the country's semiconductor ecosystem and improve support for key players like Samsung. The investment will also create over 300 specialist jobs and enhance ASML's capabilities in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.474780"
+        },
+        {
+          "relevance_score": "0.806026",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324218"
+        },
+        {
+          "relevance_score": "0.601409",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253836"
+        }
+      ],
+      "time_published": "20210513T220511",
+      "title": "ASML joins K-Semiconductor Belt with $210 mn investment by 2025",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.918710",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.kedglobal.com/k-semiconductor-belt/newsView/ked202105130009"
+    },
+    {
+      "authors": [
+        "Sohee Kim and Sam Kim"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.283867,
+      "source": "The Japan Times",
+      "source_domain": "The Japan Times",
+      "summary": "South Korea plans to invest approximately $450 billion over the next decade to become the world's leading chipmaking base. This massive investment, led by Samsung Electronics Co. and SK Hynix Inc., is a strategic move to secure the nation's critical semiconductor industry amidst global chip shortages and intense international competition. The initiative involves over 150 companies and aims to bolster South Korea's capabilities in semiconductor research and production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.845256",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322043"
+        },
+        {
+          "relevance_score": "0.740770",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318353"
+        },
+        {
+          "relevance_score": "0.622919",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289593"
+        },
+        {
+          "relevance_score": "0.596969",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200001"
+        }
+      ],
+      "time_published": "20210513T204217",
+      "title": "South Korea unveils $450 billion push to seize global chipmaking crown",
+      "topics": [
+        {
+          "relevance_score": "0.934165",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.838157",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.706261",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.644326",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.japantimes.co.jp/news/2021/05/13/business/tech/south-korea-chipmaker-push/"
+    },
+    {
+      "authors": [
+        "Joyce Huang"
+      ],
+      "banner_image": "https://gdb.voanews.com/3ef4187d-59ad-4b6f-800b-862a23c7b49c_w250_r1_s.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.143285,
+      "source": "VOA - Voice of America English News",
+      "source_domain": "VOA - Voice of America English News",
+      "summary": "Taiwan's robust semiconductor industry, particularly Taiwan Semiconductor Manufacturing Co (TSMC), is considered a \"silicon shield\" that could deter Chinese aggression due to the global reliance on its microchip production. Disruption to Taiwan's chip supply could cause massive economic losses worldwide, making international powers invested in preventing conflict. However, concerns exist about vulnerabilities in Taiwan's supply chain and the potential for China to leverage Taiwan's tech prowess for its own benefit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147984"
+        },
+        {
+          "relevance_score": "0.613165",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147528"
+        },
+        {
+          "relevance_score": "0.609069",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135393"
+        },
+        {
+          "relevance_score": "0.619599",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110920"
+        }
+      ],
+      "time_published": "20210510T111400",
+      "title": "Can Taiwan's Silicon Shield Protect It against China's Aggression?",
+      "topics": [
+        {
+          "relevance_score": "0.926057",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.816914",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.723903",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.voanews.com/a/east-asia-pacific_can-taiwans-silicon-shield-protect-it-against-chinas-aggression/6205660.html"
+    },
+    {
+      "authors": [
+        "Jacob Fisher"
+      ],
+      "banner_image": "https://media.bizj.us/view/img/11342197/silfex-springfieldaerial*900xx1430-807-170-73.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.327214,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Silfex, a major manufacturer in Dayton, is seeking to hire over 100 individuals for various roles at its facilities in Springfield and Eaton. The company is looking for machinists, engineers, and manufacturing technicians to fill open positions. This hiring push reflects the ongoing industrial activity in the region despite other economic challenges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.904113",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320124"
+        }
+      ],
+      "time_published": "20210429T231707",
+      "title": "One of Dayton's largest manufacturers looking to fill 100+ jobs in Springfield, Eaton",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.646990",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bizjournals.com/dayton/news/2021/04/29/silfex-job-fair.html"
+    },
+    {
+      "authors": [
+        "Tim Culpan"
+      ],
+      "banner_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ixYIZpuBIcyI/v1/-1x-1.webp",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.179804,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Samsung's memory chip division, a less glamorous but crucial part of its business, is poised for significant growth. As the global leader in DRAM and NAND chips, Samsung is positioned to capitalize on an anticipated surge in demand. The company's management is urged to leverage this super-cycle to boost earnings from its semiconductor operations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.839040",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.125372"
+        },
+        {
+          "relevance_score": "0.630382",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219173"
+        },
+        {
+          "relevance_score": "0.604214",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241658"
+        },
+        {
+          "relevance_score": "0.632722",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.246089"
+        },
+        {
+          "relevance_score": "0.612552",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249090"
+        }
+      ],
+      "time_published": "20210429T035200",
+      "title": "Time for Samsung's Most Boring Business to Shine",
+      "topics": [
+        {
+          "relevance_score": "0.815690",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.623985",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/opinion/articles/2021-04-29/samsung-s-chips-division-can-leverage-the-super-cycle-to-boost-memory-earnings"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.376393,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "MKS Instruments reported a significant increase in sales, with photonics products contributing to current momentum and reaching an annual run-rate exceeding $1 billion. The company saw a 25% year-on-year jump in photonics sales to over $250 million in the first quarter, driven by strong demand in the semiconductor industry and success in laser micromachining systems. Despite losing the bid for Coherent, MKS CEO John Lee expressed excitement about the current photonics portfolio and prospects for continued growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MKSI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.490425"
+        },
+        {
+          "relevance_score": "0.619025",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300509"
+        },
+        {
+          "relevance_score": "0.636872",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323850"
+        },
+        {
+          "relevance_score": "0.604565",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300577"
+        },
+        {
+          "relevance_score": "0.640352",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319197"
+        }
+      ],
+      "time_published": "20210428T204655",
+      "title": "MKS Instruments hits billion-dollar run-rate with photonics sales",
+      "topics": [
+        {
+          "relevance_score": "0.939455",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.837318",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709102",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.732409",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.615403",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://optics.org/news/12/4/38"
+    },
+    {
+      "authors": [
+        "Irving Soh"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.318213,
+      "source": "Yahoo! Finance Singapore",
+      "source_domain": "Yahoo! Finance Singapore",
+      "summary": "This article identifies four \"picks and shovels\" type semiconductor companies that are poised to benefit from the current global semiconductor shortage and increased spending in the sector. These companies provide essential tools, equipment, and services for semiconductor manufacturing, rather than producing the chips themselves. The article highlights Lam Research, ASML Holding NV, Micro-Mechanics, and UMS Holdings, detailing their unique contributions to the industry and financial performance indicators.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926922",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432904"
+        },
+        {
+          "relevance_score": "0.863703",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313518"
+        },
+        {
+          "relevance_score": "0.649373",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209607"
+        },
+        {
+          "relevance_score": "0.649402",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339718"
+        },
+        {
+          "relevance_score": "0.606962",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339873"
+        }
+      ],
+      "time_published": "20210424T193622",
+      "title": "4 \u201cPicks and Shovels\u201d-Type Semiconductor Companies: Lam Research (LRCX), ASML Holding NV (ASML), Micro-Mechanics (5DD), UMS Holdings (558)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.910621",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.823973",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://sg.finance.yahoo.com/news/4-picks-shovels-type-semiconductor-000050959.html"
+    },
+    {
+      "authors": [
+        "Christiaan Hetzner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.591773,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "ASML Holding NV, a Dutch semiconductor equipment supplier, has significantly upgraded its revenue outlook due to a \"supercycle in demand\" driven by the global chip shortage. The company expects nearly 30% growth this year, benefiting from increased customer demand and a shift towards onshoring semiconductor production. ASML is also advancing innovation as the sole provider of cutting-edge EUV lithography systems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.879652"
+        },
+        {
+          "relevance_score": "0.646854",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.531616"
+        },
+        {
+          "relevance_score": "0.639642",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.516952"
+        },
+        {
+          "relevance_score": "0.568738",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.493327"
+        },
+        {
+          "relevance_score": "0.582281",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.494145"
+        }
+      ],
+      "time_published": "20210421T193623",
+      "title": "Semiconductor equipment supplier ASML profits big time from continued global chip shortage",
+      "topics": [
+        {
+          "relevance_score": "0.938901",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.833008",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736032",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.614712",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2021/04/21/asml-global-microchip-shortage-chips-semiconductor-equipment-supplier-asml-profits/"
+    },
+    {
+      "authors": [
+        "Nitin Dahad"
+      ],
+      "banner_image": "https://i0.wp.com/eetimes.com/wp-content/uploads/Synopsys-PrimeSim_Continuum-addressing-complexity.jpg?resize=640%2C360&ssl=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.252184,
+      "source": "EE Times",
+      "source_domain": "EE Times",
+      "summary": "Synopsys has launched PrimeSim Continuum, a unified circuit simulation workflow designed to address the increasing complexity and scale of heterogeneous System-on-Chip (SoC) designs across various applications. This all-in-one solution integrates multiple simulation engines including PrimeSim SPICE, PrimeSim Pro, PrimeSim HSPICE, and PrimeSim XA, providing a seamless simulation experience with improved productivity and ease of use. PrimeSim Continuum leverages next-generation architectures and heterogeneous computing to optimize resource utilization, aiming to reduce verification times from days to hours, as demonstrated by early access customers like Kioxia and partners like Samsung and Nvidia.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SNPS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.524472"
+        },
+        {
+          "relevance_score": "0.811532",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.295754"
+        },
+        {
+          "relevance_score": "0.603815",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110787"
+        },
+        {
+          "relevance_score": "0.649751",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123687"
+        },
+        {
+          "relevance_score": "0.571190",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131234"
+        }
+      ],
+      "time_published": "20210420T233042",
+      "title": "Synopsys Tackles SoC Design with Unified Circuit Simulation Flow",
+      "topics": [
+        {
+          "relevance_score": "0.916533",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.eetimes.com/synopsys-tackles-soc-design-with-unified-circuit-simulation-flow/"
+    },
+    {
+      "authors": [
+        "\u5927\u539f\u96c4\u4ecb"
+      ],
+      "banner_image": "https://ascii.jp/img/2021/04/18/3189306/l/1a97917400e86cc2.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.092098,
+      "source": "ASCII.jp",
+      "source_domain": "ASCII.jp",
+      "summary": "\u672c\u8a18\u4e8b\u3067\u306f\u3001Achronix Semiconductor\u306eFPGA\u3001\u7279\u306bAI\u30d7\u30ed\u30bb\u30c3\u30b5\u30fc\u3078\u306e\u5fdc\u7528\u306b\u3064\u3044\u3066\u89e3\u8aac\u3057\u3066\u3044\u307e\u3059\u3002Achronix\u306fFPGA\u5c02\u696d\u30e1\u30fc\u30ab\u30fc\u3068\u3057\u3066\u3001\u30cb\u30c3\u30c1\u306a\u304c\u3089\u3082\u300c\u8d85\u9ad8\u901fFPGA\u300d\u3084eFPGA IP\u306e\u63d0\u4f9b\u3092\u901a\u3058\u3066\u5e02\u5834\u3067\u306e\u5b58\u5728\u611f\u3092\u78ba\u7acb\u3057\u3066\u304d\u307e\u3057\u305f\u3002\u540c\u793e\u306e\u6700\u65b0\u88fd\u54c1Speedster7t\u306e\u30b5\u30f3\u30d7\u30eb\u51fa\u8377\u304c\u958b\u59cb\u3055\u308c\u3001AI\u5206\u91ce\u3078\u306e\u7279\u5316\u304c\u6ce8\u76ee\u3055\u308c\u3066\u3044\u307e\u3059\u3002",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.742093",
+          "ticker": "QUIK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106994"
+        },
+        {
+          "relevance_score": "0.825242",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132053"
+        },
+        {
+          "relevance_score": "0.625820",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122480"
+        },
+        {
+          "relevance_score": "0.613990",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140925"
+        },
+        {
+          "relevance_score": "0.804798",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115554"
+        }
+      ],
+      "time_published": "20210419T120000",
+      "title": "FPGA\u3067AI\u306b\u5168\u632f\u308a\u3057\u305fAchronix AI\u30d7\u30ed\u30bb\u30c3\u30b5\u30fc\u306e\u6628\u4eca (1/3)",
+      "topics": [
+        {
+          "relevance_score": "0.944512",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ascii.jp/elem/000/004/051/4051946/"
+    },
+    {
+      "authors": [
+        "Dean Takahashi"
+      ],
+      "banner_image": "https://venturebeat.com/_next/image?url=https%3A%2F%2Folk2kzr7lpbpdtkx.public.blob.vercel-storage.com%2Fwp-content%2Fuploads%2F2021%2F03%2Famat-1.jpg%3Fw%3D1000%26q%3D100&w=3840&q=85",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.382595,
+      "source": "VentureBeat",
+      "source_domain": "VentureBeat",
+      "summary": "Applied Materials has launched a new generation of optical semiconductor wafer inspection machines, the Enlight systems, which integrate AI and big data techniques to improve defect detection and manufacturing efficiency. These machines aim to address the increasing complexity and cost of chip manufacturing by speeding up inspection processes and reducing yield loss. The system, comprising Enlight, ExtractAI, and SemVision, can quickly distinguish critical defects from noise, learn and adapt, and ultimately save chipmakers significant revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418603"
+        },
+        {
+          "relevance_score": "0.615293",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338167"
+        },
+        {
+          "relevance_score": "0.618080",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344871"
+        }
+      ],
+      "time_published": "20210316T234146",
+      "title": "Applied Materials brings AI and big data into semiconductor inspection machines",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://venturebeat.com/technology/applied-materials-brings-ai-and-big-data-into-semiconductor-inspection-machines"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.491768,
+      "source": "Air Products",
+      "source_domain": "Air Products",
+      "summary": "Air Products announced that its newest and sixth air separation unit (ASU) in Chandler, Arizona, is now onstream, supplying key electronics and other customers under a long-term contract. The ASU is capable of producing over two million standard cubic feet per hour of gaseous nitrogen and over 20,000 standard cubic feet per hour of high purity oxygen, making it the largest of Air Products' six ASUs at the Chandler location. This expansion reinforces Air Products' commitment to serving the growing needs of the electronics industry and other customers in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "APD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.867597"
+        },
+        {
+          "relevance_score": "0.607805",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316446"
+        },
+        {
+          "relevance_score": "0.582213",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270159"
+        }
+      ],
+      "time_published": "20210315T193558",
+      "title": "Air Products Places its Newest and Sixth ASU Onstream in Chandler, Arizona",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.736617",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.733980",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.airproducts.com/company/news-center/2021/03/0315-air-products-places-newest-and-sixth-asu-onstream-in-chandler-arizona"
+    },
+    {
+      "authors": [
+        "Kevin Heidrich"
+      ],
+      "banner_image": "https://i0.wp.com/semiengineering.com/wp-content/uploads/Onto_Untangling-3D-NAND-fig1.png?resize=981%2C905&ssl=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.208531,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The article discusses the increasing manufacturing challenges in 3D NAND technology due to extreme aspect ratios and tier stacking. It highlights the difficulties in controlling channel hole geometry, profile, and critical dimensions, as well as the new issues of tilt, registration, and misalignment in multi-tier devices. The author emphasizes the need for advanced metrology to identify and control these sources of variability to ensure yield and reliability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.902614",
+          "ticker": "ONTO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328539"
+        },
+        {
+          "relevance_score": "0.720550",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224591"
+        },
+        {
+          "relevance_score": "0.650953",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.188998"
+        },
+        {
+          "relevance_score": "0.617876",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.173902"
+        },
+        {
+          "relevance_score": "0.570930",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146524"
+        }
+      ],
+      "time_published": "20210309T001129",
+      "title": "Untangling 3D NAND: Tilt, Registration, And Misalignment",
+      "topics": [
+        {
+          "relevance_score": "0.908367",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.846678",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/untangling-3d-nand-tilt-registration-and-misalignment/"
+    },
+    {
+      "authors": [
+        "Iain"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.250656,
+      "source": "Manufacturing Today",
+      "source_domain": "Manufacturing Today",
+      "summary": "Camtek, a leader in inspection and metrology for the semiconductor market, has seen significant growth due to its innovative solutions and increasing demand. The company offers automatic inspection and metrology systems to detect defects on wafers before packaging, ensuring only good dies are shipped. Camtek attributes its success to technological superiority, bold leadership, and a collaborative approach with customers in the rapidly expanding semiconductor industry, projecting continued growth in 2021 through organic expansion and potential acquisitions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415231"
+        },
+        {
+          "relevance_score": "0.644831",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.206649"
+        },
+        {
+          "relevance_score": "0.574166",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.175986"
+        }
+      ],
+      "time_published": "20210225T195222",
+      "title": "Camtek",
+      "topics": [
+        {
+          "relevance_score": "0.933558",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736289",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.613020",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.611058",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://manufacturing-today.com/news/camtek/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.4102,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "Universal Display Corporation (UDC) anticipates record sales in 2021, projecting revenues between $530 million and $560 million due to the increasing adoption of OLED technology in larger screens. The company saw a record fourth quarter in 2020 with licensing revenues doubling, and is expanding its operations, including a new equipment-focused subsidiary, OVJP Corporation, to capitalize on the growing OLED market. This growth is driven by major players like Samsung and LG Display expanding OLED use in laptops, TVs, and potentially the automotive sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OLED",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.877795"
+        },
+        {
+          "relevance_score": "0.609156",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323903"
+        },
+        {
+          "relevance_score": "0.649585",
+          "ticker": "SMCI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346365"
+        },
+        {
+          "relevance_score": "0.621444",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331393"
+        },
+        {
+          "relevance_score": "0.637686",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303879"
+        }
+      ],
+      "time_published": "20210224T205643",
+      "title": "Universal Display powers to record sales on OLED boom",
+      "topics": [
+        {
+          "relevance_score": "0.920145",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.815328",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.641242",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://optics.org/news/12/2/35"
+    },
+    {
+      "authors": [
+        "NMN Staff"
+      ],
+      "banner_image": "https://arizent.brightspotcdn.com/dims4/default/97cf515/2147483647/strip/true/crop/4800x2700+0+0/resize/978x550!/quality/90/?url=https%3A%2F%2Fsource-media-brightspot.s3.us-east-1.amazonaws.com%2F9c%2F8e%2Fe67bf2bc4a83ae452b7ed0a319e4%2Fnmn02182021-rates.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.237864,
+      "source": "National Mortgage News",
+      "source_domain": "National Mortgage News",
+      "summary": "This article summarizes the top mortgage news of the week, highlighting a jump in Treasury yields leading to higher mortgage rates, Western Alliance's acquisition of AmeriHome Mortgage, and President Biden's extension of mortgage forbearance and foreclosure protections. Other key topics include loanDepot's earnings, CoStar boosting its offer for CoreLogic, predictions of no foreclosure wave, a dip in refinancing activity, and the Fed's warning about commercial real estate.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.933105",
+          "ticker": "WAL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326643"
+        },
+        {
+          "relevance_score": "0.601526",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201484"
+        },
+        {
+          "relevance_score": "0.747928",
+          "ticker": "LEN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133396"
+        },
+        {
+          "relevance_score": "0.812423",
+          "ticker": "CSGP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349909"
+        },
+        {
+          "relevance_score": "0.634814",
+          "ticker": "NVR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127827"
+        }
+      ],
+      "time_published": "20210219T011659",
+      "title": "Treasury yields jump, AmeriHome sells to Western Alliance and more of the week's top news",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.820761",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.749794",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.615321",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.606198",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.nationalmortgagenews.com/list/treasury-yields-jump-amerihome-sells-and-more-mortgage-news"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.24444,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The report provides a strategic analysis of the Global Semiconductor Chemical Vapor Deposition (CVD) Equipment Market and the growth estimates for the forecast period 2021 to 2026. This market is anticipated to witness a CAGR of 8.5% over the forecast period, driven by an increase in demand for microelectronics and consumer electronics. Key players include AIXTRON SE, Applied Materials, Inc., ASM International, and CVD Equipment Corporation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.343684",
+          "ticker": "VECO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045693"
+        },
+        {
+          "relevance_score": "0.930741",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345230"
+        },
+        {
+          "relevance_score": "0.899481",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289228"
+        },
+        {
+          "relevance_score": "0.748403",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.364533"
+        },
+        {
+          "relevance_score": "0.621404",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.281643"
+        }
+      ],
+      "time_published": "20210210T105600",
+      "title": "Semiconductor Chemical Vapor Deposition (CVD) Equipment",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.809471",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.openpr.com/news/2239651/semiconductor-chemical-vapor-deposition-cvd-equipment"
+    },
+    {
+      "authors": [
+        "Tyler Clifford"
+      ],
+      "banner_image": "https://image.cnbcfm.com/api/v1/image/106838954-16130056064ED3-MM-Block-F-short-021021.jpg?v=1613005605&w=750&h=422&vtcrop=y",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.295112,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Jim Cramer urges the U.S. government to invest in semiconductor foundries to tackle the global chip shortage and high unemployment. He argues that building such facilities would create jobs and reduce America's reliance on foreign chip manufacturers, which is currently harming various domestic industries like automotive production. Cramer sees this as an opportunity to strengthen U.S. competitiveness and leverage its technological expertise.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.710010",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328242"
+        },
+        {
+          "relevance_score": "0.902703",
+          "ticker": "F",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342503"
+        },
+        {
+          "relevance_score": "0.801224",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214601"
+        },
+        {
+          "relevance_score": "0.742602",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312290"
+        },
+        {
+          "relevance_score": "0.739805",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338606"
+        }
+      ],
+      "time_published": "20210210T083116",
+      "title": "Cramer calls on U.S. to build factories to address chip shortage, unemployment",
+      "topics": [
+        {
+          "relevance_score": "0.913984",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.841634",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.736321",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.625065",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cnbc.com/2021/02/10/cramer-calls-on-us-to-fund-plants-to-address-chip-shortage-unemployment.html"
+    },
+    {
+      "authors": [
+        "Lisa Wang"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.370013,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "United Microelectronics Co (UMC) reported record-high revenue of NT$15.53 billion for the previous month, a 10.21 percent increase year-on-year, driven by a persistent global chip shortage. The company anticipates its utilization rate to remain near 100 percent this quarter and plans US$1.5 billion in capital expenditure to increase capacity by 3 percent this year. Other chipmakers like Winbond Electronics and Macronix International also reported significant revenue growth, benefiting from robust demand across various sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UMC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.547330"
+        },
+        {
+          "relevance_score": "0.707778",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333744"
+        },
+        {
+          "relevance_score": "0.695727",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305070"
+        },
+        {
+          "relevance_score": "0.661817",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325909"
+        }
+      ],
+      "time_published": "20210209T212746",
+      "title": "Chip shortage lets UMC post record revenue",
+      "topics": [
+        {
+          "relevance_score": "0.924757",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.811186",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.734370",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2021/02/09/2003752007"
+    },
+    {
+      "authors": [
+        "Staff writer",
+        "with CNA"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2021/02/08/P16-210208-319.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333435,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "Taiwan's semiconductor industry achieved a record production value of over NT$65 billion (US$2.29 billion) last year, marking its eighth consecutive annual record. This growth was driven by increased global demand for 5G, IoT, and high-performance computing applications, with China being the largest buyer of Taiwanese semiconductor equipment. The ministry highlighted Taiwan's leading role in wafer foundry operations and IC packaging, with major companies like TSMC and ASE Technology at the forefront.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428300"
+        },
+        {
+          "relevance_score": "0.704543",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349105"
+        },
+        {
+          "relevance_score": "0.618868",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259219"
+        },
+        {
+          "relevance_score": "0.591532",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.226136"
+        }
+      ],
+      "time_published": "20210208T003230",
+      "title": "Taiwan\u2019s chip industry sets eighth annual record",
+      "topics": [
+        {
+          "relevance_score": "0.916210",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.847468",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.731405",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2021/02/08/2003751956"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.storagenewsletter.com/wp-content/uploads/2021/01/LAM-RESEARCH-Vantex_external_chamber_lrg_300x300-300x300.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.46367,
+      "source": "StorageNewsletter",
+      "source_domain": "StorageNewsletter",
+      "summary": "Lam Research has announced Vantex, a new dielectric etch technology specifically designed for its Sense.i intelligent etch platform. This innovation aims to enable chipmakers to advance their 3D NAND and DRAM roadmaps by allowing higher performance and extendibility for current and future memory devices. Vantex delivers higher RF power levels and enhanced RF pulsing technology for improved throughput, tighter critical dimension control, and better etch profile uniformity in high aspect ratio etching, addressing the evolving demands of 3D memory manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.473452"
+        }
+      ],
+      "time_published": "20210205T005638",
+      "title": "Lam Research: Vantex/Sense.i Advances Next Gen 3D Memory Manufacturing With New Etch Technology",
+      "topics": [
+        {
+          "relevance_score": "0.887150",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.957918",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.storagenewsletter.com/2021/02/05/lam-research-vantex-sense-i-advances-next-gen-3d-memory-manufacturing-with-new-etch-technology/"
+    },
+    {
+      "authors": [
+        "Liew Jia Teng"
+      ],
+      "banner_image": "https://theedgemalaysia.com/_next/image?url=https%3A%2F%2Fassets.theedgemarkets.com%2FCap_main_TEM1354_20210127172757_theedgemarkets.jpg&w=1920&q=75",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.524725,
+      "source": "The Edge Malaysia",
+      "source_domain": "The Edge Malaysia",
+      "summary": "The article discusses the tech stock rally fueled by a global chip shortage, benefiting Malaysian semiconductor companies amidst increased demand from consumer electronics and a recovering automotive industry. It highlights differing opinions on whether these tech stocks are overvalued, comparing their valuations to regional and global counterparts, and notes that local institutional investors are drawn to the sector due to limited alternatives.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.936592",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.543955"
+        },
+        {
+          "relevance_score": "0.839811",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.531553"
+        },
+        {
+          "relevance_score": "0.816806",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.514477"
+        },
+        {
+          "relevance_score": "0.844468",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.501400"
+        },
+        {
+          "relevance_score": "0.841072",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.513972"
+        }
+      ],
+      "time_published": "20210201T003003",
+      "title": "Cover Story: Tech mania amid global chip shortage",
+      "topics": [
+        {
+          "relevance_score": "0.947871",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.824913",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.731744",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.639111",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://theedgemalaysia.com/article/cover-story-tech-mania-amid-global-chip-shortage"
+    },
+    {
+      "authors": [
+        "Gary Hilson"
+      ],
+      "banner_image": "https://i0.wp.com/eetimes.com/wp-content/uploads/image1-2.jpg?resize=322%2C659&ssl=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.252813,
+      "source": "EE Times",
+      "source_domain": "EE Times",
+      "summary": "Micron Technology has announced its 1-alpha node DRAM, which offers a 40% improvement in memory density and 15% better power savings compared to its 1z node. The company has begun volume production of DDR4 and is sampling LPDDR4, targeting mobile, automotive, industrial PC, and edge server markets. This advancement is attributed to Micron's strategic focus on profitability and re-investment in R&D since CEO Sanjay Mehrotra took leadership, allowing them to gain a competitive edge over rivals like Samsung and SK Hynix.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413586"
+        },
+        {
+          "relevance_score": "0.604073",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.226946"
+        },
+        {
+          "relevance_score": "0.625285",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230434"
+        },
+        {
+          "relevance_score": "0.630118",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106524"
+        }
+      ],
+      "time_published": "20210129T015157",
+      "title": "Micron Pulls Ahead on DRAM",
+      "topics": [
+        {
+          "relevance_score": "0.935496",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.eetimes.com/micron-pulls-ahead-on-dram/"
+    },
+    {
+      "authors": [
+        "Wallace Witkowski"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.634337,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Lam Research Corp. exceeded Wall Street's expectations for its quarterly results and provided a stronger-than-expected outlook, citing continued demand as chip foundries build capacity. The company, which manufactures instruments for silicon wafer fabrication, reported significant increases in net income and adjusted earnings per share for its fiscal second quarter. This positive forecast suggests sustained momentum for the semiconductor equipment industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.646945"
+        }
+      ],
+      "time_published": "20210127T163900",
+      "title": "Lam Research expects strong momentum to continue as foundries build capacity",
+      "topics": [
+        {
+          "relevance_score": "0.905689",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.848324",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/lam-research-expects-strong-momentum-to-continue-as-foundries-build-capacity-11611783586?gaa_at=eafs&gaa_n=AWEtsqfrympRBdldugdjnO9N8GyWMWddOr8Zdzxm1WZmlb8wTATmlCL-tW3V&gaa_ts=6907c544&gaa_sig=pbiEr90Awx7jqU_rSaQGFo8VXufItrcziOkQ6tzNqKEhbAfLjAoqTszxrVGSX0nGpD-mWJ-R-ZfJd3GeZXOJ1Q%3D%3D"
+    },
+    {
+      "authors": [
+        "Adrian Potoroaca"
+      ],
+      "banner_image": "https://www.techspot.com/images2/news/bigimage/2021/01/2021-01-27-image-20.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.047819,
+      "source": "TechSpot",
+      "source_domain": "TechSpot",
+      "summary": "Micron has begun manufacturing DRAM using its new 1\u03b1 (1-alpha) process, which offers a 40 percent improvement in memory density and a 15 percent drop in power consumption compared to its 1Z nm technology. This new node supports densities from 8Gb to 16Gb and is being used for DDR4 and LPDDR4 RAM, with plans for broader integration. The company anticipates this will lead to decreased manufacturing costs for DRAM, subsequently resulting in better prices for consumers, although the long-term strategy for scaling DRAM with or without EUV technology remains to be seen against competitors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346052"
+        },
+        {
+          "relevance_score": "0.714900",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205788"
+        },
+        {
+          "relevance_score": "0.746203",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.243977"
+        },
+        {
+          "relevance_score": "0.608092",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113368"
+        },
+        {
+          "relevance_score": "0.649365",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130654"
+        }
+      ],
+      "time_published": "20210127T015158",
+      "title": "Micron's 1-alpha process node offers impressive improvements in DRAM density and performance",
+      "topics": [
+        {
+          "relevance_score": "0.931769",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.848809",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.techspot.com/news/88430-micron-1-alpha-process-node-offers-impressive-improvements.html"
+    },
+    {
+      "authors": [
+        "Ben Hernandez"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.315223,
+      "source": "ETF Trends",
+      "source_domain": "ETF Trends",
+      "summary": "The Invesco Dynamic Semiconductors ETF (PSI) has seen significant gains, up nearly 70% in the past year and 14% in 2021, outperforming the S&P 500 Semiconductors index. This growth is driven by increased reliance on technology and the essential role of semiconductor chips in numerous devices. The fund focuses on U.S. medium and small-cap semiconductor firms, with top holdings including Micron Technology Inc, Applied Materials, and Lam Research Corp.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.847369",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313023"
+        },
+        {
+          "relevance_score": "0.730790",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339569"
+        },
+        {
+          "relevance_score": "0.738077",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307318"
+        },
+        {
+          "relevance_score": "0.630995",
+          "ticker": "IVZ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.379433"
+        }
+      ],
+      "time_published": "20210126T204217",
+      "title": "Dip into Chips: PSI Semiconductor ETF Up Nearly 70%",
+      "topics": [
+        {
+          "relevance_score": "0.910693",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.944709",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.etftrends.com/innovative-etfs-channel/dip-into-chips-psi-etf-up-70/"
+    },
+    {
+      "authors": [
+        "Terrence Horan"
+      ],
+      "banner_image": "https://images.mktw.net/im-220105?width=700&height=466",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.352437,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Lam Research Corp. (LRCX) stock declined 2.66% on Tuesday, closing at $552.66, underperforming the broader market indices like the S&P 500 and Dow Jones Industrial Average, which also saw minor dips. The stock closed $32.76 below its 52-week high and also lagged behind competitors such as Applied Materials Inc., KLA Corp., and ASM International N.V. Trading volume was slightly below its 50-day average.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.733527",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.305847"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.417915"
+        },
+        {
+          "relevance_score": "0.603690",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.305034"
+        }
+      ],
+      "time_published": "20210126T165500",
+      "title": "Lam Research Corp. stock falls Tuesday, underperforms market",
+      "topics": [
+        {
+          "relevance_score": "0.907000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.709498",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/lam-research-corp-stock-falls-tuesday-underperforms-market-01611698103-0ff5e1c8f05d?gaa_at=eafs&gaa_n=AWEtsqcIUsu7XTT7HUh3-YAAEP01YXL_sG7uhU5RcDijlX7U2-CF3bYUYl0k&gaa_ts=699baf1f&gaa_sig=aZoh2_b1TkXsSP8i-CI8QjhDDOqIP2SvXmPAihl7ubXUw77AQ3ZkMNBpEE5PG74z1XAEWJ1ycGjBHbgM4mZP9Q%3D%3D"
+    },
+    {
+      "authors": [
+        "Ellen Proper"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.173416,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "ASML Holding NV, a key supplier to major chip manufacturers like Samsung and TSMC, exceeded first-quarter analyst expectations and announced a substantial share buyback. Despite U.S.-China tensions, the Dutch company is experiencing strong demand, though it is currently grappling with a chip supply shortage. ASML's CEO, Peter Wennink, emphasized the need for the chip industry to escalate its efforts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256952"
+        },
+        {
+          "relevance_score": "0.604270",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143440"
+        },
+        {
+          "relevance_score": "0.636464",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104349"
+        },
+        {
+          "relevance_score": "0.601910",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124260"
+        }
+      ],
+      "time_published": "20210120T061800",
+      "title": "ASML Beats Estimates, Grapples With Chip Supply Shortage",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.911650",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.741291",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.603298",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.627830",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2021-01-20/asml-sales-burst-past-estimates-after-chip-boom-continues"
+    },
+    {
+      "authors": [
+        "Paul Ausick"
+      ],
+      "banner_image": "https://247wallst.com/wp-content/uploads/2020/12/imageForEntry1-Fha.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333396,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Taiwan Semiconductor Manufacturing Co. (TSMC) announced a significant capital expenditure plan of $25 billion to $28 billion for 2021, following a strong financial performance in 2020. This substantial investment is expected to greatly benefit several semiconductor equipment suppliers. The article highlights five key suppliers: ASML Holding N.V., Applied Materials Inc., Lam Research Corp., KLA Corp., and Teradyne Inc., along with ASE Technology Holding Co. Ltd., detailing their recent stock performance and their positioning to gain from TSMC's increased spending.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.974981",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329932"
+        },
+        {
+          "relevance_score": "0.892592",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323867"
+        },
+        {
+          "relevance_score": "0.835703",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309644"
+        },
+        {
+          "relevance_score": "0.724743",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338238"
+        }
+      ],
+      "time_published": "20210114T104900",
+      "title": "Taiwan Semiconductor\u2019s $25 Billion+ 2021 Capex a Boon for These 5 Suppliers",
+      "topics": [
+        {
+          "relevance_score": "0.936127",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.849387",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746918",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.629174",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.607587",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://247wallst.com/technology-3/2021/01/14/taiwan-semiconductors-25-billion-2021-capex-a-boon-for-these-5-suppliers/"
+    },
+    {
+      "authors": [
+        "Frank Holmes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.126615,
+      "source": "USFunds",
+      "source_domain": "USFunds",
+      "summary": "This article discusses the potential impact of a Democratic-controlled Congress and White House on commodities markets in 2021, particularly focusing on green energy initiatives and increased government spending. It highlights silver and copper as top-performing commodities and examines the drivers behind their price appreciation, along with the performance of gold, Bitcoin, and various sectors. The author also touches on the ongoing challenges posed by the COVID-19 pandemic and geopolitical factors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.929976",
+          "ticker": "GROW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347933"
+        },
+        {
+          "relevance_score": "0.726497",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305395"
+        },
+        {
+          "relevance_score": "0.720863",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.200028"
+        },
+        {
+          "relevance_score": "0.601649",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302481"
+        },
+        {
+          "relevance_score": "0.641510",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.146244"
+        }
+      ],
+      "time_published": "20210108T202229",
+      "title": "Will Commodities Ride the \"Blue Wave\" Higher in 2021?",
+      "topics": [
+        {
+          "relevance_score": "0.929390",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.840237",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.743034",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.732550",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.645332",
+          "topic": "blockchain"
+        }
+      ],
+      "url": "https://www.usfunds.com/resource/will-commodities-ride-the-blue-wave-higher-in-2021/"
+    },
+    {
+      "authors": [
+        "Jake Scott"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.254576,
+      "source": "Schaeffer's Investment Research",
+      "source_domain": "Schaeffer's Investment Research",
+      "summary": "This article identifies Huntington Ingalls Industries Inc (NASDAQ:HII) as a top stock for January, highlighting its historical performance of averaging a 5.7% gain in January over the past decade with 100% positive returns. It suggests that now is an opportune time to consider buying options on HII due to relatively low volatility expectations and potential for a rally as investor pessimism might unwind. The stock's current price is $170.47.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.961086",
+          "ticker": "HII",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406319"
+        },
+        {
+          "relevance_score": "0.649986",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.525522"
+        },
+        {
+          "relevance_score": "0.598143",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.462059"
+        },
+        {
+          "relevance_score": "0.586306",
+          "ticker": "DDOG",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.404979"
+        }
+      ],
+      "time_published": "20210107T133800",
+      "title": "25 of the Best Stocks to Own in January",
+      "topics": [
+        {
+          "relevance_score": "0.908829",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.713689",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.schaeffersresearch.com/content/analysis/2021/01/07/25-of-the-best-stocks-to-own-in-january"
+    },
+    {
+      "authors": [
+        "Trish Novicio"
+      ],
+      "banner_image": "https://s.yimg.com/ny/api/res/1.2/denWVkUhFc2iQNUv0IA7_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0MA--/https://media.zenfs.com/en/insidermonkey.com/c064f00e3764966757cddcefe3817142",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.657296,
+      "source": "Yahoo Finance",
+      "source_domain": "Yahoo Finance",
+      "summary": "This article lists and ranks the 15 largest semiconductor companies globally based on revenue, market cap, assets, and employee count. It highlights the critical role of semiconductors in modern technology, discusses the industry's economic impact, and outlines individual company profiles. The article also touches on geopolitical factors affecting the semiconductor market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.930078",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347583"
+        },
+        {
+          "relevance_score": "0.891029",
+          "ticker": "NXPI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.722506"
+        },
+        {
+          "relevance_score": "0.805227",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.794331"
+        },
+        {
+          "relevance_score": "0.810196",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.788892"
+        }
+      ],
+      "time_published": "20210107T012321",
+      "title": "15 Biggest Semiconductor Companies in the World",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.815314",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.716461",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.620219",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.636527",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://finance.yahoo.com/news/15-biggest-semiconductor-companies-world-183721644.html"
+    }
+  ],
+  "items": "77",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

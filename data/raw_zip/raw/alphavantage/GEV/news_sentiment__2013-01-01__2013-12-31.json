@@ -1,0 +1,129 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Dr. Robert Peltier",
+        "PE"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.269175,
+      "source": "POWER Magazine",
+      "source_domain": "POWER Magazine",
+      "summary": "Florida Power & Light completed a significant $3 billion nuclear plant uprate program for its Turkey Point and St. Lucie Nuclear Plants, adding 500 MW of capacity. This program involved extensive equipment modernizations and upgrades across four units, classified as extended uprates that included power and measurement uncertainty recapture (MUR) uprates. The project, funded through a \"pay-as-you-go\" cost recovery framework, demonstrates the economic and engineering viability of upgrading existing nuclear facilities over building new ones.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.320238",
+          "ticker": "NEE-P-Q",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026021"
+        },
+        {
+          "relevance_score": "0.888205",
+          "ticker": "NEE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.444274"
+        },
+        {
+          "relevance_score": "0.601297",
+          "ticker": "ETN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303277"
+        },
+        {
+          "relevance_score": "0.624154",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318925"
+        }
+      ],
+      "time_published": "20131101T131125",
+      "title": "Top Plant: Turkey Point and St. Lucie Nuclear Plants, Florida",
+      "topics": [
+        {
+          "relevance_score": "0.903194",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.powermag.com/turkey-point-and-st-lucie-nuclear-plants-florida/"
+    },
+    {
+      "authors": [
+        "Paul Tullis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.300967,
+      "source": "Slate",
+      "source_domain": "Slate",
+      "summary": "The article discusses how fuel cell technology is being used to convert wastewater into electricity, highlighting a 2.8 MW fuel cell plant at Inland Empire Utilities Agency\u2019s Regional Water Recycling Plant No. 1. This system uses methane from sewage as fuel, providing clean, on-site power and solving multiple problems related to waste management, energy costs, and emissions. It emphasizes the benefits of distributed generation, including reduced reliance on the grid and environmental advantages, and projects a future where fuel cells become more economically competitive.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FCEL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446468"
+        },
+        {
+          "relevance_score": "0.627803",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.226784"
+        }
+      ],
+      "time_published": "20130319T054500",
+      "title": "Fuel Cells Spin Sewage into Gold",
+      "topics": [
+        {
+          "relevance_score": "0.915204",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.846569",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://slate.com/technology/2013/03/distributed-generation-fuel-cells-for-on-site-power-plants.html"
+    },
+    {
+      "authors": [
+        "Jessica Valencia"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.235704,
+      "source": "Spokane Journal of Business",
+      "source_domain": "Spokane Journal of Business",
+      "summary": "The Palouse Wind farm, a two-year project located west of Oakesdale, Wash., is now complete and online, generating 105 megawatts of energy for Spokane-based Avista Corp. Developed and owned by First Wind, the farm's output will provide power for an equivalent of 30,000 Avista residential customers under a 30-year agreement. The project involved numerous local contractors and is expected to bring significant tax revenue to Whitman County, while Avista meets renewable energy mandates.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.943033",
+          "ticker": "AVA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327025"
+        },
+        {
+          "relevance_score": "0.647127",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112279"
+        }
+      ],
+      "time_published": "20130117T120639",
+      "title": "Wind farm powers up on the Palouse",
+      "topics": [
+        {
+          "relevance_score": "0.933526",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.spokanejournal.com/articles/7381-wind-farm-powers-up-on-the-palouse"
+    }
+  ],
+  "items": "3",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

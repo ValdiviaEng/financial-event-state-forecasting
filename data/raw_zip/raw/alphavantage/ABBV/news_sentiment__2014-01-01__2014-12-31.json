@@ -1,0 +1,1305 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Andrew Pollack"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.010271,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Express Scripts, a major prescription manager, announced it would make AbbVie's newly approved hepatitis C drug, Viekira Pak, the exclusive option for its 25 million members, citing a significant discount. This move signals a shift towards price competition in the hepatitis C drug market, challenging the high prices set by Gilead Sciences' drugs, Sovaldi and Harvoni. The decision by Express Scripts allows all hepatitis C patients to be treated with AbbVie's drug, not just those with severe liver damage.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442822"
+        },
+        {
+          "relevance_score": "0.925553",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.411776"
+        }
+      ],
+      "time_published": "20141222T095613",
+      "title": "AbbVie Deal Heralds Changed Landscape for Hepatitis Drugs (Published 2014)",
+      "topics": [
+        {
+          "relevance_score": "0.921436",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.729648",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2014/12/22/business/pharmacy-deal-heralds-changed-landscape-for-hepatitis-drugs.html"
+    },
+    {
+      "authors": [
+        "Peter Loftus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.09883,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "The FDA has approved AbbVie's new multidrug regimen for hepatitis C, Viekira Pak, which poses a threat to Gilead Sciences' successful Sovaldi. This all-oral treatment cured over 90% of patients with the most common subtype of hepatitis C in clinical trials, eliminating the need for older, less tolerable injected drugs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409378"
+        },
+        {
+          "relevance_score": "0.926656",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.330932"
+        }
+      ],
+      "time_published": "20141219T095614",
+      "title": "FDA Approves AbbVie\u2019s Hepatitis Treatment",
+      "topics": [
+        {
+          "relevance_score": "0.905428",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/fda-approves-abbvies-hepatitis-treatment-1419019392?gaa_at=eafs&gaa_n=AWEtsqf1j--Ob44ZLAv1QkE2Y3zuIiGDvAgnSQsfGhWeg--V1XGhFLkfH5Tb&gaa_ts=69087f78&gaa_sig=tFIV2aNOI6k0Dogc5N_gTz_kYjKtJ0CkC6d6nrdW3wEcFfSa_MWSnkEQkdb6KvmZI3TjipE11KwBLuu6XTKP7w%3D%3D"
+    },
+    {
+      "authors": [
+        "Peter Loftus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.422792,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "AbbVie, a pharmaceutical company heavily reliant on its drug Humira, is anticipating FDA approval for a new multidrug regimen to treat hepatitis C. This approval is crucial for the company, especially after a failed takeover bid, as it seeks to diversify its product portfolio and reduce dependence on its top-selling drug. The decision from the FDA is expected this month.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407128"
+        }
+      ],
+      "time_published": "20141217T095614",
+      "title": "AbbVie Pins Hopes on Hepatitis C Treatment",
+      "topics": [
+        {
+          "relevance_score": "0.911228",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/abbvie-pins-hopes-on-hepatitis-c-treatment-1418855059?gaa_at=eafs&gaa_n=AWEtsqcDWKxthylCja_E8qjanDoFMVbvIR-szs5dQVvdXaVj-vuCzGDe9gGM&gaa_ts=69087f78&gaa_sig=q3JZFEaB-5iygiTUspz6_LZ_62pN71YW1WaGPfC7ToOeX1h7uDaTX86i0Zqad0llTXtdo3tN6VXzPz0Il-tVvQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Mark Terry"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.169329,
+      "source": "BioSpace",
+      "source_domain": "BioSpace",
+      "summary": "AbbVie and Gilead Sciences are engaged in lawsuits over patents related to the hepatitis C drug combination Harvoni. AbbVie claims its computer model predicted the effective drug combination, leading to earlier patent grants for sofosbuvir and ledipasvir, while Gilead asserts its prior \"method of use\" patent application and accuses AbbVie of attempting to eliminate competition. The complex litigation is expected to continue for several years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.994396",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.125514"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.285318"
+        },
+        {
+          "relevance_score": "0.613067",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.114249"
+        }
+      ],
+      "time_published": "20141113T095613",
+      "title": "AbbVie Uses Patents To Ambush Gilead",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.biospace.com/abbvie-uses-patents-to-ambush-gilead"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.299617,
+      "source": "Crain's Chicago Business",
+      "source_domain": "Crain's Chicago Business",
+      "summary": "Shire CEO Flemming Ornskov expressed his surprise and \"dumbfounded\" reaction to the collapse of the $52 billion takeover deal by AbbVie, which was terminated due to changes in U.S. Treasury Department tax rules. Despite the failed acquisition, Ornskov remains focused on growing Shire independently, aiming to double sales to $10 billion by 2020, and has maintained a strong operational pace throughout the process. The company has since raised its 2014 profit forecast and continues to explore future deal opportunities while emphasizing shareholder value.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.292551"
+        }
+      ],
+      "time_published": "20141024T070000",
+      "title": "Shire CEO Ornskov 'Dumbfounded' by Collapse of AbbVie Deal",
+      "topics": [
+        {
+          "relevance_score": "0.942142",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.903412",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.729218",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.724988",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.711557",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.chicagobusiness.com/article/20141024/NEWS03/141029851/shire-ceo-ornskov-dumbfounded-by-collapse-of-abbvie-deal"
+    },
+    {
+      "authors": [
+        "By Reuters"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fassets.reuters.com%2Fimages%2Fitem%2F20140718-CN0I70Y1G-ORUTR%2Fmedia%2Fm_2014-07-18T194711Z_1_GF20000001095_RTRMADP_3_ABBVIE.JPG?auth=12795f5fdab0d4375005ac3e481b67cc&width=750&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.299795,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "AbbVie Inc has officially canceled its proposed $55 billion acquisition of Shire Plc, agreeing to pay a $1.64 billion breakup fee. The decision was attributed to new U.S. Treasury Department rules aimed at preventing tax inversion deals, which AbbVie stated would eliminate the financial benefits of the merger. The company also announced a new $5 billion share repurchase program and a 17% dividend increase for shareholders.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.265170"
+        }
+      ],
+      "time_published": "20141020T222100",
+      "title": "AbbVie says $55 billion acquisition of Shire officially dead",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.901545",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.743189",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.608685",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.646621",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/abbvie-says-55-billion-acquisition-of-shire-officially-dead-idUSKCN0I92BS/"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.240357,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "AbbVie has abandoned its proposed $55 billion acquisition of Shire, agreeing to pay a $1.64 billion breakup fee. The decision followed new U.S. government limitations on the tax benefits of incorporating overseas, which AbbVie's board cited as a reason to withdraw support. In response, AbbVie authorized a $5 billion stock buyback and raised its quarterly dividend, leading to a bump in its stock price.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.213827"
+        }
+      ],
+      "time_published": "20141020T190000",
+      "title": "Shire gets $1.64B breakup fee from AbbVie",
+      "topics": [
+        {
+          "relevance_score": "0.922223",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.922729",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830930",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.632922",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.627304",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/shire-gets-1-64b-breakup-fee-from-abbvie/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.295054,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Drugmaker AbbVie Inc. (ABBV) has canceled its planned $55 billion takeover of U.K.-based Shire Plc (SHP) due to new U.S. tax rules. AbbVie's CEO stated that changes to tax rules eliminated key financial benefits, making the agreed-upon valuation no longer supported. This reversal is a significant victory for the Treasury's efforts to curb tax-avoiding acquisitions and has implications for other potential inversion deals in the pharmaceutical sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.630022"
+        },
+        {
+          "relevance_score": "0.631835",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129082"
+        }
+      ],
+      "time_published": "20141016T095613",
+      "title": "End of the road for inversions? Abbvie drops $55 billion Shire bid",
+      "topics": [
+        {
+          "relevance_score": "0.947824",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.825909",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.737149",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://fortune.com/2014/10/16/end-of-the-road-for-inversions-abbvie-drops-55-billion-shire-bid/"
+    },
+    {
+      "authors": [
+        "Sean Farrell"
+      ],
+      "banner_image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/10/16/1413437500599/Share-price-for-pharmaceu-011.jpg?width=700&quality=85&auto=format&fit=max&s=36cd4c8e7efb0f2a74c7e7b51d50c776",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.151654,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "AbbVie has withdrawn its $54bn bid for Shire after new US Treasury rules aimed at preventing tax inversions made the deal less financially advantageous. This decision will cost AbbVie a $1.64bn break fee and marks the biggest deal scuttled by the White House's clampdown on tax-driven overseas acquisitions. Shire's shares fell significantly following the announcement, although analysts suggest its rare diseases business remains an attractive asset for new suitors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.401637"
+        },
+        {
+          "relevance_score": "0.748378",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148141"
+        }
+      ],
+      "time_published": "20141016T031300",
+      "title": "AbbVie withdraws bid for Shire after US gets tough on tax",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.935478",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.909968",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.727632",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2014/oct/16/abbvie-shire-tax-us"
+    },
+    {
+      "authors": [
+        "Marc Iskowitz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.436455,
+      "source": "Medical Marketing and Media",
+      "source_domain": "Medical Marketing and Media",
+      "summary": "MM&M has announced the Gold and Silver Award winners for the 2014 MM&M Awards across numerous categories including Best Healthcare Consumer Media Brand, Best Use of Social Media, and several digital and print campaign awards. The article also lists Platinum Award recipients and Marketer of the Year awards for various roles within the healthcare marketing industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CORT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423129"
+        },
+        {
+          "relevance_score": "0.842632",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407758"
+        },
+        {
+          "relevance_score": "0.749030",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423565"
+        },
+        {
+          "relevance_score": "0.714525",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432287"
+        }
+      ],
+      "time_published": "20141003T015000",
+      "title": "Announcing the 2014 MM&M Award Winners",
+      "topics": [
+        {
+          "relevance_score": "0.937334",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.mmm-online.com/home/channel/agencies/announcing-the-2014-mmm-award-winners/"
+    },
+    {
+      "authors": [
+        "Kyle Anderson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.233537,
+      "source": "MoneyMorning.com",
+      "source_domain": "MoneyMorning.com",
+      "summary": "This article highlights two ETFs that offer investors exposure to Alibaba (NYSE: BABA) stock, with Money Morning strategists bullish on Alibaba becoming the world's first $1 trillion company. The First Trust IPOX-100 Index Fund (Nasdaq: FPX) has already added BABA, while the Renaissance IPO ETF (NYSE Arca: IPO) is poised to add it soon after its five-day waiting period. These ETFs provide alternative ways for investors to capitalize on Alibaba's potential growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.985633",
+          "ticker": "IPO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308074"
+        },
+        {
+          "relevance_score": "0.600038",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148460"
+        }
+      ],
+      "time_published": "20140924T105131",
+      "title": "Maximize Your Alibaba (NYSE: BABA) Stock Profits with These Two ETFs",
+      "topics": [
+        {
+          "relevance_score": "0.935010",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.842561",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://moneymorning.com/2014/09/24/maximize-your-alibaba-nyse-baba-stock-profits-with-these-two-etfs/"
+    },
+    {
+      "authors": [
+        "Zachary R. Mider"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.249028,
+      "source": "Worcester Telegram",
+      "source_domain": "Worcester Telegram",
+      "summary": "The Obama administration has announced new rules targeting corporate inversions, affecting companies like Medtronic and AbbVie that are in the process of changing their tax addresses to lower-tax countries. These rules restrict access to foreign earnings and may make such inversion deals economically unfeasible for some companies. However, companies that have already completed their inversions, such as Horizon Pharma Plc, are spared from the new regulations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.952475",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.322093"
+        },
+        {
+          "relevance_score": "0.983811",
+          "ticker": "MDT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.329528"
+        },
+        {
+          "relevance_score": "0.749987",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.147402"
+        }
+      ],
+      "time_published": "20140923T095613",
+      "title": "Medtronic, AbbVie deals covered by new inversion rules",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.814833",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.telegram.com/story/news/local/north/2014/09/23/medtronic-abbvie-deals-covered-by/36350490007/"
+    },
+    {
+      "authors": [
+        "Karina Basso"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.545503,
+      "source": "Class Action Lawsuits",
+      "source_domain": "Class Action Lawsuits",
+      "summary": "A Florida resident has filed a lawsuit against AbbVie Inc. and Abbot Laboratories Inc., alleging that their AndroGel product caused him significant bodily injuries including mesenteric vein thrombosis and portal vein thrombosis. The lawsuit claims strict product liability, failure to warn, defective design, negligence, breach of warranty, fraud, and negligent misrepresentation, seeking compensation for damages. This action highlights broader concerns about testosterone product side effects, such as blood clots, and follows the FDA's 2009 black box warning regarding secondary exposure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.626517"
+        },
+        {
+          "relevance_score": "0.703943",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.442986"
+        }
+      ],
+      "time_published": "20140904T095614",
+      "title": "Androgel User Files Testosterone Product Lawsuit Against AbbVie",
+      "topics": [
+        {
+          "relevance_score": "0.917012",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.740776",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/androgel-user-files-testosterone-product-injury-lawsuit-abbvie/"
+    },
+    {
+      "authors": [
+        "Richard Summerfield"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.269365,
+      "source": "Financier Worldwide",
+      "source_domain": "Financier Worldwide",
+      "summary": "AbbVie secured approval for its $54 billion acquisition of Shire Plc, creating a combined company with a market capitalization of $137 billion and 30,000 employees. This acquisition is part of a trend where US firms reincorporate elsewhere to reduce corporate taxes, with AbbVie aiming to lower its tax rate to 13 percent by 2016 through \"inversion\" to Jersey, UK. The deal includes significant incentive packages for Shire executives and is expected to enhance shareholder value and R&D capabilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424878"
+        },
+        {
+          "relevance_score": "0.613011",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145865"
+        }
+      ],
+      "time_published": "20140824T095613",
+      "title": "AbbVie finally agrees Shire deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.900802",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.707465",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.financierworldwide.com/abbvie-finally-agrees-shire-deal"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.077042,
+      "source": "The Financial Express",
+      "source_domain": "The Financial Express",
+      "summary": "US investors are withdrawing billions of dollars from European stocks due to a stalled economic recovery and the Ukraine crisis, marking the longest streak of weekly outflows since 2011. This shift is seeing capital reallocated to emerging markets and the United States, as investors grow impatient for more radical action from the European Central Bank and find European valuations less appealing. Germany has been particularly hard hit, with a significant outflow from its dedicated ETF and underperformance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "EWG",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.407847"
+        },
+        {
+          "relevance_score": "0.712648",
+          "ticker": "TROW",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232731"
+        },
+        {
+          "relevance_score": "0.640821",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.202766"
+        },
+        {
+          "relevance_score": "0.642397",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343747"
+        },
+        {
+          "relevance_score": "0.586658",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.120571"
+        }
+      ],
+      "time_published": "20140818T000000",
+      "title": "US investors switch out of Europe as recovery bet sours",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.942043",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.828642",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.734588",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://today.thefinancialexpress.com.bd/stock-corporate/us-investors-switch-out-of-europe-as-recovery-bet-sours"
+    },
+    {
+      "authors": [
+        "Andrew Pollack"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.135751,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Gilead Sciences' hepatitis C drug, Sovaldi, achieved $3.5 billion in sales in the second quarter, putting it on track to become a top-selling medicine despite its high price of $84,000 per treatment course. The drug's effectiveness, curing over 80 percent of patients, is leading to concerns among insurers and state Medicaid programs about affordability, potentially impacting the health insurance system. Sovaldi is projected to exceed $10 billion in sales in 2014, quickly approaching the sales figures of established blockbuster drugs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.264132"
+        },
+        {
+          "relevance_score": "0.601641",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113251"
+        },
+        {
+          "relevance_score": "0.663843",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.086477"
+        }
+      ],
+      "time_published": "20140723T104134",
+      "title": "Gilead\u2019s Hepatitis C Drug, Sovaldi, Is on Pace to Become a Blockbuster (Published 2014)",
+      "topics": [
+        {
+          "relevance_score": "0.916269",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.912699",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.nytimes.com/2014/07/24/business/sales-of-hepatitis-c-drug-sovaldi-soar.html"
+    },
+    {
+      "authors": [
+        "Simeon Bennett and Caroline Chen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.317948,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "AbbVie Inc. is set to acquire Shire Plc for $54.8 billion (32 billion pounds), marking one of the largest U.S. inversions aimed at lowering corporate taxes. This deal will make AbbVie the largest U.S. company to move its legal address abroad for tax purposes amidst increasing scrutiny from U.S. lawmakers on such transactions. Shire shareholders will receive cash and stock valued at 52.48 pounds per share, representing a 53 percent premium over Shire's stock price before AbbVie's initial takeover bid.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339772"
+        }
+      ],
+      "time_published": "20140719T040000",
+      "title": "AbbVie to Buy Shire for $54.8 Billion in Tax Inversion",
+      "topics": [
+        {
+          "relevance_score": "0.917196",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.841125",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.700013",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2014-07-18/abbvie-to-buy-shire-for-54-8-billion-as-drug-deals-surge"
+    },
+    {
+      "authors": [
+        "Robert J. Boumis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.448734,
+      "source": "Class Action Lawsuits",
+      "source_domain": "Class Action Lawsuits",
+      "summary": "An Iowa man has filed a testosterone product lawsuit against AndroGel, alleging he suffered multiple heart attacks after using the drug. The lawsuit cites several medical studies indicating an increased risk of blood clot-related injuries, including heart attacks, in men taking testosterone-based therapies. It also claims manufacturers over-promote these drugs despite the risks, and the case is part of a multidistrict litigation (MDL) against AndroGel and other testosterone drugs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.430791"
+        }
+      ],
+      "time_published": "20140707T095614",
+      "title": "Heart Attacks Trigger AndroGel Testosterone Lawsuit",
+      "topics": [
+        {
+          "relevance_score": "0.925664",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.730886",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/heart-attacks-trigger-androgel-testosterone-lawsuit/"
+    },
+    {
+      "authors": [
+        "Richard Jones"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.102685,
+      "source": "Growing Produce",
+      "source_domain": "Growing Produce",
+      "summary": "Valent BioSciences Corporation (VBC) opened its new $146 million biorationals manufacturing facility in Osage, IA, on June 27, 2014. This plant is described as the world's largest purpose-built biorational product facility and will produce the majority of VBC\u2019s fermentation-derived products. The facility integrates research, development, and manufacturing to deliver high-quality biorational products to global customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.826284",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131683"
+        }
+      ],
+      "time_published": "20140627T095614",
+      "title": "Valent BioSciences Opens New Biorationals Plant In Iowa [Slideshow]",
+      "topics": [
+        {
+          "relevance_score": "0.920297",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.816021",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.growingproduce.com/vegetables/valent-biosciences-opens-new-biorationals-plant-in-iowa-slideshow/"
+    },
+    {
+      "authors": [
+        "Hester Plumridge"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.122466,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Shire Chief Executive Flemming Ornskov revealed that an approach from AbbVie Inc. halted Shire's pursuit of other large merger and acquisition deals. Shire, specializing in drugs for attention-deficit disorder and rare diseases, recently rejected a $46 billion takeover offer from AbbVie, citing undervaluation of Shire's growth prospects.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131083"
+        }
+      ],
+      "time_published": "20140627T095614",
+      "title": "AbbVie Approach 'Stopped Shire In Its Tracks'",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.936026",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/abbvie-approach-stopped-shire-in-its-tracks-1403872878?gaa_at=eafs&gaa_n=AWEtsqeKFupVjeKBOdkQNdZNHyUL54xplgwlZSaXzTwBWd3lCoKdrrgWhg6x&gaa_ts=69087f78&gaa_sig=UY7ksUJw8gsM88-Mov0c0Nsf81cfrlM05GMQJh6N5WbglTiRii3ufYLuD40wmBsZwBBUaOo-BjQmmUSoGscDdQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Caroline Fairchild"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.22456,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "This article features insights from several new female executives in Fortune 500 companies, discussing the best advice they've received and their perspectives on the \"having it all\" debate. Executives from companies like CST Brands, Tractor Supply Company, and Coach share their experiences on career growth, work-life balance, and leadership. Their responses highlight themes of communication, hard work, continuous learning, and defining personal fulfillment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.911501",
+          "ticker": "TSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.286239"
+        },
+        {
+          "relevance_score": "0.606357",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224213"
+        },
+        {
+          "relevance_score": "0.584786",
+          "ticker": "WYNN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115787"
+        },
+        {
+          "relevance_score": "0.578114",
+          "ticker": "LUV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220012"
+        }
+      ],
+      "time_published": "20140602T114555",
+      "title": "New Female Executives In The Fortune 500",
+      "topics": [
+        {
+          "relevance_score": "0.823251",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://fortune.com/2014/06/02/female-executives-fortune-500/"
+    },
+    {
+      "authors": [
+        "Noelle Knox"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.010499,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "This article features an interview with Abbott's Chief Financial Officer, Tom Freyman, discussing the strategic decision and logistical process behind spinning off the company's pharmaceuticals business into AbbVie. The interview explores the \"how and why\" of the separation, which occurred at the beginning of 2013, with Abbott retaining its medical products business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347224",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030922"
+        }
+      ],
+      "time_published": "20140530T000000",
+      "title": "Abbott CFO: How and Why to Spin Off",
+      "topics": [
+        {
+          "relevance_score": "0.905494",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.837254",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://blogs.wsj.com/cfo/2014/05/30/abbott-cfo-how-and-why-to-spin-off/?gaa_at=eafs&gaa_n=AWEtsqewxZrTds4ZAviHO8Zrm6Mx1ORaXOy58ksAXKKNVc6Y61tSxRYIBWtt&gaa_ts=69087f7b&gaa_sig=QGIKHBUELPncZC1DkGF0p4tKon6oXSB9tx7gXJcrRlaszFLxRTpCxAr_yCU8W2eYWuiZ7HhJHgoyR2Rd0PXSSw%3D%3D"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.283391,
+      "source": "Khmer Times",
+      "source_domain": "Khmer Times",
+      "summary": "Abbott Laboratories announced its acquisition of Chile's CFR Pharmaceuticals SA for $2.9 billion, a deal expected to more than double Abbott's branded generic drugs business in Latin America. This acquisition marks Abbott's first major deal since its split into two companies last year and comes amidst a surge in health mergers. The purchase price of 34.65 cents per share surprised analysts and is considerably higher than CFR's previous closing price.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.642671",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131781"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411638"
+        }
+      ],
+      "time_published": "20140517T095614",
+      "title": "Abbott To Buy Latin American Drugmaker CFR In $2.9 Billion Deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.923195",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.621808",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.khmertimeskh.com/49286/abbott-to-buy-latin-american-drugmaker-cfr-in-2-9-billion-deal/"
+    },
+    {
+      "authors": [
+        "Linda A. Johnson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.209537,
+      "source": "Worcester Telegram",
+      "source_domain": "Worcester Telegram",
+      "summary": "Baxter International Inc. announced plans to split into two separate healthcare companies, following the path of its rival Abbott Laboratories. This move, aimed at boosting innovation and shareholder value, involves creating a biopharmaceutical company and a medical products business. The decision could signal a growing trend among large pharmaceutical companies to break up, driven by Wall Street's interest in faster-growing, more focused entities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.922894",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230125"
+        },
+        {
+          "relevance_score": "0.906605",
+          "ticker": "BAX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317738"
+        },
+        {
+          "relevance_score": "0.740876",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145147"
+        },
+        {
+          "relevance_score": "0.749704",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125727"
+        },
+        {
+          "relevance_score": "0.628405",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221761"
+        }
+      ],
+      "time_published": "20140327T095616",
+      "title": "Baxter split, like Abbott's, may mark a trend",
+      "topics": [
+        {
+          "relevance_score": "0.921181",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.811536",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.610580",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.606848",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.telegram.com/story/business/2014/03/27/baxter-split-like-abbott-s/37973079007/"
+    },
+    {
+      "authors": [
+        "Kristen Schorsch",
+        "Todd J. Behme"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.176544,
+      "source": "Crain's Chicago Business",
+      "source_domain": "Crain's Chicago Business",
+      "summary": "Baxter International Inc. announced plans to split into two independent publicly traded companies: one focused on biopharmaceuticals and one on medical products. The biopharmaceuticals company will be led by Ludwig N. Hantson, while the medical products company, retaining the Baxter International name, will be led by current CEO Robert L. Parkinson Jr. The split, expected to be completed by mid-2015, aims to create more focused businesses with greater management flexibility, mirroring Abbott Laboratories' recent spin-off of AbbVie.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343228"
+        },
+        {
+          "relevance_score": "0.714633",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127059"
+        },
+        {
+          "relevance_score": "0.606627",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106801"
+        }
+      ],
+      "time_published": "20140327T070000",
+      "title": "Baxter to split into 2 companies",
+      "topics": [
+        {
+          "relevance_score": "0.930126",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.807179",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.620574",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.chicagobusiness.com/article/20140327/NEWS03/140329799/baxter-to-split-into-biopharmaceuticals-medical-products-companies"
+    },
+    {
+      "authors": [
+        "Andrew L. Wang"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.005835,
+      "source": "Crain's Chicago Business",
+      "source_domain": "Crain's Chicago Business",
+      "summary": "Abbott CEO Miles White's compensation fell by nearly 17% to $20.9 million in 2013, the first year after the AbbVie spinoff. While his stock and option awards increased, drops in non-equity incentive pay and pension compensation led to the overall decrease. Abbott met most financial goals, though revenue was slightly below expectations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.301554",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003797"
+        }
+      ],
+      "time_published": "20140314T070000",
+      "title": "Abbott CEO Miles White's pay dips in first post-AbbVie year",
+      "topics": [
+        {
+          "relevance_score": "0.946076",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.729060",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.610181",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.chicagobusiness.com/article/20140314/NEWS03/140319781/abbott-ceo-miles-white-s-pay-dips-in-first-post-abbvie-year"
+    },
+    {
+      "authors": [
+        "Todd Campbell",
+        "The Motley Fool"
+      ],
+      "banner_image": "https://s.yimg.com/ny/api/res/1.2/Yo5.ZacollBy6pfI2pNstg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcwMDtjZj13ZWJw/https://o.aolcdn.com/images/dar/5845cadfecd996e0372f/fe2d354c042b574345e726541e3796ca8824096c/aHR0cDovL21lZGlhLnljaGFydHMuY29tL2NoYXJ0cy9kMzI0YzdjN2MzOWMyYzljZjczZTA0ZjVhMDRjMTM5YS5wbmc=",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.015634,
+      "source": "Yahoo",
+      "source_domain": "Yahoo",
+      "summary": "AbbVie Inc. announced impressive phase 3 trial results for its hepatitis C cocktail, achieving a 99% cure rate for genotype 1b patients and high rates for 1a. Despite its efficacy, the article questions AbbVie's market position due to strong competition from Gilead and Bristol-Myers, who offer potentially more convenient and effective options, some without ribavirin or interferon. The high price points of new hepatitis C therapies will lead to a surge in spending and make market share competition fierce.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.328115",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016937"
+        }
+      ],
+      "time_published": "20140305T233000",
+      "title": "AbbVie Inc. Aces Its Hep C Trial, but Is It Too Late?",
+      "topics": [
+        {
+          "relevance_score": "0.911556",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.610149",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.607861",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.yahoo.com/2014-03-05-abbvie-inc-aces-its-hep-c-trial-but-is-it-too-late.html"
+    },
+    {
+      "authors": [
+        "Drug Discovery Trends Editor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.405342,
+      "source": "www.drugdiscoverytrends.com",
+      "source_domain": "www.drugdiscoverytrends.com",
+      "summary": "AbbVie Inc. announced a $320 million investment to establish its first manufacturing presence in Asia, specifically in Singapore. This expansion will focus on small molecule and biologics active drug substance manufacturing, supporting AbbVie's oncology and immunology pipeline globally. The facility is expected to create over 250 new jobs and be fully operational by 2019, enhancing the company's supply chain and capacity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441924"
+        }
+      ],
+      "time_published": "20140206T095614",
+      "title": "AbbVie Makes $320M Singapore Expansion",
+      "topics": [
+        {
+          "relevance_score": "0.917038",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.817718",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.drugdiscoverytrends.com/abbvie-makes-320m-singapore-expansion/"
+    },
+    {
+      "authors": [
+        "Alex Wayne"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.217454,
+      "source": "Worcester Telegram",
+      "source_domain": "Worcester Telegram",
+      "summary": "Ten major drug manufacturers, including AbbVie and Bristol-Myers Squibb, are partnering with the U.S. National Institutes of Health in a $230 million initiative to discover new treatments for Alzheimer's, diabetes, lupus, and arthritis. This collaboration aims to identify novel biomarkers and targets for drug development, making all generated data public to accelerate research. The effort seeks to improve the success rate in developing treatments for these common and costly diseases, particularly after numerous failures in Alzheimer's research.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.921276",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349594"
+        },
+        {
+          "relevance_score": "0.777191",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278556"
+        },
+        {
+          "relevance_score": "0.630697",
+          "ticker": "BIIB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240478"
+        },
+        {
+          "relevance_score": "0.602552",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136718"
+        },
+        {
+          "relevance_score": "0.559763",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120412"
+        }
+      ],
+      "time_published": "20140204T095614",
+      "title": "AbbVie, Bristol-Myers among drug makers in NIH venture to beat stubborn diseases",
+      "topics": [
+        {
+          "relevance_score": "0.933324",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.616189",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.telegram.com/story/news/local/north/2014/02/04/abbvie-bristol-myers-among-drug/39441480007/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.05342,
+      "source": "Genetic Engineering and Biotechnology News",
+      "source_domain": "Genetic Engineering and Biotechnology News",
+      "summary": "GEN has released its updated lists for 2014, identifying the top 15 pharmaceutical and top 25 biotechnology companies, with rankings primarily based on market capitalization as of December 19. The pharmaceutical list saw shifts for many companies, while the biotech list experienced more significant changes, including new entrants due to successful drug launches and removals due to acquisitions. Noteworthy acquisitions included Amgen's purchase of Onyx Pharmaceuticals and Perrigo's acquisition of Elan, demonstrating dynamic movement within the industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.827150",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141351"
+        },
+        {
+          "relevance_score": "0.728891",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133557"
+        },
+        {
+          "relevance_score": "0.738901",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146114"
+        },
+        {
+          "relevance_score": "0.645182",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.166854"
+        },
+        {
+          "relevance_score": "0.614864",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136712"
+        }
+      ],
+      "time_published": "20140115T101120",
+      "title": "GEN\u2019s List of Top Pharma and Biotech Firms",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.925949",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.806011",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.825582",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.706024",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.genengnews.com/news/gens-list-of-top-pharma-and-biotech-firms/"
+    }
+  ],
+  "items": "30",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

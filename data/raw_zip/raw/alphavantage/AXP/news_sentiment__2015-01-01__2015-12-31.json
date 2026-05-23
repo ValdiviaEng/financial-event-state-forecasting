@@ -1,0 +1,770 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.242304,
+      "source": "Crain's New York Business",
+      "source_domain": "Crain's New York Business",
+      "summary": "A survey by Autonomous Research indicates that Goldman Sachs Group Inc. and JPMorgan Chase & Co. are best positioned to benefit from financial technology disruption, rather than being overtaken by startups. The survey suggests that these traditional financial institutions have a strong track record of integrating technology and can learn from new entrants in areas like payments and blockchain. Conversely, companies like American Express Co., Western Union Co., and MoneyGram International Inc. are identified as potential losers due to their business models being more vulnerable to technological changes and lower-cost alternatives.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.974826",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418582"
+        },
+        {
+          "relevance_score": "0.916114",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422289"
+        },
+        {
+          "relevance_score": "0.886436",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.441828"
+        },
+        {
+          "relevance_score": "0.710734",
+          "ticker": "V",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311296"
+        },
+        {
+          "relevance_score": "0.734201",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342363"
+        }
+      ],
+      "time_published": "20151227T230000",
+      "title": "Survey finds Goldman and JPMorgan positioned to capitalize on tech innovation",
+      "topics": [
+        {
+          "relevance_score": "0.917646",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.804006",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.719517",
+          "topic": "blockchain"
+        }
+      ],
+      "url": "https://www.crainsnewyork.com/article/20151228/FINANCE/151229963/goldman-sachs-and-jpmorgan-chase-set-to-capitalize-on-tech-innovations-according-to-survey-by-autonomous-research"
+    },
+    {
+      "authors": [
+        "Jack Freifelder"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.113028,
+      "source": "China Daily - Global Edition",
+      "source_domain": "China Daily - Global Edition",
+      "summary": "China UnionPay (CUP) has become the world's largest payment-card network, surpassing Visa and MasterCard, due to aggressive global partnerships and network reciprocity agreements. The company processed $5.92 trillion in transactions in 2014, representing 34.3% of the global payment-card market, a 40% year-over-year increase. While dominant in Asia, the upcoming liberalization of China's bank-card clearing market is expected to introduce more foreign competition, potentially further strengthening CUP's global position.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.953235",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107029"
+        },
+        {
+          "relevance_score": "0.854682",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137340"
+        },
+        {
+          "relevance_score": "0.703947",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131892"
+        },
+        {
+          "relevance_score": "0.594131",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.097790"
+        }
+      ],
+      "time_published": "20151030T112500",
+      "title": "UnionPay: payment leader",
+      "topics": [
+        {
+          "relevance_score": "0.931784",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.805221",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.614884",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "http://usa.chinadaily.com.cn/business/2015-10/30/content_22331057.htm"
+    },
+    {
+      "authors": [
+        "Dan Pontefract"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.165849,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "This article discusses the concept of a \"New Coke\" organization, not referring to the failed 1985 product, but to a business model that balances purpose with profit, moving beyond shareholder supremacy. It uses the merger of Coca-Cola European Partners (CCEP) as a case study, challenging its CEO, John F. Brock, to embed this purpose-driven approach into the new company's core objective. The author argues that successful future companies will combine profit with purpose, contrasting this idea with traditional corporate objectives focused solely on shareholder return.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.287575"
+        },
+        {
+          "relevance_score": "0.598041",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149752"
+        },
+        {
+          "relevance_score": "0.611262",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.072079"
+        }
+      ],
+      "time_published": "20151018T165000",
+      "title": "Will 'New Coke' Balance Purpose With Profit?",
+      "topics": [
+        {
+          "relevance_score": "0.927156",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.721936",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/danpontefract/2015/10/18/will-new-coke-balance-purpose-with-profit/"
+    },
+    {
+      "authors": [
+        "Richa Naidu"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-2.images.arcpublishing.com%2Freuters%2FGFG2Z2D3OZOQJPOQW43PCP6KCQ.jpg?auth=958aa2dbb63574c8325b3bb3eeb98c37d046f5ae424072b2257d9f78317e04f0&width=960&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.047463,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Citigroup Inc.'s consumer bank has been ordered to pay $700 million in relief to borrowers for illegal credit card practices, plus an additional $70 million in civil penalties to the CFPB and OCC. This settlement is part of the CFPB's ongoing crackdown on deceptive credit card practices, affecting approximately 7 million customer accounts through misrepresentation of costs and services not received. Citi stated it is fully reserved for the costs and has stopped selling the problematic products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.974299",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.394539"
+        },
+        {
+          "relevance_score": "0.617103",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132314"
+        },
+        {
+          "relevance_score": "0.626107",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112601"
+        },
+        {
+          "relevance_score": "0.565619",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104718"
+        },
+        {
+          "relevance_score": "0.559934",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118917"
+        }
+      ],
+      "time_published": "20150721T193900",
+      "title": "Citi ordered to pay $770 million over credit card practices",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.619551",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/citi-ordered-to-pay-770-million-over-credit-card-practices-idUSKCN0PV1PJ/"
+    },
+    {
+      "authors": [
+        "Associated Press"
+      ],
+      "banner_image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/6/9/1433857313095/367a731b-7ce2-4721-a3f2-19e3427906d9-2060x1236.jpeg?width=1200&height=900&quality=85&auto=format&fit=crop&s=4bf7291a5ec40fb7153a0604b12cf97b",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.249179,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "General Electric is selling its private equity business, US Sponsor Finance, including Antares Capital and a $3 billion loan portfolio, to the Canada Pension Plan Investment Board for approximately $12 billion. This move is part of GE's strategy to refocus on its core industrial businesses and divest most GE Capital assets over the next 18 months, responding to investor pressure and stricter financial regulations. The company has a history of shedding non-industrial units, including previous sales of its consumer credit card business, NBC Universal stakes, and insurance and plastics divisions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318993"
+        },
+        {
+          "relevance_score": "0.732659",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348356"
+        },
+        {
+          "relevance_score": "0.607264",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332097"
+        },
+        {
+          "relevance_score": "0.600009",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107369"
+        }
+      ],
+      "time_published": "20150609T100200",
+      "title": "General Electric to exit banking sector with $12bn sale of finance business",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.718309",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2015/jun/09/general-electric-banking-12bn-sale-finance-business"
+    },
+    {
+      "authors": [
+        "Nomi Prins"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.264889,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Spotify and Starbucks have announced an innovative digital co-branding partnership aimed at enhancing both firms and benefiting artists. Starbucks employees will receive Spotify Premium subscriptions to create playlists from Starbucks' music history, accessible via the Starbucks Mobile App. The collaboration also includes a reciprocal loyalty program allowing Spotify users to earn \"Stars as Currency\" for My Starbucks Reward (MSR) Points, creating a \"First-of-Its-Kind Music Ecosystem\" for their combined 70 million users.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SPOT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.462684"
+        },
+        {
+          "relevance_score": "0.943852",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421274"
+        },
+        {
+          "relevance_score": "0.601463",
+          "ticker": "NFLX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107704"
+        },
+        {
+          "relevance_score": "0.628022",
+          "ticker": "UBER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140661"
+        },
+        {
+          "relevance_score": "0.602858",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147397"
+        }
+      ],
+      "time_published": "20150519T090500",
+      "title": "The Spotify-Starbucks Partnership Is Digital Co-Branding Genius",
+      "topics": [
+        {
+          "relevance_score": "0.929539",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.801189",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.625606",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/nomiprins/2015/05/19/the-spotify-starbucks-partnership-is-digital-co-branding-genius/"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://www.businesswire.com/multimedia/home/20150417005643/en/",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14739,
+      "source": "CarMax",
+      "source_domain": "CarMax",
+      "summary": "CarMax, Inc. announced the election of Marcella Shinder to its board of directors, increasing the board's total membership to 11. Shinder, currently the chief marketing officer of Nielsen N.V., will also serve on the Audit committee. Her extensive experience in marketing, digital media, and consumer insights is expected to bring significant value to the board.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KMX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300739"
+        },
+        {
+          "relevance_score": "0.609190",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121222"
+        },
+        {
+          "relevance_score": "0.609040",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.006684"
+        }
+      ],
+      "time_published": "20150417T085640",
+      "title": "CarMax Board Elects New Director",
+      "topics": [
+        {
+          "relevance_score": "0.842529",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.728978",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://investors.carmax.com/news-and-events/news/news-details/2015/CarMax-Board-Elects-New-Director-20150417162000/default.aspx"
+    },
+    {
+      "authors": [
+        "Matthew Frankel",
+        "Dan Caplinger",
+        "and Jason Hall",
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.264583,
+      "source": "MySA",
+      "source_domain": "MySA",
+      "summary": "This article highlights three stocks, Realty Income, Apple, and American Express, as excellent choices for a dividend reinvestment plan (DRIP). The analysts explain how each stock's unique characteristics, such as monthly dividends, strong growth potential, or consistent dividend growth, make them particularly beneficial for compounding returns over time within a DRIP.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "O",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.477855"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301227"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330977"
+        },
+        {
+          "relevance_score": "0.636097",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028175"
+        }
+      ],
+      "time_published": "20150407T091211",
+      "title": "No Dividend Reinvestment Plan Is Complete Without These 3 Stocks",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.922129",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.716563",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.700268",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.mysanantonio.com/business/fool/article/No-Dividend-Reinvestment-Plan-Is-Complete-Without-6183487.php"
+    },
+    {
+      "authors": [
+        "Michael McCoy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.295153,
+      "source": "Chemical & Engineering News",
+      "source_domain": "Chemical & Engineering News",
+      "summary": "Dow Chemical has completed a $5.0 billion deal to sell most of its chlorine and derivatives assets to Olin Corp, exiting the chlor-alkali business. This acquisition will transform Olin into a major chemical industry player with annual sales increasing significantly from $2.2 billion to $7 billion. For Dow, this divestment concludes a restructuring program aimed at streamlining its operations, a move praised by analysts and validating CEO Andrew N. Liveris's strategic decisions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OLN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424089"
+        },
+        {
+          "relevance_score": "0.915563",
+          "ticker": "DOW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343201"
+        },
+        {
+          "relevance_score": "0.619220",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133699"
+        }
+      ],
+      "time_published": "20150402T091220",
+      "title": "Dow Chlorine Business Will Go To Olin",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.835215",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://cen.acs.org/articles/93/i14/Dow-Chlorine-Business-Olin.html"
+    },
+    {
+      "authors": [
+        "Mikael Holter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.116902,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "Billionaire John Fredriksen, major shareholder of Bermuda-based Seadrill Ltd, is looking to acquire rivals or assets during the current brutal downturn in offshore drilling. Seadrill, which has seen its market capitalisation drop significantly, plans to use the money saved from suspended dividends to fund these acquisitions when the market improves. Despite the challenges, the company believes its long-lived assets will help it survive the cycle.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SDRL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.159827"
+        },
+        {
+          "relevance_score": "0.591174",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128119"
+        },
+        {
+          "relevance_score": "0.595658",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146999"
+        },
+        {
+          "relevance_score": "0.584552",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147204"
+        },
+        {
+          "relevance_score": "0.577197",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124656"
+        }
+      ],
+      "time_published": "20150326T080000",
+      "title": "Fredriksen seeks to capitalise on oil crash",
+      "topics": [
+        {
+          "relevance_score": "0.821247",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.735331",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.909469",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.635068",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.613152",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.royalgazette.com/international-business/business/article/20150326/fredriksen-seeks-to-capitalise-on-oil-crash/"
+    },
+    {
+      "authors": [
+        "Michael Heller"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.089208,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "Banks are urgently addressing a rise in Apple Pay fraud, which is linked to lax authentication processes known as \"Yellow Path.\" This issue, where criminals use stolen information to authenticate cards, is raising concerns for all mobile payment systems, as experts emphasize that the responsibility for robust identity verification lies with card issuers. Fraud levels have been significantly higher than anticipated, with some issuers reporting losses of $6 per $100 in transactions, highlighting the need for more secure, scalable, and less reliance on static PII data for provisioning.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.328882",
+          "ticker": "TTGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.021038"
+        },
+        {
+          "relevance_score": "0.928378",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253781"
+        },
+        {
+          "relevance_score": "0.679632",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107849"
+        },
+        {
+          "relevance_score": "0.611343",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128635"
+        },
+        {
+          "relevance_score": "0.579668",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.088530"
+        }
+      ],
+      "time_published": "20150303T094239",
+      "title": "Amid Apple Pay fraud, banks scramble to fix Yellow Path process",
+      "topics": [
+        {
+          "relevance_score": "0.948200",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.833464",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techtarget.com/searchsecurity/news/2240241612/Amid-Apple-Pay-fraud-banks-scramble-to-fix-Yellow-Path-process"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.386022,
+      "source": "Samsung Global Newsroom",
+      "source_domain": "Samsung Global Newsroom",
+      "summary": "Samsung Electronics announced Samsung Pay, a new mobile payment service leveraging both Near Field Communication (NFC) and Magnetic Secure Transmission (MST) to achieve near-universal acceptance at merchant locations. Samsung Pay will allow consumers to use their mobile devices to pay at existing point-of-sale terminals, partnering with major payment networks and financial institutions. The service prioritizes security through tokenization, Samsung KNOX, and ARM TrustZone, and will initially launch in the U.S. and Korea in summer 2015.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "V",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.514509"
+        },
+        {
+          "relevance_score": "0.857874",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413912"
+        },
+        {
+          "relevance_score": "0.715456",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343788"
+        },
+        {
+          "relevance_score": "0.687034",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303869"
+        },
+        {
+          "relevance_score": "0.617968",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335511"
+        }
+      ],
+      "time_published": "20150301T094707",
+      "title": "SAMSUNG Announces Samsung Pay, A Groundbreaking Mobile Payment Service",
+      "topics": [
+        {
+          "relevance_score": "0.936366",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.931461",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.samsung.com/us/samsung-announces-samsung-pay-a-groundbreaking-mobile-payment-service/"
+    },
+    {
+      "authors": [
+        "-"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.044531,
+      "source": "OU Daily",
+      "source_domain": "OU Daily",
+      "summary": "Netflix has launched its streaming video service in Cuba, a move primarily driven by the recent easing of U.S. restrictions on business with the island nation. Despite significant obstacles like limited internet access, low incomes, and payment processing challenges, Netflix aims to establish a foothold in Cuba, anticipating future improvements in infrastructure and diplomatic relations. The company\u2019s stock dipped slightly following the announcement, reflecting investor skepticism about Cuba as a promising short-term market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NFLX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140071"
+        },
+        {
+          "relevance_score": "0.619193",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123223"
+        },
+        {
+          "relevance_score": "0.633168",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149426"
+        }
+      ],
+      "time_published": "20150210T090718",
+      "title": "Netflix brings its streaming video service to Cuba",
+      "topics": [
+        {
+          "relevance_score": "0.632157",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.917272",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.707324",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.oudaily.com/l_and_a/netflix-brings-its-streaming-video-service-to-cuba/article_0dd02276-b0ca-11e4-a9b8-f75ec2b92a30.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.271986,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "TrueCar announced that its dealer network has surpassed 10,000 dealerships, including over 8,700 U.S. franchise dealers and more than 1,300 independent dealerships. This expansion helps TrueCar closer to its goal of including one-third of U.S. dealers and is expected to enhance both consumer options and dealer sales closing rates. The company also plans to enhance its mobile app to cater to the growing number of Millennial consumers entering the auto market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TRUE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.457792"
+        },
+        {
+          "relevance_score": "0.632416",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.282745"
+        },
+        {
+          "relevance_score": "0.564666",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126505"
+        },
+        {
+          "relevance_score": "0.551536",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128557"
+        }
+      ],
+      "time_published": "20150209T070000",
+      "title": "TrueCar dealer network count surpasses 10,000",
+      "topics": [
+        {
+          "relevance_score": "0.802287",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.717736",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/truecar-dealer-network-count-surpasses-10000-300032691.html"
+    }
+  ],
+  "items": "14",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

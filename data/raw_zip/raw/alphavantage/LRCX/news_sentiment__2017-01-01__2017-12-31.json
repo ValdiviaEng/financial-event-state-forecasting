@@ -1,0 +1,692 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.109845,
+      "source": "Legacy obituary",
+      "source_domain": "Legacy obituary",
+      "summary": "This obituary commemorates the life of Raymond F. Baddour, Professor and Entrepreneur, who passed away on December 15, 2017. Dr. Baddour was a distinguished Chemical Engineering Professor at MIT, founded its Environmental Laboratory, and co-founded biopharmaceutical company Amgen, among several other ventures. He is survived by his wife, Anne, and several children and grandchildren, with the family requesting donations to St. Jude Children's Research Hospital in his memory.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.836826",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103634"
+        },
+        {
+          "relevance_score": "0.880184",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.127617"
+        },
+        {
+          "relevance_score": "0.593014",
+          "ticker": "FCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145861"
+        },
+        {
+          "relevance_score": "0.575194",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115915"
+        },
+        {
+          "relevance_score": "0.565063",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118674"
+        }
+      ],
+      "time_published": "20171223T045142",
+      "title": "RAYMOND BADDOUR Obituary (2017) - Belmont, MA - Boston Globe",
+      "topics": [
+        {
+          "relevance_score": "0.846485",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.740512",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.legacy.com/us/obituaries/bostonglobe/name/raymond-baddour-obituary?id=9648132"
+    },
+    {
+      "authors": [
+        "Steve Dubb"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.080494,
+      "source": "Nonprofit Quarterly",
+      "source_domain": "Nonprofit Quarterly",
+      "summary": "This article explores the emerging trend of Exchange-Traded Funds (ETFs) being launched in partnership with nonprofits like the YWCA and NAACP, aiming to combine market-rate returns with social impact. Nonprofits lend their names to these funds in exchange for a portion of the advisory fees, but the article questions the real-world impact of such investments on social change. It suggests that while there's no harm in these ETFs, large nonprofits might achieve deeper impact through more strategic investments, such as partnering with Community Development Financial Institutions (CDFIs).",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.349086",
+          "ticker": "WOMN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010243"
+        },
+        {
+          "relevance_score": "0.734720",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117252"
+        },
+        {
+          "relevance_score": "0.642878",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127018"
+        },
+        {
+          "relevance_score": "0.644145",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109914"
+        },
+        {
+          "relevance_score": "0.645431",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113467"
+        }
+      ],
+      "time_published": "20171213T220705",
+      "title": "Will Exchange-Traded Funds Make a Difference to Nonprofits?",
+      "topics": [
+        {
+          "relevance_score": "0.840822",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.941851",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.623395",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://nonprofitquarterly.org/will-exchange-traded-funds-make-difference-nonprofits/"
+    },
+    {
+      "authors": [
+        "Michael Kramer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.42143,
+      "source": "Taiwan Semiconductor",
+      "source_domain": "Taiwan Semiconductor",
+      "summary": "TSMC held its 17th annual Supply Chain Management Forum to thank its global suppliers for their contributions, particularly in 10nm capacity ramp and 7nm technology development. Over 700 suppliers participated, and TSMC recognized twelve outstanding suppliers with the Excellent Performance Award. The event highlighted the importance of collaboration for innovation in the semiconductor industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424082"
+        },
+        {
+          "relevance_score": "0.865245",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.449218"
+        },
+        {
+          "relevance_score": "0.727347",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.433147"
+        },
+        {
+          "relevance_score": "0.564020",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308837"
+        }
+      ],
+      "time_published": "20171207T035125",
+      "title": "TSMC Recognizes Outstanding Suppliers at Supply Chain Management Forum",
+      "topics": [
+        {
+          "relevance_score": "0.805555",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.814624",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://esg.tsmc.com/en/update/responsibleSupplyChain/caseStudy/5/index.html"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.295046,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "Atomic Layer Etch (ALE) technology, after years in R&D, is now shipping from several fab tool vendors and is crucial for advanced nodes like 10/7nm and beyond. The industry is exploring various ALE approaches, including plasma ALE for anisotropic etches and thermal ALE for isotropic etches, with a focus on selective removal of materials at the atomic scale without damaging surrounding structures. While plasma ALE is in production, thermal ALE and hybrid approaches are still in early stages, facing challenges in cost and throughput but offering solutions for increasingly complex 3D structures and future applications like selective deposition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418550"
+        },
+        {
+          "relevance_score": "0.886375",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345336"
+        },
+        {
+          "relevance_score": "0.765934",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302059"
+        },
+        {
+          "relevance_score": "0.625650",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139076"
+        }
+      ],
+      "time_published": "20171116T035125",
+      "title": "What\u2019s Next For Atomic Layer Etch?",
+      "topics": [
+        {
+          "relevance_score": "0.925147",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.742610",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://semiengineering.com/whats-next-for-atomic-layer-etch/"
+    },
+    {
+      "authors": [
+        "Iain"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.306722,
+      "source": "Manufacturing Today",
+      "source_domain": "Manufacturing Today",
+      "summary": "Shields Manufacturing Inc. differentiates itself through its ability to effectively machine diverse materials like plastics and metals, developing unique processes for high-volume production. The company, founded in 1991, emphasizes a culture of quality, sustained growth in the semiconductor market (48% in 2013, 17% in 2014, 31% in 2015), and plans for continued expansion including a second business unit and increased production capacity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.702821",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324931"
+        },
+        {
+          "relevance_score": "0.613512",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.264238"
+        }
+      ],
+      "time_published": "20171030T035125",
+      "title": "Shields Manufacturing Inc.",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.844732",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.603322",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://manufacturing-today.com/news/shields-manufacturing-inc/"
+    },
+    {
+      "authors": [
+        "Julie Littman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.102616,
+      "source": "Bisnow",
+      "source_domain": "Bisnow",
+      "summary": "ProspectHill Group and SKS Partners, in collaboration with Invesco Real Estate, have commenced a major redevelopment of the 27-acre former Lam Research campus in North San Jose. Branded as Assembly at North First, the project will transform the site into over 1M SF of office and R&D space, aiming to attract technology companies migrating south from Silicon Valley's traditional core. The redevelopment will occur in two phases, with the first phase renovating four existing buildings to offer modernized office spaces, extensive outdoor amenities, and aiming for LEED Gold certification.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103182"
+        }
+      ],
+      "time_published": "20171011T045142",
+      "title": "Redevelopment Of Lam Research Campus Underway In North San Jose",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.708300",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bisnow.com/silicon-valley/news/office/redevelopment-of-27-acre-lam-research-campus-underway-in-north-san-jose-80145"
+    },
+    {
+      "authors": [
+        "Globe Newswire"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.308518,
+      "source": "Electronics Media",
+      "source_domain": "Electronics Media",
+      "summary": "MKS Instruments, Inc. was awarded Lam Research's 2017 Supplier Excellence Award for its exemplary operational excellence. This recognition highlights MKS Instruments' transformation from a supplier to a collaborative partner, acknowledged for quickly scaling production and supporting the successful launch of Lam's new products. The award was presented at Lam Research's 2017 Supplier Day event, celebrating MKS Instruments' critical role in delivering industry-leading products and services to customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.532950"
+        },
+        {
+          "relevance_score": "0.634909",
+          "ticker": "ROK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110950"
+        }
+      ],
+      "time_published": "20170923T045142",
+      "title": "MKS Instruments Receives Lam Research\u2019s 2017 Supplier Excellence Award",
+      "topics": [
+        {
+          "relevance_score": "0.919430",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.811715",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.electronicsmedia.info/2017/09/23/mks-instruments-receives-lam-researchs-2017-supplier-excellence-award/"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.134053,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "Lam Research has acquired Coventor, a provider of simulation and modeling solutions for the semiconductor and MEMS industries, expanding its product portfolio into the simulation and modeling technology market. This acquisition will enable Lam to offer virtual fabrication technology, helping engineers understand manufacturing effects earlier and reduce development cycles. The move highlights Lam's strategic effort to enhance advanced process control and virtual experimentation capabilities for next-generation technology development.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.604421"
+        },
+        {
+          "relevance_score": "0.607344",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.422371"
+        }
+      ],
+      "time_published": "20170831T045142",
+      "title": "Lam Research Acquires Coventor",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.948039",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747100",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.611154",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://semiengineering.com/lam-research-acquires-coventor/"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.23714,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The semiconductor industry is facing increasing challenges with contacts and interconnects (BEOL/MOL) at advanced nodes like 7nm and 5nm due to rising resistance and cost. New solutions are emerging, including the potential migration from tungsten to cobalt for MOL contacts, the use of cobalt as a replacement for copper in some BEOL layers, and the insertion of extreme ultraviolet (EUV) lithography to simplify process flows. These developments are crucial for continued transistor scaling and chip performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.939121",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331035"
+        },
+        {
+          "relevance_score": "0.742019",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216418"
+        },
+        {
+          "relevance_score": "0.619526",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109792"
+        },
+        {
+          "relevance_score": "0.626879",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.215626"
+        }
+      ],
+      "time_published": "20170615T035125",
+      "title": "New BEOL/MOL Breakthroughs?",
+      "topics": [
+        {
+          "relevance_score": "0.939319",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.800172",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://semiengineering.com/new-beolmol-breakthroughs/"
+    },
+    {
+      "authors": [
+        "Beau Jackson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.234175,
+      "source": "3D Printing Industry",
+      "source_domain": "3D Printing Industry",
+      "summary": "This article provides a roundup of recent business activities in the 3D printing industry, highlighting GE's new CEO and partnership with Stryker, LPW Technology's distribution deal with TNSC and significant investment, Robo3D's temporary stock suspension, and Nano Dimension's successful $4.8 million funding round. Key developments include GE Additive's collaboration with Stryker on medical applications and LPW Technology's expansion in metal powder distribution, indicating continued growth and investment in the sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.978312",
+          "ticker": "NNDM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.471371"
+        },
+        {
+          "relevance_score": "0.856672",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327761"
+        },
+        {
+          "relevance_score": "0.802378",
+          "ticker": "SYK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301345"
+        },
+        {
+          "relevance_score": "0.579973",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107434"
+        },
+        {
+          "relevance_score": "0.572518",
+          "ticker": "STZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.120162"
+        }
+      ],
+      "time_published": "20170614T165800",
+      "title": "3D printing business news roundup: GE, Stryker, LPW, Robo3D and Nano Dimension",
+      "topics": [
+        {
+          "relevance_score": "0.909729",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.838065",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.714708",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.619791",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://3dprintingindustry.com/news/3d-printer-business-news-roundup-ge-stryker-lpw-robo3d-and-nano-dimension-115924/"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.323838,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The article discusses the growing electrochemical deposition (ECD) equipment market for IC packaging, driven by the ramp-up of 2.5D, 3D, and fan-out technologies. It highlights the challenges in ECD, such as depositing uniform and void-free metals at reasonable speeds for different interconnect structures like bumps, copper pillars, RDLs, and TSVs. The piece also details various ECD applications and the solutions offered by key equipment manufacturers like Applied Materials, Lam Research, and ClassOne Technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415598"
+        },
+        {
+          "relevance_score": "0.866308",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304887"
+        },
+        {
+          "relevance_score": "0.710938",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303178"
+        },
+        {
+          "relevance_score": "0.604966",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267914"
+        },
+        {
+          "relevance_score": "0.558032",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214510"
+        }
+      ],
+      "time_published": "20170410T035125",
+      "title": "Electroplating IC Packages",
+      "topics": [
+        {
+          "relevance_score": "0.916470",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.818685",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/electroplating-ic-packages/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.020422,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "The SEC has fined and barred junior EY auditor Nima Hedayati for insider trading related to a planned merger between EY client Lam Research Corporation and KLA-Tencor Corporation. Hedayati allegedly used inside information to purchase KLA-Tencor call options for himself and his fianc\u00e9e, and encouraged his mother to buy shares, profiting from a nearly 20% stock price increase after the merger announcement. He was fined $87,000 and suspended from practicing as an accountant before the SEC for at least five years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.962648",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.138761"
+        },
+        {
+          "relevance_score": "0.804157",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118024"
+        }
+      ],
+      "time_published": "20170314T133200",
+      "title": "SEC fines, bars junior EY auditor for insider trading in semiconductor client",
+      "topics": [
+        {
+          "relevance_score": "0.924881",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.813170",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.717080",
+          "topic": "finance"
+        }
+      ],
+      "url": "http://www.marketwatch.com/story/sec-fines-bars-junior-ey-auditor-for-insider-trading-in-semiconductor-client-2017-03-14?gaa_at=eafs&gaa_n=AWEtsqdaJQ9tJTDZecvXH4LftxC1kXTg5qrTjgpIbJ_xtNy9c6q81C-WpfKM&gaa_ts=690836f8&gaa_sig=RqtF7sv0uausyzE09crmG9MoGqHXByg1QjMaGtct54EUqVprqhQj1DjhSylz0bIUJTbcBI5bF87c-UXACg8vXg%3D%3D"
+    },
+    {
+      "authors": [
+        "Electronics Media"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019096,
+      "source": "Electronics Media",
+      "source_domain": "Electronics Media",
+      "summary": "Krishnan Srinivasan, Managing Director of Lam Research India, discusses the company's role in advancing semiconductor fabrication to atomic levels (7nm and below) and the significant contributions of Indian engineers. The article highlights macroeconomic trends driving the semiconductor industry, challenges in interconnect technology, memory semiconductor equipment trends, and Lam Research's operations and talent acquisition in India.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347272",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.006138"
+        }
+      ],
+      "time_published": "20170227T045142",
+      "title": "Atomic level semiconductor chip making at <7 nm, Indian engineers are playing",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.833945",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.621643",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.electronicsmedia.info/2017/02/27/atomic-level-semiconductor-chip-making/"
+    },
+    {
+      "authors": [
+        "Ryan Randazzo",
+        "and Jerod MacDonald-Evoy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.360488,
+      "source": "azcentral.com and The Arizona Republic",
+      "source_domain": "azcentral.com and The Arizona Republic",
+      "summary": "Intel Corp. announced a $7 billion investment to complete its Fab 42 facility in Chandler, Arizona, which was previously mothballed in 2014. This investment is expected to bring 3,000 new Intel jobs and an additional 7,000 related contractor and supplier jobs to the area. The facility will be used for advanced 7-nanometer computer chip manufacturing, powering technologies like artificial intelligence and advanced transportation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.481264"
+        },
+        {
+          "relevance_score": "0.607235",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308772"
+        },
+        {
+          "relevance_score": "0.571283",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262576"
+        }
+      ],
+      "time_published": "20170208T044149",
+      "title": "Intel says it's investing $7B in Chandler facility, bringing 3K jobs",
+      "topics": [
+        {
+          "relevance_score": "0.945251",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.808650",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.711889",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.640347",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.azcentral.com/story/money/business/jobs/2017/02/08/intel-says-s-investing-7b-chandler-facility-bringing-3000-jobs-fab-42/97648708/"
+    }
+  ],
+  "items": "14",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

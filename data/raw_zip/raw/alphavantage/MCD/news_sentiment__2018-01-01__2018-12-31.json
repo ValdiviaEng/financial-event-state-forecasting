@@ -1,0 +1,4281 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.025884,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Kalinowski Equity Research predicts Chick-fil-A will become the third-largest restaurant chain in the U.S., surpassing its 2020 projection. This rapid growth poses a significant threat to established public chains like McDonald\u2019s and Wendy\u2019s. Chick-fil-A's surging sales are propelling it up the U.S. sales rankings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.349837",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.034154"
+        }
+      ],
+      "time_published": "20181219T133400",
+      "title": "As Chick-fil-A surges, McDonald\u2019s and Wendy\u2019s are under threat",
+      "topics": [
+        {
+          "relevance_score": "0.920830",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.712817",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/as-chick-fil-a-surges-mcdonalds-and-wendys-are-under-threat-2018-12-17?gaa_at=eafs&gaa_n=AWEtsqeHdbfDnaNbKFLLO3uZPyJY8sDSNcakGKVz3-ffx6RY75egX9SJE6aa&gaa_ts=69081bf5&gaa_sig=uI7w2FnhiLadqAwm-2kad-5WKh6mub5C7QsolRwHa9WgZtMdqCwmoky5EWw06gEf9qLlVLZ5VANg7vXwqn4z3g%3D%3D"
+    },
+    {
+      "authors": [
+        "Spencer Soper and Thomas Black"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.103971,
+      "source": "Transport Topics",
+      "source_domain": "Transport Topics",
+      "summary": "Amazon is replicating the FedEx delivery model by recruiting independent contractors to handle last-mile deliveries, offering entrepreneurial opportunities despite potential challenges with driver pay and legal issues. This strategy helps Amazon meet surging demand and manage shipping costs but faces hurdles in attracting and retaining drivers in a tight labor market, potentially leading to lawsuits over worker classification. The article highlights how this approach allows Amazon to expand its delivery network rapidly, leveraging contractors to absorb the costs and complexities of hiring and managing a large driver workforce.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133526"
+        },
+        {
+          "relevance_score": "0.819447",
+          "ticker": "FDX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265918"
+        },
+        {
+          "relevance_score": "0.631954",
+          "ticker": "UPS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119899"
+        },
+        {
+          "relevance_score": "0.568803",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.053680"
+        }
+      ],
+      "time_published": "20181217T110000",
+      "title": "Amazon Thrives on FedEx Delivery Model, but Driver Pay Challenges Persist",
+      "topics": [
+        {
+          "relevance_score": "0.930563",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.835265",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.728844",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ttnews.com/articles/amazon-thrives-fedex-delivery-model-driver-pay-challenges-persist"
+    },
+    {
+      "authors": [
+        "Allison Aubrey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.314691,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "McDonald's, one of the world's largest beef buyers, has announced plans to reduce antibiotic use in its global beef supply. This commitment follows similar actions in the poultry industry and is applauded by environmental groups who highlight the critical need to address antibiotic overuse in beef production to combat drug resistance. The company will measure antibiotic use in its top 10 beef markets and set reduction targets by the end of 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.982356",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345476"
+        }
+      ],
+      "time_published": "20181211T133500",
+      "title": "Lots Of Antibiotics Are Used In Beef Production. McDonald's Vows To Change This : The Salt",
+      "topics": [
+        {
+          "relevance_score": "0.941153",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.700424",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.npr.org/sections/thesalt/2018/12/11/675559302/there-are-lots-of-antibiotics-in-the-beef-supply-mcdonalds-vows-to-change-this"
+    },
+    {
+      "authors": [
+        "Mark Davis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.148249,
+      "source": "Kansas City Star",
+      "source_domain": "Kansas City Star",
+      "summary": "H&R Block is facing a lawsuit and a Washington state investigation concerning its \"no-poach\" hiring clauses. These clauses, allegedly in contracts for franchised offices, are accused of suppressing wages by preventing employees from moving between H&R Block offices for better opportunities. The practice is similar to those challenged in fast-food industries, and the lawsuit seeks class-action status for affected employees.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HRB",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205712"
+        },
+        {
+          "relevance_score": "0.628090",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.124987"
+        },
+        {
+          "relevance_score": "0.614684",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.121322"
+        },
+        {
+          "relevance_score": "0.645664",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149382"
+        }
+      ],
+      "time_published": "20181207T103500",
+      "title": "H&R Block\u2019s \u2018no-poach\u2019 hiring practices under fire from lawsuit, state investigation",
+      "topics": [
+        {
+          "relevance_score": "0.938721",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.kansascity.com/news/business/article222615500.html"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.200544,
+      "source": "The Financial Express",
+      "source_domain": "The Financial Express",
+      "summary": "Apple Inc. and fast-food chains like McDonald's are facing a similar \"demand problem\" despite healthy sales figures. Both businesses are relying on higher prices or increased average checks to offset declining customer traffic or flat sales volumes, which the article argues is an unsustainable strategy given market saturation and economic cracks. The article suggests innovative tactics like embracing delivery for restaurants and aggressive marketing of add-on services for Apple to address these challenges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.247161"
+        },
+        {
+          "relevance_score": "0.972458",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.289509"
+        },
+        {
+          "relevance_score": "0.747236",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227830"
+        },
+        {
+          "relevance_score": "0.643009",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118661"
+        },
+        {
+          "relevance_score": "0.569582",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134415"
+        }
+      ],
+      "time_published": "20181203T153200",
+      "title": "Apple iPhone and McDonald\u2019s fast food have the same problem",
+      "topics": [
+        {
+          "relevance_score": "0.925826",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.923721",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.803921",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.702549",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.financialexpress.com/business/industry-apple-iphone-and-mcdonalds-fast-food-have-the-same-problem-1401986/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.017783,
+      "source": "TradingView \u2014 Track All Markets",
+      "source_domain": "TradingView \u2014 Track All Markets",
+      "summary": "This article provides a detailed overview of the Direxion Daily Consumer Discretionary Bull 3x Shares (AMEX: WANT) ETF, including its price, chart, key statistics like AUM and expense ratio, and investment strategy. It highlights WANT's nature as a daily 3x leveraged bet on the S&P Consumer Discretionary Select Industry Index, making it suitable for short-term traders. The content also features technical analysis, news, and various trading ideas from community members.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WANT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.031638"
+        },
+        {
+          "relevance_score": "0.719745",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026988"
+        },
+        {
+          "relevance_score": "0.725787",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.021212"
+        },
+        {
+          "relevance_score": "0.605222",
+          "ticker": "NKE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.036867"
+        },
+        {
+          "relevance_score": "0.601293",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019631"
+        }
+      ],
+      "time_published": "20181130T130933",
+      "title": "WANT Stock Fund Price and Chart \u2014 AMEX:WANT",
+      "topics": [
+        {
+          "relevance_score": "0.911092",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.720528",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.tradingview.com/symbols/AMEX-WANT/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.322909,
+      "source": "RestaurantNews.com",
+      "source_domain": "RestaurantNews.com",
+      "summary": "El Pollo Loco has appointed Hector A. Mu\u00f1oz as its new Chief Marketing Officer, effective December 3rd, 2018. Mu\u00f1oz brings over 25 years of QSR experience, previously holding key marketing leadership roles at Church's Chicken, Popeyes Louisiana Kitchen, and Burger King. He will oversee all marketing and brand strategy functions for El Pollo Loco, which operates over 480 company-owned and franchised restaurants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LOCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.476955"
+        },
+        {
+          "relevance_score": "0.644065",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212051"
+        },
+        {
+          "relevance_score": "0.561069",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233247"
+        }
+      ],
+      "time_published": "20181127T025120",
+      "title": "El Pollo Loco Names Hector A. Mu\u00f1oz Chief Marketing Officer",
+      "topics": [
+        {
+          "relevance_score": "0.808734",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.623510",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.restaurantnews.com/el-pollo-loco-names-hector-a-munoz-chief-marketing-officer-112718/"
+    },
+    {
+      "authors": [
+        "Ben Miller"
+      ],
+      "banner_image": "https://media.bizj.us/view/img/12340331/image*1200xx2834-1594-0-297.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.485397,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "McDonald's is finding success in Russia by emphasizing its local roots, according to a Chicago Business Journal staff reporter. The article notes this strategy while briefly mentioning other McDonald's-related news, such as menu changes and internal franchisee movements.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.472278"
+        }
+      ],
+      "time_published": "20181109T025156",
+      "title": "McDonald's is succeeding in Russia by going local",
+      "topics": [
+        {
+          "relevance_score": "0.813071",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.604985",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bizjournals.com/chicago/news/2018/11/09/mcdonalds-is-succeeding-in-russia-by-going-local.html"
+    },
+    {
+      "authors": [
+        "Alison Weissbrot"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.368087,
+      "source": "AdExchanger",
+      "source_domain": "AdExchanger",
+      "summary": "RAPP, a 50-year-old direct marketing agency, is capitalizing on its strength in personalization by partnering within Omnicom's Precision Marketing Group (OPMG). CEO Marco Scognamiglio emphasizes a shift toward consumer-controlled engagement and the necessity of collaboration among agencies to solve complex client problems. The article details how RAPP integrates with other Omnicom agencies and external partners to deliver comprehensive, data-driven solutions for clients' customer transformation needs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OMC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409143"
+        },
+        {
+          "relevance_score": "0.607988",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347848"
+        }
+      ],
+      "time_published": "20181105T090000",
+      "title": "RAPP Taps Into Omnicom To Deliver On Personalization",
+      "topics": [
+        {
+          "relevance_score": "0.745713",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.817856",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.adexchanger.com/agencies/rapp-taps-into-omnicom-to-deliver-on-personalization/"
+    },
+    {
+      "authors": [
+        "Jonathan Kent"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.331744,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "Bermudian reinsurer RenaissanceRe Holdings Ltd (RenRe) has agreed to acquire Tokio Millennium Re (TMR) for $1.5 billion in a cash-and-shares deal. The acquisition, expected to close in the first half of 2019, will expand RenRe's global presence and product range. Concurrently, US insurer State Farm will invest $250 million in RenRe, acquiring approximately 4.8 per cent of its common shares.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "RNR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.420115"
+        },
+        {
+          "relevance_score": "0.748353",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.285183"
+        }
+      ],
+      "time_published": "20181031T080000",
+      "title": "RenRe to buy Tokio Millennium Re for $1.5bn",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.939959",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.813956",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.royalgazette.com/re-insurance/business/article/20181031/renre-to-buy-tokio-millennium-re-for-1-5bn/"
+    },
+    {
+      "authors": [
+        "Aishwarya Venugopal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.223918,
+      "source": "Yahoo! Finance Singapore",
+      "source_domain": "Yahoo! Finance Singapore",
+      "summary": "Yum Brands Inc. reported stronger-than-expected third-quarter revenue and profit, driven by robust sales at KFC and Taco Bell, which offset the continued weakness at Pizza Hut. The company's shares rose as much as 5 percent following the positive results, highlighting the success of value meal offers in a competitive fast-food market. While Taco Bell and KFC saw same-restaurant sales increases of 5% and 3% respectively, Pizza Hut experienced a 1% decline, primarily due to slowing demand in the United States and struggles to differentiate its promotions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339975"
+        },
+        {
+          "relevance_score": "0.613952",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120859"
+        },
+        {
+          "relevance_score": "0.738551",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.295378"
+        }
+      ],
+      "time_published": "20181031T034614",
+      "title": "Taco Bell, KFC power Yum Brands quarterly results",
+      "topics": [
+        {
+          "relevance_score": "0.946752",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.834900",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://sg.finance.yahoo.com/news/yum-brands-quarterly-revenue-beats-estimates-111745062--finance.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.27938,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "The Invesco Large Cap Value ETF (PWV) provides targeted exposure to U.S. large-cap stocks demonstrating value characteristics, utilizing a unique \"intelligent\" index methodology for stock selection. While it aims to add alpha, its expense ratio is higher than some peers. The article details PWV's holdings, performance metrics, valuation, dividends, geographic and sector allocations, ESG scores, and technical analysis.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PWV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207391"
+        },
+        {
+          "relevance_score": "0.737463",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321232"
+        },
+        {
+          "relevance_score": "0.715746",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325053"
+        },
+        {
+          "relevance_score": "0.636259",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200306"
+        },
+        {
+          "relevance_score": "0.626248",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235309"
+        }
+      ],
+      "time_published": "20181025T055149",
+      "title": "Invesco Large Cap Value ETF",
+      "topics": [
+        {
+          "relevance_score": "0.943872",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.815536",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://etfdb.com/etf/PWV/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.086541,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This article provides an in-depth profile of the Invesco S&P 500\u00ae Equal Weight Consumer Discretionary ETF (RCD), an inactive ETF. It details the fund's vitals, such as its issuer, expense ratio, inception date, and tracked index, along with its classification within the Consumer Discretionary Equities category. The report also covers historical trading data, top holdings, concentration analysis, valuation, dividend information, fund flows, performance metrics, geographic and sector exposure, and technical analysis including volatility and support/resistance levels.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.311571",
+          "ticker": "RSPD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016916"
+        },
+        {
+          "relevance_score": "0.656343",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.094081"
+        },
+        {
+          "relevance_score": "0.668162",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.051289"
+        },
+        {
+          "relevance_score": "0.601857",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.087750"
+        },
+        {
+          "relevance_score": "0.626311",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.085548"
+        }
+      ],
+      "time_published": "20181025T034057",
+      "title": "Invesco S&P 500\u00ae Equal Weight Consumer Discretionary ETF",
+      "topics": [
+        {
+          "relevance_score": "0.946294",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://etfdb.com/etf/RCD/"
+    },
+    {
+      "authors": [
+        "Ben Miller"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.248915,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "McDonald's is set to introduce a \"Triple Breakfast Stack\" sandwich to its morning menu for a limited time starting November 1. This new offering is part of an effort by the fast-food giant to enhance its breakfast options. The sandwich is described as \"massive,\" indicating a significant addition to their breakfast lineup.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238320"
+        }
+      ],
+      "time_published": "20181025T025158",
+      "title": "McDonald's to add massive breakfast sandwich to morning menu",
+      "topics": [
+        {
+          "relevance_score": "0.830209",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bizjournals.com/chicago/news/2018/10/25/mcdonalds-to-add-massive-breakfast-sandwich.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.131262,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "This article examines McDonald's performance against two dozen other restaurant chains ahead of its third-quarter earnings report. Despite an expected slowdown in same-store sales growth, McDonald's boasts relatively high comparable-store sales growth compared to competitors. The company also has a strong analyst sentiment, with three-quarters of analysts rating its stock as a 'buy'.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143029"
+        }
+      ],
+      "time_published": "20181023T065900",
+      "title": "This is how McDonald\u2019s stacks up against two dozen restaurant chains",
+      "topics": [
+        {
+          "relevance_score": "0.924729",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.836000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.706386",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/this-is-how-mcdonalds-stacks-up-against-two-dozen-restaurant-chains-2018-10-22?gaa_at=eafs&gaa_n=AWEtsqf2NDZxnjw8KrwFB0nduDgvHzmqbcLZz7iF2_ZTuBWmO9C-Wdt1q6Au&gaa_ts=69081bf7&gaa_sig=5KMMydDHQrRqfZS5EVn2AJmn-ognQ3d03PazLsaGuRKvh3DRVgxOuBr4-vPRuLIm_xQrGcKivr2NQazMq8bBjA%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.334762,
+      "source": "Baker Hughes",
+      "source_domain": "Baker Hughes",
+      "summary": "BHGE, McDermott International, Inc., and L&T Hydrocarbon Engineering (LTHE) have been awarded the largest Indian subsea project by ONGC for the development of block DWN-98/2 in the Krishna Godavari basin. The consortium will provide an integrated solution including subsea production systems and subsea umbilicals, risers, and flowlines (SURF) for 34 wells, leveraging their combined expertise and commitment to local manufacturing in India. The project aims to reduce complexity, increase efficiency, and support India's energy development goals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416718"
+        },
+        {
+          "relevance_score": "0.633847",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328587"
+        },
+        {
+          "relevance_score": "0.706573",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347758"
+        }
+      ],
+      "time_published": "20181003T015636",
+      "title": "BHGE, McDermott, L&T Hydrocarbon Engineering Win Largest Indian Subsea Project for ONGC's Prestigious 98/2 Block",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.914091",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bakerhughes.com/company/news/bhge-mcdermott-lt-hydrocarbon-engineering-win-largest-indian-subsea-project-ongcs"
+    },
+    {
+      "authors": [
+        "Teresa Finney"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.131145,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Chipotle Mexican Grill launched a new ad campaign called \"For Real\" to emphasize \"radical ingredient transparency,\" highlighting the 51 main ingredients used in its restaurants. This campaign, the company's largest in spending within a quarter, aims to re-establish Chipotle as a \"purpose-driven lifestyle brand\" and address food safety concerns. Chipotle is also utilizing social media and partnering with Zenput to improve operations and reinforce its commitment to real ingredients.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.264993"
+        },
+        {
+          "relevance_score": "0.612067",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144122"
+        },
+        {
+          "relevance_score": "0.638277",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129117"
+        },
+        {
+          "relevance_score": "0.565840",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146909"
+        },
+        {
+          "relevance_score": "0.589924",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136117"
+        }
+      ],
+      "time_published": "20180926T092500",
+      "title": "Chipotle Focuses On 'Radical Ingredient Transparency' In New Ad Campaign",
+      "topics": [
+        {
+          "relevance_score": "0.943218",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/teresafinney/2018/09/26/chipotle-focuses-on-radical-ingredient-transparency-in-new-ad-campaign/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.285374,
+      "source": "Supply & Demand Chain Executive",
+      "source_domain": "Supply & Demand Chain Executive",
+      "summary": "XPO Logistics plans to hire an additional 8,000 seasonal workers in North America for the upcoming holiday season. This decision is driven by a 20 percent increase in retail logistics volume compared to last year, fueled by e-commerce growth and demand for omnichannel fulfillment. The company's president noted that modern warehouses with automation make it an attractive choice for workers and ensure productivity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972950",
+          "ticker": "XPO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417597"
+        },
+        {
+          "relevance_score": "0.605572",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297615"
+        },
+        {
+          "relevance_score": "0.575298",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237058"
+        }
+      ],
+      "time_published": "20180920T034606",
+      "title": "XPO Logistics to Add 8,000 Seasonal Jobs in North America",
+      "topics": [
+        {
+          "relevance_score": "0.803652",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.712250",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.618413",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.623946",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.sdcexec.com/transportation/news/21023307/xpo-logistics-inc-xpo-logistics-to-add-8000-seasonal-jobs-in-north-america"
+    },
+    {
+      "authors": [
+        "James Mattone"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.138455,
+      "source": "The Business of Business",
+      "source_domain": "The Business of Business",
+      "summary": "This article analyzes Wendy's store locations in the United States, particularly in celebration of National Cheeseburger Day. It details the distribution of Wendy's restaurants across states and cities, compares its footprint and local competition with McDonald's, and examines the median income demographics of neighborhoods where Wendy's operates. Additionally, it briefly touches upon Wendy's successful social media strategy on Twitter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WEN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228071"
+        },
+        {
+          "relevance_score": "0.830222",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007661"
+        }
+      ],
+      "time_published": "20180918T202500",
+      "title": "Where's the data? A snapshot of Wendy's on National Cheeseburger Day",
+      "topics": [
+        {
+          "relevance_score": "0.800141",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.636956",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.641089",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.businessofbusiness.com/articles/an-overview-of-wendys/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.042678,
+      "source": "CGTN",
+      "source_domain": "CGTN",
+      "summary": "Starbucks will get a new partner in New Zealand, Tahua Capital, after Restaurant Brands New Zealand Ltd. decided not to renew its license due to the market's entrenched coffee culture and Starbucks' underperformance. This move follows similar struggles for Starbucks in Australia, highlighting the challenges major chains face against strong local competition. The new licensee, Tahua Capital, will acquire the Starbucks assets for up to 4.4 million New Zealand dollars and will seek to secure leases for the 22 existing stores and employ all 300 current Starbucks employees.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.220020"
+        },
+        {
+          "relevance_score": "0.641461",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102773"
+        },
+        {
+          "relevance_score": "0.593119",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146564"
+        }
+      ],
+      "time_published": "20180903T200000",
+      "title": "Starbucks gets new NZ partner in struggle to win Kiwi coffee connoisseurs",
+      "topics": [
+        {
+          "relevance_score": "0.828490",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.926123",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.729908",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://news.cgtn.com/news/3d3d414f3551544f79457a6333566d54/index.html"
+    },
+    {
+      "authors": [
+        "Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.132094,
+      "source": "KATU",
+      "source_domain": "KATU",
+      "summary": "Kroger Co., the nation's largest grocery chain, announced its plan to phase out plastic bags across all its stores by 2025. This initiative will begin with its Seattle chain QFC, aiming to be plastic-bag free by next year. The move aligns with a broader industry trend among major companies to reduce plastic waste.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122899"
+        },
+        {
+          "relevance_score": "0.615059",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110886"
+        },
+        {
+          "relevance_score": "0.620951",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102432"
+        },
+        {
+          "relevance_score": "0.631414",
+          "ticker": "MAR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118921"
+        },
+        {
+          "relevance_score": "0.639556",
+          "ticker": "DIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131573"
+        }
+      ],
+      "time_published": "20180823T053000",
+      "title": "Kroger, Fred Meyer's parent company, to phase out plastic bags at all stores",
+      "topics": [
+        {
+          "relevance_score": "0.920068",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://katu.com/news/local/kroger-fred-meyers-parent-company-to-phase-out-plastic-bags-at-all-stores"
+    },
+    {
+      "authors": [
+        "Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.135622,
+      "source": "KATU",
+      "source_domain": "KATU",
+      "summary": "Kroger, the largest grocery chain in the U.S. and parent company of Fred Meyer, announced its plan to phase out plastic bags in all its stores by 2025. This initiative is part of a broader corporate trend to reduce waste, with other major companies like Disney, Starbucks, and McDonald's also eliminating single-use plastics. Kroger's Seattle-based chain QFC is expected to be plastic-bag free by next year as a first step.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247165"
+        },
+        {
+          "relevance_score": "0.636203",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102576"
+        },
+        {
+          "relevance_score": "0.606742",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139918"
+        }
+      ],
+      "time_published": "20180823T053000",
+      "title": "Kroger, Fred Meyer's parent company, to phase out plastic bags at all stores",
+      "topics": [
+        {
+          "relevance_score": "0.938191",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.637675",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://katu.com/news/local/gallery/kroger-fred-meyers-parent-company-to-phase-out-plastic-bags-at-all-stores"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.347016,
+      "source": "McDonald\u2019s Corporation",
+      "source_domain": "McDonald\u2019s Corporation",
+      "summary": "McDonald's announced its \"Youth Opportunity\" initiative, aiming to reduce employment barriers for two million young people by 2025 through job readiness training and development programs. The company is investing $2 million in Chicago workforce development and pledging 43,000 apprenticeships across Europe as part of this global effort. McDonald's is partnering with organizations like the International Labour Organization and International Youth Foundation to implement pre-employment training and provide opportunities for young people worldwide.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404441"
+        },
+        {
+          "relevance_score": "0.643247",
+          "ticker": "AON",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344158"
+        },
+        {
+          "relevance_score": "0.604476",
+          "ticker": "ACN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338005"
+        }
+      ],
+      "time_published": "20180822T025156",
+      "title": "McDonald\u2019s Sets Global Goal to Reduce Barriers to Employment for Two Million Youth",
+      "topics": [
+        {
+          "relevance_score": "0.834987",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.649285",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.701939",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://corporate.mcdonalds.com/corpmcd/our-stories/article/employment_barriers.html"
+    },
+    {
+      "authors": [
+        "Ben Miller"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.040151,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Tyson Foods announced its acquisition of Keystone Foods for $2.16 billion in cash. Keystone Foods is a significant supplier of chicken nuggets to McDonald's Corp. This acquisition marks a notable expansion for Tyson Foods in the food supply industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335210",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014359"
+        }
+      ],
+      "time_published": "20180820T025157",
+      "title": "Tyson Foods buys McDonald's chicken supplier",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.704767",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.633201",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bizjournals.com/losangeles/news/2018/08/20/tyson-foods-buys-mcdonalds-chicken-supplier.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.322181,
+      "source": "The Coca-Cola Company",
+      "source_domain": "The Coca-Cola Company",
+      "summary": "A McCaf\u00e9's Feelin' Good Summer Survey revealed that coffee is a major factor in Americans' summer happiness, often prioritized even over cuddling pets or brushing teeth. The survey coincided with the launch of bottled McCaf\u00e9 Frapp\u00e9s, a ready-to-drink coffee product manufactured and distributed by The Coca-Cola Company. Key findings highlight the pervasive love for coffee across the U.S., with iced coffee being a year-round favorite and a significant \"pick-me-up\" for many, especially parents.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.994239",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329104"
+        },
+        {
+          "relevance_score": "0.710468",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.261855"
+        }
+      ],
+      "time_published": "20180816T090000",
+      "title": "Americans Spill the Beans About What Really Makes Them Feel Good in McCaf\u00e9\u2019s Feelin\u2019 Good Summer Survey",
+      "topics": [
+        {
+          "relevance_score": "0.916892",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/946/americans-spill-the-beans-about-what-really-makes-them-feel-good-in-mccafs-feelin-good-summer-survey"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.451425,
+      "source": "Convenience Store News",
+      "source_domain": "Convenience Store News",
+      "summary": "McDonald's Corp. and its franchisees are investing $6 billion to modernize most U.S. restaurants by 2020 through their \"Experience of the Future\" (EOTF) design. This initiative aims to enhance the customer experience with features like digital self-order kiosks, table service, and refreshed dining areas. A flagship EOTF restaurant in Chicago showcases these advancements, emphasizing convenience, personalization, and environmental consciousness.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.462435"
+        }
+      ],
+      "time_published": "20180816T025156",
+      "title": "McDonald\u2019s & Franchisees Investing $6B to Modernize Most U.S. Restaurants by 2020",
+      "topics": [
+        {
+          "relevance_score": "0.921510",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://csnews.com/mcdonalds-franchisees-investing-6b-modernize-most-us-restaurants-2020"
+    },
+    {
+      "authors": [
+        "Eric Schroeder"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.32169,
+      "source": "Food Business News",
+      "source_domain": "Food Business News",
+      "summary": "McDonald's Corp. announced plans to invest approximately $6 billion to modernize over 8,700 restaurants in the United States and the District of Columbia by 2020. This modernization will include new dining areas, self-order kiosks, table service, digital menu boards, curbside pick-up, and an expansion of McCafe counters. The largest single investment is projected for Texas, with $448 million allocated for 840 restaurants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332763"
+        }
+      ],
+      "time_published": "20180815T025157",
+      "title": "McDonald\u2019s investing billions in restaurant modernization",
+      "topics": [
+        {
+          "relevance_score": "0.813755",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.642361",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.foodbusinessnews.net/articles/12348-mcdonalds-investing-billions-in-restaurant-modernization"
+    },
+    {
+      "authors": [
+        "Kelly Tyko"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.162385,
+      "source": "Treasure Coast News",
+      "source_domain": "Treasure Coast News",
+      "summary": "Chipotle Mexican Grill is offering a buy-one-get-one free (BOGO) deal on August 18 for \"students of all ages\" to celebrate the back-to-school season. No school ID is required to receive a free burrito, bowl, salad, tacos, or kid's meal with the purchase of an entree. This promotion is available in-store by mentioning the deal or online/app orders using the promo code STUDENT, with a limit of one free item per customer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442355"
+        },
+        {
+          "relevance_score": "0.649421",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106079"
+        },
+        {
+          "relevance_score": "0.617160",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107966"
+        },
+        {
+          "relevance_score": "0.647676",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126502"
+        },
+        {
+          "relevance_score": "0.617760",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125288"
+        }
+      ],
+      "time_published": "20180815T020644",
+      "title": "Study break! Chipotle offers buy-one-get-one free deal for 'students of all ages' Aug. 18",
+      "topics": [
+        {
+          "relevance_score": "0.929285",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.tcpalm.com/story/money/business/bargainista/2018/08/15/chipotle-bogo-deal-students-all-ages-score-deal-saturday/997195002/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.368737,
+      "source": "ACN Newswire",
+      "source_domain": "ACN Newswire",
+      "summary": "Aon plc has named seven organizations as Best Employers Singapore 2018, based on their high employee engagement scores and leadership effectiveness, which leads to increased revenue growth. These Best Employers excelled significantly above the market average across key indices like employee engagement, employer brand, effective leadership, and high-performance culture. Additionally, five organizations received special recognition for their commitment to engagement, engaging specific demographics, and social services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.835896",
+          "ticker": "BAX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308530"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AON",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435784"
+        },
+        {
+          "relevance_score": "0.714283",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339253"
+        },
+        {
+          "relevance_score": "0.630455",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343169"
+        }
+      ],
+      "time_published": "20180815T000000",
+      "title": "Aon announces 7 Best Employers in Singapore for 2018",
+      "topics": [
+        {
+          "relevance_score": "0.828045",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.600906",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.acnnewswire.com/press-release/english/45452/aon-announces-7-best-employers-in-singapore-for-2018"
+    },
+    {
+      "authors": [
+        "Bridgett Weaver"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.403923,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "McDonald's Corp. and its franchisees plan to invest $124 million over the next two years to modernize approximately 80 percent of its restaurants in Kentucky. This initiative aims to update existing stores and bring them in line with newer designs and technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411075"
+        }
+      ],
+      "time_published": "20180814T162400",
+      "title": "McDonald's to spend $124 million to modernize Kentucky stores",
+      "topics": [
+        {
+          "relevance_score": "0.921583",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bizjournals.com/louisville/news/2018/08/14/mcdonalds-to-spend-124-million-to-modernize.html"
+    },
+    {
+      "authors": [
+        "S.A. Whitehead"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.488676,
+      "source": "Kiosk Marketplace",
+      "source_domain": "Kiosk Marketplace",
+      "summary": "McDonald's Corporation is investing $6 billion to renovate over 6,000 U.S. stores by 2020, implementing digital self-order kiosks, table service, mobile pay, and modernized dining. This \"Experience of the Future\" initiative aims to enhance efficiency, customer experience, and stimulate local economies through significant investments across 20 states and Washington D.C. The company also introduced McDelivery with Uber Eats at more than 5,000 U.S. restaurants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.491627"
+        }
+      ],
+      "time_published": "20180814T025157",
+      "title": "McDonald's invests billions for kiosk/digital makeover through 2020",
+      "topics": [
+        {
+          "relevance_score": "0.929752",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.742568",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.636898",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.616734",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.kioskmarketplace.com/articles/mcdonalds-invests-billions-for-kioskdigital-makeover-through-2020/"
+    },
+    {
+      "authors": [
+        "Paul Gilkes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.610399,
+      "source": "Coin World",
+      "source_domain": "Coin World",
+      "summary": "McDonald's is celebrating the 50th anniversary of its Big Mac sandwich with a promotional release of 6.2 million limited-edition MacCoin tokens worldwide. These tokens, struck by Osborne Coinage Co., feature five unique designs representing each decade of the Big Mac's history and are redeemable for a free Big Mac or collectible. The promotion, which began August 2nd, allows customers to receive a token with each Big Mac purchase as part of a Buy-One-Get-One-Free offer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.626265"
+        }
+      ],
+      "time_published": "20180802T050000",
+      "title": "McDonald\u2019s celebrates Big Mac 50th anniversary with token promotion",
+      "topics": [
+        {
+          "relevance_score": "0.916577",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.coinworld.com/news/us-coins/mcdonalds-launches-big-mac-token-promotion.html"
+    },
+    {
+      "authors": [
+        "Hal B. Klein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.420159,
+      "source": "Pittsburgh Magazine",
+      "source_domain": "Pittsburgh Magazine",
+      "summary": "This article recounts how Pittsburgher Michael James Delligatti, better known as Jim, invented the iconic Big Mac in 1967 at his McDonald's franchise. Despite initial resistance from corporate, Delligatti's innovative approach led to the nationwide launch of the Big Mac in 1968, celebrating its 50th anniversary with special \"MacCoins\" and a Big Mac Museum in western Pennsylvania. His son, Mike Delligatti, now runs several McDonald's franchises and shares insights into his father's determination.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435200"
+        }
+      ],
+      "time_published": "20180802T025158",
+      "title": "A Pittsburgher's Determination Gave Us the Big Mac",
+      "topics": [
+        {
+          "relevance_score": "0.927037",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.pittsburghmagazine.com/a-pittsburghers-determination-gave-us-the-big-mac/"
+    },
+    {
+      "authors": [
+        "Nathan Bomey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.231123,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Chipotle temporarily closed and then reopened a restaurant in Powell, Ohio, after multiple customers reported illnesses involving nausea and diarrhea. The incident led to a 7% drop in the company's stock, as it grapples with renewed food safety concerns after previous E. coli and norovirus outbreaks. The local health department is investigating, and CEO Brian Niccol faces his first major test in addressing public trust.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.410932"
+        },
+        {
+          "relevance_score": "0.645518",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102362"
+        },
+        {
+          "relevance_score": "0.557177",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.079875"
+        }
+      ],
+      "time_published": "20180731T020643",
+      "title": "Chipotle reopens Ohio restaurant after customers report falling ill",
+      "topics": [
+        {
+          "relevance_score": "0.812392",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.735827",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/2018/07/31/chipotle-closes-ohio-restaurant/869779002/"
+    },
+    {
+      "authors": [
+        "Genevieve Shaw Brown"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.284512,
+      "source": "ABC News",
+      "source_domain": "ABC News",
+      "summary": "The Walt Disney Company announced that it will eliminate single-use plastic straws and stirrers at all its owned and operated locations globally by mid-2019, with the exception of Disney Tokyo. This initiative is expected to reduce plastic waste significantly and includes a transition to refillable in-room amenities in hotels and on cruise ships, as well as a reduction in single-use plastic shopping bags. The move aligns with similar efforts by other large companies like Starbucks and McDonald's to enhance environmental stewardship.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DIS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305728"
+        },
+        {
+          "relevance_score": "0.741044",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259682"
+        },
+        {
+          "relevance_score": "0.601958",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209658"
+        },
+        {
+          "relevance_score": "0.565899",
+          "ticker": "CCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248062"
+        }
+      ],
+      "time_published": "20180726T074200",
+      "title": "Walt Disney Company to eliminate plastic straws and more by 2019",
+      "topics": [
+        {
+          "relevance_score": "0.839346",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.609073",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://abcnews.go.com/GMA/Travel/walt-disney-company-eliminate-plastic-straws-2019/story?id=56812530"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.282174,
+      "source": "AlphaStreet",
+      "source_domain": "AlphaStreet",
+      "summary": "McDonald's Corporation reported Q2 2018 results, beating analyst expectations with a 12% increase in diluted EPS to $1.90, despite a 12% decrease in consolidated revenues to $5.35 billion due to strategic re-franchising. Global comparable sales rose 4%, with positive results across all segments, and net income increased 7% to $1.49 billion. The company returned $2.5 billion to shareholders through share repurchases and dividends.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.258346"
+        }
+      ],
+      "time_published": "20180726T025157",
+      "title": "McDonald's reports Q2 2018 results",
+      "topics": [
+        {
+          "relevance_score": "0.923266",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.846797",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://news.alphastreet.com/mcdonalds-earnings-soar-12-in-q2-2018/"
+    },
+    {
+      "authors": [
+        "Daphne Howland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19615,
+      "source": "Retail Dive",
+      "source_domain": "Retail Dive",
+      "summary": "Walmart is expanding its convenience store test, opening a new Walmart Fuel Station in Plano, Texas, and planning three more in the Dallas-Fort Worth area. This move signifies a shift in Walmart's strategy towards smaller formats and increased convenience, departing from its traditional supercenter model. The retailer is also investing heavily in store renewal and e-commerce growth, aiming to make in-store pickup towers available to nearly 40% of the U.S. population by year-end.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278840"
+        },
+        {
+          "relevance_score": "0.647535",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119332"
+        },
+        {
+          "relevance_score": "0.632353",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130897"
+        },
+        {
+          "relevance_score": "0.622999",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.250926"
+        }
+      ],
+      "time_published": "20180712T034148",
+      "title": "Walmart expanding c-store test",
+      "topics": [
+        {
+          "relevance_score": "0.948693",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.645836",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.retaildive.com/news/walmart-expanding-c-store-test/527622/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305829,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Starbucks' plan to eliminate plastic straws by 2020 is expected to not only benefit the environment but also attract millennial customers. This initiative targets the removal of over one billion straws annually as cold beverage sales, which often require straws, now account for over 50% of the company's sales. The move aligns with growing environmental efforts to reduce plastic waste.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.934462",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345496"
+        },
+        {
+          "relevance_score": "0.702430",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.296166"
+        }
+      ],
+      "time_published": "20180711T065700",
+      "title": "Starbucks and McDonald\u2019s plastic straw removal will go down well with millennials",
+      "topics": [
+        {
+          "relevance_score": "0.803057",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.604348",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/starbucks-and-mcdonalds-plastic-straw-removal-will-go-down-well-with-millennials-2018-07-09?gaa_at=eafs&gaa_n=AWEtsqcj0AoA1qar7A76N-XeNnWa0VO0_rBveZb1sbMbZqpcF-ageFUN76sb&gaa_ts=690822df&gaa_sig=rnJbnf8_m5OHTAS5e-DFj0qEv6I5iF9ObnTAAPX2pDo5nfedYi2VJhhgZV14-FvVJ8YVJr7U5Mv3t_M428JqKQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.343056,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Starbucks' plan to eliminate plastic straws by 2020 is expected to appeal to millennial customers and benefit the environment. This move targets the increasing popularity of cold beverages, which now constitute over 50% of Starbucks' sales. The strategy aims to remove more than one billion straws annually across its global stores.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.942609",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302734"
+        },
+        {
+          "relevance_score": "0.900072",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322186"
+        }
+      ],
+      "time_published": "20180711T065700",
+      "title": "Starbucks and McDonald\u2019s plastic straw removal will go down well with millennials",
+      "topics": [
+        {
+          "relevance_score": "0.827961",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.639902",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/starbucks-and-mcdonalds-plastic-straw-removal-will-go-down-well-with-millennials-2018-07-09?gaa_at=eafs&gaa_n=AWEtsqeDdT581ukbAP62Rl602YYn8dpRSTFPTi20B4ogCkymvTzGViRvnEuo&gaa_ts=69081bf7&gaa_sig=ETT8XpmGTex4SuU3NV5rXGIVqU-Nn9iRIYCUiOuAmdBdS-Moov90pxJF_njDjs7Ydp9muX21sYyGmrosyn2gQg%3D%3D"
+    },
+    {
+      "authors": [
+        "Alana Wise and Caroline Hroncich"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.157317,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Starbucks announced it will phase out plastic straws globally by 2020, replacing them with recyclable strawless lids and alternative material straws. This move follows a growing global push against single-use plastics and comes shortly after Seattle, Starbucks' hometown, banned plastic straws and utensils. The decision aligns with the company's goal of sustainable coffee delivery and contrasts with McDonald's more limited transition to paper straws in the UK and Ireland.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.961357",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339506"
+        },
+        {
+          "relevance_score": "0.708310",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100795"
+        },
+        {
+          "relevance_score": "0.599295",
+          "ticker": "LUV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.075551"
+        }
+      ],
+      "time_published": "20180709T162000",
+      "title": "Starbucks to phase out plastic straws as opposition to them grows",
+      "topics": [
+        {
+          "relevance_score": "0.844626",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.638593",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/starbucks-to-phase-out-plastic-straws-as-opposition-to-them-grows-idUSKBN1JZ107/"
+    },
+    {
+      "authors": [
+        "Julie Jargon and Kimberly Chin"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.158967,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Starbucks announced plans to phase out single-use plastic straws globally by 2020, switching to strawless lids or alternative materials. This move comes as major companies like Hyatt and McDonald\u2019s are also responding to increasing pressure from customers and environmentalists to reduce plastic waste.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.290465"
+        },
+        {
+          "relevance_score": "0.628238",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111363"
+        },
+        {
+          "relevance_score": "0.631525",
+          "ticker": "HLT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132898"
+        },
+        {
+          "relevance_score": "0.633038",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137078"
+        }
+      ],
+      "time_published": "20180709T032106",
+      "title": "Starbucks to Eliminate Plastic Straws by 2020",
+      "topics": [
+        {
+          "relevance_score": "0.917755",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/starbucks-plans-to-cut-plastic-straws-from-stores-globally-by-2020-1531134924?gaa_at=eafs&gaa_n=AWEtsqfOJ8fEAIh_GM9MULG0265PvB-q-OrsQQnxPu5M-p9VGGqZQHmdDkS3&gaa_ts=690822e5&gaa_sig=1HN6b7gkdnVVqbbSSRKNM4NyXVvXW5sobg-XRCO4FIpbZSisQFN8c4IUMEpVOmmiWAr28CE6oygk-eNF207_5g%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.35822,
+      "source": "FSR magazine",
+      "source_domain": "FSR magazine",
+      "summary": "FAT Brands Inc. announced the successful acquisition of Hurricane Grill & Wings for $12.5 million, funded by cash and preferred stock. This purchase expands FAT Brands' portfolio to over 325 franchised restaurants globally with system-wide sales exceeding $350 million. The company expects the acquisition to drive new store growth internationally and create significant synergies within its existing brand portfolio.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FATAV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.855828"
+        },
+        {
+          "relevance_score": "0.554692",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109430"
+        },
+        {
+          "relevance_score": "0.559093",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.067907"
+        }
+      ],
+      "time_published": "20180705T022129",
+      "title": "FAT Brands Completes Purchase of Hurricane Grill & Wings for $12.5M",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.915977",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.739806",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.fsrmagazine.com/industry-news/fat-brands-completes-purchase-hurricane-grill-wings-125m/"
+    },
+    {
+      "authors": [
+        "Sarah Whitten"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.1565,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Chipotle CEO Brian Niccol is implementing a comprehensive strategy to revitalize the struggling burrito chain, focusing on three key areas: technology upgrades, rebranding Chipotle as a lifestyle brand, and innovating the menu. This overhaul includes closing up to 65 underperforming locations, investing in faster mobile/online ordering, launching a new marketing campaign to rebuild customer loyalty, and introducing new menu items and \"happy hour\" offerings with snacks and drinks. The restructuring is expected to cost between $115 million and $135 million, with Niccol aiming to restore discipline and accountability after past food safety issues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332981"
+        },
+        {
+          "relevance_score": "0.742353",
+          "ticker": "DASH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122647"
+        },
+        {
+          "relevance_score": "0.613185",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.076046"
+        },
+        {
+          "relevance_score": "0.588604",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.065194"
+        }
+      ],
+      "time_published": "20180627T190600",
+      "title": "3 ways Chipotle Mexican Grill plans to win back customers",
+      "topics": [
+        {
+          "relevance_score": "0.918264",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.801764",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.731554",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.612343",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cnbc.com/2018/06/27/3-ways-chipotle-mexican-grill-is-about-to-change.html"
+    },
+    {
+      "authors": [
+        "Dylan Goforth"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.037223,
+      "source": "readfrontier.org",
+      "source_domain": "readfrontier.org",
+      "summary": "A review found that a significant portion of Kevin Hern's campaign donations came from out-of-state McDonald's franchisees, accounting for almost 20 percent of his outside donations. Despite this, Hern's campaign still raised significant funds from other sources, including personal loans, outperforming many of his rivals even without the McDonald's money. The article highlights the financial backing a fast-food restaurateur received in a political campaign, raising questions about the source of his funding.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.301146",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007354"
+        }
+      ],
+      "time_published": "20180625T025158",
+      "title": "The McCongressman? Out-of-state McDonald's money flows into the campaign of Tulsa restaurateur Kevin Hern",
+      "topics": [
+        {
+          "relevance_score": "0.940889",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.704915",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.622082",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.readfrontier.org/stories/mccongressman-state-mcdonalds-money-flows-campaign-restaurateur-kevin-hern/"
+    },
+    {
+      "authors": [
+        "Sarah Whitten"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.116805,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Fast-food chains like Wendy's and White Castle are leveraging snarky, engaging Twitter feeds to connect with customers and level the playing field against larger competitors. These brands aim for an authentic and witty tone, often using humor and pop culture references, while carefully avoiding controversial topics to maintain brand image. The strategy focuses on building customer loyalty and engagement rather than direct sales, with dedicated social media teams given autonomy to create real-time content.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.988497",
+          "ticker": "WEN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342359"
+        },
+        {
+          "relevance_score": "0.721765",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120533"
+        },
+        {
+          "relevance_score": "0.645933",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105109"
+        },
+        {
+          "relevance_score": "0.569768",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.241428"
+        },
+        {
+          "relevance_score": "0.567115",
+          "ticker": "ZBRA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118730"
+        }
+      ],
+      "time_published": "20180615T172900",
+      "title": "Snarky Twitter feeds: Wendy's and White Castle's most dangerous weapon",
+      "topics": [
+        {
+          "relevance_score": "0.842973",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.700709",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cnbc.com/2018/06/15/wendys-white-castles-most-dangerous-weapon-a-snarky-twitter-feed.html"
+    },
+    {
+      "authors": [
+        "Craig Giammona"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.129702,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "McDonald's Corp. announced its plan to phase out plastic straws in all 1,361 locations across the U.K. and Ireland by 2019, replacing them with paper alternatives. This move comes amid growing concerns about consumer waste, with trials for similar changes also planned for select restaurants in the U.S., France, Sweden, and Norway later in the year as the company aims to increase its use of recycled packaging globally.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114146"
+        }
+      ],
+      "time_published": "20180615T050100",
+      "title": "McDonald\u2019s to Phase Out Plastic Straws in the U.K.",
+      "topics": [
+        {
+          "relevance_score": "0.849442",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.643003",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2018-06-15/mcdonald-s-taps-paper-straws-in-u-k-to-trim-down-plastic-waste"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.139985,
+      "source": "EcoWatch",
+      "source_domain": "EcoWatch",
+      "summary": "Several major companies, including SeaWorld, American Express, Royal Caribbean, IKEA, A&W Canada, and Burger King UK, have recently pledged to reduce or eliminate single-use plastics. These efforts aim to protect oceans and marine life from pollution. Canada, France, Germany, Italy, the UK, and the EU have also endorsed the G7 Ocean Plastics Charter, setting goals for plastic reduction and improved recycling.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.953371",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307663"
+        },
+        {
+          "relevance_score": "0.744443",
+          "ticker": "RCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107681"
+        },
+        {
+          "relevance_score": "0.627467",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117669"
+        }
+      ],
+      "time_published": "20180612T050400",
+      "title": "SeaWorld, American Express, Fast Food Chains to Curb Single-Use Plastics",
+      "topics": [
+        {
+          "relevance_score": "0.833792",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.ecowatch.com/plastics-ban-companies-2577462001.html"
+    },
+    {
+      "authors": [
+        "Sean F. Driscoll"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.34024,
+      "source": "Cape Cod Times",
+      "source_domain": "Cape Cod Times",
+      "summary": "The McDonald's restaurant at 654 Iyannough Road in Hyannis recently completed a renovation, introducing self-ordering kiosks, table service, and mobile app ordering with curbside pickup. This modernization is part of a larger company goal to update most U.S. restaurants by 2020, with over 150 New England locations already featuring these upgrades. The Hyannis location is among the last on Cape Cod to undergo this renovation, with Falmouth being the final one.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309955"
+        }
+      ],
+      "time_published": "20180612T025157",
+      "title": "Hyannis McDonald's completes renovation",
+      "topics": [
+        {
+          "relevance_score": "0.915017",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.capecodtimes.com/story/special/special-sections/2018/06/12/hyannis-mcdonald-s-completes-renovation/11990156007/"
+    },
+    {
+      "authors": [
+        "Sarah Whitten",
+        "Peter Q.W. Chung"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.443167,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "McDonald's has officially opened its new $250 million headquarters in Chicago's West Loop, moving back to the city after 47 years in the suburbs. This move is part of CEO Steve Easterbrook's vision to transform McDonald's into a more modern and progressive company, fostering top talent and tapping into emerging food trends. The new facility features unique elements like a public McDonald's restaurant showcasing international menu items, \"Hamburger University,\" a test kitchen, employee cafe, and collaborative \"work neighborhoods.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419796"
+        }
+      ],
+      "time_published": "20180609T115900",
+      "title": "McDonald's opens new $250 million headquarters. Here's what it looks like inside",
+      "topics": [
+        {
+          "relevance_score": "0.940609",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.817054",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cnbc.com/2018/06/09/mcdonalds-opens-new-250-million-headquarters-heres-what-it-looks-like-inside.html"
+    },
+    {
+      "authors": [
+        "David P. Willis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.051546,
+      "source": "Asbury Park Press",
+      "source_domain": "Asbury Park Press",
+      "summary": "The Freehold Township Planning Board rejected Shake Shack's proposal to open a new location on Route 9 due to numerous zoning variance requests. Board members cited concerns over the unsuitability of the small property, the high number of exceptions needed for building size, seating, and parking, and existing traffic issues at the intersection. The plan was deemed detrimental to public good and contrary to the township's master plan despite arguments about the beneficial use of the site.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GTY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.327066"
+        },
+        {
+          "relevance_score": "0.629850",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118973"
+        },
+        {
+          "relevance_score": "0.640366",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128414"
+        }
+      ],
+      "time_published": "20180608T023211",
+      "title": "Freehold Township board rejects Shake Shack's bid to open on Route 9",
+      "topics": [
+        {
+          "relevance_score": "0.910494",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.830605",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.app.com/story/money/business/main-street/whats-going-there/2018/06/08/shake-shack-freehold-township/684263002/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.338309,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Morgan Stanley analysts suggest that if Ford's F-Series pickup truck business were an independent company, it would generate more profit than major corporations like McDonald's, 3M, and United Technologies. This analysis aims to highlight how the market currently undervalues the financial strength of Ford's pickup division.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.922961",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319165"
+        },
+        {
+          "relevance_score": "0.725209",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300249"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "F",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410897"
+        }
+      ],
+      "time_published": "20180607T072700",
+      "title": "Ford\u2019s pickup trucks alone would be more profitable than McDonald\u2019s or 3M, Morgan Stanley says",
+      "topics": [
+        {
+          "relevance_score": "0.926126",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.841236",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.641878",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.742408",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.629882",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/fords-pickup-trucks-alone-would-be-more-profitable-than-mcdonalds-or-3m-morgan-stanley-says-2018-06-06?gaa_at=eafs&gaa_n=AWEtsqcin01T6_0RtmHtZ5Svhyjn66uO-Ll69QmqIHx0RLSCUb6OPT4q28cE&gaa_ts=69081d05&gaa_sig=jce8U0aYfSi8zBBGStVrOrSsJ5za08s0oCPyvx-rj7YfQAoIQuCM-YUz28s7zFqYN_Oxt9KwTMLKUWPgc19P7g%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333443,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Analysts at Morgan Stanley stated that Ford Motor Co.'s F-Series pickup franchise, if it were a standalone company, would generate more profit than major corporations like McDonald\u2019s, 3M, and United Technologies. This analysis highlights Morgan Stanley's view that the market significantly underestimates the true profitability and strength of Ford's pickup truck business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "F",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418214"
+        },
+        {
+          "relevance_score": "0.723650",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326740"
+        },
+        {
+          "relevance_score": "0.628556",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343309"
+        }
+      ],
+      "time_published": "20180607T072700",
+      "title": "Ford\u2019s pickup trucks alone would be more profitable than McDonald\u2019s or 3M, Morgan Stanley says",
+      "topics": [
+        {
+          "relevance_score": "0.904798",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.813254",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.635677",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.747231",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.602831",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/fords-pickup-trucks-alone-would-be-more-profitable-than-mcdonalds-or-3m-morgan-stanley-says-2018-06-06?gaa_at=eafs&gaa_n=AWEtsqdgC-dInY7S9WIKU0WtGN0wcQG81wxOGIJGyK0i_ts0v2Fx61XBC1nG&gaa_ts=69081508&gaa_sig=Cs87dTT88GAbBbH1hV4ZL11laQ7M3Y8mfIyqff8PFfZpwJ2HNFA3DqMnNDXizIvCXQBpiLyqkraYI5a7TdFX1g%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.315147,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Morgan Stanley analysts suggest that if Ford Motor Co.'s F-Series pickup truck franchise were a standalone company, it would be more profitable than major corporations like McDonald's, 3M, and United Technologies. This analysis aims to highlight how the market undervalues the strength of Ford's pickup business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.641620",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253562"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "F",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425206"
+        },
+        {
+          "relevance_score": "0.611475",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.268466"
+        },
+        {
+          "relevance_score": "0.721116",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335162"
+        }
+      ],
+      "time_published": "20180607T072700",
+      "title": "Ford\u2019s pickup trucks alone would be more profitable than McDonald\u2019s or 3M, Morgan Stanley says",
+      "topics": [
+        {
+          "relevance_score": "0.912454",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.805704",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.704609",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.711896",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.637066",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/fords-pickup-trucks-alone-would-be-more-profitable-than-mcdonalds-or-3m-morgan-stanley-says-2018-06-06?gaa_at=eafs&gaa_n=AWEtsqezb7-wjx9Cw0F3wRPUzz13weZpgg_b_IOnNQoIiFftyrh7NPoXwCv2&gaa_ts=69081bfb&gaa_sig=hENrpoZO6WMQha40kkDBHSmK6a66IXG30ZHPHofJ89IuEeXATH_zMaLACrOteGOV97KTR_my2DkRBCVzIRKphQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.426922,
+      "source": "PotatoPro",
+      "source_domain": "PotatoPro",
+      "summary": "McDonald\u2019s Corp. has opened its new global headquarters in Chicago's West Loop neighborhood, marking a return to the city where it was previously headquartered. The state-of-the-art building was unveiled by CEO Steve Easterbrook, Chicago Mayor Rahm Emanuel, and others, emphasizing collaboration, employee well-being, and a connection with customers. The headquarters will also house a flagship Hamburger University and an \"Experience of the Future\" restaurant.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419871"
+        }
+      ],
+      "time_published": "20180606T025157",
+      "title": "McDonald\u2019s opens its New Global Headquarters in Chicago",
+      "topics": [
+        {
+          "relevance_score": "0.813675",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.826840",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.636257",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.622119",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.potatopro.com/news/2018/mcdonald%E2%80%99s-opens-its-new-global-headquarters-chicago"
+    },
+    {
+      "authors": [
+        "Hallie Detrick"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.032199,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "McDonald's has officially opened its new headquarters in Chicago's West Loop neighborhood, moving back to the city after 47 years in the suburbs. CEO Steve Easterbrook stated the move will help the company attract talent and stay close to contemporary trends and customers. The new office features modern workspaces and will house approximately 2,000 employees.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.331637",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028463"
+        }
+      ],
+      "time_published": "20180605T025158",
+      "title": "McDonald's New Chicago Headquarters Is Officially Open. Why It Moved Back to the City After 47 Years",
+      "topics": [
+        {
+          "relevance_score": "0.918972",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.730337",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.603741",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2018/06/05/mcdonalds-new-chicago-headquarters/"
+    },
+    {
+      "authors": [
+        "Josh Sosland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.415348,
+      "source": "MEAT+POULTRY",
+      "source_domain": "MEAT+POULTRY",
+      "summary": "McDonald\u2019s CEO Stephen J. Easterbrook emphasized that adapting to technological change while meeting consumer demand will be crucial for success in the foodservice sector over the next five years. He highlighted McDonald's focus on analytics, data, home delivery via third-party services like UberEATS, and significant investments in modernizing restaurants and integrating technology to enhance the customer experience. The company aims for a unified digital ecosystem to treat customers as a single individual across all engagement points, despite the challenges of managing vast amounts of data.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446155"
+        }
+      ],
+      "time_published": "20180601T131200",
+      "title": "McDonald\u2019s figuring out the formula for the future",
+      "topics": [
+        {
+          "relevance_score": "0.826758",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.744734",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.meatpoultry.com/articles/19564-mcdonald-s-figuring-out-the-formula-for-the-future"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.330743,
+      "source": "Morgan Stanley",
+      "source_domain": "Morgan Stanley",
+      "summary": "Consumption in China\u2019s smaller cities is expected to triple between 2017 and 2030, driven by favorable government policies, population growth, higher household incomes, and increased willingness to spend. Morgan Stanley predicts these lower-tier cities will be the primary engine for China's overall private consumption market, with significant implications for consumer-focused industries and global investors. Key factors include a more flexible Hukou policy, improved infrastructure, and a stronger consumer appetite for discretionary spending due to lower housing costs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.478938"
+        },
+        {
+          "relevance_score": "0.706784",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347280"
+        },
+        {
+          "relevance_score": "0.633053",
+          "ticker": "BBY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.294880"
+        },
+        {
+          "relevance_score": "0.615380",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.264248"
+        },
+        {
+          "relevance_score": "0.635900",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263904"
+        }
+      ],
+      "time_published": "20180525T025631",
+      "title": "Spending Boom in China's Smaller Cities",
+      "topics": [
+        {
+          "relevance_score": "0.914848",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.830162",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.642835",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.642543",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.morganstanley.com/ideas/china-lower-tier-cities"
+    },
+    {
+      "authors": [
+        "Karma Allen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.241432,
+      "source": "ABC News",
+      "source_domain": "ABC News",
+      "summary": "McDonald's employees in nine cities have filed complaints with the Equal Employment Opportunity Commission alleging widespread sexual misconduct including sexual advances, lewd comments, and inappropriate behavior by supervisors. The complaints, filed with the support of the activist group Fight for $15, detail instances where management allegedly ignored or retaliated against employees who reported harassment. McDonald's Corporation stated its commitment to a culture fostering respectful treatment and that it takes such allegations very seriously.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.230496"
+        }
+      ],
+      "time_published": "20180522T161100",
+      "title": "McDonald's workers allege widespread sexual misconduct",
+      "topics": [
+        {
+          "relevance_score": "0.812073",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://abcnews.go.com/US/mcdonalds-workers-allege-widespread-sexual-misconduct/story?id=55343892"
+    },
+    {
+      "authors": [
+        "Kalhan Rosenblatt",
+        "Kenzi Abou-Sabe and Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.382554,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Ten McDonald's workers, supported by national advocacy groups Fight for $15 and TIME'S UP Legal Defense Fund, have filed sexual harassment claims against the fast-food giant with the U.S. Equal Employment Opportunity Commission. The allegations include groping, propositions for sex, indecent exposure, and lewd comments by supervisors across nine cities, with many complaints also detailing ignored reports and retaliation. This effort aims to hold McDonald's Corporation accountable for issues at independently owned locations, as the company claims franchisees operate 90% of its U.S. restaurants independently.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.924237",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.389858"
+        }
+      ],
+      "time_published": "20180522T130200",
+      "title": "10 McDonald's workers file sex harassment claims",
+      "topics": [
+        {
+          "relevance_score": "0.832117",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.717981",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nbcnews.com/news/us-news/10-mcdonald-s-workers-file-sex-harassment-claims-n876316"
+    },
+    {
+      "authors": [
+        "David Crary"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.421407,
+      "source": "PBS",
+      "source_domain": "PBS",
+      "summary": "Ten McDonald's workers in nine cities have filed sexual harassment complaints against the company through two national advocacy groups, alleging groping, propositions for sex, and retaliation for reporting incidents. This effort, organized by Fight for $15 and supported by the TIMES UP Legal Defense Fund, comes ahead of McDonald's annual shareholder meeting and aims to hold the company responsible for issues at franchised locations, highlighting pervasive harassment in the fast food industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.412891"
+        }
+      ],
+      "time_published": "20180522T114000",
+      "title": "McDonald\u2019s workers in 9 cities file sexual harassment complaints",
+      "topics": [
+        {
+          "relevance_score": "0.805425",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.pbs.org/newshour/nation/mcdonalds-workers-in-9-cities-file-sexual-harassment-complaints"
+    },
+    {
+      "authors": [
+        "Photo provided"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309366,
+      "source": "Bryan County News",
+      "source_domain": "Bryan County News",
+      "summary": "Gary Stanberry of Richmond Hill has acquired the three McDonald's locations in Richmond Hill from his former partner, Gary Dodd. Stanberry, a 30-year veteran of the McDonald's system, previously owned stores in Pembroke and Savannah. He and his wife, Jill, are committed to community involvement and plan to continue local initiatives such as McTeacher's Night.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.944472",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308389"
+        }
+      ],
+      "time_published": "20180522T025158",
+      "title": "Local buys three McDonald's here",
+      "topics": [
+        {
+          "relevance_score": "0.828261",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.712739",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.bryancountynews.com/news/business/local-buys-three-mcdonalds-here/"
+    },
+    {
+      "authors": [
+        "Christopher Lloyd Caliwan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.195223,
+      "source": "Philippine News Agency",
+      "source_domain": "Philippine News Agency",
+      "summary": "The Supreme Court (SC) dismissed a contempt case filed by McDonald's Corp. against L.C. Big Mak Burger Inc., determining that the local burger chain had shown good faith in complying with an earlier injunction against using the \"Big Mak\" brand. The SC overturned a Court of Appeals decision that had fined L.C. Big Mak Burger Inc. and instead ordered McDonald's to pay the local company PHP1.2 million in damages and attorney fees. The high court clarified that L.C. Big Mak Burger Inc. had transitioned to using \"Super Mak\" or its full corporate name, fulfilling the requirements of the prior court ruling.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.188982"
+        }
+      ],
+      "time_published": "20180508T181200",
+      "title": "SC junks McDonald\u2019s contempt case vs. local burger chain",
+      "topics": [
+        {
+          "relevance_score": "0.831009",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.pna.gov.ph/articles/1034583"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.22779,
+      "source": "The Moscow Times",
+      "source_domain": "The Moscow Times",
+      "summary": "McDonald's Russia is switching to domestically sourced potatoes for its French fries to combat ruble volatility caused by fluctuating oil prices and Western sanctions. This move aims to increase the percentage of locally sourced products to 98% and stabilize prices in rubles, minimizing risks related to customs and administrative decisions. A new plant near Lipetsk, a joint venture between Belaya Dacha and Lamb Weston Meijer, will supply the fries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243632"
+        }
+      ],
+      "time_published": "20180426T025158",
+      "title": "McDonald's Russia Turns to Homegrown Fries Amid Ruble Volatility",
+      "topics": [
+        {
+          "relevance_score": "0.846233",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.930839",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.737562",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.themoscowtimes.com/2018/04/26/mcdonalds-russia-turns-to-homegrown-fries-amid-ruble-volatility-a61269"
+    },
+    {
+      "authors": [
+        "Amber Fisher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.307385,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "McDonald's has opened a new \"global\" restaurant inside its new Chicago headquarters in the West Loop, featuring a rotating menu of items from McDonald's international locations. This new establishment, operated by Nick Karavites, offers specialty items like a McSpicy chicken sandwich from Australia and a Mighty Angus burger from Canada, alongside unique features like manual espresso machines and touchscreen kiosks. The restaurant is part of McDonald's \"Experience of the Future\" plan and provides a preview of the company's upcoming headquarters move from Oak Brook.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346123"
+        }
+      ],
+      "time_published": "20180425T121800",
+      "title": "New McDonald's HQ's 'Global' Restaurant Opens In West Loop",
+      "topics": [
+        {
+          "relevance_score": "0.807362",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://patch.com/illinois/chicago/new-mcdonalds-hqs-global-restaurant-opens-west-loop"
+    },
+    {
+      "authors": [
+        "Eric Schroeder"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.044282,
+      "source": "Food Business News",
+      "source_domain": "Food Business News",
+      "summary": "Restaurant Brands International (RBI) is prioritizing a turnaround for Tim Hortons in 2018 after disappointing first-quarter results. The company has launched a \"Winning Together\" plan focusing on restaurant experience, product excellence, and brand communications, and has appointed a new president for Tim Hortons, Alex Macedo, who successfully turned around Burger King North America. Despite challenges, RBI is committed to improving the iconic Canadian brand's performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.305928",
+          "ticker": "QSR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.043669"
+        },
+        {
+          "relevance_score": "0.962358",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.153978"
+        },
+        {
+          "relevance_score": "0.725107",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.088326"
+        }
+      ],
+      "time_published": "20180425T031608",
+      "title": "Tim Hortons parent eyes turnaround",
+      "topics": [
+        {
+          "relevance_score": "0.936423",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.848569",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.foodbusinessnews.net/articles/11704-tim-hortons-parent-eyes-turnaround"
+    },
+    {
+      "authors": [
+        "Zlati Meyer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.225229,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Chipotle's new CEO Brian Niccol, formerly of Taco Bell, is bringing fresh ideas to the company, focusing on digital innovations, new menu items, and appealing to young diners. His strategies, which include potential breakfast and drive-thru expansions, are aimed at recovery after recent food safety concerns and have already led to promising earnings reports and a jump in stock price. The new leadership is making Wall Street happy, signaling a new era for the burrito chain.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446410"
+        },
+        {
+          "relevance_score": "0.697110",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.284347"
+        },
+        {
+          "relevance_score": "0.564471",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106205"
+        }
+      ],
+      "time_published": "20180425T020643",
+      "title": "New Chipotle CEO brims with ideas to enhance menu, appeal to young diners",
+      "topics": [
+        {
+          "relevance_score": "0.935609",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.827469",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/2018/04/25/chipotle-now-helmed-new-ceo-making-wall-street-happy/551221002/"
+    },
+    {
+      "authors": [
+        "Laura Michaels"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.345251,
+      "source": "franchisetimes.com",
+      "source_domain": "franchisetimes.com",
+      "summary": "Operators Rami and Nader Awada through their London-based AAA Investment House have signed a master franchise agreement to bring Which Wich to the U.K., with plans for 10 stores in London and future expansion via sub-franchisees. Separately, Leon Esfahani, a franchisee experienced with brands like Subway and Starbucks, is launching Denny's in the U.K., with initial plans for 10 locations in Wales and a long-term goal of 100-300 restaurants. Both ventures aim to capitalize on American brand appeal and fill perceived market gaps in the U.K.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.982639",
+          "ticker": "DENN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407914"
+        },
+        {
+          "relevance_score": "0.620380",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336958"
+        },
+        {
+          "relevance_score": "0.595090",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.260058"
+        }
+      ],
+      "time_published": "20180423T021141",
+      "title": "Operators take Denny\u2019s, Which Wich to U.K.",
+      "topics": [
+        {
+          "relevance_score": "0.905309",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.710778",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.franchisetimes.com/article_archive/operators-take-denny-s-which-wich-to-u-k/article_24535063-98e0-50a2-a731-b5c78950a349.html"
+    },
+    {
+      "authors": [
+        "Lisa Baertlein"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fdatasource-api.reuters.com%2Fv2%2Farticle%2Fimage%2FURN%3Areuters%3Anewsml%3AKBN1HN18M%3A1%3Fview%3D%24%7Bview%7D%26w%3D800%26h%3D800%26un-strict%3Dtrue/640/360/ARCX2P55SZA65N6XG3CWMUPK2A.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.10221,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Domino's Pizza Inc is expanding its delivery services by introducing \"hotspots\" at over 150,000 U.S. locations without traditional addresses, including parks and beaches, to capitalize on new sales opportunities. This move enhances convenience for customers who can order via online platforms and mobile apps, as the company faces fierce competition from third-party delivery services and traditional eateries. The delivery industry is projected to grow significantly, prompting restaurants to decide between using third-party providers or building their own delivery infrastructure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.284822"
+        },
+        {
+          "relevance_score": "0.718370",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134978"
+        },
+        {
+          "relevance_score": "0.607638",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106813"
+        },
+        {
+          "relevance_score": "0.625800",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.069962"
+        },
+        {
+          "relevance_score": "0.629771",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.031328"
+        }
+      ],
+      "time_published": "20180416T100700",
+      "title": "Domino's unveils pizza delivery 'hotspots' as competition rages",
+      "topics": [
+        {
+          "relevance_score": "0.908176",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.842565",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/dominos-unveils-pizza-delivery-hotspots-as-competition-rages-idUSKBN1HN18M/"
+    },
+    {
+      "authors": [
+        "Julius N. Leonen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.060546,
+      "source": "Inquirer.net",
+      "source_domain": "Inquirer.net",
+      "summary": "The Department of Labor and Employment (Dole) announced it would investigate McDonald's and KFC for labor law compliance, following a similar order to Jollibee Foods Corp. to regularize over 6,000 workers. McDonald's Philippines stated it has not practiced contractualization since 1981 and has received compliance certificates from Dole. Dole also ordered JFC to refund illegally collected payments from workers and its contractors to return unlawful deductions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135173"
+        },
+        {
+          "relevance_score": "0.830758",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125967"
+        },
+        {
+          "relevance_score": "0.612298",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136541"
+        }
+      ],
+      "time_published": "20180404T213700",
+      "title": "Dole to check on regularization of workers at McDonald\u2019s, KFC",
+      "topics": [
+        {
+          "relevance_score": "0.916565",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.806831",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://business.inquirer.net/248594/contractualization-mcdonalds-kfc-dole"
+    },
+    {
+      "authors": [
+        "Austin Alonzo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.100927,
+      "source": "WATTPoultry.com",
+      "source_domain": "WATTPoultry.com",
+      "summary": "This article discusses why turkey burgers aren't commonly found on fast-food menus, particularly at McDonald's. According to a former McDonald's executive, the turkey industry hasn't made a compelling argument with facts and passion for why turkey should be included on fast-food menus or exported more widely. The article suggests that the turkey industry should adopt a strategy similar to successful companies like Apple and Starbucks, emphasizing product quality and consumer experience with passion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113410"
+        },
+        {
+          "relevance_score": "0.608895",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144545"
+        },
+        {
+          "relevance_score": "0.615402",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119773"
+        }
+      ],
+      "time_published": "20180403T025158",
+      "title": "Why isn\u2019t there a turkey burger at McDonalds? | WATTAgNet",
+      "topics": [
+        {
+          "relevance_score": "0.835778",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.732753",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.wattagnet.com/broilers-turkeys/article/15524751/why-isnt-there-a-turkey-burger-at-mcdonalds-wattagnet"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.349688,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Three years after McDonald's Corp. pledged to pay workers at corporate-owned stores at least $1 above the local minimum wage, some employees claim the company has not kept its promise as local minimum wages have risen. Pay stubs from several workers show hourly rates less than a dollar above current local minimums, prompting criticism from the union-backed \"Fight For $15\" campaign which views the original announcement as a \"publicity stunt.\" McDonald's states that the 2015 wage increase was a one-time adjustment, not a policy to perpetually maintain the $1 differential.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309657"
+        }
+      ],
+      "time_published": "20180402T025157",
+      "title": "McDonald\u2019s Workers Say the Company Is Breaking Its Minimum Wage Pledge",
+      "topics": [
+        {
+          "relevance_score": "0.810547",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.737626",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.636994",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2018/04/02/mcdonalds-local-minimum-wage-pledge/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.324025,
+      "source": "CGTN",
+      "source_domain": "CGTN",
+      "summary": "A Los Angeles judge has ruled that Starbucks Corp and other coffee sellers must put a cancer warning on coffee sold in California, potentially exposing them to millions of dollars in fines. This decision stems from a lawsuit alleging violation of a California law requiring warnings for chemicals that could cause cancer, specifically acrylamide which is a byproduct of roasting coffee beans. Starbucks and other defendants have until April 10 to object, while the National Coffee Association states that cancer warning labels would be misleading.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.471191"
+        },
+        {
+          "relevance_score": "0.628374",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.147906"
+        }
+      ],
+      "time_published": "20180330T194300",
+      "title": "Starbucks coffee in California must have cancer warning, judge says",
+      "topics": [
+        {
+          "relevance_score": "0.819651",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://news.cgtn.com/news/7967444e316b7a6333566d54/index.html"
+    },
+    {
+      "authors": [
+        "Susan Selasky"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.453426,
+      "source": "Detroit Free Press",
+      "source_domain": "Detroit Free Press",
+      "summary": "McDonald's announced it will significantly increase its investment in employee education, tripling the amount for its Archways to Opportunity tuition-assistance program to $150 million, a move credited to changes in U.S. tax law under the Trump Administration. The company will also lower eligibility requirements to 90 days of employment and 15 weekly hours, and extend benefits to family members of restaurant employees. This expansion aims to benefit nearly 400,000 U.S. employees, making education more accessible for those working at McDonald's.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.472172"
+        }
+      ],
+      "time_published": "20180330T025156",
+      "title": "McDonald's boosts tuition help for employees, credits Trump tax cut",
+      "topics": [
+        {
+          "relevance_score": "0.827001",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.737902",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.freep.com/story/news/2018/03/30/mcdonalds-employees-tuition-program/472511002/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.057981,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "This article discusses the enduring power of jingles, focusing on how McDonald's \"I'm Lovin' It\" campaign revitalized its sales and became its longest-running jingle. It details the unique marketing strategy behind its launch, involving Justin Timberlake and Pharrell Williams, and also touches on the history of the \"Sugar Crisp\" jingle. The piece highlights how certain jingles can have a massive financial impact on companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.052922"
+        }
+      ],
+      "time_published": "20180329T103900",
+      "title": "The three-word jingle that made one company billions of dollars",
+      "topics": [
+        {
+          "relevance_score": "0.825440",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cbc.ca/radio/undertheinfluence/the-three-word-jingle-that-made-one-company-billions-of-dollars-1.4598645"
+    },
+    {
+      "authors": [
+        "P R Sanjai"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.036753,
+      "source": "ET BrandEquity",
+      "source_domain": "ET BrandEquity",
+      "summary": "McDonald's is facing significant challenges in India due to a legal dispute with its key franchisee, Connaught Plaza Restaurants Ltd., which has hampered its expansion. Meanwhile, rivals like Domino's, operated by Jubilant Foodworks Ltd., are thriving from surging online orders and a growing fast-food market in India. The dispute has caused McDonald's growth to falter, allowing competitors to gain market share, while a resolution remains distant.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.329928",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026646"
+        }
+      ],
+      "time_published": "20180328T150000",
+      "title": "McDonald's has a legal problem in pizza-loving India",
+      "topics": [
+        {
+          "relevance_score": "0.914052",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.626136",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://brandequity.economictimes.indiatimes.com/news/business-of-brands/mcdonalds-has-a-legal-problem-in-pizza-loving-india/63505391"
+    },
+    {
+      "authors": [
+        "P. R. Sanjai"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.000325,
+      "source": "ThePrint",
+      "source_domain": "ThePrint",
+      "summary": "McDonald's is losing market share in India to rivals like Domino's and Subway, despite the country's booming fast-food market. This struggle is attributed to a legal dispute with a key franchisee and the strong performance of competitors in online ordering and expansion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.345053",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019449"
+        }
+      ],
+      "time_published": "20180328T115900",
+      "title": "McDonald\u2019s has a problem in pizza-loving India",
+      "topics": [
+        {
+          "relevance_score": "0.818272",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.747054",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.605869",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://theprint.in/economy/mcdonalds-corp-has-a-problem-in-india-and-its-rivals-are-loving-it/45181/"
+    },
+    {
+      "authors": [
+        "Lisa Baertlein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.080859,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Starbucks' effort to promote its mobile ordering app is facing unexpected resistance from some customers who value the in-store ritual and interaction with baristas. While the app offers convenience, some customers find it disrupts their routine or can lead to overspending, posing a challenge for Starbucks as it balances tech-savvy demands with its established retail experience. The article also notes how mobile ordering has created new issues, such as customers feeling guilt when skipping lines and baristas struggling with order bottlenecks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972351",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.059186"
+        },
+        {
+          "relevance_score": "0.638343",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135648"
+        },
+        {
+          "relevance_score": "0.590596",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005561"
+        }
+      ],
+      "time_published": "20180321T205100",
+      "title": "Starbucks' mobile order push meets resistance from ritual seekers",
+      "topics": [
+        {
+          "relevance_score": "0.838629",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.reuters.com/article/technology/starbucks-mobile-order-push-meets-resistance-from-ritual-seekers-idUSKBN1GX0KA/"
+    },
+    {
+      "authors": [
+        "By Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.251546,
+      "source": "MEAT+POULTRY",
+      "source_domain": "MEAT+POULTRY",
+      "summary": "McDonald's has announced an ambitious science-based target to reduce greenhouse gas emissions by 36% in office and restaurant operations and 31% in supply chain intensity by 2030, using 2015 as a baseline. The plan aims to prevent 150 million metric tons of emissions and involves innovations in energy efficiency, sustainable packaging, and agriculture practices across its global operations. This initiative makes McDonald's the first QSR to set such an approved target, receiving praise from environmental organizations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414130"
+        },
+        {
+          "relevance_score": "0.636822",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115190"
+        }
+      ],
+      "time_published": "20180320T131100",
+      "title": "McDonald\u2019s sets target to reduce emissions",
+      "topics": [
+        {
+          "relevance_score": "0.724486",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.608535",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.839813",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.meatpoultry.com/articles/18099-mcdonald-s-sets-target-to-reduce-emissions"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.038354,
+      "source": "PR Newswire Canada",
+      "source_domain": "PR Newswire Canada",
+      "summary": "McDonald's announced a new strategy to reduce greenhouse gas (GHG) emissions, becoming the first restaurant company to set an approved science-based target. The company aims to prevent 150 million metric tons of GHG emissions by 2030 through initiatives across its supply chain, restaurants, and offices, focusing on beef production, energy use, packaging, and waste. This commitment involves working with franchisees and suppliers to achieve a 36% reduction in emissions related to restaurants and offices and a 31% reduction in emissions intensity across its supply chain from 2015 levels.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.306619",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.031203"
+        }
+      ],
+      "time_published": "20180320T040000",
+      "title": "McDonald's Becomes the First Restaurant Company to Set Approved Science Based Target to Reduce Greenhouse Gas Emissions",
+      "topics": [
+        {
+          "relevance_score": "0.848133",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.723865",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.613651",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.newswire.ca/news-releases/mcdonalds-becomes-the-first-restaurant-company-to-set-approved-science-based-target-to-reduce-greenhouse-gas-emissions-677353923.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.293048,
+      "source": "Times of Malta",
+      "source_domain": "Times of Malta",
+      "summary": "McDonald's Corp announced a science-based target to cut greenhouse gas emissions by roughly one-third by 2030, preventing 150 million tonnes from being released into the atmosphere. This initiative, which makes McDonald's the first restaurant company to set such a goal, focuses on responsible food sourcing, renewable energy, waste reduction, and recycling. The company expects the costs associated with these efforts will not disrupt business financials.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413927"
+        },
+        {
+          "relevance_score": "0.724139",
+          "ticker": "TSN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128764"
+        }
+      ],
+      "time_published": "20180320T025158",
+      "title": "McDonald's sets greenhouse gas reduction targets",
+      "topics": [
+        {
+          "relevance_score": "0.805573",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.646536",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://timesofmalta.com/article/mcdonalds-sets-greenhouse-gas-reduction-targets.673939"
+    },
+    {
+      "authors": [
+        "William White"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.110465,
+      "source": "InvestorPlace",
+      "source_domain": "InvestorPlace",
+      "summary": "KFC Malaysia changed its logo to feature Claudia Sanders, wife of Colonel Sanders, in celebration of International Women's Day, while the change will not be seen in the U.S. The company recognized Claudia's significant contributions to the brand's success. McDonald's also made a similar gesture by inverting its logo to resemble a \"W\" for the day.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.940701",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131559"
+        },
+        {
+          "relevance_score": "0.673501",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.071163"
+        }
+      ],
+      "time_published": "20180308T124400",
+      "title": "KFC Logo Features Mrs. Sanders in Honor of International Women\u2019s Day",
+      "topics": [
+        {
+          "relevance_score": "0.833949",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://investorplace.com/2018/03/kfc-logo-changes-logo-for-international-womens-day/"
+    },
+    {
+      "authors": [
+        "Eric Mandel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.334643,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Atlanta is one of eight cities selected for McDonald's initial rollout of \"fresh beef,\" which will be cooked to order. This initiative is part of a broader effort by McDonald's to enhance its food offerings. Other cities participating in this first phase include Charlotte, Memphis, Miami, Nashville, Orlando, Raleigh, and Salt Lake City.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328953"
+        }
+      ],
+      "time_published": "20180306T105600",
+      "title": "Atlanta among first to get 'fresh beef' at McDonald's",
+      "topics": [
+        {
+          "relevance_score": "0.910243",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bizjournals.com/atlanta/news/2018/03/06/atlanta-among-first-to-get-fresh-beef-at-mcdonalds.html"
+    },
+    {
+      "authors": [
+        "Joseph Pisani and Teresa Crawford",
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.226536,
+      "source": "Canadian Manufacturing",
+      "source_domain": "Canadian Manufacturing",
+      "summary": "McDonald's is rolling out fresh beef Quarter Pounders to most of its 14,000 U.S. restaurants by May, moving away from the frozen patties it has used since the 1970s. This change is part of a broader effort by McDonald's to appeal to customers seeking fresher foods and to shed its \"junk food\" image. While the U.S. will see this change, McDonald's Canada currently has no plans to introduce fresh beef.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216897"
+        }
+      ],
+      "time_published": "20180306T025158",
+      "title": "What's Fresh At McDonald's? The Beef In Some Burgers",
+      "topics": [
+        {
+          "relevance_score": "0.948665",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.818410",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.canadianmanufacturing.com/manufacturing/whats-fresh-mcdonalds-beef-burgers-209389/"
+    },
+    {
+      "authors": [
+        "Michael J. Kramer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.034515,
+      "source": "Investopedia",
+      "source_domain": "Investopedia",
+      "summary": "McDonald's stock has experienced a significant decline, falling roughly 17% since January 26, 2018, and could drop further into bear market territory, potentially reaching $135 or even $120. This downturn is attributed to deteriorating industry conditions, a disappointing value menu, and a historically high price-to-earnings ratio compared to technology giants, despite the company showing no meaningful revenue growth through 2020. RBC also slashed its price target for MCD to $170 from $190.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340853",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.006411"
+        }
+      ],
+      "time_published": "20180302T144900",
+      "title": "McDonald\u2019s Stock Nears Bear Market Levels",
+      "topics": [
+        {
+          "relevance_score": "0.935991",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.814623",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.710802",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.investopedia.com/news/why-mcdonalds-stock-falling-bear-market-levels/"
+    },
+    {
+      "authors": [
+        "Lisa Baertlein"
+      ],
+      "banner_image": "https://s.yimg.com/uu/api/res/1.2/kS4d.a9VcxRjG006y6Qj0Q--~B/aD03MjA7dz0xMjc2O2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en_us/News/Reuters/2018-02-27T100609Z_1_LYNXNPEE1Q0I7_RTROPTP_2_STARBUCKS-RESERVE-STORES.JPG",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.154403,
+      "source": "Yahoo! Finance Singapore",
+      "source_domain": "Yahoo! Finance Singapore",
+      "summary": "Starbucks Corp opened its first of 1,000 planned upscale Starbucks Reserve stores in Seattle, part of a strategy to compete with high-end coffee rivals. Executive Chairman Howard Schultz believes that an \"abundance of empty store fronts across the country\" will lead to falling retail rents, which he sees as a positive for Starbucks' unit economics. The new Reserve stores will feature an expanded drink menu, food from Princi Italian bakery, and alcoholic drinks from a mixology bar.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.978954",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314356"
+        },
+        {
+          "relevance_score": "0.620247",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040232"
+        }
+      ],
+      "time_published": "20180227T032104",
+      "title": "Starbucks opens first Reserve store, sees retail rents easing",
+      "topics": [
+        {
+          "relevance_score": "0.918999",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.716843",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://sg.finance.yahoo.com/news/starbucks-opens-first-store-sees-retail-rents-easing-110604841--finance.html"
+    },
+    {
+      "authors": [
+        "JOSEPH PISANI"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.147341,
+      "source": "ABC7 New York",
+      "source_domain": "ABC7 New York",
+      "summary": "McDonald's is removing cheeseburgers and chocolate milk from its Happy Meal menu by June to reduce calories, sodium, saturated fat, and sugar. This move aims to align Happy Meal options with new nutritional standards, targeting 600 calories or fewer and limits on sodium, saturated fat, and added sugar. The company hopes this will help shake its junk-food image and acknowledges that while customers can still request these items, their removal from the listed menu is expected to decrease orders.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107457"
+        }
+      ],
+      "time_published": "20180216T025157",
+      "title": "McDonald's banishing cheeseburgers from Happy Meals",
+      "topics": [
+        {
+          "relevance_score": "0.802087",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.619722",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://abc7ny.com/post/mcdonalds-banishing-cheeseburgers-from-happy-meals/3093633/"
+    },
+    {
+      "authors": [
+        "Joseph Pisani",
+        "Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.209092,
+      "source": "PBS",
+      "source_domain": "PBS",
+      "summary": "McDonald's is removing cheeseburgers and chocolate milk from its Happy Meal menu in an effort to reduce calories, sodium, saturated fat, and sugar in children's meals. While customers can still request these items, their removal from the official menu is expected to decrease orders by June in the United States. This change aims to help McDonald's meet new nutritional standards for Happy Meal options, requiring them to be 600 calories or fewer and adhere to stricter limits on sodium, saturated fat, and added sugar.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248763"
+        }
+      ],
+      "time_published": "20180215T143900",
+      "title": "McDonald\u2019s moves cheeseburgers off Happy Meal menu",
+      "topics": [
+        {
+          "relevance_score": "0.922334",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.608839",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.pbs.org/newshour/nation/mcdonalds-moves-cheeseburgers-off-happy-meal-menu"
+    },
+    {
+      "authors": [
+        "Allison Aubrey"
+      ],
+      "banner_image": "https://media.npr.org/assets/img/2018/02/13/gettyimages-917953258-a9f826649e39665dd2b1b1a455a40a5bc5ca447b.jpg?s=6",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.214865,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "McDonald's announced a commitment to make Happy Meals more balanced by 2022, aiming for at least 50% of options to meet new nutrition criteria including calorie, saturated fat, sodium, and added sugar limits. These changes involve reformulating chocolate milk, downsizing fries for some meals, and exploring new fruit, vegetable, and lean protein options globally. While the American Heart Association applauded the move, some watchdog groups remain critical, viewing it as a continuation of marketing \"junk food\" to children.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229595"
+        }
+      ],
+      "time_published": "20180215T050100",
+      "title": "McDonald's Commits To More Balanced Happy Meals By 2022 : The Salt",
+      "topics": [
+        {
+          "relevance_score": "0.820389",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.646446",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.npr.org/sections/thesalt/2018/02/15/585881037/mcdonald-s-commits-to-more-balanced-happy-meals-by-2022"
+    },
+    {
+      "authors": [
+        "Clarissa Hamlin"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.114779,
+      "source": "NewsOne",
+      "source_domain": "NewsOne",
+      "summary": "McDonald's is overhauling its Happy Meal menu to offer more \"balanced\" options by 2022, removing cheeseburgers as a default and making other nutritional tweaks. The move aims to reduce calories, salt, sugar, and saturated fat in children's meals. The article also criticizes McDonald's for not addressing the disproportionate impact of fast food on African-American communities and the role of \"food swamps.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.219030"
+        },
+        {
+          "relevance_score": "0.582591",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103843"
+        },
+        {
+          "relevance_score": "0.558338",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145959"
+        },
+        {
+          "relevance_score": "0.593002",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140399"
+        },
+        {
+          "relevance_score": "0.555666",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.121886"
+        }
+      ],
+      "time_published": "20180215T025158",
+      "title": "It\u2019s A Wrap! McDonald\u2019s Happy Meal Menu Will Not Have Cheeseburgers Anymore",
+      "topics": [
+        {
+          "relevance_score": "0.917950",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.632414",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://newsone.com/3774759/mcdonalds-happy-meal-menu-box-calories-cheeseburgers-chocolate-milk/"
+    },
+    {
+      "authors": [
+        "Jon Viktor Cabuenas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.365319,
+      "source": "GMA Network",
+      "source_domain": "GMA Network",
+      "summary": "More than 40 McDonald\u2019s restaurants in the Philippines have partnered with PayMaya Philippines, a digital financial services arm of PLDT Inc.'s Voyager Innovations, to accept cashless payments. This collaboration enables customers to use Mastercard and Visa credit, debit, and prepaid cards, with plans to expand to QR payments in select McCaf\u00e9 branches and for online bookings. The move aims to keep McDonald's relevant in the evolving digital landscape by embracing cashless transactions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.426079"
+        },
+        {
+          "relevance_score": "0.624482",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346368"
+        }
+      ],
+      "time_published": "20180205T172200",
+      "title": "McDonald\u2019s customers can now pay for their fast food with PayMaya",
+      "topics": [
+        {
+          "relevance_score": "0.927720",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.812419",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.703844",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.gmanetwork.com/news/money/companies/642224/mcdonald-rsquo-s-customers-can-now-pay-for-their-fast-food-with-paymaya/story/"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.024717,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Jon Huntsman Sr., a Utah billionaire, philanthropist, and founder of Huntsman Corp., has died at the age of 80. Known for overcoming poverty and his immense charitable contributions, including over $400 million to the Huntsman Cancer Institute, he was also a prominent political figure and father of Jon Huntsman Jr. His legacy includes significant philanthropic endeavors and founding an $11 billion company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HUN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115834"
+        },
+        {
+          "relevance_score": "0.640478",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137056"
+        }
+      ],
+      "time_published": "20180202T221900",
+      "title": "Jon Huntsman Sr., Utah billionaire and philanthropist, dies at 80",
+      "topics": [
+        {
+          "relevance_score": "0.749831",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.nbcnews.com/news/us-news/jon-huntsman-sr-utah-billionaire-philanthropist-dies-80-n844351"
+    },
+    {
+      "authors": [
+        "Leslie Patton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.290854,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "McDonald\u2019s believes it has resolved the long-standing issue of keeping french fries hot and crispy during delivery. Despite fries being notoriously difficult to transport without turning soggy, they have become the top delivery item for McDonald's through UberEats, with high customer satisfaction rates. This solution is crucial as the company relies on its new delivery service to drive growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.922287",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344785"
+        },
+        {
+          "relevance_score": "0.609426",
+          "ticker": "UBER",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249350"
+        }
+      ],
+      "time_published": "20180131T191500",
+      "title": "McDonald\u2019s Says It\u2019s Solved the Industry\u2019s Delivery Problem of Keeping Fries Hot",
+      "topics": [
+        {
+          "relevance_score": "0.840848",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.608265",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2018-01-31/mcdonald-s-says-it-s-solved-delivery-problem-keeping-fries-hot"
+    },
+    {
+      "authors": [
+        "Erica Shaffer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.024083,
+      "source": "MEAT+POULTRY",
+      "source_domain": "MEAT+POULTRY",
+      "summary": "McDonald's reported strong fourth-quarter same-store sales globally, with US same-store sales climbing 4.5% driven by core menu items and new offerings. Despite this growth and the best comparable sales performance in six years, net income for the quarter dropped 41% due to a one-time charge from the Tax Cuts and Jobs Act of 2017. The company plans significant investments in 2018 for its \"Experience of the Future\" initiative and the opening of new restaurants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.313180",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048166"
+        }
+      ],
+      "time_published": "20180130T171800",
+      "title": "McDonald\u2019s Q4 US same-store sales climb 4.5%",
+      "topics": [
+        {
+          "relevance_score": "0.901669",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.612672",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.713466",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.meatpoultry.com/articles/17837-mcdonald-s-q4-us-same-store-sales-climb-4-5"
+    },
+    {
+      "authors": [
+        "Lauren Murphy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.355883,
+      "source": "Earth911",
+      "source_domain": "Earth911",
+      "summary": "This article highlights seven fast-food chains that are implementing green initiatives to reduce their environmental impact. It details efforts such as sustainable sourcing, waste reduction, energy efficiency improvements, and offering vegetarian options across companies like Yum! Brands (Taco Bell, KFC, Pizza Hut), McDonald's, Subway, Wendy's, and Chipotle. The article aims to inform eco-conscious consumers about choices they can make when needing a quick bite.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422214"
+        },
+        {
+          "relevance_score": "0.941911",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341430"
+        },
+        {
+          "relevance_score": "0.821981",
+          "ticker": "CMG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.507719"
+        },
+        {
+          "relevance_score": "0.635080",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126426"
+        }
+      ],
+      "time_published": "20180130T034615",
+      "title": "7 Fast Food Chains Going Green",
+      "topics": [
+        {
+          "relevance_score": "0.835326",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.712150",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://earth911.com/business-policy/fast-food-green/"
+    },
+    {
+      "authors": [
+        "Kevin McCoy",
+        "Zlati Meyer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.284939,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Dr Pepper Snapple Group and Keurig Green Mountain are merging to form Keurig Dr Pepper, a beverage giant with an estimated $11 billion in annual revenues. The deal offers Dr Pepper Snapple shareholders a significant cash payment and a 13% stake in the new company, with JAB Holding becoming the controlling shareholder. This merger aims to create a \"total beverage solution\" with enhanced distribution capabilities and leverage in the marketplace.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KDP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442243"
+        },
+        {
+          "relevance_score": "0.746699",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321350"
+        },
+        {
+          "relevance_score": "0.747809",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320931"
+        },
+        {
+          "relevance_score": "0.617298",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227455"
+        },
+        {
+          "relevance_score": "0.610768",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244786"
+        }
+      ],
+      "time_published": "20180129T024615",
+      "title": "Dr Pepper Snapple, Keurig Green Mountain to combine to create coffee, soda giant",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.801219",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/2018/01/29/dr-pepper-snapple-and-keurig-green-mountain-merge/1074029001/"
+    },
+    {
+      "authors": [
+        "Joel Makower"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.199182,
+      "source": "Trellis Group (formerly GreenBiz)",
+      "source_domain": "Trellis Group (formerly GreenBiz)",
+      "summary": "Coca-Cola and McDonald's have launched ambitious initiatives to reduce waste and increase recycled/biobased content in their packaging. McDonald's aims for 100% renewable, recyclable, and certified packaging by 2025 with in-restaurant recycling, while Coca-Cola plans to collect and recycle 100% of its packaging by 2030 and use 50% recycled content. These twin initiatives reflect growing global concern over waste and the companies' recognition that sustainability is crucial for their growth ambitions, despite significant logistical challenges, particularly concerning recycling infrastructure and franchisee cooperation in many markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243361"
+        },
+        {
+          "relevance_score": "0.930561",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.223268"
+        },
+        {
+          "relevance_score": "0.601198",
+          "ticker": "AMCR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148362"
+        },
+        {
+          "relevance_score": "0.568321",
+          "ticker": "WM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.157199"
+        }
+      ],
+      "time_published": "20180122T025157",
+      "title": "Inside Coke and McDonald's new war on waste",
+      "topics": [
+        {
+          "relevance_score": "0.801816",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.629877",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://trellis.net/article/inside-coke-and-mcdonalds-new-war-waste/"
+    },
+    {
+      "authors": [
+        "WBEZ Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.016407,
+      "source": "WBEZ Chicago",
+      "source_domain": "WBEZ Chicago",
+      "summary": "McDonald's Corp. is moving its headquarters back to Chicago from Oak Brook, leaving behind an 86-acre campus and an eight-story office building. This move is part of a larger trend of companies returning to urban centers, similar to why they initially moved to the suburbs after World War II. The future of McDonald's former Oak Brook sites remains uncertain, with possibilities including demolition for new development or conversion for residential use.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340990",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033837"
+        }
+      ],
+      "time_published": "20180118T025157",
+      "title": "What's That Building? McDonald's Oak Brook Headquarters",
+      "topics": [
+        {
+          "relevance_score": "0.924101",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.726213",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.wbez.org/morning-shift/2018/01/18/whats-that-building-mcdonalds-oak-brook-headquarters"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.310585,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "McDonald's announced its goal to source 100% of its packaging from renewable, recycled, or certified sources and to recycle guest packaging in all its restaurants worldwide by 2025. This initiative expands on existing sustainability targets and involves collaborations with industry experts, governments, and environmental associations. The company aims to address packaging waste, reduce environmental impact, and create cleaner communities, building on a history of sustainability efforts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.988048",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318553"
+        }
+      ],
+      "time_published": "20180116T095600",
+      "title": "McDonald's Going All-Recycling By 2025",
+      "topics": [
+        {
+          "relevance_score": "0.849944",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.rttnews.com/2852301/mcdonald-s-going-all-recycling-by-2025.aspx"
+    },
+    {
+      "authors": [
+        "Miguel R. Camus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.443424,
+      "source": "Inquirer.net",
+      "source_domain": "Inquirer.net",
+      "summary": "McDonald's Philippines, through its master franchise holder Golden Arches Development Corp., plans continued expansion in 2018, aiming to surpass 600 stores nationwide. The company, a venture with Alliance Global Group Inc., is optimistic due to a strong economy and growing middle class. Golden Arches also announced a partnership with PLDT Inc.\u2019s PayMaya to accept card and QR code payments in an effort to adapt to the changing market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414704"
+        }
+      ],
+      "time_published": "20180116T050800",
+      "title": "McDonald\u2019s to further expand footprint in PH",
+      "topics": [
+        {
+          "relevance_score": "0.920043",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.813281",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.716240",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://business.inquirer.net/244179/mcdonalds-expand-footprint-ph"
+    },
+    {
+      "authors": [
+        "Adam Redling"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.16762,
+      "source": "Recycling Today",
+      "source_domain": "Recycling Today",
+      "summary": "McDonald's has agreed to eliminate all polystyrene foam packaging globally by the end of 2018, following engagement with shareholder advocacy group As You Sow. This decision comes after years of advocacy highlighting the environmental harm caused by foam packaging, particularly its impact on marine life. The company's move sets an example for other quick-service food chains to follow suit in phasing out foam and potentially other single-use plastic items.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349768"
+        },
+        {
+          "relevance_score": "0.632821",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113940"
+        },
+        {
+          "relevance_score": "0.607874",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112602"
+        }
+      ],
+      "time_published": "20180111T025157",
+      "title": "McDonald's promises to eliminate foam packaging by 2019",
+      "topics": [
+        {
+          "relevance_score": "0.818680",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.745175",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.recyclingtoday.com/news/mcdonalds-foam-packaging-2018/"
+    },
+    {
+      "authors": [
+        "Monica Watrous"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.041624,
+      "source": "Food Business News",
+      "source_domain": "Food Business News",
+      "summary": "Scott Murphy has been named c.o.o. of Dunkin\u2019 Donuts U.S., and Rick Col\u00f3n has joined Dunkin\u2019 Brands Group, Inc. as senior vice-president of operations and development for Dunkin\u2019 Donuts U.S. Mr. Col\u00f3n brings nearly 40 years of experience from McDonald\u2019s Corp., while Mr. Murphy will expand his responsibilities to include restaurant development and construction. These appointments aim to capitalize on growth opportunities and enhance franchisee profitability and customer service for Dunkin' Donuts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.614607",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.027818"
+        }
+      ],
+      "time_published": "20180109T132400",
+      "title": "McDonald's vet to join Dunkin'",
+      "topics": [
+        {
+          "relevance_score": "0.839070",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.foodbusinessnews.net/articles/11095-mcdonald-s-vet-to-join-dunkin"
+    },
+    {
+      "authors": [
+        "Katie Plumski"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.365101,
+      "source": "Hormel Foods",
+      "source_domain": "Hormel Foods",
+      "summary": "This article by Hormel Foods discusses the significant issue of food waste, highlighting its environmental, social, and economic impacts globally and in the United States. It explores solutions such as portion control (single-serve sizes), extending product shelf life, and corporate donations to hunger relief efforts. The piece also details how Hormel Foods and other companies are collaborating to reduce food waste across the industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HRL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400088"
+        },
+        {
+          "relevance_score": "0.731232",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309367"
+        },
+        {
+          "relevance_score": "0.736031",
+          "ticker": "CAG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320945"
+        },
+        {
+          "relevance_score": "0.737046",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336985"
+        },
+        {
+          "relevance_score": "0.720089",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307329"
+        }
+      ],
+      "time_published": "20180108T023606",
+      "title": "Waste Not, Want Not",
+      "topics": [
+        {
+          "relevance_score": "0.815551",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.709162",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.hormelfoods.com/inspired/story/waste-not-want-not/"
+    },
+    {
+      "authors": [
+        "Cathy Siegner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.268264,
+      "source": "Food Dive",
+      "source_domain": "Food Dive",
+      "summary": "Lamb Weston reported a 4% increase in net sales to $824.6 million and an 11% rise in income during its second quarter, driven by strong potato demand. The company anticipates continued growth, investing in production capacity expansions, and is seen as a potential acquisition target within the growing global potato processing market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.858671"
+        },
+        {
+          "relevance_score": "0.629190",
+          "ticker": "CAG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109398"
+        },
+        {
+          "relevance_score": "0.639045",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244886"
+        },
+        {
+          "relevance_score": "0.616912",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210038"
+        },
+        {
+          "relevance_score": "0.585014",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.129648"
+        }
+      ],
+      "time_published": "20180105T025141",
+      "title": "Lamb Weston sales, income jump amid strong potato demand",
+      "topics": [
+        {
+          "relevance_score": "0.949002",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.724595",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.643262",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.637317",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.624808",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.fooddive.com/news/lamb-weston-sales-income-jump-amid-strong-potato-demand/514012/"
+    }
+  ],
+  "items": "103",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

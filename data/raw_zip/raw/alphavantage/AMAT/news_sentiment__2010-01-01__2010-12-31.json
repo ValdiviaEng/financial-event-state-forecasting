@@ -1,0 +1,590 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "JORDAN ROBERTSON"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.160287,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "Intel Corp. announced an investment of up to $8 billion to upgrade four existing plants in Arizona and Oregon and build a new factory in Oregon. This investment aims to keep its factories cutting-edge, support its transition to 22-nanometer manufacturing technology, and create up to 8,000 temporary construction jobs and 1,000 permanent positions. The move highlights Intel's commitment to maintaining its lead in the semiconductor industry and continued investment in the U.S.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.621232",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345270"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.420145"
+        },
+        {
+          "relevance_score": "0.824425",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.207411"
+        },
+        {
+          "relevance_score": "0.607235",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117434"
+        }
+      ],
+      "time_published": "20101019T181052",
+      "title": "Intel to spend up to $8B on US manufacturing",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.932302",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://phys.org/news/2010-10-intel-8b.html"
+    },
+    {
+      "authors": [
+        "Jordan Robertson"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.226112,
+      "source": "NBC Bay Area",
+      "source_domain": "NBC Bay Area",
+      "summary": "Advanced Micro Devices Inc. (AMD) narrowed its third-quarter loss but results were still impacted by its stake in a spun-off factory. Excluding the factory business, AMD would have exceeded Wall Street expectations, indicating improved profitability. Corporate spending is currently propping up the computer industry as consumer demand for PCs softens.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.271422"
+        },
+        {
+          "relevance_score": "0.828509",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232583"
+        },
+        {
+          "relevance_score": "0.637530",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123646"
+        }
+      ],
+      "time_published": "20101014T181053",
+      "title": "Remaining Silicon Valley Chip Maker Narrows Losses",
+      "topics": [
+        {
+          "relevance_score": "0.933876",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.840431",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nbcbayarea.com/local/remaining-silicon-valley-chip-maker-narrows-losses/2088087/?noamp=mobile"
+    },
+    {
+      "authors": [
+        "Beacon Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.117899,
+      "source": "Flathead Beacon",
+      "source_domain": "Flathead Beacon",
+      "summary": "Ray Thompson, following the $364 million sale of his high-tech firm Semitool, has purchased and renovated Sykes, a long-standing restaurant and grocery store in downtown Kalispell. Supported by family and former Semitool colleagues, Thompson is navigating the transition from microchips to hash browns while also acquiring three additional manufacturing businesses. The article highlights the community's positive reception to Sykes' reopening and Thompson's continued entrepreneurial ventures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134661"
+        }
+      ],
+      "time_published": "20101014T181052",
+      "title": "Semitool to Sykes",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.947280",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.811529",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.649481",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://flatheadbeacon.com/2010/10/14/semitool-to-sykes/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.324159,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Micron Technology, Inc. announced the deployment of Applied Materials' E3 framework in its 300mm fabrication facilities to enhance process control, increase product yield, and improve quality. The E3 system allows for sophisticated control strategies, including fault detection, run-to-run control, and equipment performance tracking, leading to significant process improvements and cost savings for Micron. This collaboration aids Micron in providing superior product quality through increased operational efficiency.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.901967",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338444"
+        },
+        {
+          "relevance_score": "0.882856",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.284313"
+        }
+      ],
+      "time_published": "20100830T081600",
+      "title": "Micron Technology Optimizes Process Control With Applied Materials' E3 Equipment Control System",
+      "topics": [
+        {
+          "relevance_score": "0.921177",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.805787",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna38915500"
+    },
+    {
+      "authors": [
+        "Larry Dignan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.700043,
+      "source": "ZDNET",
+      "source_domain": "ZDNET",
+      "summary": "Applied Materials, a leading semiconductor equipment manufacturer, announced a breakthrough product, the Applied Producer Eterna FCVD (Flowable CVD), designed to help chipmakers more easily separate electrical contacts and transistors. This innovation aims to scale Moore's Law by enabling the electrical isolation of densely-packed transistors in 20nm-and-below memory and logic chip designs using a high-quality dielectric film. The company anticipates this technology will become a \"workhorse of the industry\" as 3D designs for memory and logic applications become more prevalent.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.701561"
+        }
+      ],
+      "time_published": "20100824T064000",
+      "title": "Applied Materials claims chip manufacturing breakthrough",
+      "topics": [
+        {
+          "relevance_score": "0.917002",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.913541",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.646116",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.zdnet.com/article/applied-materials-claims-chip-manufacturing-breakthrough/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.328067,
+      "source": "Cleanroom Technology",
+      "source_domain": "Cleanroom Technology",
+      "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) has begun construction on its third 12-inch Gigafab, Fab 15, in Taiwan's Central Taiwan Science Park. This new facility will have a massive cleanroom area, a capacity exceeding 100,000 12-inch wafers per month, and will incorporate environmentally friendly concepts. The project represents an investment of over NT$300bn (US$9.4bn) and is expected to create 8,000 jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439157"
+        },
+        {
+          "relevance_score": "0.608238",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337147"
+        },
+        {
+          "relevance_score": "0.581829",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344009"
+        },
+        {
+          "relevance_score": "0.582478",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311498"
+        }
+      ],
+      "time_published": "20100819T195609",
+      "title": "TSMC starts construction of Gigafab in Taiwan",
+      "topics": [
+        {
+          "relevance_score": "0.905302",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.819082",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.748039",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://cleanroomtechnology.com/tsmc-starts-construction-of-gigafab-in-taiwan-56230"
+    },
+    {
+      "authors": [
+        "Mark Osborne"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.272465,
+      "source": "PV Tech",
+      "source_domain": "PV Tech",
+      "summary": "Applied Materials is ceasing sales of its SunFab a-Si thin-film technology lines to new customers, redirecting its focus to crystalline silicon (c-Si) solar and LED manufacturing equipment. This strategic shift is expected to cost the company between US$375 million and US$425 million and will impact 400-500 global positions. The company cites factors such as delays in utility-scale solar adoption, capital challenges for panel manufacturers, policy uncertainty, and competitive pressure from c-Si technologies as reasons for the change.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.389429"
+        },
+        {
+          "relevance_score": "0.650396",
+          "ticker": "FSLR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134671"
+        }
+      ],
+      "time_published": "20100721T181052",
+      "title": "Applied Materials stops selling \u2018SunFab\u2019 thin-film lines: focus on c-Si solar and LED technology",
+      "topics": [
+        {
+          "relevance_score": "0.908764",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.803859",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.730861",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.pv-tech.org/applied_materials_stops_selling_sunfab_thin_film_lines_focus_on_c_si_solar/"
+    },
+    {
+      "authors": [
+        "Patrick Curran"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.416195,
+      "source": "Design World",
+      "source_domain": "Design World",
+      "summary": "Applied Materials Inc. has launched its SmartFactory MES software, an affordable, out-of-the-box factory automation solution designed to track and streamline material flow in manufacturing facilities. This software aims to accelerate production ramp for emerging technologies in solar, LED, and chip packaging industries, offering features like integrated advanced process control and rapid deployment. It's based on Applied's FAB300\u00ae MES technology and can be expanded with additional factory automation software components.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.449588"
+        }
+      ],
+      "time_published": "20100524T181052",
+      "title": "Applied Materials Launches Applied SmartFactory\u2122 MES Software",
+      "topics": [
+        {
+          "relevance_score": "0.949324",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.844757",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.designworldonline.com/applied-materials-launches-applied-smartfactory-mes-software-2/"
+    },
+    {
+      "authors": [
+        "Keith Bradsher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.161706,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "American high-tech companies like Applied Materials are increasingly moving their research and development operations to China, drawn by its surging markets, skilled engineers, and government subsidies. This shift, exemplified by Applied Materials' CTO Mark R. Pinto relocating to Beijing and establishing new research labs in Xi\u2019an, signifies a tectonic change in the global technology landscape. China's growing high-tech economy and its focus on clean energy are attracting companies that seek to be closer to manufacturing and consumers, challenging the traditional flow of talent and innovation from China to the U.S.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.995817",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.279104"
+        },
+        {
+          "relevance_score": "0.694128",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117084"
+        },
+        {
+          "relevance_score": "0.603916",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138681"
+        },
+        {
+          "relevance_score": "0.616349",
+          "ticker": "FSLR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.218573"
+        },
+        {
+          "relevance_score": "0.580510",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.077407"
+        }
+      ],
+      "time_published": "20100317T181052",
+      "title": "China Drawing High-Tech Research From U.S. (Published 2010)",
+      "topics": [
+        {
+          "relevance_score": "0.942545",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.817211",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.725358",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.615783",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.nytimes.com/2010/03/18/business/global/18research.html"
+    },
+    {
+      "authors": [
+        "Katherine Bourzac"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.497452,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "Applied Materials has significantly scaled up solar panel production by developing equipment for manufacturing the world's largest thin-film amorphous silicon panels. This innovation aims to reduce the cost of solar power by improving manufacturing efficiency and lowering installation expenses, making solar energy more competitive with fossil fuels. The company is working to bring manufacturing costs down to $1 per watt, while facing competition from alternative materials that could further reduce costs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.462524"
+        }
+      ],
+      "time_published": "20100223T181052",
+      "title": "Scaling Up Solar Power",
+      "topics": [
+        {
+          "relevance_score": "0.847117",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732525",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.613596",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2010/02/23/28126/scaling-up-solar-power/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.322909,
+      "source": "The Korea Times",
+      "source_domain": "The Korea Times",
+      "summary": "A technology theft case involving Samsung Electronics and Hynix Semiconductor, facilitated by Applied Materials Korea (AMK), has revealed illegal practices among domestic competitors. The incident, where AMK allegedly leaked Samsung's crucial chip-making technologies to Hynix, has raised concerns about industrial espionage and the potential for international leaks, prompting calls for stricter security measures and further investigations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.312310"
+        },
+        {
+          "relevance_score": "0.719200",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.444802"
+        },
+        {
+          "relevance_score": "0.613407",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.207956"
+        },
+        {
+          "relevance_score": "0.636966",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245163"
+        }
+      ],
+      "time_published": "20100204T181900",
+      "title": "Tech Theft",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.646406",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.koreatimes.co.kr/opinion/editorial/20100204/tech-theft?top-stories-page=2"
+    },
+    {
+      "authors": [
+        "Mathew Miranda"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.41347,
+      "source": "HotHardware",
+      "source_domain": "HotHardware",
+      "summary": "This article provides an inside look at the IM Flash Technologies (IMFT) fabrication plant in Lehi, Utah, a joint venture between Micron and Intel for manufacturing NAND flash memory. It details the security and cleanliness protocols for entering the fab, the highly automated manufacturing process, and the intricate transportation system for wafers. The author shares a first-hand account of the tour, emphasizing the eye-opening experience of seeing component manufacturing up close.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427795"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404278"
+        },
+        {
+          "relevance_score": "0.623232",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322377"
+        }
+      ],
+      "time_published": "20100131T103000",
+      "title": "Inside The Fab",
+      "topics": [
+        {
+          "relevance_score": "0.844909",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.702371",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://hothardware.com/reviews/intel-micron-announce-25nm-nand-technology-?page=2"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.176513,
+      "source": "Semiconductor Today",
+      "source_domain": "Semiconductor Today",
+      "summary": "Veeco Instruments Inc. has launched its new TurboDisc K465i gallium nitride (GaN) MOCVD system for high-brightness LED production, which has already been qualified by beta-site customers and received orders from Asia Pacific. The system is designed for high productivity, best-in-class LED yields, and reduced cost of ownership, featuring patent-pending Uniform FlowFlange technology. This launch aims to meet the growing demand for HB-LEDs, with the market expected to reach $14.9 billion by 2013.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.306222",
+          "ticker": "VECO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046634"
+        },
+        {
+          "relevance_score": "0.642442",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213132"
+        },
+        {
+          "relevance_score": "0.577350",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219109"
+        }
+      ],
+      "time_published": "20100119T200048",
+      "title": "Veeco launches TurboDisc K465i GaN MOCVD system",
+      "topics": [
+        {
+          "relevance_score": "0.928595",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.727372",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.semiconductor-today.com/news_items/2010/JAN/VEECO_190110.htm"
+    }
+  ],
+  "items": "13",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

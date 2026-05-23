@@ -1,0 +1,28 @@
+{
+  "artifact_schema_version": "stage4_splits_v1",
+  "split_protocol": "purged_embargoed_walk_forward_with_final_untouched_lockbox",
+  "benchmark_family_id": "phase1_top50",
+  "horizons": ["1d", "5d", "10d", "20d", "60d"],
+  "fold_schedule": {
+    "cadence": "monthly",
+    "training_window": "expanding",
+    "initial_training_date_count": 126,
+    "validation_date_count": 21,
+    "drop_partial_validation_windows": true,
+    "decision_basis": "user_approved_monthly_stage4_cadence_2026-05-15"
+  },
+  "purge_embargo": {
+    "policy": "maximum_approved_label_horizon",
+    "trading_date_count": 60,
+    "basis": "approved maximum 60d horizon and docs/Data_Separation_And_Overfitting_Control.md default"
+  },
+  "lockbox": {
+    "policy": "final_fraction_of_stage3_as_of_dates",
+    "fraction": 0.20,
+    "expected_start_date": "2025-09-30",
+    "decision_basis": "user_approved_last_20_percent_lockbox_2026-05-15",
+    "access_policy": "reporting_only_after_development_freeze"
+  },
+  "random_shuffle_allowed": false,
+  "benchmark_claim": false
+}

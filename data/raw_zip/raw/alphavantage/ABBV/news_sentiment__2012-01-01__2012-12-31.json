@@ -1,0 +1,452 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Bruce Japsen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.054145,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "AbbVie, the proprietary drug business of Abbott Laboratories, is set to become its own company, facing challenges from patent expirations for its blockbuster drug Humira. Despite these hurdles, AbbVie aims to leverage its strong pipeline of new drugs and experienced management team to thrive independently. The company's strategy involves driving cash flows from Humira to support the development of next-generation therapies and becoming a biopharmaceutical leader.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.924767",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310611"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235502"
+        },
+        {
+          "relevance_score": "0.641043",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148916"
+        },
+        {
+          "relevance_score": "0.614942",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137426"
+        },
+        {
+          "relevance_score": "0.646887",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.121440"
+        }
+      ],
+      "time_published": "20121228T093100",
+      "title": "AbbVie Wants To Be Hunter, Not Hunted Post-Abbott Split",
+      "topics": [
+        {
+          "relevance_score": "0.920629",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.821881",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/brucejapsen/2012/12/28/abbvie-wants-to-be-hunter-not-hunted-post-abbott-split/"
+    },
+    {
+      "authors": [
+        "Gordon Platt"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.1725,
+      "source": "Global Finance Magazine",
+      "source_domain": "Global Finance Magazine",
+      "summary": "AbbVie, the pharmaceutical unit of Abbott Laboratories, launched a massive $14.7 billion bond offering, marking the largest US corporate debt deal in over three years. This significant bond issuance came ahead of Abbott's split into two companies and capitalized on pent-up demand after Hurricane Sandy and near-record-low interest rates. The success of Humira, despite higher leverage, supported AbbVie's rating.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.991740",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241454"
+        },
+        {
+          "relevance_score": "0.933260",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255384"
+        },
+        {
+          "relevance_score": "0.633258",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144309"
+        },
+        {
+          "relevance_score": "0.598122",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.055329"
+        },
+        {
+          "relevance_score": "0.567196",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101441"
+        }
+      ],
+      "time_published": "20121206T140119",
+      "title": "Debt: AbbVie Launches Big Bond Deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.946110",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.829313",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.713795",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://gfmag.com/features/debt-abbvie-launches-big-bond-deal/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.245059,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Abbott Laboratories announced that its board of directors approved the spin-off of its pharmaceutical business into a new company named AbbVie Inc. Abbott shareholders will receive one share of AbbVie common stock for every Abbott share they own, with trading expected to begin on January 2. This split aims to separate Abbott's more predictable businesses like nutritionals and generic drugs from the risks of pharmaceutical drug development, with AbbVie focusing on branded drugs including Humira.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249757"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265185"
+        }
+      ],
+      "time_published": "20121129T080400",
+      "title": "Abbott directors approve AbbVie split",
+      "topics": [
+        {
+          "relevance_score": "0.926732",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.831731",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.704186",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/11/29/abbott-directors-approve-abbvie-split.html"
+    },
+    {
+      "authors": [
+        "Abdul Ahad"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.366151,
+      "source": "Business Recorder",
+      "source_domain": "Business Recorder",
+      "summary": "Abbott Laboratories Inc. reported disappointing third-quarter sales due to slower growth of its key arthritis drug, Humira, despite overall earnings topping expectations. The company also provided new details on its upcoming split into two companies: AbbVie for branded drugs and the \"new Abbott\" for medical devices and nutritional products. Investors reacted negatively to a higher-than-expected tax rate forecast for AbbVie, causing Abbott's shares to decline.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.963784",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.318340"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.447077"
+        }
+      ],
+      "time_published": "20121017T140117",
+      "title": "Abbott sales miss mark as Humira disappoints",
+      "topics": [
+        {
+          "relevance_score": "0.940018",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.834692",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.721220",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "http://www.brecorder.com/news/86527"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.035983,
+      "source": "Daily Herald",
+      "source_domain": "Daily Herald",
+      "summary": "Richard Gonzalez, tapped to lead Abbott Laboratories' pharmaceutical spinoff AbbVie, does not hold a college degree, despite previous company reports stating he had bachelor's and master's degrees. Abbott Laboratories clarified that an administrative error led to the misstatement, which has since been corrected. The company affirms Gonzalez's qualifications to lead AbbVie, citing his distinguished 30-year career.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314142",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030988"
+        }
+      ],
+      "time_published": "20120928T100300",
+      "title": "Abbott executive named to head drug group has no college degree",
+      "topics": [
+        {
+          "relevance_score": "0.905890",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.727127",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.dailyherald.com/20120928/business/abbott-executive-named-to-head-drug-group-has-no-college-degree/"
+    },
+    {
+      "authors": [
+        "MassDevice staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.237291,
+      "source": "MassDevice",
+      "source_domain": "MassDevice",
+      "summary": "Analysts are divided on the future prospects of Abbott (NYSE: ABT) after its planned split into Abbott and AbbVie. While some, like Jeffrey Holford of Jefferies & Co., are bullish and have raised price targets, others, such as Danielle Antalffy of Leerink Swann, are taking a more cautious stance, downgrading the stock until more financial details of the split are clear. The article highlights various analyst ratings and price targets for Abbott leading up to the separation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.843382",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317566"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222765"
+        },
+        {
+          "relevance_score": "0.600075",
+          "ticker": "BAX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330593"
+        },
+        {
+          "relevance_score": "0.600621",
+          "ticker": "BDX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035076"
+        },
+        {
+          "relevance_score": "0.606138",
+          "ticker": "HOLX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338595"
+        }
+      ],
+      "time_published": "20120920T140117",
+      "title": "Analysts differ on Abbott\u2019s post-split prospects | Wall Street Beat",
+      "topics": [
+        {
+          "relevance_score": "0.948143",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.808485",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.706780",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.623795",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.massdevice.com/analysts-differ-abbotts-post-split-prospects-wall-street-beat/"
+    },
+    {
+      "authors": [
+        "MassDevice staff"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.245539,
+      "source": "MassDevice",
+      "source_domain": "MassDevice",
+      "summary": "Abbott is arranging a $14.5 billion financing package to support the spinout of its research pharmaceuticals division into a new company called AbbVie. Morgan Stanley is providing a $7.5 billion bridge loan, JP Morgan a $5 billion revolving credit line, and Bank of America Merrill Lynch is leading a separate $2 billion revolver. This move follows Abbott's earlier announcement to spin out its pharma business, retaining the Abbott brand for its diversified medical businesses, reflecting long-term changes in the healthcare market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441928"
+        },
+        {
+          "relevance_score": "0.924435",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319006"
+        },
+        {
+          "relevance_score": "0.744960",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108703"
+        },
+        {
+          "relevance_score": "0.621302",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114645"
+        }
+      ],
+      "time_published": "20120621T140117",
+      "title": "Abbott details $15B AbbVie spinout financing | Wall Street Beat",
+      "topics": [
+        {
+          "relevance_score": "0.916274",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.837371",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.734312",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.massdevice.com/abbott-details-15b-abbvie-spinout-financing-wall-street-beat/"
+    },
+    {
+      "authors": [
+        "Anthe Mitrakos"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.07232,
+      "source": "Crain's Chicago Business",
+      "source_domain": "Crain's Chicago Business",
+      "summary": "Advocate Health Care had three hospitals named among the top 100 in the nation by a Thomson Reuters study, including Advocate Illinois Masonic Medical Center, Advocate Christ Medical Center, and Advocate Good Samaritan Hospital. This marks a decrease in the number of Illinois institutions on the list from the previous year, with only four making the cut statewide. The study evaluates hospitals based on public records in 10 performance areas, estimating significant savings and avoided complications if all Medicare inpatients received similar care.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.306743",
+          "ticker": "TRI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.036447"
+        },
+        {
+          "relevance_score": "0.709949",
+          "ticker": "CSGP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028670"
+        },
+        {
+          "relevance_score": "0.616105",
+          "ticker": "BAX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.343272"
+        },
+        {
+          "relevance_score": "0.646589",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235013"
+        }
+      ],
+      "time_published": "20120416T070000",
+      "title": "3 Advocate Health Care hospitals among top in nation: Thomson Reuters study",
+      "topics": [
+        {
+          "relevance_score": "0.925204",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.chicagobusiness.com/article/20120416/NEWS03/120419862/3-advocate-health-care-hospitals-among-top-in-nation-thomson-reuters-study"
+    },
+    {
+      "authors": [
+        "Kristen Schorsch"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.424167,
+      "source": "Crain's Chicago Business",
+      "source_domain": "Crain's Chicago Business",
+      "summary": "Abbott Laboratories has named its new spinoff pharmaceutical company AbbVie, ahead of its launch by year-end. The name combines \"Abbott\" with \"vie,\" referencing the Latin root for life, reflecting the new company's focus on advancing improvements in people's lives. Richard Gonzalez will serve as CEO of AbbVie, while Miles White will remain CEO of Abbott, the diversified medical products company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412688"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439930"
+        }
+      ],
+      "time_published": "20120321T070000",
+      "title": "Abbott picks name for spinoff pharmaceutical company",
+      "topics": [
+        {
+          "relevance_score": "0.911397",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.744953",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.chicagobusiness.com/article/20120321/NEWS03/120329957/abbott-names-spinoff-pharmaceutical-company-abbvie"
+    }
+  ],
+  "items": "9",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

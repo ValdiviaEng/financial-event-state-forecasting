@@ -167,6 +167,35 @@ Default rule:
 - no final winner selection
 - no hidden recommendation ranking
 
+### 8.1 Research comparison versus approval decision matrices
+
+Research comparison outputs and approval-gate decision prompts are related but not
+identical.
+
+Use this split:
+
+- broad research comparison profiles may remain non-winner, category-first, and
+  flexible in attributes as defined above
+- when research findings are converted into a user-facing approval or path-choice
+  prompt, the prompt must use the approval decision-option matrix defined in
+  `docs/agent/AgentTemplates.md`
+
+That approval decision-option matrix must:
+
+- present at least 3 options unless doing so would require fabrication
+- include the 6 mandatory scored categories:
+  - Accuracy
+  - Complexity
+  - Compute Intensity
+  - Security
+  - Compatibility
+  - Governance
+- include exactly 4 context-specific scored categories chosen for the case
+- include brief explanation, main pros, and main cons for each option
+
+This split exists so that broad research mapping stays flexible, while actual
+owner decision prompts remain comparable, explicit, and decision-useful.
+
 ## 9. Paper-Note Workflow
 
 When creating paper notes:

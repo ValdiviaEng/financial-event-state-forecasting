@@ -1,0 +1,561 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Michelle Froese"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305424,
+      "source": "Windpower Engineering & Development",
+      "source_domain": "Windpower Engineering & Development",
+      "summary": "YPF Luz has partnered with GE Renewable Energy to construct the 122-MW Los Teros Wind Farm in Azul, Province of Buenos Aires, Argentina, with construction starting in November. This $144 million project will utilize 32 GE wind turbines and aims to provide renewable energy to customers like Toyota and Coca-Cola FEMSA through the Wholesale Electricity Market. Los Teros will be GE's first turnkey wind farm in Argentina and is expected to significantly reduce CO2 emissions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.322176",
+          "ticker": "YPF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.006764"
+        },
+        {
+          "relevance_score": "0.888477",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.488236"
+        },
+        {
+          "relevance_score": "0.843886",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405178"
+        },
+        {
+          "relevance_score": "0.629282",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323882"
+        }
+      ],
+      "time_published": "20181115T034614",
+      "title": "GE Renewable Energy & YPF Luz to build 122-MW wind farm in Argentina",
+      "topics": [
+        {
+          "relevance_score": "0.904795",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.windpowerengineering.com/ge-renewable-energy-ypf-luz-to-build-122-mw-wind-farm-in-argentina/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.125711,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This article provides a comprehensive profile of the Fidelity MSCI Industrial Index ETF (FIDU), noting its focus on U.S. industrial stocks and its competitive pricing. It highlights FIDU's suitability for tactical shifts or sector rotation strategies rather than core portfolio allocation. The report also details FIDU's holdings, performance metrics, expense ratios, and ESG scores.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FIDU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140822"
+        },
+        {
+          "relevance_score": "0.640250",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135539"
+        },
+        {
+          "relevance_score": "0.617666",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146989"
+        },
+        {
+          "relevance_score": "0.601077",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115608"
+        },
+        {
+          "relevance_score": "0.633795",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112814"
+        }
+      ],
+      "time_published": "20181025T101045",
+      "title": "Fidelity MSCI Industrial Index ETF",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.933671",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://etfdb.com/etf/FIDU/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.17477,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This article provides a comprehensive profile of the ProShares Ultra Industrials (UXI) ETF, which offers 2x daily long leverage to the Dow Jones U.S. Industrials Index. It details the ETF's price, expenses, holdings, performance, and ESG scores. The report also includes technical analysis, volatility data, and comparisons with alternative ETFs in its category, emphasizing its suitability for short-term bullish investors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UXI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278426"
+        },
+        {
+          "relevance_score": "0.634556",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142854"
+        },
+        {
+          "relevance_score": "0.604815",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137008"
+        },
+        {
+          "relevance_score": "0.604859",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115619"
+        },
+        {
+          "relevance_score": "0.617633",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102668"
+        }
+      ],
+      "time_published": "20181025T054047",
+      "title": "ProShares Ultra Industrials",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.943538",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.822430",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://etfdb.com/etf/UXI/"
+    },
+    {
+      "authors": [
+        "Alexandr Vondra"
+      ],
+      "banner_image": "https://www.gisreportsonline.com/wp-content/uploads/2018/10/three-seas-initiative-bucharest-summit.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.226764,
+      "source": "GIS Reports",
+      "source_domain": "GIS Reports",
+      "summary": "The Three Seas Initiative, led by Poland, aims to foster regional integration among 12 Central and Eastern European EU member states to improve energy, transportation, and digitalization infrastructure. This effort seeks to overcome historical failures in regional cooperation and reduce vulnerabilities, particularly concerning Russian influence, by developing north-south infrastructure links. While facing challenges in funding and skepticism from some EU members, the initiative has gained support from the US and is working to secure EU backing and investment for numerous proposed projects.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.900919",
+          "ticker": "CEE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306482"
+        },
+        {
+          "relevance_score": "0.611545",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231110"
+        },
+        {
+          "relevance_score": "0.639718",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204013"
+        },
+        {
+          "relevance_score": "0.642773",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213264"
+        }
+      ],
+      "time_published": "20181009T020210",
+      "title": "The opportunities and threats for the Three Seas Initiative",
+      "topics": [
+        {
+          "relevance_score": "0.937497",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.805116",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.638722",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.gisreportsonline.com/r/three-seas-initiative/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.230646,
+      "source": "Investing.com",
+      "source_domain": "Investing.com",
+      "summary": "This article provides historical stock price data for the Vanguard Total World Bond ETF (BNDW), including daily, weekly, or monthly intervals of closing, opening, highest, and lowest prices, as well as price and percentage changes. It also summarizes key performance statistics and answers frequently asked questions about BNDW's recent performance and trading range.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BNDW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.031897"
+        },
+        {
+          "relevance_score": "0.617044",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312182"
+        },
+        {
+          "relevance_score": "0.611140",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234193"
+        },
+        {
+          "relevance_score": "0.612212",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337388"
+        },
+        {
+          "relevance_score": "0.647197",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331217"
+        }
+      ],
+      "time_published": "20180930T140944",
+      "title": "BNDW ETF Stock Price History",
+      "topics": [
+        {
+          "relevance_score": "0.939689",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.748713",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.investing.com/etfs/vanguard-total-world-bond-historical-data"
+    },
+    {
+      "authors": [
+        "PTI"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.366321,
+      "source": "ET EnergyWorld",
+      "source_domain": "ET EnergyWorld",
+      "summary": "GE Power secured a Rs 220-crore order to supply a gas turbine and generator for Hindustan Petroleum Corp Ltd's (HPCL) refinery expansion in Visakhapatnam. The order, placed by BHEL, will facilitate HPCL's capacity increase from 8.33 to 15 million tonnes per annum, with the GE 6F.03 gas turbine generating close to 60 MW of power and offering significant fuel savings. This marks the entry of GE's F-class technology into India's refinery segment, presenting future upgrade opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.321086",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008148"
+        },
+        {
+          "relevance_score": "0.927002",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.724505"
+        }
+      ],
+      "time_published": "20180821T141400",
+      "title": "GE to supply gas turbines for HPCL Vizag refinery expansion",
+      "topics": [
+        {
+          "relevance_score": "0.912843",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.836364",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://energy.economictimes.indiatimes.com/news/oil-and-gas/ge-to-supply-gas-turbines-for-hpcl-vizag-refinery-expansion/65486400"
+    },
+    {
+      "authors": [
+        "Craig Richard"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.058661,
+      "source": "Wind Power Monthly",
+      "source_domain": "Wind Power Monthly",
+      "summary": "A consortium led by Enlight Renewable Energy has secured funding for the 96MW Emek Habacha wind farm in the Golan Heights, Israel. The project will consist of thirty 3.2MW turbines, built by Minrav Holdings and Nextcom, and is expected to start construction in July 2018 for operations in 2021. Upon completion, it will be Israel\u2019s largest wind farm, providing significant annual revenue under a 20-year license.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.319084",
+          "ticker": "ENLT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.037625"
+        },
+        {
+          "relevance_score": "0.629130",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.147076"
+        }
+      ],
+      "time_published": "20180710T021700",
+      "title": "Israeli project secures funding",
+      "topics": [
+        {
+          "relevance_score": "0.940461",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.726203",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.windpowermonthly.com/article/1487419/israeli-project-secures-funding"
+    },
+    {
+      "authors": [
+        "Christian Roselund",
+        "John Fitzgerald Weaver"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.192202,
+      "source": "pv magazine USA",
+      "source_domain": "pv magazine USA",
+      "summary": "Southern Company's CEO Thomas A. Fanning announced at the BNEF Future of Energy Summit that the company aims to transition to \"low-to-no-carbon\" electricity sources by 2050, prioritizing nuclear power, renewables, and carbon capture and storage (CCS). However, the article highlights the murky details and contradictory aspects of this pledge, given the company's troubled history with costly nuclear and CCS projects. Critics argue that the proposed solutions are expensive, prone to failure, and may serve as a \"smokescreen\" rather than a genuine shift towards decarbonization, especially given the company's continued reliance on fossil gas with CCS.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.417390"
+        },
+        {
+          "relevance_score": "0.628145",
+          "ticker": "DUK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.146112"
+        },
+        {
+          "relevance_score": "0.619730",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.200473"
+        },
+        {
+          "relevance_score": "0.579964",
+          "ticker": "PCG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128762"
+        },
+        {
+          "relevance_score": "0.572625",
+          "ticker": "EIX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109791"
+        }
+      ],
+      "time_published": "20180409T032610",
+      "title": "Southern Company pledges \u201clow-to-no\u201d carbon electricity by 2050",
+      "topics": [
+        {
+          "relevance_score": "0.947650",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.638865",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://pv-magazine-usa.com/2018/04/09/southern-company-pledges-low-to-no-carbon-electricity-by-2050/"
+    },
+    {
+      "authors": [
+        "Lance Murray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.301907,
+      "source": "Dallas Innovates",
+      "source_domain": "Dallas Innovates",
+      "summary": "GE Transportation's Fort Worth locomotive plant is experiencing a resurgence in business due to new orders for refurbished and new locomotives from several railroads. This boost comes after a period of uncertainty for the plant, which had been facing a potential sale or spin-off of GE's locomotive division. The modernization program will also lead to increased hiring at the Fort Worth facility.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.888481",
+          "ticker": "NSC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315447"
+        },
+        {
+          "relevance_score": "0.890369",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338199"
+        }
+      ],
+      "time_published": "20180321T030123",
+      "title": "New Orders Stoke the Fortunes at GE Transportation Fort Worth Locomotive Plant",
+      "topics": [
+        {
+          "relevance_score": "0.932111",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.848581",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.716808",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.620766",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://dallasinnovates.com/new-orders-stoke-fortunes-ge-transportation-fort-worth-locomotive-plant/"
+    },
+    {
+      "authors": [
+        "Erin Ailworth"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.24857,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "A federal jury found Chinese wind-turbine maker Sinovel Wind Group Co. Ltd. guilty of stealing technology, specifically source code for turbine software, from its former U.S. supplier, American Superconductor Corp. (AMSC). This case is seen as a significant test for intellectual property disputes between the U.S. and China, highlighting a major legal victory for the Massachusetts-based company against its former biggest customer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMSC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.386305"
+        },
+        {
+          "relevance_score": "0.621725",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102423"
+        }
+      ],
+      "time_published": "20180124T014725",
+      "title": "Chinese Firm Found Guilty of Stealing Wind Technology From U.S. Supplier",
+      "topics": [
+        {
+          "relevance_score": "0.730219",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.811944",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.923173",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/chinese-firm-found-guilty-of-stealing-wind-technology-from-u-s-supplier-1516829326?gaa_at=eafs&gaa_n=AWEtsqcrmLg531F_GKJ4OrrwCixaukYJDe1MUlHas_C0UEK_DCZv9pgGnVqc&gaa_ts=69080cc8&gaa_sig=vrvBnzvZLyGr9wvqbI39IHqjT0Y8Pf25AXBFEzP7vZ5NOX58i_RH141IAkMmJJMbdWxN3gAruNKy11wNEm6MPQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Michelle Froese"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.26882,
+      "source": "Windpower Engineering & Development",
+      "source_domain": "Windpower Engineering & Development",
+      "summary": "ALLETE Clean Energy, a subsidiary of ALLETE Inc., has ordered 40-MW of wind turbines from GE Renewable Energy. These turbines qualify for 80% of the Production Tax Credit (PTC) and are expected to facilitate over 400 MW of additional qualified wind projects through 2021, boosting ALLETE Clean Energy's total wind project opportunity to approximately 1,500 MW. This purchase aligns with ALLETE's growth strategy and commitment to expanding renewable energy infrastructure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ALE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.476957"
+        },
+        {
+          "relevance_score": "0.844326",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329254"
+        },
+        {
+          "relevance_score": "0.740738",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263701"
+        },
+        {
+          "relevance_score": "0.604668",
+          "ticker": "ETR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115013"
+        },
+        {
+          "relevance_score": "0.640071",
+          "ticker": "PNW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139657"
+        }
+      ],
+      "time_published": "20180117T014703",
+      "title": "ALLETE orders PTC-qualifying wind turbines from GE",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.740519",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.windpowerengineering.com/allete-orders-ptc-qualifying-wind-turbines-ge/"
+    }
+  ],
+  "items": "11",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,46 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Joshua Smalley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.141736,
+      "source": "Windpower Engineering & Development",
+      "source_domain": "Windpower Engineering & Development",
+      "summary": "Linde has opened a plant that uses wind power to convert water into hydrogen, aiming to make hydrogen-fueled cars a viable alternative to battery-electric vehicles. This development, alongside Toyota's Mirai production and a standardized refueling network across Germany, addresses the three critical steps for hydrogen car adoption: generation, refueling, and vehicles. The article highlights the advantages of hydrogen cars, such as faster refueling and longer ranges, while acknowledging cost and infrastructure challenges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.995064",
+          "ticker": "LIN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439986"
+        },
+        {
+          "relevance_score": "0.604789",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.223689"
+        }
+      ],
+      "time_published": "20150710T085704",
+      "title": "Linde wind plant a necessary step in creating hydrogen-fueled cars",
+      "topics": [
+        {
+          "relevance_score": "0.925852",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.849287",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.windpowerengineering.com/linde-wind-plant-a-necessary-step-in-creating-hydrogen-fueled-cars/"
+    }
+  ],
+  "items": "1",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

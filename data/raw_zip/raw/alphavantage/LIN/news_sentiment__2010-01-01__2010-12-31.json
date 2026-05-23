@@ -1,0 +1,42 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.392423,
+      "source": "Gainesville Sun",
+      "source_domain": "Gainesville Sun",
+      "summary": "Hundreds of trash trucks in California are using clean fuel derived from garbage. The Altamont landfill transforms methane gas from decaying refuse into liquefied natural gas (LNG), supplying close to 500 Waste Management Inc. trucks. This innovative process helps reduce greenhouse gas emissions by capturing methane and producing fuel with less carbon dioxide than conventional gasoline, though the technology remains costly for widespread adoption.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.426663"
+        },
+        {
+          "relevance_score": "0.628744",
+          "ticker": "LIN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335815"
+        }
+      ],
+      "time_published": "20100105T200542",
+      "title": "Making gas from garbage",
+      "topics": [
+        {
+          "relevance_score": "0.903166",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.gainesville.com/story/news/nation-world/2010/01/05/making-gas-from-garbage/31737759007/"
+    }
+  ],
+  "items": "1",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

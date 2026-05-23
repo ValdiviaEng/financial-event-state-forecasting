@@ -1,0 +1,22 @@
+{
+  "artifact_schema_version": "stage7_contextual_bandit_config_v1",
+  "protocol": {
+    "protocol_id": "stage7_contextual_bandit_two_sided_topk_v1",
+    "seed": 1729,
+    "development_replay_uses_current_lockbox": false,
+    "post_lockbox_holdout_evaluation_allowed": true,
+    "final_execution_training_enabled_by_default": false
+  },
+  "basket_policy": {
+    "primary_k": 5,
+    "diagnostic_k": [3, 10]
+  },
+  "epsilon_policy": {
+    "primary_epsilon": 0.05,
+    "diagnostic_epsilon": [0.01, 0.1]
+  },
+  "output_policy": {
+    "live_buy_sell_signal_approved": false,
+    "bottom_k_wording": "downside_or_avoid_diagnostic_candidates"
+  }
+}

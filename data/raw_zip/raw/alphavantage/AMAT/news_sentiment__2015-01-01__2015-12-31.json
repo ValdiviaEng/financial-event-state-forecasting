@@ -1,0 +1,850 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Brett Molina"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.266441,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Semiconductor maker Lam Research announced its acquisition of fellow chipmaker KLA-Tencor for $10.6 billion, involving a mix of cash and stock. The deal is expected to close by mid-2016 and will create the second-largest semiconductor equipment company, according to Moody's Investors Service. This acquisition follows other significant deals in the chipmaking industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.738506",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102913"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.484806"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418097"
+        },
+        {
+          "relevance_score": "0.639004",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146528"
+        },
+        {
+          "relevance_score": "0.606255",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125995"
+        }
+      ],
+      "time_published": "20151021T075649",
+      "title": "Chip maker Lam Research acquires KLA-Tencor for $10.6B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.946810",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/tech/2015/10/21/chip-maker-lam-research-acquires-kla-tencor-106b/74319736/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.410494,
+      "source": "Semiconductor Today",
+      "source_domain": "Semiconductor Today",
+      "summary": "Qorvo Inc.'s Richardson, Texas location received the Corporate Innovation award at the Tech Titans 15th Anniversary Gala for its development of RF solutions and investment in the city. The award recognizes outstanding innovation and breakthrough technology within the industry. Qorvo is expanding its manufacturing facility in Richardson due to demand for its BAW filter technology, creating over 200 jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QRVO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.563213"
+        },
+        {
+          "relevance_score": "0.557688",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310424"
+        }
+      ],
+      "time_published": "20150826T092148",
+      "title": "Qorvo\u2019s Richardson, Texas location wins Corporate Innovation Award",
+      "topics": [
+        {
+          "relevance_score": "0.711212",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.835591",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.semiconductor-today.com/news_items/2015/aug/qorvo2_260815.shtml"
+    },
+    {
+      "authors": [
+        "Don Clark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.404934,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Applied Materials Inc. reported a 10% rise in third-quarter revenue and a 17% jump in new equipment orders, which was below analyst expectations. The company, a major producer of semiconductor manufacturing tools, also issued a weaker-than-projected forecast for the fiscal fourth quarter. This indicates a potential bearish trend for chip makers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.380413"
+        }
+      ],
+      "time_published": "20150813T075649",
+      "title": "Applied Materials\u2019 Revenue Fails to Meet Expectations",
+      "topics": [
+        {
+          "relevance_score": "0.934895",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.849689",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/applied-materials-gives-weak-guidance-1439497697?gaa_at=eafs&gaa_n=AWEtsqc2RO3qMXl8lmN8F0WFMR1CnFro0EJqxJrKghEQBytc5NQhGMvbFJCn&gaa_ts=6908635e&gaa_sig=mEMuKqeK0usGE9OpBIxBA1vyn_COlR1luuI_yL6xedw907PWktZtGMiwMPoVgCywbqp1hTYsl1Pba3cQqNPXsg%3D%3D"
+    },
+    {
+      "authors": [
+        "Bart Eshwar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.373798,
+      "source": "OfficeChai",
+      "source_domain": "OfficeChai",
+      "summary": "This article traces the journey of Sundar Pichai from his birth in Madras, India, through his education at IIT Kharagpur, Stanford, and Wharton, to his career at Google. It highlights his academic achievements, early career, and significant contributions to Google products, culminating in his appointment as CEO in 2015. The piece also touches on his diplomatic skills and personal life.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.723965",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110940"
+        },
+        {
+          "relevance_score": "0.901134",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.503168"
+        },
+        {
+          "relevance_score": "0.946452",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.520379"
+        }
+      ],
+      "time_published": "20150811T075650",
+      "title": "How A Chennai Boy Ended Up Becoming The CEO Of Google",
+      "topics": [
+        {
+          "relevance_score": "0.947242",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://officechai.com/stories/sundar-pichai-background/"
+    },
+    {
+      "authors": [
+        "Anton Shilov"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.050237,
+      "source": "KitGuru",
+      "source_domain": "KitGuru",
+      "summary": "Intel, reversing its previous stance, is now exploring the use of extreme ultraviolet (EUV) lithography for its 7nm manufacturing process due to challenges faced with multi-patterning methods at 14nm and 10nm. While EUV offers benefits like finer feature sizes and improved yield, the readiness of commercial-scale EUV scanners remains a concern. Intel hopes EUV will allow a return to a two-year production cycle for new process technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.983646",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128592"
+        },
+        {
+          "relevance_score": "0.628648",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116570"
+        },
+        {
+          "relevance_score": "0.569386",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.097783"
+        }
+      ],
+      "time_published": "20150716T084659",
+      "title": "Intel wants to use EUV lithography for 7nm process technology",
+      "topics": [
+        {
+          "relevance_score": "0.929011",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.830605",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.kitguru.net/components/cpu/anton-shilov/intel-wants-to-use-euv-lithography-for-7nm-process-technology/"
+    },
+    {
+      "authors": [
+        "Craig Wolf",
+        "Joseph Spector"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.203274,
+      "source": "The Poughkeepsie Journal",
+      "source_domain": "The Poughkeepsie Journal",
+      "summary": "GlobalFoundries has officially taken over IBM's semiconductor manufacturing business, including facilities in East Fishkill and Vermont, with approximately 5,000 IBM employees transferring to GlobalFoundries. This acquisition establishes GlobalFoundries as IBM's exclusive semiconductor processor technology provider for the next decade and marks IBM's exit from chip manufacturing to focus on systems and research. The deal is expected to bring new investment and a dedicated focus on chip production to the former IBM sites.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439664"
+        },
+        {
+          "relevance_score": "0.935821",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.258943"
+        },
+        {
+          "relevance_score": "0.645218",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104713"
+        },
+        {
+          "relevance_score": "0.560085",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.091153"
+        },
+        {
+          "relevance_score": "0.573006",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.056926"
+        }
+      ],
+      "time_published": "20150630T083659",
+      "title": "It's Day One as GlobalFoundries for ex-IBM plant",
+      "topics": [
+        {
+          "relevance_score": "0.932087",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.843938",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.703869",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.poughkeepsiejournal.com/story/money/2015/06/30/impacts-plentiful-ibm-globalfoundries-deal/29516915/"
+    },
+    {
+      "authors": [
+        "Mike Rogoway"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.098927,
+      "source": "OregonLive.com",
+      "source_domain": "OregonLive.com",
+      "summary": "Lattice Semiconductor, a long-standing Oregon tech company, moved its headquarters to downtown Portland and acquired Silicon Image for $600 million to reposition itself for a new era. The move aims to attract software engineering talent crucial for developing advanced programmable computer chips for consumer electronics, industrial equipment, and telecommunications. Despite investor concerns about the Silicon Image acquisition's initial performance and the company's stock underperforming the Nasdaq, CEO Darin Billerbeck is focused on growth through acquisitions rather than selling the company, especially as the FPGA market heats up.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LSCC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327685"
+        },
+        {
+          "relevance_score": "0.718648",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143616"
+        },
+        {
+          "relevance_score": "0.578086",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227272"
+        }
+      ],
+      "time_published": "20150628T090800",
+      "title": "Lattice Semiconductor brings Oregon's chip industry downtown",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.823845",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.748171",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.624558",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.oregonlive.com/silicon-forest/2015/06/lattice_semiconductor_brings_o.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.46866,
+      "source": "Department of Energy (.gov)",
+      "source_domain": "Department of Energy (.gov)",
+      "summary": "Applied Materials, with DOE funding, has developed an advanced epitaxial growth system for gallium nitride (GaN) LED devices. This system aims to decrease operating costs, increase internal quantum efficiency, and improve binning yields by using separate MOCVD chambers for each LED layer, a self-cleaning process, and hybrid vapor phase epitaxy (HVPE) technology. The new method addresses previous reproducibility issues with HVPE and features the largest reported chamber size in the industry, showing excellent run-to-run wavelength uniformity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.462091"
+        }
+      ],
+      "time_published": "20150625T075649",
+      "title": "Applied Materials Develops an Advanced Epitaxial Growth System to Bring Down LED Costs",
+      "topics": [
+        {
+          "relevance_score": "0.808312",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.710438",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.632715",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.energy.gov/eere/ssl/applied-materials-develops-advanced-epitaxial-growth-system-bring-down-led-costs"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.329606,
+      "source": "Koreabizwire",
+      "source_domain": "Koreabizwire",
+      "summary": "Lam Research announced its Kiyo\u00ae F Series conductor etch system is enabling the transition of 3D NAND and advanced DRAM into volume production. The Kiyo F Series leverages proprietary Mixed-Mode Pulsing (MMP) technology to deliver the performance needed for advanced memory applications while maintaining high productivity. This product has secured critical etch market positions in advanced memory, leading to increased market share and enabling higher trim rates for 3D NAND staircase etch and achieving critical depth control for advanced DRAM devices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.487510"
+        },
+        {
+          "relevance_score": "0.715962",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349615"
+        },
+        {
+          "relevance_score": "0.629781",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220267"
+        }
+      ],
+      "time_published": "20150518T085716",
+      "title": "Lam Research Kiyo\u00ae F Series Enables Critical Conductor Etch for Advanced Memory",
+      "topics": [
+        {
+          "relevance_score": "0.801757",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.702869",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "http://koreabizwire.com/lam-research-kiyo-f-series-enables-critical-conductor-etch-for-advanced-memory/35337"
+    },
+    {
+      "authors": [
+        "Chris Lange"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.196574,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Applied Materials Inc. (NASDAQ: AMAT) and Tokyo Electron terminated their proposed merger after the U.S. Department of Justice deemed their remedy proposal insufficient. In response, Applied Materials announced a $3 billion share repurchase program. Analysts have reacted by lowering price targets due to reduced earnings leverage expectations, although some maintain positive ratings based on strong fundamentals and valuation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010948"
+        },
+        {
+          "relevance_score": "0.641821",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.306457"
+        }
+      ],
+      "time_published": "20150428T115000",
+      "title": "Why Analysts Are Less Positive After Applied Materials Killed Its Merger",
+      "topics": [
+        {
+          "relevance_score": "0.902901",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.818481",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.710665",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://247wallst.com/technology-3/2015/04/28/why-analysts-are-less-positive-after-applied-materials-killed-its-merger/"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.100941,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "Applied Materials and Tokyo Electron Ltd. (TEL) have terminated their proposed $9.3 billion merger deal after encountering significant regulatory hurdles, primarily from the U.S. Department of Justice (DoJ). The DoJ feared the combined entity would create a near-monopoly in the fab tool business, limiting choices for chipmakers. Both companies, now fierce competitors once again, face the challenge of regaining market momentum lost during the prolonged merger process, with analysts noting wasted time and resources.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.225681"
+        },
+        {
+          "relevance_score": "0.611729",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128168"
+        },
+        {
+          "relevance_score": "0.604584",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146256"
+        },
+        {
+          "relevance_score": "0.613973",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105493"
+        },
+        {
+          "relevance_score": "0.618547",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102703"
+        }
+      ],
+      "time_published": "20150427T075649",
+      "title": "Analysis: Applied-TEL Scrap Merger",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.938227",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.816416",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/applied-tel-scrap-merger-plans/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.368965,
+      "source": "MultiVu",
+      "source_domain": "MultiVu",
+      "summary": "KLA-Tencor announced two new systems, CIRCL-AP and ICOS T830, designed for advanced semiconductor packaging technologies. These systems support wafer-level packaging by enabling all-surface inspection, metrology, and review at high throughput, and provide automated optical inspection of integrated circuit packages. They aim to help IC manufacturers and OSAT facilities address the challenges of finer feature sizes and tighter pitch requirements in innovative packaging techniques.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.469007"
+        },
+        {
+          "relevance_score": "0.631333",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212709"
+        }
+      ],
+      "time_published": "20150416T085638",
+      "title": "KLA-Tencor Introduces New Portfolio for Advanced Semiconductor Packaging",
+      "topics": [
+        {
+          "relevance_score": "0.936784",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.729164",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "http://www.multivu.com/players/English/7065554-kla-tencor-semiconductor-packaging/"
+    },
+    {
+      "authors": [
+        "Anton Shilov"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.261215,
+      "source": "KitGuru",
+      "source_domain": "KitGuru",
+      "summary": "TSMC is actively researching new materials and transistor structures for its sub-10nm fabrication processes, expected between 2017 and 2019. This push mirrors efforts by rivals Intel and Samsung, who are also exploring new technologies for 7nm chips and beyond. While cautious about specific details, TSMC emphasizes its work with ASML on Extreme Ultraviolet (EUV) lithography for future nodes, acknowledging the challenges involved.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.381308"
+        },
+        {
+          "relevance_score": "0.878426",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339005"
+        },
+        {
+          "relevance_score": "0.749036",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273305"
+        },
+        {
+          "relevance_score": "0.601745",
+          "ticker": "CDNS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127916"
+        }
+      ],
+      "time_published": "20150404T094236",
+      "title": "TSMC looking at new materials, transistor structures for sub-10nm tech",
+      "topics": [
+        {
+          "relevance_score": "0.800506",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.kitguru.net/components/anton-shilov/tsmc-looking-at-advanced-materials-new-transistor-technologies-for-sub-10nm-tech/"
+    },
+    {
+      "authors": [
+        "Jeff Dorsch"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.355824,
+      "source": "Electronics360",
+      "source_domain": "Electronics360",
+      "summary": "The semiconductor industry is buzzing about the potential readiness of Extreme Ultraviolet (EUV) lithography for chip production, following ASML Holding NV's announcement of orders from Taiwan Semiconductor Manufacturing Company Ltd. (TSMC) for advanced EUV systems. TSMC has achieved significant throughput milestones, exposing over 1,000 wafers in one day, indicating that EUV for 10-nanometer features might be closer to volume production than previously expected. Despite a history of delays and skepticism, ASML and its partners are addressing technical challenges, particularly with the light source, to make EUV a viable technology for next-generation logic, DRAM, and NAND flash memory production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.471177"
+        },
+        {
+          "relevance_score": "0.612007",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323068"
+        },
+        {
+          "relevance_score": "0.550587",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263365"
+        }
+      ],
+      "time_published": "20150225T094236",
+      "title": "Is EUV Lithography Finally Ready?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.925307",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://electronics360.globalspec.com/article/5049/is-euv-lithography-finally-ready"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.302134,
+      "source": "MultiVu",
+      "source_domain": "MultiVu",
+      "summary": "KLA-Tencor announced two new advanced metrology systems, Archer\u2122 500LCM and SpectraFilm\u2122 LD10, designed to support the development and production of 16nm and below IC devices. These systems enhance the company's 5D\u2122 patterning control solution by providing improved overlay error feedback and precise film thickness and stress measurements for complex device structures like FinFETs and 3D NAND. The new offerings aim to help chipmakers resolve patterning issues and drive yield in advanced IC manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431497"
+        },
+        {
+          "relevance_score": "0.639726",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220523"
+        },
+        {
+          "relevance_score": "0.599954",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244123"
+        }
+      ],
+      "time_published": "20150219T080000",
+      "title": "KLA-Tencor Extends its 5D\u2122 Patterning Control Solution with New Metrology Systems",
+      "topics": [
+        {
+          "relevance_score": "0.822426",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "http://www.multivu.com/players/English/7065553-kla-tencor-new-metrology-systems/"
+    },
+    {
+      "authors": [
+        "Anton Shilov"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.32851,
+      "source": "KitGuru",
+      "source_domain": "KitGuru",
+      "summary": "An analyst predicts that Samsung will significantly improve its contract semiconductor manufacturing business by producing chips for Nvidia and Qualcomm starting in Q2 this year, leveraging its 14nm FinFET fabrication process. This move comes as chip designers seek to diversify FinFET chip suppliers due to concerns about yields and manufacturing capacities at TSMC, a long-time Nvidia supplier.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425339"
+        },
+        {
+          "relevance_score": "0.731502",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312916"
+        },
+        {
+          "relevance_score": "0.608258",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205852"
+        },
+        {
+          "relevance_score": "0.554843",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263406"
+        },
+        {
+          "relevance_score": "0.589271",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333608"
+        }
+      ],
+      "time_published": "20150204T091159",
+      "title": "Samsung to produce chips for Nvidia, Qualcomm \u2013 analyst",
+      "topics": [
+        {
+          "relevance_score": "0.706511",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.kitguru.net/components/graphic-cards/anton-shilov/samsung-to-produce-chips-for-nvidia-analyst/"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.150917,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The semiconductor industry is facing challenges in replacing silicon as the channel material for future transistors at 10nm and 7nm. While germanium (Ge) and III-V materials were initially considered, complexities have led chipmakers to favor silicon-germanium (SiGe) for PFET and tensile silicon for NFET as an interim solution. The article discusses various integration methods like blanket and selective epitaxy, as well as alternative approaches such as wafer bonding, condensation, and melt/regrowth, highlighting the trade-offs and challenges associated with each.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.937388",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313933"
+        },
+        {
+          "relevance_score": "0.744987",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121811"
+        },
+        {
+          "relevance_score": "0.643114",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146748"
+        },
+        {
+          "relevance_score": "0.570437",
+          "ticker": "GLW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099823"
+        }
+      ],
+      "time_published": "20150122T075649",
+      "title": "Next Channel Materials?",
+      "topics": [
+        {
+          "relevance_score": "0.910884",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.841081",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/industry-to-rethink-channel-materials/"
+    },
+    {
+      "authors": [
+        "Anne Shields"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.322042,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article provides a detailed business overview of Applied Materials (AMAT), highlighting its position as the world's largest maker of semiconductor equipment by revenues. It discusses the company's core customers, reportable segments, and significant market shares, especially concerning its planned merger with Tokyo Electron. The article also mentions Applied Materials' key customers like Taiwan Semiconductor Manufacturing and Samsung Electronics, and its geographical revenue distribution.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.486483"
+        },
+        {
+          "relevance_score": "0.882249",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339758"
+        },
+        {
+          "relevance_score": "0.714302",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249704"
+        }
+      ],
+      "time_published": "20150114T124100",
+      "title": "Applied Materials: A detailed business overview",
+      "topics": [
+        {
+          "relevance_score": "0.916493",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.815407",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.743845",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/01/applied-materials-detailed-business-overview/"
+    }
+  ],
+  "items": "18",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,156 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.367013,
+      "source": "Cleanroom Technology",
+      "source_domain": "Cleanroom Technology",
+      "summary": "Taiwan Semiconductor Manufacturing Co (TSMC) has begun construction on its third 12-inch Gigafab, Fab 15, in Taiwan's Central Taiwan Science Park. This new facility will have a massive cleanroom area, a capacity exceeding 100,000 12-inch wafers per month, and will incorporate environmentally friendly concepts. The project represents an investment of over NT$300bn (US$9.4bn) and is expected to create 8,000 jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446851"
+        },
+        {
+          "relevance_score": "0.630803",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321507"
+        },
+        {
+          "relevance_score": "0.591372",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301717"
+        },
+        {
+          "relevance_score": "0.590492",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349087"
+        }
+      ],
+      "time_published": "20100819T195609",
+      "title": "TSMC starts construction of Gigafab in Taiwan",
+      "topics": [
+        {
+          "relevance_score": "0.913013",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.838186",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.704046",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://cleanroomtechnology.com/tsmc-starts-construction-of-gigafab-in-taiwan-56230"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.3099,
+      "source": "The Korea Times",
+      "source_domain": "The Korea Times",
+      "summary": "A technology theft case involving Samsung Electronics and Hynix Semiconductor, facilitated by Applied Materials Korea (AMK), has revealed illegal practices among domestic competitors. The incident, where AMK allegedly leaked Samsung's crucial chip-making technologies to Hynix, has raised concerns about industrial espionage and the potential for international leaks, prompting calls for stricter security measures and further investigations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.300238"
+        },
+        {
+          "relevance_score": "0.735062",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.441277"
+        },
+        {
+          "relevance_score": "0.609201",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.244049"
+        },
+        {
+          "relevance_score": "0.639424",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.240308"
+        }
+      ],
+      "time_published": "20100204T181900",
+      "title": "Tech Theft",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.635582",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.koreatimes.co.kr/opinion/editorial/20100204/tech-theft?top-stories-page=2"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.167245,
+      "source": "Semiconductor Today",
+      "source_domain": "Semiconductor Today",
+      "summary": "Veeco Instruments Inc. has launched its new TurboDisc K465i gallium nitride (GaN) MOCVD system for high-brightness LED production, which has already been qualified by beta-site customers and received orders from Asia Pacific. The system is designed for high productivity, best-in-class LED yields, and reduced cost of ownership, featuring patent-pending Uniform FlowFlange technology. This launch aims to meet the growing demand for HB-LEDs, with the market expected to reach $14.9 billion by 2013.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.336106",
+          "ticker": "VECO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003601"
+        },
+        {
+          "relevance_score": "0.626908",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205536"
+        },
+        {
+          "relevance_score": "0.562780",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.190032"
+        }
+      ],
+      "time_published": "20100119T200048",
+      "title": "Veeco launches TurboDisc K465i GaN MOCVD system",
+      "topics": [
+        {
+          "relevance_score": "0.935945",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709338",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.semiconductor-today.com/news_items/2010/JAN/VEECO_190110.htm"
+    }
+  ],
+  "items": "3",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

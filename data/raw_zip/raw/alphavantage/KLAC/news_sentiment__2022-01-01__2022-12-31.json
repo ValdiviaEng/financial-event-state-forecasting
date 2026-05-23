@@ -1,0 +1,3900 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Ailing Tan and James Mayger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.395508,
+      "source": "Bloomberg",
+      "source_domain": "Bloomberg",
+      "summary": "China's imports of semiconductor manufacturing equipment plummeted to $2.3 billion in November, the lowest level since May 2020, representing a more than 40% drop year-over-year. This decline is attributed to decreased electronics demand and stricter US export restrictions on advanced chip-making technology. Imports from major suppliers like the US, Japan, and the Netherlands all saw double-digit reductions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.949749",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.499290"
+        },
+        {
+          "relevance_score": "0.813693",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.426844"
+        },
+        {
+          "relevance_score": "0.722198",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.392961"
+        },
+        {
+          "relevance_score": "0.639269",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.322726"
+        }
+      ],
+      "time_published": "20221222T042200",
+      "title": "China\u2019s Imports of Chip-Making Gear Drop to Lowest Since Mid-2020",
+      "topics": [
+        {
+          "relevance_score": "0.905749",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.804527",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.705942",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2022-12-22/china-s-imports-of-chip-making-gear-drop-to-lowest-since-mid-2020"
+    },
+    {
+      "authors": [
+        "MA SI"
+      ],
+      "banner_image": "https://img2.chinadaily.com.cn/images/202212/16/639badd5a31057c4b4b1c054.jpeg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.102335,
+      "source": "China Daily",
+      "source_domain": "China Daily",
+      "summary": "ASML, a Dutch semiconductor equipment maker, has questioned the US logic behind expanding chip-related restrictions on China, highlighting that these actions primarily benefit US companies and disrupt the global semiconductor industry. The company noted that while the Dutch government has restricted ASML's advanced lithography machine exports to China since 2019 under US pressure, US chip equipment suppliers continue to sell their more advanced products to Chinese customers. Experts argue that Washington's moves, based on national security concerns, are harming thousands of chip companies worldwide and creating uncertainty.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.309907",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.043213"
+        },
+        {
+          "relevance_score": "0.724811",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109848"
+        },
+        {
+          "relevance_score": "0.666448",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102003"
+        },
+        {
+          "relevance_score": "0.612197",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104252"
+        },
+        {
+          "relevance_score": "0.584641",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114425"
+        }
+      ],
+      "time_published": "20221216T072900",
+      "title": "ASML questions US logic on chip product trade restriction",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.849588",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.614949",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.chinadaily.com.cn/a/202212/16/WS639badd5a31057c47eba4a6f.html"
+    },
+    {
+      "authors": [
+        "Cagan Koc"
+      ],
+      "banner_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iZIGRGA93mfI/v1/-1x-1.webp",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.242657,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "ASML Holding NV's CEO, Peter Wennink, believes the company has already sacrificed enough due to existing restrictions on selling its extreme ultraviolet lithography (EUV) machines to China. Wennink argues that further export restrictions would disproportionately affect ASML, whose Chinese sales account for 15% of revenue, compared to over 25% for US chip-gear makers. He stated that the effective ban on EUV machines means ASML \"has already surrendered\" in that market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.338790",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001204"
+        },
+        {
+          "relevance_score": "0.603706",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317909"
+        },
+        {
+          "relevance_score": "0.648342",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327768"
+        },
+        {
+          "relevance_score": "0.645726",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334168"
+        },
+        {
+          "relevance_score": "0.647763",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347837"
+        }
+      ],
+      "time_published": "20221214T094000",
+      "title": "ASML\u2019s CEO Pushes Back on Further Export Restrictions to China",
+      "topics": [
+        {
+          "relevance_score": "0.808957",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.708125",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.648859",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2022-12-14/asml-has-given-up-enough-with-existing-bans-to-china-ceo-says"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/CD7HGVHJBJNN7PSCAL4HMKSFZI.jpg?auth=0796f9599ee90e862f4be070bcad0de16a9b64f9c67e13a602c02d92a111a163&width=1080&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.18839,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "ASML CEO Peter Wennink questioned the effectiveness of U.S. export restrictions on chip equipment to China, stating that ASML has already made sacrifices by not exporting its most advanced lithography machines since 2019. He highlighted a discrepancy where U.S. companies sell more advanced chips to China, while ASML is restricted to older equipment, and noted that chip technology for military use is often 10-15 years old and still sellable to China. Wennink's comments underscore the frustration of a key European supplier caught between U.S. attempts to curb China's technological advancement and its own business interests.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335413",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042269"
+        },
+        {
+          "relevance_score": "0.602778",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238583"
+        },
+        {
+          "relevance_score": "0.646852",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214579"
+        },
+        {
+          "relevance_score": "0.624821",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234486"
+        }
+      ],
+      "time_published": "20221213T112400",
+      "title": "Dutch chip equipment maker ASML's CEO questions U.S. export rules on China -newspaper",
+      "topics": [
+        {
+          "relevance_score": "0.905769",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.837811",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.reuters.com/technology/ceo-dutch-chip-equipment-maker-asml-questions-us-imposed-export-rules-china-2022-12-13/"
+    },
+    {
+      "authors": [
+        "Alfonso Maruccia"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.422904,
+      "source": "TechSpot",
+      "source_domain": "TechSpot",
+      "summary": "The US government's export ban on chipmaking technology to China is expanding to include companies in the Netherlands and Japan, effectively cutting off China's access to advanced microchip manufacturing. This move targets key suppliers like ASML Holding NV and Tokyo Electron Ltd., severely impacting China's ambitions for self-sufficient high-performance microchip production. Analysts believe this will prevent China from developing a leading-edge semiconductor industry independently.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.393995"
+        },
+        {
+          "relevance_score": "0.865866",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.423776"
+        },
+        {
+          "relevance_score": "0.851721",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.429551"
+        }
+      ],
+      "time_published": "20221213T091800",
+      "title": "China export ban for chipmaking machines extends to Netherlands and Japan",
+      "topics": [
+        {
+          "relevance_score": "0.900764",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.700747",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.618999",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.techspot.com/news/96946-china-export-ban-chipmaking-machines-extends-netherlands-japan.html"
+    },
+    {
+      "authors": [
+        "Gary Clyde Hufbauer and Megan Hogan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.016119,
+      "source": "The Strategist | ASPI's analysis and commentary site",
+      "source_domain": "The Strategist | ASPI's analysis and commentary site",
+      "summary": "The article discusses how Washington's semiconductor sanctions on China, aimed at hindering its military modernization, will likely not achieve their long-term goal. While these controls create short-term challenges for China's tech sector and impact US chipmakers' revenues, China's \"whole of the nation\" approach and focus on less sophisticated chips for military systems suggest it will adapt and find alternatives. The author also notes the significant financial impact on US semiconductor companies and warns of potential escalation in US-China tech tensions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.323893",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007488"
+        }
+      ],
+      "time_published": "20221212T172625",
+      "title": "Washington\u2019s semiconductor sanctions won\u2019t slow China\u2019s military build-up",
+      "topics": [
+        {
+          "relevance_score": "0.940059",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.847550",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.731683",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.644004",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.aspistrategist.org.au/washingtons-semiconductor-sanctions-wont-slow-chinas-military-build-up/"
+    },
+    {
+      "authors": [
+        "Takashi Mochizuki",
+        "Cagan Koc",
+        "and Peter Elstrom"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.206722,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Japan and the Netherlands have reportedly agreed in principle to align with the United States in restricting the export of advanced chipmaking machinery to China. This move aims to hinder Beijing's technological ambitions and prevent its military from acquiring state-of-the-art semiconductors. An official announcement from Japan and the Netherlands is expected in upcoming weeks, detailing their adoption of measures similar to those implemented by the US in October.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.813811",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.248608"
+        },
+        {
+          "relevance_score": "0.704533",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.209851"
+        },
+        {
+          "relevance_score": "0.736109",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.236971"
+        },
+        {
+          "relevance_score": "0.636617",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.195387"
+        },
+        {
+          "relevance_score": "0.558503",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.121641"
+        }
+      ],
+      "time_published": "20221212T135700",
+      "title": "Japan to Join US Effort to Tighten Chip Exports to China",
+      "topics": [
+        {
+          "relevance_score": "0.821662",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.610931",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.630785",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2022-12-12/japan-is-said-to-join-us-effort-to-tighten-chip-exports-to-china"
+    },
+    {
+      "authors": [
+        "TheLostSwede"
+      ],
+      "banner_image": "https://tpucdn.com/img/S7DTCbEpAZDV38r7_thm.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309812,
+      "source": "TechPowerUp",
+      "source_domain": "TechPowerUp",
+      "summary": "The global semiconductor industry is expected to invest over $500 billion in 84 new chipmaking facilities between 2021 and 2023, driven by demand from automotive and high-performance computing sectors. This surge in investment, supported by government incentives in various regions, aims to expand production capacity and strengthen supply chains worldwide. The Americas, China, and Europe/Mideast are projected to see significant construction of new facilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.744779",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349555"
+        },
+        {
+          "relevance_score": "0.732879",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321750"
+        },
+        {
+          "relevance_score": "0.624889",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.258412"
+        },
+        {
+          "relevance_score": "0.623587",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259944"
+        },
+        {
+          "relevance_score": "0.568025",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249036"
+        }
+      ],
+      "time_published": "20221212T132400",
+      "title": "Global Chip Industry Projected to Invest More Than $500 Billion in New Factories by 2024",
+      "topics": [
+        {
+          "relevance_score": "0.915208",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.822787",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.techpowerup.com/302091/global-chip-industry-projected-to-invest-more-than-usd-500-billion-in-new-factories-by-2024"
+    },
+    {
+      "authors": [
+        "Louis Castel"
+      ],
+      "banner_image": "https://www.azonano.com/images/Article_Images/ImageForArticle_6319_16708425597924836.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.494454,
+      "source": "AZoNano",
+      "source_domain": "AZoNano",
+      "summary": "This article details how the Filmetrics F10-RT-UVX Thin-Film Analyzer, combined with FILMeasure software, can accurately measure the thickness of individual layers in massive multilayer dielectric stacks. It highlights the system's ability to analyze complex, unknown film stacks, identifying the number of layers, refractive index, and thickness of each layer by utilizing both reflectance and transmittance spectra. The study successfully demonstrated the measurement of 53 individual layers, overcoming challenges associated with thick and complicated film stacks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.453372"
+        }
+      ],
+      "time_published": "20221209T052917",
+      "title": "How to Measure Film Thickness for Massive Multilayer Dielectric Stacks",
+      "topics": [
+        {
+          "relevance_score": "0.906909",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.811065",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.azonano.com/article.aspx?ArticleID=6319"
+    },
+    {
+      "authors": [
+        "Peter Brown"
+      ],
+      "banner_image": "https://electronics360.globalspec.com/images/assets/045/19045/kla.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.426351,
+      "source": "Electronics360",
+      "source_domain": "Electronics360",
+      "summary": "KLA Corp. has introduced the Axion T2000, an X-ray metrology system designed for inline process control in advanced 3D NAND and DRAM semiconductor manufacturing. This system uses transmissive X-ray technology to generate 3D visualizations of high aspect ratio structures, helping to detect small shape anomalies that can impact memory chip performance. The Axion T2000 is crucial for ensuring the successful production of memory chips used in applications such as 5G, AI, data centers, and edge computing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442382"
+        }
+      ],
+      "time_published": "20221209T052917",
+      "title": "KLA launches advanced memory chip X-ray metrology system",
+      "topics": [
+        {
+          "relevance_score": "0.809776",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://electronics360.globalspec.com/article/19045/kla-launches-advanced-memory-chip-x-ray-metrology-system"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.267445,
+      "source": "Taiwan Semiconductor",
+      "source_domain": "Taiwan Semiconductor",
+      "summary": "TSMC announced significant updates for its Arizona fabs, including starting construction on a second fab for 3nm production by 2026, bringing the total investment to approximately US$40 billion. The two fabs are projected to create 10,000 high-paying jobs and produce over 600,000 wafers annually. TSMC also plans an on-site Industrial Water Reclamation Plant for near zero liquid discharge, aiming for the greenest semiconductor manufacturing facility in the US.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429482"
+        },
+        {
+          "relevance_score": "0.736154",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312700"
+        },
+        {
+          "relevance_score": "0.686169",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267707"
+        },
+        {
+          "relevance_score": "0.643315",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213205"
+        },
+        {
+          "relevance_score": "0.564016",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211816"
+        }
+      ],
+      "time_published": "20221206T185714",
+      "title": "TSMC Announces Updates for TSMC Arizona",
+      "topics": [
+        {
+          "relevance_score": "0.920560",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.828860",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.625585",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.644875",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://pr.tsmc.com/english/news/2977"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://mma.prnewswire.com/media/806571/KLA_Corporation_Logo.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.311184,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA Corporation (NASDAQ: KLAC) announced the launch of its new Axion\u00ae T2000 X-ray metrology system designed for advanced memory chip manufacturers. This revolutionary system extends KLA's metrology portfolio by addressing vertical scaling challenges in memory chip manufacturing, particularly for 3D NAND and DRAM chips. The Axion T2000 utilizes patented transmissive X-ray technology to provide high-resolution measurements of critical dimensions and 3D shapes, aiding in process control and improving yield in high-volume production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.486351"
+        },
+        {
+          "relevance_score": "0.717642",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328231"
+        },
+        {
+          "relevance_score": "0.610618",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255784"
+        },
+        {
+          "relevance_score": "0.592658",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224556"
+        }
+      ],
+      "time_published": "20221206T160500",
+      "title": "KLA Launches Revolutionary X-Ray Metrology System",
+      "topics": [
+        {
+          "relevance_score": "0.946304",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.807427",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-launches-revolutionary-x-ray-metrology-system-301696125.html"
+    },
+    {
+      "authors": [
+        "Laura Peters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.298984,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "At advanced process nodes, systematic yield issues have replaced random defects as the primary concern in semiconductor manufacturing, demanding increased time, effort, and cost for sufficient yield. The article highlights the critical need for advanced methodologies, including pattern recognition, machine learning, and real-time analysis, to identify and resolve these complex systematic defects. Companies like GlobalFoundries, Nova, and Siemens EDA are implementing sophisticated techniques and tools, such as 3D metrology and ML-based spatial pattern recognition, to analyze vast amounts of data and expedite root cause analysis to maintain product yield and reliability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.919349",
+          "ticker": "ONTO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325494"
+        },
+        {
+          "relevance_score": "0.714969",
+          "ticker": "SNPS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319875"
+        },
+        {
+          "relevance_score": "0.648559",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315865"
+        },
+        {
+          "relevance_score": "0.636049",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221330"
+        }
+      ],
+      "time_published": "20221206T053755",
+      "title": "Systematic Yield Issues Now Top Priority At Advanced Nodes",
+      "topics": [
+        {
+          "relevance_score": "0.938218",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.806028",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/systematic-yield-issues-now-top-priority-at-advanced-nodes/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://bloximages.newyork1.vip.townnews.com/kvoa.com/content/tncms/assets/v3/editorial/d/df/ddf5ee38-70e6-11ed-ba6d-87fe6a38ce62/6387b2156f9bd.image.jpg?resize=400%2C225",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.349255,
+      "source": "KVOA",
+      "source_domain": "KVOA",
+      "summary": "President Joe Biden is scheduled to visit the Taiwan Semiconductor Manufacturing Company (TSMC) plant under construction in Phoenix, Arizona, on December 6. This visit follows Arizona securing the chip plant and aims to highlight how Biden's economic plan fosters a manufacturing boom, rebuilds supply chains, and creates jobs in the region. The TSMC plant is expected to create 1,600 direct jobs and thousands more among suppliers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.601170"
+        },
+        {
+          "relevance_score": "0.715181",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309031"
+        },
+        {
+          "relevance_score": "0.648122",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.217045"
+        },
+        {
+          "relevance_score": "0.565979",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207120"
+        },
+        {
+          "relevance_score": "0.568820",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212208"
+        }
+      ],
+      "time_published": "20221130T064818",
+      "title": "President Biden coming to Arizona for semiconductor manufacturing plant visit",
+      "topics": [
+        {
+          "relevance_score": "0.948707",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.815265",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.719138",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.633672",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.kvoa.com/news/local/president-biden-coming-to-arizona-for-semiconductor-manufacturing-plant-visit/article_8ee80bd2-70e6-11ed-a2d6-afcdf52c1a8a.html"
+    },
+    {
+      "authors": [
+        "BLOOMBERG"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.224458,
+      "source": "The Japan Times",
+      "source_domain": "The Japan Times",
+      "summary": "The Dutch Foreign Trade Minister, Liesje Schreinemacher, stated that the Netherlands will not uncritically adopt the U.S. approach to China export restrictions, emphasizing that they will make their own assessment in consultation with partner countries like Japan and the U.S. This marks the first public outlining of the Dutch stance on the issue and signals a potential challenge to the Biden administration's push for multilateral restrictions on advanced chip technologies to China.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.725120",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.218147"
+        }
+      ],
+      "time_published": "20221119T172626",
+      "title": "Dutch minister says U.S. can\u2019t dictate approach to China exports",
+      "topics": [
+        {
+          "relevance_score": "0.818110",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.703305",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.624495",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.japantimes.co.jp/news/2022/11/19/business/economy-business/netherlands-dutch-us-china-chips-export-rules/"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2022/11/19/P10-221119-319.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.04778,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "Applied Materials Inc. provided a better-than-expected sales forecast for the current quarter, indicating it can navigate an industry slowdown despite challenges like declining chip orders and US-China trade tensions. The company expects to lose up to $2.5 billion in fiscal 2023 revenue due to trade restrictions but is optimistic about outperforming the broader industry by resolving supply chain issues and leveraging continued customer spending on new technology. Its Q4 earnings and sales exceeded analyst expectations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297849"
+        },
+        {
+          "relevance_score": "0.581332",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103122"
+        },
+        {
+          "relevance_score": "0.595209",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109830"
+        },
+        {
+          "relevance_score": "0.621776",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001614"
+        },
+        {
+          "relevance_score": "0.644172",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013270"
+        }
+      ],
+      "time_published": "20221119T060011",
+      "title": "Applied Materials to weather slowdown, forecast shows",
+      "topics": [
+        {
+          "relevance_score": "0.902355",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.808811",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.705623",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.649643",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.630893",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2022/11/19/2003789200"
+    },
+    {
+      "authors": [
+        "Staff writer",
+        "with CNA"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2022/11/18/P11-221118-602.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.324998,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "ASML, a leading global supplier of chipmaking machinery, has announced plans for a new factory in New Taipei City, Taiwan, to support its international customers and the development of the semiconductor industry. This move comes after President Tsai Ing-wen praised ASML's continuous investment in Taiwan. The new facility will be ASML's largest investment in Taiwan to date and aims to enhance semiconductor capabilities through continued cooperation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434113"
+        },
+        {
+          "relevance_score": "0.613073",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318337"
+        },
+        {
+          "relevance_score": "0.583617",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.288872"
+        },
+        {
+          "relevance_score": "0.558156",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.254597"
+        }
+      ],
+      "time_published": "20221118T060129",
+      "title": "ASML announces plans for New Taipei City plant",
+      "topics": [
+        {
+          "relevance_score": "0.936445",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.825921",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.601015",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2022/11/18/2003789129"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2022/11/16/P11-221116-334.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.208812,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "ASML, a Dutch chip production equipment maker, is considering acquisitions to meet the surging global demand for advanced chips despite a broader sector downturn. CEO Peter Wennink announced the company's strong demand outlook and plans to expand its supplier base to support projected sales growth to \u20ac40 billion by 2025 and \u20ac60 billion by 2030, while also investing in South Korea. This comes as the U.S. pressures the Netherlands to limit chipmaking machine sales to China, a move Chinese President Xi Jinping urged against.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.317675",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041290"
+        },
+        {
+          "relevance_score": "0.649146",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343441"
+        },
+        {
+          "relevance_score": "0.626538",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210414"
+        },
+        {
+          "relevance_score": "0.638762",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236359"
+        },
+        {
+          "relevance_score": "0.618452",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102106"
+        }
+      ],
+      "time_published": "20221116T060129",
+      "title": "ASML eyes acquisitions to meet chipmaking demand",
+      "topics": [
+        {
+          "relevance_score": "0.909840",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.803712",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.700414",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.608537",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2022/11/16/2003788985"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/PVV5RMMVJJOVVHGN2422I4XPHY.jpg?auth=7ed54bdfa252d110a0dfd1ca3afa4f7fe4fec63ec09e8baabe81af6f1dd22926&width=1080&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.114256,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "ASML CEO Peter Wennink stated that the company's 2030 growth targets would not significantly change even if China were entirely excluded from its expansion plans. Wennink explained that while there might be a temporary impact, the underlying demand for chips would simply lead to fabrication plants being built elsewhere. This statement follows ASML's recent upgrade of its long-term forecasts for 2025 and 2030, projecting strong demand for its products and significant sales growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222608"
+        },
+        {
+          "relevance_score": "0.637012",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149983"
+        },
+        {
+          "relevance_score": "0.561742",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099061"
+        },
+        {
+          "relevance_score": "0.561089",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.089752"
+        },
+        {
+          "relevance_score": "0.585017",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.055139"
+        }
+      ],
+      "time_published": "20221111T151700",
+      "title": "ASML CEO: Would not change 2030 growth targets if China excluded",
+      "topics": [
+        {
+          "relevance_score": "0.920742",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.839056",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.623659",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.609914",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.reuters.com/technology/asml-ceo-would-not-change-2030-growth-targets-if-china-excluded-2022-11-11/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://i0.wp.com/macdailynews.com/wp-content/uploads/2022/03/220303_apple_logo.png?resize=640%2C293&ssl=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.06676,
+      "source": "MacDailyNews",
+      "source_domain": "MacDailyNews",
+      "summary": "Apple has appointed Timothy Campos, a startup founder and former Facebook executive, as its new Chief Information Officer. He will lead the Information Systems and Technology (IS&T) department, which is responsible for the infrastructure supporting Apple's online services, customer support, and website. This hire follows the retirements of Mary Demby, the current information chief, and her deputy, David Smoley.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.586390",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.090859"
+        },
+        {
+          "relevance_score": "0.962642",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106041"
+        },
+        {
+          "relevance_score": "0.815937",
+          "ticker": "META",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.084547"
+        },
+        {
+          "relevance_score": "0.629954",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096581"
+        }
+      ],
+      "time_published": "20221110T171500",
+      "title": "Apple hires former Facebook exec as its new chief information officer",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.703805",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://macdailynews.com/2022/11/10/apple-hires-former-facebook-exec-as-its-new-chief-information-officer/"
+    },
+    {
+      "authors": [
+        "Team TC"
+      ],
+      "banner_image": "https://assets.techcircle.in/uploads/article-image/2022/11/images/31166-timothy-campos.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.085629,
+      "source": "Techcircle",
+      "source_domain": "Techcircle",
+      "summary": "Apple has appointed Timothy Campos, a former Facebook executive, to head its information systems and technology (IS&T) department, replacing Mary Demby who is retiring. Campos previously worked at Facebook in a similar role and co-founded a calendar app acquired by Salesforce. This hiring occurs while Apple is experiencing other executive departures and has paused most hiring due to economic uncertainties.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.303771",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.018436"
+        },
+        {
+          "relevance_score": "0.926063",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138925"
+        },
+        {
+          "relevance_score": "0.723867",
+          "ticker": "META",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120060"
+        },
+        {
+          "relevance_score": "0.623897",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143370"
+        }
+      ],
+      "time_published": "20221110T062648",
+      "title": "Apple hires former Facebook exec to lead its information systems and technology",
+      "topics": [
+        {
+          "relevance_score": "0.848528",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techcircle.in/2022/11/10/apple-hires-former-facebook-exec-to-lead-its-information-systems-and-technology/"
+    },
+    {
+      "authors": [
+        "Filipe Esp\u00f3sito"
+      ],
+      "banner_image": "https://9to5mac.com/wp-content/uploads/sites/6/2023/12/Apple-Park.jpg?quality=82&strip=all&w=1600",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.057386,
+      "source": "9to5Mac",
+      "source_domain": "9to5Mac",
+      "summary": "Apple has hired Timothy Campos, a former Facebook executive, to lead its information systems and technology (IS&T) department. This move follows the retirement of Mary Demby, who previously headed the company's information systems for three decades. Campos's appointment comes at a time when Apple is also slowing down hiring in most areas outside of research and development.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.631569",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135165"
+        },
+        {
+          "relevance_score": "0.939220",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141925"
+        },
+        {
+          "relevance_score": "0.608909",
+          "ticker": "META",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113257"
+        },
+        {
+          "relevance_score": "0.600177",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113063"
+        }
+      ],
+      "time_published": "20221109T160900",
+      "title": "Apple hires former Facebook executive to lead its System Information team",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.649583",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://9to5mac.com/2022/11/09/apple-hires-former-facebook-executive-to-lead-its-system-information-team/"
+    },
+    {
+      "authors": [
+        "Omri Cohen"
+      ],
+      "banner_image": "https://res.cloudinary.com/globes/image/upload/t_desktop_article_content_header_800%2A392/v1644926660/direct/20220215124816_4L2A3869_uvgsch.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.05591,
+      "source": "Globes - Israel Business News",
+      "source_domain": "Globes - Israel Business News",
+      "summary": "Intel agreed to acquire Tower Semiconductor for $53 per share, but the market fears regulatory hurdles, especially from China and Japan, causing Tower's share price to drop significantly. The deal, valued at $5.4 billion at the time of agreement, needs approvals from multiple countries, including the US, China, Germany, Israel, Japan, the UK, and Italy. Analysts suggest that while regulatory risk exists, particularly with China due to US-China tensions, previous Israeli semiconductor acquisitions ultimately received Chinese approval, and Japan's hesitancy regarding M&A deals might be overcome as Intel plans to maintain operations there.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSEM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.238157"
+        },
+        {
+          "relevance_score": "0.839106",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216287"
+        },
+        {
+          "relevance_score": "0.613951",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128300"
+        },
+        {
+          "relevance_score": "0.634781",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124799"
+        }
+      ],
+      "time_published": "20221107T124400",
+      "title": "Tower Semiconductor: Opportunity or risk?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.805665",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://en.globes.co.il/en/article-tower-semiconductor-opportunity-or-risk-1001429020"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.22395,
+      "source": "South China Morning Post",
+      "source_domain": "South China Morning Post",
+      "summary": "US Commerce Secretary Gina Raimondo informed American chip-manufacturing equipment makers that it could take 6-9 months for an agreement with allies like the Netherlands and Japan to limit their sales of similar equipment to China. This delay means US companies, already bound by export controls impacting their revenue, will have to wait for a more level playing field with foreign competitors. The new restrictions aim to curb China's access to advanced chip technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.954746",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.277031"
+        },
+        {
+          "relevance_score": "0.850532",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.284394"
+        },
+        {
+          "relevance_score": "0.792100",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.240296"
+        },
+        {
+          "relevance_score": "0.577870",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.076449"
+        }
+      ],
+      "time_published": "20221104T110000",
+      "title": "US chip-gear makers told to wait for relief from China curbs",
+      "topics": [
+        {
+          "relevance_score": "0.819505",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.706768",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.641582",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.609758",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.scmp.com/tech/tech-war/article/3198382/us-chip-gear-makers-told-wait-relief-china-curbs"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://mma.prnewswire.com/media/806571/KLA_Corporation_Logo.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.211489,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA Corporation has appointed Robert Calderoni as the new chair of its Board of Directors, effective immediately. Calderoni, an independent director since 2007, brings over 30 years of technology industry experience. He succeeds Edward \"Ned\" Barnholt, who served as Board Chair since 2006.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.498468"
+        },
+        {
+          "relevance_score": "0.605139",
+          "ticker": "AVY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138198"
+        },
+        {
+          "relevance_score": "0.624154",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121611"
+        },
+        {
+          "relevance_score": "0.639011",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146808"
+        }
+      ],
+      "time_published": "20221102T170500",
+      "title": "KLA Corporation Announces Robert Calderoni as New Chair of the Board",
+      "topics": [
+        {
+          "relevance_score": "0.819725",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.739146",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-corporation-announces-robert-calderoni-as-new-chair-of-the-board-301666877.html"
+    },
+    {
+      "authors": [
+        "Lisa Wang"
+      ],
+      "banner_image": "https://img.taipeitimes.com/images/2022/10/28/p12-221028-009.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.260262,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "ASE Technology Holding Co, the world\u2019s largest chip testing and packaging service provider, reported record-high net profits last quarter but announced a 10% cut to its capital spending for the year, down to US$1.8 billion from US$2 billion, due to slowing demand and customer inventory digestion. The company expects next year's revenue to be flat due to an industry downturn and anticipates a seasonal revenue decline of 5-10% next quarter. Despite geopolitical tensions and US semiconductor curbs on China, ASE sees no material financial impact from the latter and is expanding EMS capacity outside China to meet customer requests.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340339",
+          "ticker": "ASX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.039143"
+        },
+        {
+          "relevance_score": "0.633669",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.327409"
+        },
+        {
+          "relevance_score": "0.609735",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.327019"
+        },
+        {
+          "relevance_score": "0.626931",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.307488"
+        },
+        {
+          "relevance_score": "0.600855",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.316828"
+        }
+      ],
+      "time_published": "20221028T065759",
+      "title": "ASE announces capital spending cuts",
+      "topics": [
+        {
+          "relevance_score": "0.916512",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.804525",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.739488",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.708888",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2022/10/28/2003787841"
+    },
+    {
+      "authors": [
+        "Chris Carlson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.341128,
+      "source": "Syracuse.com",
+      "source_domain": "Syracuse.com",
+      "summary": "President Joe Biden visited Syracuse to celebrate the federal government's efforts to boost semiconductor manufacturing, highlighted by Micron Technologies' plan for a $100 billion megafab plant in Central New York. During his speech at Onondaga Community College, Biden emphasized economic gains, including achievements in solar energy, low unemployment, and Medicare prescription caps, while also touching on manufacturing growth and student loan relief. The visit, just prior to the mid-term elections, underscored the impact of the CHIPS and Science Act, which provides $280 billion to support domestic semiconductor production, anticipated to create thousands of direct and indirect jobs in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438395"
+        },
+        {
+          "relevance_score": "0.630749",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306557"
+        },
+        {
+          "relevance_score": "0.581418",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.294091"
+        },
+        {
+          "relevance_score": "0.591112",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.296531"
+        }
+      ],
+      "time_published": "20221027T185000",
+      "title": "President Biden leaves Syracuse after Micron victory lap, speech on economic gains",
+      "topics": [
+        {
+          "relevance_score": "0.941922",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.802808",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.715797",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.632718",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.syracuse.com/news/2022/10/president-biden-leaves-syracuse-after-micron-victory-lap-speech-on-economic-gains.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.423876,
+      "source": "ESD.ny.gov.",
+      "source_domain": "ESD.ny.gov.",
+      "summary": "Governor Kathy Hochul and Micron Technology, Inc. welcomed President Joe Biden to Central New York to mark Micron's plan to invest up to $100 billion over 20-plus years in a memory megafab. This investment is supported by the State's Green CHIPS legislation and the federal CHIPS and Science Act, leading to the signing of a Community Investment Framework establishing a $500 million Green CHIPS Community Investment Fund. This fund will support workforce development, education, community assets, and affordable housing, creating nearly 50,000 New York jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.856008"
+        },
+        {
+          "relevance_score": "0.613425",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331602"
+        },
+        {
+          "relevance_score": "0.574062",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255667"
+        },
+        {
+          "relevance_score": "0.597037",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.282437"
+        }
+      ],
+      "time_published": "20221027T174631",
+      "title": "Governor Hochul and Micron Welcome President Biden to Central New York Marking Milestone Local Community and Workforce Commitments | Empire State Development",
+      "topics": [
+        {
+          "relevance_score": "0.924974",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.826121",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.741903",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.631880",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://esd.ny.gov/esd-media-center/press-releases/governor-hochul-and-micron-welcome-president-biden-to-central-new-york"
+    },
+    {
+      "authors": [
+        "YIFAN YU"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.442079,
+      "source": "Nikkei Asia",
+      "source_domain": "Nikkei Asia",
+      "summary": "KLA, a leading chipmaking equipment supplier, anticipates a significant revenue reduction of up to $900 million in 2023 due to recent U.S. restrictions on semiconductor exports to China. Despite strong sales in the July-September quarter, the company highlighted the severe impact of these new export curbs on its future financial performance. This report comes amid broader concerns for major U.S. chipmaking tool suppliers affected by the China chip ban.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.402833"
+        }
+      ],
+      "time_published": "20221027T064600",
+      "title": "KLA estimates up to $900m revenue hit in 2023 from China chip ban",
+      "topics": [
+        {
+          "relevance_score": "0.904140",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.827294",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.740894",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://asia.nikkei.com/business/tech/semiconductors/kla-estimates-up-to-900m-revenue-hit-in-2023-from-china-chip-ban"
+    },
+    {
+      "authors": [
+        "Dennis Dahlgren"
+      ],
+      "banner_image": "https://evertiq.com/th/n700x300nimgproductionSMIC_engineers-working.webp",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.351527,
+      "source": "Evertiq",
+      "source_domain": "Evertiq",
+      "summary": "New US export regulations, specifically restricting American residents' involvement in Chinese semiconductor fabs and limiting equipment supply to advanced fabs in China, are significantly impacting the Chinese semiconductor industry. These rules have caused an exodus of American talent, including high-level management, and are making it much harder for companies like SMIC, YMTC, and CXMT to acquire essential manufacturing equipment and support. As a result, China's efforts to develop advanced silicon manufacturing capabilities are facing considerable challenges, potentially leading to a focus on advanced semiconductor packaging like chiplet technology as a workaround.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.412589"
+        },
+        {
+          "relevance_score": "0.833881",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.332622"
+        },
+        {
+          "relevance_score": "0.831402",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.301115"
+        },
+        {
+          "relevance_score": "0.709377",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.268585"
+        }
+      ],
+      "time_published": "20221025T065624",
+      "title": "The impact of US sanctions on the Chinese semiconductor landscape",
+      "topics": [
+        {
+          "relevance_score": "0.908848",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.705004",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.625765",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://evertiq.com/news/52685"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://mma.prnewswire.com/media/806571/KLA_Corporation_Logo.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.815717,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA Corporation introduced its new Orbotech Corus\u2122 8M direct imaging (DI) solution, an all-in-one platform designed to support continued innovation for PCBs and IC substrates. This system offers increased resolution and accuracy for patterning finer lines, featuring highly efficient double-sided imaging in a fully automated setup. The Orbotech Corus 8M is optimized for high throughput, enabling the production of IC substrates and advanced HDIs for high-performance applications with improved line precision and uniformity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.825767"
+        }
+      ],
+      "time_published": "20221024T161900",
+      "title": "KLA Launches New Double-Sided Direct Imaging Platform Supporting Continued Innovation for PCBs and IC Substrates",
+      "topics": [
+        {
+          "relevance_score": "0.914401",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.846880",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-launches-new-double-sided-direct-imaging-platform-supporting-continued-innovation-for-pcbs-and-ic-substrates-301657713.html"
+    },
+    {
+      "authors": [
+        "Assaf Gilead"
+      ],
+      "banner_image": "https://images.globes.co.il/images/convert_author.gif",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.025042,
+      "source": "Globes",
+      "source_domain": "Globes",
+      "summary": "The US-China chip war is impacting Israel's tech sector, forcing Israeli chipmakers and startups to navigate new US export controls designed to prevent China from gaining a military advantage through advanced semiconductors. Companies like Applied Materials and Nova Measuring Instruments are already experiencing significant revenue losses and share price drops due to these restrictions. The situation is complicated for Israeli firms, requiring them to reassess their ties with the US and potentially apply for exemptions from the Commerce Department to continue operating in China.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.922667",
+          "ticker": "TSEM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148824"
+        },
+        {
+          "relevance_score": "0.897881",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029727"
+        },
+        {
+          "relevance_score": "0.805177",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.020949"
+        },
+        {
+          "relevance_score": "0.784170",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.124325"
+        },
+        {
+          "relevance_score": "0.713967",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142966"
+        }
+      ],
+      "time_published": "20221024T074448",
+      "title": "US-China chip war causing collateral damage in Israel",
+      "topics": [
+        {
+          "relevance_score": "0.913216",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.844091",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.626044",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.626030",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://en.globes.co.il/en/article-us-china-chip-war-causing-collateral-damage-in-israel-1001427559"
+    },
+    {
+      "authors": [
+        "Du Zhihang",
+        "Liu Peilin",
+        "Zhai Shaohui",
+        "Tan Min",
+        "Qu Yunxu",
+        "Zhang Erchi",
+        "Denise Jia",
+        "Hu Jingyi"
+      ],
+      "banner_image": "https://image5.sixthtone.com/image/5/59/290.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.329908,
+      "source": "Sixth Tone",
+      "source_domain": "Sixth Tone",
+      "summary": "New U.S. restrictions on semiconductor sales, chipmaking equipment, and supercomputer parts are significantly impacting China's chip industry, causing a potential brain drain as American personnel face tough choices. While these policies aim to curb China's technological ambitions, they are also a \"double-edged sword\" for U.S. companies that rely on the Chinese market. Experts suggest these measures could accelerate China's push for self-sufficiency in semiconductors and shift focus towards mature chip technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.849496",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.238663"
+        },
+        {
+          "relevance_score": "0.817434",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.300655"
+        },
+        {
+          "relevance_score": "0.834293",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.311300"
+        },
+        {
+          "relevance_score": "0.820405",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.336771"
+        },
+        {
+          "relevance_score": "0.742271",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.347981"
+        }
+      ],
+      "time_published": "20221018T065622",
+      "title": "The Sweeping Impact of New U.S. Semiconductor Restrictions",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.832057",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.716949",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.sixthtone.com/news/1011425"
+    },
+    {
+      "authors": [
+        "Che Pan",
+        "Ann Cao",
+        "Tracy Qu"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.177295,
+      "source": "South China Morning Post",
+      "source_domain": "South China Morning Post",
+      "summary": "ASML Holdings and Lam Research are quickly withdrawing American engineers from their operations in China to comply with new US trade restrictions targeting China's semiconductor industry. ASML, a monopolist in EUV lithography systems, has restricted US employees from serving Chinese clients, while Lam Research and KLA Corp have pulled US engineers from supporting equipment in China. These new regulations are expected to severely disrupt China's chip industry due to the crucial role US personnel play within it.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.408813"
+        },
+        {
+          "relevance_score": "0.979988",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.424913"
+        },
+        {
+          "relevance_score": "0.722916",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.095532"
+        },
+        {
+          "relevance_score": "0.624355",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.094274"
+        },
+        {
+          "relevance_score": "0.566303",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.094703"
+        }
+      ],
+      "time_published": "20221014T080000",
+      "title": "ASML, Lam Research rush to pull US engineers out of China amid new regulations",
+      "topics": [
+        {
+          "relevance_score": "0.918210",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.821565",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732800",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.645998",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.scmp.com/tech/tech-war/article/3195875/tech-war-asml-lam-research-rush-pull-us-engineers-out-china-chip"
+    },
+    {
+      "authors": [
+        "Yoo-Chung Roh and Sungsu Bae"
+      ],
+      "banner_image": "https://www.kedglobal.com/data/ked/image/2022/10/12/ked202210120005.700x.0.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.305673,
+      "source": "KED Global",
+      "source_domain": "KED Global",
+      "summary": "KLA Corp. will cease supplying certain chip tools and services to customers in China, including SK Hynix Inc., to comply with new U.S. regulations. These regulations require companies to obtain a license from the U.S. Department of Commerce to provide advanced manufacturing equipment to Chinese chipmakers, impacting companies like SK Hynix and Samsung Electronics which operate factories in China. KLA's decision affects sales and service for advanced fabs producing NAND, DRAM, and logic chips, with China representing a significant portion of KLA's revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309774"
+        },
+        {
+          "relevance_score": "0.635987",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.313309"
+        },
+        {
+          "relevance_score": "0.635096",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.307632"
+        },
+        {
+          "relevance_score": "0.643985",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222161"
+        },
+        {
+          "relevance_score": "0.632095",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.246592"
+        }
+      ],
+      "time_published": "20221012T110931",
+      "title": "KLA to stop chip tool supply to customers in China: Report",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.937576",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.813854",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202210120008"
+    },
+    {
+      "authors": [
+        "Ji-Eun Jeong and Jeong-Soo Hwang"
+      ],
+      "banner_image": "https://www.kedglobal.com/data/ked/image/2022/10/12/ked202210120035.700x.0.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.152436,
+      "source": "KED Global",
+      "source_domain": "KED Global",
+      "summary": "The US has granted Samsung Electronics and SK Hynix a one-year waiver to import semiconductor equipment into their Chinese factories, temporarily easing concerns over the impact of new US export curbs. This decision aims to mitigate potential disruptions to the US semiconductor industry and global supply chains, but South Korean chipmakers remain in a precarious position between US regulations and their significant market presence in China. The long-term implications, including technology competitiveness and potential license requirements after the grace period, are still a concern for the companies involved.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.937349",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338369"
+        },
+        {
+          "relevance_score": "0.888660",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.280332"
+        },
+        {
+          "relevance_score": "0.897863",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149580"
+        },
+        {
+          "relevance_score": "0.739191",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317043"
+        },
+        {
+          "relevance_score": "0.619069",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.096205"
+        }
+      ],
+      "time_published": "20221012T065624",
+      "title": "US to allow Samsung, SK Hynix to import to China for 1 year",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.831981",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.732100",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202210120022"
+    },
+    {
+      "authors": [
+        "Josh Horwitz"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-2.images.arcpublishing.com%2Freuters%2F2U4C2P2UCNL5NL7HPZ4B266YVA.JPG?auth=5c0b11aaae33527a20c3866299b9cf2a7b21950d2448ca3a62ae5af46e4d6a59&width=1200&height=675&quality=80&smart=true",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.017317,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "U.S. chip toolmaker KLA Corp (KLAC.O) will cease offering certain supplies and services to China-based customers, including SK Hynix, starting Wednesday due to recent U.S. export regulations. This move is a direct response to sweeping U.S. export controls aimed at slowing China's advanced chip manufacturing progress, significantly impacting KLA, which generated nearly 30% of its total revenue from China in the last fiscal year. The new regulations require U.S. companies to obtain licenses to supply advanced manufacturing equipment to Chinese chipmakers, affecting major players like Intel and SK Hynix with fabs in China.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314069",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.043623"
+        }
+      ],
+      "time_published": "20221011T075800",
+      "title": "Exclusive: KLA to stop sales and service to China to comply with U.S. export curbs",
+      "topics": [
+        {
+          "relevance_score": "0.924777",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.821260",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.727394",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.640502",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/world/china/exclusive-kla-stop-sales-service-china-comply-with-us-export-curbs-source-2022-10-11/"
+    },
+    {
+      "authors": [
+        "Stephen Nellis",
+        "Karen Freifeld and Alexandra Alper"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fwww.reuters.com%2Fpf%2Fresources%2Fimages%2Freuters%2Flogo_US%2FRSS_logo.png%3Fw%3D1280%26h%3D1280%26fit%3Dcrop%26crop%3Dcenter",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.381865,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "The Biden administration has enacted broad new export controls to impede China's chip industry, specifically targeting its access to advanced semiconductors made with U.S. equipment. These measures expand prior restrictions and are designed to slow Beijing's technological and military advancements, although their effectiveness relies on international cooperation. The rules are expected to significantly impact China's chip manufacturing capabilities, potentially setting the industry back years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.416409"
+        },
+        {
+          "relevance_score": "0.826421",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.428629"
+        },
+        {
+          "relevance_score": "0.805408",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.440042"
+        },
+        {
+          "relevance_score": "0.748324",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.328049"
+        },
+        {
+          "relevance_score": "0.710878",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.329960"
+        }
+      ],
+      "time_published": "20221010T094000",
+      "title": "U.S. aims to hobble China's chip industry with sweeping new export rules",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.809328",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.720834",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.628366",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/technology/us-aims-hobble-chinas-chip-industry-with-sweeping-new-export-rules-2022-10-07/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.384675,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "The Biden administration has enacted sweeping new export controls designed to significantly impede China's semiconductor industry. These rules aim to cut China off from certain chips made with U.S. tools globally and restrict the sale of advanced chip-making equipment, potentially setting China's chip manufacturing back by years. The U.S. acknowledges that the effectiveness of these unilateral controls depends on allied nations adopting similar measures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.453437"
+        },
+        {
+          "relevance_score": "0.881570",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.421432"
+        },
+        {
+          "relevance_score": "0.805482",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.404110"
+        },
+        {
+          "relevance_score": "0.712785",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.300299"
+        },
+        {
+          "relevance_score": "0.696121",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309933"
+        }
+      ],
+      "time_published": "20221007T134500",
+      "title": "U.S. aims to hobble China\u2019s chip industry with sweeping new export rules",
+      "topics": [
+        {
+          "relevance_score": "0.900464",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.845944",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.748045",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nbcnews.com/tech/security/us-aims-hobble-chinas-chip-industry-sweeping-new-export-rules-rcna51259"
+    },
+    {
+      "authors": [
+        "Morgan Shaver"
+      ],
+      "banner_image": "https://d1lss44hh2trtw.cloudfront.net/resize?type=webp&url=https%3A%2F%2Fshacknews-www.s3.amazonaws.com%2Fassets%2Farticle%2F2022%2F10%2F07%2Fchina-ymtc-added-to-us-chip-technology-export-limitations_feature.jpg&width=1032&sign=6ykTYrk9gqjmBRUNonGIic3ZgVYb_HQV1F2zAvLUhMo",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.026259,
+      "source": "Shacknews",
+      "source_domain": "Shacknews",
+      "summary": "The Biden administration has added Yangtze Memory Technologies (YMTC), one of China's top chipmakers, and 30 other Chinese companies to a blacklist, making them unable to receive sensitive technology exports from the U.S. This action follows calls from U.S. senators and an investigation into YMTC for potentially violating export conditions by selling chips to Huawei. These new export controls aim to curb China's military and technological advancements, potentially setting its chip manufacturing industry back significantly.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.332387",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010882"
+        }
+      ],
+      "time_published": "20221007T072337",
+      "title": "Biden expands U.S. semiconductor export limitations to more Chinese companies",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.929628",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.824935",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "http://www.shacknews.com/article/132590/us-chip-export-ban-china-escalates"
+    },
+    {
+      "authors": [
+        "Tim Knauss"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.292745,
+      "source": "Syracuse.com",
+      "source_domain": "Syracuse.com",
+      "summary": "Micron Technology's plan to build a $100 billion semiconductor fabrication campus near Syracuse promises thousands of high-paying tech jobs and significant regional growth. However, a major challenge lies in developing a skilled workforce to fill these specialized positions, requiring a concerted effort from educational institutions. The expansion also necessitates planning for infrastructure, housing, and social services to support the anticipated population influx and economic changes in the area.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.479875"
+        },
+        {
+          "relevance_score": "0.609710",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229339"
+        },
+        {
+          "relevance_score": "0.638358",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244036"
+        },
+        {
+          "relevance_score": "0.583356",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200349"
+        },
+        {
+          "relevance_score": "0.561472",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233618"
+        }
+      ],
+      "time_published": "20221007T060000",
+      "title": "Micron would change Syracuse area for decades to come. Are we up to the challenge?",
+      "topics": [
+        {
+          "relevance_score": "0.929033",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.841525",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.735779",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.639580",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.622713",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.syracuse.com/news/2022/10/micron-would-change-syracuse-area-for-decades-to-come-are-we-up-to-the-challenge.html"
+    },
+    {
+      "authors": [
+        "Mark Weiner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.373991,
+      "source": "Syracuse.com",
+      "source_domain": "Syracuse.com",
+      "summary": "Micron Technology plans to invest up to $100 billion to build a massive computer chip manufacturing complex in Clay, a Syracuse suburb, which is slated to be the largest single private investment in New York history. This project is expected to create 9,000 direct jobs and an additional 40,000 supply-chain and construction jobs over the next 20 years, significantly boosting the region's economy and establishing Central New York as a major semiconductor manufacturing hub. The decision comes after an intense effort by state, local, and federal officials, backed by over $6 billion in state and local incentives and the federal Chips and Science Act.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.533489"
+        },
+        {
+          "relevance_score": "0.710487",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301110"
+        },
+        {
+          "relevance_score": "0.612735",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346988"
+        },
+        {
+          "relevance_score": "0.569472",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316910"
+        },
+        {
+          "relevance_score": "0.570586",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332975"
+        }
+      ],
+      "time_published": "20221004T080000",
+      "title": "Micron picks Syracuse suburb for huge computer chip plant that would bring up to 9,000 jobs",
+      "topics": [
+        {
+          "relevance_score": "0.904607",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.803731",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747510",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.607066",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.638809",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.syracuse.com/business/2022/10/micron-picks-syracuse-suburb-for-huge-computer-chip-plant-that-would-bring-up-to-9000-jobs.html"
+    },
+    {
+      "authors": [
+        "Business Wire"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.389022,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Materion Corporation announced a $20 million investment in its recently acquired Newton, Massachusetts facility. These funds will significantly expand capacity for materials essential in semiconductor chip manufacturing and support the development of advanced logic chips. This investment follows Materion's successful integration of HCS-Electronic Materials in 2021, which has already led to increased output of tantalum products and a 27% growth in the site's workforce.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MTRN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.642593"
+        },
+        {
+          "relevance_score": "0.648056",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303683"
+        },
+        {
+          "relevance_score": "0.645120",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304647"
+        },
+        {
+          "relevance_score": "0.607201",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300017"
+        }
+      ],
+      "time_published": "20221004T072841",
+      "title": "Materion Announces $20M in Investments in Massachusetts Facility to Expand Capacity for the Semiconductor Industry",
+      "topics": [
+        {
+          "relevance_score": "0.808159",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.843978",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.725709",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/MTRN/pressreleases/10546765/materion-announces-20m-in-investments-in-massachusetts-facility-to-expand-capacity-for-the-semiconductor-industry/"
+    },
+    {
+      "authors": [
+        "Peter Clarke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.444246,
+      "source": "eeNews Europe",
+      "source_domain": "eeNews Europe",
+      "summary": "KLA Corp. is investing over $100 million to build a new R&D and manufacturing facility for its SPTS division in Newport, Wales. This expansion will create a 200,000 square foot facility, accommodating up to 750 employees, and is expected to be completed in early 2025. The investment aims to support SPTS's growth and leverage the region's talent pool and semiconductor competencies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422808"
+        }
+      ],
+      "time_published": "20220930T172625",
+      "title": "KLA to invest $100 million in Welsh subsidiary SPTS",
+      "topics": [
+        {
+          "relevance_score": "0.925786",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.811906",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.607737",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.eenewseurope.com/en/kla-to-invest-100-million-in-welsh-subsidiary-spts/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://mma.prnewswire.com/media/806571/KLA_Corporation_Logo.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.455213,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA Corporation announced plans to build a new $100 million research-and-development (R&D) and manufacturing facility in Newport, Wales, for its SPTS division. The 200,000 square foot state-of-the-art facility, designed to accommodate up to 750 employees, will support SPTS's growth and KLA's European organization while adhering to BREEAM excellent sustainability standards. This investment aims to further develop wafer processing solutions for high-growth industries like 5G, electric vehicles, and consumer electronics, leveraging the region's talent pool and semiconductor competencies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.470712"
+        }
+      ],
+      "time_published": "20220929T160500",
+      "title": "KLA Announces Plans to Build a New R&D and Manufacturing Facility in Newport, Wales",
+      "topics": [
+        {
+          "relevance_score": "0.926690",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.828055",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.729646",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-announces-plans-to-build-a-new-rd-and-manufacturing-facility-in-newport-wales-301637102.html"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://news.synopsys.com/image/MicrosoftTeams-image+%2824%29.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.317933,
+      "source": "Synopsys",
+      "source_domain": "Synopsys",
+      "summary": "Synopsys has introduced the industry's first unified hardware system for emulation and prototyping, the ZeBu EP1, offering flexible capacity for SoC verification and early software development. This system combines the functionality of emulation and prototyping, allowing chip and system development teams to dynamically shift capacity based on their needs. The ZeBu EP1 provides higher performance, faster compile times, and supports a wide range of advanced interface protocols, aiming to accelerate project schedules and improve verification cycles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SNPS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.527936"
+        },
+        {
+          "relevance_score": "0.607504",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299486"
+        },
+        {
+          "relevance_score": "0.610874",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248187"
+        },
+        {
+          "relevance_score": "0.558583",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233504"
+        },
+        {
+          "relevance_score": "0.553983",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205273"
+        }
+      ],
+      "time_published": "20220920T083740",
+      "title": "Synopsys Unveils Industry's First Unified Emulation and Prototyping System Addressing Verification Requirements Across the Chip Development Cycle",
+      "topics": [
+        {
+          "relevance_score": "0.942794",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.synopsys.com/2022-09-20-Synopsys-Unveils-Industrys-First-Unified-Emulation-and-Prototyping-System-Addressing-Verification-Requirements-Across-the-Chip-Development-Cycle"
+    },
+    {
+      "authors": [
+        "Karen Freifeld and Alexandra Alper"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/L4HOKSMT6FO2HFK2I74Y4QW3LM.jpg?auth=530dddd1cb866415bf30dfd32219760777174db9214777a83d47f12e873ca42d&width=960&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.048741,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "The Biden administration plans to broaden curbs on U.S. shipments of semiconductors for artificial intelligence and chipmaking tools to China, based on restrictions previously communicated to major U.S. chip companies. These new regulations aim to codify existing restrictions and expand their reach to other companies, potentially impacting the supply of advanced computing chips to China. The move is part of the U.S. strategy to limit China's technological advancements, particularly in areas crucial for its military modernization.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314226",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.034640"
+        }
+      ],
+      "time_published": "20220916T000300",
+      "title": "Exclusive: Biden to hit China with broader curbs on U.S. chip and tool exports -sources",
+      "topics": [
+        {
+          "relevance_score": "0.904323",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.831205",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.749586",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.618517",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.631028",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/business/exclusive-biden-hit-china-with-broader-curbs-us-chip-tool-exports-sources-2022-09-11/"
+    },
+    {
+      "authors": [
+        "Qi Xijia"
+      ],
+      "banner_image": "https://www.globaltimes.cn/Portals/0/attachment/2022/2022-08-14/90a0b063-d248-4904-851d-e7f0a1486eb2.jpeg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.022316,
+      "source": "Global Times",
+      "source_domain": "Global Times",
+      "summary": "Shanghai has announced the mass production of 14-nanometer chips, marking a significant milestone for China's semiconductor industry. This achievement is seen as a major step in overcoming US technology blockades and bolstering domestic technological self-reliance, with experts predicting accelerated breakthroughs in more advanced processes like 7-nm and 5-nm. The mass production will support sectors such as new-energy vehicles, smart cities, and intelligent manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.339448",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032145"
+        }
+      ],
+      "time_published": "20220914T082400",
+      "title": "Shanghai confirms 14-nm chips being mass produced now",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.915505",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.841631",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.globaltimes.cn/page/202209/1275240.shtml"
+    },
+    {
+      "authors": [
+        "Elias Al Helou"
+      ],
+      "banner_image": "https://economymiddleeast.com/cdn-cgi/imagedelivery/Xfg_b7GtigYi5mxeAzkt9w/economymiddleeast.com/2022/09/chip-1.jpg/w=900,h=600",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.328494,
+      "source": "Economy Middle East",
+      "source_domain": "Economy Middle East",
+      "summary": "The Biden administration plans to expand restrictions on U.S. semiconductor and chipmaking tool exports to China, targeting advanced AI chips and manufacturing equipment. These new regulations will codify earlier limitations imposed on companies like KLA Corp, Lam Research Corp, Applied Materials Inc, Nvidia Corp, and Advanced Micro Devices. The move is part of the U.S. strategy to curb China's technological advancements and strengthen its domestic semiconductor industry through initiatives like the $50 billion CHIPS Act.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.317867"
+        },
+        {
+          "relevance_score": "0.857943",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.323744"
+        },
+        {
+          "relevance_score": "0.827333",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.313351"
+        },
+        {
+          "relevance_score": "0.709821",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.268186"
+        },
+        {
+          "relevance_score": "0.684379",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.275121"
+        }
+      ],
+      "time_published": "20220912T081930",
+      "title": "US-China chip war is overheating",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.945134",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://economymiddleeast.com/news/us-china-chip-war-is-overheating/"
+    },
+    {
+      "authors": [
+        "Hwang Chun-mei"
+      ],
+      "banner_image": "https://www.rfa.org/resizer/v2/JFDJOUCQYDNUCGTDIWDQPM3NMM.jpg?auth=27e9a61a07a7c52147ceba33ecc415d6beb3ac211f2798ef04a6b986a9f52b64&width=800&height=450",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.152089,
+      "source": "Radio Free Asia",
+      "source_domain": "Radio Free Asia",
+      "summary": "Billionaire Robert Tsao, founder of United Microelectronics Corp (UMC), has reapplied for Taiwanese citizenship after renouncing his Singaporean nationality, citing his desire to help Taiwan defend itself against the Chinese Communist Party (CCP). Previously considered pro-Beijing, Tsao's stance shifted after witnessing the 2019 Yuen Long attacks in Hong Kong, leading him to donate $100 million to Taiwan's defense and call for unity against the CCP. He hopes to \"die laughing\" at the CCP's fall and prevent Taiwan from becoming another Hong Kong.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UMC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230298"
+        },
+        {
+          "relevance_score": "0.626854",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119191"
+        },
+        {
+          "relevance_score": "0.564102",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141023"
+        },
+        {
+          "relevance_score": "0.573683",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134044"
+        }
+      ],
+      "time_published": "20220827T080500",
+      "title": "Interview: Chip magnate Robert Tsao comes home to Taiwan to fight the communists",
+      "topics": [
+        {
+          "relevance_score": "0.817585",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.848701",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.rfa.org/english/news/china/die-08262022192736.html"
+    },
+    {
+      "authors": [
+        "Adele Hars"
+      ],
+      "banner_image": "https://semiengineering.com/wp-content/uploads/semi_logo.webp",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.359701,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The GaN (gallium nitride) market is poised for significant growth, driven by consumer devices and increased demand for energy efficiency, with power GaN revenues projected to reach $2 billion by 2027 and RF GaN reaching $2.5 billion. Equipment suppliers are adapting to this boom by working closely with IDMs and foundries to optimize manufacturing processes, which largely leverage existing silicon CMOS tools with critical enhancements for epitaxy and packaging. While current growth is focused on lateral GaN devices, the industry faces the challenge of developing cost-effective vertical GaN for ultra-high voltage applications, a domain currently dominated by SiC and silicon.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VECO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418769"
+        },
+        {
+          "relevance_score": "0.808606",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307127"
+        },
+        {
+          "relevance_score": "0.626220",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344233"
+        }
+      ],
+      "time_published": "20220818T094459",
+      "title": "Equipment Suppliers Brace For GaN Market Explosion",
+      "topics": [
+        {
+          "relevance_score": "0.946785",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.720946",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.619036",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://semiengineering.com/equipment-suppliers-brace-for-gan-market-explosion/"
+    },
+    {
+      "authors": [
+        "Zeyi Yang"
+      ],
+      "banner_image": "https://wp.technologyreview.com/wp-content/uploads/2022/08/GettyImages-1094894074-crop.jpeg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.190503,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "The US Commerce Department has announced new export controls on Electronic Design Automation (EDA) software, making it the latest flashpoint in the US-China tech trade war. EDA software is crucial for designing complex computer chips, and the market is dominated by three Western companies. While China may not be immediately affected for its less advanced chip production, the long-term impact on its ability to develop cutting-edge chips and its efforts to create domestic alternatives will be significant.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CDNS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270545"
+        },
+        {
+          "relevance_score": "0.912016",
+          "ticker": "SNPS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219799"
+        },
+        {
+          "relevance_score": "0.703558",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105171"
+        },
+        {
+          "relevance_score": "0.633667",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122222"
+        },
+        {
+          "relevance_score": "0.612905",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119236"
+        }
+      ],
+      "time_published": "20220818T085752",
+      "title": "Inside the software that will become the next battle front in US-China chip war",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.847777",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2022/08/18/1058116/eda-software-us-china-chip-war/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.129294,
+      "source": "Business Wire",
+      "source_domain": "Business Wire",
+      "summary": "Thompson Street Capital Partners (TSCP) announced that its platform company, Revenue Management Solutions (RMS), has acquired OrboGraph, a subsidiary of KLA Corporation (NasdaqGS: KLAC). This acquisition merges two leading providers of automated healthcare remittance reconciliation technology, significantly expanding their processing capabilities to over 350 million annual transactions. OrboGraph will operate as an independent entity within RMS, with Barry Cohen continuing as CEO, and Tom Wimsett joining its Board of Directors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135328"
+        }
+      ],
+      "time_published": "20220815T172626",
+      "title": "Thompson Street Capital Partners Platform Revenue Management Solutions Completes Acquisition of OrboGraph",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.928415",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.812922",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.727420",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.businesswire.com/news/home/20220815005639/en/Thompson-Street-Capital-Partners-Platform-Revenue-Management-Solutions-Completes-Acquisition-of-OrboGraph"
+    },
+    {
+      "authors": [
+        "Justin Sayers"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.144405,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Linde, the world's largest industrial gas supplier, is proposing a $271 million investment in a new facility near Samsung's plant in Austin, according to recently made public incentives documents. The project would create 10 jobs with an average salary of $68,560, and construction could begin in 2026. This expansion highlights the growth spurred by Samsung's new facility in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LIN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316270"
+        },
+        {
+          "relevance_score": "0.620578",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122616"
+        },
+        {
+          "relevance_score": "0.628701",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124337"
+        },
+        {
+          "relevance_score": "0.603973",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143242"
+        },
+        {
+          "relevance_score": "0.613661",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111575"
+        }
+      ],
+      "time_published": "20220805T172716",
+      "title": "World's largest industrial gas supplier details proposed facility near new Samsung plant",
+      "topics": [
+        {
+          "relevance_score": "0.916774",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.739465",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.bizjournals.com/austin/news/2022/08/05/linde-samsung-semiconductor-industrial-taylor.html"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.aljazeera.com/wp-content/uploads/2022/04/2022-03-10T090443Z_923271042_RC2FHS9TSQCC_RTRMADP_3_TAIWAN-SEMICONDUCTORS-TALENT.jpg?resize=770%2C513&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.164909,
+      "source": "Al Jazeera",
+      "source_domain": "Al Jazeera",
+      "summary": "China has opted not to sanction Taiwan's crucial semiconductor industry, despite imposing other trade restrictions following US House Speaker Nancy Pelosi's visit. This decision is driven by China's significant reliance on Taiwan for these critical components, as Taiwan dominates global semiconductor manufacturing. Targeting this industry would inflict substantial harm on China itself, which is still several years away from achieving self-sufficiency in high-end chip production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.987959",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322039"
+        },
+        {
+          "relevance_score": "0.626048",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104944"
+        },
+        {
+          "relevance_score": "0.593894",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130280"
+        },
+        {
+          "relevance_score": "0.592554",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149608"
+        }
+      ],
+      "time_published": "20220804T094249",
+      "title": "Why China is not sanctioning Taiwan\u2019s key chip industry",
+      "topics": [
+        {
+          "relevance_score": "0.932774",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.821580",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.714608",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.aljazeera.com/economy/2022/8/4/why-china-is-not-sanctioning-taiwans-crucial-tech-industry"
+    },
+    {
+      "authors": [
+        "Jiaxing Li"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.326791,
+      "source": "South China Morning Post",
+      "source_domain": "South China Morning Post",
+      "summary": "China\u2019s top memory chip maker, YMTC, is facing increased pressure as the US is reportedly considering a ban on exporting chipmaking equipment to Chinese factories producing advanced NAND chips. This potential move is part of Washington's escalating efforts to curb the advancement of China\u2019s semiconductor industry, following calls from US senators to add YMTC to a trade blacklist. The restrictions could also affect other Chinese chip makers like SMIC by targeting equipment for advanced chip production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.974958",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.402124"
+        },
+        {
+          "relevance_score": "0.828825",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.349715"
+        },
+        {
+          "relevance_score": "0.609286",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.273977"
+        },
+        {
+          "relevance_score": "0.741153",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.335284"
+        },
+        {
+          "relevance_score": "0.592243",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.184104"
+        }
+      ],
+      "time_published": "20220803T210700",
+      "title": "China\u2019s top memory chip maker could be targeted by US equipment export ban",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.923737",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.825747",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.scmp.com/tech/tech-war/article/3187606/tech-war-chinas-top-memory-chip-maker-ymtc-faces-headwinds-amid"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.08807,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "The US is expanding its restrictions on China's access to chipmaking technology, now encompassing equipment that can produce chips more advanced than 14 nanometers. This move, confirmed by major equipment suppliers like Lam Research Corp and KLA Corp, aims to curb Beijing's economic ambitions and address national security risks, potentially affecting contract chipmakers like TSMC operating in China and gear makers globally.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.244274"
+        },
+        {
+          "relevance_score": "0.842512",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.206527"
+        },
+        {
+          "relevance_score": "0.749628",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001807"
+        },
+        {
+          "relevance_score": "0.636906",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017639"
+        },
+        {
+          "relevance_score": "0.589477",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040755"
+        }
+      ],
+      "time_published": "20220801T173552",
+      "title": "US expands China chip ban: suppliers",
+      "topics": [
+        {
+          "relevance_score": "0.936419",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.828445",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.748619",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/biz/archives/2022/08/01/2003782739"
+    },
+    {
+      "authors": [
+        "Evan Ramstad"
+      ],
+      "banner_image": "https://arc.stimg.co/startribunemedia/UTFU25LJSCGDNZNVYJLBFMHCDI.jpg?&w=1080",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.340212,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "SkyWater Technology, a Minnesota-based semiconductor manufacturer, anticipates accelerating its expansion projects in Minnesota, Indiana, and Florida thanks to the newly approved $52 billion CHIPS Act. While the exact amount of aid SkyWater will receive is unknown, CEO Tom Sonderman believes the funding package will help reduce risks associated with their investments. The CHIPS Act aims to bolster the U.S. chip industry and counter foreign government assistance, primarily from China, by providing direct aid and a 25% tax credit for domestic plant investments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SKYT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403731"
+        },
+        {
+          "relevance_score": "0.657790",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342906"
+        },
+        {
+          "relevance_score": "0.624344",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330465"
+        },
+        {
+          "relevance_score": "0.607414",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312067"
+        },
+        {
+          "relevance_score": "0.594640",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313841"
+        }
+      ],
+      "time_published": "20220729T082500",
+      "title": "With new federal aid, Minnesota chipmaker expects to speed up expansions",
+      "topics": [
+        {
+          "relevance_score": "0.915386",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.830512",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.744095",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.startribune.com/with-new-federal-aid-minnesota-chipmaker-expects-to-speed-up-expansions/600194169"
+    },
+    {
+      "authors": [
+        "Jason R. Wilson"
+      ],
+      "banner_image": "https://cdn.wccftech.com/wp-content/uploads/2022/07/Micron-232L-NAND_tower_black-740x740.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.40974,
+      "source": "Wccftech",
+      "source_domain": "Wccftech",
+      "summary": "Micron has begun mass production of the world's first 232-layer NAND technology, setting a new industry standard for storage solutions. This advancement delivers higher capacity, enhanced energy efficiency, and unrivaled performance with the fastest I/O speed of 2.4 GB/s, catering to data-intensive applications from client to cloud. The new NAND also features the smallest high-density package, offering greater flexibility and efficiency for various deployments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.803655"
+        },
+        {
+          "relevance_score": "0.611253",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313705"
+        },
+        {
+          "relevance_score": "0.564601",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.274224"
+        },
+        {
+          "relevance_score": "0.565629",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.288637"
+        }
+      ],
+      "time_published": "20220727T074200",
+      "title": "Micron Ships World\u2019s First 232-layer NAND Technology",
+      "topics": [
+        {
+          "relevance_score": "0.948350",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://wccftech.com/micron-ships-worlds-first-232-layer-nand-technology/"
+    },
+    {
+      "authors": [
+        "Tim Culpan"
+      ],
+      "banner_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iZk9RY_as1WA/v1/-1x-1.webp",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.191324,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "ASML and the semiconductor industry face a significant talent shortage, which is a greater challenge than concerns about a global chip glut. While ASML's recent quarterly revenue slightly exceeded estimates, its third-quarter guidance is below analyst expectations, and it has halved its full-year growth outlook. The real long-term problem for the industry, including ASML, will be securing enough skilled engineers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.405527"
+        },
+        {
+          "relevance_score": "0.600112",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119160"
+        },
+        {
+          "relevance_score": "0.620894",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103839"
+        },
+        {
+          "relevance_score": "0.620806",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106607"
+        },
+        {
+          "relevance_score": "0.604851",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115333"
+        }
+      ],
+      "time_published": "20220720T072800",
+      "title": "ASML Faces a Much Bigger Problem Than a Chip Glut",
+      "topics": [
+        {
+          "relevance_score": "0.949739",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.823307",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bloomberg.com/opinion/articles/2022-07-20/asml-faces-a-bigger-problem-in-a-talent-shortage-than-when-to-recognize-revenue"
+    },
+    {
+      "authors": [
+        "Sohee Kim"
+      ],
+      "banner_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHSOpLl81g0M/v0/-1x-1.webp",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.154935,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "SK Hynix Inc., the world's second-largest memory chipmaker, is considering a 25% cut in its 2023 capital expenditure, potentially reducing it to 16 trillion won ($12.2 billion). This decision is due to an unexpected slowdown in electronics demand, impacting the market for DRAM and NAND chips. While 2022 spending plans remain largely unchanged, the company is reassessing 2023 expansions amidst rising market uncertainty.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.823452",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.246728"
+        },
+        {
+          "relevance_score": "0.616047",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142022"
+        },
+        {
+          "relevance_score": "0.588244",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.111767"
+        },
+        {
+          "relevance_score": "0.567525",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141989"
+        }
+      ],
+      "time_published": "20220715T082800",
+      "title": "Memory Chipmaker SK Hynix Weighs Slashing Spending by a Quarter in 2023",
+      "topics": [
+        {
+          "relevance_score": "0.934660",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.829740",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.748333",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.633855",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.636155",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2022-07-14/sk-hynix-is-said-to-weigh-slashing-spending-by-a-quarter-in-2023"
+    },
+    {
+      "authors": [
+        "Lauren Solberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.410101,
+      "source": "Morningstar",
+      "source_domain": "Morningstar",
+      "summary": "The article highlights five undervalued semiconductor suppliers\u2014ASML, Teradyne, Applied Materials, Lam Research, and KLA\u2014that offer compelling long-term investment opportunities. Despite recent market downturns, these companies are crucial \"arms dealers\" in the semiconductor industry, poised to profit from continuous technological advancements and a highly concentrated market. Each company boasts a Wide Economic Moat designation from Morningstar, indicating strong competitive advantages and potential for sustained high returns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.489361"
+        },
+        {
+          "relevance_score": "0.824445",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.491148"
+        },
+        {
+          "relevance_score": "0.882481",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.475362"
+        },
+        {
+          "relevance_score": "0.901089",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.483864"
+        },
+        {
+          "relevance_score": "0.624037",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123395"
+        }
+      ],
+      "time_published": "20220624T172625",
+      "title": "These 5 Semiconductor Suppliers Are Undervalued",
+      "topics": [
+        {
+          "relevance_score": "0.930219",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.823333",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.morningstar.com/stocks/these-5-semiconductor-suppliers-are-undervalued"
+    },
+    {
+      "authors": [
+        "Debby Wu",
+        "Jenny Leonard",
+        "Ian King"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.035152,
+      "source": "The Japan Times",
+      "source_domain": "The Japan Times",
+      "summary": "Despite U.S. efforts to curb its growth, China's semiconductor industry is flourishing, as evidenced by a 58% rise in orders for chip-manufacturing equipment in 2021, making it the biggest market for the second consecutive year. This growth is raising concerns in Washington, especially as U.S. legislative efforts to bolster its own chip industry face hurdles and the Commerce Department appears hesitant to impose stricter sanctions on Beijing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.321840",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.000638"
+        }
+      ],
+      "time_published": "20220614T172626",
+      "title": "China\u2019s chipmaking power grows despite U.S. effort to counter it",
+      "topics": [
+        {
+          "relevance_score": "0.729676",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.816194",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.924517",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.603843",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.japantimes.co.jp/news/2022/06/14/business/tech/china-chipmaking-grows-us/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.173994,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Ichor Holdings, Ltd. announced that Jorge Titinger has joined its board of directors, effective June 13, 2022. Titinger brings over 30 years of leadership experience in the semiconductor equipment and computing industries, including CEO positions at Silicon Graphics and Verigy. He also holds a B.S. and M.S. in Electrical Engineering and an M.S. in Engineering Management and Business from Stanford University, and his expertise is expected to be a valuable asset to Ichor's strategic growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ICHR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422464"
+        },
+        {
+          "relevance_score": "0.626375",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106763"
+        },
+        {
+          "relevance_score": "0.628590",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118208"
+        },
+        {
+          "relevance_score": "0.627493",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146452"
+        },
+        {
+          "relevance_score": "0.582335",
+          "ticker": "BR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141638"
+        }
+      ],
+      "time_published": "20220613T170630",
+      "title": "Jorge Titinger Joins Ichor Board of Directors",
+      "topics": [
+        {
+          "relevance_score": "0.802425",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.724629",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/ICHR/pressreleases/8658948/jorge-titinger-joins-ichor-board-of-directors/"
+    },
+    {
+      "authors": [
+        "Terrence Horan"
+      ],
+      "banner_image": "https://images.mktw.net/im-220105?width=700&height=466",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.401122,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Lam Research Corp. (LRCX) stock dropped 5.76% to $447.08 on Monday, underperforming the broader market. The S&P 500 Index fell 3.88% and the Dow Jones Industrial Average dropped 2.79% on the same day. This marked the fourth consecutive day of losses for the company, and its stock closed $284.77 short of its 52-week high.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.883686",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.399309"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.386085"
+        },
+        {
+          "relevance_score": "0.821114",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.394844"
+        }
+      ],
+      "time_published": "20220613T170500",
+      "title": "Lam Research Corp. stock falls Monday, underperforms market",
+      "topics": [
+        {
+          "relevance_score": "0.947345",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.822622",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/lam-research-corp-stock-falls-monday-underperforms-market-01655154315-db4948c58a8c?gaa_at=eafs&gaa_n=AWEtsqeHGZP2ps1KyazHbJoOzU0rskPMN-kgLtZ6LjXoGBSF4EwEAoe2q1A6&gaa_ts=699ae88f&gaa_sig=Pmlwg8TSTVyvThABlSflVqGb7v71YufwerUc8y8iA2tymC_86P41j1uHCUnWNfqSAvd42WZp6F1c7VtqC-7B-g%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://flex.com/wp-content/uploads/2023/01/ks-award-2022_979x550.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.68785,
+      "source": "Flextronics",
+      "source_domain": "Flextronics",
+      "summary": "Flex has been honored with a Kulicke & Soffa Supplier Award 2022 for its agility, teamwork, and adaptability in rapidly shifting production and leveraging its advanced manufacturing and supply chain capabilities. Despite the global pandemic and semiconductor supply challenges, Flex teams in Wuzhong, China, Changi, Singapore, and Port of Tanjung Pelepas, Malaysia, collaborated with Kulicke & Soffa to deliver essential PCBAs and consoles. This recognition highlights Flex's crucial role in helping K&S address increasing assembly complexities and accelerating technology transitions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FLEX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.801292"
+        },
+        {
+          "relevance_score": "0.611523",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.546802"
+        }
+      ],
+      "time_published": "20220602T110435",
+      "title": "Kulicke & Soffa Supplier Award 2022",
+      "topics": [
+        {
+          "relevance_score": "0.947398",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.822056",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://flex.com/resources/kulicke-soffa-supplier-award-2022"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.191818,
+      "source": "Communications Today",
+      "source_domain": "Communications Today",
+      "summary": "This article analyzes KLA's market dominance and profitability within the semiconductor equipment process control market. It highlights KLA's specialized business model, broad product portfolio, and high R&D spending as key strengths, leading to superior profit margins compared to competitors. The analysis also covers KLA's stable services growth from long-standing customer relationships and addresses the risk of its relatively low total semiconductor equipment market share.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430052"
+        },
+        {
+          "relevance_score": "0.705191",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.260805"
+        },
+        {
+          "relevance_score": "0.575511",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149767"
+        }
+      ],
+      "time_published": "20220512T172626",
+      "title": "KLA: Highest profitability in semiconductor equipment sub-industry",
+      "topics": [
+        {
+          "relevance_score": "0.903417",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.809959",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.703118",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.communicationstoday.co.in/kla-highest-profitability-in-semiconductor-equipment-sub-industry/"
+    },
+    {
+      "authors": [
+        "Terrence Horan"
+      ],
+      "banner_image": "https://images.mktw.net/im-220105?width=700&height=466",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.106522,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "KLA Corp. (KLAC) stock rose 5.71% on Thursday, closing at $332.76, marking its second consecutive day of gains. Despite this rise and a favorable market day, the stock still underperformed several key competitors, including ASML Holding N.V. (ASML), Applied Materials Inc. (AMAT), and Lam Research Corp. (LRCX), which saw larger percentage gains. KLA Corp. remains $124.36 below its 52-week high achieved in January.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129098"
+        },
+        {
+          "relevance_score": "0.736768",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129512"
+        },
+        {
+          "relevance_score": "0.608077",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135488"
+        }
+      ],
+      "time_published": "20220428T170200",
+      "title": "KLA Corp. stock underperforms Thursday when compared to competitors despite daily gains",
+      "topics": [
+        {
+          "relevance_score": "0.913885",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.704354",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.612887",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/kla-corp-stock-underperforms-thursday-when-compared-to-competitors-despite-daily-gains-01651179777-c34e19ddaf87?gaa_at=eafs&gaa_n=AWEtsqf_TnKRvO8gsnsYq_J_jc5-H1IhzSYZHrWigGRJpFckJDmfFpn2M2C2&gaa_ts=699b0016&gaa_sig=UHSIVptkDWqP0GiyJ6iS25xgZLutSirXBkgk3TBOlJgw5kHT7faKlZZCofHxwrvFccCGB5m8vPnJeKfPoU-OLw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.383794,
+      "source": "The Straits Times",
+      "source_domain": "The Straits Times",
+      "summary": "KLA, a Silicon Valley-based Fortune 500 semiconductor company, focuses on employee development and well-being, leading to high staff retention and recognition as a top employer in Singapore. The company promotes career growth through training and internal promotions, fosters a family-like culture, and actively engages in community projects, enhancing employee pride and loyalty.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.459870"
+        },
+        {
+          "relevance_score": "0.587228",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255748"
+        }
+      ],
+      "time_published": "20220418T040000",
+      "title": "Semiconductor firm offers road map for staff to drive careers forward",
+      "topics": [
+        {
+          "relevance_score": "0.825130",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.832296",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.straitstimes.com/singapore/jobs/semiconductor-firm-offers-road-map-for-staff-to-drive-careers-forward"
+    },
+    {
+      "authors": [
+        "Laura Peters"
+      ],
+      "banner_image": "https://semiengineering.com/wp-content/uploads/semi_logo.webp",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.262166,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "As transistor scaling reaches 3nm and beyond, novel strategies are being explored to extend copper interconnects to the 2nm node and reconfigure power delivery. These strategies include adopting buried power rails (BPRs) and backside power distribution (BPD), alongside optimizing copper damascene interconnects with low-resistance via processes, alternative liners, and fully aligned vias. Challenges such as edge-placement errors, electromigration, and the potential replacement of copper with ruthenium or molybdenum for certain levels are being addressed through innovative material and integration schemes to meet future performance, power, area, and cost goals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.997184",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331209"
+        },
+        {
+          "relevance_score": "0.848094",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278697"
+        },
+        {
+          "relevance_score": "0.713131",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224070"
+        },
+        {
+          "relevance_score": "0.791211",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230602"
+        },
+        {
+          "relevance_score": "0.619389",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.190061"
+        }
+      ],
+      "time_published": "20220317T132100",
+      "title": "Extending Copper Interconnects To 2nm",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.924813",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://semiengineering.com/extending-copper-interconnects-to-2nm/"
+    },
+    {
+      "authors": [
+        "MarketWatch Automation"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.098474,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Lam Research Corp. (LRCX) stock declined 1.80% on Tuesday, marking its fourth consecutive day of losses, amidst a broader market downturn where the S&P 500 and Dow Jones also fell. Despite this, Lam Research outperformed some competitors like Applied Materials Inc. and KLA Corp., which saw larger declines, though it lagged behind ASM International N.V. which posted a gain. The stock closed significantly below its 52-week high, with trading volume also below its 50-day average.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.736102",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.092416"
+        },
+        {
+          "relevance_score": "0.981535",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.293242"
+        },
+        {
+          "relevance_score": "0.717895",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011138"
+        }
+      ],
+      "time_published": "20220222T170500",
+      "title": "Lam Research Corp. stock outperforms competitors despite losses on the day",
+      "topics": [
+        {
+          "relevance_score": "0.903667",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.803708",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.739389",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.marketwatch.com/data-news/lam-research-corp-stock-outperforms-competitors-despite-losses-on-the-day-01645567559-61cae66c25ed?gaa_at=eafs&gaa_n=AWEtsqfbVPoEQSfMWIEszQRVP3iJWvw_PkQ5mprTC0Ceb9Al4Akj2BpR3O8-&gaa_ts=6907975e&gaa_sig=24s_BecBzke0bsa0GbkHevnzU2iQRZ7a8TO5kGKbOcQF502YV-7CHJ2iIG9MBzFJGfVZAxqR3lZnZm1lnsFSpg%3D%3D"
+    },
+    {
+      "authors": [
+        "MarketWatch Automation"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.169269,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Lam Research Corp. (LRCX) shares fell 1.80% on Tuesday, marking its fourth consecutive day of losses, despite a general downturn in the stock market where the S&P 500 and Dow Jones also declined. The company's stock closed significantly below its 52-week high. However, Lam Research Corp. still outperformed some of its competitors, such as Applied Materials Inc. and KLA Corp., which saw larger percentage drops, while ASM International N.V. saw a slight increase.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222659"
+        },
+        {
+          "relevance_score": "0.721228",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.237810"
+        },
+        {
+          "relevance_score": "0.735560",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140595"
+        }
+      ],
+      "time_published": "20220222T170500",
+      "title": "Lam Research Corp. stock outperforms competitors despite losses on the day",
+      "topics": [
+        {
+          "relevance_score": "0.949749",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.707971",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.601202",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.marketwatch.com/data-news/lam-research-corp-stock-outperforms-competitors-despite-losses-on-the-day-01645567559-61cae66c25ed?gaa_at=eafs&gaa_n=AWEtsqd9ZP6tIM5Kay8EYbSrWvS5m4ouXLm7jD4gJltkiqb7LVIMAoh4C4y1&gaa_ts=690799b1&gaa_sig=sV4yEXW0M7a7cRDpSQLeqz2GqPt0o15xVXMulzzbpfqsaogP_w5KGEQbJPf61uBEpPEAdRPyD0eMgZztgZXHNA%3D%3D"
+    },
+    {
+      "authors": [
+        "Global Times"
+      ],
+      "banner_image": "https://www.globaltimes.cn/Portals/0/attachment/2021/2021-07-04/782926fc-3722-44a2-87fe-4fa498bdc3aa.jpeg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.239198,
+      "source": "Global Times",
+      "source_domain": "Global Times",
+      "summary": "SMIC, China's largest chipmaker, reported record revenues in Q4 2021 and for the full year 2021, driven by increased wafer sales and investments. Despite ongoing US crackdowns and being on the Entity List, the company plans significant capacity expansion with three new projects expected to boost output, affirming a commitment to compliance and global industrial chain integration. Capital expenditure for 2022 is projected at $5 billion for further capacity increments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.835121",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.202802"
+        },
+        {
+          "relevance_score": "0.702107",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.213666"
+        },
+        {
+          "relevance_score": "0.719243",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.230338"
+        }
+      ],
+      "time_published": "20220211T021500",
+      "title": "China's largest chipmaker SMIC to see more capacity after record sales revenue despite US crackdown",
+      "topics": [
+        {
+          "relevance_score": "0.910377",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.841185",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.740219",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.globaltimes.cn/page/202202/1252027.shtml"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.quantumscape.com/wp-content/uploads/2021/09/QS_Logo@2x.png",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.242294,
+      "source": "QuantumScape",
+      "source_domain": "QuantumScape",
+      "summary": "QuantumScape is dedicated to revolutionizing energy storage with its solid-state battery technology, aiming to power a decarbonized future, starting with transportation. Founded in 2010, the company has developed a patented solid ceramic electrolyte separator that enables fast-charging, long-lasting, and safer batteries by utilizing a lithium-metal anode. This breakthrough technology is designed to simplify manufacturing, increase energy density, and provide enhanced safety compared to conventional lithium-ion batteries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.493270"
+        },
+        {
+          "relevance_score": "0.649301",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101329"
+        },
+        {
+          "relevance_score": "0.568223",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110706"
+        },
+        {
+          "relevance_score": "0.586393",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216576"
+        }
+      ],
+      "time_published": "20220119T193109",
+      "title": "About",
+      "topics": [
+        {
+          "relevance_score": "0.919161",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.818858",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.701764",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.quantumscape.com/company/"
+    }
+  ],
+  "items": "74",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

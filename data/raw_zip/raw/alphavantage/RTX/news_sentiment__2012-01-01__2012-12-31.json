@@ -1,0 +1,422 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Brendan McGarry"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.005395,
+      "source": "The Washington Post",
+      "source_domain": "The Washington Post",
+      "summary": "Defense contractors, including Boeing and Lockheed Martin, are significantly increasing their cash reserves in anticipation of automatic federal budget cuts and expiring tax breaks referred to as the \"fiscal cliff.\" The five largest Defense Department contractors saw their average cash holdings jump 71 percent to $4.13 billion in the quarter ended Sept. 30, 2012, vastly outpacing the 17 percent increase for companies in the S&P 500 Index. This strategic move aims to prepare for potential financial instability stemming from the impending economic changes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.906803",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.020224"
+        },
+        {
+          "relevance_score": "0.725234",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.025239"
+        },
+        {
+          "relevance_score": "0.629495",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012856"
+        },
+        {
+          "relevance_score": "0.605846",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001587"
+        },
+        {
+          "relevance_score": "0.629014",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046359"
+        }
+      ],
+      "time_published": "20121125T150606",
+      "title": "Defense contractors stockpile cash ahead of \u2018fiscal cliff\u2019",
+      "topics": [
+        {
+          "relevance_score": "0.832462",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.920122",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.604159",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.744505",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.649487",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.washingtonpost.com/business/economy/defense-contractors-stockpile-cash-ahead-of-fiscal-cliff/2012/11/25/6bfdae5c-3414-11e2-bfd5-e202b6d7b501_story.html"
+    },
+    {
+      "authors": [
+        "Eugene Kiely"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.089171,
+      "source": "FactCheck.org",
+      "source_domain": "FactCheck.org",
+      "summary": "This article debunks viral emails claiming Lockheed Martin would lay off 123,000 workers due to President Obama's military downsizing. FactCheck.org clarifies that Lockheed's estimate was about 10,000 potential layoffs, stemming from automatic spending cuts mandated by a bipartisan 2011 deficit-reduction bill, not direct presidential action. The article explains the legal complexities surrounding WARN Act notices and the political blame game regarding the looming cuts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.963109",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.295281"
+        },
+        {
+          "relevance_score": "0.627524",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022625"
+        },
+        {
+          "relevance_score": "0.581726",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.018064"
+        }
+      ],
+      "time_published": "20121115T085100",
+      "title": "Is Obama to Blame for Lockheed\u2019s 123,000 \u2018Layoffs\u2019?",
+      "topics": [
+        {
+          "relevance_score": "0.902854",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.727343",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.factcheck.org/2012/11/is-obama-to-blame-for-lockheeds-123000-layoffs/"
+    },
+    {
+      "authors": [
+        "News Agencies"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.307678,
+      "source": "Al Jazeera",
+      "source_domain": "Al Jazeera",
+      "summary": "Qatar and the UAE have requested the sale of up to $7.6bn in Lockheed Martin Corp missile-defence systems from the US to counter perceived threats and reduce their reliance on US forces. This move aligns with Washington's strategy to deepen cooperation with Gulf nations on missile defense and increase pressure on Iran regarding its nuclear program. The requests include THAAD systems, with Qatar seeking $6.5bn in equipment and the UAE requesting an additional $1.135bn to bolster their existing systems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.976762",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423528"
+        },
+        {
+          "relevance_score": "0.662509",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344896"
+        },
+        {
+          "relevance_score": "0.565143",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232040"
+        }
+      ],
+      "time_published": "20121107T150606",
+      "title": "Qatar and UAE look to bolster defence systems",
+      "topics": [
+        {
+          "relevance_score": "0.826395",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.734820",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.649624",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.aljazeera.com/news/2012/11/7/qatar-and-uae-look-to-bolster-defence-systems"
+    },
+    {
+      "authors": [
+        "Capital Cube",
+        "abha.dawesar"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.093156,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article provides a peer-based earnings analysis of Lockheed Martin Corp. (NYSE: LMT) based on its preliminary financial results. It compares Lockheed Martin's performance in valuation, economic moat, growth strategy, and earnings quality against a set of key competitors. The analysis highlights LMT's strong ROE and ROA, suggesting sustainable operating returns, despite lower gross margins compared to peers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.709776",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.054527"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143914"
+        },
+        {
+          "relevance_score": "0.743457",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140690"
+        },
+        {
+          "relevance_score": "0.741897",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106455"
+        },
+        {
+          "relevance_score": "0.704749",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113650"
+        }
+      ],
+      "time_published": "20121025T131100",
+      "title": "Earnings Analysis Lockheed Martin Corp. (NYSE:LMT)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.810040",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.640266",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.605708",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/earnings-analysis-lockheed-martin-corp-nyselmt-25737/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.367024,
+      "source": "Ball",
+      "source_domain": "Ball",
+      "summary": "Ball Aerospace & Technologies Corp. successfully demonstrated its Mobile Multifunction Low-Cost Array (MMLCA) system, a prototype X-band SATCOM On-the-Move (SOTM) phased array antenna, at the U.S. Army's Aberdeen Proving Ground. Developed for the Office of Naval Research, this system enables high data rate communications for military and commercial satellites and offers a rugged, low-profile design ideal for military vehicles. This technology is expected to enhance battlefield operations by reducing the number of antennas needed and lowering the overall silhouette of vehicles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BALL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.522141"
+        },
+        {
+          "relevance_score": "0.628212",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326670"
+        },
+        {
+          "relevance_score": "0.606942",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346693"
+        },
+        {
+          "relevance_score": "0.616729",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313523"
+        },
+        {
+          "relevance_score": "0.603428",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343569"
+        }
+      ],
+      "time_published": "20120806T141111",
+      "title": "Ball Aerospace Demonstrates Prototype X-band SATCOM On-the-Move Phased Array Antenna",
+      "topics": [
+        {
+          "relevance_score": "0.841563",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.719155",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ball.com/newswire/article/123364/ball-aerospace-demonstrates-prototype-x-band-satcom-on-the-move-phased-array-antenna"
+    },
+    {
+      "authors": [
+        "Rockwell Collins"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.18322,
+      "source": "Skies Mag",
+      "source_domain": "Skies Mag",
+      "summary": "Rockwell Collins has introduced an electronic dual-channel Engine Control Unit (ECU) for the Rotax 912 iS piston engine for Light Sport Aircraft (LSA), which meets aerospace design assurance standards. This ECU automates engine control tasks, reduces pilot workload, and enhances safety by continuously monitoring engine and control system health. The technology is expected to receive certification from EASA and FAA later this year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.318519",
+          "ticker": "DOOO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.020552"
+        },
+        {
+          "relevance_score": "0.634225",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332183"
+        }
+      ],
+      "time_published": "20120309T143110",
+      "title": "Rockwell Collins\u2019 electronic Engine Control Unit brings the Rotax 912 iS aircraft engine into a new era of propulsion efficiency for light aircraft",
+      "topics": [
+        {
+          "relevance_score": "0.827576",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.915691",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.723710",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://skiesmag.com/press-releases/15999-rockwell-collins-electronic-engine-control-unit-brings-the-r-html/"
+    },
+    {
+      "authors": [
+        "Elets News Network"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.323611,
+      "source": "Elets Technomedia",
+      "source_domain": "Elets Technomedia",
+      "summary": "This article discusses the increasing integration of Information and Communication Technology (ICT) into global defense forces. It highlights the use of drones for reconnaissance and surveillance, the development of advanced robotic systems for ground combat, and the critical role of cyber warfare and secure communication networks. The piece also explores how military-developed technologies often transition to civilian uses, citing the internet as a prime example.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVAV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439601"
+        },
+        {
+          "relevance_score": "0.618321",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317839"
+        },
+        {
+          "relevance_score": "0.604435",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300530"
+        },
+        {
+          "relevance_score": "0.635951",
+          "ticker": "GD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346299"
+        },
+        {
+          "relevance_score": "0.628908",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307572"
+        }
+      ],
+      "time_published": "20120305T141053",
+      "title": "Defence Forces Armed with ICT",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://egov.eletsonline.com/2012/03/defence-forces-armed-with-ict/"
+    },
+    {
+      "authors": [
+        "Ry Crozier"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.148866,
+      "source": "SatNews Publishers",
+      "source_domain": "SatNews Publishers",
+      "summary": "Boeing Defence Australia is bidding to regain the operations contract for the Pine Gap satellite intelligence facility, a contract they lost to Raytheon almost seven years ago. The company is seeking expressions of interest for operational and maintenance positions at the Joint Defence Facility Pine Gap, indicating their intentions to manage the facility again for the US Government. Raytheon Australia, the current contract holder, is also recruiting for roles at Pine Gap, suggesting they may be tendering to retain the contract.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126369"
+        },
+        {
+          "relevance_score": "0.850464",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114919"
+        }
+      ],
+      "time_published": "20120227T141106",
+      "title": "Satnews Daily",
+      "topics": [
+        {
+          "relevance_score": "0.842887",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "http://www.satnews.com/cgi-bin/story.cgi?number=872741394"
+    }
+  ],
+  "items": "8",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

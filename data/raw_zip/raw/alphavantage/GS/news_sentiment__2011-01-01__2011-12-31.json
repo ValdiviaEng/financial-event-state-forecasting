@@ -1,0 +1,2695 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Kevin Roose|The New York Times"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.142966,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Three years after the financial crisis, large Wall Street banks like Goldman Sachs and Morgan Stanley continue to cancel or scale back their traditional extravagant holiday parties due to public anger, layoffs, and flagging profits. However, private equity firms and hedge funds are stepping in with their own lavish celebrations, and some bank employees are organizing their own unofficial parties or focusing on charitable giving. The shift reflects a broader decline in corporate holiday parties, impacting nightlife venues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.979273",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115996"
+        },
+        {
+          "relevance_score": "0.942300",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134453"
+        },
+        {
+          "relevance_score": "0.823456",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104081"
+        },
+        {
+          "relevance_score": "0.787349",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136322"
+        },
+        {
+          "relevance_score": "0.717781",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107948"
+        }
+      ],
+      "time_published": "20111220T045300",
+      "title": "Holiday Parties Still Over for Wall Street's Big Players",
+      "topics": [
+        {
+          "relevance_score": "0.915475",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.614556",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cnbc.com/2011/12/20/holiday-parties-still-over-for-wall-streets-big-players.html"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.449032,
+      "source": "Crain's New York Business",
+      "source_domain": "Crain's New York Business",
+      "summary": "Goldman Sachs Group Inc. has seen at least 37 partners leave in 2011, marking its worst year for profit and share performance since 2008. The departures come amid new regulations, public scrutiny over bonuses, and a significant drop in the company's share value and net earnings. Despite these exits, the firm has also added new partners and is undertaking cost-cutting measures, including potential job cuts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.434781"
+        }
+      ],
+      "time_published": "20111213T230000",
+      "title": "Goldman loses 37 partners in worst year since 2008",
+      "topics": [
+        {
+          "relevance_score": "0.944980",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.820776",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.crainsnewyork.com/article/20111214/FINANCE/111219954/goldman-loses-37-partners-in-worst-year-since-2008"
+    },
+    {
+      "authors": [
+        "BERNARD CONDON and DAMIAN TROISE Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.074846,
+      "source": "Sarasota Herald-Tribune",
+      "source_domain": "Sarasota Herald-Tribune",
+      "summary": "Theodore J. Forstmann, a prominent Wall Street financier and pioneer of leveraged buyouts, passed away at age 71 due to brain cancer. Forstmann, who acquired IMG in 2004 and became its chairman and CEO, was known for his careful approach to acquisitions and his philanthropic efforts. He founded Forstmann Little & Co. and later became a critic of risky financing in the industry he helped create.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.816146",
+          "ticker": "ZD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131593"
+        },
+        {
+          "relevance_score": "0.748884",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119571"
+        },
+        {
+          "relevance_score": "0.600110",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122915"
+        }
+      ],
+      "time_published": "20111121T180553",
+      "title": "of IMG dies at age 71",
+      "topics": [
+        {
+          "relevance_score": "0.942342",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.842660",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.622247",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.heraldtribune.com/story/news/2011/11/21/of-img-dies-at-age-71/29061892007/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.232231,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "Precious Metals ETFs are investment funds that offer exposure to gold, silver, platinum, or palladium, either through commodity futures or physical ownership. As of April 1, 2026, there are 25 such funds with a total AUM of over $316 billion, an average expense ratio of 0.58%, and an average 1-year return of 55.17%. The article provides a detailed list of these ETFs, including their assets, returns, expenses, and other financial metrics.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.318487",
+          "ticker": "KCOP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.004946"
+        },
+        {
+          "relevance_score": "0.731265",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.250845"
+        },
+        {
+          "relevance_score": "0.711942",
+          "ticker": "IVZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.251080"
+        },
+        {
+          "relevance_score": "0.708579",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262180"
+        }
+      ],
+      "time_published": "20111119T124125",
+      "title": "Precious Metals ETFs",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.831408",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://etfdb.com/etfdb-category/precious-metals/"
+    },
+    {
+      "authors": [
+        "Leigh Giangreco"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.128292,
+      "source": "The Eagle (American University)",
+      "source_domain": "The Eagle (American University)",
+      "summary": "Kogod School of Business launched a Student Managed Investment Fund (SMIF) allowing students to invest University money in stocks, with assets growing to $300,000. Students manage a portfolio including companies like Coca-Cola and Tiffany & Co., and are even permitted to invest in \"sin stocks\" like tobacco, with future plans to explore socially responsible and Sharia-compliant investments. The initiative provides students with practical investment experience while adhering to specific investment guidelines.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BTU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132410"
+        },
+        {
+          "relevance_score": "0.870741",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119270"
+        },
+        {
+          "relevance_score": "0.869003",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133426"
+        },
+        {
+          "relevance_score": "0.860708",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147699"
+        },
+        {
+          "relevance_score": "0.852857",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116996"
+        }
+      ],
+      "time_published": "20111115T094700",
+      "title": "Kogod students invest AU money in stocks",
+      "topics": [
+        {
+          "relevance_score": "0.839373",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theeagleonline.com/article/2011/11/kogod-students-invest-au-money-in-stocks"
+    },
+    {
+      "authors": [
+        "Kip McDaniel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.229762,
+      "source": "www.ai-cio.com",
+      "source_domain": "www.ai-cio.com",
+      "summary": "This article examines how Morgan Stanley's defined benefit pension plan successfully de-risked and became 100% immunized by 2011, contrasting this success with the parent company's broader risk management challenges during the 2008 financial crisis. It highlights the collaborative effort of various internal and external groups, the strategic shift from equities to fixed income, and the role of strong governance and luck in achieving an overfunded status. The piece questions whether this replicable pension management success can serve as a microcosm for the larger firm's risk management practices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403862"
+        },
+        {
+          "relevance_score": "0.621700",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117802"
+        },
+        {
+          "relevance_score": "0.615609",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114635"
+        },
+        {
+          "relevance_score": "0.637872",
+          "ticker": "PRU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329054"
+        }
+      ],
+      "time_published": "20111114T171615",
+      "title": "The Other Morgan Stanley",
+      "topics": [
+        {
+          "relevance_score": "0.914843",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.726061",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.ai-cio.com/news/the-other-morgan-stanley/"
+    },
+    {
+      "authors": [
+        "Kevin Roose"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.104901,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "The Sisters of St. Francis of Philadelphia have become an unexpected force in corporate activism, using their retirement fund investments to promote social responsibility among Fortune 500 companies. Led by Sister Nora Nash, they engage with corporations like Goldman Sachs, Kroger, and McDonald\u2019s on issues ranging from consumer protection and executive pay to labor rights and environmental impact, often by buying minimum shares to submit resolutions at annual meetings. Despite often limited shareholder vote success, their moral authority brings attention to important social issues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114699"
+        },
+        {
+          "relevance_score": "0.734851",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142010"
+        },
+        {
+          "relevance_score": "0.718687",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105997"
+        },
+        {
+          "relevance_score": "0.726893",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110485"
+        },
+        {
+          "relevance_score": "0.612375",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138271"
+        }
+      ],
+      "time_published": "20111112T165048",
+      "title": "Nuns Who Won\u2019t Stop Nudging (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "0.826093",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.644203",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/11/13/business/sisters-of-st-francis-the-quiet-shareholder-activists.html"
+    },
+    {
+      "authors": [
+        "Eric Lipton and Clifford Krauss"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.303523,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "This article examines the significant government subsidies, including loan guarantees and cash grants, provided to large-scale clean energy projects in the U.S. It highlights how these subsidies, particularly expanded during the Obama administration, have largely eliminated risk for private investors like Goldman Sachs, Morgan Stanley, and NRG, guaranteeing substantial profits. The piece uses NRG Energy's California Valley Solar Ranch as a case study to illustrate the extensive financial support from federal and state programs, raising questions about whether the government's support went too far.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NRG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424000"
+        },
+        {
+          "relevance_score": "0.742849",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335392"
+        },
+        {
+          "relevance_score": "0.627582",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263162"
+        },
+        {
+          "relevance_score": "0.559454",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266725"
+        }
+      ],
+      "time_published": "20111111T172117",
+      "title": "A Gold Rush of Subsidies in Clean Energy Search (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "0.911012",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.904790",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.732368",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/11/12/business/energy-environment/a-cornucopia-of-help-for-renewable-energy.html"
+    },
+    {
+      "authors": [
+        "Christopher Doering"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.112588,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "The chairman of the U.S. Commodity Futures Trading Commission, Gary Gensler, will not participate in the review of failed futures brokerage MF Global Inc. due to potential conflict of interest. Gensler and former MF Global CEO Jon Corzine previously worked together at Goldman Sachs. This decision comes amidst an investigation into over $600 million in missing customer money and calls for Gensler's recusal from Senator Charles Grassley.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.941605",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134873"
+        }
+      ],
+      "time_published": "20111105T003500",
+      "title": "CFTC Chief Won't Participate in MF Global Review: Report",
+      "topics": [
+        {
+          "relevance_score": "0.909831",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.840341",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.ibtimes.com/cftc-chief-wont-participate-mf-global-review-report-365710"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.174607,
+      "source": "Gainesville Sun",
+      "source_domain": "Gainesville Sun",
+      "summary": "Groupon successfully raised $700 million through its initial public offering (IPO), pricing shares at $20, above the anticipated range. This move valued the company at $12.7 billion on its Nasdaq debut, marking the second-largest Internet IPO after Google in 2004. Despite strong investor interest, the IPO followed a period of scrutiny over its business model and accounting practices, and a significant reduction from earlier valuation estimates.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GRPN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147184"
+        },
+        {
+          "relevance_score": "0.628816",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.215555"
+        },
+        {
+          "relevance_score": "0.590087",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109377"
+        },
+        {
+          "relevance_score": "0.563092",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125725"
+        }
+      ],
+      "time_published": "20111104T165047",
+      "title": "Groupon raises $700M with IPO at $20 per share",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.935250",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.813516",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746931",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.603363",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.gainesville.com/story/business/economy/2011/11/04/groupon-raises-700m-with-ipo-at-20-per-share/31215427007/"
+    },
+    {
+      "authors": [
+        "Tony Munroe"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.177837,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "Rajat Gupta, once a revered figure and role model for India's middle class, particularly for his rise to head McKinsey & Co., is now entangled in an insider-trading scandal. His story of humble beginnings and success resonated with many aspiring Indians, symbolizing achievement through hard work and merit. The article delves into his background, career, and the impact of the recent charges on his legacy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.621714",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110285"
+        },
+        {
+          "relevance_score": "0.909652",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.440023"
+        },
+        {
+          "relevance_score": "0.639027",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134222"
+        },
+        {
+          "relevance_score": "0.720600",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.236929"
+        }
+      ],
+      "time_published": "20111030T054200",
+      "title": "Before Insider-Trading Scandal, Rajat Gupta Was Role Model for India's Middle Class",
+      "topics": [
+        {
+          "relevance_score": "0.708669",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.627929",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ibtimes.com/insider-trading-scandal-rajat-gupta-was-role-model-indias-middle-class-363064"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.313953,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Rajat Gupta, a former director of Goldman Sachs and other prestigious companies, has been arrested and charged with insider trading. He is accused of acting as \"illegal eyes and ears\" for Raj Rajaratnam, the central figure in a major insider trading crackdown, by leaking confidential financial information. Prosecutors allege Gupta's tips led to over $23 million in profits for Rajaratnam's funds, and he now faces serious criminal and civil charges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.344214"
+        }
+      ],
+      "time_published": "20111026T084800",
+      "title": "Ex-Goldman director arrested and charged in trading case",
+      "topics": [
+        {
+          "relevance_score": "0.928897",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.820823",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna45045027"
+    },
+    {
+      "authors": [
+        "Mark DeCambre"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.075105,
+      "source": "New York Post",
+      "source_domain": "New York Post",
+      "summary": "Morgan Stanley reported a third-quarter profit of $2.2 billion, or $1.15 a share, primarily due to a $3.4 billion accounting gain, significantly outperforming rival Goldman Sachs which posted a $438 million loss. This performance highlights Morgan Stanley's progress in competing with Goldman Sachs, especially with its robust brokerage business and stronger investment banking revenues. Despite concerns about European exposure, Morgan Stanley expressed guarded optimism about future performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323238"
+        },
+        {
+          "relevance_score": "0.819040",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.346922"
+        },
+        {
+          "relevance_score": "0.643927",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145082"
+        }
+      ],
+      "time_published": "20111020T040000",
+      "title": "Morgan moves up",
+      "topics": [
+        {
+          "relevance_score": "0.948645",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.821786",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://nypost.com/2011/10/20/morgan-moves-up/?itm_source=parsely-apiitm_campaignparsely_recommended_widget-2&itmMedium=site_widget&itmSource=parsely_recommended_widget&itm_content=widget_item-3"
+    },
+    {
+      "authors": [
+        "Jon C. Ogg"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.199958,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Despite a recent operating loss, Goldman Sachs is showing confidence in its future by offering a 50-year bond, designated \"GSJ,\" callable from 2016. This follows a similar offering in 2010 and is part of a series of new notes, including 7-year and 15-year callable step-up notes with varying interest rates. The offering implies investor confidence in Goldman Sachs' long-term stability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.984948",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289339"
+        },
+        {
+          "relevance_score": "0.611598",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139395"
+        },
+        {
+          "relevance_score": "0.620414",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116502"
+        }
+      ],
+      "time_published": "20111019T121800",
+      "title": "What Worries? Goldman Sachs 50-Year Bond Offering (GS, GSJ)",
+      "topics": [
+        {
+          "relevance_score": "0.929746",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.840808",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.740834",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://247wallst.com/banking-finance/2011/10/19/what-worries-goldman-sachs-50-year-bond-offering-gs-gsj/"
+    },
+    {
+      "authors": [
+        "Karen Nielsen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.249717,
+      "source": "D Magazine",
+      "source_domain": "D Magazine",
+      "summary": "This article highlights Pamela Patsley's role as the CEO who turned around MoneyGram International after it faced significant financial challenges due to bad investments. Under her leadership, the company's core money-transfer business has seen substantial growth in transaction volume, revenue, and agent locations. Patsley's strategy focused on boosting company culture and leveraging MoneyGram's fundamental business model, which she believed was sound despite past investment missteps.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MGI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.462038"
+        },
+        {
+          "relevance_score": "0.861386",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256829"
+        },
+        {
+          "relevance_score": "0.604449",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049863"
+        }
+      ],
+      "time_published": "20111019T120000",
+      "title": "MoneyGram\u2019s Turnaround Artist",
+      "topics": [
+        {
+          "relevance_score": "0.901648",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.816409",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.708617",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.dmagazine.com/publications/d-ceo/2011/november/moneygrams-turnaround-artist/"
+    },
+    {
+      "authors": [
+        "San Diego Union-Tribune"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.649562,
+      "source": "San Diego Union-Tribune",
+      "source_domain": "San Diego Union-Tribune",
+      "summary": "Goldman Sachs reported a rare quarterly loss of $428 million in the third quarter due to sharp drops in underwriting and trading revenue, along with losses from souring investments. This marks only the second quarterly loss for the company since it went public in 1999, highlighting the struggles of big banks to navigate weak economies and tighter government controls. Despite the setback, the company's CFO expressed confidence in future market improvements and stated no changes to its long-term strategy are planned.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.603085"
+        }
+      ],
+      "time_published": "20111018T152400",
+      "title": "Goldman Sachs loses $428 million in third quarter",
+      "topics": [
+        {
+          "relevance_score": "0.902817",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.848232",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.806567",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.641914",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.sandiegouniontribune.com/2011/10/18/goldman-sachs-loses-428-million-in-third-quarter/"
+    },
+    {
+      "authors": [
+        "Keith Fitz-Gerald"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.41054,
+      "source": "Money Morning",
+      "source_domain": "Money Morning",
+      "summary": "The article warns about the growing concentration of risk in the $600 trillion derivatives market, primarily held by four major U.S. banks. It highlights the potential for a catastrophic financial meltdown, far exceeding the 2008 crisis, due to the staggering notional value of derivatives compared to global GDP and the inability of financial systems to backstop potential failures. The author urges regulators to address this issue before it escalates further.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.404389"
+        },
+        {
+          "relevance_score": "0.911304",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.415612"
+        },
+        {
+          "relevance_score": "0.932501",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.408002"
+        },
+        {
+          "relevance_score": "0.907263",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.383966"
+        }
+      ],
+      "time_published": "20111012T162110",
+      "title": "Derivatives: The $600 Trillion Time Bomb That's Set to Explode",
+      "topics": [
+        {
+          "relevance_score": "0.913977",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.821373",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.817092",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://moneymorning.com/2011/10/12/derivatives-the-600-trillion-time-bomb-thats-set-to-explode/"
+    },
+    {
+      "authors": [
+        "ABC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.058563,
+      "source": "ABC News",
+      "source_domain": "ABC News",
+      "summary": "Goldman Sachs reported its second loss in its history since its IPO, missing earnings estimates due to softness in debt and equity markets. Meanwhile, Morgan Stanley, Citigroup, Wells Fargo, and Bank of America reported profits, with many analysts noting the impact of new regulations like the Volcker Rule and the challenging economic environment. The article details the third-quarter earnings and outlooks for several major banks, including the potential for some to exit the banking system due to regulatory burdens.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225358"
+        },
+        {
+          "relevance_score": "0.999556",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.388369"
+        },
+        {
+          "relevance_score": "0.751130",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.223779"
+        },
+        {
+          "relevance_score": "0.689137",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.073678"
+        },
+        {
+          "relevance_score": "0.636784",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.151178"
+        }
+      ],
+      "time_published": "20111012T151600",
+      "title": "Goldman Sachs Reports 2nd Loss in its History",
+      "topics": [
+        {
+          "relevance_score": "0.931473",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.819942",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.747551",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.604818",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://abcnews.go.com/Business/morgan-stanley-reports-profit-day-goldman-sachs-reports/story?id=14722449"
+    },
+    {
+      "authors": [
+        "Pallavi Gogoi"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.099444,
+      "source": "Global News",
+      "source_domain": "Global News",
+      "summary": "Major investors are divided on Bank of America's stock, with George Soros and John Paulson selling shares while Bruce Berkowitz, Thomas Brown, and Warren Buffett are buying. The bank's stock plunged significantly, dropping 44% in the third quarter and another 9% on Monday to $5.53 due to issues like a new debit card fee, a website outage, and losses from subprime mortgages. Despite these challenges and ongoing lawsuits, some investors see the low stock price and the bank's underlying assets as an attractive opportunity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.250630"
+        },
+        {
+          "relevance_score": "0.628475",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110058"
+        }
+      ],
+      "time_published": "20111003T110900",
+      "title": "Smart money on Wall Street is split on Bank of America: Soros sells as Berkowitz buys",
+      "topics": [
+        {
+          "relevance_score": "0.946010",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.834682",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.625367",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://globalnews.ca/news/161908/smart-money-on-wall-street-is-split-on-bank-of-america-soros-sells-as-berkowitz-buys/"
+    },
+    {
+      "authors": [
+        "Ksenia Galouchko"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.041811,
+      "source": "Cape Cod Times",
+      "source_domain": "Cape Cod Times",
+      "summary": "Holiday toy sales for the upcoming season are anticipated to be led by popular items like Mattel's Angry Birds game and Hasbro's Beyblade kits, according to TimetoPlayMag.com. Despite cautious consumer spending due to economic instability, toy manufacturers are focusing on offering toys with various price points and expanded accessory sets to appeal to a wider audience. Analysts predict flat revenue but a slight decline in unit sales for the toy industry this holiday season, which typically generates a third of annual revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.882607",
+          "ticker": "JAKK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128534"
+        },
+        {
+          "relevance_score": "0.763495",
+          "ticker": "HAS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.090303"
+        },
+        {
+          "relevance_score": "0.645783",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205322"
+        }
+      ],
+      "time_published": "20110928T170116",
+      "title": "Putting Angry Birds under your tree?",
+      "topics": [
+        {
+          "relevance_score": "0.925765",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.814634",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.738622",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.capecodtimes.com/story/business/2011/09/28/putting-angry-birds-under-your/49888037007/"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.265816,
+      "source": "Crain's New York Business",
+      "source_domain": "Crain's New York Business",
+      "summary": "Blackstone Group LP has been the busiest buyout dealmaker in 2011, topping the list of most active private-equity firms with transactions valued at $20.3 billion. Private-equity transactions overall increased by 51% to $287 billion this year, despite a recent slowdown in dealmaking due to economic uncertainty. J.P. Morgan Chase & Co. and Goldman Sachs Group Inc. led as M&A advisors, while Kleiner Perkins Caufield & Byers dominated venture capital firm rankings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445712"
+        },
+        {
+          "relevance_score": "0.816401",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236632"
+        },
+        {
+          "relevance_score": "0.800937",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225560"
+        },
+        {
+          "relevance_score": "0.621857",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140598"
+        }
+      ],
+      "time_published": "20110927T000000",
+      "title": "Blackstone: No. 1 busiest private-equity firm",
+      "topics": [
+        {
+          "relevance_score": "0.925248",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.816661",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.736521",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.639358",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.crainsnewyork.com/article/20110927/FINANCE/110929907/blackstone-no-1-busiest-private-equity-firm"
+    },
+    {
+      "authors": [
+        "SUSANNE CRAIG"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.054371,
+      "source": "GoUpstate",
+      "source_domain": "GoUpstate",
+      "summary": "John J. Mack is stepping down as chairman of Morgan Stanley at the end of the year, with CEO James P. Gorman expected to assume the role. Mack, a prominent figure on Wall Street, will retain a senior advisory position and is writing a book. His successor, James Gorman, has been working to turn around Morgan Stanley's fortunes amidst a languishing stock price.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.988136",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.121080"
+        },
+        {
+          "relevance_score": "0.671988",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.064838"
+        },
+        {
+          "relevance_score": "0.611457",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.053042"
+        },
+        {
+          "relevance_score": "0.597472",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.091588"
+        },
+        {
+          "relevance_score": "0.556087",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.084655"
+        }
+      ],
+      "time_published": "20110915T171616",
+      "title": "John Mack stepping down as chairman of Morgan Stanley",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.goupstate.com/story/news/2011/09/15/john-mack-stepping-down-as/29874048007/"
+    },
+    {
+      "authors": [
+        "Kenny Forder"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.015309,
+      "source": "Homes of the Rich",
+      "source_domain": "Homes of the Rich",
+      "summary": "Hedge fund manager and former Goldman Sachs Group Inc trader Pierre Lagrange sold his London mansion for \u00a390 million ($145 million) to billionaire Roman Abramovich. Lagrange had purchased the Kensington Palace Gardens property for \u00a319 million in 2004. This sale follows Lagrange's divorce filing and comes as he was ranked 236th in the Sunday Times Rich List with an estimated fortune of \u00a3331 million.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.898684",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.039300"
+        }
+      ],
+      "time_published": "20110905T165048",
+      "title": "Pierre Lagrange Sells His London Mansion To Roman Abramovich For $145 million",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://homesoftherich.net/2011/09/pierre-lagrange-sells-his-london-mansion-to-roman-abramovich-for-145-million/"
+    },
+    {
+      "authors": [
+        "David Whitford"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.323657,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "This article recounts the remarkable story of Sandler O\u2019Neill, an investment bank profoundly affected by the 9/11 attacks, losing 66 of its 171 employees. Led by Jimmy Dunne, the firm not only rebuilt but emerged stronger, significantly increasing its revenues and headcount by strategically hiring talented individuals displaced by other Wall Street firms and broadening its financial services. The narrative highlights Dunne's leadership, the firm's resilience, and the bittersweet nature of their recovery and growth after such a devastating event.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PIPR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.549846"
+        },
+        {
+          "relevance_score": "0.638515",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122756"
+        }
+      ],
+      "time_published": "20110901T172627",
+      "title": "Sandler O\u2019Neill\u2019s journey from Ground Zero",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.646173",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2011/09/01/sandler-oneills-journey-from-ground-zero/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.12533,
+      "source": "SKNVibes",
+      "source_domain": "SKNVibes",
+      "summary": "Goldman Sachs, its Litton Loan Servicing business, and Ocwen Financial Corp. have agreed to a deal with New York regulators to reform controversial mortgage practices, including ending \"robo-signing\" and reviewing borrower paperwork. This settlement, which also includes cutting mortgage payments for some New York homeowners, could serve as a template for other major lenders facing similar legal actions. The reforms were a condition for the approval of Goldman's sale of Litton to Ocwen.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.345008",
+          "ticker": "ONIT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008802"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253381"
+        },
+        {
+          "relevance_score": "0.706545",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114327"
+        },
+        {
+          "relevance_score": "0.703073",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134689"
+        },
+        {
+          "relevance_score": "0.708958",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149928"
+        }
+      ],
+      "time_published": "20110901T060900",
+      "title": "Goldman strikes mortgage deal with regulators: WSJ",
+      "topics": [
+        {
+          "relevance_score": "0.907991",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.836079",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.sknvibes.com/news/newsdetails.cfm/40022"
+    },
+    {
+      "authors": [
+        "PALLAVI GOGOI"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.358301,
+      "source": "Cape Cod Times",
+      "source_domain": "Cape Cod Times",
+      "summary": "Warren Buffett's Berkshire Hathaway announced a $5 billion investment in Bank of America Corp., providing a critical vote of confidence for the struggling bank. The investment, structured with preferred shares and warrants, is reminiscent of Buffett's previous lucrative investments in troubled companies during the 2008 financial crisis. This move immediately boosted Bank of America's stock price and resulted in a significant paper profit for Berkshire Hathaway.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.491858"
+        },
+        {
+          "relevance_score": "0.645370",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324356"
+        },
+        {
+          "relevance_score": "0.568627",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328360"
+        }
+      ],
+      "time_published": "20110825T161138",
+      "title": "Buffett invests $5 billion in Bank of America",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.949636",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.capecodtimes.com/story/news/2011/08/25/buffett-invests-5-billion-in/49924120007/"
+    },
+    {
+      "authors": [
+        "CVHRISTINA REXRODE"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.195333,
+      "source": "Lubbock Avalanche-Journal",
+      "source_domain": "Lubbock Avalanche-Journal",
+      "summary": "Bank of America is cutting 3,500 jobs, signaling a permanent structural shift in the banking industry towards being smaller, simpler, and less profitable. These layoffs follow similar announcements from other major financial institutions and come despite many banks currently posting profits, indicating a move beyond temporary cuts due to a weak economy. The industry is shrinking after years of rapid growth, facing new regulations and declining profitability in some areas.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.257479"
+        },
+        {
+          "relevance_score": "0.703743",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.217795"
+        },
+        {
+          "relevance_score": "0.690143",
+          "ticker": "BK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.217614"
+        },
+        {
+          "relevance_score": "0.630971",
+          "ticker": "STT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.200796"
+        },
+        {
+          "relevance_score": "0.572815",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.135400"
+        }
+      ],
+      "time_published": "20110820T161138",
+      "title": "Bank of America layoffs are the latest as an industry shrinks",
+      "topics": [
+        {
+          "relevance_score": "0.946126",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.804142",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.lubbockonline.com/story/entertainment/local/2011/08/20/bank-america-layoffs-are-latest-industry-shrinks/15218382007/"
+    },
+    {
+      "authors": [
+        "Anonymous"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.224048,
+      "source": "eFinancialCareers",
+      "source_domain": "eFinancialCareers",
+      "summary": "Wells Fargo Securities has hired approximately 25 investment banking professionals and related administrative staff from Citadel Securities, along with acquiring Citadel Securities' related investment banking business. This move aims to further build up Wells Fargo's Investment Banking division, which has shown significant domestic market share growth in the first half of 2011. The newly formed team will be led by Brian Maier, who joins as a Vice Chairman in Client Coverage.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415226"
+        },
+        {
+          "relevance_score": "0.614501",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143531"
+        },
+        {
+          "relevance_score": "0.604838",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101224"
+        }
+      ],
+      "time_published": "20110815T180114",
+      "title": "Wells Fargo Hires 25 investment bankers from Citadel Securities",
+      "topics": [
+        {
+          "relevance_score": "0.943293",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.644372",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.efinancialcareers.com/news/2011/08/wells-fargo-hires-25-investment-bankers-from-citadel-securities"
+    },
+    {
+      "authors": [
+        "By Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.240147,
+      "source": "Financial Post",
+      "source_domain": "Financial Post",
+      "summary": "Transocean Ltd., the world's largest offshore driller, has made an offer to acquire Norway's Aker Drilling ASA for 7.9 billion kroner ($1.4 billion). This acquisition aims to expand Transocean's fleet of rigs capable of operating in deep water and rough seas. The offer represents a 98% premium to Aker Drilling's closing price on August 12 and has been recommended by Aker's board.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.325761",
+          "ticker": "RIG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028480"
+        },
+        {
+          "relevance_score": "0.647686",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344011"
+        },
+        {
+          "relevance_score": "0.615209",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331520"
+        }
+      ],
+      "time_published": "20110815T173553",
+      "title": "Transocean makes $1.4B offer for Aker Drilling",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.947717",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://financialpost.com/commodities/energy/transocean-makes-1-4b-offer-for-aker-drilling"
+    },
+    {
+      "authors": [
+        "Christine Harper"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.228055,
+      "source": "Cape Cod Times",
+      "source_domain": "Cape Cod Times",
+      "summary": "Lloyd C. Blankfein, CEO of Goldman Sachs, lost approximately $52 million in personal wealth due to the recent stock market decline, exceeding the combined losses of his counterparts at other major Wall Street banks. The market downturn, highlighted by an 18-percent drop in the S&P 500 Financials Index, severely impacted the stock holdings of top executives at Bank of America, Citigroup, JPMorgan Chase & Co., Morgan Stanley, and Goldman Sachs. Despite significant individual losses, some CEOs expressed confidence in their companies, with plans to purchase more shares.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.890103",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.315547"
+        },
+        {
+          "relevance_score": "0.916086",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.051950"
+        },
+        {
+          "relevance_score": "0.755666",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.303206"
+        },
+        {
+          "relevance_score": "0.698712",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.230477"
+        },
+        {
+          "relevance_score": "0.649130",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.279858"
+        }
+      ],
+      "time_published": "20110812T170125",
+      "title": "Goldman Sachs chief lost millions in stock market crash",
+      "topics": [
+        {
+          "relevance_score": "0.925379",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.825608",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.714205",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.capecodtimes.com/story/business/2011/08/12/goldman-sachs-chief-lost-millions/49936736007/"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel and Joe Rauch"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.100584,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "American International Group (AIG) is suing Bank of America Corp (BofA) for over $10 billion, alleging \"massive fraud\" related to mortgage debt, causing BofA's shares to plummet. AIG claims BofA misrepresented the quality of mortgage-backed securities it purchased and is seeking to recover losses from the financial crisis. This lawsuit adds to Bank of America's growing litigation challenges stemming from its acquisition of Countrywide Financial Corp.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425077"
+        },
+        {
+          "relevance_score": "0.985699",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.737538"
+        },
+        {
+          "relevance_score": "0.602351",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109258"
+        },
+        {
+          "relevance_score": "0.609469",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103264"
+        }
+      ],
+      "time_published": "20110808T122100",
+      "title": "AIG sues BofA for $10 billion, alleging 'massive fraud'",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.918660",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.813640",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.609378",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna44061250"
+    },
+    {
+      "authors": [
+        "Royal Gazette Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.144305,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "HSBC Holdings plc plans to cut 30,000 jobs globally over three years, with 10 percent of these cuts aimed at reducing costs. While HSBC Bank Bermuda has not confirmed specific local job cuts, it acknowledges that staffing changes are \"inevitable\" due to evolving business models and automation. The bank is focusing on training and redeploying staff, and the global cuts will include selling off nearly half its US retail bank branches.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HSBC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.226644"
+        },
+        {
+          "relevance_score": "0.649448",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123877"
+        },
+        {
+          "relevance_score": "0.623231",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107767"
+        }
+      ],
+      "time_published": "20110802T010000",
+      "title": "HSBC jobs threat looms",
+      "topics": [
+        {
+          "relevance_score": "0.928136",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.733112",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.845330",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.royalgazette.com/other/business/article/20110802/hsbc-jobs-threat-looms/"
+    },
+    {
+      "authors": [
+        "Globe and Mail Update"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.194841,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "HSBC is reportedly planning to cut more than 10,000 jobs as part of a broader strategy to reduce costs by up to $3.5-billion annually and revive flagging profits. This move follows an announcement by CEO Stuart Gulliver to exit several markets and refocus on core strengths, contributing to a wave of job cuts across the global financial industry. The bank, which faces significant pressure due to underperforming businesses, is also looking to sell its U.S. credit card arm and shrink its U.S. branch network.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.302216",
+          "ticker": "HSBC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033285"
+        },
+        {
+          "relevance_score": "0.627157",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232151"
+        },
+        {
+          "relevance_score": "0.631730",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.229301"
+        },
+        {
+          "relevance_score": "0.635679",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.207512"
+        },
+        {
+          "relevance_score": "0.645709",
+          "ticker": "STT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.258700"
+        }
+      ],
+      "time_published": "20110728T165559",
+      "title": "HSBC may cut more than 10,000 jobs: report",
+      "topics": [
+        {
+          "relevance_score": "0.939937",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.841436",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.720879",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/globe-investor/hsbc-may-cut-more-than-10000-jobs-report/article588545/"
+    },
+    {
+      "authors": [
+        "AFP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.190576,
+      "source": "SKNVibes",
+      "source_domain": "SKNVibes",
+      "summary": "Morgan Stanley reported a second-quarter net loss of $558 million, largely due to a $1.7 billion one-time charge, but still managed to beat analysts' forecasts. Despite global market challenges, the bank's revenue grew 17 percent to $9.3 billion, driven by strong performance in its investment-banking and equity sales divisions. This result contrasted positively with its rival, Goldman Sachs, whose earnings fell short of expectations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.528196"
+        },
+        {
+          "relevance_score": "0.745027",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.324378"
+        },
+        {
+          "relevance_score": "0.615231",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308089"
+        }
+      ],
+      "time_published": "20110721T081900",
+      "title": "Morgan Stanley loss not as bad as expected",
+      "topics": [
+        {
+          "relevance_score": "0.914776",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.806638",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.634584",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://m.sknvibes.com/news/newsdetails.cfm/35058"
+    },
+    {
+      "authors": [
+        "Ari Levy",
+        "Douglas MacMillan",
+        "Serena Saitto"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.09878,
+      "source": "MySA",
+      "source_domain": "MySA",
+      "summary": "Michael Grimes of Morgan Stanley has positioned his team as the lead underwriter for many prominent tech IPOs, including LinkedIn and Pandora, and is a strong contender for Facebook's upcoming IPO. His long-term commitment to Silicon Valley and deep engagement with client products have given Morgan Stanley a significant advantage over competitors like Goldman Sachs in a resurgent IPO market. The article highlights Morgan Stanley's strategy and success in securing top billing for major technology offerings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.983197",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.343909"
+        },
+        {
+          "relevance_score": "0.987231",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430115"
+        }
+      ],
+      "time_published": "20110719T165048",
+      "title": "Michael Grimes makes Morgan Stanley IPO team No. 1",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.903516",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.814125",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.703241",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.mysanantonio.com/business/article/Michael-Grimes-makes-Morgan-Stanley-IPO-team-No-1-2354154.php"
+    },
+    {
+      "authors": [
+        "Andrew Osterland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.212854,
+      "source": "InvestmentNews",
+      "source_domain": "InvestmentNews",
+      "summary": "Barclays Wealth has expanded its U.S. wealth management team by hiring six new advisers across three East Coast markets. These advisers, formerly with firms like Merrill Lynch, Goldman Sachs, and Morgan Stanley Smith Barney, collectively managed over $1.1 billion in assets. This move is part of Barclays' aggressive strategy, \"Project Gamma,\" to enhance its wealth management division globally since acquiring Lehman Brothers' operations in 2008.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.346828",
+          "ticker": "BCM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046906"
+        },
+        {
+          "relevance_score": "0.737294",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319642"
+        },
+        {
+          "relevance_score": "0.731599",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317465"
+        },
+        {
+          "relevance_score": "0.595448",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240485"
+        }
+      ],
+      "time_published": "20110708T161556",
+      "title": "Barclays adds six advisers to U.S. wealth management team",
+      "topics": [
+        {
+          "relevance_score": "0.904134",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.615769",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.investmentnews.com/wirehouses/barclays-adds-six-advisers-to-us-wealth-management-team/37250"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.122993,
+      "source": "CT Insider",
+      "source_domain": "CT Insider",
+      "summary": "Anatoly Nakum, co-head of U.S. credit trading at UBS AG in Stamford, has left the bank. His departure follows UBS's appointment of Eric Rosen from JPMorgan Chase & Co. to head U.S. credit trading and loan portfolio. Nakum had joined UBS in 2009 from Barclays Capital Inc. and previously worked at Deutsche Bank AG.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300163",
+          "ticker": "DB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049139"
+        },
+        {
+          "relevance_score": "0.636166",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133262"
+        },
+        {
+          "relevance_score": "0.614255",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139878"
+        },
+        {
+          "relevance_score": "0.611016",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128506"
+        }
+      ],
+      "time_published": "20110614T163109",
+      "title": "UBS co-head of U.S. credit trading Anatoly Nakum departs bank",
+      "topics": [
+        {
+          "relevance_score": "0.935281",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.ctinsider.com/news/article/UBS-co-head-of-U-S-credit-trading-Anatoly-Nakum-1424360.php"
+    },
+    {
+      "authors": [
+        "Joseph Milton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.22096,
+      "source": "WealthBriefing",
+      "source_domain": "WealthBriefing",
+      "summary": "Morgan Stanley has expanded its UK and EMEA operations by appointing Martin Davison as executive director and Glenn Palmer as vice president in its private wealth management division. Both join from Barclays Wealth to cover EMEA clients in the UK. The firm also hired Omar Palmieri as an associate and Ghada Ragheb and Kshitij Sawhney as vice president and associate investment advisors, respectively, focusing on the Middle East, Oman, and UAE.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324671"
+        },
+        {
+          "relevance_score": "0.618195",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100791"
+        }
+      ],
+      "time_published": "20110602T171616",
+      "title": "Morgan Stanley Appoints Executive Director, Vice President",
+      "topics": [
+        {
+          "relevance_score": "0.908116",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.wealthbriefing.com/html/article.php/morgan-stanley-appoints-executive-director,-vice-president"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.223429,
+      "source": "CD&R",
+      "source_domain": "CD&R",
+      "summary": "Sealed Air Corporation announced its definitive agreement to acquire Diversey Holdings, Inc. for $4.3 billion. This acquisition aims to create a global leader in sustainable solutions for hygiene, protection, food safety, and security, leveraging Sealed Air's competencies in the $40+ billion chemical cleaning and hygiene industry. The transaction, expected to close in 2011, will be accretive to earnings in the first full year and will result in Diversey shareholders owning approximately 15% of Sealed Air common stock.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SEE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.492444"
+        },
+        {
+          "relevance_score": "0.744605",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224388"
+        },
+        {
+          "relevance_score": "0.602506",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138243"
+        },
+        {
+          "relevance_score": "0.626791",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113251"
+        }
+      ],
+      "time_published": "20110601T174059",
+      "title": "Sealed Air to Acquire Diversey for $4.3 Billion \u2014 Clayton Dubilier & Rice, LLC | Building Businesses Building Value",
+      "topics": [
+        {
+          "relevance_score": "0.919222",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.709003",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.618664",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.632949",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cdr.com/news/sealed-air-to-acquire-diversey-for-43-billion"
+    },
+    {
+      "authors": [
+        "Benjamin J. Spencer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.020581,
+      "source": "Crain's New York Business",
+      "source_domain": "Crain's New York Business",
+      "summary": "Raj Rajaratnam, a prominent hedge fund executive, was found guilty on all 14 counts of conspiracy and securities fraud following a jury's deliberation in an insider-trading case heavily influenced by wiretap evidence. He faces up to 25 years in prison and plans to appeal the verdict. The article also touches on other financial and political news, including Goldman Sachs' legal troubles and the Census undercount debate.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.915220",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.031029"
+        },
+        {
+          "relevance_score": "0.725263",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146275"
+        },
+        {
+          "relevance_score": "0.628583",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132179"
+        }
+      ],
+      "time_published": "20110515T000000",
+      "title": "Hedge funder found guilty",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.631213",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.crainsnewyork.com/article/20110515/SUB/305159967/hedge-funder-found-guilty"
+    },
+    {
+      "authors": [
+        "Paul M. Barrett"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.124103,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "This article reviews William D. Cohan's book \"Money and Power,\" which chronicles Goldman Sachs's history and its ability to navigate financial crises, particularly the 2008 real estate bubble. It highlights Goldman's strategic hedging and self-preservation tactics that allowed it to profit even as other institutions collapsed. The review also touches upon criticisms of the firm, including its role in the mortgage crisis and a fraud lawsuit, while noting its continued influence in the financial world.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109207"
+        }
+      ],
+      "time_published": "20110429T165048",
+      "title": "How Goldman Sachs Beat the Bubble (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "0.933584",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.711547",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.616974",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.613129",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/05/01/books/review/book-review-money-and-power-by-william-d-cohan.html"
+    },
+    {
+      "authors": [
+        "Jonathan Kent"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.20511,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "Goldman Sachs' private-equity funds are investing up to $291.6 million for a nearly 20 percent stake in Bermuda-based Enstar Group Ltd. The investment, at $86 per share, also includes warrants for an additional two percent interest. This capital infusion is expected to help Enstar pursue more opportunities in the run-off insurance and reinsurance market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327054",
+          "ticker": "ESGR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012923"
+        },
+        {
+          "relevance_score": "0.937460",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.444339"
+        }
+      ],
+      "time_published": "20110425T091500",
+      "title": "Enstar boosted by Goldman Sachs' $290m investment",
+      "topics": [
+        {
+          "relevance_score": "0.931804",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.846951",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.royalgazette.com/re-insurance/business/article/20110425/enstar-boosted-by-goldman-sachs-290m-investment/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.170698,
+      "source": "Bernews",
+      "source_domain": "Bernews",
+      "summary": "Goldman Sachs Group Inc. private equity funds are investing up to $291.6 million for a 19.9 percent stake in Bermuda-based Enstar Group Ltd., a company specializing in \"run off\" re/insurance businesses. The funds have already invested $110.2 million and plan further investments pending regulatory and shareholder approvals. Enstar recently expanded its holdings by adding three former CIGNA affiliates and California insurer Claremont.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.319293",
+          "ticker": "ESGR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024209"
+        },
+        {
+          "relevance_score": "0.890983",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343982"
+        }
+      ],
+      "time_published": "20110421T163610",
+      "title": "Goldman Sachs Fund Buys New Enstar Stake",
+      "topics": [
+        {
+          "relevance_score": "0.941557",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.740374",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://bernews.com/2011/04/goldman-sachs-fund-buys-new-enstar-stake/"
+    },
+    {
+      "authors": [
+        "Jonathan Kent"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.188423,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "Goldman Sachs funds, specifically GS Capital Partners, have agreed to acquire a nearly 20 percent stake in Bermuda-based Enstar Group Ltd for over $290 million. This investment will provide Enstar with greater financial flexibility to pursue acquisitions in the insurance and reinsurance run-off market. As part of the deal, Sumit Rajpal, managing director for financial services investing at GSCP, will join Enstar's board of directors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.345237",
+          "ticker": "ESGR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.047500"
+        },
+        {
+          "relevance_score": "0.988954",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306619"
+        }
+      ],
+      "time_published": "20110421T010000",
+      "title": "Goldman Sachs funds agree to buy 20% stake in Enstar",
+      "topics": [
+        {
+          "relevance_score": "0.941184",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.723233",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.royalgazette.com/other/news/article/20110421/goldman-sachs-funds-agree-to-buy-20-stake-in-enstar/"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.311467,
+      "source": "Jamaica Gleaner",
+      "source_domain": "Jamaica Gleaner",
+      "summary": "Goldman Sachs reported a 72 percent drop in first-quarter income to US$908 million due to a US$1.64 billion dividend payment to Berkshire Hathaway for its 2008 financial crisis investment. Revenue also fell 7 percent to US$11.9 billion, impacted by weakness in trading and advisory businesses, causing its stock to fall and raising concerns among analysts about the bank's performance compared to its rivals. Despite the dividend payment, earnings per common share exceeded analyst forecasts when excluding this payment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.423861"
+        },
+        {
+          "relevance_score": "0.621399",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.247950"
+        },
+        {
+          "relevance_score": "0.636377",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224955"
+        }
+      ],
+      "time_published": "20110420T120000",
+      "title": "Goldman reports 72 per cent hit to Q1 income, stock falls",
+      "topics": [
+        {
+          "relevance_score": "0.909500",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.838279",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.648612",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.640023",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://jamaica-gleaner.com/gleaner/20110420/business/business93.html"
+    },
+    {
+      "authors": [
+        "Jon C. Ogg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.045059,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "This article previews Goldman Sachs' first-quarter earnings report, expected on Tuesday morning. It highlights Thomson Reuters' estimates for EPS and revenue, notes the impact of a $5 billion repayment to Berkshire Hathaway on earnings figures, and discusses Goldman's book value and operational shifts away from proprietary trading.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.321066",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044917"
+        }
+      ],
+      "time_published": "20110418T153100",
+      "title": "Goldman Sachs Earnings Preview (GS, BRK-A)",
+      "topics": [
+        {
+          "relevance_score": "0.926352",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.842655",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.819635",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.600856",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://247wallst.com/banking-finance/2011/04/18/goldman-sachs-earnings-preview-gs-brk-a/"
+    },
+    {
+      "authors": [
+        "Michael Erman and Ben Berkowitz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.235329,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Warren Buffett's ongoing search for a major acquisition after the Lubrizol deal could target companies like Eaton, Illinois Tool Works, or Cliffs Natural Resources, fitting his preference for growth in basic industries. Using Thomson Reuters StarMine data, a list of over 80 potential acquisition targets was compiled that align with Buffett's criteria, including strong balance sheets and discounted valuations. Berkshire Hathaway reportedly has a substantial cash pile, indicating its readiness for a significant \"elephant hunting\" acquisition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ITW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262549"
+        },
+        {
+          "relevance_score": "0.703515",
+          "ticker": "ETN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209029"
+        },
+        {
+          "relevance_score": "0.616283",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236628"
+        }
+      ],
+      "time_published": "20110331T102100",
+      "title": "Are tools, iron in Warren Buffett's sights?",
+      "topics": [
+        {
+          "relevance_score": "0.910786",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.828485",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.611633",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.647253",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/are-tools-iron-in-warren-buffetts-sights-idUSTRE72T64B/"
+    },
+    {
+      "authors": [
+        "Basil Katz and Grant McCool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.384093,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Hedge fund manager Raj Rajaratnam is accused of making millions through insider trading based on a tip about a significant Goldman Sachs investment. The trial heard FBI phone taps and testimony alleging Rajaratnam received information about Warren Buffett's Berkshire Hathaway Inc.'s $5 billion investment in Goldman Sachs. Prosecutors contend Rajaratnam made close to $4 million from leaks by Rajat Gupta, then a Goldman board member, and a total of $45 million in illicit profits from various stock tips.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.608543"
+        },
+        {
+          "relevance_score": "0.639962",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109732"
+        }
+      ],
+      "time_published": "20110330T151300",
+      "title": "Rajaratnam made millions from Goldman tip, trial hears",
+      "topics": [
+        {
+          "relevance_score": "0.939408",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.703424",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna42344408"
+    },
+    {
+      "authors": [
+        "Jonathan Kent"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.23675,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "The SEC has filed civil charges against Rajat Gupta, chairman of Bermuda-domiciled Genpact Ltd., alleging insider trading. Gupta is accused of tipping off hedge fund founder Raj Rajaratnam about a significant investment by Warren Buffett's Berkshire Hathaway in Goldman Sachs before it was publicly announced, leading to illicit profits for Rajaratnam. Gupta's attorney maintains the allegations are baseless, noting Gupta did not trade the stocks himself or share profits directly.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.311080",
+          "ticker": "G",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048610"
+        },
+        {
+          "relevance_score": "0.845151",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.441022"
+        },
+        {
+          "relevance_score": "0.630640",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.301491"
+        }
+      ],
+      "time_published": "20110302T082000",
+      "title": "SEC sues Genpact chairman for alleged insider trading",
+      "topics": [
+        {
+          "relevance_score": "0.945416",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.828813",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.royalgazette.com/international-business/business/article/20110302/sec-sues-genpact-chairman-for-alleged-insider-trading/"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.366273,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "A former Goldman Sachs Group Inc. director, Rajat Gupta, has been charged by a U.S. regulator for leaking inside information to Galleon Group founder Raj Rajaratnam. The U.S. Securities and Exchange Commission accused Gupta of illegally disclosing quarterly earnings from Goldman and Procter & Gamble Co., and tipping Rajaratnam about a $5 billion investment by Warren Buffett's Berkshire Hathaway Inc. in Goldman. Rajaratnam allegedly used these tips to generate over $18 million in illegal gains for Galleon funds.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.445507"
+        },
+        {
+          "relevance_score": "0.733360",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.322930"
+        }
+      ],
+      "time_published": "20110301T114900",
+      "title": "Ex-Goldman director charged in insider case",
+      "topics": [
+        {
+          "relevance_score": "0.946325",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.832053",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna41850398"
+    },
+    {
+      "authors": [
+        "Andrew Frye and April Lee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.072122,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "Allied World Assurance Company Holdings AG repurchased a warrant from American International Group Inc. for $53.6 million, funding the transaction with cash on hand. This move saw Allied World's stock price rise to a four-and-a-half year high. The insurer has been actively repurchasing shares and warrants from its founding shareholders, separate from a pre-approved share-repurchase program.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.201170"
+        },
+        {
+          "relevance_score": "0.744155",
+          "ticker": "CB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.056002"
+        },
+        {
+          "relevance_score": "0.610741",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096638"
+        }
+      ],
+      "time_published": "20110204T080000",
+      "title": "Allied World rises after paying $53.6 million for AIG warrants",
+      "topics": [
+        {
+          "relevance_score": "0.947512",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.820368",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.726322",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.royalgazette.com/re-insurance/business/article/20110204/allied-world-rises-after-paying-53-6-million-for-aig-warrants/"
+    },
+    {
+      "authors": [
+        "Azam Ahmed and Julie Creswell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.405106,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "John A. Paulson, a hedge fund manager famed for his short bets against subprime mortgages, personally made about $5 billion in 2010 primarily by investing heavily in gold through his firm Paulson & Company. His strategy involved buying securities representing a vast amount of gold, based on his belief that the dollar would lose value. While his funds initially lagged, those who stayed were rewarded significantly, especially the special gold-share class investors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GLD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.480550"
+        },
+        {
+          "relevance_score": "0.609350",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329899"
+        }
+      ],
+      "time_published": "20110128T165037",
+      "title": "Bet on Gold Nets Paulson $5 Billion (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.930312",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.825235",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.746099",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/01/29/business/29paulson.html"
+    },
+    {
+      "authors": [
+        "Shahien Nasiripour"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.186843,
+      "source": "HuffPost",
+      "source_domain": "HuffPost",
+      "summary": "A congressional panel found that Goldman Sachs received $2.9 billion from AIG as a payout for its own speculative trades, with the bulk of these funds delivered after AIG received a massive taxpayer rescue. This revelation challenges Goldman's previous assertions that AIG bailout funds only went to clients or counterparties, directly benefiting the firm's bottom line. Critics suggest this amounts to a \"backdoor bailout\" for Goldman Sachs at the public's expense.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.426579"
+        },
+        {
+          "relevance_score": "0.995041",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.421089"
+        },
+        {
+          "relevance_score": "0.620918",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147284"
+        },
+        {
+          "relevance_score": "0.570616",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102975"
+        }
+      ],
+      "time_published": "20110126T213200",
+      "title": "Goldman Sachs Got Billions From AIG For Its Own Account, Crisis Panel Finds",
+      "topics": [
+        {
+          "relevance_score": "0.903033",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.819886",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.huffpost.com/entry/goldman-sachs-aig-backdoor-bailout_n_814589"
+    },
+    {
+      "authors": [
+        "Leena Rao"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.317723,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "Facebook officially announced a $1.5 billion funding round at a $50 billion valuation. The investment was split between a $1 billion offering to Goldman Sachs' non-U.S. clients and a separate $500 million investment from DST and Goldman. This brings Facebook's total funding to $2.336 billion, and the company expects to begin filing public financial reports by April 30, 2012, indicating a likely IPO by that time.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327025"
+        }
+      ],
+      "time_published": "20110121T212100",
+      "title": "Facebook Raises $1.5 Billion At $50 Billion Valuation",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.807821",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://techcrunch.com/2011/01/21/facebook-raises-1-5-billion-at-50-billion-valuation/"
+    },
+    {
+      "authors": [
+        "Michael Shaw"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.045781,
+      "source": "Reading The Pictures",
+      "source_domain": "Reading The Pictures",
+      "summary": "This article reports on the bankers in attendance at a White House State Dinner for China's President Hu Jintao in January 2011, highlighting the presence of prominent figures like Lloyd Blankfein of Goldman Sachs and Jamie Dimon of JP Morgan Chase. It suggests a renewed favor of Wall Street by the Obama administration, despite Blankfein's prior public criticism following the financial meltdown. The piece includes details on other attendees and a relevant photo caption mentioning Goldman Sachs's $550 million settlement with the SEC.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.999990",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309690"
+        },
+        {
+          "relevance_score": "0.815014",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239131"
+        },
+        {
+          "relevance_score": "0.730703",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114991"
+        },
+        {
+          "relevance_score": "0.651420",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126928"
+        }
+      ],
+      "time_published": "20110120T165048",
+      "title": "Who's Who at Hu's Dinner? (Hint: You Can Bank On It.)",
+      "topics": [
+        {
+          "relevance_score": "0.911870",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.824464",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.634520",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.readingthepictures.org/2011/01/hus-state-dinner-laughing-all-the-way-to-the-bank/"
+    },
+    {
+      "authors": [
+        "Halah Touryalai"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.229716,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Goldman Sachs has invested $450 million in Facebook, valuing the social networking giant at $50 billion, surpassing companies like eBay, Yahoo, and Time Warner. This investment, alongside an additional $50 million from Digital Sky Technologies, provides Facebook with significant capital and solidifies its worth on Wall Street. The Securities and Exchange Commission is also scrutinizing Facebook's share sales on private exchanges, as the company approaches the 500-shareholder threshold that would mandate public disclosure of financial information.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.528416"
+        },
+        {
+          "relevance_score": "0.636797",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.138263"
+        }
+      ],
+      "time_published": "20110103T011800",
+      "title": "Goldman Sachs Invests $450 Million In Facebook",
+      "topics": [
+        {
+          "relevance_score": "0.919128",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.914748",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.826244",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.600193",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.648462",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/halahtouryalai/2011/01/03/goldman-sachs-invests-450-million-in-facebook/"
+    }
+  ],
+  "items": "56",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

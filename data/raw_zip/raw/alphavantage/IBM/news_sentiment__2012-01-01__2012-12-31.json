@@ -1,0 +1,2164 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Mark Shaw"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.324078,
+      "source": "Engineering News-Record | ENR",
+      "source_domain": "Engineering News-Record | ENR",
+      "summary": "Sturgeon Electric Co. Inc. was named the 2012 Specialty Contractor of Year by ENR Mountain States, reporting $156.1 million in revenue for 2011. The Henderson, Colo.-based electrical contractor, subsidiary of MYR Group Inc., attributes its success to a strong focus on long-term client relationships, employee care, and technological advancement, including prefabrication and advanced safety initiatives. The company's transmission and distribution division is also expanding, with major projects like the Nevada On-Line project and an increasing commitment to gas line and wind projects.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MYRG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.487316"
+        },
+        {
+          "relevance_score": "0.599203",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124358"
+        },
+        {
+          "relevance_score": "0.609180",
+          "ticker": "XEL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316978"
+        }
+      ],
+      "time_published": "20121224T151550",
+      "title": "Sturgeon Electric Co. Selected as 2012 Specialty Contractor of Year",
+      "topics": [
+        {
+          "relevance_score": "0.949828",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.enr.com/articles/21207-sturgeon-electric-co-selected-as-2012-specialty-contractor-of-year"
+    },
+    {
+      "authors": [
+        "By Kirk Ladendorf"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.064367,
+      "source": "Austin American-Statesman",
+      "source_domain": "Austin American-Statesman",
+      "summary": "Dell Inc. is selling its former North Carolina manufacturing plant to Herbalife Ltd. for $22.2 million. Dell built the plant in 2005 with significant incentives but closed it in 2010 due to competition from low-cost Asian manufacturers, agreeing to repay the incentives. Herbalife plans to retrofit the facility, creating 493 jobs and receiving clawed-back incentives from Dell.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.933129",
+          "ticker": "HLF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334510"
+        },
+        {
+          "relevance_score": "0.985795",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.244567"
+        },
+        {
+          "relevance_score": "0.642172",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102854"
+        },
+        {
+          "relevance_score": "0.553250",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.075379"
+        }
+      ],
+      "time_published": "20121219T145124",
+      "title": "Dell selling former site of North Carolina manufacturing plant",
+      "topics": [
+        {
+          "relevance_score": "0.911736",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.820589",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.725972",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.640942",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.statesman.com/story/business/2012/12/20/dell-selling-former-site-north/6703429007/"
+    },
+    {
+      "authors": [
+        "ET Bureau"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.096922,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Sutherland Global Services has outbid Genpact to acquire healthcare-focused BPO firm Apollo Health Street for Rs 1,000 crore. This acquisition aims to leverage the anticipated demand surge from US healthcare reforms, particularly \"Obamacare.\" Apollo Hospitals sold its stake in Apollo Health Street as part of its strategy to divest non-core businesses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.815435",
+          "ticker": "G",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106620"
+        },
+        {
+          "relevance_score": "0.620251",
+          "ticker": "CTSH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149803"
+        },
+        {
+          "relevance_score": "0.632213",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142771"
+        },
+        {
+          "relevance_score": "0.637976",
+          "ticker": "MMC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144576"
+        },
+        {
+          "relevance_score": "0.597980",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137734"
+        }
+      ],
+      "time_published": "20121212T043320",
+      "title": "Sutherland Global Services pips Genpact to buy Apollo Health Street for Rs 1,000 crore",
+      "topics": [
+        {
+          "relevance_score": "0.911393",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.705237",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.624354",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://m.economictimes.com/tech/ites/sutherland-global-services-pips-genpact-to-buy-apollo-health-street-for-rs-1000-crore/articleshow/17567870.cms"
+    },
+    {
+      "authors": [
+        "Barry Wilderman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.423373,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "This article discusses the relevance of integrated business planning (IBP) and how companies can automate this crucial process. It highlights how IBP helps various departments, from sales and operations to HR and finance, collaborate and make informed decisions. The piece also details specific software categories and vendors that offer automation solutions for IBP.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.649354",
+          "ticker": "TTGT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338110"
+        },
+        {
+          "relevance_score": "0.747019",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446330"
+        },
+        {
+          "relevance_score": "0.618559",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438365"
+        },
+        {
+          "relevance_score": "0.610374",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448632"
+        },
+        {
+          "relevance_score": "0.622803",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425537"
+        }
+      ],
+      "time_published": "20121128T155118",
+      "title": "Why integrated business planning is relevant -- and how to automate it",
+      "topics": [
+        {
+          "relevance_score": "0.835418",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.746942",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.648756",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.techtarget.com/searcherp/opinion/Why-integrated-business-planning-is-relevant-and-how-to-automate-it"
+    },
+    {
+      "authors": [
+        "Elizabeth Tandy Shermer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.197908,
+      "source": "History News Network",
+      "source_domain": "History News Network",
+      "summary": "This article contrasts General Motors and General Electric, arguing that GE offers a better lens for understanding postindustrial America and the fate of American unionism, manufacturing, and moderate Republicanism. It highlights GE's evolution from an electronics producer to a global finance captain, its pioneering anti-union tactics like \"Boulwarism,\" and its influence on figures like Ronald Reagan and Mitt Romney. The piece suggests that GE's practices in union avoidance, tax strategies, and financial diversification are emblematic of modern American capitalism, contrasting with GM's traditional manufacturing icon status.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403120"
+        },
+        {
+          "relevance_score": "0.874076",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136599"
+        },
+        {
+          "relevance_score": "0.593383",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042236"
+        }
+      ],
+      "time_published": "20121126T144632",
+      "title": "General Motors vs. General Electric",
+      "topics": [
+        {
+          "relevance_score": "0.745766",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.913130",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.844002",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.816011",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.historynewsnetwork.org/article/general-motors-vs-general-electric"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.062101,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "A federal jury convicted Andrew Auernheimer of hacking into AT&T Inc servers and stealing the email addresses and other personal data of approximately 120,000 Apple Inc iPad users. He was found guilty of one count of conspiracy to access servers without permission and one count of identity theft, facing a maximum of five years in prison and a $250,000 fine for each count. Auernheimer's lawyer plans to appeal the verdict, disagreeing with the prosecutors' interpretation of the Computer Fraud and Abuse Act.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.219481"
+        },
+        {
+          "relevance_score": "0.729235",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105107"
+        },
+        {
+          "relevance_score": "0.741575",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129946"
+        },
+        {
+          "relevance_score": "0.618162",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120526"
+        },
+        {
+          "relevance_score": "0.633567",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138432"
+        }
+      ],
+      "time_published": "20121121T111000",
+      "title": "Man convicted of stealing 120,000 iPad user IDs",
+      "topics": [
+        {
+          "relevance_score": "0.832348",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nbcnews.com/tech/tech-news/man-convicted-stealing-120-000-ipad-user-ids-flna1c7200034"
+    },
+    {
+      "authors": [
+        "Mark Memmott"
+      ],
+      "banner_image": "https://media.npr.org/assets/img/2012/11/20/155353146_wide-03bde22ab2b1442b380d6ae37227cd796e6c46a6-s1100-c50.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.327446,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "Hewlett-Packard announced an $8.8 billion accounting charge last quarter due to \"serious accounting improprieties, disclosure failures and outright misrepresentations\" by Autonomy, a British software company it acquired last year. This charge effectively wiped out HP's profits for the quarter, causing its stock to drop nearly 10 percent in pre-market trading. HP has contacted the SEC and the U.K.'s Serious Fraud Office regarding the issue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.742995",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.414477"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.466807"
+        },
+        {
+          "relevance_score": "0.570341",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103625"
+        }
+      ],
+      "time_published": "20121120T083900",
+      "title": "HP Takes $8.8 Billion Hit From 'Misrepresentations' By Company It Bought : The Two-Way",
+      "topics": [
+        {
+          "relevance_score": "0.911094",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.945676",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.735667",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.841457",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.npr.org/sections/thetwo-way/2012/11/20/165551326/hp-takes-8-8-billion-hit-from-misrepresentations-by-company-it-bought"
+    },
+    {
+      "authors": [
+        "Jessica DiNapoli"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.320494,
+      "source": "Times Herald-Record",
+      "source_domain": "Times Herald-Record",
+      "summary": "Fala Technologies, an Ulster-based advanced manufacturing company, is actively diversifying its business beyond the semiconductor industry due to the recent recession. By applying its engineering expertise to new sectors, Fala has secured contracts with clients like the Metropolitan Transportation Authority and Lenox Tools, aiming to grow and double its workforce in the coming five years. This strategic shift is helping the company navigate economic challenges and expand its client base.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.945714",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318255"
+        },
+        {
+          "relevance_score": "0.810552",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316429"
+        }
+      ],
+      "time_published": "20121111T144637",
+      "title": "Ulster company's smart move: diversify",
+      "topics": [
+        {
+          "relevance_score": "0.901892",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.733687",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.619019",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.606942",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.recordonline.com/story/business/2012/11/11/ulster-company-s-smart-move/49284209007/"
+    },
+    {
+      "authors": [
+        "Charles Elmore"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.189153,
+      "source": "The Palm Beach Post",
+      "source_domain": "The Palm Beach Post",
+      "summary": "This article reflects on IBM's enduring presence in Boca Raton, despite the decline of its PC manufacturing operations there. It highlights IBM's continuous reinvention, its patent leadership, and its current focus on software development and smart city initiatives in the region. The article also touches on Boca Raton's entrepreneurial history shaped by IBM and the continued connection between the company and the area.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.187539"
+        }
+      ],
+      "time_published": "20121028T145558",
+      "title": "PC heyday\u2019s a memory, but IBM looks ahead in Boca",
+      "topics": [
+        {
+          "relevance_score": "0.905617",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709121",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.palmbeachpost.com/story/business/2012/10/28/pc-heyday-s-memory-but/7261301007/"
+    },
+    {
+      "authors": [
+        "Tuo Yannan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.132787,
+      "source": "China Daily",
+      "source_domain": "China Daily",
+      "summary": "Lenovo Group Ltd. has surpassed Hewlett-Packard Corp. to become the world's largest personal computer seller by shipments in the third quarter of 2012, according to Gartner Inc. This marks the first time Lenovo has held the largest share of the PC market, driven by aggressive pricing and a strong focus on emerging markets. Despite a global decline in PC shipments, Lenovo's strategy of localizing sales and targeting lower-tier cities has proven successful.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.855614",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.050845"
+        },
+        {
+          "relevance_score": "0.997439",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.206398"
+        },
+        {
+          "relevance_score": "0.765352",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.253164"
+        },
+        {
+          "relevance_score": "0.644473",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109859"
+        },
+        {
+          "relevance_score": "0.632030",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131617"
+        }
+      ],
+      "time_published": "20121012T090700",
+      "title": "Lenovo world's largest PC seller |Companies",
+      "topics": [
+        {
+          "relevance_score": "0.802204",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.chinadaily.com.cn/business/2012-10/12/content_15812437.htm"
+    },
+    {
+      "authors": [
+        "Nick Waddell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.188866,
+      "source": "Cantech Letter",
+      "source_domain": "Cantech Letter",
+      "summary": "This article highlights five Canadian tech stocks with significant patent portfolios, emphasizing the growing importance of intellectual property in the tech industry. It discusses how companies like IBM monetize patents and the trend of defensive patent aggregation, while also addressing concerns about patent litigation costs. The piece then details the patent holdings of Research in Motion, Wi-LAN, Mitel Networks, COM DEV, and OpenText, underscoring their strategic value.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.928319",
+          "ticker": "OTEX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337095"
+        },
+        {
+          "relevance_score": "0.601225",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204173"
+        },
+        {
+          "relevance_score": "0.742794",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117596"
+        },
+        {
+          "relevance_score": "0.585793",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129388"
+        },
+        {
+          "relevance_score": "0.603124",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134437"
+        }
+      ],
+      "time_published": "20121009T025100",
+      "title": "Five Canadian Tech Stocks with Heavyweight Patent Portfolios",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cantechletter.com/2012/10/five-canadian-tech-stocks-with-heavyweight-patent-portfolios/"
+    },
+    {
+      "authors": [
+        "Panos Mourdoukoutas"
+      ],
+      "banner_image": "https://imageio.forbes.com/specials-images/imageserve/84042861/960x0.jpg?cropX1=0&cropX2=3583&cropY1=568&cropY2=3076",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.085519,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "This article explores the strategic advantages for Lenovo in acquiring Hewlett-Packard, or parts of it, to strengthen its global market presence, particularly in the US. The author suggests such a move could help Lenovo challenge Apple in the smartphone and tablet markets and create significant efficiencies. The article also notes the potential financial attractiveness for HPQ stockholders given their shares' declining value.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.336203",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011876"
+        },
+        {
+          "relevance_score": "0.852906",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.314377"
+        },
+        {
+          "relevance_score": "0.603827",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146868"
+        },
+        {
+          "relevance_score": "0.748769",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101586"
+        },
+        {
+          "relevance_score": "0.582695",
+          "ticker": "BBY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105545"
+        }
+      ],
+      "time_published": "20121007T200900",
+      "title": "Should Lenovo Buy Hewlett-Packard?",
+      "topics": [
+        {
+          "relevance_score": "0.933005",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.839358",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/panosmourdoukoutas/2012/10/07/should-lenovo-buy-hewlett-packard/"
+    },
+    {
+      "authors": [
+        "Ishan Bhatkoti"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.12665,
+      "source": "The Times of India",
+      "source_domain": "The Times of India",
+      "summary": "This article explores the interesting stories and evolution behind the logos of ten major technology companies, including Microsoft, Apple, Google, Yahoo, Samsung, Nokia, Motorola, IBM, Adobe, and Canon. It details the historical changes, design inspirations, and underlying philosophies that shaped these iconic global brands.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.089509"
+        },
+        {
+          "relevance_score": "0.911832",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.085266"
+        },
+        {
+          "relevance_score": "0.942358",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102594"
+        },
+        {
+          "relevance_score": "0.841042",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149097"
+        },
+        {
+          "relevance_score": "0.648832",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103325"
+        }
+      ],
+      "time_published": "20120917T224400",
+      "title": "Yahoo: Technology companies' logos: 10 interesting stories",
+      "topics": [
+        {
+          "relevance_score": "0.912786",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://timesofindia.indiatimes.com/computing/technology-companies-logos-10-interesting-stories/articleshow/16437488.cms"
+    },
+    {
+      "authors": [
+        "Paul A. Eisenstein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.08723,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Mark Fields, Ford Motor Co.\u2019s president of the Americas, is expected to be named chief operating officer, positioning him as the likely successor to CEO Alan Mulally. This move has been widely anticipated, though the timing of Mulally's eventual departure remains uncertain. Mulally has been credited with successfully turning around Ford, and the new COO role will allow the board to further evaluate Fields.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.994704",
+          "ticker": "F",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309103"
+        },
+        {
+          "relevance_score": "0.608702",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108006"
+        },
+        {
+          "relevance_score": "0.577092",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110081"
+        },
+        {
+          "relevance_score": "0.594274",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.067092"
+        },
+        {
+          "relevance_score": "0.574051",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033454"
+        }
+      ],
+      "time_published": "20120912T143100",
+      "title": "Fields poised to succeed Mulally as top man at Ford",
+      "topics": [
+        {
+          "relevance_score": "0.904025",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.709579",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.nbcnews.com/business/markets/fields-poised-succeed-mulally-top-man-ford-flna994855"
+    },
+    {
+      "authors": [
+        "Associated Press business staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.120655,
+      "source": "Cleveland.com",
+      "source_domain": "Cleveland.com",
+      "summary": "Warren Buffett announced on his 82nd birthday that he is increasing the gifts to his three children's charitable foundations by approximately $600 million worth of Berkshire Hathaway stock each. This decision, announced in a letter, brings the total stock they will receive over time to about $2.1 billion each, rewarding them for their effective management of their foundations. Buffett emphasized that this increase was not due to health concerns but rather a recognition of their progress, further committing his vast fortune to charity, with significant portions still designated for the Bill & Melinda Gates Foundation and the Susan Thompson Buffett foundation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.308192",
+          "ticker": "BRK-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003016"
+        },
+        {
+          "relevance_score": "0.627190",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144839"
+        },
+        {
+          "relevance_score": "0.605231",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122536"
+        },
+        {
+          "relevance_score": "0.622796",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114591"
+        }
+      ],
+      "time_published": "20120830T183500",
+      "title": "Warren Buffett ups remaining gift to his kids' charities",
+      "topics": [
+        {
+          "relevance_score": "0.928038",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.640407",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.cleveland.com/business/2012/08/warren_buffett_ups_remaining_g.html"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.053796,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "IBM is acquiring Kenexa Corp. for approximately $1.26 billion, or $46 per share, a 42 percent premium. This acquisition aims to enhance IBM's social business and human resources services. The deal, which needs regulatory and shareholder approval, is expected to close in the fourth quarter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107488"
+        },
+        {
+          "relevance_score": "0.645219",
+          "ticker": "FDS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032666"
+        }
+      ],
+      "time_published": "20120827T105500",
+      "title": "IBM buying Kenexa for approximately $1.26B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.809862",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.715530",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/ibm-buying-kenexa-for-approximately-126b/"
+    },
+    {
+      "authors": [
+        "Bloomberg View",
+        "William D. Cohan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.0684,
+      "source": "HuffPost",
+      "source_domain": "HuffPost",
+      "summary": "In a panel discussion in Nantucket, former CEOs Jack Welch, Lou Gerstner, and Bob Wright, along with interviewer David Gregory, debated the public's anger towards Wall Street and the responsibility of business leaders for the financial crisis. Gerstner stated that many in the business community are \"totally fed up\" with the financial services industry, while Welch and Wright emphasized the need for a collaborative approach between government and business to stimulate economic growth. The discussion concluded with a call for an end to partisan bickering and a focus on collaboration, including raising taxes on the wealthy, to address fiscal problems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.927065",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256115"
+        },
+        {
+          "relevance_score": "0.837438",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249850"
+        },
+        {
+          "relevance_score": "0.733819",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105914"
+        }
+      ],
+      "time_published": "20120827T090200",
+      "title": "Lou Gerstner, Ex-IBM CEO: 'A Lot Of People In The Business Community Are Totally Fed Up' With Wall Street",
+      "topics": [
+        {
+          "relevance_score": "0.909757",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.896037",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.721050",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.huffpost.com/entry/lou-gerstner-ibm_n_1832728"
+    },
+    {
+      "authors": [
+        "Geraldine Fabrikant"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.072486,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Mohamed A. El-Erian has emerged as a prominent figure in the global bond market, stepping out of the shadow of William H. Gross of Pimco. As co-chief investment officer and chief executive of Pimco, Mr. El-Erian frequently appears in the media to discuss financial crises and was paid an estimated $100 million last year. He and Mr. Gross manage the world's largest bond funds, including the $263 billion Pimco Total Return fund.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335552",
+          "ticker": "PNF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049583"
+        },
+        {
+          "relevance_score": "0.892527",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133722"
+        }
+      ],
+      "time_published": "20120728T152630",
+      "title": "The Bond Market Discovers a New Leading Man (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.927163",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/07/29/business/mohamed-el-erian-is-the-bond-markets-new-leading-man.html"
+    },
+    {
+      "authors": [
+        "Yevgeniy Sverdlik"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.233233,
+      "source": "Data Center Dynamics",
+      "source_domain": "Data Center Dynamics",
+      "summary": "NetApp plans to build a US$75m research-and-development data center in North Carolina\u2019s Research Triangle Park. This facility will house a private-cloud environment for its engineering labs worldwide and serve as a showcase for dynamic and energy-efficient data centers. The project is expected to create 460 new jobs over four years, supported by a state grant of up to $12 million.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404698"
+        },
+        {
+          "relevance_score": "0.629229",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125144"
+        },
+        {
+          "relevance_score": "0.627185",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142548"
+        }
+      ],
+      "time_published": "20120724T151615",
+      "title": "NetApp's future North Carolina data center to house private cloud",
+      "topics": [
+        {
+          "relevance_score": "0.930651",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.631802",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.datacenterdynamics.com/en/news/netapps-future-north-carolina-data-center-to-house-private-cloud/"
+    },
+    {
+      "authors": [
+        "Sam Gustin"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.262033,
+      "source": "Time Magazine",
+      "source_domain": "Time Magazine",
+      "summary": "This article highlights Virginia Rometty as one of the ten most influential women in technology, focusing on her groundbreaking appointment as the first female President and CEO of IBM in 2011. It details her career trajectory at IBM, including her instrumental role in the acquisition of PricewaterhouseCoopers, and her recognition on TIME's 100 Most Influential People list. Rometty's rise is depicted as a merit-based achievement that shattered the glass ceiling in an iconic American technology company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427389"
+        },
+        {
+          "relevance_score": "0.639482",
+          "ticker": "ACN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135396"
+        }
+      ],
+      "time_published": "20120718T145558",
+      "title": "Virginia Rometty | The Ten Most Influential Women in Technology",
+      "topics": [
+        {
+          "relevance_score": "0.927026",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://business.time.com/2012/07/20/the-ten-most-influential-women-in-technology/slide/virginia-rometty/"
+    },
+    {
+      "authors": [
+        "Alexei Oreskovic",
+        "Peter Lauria"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.039005,
+      "source": "MacDailyNews",
+      "source_domain": "MacDailyNews",
+      "summary": "Marissa Mayer, a long-time Google executive and its 20th employee, has been appointed as the new CEO of Yahoo Inc. This move signifies Yahoo's intention to refocus on Web technology and products to revive its struggling business, hoping to compete more effectively against Google and Facebook. Mayer's appointment is effective Tuesday, the same day Yahoo is scheduled to release its quarterly financial results.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.313339",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016116"
+        },
+        {
+          "relevance_score": "0.937111",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042547"
+        },
+        {
+          "relevance_score": "0.615912",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048840"
+        }
+      ],
+      "time_published": "20120716T232200",
+      "title": "Marissa Mayer leaves Google to become Yahoo CEO",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://macdailynews.com/2012/07/16/marissa-mayer-leaves-google-to-become-yahoo-ceo/"
+    },
+    {
+      "authors": [
+        "Josh O'Kane"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.061043,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "This article looks back at eight major Canadian technology companies from the year 2000, detailing their trajectories after the tech bubble burst. It highlights key acquisitions, financial struggles, and transformations, showing where these once-dominant players are today.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.631528",
+          "ticker": "VRSN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132401"
+        },
+        {
+          "relevance_score": "0.845268",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.193030"
+        },
+        {
+          "relevance_score": "0.643641",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263665"
+        }
+      ],
+      "time_published": "20120707T155612",
+      "title": "Gallery: Where are Canada's big tech players of 2000 now?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/gallery-where-are-canadas-big-tech-players-of-2000-now/article4395947/"
+    },
+    {
+      "authors": [
+        "Caleb Garling"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.216643,
+      "source": "WIRED",
+      "source_domain": "WIRED",
+      "summary": "Microsoft has agreed to acquire Yammer, a San Francisco-based startup that provides a Facebook-like social network for businesses, for $1.2 billion in cash. This acquisition aims to integrate Yammer's viral growth model into Microsoft's existing business tools like SharePoint and Office 365, further solidifying Microsoft's position in the enterprise social networking market. Yammer, with over 5 million corporate users, will operate as a standalone service initially before becoming part of Microsoft\u2019s Office Division.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.433133"
+        },
+        {
+          "relevance_score": "0.632543",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121981"
+        },
+        {
+          "relevance_score": "0.644084",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124183"
+        }
+      ],
+      "time_published": "20120625T154600",
+      "title": "Microsoft Pays $1.2B for Corporate Facebook Mimic",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.842007",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wired.com/2012/06/microsoft-yammer/"
+    },
+    {
+      "authors": [
+        "The Canadian Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.172337,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "Celestica Inc. announced its plan to wind down manufacturing services for Research in Motion (RIM) over the next three to six months. This decision comes as RIM assesses its supply chain strategy, though Celestica will continue to work closely with the BlackBerry maker during the transition. Celestica reaffirmed its Q2 financial guidance, expecting revenues between $1.65 billion and $1.75 billion, while RIM stated it is making changes to its supply chain to improve efficiency and cost-effectiveness.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CLS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118179"
+        },
+        {
+          "relevance_score": "0.716705",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.417983"
+        },
+        {
+          "relevance_score": "0.649964",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137552"
+        }
+      ],
+      "time_published": "20120618T085800",
+      "title": "Celestica winds down RIM manufacturing work",
+      "topics": [
+        {
+          "relevance_score": "0.947563",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.810389",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.722854",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/business/celestica-winds-down-rim-manufacturing-work-1.1247256"
+    },
+    {
+      "authors": [
+        "Arik Hesseldahl"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.026171,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Oracle CEO Larry Ellison discusses a wide range of topics at the D10 conference, including his sailing passion, the evolution of cloud computing, and Oracle's strategic direction. He delves into Oracle's competitive landscape, recent lawsuits with Google and HP, and his views on innovation and the tech industry. Ellison also touches on his philanthropic efforts and advice for immigration policy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.922316",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014019"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230598"
+        },
+        {
+          "relevance_score": "0.621799",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136396"
+        },
+        {
+          "relevance_score": "0.600711",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.108707"
+        }
+      ],
+      "time_published": "20120530T162600",
+      "title": "Oracle CEO Larry Ellison: Dog Fight in the Cloud",
+      "topics": [
+        {
+          "relevance_score": "0.930079",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.848014",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.638980",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://allthingsd.com/20120530/oracle-ceo-larry-ellison-live-at-d10/"
+    },
+    {
+      "authors": [
+        "staff-author"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.23166,
+      "source": "Orange County Business Journal",
+      "source_domain": "Orange County Business Journal",
+      "summary": "Bernhard Bruscha, founder and largest shareholder of Lantronix, has returned as chairman after pushing for significant management and board changes due to the company's struggles. He replaces Thomas Wittenschlaeger, who resigned to focus on other executive roles. The article also touches on Western Digital's divestiture of its 3.5-inch hard disk business to Toshiba and IBM's use of Netlist Inc.'s memory boards.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LTRX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108472"
+        },
+        {
+          "relevance_score": "0.813534",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204183"
+        },
+        {
+          "relevance_score": "0.727972",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323763"
+        },
+        {
+          "relevance_score": "0.705198",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342945"
+        }
+      ],
+      "time_published": "20120525T150612",
+      "title": "Lantronix Founder, Critic Reassumes Chairman\u2019s Role",
+      "topics": [
+        {
+          "relevance_score": "0.844779",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.ocbj.com/technology/lantronix-founder-critic-reassumes-chairmans-role/"
+    },
+    {
+      "authors": [
+        "Charles Arthur"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.052347,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "Autonomy founder Mike Lynch is leaving Hewlett-Packard as part of a worldwide layoff of 27,000 staff, following HP's acquisition of Autonomy for \u00a37bn last year. His departure is attributed to HP's bureaucratic nature and a clash of cultures, despite Lynch's entrepreneurial ambitions and Autonomy's success in \"big data.\" HP announced Lynch's exit alongside its Q2 results, which showed a 31.6% drop in net profit to $1.98bn, though they still beat Wall Street expectations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.916629",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105242"
+        },
+        {
+          "relevance_score": "0.979834",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.307218"
+        },
+        {
+          "relevance_score": "0.692169",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116372"
+        },
+        {
+          "relevance_score": "0.598674",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129885"
+        }
+      ],
+      "time_published": "20120524T171200",
+      "title": "Autonomy founder Mike Lynch to leave Hewlett-Packard",
+      "topics": [
+        {
+          "relevance_score": "0.942721",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.834199",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.732485",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.theguardian.com/technology/2012/may/24/autonomy-mike-lynch-leave-hewlett-packard"
+    },
+    {
+      "authors": [
+        "MICHAEL LIEDTKE"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.138847,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "Hewlett-Packard announced it is laying off 27,000 workers, or 8% of its workforce, by October 2014, as part of a restructuring plan to save $3 billion to $3.5 billion annually. CEO Meg Whitman attributed these job cuts to past management missteps and aims to invest the savings into more profitable products and services. This move, the largest payroll purge in HP's 73-year history, comes despite better-than-expected quarterly earnings and revenue projections, signaling a long recovery process for the company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110320"
+        },
+        {
+          "relevance_score": "0.635880",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121974"
+        },
+        {
+          "relevance_score": "0.609366",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137846"
+        },
+        {
+          "relevance_score": "0.721277",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116889"
+        }
+      ],
+      "time_published": "20120523T145131",
+      "title": "HP's missteps culminate in loss of 27,000 jobs (Update)",
+      "topics": [
+        {
+          "relevance_score": "0.904442",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.842776",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.634203",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://phys.org/news/2012-05-hewlett-packard-slash-jobs.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.173496,
+      "source": "NVIDIA Newsroom",
+      "source_domain": "NVIDIA Newsroom",
+      "summary": "NVIDIA announced that its CUDA compiler now supports LLVM, a popular open-source compiler infrastructure, significantly broadening the programming languages and developers who can utilize GPU acceleration. This move makes GPU computing more accessible for researchers and ISVs, allowing for the creation of optimized code for NVIDIA GPU architectures using a wider array of languages. Industry partners like Double Negative and MathWorks have already leveraged LLVM with NVIDIA GPUs for advanced computations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.455640"
+        },
+        {
+          "relevance_score": "0.728034",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283967"
+        },
+        {
+          "relevance_score": "0.611718",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148144"
+        },
+        {
+          "relevance_score": "0.620428",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143005"
+        },
+        {
+          "relevance_score": "0.594615",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.053431"
+        }
+      ],
+      "time_published": "20120509T152103",
+      "title": "NVIDIA Contributes CUDA Compiler to Open Source Community",
+      "topics": [
+        {
+          "relevance_score": "0.933662",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://nvidianews.nvidia.com/news/nvidia-contributes-cuda-compiler-to-open-source-community"
+    },
+    {
+      "authors": [
+        "Marisa Peacock"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.268678,
+      "source": "CMSWire",
+      "source_domain": "CMSWire",
+      "summary": "A new Forrester report identifies Radian6 and Visible Technologies as leaders in the social media monitoring market, driven by their robust dashboards and innovative roadmaps. The report, which evaluated nine vendors, highlights significant changes in the social intelligence landscape including mergers, acquisitions, and new entrants from major tech companies. It emphasizes the importance of these \"enterprise listening platforms\" for understanding customer sentiment and improving brand strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FORR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.486708"
+        },
+        {
+          "relevance_score": "0.804876",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272520"
+        },
+        {
+          "relevance_score": "0.624398",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130831"
+        },
+        {
+          "relevance_score": "0.616822",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111190"
+        }
+      ],
+      "time_published": "20120430T144100",
+      "title": "Forrester Wave for Social Media Monitoring Led By Radian6, Visible Technologies",
+      "topics": [
+        {
+          "relevance_score": "0.803868",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.715646",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cmswire.com/cms/customer-experience/forrester-wave-for-social-media-monitoring-led-by-radian6-visible-technologies-015377.php"
+    },
+    {
+      "authors": [
+        "MICHAEL LIEDTKE",
+        "AP Technology Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.092527,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "Google CEO Larry Page testified in a federal courtroom, deflecting questions about a copyright dispute with Oracle concerning technology in Google's Android software. Oracle accuses Google of intellectual property theft, seeking hundreds of millions in damages and royalties. Page's testimony often involved claims of memory lapses regarding internal Google documents pertinent to Oracle's case.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227424"
+        },
+        {
+          "relevance_score": "0.930896",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.211264"
+        },
+        {
+          "relevance_score": "0.936477",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232438"
+        },
+        {
+          "relevance_score": "0.629745",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142724"
+        },
+        {
+          "relevance_score": "0.615207",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108490"
+        }
+      ],
+      "time_published": "20120418T152116",
+      "title": "Google CEO Page gets grilled in Oracle trial (Update)",
+      "topics": [
+        {
+          "relevance_score": "0.909944",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://phys.org/news/2012-04-google-ceo-page-oracle-trial.html"
+    },
+    {
+      "authors": [
+        "Naoko Fujimura"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.329887,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Toshiba Tec Corp., a Japanese maker of scanners and bar-code machines, announced its biggest acquisition ever, agreeing to buy International Business Machines Corp.\u2019s point-of-sale terminal business for approximately $850 million. The deal, involving Toshiba Tec (50 percent owned by Toshiba Corp.), is expected to close in late Q2 or early Q3, pending regulatory approvals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309879"
+        }
+      ],
+      "time_published": "20120417T083600",
+      "title": "Toshiba to Buy IBM\u2019s Point-of-Sale Business for $850 Million",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.844465",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.740466",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.636473",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2012-04-17/toshiba-to-buy-ibm-s-point-of-sale-business-for-850-million-1-"
+    },
+    {
+      "authors": [
+        "Arik Hesseldahl"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.131518,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "This article features an interview with Steve Felice, Dell's Chief Commercial Officer, discussing Dell's transformation from a PC-centric company to an enterprise solutions provider. Felice addresses the impact of Windows 8 on PC sales, Dell's strategy in mobile and security markets through acquisitions like SecureWorks and SonicWall, and the future of the PC market globally. He also highlights the public's perception of Dell versus its actual business emphasis, with enterprise solutions now accounting for over 50% of its revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.736963",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137823"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.274701"
+        },
+        {
+          "relevance_score": "0.852696",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.088787"
+        },
+        {
+          "relevance_score": "0.729791",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008055"
+        },
+        {
+          "relevance_score": "0.729159",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.062703"
+        }
+      ],
+      "time_published": "20120416T074400",
+      "title": "Seven Questions for Steve Felice, Chief Commercial Officer of Dell - Arik Hesseldahl - Enterprise",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://allthingsd.com/20120416/seven-questions-for-steve-felice-chief-commercial-officer-of-dell/"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.123959,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "uTest, a provider of in-the-wild software testing, has announced that Jit Saxena, founder of Netezza, has joined its Board of Directors. Saxena, a tech industry veteran, brings over 35 years of experience and will advise uTest as it scales, particularly given its ambition to become the first crowdsourcing company to file an IPO. He previously led Netezza to become a successful public company before its acquisition by IBM, and also founded Applix Inc.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314115",
+          "ticker": "APLX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016314"
+        },
+        {
+          "relevance_score": "0.721163",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211875"
+        }
+      ],
+      "time_published": "20120412T190933",
+      "title": "uTest Announces Addition of Netezza Founder, Jit Saxena, to Its Board of Directors",
+      "topics": [
+        {
+          "relevance_score": "0.938248",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.822688",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2012/04/12/969096/0/en/uTest-Announces-Addition-of-Netezza-Founder-Jit-Saxena-to-Its-Board-of-Directors.html?utm_s%25252525252525e2%2525252525252580%25252525252525a6%25252525252525e2%2525252525252580%25252525252525a6%25252525252525e2%2525252525252580%25252525252525a6%25252525252525e2%2525252525252580%25252525252525a6%25252525252525e2%2525252525252580%25252525252525a6=%5Bobject%2BObject%5D&utm_creative=473245890903&utm_campaign=Google_Search_NB_eSignatures_US_DSA_Test&utm_content=Exact_eSignatures_URL&utm_medium=cpc&utm_term=pandadoc%2Btemplates&utm_device=c&utm_source=google"
+    },
+    {
+      "authors": [
+        "Nicholas Ziegler",
+        "Barbra Murray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.375149,
+      "source": "Commercial Search",
+      "source_domain": "Commercial Search",
+      "summary": "Prologis Inc. has renewed a nearly 1.5 million-square-foot industrial lease with IBM de Mexico, S. De R.L. at the Guadalajara Technology Campus in Guadalajara, Jalisco, setting a new record for Prologis's largest single lease in Latin America. IBM's decision to renew its long-term lease was likely influenced by Guadalajara's status as a growing technology hub, with the IT and software industry projected to reach $10 billion by 2013. This move highlights the strength of Mexico's logistics and manufacturing sectors, further evidenced by Prologis's recent dispositions and investments in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PLD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441531"
+        },
+        {
+          "relevance_score": "0.902153",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345557"
+        }
+      ],
+      "time_published": "20120412T152627",
+      "title": "IBM Renews 1.1 MSF Industrial Lease with Prologis in Mexico",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.811785",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.710731",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.647485",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.610569",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.commercialsearch.com/news/ibm-renews-1-1-msf-industrial-lease-with-prologis-in-mexico/"
+    },
+    {
+      "authors": [
+        "By David Zielenziger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.342056,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "IBM has secured a 10-year, $1 billion contract with Brazilian tycoon Eike Batista's EBX Group, expanding its presence in Brazil's growing market. The deal includes providing technology services to EBX's natural-resources divisions and acquiring a 20 percent stake in EBX subsidiary SIX Automacao. This partnership aligns with IBM's \"Smarter Planet\" agenda and follows other significant investments in Brazil by tech companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405858"
+        },
+        {
+          "relevance_score": "0.645540",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.280253"
+        }
+      ],
+      "time_published": "20120405T094800",
+      "title": "IBM Strikes $1B Deal With Brazil Mogul Batista",
+      "topics": [
+        {
+          "relevance_score": "0.710614",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.934400",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.840589",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.613595",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.ibtimes.com/ibm-strikes-1b-deal-brazil-mogul-batista-434142"
+    },
+    {
+      "authors": [
+        "Ben Smith"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.260693,
+      "source": "Global Corporate Venturing",
+      "source_domain": "Global Corporate Venturing",
+      "summary": "This article provides advice to entrepreneurs on managing relationships with large companies, emphasizing persistence and strategic communication. It outlines the typical stages of interaction, from initial dismissal to eventual acquisition or partnership, using MerchantCircle's experience with IAC as an example. The author advises entrepreneurs to listen, learn, and then strategically counter big companies' assumptions while consistently demonstrating progress and building relationships.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.392112"
+        },
+        {
+          "relevance_score": "0.647911",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334857"
+        },
+        {
+          "relevance_score": "0.639643",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105742"
+        }
+      ],
+      "time_published": "20120403T145140",
+      "title": "Managing the big company relationship",
+      "topics": [
+        {
+          "relevance_score": "0.918344",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.718559",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://globalventuring.com/blog/2012/04/03/managing-the-big-company-relationship/"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.617471,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "Four computer storage devices containing personal information for about 800,000 adults and children in California's child support system were lost by IBM and Iron Mountain Inc. The lost data includes names, Social Security numbers, addresses, and driver's license numbers. Officials believe the data may be inaccessible without specialized equipment, but the state has notified those affected and credit reporting agencies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926194",
+          "ticker": "IRM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.600154"
+        },
+        {
+          "relevance_score": "0.815554",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.605429"
+        }
+      ],
+      "time_published": "20120330T052100",
+      "title": "Calif. data loss may have exposed 800,000",
+      "topics": [
+        {
+          "relevance_score": "0.842744",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/calif-data-loss-may-have-exposed-800000/"
+    },
+    {
+      "authors": [
+        "Dan Levine and Alexei Oreskovic"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/4S5R3E6XFVJ2ZCMG5L2W37GSDM.jpg?auth=629735231cd804618e404b901fcb757f5ab533088ef5bcde8aae1a1966a3ea66&width=1280&height=720&quality=80&smart=true",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.02187,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Facebook has acquired 750 patents from IBM, covering a broad range of technology from search to semiconductors, to strengthen its intellectual property portfolio. This move comes after Yahoo sued Facebook for patent infringement, and as Facebook prepares for a large initial public offering. The acquisition aims to bolster Facebook's defense against patent claims, as it previously had significantly fewer patents than Yahoo.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.344319",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033471"
+        }
+      ],
+      "time_published": "20120322T201900",
+      "title": "Facebook buys 750 patents from IBM: source",
+      "topics": [
+        {
+          "relevance_score": "0.940028",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.815146",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.627661",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.reuters.com/article/technology/facebook-buys-750-patents-from-ibm-source-idUSBRE82L13O/"
+    },
+    {
+      "authors": [
+        "Patrick Danner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.199764,
+      "source": "MySA",
+      "source_domain": "MySA",
+      "summary": "Rackspace chairman Graham Weston has joined the billionaire ranks with an estimated $1.1 billion in Rackspace stock. Forbes magazine initially missed Weston from its list due to timing, as his shares exceeded the billion-dollar mark shortly after their snapshot date. He joins six other San Antonio billionaires on the updated list.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "RXT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300301"
+        },
+        {
+          "relevance_score": "0.631855",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144748"
+        },
+        {
+          "relevance_score": "0.626165",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126594"
+        }
+      ],
+      "time_published": "20120320T011000",
+      "title": "Rackspace's Weston now on billionaire list",
+      "topics": [
+        {
+          "relevance_score": "0.926686",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.810808",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.mysanantonio.com/news/local_news/article/Rackspace-s-Weston-now-on-billionaire-list-3419021.php"
+    },
+    {
+      "authors": [
+        "Rik Myslewski"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.244982,
+      "source": "The Register",
+      "source_domain": "The Register",
+      "summary": "This article discusses three new devices presented at the International Solid-State Circuits Conference (ISSCC) that stack layers of compute units and memory in a single chip to boost interconnect bandwidth. One prototype from IBM and two working chips from the University of Michigan and Georgia Institute of Technology/KAIST/Amkor Technology were highlighted, emphasizing their ability to closely couple processors and memory using through-silicon vias (TSVs). IBM's prototype, built at 45nm, demonstrated a two-strata design extendable to more cache-memory strata, aiming for high data bandwidth and clock frequencies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.832201",
+          "ticker": "AMKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312647"
+        },
+        {
+          "relevance_score": "0.930469",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432298"
+        },
+        {
+          "relevance_score": "0.612988",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.114929"
+        }
+      ],
+      "time_published": "20120224T015100",
+      "title": "3D processor-memory mashups take center stage",
+      "topics": [
+        {
+          "relevance_score": "0.932224",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theregister.com/2012/02/24/3d_chips/"
+    },
+    {
+      "authors": [
+        "China Daily"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.008796,
+      "source": "China.org.cn",
+      "source_domain": "China.org.cn",
+      "summary": "Lenovo has significantly narrowed the market share gap with HP to 2 percent, driven by record sales of $8.4 billion in its fiscal third quarter of 2011. The company's performance was bolstered by a surge in sales of Internet mobile devices and growth in mature markets like the US, Japan, and Europe. Lenovo, now the second-largest PC maker by market share, plans to further expand into the European consumer market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.317371"
+        },
+        {
+          "relevance_score": "0.647863",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322053"
+        }
+      ],
+      "time_published": "20120210T145131",
+      "title": "Lenovo narrows market gap with HP",
+      "topics": [
+        {
+          "relevance_score": "0.903205",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.836281",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.748731",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "http://www.china.org.cn/business/2012-02/10/content_24601789.htm"
+    },
+    {
+      "authors": [
+        "Austin Carr"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.132135,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "Jon Rubinstein, former CEO of Palm and the force behind WebOS, has left HP 19 months after HP acquired Palm for $1.2 billion. Rubinstein attributes the failure of the TouchPad and WebOS to HP \"running out of runway\" and not being in a good enough position to support the effort. His departure follows a period of dramatic changes at HP, including the killing of the original WebOS strategy, the spin-off of its PC business, and a change in CEOs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327626",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003356"
+        },
+        {
+          "relevance_score": "0.950362",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.625464"
+        },
+        {
+          "relevance_score": "0.707672",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130429"
+        },
+        {
+          "relevance_score": "0.570603",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046080"
+        }
+      ],
+      "time_published": "20120127T145130",
+      "title": "Jon Rubinstein, Force Behind TouchPad, WebOS, Leaves HP: \"We Ran Out Of Runway\"",
+      "topics": [
+        {
+          "relevance_score": "0.948396",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fastcompany.com/1812014/jon-rubinstein-force-behind-touchpad-webos-leaves-hp-we-ran-out-runway/"
+    },
+    {
+      "authors": [
+        "Josh Halliday and Charles Arthur"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.085352,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "This article covers Steve Wozniak's preference for Android's features over his iPhone, Samsung's decision to merge its bada mobile OS with Intel's Tizen platform, and the launch of Sarah Lacy's PandoDaily. It also touches on a critique of the Samsung Galaxy S II and an analysis of iPad's impact on PC sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.849996",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122096"
+        },
+        {
+          "relevance_score": "0.703986",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.184483"
+        },
+        {
+          "relevance_score": "0.639389",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.133752"
+        },
+        {
+          "relevance_score": "0.592071",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.084782"
+        }
+      ],
+      "time_published": "20120117T085500",
+      "title": "Boot up: Steve Wozniak praises Android, Samsung merges bada with Intel platform, and more",
+      "topics": [
+        {
+          "relevance_score": "0.946030",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theguardian.com/technology/blog/2012/jan/17/technology-links-newsbucket"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.248494,
+      "source": "All Over Albany",
+      "source_domain": "All Over Albany",
+      "summary": "GlobalFoundries announced that its Fab 8 chip manufacturing plant in Malta has begun producing chips, collaborating with IBM. The chips incorporate technology researched at UAlbany and feature advanced 32 nanometer transistors. GlobalFoundries anticipates volume production by the second half of the year, expecting to produce 60,000 chips monthly at full capacity, and has already created 1,000 jobs with another 400 projected.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.341917",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040779"
+        },
+        {
+          "relevance_score": "0.737599",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326935"
+        },
+        {
+          "relevance_score": "0.619617",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346044"
+        }
+      ],
+      "time_published": "20120109T144637",
+      "title": "GlobalFoundries: now making chips in Malta",
+      "topics": [
+        {
+          "relevance_score": "0.915055",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.900282",
+          "topic": "technology"
+        }
+      ],
+      "url": "http://alloveralbany.com/archive/2012/01/09/globalfoundries-were-now-making-chips-in-malta"
+    }
+  ],
+  "items": "45",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

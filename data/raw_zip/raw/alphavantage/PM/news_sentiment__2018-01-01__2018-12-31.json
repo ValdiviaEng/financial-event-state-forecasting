@@ -1,0 +1,1848 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.141252,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "S&P Global Ratings cut Altria's credit rating by two notches to BBB from A- due to its significant investments in e-cigarette startup Juul Labs Inc. for $12.8 billion and cannabis company Cronos Group Inc. for $1.8 billion. S&P cited concerns that these investments would not provide significant near-term returns and that Altria would not meaningfully deleverage from its current pro forma levels. The downgrade also reflects growing uncertainty regarding regulatory impacts on tobacco and non-tobacco products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.932293",
+          "ticker": "SPGI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105702"
+        },
+        {
+          "relevance_score": "0.940071",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.430513"
+        },
+        {
+          "relevance_score": "0.627850",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.112033"
+        }
+      ],
+      "time_published": "20181220T091200",
+      "title": "Altria's credit rating cut 2 notches at S&P as a result of Juul, Cronos investments",
+      "topics": [
+        {
+          "relevance_score": "0.846027",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.839441",
+          "topic": "finance"
+        }
+      ],
+      "url": "http://www.marketwatch.com/story/altrias-credit-cut-2-notches-at-sp-as-a-result-of-juul-cronos-investments-2018-12-20?gaa_at=eafs&gaa_n=AWEtsqf4TIlPS3fR4zcj5_eehJwpIkUr36XgTF8dg0A-IZY-7FRSLU35cvaU&gaa_ts=69082422&gaa_sig=p2fmK7MatI0S5DnbqqXsNC4N777rPZLqqyO1xaCDwiP2tkx3BQu5hA0XJkDqt1o_nJn23FTNE2X4JKqTy0lztQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Angelica Peebles"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.014134,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Altria, the maker of Marlboro cigarettes, has acquired a 35% stake in e-cigarette company Juul for $12.8 billion, valuing Juul at $38 billion. This deal positions Altria for a future less reliant on traditional cigarettes, while Juul gains significant distribution and lobbying support amid increasing regulatory scrutiny over teen vaping. The investment also includes a $2 billion bonus for Juul employees.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123364"
+        },
+        {
+          "relevance_score": "0.647575",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109264"
+        }
+      ],
+      "time_published": "20181220T070400",
+      "title": "Tobacco giant Altria takes 35% stake in Juul, valuing e-cigarette company at $38 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.884454",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.725875",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cnbc.com/2018/12/20/altria-takes-stake-in-juul-a-pivotal-moment-for-the-e-cigarette-maker.html"
+    },
+    {
+      "authors": [
+        "Olivia Zaleski"
+      ],
+      "banner_image": "https://ca-times.brightspotcdn.com/dims4/default/074a631/2147483647/strip/true/crop/3000x2000+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd7%2F7a%2Fc80e5b4f4c28a867c29367129532%2Fla-photos-a-juul-e-cigarette-and-pods-1545242784.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.231074,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "Altria Group Inc., the tobacco giant, is reportedly nearing a deal to acquire approximately one-third of Juul Labs Inc. for about $12.8 billion, valuing the e-cigarette maker at roughly $38 billion. This investment would make Juul the second-most-valuable privately held company after Uber Technologies Inc. The controversial tie-up is expected to benefit Altria with international exposure and Juul with valuable shelf space and promotional opportunities through Marlboro products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.979977",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312961"
+        },
+        {
+          "relevance_score": "0.643261",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243486"
+        },
+        {
+          "relevance_score": "0.562317",
+          "ticker": "KDP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132395"
+        }
+      ],
+      "time_published": "20181219T135500",
+      "title": "Altria nears deal to buy $12.8-billion stake in Juul, sources say",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.808179",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.728681",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-fi-juul-altria-20181219-story.html"
+    },
+    {
+      "authors": [
+        "Eric Sandy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.242834,
+      "source": "Cannabis Business Times",
+      "source_domain": "Cannabis Business Times",
+      "summary": "Altria, the maker of Marlboro cigarettes, has invested $1.8 billion for a 45-percent stake in Canadian cannabis company Cronos Group, signaling a major shift in the global cannabis market. This investment, following Constellation Brands' deal with Canopy Growth Corp., highlights a trend of large consumer packaged goods corporations entering the cannabis industry, particularly as U.S. federal reform looms. Experts suggest these strategic moves, which include future purchase options (warrants), indicate a long-term vision for controlling stakes in cannabis companies and could accelerate political reforms in the U.S.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314129",
+          "ticker": "CRON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.034466"
+        },
+        {
+          "relevance_score": "0.966592",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.440877"
+        },
+        {
+          "relevance_score": "0.808930",
+          "ticker": "STZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313985"
+        },
+        {
+          "relevance_score": "0.612329",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241380"
+        }
+      ],
+      "time_published": "20181213T020730",
+      "title": "Marlboro Maker Altria Acquires 45-Percent Stake in Cronos Group. What Does That Mean for the Future of Cannabis?",
+      "topics": [
+        {
+          "relevance_score": "0.942135",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.818656",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.737740",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.613789",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cannabisbusinesstimes.com/business-issues-benchmarks/finance/news/15695469/marlboro-maker-altria-acquires-45-percent-stake-in-cronos-group-what-does-that-mean-for-the-future-of-cannabis"
+    },
+    {
+      "authors": [
+        "Jeremy Berke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.214571,
+      "source": "Business Insider",
+      "source_domain": "Business Insider",
+      "summary": "Altria, the company behind Marlboro cigarettes, is reportedly in early talks to acquire Canadian marijuana producer Cronos Group. This potential deal would represent the largest tie-up between the tobacco and marijuana sectors, as Altria looks to diversify its business amidst declining cigarette sales. Cronos Group's shares rose significantly on the news, pushing its market capitalization close to $2 billion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.258146"
+        },
+        {
+          "relevance_score": "0.706979",
+          "ticker": "STZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330097"
+        },
+        {
+          "relevance_score": "0.637574",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208764"
+        },
+        {
+          "relevance_score": "0.584443",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134955"
+        }
+      ],
+      "time_published": "20181203T193015",
+      "title": "Marlboro-maker Altria is reportedly in talks to buy marijuana producer Cronos Group",
+      "topics": [
+        {
+          "relevance_score": "0.913842",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.715352",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.643051",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.businessinsider.com/altria-in-talks-to-buy-cronos-2018-12"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.04996,
+      "source": "Convenience Store News",
+      "source_domain": "Convenience Store News",
+      "summary": "Philip Morris International (PMI) unveiled its next-generation heat-not-burn products, iQOS 3 and iQOS 3 MULTI, at a launch event in Tokyo. These new versions aim to encourage more smokers to switch from traditional cigarettes, building on PMI's commitment to a smoke-free future. The company is actively seeking FDA approval for iQOS in the U.S. and has partnered with Altria Group Inc. for its marketing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.338728",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002333"
+        }
+      ],
+      "time_published": "20181029T031111",
+      "title": "Philip Morris International Unveils Next-Gen iQOS",
+      "topics": [
+        {
+          "relevance_score": "0.801335",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.602026",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://csnews.com/philip-morris-international-unveils-next-gen-iqos"
+    },
+    {
+      "authors": [
+        "Motley Fool Transcribers"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.368878,
+      "source": "The Motley Fool",
+      "source_domain": "The Motley Fool",
+      "summary": "Altria Group Inc. (MO) announced strong Q3 2018 earnings with a 20% adjusted diluted EPS growth, while also addressing concerns regarding underage e-vapor use by implementing significant market withdrawals and supporting legislative changes. The company maintained its full-year EPS guidance and discussed stable Marlboro market share, growth in smokeless products, and strategic investments for reduced-risk product development, including iQOS anticipation. Management also commented on their ABI investment and wine business performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.397197"
+        },
+        {
+          "relevance_score": "0.602809",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320702"
+        }
+      ],
+      "time_published": "20181025T164400",
+      "title": "Altria Group Inc (MO) Q3 2018 Earnings Conference Call Transcript",
+      "topics": [
+        {
+          "relevance_score": "0.922296",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.727100",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.fool.com/earnings/call-transcripts/2018/10/25/altria-group-inc-mo-q3-2018-earnings-conference-ca.aspx"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.12841,
+      "source": "Food and Drug Law Institute (FDLI)",
+      "source_domain": "Food and Drug Law Institute (FDLI)",
+      "summary": "The Food and Drug Law Institute (FDLI) hosted a two-day conference in Washington, D.C. from October 25-26, 2018, focusing on the regulation and policy of tobacco and nicotine products. The event brought together stakeholders to discuss key updates from the FDA's Center for Tobacco Products, regulatory decision-making, youth e-cigarette use, and product standards, featuring Mitch Zeller and other experts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TPB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125326"
+        },
+        {
+          "relevance_score": "0.802311",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102782"
+        },
+        {
+          "relevance_score": "0.708549",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138710"
+        }
+      ],
+      "time_published": "20181025T081500",
+      "title": "Tobacco and Nicotine Products Regulation and Policy Conference",
+      "topics": [
+        {
+          "relevance_score": "0.916826",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.740368",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.fdli.org/2018/10/2018-tobacco-conference/"
+    },
+    {
+      "authors": [
+        "Taiga Uranaka and Ritsuko Ando"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fwww.reuters.com%2Fresources%2Fr%2F%3Fm%3D02%26d%3D20181023%26t%3D2%26i%3D1293774883%26w%3D1920%26fh%3D500%26fw%3D1920%26ll%3D-100%26lp%3D-100%26r%3DRC12E11D9040_RTRMADP_3_PHILIP-MORRIS-JAPAN%3Fquality%3D80&w=800&h=450&auto=webp&format=pjpg&crop=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.113404,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Philip Morris International Inc. is launching cheaper versions of its IQOS \"heat not burn\" products in Japan to boost sales and combat competition. The new \"HEETS\" line will be priced at 470 yen, a reduction from the current 500 yen per pack, and newer IQOS devices will also be released in mid-November. This strategy addresses the recent stabilization of IQOS's market share in Japan, which accounts for about 85% of the global heat-not-burn market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116273"
+        }
+      ],
+      "time_published": "20181023T060500",
+      "title": "Philip Morris aims to revive Japan sales with cheaper heat-not-burn tobacco",
+      "topics": [
+        {
+          "relevance_score": "0.813582",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.726650",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/philip-morris-aims-to-revive-japan-sales-with-cheaper-heat-not-burn-tobacco-idUSKCN1MX0JN/"
+    },
+    {
+      "authors": [
+        "Taiga Uranaka and Ritsuko Ando"
+      ],
+      "banner_image": "https://s.yimg.com/uu/api/res/1.2/jZlB0cWl4Lz9g4o.R1sW_g--~B/aD02MTY7dz05MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters.com/e2954a1aead10b8054c2598bece0e9dd",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.141762,
+      "source": "Yahoo! Finance Singapore",
+      "source_domain": "Yahoo! Finance Singapore",
+      "summary": "Philip Morris International Inc. has released cheaper versions of its IQOS \"heat not burn\" products in Japan to boost sales amidst increasing competition from other tobacco companies. This move comes after an initial sales surge for IQOS in Japan slowed down, despite the country being the primary market for HNB products due to effective bans on nicotine-laced e-cigarettes. The company is also releasing newer versions of its IQOS devices to further attract consumers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.986441",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137865"
+        }
+      ],
+      "time_published": "20181023T031112",
+      "title": "Philip Morris aims to revive Japan sales with cheaper heat-not-burn tobacco",
+      "topics": [
+        {
+          "relevance_score": "0.828241",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://sg.finance.yahoo.com/news/philip-morris-aims-revive-japan-sales-cheaper-heat-060240245--finance.html"
+    },
+    {
+      "authors": [
+        "Lisa Du and Ayaka Maki"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.213178,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Philip Morris International is adopting an old-world sales strategy in Japan, deploying its sales force to directly target elderly smokers with discounts and money-back guarantees. This effort aims to boost sales of its iQos smoking devices to this demographic, which is less responsive to social media and more price-sensitive, as growth in the high-tech smoking device market slows. The company sees Japan as a crucial market for generating new revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.223580"
+        }
+      ],
+      "time_published": "20180925T220000",
+      "title": "Philip Morris Hits Streets to Sell Old Smokers New Devices",
+      "topics": [
+        {
+          "relevance_score": "0.817264",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.633240",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2018-09-25/philip-morris-hits-streets-to-pitch-older-smokers-new-devices"
+    },
+    {
+      "authors": [
+        "Sandra Griffiths"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.445728,
+      "source": "Bdaily",
+      "source_domain": "Bdaily",
+      "summary": "Philip Morris Limited (PM UK) has appointed Amanda Pierce, former Burson-Marsteller CEO and McDonald\u2019s PR chief, as its new Head of Communications. In this role, Pierce will lead the company's communications strategies to support its ambition for a smoke-free future, focusing on smoke-free products like e-cigarettes and heated tobacco. She will oversee corporate public relations, external communications, stakeholder engagement, CSR, campaigns, and employee engagement in the UK and Ireland.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428151"
+        }
+      ],
+      "time_published": "20180903T031112",
+      "title": "Philip Morris appoints Amanda Pierce as new Head of Communications to help deliver on its smoke-free future strategy",
+      "topics": [
+        {
+          "relevance_score": "0.614426",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://bdaily.co.uk/articles/2018/09/03/philip-morris-appoints-amanda-pierce-as-new-head-of-communications-to-help-deliver-on-its-smoke-free-future-strategy"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.425726,
+      "source": "VOA - Voice of America English News",
+      "source_domain": "VOA - Voice of America English News",
+      "summary": "India's federal health ministry has called for a ban on the sale and import of e-cigarettes and heat-not-burn tobacco devices, citing them as a \"great health risk,\" especially to vulnerable populations. This move comes as companies like Philip Morris International Inc. were planning to introduce their products, such as iQOS, into the Indian market. The ministry's advisory to state governments emphasized the potential for addiction and a subsequent switch to conventional cigarettes among users, including children and non-smokers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.405757"
+        }
+      ],
+      "time_published": "20180828T155400",
+      "title": "India's Health Ministry Urges End to E-cigarette Sales",
+      "topics": [
+        {
+          "relevance_score": "0.901787",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.voanews.com/a/india-s-health-ministry-urges-end-to-e-cigarette-sales/4547947.html"
+    },
+    {
+      "authors": [
+        "Angel Abcede"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.110462,
+      "source": "CSP Daily News",
+      "source_domain": "CSP Daily News",
+      "summary": "Altria Group Inc. reported an increase of 0.1 share point in its Marlboro brands to 43.2% in the first half of 2018, despite income and volume declines. The company is focusing on maximizing income for smokeable products while maintaining momentum for Marlboro cigarettes and Black & Mild cigars, investing in product expansions, packaging innovations, and brand equity. Altria also highlighted growth in Marlboro Ice, Nat Sherman products, and Nu Mark's e-vapor volume, while providing an update on the iQOS heat-not-burn product.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108436"
+        },
+        {
+          "relevance_score": "0.603891",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147810"
+        }
+      ],
+      "time_published": "20180730T025620",
+      "title": "Marlboro Increases Share in 2018",
+      "topics": [
+        {
+          "relevance_score": "0.920216",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.718148",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.603045",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://cspdailynews.com/tobacco/marlboro-increases-share-2018"
+    },
+    {
+      "authors": [
+        "Vernon Silver"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.010391,
+      "source": "The Peninsula Qatar",
+      "source_domain": "The Peninsula Qatar",
+      "summary": "Ferrari NV's board has appointed Louis Camilleri, a veteran from Philip Morris International Inc., as its new Chief Executive Officer, following the unexpected health complications of former CEO Sergio Marchionne. John Elkann will succeed Marchionne as chairman. Camilleri, who has served on Ferrari's board, brings experience dealing with industry transitions to the luxury sports-car company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.326788",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035693"
+        }
+      ],
+      "time_published": "20180723T001300",
+      "title": "Ferrari enlists Philip Morris veteran Louis Camilleri as next CEO",
+      "topics": [
+        {
+          "relevance_score": "0.942719",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.741772",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.637879",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.610443",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://thepeninsulaqatar.com/article/23/07/2018/Ferrari-enlists-Philip-Morris-veteran-Louis-Camilleri-as-next-CEO"
+    },
+    {
+      "authors": [
+        "Vernon Silver"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.110837,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Ferrari NV's board has appointed Philip Morris International Inc. veteran Louis Camilleri as its next CEO, following unexpected complications from surgery that rendered current CEO Sergio Marchionne unable to work. Shareholders will vote on the appointment, and John Elkann will succeed Marchionne as chairman.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.848938",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131833"
+        }
+      ],
+      "time_published": "20180721T170500",
+      "title": "Ferrari Enlists Philip Morris Veteran Camilleri as Next CEO",
+      "topics": [
+        {
+          "relevance_score": "0.821994",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.735571",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2018-07-21/ferrari-proposes-camilleri-to-replace-ailing-marchionne-as-ceo"
+    },
+    {
+      "authors": [
+        "Joe A"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.279994,
+      "source": "Warrior Trading",
+      "source_domain": "Warrior Trading",
+      "summary": "Philip Morris International (NYSE:PM) shares dropped over 3.5% after the company lowered its yearly earnings per share guidance despite exceeding Wall Street's Q2 earnings and sales estimates. The company reported strong Q2 results, including increased unit shipment volume and significant currency-neutral revenue growth. However, a revised full-year outlook, lowering EPS guidance from $5.25-$5.40 to $5.02-$5.12, led to the stock's decline.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.294984"
+        }
+      ],
+      "time_published": "20180719T031111",
+      "title": "Philip Morris International, Inc. | $PM Stock | Shares Sink On Lowered Earnings Forecast",
+      "topics": [
+        {
+          "relevance_score": "0.917645",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.719506",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.626555",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://warriortradingnews.com/2018/07/19/philip-morris-international-inc-pm-stock-shares-sink-on-lowered-earnings-forecast/"
+    },
+    {
+      "authors": [
+        "Georgina Caldwell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.147637,
+      "source": "Global Cosmetics News",
+      "source_domain": "Global Cosmetics News",
+      "summary": "Major Brands has secured a deal with US L Brands to introduce Bath & Body Works to the Indian market. The brand plans to open two stores in New Delhi, followed by a presence in Ambience Mall Gurgaon and a Mumbai store in 2019, capitalizing on India's rapidly growing beauty and cosmetic market, which is projected to reach US$20 billion by 2025.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BBWI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.436412"
+        },
+        {
+          "relevance_score": "0.640640",
+          "ticker": "ULTA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.186342"
+        },
+        {
+          "relevance_score": "0.624011",
+          "ticker": "EL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343355"
+        },
+        {
+          "relevance_score": "0.589514",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137511"
+        }
+      ],
+      "time_published": "20180619T015601",
+      "title": "Major Brands secures license to bring Bath & Body Works to India",
+      "topics": [
+        {
+          "relevance_score": "0.907119",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.globalcosmeticsnews.com/major-brands-secures-license-to-bring-bath-body-works-to-india/"
+    },
+    {
+      "authors": [
+        "Amanda Lawrence"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.30182,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "The consumer non-cyclical sector recorded an average dividend yield of 3%, with the tobacco segment noting the highest yield at 5.3%. Various industries within this sector, including brewers, personal products, and food processing, have outperformed broad-based indexes in dividend yields. The article also highlights ETFs with exposure to consumer non-cyclical sectors, such as the WisdomTree US SmallCap Dividend ETF and the iShares Core High Dividend ETF.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HDV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334973"
+        },
+        {
+          "relevance_score": "0.828486",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348769"
+        },
+        {
+          "relevance_score": "0.740467",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346631"
+        },
+        {
+          "relevance_score": "0.614548",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346083"
+        },
+        {
+          "relevance_score": "0.637901",
+          "ticker": "CLX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329590"
+        }
+      ],
+      "time_published": "20180608T163000",
+      "title": "What\u2019s the Dividend Yield of the Consumer Non-Cyclical Sector?",
+      "topics": [
+        {
+          "relevance_score": "0.916543",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.842108",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.704085",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://marketrealist.com/2018/06/whats-the-dividend-yield-of-the-consumer-non-cyclical-sector/"
+    },
+    {
+      "authors": [
+        "By Aditya Kalra"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/46QL7S2I7BOFFPL2ZPYG66Q3HM.JPG?experimental=true&quality=80&ewidth=1200",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.258871,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Philip Morris International is planning to launch its iQOS smoking device in India, a country with the world's second-biggest smoker population. The company aims to position iQOS as a less harmful alternative to conventional cigarettes, despite India's stringent anti-tobacco laws and concerns from public health officials. This move is part of the company's strategy to expand its \"reduced risk products\" market, which significantly contributed to its revenues last year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299027"
+        }
+      ],
+      "time_published": "20180608T062800",
+      "title": "Exclusive - Philip Morris plans to target Indian smokers with iQOS device: sources",
+      "topics": [
+        {
+          "relevance_score": "0.701429",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.630832",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.606475",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/exclusive-philip-morris-plans-to-target-indian-smokers-with-iqos-device-sourc-idUSKCN1J40KP/"
+    },
+    {
+      "authors": [
+        "Taiga Uranaka and Ritsuko Shimizu"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20180531&t=2&i=1266611466&w=900&fh=&fw=&ll=&pl=&sq=&r=LYNXNPEE4U09M",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.205237,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Japan Tobacco Inc is lowering prices on its heated tobacco products following a similar move by Philip Morris International, signaling heightened competition in Japan's \"heat not burn\" market. Japan, which bans nicotine-laced e-cigarettes, is the dominant market for HNB products, accounting for over 90% of the $5 billion market. Price cuts are aimed at encouraging more smokers to switch from conventional cigarettes, amidst concerns of slowing growth after initial strong demand.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.202404"
+        }
+      ],
+      "time_published": "20180531T090100",
+      "title": "Japan Tobacco to cut heated tobacco prices in battle with Philip Morris",
+      "topics": [
+        {
+          "relevance_score": "0.801273",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.627488",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/japan-tobacco-to-cut-heated-tobacco-prices-in-battle-with-philip-morris-idUSKCN1IW0YM/"
+    },
+    {
+      "authors": [
+        "Brand Spur"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.294903,
+      "source": "Brand Spur",
+      "source_domain": "Brand Spur",
+      "summary": "Japan Tobacco Inc. plans to cut prices on its heated tobacco products following a similar move by Philip Morris International, intensifying competition in Japan's \"heat not burn\" (HNB) market. This comes as tobacco makers try to reignite growth in the HNB sector, with Japan Tobacco aiming to go on the offensive after lagging rivals. The country is the main market for HNB products, accounting for over 90% of the $5 billion market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.279135"
+        }
+      ],
+      "time_published": "20180531T031112",
+      "title": "JAPAN TOBACCO TO CUT HEATED TOBACCO PRICES IN BATTLE WITH PHILIP MORRIS - Brand Spur",
+      "topics": [
+        {
+          "relevance_score": "0.818285",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.712508",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://brandspurng.com/2018/05/31/japan-tobacco-to-cut-heated-tobacco-prices-in-battle-with-philip-morris/"
+    },
+    {
+      "authors": [
+        "Web Desk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.278755,
+      "source": "Daily Times",
+      "source_domain": "Daily Times",
+      "summary": "Philip Morris International Inc. and British American Tobacco Plc reportedly lobbied the Pakistani government to reduce health warnings on cigarette packs. This industry-wide campaign allegedly persuaded the government to comply, with officials indicating pressure from the Prime Minister's office to tone down warnings. Both companies acknowledged engaging with governments globally on various issues affecting their business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.277232"
+        }
+      ],
+      "time_published": "20180530T154800",
+      "title": "Pakistan toned-down cigarette warnings after Philip Morris, BAT lobbying: report",
+      "topics": [
+        {
+          "relevance_score": "0.721782",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://dailytimes.com.pk/246626/pakistan-toned-down-cigarette-warnings-after-philip-morris-bat-lobbying-report/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.269506,
+      "source": "Dawn",
+      "source_domain": "Dawn",
+      "summary": "Philip Morris International Inc and British American Tobacco Plc lobbied the Pakistani government to dilute health warnings on cigarette packs, successfully scaling back a proposal to increase warning size to 85 percent of the surface area. Officials cited industry contributions to national finances ($550 million in excise taxes) and pressure from government offices as reasons for the reduction. The new rule mandates warnings covering 50 percent, increasing to 60 percent, instead of the initially proposed 85 percent of the pack.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.284675"
+        }
+      ],
+      "time_published": "20180530T140000",
+      "title": "Cigarette giants' lobbying led to dilution of tobacco health warnings in Pakistan: report",
+      "topics": [
+        {
+          "relevance_score": "0.946964",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.801842",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.607908",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.dawn.com/news/1410942"
+    },
+    {
+      "authors": [
+        "Aditya Kalra",
+        "Saad Sayeed and Tom Lasseter"
+      ],
+      "banner_image": "https://www.reuters.com/files/articleMedia/media/CIGARETTES-HEALTH-PAKISTAN-2018-05-30-TSR.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.159497,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Philip Morris International Inc and British American Tobacco Plc successfully lobbied the Pakistani government to dilute proposed larger health warnings on cigarette packs. This intervention led to the reduction of the mandated warning size from 85 percent to 50 percent, rising to 60 percent later, despite initial proposals aimed at saving lives. The tobacco companies argued that drastic warning increases could lead to smuggling and reduced government revenues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347286",
+          "ticker": "BTI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001246"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.294253"
+        },
+        {
+          "relevance_score": "0.723065",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.229832"
+        }
+      ],
+      "time_published": "20180530T090900",
+      "title": "Pakistan diluted proposed tobacco health warnings after Philip Morris, BAT lobbying",
+      "topics": [
+        {
+          "relevance_score": "0.944064",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.744107",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.614238",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/pakistan-diluted-proposed-tobacco-health-warnings-after-philip-morris-bat-lobby-idUSKCN1IV08E/"
+    },
+    {
+      "authors": [
+        "Haider Ali"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.274882,
+      "source": "Daily Pakistan",
+      "source_domain": "Daily Pakistan",
+      "summary": "Extensive lobbying by Philip Morris International Inc and British American Tobacco Plc led Pakistan to significantly reduce its proposed tobacco health warnings. Initially, Pakistan's health ministry aimed to increase warnings to 85% of cigarette packs but softened the rule to 50% after intense pressure from the tobacco giants. This decision, influenced by potential revenue loss claims and high tax contributions from the industry, contradicts public health initiatives and highlights the corporate influence on government policy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.260901"
+        }
+      ],
+      "time_published": "20180530T090100",
+      "title": "Extensive lobbying by Philip Morris compels Pakistan to soften tobacco health warnings",
+      "topics": [
+        {
+          "relevance_score": "0.939442",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.829990",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.729686",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://en.dailypakistan.com.pk/30-May-2018/extensive-lobbying-by-philip-morris-compels-pakistan-to-soften-tobacco-health-warnings"
+    },
+    {
+      "authors": [
+        "Melissa Kress"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.354445,
+      "source": "Convenience Store News",
+      "source_domain": "Convenience Store News",
+      "summary": "Altria's Philip Morris USA (PM USA) is making progress in the combustible cigarette segment despite declining volume, driven by product expansions and packaging innovations for Marlboro and Black & Mild brands. The company's new Marlboro Ice product, with its innovative resealable package, has seen rapid adoption, and the \"Points West\" rewards program has engaged over 100,000 adult smokers in Texas, boosting brand loyalty. Additionally, the super premium Nat's cigarettes are performing well and expanding into new states after Altria's acquisition of Nat Sherman.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423173"
+        },
+        {
+          "relevance_score": "0.640435",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310353"
+        }
+      ],
+      "time_published": "20180530T025619",
+      "title": "Altria's Philip Morris USA Makes Progress on Combustible Cig Initiatives",
+      "topics": [
+        {
+          "relevance_score": "0.908418",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.811233",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.614700",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://csnews.com/altrias-philip-morris-usa-makes-progress-combustible-cig-initiatives"
+    },
+    {
+      "authors": [
+        "Agencies"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.33885,
+      "source": "Profit by Pakistan Today",
+      "source_domain": "Profit by Pakistan Today",
+      "summary": "Pakistan significantly reduced its proposed tobacco health warning size from 85% to 50%, rising to 60% in a year, following extensive lobbying efforts by Philip Morris International Inc. and British American Tobacco Plc. The tobacco companies argued that larger warnings could increase illicit trade and decrease government revenue, despite health ministry initiatives aimed at reducing tobacco use which kills over 100,000 people annually in Pakistan. Government officials acknowledged sympathy towards the industry due to its substantial tax contributions, influencing the final watered-down policy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.322917"
+        }
+      ],
+      "time_published": "20180529T031112",
+      "title": "Pakistan diluted proposed tobacco health warnings after Philip Morris, BAT lobbying",
+      "topics": [
+        {
+          "relevance_score": "0.932355",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.705998",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://profit.pakistantoday.com.pk/2018/05/29/pakistan-diluted-proposed-tobacco-health-warnings-after-philip-morris-bat-lobbying/"
+    },
+    {
+      "authors": [
+        "Diane Caruana"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.495051,
+      "source": "Vaping Post",
+      "source_domain": "Vaping Post",
+      "summary": "Philip Morris Korea announced that it has sold 1.9 million IQOS devices since their launch in Korea last year, exceeding 2 million units by extending the timeframe slightly. The company aims to produce Heets locally in Yangsan to meet growing demand and anticipates revenue from smoke-free products to reach $1.2 billion by 2020. This success underscores PMI's vision to replace traditional cigarettes with science-based smoke-free alternatives.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.463394"
+        }
+      ],
+      "time_published": "20180524T031112",
+      "title": "Philip Morris Korea Sold 2 Million IQOS Devices in a Year",
+      "topics": [
+        {
+          "relevance_score": "0.904389",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.702700",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.706677",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.vapingpost.com/2018/05/24/philip-morris-korea-sold-2-million-iqos-devices-in-a-year/"
+    },
+    {
+      "authors": [
+        "ppi"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.420473,
+      "source": "Profit by Pakistan Today",
+      "source_domain": "Profit by Pakistan Today",
+      "summary": "Philip Morris International announced that its factory in Aspropyrgos, Greece, has ceased cigarette production and will now exclusively produce HEETS, the tobacco units for IQOS. This conversion represents a EUR300 million investment and a significant step towards the company's vision of a smoke-free future, with the facility expected to be fully operational by the end of 2018 and creating 400 new jobs. The move is part of PMI's broader strategy to transition existing cigarette factories to smoke-free product manufacturing, supported by over $4.5 billion invested in scientific research and development since 2008.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448249"
+        }
+      ],
+      "time_published": "20180521T031112",
+      "title": "Philip Morris to only produce smoke-free products in its factory in Greece",
+      "topics": [
+        {
+          "relevance_score": "0.910825",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.729710",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://profit.pakistantoday.com.pk/2018/05/21/philip-morris-produce-smoke-free-products-factory-greece/"
+    },
+    {
+      "authors": [
+        "Paul Waldie"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.281499,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "This article examines how the rise of e-cigarettes and vaping is disrupting the traditional tobacco industry. It details how major tobacco companies like British American Tobacco and Philip Morris are investing heavily in e-cigarettes, with some even envisioning a future without traditional cigarettes. The piece also discusses the regulatory landscape for vaping, particularly in Canada, and the ongoing debate about the health effects and market impact of these new products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BTI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.285863"
+        },
+        {
+          "relevance_score": "0.917126",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297101"
+        }
+      ],
+      "time_published": "20180518T020117",
+      "title": "A world without cigarettes? How vaping is disrupting Big Tobacco\u2019s plans",
+      "topics": [
+        {
+          "relevance_score": "0.929783",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.810455",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/business/article-a-world-without-cigarettes-how-vaping-is-disrupting-big-tobaccos/"
+    },
+    {
+      "authors": [
+        "TOM LASSETER",
+        "DUFF WILSON",
+        "THOMAS WILSON",
+        "PARITOSH BANSAL"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.253019,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Philip Morris International's iQOS smoking device, unlike traditional cigarettes, is capable of collecting user data, raising concerns about its potential use for marketing and addiction manipulation. While Philip Morris claims the data is only used for malfunction fixes, a former employee and a tech analysis firm suggest its capabilities extend to tracking puff count and consumption habits. The company is actively building a customer database and explores software to leverage this data, despite regulatory scrutiny and an ongoing FDA application for the device.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.291353"
+        }
+      ],
+      "time_published": "20180515T120000",
+      "title": "Philip Morris device knows a lot about your smoking habit",
+      "topics": [
+        {
+          "relevance_score": "0.717890",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.646532",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.625450",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/investigates/special-report/tobacco-iqos-device/"
+    },
+    {
+      "authors": [
+        "Tom Lasseter",
+        "Duff Wilson",
+        "Thomas Wilson and Paritosh Bansal"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/LALMSPVQ6BKJZI6W6J55Z45BEE.JPG?auth=5e7f1b63750f6120352ef29b87fcf1fd247b9ea99008b88ce8af88523c93717d&width=960&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.100109,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Philip Morris International's new iQOS smoking device, while seeking regulatory approval as less harmful, also has the capability to collect personal data on users' smoking habits for marketing purposes. This data, including puff count and daily consumption, could be used to optimize the device's addictive potential, according to former employees and experts, raising concerns among regulators and public health advocates. Philip Morris claims the data is not linked to specific consumers nor used for marketing, except for device-related functionalities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.121832"
+        }
+      ],
+      "time_published": "20180515T111700",
+      "title": "Philip Morris device knows a lot about your smoking habit",
+      "topics": [
+        {
+          "relevance_score": "0.719449",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.827801",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/philip-morris-device-knows-a-lot-about-your-smoking-habit-idUSKCN1IG1JV/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.342509,
+      "source": "The Straits Times",
+      "source_domain": "The Straits Times",
+      "summary": "Venture Corp, a Singaporean tech company, experienced a significant stock decline after a period of rapid growth due to a short-seller attack and disappointing sales from Philip Morris, a key client. Despite the market volatility caused by anonymous bloggers and analyst downgrades, the company's CEO and some investors remain confident, with Venture initiating share buybacks and seeing a slight recovery.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.856870",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.332116"
+        }
+      ],
+      "time_published": "20180509T125600",
+      "title": "Short-sellers bring Singapore tech darling Venture down to earth",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.900719",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.810277",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.713664",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.straitstimes.com/business/companies-markets/short-sellers-bring-tech-darling-venture-down-to-earth"
+    },
+    {
+      "authors": [
+        "Keith Noonan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.257949,
+      "source": "The Motley Fool",
+      "source_domain": "The Motley Fool",
+      "summary": "Philip Morris International Inc. stock dropped 17.5% in April following mixed first-quarter earnings results, primarily due to a significant decline in sales of its iQOS heated-tobacco electronic cigarettes from the previous quarter. Despite overall year-over-year sales growth, the softness in this key product line, crucial for long-term growth as the company pivots away from traditional cigarettes, caused a steep sell-off. Investors are encouraged to monitor the performance of these innovative initiatives.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.448370"
+        },
+        {
+          "relevance_score": "0.637297",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143428"
+        }
+      ],
+      "time_published": "20180507T182400",
+      "title": "Why Philip Morris International Inc. Stock Lost 17.5% in April",
+      "topics": [
+        {
+          "relevance_score": "0.924781",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.804229",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.719932",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.fool.com/investing/2018/05/07/why-philip-morris-international-inc-stock-lost-175.aspx"
+    },
+    {
+      "authors": [
+        "Marjohn Sheikhi"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.328586,
+      "source": "Mehr News Agency",
+      "source_domain": "Mehr News Agency",
+      "summary": "The Iranian Tobacco Company and Philip Morris International Inc. have signed an agreement for the joint production of Marlboro cigarettes in Iran. This move aims to combat the significant issue of smuggled Marlboro brands in the country and is expected to benefit Iran in terms of production, employment, and reducing contraband. The agreement has been signed by the ITC and an Iranian company, Pishgaman Pakhsh Arman Gostar, representing Philip Morris Inc., pending confirmation from the Minister of Industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334994"
+        }
+      ],
+      "time_published": "20180506T092800",
+      "title": "Iran signs MoU with Philip Morris for Marlboro joint production",
+      "topics": [
+        {
+          "relevance_score": "0.914311",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.808289",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://en.mehrnews.com/news/133806/Iran-signs-MoU-with-Philip-Morris-for-Marlboro-joint-production"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.057525,
+      "source": "Yahoo! Finance Singapore",
+      "source_domain": "Yahoo! Finance Singapore",
+      "summary": "This page from Yahoo Finance displays a symbol lookup for \"MOR,\" showing various financial instruments including stocks, mutual funds, and ETFs with similar symbols. It lists details such as symbol, name, last price, sector/category, type, and exchange for each entry. The page also includes market data for several indices and lists top gainers, losers, and most active stocks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.332688",
+          "ticker": "MITT-P-B",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002499"
+        },
+        {
+          "relevance_score": "0.615048",
+          "ticker": "KMI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024260"
+        },
+        {
+          "relevance_score": "0.628942",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045019"
+        },
+        {
+          "relevance_score": "0.605360",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118154"
+        }
+      ],
+      "time_published": "20180420T025605",
+      "title": "Symbol lookup from Yahoo Finance",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.815895",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.712618",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.603167",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://sg.finance.yahoo.com/quote/MOR/"
+    },
+    {
+      "authors": [
+        "Brand Spur"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.336189,
+      "source": "Brand Spur",
+      "source_domain": "Brand Spur",
+      "summary": "Philip Morris International (PMI) achieved a highly successful 2017, largely driven by the surge in reduced-risk electronic cigarette products like its iQOS device, particularly in Japan where it became the dominant cigarette brand. Despite regulatory setbacks in the U.S. and criticism from anti-smoking activists regarding its \"smoke-free world\" initiative, PMI's stock gained over 15% for the year, with significant progress in markets like the U.K. which has embraced e-cigs as a quitting tool. The company's commitment to a \"smoke-free\" future and its expansion into new markets positions it for continued success.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326560"
+        }
+      ],
+      "time_published": "20180327T031112",
+      "title": "Here's How Philip Morris International Inc. Crushed It in 2017 - Brand Spur",
+      "topics": [
+        {
+          "relevance_score": "0.900685",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.717019",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://brandspurng.com/2018/03/27/heres-how-philip-morris-international-inc-crushed-it-in-2017/"
+    },
+    {
+      "authors": [
+        "Andrius Sytas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.306636,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Lithuania's tobacco regulator suspects Philip Morris's iQOS device advertising constitutes indirect advertising of tobacco products, potentially subjecting it to stricter regulations. This case could have broader implications if other countries follow Lithuania's precedent, impacting Philip Morris's significant investment in new-generation smoking platforms. Philip Morris plans to challenge the findings, asserting its compliance with current regulations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.301576"
+        }
+      ],
+      "time_published": "20180221T163300",
+      "title": "Philip Morris may have breached Lithuania's advertising rules with new smoking device",
+      "topics": [
+        {
+          "relevance_score": "0.736772",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.621802",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.620261",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/philip-morris-may-have-breached-lithuanias-advertising-rules-with-new-smoking-d-idUSKCN1G524I/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.616258,
+      "source": "The New Indian Express",
+      "source_domain": "The New Indian Express",
+      "summary": "Ten U.S. senators have urged the Food and Drug Administration (FDA) to reject Philip Morris International's application to market its iQOS smoking device as less risky than traditional cigarettes. This request follows an expert scientific panel's vote against the application and concerns raised about the integrity of clinical trials. The senators emphasize the need for strong evidence that such products reduce disease risk, help smokers quit, and do not increase youth tobacco use.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.631822"
+        }
+      ],
+      "time_published": "20180207T203400",
+      "title": "US lawmakers ask FDA to reject tobacco giant Philip Morris' iQOS smoking device application",
+      "topics": [
+        {
+          "relevance_score": "0.923335",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.733170",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.newindianexpress.com/business/2018/Feb/07/us-lawmakers-ask-fda-to-reject-tobacco-giant-philip-morris-iqos-smoking-device-application-1769890.html"
+    },
+    {
+      "authors": [
+        "Angelica Peebles"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.245376,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "FDA advisors have stated that evidence does not support Philip Morris International's claims that its heat-not-burn tobacco product, iQOS, cuts the risk of tobacco-related diseases or is likely to switch adult cigarette smokers. The committee did vote in favor of iQOS reducing the body's exposure to harmful chemicals, but rejected the idea that this translates to a substantial reduction in morbidity or mortality. Despite the non-binding recommendations, analysts remain optimistic about FDA approval for PMI's modified-risk tobacco product application.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.221046"
+        },
+        {
+          "relevance_score": "0.724368",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.230248"
+        }
+      ],
+      "time_published": "20180125T200300",
+      "title": "In high-stakes votes, FDA advisors say evidence doesn't back Philip Morris' claims",
+      "topics": [
+        {
+          "relevance_score": "0.900385",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.cnbc.com/2018/01/25/philip-morris-stock-falls-as-committee-reviews-iqos-claims.html"
+    },
+    {
+      "authors": [
+        "Anna Edney"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.373273,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "A Food and Drug Administration advisory panel found that Philip Morris International Inc. failed to demonstrate that its iQos tobacco-heating product reduces the risk of smoking-related diseases. This decision casts doubt on the safety claims of potential cigarette alternatives and negatively impacted the stocks of Philip Morris and its partner Altria.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.435706"
+        },
+        {
+          "relevance_score": "0.806838",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.315829"
+        }
+      ],
+      "time_published": "20180125T170000",
+      "title": "Tobacco Device Hits Snag as Experts Question Disease Dangers",
+      "topics": [
+        {
+          "relevance_score": "0.945504",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.739729",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2018-01-25/high-tech-tobacco-gadget-hits-snag-in-push-to-disrupt-smoking"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.46341,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "An advisory panel to the US Food and Drug Administration (FDA) rejected Philip Morris International's claim that its iQOS electronic tobacco device reduces the risk of tobacco-related diseases compared with cigarettes. While the panel found iQOS exposes users to lower levels of harmful chemicals, it concluded that Philip Morris had not proven this translates into a measurable reduction in disease or death. The FDA is not bound by the panel's recommendation but will decide on iQOS marketing and modified-risk claims in the coming months.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.492448"
+        },
+        {
+          "relevance_score": "0.716209",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.421289"
+        }
+      ],
+      "time_published": "20180125T154400",
+      "title": "US panel rejects Philip Morris claim iQOS tobacco device cuts disease risk",
+      "topics": [
+        {
+          "relevance_score": "0.939480",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.720887",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.theguardian.com/us-news/2018/jan/25/us-panel-rejects-philip-morris-claim-iqos-tobacco-device-cuts-disease-risk"
+    },
+    {
+      "authors": [
+        "Angelica Peebles"
+      ],
+      "banner_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/08/17/104658097-IQOS_Getty.1910x1000.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.257152,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Philip Morris International's heat-not-burn tobacco product, iQOS, is undergoing review by the FDA for approval to be marketed as a less risky alternative to traditional cigarettes. An independent advisory committee is evaluating PMI's claims that iQOS significantly reduces the risk of tobacco-related diseases by heating tobacco instead of burning it. If approved, Altria would have distribution rights for iQOS in the U.S., potentially introducing a new category of tobacco products to the market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325475"
+        },
+        {
+          "relevance_score": "0.733729",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249494"
+        }
+      ],
+      "time_published": "20180125T070000",
+      "title": "You may soon see a product that heats tobacco instead of burning it",
+      "topics": [
+        {
+          "relevance_score": "0.807262",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.636746",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cnbc.com/2018/01/24/philip-morris-heat-not-burn-tobacco-product-iqos-undergoes-review.html"
+    },
+    {
+      "authors": [
+        "Toni Clarke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.256994,
+      "source": "Yahoo! Finance Singapore",
+      "source_domain": "Yahoo! Finance Singapore",
+      "summary": "Philip Morris International expects approximately 6 million U.S. smokers to switch to its iQOS electronic tobacco device if it receives regulatory clearance to market it as less risky than traditional cigarettes. The company is seeking FDA approval for modified risk claims, arguing that iQOS heats tobacco instead of burning it, producing fewer harmful chemicals. An FDA advisory panel is reviewing the application, with a non-binding vote on the company's data supporting modified risk claims expected.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328303"
+        },
+        {
+          "relevance_score": "0.716563",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214098"
+        }
+      ],
+      "time_published": "20180124T031112",
+      "title": "Philip Morris sees six million U.S. smokers switching to iQOS device if cleared",
+      "topics": [
+        {
+          "relevance_score": "0.948396",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://sg.finance.yahoo.com/news/u-health-advisers-weigh-risks-novel-philip-morris-165911925--finance.html"
+    },
+    {
+      "authors": [
+        "Jonathan Berr"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.173628,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "Philip Morris International has announced its intention to quit selling cigarettes in the U.K. at an unspecified future date, committing to support anti-smoking efforts and offer alternatives to smokers. The company plans to launch a website for quitting information and seek approvals to include information on quitting in cigarette packs. Critics, however, remain skeptical of the tobacco giant's sincerity given its continued involvement in the tobacco business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.285863"
+        },
+        {
+          "relevance_score": "0.741154",
+          "ticker": "MO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049531"
+        }
+      ],
+      "time_published": "20180105T053000",
+      "title": "Philip Morris wants to quit its tobacco habit",
+      "topics": [
+        {
+          "relevance_score": "0.707863",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.725596",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/philip-morris-wants-to-quit-cigarette-business/"
+    },
+    {
+      "authors": [
+        "Joe Tenebruso"
+      ],
+      "banner_image": "https://finance.yahoo.com/news/better-buy-procter-gamble-company-020100759.html",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.259164,
+      "source": "Yahoo Finance",
+      "source_domain": "Yahoo Finance",
+      "summary": "This article compares Procter & Gamble (PG) and Philip Morris International (PM) as dividend investment choices. It evaluates their financial fortitude, growth prospects, and valuation, concluding that while P&G has greater financial strength, Philip Morris shows stronger future growth potential. The decision ultimately depends on investor preferences regarding balance sheet strength versus growth and comfort with \"sin stocks.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.299840"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283542"
+        }
+      ],
+      "time_published": "20180102T020100",
+      "title": "Better Buy: Procter & Gamble Company vs. Philip Morris International",
+      "topics": [
+        {
+          "relevance_score": "0.921582",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.824341",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.629112",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.639024",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://finance.yahoo.com/news/better-buy-procter-gamble-company-020100759.html"
+    }
+  ],
+  "items": "47",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,378 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Aaron Pressman"
+      ],
+      "banner_image": "https://content.fortune.com/wp-content/uploads/2014/05/applied-materials-inc.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.219497,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "The Obama administration is forming a working group of U.S. semiconductor industry executives to address China's significant government-backed efforts to boost its chip manufacturing. This move comes as the U.S. seeks to maintain its competitiveness in the semiconductor industry, facing challenges from increased manufacturing costs and the slowing pace of Moore's Law. The administration suggests that additional public and private investments in R&D may be necessary to sustain innovation and economic benefits.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.250057"
+        },
+        {
+          "relevance_score": "0.743903",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115256"
+        },
+        {
+          "relevance_score": "0.570556",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242573"
+        },
+        {
+          "relevance_score": "0.559952",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.215682"
+        }
+      ],
+      "time_published": "20161101T055224",
+      "title": "Why U.S. Computer Chip Makers May Need Government Help",
+      "topics": [
+        {
+          "relevance_score": "0.928787",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.805373",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.712384",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://fortune.com/2016/11/01/chipmakers-amd-qualcomm/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.azosensors.com/articleimages/ArticleID6EB75C17-573F-41B0-9A52-D3D9426D13F2-May2016-7.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.420703,
+      "source": "AZoSensors",
+      "source_domain": "AZoSensors",
+      "summary": "This article discusses the field of soft robotics and the work of Dr. Rebecca Kramer from Purdue University, who is developing advanced flexible sensors to replace traditional rigid components. It highlights the challenges in scaling this technology and how KLA Instruments adapted their Zeta-20 Optical Profiler to meet Dr. Kramer's unique research needs, enabling detailed characterization of liquid samples without requiring custom pricing. The article concludes by emphasizing the potential of sensory skins for monitoring vital signs and other bio-physical characteristics in the future.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408311"
+        }
+      ],
+      "time_published": "20161028T065148",
+      "title": "Soft Robotics - Using Optical Profiling to Develop Advanced Flexible Sensors",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732381",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.627836",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.azosensors.com/article.aspx?ArticleID=708"
+    },
+    {
+      "authors": [
+        "CPI"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.013454,
+      "source": "PYMNTS.com",
+      "source_domain": "PYMNTS.com",
+      "summary": "Lam Research Corp. and KLA-Tencor have terminated their $10.6 billion merger agreement due to opposition from antitrust regulators in the US, South Korea, Japan, and China. The proposed deal, announced in October of the previous year, would have created a dominant entity controlling approximately 42% of the wafer fabrication equipment market. Both companies confirmed that no breakup fees would be paid.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335807",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026192"
+        }
+      ],
+      "time_published": "20161006T065148",
+      "title": "Bipartisan Senate Bill Targets Minors\u2019 Access to AI \u2018Companions\u2019",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.841143",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.704032",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.pymnts.com/cpi-posts/us-antitrust-worries-kill-lam-researchs-10-6b-plan-to-buy-kla-tencor/"
+    },
+    {
+      "authors": [
+        "Don Clark and Ezequiel Minaya"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.435148,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Lam Research and KLA-Tencor have cancelled their $10.6 billion merger due to antitrust concerns raised by the U.S. Justice Department. The department expressed serious concerns that the deal would harm competition in the semiconductor-equipment market. This mutual decision came nearly a year after the merger was first announced.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327771",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003060"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.636852"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.605173"
+        }
+      ],
+      "time_published": "20161005T201200",
+      "title": "Lam Research, KLA-Tencor Call Off Merger on Antitrust Concerns",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.922509",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.734620",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/lam-research-kla-tenor-call-off-merger-on-antitrust-concerns-1475707330?gaa_at=eafs&gaa_n=AWEtsqfTJxOClmaAQOXmjxABKo0Un5yG3D2kZPq0HC6khdTgnaxenBr4EHKm&gaa_ts=69084645&gaa_sig=gJ45FqloOfkew-QIvgwTCNtXacoyKs-xe8IWPVS51ASTyd2mXMo-VwoL78MmC6u6eIrwwZXrP5xb5Banfcvj0Q%3D%3D"
+    },
+    {
+      "authors": [
+        "Don Clark and Ezequiel Minaya"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.045478,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Lam Research and KLA-Tencor have terminated their $10.6 billion merger agreement due to antitrust concerns raised by the U.S. Justice Department. The department expressed serious concerns that the deal between the semiconductor-equipment makers would harm competition in the market for chip manufacturing machines. The mutual decision to call off the merger follows delays from the Justice Department.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.333177",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009149"
+        }
+      ],
+      "time_published": "20161005T201200",
+      "title": "Lam Research, KLA-Tencor Call Off Merger on Antitrust Concerns",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.804189",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.739668",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/lam-research-kla-tenor-call-off-merger-on-antitrust-concerns-1475707330?gaa_at=eafs&gaa_n=AWEtsqcrDzOiQfwOIOcLYKxwpIWAU1TXEO8M_5Hg0VS02Z5pJ2wS-OIrS7zk&gaa_ts=6908542e&gaa_sig=FXsSV2XJ2YhvDxTeF6gpPW6_fmbVYhw02_A3DTFOYDBB54zqUOYgiXgbP0I9QwOLa-Yd8kzzU7kWE6xXLlmlng%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.480463,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA-Tencor (NASDAQ: KLAC) has introduced a new suite of reticle inspection technologies, including the Teron\u2122 640, Teron\u2122 SL655, and Reticle Decision Center (RDC). These systems are designed to address 10nm and below mask technologies, enabling mask shops and IC fabs to more efficiently identify lithographically significant and yield-damaging defects. The new systems aim to improve mask quality control and optimize wafer patterning for current and next-generation mask designs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.466883"
+        }
+      ],
+      "time_published": "20160816T041500",
+      "title": "KLA-Tencor Announces New Suite of Reticle Inspection Technologies",
+      "topics": [
+        {
+          "relevance_score": "0.923592",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.710500",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-tencor-announces-new-suite-of-reticle-inspection-technologies-300314221.html"
+    },
+    {
+      "authors": [
+        "Liat Bar-On"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.354994,
+      "source": "Globes - Israel Business News",
+      "source_domain": "Globes - Israel Business News",
+      "summary": "Eli Fruchter, founder of EZchip and LanOptics, is joining the board of directors of Nova Measuring Instruments Ltd. Fruchter's previous company, EZchip, was recently sold to Mellanox for $811 million. Nova's Chairman, Dr. Micha Brunstein, welcomed Fruchter, citing his extensive experience and leadership in the technology industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVMI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.485000"
+        },
+        {
+          "relevance_score": "0.643005",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208168"
+        }
+      ],
+      "time_published": "20160809T184300",
+      "title": "Eli Fruchter jons Nova board",
+      "topics": [
+        {
+          "relevance_score": "0.847527",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.736963",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.642995",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://en.globes.co.il/en/article-eli-fruchter-jons-nova-board-1001145274"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.192163,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The wafer inspection market is experiencing significant changes as chipmakers face challenges in detecting tiny defects at advanced nodes like 10nm and beyond. Both e-beam and optical inspection technologies are evolving, with e-beam aiming for a larger role in production and optical striving to extend its capabilities. Major industry players like ASML, Applied Materials, and KLA-Tencor are making strategic moves and introducing new tools to address these complex defect detection issues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.970244",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256393"
+        },
+        {
+          "relevance_score": "0.823009",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247951"
+        },
+        {
+          "relevance_score": "0.690850",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108803"
+        }
+      ],
+      "time_published": "20160711T055224",
+      "title": "E-beam Vs. Optical Inspection",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.908828",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.841869",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://semiengineering.com/e-beam-vs-optical-inspection/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.423711,
+      "source": "AZoM",
+      "source_domain": "AZoM",
+      "summary": "This article discusses the challenges of accurately measuring the depth, flatness, and width of enclosed microfluidic devices after fabrication. It highlights the limitations of traditional microscopy methods and introduces the Confocal Grid Structured Illumination (CGSI) technique, specifically the ZDot technology on the Zeta-20 Optical Profiler, as a non-contact, cost-effective, and fast solution for quality control. Case studies and application examples demonstrate the effectiveness and accuracy of CGSI in overcoming fabrication challenges and ensuring device performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422774"
+        }
+      ],
+      "time_published": "20160215T065148",
+      "title": "How to Measure the True Depth and Volume of Enclosed Microfluidic Devices",
+      "topics": [
+        {
+          "relevance_score": "0.732683",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.835235",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.605123",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.azom.com/article.aspx?ArticleID=12604"
+    }
+  ],
+  "items": "9",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

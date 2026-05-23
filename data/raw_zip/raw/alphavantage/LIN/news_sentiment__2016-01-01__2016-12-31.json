@@ -1,0 +1,73 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Robert Wall"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.437102,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Industrial-gas giants Praxair Inc. and Germany\u2019s Linde AG have agreed to merge, creating the industry's biggest player with a combined market value of $66.6 billion. The deal follows a two-year courtship and on-again, off-again talks that recently concluded successfully with both boards endorsing the combination. The merged company will retain the Linde name and maintain facilities in Germany.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LIN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448744"
+        }
+      ],
+      "time_published": "20161220T065651",
+      "title": "Praxair, Linde to Merge Into Industrial-Gas Giant Worth $67 Billion",
+      "topics": [
+        {
+          "relevance_score": "0.936318",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.737059",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/praxair-linde-to-merge-into-67-billion-industrial-gas-firm-1482237617?gaa_at=eafs&gaa_n=AWEtsqeGDnsxJ0AgCsv15_3fhCBlR77E6oy9XnH3nTyJjToPhYjs6qbxUjUY&gaa_ts=69085545&gaa_sig=qKYcgifOqzYoedjuBhFPkspEfgtBMV3-1IYHgT94FKvhK0BMgcw_n7sJpEAlibWX9LxXkGvFp5UUs3-pGS1LKQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Eyk Henning and Dana Mattioli"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.418388,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Praxair Inc. is in discussions to merge with Germany's Linde AG. This deal would create the world's largest industrial-gas supplier and continue a trend of consolidation in the industry. Both companies are valued at approximately $30 billion, and the merger talks are described as fragile.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972636",
+          "ticker": "LIN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414187"
+        }
+      ],
+      "time_published": "20160816T065651",
+      "title": "\u0906\u0902\u0926\u094b\u0932\u0928\u094b\u0902 \u0915\u0947 \u0926\u094c\u0930\u093e\u0928 \u091c\u093e\u0928 \u0917\u0902\u0935\u093e\u0928\u0947 \u0935\u093e\u0932\u0947 \u092a\u094d\u0930\u0926\u0930\u094d\u0936\u0928\u0915\u093e\u0930\u093f\u092f\u094b\u0902 \u0915\u0947 \u092a\u0930\u093f\u091c\u0928\u094b\u0902 \u0915\u094b \u0938\u0930\u0915\u093e\u0930\u0940 \u0928\u094c\u0915\u0930\u0940",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.804937",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/praxair-holds-merger-discussions-with-germanys-linde-1471299820?gaa_at=eafs&gaa_n=AWEtsqekDml3yKYg1CLuxAKRwzkCDCVTORtXlXJ9bHV7o89hRbISsnwkwXpi&gaa_ts=69085545&gaa_sig=fXgcPqXNnnCfO2ymF8sGFgsFc9tUbhoWiglRhKr1EWUQc8SNON2mb1TxIVzVDUHVmTS2Awwkb396FSPwToGrUQ%3D%3D"
+    }
+  ],
+  "items": "2",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

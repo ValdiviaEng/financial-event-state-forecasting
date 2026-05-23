@@ -1,0 +1,28 @@
+# File: configs/models.example.yaml
+# Status: COMMENT-ONLY CONFIG SCAFFOLD - NOT ACTIVE CONFIG
+# Governing docs: ProjectDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; docs/Implementation_Decisions.md; docs/Data_Separation_And_Overfitting_Control.md
+#
+# Purpose:
+# - Future configuration family for market baselines, comparator ladder, simple gated fusion, training, and inference outputs.
+#
+# Planned config sections, comments only:
+# - comparator_ladder:
+#   Meaning: future approved market-only, comparator, and event-state model roster.
+#   Planned keys: roster_id, model_families, run_order, allowed_inputs, hyperparameter_policy, search_space_record_policy.
+#   Expected types: string, list, mapping, enum.
+#   Default policy: exact roster must be frozen before serious runs.
+#   Validation: every model must use identical rows, labels, folds, predeclared metrics, and train-fold-only preprocessing.
+#   Benchmark impact: roster changes affect event-state incremental-value interpretation.
+# - gated_fusion:
+#   Meaning: future simple gated fusion model settings.
+#   Planned keys: model_id, market_input_family, event_state_input_family, seed_policy, output_policy, saved_prediction_policy.
+#   Expected types: string, mapping, enum, integer.
+#   Default policy: no hidden architecture expansion.
+#   Validation: graph-heavy, MoE, dynamic profiles, and end-to-end fine-tuning stay out of phase 1.
+#   Benchmark impact: fusion settings affect model comparability.
+#
+# Protected values:
+# - Target family, horizons, provider stack, universe, alignment, and evaluation protocol must match approved scope unless explicit approval changes them.
+#
+# Limitations:
+# - This file is not active until real keys are approved and implemented.

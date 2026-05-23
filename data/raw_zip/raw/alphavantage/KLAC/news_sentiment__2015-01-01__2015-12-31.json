@@ -1,0 +1,328 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Chad Bray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.386033,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Western Digital announced its acquisition of memory chip maker SanDisk for approximately $19 billion in a cash-and-stock deal. This acquisition represents a strategic move for Western Digital to become an innovative leader in the storage industry and capitalize on growth opportunities in the evolving storage market. The deal, which offers SanDisk investors a 15 percent premium, is part of a broader trend of consolidation among semiconductor and computer component suppliers facing pricing pressure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SNDKV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404921"
+        },
+        {
+          "relevance_score": "0.960343",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.394349"
+        },
+        {
+          "relevance_score": "0.643954",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305671"
+        },
+        {
+          "relevance_score": "0.573323",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309975"
+        }
+      ],
+      "time_published": "20151021T093156",
+      "title": "Western Digital to Buy Memory Chip Maker SanDisk for $19 Billion (Published 2015)",
+      "topics": [
+        {
+          "relevance_score": "0.921457",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.805986",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2015/10/22/business/dealbook/western-digital-to-buy-memory-chip-maker-sandisk-for-19-billion.html"
+    },
+    {
+      "authors": [
+        "Brett Molina"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.239027,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Semiconductor maker Lam Research announced its acquisition of fellow chipmaker KLA-Tencor for $10.6 billion, involving a mix of cash and stock. The deal is expected to close by mid-2016 and will create the second-largest semiconductor equipment company, according to Moody's Investors Service. This acquisition follows other significant deals in the chipmaking industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.733522",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112067"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.465377"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405490"
+        },
+        {
+          "relevance_score": "0.617600",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134755"
+        },
+        {
+          "relevance_score": "0.639123",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144570"
+        }
+      ],
+      "time_published": "20151021T075649",
+      "title": "Chip maker Lam Research acquires KLA-Tencor for $10.6B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.931097",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/tech/2015/10/21/chip-maker-lam-research-acquires-kla-tencor-106b/74319736/"
+    },
+    {
+      "authors": [
+        "Daniella Cheslow"
+      ],
+      "banner_image": "https://p.dw.com/p/1FeH3",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.126642,
+      "source": "DW",
+      "source_domain": "DW",
+      "summary": "This article discusses the growing international boycott movement against Israel due to its occupation of Palestinian territories, and how it is perceived within Israel. Despite current economic prosperity, some Israeli business leaders and politicians express concern over the potential future impact and the country's international image. The government is preparing legal action to counter the BDS campaign, while some critics within Israel urge understanding of Palestinian grievances.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149217"
+        }
+      ],
+      "time_published": "20150610T085638",
+      "title": "Boycott initiatives strike a nerve in Israel",
+      "topics": [
+        {
+          "relevance_score": "0.909253",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.732685",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.dw.com/en/boycott-initiatives-strike-a-nerve-in-israel/a-18506073"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.34972,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "KLA-Tencor is set to cut its global workforce by up to 10% and reduce investment in extreme ultraviolet (EUV) lithography mask inspection tools due to a lack of compelling customer demand for its actinic inspection tool. This decision comes despite the company reporting solid financial results for the quarter ending March 31, driven by other semiconductor industry trends like FinFETs and multi-patterning lithography, but highlights uncertainty surrounding the timing of high-volume EUV production. CEO Rick Wallace acknowledged conflicting signals in the market regarding future investments in leading-edge processes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.301408"
+        }
+      ],
+      "time_published": "20150427T085638",
+      "title": "KLA-Tencor cuts back EUV investment",
+      "topics": [
+        {
+          "relevance_score": "0.946211",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.824221",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.636798",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.637363",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://optics.org/news/6/4/35"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.092622,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "Applied Materials and Tokyo Electron Ltd. (TEL) have terminated their proposed $9.3 billion merger deal after encountering significant regulatory hurdles, primarily from the U.S. Department of Justice (DoJ). The DoJ feared the combined entity would create a near-monopoly in the fab tool business, limiting choices for chipmakers. Both companies, now fierce competitors once again, face the challenge of regaining market momentum lost during the prolonged merger process, with analysts noting wasted time and resources.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.209736"
+        },
+        {
+          "relevance_score": "0.630922",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.120055"
+        },
+        {
+          "relevance_score": "0.646460",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112379"
+        },
+        {
+          "relevance_score": "0.624032",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.127400"
+        },
+        {
+          "relevance_score": "0.625134",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130609"
+        }
+      ],
+      "time_published": "20150427T075649",
+      "title": "Analysis: Applied-TEL Scrap Merger",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.913601",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.828323",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/applied-tel-scrap-merger-plans/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.327871,
+      "source": "MultiVu",
+      "source_domain": "MultiVu",
+      "summary": "KLA-Tencor announced two new systems, CIRCL-AP and ICOS T830, designed for advanced semiconductor packaging technologies. These systems support wafer-level packaging by enabling all-surface inspection, metrology, and review at high throughput, and provide automated optical inspection of integrated circuit packages. They aim to help IC manufacturers and OSAT facilities address the challenges of finer feature sizes and tighter pitch requirements in innovative packaging techniques.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.478175"
+        },
+        {
+          "relevance_score": "0.606682",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205738"
+        }
+      ],
+      "time_published": "20150416T085638",
+      "title": "KLA-Tencor Introduces New Portfolio for Advanced Semiconductor Packaging",
+      "topics": [
+        {
+          "relevance_score": "0.934078",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.723317",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "http://www.multivu.com/players/English/7065554-kla-tencor-semiconductor-packaging/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305425,
+      "source": "MultiVu",
+      "source_domain": "MultiVu",
+      "summary": "KLA-Tencor announced two new advanced metrology systems, Archer\u2122 500LCM and SpectraFilm\u2122 LD10, designed to support the development and production of 16nm and below IC devices. These systems enhance the company's 5D\u2122 patterning control solution by providing improved overlay error feedback and precise film thickness and stress measurements for complex device structures like FinFETs and 3D NAND. The new offerings aim to help chipmakers resolve patterning issues and drive yield in advanced IC manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408197"
+        },
+        {
+          "relevance_score": "0.602146",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204311"
+        },
+        {
+          "relevance_score": "0.592719",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237630"
+        }
+      ],
+      "time_published": "20150219T080000",
+      "title": "KLA-Tencor Extends its 5D\u2122 Patterning Control Solution with New Metrology Systems",
+      "topics": [
+        {
+          "relevance_score": "0.824291",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "http://www.multivu.com/players/English/7065553-kla-tencor-new-metrology-systems/"
+    }
+  ],
+  "items": "7",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

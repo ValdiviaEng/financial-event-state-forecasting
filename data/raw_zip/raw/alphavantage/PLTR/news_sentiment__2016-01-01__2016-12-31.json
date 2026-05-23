@@ -1,0 +1,36 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Ali Breland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.399557,
+      "source": "The Hill",
+      "source_domain": "The Hill",
+      "summary": "A federal judge has ruled in favor of Palantir Technologies, Inc. in a lawsuit against the U.S. Army regarding a contract for a data system. This ruling allows Palantir to compete for a portion of the $6 billion Distributed Common Ground System-Army (DCGS-A) system. The company had sued the Army, alleging bias and non-compliance with rules regarding commercially available products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.382804"
+        }
+      ],
+      "time_published": "20161031T145900",
+      "title": "Palantir wins lawsuit over US Army data system",
+      "topics": [
+        {
+          "relevance_score": "0.806522",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://thehill.com/policy/technology/303630-palantir-wins-lawsuit-over-us-army-data-system/"
+    }
+  ],
+  "items": "1",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

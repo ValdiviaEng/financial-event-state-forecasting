@@ -1,0 +1,1644 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Gordon Kristopher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.238709,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "US oil and gas exploration and production companies are facing severe pressure due to historically low oil prices and rising interest rates, leading to a surge in bankruptcies mirroring 2008 recession levels. The total debt for these companies, excluding Chevron and ExxonMobil, exceeded $200 billion in 2014, with 36 companies filing for bankruptcy in 2015 and several others on the verge. This financial distress has also resulted in significant job losses and impacts on related ETFs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.315186",
+          "ticker": "IEO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.004620"
+        },
+        {
+          "relevance_score": "0.832224",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131569"
+        },
+        {
+          "relevance_score": "0.836641",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137545"
+        },
+        {
+          "relevance_score": "0.649477",
+          "ticker": "APA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.432251"
+        },
+        {
+          "relevance_score": "0.636837",
+          "ticker": "DVN",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.413351"
+        }
+      ],
+      "time_published": "20151229T080600",
+      "title": "US Oil and Gas Companies\u2019 Debt Exceeds $200 Billion",
+      "topics": [
+        {
+          "relevance_score": "0.902633",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.845139",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.720294",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/12/us-oil-gas-companies-debt-exceeds-200-billion/"
+    },
+    {
+      "authors": [
+        "Maitali Ramkumar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.039163,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article analyzes the correlation between ExxonMobil's (XOM) stock performance and the prices of crude oil (Brent, WTI) and Henry Hub natural gas over five years. It explains the concept of the correlation coefficient and demonstrates why integrated energy companies like XOM exhibit a low correlation to oil prices due to diversification across upstream and downstream segments. In contrast, pure upstream or downstream companies show a stronger correlation to oil prices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.894543",
+          "ticker": "IXC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122955"
+        },
+        {
+          "relevance_score": "0.961978",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029898"
+        },
+        {
+          "relevance_score": "0.745969",
+          "ticker": "MPC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.006439"
+        },
+        {
+          "relevance_score": "0.587480",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.034315"
+        }
+      ],
+      "time_published": "20151225T100500",
+      "title": "Correlation Analysis: ExxonMobil\u2019s Crude Oil, Natural Gas prices",
+      "topics": [
+        {
+          "relevance_score": "0.913115",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.822532",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.729560",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/12/correlation-analysis-exxonmobils-crude-oil-natural-gas-prices/"
+    },
+    {
+      "authors": [
+        "Maitali Ramkumar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.237337,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article explains the importance of the reserve replacement ratio (RRR) in the upstream oil and gas sector. It details how RRR reflects a company's success in replacing produced reserves and highlights the reserve inventories and RRR of major integrated energy companies like Exxon Mobil, BP, Royal Dutch Shell, and Chevron in 2014. The article emphasizes that an RRR below 100% indicates reserves are depleting faster than they are being replaced, which could negatively impact future volumes and revenues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "XLE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141629"
+        },
+        {
+          "relevance_score": "0.940221",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335906"
+        },
+        {
+          "relevance_score": "0.803679",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259854"
+        }
+      ],
+      "time_published": "20151208T130600",
+      "title": "Why Is Reserve Replacement Ratio Important to the Upstream Sector?",
+      "topics": [
+        {
+          "relevance_score": "0.920745",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.800713",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/12/rrr-important-upstream-energy-sector/"
+    },
+    {
+      "authors": [
+        "Steve Ariel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.356226,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "LyondellBasell (LYB) is a major global producer of olefins and polyolefins, ranking as the second-largest US chemical company by revenue and EBITDA after Dow Chemical. The company manufactures a wide array of chemicals for various industries, operates a refinery in Houston, and has 56 manufacturing facilities worldwide. This article provides an overview of LYB's key chemical products, segments, and market position.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IYM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432468"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LYB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.503259"
+        },
+        {
+          "relevance_score": "0.816333",
+          "ticker": "DOW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318503"
+        },
+        {
+          "relevance_score": "0.614347",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.206039"
+        },
+        {
+          "relevance_score": "0.626040",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216130"
+        }
+      ],
+      "time_published": "20151130T141400",
+      "title": "LyondellBasell: A Leading Manufacturer of Olefins and Polyolefins",
+      "topics": [
+        {
+          "relevance_score": "0.906787",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.800497",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.735996",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/11/lyondell-basell-leading-manufacturer-olefins-polyolefins/"
+    },
+    {
+      "authors": [
+        "Gordon Kristopher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333186,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "WTI crude oil futures rose for the third consecutive day due to short covering and a less-than-expected inventory increase from the EIA and API reports. Geopolitical tensions between Russia and Syria also contributed to the rally, leading traders to cover their short positions ahead of the Thanksgiving holiday, benefiting US oil producers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IEZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117025"
+        },
+        {
+          "relevance_score": "0.740323",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400208"
+        },
+        {
+          "relevance_score": "0.714272",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423575"
+        }
+      ],
+      "time_published": "20151120T172400",
+      "title": "Crude Oil Prices Rally Due to Short Covering",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.946477",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.622329",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/11/crude-oil-prices-rally-due-short-covering/"
+    },
+    {
+      "authors": [
+        "Collin Eaton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.294744,
+      "source": "Houston Chronicle",
+      "source_domain": "Houston Chronicle",
+      "summary": "Exxon Mobil's unique corporate structure and culture, rooted in its Standard Oil heritage, have allowed it to weather the recent oil market downturn more effectively than its rivals. The company's focus on efficiency, cost management, and conservative project development has insulated it from mass layoffs and severe budget cuts seen elsewhere in the industry. While its strategy has been questioned during growth-focused periods, the current environment rewards its disciplined approach.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408685"
+        },
+        {
+          "relevance_score": "0.707391",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.261427"
+        },
+        {
+          "relevance_score": "0.637330",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236606"
+        }
+      ],
+      "time_published": "20151106T214600",
+      "title": "Exxon Mobil's history gives it an edge in downturn",
+      "topics": [
+        {
+          "relevance_score": "0.931509",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.915638",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.821729",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.740939",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.602755",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.houstonchronicle.com/business/article/Exxon-Mobil-s-history-gives-it-an-edge-in-downturn-6616518.php"
+    },
+    {
+      "authors": [
+        "Rabah Arezki",
+        "Adnan Mazarei",
+        "Prasad Ananthakrishnan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.182198,
+      "source": "International Monetary Fund",
+      "source_domain": "International Monetary Fund",
+      "summary": "The article discusses the impact of the oil price plunge on sovereign wealth funds (SWFs) in oil-exporting countries, noting a slowdown in asset growth and withdrawals from buffers. It explores both the global implications for asset markets, including potential lower global savings and higher interest rates, and the domestic challenges for oil-exporting governments, such as pressure to draw down SWF assets and the need for fiscal adjustments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.312182",
+          "ticker": "USO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019238"
+        },
+        {
+          "relevance_score": "0.732434",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.230969"
+        },
+        {
+          "relevance_score": "0.614536",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.214658"
+        },
+        {
+          "relevance_score": "0.645993",
+          "ticker": "APA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.219551"
+        },
+        {
+          "relevance_score": "0.648416",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.241258"
+        }
+      ],
+      "time_published": "20151026T094703",
+      "title": "Sovereign Wealth Funds in the New Era of Oil",
+      "topics": [
+        {
+          "relevance_score": "0.934607",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.842163",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.745611",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.718932",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.628742",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.imf.org/en/Blogs/Articles/2015/10/26/sovereign-wealth-funds-in-the-new-era-of-oil"
+    },
+    {
+      "authors": [
+        "Rhiannon Meyers and Robert Grattan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.338497,
+      "source": "Houston Chronicle",
+      "source_domain": "Houston Chronicle",
+      "summary": "Halliburton CEO Dave Lesar forecasts continued difficulties for the oilfield services sector, citing a lack of clarity from oil producers regarding 2016 spending plans. He expects the slump to potentially bottom out in the first quarter of next year, but only after further cuts by producers, leading to significant job losses at Halliburton and a revenue decline. The company is actively working to finalize its acquisition of Baker Hughes amidst the\u5e02\u573a downturn, aiming for $2 billion in synergies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HAL",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.651550"
+        },
+        {
+          "relevance_score": "0.832587",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.338238"
+        },
+        {
+          "relevance_score": "0.643884",
+          "ticker": "SLB",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.337827"
+        },
+        {
+          "relevance_score": "0.581032",
+          "ticker": "OXY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.215199"
+        },
+        {
+          "relevance_score": "0.551807",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245052"
+        }
+      ],
+      "time_published": "20151019T220000",
+      "title": "Halliburton CEO forecasts more woes",
+      "topics": [
+        {
+          "relevance_score": "0.909318",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.738715",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.812199",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.819605",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.917598",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.houstonchronicle.com/business/article/Services-exec-cites-uncertainty-in-customers-6578395.php"
+    },
+    {
+      "authors": [
+        "Antoine Gara"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.065465,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Freeport McMoRan is putting its controversial oil and gas assets up for sale following activist investor Carl Icahn's acquisition of an 8.5% stake in the company. This move comes almost three years after the copper miner diversified into energy with a $9 billion acquisition, which was widely criticized by investors and analysts. The company aims to improve its financial position and shareholder value, potentially through a public offering or a full sale of the energy division, and has also reconstituted its board of directors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FCX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.298926"
+        },
+        {
+          "relevance_score": "0.627946",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108268"
+        },
+        {
+          "relevance_score": "0.563307",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001783"
+        },
+        {
+          "relevance_score": "0.556625",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.031358"
+        }
+      ],
+      "time_published": "20151006T094300",
+      "title": "Freeport McMoRan Puts Controversial Oil And Gas Assets Up For Sale After Icahn Stake",
+      "topics": [
+        {
+          "relevance_score": "0.902175",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.838077",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.701956",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/antoinegara/2015/10/06/freeport-mcmoran-puts-controversial-oil-and-gas-assets-up-for-sale-after-icahn-stake/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.379004,
+      "source": "The Business Times",
+      "source_domain": "The Business Times",
+      "summary": "US stock markets closed the third quarter on a positive note, rallying on Wednesday due to speculation of more monetary stimulus, particularly from the European Central Bank. Despite strong gains on the last day, major indices like the Dow, S&P 500, and Nasdaq recorded significant losses for the quarter, marking the S&P 500's worst three-month period in four years. The market sentiment was influenced by concerns over China's economy, the US Federal Reserve's potential interest rate hike, and political concerns in Washington.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401469"
+        },
+        {
+          "relevance_score": "0.722562",
+          "ticker": "BIIB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333295"
+        },
+        {
+          "relevance_score": "0.622772",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349170"
+        },
+        {
+          "relevance_score": "0.826294",
+          "ticker": "RL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400601"
+        }
+      ],
+      "time_published": "20150930T230300",
+      "title": "US: Stocks end bruising quarter on up note",
+      "topics": [
+        {
+          "relevance_score": "0.944824",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.801690",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.742979",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.706994",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602516",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/us-stocks-end-bruising-quarter-note"
+    },
+    {
+      "authors": [
+        "Vicki Vaughan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.289739,
+      "source": "Houston Chronicle",
+      "source_domain": "Houston Chronicle",
+      "summary": "Valero Energy Corp., already the world's largest independent refiner, is actively seeking new acquisition opportunities to expand further, according to CEO Joe Gorder. The company is in a strong financial position with a robust balance sheet and low debt, enabling it to pursue deals despite a high market for refinery assets. This strategy follows Valero's historical pattern of growth through acquisitions, leveraging favorable market conditions like low crude oil prices and high gasoline demand.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VLO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.470576"
+        },
+        {
+          "relevance_score": "0.628894",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114763"
+        }
+      ],
+      "time_published": "20150909T221300",
+      "title": "Valero looking for deals",
+      "topics": [
+        {
+          "relevance_score": "0.912266",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.817521",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.711617",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.houstonchronicle.com/business/article/Valero-looking-for-deals-6494783.php"
+    },
+    {
+      "authors": [
+        "Kate Jeracki"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.022321,
+      "source": "Colorado State University",
+      "source_domain": "Colorado State University",
+      "summary": "A Colorado State University-led study, the largest of its kind, found that 0.47 percent of domestically produced methane is lost during natural gas gathering and processing operations, with gathering facilities accounting for 30 percent of total U.S. methane emissions. These emissions are equivalent to the annual natural gas consumption of 3.2 million U.S. homes and represent a potential revenue loss of $390 million. The research also highlighted opportunities to improve federal reporting programs for methane emissions, especially regarding gathering facilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314671",
+          "ticker": "UNG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.004122"
+        },
+        {
+          "relevance_score": "0.844624",
+          "ticker": "WMB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130349"
+        },
+        {
+          "relevance_score": "0.623622",
+          "ticker": "KMI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032640"
+        },
+        {
+          "relevance_score": "0.558854",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015380"
+        },
+        {
+          "relevance_score": "0.588166",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005515"
+        }
+      ],
+      "time_published": "20150818T094654",
+      "title": "Researchers measure methane lost in natural gas operations",
+      "topics": [
+        {
+          "relevance_score": "0.918115",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.736601",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://source.colostate.edu/researchers-measure-methane-lost-in-natural-gas-operations/"
+    },
+    {
+      "authors": [
+        "Holly Birkett"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.18879,
+      "source": "Splash247",
+      "source_domain": "Splash247",
+      "summary": "Chevron has timechartered one suezmax tanker from Tsakos Energy Navigation (TEN) for two years and renewed a contract for another for two years. The two tankers, Spyros K and Euro, were fixed at $34,000 per day, representing a 60% increase over the previous rate for the Euro.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.321632",
+          "ticker": "TEN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015032"
+        },
+        {
+          "relevance_score": "0.941295",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331329"
+        }
+      ],
+      "time_published": "20150814T094206",
+      "title": "Chevron takes two TEN suezmaxes on two-year timecharters",
+      "topics": [
+        {
+          "relevance_score": "0.941841",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://splash247.com/chevron-takes-two-ten-suezmaxes-on-two-year-timecharters/"
+    },
+    {
+      "authors": [
+        "Sure Dividend"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.216162,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "Billionaires Warren Buffett, Daniel Loeb, and T. Boone Pickens have all invested in Phillips 66 (PSX), prompting an investigation into whether the company is an undervalued bargain or a value trap. The article examines Phillips 66's business segments, including Refining, Midstream, Chemicals, and Marketing & Specialties, and their contributions to the company's adjusted earnings. At first glance, Phillips 66 appears undervalued with a low P/E multiple and an above-average dividend yield.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PSX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.258559"
+        },
+        {
+          "relevance_score": "0.647763",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106564"
+        }
+      ],
+      "time_published": "20150814T093800",
+      "title": "Are These 3 Billionaires Right About Phillips 66 (PSX)?",
+      "topics": [
+        {
+          "relevance_score": "0.821084",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.720722",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.941303",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.615168",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/are-these-3-billionaires-right-about-phillips-66-psx-365927/"
+    },
+    {
+      "authors": [
+        "Paul Fallon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.402137,
+      "source": "The Electronic Intifada",
+      "source_domain": "The Electronic Intifada",
+      "summary": "Israel is exploiting the ongoing chaos in Syria to accelerate its efforts to explore for oil and gas in the occupied Golan Heights through its company Afek, a subsidiary of Genie Oil and Gas. This controversial drilling is in violation of international law, which deems Israel's occupation and annexation of the Golan Heights as illegal. The article highlights concerns about potential environmental damage from fracking and the political implications of Israel's resource exploitation in a war-torn region, backed by influential investors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GNE",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.646937"
+        },
+        {
+          "relevance_score": "0.634993",
+          "ticker": "NWS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.413873"
+        },
+        {
+          "relevance_score": "0.626586",
+          "ticker": "NWSA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.409136"
+        },
+        {
+          "relevance_score": "0.640403",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.239139"
+        },
+        {
+          "relevance_score": "0.649553",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.203614"
+        }
+      ],
+      "time_published": "20150721T083719",
+      "title": "Israel exploits Syrian chaos to plan looting of Golan oil",
+      "topics": [
+        {
+          "relevance_score": "0.936200",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://electronicintifada.net/content/israel-exploits-syrian-chaos-plan-looting-golan-oil/14701"
+    },
+    {
+      "authors": [
+        "Chris Lange"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.267841,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Synchrony Financial reported strong second-quarter financial results, exceeding EPS estimates with $0.65 on $2.7 billion in revenue. The company demonstrated significant growth in loan receivables and deposits and announced new partnerships with Mattress Firm, Newegg, and Stash Hotel Rewards, extending an existing partnership with Chevron, and notably becoming one of the first issuers for private label credit cards in Apple Pay. Shares rose significantly following the announcement, reaching a new post-spin-off high.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422012"
+        },
+        {
+          "relevance_score": "0.729115",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241046"
+        },
+        {
+          "relevance_score": "0.733244",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345463"
+        },
+        {
+          "relevance_score": "0.624555",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147037"
+        }
+      ],
+      "time_published": "20150717T122500",
+      "title": "Synchrony Powers Through Earnings With New Partnerships",
+      "topics": [
+        {
+          "relevance_score": "0.917478",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.846966",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://247wallst.com/banking-finance/2015/07/17/synchrony-powers-through-earnings-with-new-partnerships/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.373929,
+      "source": "CSP Daily News",
+      "source_domain": "CSP Daily News",
+      "summary": "Chevron U.S.A. Inc. and Synchrony Financial launched a new Techron Advantage Fuel Credits Program, offering enhanced credit-card loyalty benefits for consumers. This multi-year extension allows cardholders to earn fuel credits on purchases at Chevron and Texaco stations, with additional benefits for Visa cardholders based on spending outside fuel merchants. The program aims to provide greater savings and rewards, leveraging the cleaning power of Techron.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442676"
+        },
+        {
+          "relevance_score": "0.933885",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332363"
+        },
+        {
+          "relevance_score": "0.611043",
+          "ticker": "V",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303414"
+        }
+      ],
+      "time_published": "20150701T093646",
+      "title": "Chevron Syncs Up With Synchrony Financial",
+      "topics": [
+        {
+          "relevance_score": "0.936495",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.846353",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.701936",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://cspdailynews.com/technologyservices/chevron-syncs-synchrony-financial"
+    },
+    {
+      "authors": [
+        "CBC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.106604,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "Imperial Oil and BP have indefinitely delayed their plans for exploratory drilling in the Beaufort Sea off the Northwest Territories, citing insufficient time to conduct technical work and complete the regulatory process. The companies had aimed to start drilling by 2020 but are now seeking an extension of their exploration licences until 2028 from Aboriginal Affairs and Northern Development Canada. This decision follows Chevron Canada's similar postponement of Arctic drilling plans, raising questions about a potential shift toward a \"post-petroleum world\" amidst growing climate change concerns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347591",
+          "ticker": "IMO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013818"
+        },
+        {
+          "relevance_score": "0.972858",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205571"
+        },
+        {
+          "relevance_score": "0.700631",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.133353"
+        },
+        {
+          "relevance_score": "0.644215",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.135824"
+        }
+      ],
+      "time_published": "20150626T132900",
+      "title": "Imperial Oil, BP delay Beaufort Sea drilling plans indefinitely",
+      "topics": [
+        {
+          "relevance_score": "0.912348",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.740101",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/canada/north/imperial-oil-bp-delay-beaufort-sea-drilling-plans-indefinitely-1.3129505"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.261877,
+      "source": "Bristow Group Inc.",
+      "source_domain": "Bristow Group Inc.",
+      "summary": "Bristow Group Inc. is celebrating its 60th anniversary, reflecting on its history from its founding by Alan Bristow in 1955 to becoming one of the world's largest civilian helicopter companies. The article highlights key milestones including its pioneering involvement in North Sea oil production, expansion into Africa and the U.S., establishment of civilian search and rescue services, and its unwavering commitment to safety through programs like Target Zero. Bristow continues to expand its global operations, providing diverse aviation services and maintaining a strong presence in offshore energy regions worldwide.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VTOL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439194"
+        },
+        {
+          "relevance_score": "0.616463",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245242"
+        },
+        {
+          "relevance_score": "0.606523",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245342"
+        },
+        {
+          "relevance_score": "0.591973",
+          "ticker": "HAL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232191"
+        },
+        {
+          "relevance_score": "0.588995",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236553"
+        }
+      ],
+      "time_published": "20150619T094724",
+      "title": "Happy Birthday Bristow! Celebrating 60 years of Innovation, Service and Safety",
+      "topics": [
+        {
+          "relevance_score": "0.922196",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.bristowgroup.com/news-media/articles/detail/7505/happy-birthday-bristow-celebrating-60-years-of-innovation"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.249816,
+      "source": "Bristow Group Inc.",
+      "source_domain": "Bristow Group Inc.",
+      "summary": "This article chronicles the history of Bristow Group's operations in Africa, beginning in 1960 with the acquisition of Fison-Airwork and its subsequent expansion in Nigeria's oil exploration sector. It details the challenges faced during the Biafran War, the company's growth in the Nigerian energy industry throughout the 1970s and 1980s, its training programs for Nigerian pilots and engineers, and its structure in the present day as of the article's publication. The piece highlights Bristow's ongoing commitment to the region, including its joint venture with local partners and its technical aviation maintenance services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VTOL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.451844"
+        },
+        {
+          "relevance_score": "0.640486",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244685"
+        },
+        {
+          "relevance_score": "0.646778",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207684"
+        },
+        {
+          "relevance_score": "0.619260",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230648"
+        },
+        {
+          "relevance_score": "0.574125",
+          "ticker": "HAL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.156010"
+        }
+      ],
+      "time_published": "20150602T094724",
+      "title": "Bristow\u2019s Africa Operation Began in 1960",
+      "topics": [
+        {
+          "relevance_score": "0.922876",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.707027",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bristowgroup.com/news-media/articles/detail/7509/bristows-africa-operation-began-in-1960"
+    },
+    {
+      "authors": [
+        "Terry Roberts"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.230486,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "A British Columbia company, Teekay Offshore Partners L.P., has been awarded a 15-year contract to shuttle crude oil from offshore fields near Newfoundland's east coast. This deal signifies a major shift in the region's offshore industry, as it marks the first time a company other than Canship Ugland Limited will provide this service. Teekay will serve existing oil platforms and the incoming Hebron field, establishing a significant presence in the Eastern Canadian offshore market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.348610",
+          "ticker": "TK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009635"
+        },
+        {
+          "relevance_score": "0.601441",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336706"
+        },
+        {
+          "relevance_score": "0.598151",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273711"
+        }
+      ],
+      "time_published": "20150602T083500",
+      "title": "New shuttle tanker contract changes landscape in Newfoundland's offshore",
+      "topics": [
+        {
+          "relevance_score": "0.933950",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.726165",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/canada/newfoundland-labrador/new-shuttle-tanker-contract-changes-landscape-in-newfoundland-s-offshore-1.3096559"
+    },
+    {
+      "authors": [
+        "Jenny Uechi"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.348834,
+      "source": "Canada's National Observer",
+      "source_domain": "Canada's National Observer",
+      "summary": "Plains All American L.P., the company responsible for a recent California oil spill, has a history of similar incidents in Alberta, including a 4.5 million-litre spill in Little Buffalo in 2011. The company, which is expanding operations in Canada, has an incident rate three times higher than the national average in the U.S. and has faced criticism for poor communication and inadequate safety measures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PAA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.746497"
+        },
+        {
+          "relevance_score": "0.626221",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149337"
+        },
+        {
+          "relevance_score": "0.627706",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118660"
+        }
+      ],
+      "time_published": "20150525T091642",
+      "title": "Pipeline company responsible for California oil spill has history of disasters in Alberta",
+      "topics": [
+        {
+          "relevance_score": "0.900547",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.nationalobserver.com/2015/05/25/news/pipeline-company-responsible-california-oil-spill-has-history-disasters-alberta"
+    },
+    {
+      "authors": [
+        "Damian Carrington and Harry Davies"
+      ],
+      "banner_image": "https://assets.guim.co.uk/img/media/e106c5890eafbf27c0065a25b293c66f51c72635/0_100_3000_1800/master/3000.jpg?width=1200&quality=85&auto=format&fit=max&s=213501726a457497d3910c2688001150",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.389288,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "A Guardian investigation reveals that the world's biggest fossil fuel companies like Shell, ExxonMobil, and Marathon Petroleum are receiving substantial subsidies from US taxpayers. These subsidies, totaling billions, were often granted by politicians who received significant campaign contributions from the fossil fuel industry, raising concerns amidst the global climate crisis. Presidential candidate Bernie Sanders criticized the practice as \"absurd\" and, along with Representative Keith Ellison, proposed legislation to cut $135bn in fossil fuel subsidies over the next decade.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MPC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.426202"
+        },
+        {
+          "relevance_score": "0.941886",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.438357"
+        },
+        {
+          "relevance_score": "0.609194",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.334471"
+        },
+        {
+          "relevance_score": "0.644006",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.327554"
+        }
+      ],
+      "time_published": "20150512T070000",
+      "title": "US taxpayers subsidising world's biggest fossil fuel companies",
+      "topics": [
+        {
+          "relevance_score": "0.933271",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.808042",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.theguardian.com/environment/2015/may/12/us-taxpayers-subsidising-worlds-biggest-fossil-fuel-companies"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.339511,
+      "source": "Bristow Group Inc.",
+      "source_domain": "Bristow Group Inc.",
+      "summary": "This article details the history of Bristow Group, Inc., tracing its origins back to Offshore Logistics, founded in 1969 to support the offshore oil industry in the U.S. It highlights the company's evolution from marine transport to helicopter services, its resilience through economic downturns, and its expansion into international markets. The narrative culminates in Offshore Logistics rebranding as Bristow Group in 2006, after acquiring a significant stake in Bristow Aviation Holdings Limited.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.970436",
+          "ticker": "VTOL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342166"
+        },
+        {
+          "relevance_score": "0.612320",
+          "ticker": "APA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310281"
+        },
+        {
+          "relevance_score": "0.626622",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323697"
+        },
+        {
+          "relevance_score": "0.624497",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305367"
+        },
+        {
+          "relevance_score": "0.588356",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333714"
+        }
+      ],
+      "time_published": "20150511T094724",
+      "title": "Bristow\u2019s Roots Run Deep in the U.S.",
+      "topics": [
+        {
+          "relevance_score": "0.906038",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.829049",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.bristowgroup.com/news-media/articles/detail/7510/bristows-roots-run-deep-in-the-u-s"
+    },
+    {
+      "authors": [
+        "Ryan Gray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.301301,
+      "source": "School Transportation News",
+      "source_domain": "School Transportation News",
+      "summary": "Collins Bus is expanding its alternative fuel offerings through new partnerships. The company has teamed up with Westport for factory-certified CNG systems across its vehicle lines and with CleanFUEL USA for propane autogas systems, promising full OEM warranties and improved quality control. These collaborations aim to meet growing customer demand for environmentally friendly vehicles with stable, lower fuel costs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.932029",
+          "ticker": "WPRT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438215"
+        },
+        {
+          "relevance_score": "0.736020",
+          "ticker": "F",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334317"
+        },
+        {
+          "relevance_score": "0.620509",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216937"
+        }
+      ],
+      "time_published": "20150424T095144",
+      "title": "Collins Bus Alternatives On Increase With Partnerships",
+      "topics": [
+        {
+          "relevance_score": "0.923601",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.743099",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.640397",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://stnonline.com/news/collins-bus-alternatives-increase-with-westport-cleanfuel-usa-partnerships/"
+    },
+    {
+      "authors": [
+        "Egypt Oil & Gas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.024171,
+      "source": "Egypt Oil & Gas",
+      "source_domain": "Egypt Oil & Gas",
+      "summary": "Halliburton Co. exceeded analyst first-quarter earnings estimates and ramped up job cuts in anticipation of its $34.6 billion acquisition of Baker Hughes Inc. The company reported a net loss of $643 million, or 76 cents a share, but adjusted earnings per share of 49 cents surpassed the 36-cent average estimate. Halliburton is reducing capital spending and selling assets to secure antitrust approval for the merger amidst a challenging oil market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.963326",
+          "ticker": "HAL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.254188"
+        },
+        {
+          "relevance_score": "0.828881",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118020"
+        },
+        {
+          "relevance_score": "0.697762",
+          "ticker": "SLB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115494"
+        },
+        {
+          "relevance_score": "0.577126",
+          "ticker": "APA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.152640"
+        },
+        {
+          "relevance_score": "0.548660",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128662"
+        }
+      ],
+      "time_published": "20150421T084150",
+      "title": "Oil Service Giant Halliburton Beats Earnings Estimates",
+      "topics": [
+        {
+          "relevance_score": "0.920044",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.825019",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.822161",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.734990",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.631939",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://egyptoil-gas.com/news/oil-service-giant-halliburton-beats-earnings-estimates/"
+    },
+    {
+      "authors": [
+        "Tie Shank"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.203893,
+      "source": "The Roundup Homepage",
+      "source_domain": "The Roundup Homepage",
+      "summary": "The article reviews ONEOK's significant activities in 2014, including the successful separation of its natural gas distribution business into ONE Gas, Inc., and the completion of several major capital-growth projects. It highlights ONEOK Partners' substantial investments in natural gas gathering, processing, and liquids infrastructure, especially in the Williston Basin, aiming to increase capacity and reduce natural gas flaring. The company has invested billions and has a significant backlog of unannounced growth projects to further expand its operations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.301194",
+          "ticker": "OGS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048934"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OKE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.470652"
+        },
+        {
+          "relevance_score": "0.649632",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.197823"
+        }
+      ],
+      "time_published": "20150121T091217",
+      "title": "ONEOK \u2013 A Year In Review",
+      "topics": [
+        {
+          "relevance_score": "0.814670",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.830489",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.roundupweb.com/story/2015/01/21/energy/oneok-a-year-in-review/5887.html"
+    },
+    {
+      "authors": [
+        "Phil Taylor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.141747,
+      "source": "E&E News by POLITICO",
+      "source_domain": "E&E News by POLITICO",
+      "summary": "The Ivanpah solar plant in the Mojave Desert is facing a public relations crisis due to a significant number of bird deaths caused by its intense solar flux. This issue poses a challenge for developer BrightSource Energy Inc., operator NRG Energy Inc., and the broader solar power tower industry, as killing most bird species is illegal under the Migratory Bird Treaty Act. While the plant is implementing various deterrents and monitoring efforts, the highly publicized deaths have raised concerns about the environmental impact of solar power tower technology and its future development.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NRG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.244654"
+        },
+        {
+          "relevance_score": "0.704207",
+          "ticker": "NEE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.208164"
+        },
+        {
+          "relevance_score": "0.616003",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107515"
+        },
+        {
+          "relevance_score": "0.617142",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011862"
+        },
+        {
+          "relevance_score": "0.630049",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003197"
+        }
+      ],
+      "time_published": "20150119T123900",
+      "title": "Bird deaths at Calif. power plant a PR nightmare for industry",
+      "topics": [
+        {
+          "relevance_score": "0.907918",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.eenews.net/articles/bird-deaths-at-calif-power-plant-a-pr-nightmare-for-industry/"
+    },
+    {
+      "authors": [
+        "Eric Haun"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.37074,
+      "source": "Marine News Magazine",
+      "source_domain": "Marine News Magazine",
+      "summary": "Oceaneering International, Inc. has secured a two-year charter agreement with Shell Offshore Inc. for the multiservice vessel Ocean Alliance to be used in the U.S. Gulf of Mexico. The vessel will primarily perform subsea inspection, maintenance, and repair (IMR) projects, as well as hardware installations for Shell's deepwater operations. Oceaneering may also provide additional project management, engineering, fabrication, and equipment services as needed.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OII",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.515975"
+        },
+        {
+          "relevance_score": "0.581561",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305380"
+        },
+        {
+          "relevance_score": "0.586182",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330733"
+        }
+      ],
+      "time_published": "20150114T091218",
+      "title": "Shell Charters Oceaneering Vessel For IMR",
+      "topics": [
+        {
+          "relevance_score": "0.937364",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.728883",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marinelink.com/news/oceaneering-charters383928"
+    },
+    {
+      "authors": [
+        "Todd Shriber"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.096513,
+      "source": "ETF Trends",
+      "source_domain": "ETF Trends",
+      "summary": "This article discusses the potential for a rebound in energy ETFs despite recent sector woes, highlighting the Energy Select Sector SPDR (XLE) and its exposure to Exxon Mobil and Chevron. It also contrasts XLE with the Guggenheim S&P Equal Weight Energy ETF (RYE), noting differences in their holdings, expense ratios, and bid/ask spreads. S&P Capital IQ recommends marketweight exposure to the energy sector, favoring XLE due to its dividend yield and lower costs compared to RYE.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "USO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.446305"
+        },
+        {
+          "relevance_score": "0.740831",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337452"
+        },
+        {
+          "relevance_score": "0.744768",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318321"
+        }
+      ],
+      "time_published": "20150112T094703",
+      "title": "Positioning for an Energy ETF Rebound",
+      "topics": [
+        {
+          "relevance_score": "0.916687",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.821767",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.etftrends.com/2015/01/positioning-for-an-energy-etf-rebound/amp/"
+    },
+    {
+      "authors": [
+        "Slim Smith"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.06526,
+      "source": "The Commercial Dispatch",
+      "source_domain": "The Commercial Dispatch",
+      "summary": "Steel Dynamics Vice President Chris Graham reassures that the Columbus facility is not threatened by the recent drop in oil prices, despite its connection to the oil industry through the production of rolled steel for tubes and pipes. Graham emphasized the company's diverse product market and its ability to adapt production, stating they are well-positioned regardless of market shifts. He also noted the company's track record of avoiding layoffs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.978775",
+          "ticker": "STLD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.091799"
+        },
+        {
+          "relevance_score": "0.648877",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127231"
+        },
+        {
+          "relevance_score": "0.729516",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.238420"
+        },
+        {
+          "relevance_score": "0.736922",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.247604"
+        },
+        {
+          "relevance_score": "0.642726",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112647"
+        }
+      ],
+      "time_published": "20150110T093638",
+      "title": "Steel Dynamics VP: Plant not threatened by oil price drop",
+      "topics": [
+        {
+          "relevance_score": "0.929908",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.811074",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.700352",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://cdispatch.com/news/steel-dynamics-vp-plant-not-threatened-by-oil-price-drop/"
+    }
+  ],
+  "items": "31",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

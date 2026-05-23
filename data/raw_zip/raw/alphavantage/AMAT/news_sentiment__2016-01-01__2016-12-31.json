@@ -1,0 +1,1507 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "J\u00e9r\u00f4me Fleury"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.250277,
+      "source": "The Cloudflare Blog",
+      "source_domain": "The Cloudflare Blog",
+      "summary": "This article discusses the inherent unreliability of the Internet due to constant changes and failures, and how Cloudflare addresses this challenge. It details their approach to building a more resilient network by actively monitoring Internet quality, detecting brownouts, and implementing automated mitigation mechanisms. Through continuous improvement and real-time adjustments, Cloudflare aims to provide a more reliable service by minimizing the impact of external network events on their customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NET",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.470711"
+        },
+        {
+          "relevance_score": "0.646564",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244978"
+        },
+        {
+          "relevance_score": "0.572712",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107215"
+        }
+      ],
+      "time_published": "20161108T070619",
+      "title": "The Internet is Hostile: Building a More Resilient Network",
+      "topics": [
+        {
+          "relevance_score": "0.913523",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blog.cloudflare.com/the-internet-is-hostile-building-a-more-resilient-network/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.199138,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Broadcom is reportedly nearing a deal to acquire network gear maker Brocade Communications, with an announcement possibly coming this week. Broadcom, known for frequent acquisitions in the semiconductor industry, plans to retain Brocade's fiber channel and storage business, valued at $1.5 billion in annual revenue, while divesting its networking business. This potential acquisition follows other major consolidations in the semiconductor sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.454351"
+        },
+        {
+          "relevance_score": "0.730709",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123316"
+        },
+        {
+          "relevance_score": "0.632377",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116709"
+        },
+        {
+          "relevance_score": "0.563220",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138462"
+        }
+      ],
+      "time_published": "20161101T055715",
+      "title": "Broadcom Nears Big Acquisition",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.827731",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://fortune.com/2016/11/01/broadcom-nears-big-acquisition/"
+    },
+    {
+      "authors": [
+        "Aaron Pressman"
+      ],
+      "banner_image": "https://content.fortune.com/wp-content/uploads/2014/05/applied-materials-inc.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.190968,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "The Obama administration is forming a working group of U.S. semiconductor industry executives to address China's significant government-backed efforts to boost its chip manufacturing. This move comes as the U.S. seeks to maintain its competitiveness in the semiconductor industry, facing challenges from increased manufacturing costs and the slowing pace of Moore's Law. The administration suggests that additional public and private investments in R&D may be necessary to sustain innovation and economic benefits.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289129"
+        },
+        {
+          "relevance_score": "0.737198",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146924"
+        },
+        {
+          "relevance_score": "0.576156",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228349"
+        },
+        {
+          "relevance_score": "0.571518",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211470"
+        }
+      ],
+      "time_published": "20161101T055224",
+      "title": "Why U.S. Computer Chip Makers May Need Government Help",
+      "topics": [
+        {
+          "relevance_score": "0.909020",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.834199",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.743565",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://fortune.com/2016/11/01/chipmakers-amd-qualcomm/"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.222299,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The market for Gallium Nitride (GaN) based power semiconductors is gaining momentum after several false starts. While silicon-based devices remain cheaper, GaN's superior speed and breakdown voltages are driving adoption in power supplies, and are expected to expand into electric vehicles, fast-charging adapters, and wireless charging. Key players like EPC, GaN Systems, Infineon, Panasonic, and Transphorm are shipping devices, while others like Dialog, NXP, On Semiconductor, and TI are in development, despite challenges in manufacturing cost and technology acceptance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.703198",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148586"
+        },
+        {
+          "relevance_score": "0.617055",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343241"
+        },
+        {
+          "relevance_score": "0.624528",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272869"
+        },
+        {
+          "relevance_score": "0.723938",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.218316"
+        }
+      ],
+      "time_published": "20161024T071159",
+      "title": "GaN Power Semi Biz Heats Up",
+      "topics": [
+        {
+          "relevance_score": "0.824271",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/gan-power-semi-biz-heats-up/"
+    },
+    {
+      "authors": [
+        "Don Clark and Ezequiel Minaya"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.442642,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Lam Research and KLA-Tencor have cancelled their $10.6 billion merger due to antitrust concerns raised by the U.S. Justice Department. The department expressed serious concerns that the deal would harm competition in the semiconductor-equipment market. This mutual decision came nearly a year after the merger was first announced.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.330533",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.039790"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.635359"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.631459"
+        }
+      ],
+      "time_published": "20161005T201200",
+      "title": "Lam Research, KLA-Tencor Call Off Merger on Antitrust Concerns",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.903007",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.742115",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/lam-research-kla-tenor-call-off-merger-on-antitrust-concerns-1475707330?gaa_at=eafs&gaa_n=AWEtsqfTJxOClmaAQOXmjxABKo0Un5yG3D2kZPq0HC6khdTgnaxenBr4EHKm&gaa_ts=69084645&gaa_sig=gJ45FqloOfkew-QIvgwTCNtXacoyKs-xe8IWPVS51ASTyd2mXMo-VwoL78MmC6u6eIrwwZXrP5xb5Banfcvj0Q%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.marketbeat.com/logos/thumbnail/invesco-dynamic-semiconductors-etf-logo.jpg?v=20210824092023",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.417377,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "This article provides an overview of the Invesco Semiconductors ETF (PSI), detailing its price, holdings, and news. It outlines the ETF's objective to track the Dynamic Semiconductors Intellidex Index, focusing on 30 US semiconductor companies. The article also provides key statistics, expense ratios, and recent news headlines related to the ETF and its sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PSI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421550"
+        },
+        {
+          "relevance_score": "0.710499",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428187"
+        },
+        {
+          "relevance_score": "0.668717",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422136"
+        },
+        {
+          "relevance_score": "0.632942",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.383905"
+        },
+        {
+          "relevance_score": "0.647987",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.391925"
+        }
+      ],
+      "time_published": "20160822T154011",
+      "title": "Invesco Semiconductors ETF ETF Price, Holdings, & News (NYSEARCA:PSI) $PSI",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.915307",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.613806",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/NYSEARCA/PSI/"
+    },
+    {
+      "authors": [
+        "Jennifer Elias"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.352089,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Applied Materials reported record earnings per share and new orders for the third quarter, ending July 31. The semiconductor tools giant is optimistic about the potential for Apple to use new organic light-emitting diode (OLED) display screens, for which Applied Materials produces manufacturing tools.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.452584"
+        },
+        {
+          "relevance_score": "0.702359",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329903"
+        },
+        {
+          "relevance_score": "0.584827",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309306"
+        }
+      ],
+      "time_published": "20160819T055224",
+      "title": "Applied Materials reports record earnings",
+      "topics": [
+        {
+          "relevance_score": "0.911706",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.840565",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/austin/news/2016/08/19/applied-materials-reports-record-earnings.html"
+    },
+    {
+      "authors": [
+        "Robbie Whelan in Stockholm and Esther Fung in Suzhou",
+        "China"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.211639,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Chinese factories are increasingly relying on robots to maintain their competitive advantage as the traditional strength of cheap labor diminishes. Rising wages and cultural shifts are driving this automation push, with a projected demand for 150,000 robots by 2018. Companies like Suzhou Victory Precision Manufacture Co. are investing in robotic workers to adapt to the changing economic landscape.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334124",
+          "ticker": "LAWR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.023504"
+        },
+        {
+          "relevance_score": "0.600247",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343783"
+        },
+        {
+          "relevance_score": "0.643325",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221221"
+        },
+        {
+          "relevance_score": "0.585504",
+          "ticker": "ROK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.294737"
+        }
+      ],
+      "time_published": "20160816T065205",
+      "title": "China\u2019s Factories Count on Robots as Workforce Shrinks",
+      "topics": [
+        {
+          "relevance_score": "0.931404",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.724926",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.634451",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/chinas-factories-count-on-robots-as-workforce-shrinks-1471339805?gaa_at=eafs&gaa_n=AWEtsqcp82NCxZvVc_li6KDx_XgS25sOsYTXfz197OjcrS8KOBWmoBE2rnlc&gaa_ts=69085448&gaa_sig=l4B-eKk9iDN489yPJrIwgIhpsJODl8YXm2AW6b0vBtIyvig-6xzH4FVIQA-GJss4DFZG-btq7ZMFw1o9Z1s8gg%3D%3D"
+    },
+    {
+      "authors": [
+        "Stephen Law"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.123204,
+      "source": "Electronic Products & Technology",
+      "source_domain": "Electronic Products & Technology",
+      "summary": "The global power semiconductor market experienced a 2.6% decline in revenue in 2015, totaling $34 billion, primarily due to macroeconomic factors. Infineon Technologies overtook Texas Instruments as the market leader, partly due to strategic acquisitions like International Rectifier and LS Power Semitech. Several other significant acquisitions also reshaped the market landscape during the year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.325680",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.047691"
+        },
+        {
+          "relevance_score": "0.802787",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.216879"
+        },
+        {
+          "relevance_score": "0.644964",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.114608"
+        },
+        {
+          "relevance_score": "0.624049",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104026"
+        },
+        {
+          "relevance_score": "0.637975",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139252"
+        }
+      ],
+      "time_published": "20160815T071200",
+      "title": "Power semi market revenues declined in 2015",
+      "topics": [
+        {
+          "relevance_score": "0.926304",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.902027",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.743338",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.833362",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.615079",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ept.ca/2016/08/power-semi-market-revenues-declined-2015/"
+    },
+    {
+      "authors": [
+        "Dave Lammers"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.222897,
+      "source": "GlobalFoundries",
+      "source_domain": "GlobalFoundries",
+      "summary": "As traditional geometric scaling becomes more difficult, packaging innovations are taking center stage in the semiconductor industry, with GLOBALFOUNDRIES leading the way in multi-chip integration and advanced packaging technologies. Dave McCann, VP of packaging R&D at GF, highlights the increasing demand from customers to integrate multiple chips in one package, utilize advanced solutions like 2.5D design with silicon interposers, and explore new materials like glass substrates for RF and IoT applications. The article also discusses wafer-level fan-out technology and GF's collaborative model with OSATs to deliver cost-effective and high-performance packaging solutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.329853",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.038041"
+        },
+        {
+          "relevance_score": "0.711608",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327941"
+        },
+        {
+          "relevance_score": "0.693029",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297540"
+        },
+        {
+          "relevance_score": "0.606181",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213654"
+        },
+        {
+          "relevance_score": "0.576783",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.181763"
+        }
+      ],
+      "time_published": "20160811T063700",
+      "title": "Packaging Takes Center Spot on Innovation Stage",
+      "topics": [
+        {
+          "relevance_score": "0.933200",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://gf.com/blog/packaging-takes-center-spot-innovation-stage/"
+    },
+    {
+      "authors": [
+        "Gina Roos"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.189643,
+      "source": "EE Times",
+      "source_domain": "EE Times",
+      "summary": "Analog Devices (ADI) announced its acquisition of Linear Technology for $14.8 billion, a move expected to create a formidable competitor in the analog semiconductor industry with combined annual revenues of about $5 billion. This acquisition will expand ADI's market share in high-growth segments like automotive and industrial, leveraging Linear Tech's complementary high-performance analog product portfolio. Analysts anticipate this consolidation will lead to further acquisitions in the semiconductor sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.440517"
+        },
+        {
+          "relevance_score": "0.638720",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135965"
+        },
+        {
+          "relevance_score": "0.648670",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106869"
+        },
+        {
+          "relevance_score": "0.608979",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125497"
+        }
+      ],
+      "time_published": "20160728T055150",
+      "title": "Analog Devices to Buy Linear Tech for $14.8B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.923926",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.703605",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.eetimes.com/analog-devices-buy-linear-tech-14-8b/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.541036,
+      "source": "Santa Clara University",
+      "source_domain": "Santa Clara University",
+      "summary": "Judy Bruner, an MBA '86 alumna of Santa Clara University's Leavey School of Business, has been appointed to the Board of Directors and Audit Committee for Applied Materials, Inc. Bruner brings extensive experience as a chief financial officer in the global high-tech industry, having previously served as EVP and CFO for SanDisk and Palm, Inc. Her deep financial management background is seen as a valuable asset to Applied Materials' board.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.538647"
+        }
+      ],
+      "time_published": "20160725T055224",
+      "title": "Alumna Judy Bruner Joins Applied Materials, Inc. - Newsmakers - Leavey School of Business - SCU",
+      "topics": [
+        {
+          "relevance_score": "0.822044",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.scu.edu/business/news/newsmakers/alumna-judy-bruner-joins-applied-materials-inc-.html"
+    },
+    {
+      "authors": [
+        "David Schnaufer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.318597,
+      "source": "RF Globalnet",
+      "source_domain": "RF Globalnet",
+      "summary": "The telecommunications industry is actively pursuing energy efficiency to reduce both operating expenses and greenhouse gas emissions, aligning with global initiatives from the U.S., EU, and China. While historical focus was on mobile device battery life, the sector is now broadly addressing network power consumption, particularly in base stations where 80% of energy usage occurs. Solutions like adaptive radio network designs, small cell deployments, and advanced macro base station architectures are being implemented to achieve a \"greener\" future with lower CO2 emissions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QRVO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432580"
+        },
+        {
+          "relevance_score": "0.735146",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316545"
+        },
+        {
+          "relevance_score": "0.645955",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211838"
+        },
+        {
+          "relevance_score": "0.636591",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244771"
+        }
+      ],
+      "time_published": "20160720T072116",
+      "title": "Energy Efficiency In The Telecommunications Network",
+      "topics": [
+        {
+          "relevance_score": "0.944559",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.819332",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.rfglobalnet.com/doc/energy-efficiency-in-the-telecommunications-network-0001"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.337022,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Entegris, Inc. is celebrating its 50th year in business, tracing its roots back to the 1966 founding of Fluoroware. The company has grown significantly through mergers and acquisitions, becoming a leading global specialty chemical company for the microelectronics industry with $1 billion in annual revenue and 3,500 employees. Entegris attributes its success to innovation, teamwork, and dedication, highlighted by numerous technology \"firsts\" and market-leading products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ENTG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.465672"
+        },
+        {
+          "relevance_score": "0.617744",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227662"
+        }
+      ],
+      "time_published": "20160712T130000",
+      "title": "Entegris Celebrates 50 Years in Business",
+      "topics": [
+        {
+          "relevance_score": "0.830600",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.722726",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.646745",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2016/07/12/855432/8633/en/Entegris-Celebrates-50-Years-in-Business.html"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://www.globenewswire.com/NewsRoom/AttachmentNg/970bc6aa-df95-4f6c-9715-594d20960713",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.7202,
+      "source": "Applied Materials",
+      "source_domain": "Applied Materials",
+      "summary": "Applied Materials announced its new PROVision\u2122 e-beam inspection system, offering 1nm resolution and up to 3x faster throughput, critical for advanced semiconductor manufacturing. This system is gaining rapid customer acceptance and is essential for detecting challenging defects and improving yields in \u226410nm multiple patterning, FinFET, DRAM, and 3D NAND devices. It integrates over 20 years of expertise and is expanding beyond R&D into production environments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.735568"
+        }
+      ],
+      "time_published": "20160711T073000",
+      "title": "Applied Materials\u2019 Next-Generation E-Beam Inspection System Provides Industry\u2019s Highest Resolution",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.812176",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-next-generation-e-beam-inspection-system/"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.217919,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The wafer inspection market is experiencing significant changes as chipmakers face challenges in detecting tiny defects at advanced nodes like 10nm and beyond. Both e-beam and optical inspection technologies are evolving, with e-beam aiming for a larger role in production and optical striving to extend its capabilities. Major industry players like ASML, Applied Materials, and KLA-Tencor are making strategic moves and introducing new tools to address these complex defect detection issues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.994516",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283548"
+        },
+        {
+          "relevance_score": "0.817789",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.218534"
+        },
+        {
+          "relevance_score": "0.655653",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128946"
+        }
+      ],
+      "time_published": "20160711T055224",
+      "title": "E-beam Vs. Optical Inspection",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.938622",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.830265",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://semiengineering.com/e-beam-vs-optical-inspection/"
+    },
+    {
+      "authors": [
+        "Lisa Wang"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.201791,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "Hermes Microvision Inc (HMI) accepted a NT$100 billion (US$3.09 billion) buyout offer from ASML Holding NV, aiming to jointly develop advanced inspection technologies for smaller chips and address challenges in sub-10 nanometer dimensions. The acquisition will make HMI a wholly-owned subsidiary of ASML, boost HMI's e-beam business, and enable it to compete better with rivals. The deal marks the second-largest acquisition in Taiwan this year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.491507"
+        },
+        {
+          "relevance_score": "0.600050",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126584"
+        },
+        {
+          "relevance_score": "0.701811",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117516"
+        },
+        {
+          "relevance_score": "0.613227",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133694"
+        },
+        {
+          "relevance_score": "0.623781",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122133"
+        }
+      ],
+      "time_published": "20160617T055704",
+      "title": "HMI agrees to NT$100m buyout bid from ASML",
+      "topics": [
+        {
+          "relevance_score": "0.933620",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830727",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/front/archives/2016/06/17/2003648801"
+    },
+    {
+      "authors": [
+        "University of Texas at Dallas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.256254,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "Researchers at the University of Texas at Dallas have developed an affordable electronic nose using CMOS integrated circuits that can analyze breath for health diagnoses. This technology aims to overcome the bulkiness and cost of existing breath analysis devices, potentially enabling widespread use in industrial settings, doctors' offices, and eventually homes. The electronic nose utilizes rotational spectroscopy to detect chemical compounds in breath with greater specificity than current methods like Breathalyzers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926100",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309479"
+        },
+        {
+          "relevance_score": "0.627002",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249503"
+        },
+        {
+          "relevance_score": "0.629455",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201223"
+        },
+        {
+          "relevance_score": "0.632157",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231738"
+        },
+        {
+          "relevance_score": "0.612608",
+          "ticker": "SNPS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200185"
+        }
+      ],
+      "time_published": "20160616T074135",
+      "title": "Electronic nose using CMOS integrated circuits analyzes breath",
+      "topics": [
+        {
+          "relevance_score": "0.847850",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.712738",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://phys.org/news/2016-06-scientific-gains-electronic-nose-everyday.html"
+    },
+    {
+      "authors": [
+        "David Z. Morris"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.208236,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Raytheon has been developing gallium nitride (GaN) since 1999, a material that could potentially replace silicon in future computer chips. GaN-based chips offer advantages in terms of size, speed, efficiency, and durability, posing a solution to the limits of Moore's Law. While GaN is already used in military radar, solar energy, smart grid, and wireless applications, Raytheon is currently focused on defense applications and has not yet moved to commercial semiconductor manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.745081",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132698"
+        },
+        {
+          "relevance_score": "0.946034",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326824"
+        },
+        {
+          "relevance_score": "0.551867",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.179886"
+        },
+        {
+          "relevance_score": "0.570237",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.185691"
+        }
+      ],
+      "time_published": "20160611T055224",
+      "title": "Raytheon\u2019s New Material Could Oust Silicon in the Next Generation of Chips",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747489",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://fortune.com/2016/06/11/raytheon-next-gen-chips/"
+    },
+    {
+      "authors": [
+        "Dominic Adams"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.244423,
+      "source": "MLive.com",
+      "source_domain": "MLive.com",
+      "summary": "Mark Bassett has been named the new chairman and CEO of Hemlock Semiconductor Corp. following a restructuring of Dow and Corning Inc. He previously served as global vice president of Dow Chemical Co.'s polyurethanes business. This leadership change occurs as Dow Chemical Co. assumes full ownership of Dow Corning's silicones business, with Dow and Dow Corning maintaining equal proportional equity interests in Hemlock Semiconductor.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DOW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.257837"
+        },
+        {
+          "relevance_score": "0.899837",
+          "ticker": "GLW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244936"
+        },
+        {
+          "relevance_score": "0.638973",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338425"
+        },
+        {
+          "relevance_score": "0.561274",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122297"
+        }
+      ],
+      "time_published": "20160601T143400",
+      "title": "Hemlock Semiconductor gets new leader in Dow Corning restructuring",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.834530",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.737330",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.mlive.com/news/flint/2016/06/hemlock_semiconductor_gets_new.html"
+    },
+    {
+      "authors": [
+        "Dan Gallagher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.230134,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Applied Materials' stock has surged by 17% following its fiscal second-quarter report, which revealed a significant increase in new orders for display panel production equipment. This rise is attributed to rumors that future iPhone models may incorporate OLED displays, which would boost demand for Applied Materials\u2019 manufacturing tools. The company's stock is approaching a 10-year high, up 25% for the year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.967151",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335886"
+        },
+        {
+          "relevance_score": "0.716381",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146490"
+        }
+      ],
+      "time_published": "20160524T055224",
+      "title": "Applied Materials: Dialed In to the iPhone Rumor Mill",
+      "topics": [
+        {
+          "relevance_score": "0.920524",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.807373",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.702921",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/applied-materials-dialed-in-to-the-iphone-rumor-mill-1464111835?gaa_at=eafs&gaa_n=AWEtsqd5W49XOrwNQhp4DipB3MuMLEQNiTdTkuppqRtV6QgK5HTC4ZAvd9yi&gaa_ts=69084645&gaa_sig=4s7EoNEd7t_8zPxeNhxy-yUclln1BsvuoU3QW398cXdAPYnR-kEHKc5k1us1qgKJ4tl_ukS7f_xZTQMBmdTxTg%3D%3D"
+    },
+    {
+      "authors": [
+        "Lisa Beilfuss"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.428587,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Applied Materials Inc. announced that new orders reached a 15-year high in its latest quarter, leading the semiconductor manufacturing toolmaker to project a significant business rebound later in the year. The company's second-quarter earnings and fiscal third-quarter projections both surpassed expectations, driven by strong demand from China and increased spending on memory chips and display production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445660"
+        }
+      ],
+      "time_published": "20160519T055224",
+      "title": "Applied Materials Issues Upbeat Guidance as New Orders Surge",
+      "topics": [
+        {
+          "relevance_score": "0.904975",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.808577",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602208",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.648602",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/applied-materials-issues-upbeat-guidance-as-new-orders-surge-1463691309?gaa_at=eafs&gaa_n=AWEtsqd665VB9Nt-G6GHcTCxc2hBu96dvVaIYVj3CHKYz-yO9IrHJUUMdESl&gaa_ts=69084642&gaa_sig=fPkHG59xfxioCAAEWJUh2zAb92XfhwLljTmHMznpxjzD0NUdjfeuXj68Xj_AbGEhlZiWszvQhMWGoUhqbkUyEw%3D%3D"
+    },
+    {
+      "authors": [
+        "Reuters",
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.294219,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Applied Materials (AMAT) forecast a higher-than-expected third-quarter profit due to strong demand for chips used in smartphones and solid-state drives, causing shares to rise 7.6% after hours. The company expects significant growth in its display business for OLED screens and strong demand for 3D NAND memory chips, leading to an anticipated record earnings in fiscal 2016. This strong outlook is seen as a positive indicator for the overall chip industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496110"
+        },
+        {
+          "relevance_score": "0.614591",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123153"
+        }
+      ],
+      "time_published": "20160519T055224",
+      "title": "Applied Materials Shares Soar 8% On Strong Forecast",
+      "topics": [
+        {
+          "relevance_score": "0.945327",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.823522",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://fortune.com/2016/05/19/applied-materials-earnings-forecast/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/FD05/production/_89555136_2ce294ae-3ca3-48b4-938b-d779bd4fd6e9.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.13707,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "Samsung and Nvidia have settled a two-year patent dispute involving claims of infringement from both sides, just hours before a critical ruling could have banned Nvidia's imports into the US. The settlement includes the licensing of a small number of patents between the companies but no broad cross-licensing or other compensation. The case initially stemmed from Nvidia's accusation that Samsung was using its graphics technology without permission, followed by Samsung's counter-suit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122136"
+        },
+        {
+          "relevance_score": "0.616791",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130756"
+        }
+      ],
+      "time_published": "20160503T070644",
+      "title": "Samsung and Nvidia resolve patent clash",
+      "topics": [
+        {
+          "relevance_score": "0.941074",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bbc.com/news/technology-36192999"
+    },
+    {
+      "authors": [
+        "Chris Lange"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.000869,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Short interest data for semiconductor stocks as of April 15 showed mixed trends. While some companies like Intel and Broadcom saw slight increases in short interest, others such as AMD, Qualcomm, and Micron experienced decreases. The report highlights individual company figures, 52-week trading ranges, and changes in short interest compared to previous periods for several major semiconductor firms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.229780"
+        },
+        {
+          "relevance_score": "0.943435",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.021991"
+        },
+        {
+          "relevance_score": "0.737988",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221952"
+        },
+        {
+          "relevance_score": "0.622430",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008591"
+        }
+      ],
+      "time_published": "20160427T082500",
+      "title": "Short Interest on Major Semiconductors Remains Mixed",
+      "topics": [
+        {
+          "relevance_score": "0.941624",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.828819",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://247wallst.com/technology-3/2016/04/27/short-interest-on-major-semiconductors-remains-mixed/"
+    },
+    {
+      "authors": [
+        "Don Clark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.350104,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Enovix Corp. is addressing mobile device battery life complaints by using manufacturing techniques borrowed from computer chip and solar cell makers, rather than focusing on chemistry changes. The Silicon Valley startup aims to produce batteries for wearables and other mobile applications with at least double the capacity of current products. The company is backed by Intel and Qualcomm.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ENVX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.530555"
+        },
+        {
+          "relevance_score": "0.709374",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325440"
+        },
+        {
+          "relevance_score": "0.702300",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306078"
+        },
+        {
+          "relevance_score": "0.606501",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301710"
+        },
+        {
+          "relevance_score": "0.606249",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339263"
+        }
+      ],
+      "time_published": "20160406T062159",
+      "title": "Enovix Tries to Build a Better Battery With Chipmaking Techniques",
+      "topics": [
+        {
+          "relevance_score": "0.905540",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.704707",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.648784",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/enovix-tries-to-build-a-better-battery-with-chipmaking-techniques-1459978546?gaa_at=eafs&gaa_n=AWEtsqdgvYdngUDZbkKhvvdT9kBXJzQ_XramcJXxr59JK4kLx6TA9_MyRCXE&gaa_ts=69084d53&gaa_sig=X_qNy2XXdQptNdQwaP6wFGRXWIpojYgM-To7qAhoDmgzxoqiqtaBMSj4GPoeq6luFH8GjWsbV36-kTir9A7qBw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.324413,
+      "source": "Renesas Electronics",
+      "source_domain": "Renesas Electronics",
+      "summary": "Integrated Device Technology, Inc. (IDT) announced that its memory interface components (4RCD0124K register, 4DB0226KA3 data buffer, and TSE2004 temperature sensor) have been qualified by industry leaders for DDR4 DIMM applications on Intel Xeon processor E5-2600 v4 family-based systems. This qualification highlights IDT's leadership in optimizing DDR4 performance, latency, and power, enabling significant performance gains for various demanding applications. The chipset, compliant with JEDEC specifications, facilitates up to 3 TB of memory capacity and achieves top memory bandwidth on fully populated systems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.899995",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337535"
+        },
+        {
+          "relevance_score": "0.955125",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402058"
+        },
+        {
+          "relevance_score": "0.815345",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306920"
+        },
+        {
+          "relevance_score": "0.939635",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411016"
+        },
+        {
+          "relevance_score": "0.617802",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209861"
+        }
+      ],
+      "time_published": "20160405T070155",
+      "title": "IDT Memory Interface Devices Qualified for DDR4 Enterprise DIMMs on Intel Xeon Processor E5-2600 v4 Product Family-Based Systems",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.renesas.com/en/about/newsroom/idt-memory-interface-devices-qualified-ddr4-enterprise-dimms-intel-xeon-processor-e5-2600-v4-product"
+    },
+    {
+      "authors": [
+        "John Kennedy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.605658,
+      "source": "Silicon Republic",
+      "source_domain": "Silicon Republic",
+      "summary": "Irish engineers have been granted nearly 20% of the total US patents held by chip giant Analog Devices, marking a significant contribution as the company celebrates 40 years in Limerick. Analog Devices' European R&D centre and global manufacturing facility in Limerick employs over 1,200 people in Ireland and has invested 20% of its $3bn annual revenue back into R&D. The company attributes its success in Ireland to access to third-level institutions, a strong graduate talent pool, and the Irish State's open approach to business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.745596"
+        },
+        {
+          "relevance_score": "0.620625",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.512880"
+        }
+      ],
+      "time_published": "20160329T055150",
+      "title": "Irish engineers win 20pc of US patents held by Analog Devices",
+      "topics": [
+        {
+          "relevance_score": "0.849150",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.907620",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.629683",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.siliconrepublic.com/innovation/analog-devices-ireland-cork-limerick-patents-40th-anniversary"
+    },
+    {
+      "authors": [
+        "Isaac Oburu"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.4994,
+      "source": "Display Daily",
+      "source_domain": "Display Daily",
+      "summary": "Dr. Robert Visser of Applied Materials has received a 2016 Special Recognition Award from the Society of Information Display for his pioneering research and commercialization of new display technologies, particularly related to OLEDs, LCD materials, and barrier films. His work has been crucial in enabling flexible and high-resolution OLED displays and developing innovative encapsulation technologies. Dr. Visser's extensive career also includes significant contributions at Vitex Systems and Philips Research, where he led the launch of one of the first OLED displays on the market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.473784"
+        }
+      ],
+      "time_published": "20160225T055224",
+      "title": "Applied Materials\u2019 Robert Visser Honored by Society of Information Display",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.708719",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://displaydaily.com/applied-materials-robert-visser-honored-by-society-of-information-display/"
+    },
+    {
+      "authors": [
+        "Helen Chen",
+        "Vineet Gupta",
+        "Mark Patel",
+        "Maggie Stringfellow"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.229398,
+      "source": "McKinsey & Company",
+      "source_domain": "McKinsey & Company",
+      "summary": "The semiconductor industry is experiencing an increase in M&A activity driven by slowing revenues and a customer preference for integrated solutions. Despite this trend, semiconductor companies are less likely to engage in M&A compared to other high-tech sectors due to misconceptions about high price premiums, value creation, and execution difficulty. However, analysis suggests that M&A often creates significant value, can be accretive quickly, and that market rewards for acquisitions of dissimilar companies are possible if a disciplined approach is followed.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.318676",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042083"
+        },
+        {
+          "relevance_score": "0.624316",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256543"
+        },
+        {
+          "relevance_score": "0.638528",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255823"
+        },
+        {
+          "relevance_score": "0.609348",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.284050"
+        },
+        {
+          "relevance_score": "0.646120",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255263"
+        }
+      ],
+      "time_published": "20160219T071159",
+      "title": "Winning through M&A? Deal making in the semiconductor sector",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.840584",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.610023",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.mckinsey.com/industries/semiconductors/our-insights/winning-through-m-and-a-deal-making-in-the-semiconductor-sector"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.257665,
+      "source": "samsung.com",
+      "source_domain": "samsung.com",
+      "summary": "Samsung Electronics has begun mass production of its 2nd generation 14nm LPP (Low-Power Plus) FinFET process technology, following its first generation 14nm LPE process launched in Q1 2015. This advanced technology offers up to 15 percent higher speed and 15 percent less power consumption compared to the previous generation, benefiting processors like the Exynos 8 Octa and Qualcomm's Snapdragon 820. Samsung aims to maintain its technology leadership by offering derivative processes of this 14nm FinFET technology, which is optimized for mobile and IoT applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.868229",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345687"
+        },
+        {
+          "relevance_score": "0.635570",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237972"
+        }
+      ],
+      "time_published": "20160114T071649",
+      "title": "Samsung Announces Mass Production of 2nd Generation 14-Nanometer FinFET Logic Process Technology",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.916632",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://news.samsung.com/global/samsung-announces-mass-production-of-2nd-generation-14-nanometer-finfet-logic-process-technology"
+    }
+  ],
+  "items": "31",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,28 @@
+# File: configs/data_contracts.example.yaml
+# Status: COMMENT-ONLY CONFIG SCAFFOLD - NOT ACTIVE CONFIG
+# Governing docs: ProjectDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; docs/Implementation_Decisions.md; docs/Data_Separation_And_Overfitting_Control.md
+#
+# Purpose:
+# - Future configuration family for raw, interim, final, prediction, and artifact data contracts.
+#
+# Planned config sections, comments only:
+# - row_contracts:
+#   Meaning: future row-key fields, timestamp fields, ticker fields, and uniqueness requirements.
+#   Planned keys: ticker_field, prediction_date_field, row_key_fields, feature_availability_timestamp, label_window_start, label_window_end, split_role_field, fold_id_field, lockbox_flag_field, uniqueness_policy.
+#   Expected types: string, list, enum.
+#   Default policy: explicit row-key policy required.
+#   Validation: row equality, duplicate checks, split-role exclusivity, and lockbox membership checks before downstream use.
+#   Benchmark impact: row-key drift can invalidate model comparisons.
+# - artifact_schemas:
+#   Meaning: future required fields for dataset, feature, label, split, preprocessing, prediction, metric, diagnostic, and manifest artifacts.
+#   Planned keys: required_fields, nullable_fields, schema_version, validation_severity.
+#   Expected types: mapping, list, string, enum.
+#   Default policy: schema versions must be explicit.
+#   Validation: missing fields block relevant stages; saved predictions must include row keys, fold IDs, horizon IDs, model IDs, and dataset version.
+#   Benchmark impact: schema changes can affect comparability and artifact reuse.
+#
+# Protected values:
+# - Target family, horizons, provider stack, universe, alignment, and evaluation protocol must match approved scope unless explicit approval changes them.
+#
+# Limitations:
+# - This file is not active until real keys are approved and implemented.

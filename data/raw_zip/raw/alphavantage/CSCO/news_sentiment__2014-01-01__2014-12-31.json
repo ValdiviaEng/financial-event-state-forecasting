@@ -1,0 +1,2334 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Richard Suttmeier"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.194828,
+      "source": "TheStreet",
+      "source_domain": "TheStreet",
+      "summary": "The Technology Select Sector SPDR Fund (XLK) has outperformed other major indices year-to-date, with Cisco, Intel, and Microsoft significantly contributing to its gains. In contrast, IBM has underperformed the ETF, showing a year-to-date loss. This article provides a performance breakdown and technical analysis for these individual tech giants and the overall ETF.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.309555",
+          "ticker": "DIA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035147"
+        },
+        {
+          "relevance_score": "0.883751",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331806"
+        },
+        {
+          "relevance_score": "0.880055",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.344676"
+        },
+        {
+          "relevance_score": "0.827538",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421982"
+        },
+        {
+          "relevance_score": "0.792667",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410674"
+        }
+      ],
+      "time_published": "20141229T121700",
+      "title": "How Cisco, Intel, Microsoft Outperform This Tech Sector ETF \u2014 but IBM Is a Drag",
+      "topics": [
+        {
+          "relevance_score": "0.946317",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.827663",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.thestreet.com/opinion/how-cisco-intel-microsoft-outperform-this-tech-sector-etf-but-ibm-is-a-drag-12995756"
+    },
+    {
+      "authors": [
+        "Kim Young-won"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.06636,
+      "source": "The Korea Herald",
+      "source_domain": "The Korea Herald",
+      "summary": "Hwang Chang-gyu, CEO of KT Corp., Korea's largest telecommunications firm, has been appointed to the Broadband Commission for Digital Development, a United Nations organization focused on promoting high-speed wireless technology worldwide. This appointment follows his recent induction as a board member of the GSMA, a global mobile operator representative body. Hwang is recognized for his leadership in innovation and will contribute his expertise to the commission's efforts to develop digital infrastructure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.317574",
+          "ticker": "KT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016301"
+        },
+        {
+          "relevance_score": "0.587149",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105208"
+        }
+      ],
+      "time_published": "20141218T210246",
+      "title": "KT CEO joins U.N. commission for wireless network",
+      "topics": [
+        {
+          "relevance_score": "0.850535",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.610391",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.koreaherald.com/article/3631646"
+    },
+    {
+      "authors": [
+        "Check Point Research Team"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.193872,
+      "source": "Check Point Blog",
+      "source_domain": "Check Point Blog",
+      "summary": "Check Point Research Group uncovered a critical vulnerability dubbed \"Misfortune Cookie\" (CVE-2014-9222) affecting millions of residential gateway devices. This flaw allows attackers to remotely take over routers with administrative privileges by manipulating HTTP cookies. The vulnerability, present in the RomPager web server software, significantly increases the risk of compromise for all connected devices on an affected network.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CHKP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424983"
+        },
+        {
+          "relevance_score": "0.647729",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139131"
+        }
+      ],
+      "time_published": "20141218T101713",
+      "title": "Misfortune Cookie: The Hole in Your Internet Gateway",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blog.checkpoint.com/security/misfortune-cookie-the-hole-in-your-internet-gateway-3/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.289354,
+      "source": "TTTECH",
+      "source_domain": "TTTECH",
+      "summary": "TTTech hosted a cross-industry discussion panel at the Internet of Things (IoT) World Forum in Chicago, bringing together leaders from Audi, BMW, Cisco, Rockwell Automation, and Vestas to discuss \"Deterministic Ethernet \u2013 Connecting Autonomous Driving to Industrial IoT.\" Panelists highlighted the benefits of Deterministic Ethernet for safety-critical systems in automotive, industrial IoT, and renewable energy sectors, emphasizing its role in enabling high-bandwidth, real-time data, and scalability. TTTech also launched an Industrial IoT product portfolio designed to facilitate wider adoption of standard-based Deterministic Ethernet.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.930473",
+          "ticker": "ROK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301938"
+        },
+        {
+          "relevance_score": "0.729476",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.268570"
+        }
+      ],
+      "time_published": "20141216T112637",
+      "title": "Industry Leaders Discuss Deterministic Ethernet",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.909729",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.718305",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.tttech.com/press/industry-leaders-discuss-deterministic-ethernet"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.415379,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco celebrates 20 years of operations in Thailand, highlighting its significant role in digitizing the economy and transforming the country through IT solutions. The company has contributed to building internet infrastructure, developing ICT skills via its Networking Academy, and aligning with Thailand's vision for a \"Digital Economy\" and the \"Internet of Everything.\" Cisco's history, rooted in connecting disparate networks, reflects its ongoing commitment to innovation and collaboration in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427954"
+        }
+      ],
+      "time_published": "20141127T102206",
+      "title": "Cisco Celebrates 20 years of Connecting Thailand and Digitizing the Economy",
+      "topics": [
+        {
+          "relevance_score": "0.846704",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2014/m11/cisco-celebrates-20-years-of-connecting-thailand-and-digitizing-the-economy.html"
+    },
+    {
+      "authors": [
+        "Ryan Sharrow"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.146335,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "The article provides more details about Cisco's lease for its Sourcefire subsidiary in Maple Lawn, Howard County. Sourcefire will occupy nearly 100,000 square feet in a new building developed by St. John Properties. This comes after the Business Journal's initial report on the tech giant's real estate move.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131386"
+        }
+      ],
+      "time_published": "20141126T114100",
+      "title": "More details about Cisco's big Sourcefire lease in Maple Lawn",
+      "topics": [
+        {
+          "relevance_score": "0.913619",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.843811",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/baltimore/news/2014/11/26/more-details-about-ciscos-big-sourcefire-lease-in.html"
+    },
+    {
+      "authors": [
+        "Gabey Goh"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.136884,
+      "source": "Digital News Asia",
+      "source_domain": "Digital News Asia",
+      "summary": "Cisco Systems is investing $1 billion to build Intercloud, a network of clouds designed for the Internet of Everything, aiming to address the fragmented and proprietary nature of the current cloud landscape. The initiative focuses on customer and partner-driven interoperability, security, and compliance, ultimately envisioning an \"uber marketplace\" for Intercloud-compatible software and leveraging data from connected devices to optimize business processes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308264"
+        },
+        {
+          "relevance_score": "0.611088",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140421"
+        }
+      ],
+      "time_published": "20141120T102207",
+      "title": "From networking to the cloud: Cisco\u2019s Intercloud story",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.727863",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.digitalnewsasia.com/enterprise/from-networking-to-the-cloud-cisco-intercloud-story"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.443655,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco and Vattanac Properties Limited are collaborating to establish the first 'connected' building in Cambodia, Vattanac Capital, using Cisco technology solutions. This landmark development aims to transform Phnom Penh's skyline and drive economic growth by offering networked real estate. The building provides secure internet access, unified communications, and contact center solutions, making it a benchmark for future developments in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406479"
+        }
+      ],
+      "time_published": "20141120T102206",
+      "title": "Cisco and Vattanac Pioneer the First \u2018Connected\u2019 Building in Cambodia",
+      "topics": [
+        {
+          "relevance_score": "0.915496",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.841729",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2014/m11/cisco-and-vattanac-pioneer-the-first-connected-building-in-cambodia.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.219125,
+      "source": "Times of Malta",
+      "source_domain": "Times of Malta",
+      "summary": "PTL International, led by CEO Kenneth Spiteri, has strategically expanded through acquisitions like Polish Apple reseller SAD (\u20ac40 million) and e-commerce platform Apco (\u20ac8.8 million), increasing its headcount to 400. The company is issuing \u20ac36 million in unsecured bonds to refinance these acquisitions and plans future growth through synergies and further strategic acquisitions in retail, business enterprise solutions, and e-commerce. Despite technology risks, particularly with the Apple brand for SAD, PTL views Poland as a high-growth market for both Apple retail and e-commerce.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340731",
+          "ticker": "PTLE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.027972"
+        },
+        {
+          "relevance_score": "0.939775",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.385431"
+        },
+        {
+          "relevance_score": "0.621428",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.206508"
+        },
+        {
+          "relevance_score": "0.627776",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.187013"
+        }
+      ],
+      "time_published": "20141119T112213",
+      "title": "An Apple a day. . . keeps investors happy",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.820352",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747886",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.638131",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://timesofmalta.com/article/An-Apple-a-day-keeps-investors-happy.544911"
+    },
+    {
+      "authors": [
+        "Anshul Dhamija"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.382895,
+      "source": "Times of India",
+      "source_domain": "Times of India",
+      "summary": "This article highlights how companies are integrating fitness into their employees' daily routines to enhance work-life balance and improve overall well-being. It showcases examples from Wipro, Cisco, and Infosys, detailing their initiatives such as running clubs, onsite gyms, nutricionists, and comprehensive wellness programs. The piece emphasizes the benefits for employees, including reduced stress and increased productivity, and notes how these programs are becoming crucial for talent attraction and retention.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WIT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403301"
+        },
+        {
+          "relevance_score": "0.855012",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315016"
+        }
+      ],
+      "time_published": "20141116T035500",
+      "title": "Companies enhance work-life balance by including fitness in their employees' daily routines",
+      "topics": [
+        {
+          "relevance_score": "0.739613",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.627354",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.831315",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://timesofindia.indiatimes.com/business/india-business/companies-enhance-work-life-balance-by-including-fitness-in-their-employees-daily-routines/articleshow/45163284.cms"
+    },
+    {
+      "authors": [
+        "JP Mangalindan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.146699,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Jonathan Kaplan, founder of the successful Flip camera, is now focusing on his restaurant chain, The Melt, specializing in gourmet grilled cheese. He plans to expand the menu to include cheeseburgers, chicken melts, and french fries, aiming to broaden his customer base and make healthier American staples accessible. Kaplan aims for The Melt to go mainstream, similar to how his Flip cameras popularized video recording, by offering all-natural products and expanding locations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.835761",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102390"
+        },
+        {
+          "relevance_score": "0.642823",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101944"
+        }
+      ],
+      "time_published": "20141112T102206",
+      "title": "Flip camera founder\u2019s next act: cheeseburgers?",
+      "topics": [
+        {
+          "relevance_score": "0.835765",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.702094",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://fortune.com/2014/11/12/flip-camera-founders-next-act-cheeseburgers/"
+    },
+    {
+      "authors": [
+        "Thomas McCafferty"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.394531,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "Cisco has again been named a leader in Gartner's 2014 Magic Quadrant for Corporate Telephony, marking 12 consecutive years of recognition. The article highlights Cisco's historical milestones in IP telephony, its current portfolio including H.264 SVC support and cloud options, and its continuous innovation in collaboration solutions. It emphasizes the enduring importance of telephony in business communications despite evolving technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.923196",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321296"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.449705"
+        }
+      ],
+      "time_published": "20141110T105136",
+      "title": "Another Milestone: Gartner Names Cisco a Leader in Telephony",
+      "topics": [
+        {
+          "relevance_score": "0.918122",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/collaboration/another-milestone-gartner-names-cisco-a-leader-in-telephony"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.163947,
+      "source": "University of Michigan",
+      "source_domain": "University of Michigan",
+      "summary": "Dr. Scott Hanson was awarded the 2014 Arbor Networks Ph.D. Research Impact Award for his work translating research into technology with significant commercial and societal impact. As co-founder, CTO, and VP of Engineering at Ambiq Micro, Hanson utilized his University of Michigan research to lead the low-power revolution in electronics, powering the Internet of Things with their innovative SPOT\u2122 technology. This technology enables ultra-low voltage semiconductor products, creating the world's lowest-power chips and significantly extending the charge life of small electronics.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMBQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421067"
+        },
+        {
+          "relevance_score": "0.606526",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116395"
+        },
+        {
+          "relevance_score": "0.607450",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125786"
+        },
+        {
+          "relevance_score": "0.642276",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115223"
+        },
+        {
+          "relevance_score": "0.645859",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144805"
+        }
+      ],
+      "time_published": "20141029T100059",
+      "title": "Scott Hanson receives 2014 Arbor Networks Ph.D. Research Impact Award",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ece.engin.umich.edu/stories/scott-hanson-receives-2014-arbor-networks-ph-d-research-impact-award"
+    },
+    {
+      "authors": [
+        "Gillian Livingston"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.186208,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "The \"CEO x 1 Day\" program, created by Odgers Berndtson, allows Canadian university students to shadow top CEOs to develop leadership skills and gain insight into the role. Participants like Kaiz Alarakyia found the experience inspiring and beneficial for their career aspirations and networking. The program also benefits CEOs by offering insights into the next generation's expectations and helping attract talent.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.913738",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309131"
+        },
+        {
+          "relevance_score": "0.608106",
+          "ticker": "LULU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148654"
+        },
+        {
+          "relevance_score": "0.593968",
+          "ticker": "AON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125299"
+        }
+      ],
+      "time_published": "20141024T102207",
+      "title": "What could you learn from a top CEO?",
+      "topics": [
+        {
+          "relevance_score": "0.821744",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.611641",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/careers/career-advice/what-could-you-learn-from-a-top-ceo/article21293433/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.312475,
+      "source": "macau daily times \u6fb3\u9580\u6bcf\u65e5\u6642\u5831",
+      "source_domain": "macau daily times \u6fb3\u9580\u6bcf\u65e5\u6642\u5831",
+      "summary": "Edward Tracy of Sands China Ltd. and Steve Wynn of Wynn Resorts Ltd. have been named among the top 100 best-performing CEOs globally by Harvard Business Review. Tracy, who previously worked with Donald Trump, was recognized for his impressive accomplishments in Macau despite little prior experience in the China market, while Wynn was acknowledged for revitalizing the Las Vegas Strip and developing several properties. The ranking considers metrics such as industry-adjusted shareholder returns, country-adjusted shareholder returns, and market capitalization growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WYNN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.433288"
+        },
+        {
+          "relevance_score": "0.729288",
+          "ticker": "LVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337697"
+        },
+        {
+          "relevance_score": "0.608125",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.254018"
+        },
+        {
+          "relevance_score": "0.598422",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235079"
+        },
+        {
+          "relevance_score": "0.565535",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241082"
+        }
+      ],
+      "time_published": "20141016T115557",
+      "title": "Edward Tracy and Steve Wynn among best performing CEOs",
+      "topics": [
+        {
+          "relevance_score": "0.814070",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.723549",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.602031",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://macaudailytimes.com.mo/edward-tracy-steve-wynn-among-best-performing-ceos.html"
+    },
+    {
+      "authors": [
+        "Prof. Dr. Amarendra Bhushan Dhiraj",
+        "Ph.D.",
+        "DBA"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.332462,
+      "source": "CEOWORLD magazine",
+      "source_domain": "CEOWORLD magazine",
+      "summary": "This article highlights that only two women, Debra Cafaro of Ventas and Carol Meyrowitz of TJX Companies, made it onto Harvard Business Review's \"100 most effective CEOs in the world\" list in 2014, placing 27th and 51st respectively. It notes the significant shareholder returns delivered by both CEOs and contrasts this with the male-dominated top 20 list, led by Jeff Bezos. The article also mentions HBR's methodology, which focuses on concrete shareholder returns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VTR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428666"
+        },
+        {
+          "relevance_score": "0.816926",
+          "ticker": "TJX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262655"
+        },
+        {
+          "relevance_score": "0.729634",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318494"
+        },
+        {
+          "relevance_score": "0.628426",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317901"
+        },
+        {
+          "relevance_score": "0.600610",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307095"
+        }
+      ],
+      "time_published": "20141016T115141",
+      "title": "Only 2 women made it onto the list of 100 best-performing CEOs of 2014: Debra Cafaro and Carol Meyrowitz",
+      "topics": [
+        {
+          "relevance_score": "0.823877",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.610237",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.616366",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.737543",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.636413",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ceoworld.biz/2014/10/16/2-women-made-onto-list-100-best-performing-ceos-2014-debra-cafaro-carol-meyrowitz/"
+    },
+    {
+      "authors": [
+        "Arik Hesseldahl"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305746,
+      "source": "www.vox.com",
+      "source_domain": "www.vox.com",
+      "summary": "This article features an interview with Keith Block, Salesforce's president and vice-chairman, about a year after he joined the company. Block discusses his mandate to help Salesforce achieve its $20 billion revenue goal, his strategies for customer success and innovation, and his views on the competitive landscape, including rivals like SAP. He emphasizes a willingness to take risks and challenge established norms within Salesforce to ensure continued growth and customer satisfaction.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.540891"
+        },
+        {
+          "relevance_score": "0.740338",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117723"
+        },
+        {
+          "relevance_score": "0.591238",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238702"
+        }
+      ],
+      "time_published": "20141014T200100",
+      "title": "How Keith Block, Marc Benioff\u2019s Number Two, Is Shaking Up Salesforce (Q&A)",
+      "topics": [
+        {
+          "relevance_score": "0.906166",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.vox.com/2014/10/14/11631862/how-keith-block-marc-benioffs-number-two-is-shaking-up-salesforce-qa"
+    },
+    {
+      "authors": [
+        "Don Clark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.204598,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Hewlett-Packard Co.'s decision to split itself into two companies underscores the significant disruption occurring in the tech industry. Traditional giants like H-P, Intel, Cisco, and Oracle are struggling to adapt to the shift towards mobile devices and cloud computing, which has slowed their growth compared to their earlier success. The move by H-P highlights the challenges faced by pioneers who haven't been able to fully capitalize on these new technological trends.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245686"
+        },
+        {
+          "relevance_score": "0.937903",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245113"
+        },
+        {
+          "relevance_score": "0.747110",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.212224"
+        },
+        {
+          "relevance_score": "0.615216",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222247"
+        },
+        {
+          "relevance_score": "0.643334",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.209686"
+        }
+      ],
+      "time_published": "20141006T104633",
+      "title": "Hewlett-Packard Move Highlights the Disruption in Tech",
+      "topics": [
+        {
+          "relevance_score": "0.849134",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/hewlett-packard-move-highlights-the-disruption-in-tech-1412639249?gaa_at=eafs&gaa_n=AWEtsqd5afa1uadWhUSpM7Paw44YR5TufAXrWjw_TwbJryX0KTGIvo5k56uo&gaa_ts=69088b58&gaa_sig=WbHZT6thnkbMwC5Qzaram1F6ZPPZ1ZCFjbiazZLNa7h36H77VZza_MFdrV9eUK3NjwTmAZNLNbnQEVxJ6QaEKQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Don Clark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.003803,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Marc Benioff, CEO of Salesforce.com Inc., will step down from Cisco Systems' board of directors in November. He has chosen not to stand for re-election at Cisco's annual meeting on November 20th. Benioff's decision was communicated to Cisco and its board on Monday.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003542"
+        },
+        {
+          "relevance_score": "0.626804",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.037368"
+        }
+      ],
+      "time_published": "20140912T102206",
+      "title": "Marc Benioff Steps Down from Board at Cisco Systems",
+      "topics": [
+        {
+          "relevance_score": "0.821700",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/marc-benioff-steps-down-from-cisco-systems-board-1410558567?gaa_at=eafs&gaa_n=AWEtsqeq26ywA78KeKs8KIsh0CzZB6kfPQJOe5JxCV6P-dNQGtN4r6lkitaC&gaa_ts=69088550&gaa_sig=oAn9_o-zx0PQma5YEPxalaAB5kjsrZpYE6I8WOfkIuqJaf4knXqtQ0v-uVTLKc6Scbl9bib7qGITVA4QG9mj_g%3D%3D"
+    },
+    {
+      "authors": [
+        "MassisPost"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.274982,
+      "source": "MassisPost",
+      "source_domain": "MassisPost",
+      "summary": "Mario Mazzola, Chief Development Officer at Cisco Systems Corporation, is set to receive the Armenian President's annual IT Award on November 11 in Yerevan. He will be the fifth recipient of this prestigious award, which recognizes individuals for their global contributions to information technologies. The award aims to showcase Armenia's competitive advantages and establish recipients as ambassadors for the country.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414517"
+        },
+        {
+          "relevance_score": "0.644806",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227898"
+        },
+        {
+          "relevance_score": "0.602844",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236627"
+        },
+        {
+          "relevance_score": "0.640294",
+          "ticker": "SNPS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238790"
+        }
+      ],
+      "time_published": "20140910T102206",
+      "title": "Cisco Systems Chief Development Officer Mario Mazzola to Receive Armenian President\u2019s 2014 IT Award",
+      "topics": [
+        {
+          "relevance_score": "0.843994",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://massispost.com/2014/09/cisco-systems-chief-development-officer-mario-mazzola-to-receive-armenian-presidents-2014-it-award/"
+    },
+    {
+      "authors": [
+        "David Ramel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.153986,
+      "source": "Virtualization Review",
+      "source_domain": "Virtualization Review",
+      "summary": "Cisco and Red Hat have announced an expanded partnership focused on the OpenStack cloud platform, Cisco's Application Centric Infrastructure (ACI), and the \"Intercloud\" initiative. This move comes as Cisco faces pressure from customers and analysts to offer more open, interoperable, and software-centric solutions. The collaboration aims to combine Cisco's infrastructure with Red Hat's open-source expertise, addressing criticisms regarding Cisco's traditional proprietary networking model.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.979292",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267775"
+        },
+        {
+          "relevance_score": "0.623916",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135663"
+        },
+        {
+          "relevance_score": "0.595377",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.072710"
+        },
+        {
+          "relevance_score": "0.551960",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.060336"
+        }
+      ],
+      "time_published": "20140905T132700",
+      "title": "Cisco, Under Siege, Makes OpenStack Cloud Move with Red Hat",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.744926",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://virtualizationreview.com/blogs/the-schwartz-cloud-report/2014/09/cisco-partners-with-red-hat.aspx"
+    },
+    {
+      "authors": [
+        "Erik Sherman"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.120418,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "JPMorgan Chase experienced a series of cyberattacks despite spending $250 million on cybersecurity and employing over 1,000 people in related efforts. The article highlights the ongoing challenges companies face in cybersecurity, citing the continuously evolving threats, the high cost of maintenance, and human error as contributing factors to successful breaches. It questions why such significant investment often fails to prevent data losses and successful attacks in the corporate sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.988047",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.293588"
+        },
+        {
+          "relevance_score": "0.629107",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010593"
+        },
+        {
+          "relevance_score": "0.597519",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106433"
+        }
+      ],
+      "time_published": "20140828T154200",
+      "title": "Why $250M didn't protect JPMorgan from hackers",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.841921",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/why-250m-didnt-protect-jp-morgan-from-hackers/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.179121,
+      "source": "www.embedded.com",
+      "source_domain": "www.embedded.com",
+      "summary": "Curtiss-Wright Corporation has introduced the Parvus DuraWORX 10-10, a SWaP-optimized subsystem that combines Intel Core i7-based processing and a Cisco 5915 network router in a single unit. This COTS modular platform is designed for optimal performance in harsh environments and simplifies the integration of tactical computing, IP networking, and situational awareness applications. The DuraWORX 10-10 is scalable and expandable, targeting mobile, airborne, and ground vehicle applications at the tactical network edge.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.333448",
+          "ticker": "CW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040475"
+        },
+        {
+          "relevance_score": "0.812035",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273309"
+        },
+        {
+          "relevance_score": "0.733011",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.288629"
+        }
+      ],
+      "time_published": "20140819T102221",
+      "title": "Curtiss-Wright's DuraWORX 10-10 combines Intel Core i7-based processing and a Cisco 5915 in single system",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.645495",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.embedded.com/curtiss-wrights-duraworx-10-10-combines-intel-core-i7-based-processing-and-a-cisco-5915-in-single-system/"
+    },
+    {
+      "authors": [
+        "Nicole Perlroth"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.129003,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Community Health Systems, a major hospital operator, announced that a Chinese cyberattack compromised the personal data of 4.5 million patients, including names, Social Security numbers, and addresses. The company stated that no credit-card, medical, or clinical information was stolen and that it is providing identity theft protection to affected individuals. This incident highlights growing concerns about the security of digitized medical records.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CYH",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.546668"
+        },
+        {
+          "relevance_score": "0.630231",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149078"
+        },
+        {
+          "relevance_score": "0.583140",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.072322"
+        }
+      ],
+      "time_published": "20140818T153900",
+      "title": "Hack of Community Health Systems Affects 4.5 Million Patients",
+      "topics": [
+        {
+          "relevance_score": "0.848426",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.748381",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.646463",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://archive.nytimes.com/bits.blogs.nytimes.com/2014/08/18/hack-of-community-health-systems-affects-4-5-million-patients/"
+    },
+    {
+      "authors": [
+        "Jon C. Ogg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.238679,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Cisco Systems reported its Q4 2014 earnings, exceeding revenue and adjusted EPS estimates but showing a decline in gross margin. The company announced guidance for the next quarter that disappointed investors and revealed plans to cut 6,000 jobs, leading to a share price drop in after-hours trading. Despite these challenges, Cisco's CEO highlighted the company's focus on growth areas and strong financials, along with substantial share repurchase programs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.234759"
+        }
+      ],
+      "time_published": "20140813T162100",
+      "title": "Cisco Tries to Please, But Guidance, Margin, Layoffs Rule (Updated)",
+      "topics": [
+        {
+          "relevance_score": "0.922856",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.825119",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.718782",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.636932",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://247wallst.com/technology-3/2014/08/13/cisco-slides-past-earnings-estimates-as-gross-margin-keeps-shrinking/"
+    },
+    {
+      "authors": [
+        "Nigel Gambanga"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288645,
+      "source": "Techzim",
+      "source_domain": "Techzim",
+      "summary": "Cisco has introduced a new Industrial Networking Specialist certification aimed at IT and Operational Technology professionals working with IoT in industries like manufacturing, process control, and oil and gas. This certification, developed in partnership with Rockwell Foundation, seeks to standardize skills and infrastructure for the rising Internet of Things segment. The move highlights Cisco's strong endorsement of IoT's future role in IT and aims to address the need for skills alignment in a converging world.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.844897",
+          "ticker": "ROK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333556"
+        },
+        {
+          "relevance_score": "0.903935",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.281110"
+        }
+      ],
+      "time_published": "20140810T112638",
+      "title": "Cisco introduces IoT certification",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709014",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.623407",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.techzim.co.zw/2014/08/cisco-introduces-iot-certification/"
+    },
+    {
+      "authors": [
+        "Tom Arbuthnot"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.195724,
+      "source": "tomtalks.blog",
+      "source_domain": "tomtalks.blog",
+      "summary": "Gartner has released its annual Magic Quadrant for Unified Communications, placing Microsoft in the \"top right\" leaders quadrant, surpassing Cisco. The report, accessible via Microsoft's analyst site, highlights UC's ability to improve interaction and performance, outlining key characteristics like user experience, mobility, interoperability, cloud/hybrid solutions, and broad appeal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.920467",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339940"
+        },
+        {
+          "relevance_score": "0.854036",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441646"
+        },
+        {
+          "relevance_score": "0.774995",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.201702"
+        }
+      ],
+      "time_published": "20140808T105136",
+      "title": "Microsoft move ahead of Cisco in Gartner Magic Quadrant for UC \u2013 link to full report",
+      "topics": [
+        {
+          "relevance_score": "0.917702",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://tomtalks.blog/microsoft-move-ahead-of-cisco-in-gartner-magic-quadrant-for-uc-link-to-full-report/"
+    },
+    {
+      "authors": [
+        "Eva Dou"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.082802,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Chinese server maker Inspur is gaining market share from U.S. competitors like IBM in China, capitalizing on concerns stemming from Edward Snowden's revelations about NSA activities. Beijing's push to replace U.S. computer equipment with domestic hardware is fueling Inspur's rise. The company aims to become a top provider of big-ticket computer servers in China by directly referencing Snowden in its strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.943628",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331687"
+        },
+        {
+          "relevance_score": "0.716384",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249420"
+        },
+        {
+          "relevance_score": "0.719617",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.201274"
+        }
+      ],
+      "time_published": "20140729T104649",
+      "title": "NSA Concerns Give Chinese Server Maker Inspur a Boost",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/nsa-concerns-give-chinese-server-maker-inspur-a-boost-1406653858?gaa_at=eafs&gaa_n=AWEtsqfTdRfJSnz-nMMpz5s2ibJSEJoyJIWze3wbq1TeHWwBl20o5cfZzgqM&gaa_ts=69088b6d&gaa_sig=by6Fxj_0NY88XN3axSkuKIKXD2ILTnTB7Q6BRn60D6PpDFJYywkTy4x-LyZ2PUbJAiJKOBQK373TD_awd3fL_g%3D%3D"
+    },
+    {
+      "authors": [
+        "Doug Atkinson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.055858,
+      "source": "solutionsreview.com",
+      "source_domain": "solutionsreview.com",
+      "summary": "The 2014 Gartner Magic Quadrant for Wired and Wireless LAN Infrastructure saw Cisco, Aruba, and HP further solidify their leadership positions, while Dell, Huawei, and D-Link dropped into the \"Niche-Players\" quadrant. The report highlighted an increased focus on mid-market needs, applications, and unified access layer management. Xirrus emerged as a visionary, moving from a niche player, with Fortinet and Netgear notably absent from the report due to criteria changes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146321"
+        },
+        {
+          "relevance_score": "0.833636",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311009"
+        },
+        {
+          "relevance_score": "0.701459",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002787"
+        },
+        {
+          "relevance_score": "0.631062",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.334649"
+        },
+        {
+          "relevance_score": "0.605661",
+          "ticker": "FTNT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.338465"
+        }
+      ],
+      "time_published": "20140723T105136",
+      "title": "Gartner 2014 Wireless Magic Quadrant: Winners and Losers of the Gartner Culling",
+      "topics": [
+        {
+          "relevance_score": "0.837417",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://solutionsreview.com/wireless-network/gartner-2014-wireless-magic-quadrant-winners-and-losers-of-the-gartner-culling/"
+    },
+    {
+      "authors": [
+        "John Dix"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288374,
+      "source": "Network World",
+      "source_domain": "Network World",
+      "summary": "NetApp CEO Tom Georgens discusses the company's cloud strategy, emphasizing its goal to be the enterprise data-management standard across hybrid cloud environments. He explains how NetApp aims to provide seamless data management for customers using both on-premise and cloud infrastructure, often partnering with cloud providers to achieve this. Georgens also touches upon private clouds, big data, and the challenges and opportunities facing CIOs in navigating evolving industry technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.495646"
+        },
+        {
+          "relevance_score": "0.621818",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337041"
+        },
+        {
+          "relevance_score": "0.704398",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.254968"
+        },
+        {
+          "relevance_score": "0.614740",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210898"
+        },
+        {
+          "relevance_score": "0.564802",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111851"
+        }
+      ],
+      "time_published": "20140721T111148",
+      "title": "NetApp sets its sights on cloud data management: A Q&A with CEO Tom Georgens",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.networkworld.com/article/927182/cloud-storage-netapp-sets-its-sights-on-cloud-data-management-a-qanda-with-ceo-tom-georgens.html"
+    },
+    {
+      "authors": [
+        "David Ramel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.319054,
+      "source": "Virtualization Review",
+      "source_domain": "Virtualization Review",
+      "summary": "Cisco Systems Inc. hinted that its Application Policy Infrastructure Controller - Enterprise Module (APIC EM) software-defined networking (SDN) controller is nearing launch. The APIC EM is a crucial part of Cisco's Application Centric Infrastructure (ACI) approach, which aims to provide greater network programmability and central control. The controller will be available for free download via Cisco's DevNet site, which has rapidly grown since its launch.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339116"
+        }
+      ],
+      "time_published": "20140721T102206",
+      "title": "Cisco Teases Software-Defined Networking Controller",
+      "topics": [
+        {
+          "relevance_score": "0.900796",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://virtualizationreview.com/articles/2014/07/21/cisco-sdn-controller.aspx"
+    },
+    {
+      "authors": [
+        "Brian Robertson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.362477,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "Cisco has been recognized as a leader in the Gartner Magic Quadrant for Wired and Wireless LAN Access Infrastructure for the third consecutive year, a testament to its vision and execution in unified access, policy management, and cloud managed solutions. This consistent leadership validates Cisco's commitment to meeting evolving customer priorities and requirements, offering flexible deployment options for various customer segments. The company's \"One Policy, One Management, One Network\" vision, introduced in 2012, continues to address business goals and IT simplification amidst growth in BYOD, Mobility, and the Internet of Everything.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.932096",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301380"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447115"
+        }
+      ],
+      "time_published": "20140718T105136",
+      "title": "Cisco Positioned As A Leader in the Gartner Magic Quadrant for Wired and Wireless LAN Access Infrastructure\u2013 For the 3rd Time in a Row!",
+      "topics": [
+        {
+          "relevance_score": "0.940409",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/networking/cisco-positioned-as-a-leader-in-the-gartner-magic-quadrant-for-wired-and-wireless-lan-access-infrastructure-for-the-3rd-time-in-a-row"
+    },
+    {
+      "authors": [
+        "Prashanth Shenoy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.352327,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "Cisco has been recognized as a leader in the Gartner Magic Quadrant for Wired and Wireless LAN Access Infrastructure for the third consecutive year. This recognition validates Cisco's strategy and investments in unified access, policy management, and cloud-managed solutions. The article emphasizes Cisco's ability to meet diverse customer requirements across various segments and their commitment to evolving market demands.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.927111",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307509"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405237"
+        }
+      ],
+      "time_published": "20140718T105136",
+      "title": "Third Time\u2019s A Charm: Cisco is a Leader in the Gartner Magic Quadrant for Wired and Wireless LAN Access Infrastruc \u2026",
+      "topics": [
+        {
+          "relevance_score": "0.922262",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/networking/third-times-a-charm-cisco-is-a-leader-in-the-gartner-magic-quadrant-for-wired-and-wireless-lan-access-infrastructure-again"
+    },
+    {
+      "authors": [
+        "Aaron Task"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.278896,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "John Chambers, former CEO of Cisco, reflects on his tenure at the company, including navigating the dot-com bubble burst and the 2008 financial crisis. He advocates for America to embrace the digital age through infrastructure spending and education reform, warning that the country risks being left behind otherwise. Chambers also discusses his personal struggle with dyslexia and how he turned it into a strength.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278963"
+        }
+      ],
+      "time_published": "20140715T094500",
+      "title": "Cisco\u2019s John Chambers Says \u2018America Is at Risk of Being Left Behind\u2019",
+      "topics": [
+        {
+          "relevance_score": "0.947696",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.743547",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2016/10/17/john-chambers-cisco-fortune-unfiltered-podcast/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.403499,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced it has completed the acquisition of privately held Tail-f Systems, a leader in multi-vendor network service orchestration solutions. This acquisition, valued at approximately $175 million in cash and retention-based incentives, accelerates Cisco's cloud virtualization strategy by enhancing its ability to deliver software that simplifies and automates network provisioning and management for both physical and virtual networks. Tail-f's technology is expected to reduce time-to-market for network equipment vendors and supports Cisco's commitment to open standards and multi-vendor environments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429862"
+        }
+      ],
+      "time_published": "20140709T102206",
+      "title": "Cisco Completes Acquisition of Tail-f Systems",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.800051",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2014/m07/cisco-completes-acquisition-of-tail-f-systems.html"
+    },
+    {
+      "authors": [
+        "IANS"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.464815,
+      "source": "Oneindia",
+      "source_domain": "Oneindia",
+      "summary": "Cisco Systems Inc. announced plans to transform Electronics City in Bangalore into a smart city and develop Asia's first Internet of Things (IoT) innovation hub. This pilot project, in partnership with ELCIA, will implement smart solutions for parking, surveillance, lighting, water management, and community messaging, aiming to be a replicable model for other Indian cities. The initiative is part of Cisco's \"smart+connected communities\" concept, leveraging technology for economic development and improved quality of life.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.467012"
+        }
+      ],
+      "time_published": "20140703T094300",
+      "title": "Bangalore: Cisco to turn electronics city into smart city",
+      "topics": [
+        {
+          "relevance_score": "0.938203",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.720235",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.oneindia.com/india/cisco-to-turn-electronics-city-into-smart-city-1476052.html"
+    },
+    {
+      "authors": [
+        "Cristian_25H"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.202748,
+      "source": "TechPowerUp",
+      "source_domain": "TechPowerUp",
+      "summary": "NETGEAR has launched the Nighthawk X6 AC3200 Tri-Band WiFi Router (R8000), which is the first tri-band WiFi router to incorporate the Broadcom 5G WiFi XStream platform. It offers combined WiFi speeds up to 3.2 Gbps across one 2.4 GHz and two 5 GHz bands, intelligently segmenting devices for optimal performance. The router is now available for pre-order at an MSRP of $299.99 in the U.S., aiming to address bandwidth demands from multiple devices in homes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTGR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442957"
+        },
+        {
+          "relevance_score": "0.710587",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344849"
+        },
+        {
+          "relevance_score": "0.560295",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.138554"
+        }
+      ],
+      "time_published": "20140625T074400",
+      "title": "NETGEAR Ships the Nighthawk X6 AC3200 Tri-Band Wireless Router",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techpowerup.com/202449/netgear-ships-the-nighthawk-x6-ac3200-tri-band-wireless-router"
+    },
+    {
+      "authors": [
+        "AB Wire"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.501123,
+      "source": "The American Bazaar",
+      "source_domain": "The American Bazaar",
+      "summary": "Arista Networks, led by Indian American CEO Jayashree Ullal, has seen its stock price surge by an astonishing 66% just a couple of weeks after its IPO on June 5th, far exceeding initial expectations. The company's success is attributed to Ullal's leadership and its proprietary Extensible Operating System, positioning it as a major player in cloud networking. Arista Networks has also joined the AVnu Alliance to standardize audio-video and media output through AV networks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ANET",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.897919"
+        },
+        {
+          "relevance_score": "0.610676",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106525"
+        }
+      ],
+      "time_published": "20140619T100110",
+      "title": "Indian American entrepreneur Jayashree Ullal\u00e2\u20ac\u2122s company Arista Networks riding high on its IPO",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.900251",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://americanbazaaronline.com/2014/06/19/indian-american-entrepreneur-jayashree-ullals-company-arista-networks-riding-high-ipo/"
+    },
+    {
+      "authors": [
+        "Chris Mellor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.115255,
+      "source": "The Register",
+      "source_domain": "The Register",
+      "summary": "Rumors suggest HP is in talks to acquire Simplivity, a startup specializing in hyper-converged server/storage/networking systems, for an estimated half a billion dollars. Simplivity has seen strong growth and substantial funding, making it an attractive target for HP which could integrate Simplivity's technology into its own product lines. This potential acquisition highlights the ongoing convergence trend in the IT infrastructure market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.916979",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116761"
+        },
+        {
+          "relevance_score": "0.717310",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132416"
+        },
+        {
+          "relevance_score": "0.642899",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134099"
+        },
+        {
+          "relevance_score": "0.632703",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137202"
+        },
+        {
+          "relevance_score": "0.616609",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101683"
+        }
+      ],
+      "time_published": "20140610T095800",
+      "title": "HP Simplivity buyout rumours: Could it be worth HALF a BILLION?",
+      "topics": [
+        {
+          "relevance_score": "0.929254",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830925",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theregister.com/2014/06/10/hp_simplivity_acquisition_rumours/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.473715,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced a new leadership team for its India operations, consisting of Dinesh Malkani as President - Sales, Amit Phadnis as President - Engineering & India Site Leader, and V C Gopalratnam as President - Strategy, Planning and Operations. This change reflects India's strategic importance to Cisco and aims to accelerate momentum through innovation and strengthen alignment with the country's transformation agenda. The new leaders will focus on driving growth, fostering innovation, talent development, and creating synergies across various functions and customer needs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.455395"
+        }
+      ],
+      "time_published": "20140605T102206",
+      "title": "Cisco Announces Next Generation of Leadership in India",
+      "topics": [
+        {
+          "relevance_score": "0.939428",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2014/m06/cisco-announces-next-generation-of-leadership-in-india.html"
+    },
+    {
+      "authors": [
+        "Corinne Jurney"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.070394,
+      "source": "Raleigh News & Observer",
+      "source_domain": "Raleigh News & Observer",
+      "summary": "NetApp has opened a new, energy-efficient data storage center in Research Triangle Park and announced plans to hire 150 people to manage and maintain the facility. This expansion follows previous layoffs and comes with significant state incentives, as the company navigates changes in its manufacturing partnerships, including a recent shift with IBM. NetApp is also collaborating with local educational institutions for recruitment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.704524",
+          "ticker": "DUK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115395"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140316"
+        },
+        {
+          "relevance_score": "0.605042",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.316520"
+        },
+        {
+          "relevance_score": "0.604646",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213864"
+        }
+      ],
+      "time_published": "20140530T165600",
+      "title": "NetApp unveils new RTP data center; plans to hire 150",
+      "topics": [
+        {
+          "relevance_score": "0.909215",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.725851",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.603904",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.newsobserver.com/news/technology/article18576788.html"
+    },
+    {
+      "authors": [
+        "Joseph Gacinga",
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.227239,
+      "source": "Seattle Post-Intelligencer",
+      "source_domain": "Seattle Post-Intelligencer",
+      "summary": "This article compares the Software-Defined Networking (SDN) strategies of Cisco Systems Inc. (NASDAQ: CSCO) and VMware Inc. (NYSE: VMW), highlighting Cisco's hardware-driven ACI and VMware's software-centric NSX. It discusses the market potential for SDN, projected to grow to $35.6 billion by 2018, and analyzes which company's approach is better positioned for market traction based on their existing market dominance and target customer base. The analysis concludes that Cisco's strong enterprise networking presence and early lead in IoT might give it a decisive edge in the SDN battle.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410616"
+        },
+        {
+          "relevance_score": "0.566954",
+          "ticker": "ANET",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016266"
+        }
+      ],
+      "time_published": "20140527T102206",
+      "title": "Cisco vs. VMware: Which Company\u2019s SDN Strategy Is Better?",
+      "topics": [
+        {
+          "relevance_score": "0.941729",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.seattlepi.com/business/fool/article/cisco-vs-vmware-which-company-s-sdn-strategy-5506338.php"
+    },
+    {
+      "authors": [
+        "David Ramel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.332371,
+      "source": "Virtualization Review",
+      "source_domain": "Virtualization Review",
+      "summary": "Cisco is pushing its Application Centric Infrastructure (ACI) as a superior alternative to traditional software-defined networking (SDN) approaches, including those offered by VMware. The company announced new components and services for ACI, while its executive Soni Jiandani criticized rival SDN technologies for their scaling limitations. Cisco positions ACI as a \"better approach\" that leverages hardware and software innovation for a scalable, application-centric network.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308756"
+        }
+      ],
+      "time_published": "20140521T102206",
+      "title": "Cisco Pushes Its Software-Defined Networking Vision",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://virtualizationreview.com/articles/2014/05/21/cisco-pushes-sdn-vision.aspx"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.137947,
+      "source": "IOL",
+      "source_domain": "IOL",
+      "summary": "Cisco Systems Inc. provided a fourth-quarter profit and sales forecast that exceeded analysts' estimates, driven by increased demand in the US for networking equipment and CEO John Chambers' efforts to restore growth. The company reported a revenue decline in the fiscal third quarter but still beat analyst expectations, with its shares rising on the news despite ongoing challenges from a shift to software-defined networking and increased competition. Chambers acknowledged the \"heavy lifting\" required to return to growth, particularly in emerging markets, as Cisco continues to restructure operations and shed non-core businesses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.997637",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.295743"
+        },
+        {
+          "relevance_score": "0.612814",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122830"
+        },
+        {
+          "relevance_score": "0.567812",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.075403"
+        }
+      ],
+      "time_published": "20140515T102207",
+      "title": "Cisco\u2019s forecast tops estimates",
+      "topics": [
+        {
+          "relevance_score": "0.941651",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.840830",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://iol.co.za/business-report/companies/2014-05-15-ciscos-forecast-tops-estimates/"
+    },
+    {
+      "authors": [
+        "By The Canadian Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.320663,
+      "source": "Financial Post",
+      "source_domain": "Financial Post",
+      "summary": "Ontario's Liberal government announced a $120-million grant to Waterloo-based Open Text Corp., Canada\u2019s largest software company, to help create 1,200 jobs. Open Text plans to invest $2 billion over the next seven years to expand operations in multiple Ontario cities. This initiative aims to strengthen Ontario's position as a major information and communications technology hub.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OTEX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411914"
+        },
+        {
+          "relevance_score": "0.621257",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.246396"
+        }
+      ],
+      "time_published": "20140425T111619",
+      "title": "Open Text Corp to create 1,200 jobs in Ontario with $120M grant from province",
+      "topics": [
+        {
+          "relevance_score": "0.809120",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.902857",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.848007",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://financialpost.com/technology/open-text-corp-to-create-1200-jobs-in-ontario-with-120m-grant-from-province"
+    },
+    {
+      "authors": [
+        "Jay McGregor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.233768,
+      "source": "Global Corporate Venturing",
+      "source_domain": "Global Corporate Venturing",
+      "summary": "Five9, a SAP-backed company developing call center software, successfully completed its IPO, raising $70 million by issuing 10 million shares priced at $7 each. The offering could increase to $80.5 million if underwriters exercise their option to purchase additional shares. The company, valued at $322.3 million post-IPO, aims to compete with Cisco Systems and Avaya in the web-based call center system market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FIVN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.380088"
+        },
+        {
+          "relevance_score": "0.641217",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127441"
+        },
+        {
+          "relevance_score": "0.603078",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135326"
+        }
+      ],
+      "time_published": "20140408T103557",
+      "title": "Five9 counts the proceeds as its IPO raises $70m -",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.848469",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736823",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://globalventuring.com/blog/2014/04/08/five9-counts-the-proceeds-as-its-ipo-raises-70m/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.297063,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced plans to invest over $1 billion to build the world's largest global Intercloud, a network of clouds, in partnership with various companies. This Intercloud is designed for the Internet of Everything, offering expanded application- and network-centric cloud services and aiming to provide a highly secure and scalable platform for businesses and service providers. The initiative will expand Cisco's cloud leadership and go-to-market strategy through its Cisco Powered program and channel partners.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.499694"
+        },
+        {
+          "relevance_score": "0.643199",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259786"
+        },
+        {
+          "relevance_score": "0.588034",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291220"
+        },
+        {
+          "relevance_score": "0.556197",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240490"
+        }
+      ],
+      "time_published": "20140324T102206",
+      "title": "Cisco and Partners to Build World's Largest Global Intercloud",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.634441",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2014/m03/cisco-and-partners-to-build-world-s-largest-global-intercloud.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.426177,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco implemented an \"invisible\" wireless network in the Rijksmuseum, enabling visitors to access extensive information on their mobile devices and enhancing their overall experience. The network, discreetly installed in the historic building, has significantly increased visitor numbers and supports various functions, including building management and future visitor navigation. This project highlights the potential of technology to enrich the museum experience without distracting from the artwork.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427319"
+        }
+      ],
+      "time_published": "20140324T102206",
+      "title": "Cisco Builds \u2018Invisible' Network in Rijksmuseum",
+      "topics": [
+        {
+          "relevance_score": "0.903873",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2014/m03/cisco-builds-invisible-network-in-rijksmuseum.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.218764,
+      "source": "Business in Vancouver",
+      "source_domain": "Business in Vancouver",
+      "summary": "Toronto has successfully attracted major tech companies like Cisco Systems and Ubisoft with significant tax incentives, prompting Vancouver to question its competitive edge in the tech sector. While Vancouver has drawn players like Samsung and Amazon, the scale of investment and job creation lags behind Toronto's deals, which are often fueled by substantial government subsidies. This highlights a debate over whether talent pools or tax incentives are the primary drivers for tech company location decisions in Canada.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418583"
+        },
+        {
+          "relevance_score": "0.633567",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101809"
+        },
+        {
+          "relevance_score": "0.580812",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108702"
+        }
+      ],
+      "time_published": "20140317T230000",
+      "title": "Cities in tech tug of war: Toronto woos Cisco Systems, Ubisoft with tax incentives",
+      "topics": [
+        {
+          "relevance_score": "0.946423",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.823834",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.630012",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.623542",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.biv.com/news/technology/cities-in-tech-tug-of-war-toronto-woos-cisco-syste-8239240"
+    },
+    {
+      "authors": [
+        "Matt Keil"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.339984,
+      "source": "Palo Alto Networks",
+      "source_domain": "Palo Alto Networks",
+      "summary": "This article introduces the Palo Alto Networks PA-7050, a new chassis-based next-generation firewall designed to exceed 100 Gbps performance. It emphasizes the need for high-speed, comprehensive security against sophisticated cyber attacks and highlights the PA-7050's purpose-built architecture and scalable design as key differentiators against \"parts-bin\" approaches.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.872587"
+        },
+        {
+          "relevance_score": "0.617707",
+          "ticker": "FTNT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247090"
+        },
+        {
+          "relevance_score": "0.588630",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108768"
+        },
+        {
+          "relevance_score": "0.551634",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118655"
+        }
+      ],
+      "time_published": "20140210T111622",
+      "title": "The PA-7050: What It Really Means",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.paloaltonetworks.com/blog/2014/02/pa-7050-really-means/"
+    },
+    {
+      "authors": [
+        "Li Zhou"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.397213,
+      "source": "www.mic.com",
+      "source_domain": "www.mic.com",
+      "summary": "This article highlights 18 companies recognized for their ethical practices and commitment to social good, demonstrating that prioritizing company culture, innovation, and sustainable business can also lead to financial success. It details each company's specific initiatives, financial performance, and contributions to society, emphasizing how ethical conduct is integrated into their business models. The piece suggests that consumers increasingly value companies that \"do good,\" making ethical behavior a beneficial strategy for both reputation and revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.944956",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425872"
+        },
+        {
+          "relevance_score": "0.872004",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412795"
+        },
+        {
+          "relevance_score": "0.891296",
+          "ticker": "CL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410109"
+        },
+        {
+          "relevance_score": "0.808984",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401229"
+        },
+        {
+          "relevance_score": "0.790144",
+          "ticker": "F",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422436"
+        }
+      ],
+      "time_published": "20140205T100626",
+      "title": "18 Companies That Are Doing Good While Doing Well",
+      "topics": [
+        {
+          "relevance_score": "0.742849",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.627474",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.845947",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.mic.com/articles/81335/18-companies-that-are-doing-good-while-doing-well"
+    },
+    {
+      "authors": [
+        "Nat Rudarakanchana"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.225724,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "Cisco estimates that the Internet of Everything (IoE) represents a $1.6 trillion opportunity for retailers over the next decade by connecting physical objects and gathering intelligent data. Executives highlighted how retailers can leverage smart technologies to monitor inventory, predict shopper behavior, and \"light up\" previously \"dark assets\" like shopping carts and shelf sensors. Companies like General Electric are already implementing similar concepts within heavy industry, demonstrating the diverse applicability and value of connecting devices across various sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432764"
+        },
+        {
+          "relevance_score": "0.719066",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304269"
+        },
+        {
+          "relevance_score": "0.625293",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136325"
+        },
+        {
+          "relevance_score": "0.596513",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012561"
+        }
+      ],
+      "time_published": "20140116T143600",
+      "title": "Cisco: Smart Tech Can Unlock More 'Untapped' Value",
+      "topics": [
+        {
+          "relevance_score": "0.946994",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.821801",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.747113",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ibtimes.com/cisco-internet-everything-ioe-16-trillion-retail-opportunity-1542910"
+    },
+    {
+      "authors": [
+        "Olga Kharif"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.262524,
+      "source": "Mint",
+      "source_domain": "Mint",
+      "summary": "Cisco CEO John Chambers announced at CES that the \"Internet of Everything,\" connecting products from cars to household goods, represents a potential $19 trillion market opportunity. This initiative comes as Cisco faces slowing sales in its traditional networking-gear business. The company sees this trend, including linked garbage cans reducing waste management costs, as a significant shift that will boost global corporate profits by 21% by 2022.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266956"
+        }
+      ],
+      "time_published": "20140108T225700",
+      "title": "Cisco CEO John Chambers pegs Internet of Things as $19 trillion market",
+      "topics": [
+        {
+          "relevance_score": "0.845283",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/zUSEWUsIlSEiVbbkke7GGL/Cisco-CEO-John-Chambers-pegs-Internet-of-Things-as-19-trill.html"
+    },
+    {
+      "authors": [
+        "Gartner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.086829,
+      "source": "CTIMES",
+      "source_domain": "CTIMES",
+      "summary": "Worldwide server shipments increased by 1.9% in the third quarter of 2013 year-on-year, while revenue declined by 2.1% compared to the same period in 2012, according to Gartner. HP led the market in revenue and shipments, though the EMEA region experienced significant declines in both. The market continues to be challenged by weaker performance and architectural shifts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017764"
+        },
+        {
+          "relevance_score": "0.925644",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273709"
+        },
+        {
+          "relevance_score": "0.899474",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.217467"
+        },
+        {
+          "relevance_score": "0.734332",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.078118"
+        },
+        {
+          "relevance_score": "0.890529",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317269"
+        }
+      ],
+      "time_published": "20140104T105137",
+      "title": "Worldwide Server Shipments Grew 1.9%, Revenue Decreased 2.1%",
+      "topics": [
+        {
+          "relevance_score": "0.808981",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://en.ctimes.com.tw/DispArt.asp?O=HJY148XW17EARASTDC"
+    }
+  ],
+  "items": "54",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

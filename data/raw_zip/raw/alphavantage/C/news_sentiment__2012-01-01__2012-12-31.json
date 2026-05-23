@@ -1,0 +1,4725 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.173702,
+      "source": "Citigroup",
+      "source_domain": "Citigroup",
+      "summary": "This article spotlights serial entrepreneur Mike Lazerow, Chief Marketing Officer of the Salesforce Marketing Cloud, as New York City becomes a finalist for \"City of the Year\" by Citi and The Wall Street Journal. Lazerow discusses why NYC deserves the award, emphasizing its innovation, entrepreneurial spirit, and community. He shares his insights on how cities can encourage innovators and his personal sources of inspiration.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.839227",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.091387"
+        },
+        {
+          "relevance_score": "0.705297",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302804"
+        }
+      ],
+      "time_published": "20121219T141622",
+      "title": "City of the Year Finalist Entrepreneur Spotlight: Mike Lazerow of New York City",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.citigroup.com/global/news/perspective/2012/city-of-the-year-finalist-entrepreneur-spotlight-mike-lazerow-of-new-york-city"
+    },
+    {
+      "authors": [
+        "Associated Press in Detroit"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.069904,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "General Motors announced a $5.5bn deal to buy back 200 million shares from the US Treasury, which intends to sell its remaining 300 million shares on the open market. This transaction, which involves GM paying an 8% premium, almost ensures the government will lose billions on its 2008-2009 bailout of the automaker. The move is expected to remove a significant business obstacle for GM and increase the value of its remaining shares.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325300"
+        },
+        {
+          "relevance_score": "0.621289",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103301"
+        },
+        {
+          "relevance_score": "0.621532",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145932"
+        },
+        {
+          "relevance_score": "0.620239",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136246"
+        },
+        {
+          "relevance_score": "0.606179",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101363"
+        }
+      ],
+      "time_published": "20121219T103300",
+      "title": "General Motors to buy back US government shares in $5.5bn deal",
+      "topics": [
+        {
+          "relevance_score": "0.947259",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.809518",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.727695",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.640790",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2012/dec/19/general-motors-government-shares-deal"
+    },
+    {
+      "authors": [
+        "Elzio Barreto"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.079744,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "American International Group (AIG) is selling its remaining stake in AIA Group Ltd for an estimated $6.5 billion, marking the end of its century-long presence in Asia through AIA. This sale is part of AIG's effort to repay the US government bailout funds from 2008 and shifts its Asian focus to China through a joint venture and investment in PICC. The offering highlights the growing demand for insurance in Asia and is poised to be one of the region's largest block sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132150"
+        },
+        {
+          "relevance_score": "0.613403",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.100680"
+        },
+        {
+          "relevance_score": "0.633181",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.125377"
+        },
+        {
+          "relevance_score": "0.646184",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136920"
+        },
+        {
+          "relevance_score": "0.644724",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107341"
+        }
+      ],
+      "time_published": "20121218T070000",
+      "title": "End of century-long era as AIG sells stake in AIA",
+      "topics": [
+        {
+          "relevance_score": "0.949977",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.818210",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.734298",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.royalgazette.com/re-insurance/business/article/20121218/end-of-century-long-era-as-aig-sells-stake-in-aia/"
+    },
+    {
+      "authors": [
+        "Josey Puliyenthuruthel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.241388,
+      "source": "Business Today",
+      "source_domain": "Business Today",
+      "summary": "This article reviews \"A Bank for the Buck\" by Tamal Bandyopadhyay, a book detailing the journey of HDFC Bank, which became India's most valuable bank in less than 18 years. The reviewer praises the book's anecdotal style and insider details but suggests improvements in structure and inclusion of more organized financial research. It highlights the bank's successful growth and its unique corporate culture through various anecdotes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HDB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.483820"
+        },
+        {
+          "relevance_score": "0.620968",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113752"
+        },
+        {
+          "relevance_score": "0.596520",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106795"
+        }
+      ],
+      "time_published": "20121217T145119",
+      "title": "Book review: A Bank for the Buck",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.618012",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.businesstoday.in/magazine/book/story/book-review-a-bank-for-the-buck-35304-2012-12-17"
+    },
+    {
+      "authors": [
+        "Drew Olanoff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.353818,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "Morgan Stanley has been fined $5 million by Massachusetts over its Facebook research practices related to the social media giant's IPO. This fine follows a previous penalty for \"noncompetitive trades\" and comes as Citigroup was also fined $2 million for its involvement in the Facebook IPO. Morgan Stanley issued a statement expressing its pleasure in settling the matter and reiterating its commitment to compliance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.442793"
+        },
+        {
+          "relevance_score": "0.739756",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.424975"
+        },
+        {
+          "relevance_score": "0.848307",
+          "ticker": "META",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.212971"
+        }
+      ],
+      "time_published": "20121217T104200",
+      "title": "Morgan Stanley Fined $5M Over Facebook Research And Handling Of IPO By Massachusetts (UPDATED)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.900235",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.826875",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://techcrunch.com/2012/12/17/morgan-stanley-fined-5m-over-facebook-research-by-massachusetts/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.081468,
+      "source": "SERNAC",
+      "source_domain": "SERNAC",
+      "summary": "A Sernac study revealed that the total cost of a consumer loan can vary by almost 74%, highlighting significant differences between financial institutions. For a 36-month loan of CLP 500,000, consumers could save CLP 481,104 by choosing the most convenient option. The study emphasizes the importance of comparing the Annual Equivalent Charge (CAE) and the Total Cost of Credit (CTC) to make informed borrowing decisions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.320395",
+          "ticker": "BSAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015673"
+        },
+        {
+          "relevance_score": "0.605181",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128988"
+        },
+        {
+          "relevance_score": "0.647219",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104831"
+        },
+        {
+          "relevance_score": "0.632587",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148900"
+        },
+        {
+          "relevance_score": "0.603930",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135103"
+        }
+      ],
+      "time_published": "20121213T141611",
+      "title": "Estudio del Sernac detecta diferencias de casi 74% en el costo total de un cr\u00e9dito de consumo",
+      "topics": [
+        {
+          "relevance_score": "0.901722",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.sernac.cl/portal/619/w3-article-3075.html"
+    },
+    {
+      "authors": [
+        "AOSTERLAND"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.040587,
+      "source": "InvestmentNews",
+      "source_domain": "InvestmentNews",
+      "summary": "Rebecca Rothstein, a top financial adviser managing approximately $2.5 billion in assets, has left Morgan Stanley Wealth Management to join Merrill Lynch Wealth Management, taking 11 Morgan Stanley employees with her. Her departure is considered a significant loss for Morgan Stanley, especially given her prominence as the No. 2 on Barron's list of America's top 100 female financial advisers. This move is part of a trend with several other high-producing advisers also leaving Morgan Stanley this month.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.332909"
+        },
+        {
+          "relevance_score": "0.569181",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128283"
+        },
+        {
+          "relevance_score": "0.588615",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112507"
+        },
+        {
+          "relevance_score": "0.580644",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101324"
+        }
+      ],
+      "time_published": "20121206T151133",
+      "title": "'Major loss' as big L.A. adviser leaves Morgan Stanley for Merrill Lynch",
+      "topics": [
+        {
+          "relevance_score": "0.930528",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.investmentnews.com/wirehouses/major-loss-as-big-la-adviser-leaves-morgan-stanley-for-merrill-lynch/47619"
+    },
+    {
+      "authors": [
+        "David Henry and Rick Rothacker"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20121205&t=2&i=79011703&w=780&fh=&fw=&ll=&pl=&sq=&r=BRE8B40NV20121205",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.179838,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Citigroup announced it is cutting 11,000 jobs worldwide, about 4 percent of its workforce, and taking $1.1 billion in charges through the middle of next year. This move, expected to yield $1.1 billion in annual savings starting in 2014, is seen as the first step by Chairman Michael O'Neill and CEO Michael Corbat to streamline the bank into a more manageable and profitable size. The reductions will affect various operations, including consumer banking and investment banking, and follow years of investor complaints about the bank's high expenses relative to its income.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.268560"
+        },
+        {
+          "relevance_score": "0.715253",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143197"
+        },
+        {
+          "relevance_score": "0.642317",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141578"
+        }
+      ],
+      "time_published": "20121206T045600",
+      "title": "Citigroup cutting 11,000 jobs, taking $1 billion in charges",
+      "topics": [
+        {
+          "relevance_score": "0.930388",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.847613",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.730682",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.reuters.com/article/idUKBRE8B40NV20121205/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.027624,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "This article from MarketWatch lists the 10 biggest U.S. corporate layoffs of 2012. It highlights Hewlett-Packard Co. as the leader in job cuts for the year, with plans to eliminate 27,000 jobs. The article also mentions the impact of H-P's announcement on May being the peak month for job cuts in 2012.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.325392",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022859"
+        }
+      ],
+      "time_published": "20121205T215600",
+      "title": "The 10 biggest U.S. corporate layoffs of 2012",
+      "topics": [
+        {
+          "relevance_score": "0.920104",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.836856",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738028",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/the-10-biggest-us-corporate-layoffs-of-2012-2012-12-05?gaa_at=eafs&gaa_n=AWEtsqeF6lBBV4tFYG_zLHq3AALk7wDH7w1oxQxkJwMNBqN0LdsKFy9f86Za&gaa_ts=6908bc8f&gaa_sig=_2m7y7fp_UzP8CVPZ7To6SCAPe63wX2-eOPkms3dkgXpArM5yt-JT9qUoIyWRViSvVvy_ZGZsJkJc4_5I6HRGA%3D%3D"
+    },
+    {
+      "authors": [
+        "Korea Herald"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.634393,
+      "source": "The Korea Herald",
+      "source_domain": "The Korea Herald",
+      "summary": "Citigroup announced it will close almost half of its branches in Greece, reducing the number from 37 to 21, resulting in approximately 170 job losses. This decision is attributed to the ongoing economic crisis in Greece. Additionally, Citi plans to shut down 9 of its 31 branches in Massachusetts as part of a network optimization strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.625879"
+        }
+      ],
+      "time_published": "20121122T194044",
+      "title": "Citi to shut Greek branches",
+      "topics": [
+        {
+          "relevance_score": "0.643618",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.922181",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.819868",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.koreaherald.com/article/10377421"
+    },
+    {
+      "authors": [
+        "Sumeet Chatterjee and Anjuli Davies"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fassets.reuters.com%2Fimages%2F2012%2F11%2F09%2F2012-11-09T180746Z_4_GM1E8BA04C301_RTROPTP_3_INDIA-UNITEDSPIRITS-MALLYA_media_id_449742.JPG?auth=d9319888998bc195a6ad9116e03aaac9&width=1200&height=630&quality=80&smart=true",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.337839,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Diageo Plc has agreed to acquire a majority stake in United Spirits Ltd, controlled by Vijay Mallya, for $2.1 billion. This deal aims to expand the world's largest spirits group into fast-growing emerging markets, making India potentially Diageo's largest market in the long term. The acquisition, which values United Spirits at 20 times EBITDA, is expected to boost Diageo's earnings per share from the second year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DEO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419383"
+        },
+        {
+          "relevance_score": "0.649511",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341340"
+        },
+        {
+          "relevance_score": "0.567163",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326780"
+        }
+      ],
+      "time_published": "20121110T023100",
+      "title": "Diageo does $2.1 billion deal for Mallya's United Spirits",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.813130",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.721958",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/diageo-does-21-billion-deal-for-mallyas-united-spirits-idUSDEE8A70D2/"
+    },
+    {
+      "authors": [
+        "Grant Robertson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.263204,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "U.S. banking giant Wells Fargo & Co. is expanding its presence in Canada, focusing on lending to commercial and corporate clients, particularly those with cross-border operations. The bank aims to capitalize on existing client demand and the growth potential in the Canadian market, despite concerns about companies hoarding cash. Wells Fargo received a Schedule III bank license allowing it to take deposits and make loans, but will not compete for retail clients.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328166"
+        },
+        {
+          "relevance_score": "0.582078",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230022"
+        },
+        {
+          "relevance_score": "0.560208",
+          "ticker": "BK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.215639"
+        },
+        {
+          "relevance_score": "0.594297",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238952"
+        }
+      ],
+      "time_published": "20121106T155626",
+      "title": "Wells Fargo bolsters Canadian presence",
+      "topics": [
+        {
+          "relevance_score": "0.929326",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.714753",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.612292",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/globe-investor/wells-fargo-bolsters-canadian-presence/article4959053/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.057189,
+      "source": "\u00daltima Hora",
+      "source_domain": "\u00daltima Hora",
+      "summary": "Citibank is selling its credit card portfolio in Paraguay to Banco Bilbao Vizcaya Argentaria (BBVA) in an agreement that will transfer 10,386 cards and \u20b247,672 million in assets. This move allows Citibank to focus on corporate and general consumer banking, while BBVA significantly expands its credit card market share in Paraguay. This isn't the first time Citibank has divested its credit card business in the country, having done so previously in 2004 before re-launching the product in 2010.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.339497",
+          "ticker": "BBVA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044271"
+        },
+        {
+          "relevance_score": "0.940475",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108955"
+        }
+      ],
+      "time_published": "20121105T210000",
+      "title": "El Citibank vuelve a desprenderse del negocio de tarjetas",
+      "topics": [
+        {
+          "relevance_score": "0.907923",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.808685",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.ultimahora.com/el-citibank-vuelve-desprenderse-del-negocio-tarjetas-n575146"
+    },
+    {
+      "authors": [
+        "Olivia Oran"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.114309,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Warren Buffett's Berkshire Hathaway Inc. announced its acquisition of Oriental Trading Co., a toy and party supplies company co-owned by KKR & Co LP, for an undisclosed sum, estimated around $500 million. Oriental Trading, which had undergone bankruptcy protection and a restructuring in 2010, was deemed attractive due to its strong cash flow and stable management team. This deal follows other recent acquisitions in the party and crafts supplies retail sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317057"
+        },
+        {
+          "relevance_score": "0.649673",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117036"
+        },
+        {
+          "relevance_score": "0.593058",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.146424"
+        }
+      ],
+      "time_published": "20121102T170900",
+      "title": "UPDATE 2-Berkshire Hathaway buys toy and party supplies company",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.921268",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/11/02/update-2berkshire-hathaway-buys-toy-and-party-supplies-company.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.276479,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "American Capital Mortgage Management, LLC announced the appointment of Devang Doshi as Vice President of Agency Mortgage Investments. In this role, he will focus on executing agency investment strategies for American Capital Mortgage Investment Corp. (MTGE) and American Capital Agency Corp. (AGNC), leveraging his previous experience at Citigroup Inc. in global securitized markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AGNC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.426929"
+        },
+        {
+          "relevance_score": "0.607887",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132156"
+        }
+      ],
+      "time_published": "20121031T101500",
+      "title": "American Capital Mortgage Management, LLC Appoints Devang Doshi as Vice President of Agency Mortgage Investments",
+      "topics": [
+        {
+          "relevance_score": "0.938060",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.715110",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/10/31/american-capital-mortgage-management-llc-appoints-devang-doshi-as-vice-president-of-agency-mortgage-investments.html"
+    },
+    {
+      "authors": [
+        "Evan Clark",
+        "Marc Karimzadeh"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.292405,
+      "source": "WWD",
+      "source_domain": "WWD",
+      "summary": "PVH Corp. is set to acquire Warnaco Group Inc. in a $2.9 billion deal, which will transform PVH into an $8 billion global fashion powerhouse. This acquisition reunites Calvin Klein with its key apparel categories, underwear and jeanswear, and significantly expands PVH's global footprint, particularly in Asia and Latin America. The deal, completed despite Hurricane Sandy, is expected to enhance efficiencies, streamline brand control, and drive future growth for PVH.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PVH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.454624"
+        },
+        {
+          "relevance_score": "0.620648",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220943"
+        },
+        {
+          "relevance_score": "0.600307",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214399"
+        }
+      ],
+      "time_published": "20121031T062700",
+      "title": "PVH Corp. to Buy Warnaco in $2.9B Deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.849006",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.644319",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://wwd.com/business-news/financial/pvh-to-acquire-warnaco-6463931/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.082184,
+      "source": "The Bahamas Weekly",
+      "source_domain": "The Bahamas Weekly",
+      "summary": "The Bahamas Financial Services Board (BFSB) has announced the nominees for its 12th annual Industry Excellence Awards, which will be celebrated at a Gala Awards Banquet on November 9th. The awards recognize excellence in categories such as Achiever of the Year, Professional of the Year, and Student of the Year. The program highlights the importance of \"People Power\" and capacity building within the financial services industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.308674",
+          "ticker": "GLDI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024017"
+        },
+        {
+          "relevance_score": "0.614004",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101454"
+        }
+      ],
+      "time_published": "20121022T005712",
+      "title": "Nominees Announced - 2012 FSI Excellence Awards - Bahamas Financial Services Board",
+      "topics": [
+        {
+          "relevance_score": "0.949693",
+          "topic": "finance"
+        }
+      ],
+      "url": "http://www.thebahamasweekly.com/publish/community/Bahamas_Financial_Services_Board_2012_FSI_Excellence_Awards_-_Nominees_Announced_printer.shtml"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.160571,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Morgan Stanley reported higher third-quarter revenue and net income, driven by strong performance in its bonds and asset management businesses. Excluding an accounting charge, the bank earned $535 million and revenue rose 18% to $7.6 billion, surpassing analyst estimates. CEO James Gorman highlighted the success of the bank's strategy, including its expansion into the retail brokerage business through the acquisition of Morgan Stanley Smith Barney.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.968788",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.454786"
+        },
+        {
+          "relevance_score": "0.734098",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140726"
+        },
+        {
+          "relevance_score": "0.640458",
+          "ticker": "FDS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140796"
+        },
+        {
+          "relevance_score": "0.556445",
+          "ticker": "MCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.242721"
+        }
+      ],
+      "time_published": "20121018T151135",
+      "title": "Morgan Stanley shares rise on higher earnings",
+      "topics": [
+        {
+          "relevance_score": "0.942033",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.819456",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.722954",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.631464",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/markets/2012/10/18/morgan-stanley-earnings/1640867/"
+    },
+    {
+      "authors": [
+        "Sachin Nigade"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.082623,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article critiques J.P. Morgan Chase's handling of the \"London Whale\" trading losses, highlighting concerns about its risk-taking incentives and perceived influence over Congress. While acknowledging strong recent earnings, it warns of significant trading risks and potential litigation, ultimately recommending Wells Fargo as the \"cleanest dirty shirt\" among major U.S. banks for investment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.974470",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142554"
+        },
+        {
+          "relevance_score": "0.614665",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270307"
+        },
+        {
+          "relevance_score": "0.618100",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.147630"
+        },
+        {
+          "relevance_score": "0.562346",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.239572"
+        },
+        {
+          "relevance_score": "0.570692",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.214986"
+        }
+      ],
+      "time_published": "20121018T104800",
+      "title": "J.P. Morgan Chase: a whale of a bank",
+      "topics": [
+        {
+          "relevance_score": "0.939530",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.813078",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.702421",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.634617",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/j-p-morgan-chase-a-whale-of-a-bank-2-24367/"
+    },
+    {
+      "authors": [
+        "AOSTERLAND"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.038147,
+      "source": "InvestmentNews",
+      "source_domain": "InvestmentNews",
+      "summary": "Headhunters report that rival firms, particularly Bank of America Merrill Lynch, are intensifying efforts to recruit financial advisers from Morgan Stanley due to perceived vulnerabilities and technical issues at Morgan Stanley. Morgan Stanley is reportedly taking measures to retain its advisers, including assessing their risk of departure, while denying any unusual spike in adviser exits. The article highlights the ongoing competitive battle for talent between the two wealth management giants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.206076"
+        },
+        {
+          "relevance_score": "0.721139",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137185"
+        },
+        {
+          "relevance_score": "0.645663",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102517"
+        }
+      ],
+      "time_published": "20121017T151133",
+      "title": "INsider: Morgan Stanley in recruiting cross hairs, headhunters say",
+      "topics": [
+        {
+          "relevance_score": "0.929528",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.623897",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.investmentnews.com/wirehouses/insider-morgan-stanley-in-recruiting-cross-hairs-headhunters-say/47230"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.049048,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Citigroup Inc directors ousted CEO Vikram Pandit due to alleged mismanagement of operations causing setbacks with regulators and a loss of credibility with investors. His replacement, Michael Corbat, is expected to enhance productivity and improve relations with regulators. This decision followed issues such as regulatory rejection of shareholder payout plans, a significant writedown, and a credit rating cut, amidst shareholder discontent over Pandit's compensation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.054118"
+        },
+        {
+          "relevance_score": "0.686965",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145739"
+        }
+      ],
+      "time_published": "20121017T052500",
+      "title": "Citi ousted Vikram Pandit for poor execution?",
+      "topics": [
+        {
+          "relevance_score": "0.925649",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.730231",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://m.economictimes.com/news/international/citi-ousted-vikram-pandit-for-poor-execution/articleshow/16845044.cms"
+    },
+    {
+      "authors": [
+        "David Henry"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.039844,
+      "source": "mint",
+      "source_domain": "mint",
+      "summary": "Citigroup CEO Vikram Pandit abruptly resigned following months of tension with the board over issues including compensation and the role of COO John Havens, who also resigned. Michael Corbat will take over as chief executive. The unexpected departure surprised investors and employees, with some analysts suggesting the board desired a more \"soldier-style\" approach from the CEO.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.333063",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.047412"
+        }
+      ],
+      "time_published": "20121017T005400",
+      "title": "Citi CEO Pandit resigns after board clash",
+      "topics": [
+        {
+          "relevance_score": "0.945261",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.702448",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.645596",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.livemint.com/Companies/nkVQ2kMXOpOXKs4IzYY8DJ/Citigroup-CEO-Vikram-Pandit-resigns.html"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.067017,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "Citigroup Inc. announced that Vikram Pandit has stepped down as CEO and board member, effective immediately. Michael Corbat has been elected as the new Chief Executive Officer and a director of the Board. Additionally, President and Chief Operating Officer John Havens has resigned.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.342893",
+          "ticker": "C-P-K",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008342"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102526"
+        }
+      ],
+      "time_published": "20121016T081900",
+      "title": "Citigroup Appoints Michael Corbat As CEO To Succeed Vikram Pandit - Quick Facts",
+      "topics": [
+        {
+          "relevance_score": "0.917546",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.rttnews.com/amp/1984033/citigroup-appoints-michael-corbat-as-ceo-to-succeed-vikram-pandit-quick-facts.aspx"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.114041,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Harvey M. Schwartz, a Rutgers University graduate, is set to become Goldman Sachs Group Inc.'s chief financial officer in January, succeeding David A. Viniar. Schwartz has a long history on Wall Street, including witnessing the 1987 stock market crash and the dot-com bust, and is known for not shrinking from difficult situations. His appointment comes at a challenging time for Goldman Sachs, which is grappling with weak economic growth, regulatory changes, and cost-cutting measures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.293400"
+        },
+        {
+          "relevance_score": "0.608911",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148756"
+        },
+        {
+          "relevance_score": "0.606035",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121852"
+        },
+        {
+          "relevance_score": "0.620827",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127219"
+        },
+        {
+          "relevance_score": "0.584161",
+          "ticker": "TROW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.077289"
+        }
+      ],
+      "time_published": "20121009T173100",
+      "title": "From Rutgers grad to Goldman Sachs CFO, Harvey Schwartz unfazed by Wall Street's darkest days",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.829520",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.745522",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nj.com/business/2012/10/from_morristown_to_goldman_sac.html"
+    },
+    {
+      "authors": [
+        "Bonnie Kavoussi"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.117995,
+      "source": "HuffPost",
+      "source_domain": "HuffPost",
+      "summary": "A report reveals that Jamie Dimon, current CEO of JPMorgan Chase, nearly became the CEO of Home Depot after being fired from Citigroup in 1998. Dimon considered other industries like Microsoft and Amazon before ultimately becoming CEO of Bank One and later JPMorgan Chase. The article speculates on how different the home improvement chain might have been under his leadership, given his outspoken defense of the financial industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234384"
+        },
+        {
+          "relevance_score": "0.844834",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124804"
+        },
+        {
+          "relevance_score": "0.611955",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.133742"
+        },
+        {
+          "relevance_score": "0.634343",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138390"
+        },
+        {
+          "relevance_score": "0.608426",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111874"
+        }
+      ],
+      "time_published": "20121004T151600",
+      "title": "Jamie Dimon Nearly Became CEO Of Home Depot: Report",
+      "topics": [
+        {
+          "relevance_score": "0.945525",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.743565",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.huffpost.com/entry/jamie-dimon-home-depot_n_1940080"
+    },
+    {
+      "authors": [
+        "Sobia Khan & Ravi Teja Sharma"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.176011,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Citi Property Investors and JPMorgan Chase have initiated separate arbitration proceedings against Delhi-based real estate developer BPTP, alleging a breach of contract. The funds claim BPTP failed to provide a time-bound exit for their investments, which were intended through an initial public offering (IPO) that never materialized. The disputes highlight issues within heavily indebted real estate sector, with cases currently ongoing in both Delhi High Court and London.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.322872"
+        },
+        {
+          "relevance_score": "0.800207",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.339928"
+        },
+        {
+          "relevance_score": "0.643951",
+          "ticker": "APO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123984"
+        }
+      ],
+      "time_published": "20121004T070652",
+      "title": "Citi Property, JPMorgan Chase allege breach of contract by BPTP Developers",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.903641",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.947510",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://m.economictimes.com/wealth/personal-finance-news/citi-property-jpmorgan-chase-allege-breach-of-contract-by-bptp-developers/articleshow/16662648.cms"
+    },
+    {
+      "authors": [
+        "The Hacker News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.348482,
+      "source": "The Hacker News",
+      "source_domain": "The Hacker News",
+      "summary": "Six major American financial institutions, including Wells Fargo, JPMorgan Chase, Bank of America, Citigroup, and Bancorp, were targeted by a series of cyber attacks causing internet blackouts and online banking delays. A group calling themselves \"Mrt. Izz ad-Din alQasssam Cyber Fighters\" claimed responsibility, stating the attacks were retaliation for an anti-Islam video and pledged to continue targeting financial institutions. The attacks were identified as denial-of-service (DDoS) attacks, specifically using the \"itsoknoproblembro\" toolkit, designed to overwhelm websites with traffic.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "USB",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.311735"
+        },
+        {
+          "relevance_score": "0.844738",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.335568"
+        },
+        {
+          "relevance_score": "0.741879",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.313777"
+        },
+        {
+          "relevance_score": "0.710057",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.343615"
+        },
+        {
+          "relevance_score": "0.631551",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.323380"
+        }
+      ],
+      "time_published": "20121001T155131",
+      "title": "Cyber Attacks on Six Major American Banks",
+      "topics": [
+        {
+          "relevance_score": "0.905070",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.837603",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://thehackernews.com/2012/10/cyber-attacks-on-six-major-american.html"
+    },
+    {
+      "authors": [
+        "Nicole Perlroth"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.207831,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Six major American banks, including Bank of America and JPMorgan Chase, were hit by denial-of-service cyberattacks last week, causing internet blackouts and difficulties for customers accessing online banking. A group called Izz ad-Din al-Qassam Cyber Fighters claimed responsibility, stating the attacks were retaliation for an anti-Islam video and vowing to continue targeting financial institutions. While the attacks were disruptive and frustrating for customers, they did not compromise bank accounts or funds.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.991831",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.390285"
+        },
+        {
+          "relevance_score": "0.912375",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317199"
+        },
+        {
+          "relevance_score": "0.933393",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338599"
+        },
+        {
+          "relevance_score": "0.870926",
+          "ticker": "USB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307097"
+        },
+        {
+          "relevance_score": "0.867143",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327757"
+        }
+      ],
+      "time_published": "20120930T141623",
+      "title": "Attacks on 6 Banks Frustrate Customers (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.901639",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.845730",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/10/01/business/cyberattacks-on-6-american-banks-frustrate-customers.html"
+    },
+    {
+      "authors": [
+        "Michelle Kantrow-V\u00e1zquez"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.199606,
+      "source": "News is My Business",
+      "source_domain": "News is My Business",
+      "summary": "FirstBank has appointed Michael McDonald as executive vice president and director of the business group, a newly created position aimed at unifying multiple business areas and maximizing market opportunities. McDonald, a veteran banker with over 25 years of experience, will oversee Corporate Banking, FirstBank Securities, and FirstBank Insurance. Thisstrategic move is expected to strengthen FirstBank\u2019s management team and achieve desired results in key market segments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.315481",
+          "ticker": "FBP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017442"
+        },
+        {
+          "relevance_score": "0.633555",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325101"
+        }
+      ],
+      "time_published": "20120926T143616",
+      "title": "FirstBank appoints new executive VP",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://newsismybusiness.com/firstbank-appoints-new-executive-vp/"
+    },
+    {
+      "authors": [
+        "Jim Finkle and Rick Rothacker"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20120921&t=2&i=658097003&w=&fh=&fw=&ll=&pl=&sq=&r=BRE88K1AR",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.129638,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Iranian hackers have launched repeated denial-of-service attacks against Bank of America Corp, JPMorgan Chase & Co, and Citigroup Inc over the past year. These cyberattacks are believed to be retaliation for Western economic sanctions against Iran, though it's unclear if they are state-sponsored or from \"patriotic\" citizens. U.S. officials and the banks involved have largely declined to comment, but Senator Joseph Lieberman stated his belief that Iran's Quds Force is behind the attacks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.345944"
+        },
+        {
+          "relevance_score": "0.992349",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.333808"
+        },
+        {
+          "relevance_score": "0.947541",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312925"
+        }
+      ],
+      "time_published": "20120921T214300",
+      "title": "Iranian hackers target Bank of America, JPMorgan, Citi",
+      "topics": [
+        {
+          "relevance_score": "0.926335",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.717576",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/technology/iranian-hackers-target-bank-of-america-jpmorgan-citi-idUSBRE88K1AR/"
+    },
+    {
+      "authors": [
+        "Soyoung Kim and Greg Roumeliotis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.187519,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Blackstone Group LP has agreed to acquire home security provider Vivint Inc for over $2 billion, including Vivint Solar Inc and 2GIG Technologies. This acquisition aims to capitalize on the growing market for home alarm, air conditioning, and energy management systems in North America. Vivint's management team will remain in place, and the deal is expected to close by year-end.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415870"
+        },
+        {
+          "relevance_score": "0.622688",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141988"
+        },
+        {
+          "relevance_score": "0.608103",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124283"
+        },
+        {
+          "relevance_score": "0.610951",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105938"
+        },
+        {
+          "relevance_score": "0.625603",
+          "ticker": "RJF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118625"
+        }
+      ],
+      "time_published": "20120919T142900",
+      "title": "Blackstone buys security firm Vivint for over $2 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.800506",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732910",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/blackstone-buys-security-firm-vivint-for-over-2-billion-idUSBRE88I0LG/"
+    },
+    {
+      "authors": [
+        "Todd Wallack"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.262407,
+      "source": "Boston.com",
+      "source_domain": "Boston.com",
+      "summary": "Bank of America CEO Brian Moynihan praised the Federal Reserve's decision to pump money into the economy by buying $40 billion in mortgage-backed bonds monthly, deeming it \"the right decision because it's working.\" This move aims to free up capital, spur lending, and lower mortgage rates, with the Fed committed to continuing until unemployment significantly decreases. The announcement led to positive reactions in global markets, although critics remain concerned about potential inflation and effects on savers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306667"
+        },
+        {
+          "relevance_score": "0.622510",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225792"
+        },
+        {
+          "relevance_score": "0.616582",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229788"
+        },
+        {
+          "relevance_score": "0.622412",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230867"
+        }
+      ],
+      "time_published": "20120914T141107",
+      "title": "Bank of America CEO Brian Moynihan supports Federal Reserve\u2019s stimulus plan",
+      "topics": [
+        {
+          "relevance_score": "0.939550",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.863274",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.755448",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.748137",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.602880",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.boston.com/uncategorized/noprimarytagmatch/2012/09/14/bank-of-america-ceo-brian-moynihan-supports-federal-reserves-stimulus-plan/"
+    },
+    {
+      "authors": [
+        "Harriet Davies"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.344328,
+      "source": "Wealth Briefing",
+      "source_domain": "Wealth Briefing",
+      "summary": "Morgan Stanley and Citigroup have reached an agreement on the valuation of Morgan Stanley Smith Barney at $13.5 billion, paving the way for Morgan Stanley to acquire Citi's stake. Morgan Stanley will initially purchase an additional 14% stake and aims to acquire the remaining 35% stake by June 2015. This deal resolves previous disagreements on valuation between the two financial giants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.387939"
+        },
+        {
+          "relevance_score": "0.882711",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267991"
+        }
+      ],
+      "time_published": "20120911T151134",
+      "title": "Morgan Stanley, Citi Agree On Smith Barney Valuation",
+      "topics": [
+        {
+          "relevance_score": "0.932294",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.708542",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.wealthbriefing.com/html/article.php/morgan-stanley,-citi-agree-on-smith-barney-valuation"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305545,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "Morgan Stanley and Citigroup have settled a dispute over the valuation of their jointly-owned brokerage firm, Morgan Stanley Smith Barney. Morgan Stanley will acquire Citigroup's 49 percent interest in the firm in stages, gaining full ownership by June 1, 2015, in a deal valuing Smith Barney at $13.5 billion. This agreement follows a significant disagreement on valuation and offers a strategic win for Morgan Stanley during a period of declining investment banking revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403004"
+        },
+        {
+          "relevance_score": "0.923451",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249545"
+        }
+      ],
+      "time_published": "20120911T114600",
+      "title": "Morgan Stanley to buy Citi's Smith Barney stake",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.940875",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.719055",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/morgan-stanley-to-buy-citis-smith-barney-stake/"
+    },
+    {
+      "authors": [
+        "ABC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.285754,
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "source_domain": "ABC News - Breaking News, Latest News and Videos",
+      "summary": "Many major credit card companies are discontinuing their credit-protection plans due to scrutiny over deceptive marketing practices and concerns from consumer groups about their value. Capital One will refund $150 million to customers and pay $60 million in penalties following charges of deceptive tactics. Other companies like Bank of America, American Express, and Chase have also stopped offering these products to new customers, while Citi Cards has paused telephone sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.510876"
+        },
+        {
+          "relevance_score": "0.811960",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.238243"
+        },
+        {
+          "relevance_score": "0.705806",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205051"
+        },
+        {
+          "relevance_score": "0.637139",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.206753"
+        },
+        {
+          "relevance_score": "0.560561",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222550"
+        }
+      ],
+      "time_published": "20120905T211200",
+      "title": "Many card companies dumping credit-protection plans",
+      "topics": [
+        {
+          "relevance_score": "0.943602",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.708740",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://abcnews.go.com/Business/card-companies-dumping-credit-protection-plans/story?id=17166175"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20120830&t=2&i=651000851&w=640&fh=&fw=&ll=&pl=&sq=&r=LYNXNPE87T0P4",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.166997,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Citigroup Inc. has agreed to pay $590 million to settle a shareholder lawsuit alleging the bank hid tens of billions of dollars in toxic mortgage assets, marking one of the largest settlements stemming from the global financial crisis. The settlement resolves claims that shareholders incurred massive losses due to the bank's failure to timely write down collateralized debt obligations and engaging in self-dealing transactions. While Citigroup denied wrongdoing, it stated the accord is a significant step towards resolving claims arising from the financial crisis period.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.286111"
+        },
+        {
+          "relevance_score": "0.644400",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103392"
+        },
+        {
+          "relevance_score": "0.573760",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.111055"
+        }
+      ],
+      "time_published": "20120830T083100",
+      "title": "Citigroup settles shareholder CDO lawsuit for $590 million",
+      "topics": [
+        {
+          "relevance_score": "0.930180",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.732560",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/citigroup-settles-shareholder-cdo-lawsuit-for-590-million-idUSBRE87S0UD/"
+    },
+    {
+      "authors": [
+        "Todd Wallack"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.101628,
+      "source": "The Boston Globe",
+      "source_domain": "The Boston Globe",
+      "summary": "Bank of America and Webster Bank are reducing the number of ATMs they operate in Massachusetts due to various strategic decisions. Bank of America is streamlining operations by shedding contracts with McDonald's and Simon Malls, and closing branches, while Webster Bank is focusing on updating its own ATM network rather than renewing its Walgreens agreement. Despite these reductions, Bank of America remains the largest ATM provider in the state.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.297396"
+        },
+        {
+          "relevance_score": "0.738452",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136506"
+        },
+        {
+          "relevance_score": "0.604832",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124160"
+        }
+      ],
+      "time_published": "20120824T141108",
+      "title": "Major banks to have fewer ATMs in Mass.",
+      "topics": [
+        {
+          "relevance_score": "0.908093",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.645048",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bostonglobe.com/business/2012/08/24/bank-america-webster-bank-reduce-atms-massachusetts/g5OBoPLNnCKp6apH0CpbWN/story.html"
+    },
+    {
+      "authors": [
+        "MC Govardhana Rangan & Anita Bhoir"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.15749,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Ken Moelis, founder of Moelis & Co., is expanding his advisory services to India, targeting billionaire entrepreneurs looking for overseas assets, particularly in the US. He believes Indian investments are welcomed in the US, unlike Chinese investments which face security clearance issues. Moelis aims to build relationships with Indian CEOs seeking global opportunities, emphasizing a boutique advisory approach over large financial institutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.281709"
+        },
+        {
+          "relevance_score": "0.740782",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125633"
+        },
+        {
+          "relevance_score": "0.627839",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096511"
+        },
+        {
+          "relevance_score": "0.606183",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.080620"
+        }
+      ],
+      "time_published": "20120810T051100",
+      "title": "Ken Moelis sets sight on India, to assist billionaire entrepreneurs seeking overseas assets",
+      "topics": [
+        {
+          "relevance_score": "0.804972",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.734686",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://m.economictimes.com/news/company/corporate-trends/ken-moelis-sets-sight-on-india-to-assist-billionaire-entrepreneurs-seeking-overseas-assets/articleshow/15428825.cms"
+    },
+    {
+      "authors": [
+        "Post Staff Report"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019211,
+      "source": "New York Post",
+      "source_domain": "New York Post",
+      "summary": "E-Trade Financial has ousted its CEO, Steven Freiberg, after just two years of his four-year contract, as the online broker struggles with declining customer trading. The company is searching for a new CEO and has appointed its chairman, Frank Petrilli, to the top spot temporarily to strengthen its financial position. E-Trade's net income dropped 16 percent in the April-June quarter, and its shares have lost more than half their value in the past year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.346755",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024511"
+        }
+      ],
+      "time_published": "20120809T134600",
+      "title": "E-Trade CEO ousted",
+      "topics": [
+        {
+          "relevance_score": "0.943311",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.819782",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.749682",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://nypost.com/2012/08/09/e-trade-ceo-ousted/"
+    },
+    {
+      "authors": [
+        "Bloomberg News Walter Hamilton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.100344,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Knight Capital Group faced immense pressure and potential bankruptcy after a software bug caused a $440 million trading loss, nearly four times its earnings from the previous year. The incident led clients like Citigroup and Vanguard to curtail business and sent Knight's shares plummeting 75% in two days, prompting the firm to explore strategic and financial alternatives. Analysts and market experts warned of the urgent need for capital or a buyer to keep the company afloat.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.867061",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136172"
+        }
+      ],
+      "time_published": "20120802T212100",
+      "title": "Knight Capital Group under pressure after $440 million electronic trading loss",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.817293",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.716840",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nj.com/business/2012/08/knight_capital_group_under_pre.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.187266,
+      "source": "Bernews",
+      "source_domain": "Bernews",
+      "summary": "Bermuda-based Assured Guaranty Ltd. has appointed Bonnie L. Howard as an independent director to its board, where she will also serve on the Audit and Risk Oversight committees. Ms. Howard brings over 30 years of experience in auditing and risk management, having previously been Chief Auditor and Global Head of Control and Emerging Risk at Citigroup. This appointment is expected to significantly contribute to the company's corporate governance, credit, and risk culture.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.311247",
+          "ticker": "AGO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005599"
+        },
+        {
+          "relevance_score": "0.885312",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331995"
+        }
+      ],
+      "time_published": "20120801T140133",
+      "title": "Bonnie Howard Joins Assured\u2019s Board Of Directors",
+      "topics": [
+        {
+          "relevance_score": "0.913600",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://bernews.com/2012/08/bonnie-howard-joins-assureds-board-of-directors/"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": "EMMANUEL DUNAND/AFP/GettyImages",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.113733,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Matt Zames, a Franklin Lakes resident and former hedge fund trader, has been promoted to co-chief operating officer at JPMorgan Chase & Co. This promotion follows his crucial role in addressing a $5.8 billion trading loss in the bank's chief investment office. The article highlights Zames's past experience with Long-Term Capital Management and underscores his rising prominence as a potential successor to CEO Jamie Dimon.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318346"
+        },
+        {
+          "relevance_score": "0.618790",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142904"
+        },
+        {
+          "relevance_score": "0.639074",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145591"
+        }
+      ],
+      "time_published": "20120730T171400",
+      "title": "Franklin Lakes man rises to JPMorgan's top tier after stunning loss shook bank",
+      "topics": [
+        {
+          "relevance_score": "0.925687",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.713961",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nj.com/business/2012/07/franklin_lakes_man_rises_to_jp.html"
+    },
+    {
+      "authors": [
+        "Haute Living"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.092325,
+      "source": "Haute Living",
+      "source_domain": "Haute Living",
+      "summary": "Vanessa Grout, a Miami native, attorney, and real estate investment manager for Vector Group Ltd., has taken on the role of President of Douglas Elliman Florida. She is spearheading the 100-year-old New York-based real estate firm's expansion into the South Florida market. Grout notes the significant percentage of New Yorkers in Miami's real estate deals and aims to bring Douglas Elliman's strong brand recognition to Miami Beach with new office openings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.346522",
+          "ticker": "DOUG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030222"
+        },
+        {
+          "relevance_score": "0.631817",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123586"
+        }
+      ],
+      "time_published": "20120730T143110",
+      "title": "Vanessa Grout",
+      "topics": [
+        {
+          "relevance_score": "0.914087",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.620040",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://hauteliving.com/2012/07/vanessa-grout/298435/"
+    },
+    {
+      "authors": [
+        "Carol J. Loomis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.258681,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "This article chronicles the remarkable corporate journey of Sanford I. Weill, chairman of Travelers Group Inc., detailing his transformation of a small loan business into a financial services giant. It highlights Travelers' impressive growth, its ranking on the FORTUNE 500, Weill's strategic acquisitions, and his focus on shareholder value. The piece also delves into his personal life, family involvement in the business, and unique management style, offering insights into his past setbacks and continuous drive for deals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.900564",
+          "ticker": "PRI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335222"
+        },
+        {
+          "relevance_score": "0.845009",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.203410"
+        },
+        {
+          "relevance_score": "0.628595",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200687"
+        },
+        {
+          "relevance_score": "0.622066",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239228"
+        }
+      ],
+      "time_published": "20120729T152635",
+      "title": "Sandy Weill: The Travelers chairman is happy",
+      "topics": [
+        {
+          "relevance_score": "0.936642",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.808549",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.721824",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://fortune.com/article/sandy-weill-the-travelers-chairman-is-happy-fortune-1997/"
+    },
+    {
+      "authors": [
+        "David Henry and Jed Horowitz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.049149,
+      "source": "Insurance Journal",
+      "source_domain": "Insurance Journal",
+      "summary": "Sanford \"Sandy\" Weill, who built Citigroup into a financial conglomerate, has surprisingly called for the break-up of big banks, reversing his previous stance of dismantling the Glass-Steagall Act. This move is supported by other former banking executives and regulators, who argue that splitting up these institutions would allow them to innovate and prevent future financial crises, while current bank executives seem to be shrinking balance sheets rather than completely dismantling. Despite growing calls, there appears to be limited political will in Washington to act on these suggestions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.336130",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010762"
+        }
+      ],
+      "time_published": "20120726T141622",
+      "title": "Former Citigroup Chief Weill Surprises with Call for Break-Up of Big Banks",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.817148",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.603691",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.insurancejournal.com/news/national/2012/07/26/257227.htm"
+    },
+    {
+      "authors": [
+        "Lauren Feeney"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.163838,
+      "source": "BillMoyers.com",
+      "source_domain": "BillMoyers.com",
+      "summary": "Sandy Weill, who orchestrated the merger of Travelers Group and Citicorp to form Citigroup, has surprisingly called for the splitting up of investment banking from traditional banking. This statement comes despite his previous role in shattering the Glass-Steagall Act, a move now widely considered a major cause of the 2008 financial crisis. His former co-CEO, John Reed, had also apologized for his part in the crisis.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.240566"
+        },
+        {
+          "relevance_score": "0.633225",
+          "ticker": "TRV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128456"
+        }
+      ],
+      "time_published": "20120726T141622",
+      "title": "Sandy Weill Says Big Banks Should Split Up",
+      "topics": [
+        {
+          "relevance_score": "0.931375",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.947075",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.801338",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.737346",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.625217",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://billmoyers.com/2012/07/26/sandy-weill-says-big-banks-should-split-up/"
+    },
+    {
+      "authors": [
+        "Kevin Drum"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.095332,
+      "source": "Mother Jones",
+      "source_domain": "Mother Jones",
+      "summary": "Former Citigroup CEO Sandy Weill, widely known for his role in repealing Glass-Steagall, has surprisingly advocated for the breakup of big banks. This reversal of his long-held stance occurred during an interview on CNBC's Squawk Box, where he suggested splitting investment banking from traditional deposit-taking and lending to protect taxpayers and depositors. While the motivation for his change of heart is speculated, it marks a significant shift from a key architect of financial deregulation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.339471",
+          "ticker": "TRV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001280"
+        },
+        {
+          "relevance_score": "0.926152",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324176"
+        },
+        {
+          "relevance_score": "0.745545",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129154"
+        },
+        {
+          "relevance_score": "0.638580",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134503"
+        },
+        {
+          "relevance_score": "0.573682",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.122620"
+        }
+      ],
+      "time_published": "20120725T155112",
+      "title": "Sandy Weill Joins Occupy Wall Street Movement",
+      "topics": [
+        {
+          "relevance_score": "0.949856",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.725333",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.motherjones.com/kevin-drum/2012/07/sandy-weill-joins-occupy-wall-street-movement/"
+    },
+    {
+      "authors": [
+        "Kevin Roose"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.110713,
+      "source": "New York Magazine",
+      "source_domain": "New York Magazine",
+      "summary": "Former Citigroup chairman Sandy Weill, who played a key role in repealing the Glass-Steagall Act, has surprisingly reversed his stance. He now advocates for the return of Glass-Steagall and the breakup of large banks, arguing it would protect taxpayers and depositors. This pivot has brought the debate over the size and risk of \"too-big-to-fail\" banks into the mainstream.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.951921",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117944"
+        },
+        {
+          "relevance_score": "0.634594",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.100222"
+        },
+        {
+          "relevance_score": "0.573735",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118406"
+        }
+      ],
+      "time_published": "20120725T141622",
+      "title": "Former Citigroup Boss Goes H.A.M. on Big Banks, Advocates Return of Glass-Steagall",
+      "topics": [
+        {
+          "relevance_score": "0.913933",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.824535",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.724887",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://nymag.com/intelligencer/2012/07/sandy-weill-goes-ham-on-big-banks.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.210477,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "Palo Alto Networks (NYSE: PANW) shares climbed 26% on its first day of trading, closing at $53, up from its $42 offering price. The company offered 6.3 million shares after increasing its initial price range. Palo Alto Networks specializes in advanced firewall technology designed to detect modern cyber threats like malware, botnets, and phishing attacks, competing with companies such as Barracuda Networks and McAfee.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.969629",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.489210"
+        },
+        {
+          "relevance_score": "0.636551",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112428"
+        },
+        {
+          "relevance_score": "0.589772",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105220"
+        },
+        {
+          "relevance_score": "0.561370",
+          "ticker": "SNPS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135036"
+        }
+      ],
+      "time_published": "20120720T151100",
+      "title": "Firewall Company Palo Alto Networks Up 26% In IPO",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.845819",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://techcrunch.com/2012/07/20/firewall-company-palo-alto-networks-up-26-in-ipo/"
+    },
+    {
+      "authors": [
+        "Antoine Gara"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.381968,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Morgan Stanley's second-quarter earnings heavily missed analyst estimates due to abysmal trading results, rather than the Facebook IPO. A Moody's ratings downgrade significantly impacted its trading revenue, forcing the bank to post substantial additional collateral. Despite challenges in trading, the bank showed progress in its wealth management unit and is strategically shifting towards less capital-intensive businesses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.621689"
+        },
+        {
+          "relevance_score": "0.624579",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115852"
+        }
+      ],
+      "time_published": "20120719T125200",
+      "title": "Forget Facebook, Morgan Stanley Can\u2019t Trade Its Way Out of a Paper Bag",
+      "topics": [
+        {
+          "relevance_score": "0.914276",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.833065",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.713770",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.604719",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/07/19/forget-facebook-morgan-stanley-cant-trade-its-way-out-of-a-paper-bag.html"
+    },
+    {
+      "authors": [
+        "John Carney"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.089116,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "William Ackman, founder of Pershing Square Capital Management, announced his fund would take an activist role in Procter & Gamble, acquiring approximately $1.8 billion worth of P&G stock. Despite owning roughly 1 percent of the company, Ackman believes Pershing Square can influence management at the $177 billion market cap company. This move follows Pershing Square selling its Citigroup shares to fund the P&G stake.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.251677"
+        },
+        {
+          "relevance_score": "0.609573",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143352"
+        }
+      ],
+      "time_published": "20120718T172500",
+      "title": "Ackman Takes Activist Stance on P&G",
+      "topics": [
+        {
+          "relevance_score": "0.913853",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.709037",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.607159",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/07/18/ackman-takes-activist-stance-on-pg.html"
+    },
+    {
+      "authors": [
+        "Joanna Slater"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.193719,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "JPMorgan Chase CEO Jamie Dimon is facing scrutiny over a massive trading debacle that resulted in billions of dollars in losses and damaged the bank's reputation. As the bank prepares to report its second-quarter earnings, investors are keenly awaiting details on the extent of the losses from the \"London Whale\" trades and the bank's strategy to address the fallout. This event highlights the ongoing debate about bank regulation, particularly the Volcker Rule, as Dimon has been a vocal critic of increased oversight while his bank undertook risky bets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.375221"
+        },
+        {
+          "relevance_score": "0.597711",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142194"
+        },
+        {
+          "relevance_score": "0.553827",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115447"
+        },
+        {
+          "relevance_score": "0.580010",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141906"
+        },
+        {
+          "relevance_score": "0.597940",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117602"
+        }
+      ],
+      "time_published": "20120712T150115",
+      "title": "Jamie Dimon faces the music",
+      "topics": [
+        {
+          "relevance_score": "0.924599",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.805798",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.732540",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.613325",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/streetwise/jamie-dimon-faces-the-music/article4411573/"
+    },
+    {
+      "authors": [
+        "Express-Times staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.159453,
+      "source": "lehighvalleylive",
+      "source_domain": "lehighvalleylive",
+      "summary": "OraSure Technologies Inc. announced its public stock offering will be priced at $12.30 per share, consisting of 6.1 million shares. The Bethlehem-based company expects to net $70.2 million from the offering. This follows the company's recent government approval to sell its in-home rapid HIV test over the counter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OSUR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242868"
+        },
+        {
+          "relevance_score": "0.613630",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148962"
+        }
+      ],
+      "time_published": "20120711T191300",
+      "title": "OraSure Technologies Inc. sets stock offering at $12.30 per share",
+      "topics": [
+        {
+          "relevance_score": "0.941543",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.825203",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.lehighvalleylive.com/bethlehem/2012/07/orasure_technologies_inc_sets.html"
+    },
+    {
+      "authors": [
+        "michaelratliff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.242037,
+      "source": "Commercial Search",
+      "source_domain": "Commercial Search",
+      "summary": "This article announces several key personnel changes and appointments in the commercial real estate sector. Robert Sulentic is set to succeed Brett White as CEO of CBRE, while other significant moves include new leadership roles at Sperry Van Ness, HFF, UBS, JLL Canada, MB Real Estate, and Cushman & Wakefield's healthcare group.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JLL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.276546"
+        },
+        {
+          "relevance_score": "0.623945",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201564"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CBRE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.251084"
+        },
+        {
+          "relevance_score": "0.615884",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201465"
+        }
+      ],
+      "time_published": "20120709T150109",
+      "title": "July \u2013 Briefs/People",
+      "topics": [
+        {
+          "relevance_score": "0.917505",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.723540",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.616405",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.commercialsearch.com/news/july-briefspeople/"
+    },
+    {
+      "authors": [
+        "the CNN Wire Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.23315,
+      "source": "CNN",
+      "source_domain": "CNN",
+      "summary": "Barclays CEO Bob Diamond resigned amidst a scandal where the bank was fined over $450 million for manipulating lending rates (Libor). His resignation is effective immediately, and Chairman Marcus Agius, who had previously resigned, will now stay on to lead the search for a new chief executive. The scandal has led to widespread public and political anger, with other banks also under investigation for similar practices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.331465",
+          "ticker": "BCM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003042"
+        },
+        {
+          "relevance_score": "0.622127",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309111"
+        },
+        {
+          "relevance_score": "0.640069",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.310144"
+        },
+        {
+          "relevance_score": "0.606879",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.315474"
+        }
+      ],
+      "time_published": "20120704T062500",
+      "title": "Barclays bank CEO Diamond resigns amid scandal",
+      "topics": [
+        {
+          "relevance_score": "0.938937",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.704800",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cnn.com/2012/07/03/business/barclays-diamond-resigns"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.240095,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "This article details exchanges between Barclays and the Bank of England in October 2008 concerning Barclays' high LIBOR submissions after the Lehman Brothers collapse. It includes an internal Barclays memo from Bob Diamond about a call with Paul Tucker of the Bank of England, discussing concerns from Whitehall about Barclays' LIBOR rates. The memo reveals that while Diamond did not see it as an instruction, Jerry del Missier interpreted it as a directive to lower LIBOR submissions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BCS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.430974"
+        },
+        {
+          "relevance_score": "0.628487",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.240077"
+        },
+        {
+          "relevance_score": "0.637166",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.200135"
+        },
+        {
+          "relevance_score": "0.633467",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245075"
+        },
+        {
+          "relevance_score": "0.631251",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.209574"
+        }
+      ],
+      "time_published": "20120703T114100",
+      "title": "Barclays scandal: exchanges with the Bank of England",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.801643",
+          "topic": "economy_monetary"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2012/jul/03/barclays-bank-of-england-email"
+    },
+    {
+      "authors": [
+        "Gordon Platt"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.048634,
+      "source": "Global Finance Magazine",
+      "source_domain": "Global Finance Magazine",
+      "summary": "Inmet Mining raised $1.5 billion in the US high-yield debt market to finance its Cobre Panama copper mining project. The issue of unsecured eight-year notes was the largest high-yield offering in May, despite a subdued overall market and investors seeking less-risky alternatives. The project, a joint venture with South Korean firms, is estimated to cost $6.2 billion and will involve the development of an open-pit mine, a processing plant, and port facilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.310841",
+          "ticker": "DHY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045762"
+        },
+        {
+          "relevance_score": "0.883090",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.075520"
+        },
+        {
+          "relevance_score": "0.869382",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.059357"
+        },
+        {
+          "relevance_score": "0.894829",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099179"
+        },
+        {
+          "relevance_score": "0.861683",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099293"
+        }
+      ],
+      "time_published": "20120701T143102",
+      "title": "Debt: Inmet Mining Funds Panama Project",
+      "topics": [
+        {
+          "relevance_score": "0.941619",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.812069",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.734358",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://gfmag.com/features/debt-inmet-mining-funds-panama-project/"
+    },
+    {
+      "authors": [
+        "Ed Christman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.181767,
+      "source": "Billboard",
+      "source_domain": "Billboard",
+      "summary": "A Sony Corp. of America-led investor consortium has finalized its acquisition of EMI Music Publishing for $2.2 billion, receiving regulatory approval from the Federal Trade Commission just hours before the June 30th deadline. This deal will see Sony/ATV Music Publishing administer over 2 million songs and is expected to trigger further divestitures of catalogs, including Virgin music-publishing. Despite strong regulatory scrutiny and opposition from Impala, the European trade group, the EU approved the deal after revised divestiture offers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SONY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415695"
+        },
+        {
+          "relevance_score": "0.712778",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332950"
+        },
+        {
+          "relevance_score": "0.644501",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128622"
+        },
+        {
+          "relevance_score": "0.567115",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106381"
+        }
+      ],
+      "time_published": "20120629T154052",
+      "title": "Updated: Sony-Led Group Closes Purchase of EMI Music Publishing",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.billboard.com/music/music-news/updated-sony-led-group-closes-purchase-of-emi-music-publishing-1084866/"
+    },
+    {
+      "authors": [
+        "Freeman"
+      ],
+      "banner_image": "https://music-row-website-assets.s3.amazonaws.com/wp-content/uploads/2012/06/10191656/EMIsony1.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.204401,
+      "source": "MusicRow.com",
+      "source_domain": "MusicRow.com",
+      "summary": "The Federal Trade Commission has approved the sale of EMI Music Publishing to a Sony-led group for $2.2 billion, with no divestitures required in the U.S. This follows European approval in April, which mandated some divestitures. The acquisition makes the combined entity the world's largest music publishing catalog, though Sony and the Michael Jackson estate will own only 38 percent due to a complex financial arrangement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SONY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442746"
+        },
+        {
+          "relevance_score": "0.608158",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128838"
+        },
+        {
+          "relevance_score": "0.642284",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113845"
+        }
+      ],
+      "time_published": "20120629T101527",
+      "title": "FTC Approves Sony Group Purchase of EMI Music Publishing",
+      "topics": [
+        {
+          "relevance_score": "0.911640",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.746598",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://musicrow.com/2012/06/ftc-approves-sale-of-emi-music-publishing-to-sony-group/"
+    },
+    {
+      "authors": [
+        "ROBERT BARR"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.407241,
+      "source": "Lakeland Ledger",
+      "source_domain": "Lakeland Ledger",
+      "summary": "The UK is investigating several global banks, including HSBC, RBS, UBS, and Citigroup, for alleged financial market manipulation following a $453 million fine against Barclays Bank for manipulating the LIBOR rate. Barclays' share price fell significantly, and its chief executive, Bob Diamond, is facing calls to resign despite waiving his bonus. The scandal is expected to lead to further substantial fines and lawsuits for the involved banks, underscoring systemic issues in the financial sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BCS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.627111"
+        },
+        {
+          "relevance_score": "0.730054",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.449237"
+        },
+        {
+          "relevance_score": "0.647806",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.344645"
+        },
+        {
+          "relevance_score": "0.603873",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309225"
+        },
+        {
+          "relevance_score": "0.616081",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.329460"
+        }
+      ],
+      "time_published": "20120628T141125",
+      "title": "UK Probing More Global Banks Connected to Barclays Bank For Interest Rate Fixing",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.930710",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.803497",
+          "topic": "economy_monetary"
+        }
+      ],
+      "url": "https://www.theledger.com/story/news/2012/06/29/uk-probing-more-global-banks-connected-to-barclays-bank-for-interest-rate-fixing/26500841007/"
+    },
+    {
+      "authors": [
+        "Tom Burroughes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.323986,
+      "source": "Wealth Briefing Asia",
+      "source_domain": "Wealth Briefing Asia",
+      "summary": "Moody's Investors Service downgraded the ratings of 15 global banks and securities firms with global capital markets operations, citing volatile market conditions and risks of significant losses. The downgrades, ranging from one to three notches, had been anticipated since February when the agency announced its review. All affected banks, including major players like Bank of America, HSBC, and UBS, have substantial wealth management businesses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101228"
+        },
+        {
+          "relevance_score": "0.867595",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.447455"
+        },
+        {
+          "relevance_score": "0.852160",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.449869"
+        },
+        {
+          "relevance_score": "0.849488",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.379987"
+        },
+        {
+          "relevance_score": "0.819150",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.375888"
+        }
+      ],
+      "time_published": "20120622T151108",
+      "title": "Moody's Downgrades Ratings Of 15 Global Banking Groups",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.931148",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.624054",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://wealthbriefingasia.com/article.php/Moody's-Downgrades-Ratings-Of-15-Global-Banking-Groups"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.385366,
+      "source": "Sarawak Report",
+      "source_domain": "Sarawak Report",
+      "summary": "The complaint in Switzerland against UBS AG, for banking timber kickbacks on behalf of Sabah Chief Minister Musa Aman, has been elevated to a federal level, intensifying scrutiny on both UBS and Musa Aman. The case highlights suspicious transactions involving Michael Chia, who used millions of dollars in cashier orders from HSBC to open UBS accounts. Financial experts and legal scholars are questioning the integrity of these banks in handling such large, potentially illicit transfers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMUB",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.419597"
+        },
+        {
+          "relevance_score": "0.627950",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.328199"
+        }
+      ],
+      "time_published": "20120622T140619",
+      "title": "More Questions In Switzerland Turn Up The Heat On UBS AG Bank \u2013 And On Musa Aman!",
+      "topics": [
+        {
+          "relevance_score": "0.947794",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.611523",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.sarawakreport.org/2012/06/more-questions-in-switzerland-turn-up-the-heat-on-ubs-ag-bank-and-on-musa-aman/"
+    },
+    {
+      "authors": [
+        "Nathaniel Popper"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.256105,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Despite increased shareholder activism and public outcry, CEO pay continues to climb. A study by Equilar for The New York Times shows the median pay for the top 200 CEOs reached $14.5 million in 2011, marking a 5 percent increase. Experts note that while some corporate pay practices have shifted towards long-term performance, the changes are not significant enough to quell public anger over executive compensation, especially amidst high unemployment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.930243",
+          "ticker": "SPG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334541"
+        },
+        {
+          "relevance_score": "0.731692",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314174"
+        },
+        {
+          "relevance_score": "0.623695",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338475"
+        },
+        {
+          "relevance_score": "0.609114",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115928"
+        },
+        {
+          "relevance_score": "0.582370",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107027"
+        }
+      ],
+      "time_published": "20120616T154054",
+      "title": "C.E.O. Pay Is Rising Despite the Din (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.807359",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.717417",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/06/17/business/executive-pay-still-climbing-despite-a-shareholder-din.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309831,
+      "source": "RIABiz",
+      "source_domain": "RIABiz",
+      "summary": "A bank founded by former Merrill Lynch executives has grown its Registered Investment Advisor (RIA) arm to $3 billion in assets. This growth follows the strategic hiring of a former Citi executive as its new CEO. The move highlights a significant development in the advisory community, demonstrating rapid expansion fueled by experienced leadership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.931729",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306371"
+        }
+      ],
+      "time_published": "20120529T141622",
+      "title": "Bank founded by ex-Merrill chiefs spurs RIA arm to $3 billion after hiring a former Citi chief as CEO",
+      "topics": [
+        {
+          "relevance_score": "0.920366",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://riabiz.com/a/2012/5/29/bank-founded-by-ex-merrill-chiefs-spurs-ria-arm-to-3-billion-after-hiring-a-former-citi-chief-as-ceo"
+    },
+    {
+      "authors": [
+        "Jason Lange"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/-x-F15vPHkH5Z3S1vW_9wN_qC-c=/1920x0/filters:format(jpg):quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/V77E4D3E6JLTXJ3FHRN5M4E2OQ.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.299756,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "The U.S. shale energy boom is poised to significantly boost economic growth by slashing natural gas prices, thereby cutting production costs for factories and attracting investment. This energy revolution could transform the U.S. into a net exporter of fuels, adding a half to a full percentage point to annual GDP growth in the coming years. The lower energy costs are already reshaping industries like trucking and petrochemicals, leading to new investments and job creation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.927613",
+          "ticker": "EMN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315754"
+        },
+        {
+          "relevance_score": "0.737304",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327958"
+        },
+        {
+          "relevance_score": "0.614965",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267210"
+        },
+        {
+          "relevance_score": "0.615274",
+          "ticker": "UPS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319012"
+        },
+        {
+          "relevance_score": "0.571884",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232776"
+        }
+      ],
+      "time_published": "20120524T150400",
+      "title": "Shale energy boom dangles prospect of leap in economic growth",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.921860",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.807707",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/shale-energy-boom-dangles-prospect-of-leap-in-economic-growth-idUSBRE84N10P/"
+    },
+    {
+      "authors": [
+        "Tamsin McMahon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.073925,
+      "source": "Macleans.ca",
+      "source_domain": "Macleans.ca",
+      "summary": "ING Direct, once a pioneer in online banking in Canada, is struggling to reinvent itself amidst increased competition from both direct banks and the Big Six Canadian banks, and declining savings rates. The company is shifting its focus from being solely a savings-oriented bank to a full-service institution, expanding its product offerings and rebranding its image. Despite these efforts and some product success, its growth is challenged by market saturation, low interest rates, and financial difficulties of its Dutch parent company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.974586",
+          "ticker": "ING",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.175232"
+        },
+        {
+          "relevance_score": "0.672115",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106622"
+        },
+        {
+          "relevance_score": "0.550938",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096176"
+        },
+        {
+          "relevance_score": "0.597223",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.055714"
+        },
+        {
+          "relevance_score": "0.589882",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.092435"
+        }
+      ],
+      "time_published": "20120524T145611",
+      "title": "ING Direct scrambles to reinvent itself",
+      "topics": [
+        {
+          "relevance_score": "0.939764",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.804597",
+          "topic": "economy_monetary"
+        }
+      ],
+      "url": "https://macleans.ca/economy/business/ing-direct-scrambles-to-reinvent-itself/"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "https://www.sentinel-standard.com/gciaf/prod/p?a=pageview&p=NISS-TEALIUM-TANGENT&m=web&k=f14ebdd6-0569-4c64-af73-99937bc06379&s=noscript",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.382612,
+      "source": "Sentinel-Standard",
+      "source_domain": "Sentinel-Standard",
+      "summary": "Chemical Financial Corporation announced that its subsidiary Chemical Bank has entered into an agreement to acquire 21 branches from Independent Bank. This acquisition, involving approximately $420 million in customer deposits and $40 million in loans, expands Chemical Bank's footprint in Northeast Michigan and Battle Creek. The transaction is expected to be immediately accretive to earnings per share and close in the third quarter of 2012, subject to regulatory approvals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBCP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.470446"
+        },
+        {
+          "relevance_score": "0.616263",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300592"
+        }
+      ],
+      "time_published": "20120523T120932",
+      "title": "Chemical Bank Acquires 21 Branches in Northeast Michigan & Battle Creek",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.836235",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.726080",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.sentinel-standard.com/story/business/2012/05/23/chemical-bank-acquires-21-branches/63774352007/"
+    },
+    {
+      "authors": [
+        "Jeff Horwitz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.259692,
+      "source": "American Banker",
+      "source_domain": "American Banker",
+      "summary": "The FDIC has sued Bank of America, Citigroup, and JPMorgan Chase, among other banks, for $92 million over mortgage-backed securities, alleging shoddy appraisals and underwriting defects. acting as a receiver for failed banks Strategic Capital Bank and Citizens National Bank, the FDIC claims the banks delivered false assurances about the quality of the securities portfolio. The litigation highlights an ongoing dispute over retroactive appraisal methodologies used to determine loan-to-value ratios.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.323346",
+          "ticker": "USB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.004263"
+        },
+        {
+          "relevance_score": "0.835618",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.308196"
+        },
+        {
+          "relevance_score": "0.847225",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.343267"
+        },
+        {
+          "relevance_score": "0.834115",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.300056"
+        }
+      ],
+      "time_published": "20120521T162400",
+      "title": "FDIC Sues Banks over Securitization Appraisals",
+      "topics": [
+        {
+          "relevance_score": "0.926324",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.743242",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.americanbanker.com/news/fdic-sues-banks-over-securitization-appraisals"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.357304,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Barclays Center has selected Ticketmaster as its exclusive official ticketing provider, offering both primary ticketing and a resale marketplace through TicketsNow. This partnership, which makes Ticketmaster a Founding Partner of Barclays Center, aims to provide fans with transparent, secure, and convenient access to tickets for all events, including Brooklyn Nets games, using advanced tools like Pricemaster and LiveAnalytics.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.956703",
+          "ticker": "LYV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.461692"
+        },
+        {
+          "relevance_score": "0.625511",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272016"
+        }
+      ],
+      "time_published": "20120521T100000",
+      "title": "Ticketmaster to Provide Primary and Resale Ticketing Solution for Barclays Center",
+      "topics": [
+        {
+          "relevance_score": "0.836897",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.713983",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.603173",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.646663",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/ticketmaster-to-provide-primary-and-resale-ticketing-solution-for-barclays-center-152281005.html"
+    },
+    {
+      "authors": [
+        "Jessica Silver-Greenberg and Nelson D. Schwartz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.246486,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Internal discord within JPMorgan Chase's chief investment office is being blamed for how the bank incurred a multibillion-dollar trading loss, initially estimated at $2 billion but now at least $3 billion. The unit's head, Ina Drew, who had previously earned CEO Jamie Dimon's trust, was frequently absent after contracting Lyme disease in 2010, allowing personality clashes and internal divisions to escalate. This strife contributed to the unit making riskier bets and ultimately to the significant trading losses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.466573"
+        },
+        {
+          "relevance_score": "0.560479",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139480"
+        },
+        {
+          "relevance_score": "0.582273",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106805"
+        }
+      ],
+      "time_published": "20120519T150114",
+      "title": "Discord at Key JPMorgan Unit Is Faulted in Loss (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.928293",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.714573",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.608086",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/05/20/business/discord-at-jpmorgan-investment-office-blamed-in-huge-loss.html"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.185503,
+      "source": "Syracuse.com",
+      "source_domain": "Syracuse.com",
+      "summary": "JPMorgan Chase CEO Jamie Dimon apologized to shareholders for a $2 billion trading loss at the company's annual meeting, surviving a push to strip him of his chairman title. Stockholders and board members confronted Dimon, who described the mistakes as \"self-inflicted,\" while the incident reignited debates over financial regulation and the Volcker rule. The event also highlighted the differing views on Wall Street's role and the need for independent board leadership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.360321"
+        },
+        {
+          "relevance_score": "0.624965",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123365"
+        },
+        {
+          "relevance_score": "0.629130",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137469"
+        }
+      ],
+      "time_published": "20120515T222500",
+      "title": "Angry stockholders, board members confront a subdued JPMorgan Chase CEO Jamie Dimon over $2B trading loss",
+      "topics": [
+        {
+          "relevance_score": "0.917834",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.811821",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.syracuse.com/news/2012/05/subdued_dimon_is_confronted_ov.html"
+    },
+    {
+      "authors": [
+        "Matt Flegenheimer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288233,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Citigroup has paid $41 million to become the lead sponsor of New York's bike-sharing program for five years, leading to the program's naming as \"Citi Bike.\" The first 10,000 rental bikes are scheduled to hit the streets at the end of July in Manhattan and Brooklyn, with all bikes expected to be available by next summer. Annual memberships will cost $95, allowing for 45-minute rides without additional charges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413365"
+        },
+        {
+          "relevance_score": "0.611799",
+          "ticker": "MA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.183944"
+        }
+      ],
+      "time_published": "20120507T141622",
+      "title": "Citibank Pays to Put Name on Shared Bikes (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.821550",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.635046",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/05/08/nyregion/new-york-cycle-sharing-gets-a-name-citi-bike.html"
+    },
+    {
+      "authors": [
+        "Marina Mello"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.152991,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "HSBC has completed the sale of its US credit card unit to Capital One Financial Corp. for a premium of $2.5 billion, a deal originally agreed upon last August. The sale will not impact HSBC Bermuda customers and helps HSBC CEO Stuart Gulliver focus operations on faster-growing markets and UK consumer banking while expanding Capital One's credit card business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.925868",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312481"
+        },
+        {
+          "relevance_score": "0.723705",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103614"
+        },
+        {
+          "relevance_score": "0.639192",
+          "ticker": "USB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126452"
+        },
+        {
+          "relevance_score": "0.645451",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125423"
+        },
+        {
+          "relevance_score": "0.601843",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111416"
+        }
+      ],
+      "time_published": "20120503T064000",
+      "title": "HSBC sells US credit card unit to Capital One",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.928906",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.royalgazette.com/other/business/article/20120503/hsbc-sells-us-credit-card-unit-to-capital-one/"
+    },
+    {
+      "authors": [
+        "Brent Hunsberger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.06363,
+      "source": "OregonLive.com",
+      "source_domain": "OregonLive.com",
+      "summary": "KeyBank CEO Beth E. Mooney discusses her strategy for the $89 billion Cleveland-based bank, focusing on enhancing presence in specific growth markets like Portland, Seattle, and Denver. She addresses the decline in Oregon deposits since 2008 by explaining a strategic move to shed high-priced Certificates of Deposit (CDs) during a market disruption. Mooney also expresses KeyBank's interest in acquisitions, particularly in the Northwest, to further its growth in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KEY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.051740"
+        },
+        {
+          "relevance_score": "0.649116",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122463"
+        },
+        {
+          "relevance_score": "0.605417",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125057"
+        }
+      ],
+      "time_published": "20120428T100000",
+      "title": "KeyBank CEO Beth E. Mooney talks banking strategy",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.824641",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.710813",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.oregonlive.com/business/2012/04/keybank_ceo_beth_e_mooney_talk.html"
+    },
+    {
+      "authors": [
+        "Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.304499,
+      "source": "Construction Week India",
+      "source_domain": "Construction Week India",
+      "summary": "Citibank acquired six full floors, totaling 297,000 sq ft, at the First International Financial Centre (FIFC) in Bandra Kurla Complex for Rs985 crore. This acquisition is one of the largest office transactions in India. The FIFC, designed by Kohn Pedersen Fox (KPF), is noted for its high operating standards and technical capabilities, attracting major firms to Mumbai's commercial office market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VNO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340160"
+        },
+        {
+          "relevance_score": "0.902092",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329023"
+        },
+        {
+          "relevance_score": "0.741729",
+          "ticker": "CBRE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.261568"
+        },
+        {
+          "relevance_score": "0.641371",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349467"
+        }
+      ],
+      "time_published": "20120425T155609",
+      "title": "Citibank pays Rs985cr to acquire FIFC space at BKC",
+      "topics": [
+        {
+          "relevance_score": "0.921173",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.809279",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.738722",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.constructionweekonline.in/business/citibank-pays-rs985cr-to-acquire-fifc-space-at-bkc"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.147853,
+      "source": "Jamaica Gleaner",
+      "source_domain": "Jamaica Gleaner",
+      "summary": "This article features photographs from a reception celebrating Citi's 200th global anniversary and the opening of its new office building in St Andrew, Jamaica. Key attendees included Don Callahan of Citigroup, Peter Moses of Citi Jamaica, Eva Lewis, and Colm Delves of Digicel. The images capture various personalities at the event discussing banking business and enjoying the celebration.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117817"
+        }
+      ],
+      "time_published": "20120408T000000",
+      "title": "Out and About",
+      "topics": [
+        {
+          "relevance_score": "0.944464",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://jamaica-gleaner.com/gleaner/20120408/out/out8.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.342741,
+      "source": "Cision News",
+      "source_domain": "Cision News",
+      "summary": "Textron Systems Canada Inc. announced a Memorandum of Understanding (MoU) with SED Systems (a division of Calian Ltd) for potential collaboration on Textron's Tactical Armoured Patrol Vehicle (TAPV) project for the Canadian Forces. Textron has proposed supplying 500 vehicles with an option for 100 more, with SED Systems fabricating enclosure assemblies and an integrated USB adapter. This MoU represents a significant opportunity for SED Systems to create and sustain employment in Saskatoon.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TXT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300563"
+        },
+        {
+          "relevance_score": "0.606146",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320622"
+        }
+      ],
+      "time_published": "20120403T230200",
+      "title": "Textron Systems & SED Systems Sign Memorandum of Understanding for TAPV Project",
+      "topics": [
+        {
+          "relevance_score": "0.923077",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.737358",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://news.cision.com/textron-systems/r/textron-systems---sed-systems-sign-memorandum-of-understanding-for-tapv-project,c9243110"
+    },
+    {
+      "authors": [
+        "Frank Byrt"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.197994,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "A top American Express executive accused JPMorgan Chase of copying its credit card strategy aimed at affluent consumers, though he acknowledged JPMorgan's effective execution. The executive asserted that American Express differentiates itself through growing charge volume and revenue, while JPMorgan's card segment revenue is still down year-over-year despite growing spend. An analyst noted that American Express has been more innovative recently and that JPMorgan's success in the affluent market doesn't appear to be negatively impacting Amex's strong growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.437948"
+        },
+        {
+          "relevance_score": "0.945977",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135389"
+        },
+        {
+          "relevance_score": "0.624666",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005149"
+        }
+      ],
+      "time_published": "20120320T142600",
+      "title": "American Express: JPMorgan Is a Credit-Card Copycat",
+      "topics": [
+        {
+          "relevance_score": "0.939400",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.610281",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/03/20/american-express-jpmorgan-is-a-creditcard-copycat.html"
+    },
+    {
+      "authors": [
+        "Nelson D. Schwartz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.230366,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Banks are increasingly targeting the \"mass affluent\" \u2014 individuals with hundreds of thousands of dollars in assets \u2014 to boost revenue. This strategy involves offering personalized services and higher-margin products like mutual funds and retirement advice, differentiating from standard banking services. The shift is driven by declining revenue from ordinary savers and new government regulations reducing fees on services like debit cards and overdraft protection.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255474"
+        },
+        {
+          "relevance_score": "0.828690",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224938"
+        },
+        {
+          "relevance_score": "0.801214",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214456"
+        },
+        {
+          "relevance_score": "0.752505",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228653"
+        }
+      ],
+      "time_published": "20120310T150115",
+      "title": "Got $100,000? Have a Cookie: Banks Try Luring the Top 10% (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.839488",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/03/11/business/to-increase-revenue-banks-go-after-affluent.html"
+    },
+    {
+      "authors": [
+        "Ben Protess"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.021484,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Terri Dial, a prominent executive who rose through the ranks at Wells Fargo and later led Citigroup\u2019s consumer banking business during the financial crisis, has died at 62 due to pancreatic cancer. Known for her leadership and mentorship of other women in finance, she was recognized as one of the most powerful women by Forbes and an influential American in Britain by The Telegraph. Her career spanned four decades, making her a notable figure in Fortune 500 companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014185"
+        },
+        {
+          "relevance_score": "0.831195",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040036"
+        }
+      ],
+      "time_published": "20120301T141622",
+      "title": "Terri Dial, Executive at Citigroup and Wells Fargo, Dies at 62 (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/03/01/business/terri-dial-executive-at-citigroup-and-wells-fargo-dies-at-62.html"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.139823,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "The article discusses how Vikram Pandit, CEO of Citigroup, excelled in the hedge fund business before joining Citigroup but struggled to replicate that success within the bank. It highlights the challenges faced by Citi's in-house hedge fund unit, Citi Capital Advisors (CCA), under Pandit's leadership, including substantial losses and underperformance. Consequently, Citigroup plans to sell a significant portion of CCA to its managers, aiming for independence to attract better talent and outside investors, mainly due to the impending Volcker Rule.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.335284"
+        },
+        {
+          "relevance_score": "0.720766",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142465"
+        },
+        {
+          "relevance_score": "0.647080",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141354"
+        }
+      ],
+      "time_published": "20120301T031700",
+      "title": "Vikram Pandit excelled in hedge fund business but not Citigroup",
+      "topics": [
+        {
+          "relevance_score": "0.938920",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.849081",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://m.economictimes.com/news/international/vikram-pandit-excelled-in-hedge-fund-business-but-not-citigroup/articleshow/12090575.cms"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.3812,
+      "source": "Finextra Research",
+      "source_domain": "Finextra Research",
+      "summary": "Fiserv is consolidating its ZashPay person-to-person payments network into Popmoney, an offering from the recently acquired CashEdge, to create a unified P2P platform. The merged network will connect 1400 financial institutions, including major banks like Citi and Fifth Third Bank, and reach 35 million consumers. The revamped Popmoney will introduce new features such as money requests, contact imports, and e-greetings, and will be integrated into Fiserv's CheckFree RXP payment suite.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427248"
+        },
+        {
+          "relevance_score": "0.625411",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321006"
+        },
+        {
+          "relevance_score": "0.604776",
+          "ticker": "FITB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326571"
+        }
+      ],
+      "time_published": "20120229T144051",
+      "title": "Fiserv merges ZashPay and Popmoney P2P payments networks",
+      "topics": [
+        {
+          "relevance_score": "0.915576",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.823266",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.717993",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.finextra.com/newsarticle/23480/fiserv-merges-zashpay-and-popmoney-p2p-payments-networks"
+    },
+    {
+      "authors": [
+        "Sanat Vallikappen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.020425,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Kwang Meng Quek, co-head of the global real estate group at Citigroup Inc.'s private banking unit, has resigned and will leave next month. Adam Abdur Rahman, a Singapore-based spokesman for Citigroup, confirmed the resignation, stating that a successor will be named shortly. Quek, who is based in Hong Kong, was unreachable for comment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046482"
+        }
+      ],
+      "time_published": "20120224T103300",
+      "title": "Citigroup Private Bank's Real Estate Co-Head Quek Resigns",
+      "topics": [
+        {
+          "relevance_score": "0.809376",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.713928",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2012-02-24/citigroup-private-bank-s-co-head-of-global-real-estate-resigns"
+    },
+    {
+      "authors": [
+        "The Republican"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.214659,
+      "source": "MassLive",
+      "source_domain": "MassLive",
+      "summary": "This article covers various business news from Western Massachusetts, including Wells Fargo's donation to Springfield Museums, MAC Source Communications opening an office in Holyoke, Maybury Material Handling receiving an MVP award, Northampton securing favorable bond interest rates, Berkshire Bank's national recognition for community contributions, Sturbridge's AA bond rating, a new video featuring Osterman Propane, and efficiency grants for municipal utilities in Ludlow, Westfield, Chicopee, and Ipswich.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.949312",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263444"
+        },
+        {
+          "relevance_score": "0.618996",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229085"
+        },
+        {
+          "relevance_score": "0.609959",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221961"
+        },
+        {
+          "relevance_score": "0.614285",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231960"
+        },
+        {
+          "relevance_score": "0.619302",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208475"
+        }
+      ],
+      "time_published": "20120220T072100",
+      "title": "Business etc: Wells Fargo aids Springfield Museums, Northampton gets interest in bonds, Sturbridge rated AA, and more",
+      "topics": [
+        {
+          "relevance_score": "0.717776",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.627580",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.635759",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.masslive.com/business-news/2012/02/business_etc_wells_fargo_aids_springfiel.html"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.418596,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Citigroup has agreed to pay $158.3 million to resolve U.S. civil claims that its CitiMortgage unit defrauded the government into insuring thousands of risky home loans. The settlement addresses misconduct that lasted over six years and arose from a whistleblower lawsuit. This resolution is part of a broader crackdown on lenders believed to have contributed to the housing crisis through irresponsible lending practices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.439471"
+        }
+      ],
+      "time_published": "20120217T174100",
+      "title": "Citigroup pays $158 million in mortgage fraud pact",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.931626",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/citigroup-pays-158-million-in-mortgage-fraud-pact-idUSTRE81E1UY/"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.437925,
+      "source": "Department of Justice (.gov)",
+      "source_domain": "Department of Justice (.gov)",
+      "summary": "The U.S. Attorney's Office for the Southern District of New York announced a $158.3 million settlement with CitiMortgage, Inc. for fraudulent mortgage lending practices. CitiMortgage admitted to failing to comply with HUD-FHA requirements and submitting false certifications, leading to significant losses for the FHA insurance fund. This settlement is part of a broader effort to combat financial fraud and ensure accountability for reckless lending.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.446172"
+        }
+      ],
+      "time_published": "20120215T141622",
+      "title": "US Attorney's Office - Southern District of New York",
+      "topics": [
+        {
+          "relevance_score": "0.900545",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.815328",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.justice.gov/archive/usao/nys/pressreleases/February12/citimortgageincsettlement.html"
+    },
+    {
+      "authors": [
+        "The Maritime Executive"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.341805,
+      "source": "The Maritime Executive",
+      "source_domain": "The Maritime Executive",
+      "summary": "SEACOR Holdings Inc. (NYSE: CKH) announced an agreement to sell a portion of its environmental business, including National Response Corporation, NRC Environmental Services Inc., and SEACOR Response Inc., to J.F. Lehman & Company. The transaction is expected to close by the end of February 2012 and excludes O'Brien's Response Management Inc., which will remain a SEACOR subsidiary. Houlihan Lokey is advising SEACOR on the sale.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.900983",
+          "ticker": "SMHI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336160"
+        },
+        {
+          "relevance_score": "0.603361",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342415"
+        }
+      ],
+      "time_published": "20120210T145000",
+      "title": "SEACOR Holdings Announces Sale of National Response Corporation, NRCES and SEACOR Response",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.900274",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.711986",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://maritime-executive.com/article/seacor-holdings-announces-sale-of-national-response-corporation-nrces-and-seacor-response"
+    },
+    {
+      "authors": [
+        "David Henry and Rick Rothacker"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.157793,
+      "source": "Insurance Journal",
+      "source_domain": "Insurance Journal",
+      "summary": "A $25 billion settlement over foreclosure abuses resolves some issues for major banks but leaves them exposed to a wide range of other lawsuits and claims related to the housing crisis. The agreement does not prevent criminal actions or address investor demands to buy back defective loans packaged into securities. Banks like Bank of America, Wells Fargo, JPMorgan Chase, Citigroup, and Ally Financial are still grappling with significant potential liabilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140409"
+        },
+        {
+          "relevance_score": "0.937681",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.150914"
+        },
+        {
+          "relevance_score": "0.919060",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.200533"
+        },
+        {
+          "relevance_score": "0.906065",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.218054"
+        },
+        {
+          "relevance_score": "0.705194",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.051633"
+        }
+      ],
+      "time_published": "20120210T141107",
+      "title": "Banks Still Face Legal Claims After $25 Billion Settlement",
+      "topics": [
+        {
+          "relevance_score": "0.914274",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.711413",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.608275",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.620690",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.insurancejournal.com/news/national/2012/02/10/234940.htm"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.401283,
+      "source": "MLex",
+      "source_domain": "MLex",
+      "summary": "The Federal Reserve announced an agreement \"in principle\" with five major banks to pay $766.5 million in penalties for \"unsafe and unsound\" residential mortgage loan servicing and foreclosure processes. This penalty is part of a larger $25 billion settlement with state attorneys general and the U.S. Department of Justice, requiring the banks to provide remediation and monetary assistance to mortgage borrowers. The banks involved are JPMorgan Chase, Bank of America, Citigroup, Wells Fargo, and Ally Financial.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.982903",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.403656"
+        },
+        {
+          "relevance_score": "0.877796",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.400448"
+        },
+        {
+          "relevance_score": "0.858683",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.418534"
+        },
+        {
+          "relevance_score": "0.899052",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.390553"
+        }
+      ],
+      "time_published": "20120209T175300",
+      "title": "U.S. Federal Reserve: Banks agree to $766.5 million in penalties for improper foreclosures as part of $25 billion settlement",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.916008",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.704233",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.mlex.com/mlex/articles/2244923"
+    },
+    {
+      "authors": [
+        "Janet Rose Jackman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.022028,
+      "source": "Tucson Sentinel",
+      "source_domain": "Tucson Sentinel",
+      "summary": "Arizona is set to receive $1.6 billion from a $25-billion multistate settlement with five major banks over mortgage lending and foreclosure practices, providing relief to homeowners. This settlement, the largest since 1998's tobacco deal, will allocate funds for principal reduction, cash payments to affected borrowers, and refinancing loans. Additionally, Bank of America reached a separate deal with Arizona, agreeing to pay $10 million to prevent foreclosures and address mortgage fraud.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.862259",
+          "ticker": "ALLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143256"
+        },
+        {
+          "relevance_score": "0.939729",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017760"
+        },
+        {
+          "relevance_score": "0.893563",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.021279"
+        },
+        {
+          "relevance_score": "0.885683",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042140"
+        },
+        {
+          "relevance_score": "0.852653",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016161"
+        }
+      ],
+      "time_published": "20120209T140612",
+      "title": "Az to get $1.6B in foreclosure settlement",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.922963",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.807930",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.723336",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.tucsonsentinel.com/local/report/020912_az_foreclosures_settlement/"
+    },
+    {
+      "authors": [
+        "DAWN MCCARTY and BETH JINKS Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.274904,
+      "source": "Sarasota Herald-Tribune",
+      "source_domain": "Sarasota Herald-Tribune",
+      "summary": "Eastman Kodak, the photography pioneer, filed for Chapter 11 bankruptcy after struggling to adapt to digital photography, a technology it invented but failed to commercialize. The company listed assets of $5.1 billion and debt of $6.8 billion, with plans to sell significant assets and having shed 47,000 employees since 2003. CEO Antonio M. Perez's efforts to pivot towards digital printing and reduce costs were not enough to stem the decline, with revenue falling by half since 2005.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KODK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.800568"
+        },
+        {
+          "relevance_score": "0.633647",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.135037"
+        },
+        {
+          "relevance_score": "0.604612",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229600"
+        }
+      ],
+      "time_published": "20120120T150131",
+      "title": "AFTER 132 YEARS, KODAK FILES FOR BANKRUPTCY",
+      "topics": [
+        {
+          "relevance_score": "0.936104",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.842946",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.718409",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.heraldtribune.com/story/news/2012/01/20/after-132-years-kodak-files-for-bankruptcy/29076278007/"
+    },
+    {
+      "authors": [
+        "David Stockman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.047213,
+      "source": "BillMoyers.com",
+      "source_domain": "BillMoyers.com",
+      "summary": "David Stockman argues that the financial crisis of 2008, dubbed \"The Blackberry Panic,\" was driven by the instantaneous oscillation of stock prices and credit spreads, rather than genuine threats to the public interest. He criticizes the Bush Administration for its fear-mongering and abdication of conservative principles in enacting the TARP bailout, suggesting that existing mechanisms like FDIC and the Fed's discount window could have handled the crisis without taxpayer funds. Stockman highlights President Bush's perceived lack of economic understanding and his delegation of the bailout decision to Treasury Secretary Paulson and Chairman Bernanke.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.332612",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041475"
+        }
+      ],
+      "time_published": "20120120T141623",
+      "title": "The Blackberry Panic of 2008",
+      "topics": [
+        {
+          "relevance_score": "0.931615",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.808231",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.718882",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.731497",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://billmoyers.com/content/the-blackberry-panic-of-2008/"
+    },
+    {
+      "authors": [
+        "Rupert Neate"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.391794,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "Eastman Kodak, the pioneering photography company, filed for Chapter 11 bankruptcy protection after years of struggling against the digital revolution. Despite inventing the first digital camera, the company failed to invest in the technology due to fears of cannibalizing its film business, ultimately leading to its decline. Kodak's assets are listed at $5.1bn against debts of $6.8bn, with plans to sell 1,100 patents to gain breathing room, but its fate is uncertain in a world changed by digital photography and smartphones.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KODK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.843780"
+        },
+        {
+          "relevance_score": "0.623899",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101788"
+        }
+      ],
+      "time_published": "20120119T155800",
+      "title": "Kodak falls in the 'creative destruction of the digital age'",
+      "topics": [
+        {
+          "relevance_score": "0.832617",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.945338",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2012/jan/19/kodak-bankruptcy-protection"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.382964,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "Eastman Kodak, the company famous for inventing the hand-held camera, has filed for Chapter 11 bankruptcy protection to reorganize its business. The 133-year-old firm struggled to adapt to the digital age, despite efforts to pivot towards printers and monetize its extensive patent portfolio. This move allows the company to continue normal operations while addressing its financial challenges and strategic transformation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KODK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.827833"
+        },
+        {
+          "relevance_score": "0.635740",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110854"
+        },
+        {
+          "relevance_score": "0.720889",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134137"
+        }
+      ],
+      "time_published": "20120119T150131",
+      "title": "Eastman Kodak files for bankruptcy protection",
+      "topics": [
+        {
+          "relevance_score": "0.902782",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.814335",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.708258",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bbc.com/news/business-16625725"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.196975,
+      "source": "Cantor Fitzgerald",
+      "source_domain": "Cantor Fitzgerald",
+      "summary": "Cantor Fitzgerald & Co. announced the expansion of its U.S. Equity Research sector coverage to include REITs with the hiring of a dedicated team from FBR Capital Markets & Co. This move bolsters Cantor's institutional equities capabilities and provides clients with enhanced research and insights into the real estate sector. The new team consists of Managing Directors David Toti and Sri Nagarajan, and Vice Presidents Evan Smith and Gaurav Mehta.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.339263",
+          "ticker": "CNS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032513"
+        },
+        {
+          "relevance_score": "0.622151",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330949"
+        }
+      ],
+      "time_published": "20120118T142135",
+      "title": "Cantor Fitzgerald Equity Research Group Expands Coverage to REITs Sector",
+      "topics": [
+        {
+          "relevance_score": "0.838111",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.919369",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.632684",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.cantor.com/cantor-fitzgerald-equity-research-group-expands-coverage-to-reits-sector-2/"
+    },
+    {
+      "authors": [
+        "Neal St. Anthony"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.277678,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "Ron Konezny, former CEO of PeopleNet, has been named general manager of Trimble's worldwide transportation and logistics division, based in Minnetonka, and plans to add 100 local jobs by 2015. The article also touches on Element Electronics opening a TV manufacturing plant in Detroit and other business news including Bob Ryan's retirement from Medtronic and Phil Soran's retirement from Dell Compellent. It also announces an event about innovation and venture capital between Minnesota and Israeli technology companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TRMB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402178"
+        },
+        {
+          "relevance_score": "0.701506",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319763"
+        },
+        {
+          "relevance_score": "0.721092",
+          "ticker": "MDT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336012"
+        },
+        {
+          "relevance_score": "0.614229",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115406"
+        },
+        {
+          "relevance_score": "0.620254",
+          "ticker": "SWK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132274"
+        }
+      ],
+      "time_published": "20120115T041700",
+      "title": "Inside Track: CEO navigates his firm's sale to Trimble",
+      "topics": [
+        {
+          "relevance_score": "0.946145",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.800799",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.731500",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.629424",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.616385",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.startribune.com/inside-track-ceo-navigates-his-firm-s-sale-to-trimble/137302333"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.076588,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Billionaire investor Carl Icahn has dropped his $1.73 billion hostile bid for Commercial Metals Co after failing to garner sufficient shareholder support. Only 23 percent of shares were tendered in response to his $15-a-share offer, leading him to withdraw his nominees for the company's board. Commercial Metals had previously dismissed the offer as \"substantially undervalued\" and \"opportunistic.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CMC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.248956"
+        },
+        {
+          "relevance_score": "0.629335",
+          "ticker": "CLX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143625"
+        },
+        {
+          "relevance_score": "0.617876",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106760"
+        },
+        {
+          "relevance_score": "0.608650",
+          "ticker": "L",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149993"
+        },
+        {
+          "relevance_score": "0.604594",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220480"
+        }
+      ],
+      "time_published": "20120111T170900",
+      "title": "Icahn drops $1.73 billion bid for Commercial Metals",
+      "topics": [
+        {
+          "relevance_score": "0.928314",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.701029",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/icahn-drops-1-73-billion-bid-for-commercial-metals-idUSTRE80A0VQ/"
+    },
+    {
+      "authors": [
+        "Alain Sherter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.19673,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "JPMorgan Chase & Co. has ceased filing lawsuits to collect consumer debts, dismissing in-house attorneys and scaling back its collections operations. This move follows revelations of \"robo-signing\" in foreclosure documents and raises concerns about similar practices in credit card debt collection, potentially signaling significant legal and reputational risks for the bank and the wider financial industry. The article suggests this could lead to a \"legal nightmare\" and an urgent need for reform in debt collection practices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.411805"
+        },
+        {
+          "relevance_score": "0.562432",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104526"
+        },
+        {
+          "relevance_score": "0.565252",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109140"
+        },
+        {
+          "relevance_score": "0.577571",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107116"
+        },
+        {
+          "relevance_score": "0.551072",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123263"
+        }
+      ],
+      "time_published": "20120111T153500",
+      "title": "Chase stops suits against credit-card holders",
+      "topics": [
+        {
+          "relevance_score": "0.938331",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/chase-stops-suits-against-credit-card-holders/"
+    },
+    {
+      "authors": [
+        "DR Da Reda\u00e7\u00e3o"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.119479,
+      "source": "Exame",
+      "source_domain": "Exame",
+      "summary": "Banco Bradesco SA is reportedly close to acquiring Losango, HSBC Holdings Plc's consumer credit specialist, for approximately R$750 million. Losango holds R$3 billion in financing and a 21% share of the direct consumer credit market, and this potential sale aligns with HSBC's global strategy to cut costs and shed assets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.944682",
+          "ticker": "BBD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332550"
+        },
+        {
+          "relevance_score": "0.602150",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.126109"
+        }
+      ],
+      "time_published": "20120103T180700",
+      "title": "Bradesco est\u00e1 perto de comprar a Losango por R$ 750 milh\u00f5es, diz fonte",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.927329",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://exame.com/negocios/bradesco-esta-perto-de-comprar-a-losango-por-r-750-milhoes-diz-fonte/"
+    }
+  ],
+  "items": "99",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,490 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Elizabeth Doran"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.428279,
+      "source": "Syracuse.com",
+      "source_domain": "Syracuse.com",
+      "summary": "Todd Zion, an East Syracuse-Minoa graduate, sold his company SmartCells to Merck & Co. for up to $500 million. SmartCells developed SmartInsulin, a modified insulin that automatically delivers the correct dosage based on a patient's glucose levels, aiming to revolutionize diabetes treatment by preventing dangerous blood sugar lows. Zion plans to consult with Merck for a transition period before taking time off.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406830"
+        }
+      ],
+      "time_published": "20101212T093100",
+      "title": "East Syracuse-Minoa graduate sells company, new method to deliver the right amount of insulin to patients",
+      "topics": [
+        {
+          "relevance_score": "0.948383",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.921596",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.syracuse.com/news/2010/12/east_syracuse_minoa_graduate_s.html"
+    },
+    {
+      "authors": [
+        "Cormac Sheridan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.123202,
+      "source": "Nature",
+      "source_domain": "Nature",
+      "summary": "This article discusses the challenges faced by Crucell with its vaccine portfolio, particularly regarding quality failures leading to production disruptions of Quinvaxem and Hepavax-Gene. It highlights the financial impact of these issues and draws parallels with similar problems encountered by Shantha Biotechnics. The article also mentions competitors in the vaccine market and an impending facility upgrade for Crucell.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115272"
+        },
+        {
+          "relevance_score": "0.648861",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127583"
+        },
+        {
+          "relevance_score": "0.617603",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109461"
+        }
+      ],
+      "time_published": "20101207T190609",
+      "title": "Will J&J turbocharge Crucell's vaccine portfolio?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.829261",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.622883",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nature.com/articles/nbt1210-1223"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.230288,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "Merck & Co. Inc. announced initial results from its Phase III study of ISENTRESS (raltegravir) Tablets once daily for HIV-1 in treatment-naive adult patients. The study revealed that while over 80 percent of patients achieved viral suppression with the once-daily regimen, it did not demonstrate non-inferiority to the twice-daily regimen. Consequently, Merck will end the study and recommend that patients in the once-daily arm switch to the FDA-approved twice-daily dose.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249640"
+        }
+      ],
+      "time_published": "20101129T081100",
+      "title": "Merck Reveals Initial Results Of Phase III Study Of ISENTRESS - Quick Facts",
+      "topics": [
+        {
+          "relevance_score": "0.904551",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.727179",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.rttnews.com/amp/1492022/merck-reveals-initial-results-of-phase-iii-study-of-isentress-quick-facts.aspx"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://ichef.bbci.co.uk/ace/standard/304/mcs/media/images/49471000/jpg/_49471543_pfizer.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.183296,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "Pfizer has agreed to acquire King Pharmaceuticals for $3.6 billion in cash, paying $14.25 per share. This deal represents a 40% premium to King's closing share price. Pfizer anticipates the acquisition will modestly increase its profit per share in the coming years, while King Pharmaceuticals has faced challenges due to expiring drug patents.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.325412",
+          "ticker": "KG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.018917"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400957"
+        },
+        {
+          "relevance_score": "0.722663",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128998"
+        },
+        {
+          "relevance_score": "0.735524",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123629"
+        },
+        {
+          "relevance_score": "0.721659",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101243"
+        }
+      ],
+      "time_published": "20101012T065729",
+      "title": "Pfizer buys King Pharmaceuticals for $3.6bn",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.927780",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.727982",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.bbc.com/news/business-11522704"
+    },
+    {
+      "authors": [
+        "Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.104006,
+      "source": "The Holland Sentinel",
+      "source_domain": "The Holland Sentinel",
+      "summary": "The Holland Historical Trust recognized three retiring board members, Dick Darby, Jaron Nyhof, and Richard Veenhoven, for their instrumental contributions to the museum's success. The trust also welcomed four new board members: Mary Bamborough, Keith Boonstra, Jill Ryan, and Dawn Garcia Ward. The Holland Museum's location and contact information were provided.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.825413",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149716"
+        }
+      ],
+      "time_published": "20101005T191648",
+      "title": "Trust recognzes retiring, new board members",
+      "topics": [
+        {
+          "relevance_score": "0.713631",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.hollandsentinel.com/story/news/2010/10/05/trust-recognzes-retiring-new-board/44496004007/"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.26936,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "Merck & Co. Inc. announced it will appeal a Massachusetts federal court verdict finding it liable for $4.6 million in compensatory damages. The lawsuit concerned allegations that a former subsidiary, Warrick Pharmaceuticals, caused Massachusetts to overpay pharmacists for albuterol prescriptions. While penalties could be substantial, Merck emphasized that significant legal issues remain to be decided before any penalties are imposed.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.970566",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.296279"
+        }
+      ],
+      "time_published": "20100930T171300",
+      "title": "Merck To Appeal $4.6 Mln Compensatory Damages Verdict Lawsuit - Quick Facts",
+      "topics": [
+        {
+          "relevance_score": "0.907199",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.837074",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.600415",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.rttnews.com/amp/1433800/merck-to-appeal-4-6-mln-compensatory-damages-verdict-lawsuit-quick-facts.aspx"
+    },
+    {
+      "authors": [
+        "MARGERY A. BECK"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.143508,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "The estate of Ann Tompkins, an Omaha woman, has filed a lawsuit against the makers of NuvaRing, claiming the contraceptive device caused a deadly blood clot that led to her death in February 2009. The lawsuit seeks damages from pharmaceutical companies including Merck & Co., Organon BioSciences NV, and Akzo Nobel NV, alleging insufficient warnings about blood clot risks. This suit is expected to be consolidated with similar cases nationwide.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.339834",
+          "ticker": "OGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014984"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.243047"
+        }
+      ],
+      "time_published": "20100712T180800",
+      "title": "Makers of NuvaRing sued over woman's death",
+      "topics": [
+        {
+          "relevance_score": "0.916059",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.748404",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna38212139"
+    },
+    {
+      "authors": [
+        "Richard Blackwell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.449856,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Merck & Co. Inc. is closing its major research and development facility in Montreal, the Merck Frosst Centre for Therapeutic Research, as part of a global cost-saving measure following its merger with Schering-Plough Corp. This closure, affecting about 180 lab staff, is a severe blow to Canada's scientific research community, although Merck plans to maintain a manufacturing facility in Quebec and contract out R&D work to local institutions. The move has sparked debate over the effectiveness of government patent policies and the state of pharmaceutical research in Canada.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.411709"
+        }
+      ],
+      "time_published": "20100708T191648",
+      "title": "Merck cutbacks claim Montreal research facility",
+      "topics": [
+        {
+          "relevance_score": "0.917036",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.745646",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.646667",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.628630",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/globe-investor/merck-cutbacks-claim-montreal-research-facility/article1386769/"
+    },
+    {
+      "authors": [
+        "FiercePharma Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.49077,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "A new study presented at the American Diabetes Association's 70th Annual Scientific Sessions showed that Merck's diabetes medicine JANUMET (sitagliptin/metformin) resulted in significantly greater blood sugar reductions compared to pioglitazone in patients with type 2 diabetes. Patients on JANUMET also experienced weight loss and a lower incidence of edema, though a higher incidence of gastrointestinal events. Merck emphasizes that JANUMET targets three key defects of diabetes and has been approved in 79 countries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.467253"
+        }
+      ],
+      "time_published": "20100626T110000",
+      "title": "In a New Study, Treatment With JANUMET\u00ae (sitagliptin/metformin), Merck's Diabetes Medicine, Resulted In Significantl",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma/a-new-study-treatment-janumet%C2%AE-sitagliptin-metformin-merck-s-diabetes-medicine-resulted"
+    },
+    {
+      "authors": [
+        "Tom Watkins"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.035644,
+      "source": "CNN",
+      "source_domain": "CNN",
+      "summary": "Federal health authorities recommended suspending the use of Rotarix, a rotavirus vaccine made by GlaxoSmithKline, after it was found to be contaminated with material from a pig virus. This material, porcine circovirus 1, is not known to cause disease in humans or animals, and GlaxoSmithKline states no safety issue has been identified. Another vaccine, RotaTeq by Merck, is still deemed safe for use, and an advisory committee will convene to discuss the issue further.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GSK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.210743"
+        },
+        {
+          "relevance_score": "0.807408",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219543"
+        }
+      ],
+      "time_published": "20100322T185548",
+      "title": "Rotarix rotavirus vaccine contaminated, officials say",
+      "topics": [
+        {
+          "relevance_score": "0.942964",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "http://www.cnn.com/2010/HEALTH/03/22/rotavirus.vaccine/index.html"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.101626,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Pharmaceutical heists in the U.S. have quadrupled since 2006, with thieves stealing large quantities of prescription drugs for resale on the black market due to spotty security and high drug prices. The stolen drugs, which can include antidepressants like Prozac and Cymbalta, sometimes reappear on pharmacy shelves with fake labels or are held until they expire, posing significant public health risks. Industry and law enforcement are working to combat this rising phenomenon through better security measures and public alerts, highlighting that a fragmented supply chain and expensive drugs in the U.S. incentivize these crimes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.967645",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123670"
+        },
+        {
+          "relevance_score": "0.564892",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128772"
+        }
+      ],
+      "time_published": "20100317T173100",
+      "title": "Prescription-drug heists on the rise",
+      "topics": [
+        {
+          "relevance_score": "0.907351",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna35917590"
+    },
+    {
+      "authors": [
+        "U.Va. News Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.485439,
+      "source": "UVA Today",
+      "source_domain": "UVA Today",
+      "summary": "The University of Virginia has announced a research collaboration with Merck & Co., Inc. to discover novel drugs for women's reproductive health, focusing on non-steroidal contraceptives. This preclinical program combines U.Va.'s expertise in reproductive biology with Merck's drug discovery resources. The partnership highlights U.Va.'s commitment to turning basic science discoveries into practical applications and is supported by previous research funded by the NIH and the Kenneth A. Scott Charitable Trust.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.484810"
+        }
+      ],
+      "time_published": "20100312T191647",
+      "title": "U.Va. Signs Research Collaboration with Merck & Co., Inc. to Discover Drugs for Women's Reproductive Health",
+      "topics": [
+        {
+          "relevance_score": "0.920079",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://news.virginia.edu/content/uva-signs-research-collaboration-merck-co-inc-discover-drugs-womens-reproductive-health"
+    },
+    {
+      "authors": [
+        "Kristie Borges"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.50595,
+      "source": "NBC Connecticut",
+      "source_domain": "NBC Connecticut",
+      "summary": "A Massachusetts doctor, Dr. Scott Reuben, who was a former member of Pfizer Inc.\u2019s speakers\u2019 bureau, is accused of faking numerous medical research studies, including one for Celebrex. He has agreed to plead guilty to health care fraud for falsifying data over 13 years, impacting studies on medications like Celebrex, Bextra, and Vioxx. Reuben will forfeit assets and repay pharmaceutical companies as part of his plea agreement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.608020"
+        },
+        {
+          "relevance_score": "0.609005",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.436519"
+        }
+      ],
+      "time_published": "20100115T134500",
+      "title": "Doc Accused of Faking Celebrex Study",
+      "topics": [
+        {
+          "relevance_score": "0.938958",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.nbcconnecticut.com/news/local/fake-study-lands-doctor-in-hot-water/1864177/"
+    }
+  ],
+  "items": "13",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

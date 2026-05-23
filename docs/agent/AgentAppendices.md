@@ -157,6 +157,7 @@ This file is the canonical template pack for governance-critical records and act
 ### It is authoritative for
 - approval request structures
 - approval outcome structures
+- approval-gate decision-option comparison matrices
 - contradiction records
 - correction records
 - evidence records
@@ -240,6 +241,7 @@ This file is the binding research-workflow appendix for repository-first literat
 - design truth
 - implementation semantics
 - replacing user approval when a comparison methodology or research-scope change is high-impact
+- defining the canonical structure of approval-gate decision prompts, which belongs to `docs/agent/AgentTemplates.md`
 
 ### When it must be loaded
 Load `AgentResearchWorkflows.md` when:

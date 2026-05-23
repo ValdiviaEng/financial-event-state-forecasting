@@ -1,0 +1,68 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Mike Rogoway"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.063593,
+      "source": "OregonLive.com",
+      "source_domain": "OregonLive.com",
+      "summary": "The 2011 Japan earthquake badly damaged Intel's office in Tsukuba, activating sprinklers and soaking equipment, but no employees were injured. While Intel expects a minor impact on its business, the broader semiconductor industry faces potential months of shortages due to damage to Japanese suppliers, impacting memory chip and silicon wafer production. Companies like ON Semiconductor and Shin-Etsu Group in Vancouver are adjusting production to mitigate the supply chain disruption caused by the quake and subsequent power outages.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.973517",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131866"
+        },
+        {
+          "relevance_score": "0.725950",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.082432"
+        },
+        {
+          "relevance_score": "0.620459",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.043852"
+        },
+        {
+          "relevance_score": "0.617091",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024509"
+        },
+        {
+          "relevance_score": "0.597803",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.058492"
+        }
+      ],
+      "time_published": "20110314T221000",
+      "title": "Japan quake badly damaged Intel office, but injured no employees",
+      "topics": [
+        {
+          "relevance_score": "0.904216",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.847162",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.624718",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.oregonlive.com/business/2011/03/japan_quake_badly_damaged_inte.html"
+    }
+  ],
+  "items": "1",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

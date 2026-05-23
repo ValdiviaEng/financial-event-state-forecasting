@@ -1,0 +1,2637 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "ROBERT GOLD"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.135837,
+      "source": "Cape Cod Times",
+      "source_domain": "Cape Cod Times",
+      "summary": "BackOffice Associates, a global tech company, bought out its founders, Trish and Tom Kennedy, after Goldman Sachs Group Inc. increased its controlling interest. The company, which helps businesses transfer data, is aiming to go public within 12 to 18 months and reports annual sales of $100 million to $200 million. The Kennedys have since started a new venture called Sports Money.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.915400",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136567"
+        }
+      ],
+      "time_published": "20121221T144659",
+      "title": "BackOffice buys out Cape-based founders",
+      "topics": [
+        {
+          "relevance_score": "0.938648",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.832482",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.710139",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.647847",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.capecodtimes.com/story/business/2012/12/21/backoffice-buys-out-cape-based/49199654007/"
+    },
+    {
+      "authors": [
+        "Kevin Roose"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.059825,
+      "source": "New York Magazine",
+      "source_domain": "New York Magazine",
+      "summary": "The article discusses former Morgan Stanley banker William Bryan Jennings, who was fired and subjected to a $5 million bonus clawback after a hate crime charge was dropped. The author argues that clawback provisions, typically used for financial harm or fraud, are being misapplied to Jennings for an \"embarrassment\" to the company, highlighting inconsistencies in how Morgan Stanley punishes employees for various wrongdoings. The author believes Jennings should receive his bonus if the company isn't applying the same harsh standards to other employees involved in financial malfeasance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.271108"
+        },
+        {
+          "relevance_score": "0.639118",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101980"
+        },
+        {
+          "relevance_score": "0.572560",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011828"
+        }
+      ],
+      "time_published": "20121219T151136",
+      "title": "Give William Bryan Jennings His Bonus",
+      "topics": [
+        {
+          "relevance_score": "0.942076",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://nymag.com/intelligencer/2012/12/give-william-bryan-jennings-his-bonus.html"
+    },
+    {
+      "authors": [
+        "Elzio Barreto"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.086075,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "American International Group (AIG) is selling its remaining stake in AIA Group Ltd for an estimated $6.5 billion, marking the end of its century-long presence in Asia through AIA. This sale is part of AIG's effort to repay the US government bailout funds from 2008 and shifts its Asian focus to China through a joint venture and investment in PICC. The offering highlights the growing demand for insurance in Asia and is poised to be one of the region's largest block sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108258"
+        },
+        {
+          "relevance_score": "0.630419",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137395"
+        },
+        {
+          "relevance_score": "0.646350",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116419"
+        },
+        {
+          "relevance_score": "0.643367",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109454"
+        },
+        {
+          "relevance_score": "0.623186",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103431"
+        }
+      ],
+      "time_published": "20121218T070000",
+      "title": "End of century-long era as AIG sells stake in AIA",
+      "topics": [
+        {
+          "relevance_score": "0.929330",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.829919",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.748127",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.royalgazette.com/re-insurance/business/article/20121218/end-of-century-long-era-as-aig-sells-stake-in-aia/"
+    },
+    {
+      "authors": [
+        "Steve Schaefer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.170562,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Morgan Stanley has been fined $5 million by a Massachusetts regulator for allegedly violating a 2003 settlement by selectively sharing information about Facebook's financial outlook during its IPO. The fine stems from charges that the investment bank provided certain clients with updated revenue forecasts, based on information from Facebook's CFO, without making the same information available to all investors. This settlement is part of ongoing efforts by Massachusetts Secretary William Galvin to pursue securities violations related to the Facebook IPO, which was also plagued by technical issues and a declining stock price post-offering.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.397435"
+        },
+        {
+          "relevance_score": "0.622391",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042360"
+        },
+        {
+          "relevance_score": "0.613619",
+          "ticker": "NDAQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142549"
+        },
+        {
+          "relevance_score": "0.641741",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012652"
+        }
+      ],
+      "time_published": "20121217T200000",
+      "title": "Morgan Stanley Hit With $5 Million Fine Over Facebook IPO",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.942582",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/steveschaefer/2012/12/17/morgan-stanley-hit-with-5-million-fine-over-facebook-ipo-by-massachusetts/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.098465,
+      "source": "SERNAC",
+      "source_domain": "SERNAC",
+      "summary": "A Sernac study revealed that the total cost of a consumer loan can vary by almost 74%, highlighting significant differences between financial institutions. For a 36-month loan of CLP 500,000, consumers could save CLP 481,104 by choosing the most convenient option. The study emphasizes the importance of comparing the Annual Equivalent Charge (CAE) and the Total Cost of Credit (CTC) to make informed borrowing decisions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.322821",
+          "ticker": "BSAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.043722"
+        },
+        {
+          "relevance_score": "0.645246",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143657"
+        },
+        {
+          "relevance_score": "0.628752",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131733"
+        },
+        {
+          "relevance_score": "0.624220",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122652"
+        },
+        {
+          "relevance_score": "0.643460",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100141"
+        }
+      ],
+      "time_published": "20121213T141611",
+      "title": "Estudio del Sernac detecta diferencias de casi 74% en el costo total de un cr\u00e9dito de consumo",
+      "topics": [
+        {
+          "relevance_score": "0.922158",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.sernac.cl/portal/619/w3-article-3075.html"
+    },
+    {
+      "authors": [
+        "David Henry and Rick Rothacker"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20121205&t=2&i=79011703&w=780&fh=&fw=&ll=&pl=&sq=&r=BRE8B40NV20121205",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.162737,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Citigroup announced it is cutting 11,000 jobs worldwide, about 4 percent of its workforce, and taking $1.1 billion in charges through the middle of next year. This move, expected to yield $1.1 billion in annual savings starting in 2014, is seen as the first step by Chairman Michael O'Neill and CEO Michael Corbat to streamline the bank into a more manageable and profitable size. The reductions will affect various operations, including consumer banking and investment banking, and follow years of investor complaints about the bank's high expenses relative to its income.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278041"
+        },
+        {
+          "relevance_score": "0.716195",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120503"
+        },
+        {
+          "relevance_score": "0.620985",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133534"
+        }
+      ],
+      "time_published": "20121206T045600",
+      "title": "Citigroup cutting 11,000 jobs, taking $1 billion in charges",
+      "topics": [
+        {
+          "relevance_score": "0.917444",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.827036",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.712565",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.reuters.com/article/idUKBRE8B40NV20121205/"
+    },
+    {
+      "authors": [
+        "Kevin Roose"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.235824,
+      "source": "New York Magazine",
+      "source_domain": "New York Magazine",
+      "summary": "Glenn Hadden, a trader who earned a reputation for being \"machinelike\" and earned millions while at Goldman Sachs, is under investigation by the CME Group for alleged market manipulation. Regulators suspect his purchases and sales of Treasury futures may have manipulated closing prices to benefit other trades. Hadden, now at Morgan Stanley, faces potential fines and a trading ban if wrongdoing is found.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.200858"
+        },
+        {
+          "relevance_score": "0.801530",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.218752"
+        },
+        {
+          "relevance_score": "0.706310",
+          "ticker": "CME",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.211649"
+        }
+      ],
+      "time_published": "20121203T151136",
+      "title": "Morgan Stanley Trader Under Investigation for Gatorade-Fueled Market Manipulation",
+      "topics": [
+        {
+          "relevance_score": "0.901795",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.830624",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://nymag.com/intelligencer/2012/12/morgan-stanley-trader-under-investigation.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.125434,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Edward Glenn Hadden, a managing director at Morgan Stanley, is under investigation by a securities regulator for possible illegal trades made four years earlier while he was at Goldman Sachs. The probe by CME Group, operator of commodity and futures exchanges, focuses on U.S. Treasury futures orders placed in December 2008, with concerns that the trades manipulated closing prices for Hadden's other transactions. If found guilty, Hadden could face substantial fines and be barred from trading, and he has reportedly been scrutinized for trading practices in the past.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.215845"
+        },
+        {
+          "relevance_score": "0.892748",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.100037"
+        },
+        {
+          "relevance_score": "0.721064",
+          "ticker": "CME",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028576"
+        }
+      ],
+      "time_published": "20121203T151135",
+      "title": "Morgan Stanley exec's trades at Goldman Sachs probed",
+      "topics": [
+        {
+          "relevance_score": "0.900556",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.815155",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/markets/2012/12/03/morgan-stanley-trader-probed/1742507/"
+    },
+    {
+      "authors": [
+        "Joanna Slater",
+        "Tim Kiladze"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.138724,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Edward Glenn Hadden, head of global interest-rate trading at Morgan Stanley, is under investigation for potentially improper transactions that occurred in late 2008 while he was at Goldman Sachs. The probe by CME Group Inc. concerns sales or purchases of government bond futures and has been reported to Finra. Hadden's lawyer denies market manipulation, calling it a technical risk management activity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.997749",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.327811"
+        },
+        {
+          "relevance_score": "0.873825",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.133065"
+        },
+        {
+          "relevance_score": "0.716944",
+          "ticker": "CME",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138605"
+        }
+      ],
+      "time_published": "20121203T144659",
+      "title": "Canadian on Wall Street facing probe",
+      "topics": [
+        {
+          "relevance_score": "0.929027",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.831435",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/globe-investor/canadian-on-wall-street-facing-probe/article5910585/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.02346,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "Spotify, the Swedish music streaming service, has secured $100m in fresh investment from Coca-Cola, Goldman Sachs, and Fidelity, valuing the company at $3bn. Despite this new funding, the loss-making company faces increasing competition and criticism from artists over low royalty payments, with significant losses reported in 2011. The article highlights Spotify's efforts to expand accessibility while grappling with industry challenges and investor caution.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300483",
+          "ticker": "SPOT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.021149"
+        },
+        {
+          "relevance_score": "0.716698",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126494"
+        },
+        {
+          "relevance_score": "0.611040",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118601"
+        },
+        {
+          "relevance_score": "0.644257",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.189934"
+        },
+        {
+          "relevance_score": "0.608853",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.157138"
+        }
+      ],
+      "time_published": "20121116T154056",
+      "title": "Spotify music streaming service nets Coca-Cola cash",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.819280",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.609811",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.bbc.com/news/technology-20343418"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.283434,
+      "source": "Performance Racing Industry",
+      "source_domain": "Performance Racing Industry",
+      "summary": "Clean Harbors, Inc. has entered into a definitive agreement to acquire Safety-Kleen, Inc. for $1.25 billion in an all-cash transaction. The acquisition, expected to close by year-end, aims to expand Clean Harbors' market penetration, waste treatment capabilities, and capitalize on the growing demand for recycled products. This strategic move is anticipated to be immediately accretive to Clean Harbors' earnings, leveraging operational efficiencies and cross-selling opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.996346",
+          "ticker": "CLH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405561"
+        },
+        {
+          "relevance_score": "0.626925",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110857"
+        }
+      ],
+      "time_published": "20121030T142124",
+      "title": "Clean Harbors Agrees To Acquire Safety-Kleen",
+      "topics": [
+        {
+          "relevance_score": "0.905052",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.740278",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.646705",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.performanceracing.com/magazine/industry-news/10-30-2012/clean-harbors-agrees-acquire-safety-kleen"
+    },
+    {
+      "authors": [
+        "Grant McCool and Basil Katz"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fstorage.googleapis.com%2Fstatic.reuters.com%2Fresources%2Fr%2F%2Fimg%2Flogo%2Freuters-re-brand-2-0%2Freuters-logo.png?auth=567634f5904d99c7d415b3d6861502476d1e4bdc08b776a30f40f0eccff4f16a&width=1920&height=1001&q=80&quality=80&smart=true",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.113426,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Former Goldman Sachs board member Rajat Gupta was sentenced to two years in prison and fined $5 million for insider trading, a lighter sentence than prosecutors sought but still reflecting the judge's condemnation of his actions. Gupta was convicted of leaking Goldman Sachs boardroom secrets to hedge fund manager Raj Rajaratnam, who is currently serving an 11-year sentence for insider trading. The judge acknowledged Gupta's extensive philanthropy but emphasized the severity of his breach of trust during the 2008 financial crisis.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.343830"
+        },
+        {
+          "relevance_score": "0.632676",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128328"
+        }
+      ],
+      "time_published": "20121025T043700",
+      "title": "Rajat Gupta gets two years in prison for insider trading",
+      "topics": [
+        {
+          "relevance_score": "0.915878",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.726382",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/rajat-gupta-gets-two-years-in-prison-for-insider-trading-idUSDEE89N0C5/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.415183,
+      "source": "Department of Justice (.gov)",
+      "source_domain": "Department of Justice (.gov)",
+      "summary": "Rajat K. Gupta, former Chairman of an international consulting firm and board member of Goldman Sachs and Procter & Gamble, was sentenced to two years in prison for insider trading. He was convicted of multiple counts of securities fraud for disclosing material, nonpublic information to his business partner, Raj Rajaratnam, which led to illegal profits and avoided losses of millions of dollars. Gupta was also ordered to pay a $5 million fine, in addition to a one-year supervised release.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.977457",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.380256"
+        }
+      ],
+      "time_published": "20121024T144659",
+      "title": "Former Chairman Of Consulting Firm And Board Director, Rajat Gupta, Sentenced In Manhattan Federal Court To Two Years In Prison For Insider Trading",
+      "topics": [
+        {
+          "relevance_score": "0.940582",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.806206",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.justice.gov/archive/usao/nys/pressreleases/October12/GuptaSentencing.php"
+    },
+    {
+      "authors": [
+        "Kevin Roose"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.203856,
+      "source": "New York Magazine",
+      "source_domain": "New York Magazine",
+      "summary": "Goldman Sachs has released a two-page \"Briefing Toolkit\" memo to its employees and alumni in preparation for the release of Greg Smith's book about his resignation from the bank. The memo aims to discredit Smith by suggesting his perspective was limited due to his junior position and that he was an opportunistic shape-shifter who gave positive performance reviews in the past. It also includes generic facts about the firm's financial health and client-centric culture.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.208342"
+        }
+      ],
+      "time_published": "20121020T144659",
+      "title": "Goldman Sachs Reveals Its Greg Smith Battle Plans",
+      "topics": [
+        {
+          "relevance_score": "0.903381",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://nymag.com/intelligencer/2012/10/goldman-sachs-reveals-greg-smith-battle-plans.html"
+    },
+    {
+      "authors": [
+        "John Powell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.335644,
+      "source": "American Civil Liberties Union",
+      "source_domain": "American Civil Liberties Union",
+      "summary": "The ACLU filed a lawsuit against Morgan Stanley, alleging the investment bank violated the Fair Housing Act by discriminating on the basis of race in the secondary mortgage market through its practices in purchasing and selling securitized mortgages in predominantly non-white neighborhoods. This case is significant for framing predatory lending damages as civil rights violations, potentially setting a precedent for future litigation and challenging the conventional fraud-based approach to the foreclosure crisis. It highlights the creative application of civil rights law to address systemic issues and advocates for continued vigilance in pursuing justice for marginalized communities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.469104"
+        },
+        {
+          "relevance_score": "0.740169",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.345139"
+        },
+        {
+          "relevance_score": "0.621185",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.274709"
+        }
+      ],
+      "time_published": "20121019T151133",
+      "title": "Civil Rights Today: The Landmark Case of Adkins et. al. v. Morgan Stanley",
+      "topics": [
+        {
+          "relevance_score": "0.947372",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.704515",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.aclu.org/news/racial-justice/civil-rights-today-landmark-case-adkins-et-al-v-morgan"
+    },
+    {
+      "authors": [
+        "Sachin Nigade"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.111414,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article critiques J.P. Morgan Chase's handling of the \"London Whale\" trading losses, highlighting concerns about its risk-taking incentives and perceived influence over Congress. While acknowledging strong recent earnings, it warns of significant trading risks and potential litigation, ultimately recommending Wells Fargo as the \"cleanest dirty shirt\" among major U.S. banks for investment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.991904",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132261"
+        },
+        {
+          "relevance_score": "0.648503",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297335"
+        },
+        {
+          "relevance_score": "0.632951",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.135542"
+        },
+        {
+          "relevance_score": "0.593281",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.246458"
+        },
+        {
+          "relevance_score": "0.589629",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.240077"
+        }
+      ],
+      "time_published": "20121018T104800",
+      "title": "J.P. Morgan Chase: a whale of a bank",
+      "topics": [
+        {
+          "relevance_score": "0.917110",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.812095",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.735213",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.639244",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/j-p-morgan-chase-a-whale-of-a-bank-2-24367/"
+    },
+    {
+      "authors": [
+        "ET Bureau"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.235447,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Sonjoy Chatterjee of Goldman Sachs discusses the company's strategic acquisitions and growth in India, emphasizing that global investors maintained confidence in the Indian market despite policy paralysis. He highlights Goldman's expansion into asset management, including the acquisition of Benchmark, and its focus on new sectors like renewable energy and healthcare. Chatterjee also expresses optimism about the potential for disinvestment ETFs in India.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.338515",
+          "ticker": "GIND",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026682"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404485"
+        }
+      ],
+      "time_published": "20121017T103451",
+      "title": "India story was intact even in policy paralysis: Sonjoy Chatterjee, Goldman Sachs",
+      "topics": [
+        {
+          "relevance_score": "0.918341",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.805189",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.713177",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.620447",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.646200",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://m.economictimes.com/opinion/interviews/india-story-was-intact-even-in-policy-paralysis-sonjoy-chatterjee-goldman-sachs/articleshow/16842880.cms"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.29733,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "New court documents accuse executives at major private equity firms like Bain Capital, Blackstone Group (BX), and KKR (KKR) of colluding to rig bids for 19 buyouts between 2003 and 2007, prior to the financial crisis. The class-action lawsuit, brought by former shareholders, alleges that these firms suppressed competition to lower acquisition prices for companies such as Neiman Marcus, Toys \"R\" Us, and HCA. One example cited involves an email exchange between Blackstone's president and a KKR founder, suggesting cooperation to avoid competition and cost each other money.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.454796"
+        },
+        {
+          "relevance_score": "0.960578",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.411757"
+        },
+        {
+          "relevance_score": "0.743660",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.237909"
+        },
+        {
+          "relevance_score": "0.620457",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232336"
+        },
+        {
+          "relevance_score": "0.552030",
+          "ticker": "HCA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103847"
+        }
+      ],
+      "time_published": "20121011T195800",
+      "title": "Bain, Blackstone, KKR accused of rigging bids",
+      "topics": [
+        {
+          "relevance_score": "0.943022",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.734247",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/bain-blackstone-kkr-accused-of-rigging-bids/"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.113657,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Harvey M. Schwartz, a Rutgers University graduate, is set to become Goldman Sachs Group Inc.'s chief financial officer in January, succeeding David A. Viniar. Schwartz has a long history on Wall Street, including witnessing the 1987 stock market crash and the dot-com bust, and is known for not shrinking from difficult situations. His appointment comes at a challenging time for Goldman Sachs, which is grappling with weak economic growth, regulatory changes, and cost-cutting measures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.264099"
+        },
+        {
+          "relevance_score": "0.635466",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134061"
+        },
+        {
+          "relevance_score": "0.634416",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109204"
+        },
+        {
+          "relevance_score": "0.623188",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116976"
+        },
+        {
+          "relevance_score": "0.563320",
+          "ticker": "TROW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.061035"
+        }
+      ],
+      "time_published": "20121009T173100",
+      "title": "From Rutgers grad to Goldman Sachs CFO, Harvey Schwartz unfazed by Wall Street's darkest days",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.826570",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.743083",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nj.com/business/2012/10/from_morristown_to_goldman_sac.html"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.106652,
+      "source": "Crain's New York Business",
+      "source_domain": "Crain's New York Business",
+      "summary": "Barry Zubrow, JPMorgan Chase's former head of risk management, is retiring from banking at the end of the year. His retirement follows a period where JPMorgan disclosed significant losses from credit derivatives, and his credibility was questioned due to the \"London Whale\" incident and his family's involvement in risk management. Zubrow had also been a vocal opponent of new financial regulations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.304143",
+          "ticker": "AMJB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041907"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.338220"
+        },
+        {
+          "relevance_score": "0.714278",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132564"
+        }
+      ],
+      "time_published": "20121005T000000",
+      "title": "JPMorgan Chase former risk chief retires",
+      "topics": [
+        {
+          "relevance_score": "0.918112",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.crainsnewyork.com/article/20121005/FINANCE/121009923/jpmorgan-chase-former-risk-chief-retires"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.436872,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "D-Wave Systems, Inc., the first commercial quantum computing company, has successfully closed a $30 million equity funding round. Notable investors in this round include Bezos Expeditions, Jeff Bezos's personal investment company, and In-Q-Tel (IQT), the strategic investment firm for the U.S. Intelligence Community. This capital infusion will accelerate D-Wave's growth strategy, enhance commercial operations, and expand its capabilities to provide quantum computing solutions to customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "QBTS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.897566"
+        },
+        {
+          "relevance_score": "0.734058",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341198"
+        },
+        {
+          "relevance_score": "0.600789",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319891"
+        },
+        {
+          "relevance_score": "0.610718",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337023"
+        },
+        {
+          "relevance_score": "0.581766",
+          "ticker": "HII",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318945"
+        }
+      ],
+      "time_published": "20121004T070000",
+      "title": "D-Wave Systems, Inc., the World's First Commercial Quantum Computing Company, Secures $30 Million in a New Equity Round From Investors Including Bezos Expeditions and In-Q-Tel",
+      "topics": [
+        {
+          "relevance_score": "0.832970",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746379",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/10/04/dwave-systems-inc-the-worlds-first-commercial-quantum-computing-company-secures-30-million-in-a-new-equity-round-from-investors-including-bezos-expeditions-and-inqtel.html"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.430052,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Goldman Sachs Group Inc. has been fined $12 million by the SEC to resolve claims that a former banker made improper \"in-kind\" campaign contributions to a Massachusetts state treasurer. The contributions were made by Neil Morrison to Timothy P. Cahill's gubernatorial campaign while seeking underwriting business, violating pay-to-play rules and leading to the firm engaging in 30 prohibited underwritings. Goldman Sachs detected the activities, terminated Morrison, and cooperated with investigations, settling without admitting or denying wrongdoing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.425774"
+        }
+      ],
+      "time_published": "20120927T162200",
+      "title": "Goldman Sachs fined $12 million over campaign contribution charge",
+      "topics": [
+        {
+          "relevance_score": "0.943820",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.620644",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nj.com/business/2012/09/goldman_sachs_charged_with_vio.html"
+    },
+    {
+      "authors": [
+        "Soyoung Kim and Greg Roumeliotis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.192762,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Blackstone Group LP has agreed to acquire home security provider Vivint Inc for over $2 billion, including Vivint Solar Inc and 2GIG Technologies. This acquisition aims to capitalize on the growing market for home alarm, air conditioning, and energy management systems in North America. Vivint's management team will remain in place, and the deal is expected to close by year-end.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.436679"
+        },
+        {
+          "relevance_score": "0.618180",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120479"
+        },
+        {
+          "relevance_score": "0.634405",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144079"
+        },
+        {
+          "relevance_score": "0.601747",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148504"
+        },
+        {
+          "relevance_score": "0.621447",
+          "ticker": "RJF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122418"
+        }
+      ],
+      "time_published": "20120919T142900",
+      "title": "Blackstone buys security firm Vivint for over $2 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.805303",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736806",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/blackstone-buys-security-firm-vivint-for-over-2-billion-idUSBRE88I0LG/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.036247,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "MarketWatch reports on the departure of David Viniar, who served as Chief Financial Officer for Goldman Sachs Group Inc. for three decades, since May 1999. Viniar was a prominent figure at Goldman Sachs during its entire tenure as a public company, enduring through multiple CEOs including Henry Paulson. The article highlights the unusual move of a conference call being held for a CFO's stepping down, underscoring Viniar's significant role.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042232"
+        }
+      ],
+      "time_published": "20120918T193200",
+      "title": "David Viniar: why he\u2019s leaving Goldman",
+      "topics": [
+        {
+          "relevance_score": "0.910003",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.618794",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/david-viniar-why-hes-leaving-goldman-2012-09-18?gaa_at=eafs&gaa_n=AWEtsqdY-ePOsBk7S-vZNo7FhtfNiPGWz3hvqkmcQ6rEhdsbunVBkjyK8bJ6&gaa_ts=6908c3a4&gaa_sig=SwCFcqG_VllnLJX32h3lvRJfDN--7uuMZEm-7fDZYYsFvyq6zQGNNDZkxzJ6oXIwD-_ZfaEcCkml1FCnKWQDoQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.037305,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "The article discusses the departure of David Viniar, Goldman Sachs' Chief Financial Officer, after a three-decade career with the firm. Viniar served as CFO since May 1999, effectively for the entirety of Goldman's life as a public company, and was considered the face and voice of the investment bank. His exit prompted a rare conference call, highlighting his significance within the company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335246",
+          "ticker": "GS-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.039678"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032274"
+        }
+      ],
+      "time_published": "20120918T193200",
+      "title": "David Viniar: why he\u2019s leaving Goldman",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.803171",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/david-viniar-why-hes-leaving-goldman-2012-09-18?gaa_at=eafs&gaa_n=AWEtsqcWCdRb4j7AaLRPzY-kUThnE_uKdcppcDIJEOvpzmVif4ejK-fsM6fc&gaa_ts=6908c39c&gaa_sig=kXBKpv_T3t6Ymd_imcmeebx5d-0IAY5UuxLHgp_iIyws4eNAVSzDtO-L33B1VgOp0nOt12-MHMVWQVttyN5EzA%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.090618,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "The article discusses the departure of David Viniar, the long-serving Chief Financial Officer of Goldman Sachs Group Inc. Viniar, who held the CFO post since May 1999, was a prominent figure at the investment bank throughout its existence as a public company. His exit prompted an unusual conference call, highlighting his significant role and tenure through multiple CEOs, including Henry Paulson.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.318761",
+          "ticker": "GS-P-D",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041650"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.206641"
+        }
+      ],
+      "time_published": "20120918T193200",
+      "title": "David Viniar: why he\u2019s leaving Goldman",
+      "topics": [
+        {
+          "relevance_score": "0.806147",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/david-viniar-why-hes-leaving-goldman-2012-09-18?gaa_at=eafs&gaa_n=AWEtsqc3rLR1CTeg-TECuZVqWcepl9m2NDiLdNioyPVeaRvIRhmUGkwndYei&gaa_ts=6908c39c&gaa_sig=fe5ErXddG7QsfI3JmGFOWqNOySJHjh6BIehAj-OcS-P0PRykGovPQHKqK-Gu9GnKRn5iPNpFukLZQqrj6mpM7g%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.062966,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "This article from MarketWatch discusses the departure of David Viniar, the long-serving Chief Financial Officer of Goldman Sachs Group Inc. Viniar had held the CFO position since May 1999, effectively for the entirety of Goldman's public life. His exit warranted a rare public conference call, highlighting his significant role at the investment bank, including serving under multiple CEOs like Henry Paulson.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314272",
+          "ticker": "GS-P-C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049020"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139150"
+        }
+      ],
+      "time_published": "20120918T193200",
+      "title": "David Viniar: why he\u2019s leaving Goldman",
+      "topics": [
+        {
+          "relevance_score": "0.910211",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/david-viniar-why-hes-leaving-goldman-2012-09-18?gaa_at=eafs&gaa_n=AWEtsqdDChTHv9q6p_QeiirAgNwQMvFv7rKlI_qUos4RalactOHbmGMLT6LM&gaa_ts=6908c39d&gaa_sig=jHtor5a4Rojd4ujJR_jy_lKnT0dOXtA63Rm2R4_RUWFyQeQjGhMrmdklrqGlUJdOfstwfwLRjlZi20--3oeDxg%3D%3D"
+    },
+    {
+      "authors": [
+        "By Reuters"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20120907&t=2&i=658097129&w=780&fh=&fw=&ll=&pl=&r=CBRE8860ER000",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.114135,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Goldman Sachs Group Inc. is selling its power plant development unit, Cogentrix Energy LLC, to Carlyle Group. The deal, which includes three coal-fired and two solar power plants and a development pipeline, allows Goldman to divest a non-core asset after nearly a decade of ownership, while Carlyle expands its energy sector investments. This sale also comes amid a debate between Wall Street banks and the Federal Reserve regarding banks owning physical energy and commodity market infrastructure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109094"
+        },
+        {
+          "relevance_score": "0.638250",
+          "ticker": "EXC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147315"
+        }
+      ],
+      "time_published": "20120907T171300",
+      "title": "Goldman to sell power plant unit to Carlyle",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.822097",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.729114",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/goldman-to-sell-power-plant-unit-to-carlyle-idUSBRE8860ER/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.016582,
+      "source": "Times of Malta",
+      "source_domain": "Times of Malta",
+      "summary": "Goldman Sachs has shut down its Hudson Street Services unit, which aimed to sell independent research to institutional clients, due to weak demand despite spending millions on distribution. This move highlights the difficulties faced by smaller research firms in a cost-cutting market and suggests a diminished interest among major investors in paying for diverse market opinions. The failure also underscores the waning enthusiasm for independent research that surged after the 2003 Wall Street settlement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.305212",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015147"
+        }
+      ],
+      "time_published": "20120819T144700",
+      "title": "Goldman independent research arm dies",
+      "topics": [
+        {
+          "relevance_score": "0.938570",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.742090",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://timesofmalta.com/article/Goldman-independent-research-arm-dies.433593"
+    },
+    {
+      "authors": [
+        "Jonathan Kent"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.311005,
+      "source": "Royal Gazette | Bermuda",
+      "source_domain": "Royal Gazette | Bermuda",
+      "summary": "Enstar Group Ltd. saw its shares jump over 6% after reporting that second-quarter earnings more than quadrupled to $40.7 million. The Bermuda-based run-off specialist\u2019s stock rose $5.55 to $97.03, driven by strong growth and a significant investment from GS Capital Partners in 2011.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ESGR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.477046"
+        },
+        {
+          "relevance_score": "0.703381",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.171329"
+        }
+      ],
+      "time_published": "20120806T090000",
+      "title": "Enstar shares soar 6% as profits quadruple",
+      "topics": [
+        {
+          "relevance_score": "0.924207",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.814090",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.709504",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.royalgazette.com/re-insurance/business/article/20120806/enstar-shares-soar-6-as-profits-quadruple/"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.027299,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "An internal analysis by the CFTC found that its chairman, Gary Gensler, had few close ties to former MF Global CEO Jon Corzine, despite working together at Goldman Sachs and other shared professional circles. The report concluded that Gensler's recusal from the MF Global probe was not legally or ethically necessary, addressing concerns raised by lawmakers about his involvement. The analysis detailed their professional interactions, emphasizing a lack of personal social connections for over a decade.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.326472",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019960"
+        }
+      ],
+      "time_published": "20120731T135400",
+      "title": "Head of MF Global regulator found to have few ties to Corzine despite time together at Goldman Sachs",
+      "topics": [
+        {
+          "relevance_score": "0.933509",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.721908",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nj.com/business/2012/07/head_of_mf_global_regulator_fo.html"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": "EMMANUEL DUNAND/AFP/GettyImages",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.139037,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Matt Zames, a Franklin Lakes resident and former hedge fund trader, has been promoted to co-chief operating officer at JPMorgan Chase & Co. This promotion follows his crucial role in addressing a $5.8 billion trading loss in the bank's chief investment office. The article highlights Zames's past experience with Long-Term Capital Management and underscores his rising prominence as a potential successor to CEO Jamie Dimon.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333405"
+        },
+        {
+          "relevance_score": "0.601077",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148758"
+        },
+        {
+          "relevance_score": "0.648728",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123479"
+        }
+      ],
+      "time_published": "20120730T171400",
+      "title": "Franklin Lakes man rises to JPMorgan's top tier after stunning loss shook bank",
+      "topics": [
+        {
+          "relevance_score": "0.941862",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.706168",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nj.com/business/2012/07/franklin_lakes_man_rises_to_jp.html"
+    },
+    {
+      "authors": [
+        "Kevin Drum"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.127812,
+      "source": "Mother Jones",
+      "source_domain": "Mother Jones",
+      "summary": "Former Citigroup CEO Sandy Weill, widely known for his role in repealing Glass-Steagall, has surprisingly advocated for the breakup of big banks. This reversal of his long-held stance occurred during an interview on CNBC's Squawk Box, where he suggested splitting investment banking from traditional deposit-taking and lending to protect taxpayers and depositors. While the motivation for his change of heart is speculated, it marks a significant shift from a key architect of financial deregulation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.306353",
+          "ticker": "TRV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016152"
+        },
+        {
+          "relevance_score": "0.910170",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328554"
+        },
+        {
+          "relevance_score": "0.724709",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112040"
+        },
+        {
+          "relevance_score": "0.622560",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117574"
+        },
+        {
+          "relevance_score": "0.596223",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105384"
+        }
+      ],
+      "time_published": "20120725T155112",
+      "title": "Sandy Weill Joins Occupy Wall Street Movement",
+      "topics": [
+        {
+          "relevance_score": "0.946068",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.720552",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.motherjones.com/kevin-drum/2012/07/sandy-weill-joins-occupy-wall-street-movement/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.308708,
+      "source": "The Boston Globe",
+      "source_domain": "The Boston Globe",
+      "summary": "State Street Corp. announced its plan to acquire Goldman Sachs Administration Services for $550 million. This acquisition is intended to position State Street as a leading service provider to the hedge fund industry. Goldman Sachs Administration Services currently manages $200 million in hedge fund assets for approximately 150 clients, adding to State Street's existing $877 billion in alternative asset management services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "STT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431172"
+        },
+        {
+          "relevance_score": "0.835415",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245282"
+        }
+      ],
+      "time_published": "20120722T154547",
+      "title": "State Street buys Goldman unit",
+      "topics": [
+        {
+          "relevance_score": "0.908782",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.816952",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bostonglobe.com/business/2012/07/21/state-street-buys-goldman-sachs-unit-revenue-declines/3liJuKR8UtXeml7cGPZrPJ/story.html"
+    },
+    {
+      "authors": [
+        "Anthony Effinger and Sree Vidya Bhaktavatsalam"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.063962,
+      "source": "The Washington Post",
+      "source_domain": "The Washington Post",
+      "summary": "Sean Healey, former Goldman Sachs Group executive, highlights the importance of letting fund managers manage. He reflects on his early career and the perceived credentials associated with his past affiliation. The article touches on his journey from Goldman Sachs in 1995.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.321667",
+          "ticker": "AMG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024628"
+        },
+        {
+          "relevance_score": "0.608310",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115033"
+        }
+      ],
+      "time_published": "20120721T140615",
+      "title": "AMG\u2019s Sean Healey key to success: Let the fund managers manage",
+      "topics": [
+        {
+          "relevance_score": "0.832364",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.washingtonpost.com/amgs-sean-healey-key-to-success-let-the-fund-managers-manage/2012/07/20/gJQAuX300W_story.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.199209,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "DiamondRock Hospitality Company has completed the acquisition of a four-hotel portfolio from Blackstone Real Estate Partners VI for approximately $495 million. The portfolio includes the Hilton Boston Downtown, Westin Washington D.C. City Center, Hilton Burlington, and Westin San Diego. DiamondRock plans significant capital improvements and asset management initiatives for these properties, while Blackstone has become a significant shareholder in DiamondRock.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289768"
+        },
+        {
+          "relevance_score": "0.611374",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112193"
+        },
+        {
+          "relevance_score": "0.554338",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140973"
+        }
+      ],
+      "time_published": "20120716T040200",
+      "title": "DiamondRock Closes On The $495 Million Hotel Portfolio From Blackstone",
+      "topics": [
+        {
+          "relevance_score": "0.912628",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.813317",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.614309",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/diamondrock-closes-on-the-495-million-hotel-portfolio-from-blackstone-162626726.html"
+    },
+    {
+      "authors": [
+        "Joanna Slater"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.173459,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "JPMorgan Chase CEO Jamie Dimon is facing scrutiny over a massive trading debacle that resulted in billions of dollars in losses and damaged the bank's reputation. As the bank prepares to report its second-quarter earnings, investors are keenly awaiting details on the extent of the losses from the \"London Whale\" trades and the bank's strategy to address the fallout. This event highlights the ongoing debate about bank regulation, particularly the Volcker Rule, as Dimon has been a vocal critic of increased oversight while his bank undertook risky bets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.390139"
+        },
+        {
+          "relevance_score": "0.552239",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110656"
+        },
+        {
+          "relevance_score": "0.557975",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.122300"
+        },
+        {
+          "relevance_score": "0.581427",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.111757"
+        },
+        {
+          "relevance_score": "0.575451",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.146305"
+        }
+      ],
+      "time_published": "20120712T150115",
+      "title": "Jamie Dimon faces the music",
+      "topics": [
+        {
+          "relevance_score": "0.912296",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.820380",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.724776",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.649714",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/streetwise/jamie-dimon-faces-the-music/article4411573/"
+    },
+    {
+      "authors": [
+        "ROBERT BARR"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.420369,
+      "source": "Lakeland Ledger",
+      "source_domain": "Lakeland Ledger",
+      "summary": "The UK is investigating several global banks, including HSBC, RBS, UBS, and Citigroup, for alleged financial market manipulation following a $453 million fine against Barclays Bank for manipulating the LIBOR rate. Barclays' share price fell significantly, and its chief executive, Bob Diamond, is facing calls to resign despite waiving his bonus. The scandal is expected to lead to further substantial fines and lawsuits for the involved banks, underscoring systemic issues in the financial sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BCS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.621077"
+        },
+        {
+          "relevance_score": "0.740968",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.422356"
+        },
+        {
+          "relevance_score": "0.608442",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.323936"
+        },
+        {
+          "relevance_score": "0.646670",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.316831"
+        },
+        {
+          "relevance_score": "0.602664",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.334043"
+        }
+      ],
+      "time_published": "20120628T141125",
+      "title": "UK Probing More Global Banks Connected to Barclays Bank For Interest Rate Fixing",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.939116",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.807420",
+          "topic": "economy_monetary"
+        }
+      ],
+      "url": "https://www.theledger.com/story/news/2012/06/29/uk-probing-more-global-banks-connected-to-barclays-bank-for-interest-rate-fixing/26500841007/"
+    },
+    {
+      "authors": [
+        "Tom Burroughes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.316314,
+      "source": "Wealth Briefing Asia",
+      "source_domain": "Wealth Briefing Asia",
+      "summary": "Moody's Investors Service downgraded the ratings of 15 global banks and securities firms with global capital markets operations, citing volatile market conditions and risks of significant losses. The downgrades, ranging from one to three notches, had been anticipated since February when the agency announced its review. All affected banks, including major players like Bank of America, HSBC, and UBS, have substantial wealth management businesses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103421"
+        },
+        {
+          "relevance_score": "0.896316",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.427077"
+        },
+        {
+          "relevance_score": "0.881952",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.424561"
+        },
+        {
+          "relevance_score": "0.822323",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.389174"
+        },
+        {
+          "relevance_score": "0.834301",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.394482"
+        }
+      ],
+      "time_published": "20120622T151108",
+      "title": "Moody's Downgrades Ratings Of 15 Global Banking Groups",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.932546",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.617316",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://wealthbriefingasia.com/article.php/Moody's-Downgrades-Ratings-Of-15-Global-Banking-Groups"
+    },
+    {
+      "authors": [
+        "Grant McCool and Basil Katz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.443189,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Rajat Gupta, a former Goldman Sachs and McKinsey & Co. board member, was convicted of insider trading for leaking confidential information about the investment bank to hedge fund manager Raj Rajaratnam. The conviction marks a significant victory for prosecutors in their efforts to combat illicit trading on Wall Street, despite the defense's argument that there was no direct evidence Gupta traded on the information himself. Gupta faces a potential prison sentence of up to 25 years, pending an appeal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.444249"
+        }
+      ],
+      "time_published": "20120615T214500",
+      "title": "Ex-business titan Gupta guilty of insider trading",
+      "topics": [
+        {
+          "relevance_score": "0.946823",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.831515",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/ex-business-titan-gupta-guilty-of-insider-trading-idUSBRE85E0Z4/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.612235,
+      "source": "Department of Justice (.gov)",
+      "source_domain": "Department of Justice (.gov)",
+      "summary": "Rajat Gupta, former corporate chairman of an international consulting firm and board member of Goldman Sachs and P&G, was found guilty of insider trading in Manhattan federal court. He was convicted on four counts for providing confidential information about Goldman Sachs to his business partner, Raj Rajaratnam, resulting in illegal profits and avoided losses of millions of dollars. The conviction highlights the ongoing efforts to prosecute those who violate securities laws, regardless of their status.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.606370"
+        }
+      ],
+      "time_published": "20120615T144659",
+      "title": "USDOJ: US Attorney's Office - Southern District of New York",
+      "topics": [
+        {
+          "relevance_score": "0.936902",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.647571",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.justice.gov/archive/usao/nys/pressreleases/June12/guptarajatverdict.html"
+    },
+    {
+      "authors": [
+        "Mark Memmott"
+      ],
+      "banner_image": "https://media.npr.org/assets/img/2012/06/15/146059952_13998902_wide-8e8e63080c98f822cc6481c7e97d4b4a9296568c.jpg?s=1400",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.257846,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "Rajat Gupta, former managing partner of McKinsey & Co. and director at Goldman Sachs Inc. and Procter & Gamble, was convicted of providing insider tips to billionaire hedge fund manager Raj Rajaratnam. He was found guilty of conspiracy and three counts of securities fraud. The case highlighted a specific instance where Gupta allegedly tipped Rajaratnam about Warren Buffett's $5 billion investment in Goldman Sachs, leading to a significant profit for Rajaratnam.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.974899",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.342999"
+        },
+        {
+          "relevance_score": "0.748996",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.226052"
+        }
+      ],
+      "time_published": "20120615T115400",
+      "title": "Rajat Gupta Guilty In Insider Trading Case : The Two-Way",
+      "topics": [
+        {
+          "relevance_score": "0.817648",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.npr.org/sections/thetwo-way/2012/06/15/155102003/rajat-gupta-guilty-in-insider-trading-case"
+    },
+    {
+      "authors": [
+        "Alison Gendar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.149868,
+      "source": "New York Daily News",
+      "source_domain": "New York Daily News",
+      "summary": "JP Morgan Chase CEO Jamie Dimon testified before the Senate Banking Committee regarding a $2 billion trading blunder. Dimon indicated that some staffers responsible for the losses would likely have their bonuses clawed back, while also accepting responsibility for the bank's mistakes. The hearing also touched on Wall Street reform, with some senators questioning Dimon's lobbying efforts against new regulations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.260504"
+        },
+        {
+          "relevance_score": "0.580880",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.146473"
+        },
+        {
+          "relevance_score": "0.555912",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107498"
+        },
+        {
+          "relevance_score": "0.592893",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110554"
+        },
+        {
+          "relevance_score": "0.550358",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139713"
+        }
+      ],
+      "time_published": "20120613T201000",
+      "title": "JP Morgan Chase CEO Jamie Dimon hauled before the Senate, says some staffers will pay back bonuses",
+      "topics": [
+        {
+          "relevance_score": "0.915013",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.607208",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nydailynews.com/2012/06/13/jp-morgan-chase-ceo-jamie-dimon-hauled-before-the-senate-says-some-staffers-will-pay-back-bonuses/"
+    },
+    {
+      "authors": [
+        "Grant McCool"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/L4H3X2B2RVK7RC2Q5Z2S7YYFVE.JPG?auth=d810ba2b069d251147a747970176880ee327090b84f3ab6fbcf445582f3c7e4b&width=800&height=800&quality=80&smart=true",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.23407,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "During his insider-trading trial, former Goldman Sachs Group Inc board member Rajat Gupta called his eldest daughter, Geetanjali Gupta, and longtime friends to testify on his behalf, as he opted not to take the witness stand himself. The defense is presenting character witnesses and evidence to counter charges of securities fraud and conspiracy, arguing that the government's case is weak. The trial, now in its fourth week, has seen delays, with closing arguments pushed back.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.985001",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.212064"
+        }
+      ],
+      "time_published": "20120612T050500",
+      "title": "Daughter, old friends testify at Rajat Gupta trial",
+      "topics": [
+        {
+          "relevance_score": "0.807274",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/daughter-old-friends-testify-at-rajat-gupta-trial-idUSDEE85A0D8/"
+    },
+    {
+      "authors": [
+        "Heather Timmons"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.01872,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Rajat K. Gupta, former McKinsey head and Goldman Sachs director, is relying on character witnesses from India in his insider trading case. High-profile Indian executives testified on his behalf, praising his integrity and character. This strategy shift occurred after Mr. Gupta decided not to testify in his own defense.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.337701",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.006373"
+        }
+      ],
+      "time_published": "20120611T143400",
+      "title": "Indian Executives Vouch for Rajat K. Gupta in Court",
+      "topics": [
+        {
+          "relevance_score": "0.830987",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://archive.nytimes.com/india.blogs.nytimes.com/2012/06/11/indian-executives-vouch-for-rajat-k-gupta-in-court/"
+    },
+    {
+      "authors": [
+        "GRANT McCOOL"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.568318,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Former Goldman Sachs director Rajat Gupta was on a list of \"important people\" for hedge fund manager Raj Rajaratnam, his onetime secretary testified at Mr. Gupta's insider-trading trial. Gupta is accused of leaking stock secrets to Rajaratnam, including information about Warren Buffett's $5-billion investment in Goldman Sachs. His defense strategy includes showing that Rajaratnam had other potential sources of inside information while denying charges with no direct wiretap evidence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.643197"
+        },
+        {
+          "relevance_score": "0.615478",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.523249"
+        }
+      ],
+      "time_published": "20120522T144659",
+      "title": "Gupta on Rajaratnam's 'important people' list, court hears",
+      "topics": [
+        {
+          "relevance_score": "0.908873",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.733703",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/globe-investor/gupta-on-rajaratnams-important-people-list-court-hears/article4198707/"
+    },
+    {
+      "authors": [
+        "Peter Lattman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.185772,
+      "source": "Worcester Telegram",
+      "source_domain": "Worcester Telegram",
+      "summary": "This article discusses the succession challenges facing the private equity industry's pioneering billionaires, such as Stephen A. Schwarzman, Henry R. Kravis, David M. Rubenstein, and Leon D. Black, who are reluctant to step down despite their advancing age. It highlights that while these founders insist there is a deep bench of talent, no clear succession plans have been set forth, leading to concerns among shareholders and analysts. The article also profiles the emerging generation of dealmakers, noting their similar educational backgrounds and career paths, and how firms are trying to retain top talent amidst leadership uncertainty.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.290496"
+        },
+        {
+          "relevance_score": "0.849141",
+          "ticker": "APO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233530"
+        },
+        {
+          "relevance_score": "0.742279",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232302"
+        },
+        {
+          "relevance_score": "0.608467",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105744"
+        },
+        {
+          "relevance_score": "0.572218",
+          "ticker": "NDAQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.172309"
+        }
+      ],
+      "time_published": "20120405T141619",
+      "title": "The next generation of dealmakers",
+      "topics": [
+        {
+          "relevance_score": "0.907239",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.836287",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.telegram.com/story/business/2012/04/05/the-next-generation-dealmakers/49680005007/"
+    },
+    {
+      "authors": [
+        "Ilaina Jonas and Chris Francescani"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.649767,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Goldman Sachs Group Inc.'s private equity fund is selling its stake in Village Voice Media, owner of Backpage.com, due to concerns over the website's adult advertising section. This divestiture follows a growing controversy regarding online adult ads potentially facilitating sex trafficking and comes after public pressure led Craigslist to shut down its similar section. Goldman Sachs stated it had grown \"uncomfortable\" with the company's direction and lost the \"vast majority\" of its initial $30 million investment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.615980"
+        }
+      ],
+      "time_published": "20120402T090500",
+      "title": "Goldman divests Voice investment over sex ads",
+      "topics": [
+        {
+          "relevance_score": "0.904673",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.813623",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna46924764"
+    },
+    {
+      "authors": [
+        "James Lyons"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.410125,
+      "source": "The Mirror",
+      "source_domain": "The Mirror",
+      "summary": "This article exposes the extensive influence of Goldman Sachs, dubbed a \"toxic bank,\" through its network of former executives and allies in powerful global positions, particularly in Europe. It highlights the bank's deep ties to political figures and its alleged role in the eurozone crisis, amidst criticism sparked by a former executive's scathing resignation letter. The article also discusses potential changes in leadership and calls for an end to the UK government's \"cosy\" relationship with the firm due to its privileged access to the bond market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.449157"
+        }
+      ],
+      "time_published": "20120316T000000",
+      "title": "Revealed: Toxic bank Goldman Sachs' web of global pals",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.822127",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.720868",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.mirror.co.uk/news/uk-news/toxic-bank-goldman-sachs-web-763345"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.144962,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "The article discusses how Vikram Pandit, CEO of Citigroup, excelled in the hedge fund business before joining Citigroup but struggled to replicate that success within the bank. It highlights the challenges faced by Citi's in-house hedge fund unit, Citi Capital Advisors (CCA), under Pandit's leadership, including substantial losses and underperformance. Consequently, Citigroup plans to sell a significant portion of CCA to its managers, aiming for independence to attract better talent and outside investors, mainly due to the impending Volcker Rule.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309018"
+        },
+        {
+          "relevance_score": "0.721290",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103958"
+        },
+        {
+          "relevance_score": "0.645296",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116006"
+        }
+      ],
+      "time_published": "20120301T031700",
+      "title": "Vikram Pandit excelled in hedge fund business but not Citigroup",
+      "topics": [
+        {
+          "relevance_score": "0.946354",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.829588",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://m.economictimes.com/news/international/vikram-pandit-excelled-in-hedge-fund-business-but-not-citigroup/articleshow/12090575.cms"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.064163,
+      "source": "Silicon Republic",
+      "source_domain": "Silicon Republic",
+      "summary": "Shane O'Neill, former head of Liberty Global\u2019s content division Chellomedia, passed away at 50 after a 15-month battle with Creutzfeldt-Jakob disease. O'Neill was instrumental in the success of Liberty Global's UPC Broadband division and its investment arm, LGI Ventures. He was a Trinity College Dublin law graduate and a fellow of the Institute of Chartered Accountants in Ireland.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.333194",
+          "ticker": "LBYAV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033059"
+        },
+        {
+          "relevance_score": "0.610635",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123111"
+        }
+      ],
+      "time_published": "20120220T150556",
+      "title": "Irish businessman Shane O\u2019Neill dies",
+      "topics": [
+        {
+          "relevance_score": "0.744730",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.746080",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.601963",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.620316",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.siliconrepublic.com/companies/irish-businessman-shane-oneill-dies"
+    },
+    {
+      "authors": [
+        "Jessica Toonkel and David Gaffen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.32247,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Goldman Sachs Asset Management is acquiring Dwight Asset Management Company LLC for an undisclosed sum from Old Mutual Asset Management. The acquisition, expected to close in Q2 2012, aims to increase Goldman Sachs' presence in the defined contribution space, particularly in stable-value funds for retirement plans. Dwight had $42 billion in assets as of December 31, specializing in institutional fixed income.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312446"
+        }
+      ],
+      "time_published": "20120208T181200",
+      "title": "Goldman Sachs to buy Dwight asset management",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.748420",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/goldman-sachs-to-buy-dwight-asset-management-idUSTRE8161T4/"
+    },
+    {
+      "authors": [
+        "Paula Aven Gladych"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.398588,
+      "source": "BenefitsPRO",
+      "source_domain": "BenefitsPRO",
+      "summary": "Goldman Sachs Asset Management is acquiring Dwight Asset Management. The acquisition was reported by Paula Aven Gladych on February 8, 2012.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405398"
+        }
+      ],
+      "time_published": "20120208T085600",
+      "title": "Goldman Sachs Asset Management buying Dwight Asset Management",
+      "topics": [
+        {
+          "relevance_score": "0.914558",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.715291",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.benefitspro.com/2012/02/08/goldman-sachs-asset-management-buying-dwight-asset/"
+    },
+    {
+      "authors": [
+        "Raymond Ronamai"
+      ],
+      "banner_image": "https://www.ibtimes.com/sites/g/files/dfnbdf346/files/styles/embed_image/public/news/images/2012/02/01/rajat-gupta_0.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.146906,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "Federal prosecutors have expanded their insider trading case against former Goldman Sachs director Rajat Gupta, alleging that the illegal activities lasted longer and involved more trades than initially charged. The new indictment includes trades made by Rajaratnam in Goldman and Procter & Gamble stock between March 2007 and January 2009, based on alleged tips from Gupta. Gupta maintains his innocence, stating the charges are baseless and rely on circumstantial evidence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.345618"
+        },
+        {
+          "relevance_score": "0.735539",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309769"
+        },
+        {
+          "relevance_score": "0.639078",
+          "ticker": "F",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141392"
+        },
+        {
+          "relevance_score": "0.612117",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139389"
+        }
+      ],
+      "time_published": "20120201T043700",
+      "title": "U.S. Expands Case against Ex-Goldman Director Rajat Gupta",
+      "topics": [
+        {
+          "relevance_score": "0.948929",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.ibtimes.com/us-expands-case-against-ex-goldman-director-rajat-gupta-403620"
+    },
+    {
+      "authors": [
+        "John Carney"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.061435,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "This article highlights Michael Grimes, Morgan Stanley's global co-head of technology investment banking, showcasing his Facebook profile. Grimes is credited with Morgan Stanley's dominance in tech IPOs, having led major deals for LinkedIn, Pandora Media, Groupon, and Zynga. The piece also notes his potential role in the Facebook IPO, which would mark another win over Goldman Sachs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322450"
+        },
+        {
+          "relevance_score": "0.837710",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.219940"
+        }
+      ],
+      "time_published": "20120127T151200",
+      "title": "Here's the Facebook Page of Morgan Stanley's Top Tech Banker",
+      "topics": [
+        {
+          "relevance_score": "0.948012",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.822921",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.734810",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cnbc.com/2012/01/27/heres-the-facebook-page-of-morgan-stanleys-top-tech-banker.html"
+    },
+    {
+      "authors": [
+        "Jill Treanor"
+      ],
+      "banner_image": "https://assets.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2012/1/19/1326980753696/Morgan-Stanley-007.jpg?width=700&quality=85&auto=format&fit=max&s=213bf92f23240ea7945db479e00085ef or NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.114101,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "Morgan Stanley allocated 51% of its 2011 revenues, or $16.4bn (\u00a310.6bn), to staff compensation, despite reporting a fourth-quarter loss due to a $1.7bn settlement with MBIA. This high payout ratio, which CEO James Gorman attributed to deferred bonuses, far exceeded those of rivals like Goldman Sachs (42%) and JP Morgan (34%). Meanwhile, Bank of America announced a return to profit for the full year 2011 and is considering issuing shares for staff bonuses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130633"
+        },
+        {
+          "relevance_score": "0.706899",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306841"
+        },
+        {
+          "relevance_score": "0.647382",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124672"
+        },
+        {
+          "relevance_score": "0.623739",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040554"
+        }
+      ],
+      "time_published": "20120119T135600",
+      "title": "Morgan Stanley pays staff \u00a310bn",
+      "topics": [
+        {
+          "relevance_score": "0.933051",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.832735",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2012/jan/19/morgan-stanley-pay-half-revenue"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.203864,
+      "source": "NJ.com",
+      "source_domain": "NJ.com",
+      "summary": "Wall Street opened higher on Wednesday after reports suggested the International Monetary Fund might increase its aid to countries struggling with Europe's debt crisis. Major indexes saw gains, with the Dow Jones industrial average up 0.4 percent, the S&P 500 up 5 points, and the Nasdaq up 0.6 percent. This positive movement was also supported by a strong U.S. manufacturing report and significant gains from companies like Goldman Sachs, Bank of America, JPMorgan Chase, Amphenol Corp., Linear Technology Corp., and Yahoo Inc.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.886910",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277330"
+        },
+        {
+          "relevance_score": "0.732037",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.281473"
+        },
+        {
+          "relevance_score": "0.813693",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339161"
+        },
+        {
+          "relevance_score": "0.610246",
+          "ticker": "STT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.417705"
+        },
+        {
+          "relevance_score": "0.656012",
+          "ticker": "APH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406859"
+        }
+      ],
+      "time_published": "20120118T134100",
+      "title": "Wall Street rises on hope for IMF aid to Europe, manufacturing report",
+      "topics": [
+        {
+          "relevance_score": "0.929809",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.832413",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.736755",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.630242",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.630515",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nj.com/business/2012/01/wall_street_opens_higher_on_ma.html"
+    },
+    {
+      "authors": [
+        "By Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19995,
+      "source": "Financial Post",
+      "source_domain": "Financial Post",
+      "summary": "CIBC led Canadian mergers and acquisitions advisory in 2011, surpassing global firms like Goldman Sachs and Morgan Stanley for the first time in over a decade. This shift was largely attributed to a surge in mining deals, a sector where Canadian banks traditionally dominate. CIBC advised on 38 deals valued at $36.1 billion, with BMO Capital Markets and RBC Capital Markets following in second and third place respectively.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.998647",
+          "ticker": "CM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.722861"
+        },
+        {
+          "relevance_score": "0.880854",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103042"
+        },
+        {
+          "relevance_score": "0.705489",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017020"
+        },
+        {
+          "relevance_score": "0.648531",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141290"
+        },
+        {
+          "relevance_score": "0.579846",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100812"
+        }
+      ],
+      "time_published": "20120105T142126",
+      "title": "CIBC ousts Goldman Sachs to lead Canadian M&A",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.932907",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://financialpost.com/investing/cibc-ousts-goldman-sachs-to-lead-canadian-ma"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.110597,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "Biogen Idec Inc. (BIIB) is scheduled to present at the Goldman Sachs Healthcare CEOs Unscripted Conference on January 5, 2012, at 11:00 AM ET. A live webcast of the presentation will be available on the company's investor relations website.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BIIB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128121"
+        },
+        {
+          "relevance_score": "0.645103",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109100"
+        }
+      ],
+      "time_published": "20120105T100100",
+      "title": "Biogen Idec To Present At Goldman Sachs Healthcare CEOs ; Webcast At 11:00 AM ET",
+      "topics": [
+        {
+          "relevance_score": "0.804169",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.635003",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.rttnews.com/amp/1789997/biogen-idec-to-present-at-goldman-sachs-healthcare-ceos-webcast-at-11-00-am-et.aspx"
+    }
+  ],
+  "items": "59",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

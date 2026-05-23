@@ -1,0 +1,773 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Keith Bradsher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.297123,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Malaysia has emerged as a major winner in the solar industry trade wars, becoming the world's third-largest producer of solar equipment. This growth is attributed to its low labor costs, tax breaks, and strong engineering talent, attracting multinational companies like First Solar, Panasonic, and SunPower. The country's role is expected to expand further if the American government broadens tariffs on Chinese-made panels.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.925348",
+          "ticker": "FSLR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330508"
+        },
+        {
+          "relevance_score": "0.630038",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216805"
+        }
+      ],
+      "time_published": "20141211T103613",
+      "title": "Solar Rises in Malaysia During Trade Wars Over Panels (Published 2014)",
+      "topics": [
+        {
+          "relevance_score": "0.922962",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.817057",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.731452",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.620667",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nytimes.com/2014/12/12/business/energy-environment/solar-rises-in-malaysia-during-trade-wars-over-panels.html"
+    },
+    {
+      "authors": [
+        "Anton Shilov"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.249809,
+      "source": "KitGuru",
+      "source_domain": "KitGuru",
+      "summary": "TSMC has ordered two additional EUV lithography scanners from ASML, bringing their total to four for 2015. These scanners will be used for the commercial production of 10nm chips using EUV lithography starting in 2016-2017. TSMC aims to leverage this advanced technology to gain an advantage over other foundries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430886"
+        },
+        {
+          "relevance_score": "0.628080",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227060"
+        },
+        {
+          "relevance_score": "0.647976",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235563"
+        },
+        {
+          "relevance_score": "0.624609",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139451"
+        }
+      ],
+      "time_published": "20141126T114601",
+      "title": "TSMC to have four EUV scanners in 2015, to use EUV tools for 10nm chips",
+      "topics": [
+        {
+          "relevance_score": "0.804695",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.kitguru.net/components/anton-shilov/tsmc-to-have-four-euv-scanners-in-2015-to-use-euv-tools-for-10nm-chips/"
+    },
+    {
+      "authors": [
+        "Peter Clarke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.242853,
+      "source": "Electronics360",
+      "source_domain": "Electronics360",
+      "summary": "TSMC has ordered two new EUV lithography machines and plans to upgrade two existing ones from ASML, signaling their intent to implement EUV at the 10nm node by 2016. Despite historical delays, EUV technology has received significant investment, and ASML reports progress in critical areas like source power and throughput, with a goal of achieving 1500 wafers per day by 2016 for critical layers in chip production. This move suggests EUV is finally maturing for high-volume manufacturing, with ASML expecting to ship 50 to 60 EUV systems annually by 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421320"
+        },
+        {
+          "relevance_score": "0.633494",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243562"
+        },
+        {
+          "relevance_score": "0.648844",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106644"
+        }
+      ],
+      "time_published": "20141125T100120",
+      "title": "TSMC Orders EUV Lithography Tools For Production",
+      "topics": [
+        {
+          "relevance_score": "0.931426",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.849256",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://electronics360.globalspec.com/article/4760/tsmc-orders-euv-lithography-tools-for-production"
+    },
+    {
+      "authors": [
+        "Rick Carew",
+        "P.R. Venkat"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.264351,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Jiangsu Changjiang Electronics Technology Co. has made a $780 million offer to acquire Singapore-based STATS ChipPAC Ltd., a move that reflects China's ambition to increase its presence in the global semiconductor industry. STATS ChipPAC is ranked as the world's fourth-largest chip-packaging and testing company. This acquisition aligns with the World Semiconductor Trade Statistics forecast of a 6.5% industry growth, reaching $325 billion this year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.322116",
+          "ticker": "AMKR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.025333"
+        },
+        {
+          "relevance_score": "0.629578",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300152"
+        },
+        {
+          "relevance_score": "0.648523",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325338"
+        },
+        {
+          "relevance_score": "0.633273",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330297"
+        },
+        {
+          "relevance_score": "0.605861",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331933"
+        }
+      ],
+      "time_published": "20141106T100105",
+      "title": "Jiangsu Changjiang Makes $780 Million Offer for STATS ChipPAC",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.935909",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.844244",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.714945",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/jiangsu-changjiang-in-exclusive-talks-to-acquire-stats-chippac-1415259144?gaa_at=eafs&gaa_n=AWEtsqdMQIRQ2LEfwGiuSft63nVMh5g13c7R0HORYZqTHEjfXLBow1JfL7nx&gaa_ts=6908809a&gaa_sig=V_s_c7hxU8u8yQkLglZ0YVUIOD_qvgyCCy6T6E4Rlv62j_4gZa7qVP2zFb7FksbfWmpRyAD1Yc58-5p5a5P_yA%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.375194,
+      "source": "Cision News",
+      "source_domain": "Cision News",
+      "summary": "James C. Morgan, chairman emeritus of Applied Materials, Inc., announced the successful completion of his $500,000 challenge grant to the SEMI Foundation. This grant, matched by contributions from high-tech industry leaders, will support the SEMI Foundation's STEM education and career awareness programs, particularly its \"High Tech U\" initiative. The funding aims to expand the program's reach and impact, which has already benefited over 350,000 individuals through hands-on science curricula and professional skills development.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.517480"
+        },
+        {
+          "relevance_score": "0.643884",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313824"
+        },
+        {
+          "relevance_score": "0.633802",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300898"
+        }
+      ],
+      "time_published": "20141029T213500",
+      "title": "James C. Morgan Announces the Success of His Million Dollar \u201cChallenge Grant\u201d for High Tech Industry Workforce Development",
+      "topics": [
+        {
+          "relevance_score": "0.940264",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.743156",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://news.cision.com/semi/r/james-c--morgan-announces-the-success-of-his-million-dollar--challenge-grant--for-high-tech-industry,c9672039"
+    },
+    {
+      "authors": [
+        "Anton Shilov"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.167855,
+      "source": "KitGuru",
+      "source_domain": "KitGuru",
+      "summary": "Rory Read has stepped down as CEO and president of Advanced Micro Devices, with Lisa Su appointed as his successor. This change reflects AMD's decision to bring in a technology-focused executive to lead the company's future strategic and technological directions. Su, with her extensive background in electrical engineering and R&D from IBM and Freescale, is expected to drive sustainable growth through industry-leading technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.959824",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331469"
+        },
+        {
+          "relevance_score": "0.628079",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137540"
+        },
+        {
+          "relevance_score": "0.564675",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146953"
+        },
+        {
+          "relevance_score": "0.586144",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146829"
+        },
+        {
+          "relevance_score": "0.562198",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102255"
+        }
+      ],
+      "time_published": "20141009T100100",
+      "title": "Lisa Su becomes new CEO of AMD as Rory Read steps down",
+      "topics": [
+        {
+          "relevance_score": "0.937857",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.kitguru.net/components/cpu/anton-shilov/lisa-su-becomes-new-ceo-of-amd-as-rory-read-steps-down/"
+    },
+    {
+      "authors": [
+        "Anton Shilov"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.11565,
+      "source": "KitGuru",
+      "source_domain": "KitGuru",
+      "summary": "Intel has confirmed it will not use extreme ultraviolet (EUV) lithography for its 10nm process technology, expected around 2016, citing the unreadiness of EUV scanners and compatibility issues with existing fabs. Instead, Intel plans to utilize a complex multi-patterning approach for 10nm chip production. The company acknowledges that EUV technology is still several years away from being ready for mass production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.208665"
+        },
+        {
+          "relevance_score": "0.619640",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113396"
+        },
+        {
+          "relevance_score": "0.618390",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145043"
+        },
+        {
+          "relevance_score": "0.564533",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.073008"
+        }
+      ],
+      "time_published": "20140904T105126",
+      "title": "Intel: We will not need EUV for 10nm process technology",
+      "topics": [
+        {
+          "relevance_score": "0.936629",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.kitguru.net/components/cpu/anton-shilov/intel-we-will-not-need-euv-for-10nm-process-technology/"
+    },
+    {
+      "authors": [
+        "Michael McCoy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.399836,
+      "source": "Chemical & Engineering News",
+      "source_domain": "Chemical & Engineering News",
+      "summary": "The semiconductor industry is increasingly integrating cobalt into computer chips to address challenges with shrinking circuitry, such as electromigration in copper interconnects. Applied Materials is leading this change by using thin cobalt films and a cobalt cap in sub-22-nm chip manufacturing, replacing traditional tantalum liners. This new application of cobalt presents a significant business opportunity for organometallic chemical specialists and industrial gas companies supplying the necessary precursors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.980403",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407554"
+        },
+        {
+          "relevance_score": "0.608923",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313209"
+        }
+      ],
+      "time_published": "20140825T100058",
+      "title": "A Home For Cobalt In Computer Chips",
+      "topics": [
+        {
+          "relevance_score": "0.916868",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://cen.acs.org/articles/92/i34/Home-Cobalt-Computer-Chips.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.138215,
+      "source": "Legacy obituary",
+      "source_domain": "Legacy obituary",
+      "summary": "David W. Benzing, a Silicon Valley entrepreneur and semiconductor industry expert, passed away on July 29, 2014, at the age of 61. He was known for co-founding Benzing Technologies and later Innovative Silicon Systems, holding nine U.S. patents related to semiconductor device manufacturing. A Celebration of Life was held on August 16, 2014, and contributions in his memory were suggested for the Happy Hollow Park and Zoo.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.729137",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100035"
+        }
+      ],
+      "time_published": "20140729T100059",
+      "title": "David Benzing Obituary (1953 - 2014) - San Jose, CA - Mercury News",
+      "topics": [
+        {
+          "relevance_score": "0.845704",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.legacy.com/us/obituaries/mercurynews/name/david-benzing-obituary?id=17457735"
+    },
+    {
+      "authors": [
+        "Jon C. Ogg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.284695,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "This article details top analyst upgrades, downgrades, and initiations for various companies on July 15, 2014. Key movements include Applied Materials (AMAT) raised to Buy, Citigroup (C) reiterated as Outperform, and Lexmark International (LXK) downgraded to Underperform. The report highlights a shift in the market towards individual stock picking.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.943831",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.375425"
+        },
+        {
+          "relevance_score": "0.812697",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.383205"
+        },
+        {
+          "relevance_score": "0.745424",
+          "ticker": "KMB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.168879"
+        }
+      ],
+      "time_published": "20140715T084500",
+      "title": "Top Analyst Upgrades and Downgrades: Applied Materials, Citi, Lexmark, PHH, Twitter, Stratasys and More",
+      "topics": [
+        {
+          "relevance_score": "0.921393",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.725566",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.610564",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.610833",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://247wallst.com/investing/2014/07/15/top-analyst-upgrades-and-downgrades-applied-materials-citi-lexmark-phh-twitter-stratasys-and-more/"
+    },
+    {
+      "authors": [
+        "Lalit Wadhwa"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.162718,
+      "source": "Supply & Demand Chain Executive",
+      "source_domain": "Supply & Demand Chain Executive",
+      "summary": "The article discusses the evolving role of Product Lifecycle Management (PLM) in the high-tech industry, moving beyond traditional design and engineering to encompass sustainability, remanufacturing, and recycling. It highlights how companies like Avnet are adapting their services to support this shift from a linear \"make and dispose\" model to a more circular economy. The piece also explores the challenges and opportunities presented by this evolution, including the need for new design paradigms, supply chain collaboration, and the leveraging of emerging technologies to capture residual value from products.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.928122",
+          "ticker": "AVT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333493"
+        },
+        {
+          "relevance_score": "0.604797",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125041"
+        },
+        {
+          "relevance_score": "0.631073",
+          "ticker": "GLW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130433"
+        },
+        {
+          "relevance_score": "0.569823",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111153"
+        },
+        {
+          "relevance_score": "0.557917",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136750"
+        }
+      ],
+      "time_published": "20140618T100624",
+      "title": "Keeping Pace with the Evolution of PLM",
+      "topics": [
+        {
+          "relevance_score": "0.919188",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.822958",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.sdcexec.com/sourcing-procurement/article/11527288/avnet-inc-keeping-pace-with-the-evolution-of-plm"
+    },
+    {
+      "authors": [
+        "Mark Osborne"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.430336,
+      "source": "PV Tech",
+      "source_domain": "PV Tech",
+      "summary": "Applied Materials has introduced its new \u2018Applied Vericell\u2019 system at SNEC 2014, designed to fully automate in-line wafer inspection for solar cell production. The system aims to address quality limitations of manual review and can predict wafer cell efficiency using photoluminescence (PL) technology. This automation helps reduce costs, improve production yields, and enhance overall factory profitability by identifying and eliminating defective wafers early in the manufacturing process.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.443118"
+        }
+      ],
+      "time_published": "20140520T100058",
+      "title": "SNEC 2014: Applied Materials \u2018Vericell\u2019 system fully-automates production wafer inspection",
+      "topics": [
+        {
+          "relevance_score": "0.931559",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.831840",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.737976",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.pv-tech.org/snec_2014_applied_materials_vericell_system_fully_automates_production_wafe/"
+    },
+    {
+      "authors": [
+        "Nancy Cohen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.484874,
+      "source": "Tech Xplore",
+      "source_domain": "Tech Xplore",
+      "summary": "Applied Materials has announced its new Endura Volta CVD Cobalt chip-making machine, which uses cobalt to encapsulate copper interconnects in logic chips beyond the 28nm node. This innovation addresses reliability issues like voids and electromigration failures that occur as chip dimensions shrink, improving device reliability by an order of magnitude. The company sees cobalt as a superior material for future chip wiring, marking a significant material change in semiconductor manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.473428"
+        }
+      ],
+      "time_published": "20140515T100058",
+      "title": "Applied Materials sets cobalt on path to future chips",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.821830",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://techxplore.com/news/2014-05-materials-cobalt-path-future-chips.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.340934,
+      "source": "Semiconductor Today",
+      "source_domain": "Semiconductor Today",
+      "summary": "A new study by Yole D\u00e9veloppement examines the permanent wafer bonding market, noting that EV Group (EVG) holds over 70% market share as the current leader. However, the impending merger of Tokyo Electron (TEL) and Applied Materials (AMAT) is expected to create a significant challenge, especially given TEL's growth in 3D TSV stack bonding. The market, driven by applications like MEMS and advanced packaging, is projected to grow substantially, with a Compound Annual Growth Rate (CAGR) of 25% to nearly $250 million by 2019, fueled by advancements in Cu-Cu bonding.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.942176",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344662"
+        }
+      ],
+      "time_published": "20140422T100059",
+      "title": "EVG leading in permanent bonding market, but merged Applied/Tokyo Electron to challenge",
+      "topics": [
+        {
+          "relevance_score": "0.924685",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.808066",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.843981",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.601827",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.semiconductor-today.com/news_items/2014/APR/YOLE_220414.shtml"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.306362,
+      "source": "Semiconductor Today",
+      "source_domain": "Semiconductor Today",
+      "summary": "Picodeon, a Finland-based nanotech firm specializing in thin-film coatings, has appointed Fergus Clarke as its new CEO. Clarke brings over 25 years of global high-tech management experience, including 18 years at Applied Materials. His appointment comes as Picodeon sees strong interest in its ColdAb Series 4 thin-film deposition system for various applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.909378",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300727"
+        }
+      ],
+      "time_published": "20140408T100058",
+      "title": "Picodeon appoints Applied Materials veteran Fergus Clarke as CEO",
+      "topics": [
+        {
+          "relevance_score": "0.829385",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738691",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.606260",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.semiconductor-today.com/news_items/2014/APR/PICODEON_080414.shtml"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.430682,
+      "source": "Dignity Memorial",
+      "source_domain": "Dignity Memorial",
+      "summary": "J. Mack Robinson, a prominent business leader and philanthropist from Atlanta, passed away on February 7, 2014, at the age of 90. He was Chairman Emeritus of Gray Television, Atlantic American Corporation, and Delta Life Insurance Company, and was known for his extensive business ventures, including backing Yves Saint Laurent. Robinson was also a generous philanthropist, notably making a transformative gift to Georgia State University's business college, which was subsequently renamed the J. Mack Robinson College of Business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GTN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.541381"
+        },
+        {
+          "relevance_score": "0.641437",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321083"
+        }
+      ],
+      "time_published": "20140207T104155",
+      "title": "J. Mack Robinson Obituary - Atlanta, GA",
+      "topics": [
+        {
+          "relevance_score": "0.947383",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.822451",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.633248",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.dignitymemorial.com/obituaries/atlanta-ga/j-mack-robinson-5848898"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.180025,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "KLA-Tencor's CEO Rick Wallace anticipates further delays in the widespread adoption of EUV lithography, pushing its high-volume manufacturing deployment to the 7nm node instead of 10nm. This shift means increased focus and investment in multi-patterning solutions as an interim alternative. The company will adjust its technology development plans accordingly, including investment in EUV reticle inspection systems, while still seeing growth in semiconductor industry spending.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204578"
+        },
+        {
+          "relevance_score": "0.612038",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106246"
+        },
+        {
+          "relevance_score": "0.570462",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115101"
+        }
+      ],
+      "time_published": "20140127T105652",
+      "title": "KLA-Tencor adapts to EUV push-out",
+      "topics": [
+        {
+          "relevance_score": "0.803745",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.900043",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709974",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://optics.org/news/5/1/35"
+    }
+  ],
+  "items": "17",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

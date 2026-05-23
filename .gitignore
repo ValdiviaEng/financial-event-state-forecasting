@@ -20,7 +20,20 @@ dist/
 
 # Local environment and secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+*secrets*
 *Zone.Identifier*
+docs/course_material/
+docs/reference_guides/
+
+# OS and editor local files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
 
 # Notebook checkpoints
 .ipynb_checkpoints/
@@ -50,6 +63,39 @@ data/manifests/**
 !data/manifests/
 !data/manifests/**/
 !data/manifests/**/README.md
+data/datasets/**
+!data/datasets/
+!data/datasets/**/
+!data/datasets/**/README.md
+data/features/**
+!data/features/
+!data/features/**/
+!data/features/**/README.md
+data/splits/**
+!data/splits/
+!data/splits/**/
+!data/splits/**/README.md
+data/models/**
+!data/models/
+!data/models/**/
+!data/models/**/README.md
+data/benchmark_runs/**
+!data/benchmark_runs/
+!data/benchmark_runs/**/
+!data/benchmark_runs/**/README.md
+data/prediction_outputs/**
+!data/prediction_outputs/
+!data/prediction_outputs/**/
+!data/prediction_outputs/**/README.md
+data/stage7_contextual_bandit/**
+!data/stage7_contextual_bandit/
+!data/stage7_contextual_bandit/**/
+!data/stage7_contextual_bandit/**/README.md
+
+# Provider ledgers and sensitive raw logs
+*request_ledger*.jsonl
+*provider_log*
+*raw_log*
 
 # Experiment outputs
 artifacts/**
@@ -64,3 +110,8 @@ reports/**
 !reports/
 !reports/**/
 !reports/**/README.md
+
+# Local scratch and legacy snapshots not intended for GitHub publishing
+manual_research/
+reset/
+deprecated_version/

@@ -1,0 +1,140 @@
+{
+  "artifact_schema_version": "stage5_models_v1",
+  "comparator_ladder": {
+    "roster_id": "phase1_top50_pragmatic_broader_sklearn_v1",
+    "approval_basis": "user_selected_2026-05-21_pragmatic_broader_model_specific_safe_dev_plus_lockbox_tiny_fixed",
+    "seed": 1729,
+    "search_policy": "tiny_fixed_no_hyperparameter_search",
+    "prediction_scope": "development_validation_plus_lockbox_no_metrics",
+    "preprocessing_policy": "model_specific_safe_train_only_v1",
+    "models": [
+      {
+        "model_id": "market_zero_excess_return",
+        "family": "constant_zero",
+        "branch": "market_only",
+        "allowed_inputs": ["market_features"],
+        "preprocessing": "none",
+        "params": {}
+      },
+      {
+        "model_id": "market_train_mean",
+        "family": "constant_train_mean",
+        "branch": "market_only",
+        "allowed_inputs": ["market_features"],
+        "preprocessing": "none",
+        "params": {}
+      },
+      {
+        "model_id": "market_ridge",
+        "family": "ridge",
+        "branch": "market_only",
+        "allowed_inputs": ["market_features"],
+        "preprocessing": "median_impute_scale",
+        "params": {"alpha": 1.0}
+      },
+      {
+        "model_id": "market_elastic_net",
+        "family": "elastic_net",
+        "branch": "market_only",
+        "allowed_inputs": ["market_features"],
+        "preprocessing": "median_impute_scale",
+        "params": {"alpha": 0.0001, "l1_ratio": 0.15, "max_iter": 20000}
+      },
+      {
+        "model_id": "market_random_forest",
+        "family": "random_forest",
+        "branch": "market_only",
+        "allowed_inputs": ["market_features"],
+        "preprocessing": "median_impute",
+        "params": {"n_estimators": 32, "max_depth": 6, "min_samples_leaf": 20, "n_jobs": 1}
+      },
+      {
+        "model_id": "market_hist_gradient_boosting",
+        "family": "hist_gradient_boosting",
+        "branch": "market_only",
+        "allowed_inputs": ["market_features"],
+        "preprocessing": "median_impute",
+        "params": {"max_iter": 60, "learning_rate": 0.05, "max_leaf_nodes": 15, "l2_regularization": 0.01}
+      },
+      {
+        "model_id": "market_mlp",
+        "family": "mlp",
+        "branch": "market_only",
+        "allowed_inputs": ["market_features"],
+        "preprocessing": "median_impute_scale",
+        "params": {"hidden_layer_sizes": [16], "alpha": 0.0001, "learning_rate_init": 0.001, "max_iter": 80}
+      },
+      {
+        "model_id": "event_state_gated_fusion",
+        "family": "simple_gated_fusion",
+        "branch": "event_state",
+        "allowed_inputs": ["market_features", "event_state_features"],
+        "preprocessing": "median_impute_scale",
+        "params": {"alpha": 1.0}
+      }
+    ]
+  },
+  "feature_sets": {
+    "market_features": [
+      "market_open",
+      "market_high",
+      "market_low",
+      "market_close",
+      "market_volume",
+      "market_intraday_return",
+      "market_intraday_range_ratio"
+    ],
+    "event_state_features": [
+      "stage3_aligned_news_count",
+      "provider_empty_feed_flag",
+      "provider_truncation_risk_flag",
+      "minutes_since_latest_aligned_article",
+      "event_state_hash_embedding_00",
+      "event_state_hash_embedding_01",
+      "event_state_hash_embedding_02",
+      "event_state_hash_embedding_03",
+      "event_state_hash_embedding_04",
+      "event_state_hash_embedding_05",
+      "event_state_hash_embedding_06",
+      "event_state_hash_embedding_07",
+      "no_news_flag",
+      "empty_event_state_flag"
+    ],
+    "gated_fusion_gate_features": [
+      "stage3_aligned_news_count",
+      "provider_empty_feed_flag",
+      "provider_truncation_risk_flag",
+      "minutes_since_latest_aligned_article",
+      "no_news_flag",
+      "empty_event_state_flag"
+    ]
+  },
+  "saved_prediction_schema": {
+    "schema_version": "stage5_saved_predictions_v1",
+    "required_columns": [
+      "row_key",
+      "benchmark_family_id",
+      "canonical_ticker",
+      "as_of_date",
+      "horizon_id",
+      "fold_id",
+      "split_role",
+      "model_id",
+      "model_family",
+      "branch",
+      "dataset_version",
+      "feature_artifact_version",
+      "split_artifact_version",
+      "stage5_artifact_version",
+      "prediction"
+    ],
+    "allowed_split_roles": ["validation", "lockbox"],
+    "forbidden_split_roles": ["train", "purged", "embargoed", "excluded"]
+  },
+  "claim_policy": {
+    "stage5_creates_benchmark_claim": false,
+    "metrics_created_in_stage5": false,
+    "comparison_summary_created_in_stage5": false,
+    "lockbox_metrics_computed_in_stage5": false
+  }
+}

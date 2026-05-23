@@ -1,0 +1,4444 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Yuliya Chernova"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.107164,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "A joint venture, Energy Technology Ventures, formed by General Electric Co., NRG Energy Inc., and ConocoPhillips to invest $300 million in clean-technology startups is winding down new investments. Launched nearly four years ago, the venture made fewer deals than initially anticipated, with no public disclosure on the total amount invested. The initiative had originally aimed to back approximately 30 startups within four years of its January 2011 launch.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NRG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.112147"
+        },
+        {
+          "relevance_score": "0.840197",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115733"
+        },
+        {
+          "relevance_score": "0.704345",
+          "ticker": "COP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118973"
+        }
+      ],
+      "time_published": "20141224T111145",
+      "title": "GE, NRG, ConocoPhillips Venture Winding Down, Shows Mixed Results",
+      "topics": [
+        {
+          "relevance_score": "0.927401",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.734625",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.620237",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.636817",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/BL-VCDB-16175?responsive=y&gaa_at=eafs&gaa_n=AWEtsqeFap3qmXCKzZ4C56aLV0cpMQquyZFwii_gV8iTbMzqf7GJ8Kpj9hWE&gaa_ts=6908913a&gaa_sig=uPwm4SoR4nts0n8Ai2jWy1vMeH94_ZMWkM3j0Ta87Th5Dd2Xzzd_ycWMj3mifOB5Kvo5ZCklLSl2IKMQ-beh1Q%3D%3D"
+    },
+    {
+      "authors": [
+        "Danielle Ivory"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.008147,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "The French industrial giant Alstom has agreed to plead guilty and pay a $772 million penalty to the United States in a bribery investigation. The company was found to have paid over $75 million in bribes from 2000 to 2011 to secure $4 billion in contracts globally, leading to profits of approximately $300 million. This criminal penalty marks the largest ever levied by the U.S. for foreign bribery.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.918064",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117132"
+        },
+        {
+          "relevance_score": "0.635985",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123159"
+        }
+      ],
+      "time_published": "20141222T104128",
+      "title": "Alstom to Plead Guilty and Pay U.S. a $772 Million Fine in a Bribery Scheme (Published 2014)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.930083",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.806135",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nytimes.com/2014/12/23/business/alstom-plead-guilty-bribery-us-justice-department.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.395509,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Aviation has been selected by Boeing to provide the Common Core System (CCS) and Enhanced Airborne Flight Recorder (EAFR) for the Boeing 777X aircraft. This selection builds on the success of GE's common core system in the Boeing 787, aiming to reduce development costs and provide advanced avionics capabilities for the new aircraft, which already has 300 orders. The 777X is designed to be the largest and most efficient twin-engine jet, with production slated for 2017 and first delivery in 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412831"
+        },
+        {
+          "relevance_score": "0.931986",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348639"
+        }
+      ],
+      "time_published": "20141216T104127",
+      "title": "Boeing selects GE Aviation for 777X Common Core Avionics Systems",
+      "topics": [
+        {
+          "relevance_score": "0.903839",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.815860",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/boeing-selects-ge-aviation-777x-common-core-avionics-systems"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.445067,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Aviation has been selected by Boeing to provide the Electrical Load Management System (ELMS), Backup Generator, and Backup Converter for the new 777X aircraft. This system will control 30% more power than the current 777 system while maintaining the same size and weight, leveraging GE's military application experience. GE will utilize its Electric Power Integration Centers in the UK and Ohio for development and testing, aiming to reduce development risks with advanced modeling and simulation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438016"
+        },
+        {
+          "relevance_score": "0.905108",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417525"
+        }
+      ],
+      "time_published": "20141216T100629",
+      "title": "Boeing selects GE Aviation for Electrical Power System on 777X",
+      "topics": [
+        {
+          "relevance_score": "0.936666",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.883134",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.621401",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/boeing-selects-ge-aviation-electrical-power-system-777x"
+    },
+    {
+      "authors": [
+        "Janet McConnaughey and The Associated Press (WVEC)"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.378151,
+      "source": "13newsnow.com",
+      "source_domain": "13newsnow.com",
+      "summary": "Textron Systems New Orleans has begun production of a new Navy hovercraft, the \"Ship to Shore Connector,\" designed to transport vehicles and supplies. The test craft is expected to be completed in 2017, with production models starting early next year. The Navy plans to acquire 72 of these new, more efficient hovercraft that will replace current models and offer enhanced capabilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TXT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.514123"
+        },
+        {
+          "relevance_score": "0.748524",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405429"
+        },
+        {
+          "relevance_score": "0.633288",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322495"
+        },
+        {
+          "relevance_score": "0.569903",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240754"
+        }
+      ],
+      "time_published": "20141216T074600",
+      "title": "New Navy hovercraft: Test craft production starts",
+      "topics": [
+        {
+          "relevance_score": "0.927523",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.740378",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.13newsnow.com/article/news/national/military-news/new-navy-hovercraft-test-craft-production-starts/291-294030126"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.280079,
+      "source": "MultiVu",
+      "source_domain": "MultiVu",
+      "summary": "Georgia Power and partners Westinghouse and CB&I celebrated a year of significant progress on the Plant Vogtle expansion, marking the efforts of over 5,000 workers building the first new nuclear units in 30 years. Key milestones included the near completion of the Unit 3 cooling tower and the placement of major modules for both Unit 3 and Unit 4. This expansion is central to Georgia Power's strategy for clean, reliable, and affordable energy, promising 800 new jobs upon completion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.332058",
+          "ticker": "GPJA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010863"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417721"
+        },
+        {
+          "relevance_score": "0.706925",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311609"
+        },
+        {
+          "relevance_score": "0.619441",
+          "ticker": "J",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325139"
+        }
+      ],
+      "time_published": "20141212T104147",
+      "title": "Historic Plant Vogtle expansion marks year of progress",
+      "topics": [
+        {
+          "relevance_score": "0.908747",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.743698",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.620582",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "http://www.multivu.com/players/English/7398151-georgia-power-plant-vogtle-expansion-marks-year-of-progress/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.497253,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE introduced two new technologies, the Dry Low NO x (DLN) 2.6+ Combustion and Advanced Compressor upgrades, to help its 7F gas turbine customers meet energy demands more profitably and with lower emissions. These solutions are designed to enhance operational flexibility, reduce fuel costs and emissions, and improve plant performance and efficiency for gas-powered energy producers in the U.S. The technologies address the growing demand for natural gas and the need for increased generating capacity by 2040.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.462716"
+        }
+      ],
+      "time_published": "20141210T104126",
+      "title": "New Industry-Leading GE Technologies to Help Accelerate Gas-Powered Energy Producers into Leading Role of Fulfilling U.S. Power Needs | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.927601",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.706498",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.647755",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/new-industry-leading-ge-technologies-help-accelerate-gas-powered-energy-producers"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.416546,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "The first four of eight GE 7F.05 gas turbines have reached full commercial baseload operation at Saudi Electricity Company\u2019s (SEC) Power Plant 12 in Riyadh, Saudi Arabia, adding significant power to the grid. These highly efficient and flexible turbines are a key part of Saudi Arabia's plans to expand its power generation capacity and can operate on various fuels, including crude oil. The PP12 project highlights GE's role as a technology partner for Saudi Arabia, with an additional 55 7F.05 units selected by customers globally.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417680"
+        }
+      ],
+      "time_published": "20141210T104126",
+      "title": "GE's 7F.05 Gas Turbines Reach Full Operation in Saudi Arabia",
+      "topics": [
+        {
+          "relevance_score": "0.902241",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.736592",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.627683",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ges-7f05-gas-turbines-reach-full-operation-saudi-arabia"
+    },
+    {
+      "authors": [
+        "Lee Samaha"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.215241,
+      "source": "The Motley Fool",
+      "source_domain": "The Motley Fool",
+      "summary": "This article compares the tenures of General Electric CEOs Jack Welch and Jeff Immelt, focusing on shareholder returns and the market conditions each faced. While Welch oversaw a 5,400% stock return compared to Immelt's 9.4%, the article argues that Immelt was a better leader than his numbers suggest due to significant differences in company size, acquisition strategies, and economic environments. It concludes that Immelt has repositioned GE for future success by addressing past risks and focusing on core strengths.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225683"
+        }
+      ],
+      "time_published": "20141209T100000",
+      "title": "General Electric CEOs: How Jeff Immelt Measures Up to Jack Welch's Legacy",
+      "topics": [
+        {
+          "relevance_score": "0.931438",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.812289",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.740781",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.648042",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.644454",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.fool.com/investing/general/2014/12/09/general-electric-ceos-jack-welch-vs-jeff-immelt.aspx"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.405818,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE's Industrial Solutions business and Panattoni have broken ground on a new US$54 million \"Brilliant Factory\" and customer experience center in Bielsko-Biala, Poland. This 45,000-square-meter facility will integrate advanced manufacturing, product development, and customer engagement, aiming to accelerate product launches and enhance collaboration. It is scheduled to be operational by the end of 2015 and will eventually employ up to 1,200 people.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.472440"
+        },
+        {
+          "relevance_score": "0.735096",
+          "ticker": "CBRE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329755"
+        }
+      ],
+      "time_published": "20141204T104127",
+      "title": "GE and Panattoni Break Ground on US$54 Million Brilliant Factory and Customer Experience Center in Bielsko-Biala, Poland | GE News",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.924348",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.743886",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-and-panattoni-break-ground-us54-million-brilliant-factory-and-customer-experience"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.417906,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Oil & Gas announced that LNG Canada Development Inc. has selected GE's high-efficiency LMS100-PB dry low emission (DLE) aeroderivative gas turbine and centrifugal compressor technologies for its proposed LNG export facility in Kitimat, British Columbia. The LMS100-PB offers superior efficiency, low emissions, and flexibility, supporting LNG Canada's commitment to environmental responsibility and stakeholder feedback. This selection marks a significant step for the project, though final investment depends on several economic and regulatory milestones.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441309"
+        }
+      ],
+      "time_published": "20141202T104127",
+      "title": "LNG Canada Selects GE Oil & Gas High-Efficiency LMS100 Gas Turbine-Compressor Technology for Proposed LNG Facility in British Columbia | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.933262",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.731263",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/lng-canada-selects-ge-oil-gas-high-efficiency-lms100-gas-turbine-compressor-0"
+    },
+    {
+      "authors": [
+        "David McCann"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.209164,
+      "source": "CFO.com",
+      "source_domain": "CFO.com",
+      "summary": "This article details Brian Doubles' transition from a long career at GE to CFO of Synchrony Financial, a retail lending arm spun off from GE Capital. Doubles discusses the challenges and opportunities of taking a new company public, funding it independently, and establishing its own brand identity, while also reflecting on his career shift after decades at GE. He also touches on market trends for credit cards and Synchrony's plans for mobile payments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345228"
+        },
+        {
+          "relevance_score": "0.896778",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249194"
+        },
+        {
+          "relevance_score": "0.648588",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141194"
+        },
+        {
+          "relevance_score": "0.592531",
+          "ticker": "MET",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096094"
+        }
+      ],
+      "time_published": "20141201T114110",
+      "title": "GE Career Man Gets First Taste of Life on the Outside",
+      "topics": [
+        {
+          "relevance_score": "0.919538",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.833196",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.714903",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.633202",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.cfo.com/news/ge-career-man-gets-first-taste-of-life-on-the-outside/664740/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.367428,
+      "source": "Cision News",
+      "source_domain": "Cision News",
+      "summary": "AMETEK Power Instruments received OEM qualification from GE for its 372A2221 Pxxx Type K thermocouples for heavy-duty gas turbines. This approval highlights the innovative design of these exhaust gas thermocouples, which reduce replacement time and allow for complete submersion during wash down. AMETEK has been a key supplier to GE since 1989, providing a range of OEM-qualified products for critical turbine applications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AME",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416355"
+        },
+        {
+          "relevance_score": "0.734882",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330384"
+        }
+      ],
+      "time_published": "20141120T212000",
+      "title": "AMETEK Power Receives OEM Approval from GE for 372A2221 Exhaust Gas Thermocouples for Frame Turbines",
+      "topics": [
+        {
+          "relevance_score": "0.901571",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.728080",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.640880",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.cision.com/ametek/r/ametek-power-receives-oem-approval-from-ge-for-372a2221-exhaust-gas-thermocouples-for-frame-turbines,c9684196"
+    },
+    {
+      "authors": [
+        "Danny English"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.499984,
+      "source": "Aerospace Manufacturing and Design",
+      "source_domain": "Aerospace Manufacturing and Design",
+      "summary": "Triumph Structures - Wichita collaborated with Zimmermann to develop a unique dual-gantry portal milling machine to address their need for machining long aerospace components while also handling smaller parts efficiently. This specialized FZ100 machine, featuring twin gantries and independent CNCs, has significantly improved cycle times and surface quality for Triumph's diverse aerospace manufacturing requirements. The adaptable machine allows for processing very long parts with volumetric compensation or running multiple smaller parts simultaneously, enhancing productivity and precision.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TGI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.899919"
+        },
+        {
+          "relevance_score": "0.604025",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324062"
+        },
+        {
+          "relevance_score": "0.551340",
+          "ticker": "MAS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.281519"
+        }
+      ],
+      "time_published": "20141120T114123",
+      "title": "Dual gantry mill improves cycle time",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.709227",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.aerospacemanufacturinganddesign.com/article/amd1114-dual-gantry-mill-machining/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.46134,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE celebrated the installation of its 25,000th wind turbine, marking a significant milestone in its commitment to renewable energy. This global fleet generates over 100 terawatt hours of renewable energy, equivalent to powering 28 million European households for a year. GE continues to invest in wind technology, expanding its platform of brilliant wind turbines and software, with plans for further expansion in emerging markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.488819"
+        }
+      ],
+      "time_published": "20141119T104126",
+      "title": "GE Builds Brilliant Future of Wind Energy with 25,000th Wind Turbine Installed",
+      "topics": [
+        {
+          "relevance_score": "0.937578",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.721266",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.616952",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-builds-brilliant-future-wind-energy-25000th-wind-turbine-installed"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.456121,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE's Industrial Solutions business has opened a new Advanced Manufacturing Lab (AML) in Plainville, Connecticut, to develop production lines for its new GuardEon molded case circuit breaker platform. The lab utilizes sophisticated robotics and automated manufacturing systems, applying GE's FastWorks methodology to accelerate product development and foster collaboration for design-for-manufacturability. This investment aims to deliver advanced, high-quality products to market faster and will support the new Circuit Breaker Center of Excellence in Puerto Rico.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496482"
+        }
+      ],
+      "time_published": "20141119T104126",
+      "title": "GE Opens New Advanced Manufacturing Lab in Connecticut",
+      "topics": [
+        {
+          "relevance_score": "0.929056",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.824163",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.731610",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-opens-new-advanced-manufacturing-lab-connecticut"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.434407,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE announced its first wind turbine order in Croatia, supplying Vienna-based RP Global with twelve GE 2.85-103 wind turbines for the 34 MW Rudine wind farm. Co-developed with Adria Wind Power, this project will help Croatia meet its renewable energy production goals, aiming for 20% of final energy consumption from renewables by 2020. The wind farm will be located near Dubrovnik and is expected to produce over 85 gigawatt hours of wind energy annually.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.437746"
+        }
+      ],
+      "time_published": "20141118T104127",
+      "title": "GE Achieves First Wind Turbine Order in Croatia with RP Global",
+      "topics": [
+        {
+          "relevance_score": "0.919874",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.728406",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-achieves-first-wind-turbine-order-croatia-rp-global"
+    },
+    {
+      "authors": [
+        "Brooke Sutherland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.247835,
+      "source": "gCaptain",
+      "source_domain": "gCaptain",
+      "summary": "The article discusses how Halliburton Co.'s pursuit of Baker Hughes Inc. could signal the start of major energy deals amid slumping oil prices. It highlights that lower crude prices make energy companies cheaper targets for buyers with capital, potentially leading to significant industry consolidation. The piece also explores other potential acquisitions and the regulatory challenges involved in such large-scale mergers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HAL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331526"
+        },
+        {
+          "relevance_score": "0.986626",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249386"
+        },
+        {
+          "relevance_score": "0.805041",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277406"
+        },
+        {
+          "relevance_score": "0.642561",
+          "ticker": "SLB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143211"
+        }
+      ],
+      "time_published": "20141116T104615",
+      "title": "Big Oil Deals Are Back as Halliburton Makes First Move",
+      "topics": [
+        {
+          "relevance_score": "0.909663",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.849873",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.612758",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.643742",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://gcaptain.com/big-oil-deals-back-halliburton-makes-first-move/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.000828,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Canada announced that its Peterborough motors facility has been awarded a contract by TransCanada Corporation to build customized electrical motors for the Energy East pipeline project. This contract is expected to create 250 jobs within GE and its local supply chain over two years, marking the first major win since GE invested approximately $65M to modernize the plant with government support. The deal highlights GE's advanced manufacturing capabilities and TransCanada's commitment to Canadian economic development through job creation and supply chain opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.341419",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033986"
+        }
+      ],
+      "time_published": "20141113T104126",
+      "title": "GE Peterborough's Revitalized Motors Plant wins TransCanada Contract",
+      "topics": [
+        {
+          "relevance_score": "0.933667",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.822716",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.730967",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-peterboroughs-revitalized-motors-plant-wins-transcanada-contract"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.034724,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Oil & Gas has invested over $4.5 million to commence the fabrication of subsea wellheads in Nigeria, a move that aligns with the Nigerian government's local content laws and aims to reduce costs and improve delivery times for customers. This initiative at GE's Onne facility is creating local business development opportunities and is part of a larger investment plan by GE in Nigeria, including $250 million for new facilities in Calabar and an additional $750 million for local sourcing and training. The company emphasizes its commitment to developing local capabilities and contributing to Nigeria's economic growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.341726",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048742"
+        }
+      ],
+      "time_published": "20141113T104126",
+      "title": "GE Oil & Gas Commences Fabrication of Subsea Wellheads in Nigeria",
+      "topics": [
+        {
+          "relevance_score": "0.946727",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.819951",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.622922",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-oil-gas-commences-fabrication-subsea-wellheads-nigeria"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.337494,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "This article discusses the importance of change for businesses to remain relevant, drawing insights from GE's own transformation. It highlights GE Chairman & CEO Jeff Immelt's address at a TEDxGE event in Kuala Lumpur, where he outlined strategies for Malaysian businesses to adapt. A core message is that change must originate from within the company and its leadership, with one key step being to keep management lean.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333226"
+        }
+      ],
+      "time_published": "20141113T104126",
+      "title": "Commercial Intensity | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.631491",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ge.com/news/taxonomy/term/6512"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.36116,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE introduced its new Digital Commander Paralleling Switchgear, a fully digital system designed to provide flexible backup power for mission-critical applications like data centers and hospitals. This new switchgear improves the management and control of backup power by allowing facilities to prioritize loads and redirect power to critical systems in the event of an outage or generator failure. Its digital design and advanced touch-screen controls offer enhanced reliability and ease of operation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417453"
+        },
+        {
+          "relevance_score": "0.649860",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322562"
+        },
+        {
+          "relevance_score": "0.605266",
+          "ticker": "CMI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327802"
+        }
+      ],
+      "time_published": "20141112T104127",
+      "title": "New GE Digital Commander Paralleling Switchgear Provides Mission-Critical Facilities Flexibility in Backup Power Design and Management | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.895562",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.712126",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.609346",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/new-ge-digital-commander-paralleling-switchgear-provides-mission-critical-facilities"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://photos.prnewswire.com/prnh/20100719/AQ37264LOGO",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.285285,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Aon Hewitt announced its 2014 Global Aon Hewitt Top Companies for Leaders, with GE, IBM, Hindustan Unilever Limited, General Mills, Inc., and ICICI Bank Ltd. leading the list. The study evaluates and recognizes leadership and talent management practices globally, emphasizing assessment, self-awareness, resilience, engaging leadership, and sustainability as key characteristics of top companies. The winners demonstrated commitment to leadership development, resulting in higher financial returns, increased employee engagement, and talent retention.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.963820",
+          "ticker": "AON",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337228"
+        },
+        {
+          "relevance_score": "0.869617",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.369468"
+        },
+        {
+          "relevance_score": "0.848911",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305098"
+        },
+        {
+          "relevance_score": "0.780696",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273639"
+        },
+        {
+          "relevance_score": "0.641516",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227916"
+        }
+      ],
+      "time_published": "20141112T092300",
+      "title": "Aon Hewitt Announces the 2014 Global Aon Hewitt Top Companies for Leaders",
+      "topics": [
+        {
+          "relevance_score": "0.834763",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/aon-hewitt-announces-the-2014-global-aon-hewitt-top-companies-for-leaders-282408221.html"
+    },
+    {
+      "authors": [
+        "David Robinson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.015791,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Two retired General Electric employees are contending that the company improperly terminated its GE Medicare Plan for some retirees. The changes are set to be effective January 1, 2015, impacting retirees in the Albany, New York region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300115",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044941"
+        }
+      ],
+      "time_published": "20141107T104128",
+      "title": "General Electric in battle over retiree benefits",
+      "topics": [
+        {
+          "relevance_score": "0.831199",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.637799",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bizjournals.com/albany/print-edition/2014/11/07/general-electric-in-battle-over-retiree-benefits.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.802601,
+      "source": "GhanaWeb",
+      "source_domain": "GhanaWeb",
+      "summary": "General Electric (GE) plans to add 1000 megawatts of power to Ghana's energy stock by 2016, aligning with the government's vision to provide 5000 megawatts. GE Global President, Mr. Lorenzo Simonelli, announced this during a visit to Ghana, where discussions also covered health, oil, and gas sectors, including GE's efforts to build local capacity and develop new oil fields. The Ghanaian government expressed commitment to the project, recognizing energy as a critical need for national development, and highlighted GE's long-standing collaboration with the country.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.818244"
+        }
+      ],
+      "time_published": "20141028T104128",
+      "title": "General Electric to add more power",
+      "topics": [
+        {
+          "relevance_score": "0.906752",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.725346",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.642342",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.646331",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.ghanaweb.com/GhanaHomePage/business/General-Electric-to-add-more-power-332348"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.646992,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE and Phoenix Energy have announced an agreement for GE to supply ecomagination qualified Jenbacher gas engines to power a series of bioenergy plants Phoenix Energy plans to build in California. These plants will convert biomass residues into a hydrogen-rich syngas, which will then be used in GE's Jenbacher J612 gas engines to generate renewable electricity. This initiative aims to promote regional energy security, support California's Renewable Portfolio Standard, and reduce forest fire danger by utilizing forestry residues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.630132"
+        }
+      ],
+      "time_published": "20141021T104127",
+      "title": "GE Gas Engines to Power Phoenix Energy's California Bioenergy Projects",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.841651",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-gas-engines-power-phoenix-energys-california-bioenergy-projects"
+    },
+    {
+      "authors": [
+        "Hadley Malcolm"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.786667,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Morgan Stanley's income nearly doubled in the third quarter due to strong performance in its institutional securities and wealth management divisions. The investment bank reported earnings of $1.71 billion, or 84 cents per share, significantly exceeding analyst estimates. Net revenue also increased to $8.9 billion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.819243"
+        },
+        {
+          "relevance_score": "0.617152",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.701849"
+        }
+      ],
+      "time_published": "20141017T110645",
+      "title": "Morgan Stanley's income nearly doubles",
+      "topics": [
+        {
+          "relevance_score": "0.937501",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.800001",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/business/2014/10/17/morgan-stanleys-income-nearly-doubles/17423383/"
+    },
+    {
+      "authors": [
+        "Steve Lohr"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.237087,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "General Electric reported an 11% increase in profit, exceeding Wall Street's expectations, driven by strong demand for industrial equipment. The company's strategy to shed non-industrial businesses, alongside a significant rise in industrial orders, signals an optimistic outlook despite global economic uncertainties. Executives project robust industrial revenue growth for the year, anticipating a very strong fourth quarter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.474601"
+        },
+        {
+          "relevance_score": "0.714444",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111884"
+        },
+        {
+          "relevance_score": "0.605572",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130066"
+        }
+      ],
+      "time_published": "20141017T104127",
+      "title": "Robust Demand for Industrial Equipment Lifts General Electric\u2019s Profit 11% (Published 2014)",
+      "topics": [
+        {
+          "relevance_score": "0.934694",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.841292",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.703496",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.615829",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.606974",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.nytimes.com/2014/10/18/business/ge-profit-rises-11-in-third-quarter.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.46624,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE announced that E.ON has increased power output by up to four percent from 283 of its 469 wind turbines using GE's Wind PowerUp services. This enhancement could lead to a projected 87 gigawatt hours of increased production across all enrolled turbines, equivalent to powering 8,000 American homes for a year. The PowerUp services, launched in 2013, leverage advanced software and data analytics to optimize wind turbine performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.468832"
+        }
+      ],
+      "time_published": "20141009T104126",
+      "title": "E.ON Achieves More Output from 469 Wind Turbines through GE's Wind PowerUp* Services",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.822998",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/eon-achieves-more-output-469-wind-turbines-through-ges-wind-powerup-services"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.251032,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Chairman and CEO Jeff Immelt announced the appointment of John Flannery as president and CEO of GE Healthcare, succeeding John Dineen. Flannery, previously senior vice president of business development for GE, brings 27 years of experience in growing businesses with a global focus. GE Healthcare, a $20 billion business, is a leading manufacturer of medical imaging devices and a core part of GE's portfolio, with continued investment plans.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.280534"
+        }
+      ],
+      "time_published": "20141006T104127",
+      "title": "John Flannery to Lead GE Healthcare",
+      "topics": [
+        {
+          "relevance_score": "0.908095",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.739824",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/john-flannery-lead-ge-healthcare"
+    },
+    {
+      "authors": [
+        "Slavka Atanasova"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.446226,
+      "source": "Oil & Gas Middle East",
+      "source_domain": "Oil & Gas Middle East",
+      "summary": "General Electric has secured a two-year contract to supply 200 overland pumps to Egypt's Badr El Din Petroleum Company (BAPETCO). This deal supports BAPETCO's work in the \"Abusnan\" concession area. GE is also involved in several other significant energy projects in Egypt, including enhancing oil and gas production and expanding the national electricity grid.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410415"
+        }
+      ],
+      "time_published": "20140929T104128",
+      "title": "General Electrics wins Egypt\u2019s BAPETCO contract",
+      "topics": [
+        {
+          "relevance_score": "0.934829",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.709229",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.oilandgasmiddleeast.com/news/article-12956-general-electrics-wins-egypts-bapetco-contract"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.457776,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE's Intelligent Platforms business announced that its Equipment Insight solution, part of GE Predictivity, is enabling a new services program called Roots InSite Support. This service aims to maximize the performance of GE Roots blowers, compressors, and controls by providing actionable information and troubleshooting support. The solution allows OEM experts to offer early detection of equipment problems and seamless visibility to critical data, ultimately reducing downtime and associated costs for customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.455250"
+        }
+      ],
+      "time_published": "20140929T104127",
+      "title": "Get Connected! GE's Equipment Insight Solution Enables New Industrial Internet Service Offering",
+      "topics": [
+        {
+          "relevance_score": "0.813360",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747810",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.641712",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/get-connected-ges-equipment-insight-solution-enables-new-industrial-internet-service"
+    },
+    {
+      "authors": [
+        "Phil DeMuth"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.061702,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Charlie Munger, Chairman of the Daily Journal Corporation (DJCO), discusses the challenges faced by the company, including a disastrous audit and the declining newspaper business. He emphasizes their strategic shift towards a legal software business, acknowledging the difficulties but expressing optimism about their ability to adapt and succeed in a venture capital-type investment. Munger also draws parallels to other companies like Kodak and Berkshire Hathaway, highlighting the rarity of successful business transformations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DJCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132298"
+        },
+        {
+          "relevance_score": "0.727163",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.074610"
+        }
+      ],
+      "time_published": "20140919T135400",
+      "title": "Charlie Munger And The 2014 Daily Journal Annual Meeting: A Fan's Notes",
+      "topics": [
+        {
+          "relevance_score": "0.809225",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.709562",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.734401",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.624205",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/phildemuth/2014/09/19/charlie-munger-and-the-2014-daily-journal-annual-meeting-a-fans-notes/"
+    },
+    {
+      "authors": [
+        "Chris Sorensen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.285433,
+      "source": "Macleans.ca",
+      "source_domain": "Macleans.ca",
+      "summary": "General Electric is undergoing a significant strategic transformation, shifting its focus from financial services and diverse consumer products back to its industrial roots, particularly in infrastructure businesses like power generation, aviation, and healthcare. This refocusing, led by CEO Jeffrey Immelt, involves divesting non-core assets and emphasizing industrial growth, driven by a global need for infrastructure investment and a desire to move away from the \"financial engineering\" criticized after the pre-recession economy. The company is also implementing cultural changes with initiatives like FastWorks to foster innovation and faster product development.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333609"
+        },
+        {
+          "relevance_score": "0.611173",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.218153"
+        },
+        {
+          "relevance_score": "0.603268",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305202"
+        }
+      ],
+      "time_published": "20140916T104127",
+      "title": "A light goes on for General Electric",
+      "topics": [
+        {
+          "relevance_score": "0.930813",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.945922",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.807593",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.705234",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.644253",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://macleans.ca/economy/business/a-light-goes-on-for-general-electric/"
+    },
+    {
+      "authors": [
+        "Simon Johnson and Sven Nordenstam"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.111137,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Electrolux AB announced its acquisition of General Electric Co's appliance business for $3.3 billion, its largest-ever deal, aiming to double its U.S. sales and challenge rival Whirlpool. This purchase will significantly expand Electrolux's North American market presence and includes GE's iconic appliance brands and its stake in Mexican appliance maker Mabe. Analysts view the deal favorably, especially considering potential cost savings, and expect it to clear antitrust hurdles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.304778"
+        },
+        {
+          "relevance_score": "0.608218",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.120765"
+        },
+        {
+          "relevance_score": "0.604239",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104099"
+        }
+      ],
+      "time_published": "20140908T203000",
+      "title": "Electrolux takes on Whirlpool in U.S. with $3.3 billion GE Appliances buy",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.814798",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.617378",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.608275",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/electrolux-takes-on-whirlpool-in-us-with-33-billion-ge-appliances-buy-idUSKBN0H30AF/"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.344137,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "Sweden's Electrolux is acquiring General Electric's appliance business for $3.3 billion, marking its largest acquisition ever and significantly boosting its presence in the North American market. This move allows GE to further focus on its more profitable industrial equipment business. The acquisition is expected to be completed in 2015, pending regulatory approval.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316895"
+        }
+      ],
+      "time_published": "20140908T104200",
+      "title": "Electrolux buys GE's appliance arm for $3.3B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.849460",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.719733",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.610130",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.602050",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/business/electrolux-buys-ge-s-appliance-arm-for-3-3b-1.2759248"
+    },
+    {
+      "authors": [
+        "Grace Schneider",
+        "Jere Downs"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.143637,
+      "source": "The Courier-Journal",
+      "source_domain": "The Courier-Journal",
+      "summary": "Electrolux's $3.3 billion acquisition of GE's appliance division has raised concerns among Appliance Park workers in Louisville, Kentucky, regarding job security. Despite these fears, Electrolux CEO Keith McLoughlin declined to provide specific plans for Appliance Park, awaiting regulatory approval. Local officials and employees remain optimistic while acknowledging the economic impact and the need to retain GE's established workforce and research capabilities in the area.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.223721"
+        },
+        {
+          "relevance_score": "0.637026",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140470"
+        }
+      ],
+      "time_published": "20140908T104128",
+      "title": "Electrolux CEO mum on Appliance Park plans",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.848712",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.638513",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.641358",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.courier-journal.com/story/money/companies/2014/09/08/electrolux-buying-ge-appliances/15270347/"
+    },
+    {
+      "authors": [
+        "Matthew Zahnzinger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.133152,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "This article looks back at the history of GE Appliances, highlighting its deep connection to American identity and innovation. It traces the company's origins, its advertising strategies, iconic products like the Monitor Top refrigerator, and its association with Ronald Reagan. The piece also notes GE's later tagline, consumer goods focus, and recent investments in its Appliance Park facility, concluding with the intent to acquire the brand by Electrolux.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.916412",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110841"
+        }
+      ],
+      "time_published": "20140908T104127",
+      "title": "A look back at GE Appliances' iconic brand",
+      "topics": [
+        {
+          "relevance_score": "0.816716",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.614279",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/2014/09/08/a-look-back-at-ges-iconic-appliance-brand/15296637/"
+    },
+    {
+      "authors": [
+        "Ted Mann"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.307365,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "General Electric Co. has announced the sale of its appliance business to Sweden-based Electrolux AB for $3.3 billion. This strategic move signifies GE's further shift away from consumer-focused products, allowing the conglomerate to concentrate almost entirely on finance and large-scale industrial equipment such as power turbines and aircraft engines. The transaction marks a significant step in GE's evolving business strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325517"
+        }
+      ],
+      "time_published": "20140908T104127",
+      "title": "GE Moves Further Away From Consumers With Sale of Appliances Unit",
+      "topics": [
+        {
+          "relevance_score": "0.946093",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.729263",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.606144",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.631126",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/appliances-sale-shifts-ge-further-away-from-consumers-1410197984?gaa_at=eafs&gaa_n=AWEtsqfnU1kcZhcglP21A1YwPjOPpSfaJN-1y_mgptd_pgLjjEyFhz6l3L4u&gaa_ts=69088a1c&gaa_sig=XA9t5JZxA5RDZ8X7n0NOUrWEXCE2IL8Og6GbUI5jeStMuNmVg8AgIG81z1uZxcfXHKUO0EJExs3YthT8C4CcwQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.322999,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE announced it has signed a definitive agreement to sell its Appliances business to Electrolux for $3.3 billion, a move aligned with GE's strategy to focus on infrastructure and technology. The transaction, valued at 8.0x EBITDA, will result in an after-tax gain of $0.05-$0.07 per share for GE and allows Electrolux to continue using the GE Appliances brand. This sale is part of GE's broader portfolio reshaping efforts in 2014, including previous actions related to Alstom and Synchrony Financial, to concentrate on higher-growth industrial businesses.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302821"
+        }
+      ],
+      "time_published": "20140908T104126",
+      "title": "GE Agrees to Sell Appliances Business to Electrolux for $3.3B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.806116",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.723211",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.632097",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-agrees-sell-appliances-business-electrolux-33b"
+    },
+    {
+      "authors": [
+        "Jon C. Ogg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.137949,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "General Electric is reportedly close to selling its appliance unit to Electrolux for approximately $2.5 billion, a move intended to reclassify GE as an industrial conglomerate and improve its earnings multiple valuation. This sale follows previous divestitures of NBC and Synchrony consumer finance, highlighting GE's strategic shift away from consumer-facing businesses. While the appliance unit is profitable, its margins and investor perception do not align with GE's new focus on infrastructure and specialty finance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127874"
+        }
+      ],
+      "time_published": "20140904T152100",
+      "title": "What This Appliance Unit Sale Really Means for GE",
+      "topics": [
+        {
+          "relevance_score": "0.906821",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.819268",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.744795",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.604766",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://247wallst.com/infrastructure/2014/09/04/what-this-appliance-unit-sale-really-means-for-ge/"
+    },
+    {
+      "authors": [
+        "Melinda Beck"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.35337,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "General Electric Co. has received FDA approval for its 3-D breast-imaging technology, SenoClaire, introducing significant competition into a market currently dominated by Hologic Inc. This 3-D mammography, also known as tomosynthesis, offers more detailed images and has been shown to detect more cancers with fewer false alarms than traditional mammograms. The technology is rapidly being adopted in the $10 billion-a-year breast screening market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.901816",
+          "ticker": "HOLX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339820"
+        },
+        {
+          "relevance_score": "0.829730",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430073"
+        }
+      ],
+      "time_published": "20140902T104630",
+      "title": "GE Gets FDA Approval for 3-D Mammogram Machine",
+      "topics": [
+        {
+          "relevance_score": "0.931051",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.805068",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/ge-gets-fda-approval-for-3-d-mammogram-machine-1409697573?gaa_at=eafs&gaa_n=AWEtsqdsoWNazPfvOsq92GgcRfsC05Fv8gsNKI1mJd5ZqzdUhtKo9fNfjMAN&gaa_ts=69088b40&gaa_sig=nS-q8D72-gFZiIr1btmNjFJFOIN8CCx31tcpcXC0qiQosBE1q5hlwCsXWQgxap8yIrjQSDXCFrIJqkac3ebm7A%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.434211,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Mining companies are adopting battery-operated LHD vehicles to eliminate carcinogenic diesel particulate emissions and reduce high ventilation costs associated with traditional diesel equipment. This shift towards \"green mining\" offers significant health and safety benefits for underground workers, as well as operational efficiencies and cost savings, without sacrificing performance. The technology, developed by GE Mining, has proven stronger and quieter than its diesel counterparts in tests, pointing towards a future where mining operations are cleaner and safer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.917178",
+          "ticker": "IAG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.500567"
+        },
+        {
+          "relevance_score": "0.870172",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429509"
+        },
+        {
+          "relevance_score": "0.612474",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345370"
+        }
+      ],
+      "time_published": "20140825T104647",
+      "title": "Breathing easier underground",
+      "topics": [
+        {
+          "relevance_score": "0.800170",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.722567",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.717575",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/partners/ge-innovation/breathing-easier-underground/article20193521/"
+    },
+    {
+      "authors": [
+        "Paul Ausick"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.008268,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "The Federal Aviation Administration has certified General Electric's engines for commercial flights on Boeing's 787-9 Dreamliner. Boeing expects to deliver the first GE-equipped 787-9s next week, with United Continental Holdings Inc. being the inaugural customer. This certification expands flight capabilities, increasing passenger capacity and flying range compared to earlier models.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.324488",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009596"
+        }
+      ],
+      "time_published": "20140823T090500",
+      "title": "GE Engine Gets OK for 787-9 Dreamliner",
+      "topics": [
+        {
+          "relevance_score": "0.911220",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.812637",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://247wallst.com/aerospace-defense/2014/08/23/ge-engine-gets-ok-for-787-9-dreamliner/"
+    },
+    {
+      "authors": [
+        "Jonathan Fahey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.312516,
+      "source": "Philstar.com",
+      "source_domain": "Philstar.com",
+      "summary": "General Electric confirmed it is considering selling its historic appliance division to focus on more profitable industrial equipment. This confirmation followed a statement from Swedish appliance maker Electrolux about its discussions to acquire the business. GE\u2019s appliance division, which includes a smaller lighting business, earned $381 million on $8.3 billion in sales last year, a significantly lower profit margin compared to its industrial division.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307718"
+        }
+      ],
+      "time_published": "20140815T050000",
+      "title": "GE in talks to sell historic appliance division",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.922287",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.734977",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.philstar.com/business/2014/08/15/1357890/ge-talks-sell-historic-appliance-division"
+    },
+    {
+      "authors": [
+        "Newsdesk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.280392,
+      "source": "GGRAsia",
+      "source_domain": "GGRAsia",
+      "summary": "Las Vegas Sands Corp played a pivotal role in brokering a strategic partnership between Macau's LT Game Ltd and U.S.-based International Game Technology (IGT). The agreement involves IGT exclusively distributing LT Game's products in the U.S. and Canada, while LT Game will distribute IGT's slot machines in Macau. This collaboration aims to leverage each company's strengths and expand market reach, with Las Vegas Sands recognizing the synergistic potential.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LVS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412204"
+        },
+        {
+          "relevance_score": "0.622934",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149446"
+        }
+      ],
+      "time_published": "20140814T110129",
+      "title": "LVS the matchmaker in IGT-LT Game teaming: Jay Chun",
+      "topics": [
+        {
+          "relevance_score": "0.940116",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.731707",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.ggrasia.com/lvs-the-matchmaker-in-igt-lt-game-teaming-jay-chun"
+    },
+    {
+      "authors": [
+        "Jayadevan PK"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.417848,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "This article introduces Michael Idelchik, General Electric's Vice-President for Advanced Technologies, often called \"GE's Einstein,\" who is instrumental in guiding the company's innovation strategy. Idelchik discusses the ongoing \"fourth industrial revolution\" driven by machines, sensors, and software, and emphasizes the importance of constant change, advanced manufacturing, and open innovation for GE's future relevance. He also highlights India's engineering talent as an underappreciated resource, crucial for fostering more \"makers\" in the country.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.436050"
+        }
+      ],
+      "time_published": "20140809T054200",
+      "title": "Michael Idelchik: Meet the man making General Electric future-ready",
+      "topics": [
+        {
+          "relevance_score": "0.810539",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.722575",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://m.economictimes.com/news/company/corporate-trends/michael-idelchik-meet-the-man-making-general-electric-future-ready/articleshow/39906994.cms"
+    },
+    {
+      "authors": [
+        "Liam Pleven"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.20195,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "The article discusses strategies for investing in corporate spinoffs, highlighting their potential to outperform the market after becoming independent. The recent IPO of Synchrony Financial, a former General Electric unit, draws attention to this investment strategy. While spinoffs can perform well, researchers also note they might initially lag behind the market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.341842",
+          "ticker": "SYF-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.023327"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403451"
+        },
+        {
+          "relevance_score": "0.729487",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235092"
+        }
+      ],
+      "time_published": "20140801T114111",
+      "title": "Strategies to Profit From Corporate Spinoffs",
+      "topics": [
+        {
+          "relevance_score": "0.925897",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.810495",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.743379",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/strategies-to-profit-from-corporate-spinoffs-1406921136?gaa_at=eafs&gaa_n=AWEtsqcywJ4oJdr5mgwu8Y4uGeWneFMEu9mIGdcNZASuDYu4nrJWFDgyr0M0&gaa_ts=6908980e&gaa_sig=nAhkkE1qEdJPpy4lQrZtxE3ARjv_zvgpNYOlbq3ML4hnv185jLwAeHDDHBnfrUQo0yepfHiJm086RWDWKE4nHw%3D%3D"
+    },
+    {
+      "authors": [
+        "By Danielle Douglas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.433253,
+      "source": "The Washington Post",
+      "source_domain": "The Washington Post",
+      "summary": "General Electric's credit card unit, Synchrony Financial, launched its initial public offering on Thursday, raising $2.9 billion. This IPO marks a significant step for GE in reducing its financial services footprint, moving closer to refocusing on its core industrial manufacturing businesses like power generators and jet engines, after its financial division nearly caused its downfall during the 2008 crisis.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324796"
+        },
+        {
+          "relevance_score": "0.949084",
+          "ticker": "SYF",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.548899"
+        }
+      ],
+      "time_published": "20140731T104127",
+      "title": "General Electric spins off credit card unit in IPO",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.833759",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.600814",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.washingtonpost.com/business/economy/general-electric-spins-off-credit-card-unit-in-ipo/2014/07/31/1f44ac24-1828-11e4-9349-84d4a85be981_story.html"
+    },
+    {
+      "authors": [
+        "Michael Hayman",
+        "Warren Klosterman",
+        "Ben Van Hook"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.110372,
+      "source": "The Courier-Journal",
+      "source_domain": "The Courier-Journal",
+      "summary": "This gallery provides a historical overview of GE Appliance Park in Louisville, Kentucky, showcasing key moments from its groundbreaking in 1951 to various milestones through the years. It highlights events such as the production of the first refrigerator, job applicant lines, technological advancements like the UNIVAC computer, and employee activities. The collection of photos illustrates the evolution of operations and the significant role the park played.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138965"
+        }
+      ],
+      "time_published": "20140716T104127",
+      "title": "Gallery | GE Appliance Park over the years",
+      "topics": [
+        {
+          "relevance_score": "0.901361",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.619381",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.courier-journal.com/picture-gallery/news/history/river-city-retro/2014/07/16/gallery--ge-appliance-park-over-the-years/12742595/"
+    },
+    {
+      "authors": [
+        "Jerry Underwood"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.266918,
+      "source": "Alabama Department of Commerce",
+      "source_domain": "Alabama Department of Commerce",
+      "summary": "Boeing is establishing a new research and development center in Huntsville, Alabama, focusing on simulation analytics, metals, and chemical technology. This center, an investment of $5 million to $6 million, is crucial for Boeing's competitiveness and future growth, creating 300 to 400 high-paying jobs. The move highlights Alabama's push for research-related jobs in the aerospace sector, with other companies like GKN and GE Aviation also expanding their R&D presence in the state.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412023"
+        },
+        {
+          "relevance_score": "0.646049",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242814"
+        },
+        {
+          "relevance_score": "0.633088",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235444"
+        },
+        {
+          "relevance_score": "0.643591",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209152"
+        }
+      ],
+      "time_published": "20140716T100628",
+      "title": "Boeing Alabama research center to bring new innovation",
+      "topics": [
+        {
+          "relevance_score": "0.918072",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.806791",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.742470",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.731025",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.madeinalabama.com/2014/07/boeing-alabama-research-center-bring-new-innovation/"
+    },
+    {
+      "authors": [
+        "Alwyn Scott"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Ffilter.reuters.com%2Fstatic%2F1014X%2FX80816821214.jpg?auth=da75e3c11ff8782aef19f80a373ff23d&width=1200&height=1200&q=80&unsharp=1.5&resizeonly=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.390364,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "General Electric Co has selected France's Safran SA, Japan's IHI Corp, and Germany's MTU Aero Engines AG as partners for work on the GE9X engine, designed to power Boeing's new 777X aircraft. These companies will collectively hold about 25 percent of the GE9X program, contributing to development costs and manufacturing specific components. GE plans to invest $300 million in the program this year and has already secured orders for over 600 GE9X engines, the sole engine choice for the 777X.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.383425"
+        },
+        {
+          "relevance_score": "0.942377",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.393742"
+        }
+      ],
+      "time_published": "20140710T173700",
+      "title": "General Electric picks partners for GE9X engine on Boeing 777X",
+      "topics": [
+        {
+          "relevance_score": "0.924292",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.821044",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.631084",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/americas/general-electric-picks-partners-for-ge9x-engine-on-boeing-777x-idUSKBN0FF1UQ/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.026592,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Lighting has introduced the Lumination\u2122 BR Series LED Luminaire, offering dimmable, uniform, and efficient lighting for commercial ceilings. This recessed LED troffer aims to provide aesthetic and cost-saving benefits, along with easy installation and maintenance for businesses seeking to upgrade their lighting systems. It is available in various sizes and lumen ranges, making it suitable for both new construction and retrofits in office and retail environments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347211",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015605"
+        }
+      ],
+      "time_published": "20140702T104127",
+      "title": "GE's Lumination\u2122 BR Series LED Luminaire Provides Clean, Uniform Lighting with Dimming Capabilities for Commercial Ceilings | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.912176",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.827999",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738625",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ges-lumination%E2%84%A2-br-series-led-luminaire-provides-clean-uniform-lighting-dimming"
+    },
+    {
+      "authors": [
+        "Francisco Rojas"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.319755,
+      "source": "ThinkGeoEnergy",
+      "source_domain": "ThinkGeoEnergy",
+      "summary": "General Electric has successfully won the bid to take over Alstom's gas and steam turbine businesses after a competitive bidding process involving Siemens and Mitsubishi Heavy Industries. GE initially aimed to acquire all of Alstom's operations for $16.9 billion, but French government concerns led to a revised focus on Alstom's power generation sector. The implications for Alstom's geothermal business, particularly its activities in Mexico, remain unclear.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310497"
+        }
+      ],
+      "time_published": "20140627T104127",
+      "title": "General Electric taking over gas and steam turbine businesses from Alstom",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.810413",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.649830",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.thinkgeoenergy.com/general-electric-taking-over-gas-and-steam-turbine-businesses-from-alstom/"
+    },
+    {
+      "authors": [
+        "Herman K. Trabish"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.461899,
+      "source": "Utility Dive",
+      "source_domain": "Utility Dive",
+      "summary": "General Electric Co. has successfully completed its $17 billion acquisition of Alstom\u2019s gas turbine operations and formed joint ventures for other segments, winning a bidding war against Siemens AG. The deal was secured by concessions including GE turning over rail-signaling operations to Alstom and convincing Bouygues SA to sell a stake to the French government, which had asserted its right to block the acquisition due to national importance. This acquisition, the largest in GE's history, also involves GE proposing nuclear technology and rail partnerships, and committing to create 1,000 French jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496408"
+        }
+      ],
+      "time_published": "20140624T104127",
+      "title": "GE wins Alstom bidding war over Siemens",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.836982",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.704822",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.622638",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.utilitydive.com/news/ge-wins-alstom-bidding-war-over-siemens/278287/"
+    },
+    {
+      "authors": [
+        "Dave Majumdar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.460028,
+      "source": "USNI News",
+      "source_domain": "USNI News",
+      "summary": "The U.S. Navy and Air Force are developing adaptive-cycle jet engines for their sixth-generation fighters, like the F/A-XX and F-X programs. These engines, being developed by companies such as Pratt & Whitney and General Electric, are designed for extreme efficiency, speed, and range by varying their bypass ratios. This advanced propulsion technology is critical for the future aircraft, with development efforts like ADVENT and AETD aiming for high technological maturity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.971442",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.725309"
+        },
+        {
+          "relevance_score": "0.834315",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.621091"
+        },
+        {
+          "relevance_score": "0.723374",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416575"
+        },
+        {
+          "relevance_score": "0.606896",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324309"
+        },
+        {
+          "relevance_score": "0.559369",
+          "ticker": "HII",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204771"
+        }
+      ],
+      "time_published": "20140623T105100",
+      "title": "Next Generation Engine Work Points to Future U.S. Fighter Designs",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.usni.org/2014/06/23/next-generation-engine-work-points-future-u-s-fighter-designs"
+    },
+    {
+      "authors": [],
+      "banner_image": "AFP",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.334058,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "France has approved a $17bn deal for US rival General Electric to acquire most of Alstom's power generation business, after securing an option to buy a 20% stake in Alstom. This intervention reshaped GE's original offer and created significant joint ventures, aiming to protect French interests and jobs. While French officials hailed it as a victory against globalization, a German official criticized France for prioritizing national over European interests.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347563"
+        }
+      ],
+      "time_published": "20140623T104127",
+      "title": "France claims victory in Alstom deal with US rival GE",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.811096",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.910834",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.608472",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.bbc.com/news/business-27971122"
+    },
+    {
+      "authors": [
+        "Anders Bylund"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.05263,
+      "source": "Seattle Post-Intelligencer",
+      "source_domain": "Seattle Post-Intelligencer",
+      "summary": "General Electric is a complex global conglomerate with significant operations in industrial sectors and a large financial arm, GE Capital, which it aims to shrink. The company generates 47% of its sales from the U.S. and is expanding in fast-growing economies like Asia and the Middle East. GE is actively rebalancing its portfolio by shedding financial services and growing its energy and oil and gas divisions, with potential acquisitions like Alstom's power assets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111521"
+        },
+        {
+          "relevance_score": "0.748583",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102017"
+        },
+        {
+          "relevance_score": "0.634803",
+          "ticker": "HON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103896"
+        }
+      ],
+      "time_published": "20140615T104126",
+      "title": "How Does General Electric Make Money?",
+      "topics": [
+        {
+          "relevance_score": "0.802600",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.724975",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.619663",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.628451",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.seattlepi.com/business/fool/article/How-Does-General-Electric-Make-Money-5554118.php"
+    },
+    {
+      "authors": [
+        "Sam Roberts"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.020067,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Comcast is seeking approval from the New York City\u2019s Landmarks Preservation Commission to replace G.E.\u2019s initials with its own logo atop 30 Rockefeller Plaza. This move comes as Comcast lobbies for federal approval of its $45 billion acquisition of Time Warner Cable, aiming to raise its public profile in New York. The building has a history of name changes, having been previously known as the RCA Building before G.E.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335680",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.038663"
+        }
+      ],
+      "time_published": "20140613T104128",
+      "title": "Comcast Seeking to Replace G.E.\u2019s Initials Atop 30 Rock",
+      "topics": [
+        {
+          "relevance_score": "0.932326",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.703535",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.nytimes.com/2014/06/14/nyregion/comcast-seeks-to-replace-ges-initials-at-30-rock.html"
+    },
+    {
+      "authors": [
+        "Ted Mann",
+        "Inti Landauro",
+        "Dana Cimilluca"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.228133,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "French concerns regarding General Electric Co.'s $17 billion deal with Alstom SA go beyond just job security, primarily focusing on the potential loss of control over nuclear assets. France views nuclear technology exports as a strong business, and Alstom is a key player, supplying critical components like Arabelle turbines to major engineering and utility firms within the country. The resistance highlights a deeper national interest in maintaining sovereignty over strategic industries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205047"
+        }
+      ],
+      "time_published": "20140612T104127",
+      "title": "GE-Alstom Deal: French Fear Losing Control of Nuclear Assets",
+      "topics": [
+        {
+          "relevance_score": "0.902934",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.715194",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.639674",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/ge-alstom-deal-french-resistance-centers-on-nuclear-power-1402615710?gaa_at=eafs&gaa_n=AWEtsqcWVjyGVYYfGGykNRsFp3tyj-bvtFGjhv4WADIBg2MpzZXu_ExUEHyO&gaa_ts=69088a1a&gaa_sig=ahXV1r7dJjpUYXbW93fST9RZwonkyxUL8a0pTEVbHwmJsZKF9q6UjgIQWDvXMERsoCNHRHI4FsiZBjQjE0cqsw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.008949,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Power & Water's Distributed Power business announced it would increase Tanzania's installed power capacity by 15 percent by supplying four aeroderivative gas turbines for a new 150-megawatt natural gas power plant. This project, owned by Tanesco, supports the Tanzanian government's \"Big Results Now\" initiative and will result in GE units providing over 30 percent of the country's total electric power. The LM6000-PF dual-fuel gas turbines will improve reliability and fuel efficiency, with commercial operations expected in late 2014 or early 2015.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.306586",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029138"
+        }
+      ],
+      "time_published": "20140611T104126",
+      "title": "GE to Increase Tanzania's Installed Power Capacity by 15 Percent, Significantly Improving Reliability and Fuel Efficiency",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.816952",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.611112",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-increase-tanzanias-installed-power-capacity-15-percent-significantly-improving"
+    },
+    {
+      "authors": [
+        "Seth Stevenson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.321292,
+      "source": "Slate",
+      "source_domain": "Slate",
+      "summary": "General Electric (GE) has cultivated its Crotonville management training center since 1956 to educate and indoctrinate its leaders in the company's culture and values. The article argues that corporate jargon, often mocked, serves a crucial purpose in propagating these evolving values and strategies across a massive organization like GE, adapting to new business environments. Despite the significant investment, GE sees Crotonville as a vital asset for developing its managerial talent and maintaining a cohesive corporate identity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.471442"
+        },
+        {
+          "relevance_score": "0.641968",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339884"
+        },
+        {
+          "relevance_score": "0.575985",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291150"
+        },
+        {
+          "relevance_score": "0.586228",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255364"
+        }
+      ],
+      "time_published": "20140609T105600",
+      "title": "Corporate Jargon Isn\u2019t Meaningless. It Can Help Managers Be Better at Their Jobs.",
+      "topics": [
+        {
+          "relevance_score": "0.817959",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.736989",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://slate.com/business/2014/06/ges-crotonville-management-campus-where-future-company-leaders-are-trained.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.416977,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "The government of Equatorial Guinea has selected MAECI Solar, GE Power & Water, and Princeton Power Systems to construct a 5-megawatt solar microgrid system on Annobon Province, an island off Equatorial Guinea. This project will be Africa's largest self-sufficient solar microgrid, providing reliable 24/7 electricity to the island's 5,000 residents and supporting economic development. The initiative is part of Equatorial Guinea's National Economic Development Plan Horizon 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412764"
+        }
+      ],
+      "time_published": "20140604T104127",
+      "title": "Africa's Largest Self-Sufficient Solar Microgrid Project Created through Technologies from MAECI, GE and Princeton Power Systems | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.949374",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.817860",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/africas-largest-self-sufficient-solar-microgrid-project-created-through-technologies"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.332271,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "Toshiba announced it has received an order from Hokkaido Electric Power Co., Inc. (HEPCO) for a high-efficiency combined-cycle thermal power generation system for HEPCO's first liquefied natural gas (LNG) fueled thermal power plant. This system combines GE's 9HA Gas Turbine with Toshiba's steam turbine, aiming for a world-highest thermal efficiency of 62 percent and an output of 569.4 megawatts. This order marks the first under the strategic alliance between Toshiba and GE, established to strengthen global marketing and develop advanced combined-cycle systems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432513"
+        },
+        {
+          "relevance_score": "0.614140",
+          "ticker": "HCA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210258"
+        }
+      ],
+      "time_published": "20140603T104126",
+      "title": "Toshiba Receives Combined-Cycle Project Order from Hokkaido Electric Power Co., Inc. Powered by GE/Toshiba Alliance | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.942445",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.820290",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.632124",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/toshiba-receives-combined-cycle-project-order-hokkaido-electric-power-co-inc-powered"
+    },
+    {
+      "authors": [
+        "Newsdesk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.143221,
+      "source": "GGRAsia",
+      "source_domain": "GGRAsia",
+      "summary": "A proposed new airport for Manila is likely to be located near the Manila-Cavite Expressway, between Para\u00f1aque and Las Pi\u00f1as, according to San Miguel Corp. This location, while further \"as the crow flies\" from Entertainment City than the current airport, offers a faster route due to Manila's traffic congestion. San Miguel, a backer of the plan, presented the idea as a Public Private Partnership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MLCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.170546"
+        },
+        {
+          "relevance_score": "0.634628",
+          "ticker": "MGM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.167145"
+        },
+        {
+          "relevance_score": "0.641416",
+          "ticker": "LVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.176629"
+        },
+        {
+          "relevance_score": "0.572690",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107891"
+        }
+      ],
+      "time_published": "20140526T110631",
+      "title": "New Manila airport to be south of Entertainment City",
+      "topics": [
+        {
+          "relevance_score": "0.808795",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.635964",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.604633",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.745938",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ggrasia.com/new-airport-to-be-south-of-entertainment-city"
+    },
+    {
+      "authors": [
+        "Nicola Clark and David Jolly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.23797,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "General Electric is citing its successful 40-year joint venture with Snecma, CFM International, as a model for cooperation to persuade the French government to approve its $13.5 billion takeover offer for Alstom\u2019s power generation and transmission business. CFM, which builds best-selling aircraft engines, demonstrates GE's ability to work with France, despite initial political hurdles and skepticism. The strong performance and simple structure of CFM are highlighted as reasons for its enduring success.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307552"
+        },
+        {
+          "relevance_score": "0.721742",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303306"
+        },
+        {
+          "relevance_score": "0.630061",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244071"
+        },
+        {
+          "relevance_score": "0.576100",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125667"
+        }
+      ],
+      "time_published": "20140523T104127",
+      "title": "Exhibit A in G.E.\u2019s Case for Alstom Deal (Published 2014)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.934975",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.821902",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.nytimes.com/2014/05/26/business/international/general-electric-joint-venture-in-france.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.357171,
+      "source": "Diagnostic and Interventional Cardiology",
+      "source_domain": "Diagnostic and Interventional Cardiology",
+      "summary": "GE Healthcare and Tesla Engineering Ltd. are collaborating to produce ultra high-field 7T human whole-body magnetic resonance imaging (MRI) scanners. This partnership aims to advance medical research, particularly in neurological and other disease detection, using the high-field systems for more accurate diagnoses and effective therapies. Tesla Engineering is building a new factory to manufacture the 7 Tesla magnets, with the first unit committed to GE and scheduled to ship in late 2015.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GEHC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414838"
+        },
+        {
+          "relevance_score": "0.708155",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306611"
+        }
+      ],
+      "time_published": "20140520T104128",
+      "title": "GE Healthcare Partners With Tesla Engineering to Produce Ultra High-Field 7T MRI Systems",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.825618",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.729162",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.dicardiology.com/article/ge-healthcare-partners-tesla-engineering-produce-ultra-high-field-7t-mri-systems"
+    },
+    {
+      "authors": [
+        "Arezu Sarvestani"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.159702,
+      "source": "MassDevice",
+      "source_domain": "MassDevice",
+      "summary": "This article details PETA's long-standing history of engaging with major medical device companies regarding their use of animals in research and training. PETA has acquired stock in companies like Boston Scientific, Medtronic, Johnson & Johnson, Abbott Labs, and GE Healthcare to gain access to shareholder meetings and push for changes such as reducing animal testing and improving animal welfare. The article highlights specific campaigns, proposals, and responses from these companies, illustrating the ongoing dialogue and challenges in balancing ethical concerns with regulatory requirements for product safety and efficacy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BSX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.247050"
+        },
+        {
+          "relevance_score": "0.885514",
+          "ticker": "MDT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132007"
+        },
+        {
+          "relevance_score": "0.842893",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.182122"
+        },
+        {
+          "relevance_score": "0.772964",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132622"
+        },
+        {
+          "relevance_score": "0.734344",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.051967"
+        }
+      ],
+      "time_published": "20140519T101132",
+      "title": "Animals in labs: PETA\u2019s long history with the medtech industry",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.massdevice.com/animals-labs-petas-long-history-with-medtech-industry/"
+    },
+    {
+      "authors": [
+        "Meribah Knight"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.457612,
+      "source": "Crain's Chicago Business",
+      "source_domain": "Crain's Chicago Business",
+      "summary": "Power Solutions International Inc. (PSI) is experiencing rapid growth due to increasing demand for alternative fuel engines, driven by environmental regulations and low natural gas costs. The company, based in Wood Dale, manufactures and customizes engines for various alternative and diesel fuels, supplying major equipment makers. PSI aims to reach $1 billion in revenue by 2018, having doubled its workforce and acquired a new plant in China since 2012.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PSIX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.700036"
+        },
+        {
+          "relevance_score": "0.603464",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315983"
+        },
+        {
+          "relevance_score": "0.627388",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339614"
+        }
+      ],
+      "time_published": "20140512T070000",
+      "title": "Natural gas, propane, biofuels: These engines can handle it all",
+      "topics": [
+        {
+          "relevance_score": "0.942281",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.805288",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.740917",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.chicagobusiness.com/article/20140512/NEWS05/140519969/engine-maker-psi-is-revving-up-on-alternative-fuels"
+    },
+    {
+      "authors": [
+        "Surbhi Jain"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.135189,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article outlines the four major components used by the U.S. Bureau of Economic Analysis to calculate the Gross Domestic Product (GDP): personal consumption expenditures, investment, net exports, and government expenditure. It details what each component includes, from durable goods and private housing purchases to imports/exports and government spending, clarifying how they contribute to or subtract from GDP. The article also mentions relevant ETFs whose performance reflects investments in housing and industrial sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IYR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232706"
+        },
+        {
+          "relevance_score": "0.613662",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132992"
+        },
+        {
+          "relevance_score": "0.627177",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139451"
+        }
+      ],
+      "time_published": "20140507T130000",
+      "title": "Overview: The four major components used for calculating the GDP",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://marketrealist.com/2014/05/overview-four-major-components-used-calculating-gdp/"
+    },
+    {
+      "authors": [
+        "Mitch Hensley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.405926,
+      "source": "3DPrint.com",
+      "source_domain": "3DPrint.com",
+      "summary": "General Electric announced the opening of a $200 million 3D printing manufacturing facility in Chakan, India. This will be India's first plant dedicated to 3D printing, initially focusing on plastic parts and later expanding to metal components for jets, engines, and turbines. The facility represents a shift towards using 3D printing for direct production rather than just prototyping, allowing for diverse manufacturing under one roof.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411159"
+        }
+      ],
+      "time_published": "20140507T104128",
+      "title": "General Electric Opening $200 Million 3D Printing Facility in India",
+      "topics": [
+        {
+          "relevance_score": "0.908752",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.811066",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.618569",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://3dprint.com/3318/general-electric-3d-print-india/"
+    },
+    {
+      "authors": [
+        "Brad Perriello"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.168899,
+      "source": "MassDevice",
+      "source_domain": "MassDevice",
+      "summary": "Hansen Medical appointed Cary Vance, former president of Teleflex\u2019s anesthesia & respiratory business, as its new president & CEO. Vance brings experience from Covidien and GE Healthcare and will focus on advancing Hansen Medical's intravascular robotics platforms. His appointment follows the departure of former CEO Bruce Barclay earlier this year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.323884",
+          "ticker": "GEHC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014611"
+        },
+        {
+          "relevance_score": "0.703967",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.275148"
+        }
+      ],
+      "time_published": "20140506T104129",
+      "title": "Hansen Medical taps ex-Teleflex prez Vance as new CEO",
+      "topics": [
+        {
+          "relevance_score": "0.931197",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.724824",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.massdevice.com/hansen-medical-taps-ex-teleflex-prez-vance-new-ceo/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.418056,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE's renewable energy business announced a successful technology demonstration of a 7-meter blade extension, increasing the rotor diameter of GE 1.5-77 wind turbines to 91 meters. This innovation boosts the swept area by 40 percent and energy production by over 20 percent for existing fleets. The program involved significant R&D, patent filings, and testing, demonstrating GE's commitment to enhancing wind turbine efficiency and profitability for customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.444240"
+        }
+      ],
+      "time_published": "20140506T104126",
+      "title": "GE Successfully Proves Technology to Extend Wind Turbine Blades",
+      "topics": [
+        {
+          "relevance_score": "0.943585",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.739684",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.800169",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-successfully-proves-technology-extend-wind-turbine-blades"
+    },
+    {
+      "authors": [
+        "Kim Willsher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.107651,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "French industrial group Alstom has accepted General Electric's \u20ac12.4bn offer for its energy division, despite objections from the French government. In a concession to ministerial pressure, Alstom has agreed to consider a counter-bid from German company Siemens, with an independent committee scrutinizing GE's bid over the next month. The deal would allow Alstom to retain and strengthen its transport division, while GE aims to create a world leader in energy in France.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131801"
+        }
+      ],
+      "time_published": "20140430T115600",
+      "title": "France's Alstom accepts GE bid despite government outcry | General Electric",
+      "topics": [
+        {
+          "relevance_score": "0.922474",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.801380",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.740278",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.609807",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2014/apr/30/france-alstom-accepts-us-general-electric-energy-bid"
+    },
+    {
+      "authors": [
+        "Andreas Becker / gsw"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.149494,
+      "source": "DW",
+      "source_domain": "DW",
+      "summary": "The article discusses the long-standing rivalry between industrial giants Siemens and General Electric, focusing on their similar origins and their current bidding war for the French energy company Alstom. It highlights their differing corporate cultures and strategies over the years, as well as their motivations for acquiring Alstom. The piece also touches on potential competition concerns regarding the Alstom acquisition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.943690",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114044"
+        }
+      ],
+      "time_published": "20140430T104126",
+      "title": "Long-time rivals",
+      "topics": [
+        {
+          "relevance_score": "0.921522",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.842233",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.731424",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.dw.com/en/siemens-vs-ge-longstanding-rivals/a-17601960"
+    },
+    {
+      "authors": [
+        "John Kraft & Kirk Allen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.218373,
+      "source": "Illinois Leaks \u2013 Edgar County Watchdogs",
+      "source_domain": "Illinois Leaks \u2013 Edgar County Watchdogs",
+      "summary": "The article reports on another Invenergy wind turbine blade failure in Nebraska on April 21st, highlighting a recurring issue with GE-manufactured turbines. It details numerous past blade failures involving Invenergy and other companies across various US states, questioning the rarity of such incidents despite company claims. The authors warn about the dangers of these machines and advocate for stricter safety distances from residential areas.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.920273",
+          "ticker": "DTE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.231964"
+        },
+        {
+          "relevance_score": "0.821763",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.435029"
+        },
+        {
+          "relevance_score": "0.703660",
+          "ticker": "ETN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.252088"
+        },
+        {
+          "relevance_score": "0.648593",
+          "ticker": "NEE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.122306"
+        },
+        {
+          "relevance_score": "0.555245",
+          "ticker": "EXC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.112739"
+        }
+      ],
+      "time_published": "20140428T102650",
+      "title": "Another Invenergy Wind Turbine Blade Failure! \u2013 \u2013 Illinois Leaks",
+      "topics": [
+        {
+          "relevance_score": "0.923061",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.736305",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://edgarcountywatchdogs.com/2014/04/another-invenergy-wind-turbine-blade-failure/"
+    },
+    {
+      "authors": [
+        "Thomas W. Overton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288892,
+      "source": "POWER Magazine",
+      "source_domain": "POWER Magazine",
+      "summary": "Entergy Louisiana is adding a new 550-MW combined cycle plant unit to its Ninemile Point facility in Westwego, Louisiana, to replace aging capacity and meet growing electricity demand in the New Orleans area. The $721 million Unit 6 will use natural gas with fuel oil backup and is expected to provide significant fuel savings. Construction began in 2012 with a projected start-up in mid-2015.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.322510",
+          "ticker": "ELC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010533"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ETR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418859"
+        },
+        {
+          "relevance_score": "0.749549",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308487"
+        },
+        {
+          "relevance_score": "0.646174",
+          "ticker": "JCI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327667"
+        }
+      ],
+      "time_published": "20140422T102715",
+      "title": "Entergy Louisiana Adding New Unit to New Orleans-Area Plant",
+      "topics": [
+        {
+          "relevance_score": "0.949094",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.739689",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.610069",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.powermag.com/entergy-louisiana-upgrading-new-orleans-area-plant/"
+    },
+    {
+      "authors": [
+        "Dan Horn and Chrissie Thompson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.456328,
+      "source": "Cincinnati Enquirer",
+      "source_domain": "Cincinnati Enquirer",
+      "summary": "General Electric's long-standing presence in Greater Cincinnati played a significant role in the company's decision to establish a new office and create up to 2,000 jobs in southwest Ohio. The company cited the region's strong workforce, ability to attract talent, affordable land, and existing corporate infrastructure as key factors. GE's CEO, Jeffrey Immelt, a Finneytown H.S. graduate, although not directly involved, added to the familiarity with the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.480137"
+        }
+      ],
+      "time_published": "20140410T104127",
+      "title": "GE has long history with SW Ohio",
+      "topics": [
+        {
+          "relevance_score": "0.700135",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.638086",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.cincinnati.com/story/money/2014/04/10/ge-long-history-sw-ohio/7566813/"
+    },
+    {
+      "authors": [
+        "Wendy Frink"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.04934,
+      "source": "Entrepreneur",
+      "source_domain": "Entrepreneur",
+      "summary": "General Electric, a 122-year-old company, is excelling in social media by humanizing its brand, educating followers, and showcasing visually stunning technology. The company won \"Best Brand on Vine\" at the Shorty Awards and was nominated in other categories, demonstrating its innovation in digital engagement despite its age. GE leverages platforms like Vine, Instagram, and Twitter to share engaging content, from DIY videos and science experiments to striking images of its industrial products and educational infographics.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.331732",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.021135"
+        }
+      ],
+      "time_published": "20140408T104127",
+      "title": "How 122-Year-Old General Electric Is Killing It on Social Media",
+      "topics": [
+        {
+          "relevance_score": "0.812110",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.826873",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.entrepreneur.com/science-technology/how-122-year-old-general-electric-is-killing-it-on-social/232918"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.41242,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE has launched its new Distributed Power business in Latin America, investing US$1.4 billion globally over four years to meet the growing demand for efficient, reliable, and sustainable on-site power systems. This new business focuses on aeroderivative gas turbines, Jenbacher gas engines, and Waukesha gas engines, targeting significant opportunities in the oil and gas majors and heavy industries sector within the region. The initiative leverages GE's existing infrastructure, including a Brazil Service Center and an Engineering Center in Mexico, to provide localized services and solutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425426"
+        }
+      ],
+      "time_published": "20140408T104126",
+      "title": "GE Launches New Distributed Power Business in Latin America",
+      "topics": [
+        {
+          "relevance_score": "0.908554",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.733701",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.643726",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-launches-new-distributed-power-business-latin-america"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.1122,
+      "source": "Program Business",
+      "source_domain": "Program Business",
+      "summary": "Microsoft is ending support for Windows XP on April 8, 2014, leaving approximately 300 million computers vulnerable to new security threats, including many critical infrastructure systems and ATMs. Despite warnings, a significant portion of government, corporate, and consumer PCs still run the outdated operating system, posing substantial risks as Microsoft's subsequent updates to newer Windows versions will highlight XP vulnerabilities without providing fixes. This situation creates a severe security challenge for companies and critical infrastructure that have been slow to upgrade due to cost and complexity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.821688",
+          "ticker": "QLYS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.144463"
+        },
+        {
+          "relevance_score": "0.917401",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.341148"
+        },
+        {
+          "relevance_score": "0.746040",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224189"
+        },
+        {
+          "relevance_score": "0.647350",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242489"
+        }
+      ],
+      "time_published": "20140402T112611",
+      "title": "Windows XP: Old Platforms Die Hard, Security Risks Live On",
+      "topics": [
+        {
+          "relevance_score": "0.909874",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746306",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.642081",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://programbusiness.com/news/windows-xp-old-platforms-die-hard-security-risks-live-on/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.446678,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE's Jenbacher gas engine technology will power a 5-megawatt biomass-to-energy plant near Stroevo, Bulgaria, significantly reducing the country's reliance on imported energy. This plant, built by EQTEC Iberia, will convert agricultural waste into electricity for 2,000 homes and is a key step in Bulgaria's goal to source 16 percent of its energy from renewables by 2020. The project highlights the successful integration of EQTEC Iberia's gasification technology with GE's fuel-flexible engines, achieving high electrical efficiency and demonstrating an innovative solution for sustainable power generation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416876"
+        }
+      ],
+      "time_published": "20140402T104127",
+      "title": "Integrated Gasified Biomass Power Plant Will Use GE Gas Engine Technology to Help Bulgaria Achieve Greater Energy Independence | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.933999",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/integrated-gasified-biomass-power-plant-will-use-ge-gas-engine-technology-help"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.561227,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE has strengthened its commitment to localized manufacturing in Saudi Arabia with the groundbreaking of a new GE Oil & Gas Manufacturing Facility in Dammam, part of a US$1 billion investment in the Kingdom. This expansion will create over 100 new career opportunities for skilled Saudi engineers and enhance customer deliveries for key equipment to clients like Saudi Aramco. The facility will expand its manufacturing capabilities to include high pressure, fully clad wellheads and pressure control equipment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.820992"
+        },
+        {
+          "relevance_score": "0.611896",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.543662"
+        },
+        {
+          "relevance_score": "0.564402",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429994"
+        },
+        {
+          "relevance_score": "0.579438",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424952"
+        }
+      ],
+      "time_published": "20140401T104126",
+      "title": "GE Marks Groundbreaking of New GE Oil & Gas Manufacturing Facility in Dammam",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.948995",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.645653",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-marks-groundbreaking-new-ge-oil-gas-manufacturing-facility-dammam"
+    },
+    {
+      "authors": [
+        "Staff Reporter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.45157,
+      "source": "PNG Facts",
+      "source_domain": "PNG Facts",
+      "summary": "Papua New Guinea Prime Minister Peter O\u2019Neill met with Steve Sargent, President and CEO of General Electric Australia, New Zealand, and Papua New Guinea, to discuss GE's long-standing contributions to the PNG economy, particularly in healthcare, water, and power. GE, which has been in PNG since 1952, announced plans to establish an office in Port Moresby and expressed keen interest in partnering with the government and international institutions to expand electricity access to 70% of the population by 2030.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.466560"
+        }
+      ],
+      "time_published": "20140325T104128",
+      "title": "PRIME MINISTER O'NEILL MEETS WITH GENERAL ELECTRIC PRESIDENT",
+      "topics": [
+        {
+          "relevance_score": "0.944134",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.837607",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.744263",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.733956",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.605741",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://news.pngfacts.com/2014/03/prime-minister-oneill-meets-with.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.293358,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE's Distributed Power business announced that Tata Energy has ordered two 3.3-megawatt Jenbacher J620 cogeneration gas engines for its Salfi textile mills in Karachi, marking the 1,000th and 1,001st Jenbacher gas engines to be ordered in Pakistan. These engines will provide power, steam, and cooling, allowing Tata to reduce energy production costs and improve efficiency. This milestone highlights the significant presence of GE's Jenbacher technology in Pakistan, generating 1,445 MW of reliable on-site power across various industries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.458051"
+        },
+        {
+          "relevance_score": "0.617125",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143446"
+        }
+      ],
+      "time_published": "20140325T104127",
+      "title": "GE Marks Order for 1,000th Jenbacher Gas Engine in Pakistan",
+      "topics": [
+        {
+          "relevance_score": "0.929192",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.808637",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-marks-order-1000th-jenbacher-gas-engine-pakistan"
+    },
+    {
+      "authors": [
+        "Michele Orzano"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.108234,
+      "source": "Coin World",
+      "source_domain": "Coin World",
+      "summary": "The first dollar earned by the Edison Electric Light Co. from the sale of electricity will be auctioned by Bonhams New York City on April 7, 2014, with an estimated value of $8,000 to $12,000. This historic note represents the initial payment from Ansonia Brass Co. for electricity supplied in 1883, predating the company's evolution into General Electric. The auction will also feature other significant technology-related artifacts, including an Edison phonograph recording and a \"birth certificate\" for the first computer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.939133",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111079"
+        }
+      ],
+      "time_published": "20140316T200000",
+      "title": "First dollar earned by Edison Electric Light Company",
+      "topics": [
+        {
+          "relevance_score": "0.647771",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.836995",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.coinworld.com/news/us-coins/first-dollar-earned-by-edison-electric-light-company.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.210801,
+      "source": "Drexel",
+      "source_domain": "Drexel",
+      "summary": "Drexel Professor Frank Lee is planning to turn Brandywine Realty Trust's Cira Centre into a 29-story game of Tetris to kick off Philly Tech Week on April 4th, expanding on his previous record-setting Pong game. This year's event will feature a two-sided Tetris game across more than 100,000 square feet, allowing players to compete from different sides of the city and offering a grand night of gaming at \"Arcade at the Oval.\" The initiative aims to create a unique shared experience for Philadelphians and highlight the city's innovation in technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BDN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340429"
+        },
+        {
+          "relevance_score": "0.717591",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249452"
+        },
+        {
+          "relevance_score": "0.612140",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141096"
+        }
+      ],
+      "time_published": "20140311T100650",
+      "title": "Drexel Professor Puts Giant Game of Tetris on Cira Centre",
+      "topics": [
+        {
+          "relevance_score": "0.943304",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.619699",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://drexel.edu/news/archive/2014/March/Cira-Tetris/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.016222,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE announced its new 2.75-120 wind turbine, which generates 5 percent more annual energy than its predecessor and offers flexible tower technologies and energy storage options. This new model is part of GE's brilliant wind platform and ecomagination initiative, focusing on increasing efficiency and lowering wind power generation costs through technological advancements and the Industrial Internet. It is designed to be more customizable for developers and operators, allowing for tailored solutions based on site conditions and energy storage needs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334299",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033425"
+        }
+      ],
+      "time_published": "20140310T104127",
+      "title": "GE Introduces Smart, Powerful 2.75-120 Wind Turbine",
+      "topics": [
+        {
+          "relevance_score": "0.935871",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.831846",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.747725",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-introduces-smart-powerful-275-120-wind-turbine"
+    },
+    {
+      "authors": [
+        "Brian Nearing"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.648382,
+      "source": "Times Union",
+      "source_domain": "Times Union",
+      "summary": "General Electric is closing its capacitor factory in Fort Edward, New York, relocating 200 jobs to Florida, leaving behind a legacy of significant PCB and TCE pollution. Residents and local officials are grappling with the economic impact of the job losses, the ongoing environmental cleanup costs, and the health concerns linked to decades of contamination. The state's Superfund program has spent millions on cleanup, and a lingering lawsuit regarding property devaluation due to toxic vapors was recently settled confidentially.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.615598"
+        }
+      ],
+      "time_published": "20140306T105400",
+      "title": "When General Electric leaves Fort Edward, pollution remains",
+      "topics": [
+        {
+          "relevance_score": "0.819815",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.623054",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.timesunion.com/business/article/When-General-Electric-leaves-Fort-Edward-5292275.php"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.430994,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE (NYSE: GE) has launched the Directive\u2122 system, an enhancement to its Measurement While Drilling (MWD) downhole drilling equipment, designed to improve drilling performance. This new system integrates real-time shock and vibration measurement capabilities into GE Oil & Gas' Tensor Directional Module, aiming to help customers optimize drilling penetration, reduce equipment damage, and lower overall operational costs. The Directive system offers enhanced calibration stability and a ruggedized design for extended service life in harsh drilling environments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407288"
+        }
+      ],
+      "time_published": "20140304T104127",
+      "title": "GE Improves Drilling Performance through Real-Time Shock and Vibration Measurement",
+      "topics": [
+        {
+          "relevance_score": "0.921926",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.703951",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.726943",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-improves-drilling-performance-through-real-time-shock-and-vibration-measurement"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.109755,
+      "source": "CSP Daily News",
+      "source_domain": "CSP Daily News",
+      "summary": "General Electric Co. is reportedly planning to sell its Wayne fuel dispenser subsidiary for over $500 million. This move is seen as part of GE's strategy to divest non-core assets and streamline operations, following its 2010 acquisition of Dresser Inc. where Wayne was previously a part. The company has contacted private-equity firms and other potential buyers regarding the sale.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118824"
+        },
+        {
+          "relevance_score": "0.631277",
+          "ticker": "WMB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114952"
+        }
+      ],
+      "time_published": "20140228T104128",
+      "title": "GE to Sell Wayne?",
+      "topics": [
+        {
+          "relevance_score": "0.908336",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.714230",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.635543",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.615443",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.611942",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://cspdailynews.com/fuels/ge-sell-wayne"
+    },
+    {
+      "authors": [
+        "PATRICK ATUANYA"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.035761,
+      "source": "Businessday NG",
+      "source_domain": "Businessday NG",
+      "summary": "General Electric (GE) plans to triple its sales of gas-fired turbines to emerging markets like Nigeria over the next three years, driven by significant investments in gas infrastructure. GE is expanding its presence in Nigeria, including an investment commitment of $1 billion for a new manufacturing and assembly plant in Calabar, expected to create 2300 jobs and increase local content for its operations. This expansion aligns with GE's strategy to find growth opportunities in frontier markets amidst slower economic growth in developed nations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.339042",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.020860"
+        }
+      ],
+      "time_published": "20140227T104128",
+      "title": "General Electric Nigerian sales to triple on gas for power",
+      "topics": [
+        {
+          "relevance_score": "0.803542",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.945165",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.904537",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://businessday.ng/companies/article/general-electric-nigerian-sales-to-triple-on-gas-for-power-2/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.420443,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE has launched a new Distributed Power business, investing $1.4 billion over four years to meet the global demand for on-site power systems. The company predicts distributed power will grow 40% faster than global electricity demand by 2020, driven by the need for reliable, efficient energy in both developing and developed nations. This initiative includes new agreements for gas engine supply and biomass gasification projects across Indonesia, Thailand, Malaysia, and Singapore, leveraging GE's Aeroderivative Gas Turbines, Jenbacher Gas Engines, and Waukesha Gas Engines.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447899"
+        }
+      ],
+      "time_published": "20140225T104127",
+      "title": "GE Launches New Distributed Power Business, Announces $1.4 Billion Investment to Meet World's Need for on-Site Power | GE News",
+      "topics": [
+        {
+          "relevance_score": "0.939886",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.719285",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.602594",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-launches-new-distributed-power-business-announces-14-billion-investment-meet"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.012212,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "General Electric Co clarified that a reported problem with an Air India Boeing 787 Dreamliner did not involve its aircraft engines, refuting an earlier report. GE stated the issue was with the ram air turbine, an auxiliary generator for emergency power, rather than the GEnx Engine. Air India's fleet exclusively uses GE engines for its 787s, which have previously faced various electrical problems leading to a worldwide grounding in 2013.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.337950",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.034588"
+        }
+      ],
+      "time_published": "20140225T083700",
+      "title": "General Electric says Air India's 787 problem didn't involve its engines",
+      "topics": [
+        {
+          "relevance_score": "0.902663",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.806243",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/companies/general-electric-says-air-india-s-787-problem-didn-t-involve-its-engines-114022500051_1.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.448364,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Lighting has expanded its Colorado operations by moving its Albeo team to a new, larger site in Longmont, five times the size of its previous Boulder location. This move follows a 40 percent growth in the Colorado-based team since the acquisition of Albeo Technologies, driven by a tripling of Albeo product volume. As part of its grand opening, GE Lighting also announced a product donation to the OUR Center in Longmont to provide energy-efficient lighting solutions for their new building.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435192"
+        }
+      ],
+      "time_published": "20140218T104126",
+      "title": "GE Lighting Broadens Colorado Footprint with New Site in Longmont",
+      "topics": [
+        {
+          "relevance_score": "0.800620",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.733807",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.646381",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-lighting-broadens-colorado-footprint-new-site-longmont"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.404124,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "The Los Angeles Department of Water and Power (LADWP) is upgrading its Scattergood Generating Station with cleaner power generating technology from GE, phasing out an older conventional steam boiler. This project will replace 460-megawatt capacity with GE's advanced heavy-duty and aeroderivative gas turbines, reducing carbon emissions, eliminating ocean water for cooling, and improving grid reliability and responsiveness. The new GE technology allows for fast startup and ramp-up to support renewable energy and better balance the energy grid.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438662"
+        }
+      ],
+      "time_published": "20140210T104127",
+      "title": "Los Angeles Moves Forward with Cleaner Power from GE",
+      "topics": [
+        {
+          "relevance_score": "0.905331",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.708828",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.625489",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/los-angeles-moves-forward-cleaner-power-ge"
+    },
+    {
+      "authors": [
+        "Chris Walker"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.317151,
+      "source": "MassDevice",
+      "source_domain": "MassDevice",
+      "summary": "The U.S. Federal Trade Commission approved Thermo Fisher's $13.6 billion acquisition of Life Technologies, conditional on Thermo Fisher selling certain assets to GE Healthcare to maintain competition. China's Commerce Ministry also plans to approve the deal, requiring similar divestments and price reductions on some products from Thermo Fisher. The required divestments include Thermo Fisher's Dharmacon gene modulation business and its cell culture media and sera business, including the HyClone brand.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336238"
+        },
+        {
+          "relevance_score": "0.825848",
+          "ticker": "GEHC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347692"
+        },
+        {
+          "relevance_score": "0.744259",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338369"
+        }
+      ],
+      "time_published": "20140206T114131",
+      "title": "FTC OKs Thermo Fisher\u2019s Life Technologies buy pending asset sale to GE Healthcare",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.810039",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.602538",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.massdevice.com/ftc-oks-thermo-fishers-life-technologies-buy-pending-asset-sale-ge-healthcare/"
+    },
+    {
+      "authors": [
+        "David Kashi"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.254948,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "Rail companies like Union Pacific, CSX, Burlington Northern Santa Fe, and Canadian National Railway are exploring the use of natural gas to power locomotives, potentially cutting fuel costs by 50 percent and reducing pollution. General Electric (GE) and Caterpillar Inc. (CAT) have developed a prototype engine that can burn both diesel and liquefied natural gas, capitalizing on the U.S. natural gas boom. While offering cost savings and environmental benefits, concerns exist about potential price surges if natural gas exports increase.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316746"
+        },
+        {
+          "relevance_score": "0.929484",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307351"
+        },
+        {
+          "relevance_score": "0.717729",
+          "ticker": "UNP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205828"
+        },
+        {
+          "relevance_score": "0.700784",
+          "ticker": "CSX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225389"
+        },
+        {
+          "relevance_score": "0.700784",
+          "ticker": "CSX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225389"
+        }
+      ],
+      "time_published": "20140123T101200",
+      "title": "The Fuel Source For The Postmodern Railroad",
+      "topics": [
+        {
+          "relevance_score": "0.924001",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.ibtimes.com/natural-gas-could-replace-diesel-burning-trains-general-electric-ge-caterpillar-inc-cat-capitalizing"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.353507,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Oil & Gas announced its agreement to acquire Cameron's Reciprocating Compression division for $550 million. This acquisition aims to enhance GE's distributed gas portfolio, expand its servicing and manufacturing capabilities in gas production, processing, and distribution sectors, and leverage the growing demand in the shale development sector globally. The division, with 900 employees and sales of $355 million in 2012, will become part of GE's Downstream Technology Solutions business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434955"
+        },
+        {
+          "relevance_score": "0.749960",
+          "ticker": "BKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329275"
+        }
+      ],
+      "time_published": "20140120T104126",
+      "title": "GE to Acquire Cameron's Reciprocating Compression Division",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.945334",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.810891",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-acquire-camerons-reciprocating-compression-division"
+    },
+    {
+      "authors": [
+        "Nat Rudarakanchana"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.469078,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "General Electric (GE) announced that it generated over $1 billion in revenue from each of 24 countries last year, with six new countries reaching that threshold in 2013, highlighting its increasing global footprint. The company has shifted from heavy U.S. exposure to having more than half its business outside America, driven by strong growth in industrial businesses and emerging markets, and a focus on expanding its international presence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.495121"
+        }
+      ],
+      "time_published": "20140117T120600",
+      "title": "General Electric - Talk About A Global Footprint",
+      "topics": [
+        {
+          "relevance_score": "0.925748",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.719910",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.932486",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.838882",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ibtimes.com/general-electric-ge-goes-global-revenues-over-1bn-24-countries-1543533"
+    },
+    {
+      "authors": [
+        "Nathan Donato-Weinstein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.230061,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "This article details the various general contractors and subcontractors involved in building Apple\u2019s colossal campus in Cupertino, also known as the \"spaceship\" campus. It highlights the massive scale of the project, including the demolition of existing structures, the construction of the main building, an underground auditorium, a fitness center, R&D space, and a large parking structure. The piece also notes the economic impact and the significant demand for skilled labor in various trades.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.807135",
+          "ticker": "GVA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309198"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342487"
+        },
+        {
+          "relevance_score": "0.711701",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.226167"
+        },
+        {
+          "relevance_score": "0.643676",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120451"
+        },
+        {
+          "relevance_score": "0.627750",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128992"
+        }
+      ],
+      "time_published": "20140117T104155",
+      "title": "Building Apple's colossal campus",
+      "topics": [
+        {
+          "relevance_score": "0.903842",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.745117",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.614833",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanjose/print-edition/2014/01/17/building-apples-colossal-campus.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.420886,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE's global presence has significantly increased, with 65% of its revenues now coming from outside the United States. The company reported over $1 billion in revenues in 24 countries in 2013, up from 18 in 2012, highlighting its success in expanding markets and significant investments in organic growth and R&D. This global shift is exemplified by the GE9X jet engine, which has secured large international customer commitments before its service entry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.516761"
+        },
+        {
+          "relevance_score": "0.706789",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301783"
+        }
+      ],
+      "time_published": "20140117T104126",
+      "title": "Going Global: For the First Time, GE Revenues Top $1 Billion in 24 Countries",
+      "topics": [
+        {
+          "relevance_score": "0.911029",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.822685",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.909135",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.749549",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.603874",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ge.com/news/reports/going-global"
+    },
+    {
+      "authors": [
+        "Nat Rudarakanchana"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.20155,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "Cisco estimates that the Internet of Everything (IoE) represents a $1.6 trillion opportunity for retailers over the next decade by connecting physical objects and gathering intelligent data. Executives highlighted how retailers can leverage smart technologies to monitor inventory, predict shopper behavior, and \"light up\" previously \"dark assets\" like shopping carts and shelf sensors. Companies like General Electric are already implementing similar concepts within heavy industry, demonstrating the diverse applicability and value of connecting devices across various sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438800"
+        },
+        {
+          "relevance_score": "0.739919",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305835"
+        },
+        {
+          "relevance_score": "0.637380",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132133"
+        },
+        {
+          "relevance_score": "0.560338",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.018063"
+        }
+      ],
+      "time_published": "20140116T143600",
+      "title": "Cisco: Smart Tech Can Unlock More 'Untapped' Value",
+      "topics": [
+        {
+          "relevance_score": "0.926439",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.841261",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.743220",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ibtimes.com/cisco-internet-everything-ioe-16-trillion-retail-opportunity-1542910"
+    },
+    {
+      "authors": [
+        "Todd Shriber"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.234638,
+      "source": "ETF Trends",
+      "source_domain": "ETF Trends",
+      "summary": "This article discusses the strong performance of aerospace ETFs, specifically the iShares U.S. Aerospace & Defense ETF (ITA) and the SPDR S&P Aerospace & Defense ETF (XAR), both of which hit new all-time highs. It highlights that investors are finding profitable exposure to the aerospace industry through these funds, even suggesting they could continue to perform well in rising interest rate environments. The article serves as a comparison of these two ETFs, noting their similar and differing weighting strategies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.312405",
+          "ticker": "DIA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014578"
+        },
+        {
+          "relevance_score": "0.878811",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.364227"
+        },
+        {
+          "relevance_score": "0.802791",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.370259"
+        }
+      ],
+      "time_published": "20140115T102240",
+      "title": "Aerospace ETF Showdown: So Good, It\u2019s Hard to Go Wrong",
+      "topics": [
+        {
+          "relevance_score": "0.930625",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.815668",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.607210",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.etftrends.com/2014/01/aerospace-etf-showdown-so-good-its-hard-to-go-wrong/amp/"
+    },
+    {
+      "authors": [
+        "Thomas Meek"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.230666,
+      "source": "PMLiVE",
+      "source_domain": "PMLiVE",
+      "summary": "GE Healthcare is acquiring three businesses from Thermo Fisher Scientific for over $1 billion to strengthen its life sciences division. The acquisition of cell culture, gene modulation, and magnetic beads divisions aims to meet increased demand for diagnostics and new medicines. These new units will contribute significantly to GE Healthcare's revenue and expand its capabilities in manufacturing medicines, drug discovery, protein analysis, and medical diagnostics.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.901623",
+          "ticker": "TMO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240840"
+        },
+        {
+          "relevance_score": "0.856709",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207139"
+        }
+      ],
+      "time_published": "20140107T114132",
+      "title": "GE pays $1bn to bolster life sciences division",
+      "topics": [
+        {
+          "relevance_score": "0.941773",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.817661",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.636205",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://pmlive.com/pharma_news/ge_pays_1bn_to_bolster_life_sciences_division_531466/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.429006,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "GE Oil & Gas announced the opening of a new logistics base in Niteroi, Rio de Janeiro, with investments exceeding $100 million. This modern facility, spanning 590,000 square feet, is designed to support Brazil's oil and gas sector, particularly the pre-salt fields, by enhancing the delivery of products and services to clients like Petrobras and creating 250 jobs. The base features the world's largest \"hammerhead\" crane and advanced land transportation infrastructure, reinforcing GE's commitment to innovation and strengthening its presence in the Brazilian market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441522"
+        }
+      ],
+      "time_published": "20140106T104126",
+      "title": "GE Oil & Gas Opens Logistics Base in Brazil with Investments Exceeding $100 Million",
+      "topics": [
+        {
+          "relevance_score": "0.904524",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.722067",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.622403",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/ge-oil-gas-opens-logistics-base-brazil-investments-exceeding-100-million"
+    }
+  ],
+  "items": "106",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

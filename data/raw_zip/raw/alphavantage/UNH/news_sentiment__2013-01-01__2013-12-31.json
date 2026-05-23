@@ -1,0 +1,968 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.116857,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "The iShares U.S. Healthcare Providers ETF (IHF) offers focused exposure to the healthcare provider sub-sector, making it suitable for tactical investing or specific objectives rather than broad portfolio allocation due to its narrow focus and concentration. The article provides a detailed profile of IHF, including its price, valuation, expenses, holdings, performance, and ESG scores, comparing it against broader healthcare ETFs. It highlights that the fund is relatively concentrated, with a significant percentage of assets in its top holdings, and provides extensive data on its historical performance, fund flows, and technical indicators.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IHF",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124592"
+        },
+        {
+          "relevance_score": "0.816821",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134021"
+        },
+        {
+          "relevance_score": "0.719160",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124704"
+        },
+        {
+          "relevance_score": "0.730595",
+          "ticker": "HCA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144381"
+        },
+        {
+          "relevance_score": "0.737791",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111320"
+        }
+      ],
+      "time_published": "20131202T230908",
+      "title": "iShares U.S. Healthcare Providers ETF",
+      "topics": [
+        {
+          "relevance_score": "0.917579",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://etfdb.com/etf/IHF/"
+    },
+    {
+      "authors": [
+        "Susan Jaffe Kaiser Health News"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.001025,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "UnitedHealthcare is significantly reducing the number of doctors in its Medicare Advantage programs, impacting thousands of seniors in 10 states. Many patients, like Dorathy Senay, face losing long-term relationships with their specialists, including those treating serious conditions. Medical associations and patient advocacy groups are urging Medicare and UnitedHealthcare to reinstate doctors for another year and extend the enrollment deadline for seniors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.309945",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033976"
+        }
+      ],
+      "time_published": "20131129T135108",
+      "title": "UnitedHealthcare Medicare Advantage cuts doctors",
+      "topics": [
+        {
+          "relevance_score": "0.928231",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/personalfinance/2013/11/29/unitedhealthcare-reducing-doctors-for-medicare-advantage-programs/3655967/"
+    },
+    {
+      "authors": [
+        "Tim Mullaney"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.41283,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Private websites are selling health insurance compliant with the Affordable Care Act (ACA), offering an alternative to the troubled HealthCare.gov. These sites, such as eHealthInsurance.com, GetInsured.com, and GoHealth.com, are experiencing a boost in business, although they are not yet fully equipped to process federal subsidies for moderate-income buyers. Analysts predict significant growth for these private companies as consumers seek easier pathways to ACA-compliant insurance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "EHTH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.631285"
+        },
+        {
+          "relevance_score": "0.609892",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247807"
+        }
+      ],
+      "time_published": "20131123T123115",
+      "title": "No HealthCare.gov? No problem, private sites say",
+      "topics": [
+        {
+          "relevance_score": "0.921088",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.707184",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/business/2013/11/23/healthcaregov-alternatives-buying-health-insurance/2983637/"
+    },
+    {
+      "authors": [
+        "Jackie Crosby"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.318302,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "UnitedHealth Group is investing $50 million in a fund to construct hundreds of low-income housing units in Minnesota and the Upper Midwest, stating that stable housing is a key component of better health. This initiative, part of the Minnesota Equity Fund, offers financial returns through federal tax credits and addresses a dire shortage of affordable rental housing. The investment supports projects that often include supportive services for homeless individuals and those with disabilities, aligning with the company's mission to build healthier communities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327108"
+        }
+      ],
+      "time_published": "20131115T031300",
+      "title": "UnitedHealth invests $50 million in low-income rental housing",
+      "topics": [
+        {
+          "relevance_score": "0.902243",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.707023",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.602298",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.642877",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.startribune.com/unitedhealth-invests-50-million-in-low-income-rental-housing/231933561"
+    },
+    {
+      "authors": [
+        "Joseph Burns"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.4099,
+      "source": "Dark Daily",
+      "source_domain": "Dark Daily",
+      "summary": "UnitedHealthcare, in collaboration with Quality Health, Medical College of Wisconsin, and Ministry Healthcare, is forming a large multi-system Accountable Care Organization (ACO) in Wisconsin set to begin operations on January 1, 2014. This ACO aims to cover 100,000 patients with 3,000 physicians and 18 hospitals, significantly increasing UnitedHealthcare's spending on performance-based programs. The initiative underscores the growing role of ACOs in healthcare transformation and their potential impact on medical laboratory testing and payment models.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407948"
+        }
+      ],
+      "time_published": "20131101T135109",
+      "title": "UnitedHealthcare Partners with Quality Health, Medical College of Wisconsin, and Ministry Healthcare to Form Large, Multi-System ACO in Wisconsin",
+      "topics": [
+        {
+          "relevance_score": "0.942314",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.darkdaily.com/2013/11/01/unitedhealthcare-partners-with-quality-health-medical-college-of-wisconsin-and-ministry-healthcare-to-form-large-multi-system-aco-in-wisconsin-1101/"
+    },
+    {
+      "authors": [
+        "Halabol"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288745,
+      "source": "The Better India",
+      "source_domain": "The Better India",
+      "summary": "CanSupport is an NGO founded by Hodgkin's lymphoma survivor Harmala Gupta in 1999, dedicated to providing free home care, support, and information to advanced cancer patients and their families. The organization offers physical, emotional, social, and spiritual support, including a helpline, and organizes an annual \"Walk for Life\" to raise funds and awareness. CanSupport plans to expand its services in Delhi and surrounding states, recognizing the growing need for its compassionate care.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.834071",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262701"
+        }
+      ],
+      "time_published": "20131008T135109",
+      "title": "CanSupport: Care And Support For Cancer Patients",
+      "topics": [
+        {
+          "relevance_score": "0.931897",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://thebetterindia.com/8415/cansupport-care-and-support-for-cancer-patients/"
+    },
+    {
+      "authors": [
+        "Amanda Lepinski"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.345205,
+      "source": "Mpls.St.Paul Magazine",
+      "source_domain": "Mpls.St.Paul Magazine",
+      "summary": "John Kelly, Senior Vice President of Tax at UnitedHealth Group, is recognized for his significant volunteer contributions to The ARC Greater Twin Cities, an organization supporting individuals with intellectual and developmental disabilities. Motivated by his son's autism diagnosis, Kelly uses his financial expertise to fundraise, secure grants, and advocate for the organization, substantially increasing its donations. The article highlights his efforts in securing a $250,000 corporate grant and boosting gala donations by 25 percent.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.948473",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325417"
+        }
+      ],
+      "time_published": "20131003T141800",
+      "title": "John Kelly",
+      "topics": [
+        {
+          "relevance_score": "0.715478",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.607754",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.616839",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://mspmag.com/sponsored/john-kelly-money-talks/"
+    },
+    {
+      "authors": [
+        "Robert Peston"
+      ],
+      "banner_image": "https://ichef.bbci.co.uk/news/976/cpsprodpb/F4E3/production/_120155096_gettyimages-517865268.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.175445,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "The Competition Commission has found inadequate competition in the UK's purely private healthcare market, leading to consumers being overcharged between \u00a3173m and \u00a3193m annually. The watchdog recommends forced hospital sales and a ban on certain consultant incentives to increase competition and empower insurers and consumers. This move comes as the profitability of hospital groups has risen sharply, while the private health insurance market has remained stagnant since 1995 due to increasing costs passed on to customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HCA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.333652"
+        },
+        {
+          "relevance_score": "0.722435",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102935"
+        },
+        {
+          "relevance_score": "0.608254",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101720"
+        },
+        {
+          "relevance_score": "0.647245",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148928"
+        },
+        {
+          "relevance_score": "0.644674",
+          "ticker": "AFL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142074"
+        }
+      ],
+      "time_published": "20130828T124649",
+      "title": "Britons 'pay too much for private healthcare'",
+      "topics": [
+        {
+          "relevance_score": "0.946707",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.bbc.co.uk/news/business-23862212"
+    },
+    {
+      "authors": [
+        "Anthony Clark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.057673,
+      "source": "Gainesville Sun",
+      "source_domain": "Gainesville Sun",
+      "summary": "Local companies in Gainesville are planning for and in some cases already taking action to address the costs and requirements of the Affordable Care Act, even with the employer mandate delayed until 2015. Businesses like Gator Domino's, Santa Fe College, Crime Prevention Security Systems, and AxoGen Inc. are facing challenges such as potential price increases, caps on part-time employee hours, rising insurance costs, and additional reporting requirements. The article also details the specifics of the ACA's employer mandate and the uncertainties insurers face.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.904467",
+          "ticker": "AXGN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.296942"
+        },
+        {
+          "relevance_score": "0.859227",
+          "ticker": "DPZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145905"
+        },
+        {
+          "relevance_score": "0.746771",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115892"
+        },
+        {
+          "relevance_score": "0.632673",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.182646"
+        }
+      ],
+      "time_published": "20130727T120643",
+      "title": "Local companies adjust to costs of Affordable Care Act",
+      "topics": [
+        {
+          "relevance_score": "0.924890",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.802454",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.714369",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.642048",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.gainesville.com/story/news/local/2013/07/27/local-companies-adjust-to-costs-of-affordable-care-act/31850831007/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.226025,
+      "source": "USC Today",
+      "source_domain": "USC Today",
+      "summary": "USC has acquired Verdugo Hills Hospital, a 158-bed facility in Glendale, Calif., expanding its medical services in the Foothill communities of Los Angeles County. This acquisition adds USC Verdugo Hills Hospital to Keck Medicine of USC, promising $30 million in capital investments and providing residents with greater access to specialized care while retaining the convenience of a community hospital. The partnership is expected to strengthen both organizations, improve patient care, and help address the challenges of healthcare reform.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.349695",
+          "ticker": "THC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028956"
+        },
+        {
+          "relevance_score": "0.710845",
+          "ticker": "UHS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317354"
+        },
+        {
+          "relevance_score": "0.609429",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305329"
+        }
+      ],
+      "time_published": "20130716T134619",
+      "title": "USC closes deal to purchase Verdugo Hills Hospital",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.917488",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://today.usc.edu/usc-closes-deal-to-purchase-verdugo-hills-hospital/"
+    },
+    {
+      "authors": [
+        "Juliette Garside"
+      ],
+      "banner_image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2012/11/20/1353427219904/Meg-Whitman-008.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=b3f5dc832961e9389f4b503ec4158428",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.081442,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "Hewlett-Packard is facing a $1bn lawsuit from shareholders who accuse the company of faulty due diligence in its $11bn acquisition of British software firm Autonomy. The lawsuit, filed in a California court, names former and current HP executives, including Meg Whitman and L\u00e9o Apotheker, and Autonomy founder Mike Lynch, alleging they ignored warnings about Autonomy's overvalued status and financial impropriety. Shareholders claim they were defrauded into buying HP stock before the company admitted to an $8.8bn writedown related to the deal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.991896",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309645"
+        },
+        {
+          "relevance_score": "0.605826",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134023"
+        },
+        {
+          "relevance_score": "0.581418",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146086"
+        }
+      ],
+      "time_published": "20130507T181600",
+      "title": "Hewlett-Packard faces $1bn lawsuit from shareholders over Autonomy deal",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.901435",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.731842",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theguardian.com/business/2013/may/07/shareholders-sue-hp-autonomy-deal"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.061627,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Pfizer Inc. will begin selling its erectile dysfunction drug Viagra directly to patients on its website, a first for the pharmaceutical industry. This move aims to combat the sale of counterfeit versions of the drug online and provide a discreet option for \"bashful\" buyers. Patients will still need a prescription, and the company is offering incentives like free pills and discounts to attract customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267894"
+        },
+        {
+          "relevance_score": "0.713020",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101299"
+        },
+        {
+          "relevance_score": "0.643543",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112193"
+        },
+        {
+          "relevance_score": "0.602598",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035989"
+        },
+        {
+          "relevance_score": "0.629242",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048256"
+        }
+      ],
+      "time_published": "20130506T132119",
+      "title": "Pfizer to let bashful buyers get Viagra online",
+      "topics": [
+        {
+          "relevance_score": "0.928329",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.705709",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.632930",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/money/business/2013/05/06/pfizer-viagra-online/2138155/"
+    },
+    {
+      "authors": [
+        "Naharnet Newsdesk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.162743,
+      "source": "Naharnet",
+      "source_domain": "Naharnet",
+      "summary": "Pfizer Inc. is implementing a new strategy by selling its erectile dysfunction pill, Viagra, directly to consumers on its website, a first for the drug industry. This move aims to combat the proliferation of counterfeit Viagra sold online and to attract hesitant buyers who are embarrassed to purchase it from traditional pharmacies. While a prescription is still required, Pfizer is offering incentives like free pills and discounts to encourage direct sales and maintain its market share against rivals like Eli Lilly and Co.'s Cialis and widespread counterfeits.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272933"
+        },
+        {
+          "relevance_score": "0.736240",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131812"
+        },
+        {
+          "relevance_score": "0.600792",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144830"
+        },
+        {
+          "relevance_score": "0.596613",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.077910"
+        }
+      ],
+      "time_published": "20130506T105900",
+      "title": "Bashful? Buy the Little Blue Pill Online",
+      "topics": [
+        {
+          "relevance_score": "0.949512",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.701261",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.naharnet.com/stories/en/82089-bashful-buy-the-little-blue-pill-online"
+    },
+    {
+      "authors": [
+        "Janet Moore"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.209123,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "UnitedHealth Group \u0928\u0947 Minnetonka \u092e\u0947\u0902 \u0905\u092a\u0928\u0947 \u092c\u0940\u092e\u093e \u0936\u093e\u0916\u093e, UnitedHealthcare \u0915\u0947 \u0932\u093f\u090f \u090f\u0915 \u0928\u092f\u093e, \u0905\u0924\u094d\u092f\u093e\u0927\u0941\u0928\u093f\u0915 \u092e\u0941\u0916\u094d\u092f\u093e\u0932\u092f \u0916\u094b\u0932\u093e \u0939\u0948\u0964 \u092f\u0939 \u0938\u0941\u0935\u093f\u0927\u093e \u0915\u0902\u092a\u0928\u0940 \u0915\u0947 \u091f\u094d\u0935\u093f\u0928 \u0938\u093f\u091f\u0940\u091c \u092e\u0947\u0902 \u092c\u0922\u093c\u0924\u0947 \u0905\u091a\u0932 \u0938\u0902\u092a\u0924\u094d\u0924\u093f \u092a\u094b\u0930\u094d\u091f\u092b\u094b\u0932\u093f\u092f\u094b \u0915\u093e \u0939\u093f\u0938\u094d\u0938\u093e \u0939\u0948 \u0914\u0930 3,300 \u0915\u0930\u094d\u092e\u091a\u093e\u0930\u093f\u092f\u094b\u0902 \u0915\u094b \u090f\u0915 \u0915\u0941\u0936\u0932 \u0914\u0930 \u0938\u094d\u0925\u093e\u092f\u0940 \u0930\u0942\u092a \u0938\u0947 \u0921\u093f\u091c\u093e\u0907\u0928 \u0915\u093f\u090f \u0917\u090f \u0938\u094d\u0925\u093e\u0928 \u092a\u0930 \u0915\u0947\u0902\u0926\u094d\u0930\u093f\u0924 \u0915\u0930\u0924\u093e \u0939\u0948\u0964 \u0928\u090f \u092e\u0941\u0916\u094d\u092f\u093e\u0932\u092f \u092e\u0947\u0902 \u090f\u0915 \"\u0907\u0928\u094b\u0935\u0947\u0936\u0928 \u0917\u0948\u0930\u0947\u091c\" \u0914\u0930 \u0935\u093f\u092d\u093f\u0928\u094d\u0928 \u091f\u093f\u0915\u093e\u090a \u0921\u093f\u091c\u093c\u093e\u0907\u0928 \u0935\u093f\u0936\u0947\u0937\u0924\u093e\u090f\u0902 \u0939\u0948\u0902, \u091c\u0948\u0938\u0947 \u092a\u0941\u0928\u0930\u094d\u092a\u094d\u0930\u093e\u092a\u094d\u0924 \u0932\u0915\u0921\u093c\u0940 \u0914\u0930 \u092a\u094d\u0930\u093e\u0915\u0943\u0924\u093f\u0915 \u092a\u0924\u094d\u0925\u0930, \u0914\u0930 LEED \u092a\u094d\u0930\u092e\u093e\u0923\u0940\u0915\u0930\u0923 \u0915\u0940 \u0924\u0932\u093e\u0936 \u092e\u0947\u0902 \u0939\u0948\u0964",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.929129",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331205"
+        },
+        {
+          "relevance_score": "0.634024",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137099"
+        }
+      ],
+      "time_published": "20130503T163500",
+      "title": "\u092f\u0942\u0928\u093e\u0907\u091f\u0947\u0921\u0939\u0947\u0932\u094d\u0925 \u0928\u0947 \u0928\u092f\u093e \u092e\u0941\u0916\u094d\u092f\u093e\u0932\u092f \u0916\u094b\u0932\u093e",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.906483",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.startribune.com/unitedhealth-opens-new-headquarters/166613696"
+    },
+    {
+      "authors": [
+        "John Patten"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.336408,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "Joetta Clark Diggs' Head To Toe Fitness\u2122 program will hold a session for students in Plainfield, New Jersey, focusing on physical activities, nutrition, and goal setting. The program, sponsored by UnitedHealthcare\u00ae, aims to teach children healthy choices and is part of 12 free fitness sessions provided to students across New Jersey. Plainfield Mayor Sharon Robinson-Briggs is also expected to attend the event.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.921924",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305309"
+        }
+      ],
+      "time_published": "20130430T121400",
+      "title": "Joetta Clark Diggs Sets Tuesday Head-to-Toe Fitness Seminar in Plainfield",
+      "topics": [
+        {
+          "relevance_score": "0.735221",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://patch.com/new-jersey/hillsborough/joetta-clark-diggs-sets-tuesday-head-to-toe-fitness-sf3b0266f4a"
+    },
+    {
+      "authors": [
+        "Brianna Bailey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.423317,
+      "source": "The Oklahoman",
+      "source_domain": "The Oklahoman",
+      "summary": "OptumRx, a subsidiary of UnitedHealth Group, is expanding its presence in Oklahoma City by adding 135 new pharmaceutical jobs, including pharmacists, pharmacy technicians, and customer service representatives. This expansion is seen as a credit to Oklahoma's pro-business climate and talent pool, with potential for further growth. U.S. Sen. James Inhofe and United Health Group president and CEO Stephen Hemsley announced the expansion, highlighting the creation of good-paying jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403152"
+        }
+      ],
+      "time_published": "20130325T135108",
+      "title": "Health care company prescribes 135 new jobs for Oklahoma City",
+      "topics": [
+        {
+          "relevance_score": "0.937538",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.644954",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.oklahoman.com/story/business/information-technology/2013/03/25/health-care-company-prescribes-135-new-jobs-for-oklahoma-city/60995434007/"
+    },
+    {
+      "authors": [
+        "Jeffrey Young"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.057941,
+      "source": "HuffPost",
+      "source_domain": "HuffPost",
+      "summary": "Major health insurance companies are predicting significant premium increases for 2014, ranging from 25 percent to 116 percent, for small employers and individuals buying coverage independently. These increases are attributed to rising health care costs and new mandates from the Affordable Care Act, which requires insurers to provide better benefits and accept all customers. However, the Obama administration argues that tax credits and increased competition will ultimately lower costs for many, while acknowledging that younger, healthier individuals are most likely to see higher premiums.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.978040",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117788"
+        },
+        {
+          "relevance_score": "0.704681",
+          "ticker": "CI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032388"
+        },
+        {
+          "relevance_score": "0.600228",
+          "ticker": "ELV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.027361"
+        }
+      ],
+      "time_published": "20130322T141400",
+      "title": "Health Insurance Premium Increases Vowed By Companies For 2014",
+      "topics": [
+        {
+          "relevance_score": "0.906423",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.705309",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.huffpost.com/entry/health-insurance-premium-increases_n_2932704"
+    },
+    {
+      "authors": [
+        "Walter Hamilton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.141066,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "CVS Caremark Corp. is requiring its employees to disclose personal health information, including their weight, or face a $600 annual fine. This initiative, referred to as a \"health screening and wellness review,\" aims to encourage healthier lifestyles and manage healthcare costs, with the company covering associated doctor visits. While CVS Caremark states the data is protected and not shared with the company directly, critics raise concerns about employee privacy and potential discrimination.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.202020"
+        },
+        {
+          "relevance_score": "0.603853",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116819"
+        },
+        {
+          "relevance_score": "0.584433",
+          "ticker": "AON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.056181"
+        }
+      ],
+      "time_published": "20130321T071600",
+      "title": "Report: CVS Caremark demands workers disclose weight, health info",
+      "topics": [
+        {
+          "relevance_score": "0.848190",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.730463",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.latimes.com/business/money/la-fi-mo-cvs-caremark-workers-weight-20130320,0,3069855.story"
+    },
+    {
+      "authors": [
+        "Global Corporate Venturing"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305706,
+      "source": "Global Corporate Venturing",
+      "source_domain": "Global Corporate Venturing",
+      "summary": "UnitedHealth Group has acquired Humedica, a US-based clinical intelligence company, for $165 million. Humedica had previously raised $33 million in a Series C round from investors including Merck and Allscripts' corporate venturing units, along with Bain Capital Ventures, General Catalyst Partners, North Bridge Venture Partners, and Leerink Swann. This acquisition highlights the strategic investments made by healthcare providers to enhance analytics solutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926166",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410101"
+        },
+        {
+          "relevance_score": "0.704806",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334890"
+        },
+        {
+          "relevance_score": "0.603289",
+          "ticker": "ALL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.185366"
+        }
+      ],
+      "time_published": "20130310T135108",
+      "title": "Humedica's $165m sale to UnitedHealth",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.900570",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.733339",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://globalventuring.com/humedicas-165m-sale-to-unitedhealth/"
+    },
+    {
+      "authors": [
+        "Ariel Schwartz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.424945,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "UnitedHealthcare is collaborating with Konami to introduce Dance Dance Revolution: Classroom Edition into schools in Georgia, Florida, and Texas as part of an anti-childhood obesity campaign. This initiative aims to encourage physical activity among students by making exercise more engaging through video games, with data being collected to study its impact on student health. Other organizations like the American Diabetes Association and Let\u2019s Move are also partnering to expand this program.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428220"
+        }
+      ],
+      "time_published": "20130131T135109",
+      "title": "Bringing Dance Dance Revolution Into Gym Class",
+      "topics": [
+        {
+          "relevance_score": "0.906869",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.805468",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fastcompany.com/1681251/bringing-dance-dance-revolution-into-gym-class/"
+    },
+    {
+      "authors": [
+        "RTTNews Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.163526,
+      "source": "RTTNews",
+      "source_domain": "RTTNews",
+      "summary": "UnitedHealth Group reported its fourth-quarter net income of $1.24 billion, or $1.20 per share, which met analyst expectations. The company also reaffirmed its 2013 revenue and profit per share outlook. Total revenues for the quarter reached $28.77 billion, surpassing analyst predictions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.158153"
+        }
+      ],
+      "time_published": "20130117T061300",
+      "title": "UnitedHealth Q4 Profit Matches Estimates - Quick Facts",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.826188",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.rttnews.com/amp/2038971/unitedhealth-q4-profit-matches-estimates-quick-facts.aspx"
+    },
+    {
+      "authors": [
+        "Joseph Conn"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333852,
+      "source": "Modern Healthcare News",
+      "source_domain": "Modern Healthcare News",
+      "summary": "Mayo and Optum are set to collaborate by sharing their extensive data sources to advance healthcare research. This partnership aims to leverage large datasets for significant progress in understanding and improving healthcare. The initiative is highlighted in an article published in Modern Healthcare Insurance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.908171",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321651"
+        }
+      ],
+      "time_published": "20130115T050000",
+      "title": "Mayo, Optum to share huge data sources for healthcare research",
+      "topics": [
+        {
+          "relevance_score": "0.905070",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.modernhealthcare.com/article/20130115/NEWS/301159954/mayo-optum-to-share-huge-data-sources-for-healthcare-research/"
+    },
+    {
+      "authors": [
+        "Business Wirevia The Motley Fool"
+      ],
+      "banner_image": "https://s.yimg.com/ny/api/res/1.2/dR0.v6UZn.WPv1gHlaUsGA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtjZj13ZWJw/https://o.aolcdn.com/images/dar/5845cadfecd996e0372f/48b38b30cc8dc0dc6b748f5c20c6b0d11af0ae5e/aHR0cDovL2N0cy5idXNpbmVzc3dpcmUuY29tL2N0L0NUP2lkPWJ3bmV3cyZzdHk9MjAxMzAxMDgwMDcwMzZyMSZzaWQ9NDAyNDEmZGlzdHJvPWZ0cA==",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.324522,
+      "source": "Yahoo",
+      "source_domain": "Yahoo",
+      "summary": "U.S. Physical Therapy, Inc. announced that the American Taxpayer Relief Act of 2012 will reduce Medicare reimbursement for physical therapy services, effective April 1, 2013. The new law increases the Multiple Procedure Payment Reduction (MPPR) for subsequent procedures to 50%. The company estimates this will result in a $1.6 million to $2.1 million reduction in net income for 2013, or $0.13 to $0.18 in diluted earnings per share.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.979764",
+          "ticker": "USPH",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.621015"
+        },
+        {
+          "relevance_score": "0.698779",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.287953"
+        },
+        {
+          "relevance_score": "0.586975",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.180314"
+        },
+        {
+          "relevance_score": "0.575720",
+          "ticker": "HUM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.213265"
+        }
+      ],
+      "time_published": "20130108T213900",
+      "title": "Medicare Reimbursement Reduction for Physical Therapy Services",
+      "topics": [
+        {
+          "relevance_score": "0.941451",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.827713",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.824360",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.yahoo.com/2013-01-08-medicare-reimbursement-reduction-for-physical-ther.html"
+    }
+  ],
+  "items": "23",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

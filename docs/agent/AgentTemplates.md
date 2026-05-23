@@ -138,6 +138,37 @@ Possible options:
 1. ...
 2. ...
 3. ...
+[If fewer than 3 credible options exist, say so explicitly and explain why]
+
+Decision-option comparison matrix:
+- Scoring scale: 0-10
+- Scoring direction: higher is better for every category
+- Mandatory categories:
+  - Accuracy
+  - Complexity
+  - Compute Intensity
+  - Security
+  - Compatibility
+  - Governance
+- Context-specific categories:
+  - C1:
+  - C2:
+  - C3:
+  - C4:
+
+| Option | Brief explanation | Accuracy | Complexity | Compute Intensity | Security | Compatibility | Governance | C1 | C2 | C3 | C4 |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Option 1 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| Option 2 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+| Option 3 | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... | ... |
+
+Option notes:
+- Option 1 main pros:
+- Option 1 main cons:
+- Option 2 main pros:
+- Option 2 main cons:
+- Option 3 main pros:
+- Option 3 main cons:
 
 Recommended option:
 [State recommendation and why]
@@ -182,6 +213,13 @@ Title:
 Theory basis:
 Affected files or modules:
 Options considered:
+Decision-option matrix used: yes/no
+Mandatory category scores recorded: yes/no
+Context-specific categories used:
+- C1:
+- C2:
+- C3:
+- C4:
 Chosen option:
 Why chosen:
 Rejected options and why:
@@ -192,6 +230,26 @@ User approval received: yes/no
 Downstream files affected:
 Follow-up actions:
 Notes:
+```
+
+### 3.3A Decision-Option Matrix Notes
+
+```text
+Decision context:
+Scoring scale used: 0-10
+Scoring direction: higher is better for every category
+Accuracy means:
+Complexity means:
+Compute Intensity means:
+Security means:
+Compatibility means:
+Governance means:
+Context-specific category 1 means:
+Context-specific category 2 means:
+Context-specific category 3 means:
+Context-specific category 4 means:
+Known evidence limits:
+Potential score distortions or caveats:
 ```
 
 ### 3.4 Scope Change Proposal Record

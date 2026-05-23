@@ -1,0 +1,26 @@
+{
+  "artifact_schema_version": "stage3_features_v1",
+  "news_alignment": {
+    "market_close_time": "16:00:00",
+    "exchange_timezone": "America/New_York",
+    "same_day_policy": "at_or_before_close_assign_to_same_trading_date",
+    "after_close_policy": "roll_forward_to_next_trading_date",
+    "non_trading_day_policy": "roll_forward_to_next_trading_date"
+  },
+  "embeddings": {
+    "model_id": "deterministic_hash_embedding_v1",
+    "dimension": 8,
+    "pooling_policy": "mean"
+  },
+  "event_state": {
+    "empty_vector_policy": "zero_vector",
+    "scalar_enrichments": [
+      "stage3_aligned_news_count",
+      "no_news_flag",
+      "empty_event_state_flag",
+      "provider_empty_feed_flag",
+      "provider_truncation_risk_flag",
+      "minutes_since_latest_aligned_article"
+    ]
+  }
+}

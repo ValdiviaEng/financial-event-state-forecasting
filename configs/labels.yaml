@@ -1,0 +1,9 @@
+{
+  "artifact_schema_version": "stage3_labels_v1",
+  "target_family": "forward_excess_returns",
+  "horizons": ["1d", "5d", "10d", "20d", "60d"],
+  "return_type": "simple",
+  "reference_policy": "leave_one_out_equal_weight_approved_universe",
+  "endpoint_null_policy": "stage2_clean_window_requires_full_endpoints",
+  "formula": "ticker_forward_simple_return_minus_leave_one_out_equal_weight_universe_forward_simple_return"
+}

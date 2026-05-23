@@ -1,0 +1,58 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Jonathan Barnes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288734,
+      "source": "Waste Dive",
+      "source_domain": "Waste Dive",
+      "summary": "A new $600 million waste-to-energy (WTE) plant in Palm Beach, FL, designed and built by Babcock & Wilcox Co., is now fully operational, generating power for the electric grid. This plant, which is Babcock & Wilcox's flagship North American effort, is expected to process over 1 million tons of municipal solid waste annually, power 44,000 homes, and significantly reduce reliance on the local landfill. It works in conjunction with an existing 65-megawatt WTE plant at the same site.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.916339",
+          "ticker": "KBR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297845"
+        },
+        {
+          "relevance_score": "0.735648",
+          "ticker": "WM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322473"
+        },
+        {
+          "relevance_score": "0.601886",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247423"
+        },
+        {
+          "relevance_score": "0.599470",
+          "ticker": "ETN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211389"
+        }
+      ],
+      "time_published": "20150630T085203",
+      "title": "$600M WTE plant opens in Palm Beach, FL",
+      "topics": [
+        {
+          "relevance_score": "0.927423",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.728707",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.wastedive.com/news/600m-wte-plant-opens-in-palm-beach-fl/401537/"
+    }
+  ],
+  "items": "1",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

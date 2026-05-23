@@ -1,0 +1,2115 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.34694,
+      "source": "samsung.com",
+      "source_domain": "samsung.com",
+      "summary": "Baidu and Samsung Electronics announced the completion of development for Baidu KUNLUN, a cloud-to-edge AI accelerator, set for mass production early next year. This chip, built on Samsung\u2019s 14nm process and I-Cube\u2122 package technology, will support large-scale AI workloads and significantly enhance AI performance. This collaboration expands Samsung's foundry business into high-performance computing chips for data centers and accelerates Baidu\u2019s AI platforms.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BIDU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.486200"
+        },
+        {
+          "relevance_score": "0.635119",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301532"
+        },
+        {
+          "relevance_score": "0.563524",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.293966"
+        }
+      ],
+      "time_published": "20191218T235223",
+      "title": "Baidu and Samsung Electronics Ready for Production of Leading-Edge AI Chip for Early Next Year",
+      "topics": [
+        {
+          "relevance_score": "0.904987",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.716934",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://news.samsung.com/global/baidu-and-samsung-electronics-ready-for-production-of-leading-edge-ai-chip-for-early-next-year"
+    },
+    {
+      "authors": [
+        "Peter Judge"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.404728,
+      "source": "Data Center Dynamics",
+      "source_domain": "Data Center Dynamics",
+      "summary": "Schneider Electric has released an integrated liquid-cooled rack in partnership with Iceotope and Avnet, featuring immersion-cooled IT equipment and Schneider's EcoStruxure management software. This product is designed for compute-intensive applications such as AI and big data analytics, marking a step towards more sustainable data centers. It is claimed to be the first commercially available integrated rack with chassis-based, immersive liquid cooling.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403243"
+        },
+        {
+          "relevance_score": "0.869131",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.464841"
+        },
+        {
+          "relevance_score": "0.645699",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270358"
+        }
+      ],
+      "time_published": "20191209T235124",
+      "title": "Schneider launches liquid cooled rack with Iceotope and Avnet",
+      "topics": [
+        {
+          "relevance_score": "0.916477",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.datacenterdynamics.com/en/news/schneider-launches-liquid-cooled-rack-iceotope-and-avnet/"
+    },
+    {
+      "authors": [
+        "Peter Clarke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.117883,
+      "source": "EE Times",
+      "source_domain": "EE Times",
+      "summary": "Applied Materials Inc. has announced that Gary Dickerson, president of the company, will become CEO effective September 1st. He will succeed Michael Splinter, who will transition to executive chairman after serving as CEO since 2003. Dickerson previously served as CEO of Varian Semiconductor Equipment Associates and held various roles at KLA-Tencor Corp.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.275042"
+        },
+        {
+          "relevance_score": "0.629440",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.017497"
+        },
+        {
+          "relevance_score": "0.629624",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030010"
+        }
+      ],
+      "time_published": "20191206T234637",
+      "title": "Applied Materials Appoints CEO",
+      "topics": [
+        {
+          "relevance_score": "0.835653",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.711257",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.eetimes.com/applied-materials-appoints-ceo/"
+    },
+    {
+      "authors": [
+        "Michael Zhang"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.13884,
+      "source": "PetaPixel",
+      "source_domain": "PetaPixel",
+      "summary": "Panasonic has reportedly agreed to sell its loss-making semiconductor business, including its image sensor operations, to Taiwan's Nuvoton Technology for $250 million. The move comes as Sony continues to dominate the image sensor market, and Panasonic seeks to divest unprofitable divisions to focus on areas like batteries and automotive technology. The deal is expected to finalize by June 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.830919",
+          "ticker": "TSEM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126294"
+        },
+        {
+          "relevance_score": "0.631354",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149774"
+        },
+        {
+          "relevance_score": "0.637717",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139471"
+        },
+        {
+          "relevance_score": "0.647494",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116441"
+        },
+        {
+          "relevance_score": "0.648842",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109274"
+        }
+      ],
+      "time_published": "20191129T013144",
+      "title": "Panasonic Exits Image Sensor Business with Sale to Taiwan Company",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.836766",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.929860",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://petapixel.com/2019/11/29/panasonic-exits-image-sensor-business-with-sale-to-taiwan-company/"
+    },
+    {
+      "authors": [
+        "Anne Shields"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.311519,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "Applied Materials's merger with Tokyo Electron is expected to create a new company called Eteris, which will command a 25% market share in the chip manufacturing equipment market. The merger, valued at $9.39 billion, aims for significant cost savings and is anticipated to strengthen Applied Materials's competitive position by integrating complementary product lines.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.453729"
+        },
+        {
+          "relevance_score": "0.639079",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.292280"
+        },
+        {
+          "relevance_score": "0.625055",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211802"
+        }
+      ],
+      "time_published": "20191127T183400",
+      "title": "What Tokyo Electron acquisition means for Applied Materials",
+      "topics": [
+        {
+          "relevance_score": "0.917733",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.840964",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732292",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.625248",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/01/acquisition-tokyo-electron-means-applied-materials/"
+    },
+    {
+      "authors": [
+        "Anne Shields"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.335504,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "The article discusses how the increasing adoption of 3D NAND technology is expected to drive significant growth for Applied Materials (AMAT), particularly in its deposition and etch product lines. The market share for 3D NAND is projected to grow substantially, accounting for the majority of total flash shipments by 2017. This shift is fueled by the need for more complex 3D architectures due to trends in mobility and connectivity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408104"
+        },
+        {
+          "relevance_score": "0.714967",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237588"
+        }
+      ],
+      "time_published": "20191127T183400",
+      "title": "Why 3D NAND should drive Applied Materials\u2019s growth",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.819694",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.628507",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/01/3d-nand-expected-drive-applied-materialss-growth/"
+    },
+    {
+      "authors": [
+        "Liz Young"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.403649,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Applied Materials has opened its META Center at SUNY Polytechnic Institute in Albany, following a $600 million investment announced a year prior in partnership with New York state. The center is part of a broader collaboration aimed at advancing technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421516"
+        }
+      ],
+      "time_published": "20191113T161200",
+      "title": "Applied Materials opens accelerator at SUNY Poly in Albany",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bizjournals.com/albany/news/2019/11/13/applied-materials-opens-accelerator-at-suny-poly.html"
+    },
+    {
+      "authors": [
+        "M. Di Paolo Emilio"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.292621,
+      "source": "EE Times India",
+      "source_domain": "EE Times India",
+      "summary": "This article discusses the critical role of thermal management in power devices to prevent overheating and ensure reliability, especially with the miniaturization of electronic systems. It highlights the challenges faced by the electronics industry in obtaining sufficient thermal information and introduces the Cadence Celsius Thermal Solver as a comprehensive solution for electric-thermal co-simulation across the entire hierarchy of electronic systems. The article explains the physics of thermal resistance and outlines various thermal tools and techniques, including 3D ICs and TSVs, emphasizing the need for integrated electrical and thermal analyses for optimal design.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CDNS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.472377"
+        },
+        {
+          "relevance_score": "0.625835",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273562"
+        },
+        {
+          "relevance_score": "0.581740",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228025"
+        },
+        {
+          "relevance_score": "0.585566",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219735"
+        }
+      ],
+      "time_published": "20191112T000127",
+      "title": "The Importance of Thermal Management for Power Devices",
+      "topics": [
+        {
+          "relevance_score": "0.947118",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.eetindia.co.in/the-importance-of-thermal-management-for-power-devices/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.158093,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Following a disappointing outlook from Texas Instruments, Morgan Stanley warns that the semiconductor industry's problems may extend beyond just one company. Texas Instruments, often seen as a bellwether for the chip sector, reported weak results and a below-seasonal forecast, leading to concerns about deepening issues for other semiconductor names. This development has sparked debate among analysts regarding the broader implications for the market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.312503",
+          "ticker": "NXPI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002173"
+        },
+        {
+          "relevance_score": "0.966040",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.424722"
+        },
+        {
+          "relevance_score": "0.742362",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141009"
+        },
+        {
+          "relevance_score": "0.649847",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.197121"
+        },
+        {
+          "relevance_score": "0.557532",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.201319"
+        }
+      ],
+      "time_published": "20191023T111300",
+      "title": "It\u2019s not just Texas Instruments, Morgan Stanley warns",
+      "topics": [
+        {
+          "relevance_score": "0.919111",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.820555",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.733949",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.644153",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/its-not-just-texas-instruments-morgan-stanley-warns-2019-10-23?gaa_at=eafs&gaa_n=AWEtsqfXzoQOptwDoKxz_m6tISIWpNrXYJMcTEV05Xi1qsKN7niu2P68Dj6t&gaa_ts=69080217&gaa_sig=G-lzILcuId-lNc20MJoT9U5oKiPb-4P9GLJROMAX8W96Gu_anxHdWkMQA5Ot7tvmrAJz2MgbIfxetKpNlb8RJA%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.467534,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Semiconductor stocks, though volatile, are expected to see sales growth resume in 2020 after a \"reset\" year in 2019. The industry has been significantly impacted by the U.S.-China trade conflict. Analysts anticipate Nvidia's sales to decline by 6% this year but rebound with 17% growth in 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.310878",
+          "ticker": "QTOP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033206"
+        },
+        {
+          "relevance_score": "0.831734",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.722809"
+        },
+        {
+          "relevance_score": "0.609981",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.506023"
+        },
+        {
+          "relevance_score": "0.612408",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.506768"
+        },
+        {
+          "relevance_score": "0.623672",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.520586"
+        }
+      ],
+      "time_published": "20191012T123000",
+      "title": "Semiconductor stocks are poised to benefit as industry sales growth resumes in 2020",
+      "topics": [
+        {
+          "relevance_score": "0.804393",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/semiconductor-stocks-are-poised-to-benefit-as-industry-sales-growth-resumes-in-2020-2019-10-10?gaa_at=eafs&gaa_n=AWEtsqdLN0OQ3aYPBR6zIvSkywI-59hVSZ8c0SR2Z9eYx5pD4Q4GZCOC990N&gaa_ts=69080475&gaa_sig=kr4yU_SXbCIDx3BtCRLLsrISTwoKuB5y2hrr7FU0Hm_MpmTAVMajZze833_O87HswU98L_HVJluGEYQRPsRrMg%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.336606,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Semiconductor stocks are expected to see a rebound in sales growth in 2020 after a challenging 2019, which is considered a \"reset\" year. Despite their volatility, these stocks have historically been excellent long-term investments. The industry has been particularly affected by the U.S.-China trade conflict, but analysts project a significant sales increase for companies like Nvidia next year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334509",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030299"
+        },
+        {
+          "relevance_score": "0.843967",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400108"
+        },
+        {
+          "relevance_score": "0.734971",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408822"
+        },
+        {
+          "relevance_score": "0.648732",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.398437"
+        },
+        {
+          "relevance_score": "0.608741",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424008"
+        }
+      ],
+      "time_published": "20191012T123000",
+      "title": "Semiconductor stocks are poised to benefit as industry sales growth resumes in 2020",
+      "topics": [
+        {
+          "relevance_score": "0.842834",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.827114",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.615142",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/semiconductor-stocks-are-poised-to-benefit-as-industry-sales-growth-resumes-in-2020-2019-10-10?gaa_at=eafs&gaa_n=AWEtsqdzF2MNvVd7fkop0X-DAWmSXLsF2wVdwFMHBg04jAjtFfcVK93fuqR4&gaa_ts=69080225&gaa_sig=ncwPnqs-AJedoZkTDXRm-5CXmse2AhlG4Q2R-Jkb24iIoEaBW93HVBO8e1o2s8x1XaOvMlyn6aMo3XaLjUORhQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.290254,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Analysts are predicting a rebound in the semiconductor industry in 2020, with sales growth resuming after a \"reset\" year in 2019. Despite the volatility and impact from the U.S.-China trade conflict, semiconductor stocks are seen as good long-term investments. For example, Nvidia's sales are expected to decline 6% in 2019 but grow 17% in 2020.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335039",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.018289"
+        },
+        {
+          "relevance_score": "0.940868",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326757"
+        },
+        {
+          "relevance_score": "0.734314",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447049"
+        },
+        {
+          "relevance_score": "0.604700",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.397222"
+        },
+        {
+          "relevance_score": "0.649899",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.374634"
+        }
+      ],
+      "time_published": "20191012T123000",
+      "title": "Semiconductor stocks are poised to benefit as industry sales growth resumes in 2020",
+      "topics": [
+        {
+          "relevance_score": "0.822228",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.818270",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.636040",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/semiconductor-stocks-are-poised-to-benefit-as-industry-sales-growth-resumes-in-2020-2019-10-10?gaa_at=eafs&gaa_n=AWEtsqdSQWWJFqNWsUKnHZcO4X18N8dTKYApGZqjFbWnMIVqAhaX-1mO3R_9&gaa_ts=6907fd86&gaa_sig=brJTcLyZdZ-q9NsWcOKwx3X3az-SM4xE5c0to1t-Nh4Q9dtjGf87uKSFnKoMbzvnYrmgeb3ocZnbiVjxTeD0ZA%3D%3D"
+    },
+    {
+      "authors": [
+        "Robert Castellano"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.164782,
+      "source": "Seeking Alpha",
+      "source_domain": "Seeking Alpha",
+      "summary": "This article provides a comparative analysis of Applied Materials (AMAT) and Lam Research (LRCX), two companies that manufacture equipment for semiconductor devices. It focuses on their performance in key WFE equipment sectors like deposition and etch, highlighting Lam Research's outperformance in these areas and Applied Materials' declining market share in deposition. The author also notes AMAT's strong position in Implant/Doping and its growth in the CMP sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.204575"
+        },
+        {
+          "relevance_score": "0.900798",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139092"
+        }
+      ],
+      "time_published": "20191010T130600",
+      "title": "Applied Materials Vs. Lam Research: Making A Choice Amid Headwinds",
+      "topics": [
+        {
+          "relevance_score": "0.913597",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.845525",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.700940",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.642561",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://seekingalpha.com/article/4295936-applied-materials-vs-lam-research-making-a-choice-amid-headwinds"
+    },
+    {
+      "authors": [
+        "EFY Bureau"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.409896,
+      "source": "Electronics For You BUSINESS",
+      "source_domain": "Electronics For You BUSINESS",
+      "summary": "Micron Technology has launched a Global Development Centre in Hyderabad, India, aiming to expand its team of engineers, researchers, developers, and IT specialists. The new site will focus on developing technologies in areas like artificial intelligence and machine learning. NITI Aayog CEO Amitabh Kant praised Hyderabad as an ideal destination for such innovation, highlighting the critical role of the semiconductor industry for growth in AI, ML, and IoT.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.534567"
+        },
+        {
+          "relevance_score": "0.606100",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344032"
+        },
+        {
+          "relevance_score": "0.607847",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306655"
+        }
+      ],
+      "time_published": "20191007T005609",
+      "title": "Micron Technology Launches Global Development Centre in Hyderabad",
+      "topics": [
+        {
+          "relevance_score": "0.911170",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.706637",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.electronicsforyou.biz/industry-buzz/micron-technology-launches-global-development-centre-in-hyderabad/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.362927,
+      "source": "Nasdaq",
+      "source_domain": "Nasdaq",
+      "summary": "Lam Research Corporation announced the establishment of a new Korea Technology Center (KTC) in Gyeonggi-do, South Korea, through a Memorandum of Understanding with the Gyeonggi-do provincial government. This $50 million investment will create over 300 engineering jobs and aims to reposition South Korea as a tech powerhouse by focusing on key equipment for semiconductor manufacturing processes. The KTC will contribute to forming the world's largest semiconductor cluster in the region, alongside existing facilities of Samsung Electronics and SK Hynix.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.483165"
+        },
+        {
+          "relevance_score": "0.617012",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305650"
+        },
+        {
+          "relevance_score": "0.626853",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319723"
+        }
+      ],
+      "time_published": "20190927T041900",
+      "title": "Lam Research Announces New Technology Center in Gyeonggi-do, South Korea",
+      "topics": [
+        {
+          "relevance_score": "0.904746",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.730002",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.634999",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nasdaq.com/press-release/lam-research-announces-new-technology-center-in-gyeonggi-do-south-korea-2019-09-27"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.849389,
+      "source": "Prime Minister's Office Singapore",
+      "source_domain": "Prime Minister's Office Singapore",
+      "summary": "DPM Heng Swee Keat honored Applied Materials for its significant contributions to Singapore's semiconductor industry, highlighting its investments, job creation, and role in strengthening the ecosystem. The speech emphasized the growth of Singapore's semiconductor and equipment manufacturing sectors, crediting partnerships with companies like Applied Materials and various local firms. It also stressed the importance of driving innovation through collaborations with research institutions and investing in people to sustain long-term growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.819007"
+        }
+      ],
+      "time_published": "20190924T234638",
+      "title": "DPM Heng Swee Keat at the Distinguished Partner in Progress Award Ceremony",
+      "topics": [
+        {
+          "relevance_score": "0.926925",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.923758",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.906246",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.812114",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.pmo.gov.sg/newsroom/dpm-heng-swee-keat-at-the-distinguished-partner-in-progress-award-ceremony-for-applied-materials-inc/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.248605,
+      "source": "www.embedded.com",
+      "source_domain": "www.embedded.com",
+      "summary": "This article details how power management ICs (PMICs) are crucial for the digitalization of the industrial sector and the transition to smart factories and the industrial Internet of Things (IIoT). It highlights the growing market for PMICs and showcases specific solutions from leading manufacturers like Maxim Integrated, Texas Instruments, ROHM Semiconductor, Analog Devices, Microchip Technology, ST Microelectronics, and NXP Semiconductors, emphasizing their features for efficiency, integration, and flexibility in industrial applications. The article underscores PMICs' role in optimizing production costs, reducing CO2 emissions, and ensuring reliable energy supply in Industry 4.0.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.956820",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349396"
+        },
+        {
+          "relevance_score": "0.824366",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263074"
+        },
+        {
+          "relevance_score": "0.769491",
+          "ticker": "MCHP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243147"
+        },
+        {
+          "relevance_score": "0.715160",
+          "ticker": "NXPI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249242"
+        },
+        {
+          "relevance_score": "0.646382",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.155272"
+        }
+      ],
+      "time_published": "20190910T234145",
+      "title": "10 power management ICs for smart factories",
+      "topics": [
+        {
+          "relevance_score": "0.947145",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.817402",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.embedded.com/10-power-management-ics-for-smart-factories/"
+    },
+    {
+      "authors": [
+        "Himanshu Sorout"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.148791,
+      "source": "Wccftech",
+      "source_domain": "Wccftech",
+      "summary": "Ushio (TYO:6925) has achieved a breakthrough in the Extreme Ultraviolet (EUV) lithography market by perfecting a light source for testing patterned EUV masks, a critical component for enabling next-generation semiconductor manufacturing at nodes lower than 7nm. This innovation fills a crucial gap in the industry, positioning Ushio as a sole supplier for this niche and vital technology. The CEO, Koji Naito, highlighted that testing equipment was a bottleneck for EUV and their solution will boost production efficiency and yields, with the technology expected to turn profitable in the next fiscal year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.837067",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.268454"
+        },
+        {
+          "relevance_score": "0.603086",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149009"
+        },
+        {
+          "relevance_score": "0.635496",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103252"
+        },
+        {
+          "relevance_score": "0.584180",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134940"
+        },
+        {
+          "relevance_score": "0.586295",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101688"
+        }
+      ],
+      "time_published": "20190905T160000",
+      "title": "Ushio\u2019s Breakthrough In The Niche Extreme Ultraviolet Lithography market",
+      "topics": [
+        {
+          "relevance_score": "0.909178",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.825501",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://wccftech.com/ushios-breakthrough-in-the-niche-extreme-ultraviolet-lithography-market/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.181414,
+      "source": "The Straits Times",
+      "source_domain": "The Straits Times",
+      "summary": "South Korean President Moon Jae-in will invest in the NH-Amundi Victorious Korea Equity Fund, which supports local companies amidst a trade dispute with Japan. This fund focuses on Korean suppliers that could benefit from Japan's export curbs on key semiconductor materials. This move echoes a past presidential investment to promote economic agendas and aims to reduce South Korea's reliance on external factors for its manufacturing industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346643"
+        },
+        {
+          "relevance_score": "0.641887",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118361"
+        },
+        {
+          "relevance_score": "0.634095",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108746"
+        },
+        {
+          "relevance_score": "0.632065",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113647"
+        },
+        {
+          "relevance_score": "0.612990",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131350"
+        }
+      ],
+      "time_published": "20190826T142300",
+      "title": "President Moon bets his own money on a Korean victory in trade spat with Japan",
+      "topics": [
+        {
+          "relevance_score": "0.920802",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.805523",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.709721",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.629787",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.623581",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.straitstimes.com/asia/east-asia/president-moon-bets-his-own-money-on-a-korean-victory-over-japan"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.150894,
+      "source": "World Pumps",
+      "source_domain": "World Pumps",
+      "summary": "Kral AG, an Austrian screw pump and flowmeter manufacturer, has established a new subsidiary in Wuxi, China, named Kral (Wuxi) Machinery Technology Co Ltd. This new location, headed by Ren Lu and Haichao Li, marks Kral's sixth global subsidiary, expanding its presence in key markets like marine, power generation, oil and gas, mechanical engineering, and chemicals. The company, headquartered in Austria, employs around 250 people and has a high export quota, indicating its global reach and continued expansion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.313733",
+          "ticker": "GRC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026502"
+        },
+        {
+          "relevance_score": "0.920708",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331802"
+        },
+        {
+          "relevance_score": "0.625968",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231678"
+        },
+        {
+          "relevance_score": "0.603967",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121724"
+        }
+      ],
+      "time_published": "20190820T002735",
+      "title": "Kral sets up subsidiary in China",
+      "topics": [
+        {
+          "relevance_score": "0.914880",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.639110",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.worldpumps.com/content/news/kral-sets-up-subsidiary-in-china"
+    },
+    {
+      "authors": [
+        "Adam Armstrong"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.332301,
+      "source": "StorageReview.com",
+      "source_domain": "StorageReview.com",
+      "summary": "Micron Technology, Inc. has announced it is the first memory company to begin mass production of 16Gb DDR4 products using 1z nm process technology. This advancement for DRAM scaling also includes volume shipments of 16Gb LPDDR4X DRAM in UFS-based multichip packages. The 1z nm technology delivers higher bit density, performance enhancements, and lower cost, making it ideal for emerging technologies like AI, autonomous vehicles, 5G, mobile devices, and gaming.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496114"
+        },
+        {
+          "relevance_score": "0.634969",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234871"
+        }
+      ],
+      "time_published": "20190815T005609",
+      "title": "Micron Mass Produces 1z Nanometer DRAM",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.842961",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.storagereview.com/news/micron-mass-produces-1z-nanometer-dram"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.378139,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Thermo Fisher Scientific has launched the Thermo Scientific Spectra scanning/transmission electron microscope (S/TEM), which offers advanced atomic-level imaging and analysis in a single tool. This platform is designed to accelerate discoveries in materials science by providing high-resolution imaging and analysis capabilities for a wide range of applications, including beam-sensitive materials and semiconductor structures. The Spectra S/TEM introduces revolutionary detection features like a higher-brightness electron source and high dynamic range mapping to enhance research and development in various industries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TMO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.486156"
+        },
+        {
+          "relevance_score": "0.615506",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305476"
+        },
+        {
+          "relevance_score": "0.562720",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.257963"
+        }
+      ],
+      "time_published": "20190805T080000",
+      "title": "Thermo Fisher Scientific Introduces Revolutionary S/TEM Platform",
+      "topics": [
+        {
+          "relevance_score": "0.803731",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.733111",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.605499",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/thermo-fisher-scientific-introduces-revolutionary-stem-platform-300896040.html"
+    },
+    {
+      "authors": [
+        "Sweta Dash"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.250066,
+      "source": "Display Daily",
+      "source_domain": "Display Daily",
+      "summary": "This article discusses the evolution of OLED TV technology, highlighting the challenges and advancements in reducing costs and increasing adoption rates. It details current White OLED technology, and explores future solutions like RGB OLED with Inkjet Printing (IJP) and Organic Vapor Jet Printing (OVJP), as well as QD OLED technology, emphasizing their potential benefits and existing hurdles for mass production in large-screen TVs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.950787",
+          "ticker": "OLED",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305949"
+        },
+        {
+          "relevance_score": "0.738017",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.285386"
+        },
+        {
+          "relevance_score": "0.601428",
+          "ticker": "GLW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137829"
+        }
+      ],
+      "time_published": "20190729T010145",
+      "title": "New Solutions for Next Generation OLED TV Display",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.823198",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://displaydaily.com/new-solutions-for-next-generation-oled-tv-display/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.globenewswire.com/NewsRoom/AttachmentNg/74f2fed6-2032-4f43-9f38-2b8fd7834b32",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.408544,
+      "source": "Applied Materials",
+      "source_domain": "Applied Materials",
+      "summary": "Applied Materials, Inc. announced the appointment of Yvonne McGill to its Board of Directors. McGill, currently CFO and SVP of the Infrastructure Solutions Group at Dell Technologies, brings extensive management and finance experience to the board. Her background in the computing industry is seen as valuable as AI and Big Data drive advancements in computing performance and efficiency.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.416013"
+        }
+      ],
+      "time_published": "20190724T160500",
+      "title": "Applied Materials Appoints Yvonne McGill to Board of Directors",
+      "topics": [
+        {
+          "relevance_score": "0.805053",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-appoints-yvonne-mcgill-board-directors/"
+    },
+    {
+      "authors": [
+        "Miranda Wood"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.265378,
+      "source": "Ledger Insights",
+      "source_domain": "Ledger Insights",
+      "summary": "The IOTA Foundation announced a partnership with STMicroelectronics to integrate its DLT (directed acyclic graph or tangle) technology with ST's electronic devices, enabling immediate access to the tangle for users of ST components. This collaboration aims to advance IoT technology by providing a scalable and fee-free blockchain solution for connected smart devices. STMicroelectronics, with a market cap of $15.8 billion, is a major electronics firm producing sensors and semiconductors for a vast global client base.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.301907",
+          "ticker": "STM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.049274"
+        },
+        {
+          "relevance_score": "0.646678",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314365"
+        },
+        {
+          "relevance_score": "0.618557",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348428"
+        },
+        {
+          "relevance_score": "0.648064",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301426"
+        },
+        {
+          "relevance_score": "0.643737",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319559"
+        }
+      ],
+      "time_published": "20190724T012615",
+      "title": "IOTA DLT integrated with major manufacturer STMicroelectronics",
+      "topics": [
+        {
+          "relevance_score": "0.934844",
+          "topic": "blockchain"
+        },
+        {
+          "relevance_score": "0.831003",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709294",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ledgerinsights.com/iota-dlt-integrated-with-major-manufacturer-stmicroelectronics/"
+    },
+    {
+      "authors": [
+        "Yy Lee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.335095,
+      "source": "THE ELEC, Korea Electronics Industry Media",
+      "source_domain": "THE ELEC, Korea Electronics Industry Media",
+      "summary": "Applied Materials has unveiled new Physical Vapor Deposition (PVD) equipment, the Endura Clover MRAM PVD and Endura Impulse PVD, specifically designed for next-generation memory production. The company aims to sell $100 million worth of the equipment this year, believing it will enable mass production of MRAM, ReRAM, and PRAM. These PVD systems are crucial for creating the specialized thin films needed for advanced memory chips, with Samsung Electronics and SK Hynix among the clients involved in their development.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447764"
+        },
+        {
+          "relevance_score": "0.641105",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201016"
+        },
+        {
+          "relevance_score": "0.626413",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347355"
+        }
+      ],
+      "time_published": "20190719T081800",
+      "title": "Applied Materials showcases \u2018new memory\u2019 PVD equipment",
+      "topics": [
+        {
+          "relevance_score": "0.938304",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.745965",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://thelec.net/news/articleView.html?idxno=419"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.583797,
+      "source": "Applied Materials",
+      "source_domain": "Applied Materials",
+      "summary": "Applied Materials (AMAT) has unveiled new high-volume manufacturing solutions designed to accelerate the adoption of emerging memory technologies like MRAM, ReRAM, and PCRAM for IoT and cloud computing. The company introduced its Endura\u00ae Clover\u2122 MRAM PVD platform and Endura\u00ae Impulse\u2122 PVD platform, which enable atomic-level precision deposition for these novel materials. These advancements are crucial for improving performance, power, and cost in next-generation computing, with support from industry leaders like IBM, SK hynix, and Western Digital.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.890980"
+        },
+        {
+          "relevance_score": "0.633033",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402673"
+        },
+        {
+          "relevance_score": "0.628464",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448871"
+        }
+      ],
+      "time_published": "20190709T101500",
+      "title": "Applied Materials Enables Emerging Memories for the Internet of Things and Cloud Computing",
+      "topics": [
+        {
+          "relevance_score": "0.916169",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.731794",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-enables-emerging-memories-internet-things-and/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.022206,
+      "source": "University of Chicago News",
+      "source_domain": "University of Chicago News",
+      "summary": "The Chicago Quantum Exchange (CQE) has expanded its community by partnering with leading companies such as Boeing, Applied Materials, ColdQuanta, HRL Laboratories, and Quantum Opus. This initiative aims to advance quantum technology research and education through collaborative efforts, workshops, and student internships. These partnerships are crucial for developing breakthroughs in quantum devices, materials, and computing techniques, further establishing Chicago as a leading center for quantum information and engineering.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.331712",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030741"
+        }
+      ],
+      "time_published": "20190708T234637",
+      "title": "Chicago Quantum Exchange partners with leading companies to advance research and education",
+      "topics": [
+        {
+          "relevance_score": "0.847504",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.uchicago.edu/story/chicago-quantum-exchange-partners-leading-companies-advance-research-and-education"
+    },
+    {
+      "authors": [
+        "Mike Wheatley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.072566,
+      "source": "SiliconANGLE",
+      "source_domain": "SiliconANGLE",
+      "summary": "Applied Materials Inc. has announced its acquisition of Japan's Kokusai Electric Corp. for approximately $2.2 billion to bolster its presence in the memory-chip market, particularly in Asia. This acquisition is seen as a strategic move to boost Applied Materials' revenue and market share, despite a reported downturn in demand for semiconductor equipment due to a memory chip glut. The deal faces approval from Chinese authorities, which could be a hurdle given current trade relations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297001"
+        },
+        {
+          "relevance_score": "0.633069",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133052"
+        },
+        {
+          "relevance_score": "0.619778",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224558"
+        }
+      ],
+      "time_published": "20190701T202000",
+      "title": "Applied Materials buys Japan\u2019s Kokusai for $2.2B to boost memory-chip presence",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.904926",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.713649",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.639297",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://siliconangle.com/2019/07/01/applied-materials-buy-japans-kokusai-boost-presence-memory-chip-market/"
+    },
+    {
+      "authors": [
+        "Manuel Baigorri and Ian King"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.364826,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Applied Materials Inc., a leading maker of semiconductor manufacturing equipment, has agreed to acquire Kokusai Electric from KKR & Co. for approximately 250 billion yen ($2.2 billion). Kokusai Electric will continue to operate as a business unit within Applied Materials' semiconductor products group and retain its base in Tokyo. This acquisition follows Applied Materials' unsuccessful merger attempt with Tokyo Electron in 2015.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408573"
+        },
+        {
+          "relevance_score": "0.800845",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.269239"
+        }
+      ],
+      "time_published": "20190701T033400",
+      "title": "Applied Materials to Buy Kokusai From KKR for $2.2 Billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.836816",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.706268",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2019-07-01/applied-materials-said-to-buy-kokusai-electric-for-2-3-billion"
+    },
+    {
+      "authors": [
+        "Jong Jun Lee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.306748,
+      "source": "www.thelec.net",
+      "source_domain": "www.thelec.net",
+      "summary": "JUSUNG Engineering has secured its first domestic order for 10.5 generation TFT deposition equipment from LG Display, breaking the monopoly previously held by Applied Materials Inc. This equipment, destined for LG Display\u2019s P10 plant in Paju for large OLED production, is valued at over 20 billion won. The order signifies JUSUNG Engineering's re-entry into the advanced display equipment market after focusing on solar cells, leveraging its past experience with LG Display for 8.5G TFT deposition equipment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.923355",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316827"
+        }
+      ],
+      "time_published": "20190524T120900",
+      "title": "JUSUNG Engineering receives the first domestic 10.5 generation TFT deposition equipment order",
+      "topics": [
+        {
+          "relevance_score": "0.939060",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.816226",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.thelec.net/news/articleView.html?idxno=319"
+    },
+    {
+      "authors": [
+        "Ed Sperling"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.284913,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The article discusses how equipment and tool vendors are focusing on data, sensors, and AI to improve IC manufacturing yield and reduce costs, particularly for advanced nodes. It highlights challenges like increased data volume, process variability, and the need for new methods like I-PAT to identify and correct defects in real-time. The core message is that integrating manufacturing data with design processes is critical for success in an increasingly complex chip industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.907795",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310808"
+        },
+        {
+          "relevance_score": "0.848289",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.279268"
+        },
+        {
+          "relevance_score": "0.774088",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.298030"
+        }
+      ],
+      "time_published": "20190424T004644",
+      "title": "Controlling IC Manufacturing Processes To Boost Yield",
+      "topics": [
+        {
+          "relevance_score": "0.905294",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.839851",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/controlling-ic-manufacturing-processes-to-boost-yield/"
+    },
+    {
+      "authors": [
+        "David Manners"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.290377,
+      "source": "Electronics Weekly",
+      "source_domain": "Electronics Weekly",
+      "summary": "ON Semiconductor has acquired GLOBALFOUNDRIES' (GloFo) 300mm East Fishkill fab for $430 million, with the transaction structured for full operational control to transfer by the end of 2022. This acquisition aims to boost ON Semi's 300mm production capacity and integrate advanced CMOS capabilities, while allowing GloFo to consolidate its operations at other sites. The deal includes a technology transfer and licensing agreement, providing ON Semi with experienced manufacturing and development teams.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.485986"
+        },
+        {
+          "relevance_score": "0.647520",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135871"
+        }
+      ],
+      "time_published": "20190422T010149",
+      "title": "On Semi buys GloFo East Fishkill fab",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.836070",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.703419",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.electronicsweekly.com/news/business/semi-buys-glofo-east-fishkill-fab-2019-04/"
+    },
+    {
+      "authors": [
+        "Michael Rueb"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.205279,
+      "source": "Compound Semiconductor",
+      "source_domain": "Compound Semiconductor",
+      "summary": "This article discusses a novel ion-implantation technique developed by mi2-factory to improve the manufacturing of SiC power devices, including super-junction MOSFETs. This technology addresses the limitations of conventional SiC doping methods, enabling high-volume production of smaller, more efficient SiC devices by precisely controlling dopant profiles. The technique promises significant cost savings and performance improvements for both super-junction transistors and other SiC power devices like diodes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.336697",
+          "ticker": "STM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010898"
+        },
+        {
+          "relevance_score": "0.734855",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301439"
+        },
+        {
+          "relevance_score": "0.603549",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212419"
+        },
+        {
+          "relevance_score": "0.611019",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232476"
+        },
+        {
+          "relevance_score": "0.637924",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339819"
+        }
+      ],
+      "time_published": "20190418T012616",
+      "title": "Addressing production of SiC super-junction MOSFETs - News",
+      "topics": [
+        {
+          "relevance_score": "0.931177",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.840779",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://compoundsemiconductor.net/article/106962/Addressing_production_of_SiC_super-junction_MOSFETs"
+    },
+    {
+      "authors": [
+        "Sungho Yoon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.04399,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The memory market is experiencing a slowdown, with major players Micron Technology and Samsung Electronics reporting weaker-than-expected demand and output cuts. This analysis uses the Memory Inventory Cycle Index to predict that the market trough will occur in Q2 or Q3 2019, leading to stagnating sales in 2019 but a recovery in 2020, impacting fab utilization and silicon wafer shipments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.276312"
+        },
+        {
+          "relevance_score": "0.630657",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118577"
+        },
+        {
+          "relevance_score": "0.582693",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124798"
+        },
+        {
+          "relevance_score": "0.585148",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127320"
+        }
+      ],
+      "time_published": "20190418T005609",
+      "title": "Finding The Bottom Of The Memory Trough",
+      "topics": [
+        {
+          "relevance_score": "0.833516",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.702127",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.608313",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.942337",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.942233",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/finding-the-bottom-of-the-memory-trough/"
+    },
+    {
+      "authors": [
+        "Nick Farrell"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.047688,
+      "source": "Fudzilla.com",
+      "source_domain": "Fudzilla.com",
+      "summary": "Chinese IC foundries are experiencing significant idle capacity, a situation expected to worsen as more 12- and 8-inch fabs come online. Despite China becoming the world's second-largest market for semiconductor manufacturing equipment in 2018 with sales surging 59% to US$13.11 billion, many new fabs lack clear product positioning and customer orders, hindering their operational efficiency. This issue highlights a gap between manufacturing capability and market demand for the products produced.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AOSL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.243354"
+        },
+        {
+          "relevance_score": "0.620371",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219171"
+        }
+      ],
+      "time_published": "20190412T234657",
+      "title": "China\u2019s IC foundries sitting idle",
+      "topics": [
+        {
+          "relevance_score": "0.947524",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.832370",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.729285",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.fudzilla.com/news/48502-china-s-ic-foundries-sitting-idle"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.175449,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "This article profiles Dr. Omkaram Nalamasu, Senior Vice President and Chief Technology Officer of Applied Materials, highlighting his role in developing disruptive products and leading strategic investments. It details his extensive background as a world-renowned expert in materials science, including his prior academic and research leadership positions, and his numerous contributions to the fields of optical lithography and polymeric materials science. The piece also notes his election to the U.S. National Academy of Engineering and his involvement on various boards.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408817"
+        },
+        {
+          "relevance_score": "0.633927",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143257"
+        },
+        {
+          "relevance_score": "0.647753",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133231"
+        },
+        {
+          "relevance_score": "0.613721",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149043"
+        },
+        {
+          "relevance_score": "0.602017",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114435"
+        }
+      ],
+      "time_published": "20190408T132900",
+      "title": "Omkaram Nalamasu, Applied Materials",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.724505",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.cnbc.com/omkaram-om-nalamasu-applied-materials/"
+    },
+    {
+      "authors": [
+        "Luke Stangel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.034089,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Intel has hired George Davis, former CFO at Qualcomm and Applied Materials, as its new chief financial officer. This appointment fills a position that had been vacant since January at the U.S.'s largest chipmaker.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105386"
+        },
+        {
+          "relevance_score": "0.749689",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003397"
+        },
+        {
+          "relevance_score": "0.619908",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045898"
+        }
+      ],
+      "time_published": "20190403T094800",
+      "title": "Intel hires new CFO from mobile chip rival Qualcomm",
+      "topics": [
+        {
+          "relevance_score": "0.721409",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.924822",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanjose/news/2019/04/03/george-davis-qualcomm-intel-cfo.html"
+    },
+    {
+      "authors": [
+        "Emily Gersema"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.225885,
+      "source": "USC Today",
+      "source_domain": "USC Today",
+      "summary": "USC chemists have developed a new copper-based compound that could replace rare and expensive iridium in smartphone and TV screens, potentially leading to cheaper devices without compromising visual quality. This discovery addresses the scarcity of iridium and solves the long-standing problem of short lifetimes for blue light emission in OLED technology. The new rigid copper compound exhibits efficient light emission comparable to iridium, opening new possibilities for display technology and energy-efficient lighting.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "OLED",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418147"
+        },
+        {
+          "relevance_score": "0.831632",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249310"
+        },
+        {
+          "relevance_score": "0.605524",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112424"
+        },
+        {
+          "relevance_score": "0.630171",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135224"
+        },
+        {
+          "relevance_score": "0.633363",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148231"
+        }
+      ],
+      "time_published": "20190208T010145",
+      "title": "Scientists\u2019 discovery could mean less-expensive smartphones, TVs",
+      "topics": [
+        {
+          "relevance_score": "0.931352",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://today.usc.edu/usc-less-expensive-smartphones-tvs/"
+    },
+    {
+      "authors": [
+        "Garrett Parker"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.26811,
+      "source": "Money Inc",
+      "source_domain": "Money Inc",
+      "summary": "This article provides 10 facts about Applied Materials CEO Gary Dickerson, highlighting his educational background in engineering management and business administration, his extensive career in the semiconductor industry with companies like KLA-Tencor and Varian Semiconductor Equipment Associates, and his current role at Applied Materials. It also covers his insights into the growth drivers for the company, including smart devices, data, and artificial intelligence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.505180"
+        },
+        {
+          "relevance_score": "0.740589",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255116"
+        },
+        {
+          "relevance_score": "0.617717",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125515"
+        },
+        {
+          "relevance_score": "0.600025",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128088"
+        }
+      ],
+      "time_published": "20190205T234638",
+      "title": "10 Things You Didn\u2019t Know about Applied Materials CEO Gary Dickerson",
+      "topics": [
+        {
+          "relevance_score": "0.821171",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://moneyinc.com/applied-materials-ceo-gary-dickerson/"
+    },
+    {
+      "authors": [
+        "John Kennedy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.234431,
+      "source": "Silicon Republic",
+      "source_domain": "Silicon Republic",
+      "summary": "Intel has officially appointed Robert \u2018Bob\u2019 Swan as its permanent CEO after he served several months in an interim capacity following the resignation of Brian Krzanich. Swan, previously Intel's CFO, will now lead the company through its transformation into new market opportunities such as data centers, AI, and autonomous driving. Intel reported strong 2018 financial results with $70.8bn in revenues and a $21.1bn profit, and is forecasting another record year under Swan's leadership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304820"
+        },
+        {
+          "relevance_score": "0.644004",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141641"
+        }
+      ],
+      "time_published": "20190201T003645",
+      "title": "Intel confirms Bob Swan is company\u2019s new permanent CEO",
+      "topics": [
+        {
+          "relevance_score": "0.934108",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.801598",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.707739",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.siliconrepublic.com/companies/intel-ceo-bob-swan"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.203963,
+      "source": "www.intc.com",
+      "source_domain": "www.intc.com",
+      "summary": "Intel Corporation has named Robert (Bob) Swan as its chief executive officer, effective January 31, 2019. Swan, who served as interim CEO for seven months and CFO since 2016, is the seventh CEO in Intel's history and has also been elected to the company's board of directors. Todd Underwood will assume the role of interim chief financial officer as Intel searches for a permanent CFO.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.464645"
+        },
+        {
+          "relevance_score": "0.615940",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102797"
+        },
+        {
+          "relevance_score": "0.610898",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107434"
+        },
+        {
+          "relevance_score": "0.561246",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129048"
+        }
+      ],
+      "time_published": "20190131T090000",
+      "title": "Intel Names Robert Swan CEO",
+      "topics": [
+        {
+          "relevance_score": "0.805809",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.intc.com/news-events/press-releases/detail/96/intel-names-robert-swan-ceo"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.163478,
+      "source": "\u65b0\u534e\u7f51",
+      "source_domain": "\u65b0\u534e\u7f51",
+      "summary": "South Korean telecom operator KT Corporation organized a 19-day 5G technology experience activity in Seoul. The event, held on a \"5G Bus,\" allows people to experience sports broadcasts and 360-degree panoramic films using 5G network and VR devices. This initiative showcases practical applications of 5G technology to the public.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.339260",
+          "ticker": "KT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012731"
+        },
+        {
+          "relevance_score": "0.632945",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231438"
+        },
+        {
+          "relevance_score": "0.641658",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221308"
+        },
+        {
+          "relevance_score": "0.609181",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224877"
+        },
+        {
+          "relevance_score": "0.649125",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224299"
+        }
+      ],
+      "time_published": "20190116T220810",
+      "title": "5G technology experience activity held in Seoul, S.Korea - Xinhua | English.news.cn",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "http://www.xinhuanet.com/english/2019-01/16/c_137749345.htm"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.446998,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "This article announces a new report on the global Semiconductor Manufacturing Equipment's Market by Research N Reports. The report forecasts a 6.9% CAGR, reaching US$ 70800 million by 2023, up from US$ 47400 million in 2017. It highlights the market fundamentals, regional market, global economic industry development, and key players in this sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435500"
+        },
+        {
+          "relevance_score": "0.841691",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404383"
+        },
+        {
+          "relevance_score": "0.702842",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412037"
+        },
+        {
+          "relevance_score": "0.705871",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446000"
+        },
+        {
+          "relevance_score": "0.625739",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429463"
+        }
+      ],
+      "time_published": "20190115T120000",
+      "title": "Unlocks the Next Growth Phase with Semiconductor Manufacturing",
+      "topics": [
+        {
+          "relevance_score": "0.922806",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.812594",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1498688/unlocks-the-next-growth-phase-with-semiconductor-manufacturing-equipment-s-market-with-top-key-players-applied-materials-asml-holding-n-v-plasma-therm-lam-research-kla-tencor-corporation-advantest-teradyne-canon-nikon-hitachi-screen-holding.html"
+    }
+  ],
+  "items": "44",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

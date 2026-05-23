@@ -1,0 +1,168 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Nick Waddell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.169958,
+      "source": "Cantech Letter",
+      "source_domain": "Cantech Letter",
+      "summary": "This article highlights five Canadian tech stocks with significant patent portfolios, emphasizing the growing importance of intellectual property in the tech industry. It discusses how companies like IBM monetize patents and the trend of defensive patent aggregation, while also addressing concerns about patent litigation costs. The piece then details the patent holdings of Research in Motion, Wi-LAN, Mitel Networks, COM DEV, and OpenText, underscoring their strategic value.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.945967",
+          "ticker": "OTEX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325651"
+        },
+        {
+          "relevance_score": "0.606168",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213174"
+        },
+        {
+          "relevance_score": "0.745985",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101476"
+        },
+        {
+          "relevance_score": "0.575442",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114696"
+        },
+        {
+          "relevance_score": "0.622331",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112317"
+        }
+      ],
+      "time_published": "20121009T025100",
+      "title": "Five Canadian Tech Stocks with Heavyweight Patent Portfolios",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cantechletter.com/2012/10/five-canadian-tech-stocks-with-heavyweight-patent-portfolios/"
+    },
+    {
+      "authors": [
+        "Kirk Ladendorf"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.228964,
+      "source": "Austin American-Statesman",
+      "source_domain": "Austin American-Statesman",
+      "summary": "Apple Inc. has confirmed the acquisition of Austin-based chip design firm Intrinsity Inc., a company known for designing key portions of Samsung's \"Hummingbird\" microprocessor. Industry analysts believe this acquisition will improve Apple's product line and prevent competitors from accessing Intrinsity's intellectual property, potentially impacting Apple's future iPhone and mobile products. This move also suggests Apple may be moving away from P.A. Semi, a chip design startup it acquired in 2008.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.983458",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301391"
+        },
+        {
+          "relevance_score": "0.717005",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337350"
+        },
+        {
+          "relevance_score": "0.600264",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233697"
+        },
+        {
+          "relevance_score": "0.592285",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116540"
+        }
+      ],
+      "time_published": "20120901T140113",
+      "title": "Apple buys Austin-based chip designer Intrinsity",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.845529",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.statesman.com/story/news/2012/09/01/apple-buys-austin-based-chip-designer-intrinsity/9813952007/"
+    },
+    {
+      "authors": [
+        "Rebecca Boone"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.178394,
+      "source": "The Seattle Times",
+      "source_domain": "The Seattle Times",
+      "summary": "Steve Appleton, the CEO of Micron Technology Inc., died Friday morning when his experimental plane crashed at the Boise Airport. Known for his daredevil hobbies like stunt piloting and off-road racing, Appleton had led Micron for 18 years, navigating the company through significant financial swings. His death prompted an outpouring of tributes and raised questions about his risky pastimes, though the company board had previously accepted them as part of his personality.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.422761"
+        },
+        {
+          "relevance_score": "0.622478",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141180"
+        },
+        {
+          "relevance_score": "0.646159",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119104"
+        },
+        {
+          "relevance_score": "0.608622",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.114802"
+        },
+        {
+          "relevance_score": "0.635015",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113938"
+        }
+      ],
+      "time_published": "20120204T124100",
+      "title": "CEO of chip maker Micron dies in plane crash",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.945567",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.seattletimes.com/nation-world/ceo-of-chip-maker-micron-dies-in-plane-crash/"
+    }
+  ],
+  "items": "3",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

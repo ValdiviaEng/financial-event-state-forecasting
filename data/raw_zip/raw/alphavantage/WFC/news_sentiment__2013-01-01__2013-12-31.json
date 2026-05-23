@@ -1,0 +1,3967 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Jonathan Stempel"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20131230&t=2&i=837920197&w=900&fh=&fw=&ll=&pl=&sq=&r=CDEEA6C1K4600-BASEIMAGE",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.138337,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Wells Fargo & Co. will pay $541 million to Fannie Mae to settle claims over defective home loans, completing Fannie Mae's efforts to have banks repurchase troubled loans made before the financial crisis. This settlement is part of roughly $6.5 billion in loan buyback settlements Fannie Mae has reached with eight banks. The agreement resolves substantially all repurchase claims against Wells Fargo for loans sold to Fannie Mae before 2009.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.170353"
+        },
+        {
+          "relevance_score": "0.694079",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139549"
+        },
+        {
+          "relevance_score": "0.630463",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145735"
+        }
+      ],
+      "time_published": "20131230T192000",
+      "title": "Wells Fargo agrees to $541 million loan settlement",
+      "topics": [
+        {
+          "relevance_score": "0.927798",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.828620",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/wells-fargo-agrees-to-541-million-loan-settlement-idUSBRE9BT0F5/"
+    },
+    {
+      "authors": [
+        "Chris Cumming"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.198514,
+      "source": "American Banker",
+      "source_domain": "American Banker",
+      "summary": "Following Target's acknowledgement that shoppers' personal identification numbers may have been stolen in a recent data breach affecting 40 million customers, many U.S. banks are now reissuing cards. A survey revealed that 48% of American Banker readers' institutions would reissue cards proactively, while 42% would only do so if suspicious activity was detected. This decision comes as major card issuers diverge in their response strategies to the massive breach.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.405826"
+        },
+        {
+          "relevance_score": "0.841877",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145911"
+        },
+        {
+          "relevance_score": "0.700914",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.123082"
+        },
+        {
+          "relevance_score": "0.715987",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137454"
+        },
+        {
+          "relevance_score": "0.635379",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106536"
+        }
+      ],
+      "time_published": "20131227T162200",
+      "title": "Almost Half U.S. Banks Are Reissuing Cards Due to Target Breach",
+      "topics": [
+        {
+          "relevance_score": "0.903639",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.847856",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.americanbanker.com/news/almost-half-us-banks-are-reissuing-cards-due-to-target-breach"
+    },
+    {
+      "authors": [
+        "Stuart Pfeifer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.408677,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "Three American Express Co. subsidiaries are required to pay approximately $75 million in restitution and penalties due to illegal practices involving hundreds of thousands of credit-card customers. The companies were accused of unfair billing and deceptive marketing of add-on products like payment protection and credit monitoring. Regulators ordered the American Express subsidiaries to refund customers and pay penalties to three regulatory agencies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.428250"
+        },
+        {
+          "relevance_score": "0.624710",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.434349"
+        },
+        {
+          "relevance_score": "0.635219",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.416771"
+        }
+      ],
+      "time_published": "20131224T085500",
+      "title": "American Express to pay $75 million in deceptive practices case",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-fi-mo-regulators-fine-american-express-75-million-for-credit-card-practices-20131224-story.html"
+    },
+    {
+      "authors": [
+        "Janet Moore"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.349243,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "Wells Fargo & Co. announced it will invest over $300 million to build two 17-story office towers near the new Vikings stadium in downtown Minneapolis, consolidating 5,000 employees into 1.1 million square feet of space. This development is part of a larger $400 million mixed-use project by Ryan Cos. and is expected to revitalize a previously stagnant area of the city. The project represents a significant commitment from Wells Fargo to Minneapolis and Minnesota.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.923196",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322234"
+        }
+      ],
+      "time_published": "20131220T155300",
+      "title": "Wells Fargo to spend $300M to build 2 towers near Vikings stadium",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.934258",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.624315",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.startribune.com/wells-fargo-to-spend-300m-to-build-2-towers-near-vikings-stadium/236591111"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.012413,
+      "source": "Ohio Attorney General (.gov)",
+      "source_domain": "Ohio Attorney General (.gov)",
+      "summary": "Ohio Attorney General Mike DeWine announced a significant settlement with Ocwen Financial Corporation, where Ohio customers will receive an estimated $37 million in first-lien principal reductions and cash payments. This multi-state agreement, totaling $2.1 billion, addresses widespread mortgage servicing misconduct including premature foreclosures and deceptive practices. The settlement mandates new mortgage loan servicing standards, with compliance to be monitored by the Office of Mortgage Settlement Oversight.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ONIT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.419721"
+        },
+        {
+          "relevance_score": "0.598293",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113326"
+        },
+        {
+          "relevance_score": "0.563014",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103218"
+        },
+        {
+          "relevance_score": "0.597454",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143784"
+        },
+        {
+          "relevance_score": "0.591971",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117035"
+        }
+      ],
+      "time_published": "20131219T233905",
+      "title": "Attorney General DeWine Announces Ohio Ocwen Customers to Receive $37 Million as Part of $2 Billion National Foreclosure, Mortgage Servicing Settlement",
+      "topics": [
+        {
+          "relevance_score": "0.916285",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.814343",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.604812",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ohioattorneygeneral.gov/Media/News-Releases/December-2013/Attorney-General-DeWine-Announces-Ohio-Ocwen-Custo"
+    },
+    {
+      "authors": [
+        "Dan D\u2019Ambrosio"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.032044,
+      "source": "Burlington Free Press",
+      "source_domain": "Burlington Free Press",
+      "summary": "The Handy family, operating as Sisters and Brothers Investment Group LLP, has purchased the historic Merchants Bank buildings in downtown Burlington, Vermont. They plan to use the acquired parking garage to support high-end residential developments in other recently purchased downtown properties, including the former Burlington Free Press buildings. Merchants Bank will lease back a portion of the building to continue downtown operations, while the Handys also anticipate attracting national high-end retailers to the ground floor of the historic bank building.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MBIN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123634"
+        },
+        {
+          "relevance_score": "0.563992",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022233"
+        },
+        {
+          "relevance_score": "0.555509",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012064"
+        },
+        {
+          "relevance_score": "0.584913",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048708"
+        }
+      ],
+      "time_published": "20131216T130642",
+      "title": "Handy family adds Merchants Bank buildings to downtown Burlington real estate holdings",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.719484",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.619544",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.burlingtonfreepress.com/story/news/2013/12/16/handy-family-adds-merchants-bank-buildings-to-downtown-burlington-real-estate-holdings/1581302/"
+    },
+    {
+      "authors": [
+        "NASDAQ.com News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.072607,
+      "source": "Nasdaq",
+      "source_domain": "Nasdaq",
+      "summary": "Associated Banc-Corp (ASBC) is scheduled to trade ex-dividend on November 27, 2013, with a cash dividend payment of $0.09 per share expected on December 16, 2013. This dividend represents a 12.5% increase from the prior quarter, resulting in a 2.08% dividend yield at the current stock price of $17.28. The article also highlights ASBC's financial metrics, including its EPS of $1.08 and a forecasted earnings growth of 9.09% for 2013, and mentions ETFs that hold ASBC.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.346550",
+          "ticker": "ASB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014611"
+        },
+        {
+          "relevance_score": "0.635130",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115469"
+        },
+        {
+          "relevance_score": "0.620519",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121442"
+        }
+      ],
+      "time_published": "20131126T090000",
+      "title": "Associated Banc-Corp (ASBC) Ex-Dividend Date Scheduled for November 27, 2013",
+      "topics": [
+        {
+          "relevance_score": "0.714137",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.910882",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.812820",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.nasdaq.com/articles/associated-banc-corp-asbc-ex-dividend-date-scheduled-november-27-2013-2013-11-26"
+    },
+    {
+      "authors": [
+        "Gloria Chaparro Soto /Cali"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.204673,
+      "source": "El Espectador",
+      "source_domain": "El Espectador",
+      "summary": "The Chao Racismo Foundation is taking legal action against 17 banks in Cali, Colombia, investigating alleged labor discrimination against Afro-descendant and indigenous populations. The foundation has submitted surveys to ascertain the number of these groups employed in high-ranking positions and plans to file tutelas if no response is received within 15 days. This initiative stems from numerous complaints that despite Cali having a significant Afro-descendant population, these communities are underrepresented in executive banking roles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327433",
+          "ticker": "CIB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035159"
+        },
+        {
+          "relevance_score": "0.700185",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227955"
+        },
+        {
+          "relevance_score": "0.711966",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205827"
+        },
+        {
+          "relevance_score": "0.720962",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.224613"
+        },
+        {
+          "relevance_score": "0.745230",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.242008"
+        }
+      ],
+      "time_published": "20131124T210000",
+      "title": "\u00bfDiscriminaci\u00f3n laboral?",
+      "topics": [
+        {
+          "relevance_score": "0.922509",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.elespectador.com/colombia/mas-regiones/discriminacion-laboral-article-460295/"
+    },
+    {
+      "authors": [
+        "Lance Turner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.32486,
+      "source": "Arkansas Business",
+      "source_domain": "Arkansas Business",
+      "summary": "Johnny Allison, chairman of Home BancShares Inc. of Conway, has been named one of three \"Community Bankers of the Year\" by American Banker magazine. The recognition highlights his long banking career, the company's recent acquisition of Liberty Bancshares Inc., and Home BancShares' expansion plans. Allison expressed his commitment to the company, indicating that he isn't planning to sell anytime soon.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HOMB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419632"
+        },
+        {
+          "relevance_score": "0.632426",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232551"
+        }
+      ],
+      "time_published": "20131121T105100",
+      "title": "Johnny Allison Among Magazine\u2019s Community Bankers of the Year",
+      "topics": [
+        {
+          "relevance_score": "0.927308",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.arkansasbusiness.com/article/johnny-allison-among-magazines-community-bankers-of-the-year/"
+    },
+    {
+      "authors": [
+        "news@inforum.com"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.158267,
+      "source": "InForum",
+      "source_domain": "InForum",
+      "summary": "Fargo's NBC affiliate KVLY-TV and CBS affiliate KXJB-TV have been sold as part of a larger $342 million deal involving 20 TV stations. Broadcaster Gray Television Inc. and Excalibur Broadcasting LLC are acquiring the stations, with Gray taking 16 affiliates and Excalibur purchasing four, including Fargo-Moorhead's CBS affiliate KXJB. This acquisition reflects a trend of broadcasters expanding their portfolios as advertising revenues and audience numbers decline, boosting multi-revenue streams.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.318823",
+          "ticker": "GTN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014854"
+        },
+        {
+          "relevance_score": "0.614155",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335500"
+        }
+      ],
+      "time_published": "20131120T205900",
+      "title": "UPDATED: KVLY and KXJB sold as part of 20-station acquisition",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.inforum.com/business/updated-kvly-and-kxjb-sold-as-part-of-20-station-acquisition"
+    },
+    {
+      "authors": [
+        "Olivia Oran"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.087523,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Private equity firm Roark Capital Group has agreed to acquire CKE Inc., parent company of Hardees and Carl's Jr fast food chains, from Apollo Global Management. The deal values CKE at between $1.65 billion to $1.75 billion, with Roark prevailing over rival bidder TriArtisan Capital Partners. CKE operates 3,400 restaurants in 42 U.S. states and 29 countries, competing with major fast-food companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.309307",
+          "ticker": "APO-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005341"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "APO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108320"
+        },
+        {
+          "relevance_score": "0.806521",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108233"
+        },
+        {
+          "relevance_score": "0.748609",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134390"
+        }
+      ],
+      "time_published": "20131120T142000",
+      "title": "Roark Capital to buy CKE Restaurants from Apollo",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.747026",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.644870",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/roark-capital-to-buy-cke-restaurants-from-apollo-idUSBRE9AJ01Q/"
+    },
+    {
+      "authors": [
+        "Jon Prior"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.156936,
+      "source": "Politico",
+      "source_domain": "Politico",
+      "summary": "The Justice Department announced a $13 billion settlement with JPMorgan Chase over allegations of misleading investors with faulty mortgage bonds before the 2008 financial crisis. This record-breaking deal is the largest settlement between the Justice Department and a single company, including $9 billion for civil investigations and $4 billion for homeowner relief. The settlement allows for potential criminal cases and raised controversy over the tax deductibility of a portion of the settlement and the method of homeowner relief.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.967493",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.313794"
+        },
+        {
+          "relevance_score": "0.558592",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107015"
+        },
+        {
+          "relevance_score": "0.583719",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118812"
+        },
+        {
+          "relevance_score": "0.594947",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.106256"
+        },
+        {
+          "relevance_score": "0.563089",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134001"
+        }
+      ],
+      "time_published": "20131119T152100",
+      "title": "DOJ announces JPMorgan settlement",
+      "topics": [
+        {
+          "relevance_score": "0.918153",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.716536",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.politico.com/story/2013/11/doj-jpmorgan-settlement-100073"
+    },
+    {
+      "authors": [
+        "Jason M. Breslow",
+        "Evan Wexler"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.188229,
+      "source": "PBS",
+      "source_domain": "PBS",
+      "summary": "JPMorgan Chase has agreed to a record $13 billion civil penalty to resolve state and federal investigations into its sale of risky mortgage products before the financial crisis. This agreement, announced on Tuesday, represents the largest corporate penalty ever and addresses criticisms regarding the leniency of previous Wall Street settlements. Attorney General Eric Holder stated that JPMorgan's conduct helped sow the seeds of the mortgage meltdown.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334249",
+          "ticker": "AMJB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022484"
+        },
+        {
+          "relevance_score": "0.999023",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.321670"
+        },
+        {
+          "relevance_score": "0.641741",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.229363"
+        },
+        {
+          "relevance_score": "0.645805",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.204345"
+        },
+        {
+          "relevance_score": "0.608799",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.238238"
+        }
+      ],
+      "time_published": "20131119T120143",
+      "title": "How JPMorgan\u2019s $13 Billion Settlement Stacks Up",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.839104",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.740526",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.pbs.org/wgbh/frontline/article/how-jpmorgans-13-billion-settlement-stacks-up/"
+    },
+    {
+      "authors": [
+        "CBS/AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.099903,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "JPMorgan Chase & Co. has reached a $13 billion settlement with the Justice Department over its sales of low-quality mortgage-backed securities that contributed to the 2008 financial crisis. This is the largest settlement ever between the government and a corporation, addressing civil issues but leaving open a potential criminal investigation. The settlement includes compensation for investors, aid for homeowners, and a fine, with much of the liability stemming from assets acquired from Bear Stearns and Washington Mutual.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.307553",
+          "ticker": "AMJB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046919"
+        },
+        {
+          "relevance_score": "0.994607",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.346147"
+        },
+        {
+          "relevance_score": "0.558806",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.127129"
+        },
+        {
+          "relevance_score": "0.582109",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147500"
+        },
+        {
+          "relevance_score": "0.589040",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130002"
+        }
+      ],
+      "time_published": "20131118T225600",
+      "title": "JP Morgan Chase, feds agree to $13 billion settlement",
+      "topics": [
+        {
+          "relevance_score": "0.930331",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.701223",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/jp-morgan-chase-feds-agree-to-13-billion-settlement/"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.212774,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "Online gambling in the US is facing significant hurdles as major credit-card issuers like Bank of America, Wells Fargo, American Express, and PayPal are rejecting transactions for newly legalized online betting. This resistance threatens a potentially $7.4 billion industry, stemming from banks' concerns over potential liability for illegal bets, such as those made by underage gamblers, despite Visa and MasterCard updating their systems to allow legal transactions. States like Delaware and Nevada, where online gambling is legal, are experiencing high rejection rates and are working with card issuers to resolve these issues.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.284755"
+        },
+        {
+          "relevance_score": "0.821171",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.242753"
+        },
+        {
+          "relevance_score": "0.708665",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.223355"
+        },
+        {
+          "relevance_score": "0.901302",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.219093"
+        },
+        {
+          "relevance_score": "0.675573",
+          "ticker": "V",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110698"
+        }
+      ],
+      "time_published": "20131116T223000",
+      "title": "Online casinos hobbled as credit-card issuers reject bets",
+      "topics": [
+        {
+          "relevance_score": "0.916571",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.726519",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/international/online-casinos-hobbled-as-credit-card-issuers-reject-bets-113111601257_1.html"
+    },
+    {
+      "authors": [
+        "James Walsh"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.319676,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "A device called the Watchman, developed in Minneapolis, is nearing FDA approval and is projected to tap into a $1 billion market. It aims to prevent strokes in atrial fibrillation patients by blocking a heart cul-de-sac where clots form, offering an alternative to blood-thinning medications. The device, pioneered by Minneapolis cardiologists Dr. Robert Schwartz and Dr. Robert Hauser, has shown promising results in clinical trials and is expected to receive FDA approval in early 2014.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BSX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415587"
+        },
+        {
+          "relevance_score": "0.600792",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249047"
+        }
+      ],
+      "time_published": "20131109T223900",
+      "title": "Device developed in Minneapolis has potential to help heart patients",
+      "topics": [
+        {
+          "relevance_score": "0.949966",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.634348",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.startribune.com/device-developed-in-minneapolis-has-potential-to-help-heart-patients/231216631"
+    },
+    {
+      "authors": [
+        "Robert Siegel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.177787,
+      "source": "JD Supra",
+      "source_domain": "JD Supra",
+      "summary": "JPMorgan Chase and Assurant Inc. have agreed to a $300 million settlement in a class-action lawsuit concerning forced-placed insurance, impacting 1.3 million homeowners. This settlement addresses claims that homeowners were overcharged for policies covering fire and other risks, with an additional $4.75 million settlement for wind damage related policies. This significant resolution is expected to prompt other banks facing similar forced-placed insurance claims to seek settlements.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327307",
+          "ticker": "AIZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.006475"
+        },
+        {
+          "relevance_score": "0.918534",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.254138"
+        },
+        {
+          "relevance_score": "0.738541",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.228467"
+        },
+        {
+          "relevance_score": "0.608042",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.217751"
+        },
+        {
+          "relevance_score": "0.565644",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232320"
+        }
+      ],
+      "time_published": "20131107T120129",
+      "title": "JPMorgan Chase Agrees to Settle Forced-Placed Insurance Class-Action Lawsuit for $300 Million",
+      "topics": [
+        {
+          "relevance_score": "0.909543",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.717008",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.jdsupra.com/legalnews/jpmorgan-chase-agrees-to-settle-forced-p-30535/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.483245,
+      "source": "Anadolu Ajans\u0131",
+      "source_domain": "Anadolu Ajans\u0131",
+      "summary": "Wells Fargo's International Group is celebrating 15 years of serving its Global Financial Institutions (GFI) customers in Turkey through its Istanbul office, providing various financial solutions. To mark the anniversary, Wells Fargo made a $10,000 USD grant to TURMEPA, a Turkish marine environment protection association, and held a beach clean-up event. The company emphasizes Turkey as an important market and sees potential for continued growth and strengthened relationships in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.493649"
+        }
+      ],
+      "time_published": "20131105T063000",
+      "title": "Wells Fargo Celebrates 15 Years of Service in Turkey",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.aa.com.tr/en/archive/wells-fargo-celebrates-15-years-of-service-in-turkey/206390"
+    },
+    {
+      "authors": [
+        "Patti Payne"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.297152,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Former Wells Fargo CEO Richard Kovacevich offers insights on leadership and business success. He advises that while conventional wisdom suggests conservatism during challenging times, these periods can actually be the best for aggressive strategies. Kovacevich shares his tips in an article by Patti Payne for the Puget Sound Business Journal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263197"
+        }
+      ],
+      "time_published": "20131028T130300",
+      "title": "Banking giant Kovacevich gives tips on leadership, how to succeed in business",
+      "topics": [
+        {
+          "relevance_score": "0.929760",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/bizjournals/how-to/growth-strategies/2013/10/banking-giant-richard-kovacevich---how.html"
+    },
+    {
+      "authors": [
+        "CBS/AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.386092,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "JPMorgan Chase has agreed to pay $5.1 billion to settle claims that it misled Fannie Mae and Freddie Mac about risky mortgage securities sold prior to the housing market collapse. This settlement with the Federal Housing Finance Agency is a step towards a broader resolution of the firm's mortgage-related issues, with a larger $13 billion deal still being negotiated with the Justice Department.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.633619"
+        },
+        {
+          "relevance_score": "0.627547",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119784"
+        }
+      ],
+      "time_published": "20131026T091700",
+      "title": "JPMorgan to pay $5.1B in Fannie, Freddie deal",
+      "topics": [
+        {
+          "relevance_score": "0.944373",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.824927",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.707360",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.631622",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/jpmorgan-to-pay-51b-in-fannie-freddie-deal/"
+    },
+    {
+      "authors": [
+        "Mary Lynn Smith"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.266335,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "Wells Fargo & Co. announced an additional 102 job cuts in its Minnesota mortgage operations, bringing the total number of cuts in the Twin Cities to over 750 since mid-July. This move is part of broader nationwide reductions affecting 925 employees, as the company adjusts to a decline in mortgage refinancing demand due to rising interest rates. Wells Fargo states it remains committed to helping employees find other roles within the company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.264649"
+        }
+      ],
+      "time_published": "20131017T221500",
+      "title": "Wells Fargo cuts in Twin Cities now exceed 750 since July",
+      "topics": [
+        {
+          "relevance_score": "0.921157",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.742401",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.startribune.com/wells-fargo-cuts-in-twin-cities-now-exceed-750-since-july/228117811"
+    },
+    {
+      "authors": [
+        "Laura Miller"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.108362,
+      "source": "Your Money Awards",
+      "source_domain": "Your Money Awards",
+      "summary": "The Financial Conduct Authority (FCA) reported that Barclays bank received the most customer complaints in the first half of 2013, despite a 11% reduction from the previous period. Overall consumer complaints across financial services firms decreased by 500,000, with 2.9 million complaints filed and \u00a32.55 billion in redress paid to consumers. Payment protection insurance (PPI) remained the most complained about product, accounting for 61% of all new complaints.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.319620",
+          "ticker": "BCM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.032612"
+        },
+        {
+          "relevance_score": "0.624185",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.100210"
+        },
+        {
+          "relevance_score": "0.645274",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104052"
+        },
+        {
+          "relevance_score": "0.648126",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136219"
+        },
+        {
+          "relevance_score": "0.610872",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.121987"
+        }
+      ],
+      "time_published": "20131016T120704",
+      "title": "FCA reveals Barclays bank as most complained about firm",
+      "topics": [
+        {
+          "relevance_score": "0.940972",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.yourmoney.com/mortgages/fca-reveals-barclays-bank-as-most-complained-about-firm/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.403818,
+      "source": "Florida Gators",
+      "source_domain": "Florida Gators",
+      "summary": "The University of Florida Athletic Association and IMG College have extended their sponsorship agreement with Wells Fargo, continuing Wells Fargo's role as a sponsor of all Gator athletic programs and an official corporate partner. The renewed partnership includes various marketing assets, presenting sponsorship of the military appreciation football game, and a post-graduate scholarship for student athletes. Wells Fargo will also collaborate on financial education seminars and offer Gator affinity debit cards to its customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434614"
+        }
+      ],
+      "time_published": "20131015T135621",
+      "title": "University of Florida Athletic Association Extends Longstanding Partnership With Wells Fargo",
+      "topics": [
+        {
+          "relevance_score": "0.935528",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://floridagators.com/news/2013/10/15/26488"
+    },
+    {
+      "authors": [
+        "Mark Calvey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.419078,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "The article highlights Wells Fargo's successful banking relationship with San Francisco hat maker Goorin Bros., demonstrating the bank's effectiveness in cross-selling services to small businesses. Wells Fargo handles various financial needs for Ben Goorin, including financing, deposits, and payment cards. This case serves as a success story for the bank's small business engagement strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424832"
+        }
+      ],
+      "time_published": "20131004T135621",
+      "title": "Hats off to Wells Fargo's selling finesse",
+      "topics": [
+        {
+          "relevance_score": "0.922120",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanfrancisco/print-edition/2013/10/04/hats-off-to-wells-fargos-selling.html"
+    },
+    {
+      "authors": [
+        "E. Scott Reckard"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.73648,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "Wells Fargo has fired approximately 30 branch employees in the Los Angeles region for opening fake accounts and attempting to manipulate customer satisfaction surveys to meet sales goals. One former employee claims signatures were forged and accounts were opened without customer knowledge, citing intense pressure from management to meet aggressive sales targets. This incident highlights ongoing issues with sales practices at Wells Fargo, including past reports of managers pressuring employees regarding overdraft protection sign-ups.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.738627"
+        }
+      ],
+      "time_published": "20131003T000000",
+      "title": "Wells Fargo accuses workers of opening fake accounts to meet goals",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-xpm-2013-oct-03-la-fi-1004-wells-fargo-firings-20131004-story.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.165387,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Premier, Inc. announced the pricing of its initial public offering of 28,151,958 shares of Class A common stock at $27 per share. The shares are expected to begin trading on the NASDAQ Global Select Market under the ticker symbol \"PINC\" on September 26, 2013. J.P. Morgan Securities LLC, BofA Merrill Lynch, and Wells Fargo Securities, LLC are serving as joint book-running managers for the offering.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PINC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430181"
+        },
+        {
+          "relevance_score": "0.640675",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139860"
+        },
+        {
+          "relevance_score": "0.611030",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129748"
+        },
+        {
+          "relevance_score": "0.627240",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104031"
+        },
+        {
+          "relevance_score": "0.648040",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147121"
+        }
+      ],
+      "time_published": "20130926T090800",
+      "title": "Premier, Inc. Announces Pricing of Initial Public Offering",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.819721",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.717077",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.643323",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2013/09/26/576128/10050097/en/Premier-Inc-Announces-Pricing-of-Initial-Public-Offering.html"
+    },
+    {
+      "authors": [
+        "Richard Teitelbaum"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.188804,
+      "source": "Carrier Management",
+      "source_domain": "Carrier Management",
+      "summary": "This article highlights how Berkshire Hathaway has created numerous billionaires and philanthropists, focusing on the story of Stewart Horejsi who initially invested in the company in 1980 and is now a billionaire. It also discusses other individuals who gained significant wealth through Berkshire Hathaway, either by early investments, selling their companies for stock, or through Buffett's early partnerships. The piece emphasizes the company's long-term value and the philanthropic contributions made by many of its wealthy shareholders.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340389",
+          "ticker": "BRK-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015277"
+        },
+        {
+          "relevance_score": "0.609068",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300740"
+        }
+      ],
+      "time_published": "20130923T121118",
+      "title": "Berkshire Hathaway Keeps Minting Billionaires, Philanthropists",
+      "topics": [
+        {
+          "relevance_score": "0.918774",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.805198",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.carriermanagement.com/news/2013/09/23/113392.htm"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.288316,
+      "source": "IndyStar",
+      "source_domain": "IndyStar",
+      "summary": "Wells Fargo & Co. announced plans to lay off an additional 1,800 employees from its mortgage department due to fewer mortgage refinances than expected. This follows a previous reduction of 2,300 jobs from the same unit in August. The affected employees are being given 60 days' notice, and the company is trying to find them other positions internally.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.271994"
+        }
+      ],
+      "time_published": "20130919T135621",
+      "title": "Wells Fargo to lay off 1,800 more from mortgage unit",
+      "topics": [
+        {
+          "relevance_score": "0.933689",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.729676",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.indystar.com/story/money/2013/09/19/wells-fargo-to-lay-off-1800-more-from-mortgage-unit/2838573/"
+    },
+    {
+      "authors": [
+        "Mark Williams"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.211676,
+      "source": "The Columbus Dispatch",
+      "source_domain": "The Columbus Dispatch",
+      "summary": "A new report by the Ohio Public Interest Research Group highlights a significant number of customer complaints against banks, primarily concerning checking accounts. The largest banks, including JPMorgan Chase & Co., Wells Fargo & Co., and Bank of America, received the most complaints nationally, while PNC, Huntington Bancshares, and Fifth Third Bank led in Ohio. This data, tracked by the Consumer Financial Protection Bureau, is intended to help consumers and banks alike fine-tune processes and improve responsiveness.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.905963",
+          "ticker": "FITB",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.244945"
+        },
+        {
+          "relevance_score": "0.608326",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.220759"
+        },
+        {
+          "relevance_score": "0.634830",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.206909"
+        },
+        {
+          "relevance_score": "0.613187",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.221375"
+        },
+        {
+          "relevance_score": "0.836864",
+          "ticker": "PNC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.241990"
+        }
+      ],
+      "time_published": "20130918T123624",
+      "title": "Chase, PNC, Huntington, Fifth Third among banks drawing most complaints",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.dispatch.com/story/business/2013/09/18/chase-pnc-huntington-fifth-third/23505865007/"
+    },
+    {
+      "authors": [
+        "Helen Knapman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.06224,
+      "source": "Money Saving Expert",
+      "source_domain": "Money Saving Expert",
+      "summary": "Millions of Lloyds TSB customers have been transferred to TSB bank as part of a major shake-up in British banking. This split means many customers will now be with TSB, though product details, account numbers, and sort codes will initially remain unchanged. Customers are advised to use this opportunity to check for better deals with other banks, especially with a new seven-day switching guarantee coming into force.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LYG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.055602"
+        },
+        {
+          "relevance_score": "0.636798",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.092155"
+        },
+        {
+          "relevance_score": "0.635702",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.070528"
+        },
+        {
+          "relevance_score": "0.632883",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.060447"
+        },
+        {
+          "relevance_score": "0.618694",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.080064"
+        }
+      ],
+      "time_published": "20130909T130635",
+      "title": "Lloyds and TSB split: What does it mean for you?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.735516",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.moneysavingexpert.com/news/2013/09/lloyds-and-tsb-split-today-what-does-it-mean-for-you/"
+    },
+    {
+      "authors": [
+        "Jonathan Stempel"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fassets.reuters.com%2Fimages%2F2013%2F03%2F08%2F2013-03-08t111241z_1_bre9270ox_rtroptp_3_bank-of-america-merrill-lynch-idUSbre9270ox20130308.JPG?auth=c6f497042a98f48037dfecbd4c8a2b5e&width=960&height=540&quality=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.291965,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Bank of America Corp agreed to pay $39 million to settle a gender bias lawsuit filed by approximately 4,800 current and former female financial advisers and trainees at Bank of America and Merrill. The lawsuit alleged intentional discrimination by favoring male brokers in pay, account allocation, and professional support, leading to earnings disparities. The settlement, which includes an independent monitor for practice improvements, awaits approval from U.S. District Judge Pamela Chen.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.437040"
+        },
+        {
+          "relevance_score": "0.636938",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.242189"
+        },
+        {
+          "relevance_score": "0.639764",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.213311"
+        },
+        {
+          "relevance_score": "0.623966",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227839"
+        }
+      ],
+      "time_published": "20130906T221100",
+      "title": "Bank of America, Merrill in $39 million gender bias settlement",
+      "topics": [
+        {
+          "relevance_score": "0.927844",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/bank-of-america-merrill-in-39-million-gender-bias-settlement-idUSBRE985127/"
+    },
+    {
+      "authors": [
+        "The Motley Fool"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.138073,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article discusses the challenges Millennials face in saving for retirement, highlighting their prioritization of debt repayment over long-term investments. Despite a strong bull market improving 401(k) balances, many younger workers are not saving adequately. Studies show Millennials view workplace retirement plans as too complex and risky, yet express strong motivation to save once student debt is managed.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.981446",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138649"
+        },
+        {
+          "relevance_score": "0.920188",
+          "ticker": "PRU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136176"
+        },
+        {
+          "relevance_score": "0.856018",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125958"
+        },
+        {
+          "relevance_score": "0.659978",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108201"
+        },
+        {
+          "relevance_score": "0.614423",
+          "ticker": "MET",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113745"
+        }
+      ],
+      "time_published": "20130830T102000",
+      "title": "Prudential Financial Inc (PRU), Bank of America Corp (BAC), Wells Fargo & Co (WFC): Will Millennials Ever Start Saving for Retirement?",
+      "topics": [
+        {
+          "relevance_score": "0.944790",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.825480",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/prudential-financial-inc-pru-bank-of-america-corp-bac-wells-fargo-co-wfc-will-millennials-ever-start-saving-for-retirement-232156/"
+    },
+    {
+      "authors": [
+        "Heather Draper"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.038182,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Tom Honig, a 37-year veteran and regional executive for Wells Fargo's Community Banking Mountain Midwest Region in Denver, announced his retirement. His departure will occur later this year, but the company's regional headquarters in Denver will remain.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002750"
+        }
+      ],
+      "time_published": "20130829T010300",
+      "title": "Wells Fargo Denver exec Honig to retire after 37 years; regional HQ to remain",
+      "topics": [
+        {
+          "relevance_score": "0.911444",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/denver/news/2013/08/27/wells-fargos-honig-to-retire-after-37.html"
+    },
+    {
+      "authors": [
+        "Tom Lydon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.132741,
+      "source": "ETF Trends",
+      "source_domain": "ETF Trends",
+      "summary": "Rising mortgage rates are impacting the housing recovery, leading to a slowdown in home sales and affecting homebuilder ETFs. The SPDR S&P Homebuilders ETF (XHB) and iShares U.S. Home Construction ETF (ITB) have seen declines over the past month. Analysts suggest that the recent leveling out in new housing starts indicates a potential stagnation or contraction in residential investment, despite long-term trends showing positive growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ITB",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.225446"
+        },
+        {
+          "relevance_score": "0.586947",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204933"
+        },
+        {
+          "relevance_score": "0.555036",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200638"
+        },
+        {
+          "relevance_score": "0.593544",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241926"
+        }
+      ],
+      "time_published": "20130823T125607",
+      "title": "Rising Mortgage Rates Slow Home Sales, Builder ETFs",
+      "topics": [
+        {
+          "relevance_score": "0.945713",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.825282",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.748289",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.717927",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.etftrends.com/2013/08/rising-mortgage-rates-slow-home-sales-builder-etfs/amp/"
+    },
+    {
+      "authors": [
+        "Karma Allen"
+      ],
+      "banner_image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2013/07/11/100870954-wells-fargo-logo-pedestrians.1910x1000.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.343476,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Wells Fargo is cutting 2,300 jobs from its mortgage production unit due to expectations of slowing mortgage lending for the remainder of the year. This brings the total job cuts by the country's largest mortgage lender to 3,000 since July. The reduction in staff comes as higher interest rates reduce demand for refinancing and overall mortgage application activity has fallen for a second consecutive week.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.338255"
+        }
+      ],
+      "time_published": "20130821T163800",
+      "title": "Wells Fargo eliminates 2,300 mortgage jobs",
+      "topics": [
+        {
+          "relevance_score": "0.945178",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.827741",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.702284",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.605421",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.cnbc.com/2013/08/21/wells-fargo-eliminates-2300-mortgage-jobs.html"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.329527,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "A US federal judge, Jed Rakoff, has endorsed a broad interpretation of the Financial Institutional Reform, Recovery and Enforcement Act (FIRREA), allowing the US Justice Department to use it against Wall Street banks, including Bank of America (BAC). Rakoff's ruling permits the government to pursue civil penalties against banks even when the affected financial institution is the bank itself, enabling a wider range of cases against the financial services industry. The Justice Department is using this law in a case against Bank of America concerning \"toxic mortgages\" sold by its Countrywide Financial unit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.412285"
+        },
+        {
+          "relevance_score": "0.723478",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.347282"
+        },
+        {
+          "relevance_score": "0.748851",
+          "ticker": "BK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.323229"
+        },
+        {
+          "relevance_score": "0.629571",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.234158"
+        }
+      ],
+      "time_published": "20130821T023600",
+      "title": "US judge endorses use of fraud law against Bank of America",
+      "topics": [
+        {
+          "relevance_score": "0.910816",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.713804",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/international/us-judge-endorses-use-of-fraud-law-against-bank-of-america-113082100046_1.html"
+    },
+    {
+      "authors": [
+        "CBC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.306511,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "Warren Buffett's Berkshire Hathaway Holdings has acquired a stake of 17.8 million shares in Calgary-based Suncor Energy Inc., valued at over $500 million. This investment places Buffett in the midst of the debate surrounding oilsands production and the controversial Keystone pipeline. Suncor's stock rose significantly following the disclosure of Buffett's investment, as investors often copy his successful strategies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SU",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424735"
+        },
+        {
+          "relevance_score": "0.609239",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303706"
+        },
+        {
+          "relevance_score": "0.624532",
+          "ticker": "USB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.252845"
+        },
+        {
+          "relevance_score": "0.628714",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.264251"
+        }
+      ],
+      "time_published": "20130815T170000",
+      "title": "Warren Buffett buys stake in Calgary's Suncor",
+      "topics": [
+        {
+          "relevance_score": "0.819074",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.718048",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.938885",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/business/warren-buffett-buys-stake-in-calgary-s-suncor-1.1382627"
+    },
+    {
+      "authors": [
+        "Juli Barcelona"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.418474,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "Former Chicago Blackhawk Troy Brouwer and former Chicago Bear Caleb Hanie visited the new offices of Heide Wealth Management Group in Palos Heights, Illinois. Both athletes are clients of Heide Wealth Management, which recently expanded its offices to accommodate growth and better serve its diverse client base, including professional athletes. The firm emphasizes goal-oriented investment strategies and wealth preservation for financial independence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415539"
+        }
+      ],
+      "time_published": "20130806T142800",
+      "title": "Former Chicago Athletes Visit New Heide Wealth Management of Wells Fargo Advisors Offices",
+      "topics": [
+        {
+          "relevance_score": "0.834047",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://patch.com/illinois/palos/former-chicago-athletes-visit-new-heide-wealth-management-of-wells-fargo-advisors-offices"
+    },
+    {
+      "authors": [
+        "Don Mecoy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.083486,
+      "source": "The Oklahoman",
+      "source_domain": "The Oklahoman",
+      "summary": "JPMorgan Chase CEO Jamie Dimon discusses banking regulation, particularly his views on reintroducing a Glass-Steagall-like law and the \"too big to fail\" debate. He argues against the idea of banks being subsidized and defends the necessity of large global banks, while emphasizing the importance of strong financial and regulatory systems. The article includes an edited interview where Dimon addresses these controversial topics and highlights his optimism about the U.S. economy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.094211"
+        },
+        {
+          "relevance_score": "0.626590",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.080665"
+        },
+        {
+          "relevance_score": "0.634641",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.082442"
+        },
+        {
+          "relevance_score": "0.624404",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.058966"
+        },
+        {
+          "relevance_score": "0.582896",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.089502"
+        }
+      ],
+      "time_published": "20130806T125622",
+      "title": "JPMorgan Chase CEO Jamie Dimon weighs in on banking regulation",
+      "topics": [
+        {
+          "relevance_score": "0.936924",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.743989",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.oklahoman.com/story/news/nation-world/2013/08/06/jpmorgan-chase-ceo-jamie-dimon-weighs-in-on-banking-regulation/60892503007/"
+    },
+    {
+      "authors": [
+        "The Motley Fool",
+        "Matt Koppenheffer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.186582,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article discusses why free checking accounts are unlikely to disappear despite a changing financial environment. Banks are leveraging technology like mobile banking to reduce costs and are focused on finding a balance between cost-cutting, regulatory compliance, and attracting customers in a competitive market. Investors should look for banks that aim to achieve this balance rather than completely eliminating free checking.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300615",
+          "ticker": "BAC-P-E",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.024731"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229307"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211324"
+        },
+        {
+          "relevance_score": "0.642103",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.187224"
+        }
+      ],
+      "time_published": "20130802T102000",
+      "title": "PNC Financial Services (PNC), Bank of America Corp (BAC): 3 Reasons You Won\u2019t Have to Kiss Free Checking Goodbye",
+      "topics": [
+        {
+          "relevance_score": "0.910847",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.721101",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/pnc-financial-services-pnc-bank-of-america-corp-bac-3-reasons-you-wont-have-to-kiss-free-checking-goodbye-213166/2/"
+    },
+    {
+      "authors": [
+        "Jen Wilson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.265863,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Wells Fargo & Co. has opened in-store branches at three Kroger supermarket locations in the Atlanta area. This move is part of a trend where banks are exploring new banking concepts by co-locating within retail stores. The development was reported by the Atlanta Journal-Constitution.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.287023"
+        },
+        {
+          "relevance_score": "0.836482",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214459"
+        }
+      ],
+      "time_published": "20130801T135621",
+      "title": "Wells Fargo opens branches in Kroger stores",
+      "topics": [
+        {
+          "relevance_score": "0.919504",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.808598",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bizjournals.com/charlotte/blog/morning-edition/2013/08/wells-fargo-opens-branches-in-kroger.html"
+    },
+    {
+      "authors": [
+        "Ashley Bray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.126372,
+      "source": "Banking Exchange",
+      "source_domain": "Banking Exchange",
+      "summary": "This article discusses the importance of dress codes and uniforms in the banking industry, emphasizing how employee appearance contributes to brand image, trust, and community alignment. It highlights varying approaches from professional attire to business casual and career apparel, noting the role of clothing in reflecting a bank's vision and approachability. Examples from ConnectOne Bank and Sound Community Bank illustrate how institutions balance professionalism with local culture and branding efforts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CNOB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235469"
+        },
+        {
+          "relevance_score": "0.603192",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128500"
+        },
+        {
+          "relevance_score": "0.603942",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122580"
+        },
+        {
+          "relevance_score": "0.609441",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122426"
+        },
+        {
+          "relevance_score": "0.644502",
+          "ticker": "SCHW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144765"
+        }
+      ],
+      "time_published": "20130801T000000",
+      "title": "Dressing the part",
+      "topics": [
+        {
+          "relevance_score": "0.748875",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.615361",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bankingexchange.com/news-feed/item/3882-dressing-the-part"
+    },
+    {
+      "authors": [
+        "Quinton Bronkhorst"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.012028,
+      "source": "Business Tech",
+      "source_domain": "Business Tech",
+      "summary": "Wells Fargo has surpassed ICBC to become the world's largest bank by market capitalization, marking a shift in the global banking landscape. While Asian banks dominated post-2007 financial crisis, the US economy's recovery and concerns over China's economic stability have contributed to this change. The article also details the market capitalization and customer numbers of the top 10 global banks and provides an overview of the largest banks in South Africa.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.313727",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022187"
+        }
+      ],
+      "time_published": "20130731T135622",
+      "title": "The world\u2019s biggest banks",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.832368",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.720927",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.644369",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://businesstech.co.za/news/banking/43392/the-worlds-biggest-banks/"
+    },
+    {
+      "authors": [
+        "Tim Kiladze"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.106049,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Global banks are responding to upcoming Basel Committee leverage ratio requirements by either raising equity or slashing assets. Barclays announced a rights offering and asset reduction, while Deutsche Bank revealed plans to significantly cut assets. Canadian banks, despite their focus on Tier 1 capital, are also facing scrutiny regarding their readiness for the new leverage rules, with some analysts suggesting they are already largely compliant or close to it.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.325636",
+          "ticker": "DGP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.038560"
+        },
+        {
+          "relevance_score": "0.632285",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124074"
+        },
+        {
+          "relevance_score": "0.644020",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123252"
+        },
+        {
+          "relevance_score": "0.646354",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148951"
+        }
+      ],
+      "time_published": "20130730T122617",
+      "title": "Global banks raise cash, slash assets to meet leverage rules",
+      "topics": [
+        {
+          "relevance_score": "0.911901",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.625977",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/streetwise/global-banks-raise-cash-slash-assets-to-meet-leverage-rules/article13502166/"
+    },
+    {
+      "authors": [
+        "JOYCE M. ROSENBERG"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.349146,
+      "source": "Savannah Morning News",
+      "source_domain": "Savannah Morning News",
+      "summary": "Lisa Stevens, head of small business banking at Wells Fargo, emphasizes guidance and relationship-building over just loan growth for small businesses. She discusses the recovery from the recession, Wells Fargo's commitment to supporting small businesses, including those not qualifying for traditional loans, and the importance of adapting to younger, tech-savvy entrepreneurs while still valuing personal connections. Stevens also highlights the bank's dedication to community involvement and making a positive impact.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310830"
+        }
+      ],
+      "time_published": "20130728T135621",
+      "title": "Wells Fargo exec: small businesses need guidance",
+      "topics": [
+        {
+          "relevance_score": "0.934605",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.811297",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.621917",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.savannahnow.com/story/news/2013/07/28/wells-fargo-exec-small-businesses-need-guidance/13499268007/"
+    },
+    {
+      "authors": [
+        "JOYCE M. ROSENBERG"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.416932,
+      "source": "Lubbock Avalanche-Journal",
+      "source_domain": "Lubbock Avalanche-Journal",
+      "summary": "Lisa Stevens, head of small-business banking at Wells Fargo & Co., emphasizes guiding small businesses over solely growing the bank's loan portfolio. She highlights Wells Fargo's commitment to supporting entrepreneurs through various services, including lending, mobile banking, and connections to microfinance organizations. Stevens also discusses the importance of relationship banking and helping business owners build a solid financial foundation, especially for younger, tech-savvy entrepreneurs, while maintaining traditional advocacy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421273"
+        }
+      ],
+      "time_published": "20130728T135621",
+      "title": "Wells Fargo executive: Small businesses need guidance",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.841554",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.646717",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.622107",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.lubbockonline.com/story/entertainment/local/2013/07/28/wells-fargo-executive-small-businesses-need-guidance/15081747007/"
+    },
+    {
+      "authors": [
+        "Jennifer Bjorhus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.237374,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "Wells Fargo is cutting 356 jobs nationwide from its home mortgage division, including 34 in Minneapolis, due to a slowdown in mortgage refinancing activity caused by rising interest rates. The bank's second-quarter profits were affected by this trend, leading them to reduce staffing while also expanding other areas of their mortgage operations. Other lenders like Citigroup are also paring back refinancing units.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.273671"
+        },
+        {
+          "relevance_score": "0.624583",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222788"
+        }
+      ],
+      "time_published": "20130723T020700",
+      "title": "Wells Fargo layoffs include 34 in Minneapolis",
+      "topics": [
+        {
+          "relevance_score": "0.928172",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.819726",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.749135",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.712232",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.606015",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.startribune.com/wells-fargo-layoffs-include-34-in-minneapolis/216456321"
+    },
+    {
+      "authors": [
+        "Megan VerHelst"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.287826,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "Wells Fargo announced layoffs affecting 58 employees in West Des Moines, triggered by a reduction in refinancing activity due to higher mortgage rates. Nationally, 350 employees were laid off. The company indicated that some employees receiving 60-day notices might find new internal positions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.298824"
+        }
+      ],
+      "time_published": "20130719T102600",
+      "title": "Wells Fargo in West Des Moines Lays Off Employees",
+      "topics": [
+        {
+          "relevance_score": "0.919202",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.838948",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.740151",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://patch.com/iowa/westdesmoines/wells-fargo-in-west-des-moines-lays-off-employees"
+    },
+    {
+      "authors": [
+        "Renaissance Capital"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.242478,
+      "source": "Nasdaq",
+      "source_domain": "Nasdaq",
+      "summary": "Rexford Industrial Realty, a REIT specializing in industrial properties in Southern California, successfully priced its IPO at $14 per share, the midpoint of its target range. The company raised $224 million by offering 16 million shares and plans to list on the NYSE under the symbol REXR. BofA Merrill Lynch, Wells Fargo Securities, FBR Capital Markets, and J.P. Morgan served as lead managers for the offering.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "REXR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.372332"
+        },
+        {
+          "relevance_score": "0.637246",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241723"
+        },
+        {
+          "relevance_score": "0.646741",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244813"
+        },
+        {
+          "relevance_score": "0.606932",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231201"
+        }
+      ],
+      "time_published": "20130718T062000",
+      "title": "Rexford Industrial prices IPO at $14 midpoint",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.831078",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.703497",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.626271",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nasdaq.com/articles/rexford-industrial-prices-ipo-14-midpoint-2013-07-18"
+    },
+    {
+      "authors": [
+        "Sheetal Agarwal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.070197,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "HDFC Bank reported a 30% year-on-year net profit growth for the quarter ended June 30, though earnings were primarily boosted by treasury income and lower provisions. Minor stress on asset quality was noted, particularly in the retail book, while the corporate portfolio remained strong. Analysts believe the stock is fairly priced, with some suggesting a limited upside despite its strong performance relative to the industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972565",
+          "ticker": "HDB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.053373"
+        },
+        {
+          "relevance_score": "0.610349",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.114372"
+        },
+        {
+          "relevance_score": "0.558832",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.087194"
+        },
+        {
+          "relevance_score": "0.585061",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.099471"
+        },
+        {
+          "relevance_score": "0.558355",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.094695"
+        }
+      ],
+      "time_published": "20130717T224700",
+      "title": "HDFC Bank's strong show continues",
+      "topics": [
+        {
+          "relevance_score": "0.933107",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.841784",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.741186",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/markets/hdfc-bank-s-strong-show-continues-113071700942_1.html"
+    },
+    {
+      "authors": [
+        "Jessica Menton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.450649,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "JPMorgan Chase & Co. reported strong second-quarter earnings, exceeding analyst expectations, which led to a boost in stock prices for the Dow and S&P 500. Alexander C. Kaufman discusses JPMorgan's performance and the implications for CEO Jamie Dimon's continued leadership. Dimon addressed the company's earnings, economic outlook, and regulatory impact on CNBC.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.522303"
+        },
+        {
+          "relevance_score": "0.716080",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418337"
+        }
+      ],
+      "time_published": "20130715T112800",
+      "title": "Why Jamie Dimon Will Remain CEO And Chairman of JPMorgan (JPM) [VIDEO]",
+      "topics": [
+        {
+          "relevance_score": "0.912170",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.804493",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.823208",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.706319",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.ibtimes.com/why-jamie-dimon-will-remain-ceo-chairman-jpmorgan-jpm-video-1345899"
+    },
+    {
+      "authors": [
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.11333,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article highlights M&T Bank Corporation (MTB) as a strong regional bank, emphasizing its consistent profitability even during the financial crisis and its well-capitalized status. It discusses M&T's history of strategic acquisitions, including the significant pending acquisition of Hudson City Bancorp, Inc. (HCBK), and the anticipated benefits of this deal, such as increased market share and cost savings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MTB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.500513"
+        },
+        {
+          "relevance_score": "0.591880",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.246510"
+        },
+        {
+          "relevance_score": "0.604812",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.146090"
+        }
+      ],
+      "time_published": "20130701T145900",
+      "title": "M&T Bank Corporation (MTB): Here\u2019s A Regional Bank That\u2019s Worth A Look",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.831639",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.704059",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/mt-bank-corporation-mtb-heres-a-regional-bank-thats-worth-a-look-185692/"
+    },
+    {
+      "authors": [
+        "Elizabeth Durant"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.426602,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "Patricia R. Callahan, a 36-year Wells Fargo veteran and MIT alumna, was named one of American Banker\u2019s \u201c25 Most Powerful Women in Banking.\u201d She advises career mobility through lateral moves to gain diverse experiences, a strategy she successfully employed across various departments at Wells Fargo. Callahan managed the complex Wells Fargo-Wachovia Bank merger and currently oversees 2,300 employees in several key areas.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429361"
+        }
+      ],
+      "time_published": "20130618T135621",
+      "title": "Patricia R. Callahan \u201975, SM \u201977",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.711099",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2013/06/18/177711/patricia-r-callahan-75-sm-77/"
+    },
+    {
+      "authors": [
+        "Arkansas Business Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.149951,
+      "source": "Arkansas Business",
+      "source_domain": "Arkansas Business",
+      "summary": "Sharilyn Gasaway, a member of the Arkansas Business 40 Under 40 Class of 2007 and former CFO of Alltel, transitioned to a board role at J.B. Hunt Transport Services after Alltel's restructuring. She balances her time serving on multiple corporate boards, including Genesis Energy LP and Waddell & Reed Financial Inc., alongside family commitments. Gasaway emphasizes the time commitment and diverse industry knowledge required for her board positions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926512",
+          "ticker": "GEL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110069"
+        },
+        {
+          "relevance_score": "0.855139",
+          "ticker": "JBHT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133076"
+        },
+        {
+          "relevance_score": "0.612760",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134407"
+        },
+        {
+          "relevance_score": "0.573615",
+          "ticker": "BEN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144377"
+        }
+      ],
+      "time_published": "20130617T000000",
+      "title": "After Alltel, Sharilyn Gasaway Didn\u2019t Have to Look Far To Land at J.B. Hunt",
+      "topics": [
+        {
+          "relevance_score": "0.817500",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.718570",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.arkansasbusiness.com/article/after-alltel-sharilyn-gasaway-didnt-have-to-look-far-to-land-at-jb-hunt/"
+    },
+    {
+      "authors": [
+        "Washington Informer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.412118,
+      "source": "The Washington Informer",
+      "source_domain": "The Washington Informer",
+      "summary": "Wells Fargo has appointed Michelle Thornhill as the new Strategy and Integration Manager for its Enterprise Diversity and Inclusion initiatives. In this role, Thornhill will provide strategic leadership and consultation to further the company's diversity and inclusion goals, building on her previous work as the African American segment manager. Her responsibilities will include developing and coordinating an enterprise-wide implementation strategy to strengthen an inclusive culture within Wells Fargo.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431318"
+        }
+      ],
+      "time_published": "20130606T135621",
+      "title": "Michelle Thornhill Named Strategy and Integration Manager for Wells Fargo Enterprise Diversity and Inclusion",
+      "topics": [
+        {
+          "relevance_score": "0.917038",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.washingtoninformer.com/michelle-thornhill-named-strategy-and-integration-manager-for-wells-fargo-enterprise-diversity-and-inclusion/"
+    },
+    {
+      "authors": [
+        "By Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019212,
+      "source": "Financial Post",
+      "source_domain": "Financial Post",
+      "summary": "Ivanhoe Cambridge, the real estate unit of Caisse de Depot et Placement du Quebec, has purchased the 47-story Wells Fargo Center in Seattle for US$390 million. This acquisition expands the company's holdings of top-tier office buildings in the city, increasing its share of Class A space in Seattle's financial district to almost 8%. The tower offers 983,600 square feet of leasable space, and the acquisition is seen as an opportunity to create significant value and grow Ivanhoe Cambridge's presence in a key continental gateway city.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.341224",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046070"
+        }
+      ],
+      "time_published": "20130603T135621",
+      "title": "Ivanhoe Cambridge buys 47-story Wells Fargo Center in Seattle for US$390M",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.828817",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://financialpost.com/real-estate/property-post/ivanhoe-cambridge-buys-47-story-wells-fargo-center-in-seattle-for-us390m"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.050453,
+      "source": "Hospitality Net",
+      "source_domain": "Hospitality Net",
+      "summary": "Rick Rogovin has rejoined The Dow Hotel Company (DHC) as Vice President of Hotel Investments. Rogovin brings over 25 years of institutional hotel investment experience, having previously worked at Wells Fargo and TIAA-CREF, and also served a prior tenure at DHC as vice president of business development. In his new role, he will contribute his expertise to DHC, a hotel ownership, investment, and management company with 10 hotels across the U.S.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.737153",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.093725"
+        }
+      ],
+      "time_published": "20130603T135621",
+      "title": "Rick Rogovin joined The Dow Hotel Company as Vice President of Hotel Investments",
+      "topics": [
+        {
+          "relevance_score": "0.803920",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.748009",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.hospitalitynet.org/appointment/79005045.html"
+    },
+    {
+      "authors": [
+        "Marshall Hargrave"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.273101,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article discusses some of Warren Buffett's top stock holdings, including American Express (AXP), The Procter & Gamble Company (PG), Wells Fargo (WFC), and International Business Machines (IBM). It highlights the rationale behind these investments, such as American Express's return on equity and discount to industry average, P&G's activist campaign potential, and the long-term value and dividend yields of Buffett's mega-cap stocks. The author also provides personal opinions on the future prospects of these companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123005"
+        },
+        {
+          "relevance_score": "0.816886",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407046"
+        },
+        {
+          "relevance_score": "0.701238",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.337181"
+        },
+        {
+          "relevance_score": "0.620588",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335336"
+        },
+        {
+          "relevance_score": "0.594059",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.259951"
+        }
+      ],
+      "time_published": "20130603T123400",
+      "title": "International Business Machines Corp. (IBM), Wells Fargo & Co (WFC): Billionaire Warren Buffett\u2019s Top Stocks",
+      "topics": [
+        {
+          "relevance_score": "0.945415",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.831210",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/international-business-machines-corp-ibm-wells-fargo-co-wfc-billionaire-warren-buffetts-top-stocks-158373/2"
+    },
+    {
+      "authors": [
+        "James A. Bacon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.186114,
+      "source": "www.baconsrebellion.com",
+      "source_domain": "www.baconsrebellion.com",
+      "summary": "Richmond, Virginia, surprisingly ranks first among 66 large metro areas for financial-activities jobs, driven by significant growth since 2009. Large employers like Capital One Financial and SunTrust Banks, along with a strong insurance and investment banking sector, contribute to the region's financial strength. The article suggests economic development should focus on nurturing existing community strengths rather than chasing \"hot\" industries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.909587",
+          "ticker": "COF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335491"
+        },
+        {
+          "relevance_score": "0.638960",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129884"
+        },
+        {
+          "relevance_score": "0.648971",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110560"
+        }
+      ],
+      "time_published": "20130531T122130",
+      "title": "Baby Bull",
+      "topics": [
+        {
+          "relevance_score": "0.923318",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.baconsrebellion.com/baby-bull/"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.058858,
+      "source": "Crain's New York Business",
+      "source_domain": "Crain's New York Business",
+      "summary": "JPMorgan Chase & Co. has appointed Barry Sommers as the new CEO of its consumer bank, succeeding Ryan McInerney, who is departing to become president of Visa Inc. Sommers will continue to oversee Chase Wealth Management and report to Gordon Smith, CEO of consumer and community banking. The transition comes two years after JPMorgan's CEO Jamie Dimon reshuffled the consumer bank\u2019s top management following issues with foreclosure practices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124980"
+        },
+        {
+          "relevance_score": "0.861007",
+          "ticker": "V",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.203156"
+        },
+        {
+          "relevance_score": "0.569284",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.177912"
+        }
+      ],
+      "time_published": "20130523T000000",
+      "title": "JPMorgan names new consumer bank CEO",
+      "topics": [
+        {
+          "relevance_score": "0.912158",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.crainsnewyork.com/article/20130523/FINANCE/130529934/as-ryan-mcinerney-moves-to-visa-jpmorgan-taps-barry-sommers-as-ceo-of-its-consumer-bank"
+    },
+    {
+      "authors": [
+        "John Patten"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.067987,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "Philip Bringuier has joined Provident Bank as vice president and relationship manager in the commercial real estate lending division. He brings 10 years of banking experience, previously working at Wells Fargo. Bringuier is responsible for the origination and monitoring of commercial real estate loans at Provident Bank.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.348891",
+          "ticker": "PVBC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022595"
+        },
+        {
+          "relevance_score": "0.703793",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.127971"
+        }
+      ],
+      "time_published": "20130511T031600",
+      "title": "Philip Bringuier Joins Provident Bank",
+      "topics": [
+        {
+          "relevance_score": "0.803069",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.714603",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://patch.com/new-jersey/warren/an--philip-bringuier-joins-provident-bank"
+    },
+    {
+      "authors": [
+        "Jennifer Bjorhus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.116335,
+      "source": "Star Tribune",
+      "source_domain": "Star Tribune",
+      "summary": "U.S. Bancorp announced several high-level management changes due to the retirements of Richard Hartnack and Lee Mitau, effective in March. John Elmore and Kent Stone will succeed Hartnack, while James Chosy will replace Mitau as general counsel. These changes expand the managing committee and position the bank to address ongoing industry challenges despite its strong growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "USB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.097753"
+        },
+        {
+          "relevance_score": "0.637726",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121269"
+        },
+        {
+          "relevance_score": "0.636817",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148844"
+        },
+        {
+          "relevance_score": "0.599434",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108610"
+        },
+        {
+          "relevance_score": "0.592690",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139993"
+        }
+      ],
+      "time_published": "20130503T164100",
+      "title": "Retirements bring changes to U.S. Bank's exec lineup",
+      "topics": [
+        {
+          "relevance_score": "0.949064",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.619002",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.startribune.com/retirements-bring-changes-to-u-s-bank-s-exec-lineup/183059691"
+    },
+    {
+      "authors": [
+        "Jacqueline Nelson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.001484,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Robert Kelly, former Chairman and CEO of Bank of New York Mellon Corp., has been appointed as the new chairman of Canada Mortgage and Housing Corporation (CMHC) for a five-year term. Kelly brings extensive Canadian and U.S. experience in housing finance and capital markets, which CMHC expects will be a great benefit. His career includes leadership roles at Toronto-Dominion Bank, Wachovia Corp., and navigating BNY Mellon through the subprime mortgage crisis.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.310808",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.012761"
+        },
+        {
+          "relevance_score": "0.737503",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041067"
+        }
+      ],
+      "time_published": "20130503T120649",
+      "title": "BNY Mellon's ex-CEO Robert Kelly to chair CMHC",
+      "topics": [
+        {
+          "relevance_score": "0.930675",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.722499",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/streetwise/bny-mellons-ex-ceo-robert-kelly-to-chair-cmhc/article11705487/"
+    },
+    {
+      "authors": [
+        "CBC News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.120947,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "The U.S. Internal Revenue Service (IRS) is targeting American citizens using offshore bank accounts at CIBC's Caribbean subsidiary, CIBC FirstCaribbean, to evade taxes. A U.S. Federal Court has authorized a \"John Doe\" summons to Wells Fargo to obtain information on U.S. taxpayers with accounts at FirstCaribbean, marking a significant step in the IRS's efforts against offshore tax evasion. CIBC FirstCaribbean stated its commitment to complying with all laws and regulatory requirements and to cooperating with authorities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.336934",
+          "ticker": "CM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005750"
+        },
+        {
+          "relevance_score": "0.710737",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.226447"
+        }
+      ],
+      "time_published": "20130501T143100",
+      "title": "CIBC offshore accounts targeted in U.S. tax-evasion probe",
+      "topics": [
+        {
+          "relevance_score": "0.934229",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.812077",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/business/cibc-offshore-accounts-targeted-in-u-s-tax-evasion-probe-1.1326621"
+    },
+    {
+      "authors": [
+        "John Greenwood"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.320078,
+      "source": "Financial Post",
+      "source_domain": "Financial Post",
+      "summary": "Royal Bank of Canada has been ranked among the top 5 global banks for mobile banking functionality by Forrester Research Inc., tying with Citibank. This recognition highlights a shift from previous criticisms of Canadian banks' timid approach to mobile banking, with mobile functionality seen as a key differentiator and growth opportunity for the financial services industry. The ranking assessed 15 top global banks based on various mobile capabilities, including checking balances, transferring money, paying bills, and sending money to others.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.901054",
+          "ticker": "FORR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320497"
+        },
+        {
+          "relevance_score": "0.708278",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339658"
+        },
+        {
+          "relevance_score": "0.630750",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314346"
+        },
+        {
+          "relevance_score": "0.608340",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331064"
+        },
+        {
+          "relevance_score": "0.572435",
+          "ticker": "TDG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.261827"
+        }
+      ],
+      "time_published": "20130425T124118",
+      "title": "RBC ranked as global front-runner in mobile banking",
+      "topics": [
+        {
+          "relevance_score": "0.936709",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.806717",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://financialpost.com/news/fp-street/rbc-a-global-front-runner-in-mobile-banking-report"
+    },
+    {
+      "authors": [
+        "Abha Bhattarai"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.325256,
+      "source": "The Washington Post",
+      "source_domain": "The Washington Post",
+      "summary": "Wells Fargo has opened a new branch in NoMa, Northeast Washington, that emphasizes wireless and paperless transactions. This \"bank of the future\" concept uses tablets and smartphones for employees to assist clients, and offers e-mailed or text-messaged receipts, along with large touch-screen ATMs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342774"
+        }
+      ],
+      "time_published": "20130421T135621",
+      "title": "Wells Fargo\u2019s new branch in NoMa focuses on wireless, paperless transactions",
+      "topics": [
+        {
+          "relevance_score": "0.830986",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.622415",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.washingtonpost.com/business/capitalbusiness/wells-fargos-new-branch-in-noma-focuses-on-wireless-paperless-transactions/2013/04/19/46a155c4-a614-11e2-8302-3c7e0ea97057_story.html"
+    },
+    {
+      "authors": [
+        "Holly Dolezalek \u2013 Contributing writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.044226,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Wells Fargo & Co. signed a significant 15-year lease for 478,000 square feet in the Metropoint building in St. Louis Park in October 2012. This transaction was the second-largest lease in a multitenant building in recent memory for the Minneapolis/St. Paul area, surpassed only by Target's lease at 33 South Sixth in downtown Minneapolis.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340485",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019294"
+        }
+      ],
+      "time_published": "20130419T135622",
+      "title": "Winner: Wells Fargo Metropoint",
+      "topics": [
+        {
+          "relevance_score": "0.929421",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.741652",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/twincities/print-edition/2013/04/19/winner-wells-fargo-metropoint.html"
+    },
+    {
+      "authors": [
+        "Debarati Roy",
+        "Joe Richter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.138042,
+      "source": "Worcester Telegram",
+      "source_domain": "Worcester Telegram",
+      "summary": "Gold rebounded from its biggest plunge in 33 years, which BlackRock Inc. deemed a \"panic event\" not reflective of fundamentals. The price drop is seen as an opportunity for central banks to buy, with some analysts maintaining a positive long-term outlook for gold due to potential inflation and the search for alternative assets. However, some prominent investors like George Soros and Warren Buffett have reduced or expressed caution about their gold holdings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.871131",
+          "ticker": "IAU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.278261"
+        },
+        {
+          "relevance_score": "0.718002",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306061"
+        },
+        {
+          "relevance_score": "0.606637",
+          "ticker": "CME",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101313"
+        },
+        {
+          "relevance_score": "0.568570",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.230681"
+        },
+        {
+          "relevance_score": "0.593634",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046364"
+        }
+      ],
+      "time_published": "20130417T125105",
+      "title": "Gold rebounds",
+      "topics": [
+        {
+          "relevance_score": "0.937891",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.823194",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.743412",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.telegram.com/story/news/local/north/2013/04/17/gold-rebounds/48945413007/"
+    },
+    {
+      "authors": [
+        "michaelratliff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.190616,
+      "source": "Multifamily Housing News",
+      "source_domain": "Multifamily Housing News",
+      "summary": "Toll Brothers and AECOM are partnering on the Provost Square luxury rental project in Jersey City, financed by PNC Bank, Wells Fargo, and Comerica Bank. Separately, Lincoln Property Co. and Phoenix Property Co. secured $150 million for a mixed-use development in Los Angeles, while HFF closed a $29 million sale of a development site in Miami to The Related Group. These transactions highlight significant real estate activity in major U.S. markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.348260",
+          "ticker": "ACM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015130"
+        },
+        {
+          "relevance_score": "0.929806",
+          "ticker": "PNC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318537"
+        },
+        {
+          "relevance_score": "0.807346",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.262794"
+        },
+        {
+          "relevance_score": "0.748519",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297715"
+        },
+        {
+          "relevance_score": "0.625007",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108947"
+        }
+      ],
+      "time_published": "20130417T115629",
+      "title": "TODAY\u2019S DEALS: Toll Brothers and AECOM Announce Luxury Jersey City Project",
+      "topics": [
+        {
+          "relevance_score": "0.909843",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.multihousingnews.com/todays-deals-toll-brothers-and-aecom-announce-luxury-jersey-city-project/"
+    },
+    {
+      "authors": [
+        "E. Scott Reckard"
+      ],
+      "banner_image": "https://www.latimes.com/images/1200x675/sns-la-fi-mo-bofa-earnings-20130417-001",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.142488,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "Bank of America quadrupled its first-quarter profit due to reduced expenses and loan losses, and better brokerage and investment banking results. However, its continued struggles with mortgage operations led to an 8% fall in revenue and disappointment among investors, causing its stock to drop. The bank's CEO highlighted increased lending to small businesses and higher earnings from wealth management, despite a decline in net interest income and significant losses in its consumer real estate division related to Countrywide Financial Corp. legal settlements.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.201065"
+        },
+        {
+          "relevance_score": "0.612243",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134510"
+        },
+        {
+          "relevance_score": "0.622722",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109955"
+        }
+      ],
+      "time_published": "20130417T000000",
+      "title": "BofA quadruples its profit but disappoints investors",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.940096",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.819674",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.730585",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.645421",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-xpm-2013-apr-17-la-fi-mo-bofa-earnings-20130417-story.html"
+    },
+    {
+      "authors": [
+        "Business Observer Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.071583,
+      "source": "Business Observer",
+      "source_domain": "Business Observer",
+      "summary": "An affiliate of Oaktree Capital Management L.P. and National Financial Realty Inc. acquired a 25,370-square-foot office building in Fort Myers for $909,933. This purchase was part of a larger $240 million deal for 40 office buildings, with the Fort Myers property primarily leased to Wells Fargo Bank. The price per square foot was significantly lower than the regional average, indicating a strategic acquisition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347712",
+          "ticker": "OAK-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022178"
+        },
+        {
+          "relevance_score": "0.897723",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114337"
+        }
+      ],
+      "time_published": "20130405T075400",
+      "title": "Two national real estate firms buy Fort Myers Wells Fargo building",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.837126",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.701929",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.businessobserverfl.com/news/2013/apr/05/two-national-real-estate-firms-buy-fort-myers-wells-fargo-building/"
+    },
+    {
+      "authors": [
+        "E. Scott Reckard"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309173,
+      "source": "Los Angeles Times",
+      "source_domain": "Los Angeles Times",
+      "summary": "Bank of America is rolling out new ATMs equipped with video chat capabilities, allowing customers to connect with a live teller from 7 a.m. to 10 p.m. These teller-assisted ATMs offer services like dispensing various denominations of bills and coins, with future plans to add split deposits and loan/credit card payments. This move by Bank of America follows a trend of banks advancing ATM functionality beyond basic transactions, enhancing customer convenience and access to services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341927"
+        },
+        {
+          "relevance_score": "0.728376",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349996"
+        },
+        {
+          "relevance_score": "0.600132",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346241"
+        }
+      ],
+      "time_published": "20130404T120648",
+      "title": "Bank of America rolls out ATMs with video links to real tellers",
+      "topics": [
+        {
+          "relevance_score": "0.913392",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.717602",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.latimes.com/business/la-xpm-2013-apr-04-la-fi-mo-bofa-video-tellers-20130404-story.html"
+    },
+    {
+      "authors": [
+        "STAN BULLARD"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.443407,
+      "source": "Crain's Cleveland Business",
+      "source_domain": "Crain's Cleveland Business",
+      "summary": "Wells Fargo and Gilbane Building Co. have signed leases totaling 30,000 square feet in the new Ernst & Young Tower in Cleveland's Flats East Bank Neighborhood. Wells Fargo will occupy the entire third floor, while Gilbane, the tower's contractor, will move its Cleveland office to the 14th floor. Developers Scott and Iris Wolstein view the addition of national tenants as significant validation for their redevelopment vision for the Flats East Bank.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408423"
+        }
+      ],
+      "time_published": "20130403T023000",
+      "title": "Wells Fargo, Gilbane join tenant roster for Ernst & Young Tower",
+      "topics": [
+        {
+          "relevance_score": "0.911195",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.725222",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.crainscleveland.com/article/20130403/FREE/130409902/wells-fargo-gilbane-join-tenant-roster-for-ernst-young-tower"
+    },
+    {
+      "authors": [
+        "Drew Olanoff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.376044,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "Tesla Motors has partnered with Wells Fargo and US Bank to offer a new financing product for its Model S Electric cars, blending ownership with lease-like advantages. This program, personally guaranteed by Elon Musk, aims to make the Model S more accessible by reducing the net out-of-pocket cost to under $500 per month after accounting for tax credits and electricity savings, and offers a guaranteed resale value after three years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.722542",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321765"
+        },
+        {
+          "relevance_score": "0.737208",
+          "ticker": "USB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320230"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409522"
+        }
+      ],
+      "time_published": "20130402T140300",
+      "title": "Tesla Motors Partners With Wells Fargo And US Bank To Finance Model S Electric Cars",
+      "topics": [
+        {
+          "relevance_score": "0.946451",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.810598",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.730709",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.608479",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://techcrunch.com/2013/04/02/tesla-motors-partners-with-wells-fargo-and-us-bank-to-finance-model-s-electric-cars/"
+    },
+    {
+      "authors": [
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019607,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article argues that the S&P 500's recent record high might not be as significant as many believe. The author suggests this is due to the index's reliance on megacap stocks and its failure to reflect dividend returns, which are crucial for actual investor gains. Investors are advised against making major portfolio changes based solely on the S&P 500's nominal value.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.961916",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022342"
+        },
+        {
+          "relevance_score": "0.852429",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007263"
+        },
+        {
+          "relevance_score": "0.663990",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030945"
+        },
+        {
+          "relevance_score": "0.584642",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.023576"
+        }
+      ],
+      "time_published": "20130329T093300",
+      "title": "Why the S&P 500 (.INX)\u2019s Record High Isn\u2019t as Important as You Think: Bank of America Corp (BAC), Wells Fargo & Co (WFC)",
+      "topics": [
+        {
+          "relevance_score": "0.903632",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.701499",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/why-the-sps-record-high-isnt-as-important-as-you-think-101691/"
+    },
+    {
+      "authors": [
+        "Charles Schelle"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.273135,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "A Sarasota cosmetics company, Colby Cosmetics, its president Robert Colby, and Wells Fargo are being sued for securities fraud by Melford Bibens. Bibens alleges he was induced to purchase 29,000 non-existent shares from Colby Cosmetics, a company whose president has a prior conviction for securities fraud. Wells Fargo is included in the suit for cashing a $29,000 check from Bibens despite attempts to prevent it.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.995739",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.260258"
+        }
+      ],
+      "time_published": "20130322T203100",
+      "title": "Sarasota Cosmetics Company Sued For Securities Fraud",
+      "topics": [
+        {
+          "relevance_score": "0.744349",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.605108",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://patch.com/florida/sarasota/sarasota-cosmetics-company-sued-for-securities-fraud"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.235828,
+      "source": "Insurance Journal",
+      "source_domain": "Insurance Journal",
+      "summary": "Wells Fargo Insurance has appointed Richard Colton as the head of its mergers and acquisitions industry practice, based in New York. Colton, a former co-founder of Aon's M&A group and chairman of Lockton's M&A group, will focus on providing insurance, risk, due diligence, and employee benefit services to middle market and large corporate customers, including private equity firms. His role involves leading sales and growth initiatives related to private equity transactions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205381"
+        }
+      ],
+      "time_published": "20130321T135621",
+      "title": "Wells Fargo Insurance Names Head of M&A Group in New York",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.839934",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.insurancejournal.com/news/east/2013/03/21/285628.htm"
+    },
+    {
+      "authors": [
+        "Bisnow"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.231801,
+      "source": "Bisnow",
+      "source_domain": "Bisnow",
+      "summary": "National Financial Realty (NFR) and Oaktree Capital Management acquired a 40-office building portfolio, including five in Pennsylvania, for $240 million. The portfolio is 90% leased to Wells Fargo, aligning with NFR's strategy of investing in properties leased to financial institutions. NFR CEO Vincent Pellerito described the deal as the most complicated in his career but valuable for its high-quality properties and long-term leases.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.326510",
+          "ticker": "OAK-P-A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033176"
+        },
+        {
+          "relevance_score": "0.858170",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310362"
+        },
+        {
+          "relevance_score": "0.858170",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310362"
+        }
+      ],
+      "time_published": "20130313T131608",
+      "title": "Investors Buy Big PA Bank Portfolio",
+      "topics": [
+        {
+          "relevance_score": "0.846780",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.918945",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.715103",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bisnow.com/philadelphia/news/commercial-real-estate/Investors-Buy-Big-PA-Bank-Portfolio-34076"
+    },
+    {
+      "authors": [
+        "David Henry"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.056571,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "JPMorgan Chase & Co. plans to cut 3,000 to 4,000 jobs in its consumer bank in 2013, primarily through attrition, to improve profitability. The bank also reiterated plans to shed 13,000 to 15,000 jobs in its mortgage business by 2014. These moves are part of a broader strategy to boost efficiency, increase revenue from wealth management, and cut overall expenses by $1-billion in 2013, despite continued branch expansion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222898"
+        },
+        {
+          "relevance_score": "0.649285",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117664"
+        }
+      ],
+      "time_published": "20130226T125623",
+      "title": "JPMorgan to cut as many as 4,000 jobs",
+      "topics": [
+        {
+          "relevance_score": "0.937464",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.813325",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/international-business/us-business/jpmorgan-to-cut-as-many-as-4000-jobs/article9057752/"
+    },
+    {
+      "authors": [
+        "Jessica Silver-Greenberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.051649,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "JPMorgan Chase CEO Jamie Dimon has vowed to change the bank's practices regarding Internet-based payday lenders. The bank currently enables these lenders to automatically withdraw payments from customers' accounts, even in states where such loans are banned, a practice Dimon called \"terrible.\" This move follows scrutiny over the banks' role in facilitating high-interest payday loans, which can carry annual interest rates above 500 percent.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111709"
+        },
+        {
+          "relevance_score": "0.739793",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014073"
+        },
+        {
+          "relevance_score": "0.741785",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026194"
+        }
+      ],
+      "time_published": "20130226T125622",
+      "title": "Dimon Pledges to Change JPMorgan\u2019s Practices on Payday Loans (Published 2013)",
+      "topics": [
+        {
+          "relevance_score": "0.907872",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.603266",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nytimes.com/2013/02/27/business/jpmorgan-chase-vows-to-fix-payday-loan-practices.html"
+    },
+    {
+      "authors": [
+        "Efe"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305335,
+      "source": "El Confidencial",
+      "source_domain": "El Confidencial",
+      "summary": "HSBC Latin America Holdings, a subsidiary of HSBC, has agreed to sell HSBC Bank (Panam\u00e1) to Bancolombia S.A. for $2.1 billion. This sale is part of HSBC's strategy to focus on key markets like Brazil, Mexico, and Argentina, and is expected to finalize in the third quarter of 2013, pending regulatory approval. As of September 2012, HSBC Bank (Panam\u00e1) held assets worth $7.6 billion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CIB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.447322"
+        },
+        {
+          "relevance_score": "0.858287",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300045"
+        },
+        {
+          "relevance_score": "0.629193",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210517"
+        },
+        {
+          "relevance_score": "0.562277",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213706"
+        }
+      ],
+      "time_published": "20130219T145400",
+      "title": "El HSBC vender\u00e1 HSBC Bank (Panam\u00e1) a Bancolombia por 2.100 millones de d\u00f3lares",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.923639",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.elconfidencial.com/economia/2013-02-19/el-hsbc-vendera-hsbc-bank-panama-a-bancolombia-por-2-100-millones-de-dolares_310188/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.356147,
+      "source": "Packaging Strategies",
+      "source_domain": "Packaging Strategies",
+      "summary": "H.J. Heinz Company announced a definitive merger agreement to be acquired by an investment consortium comprised of Berkshire Hathaway and 3G Capital for $28 billion, including debt assumption. Heinz shareholders will receive $72.50 per share, representing a significant premium over recent share prices. The acquisition is expected to close in Q3 2013, with commitments to maintain Pittsburgh as the global headquarters.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.917527",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406301"
+        },
+        {
+          "relevance_score": "0.624594",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309472"
+        },
+        {
+          "relevance_score": "0.611026",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325245"
+        }
+      ],
+      "time_published": "20130218T130059",
+      "title": "H.J. Heinz Company enters into agreement to be acquired by Berkshire Hathaway and 3G Capital",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.801306",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.707116",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.packagingstrategies.com/articles/86106-hj-heinz-company-enters-into-agreement-to-be-acquired-by-berkshire-hathaway-and-3g-capital"
+    },
+    {
+      "authors": [
+        "Mariana Phipps"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.496413,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "Wells Fargo & Company has announced that Denise Piper has joined their Greater Bay Business Banking team as the Business Banking President for the South Bay. Piper brings over 20 years of banking experience, including previous roles at JP Morgan Chase and an earlier tenure with Wells Fargo, and will oversee South Bay Business Banking teams, focusing on developing small businesses in the southern Greater Bay region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.473003"
+        }
+      ],
+      "time_published": "20130215T194400",
+      "title": "Wells Fargo welcomes Denise Piper as Business Banking President for the South Bay",
+      "topics": [
+        {
+          "relevance_score": "0.912229",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://patch.com/california/capitola/an--wells-fargo-welcomes-denise-piper-as-business-banbe1efbe50a"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309831,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Warren Buffett's Berkshire Hathaway and 3G Capital announced a deal to acquire H.J. Heinz for $23.3 billion, or $72.50 a share, marking the largest acquisition in the food industry's history. The deal, valued at $28 billion including debt, sees Berkshire and 3G each contributing $4.4 billion in equity, with Berkshire also buying $8 billion in preferred stock. This partnership with private equity firm 3G is unusual for Buffett, who stated that 3G will primarily supervise Heinz's operations post-acquisition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.927806",
+          "ticker": "KHC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325141"
+        },
+        {
+          "relevance_score": "0.744954",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303726"
+        },
+        {
+          "relevance_score": "0.622443",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322051"
+        }
+      ],
+      "time_published": "20130214T081800",
+      "title": "Berkshire Hathaway, 3G Buying Heinz for $23.3 Billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.808549",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.747926",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cnbc.com/2013/02/14/berkshire-hathaway-3g-buying-heinz-for-233-billion.html"
+    },
+    {
+      "authors": [
+        "David Woodburn"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.105535,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "JP Morgan Chase & Co. (JPM) has become the most valuable bank by market capitalization, surpassing Wells Fargo & Company (WFC) on Wednesday. This marks a significant comeback for JP Morgan after a derivatives bet cost it over $50 billion in market value last year, benefiting partly from slowing growth at Wells Fargo and renewed investor interest in \"riskier\" names like JPM given improved economic conditions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.991285",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.415389"
+        },
+        {
+          "relevance_score": "0.887505",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.267329"
+        },
+        {
+          "relevance_score": "0.556888",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103253"
+        }
+      ],
+      "time_published": "20130207T123200",
+      "title": "JP Morgan Chase & Co. (JPM) Now Most Valuable Bank",
+      "topics": [
+        {
+          "relevance_score": "0.942801",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.838992",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.741417",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.642951",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/jp-morgan-chase-co-jpm-now-most-valuable-bank-57533/"
+    },
+    {
+      "authors": [
+        "Leo Tilmont"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.020397,
+      "source": "Worldcrunch",
+      "source_domain": "Worldcrunch",
+      "summary": "This article highlights a reversal in a decades-old trend of remittance payments between Germany and Turkey. Historically, Turkish immigrants in Germany sent money back home, but now cash transfers are increasingly flowing from Turkey to Germany due to Turkey's economic growth and Germany's euro zone crisis. Western Union reports that 20% of its transfers are now from Turkey to Germany, with new client groups also emerging from other crisis-affected European countries.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311864"
+        },
+        {
+          "relevance_score": "0.636912",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101499"
+        },
+        {
+          "relevance_score": "0.639517",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115749"
+        },
+        {
+          "relevance_score": "0.610890",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102672"
+        },
+        {
+          "relevance_score": "0.623717",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.145358"
+        }
+      ],
+      "time_published": "20130131T135636",
+      "title": "How Family Cash Between Germany And Turkey Started Flowing East-To-West",
+      "topics": [
+        {
+          "relevance_score": "0.815026",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.701936",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://worldcrunch.com/business-finance/how-family-cash-between-germany-and-turkey-started-flowing-east-to-west/"
+    },
+    {
+      "authors": [
+        "Business Wire"
+      ],
+      "banner_image": "https://s.yimg.com/ny/api/res/1.2/YO9Z_csII6Mb2TlK_Pzzcw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtjZj13ZWJw/https://o.aolcdn.com/images/dar/5845cadfecd996e0372f/54d913170327d9ab8921215cb4f7232d2ae0e01c/aHR0cDovL2N0cy5idXNpbmVzc3dpcmUuY29tL2N0L0NUP2lkPWJ3bmV3cyZzdHk9MjAxMzAxMDcwMDcxMjZyMSZzaWQ9NDAyNDEmZGlzdHJvPWZ0cA==",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.216711,
+      "source": "Yahoo",
+      "source_domain": "Yahoo",
+      "summary": "Public Storage (NYS: PSA) announced the pricing of a public offering of 18,000,000 depositary shares at $25.00 per share, each representing 1/1,000 of a 5.20% Cumulative Preferred Share of Beneficial Interest, Series W. This offering is expected to generate $450 million in gross proceeds, which will be used to repay outstanding debt under its revolving credit facility and for general corporate purposes, including investments in self-storage facilities. The offering is expected to close around January 16, 2013, with Merrill Lynch, Morgan Stanley, UBS Securities, and Wells Fargo Securities acting as joint book-running managers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PSA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.359972"
+        },
+        {
+          "relevance_score": "0.615986",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148061"
+        },
+        {
+          "relevance_score": "0.641060",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145358"
+        }
+      ],
+      "time_published": "20130108T012000",
+      "title": "Public Storage Announces Pricing of 5.20% Cumulative Preferred Shares of Beneficial Interest, Series",
+      "topics": [
+        {
+          "relevance_score": "0.922363",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.826157",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.yahoo.com/2013-01-07-public-storage-announces-pricing-of-520-cumulative.html"
+    }
+  ],
+  "items": "87",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,1388 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.253661,
+      "source": "KTVU",
+      "source_domain": "KTVU",
+      "summary": "Four former tech executives have been charged with stealing trade secrets from Silicon Valley semiconductor chip equipment manufacturer Applied Materials. The indictment alleges that Liang Chen, Donald Olgado, Wei-Yung Hsu, and Robert Ewald conspired to use the stolen secrets to form a new company that would compete with Applied Materials. The secrets pertained to high-volume manufacturing of semiconductor wafers, a technology developed through extensive research and investment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.250428"
+        }
+      ],
+      "time_published": "20171209T094100",
+      "title": "4 former tech executives accused of stealing trade secrets from applied materials",
+      "topics": [
+        {
+          "relevance_score": "0.945701",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.702591",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ktvu.com/news/4-former-tech-executives-accused-of-stealing-trade-secrets-from-applied-materials"
+    },
+    {
+      "authors": [
+        "Bay City News Service"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.648899,
+      "source": "SFGATE",
+      "source_domain": "SFGATE",
+      "summary": "Four former tech executives have been charged with stealing trade secrets from Applied Materials, a Santa Clara-based semiconductor chip equipment manufacturer. The indictment alleges that Liang Chen, Donald Olgado, Wei-Yung Hsu, and Robert Ewald conspired to steal trade secrets related to high-volume manufacturing of semiconductor wafers to start a competing company. The stolen information reportedly included over 16,000 drawings from a confidential engineering database.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.626043"
+        }
+      ],
+      "time_published": "20171209T035125",
+      "title": "4 former tech execs accused of stealing trade secrets from Applied Materials",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.837007",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.733533",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.sfgate.com/news/bayarea/article/Former-tech-stealing-secrets-Applied-Materials-12418263.php"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.marketbeat.com/logos/thumbnail/invesco-sp-500-equal-weight-consumer-discretionary-etf-logo.jpg?v=20210824092236",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.032801,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "This article provides details on the Invesco S&P 500 Equal Weight Consumer Discretionary ETF (NYSEARCA:RCD), including its price, holdings, and news. It outlines the ETF's objective to replicate the S&P Equal Weight Index Consumer Discretionary, its management strategy, and key financial metrics like assets under management and expense ratio. The article also lists the top holdings, sector exposure, and recent news headlines related to the ETF.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.313785",
+          "ticker": "RSPD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045042"
+        },
+        {
+          "relevance_score": "0.608613",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.036741"
+        },
+        {
+          "relevance_score": "0.625385",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040940"
+        },
+        {
+          "relevance_score": "0.616627",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002432"
+        },
+        {
+          "relevance_score": "0.626650",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041194"
+        }
+      ],
+      "time_published": "20171208T223952",
+      "title": "Invesco S&P 500 Equal Weight Consumer Discretionary ETF ETF Price, Holdings, & News (NYSEARCA:RCD)",
+      "topics": [
+        {
+          "relevance_score": "0.910814",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.700004",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.608503",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/NYSEARCA/RCD/"
+    },
+    {
+      "authors": [
+        "Michael Kramer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.411571,
+      "source": "Taiwan Semiconductor",
+      "source_domain": "Taiwan Semiconductor",
+      "summary": "TSMC held its 17th annual Supply Chain Management Forum to thank its global suppliers for their contributions, particularly in 10nm capacity ramp and 7nm technology development. Over 700 suppliers participated, and TSMC recognized twelve outstanding suppliers with the Excellent Performance Award. The event highlighted the importance of collaboration for innovation in the semiconductor industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430710"
+        },
+        {
+          "relevance_score": "0.864070",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400138"
+        },
+        {
+          "relevance_score": "0.716182",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438295"
+        },
+        {
+          "relevance_score": "0.550475",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336558"
+        }
+      ],
+      "time_published": "20171207T035125",
+      "title": "TSMC Recognizes Outstanding Suppliers at Supply Chain Management Forum",
+      "topics": [
+        {
+          "relevance_score": "0.842249",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.837740",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://esg.tsmc.com/en/update/responsibleSupplyChain/caseStudy/5/index.html"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.marketbeat.com/images/master/MarketBeat-logo-r-white.svg?v=2019",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.097221,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "The Invesco Dorsey Wright Emerging Markets Momentum ETF (PIE) is based on the Dorsey Wright Emerging Markets Technical Leaders Index, investing in approximately 100 companies from emerging markets with strong relative strength characteristics. The ETF manages $124.04 million in assets and has a net expense ratio of 0.90%, with recent performance showing a 5.6% increase year-to-date in 2026. Key holdings include companies like Accton Technology Corporation and Taiwan Semiconductor Manufacturing Company Limited.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PIE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096382"
+        },
+        {
+          "relevance_score": "0.620074",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148013"
+        },
+        {
+          "relevance_score": "0.623288",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146011"
+        }
+      ],
+      "time_published": "20171206T195810",
+      "title": "Invesco Dorsey Wright Emerging Markets Momentum ETF ETF Price, Holdings, & News (NASDAQ:PIE)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.847038",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PIE/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.152579,
+      "source": "TrendForce",
+      "source_domain": "TrendForce",
+      "summary": "TrendForce reports that the global semiconductor foundry revenue is projected to hit $57.3 billion in 2017, marking a 7.1% increase from 2016. TSMC maintained its top position with a dominant market share of 55.9%, followed by GLOBALFOUNDRIES and UMC. The report highlights the growing importance of advanced process technologies like 10nm and the anticipated impact of 7nm nodes and 3rd-generation semiconductor materials in the coming year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.801439",
+          "ticker": "TSEM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273076"
+        },
+        {
+          "relevance_score": "0.606248",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.090002"
+        },
+        {
+          "relevance_score": "0.636102",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101862"
+        },
+        {
+          "relevance_score": "0.604895",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.182605"
+        },
+        {
+          "relevance_score": "0.584808",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149320"
+        }
+      ],
+      "time_published": "20171129T053655",
+      "title": "TrendForce Reports Top 10 Ranking of Global Semiconductor Foundries of 2017, TSMC Ranks First with Market Share of 55.9%",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.942772",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.821910",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.trendforce.com/presscenter/news/20171129-9922.html"
+    },
+    {
+      "authors": [
+        "Kiyotaka Matsuda"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.373398,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "KKR & Co. has raised its offer for Hitachi Kokusai Electric Inc. a second time to 3,132 yen per share, valuing the company at approximately $3 billion. This increased bid comes after a rally in the chip-systems maker's shares and calls for a higher price from investors, including Elliott Management Corp.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.997340",
+          "ticker": "KKR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307712"
+        },
+        {
+          "relevance_score": "0.647127",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.379499"
+        }
+      ],
+      "time_published": "20171124T034200",
+      "title": "KKR Lifts Hitachi Kokusai Bid a Second Time as Shares Rally",
+      "topics": [
+        {
+          "relevance_score": "0.901489",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.714935",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.621594",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2017-11-24/kkr-raises-hitachi-kokusai-offer-by-8-to-3-132-yen-a-share"
+    },
+    {
+      "authors": [
+        "NULL"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.110244,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "This article provides a comprehensive overview of New England Realty Associates Limited Partnership (NEN), including its stock price, company profile, key statistics, and recent news headlines. It details the company's real estate activities, its current market performance, and upcoming financial calendar events like dividend distributions and earnings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NEN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.081581"
+        },
+        {
+          "relevance_score": "0.643938",
+          "ticker": "STT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116900"
+        },
+        {
+          "relevance_score": "0.617304",
+          "ticker": "STX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133547"
+        },
+        {
+          "relevance_score": "0.610479",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137092"
+        },
+        {
+          "relevance_score": "0.620757",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128087"
+        }
+      ],
+      "time_published": "20171117T080958",
+      "title": "New England Realty Associates Limited Partnership (NEN) Stock Price, News & Analysis",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.900794",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.849392",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/NYSEAMERICAN/NEN/"
+    },
+    {
+      "authors": [
+        "Lisa Wang"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.138574,
+      "source": "Taipei Times",
+      "source_domain": "Taipei Times",
+      "summary": "C.C. Wei, cochief executive of TSMC and director-general of the Taiwan Semiconductor Industry Association (TSIA), warned that Taiwan's semiconductor industry faces escalating global competition and challenges from China's rising chip industry. He emphasized that while artificial intelligence presents significant opportunities, Taiwanese companies must differentiate themselves technologically and politically, TSIA will work with the government to ensure a stable supply of resources and talent. Companies like Powertech Technology Inc. are urged to consolidate and innovate to combat increasing competition from Chinese rivals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.246889"
+        },
+        {
+          "relevance_score": "0.643041",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.122284"
+        },
+        {
+          "relevance_score": "0.609157",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.137470"
+        },
+        {
+          "relevance_score": "0.620266",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.111799"
+        },
+        {
+          "relevance_score": "0.644051",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128055"
+        }
+      ],
+      "time_published": "20171116T053659",
+      "title": "Firms face China challenge: C.C. Wei",
+      "topics": [
+        {
+          "relevance_score": "0.807171",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.821569",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.745838",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.taipeitimes.com/News/front/archives/2017/11/16/2003682354"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.301403,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "Atomic Layer Etch (ALE) technology, after years in R&D, is now shipping from several fab tool vendors and is crucial for advanced nodes like 10/7nm and beyond. The industry is exploring various ALE approaches, including plasma ALE for anisotropic etches and thermal ALE for isotropic etches, with a focus on selective removal of materials at the atomic scale without damaging surrounding structures. While plasma ALE is in production, thermal ALE and hybrid approaches are still in early stages, facing challenges in cost and throughput but offering solutions for increasingly complex 3D structures and future applications like selective deposition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405091"
+        },
+        {
+          "relevance_score": "0.875804",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302358"
+        },
+        {
+          "relevance_score": "0.765191",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327456"
+        },
+        {
+          "relevance_score": "0.626229",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104709"
+        }
+      ],
+      "time_published": "20171116T035125",
+      "title": "What\u2019s Next For Atomic Layer Etch?",
+      "topics": [
+        {
+          "relevance_score": "0.934781",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.743280",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://semiengineering.com/whats-next-for-atomic-layer-etch/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.283713,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "The Semiconductor Industry Association (SIA) announced the election of Matt Murphy, President and CEO of Marvell Semiconductor, Inc., as its 2018 Chair, and Sanjay Mehrotra, President and CEO of Micron Technology, Inc., as its 2018 Vice Chair. Murphy highlighted the importance of U.S. support for research, competitiveness, and global trade for continued progress in the semiconductor industry. Mehrotra emphasized unifying efforts through SIA to maintain U.S. leadership in semiconductor manufacturing, design, and research.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRVL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423242"
+        },
+        {
+          "relevance_score": "0.863680",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318925"
+        },
+        {
+          "relevance_score": "0.624781",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283371"
+        },
+        {
+          "relevance_score": "0.597294",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231936"
+        },
+        {
+          "relevance_score": "0.590732",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200006"
+        }
+      ],
+      "time_published": "20171114T161500",
+      "title": "Marvell Semiconductor President and CEO Matt Murphy Elected Chair of SIA",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.729571",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.638528",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/marvell-semiconductor-president-and-ceo-matt-murphy-elected-chair-of-sia-300555832.html"
+    },
+    {
+      "authors": [
+        "Evangeline_H"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.090274,
+      "source": "LEDinside",
+      "source_domain": "LEDinside",
+      "summary": "The iPhone X is reportedly experiencing a hardware issue where a vertical green line appears on its OLED display, leading to speculation that it might be an electrical flaw or related to the RGB sub-pixel pattern. This issue is reminiscent of a similar problem faced by the Samsung Galaxy S7 and highlights potential quality control challenges for OLED technology as its popularity grows. Apple has not yet officially responded, though some users have had their phones replaced.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.984291",
+          "ticker": "OLED",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128854"
+        },
+        {
+          "relevance_score": "0.944439",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.280988"
+        },
+        {
+          "relevance_score": "0.581400",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131870"
+        }
+      ],
+      "time_published": "20171114T145400",
+      "title": "Uncanny Green Line on iPhone X OLED Display",
+      "topics": [
+        {
+          "relevance_score": "0.832981",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ledinside.com/news/2017/11/uncanny_green_line_on_iphone_x_oled_display"
+    },
+    {
+      "authors": [
+        "Iain"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.312698,
+      "source": "Manufacturing Today",
+      "source_domain": "Manufacturing Today",
+      "summary": "Shields Manufacturing Inc. differentiates itself through its ability to effectively machine diverse materials like plastics and metals, developing unique processes for high-volume production. The company, founded in 1991, emphasizes a culture of quality, sustained growth in the semiconductor market (48% in 2013, 17% in 2014, 31% in 2015), and plans for continued expansion including a second business unit and increased production capacity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.729828",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328820"
+        },
+        {
+          "relevance_score": "0.633769",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272894"
+        }
+      ],
+      "time_published": "20171030T035125",
+      "title": "Shields Manufacturing Inc.",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.817018",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.638154",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://manufacturing-today.com/news/shields-manufacturing-inc/"
+    },
+    {
+      "authors": [
+        "Andrew Wade"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.262786,
+      "source": "The Engineer",
+      "source_domain": "The Engineer",
+      "summary": "Chandrakant Patel, chief engineer for HP Inc, discusses the convergence of hardware and software in the \"cyber-physical\" age and the importance of engineering fundamentals. He highlights HP's Jet Fusion 3D printing technology as a key example of this new era, emphasizing its potential for full-blown manufacturing beyond prototyping. Patel also stresses the necessity of combining traditional engineering skills with contemporary software knowledge, especially domain knowledge for machine learning.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.482276"
+        },
+        {
+          "relevance_score": "0.649763",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146666"
+        },
+        {
+          "relevance_score": "0.616874",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106760"
+        }
+      ],
+      "time_published": "20171012T043708",
+      "title": "Interview: Chandrakant Patel, chief engineer for HP Inc",
+      "topics": [
+        {
+          "relevance_score": "0.935207",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.809532",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theengineer.co.uk/content/interviews/interview-chandrakant-patel-chief-engineer-for-hp-inc"
+    },
+    {
+      "authors": [
+        "Chris Lange"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.168528,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "Short interest in major semiconductor stocks decreased significantly in July, reflecting a strong rally in the tech sector and overall markets. While most companies saw a reduction in short positions, Advanced Micro Devices (AMD) was an exception with an increase in short interest. This trend suggests waning bearish sentiment for the semiconductor industry as leading indicators point to broader economic strength.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.247620"
+        },
+        {
+          "relevance_score": "0.931225",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231320"
+        },
+        {
+          "relevance_score": "0.718942",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248915"
+        },
+        {
+          "relevance_score": "0.646725",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.284032"
+        },
+        {
+          "relevance_score": "0.641045",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225332"
+        }
+      ],
+      "time_published": "20170810T092000",
+      "title": "Short Sellers Back Way Off Major Semiconductors",
+      "topics": [
+        {
+          "relevance_score": "0.924756",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.846876",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://247wallst.com/technology-3/2017/08/10/short-sellers-back-way-off-major-semiconductors/?utm_source=robinhood"
+    },
+    {
+      "authors": [
+        "Nevada Business Mag"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.077234,
+      "source": "Nevada Business Magazine",
+      "source_domain": "Nevada Business Magazine",
+      "summary": "This article discusses the growth spurt in Nevada's manufacturing industry, highlighting challenges and opportunities identified by industry leaders. Key issues include workforce shortages due to rapid expansion and competition from large companies like Tesla and Panasonic, as well as regulatory hurdles. Automation is presented as a significant factor in increasing efficiency and enabling companies to remain competitive in the US.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314933",
+          "ticker": "AIT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.036538"
+        },
+        {
+          "relevance_score": "0.606536",
+          "ticker": "PPG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118729"
+        },
+        {
+          "relevance_score": "0.895104",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.205117"
+        },
+        {
+          "relevance_score": "0.613733",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.076381"
+        },
+        {
+          "relevance_score": "0.648250",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344996"
+        }
+      ],
+      "time_published": "20170801T035110",
+      "title": "Industry Focus: Manufacturing",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.833388",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.619532",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://nevadabusiness.com/2017/08/industry-focus-manufacturing-2/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.372544,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Entegris, Inc. has launched a new suite of ultraclean filtration solutions designed for fine chemical and semiconductor manufacturing. These new filters, including Torrento\u00ae X 7 nm, Guardian\u2122 PS 1 nm, and the Trinzik\u2122 product lines, are engineered to reduce chemical waste, improve cost-of-ownership, and offer superior contamination control by capturing more contaminants. Customer testing has demonstrated faster start-up times and increased yields for semiconductor manufacturers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ENTG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407836"
+        },
+        {
+          "relevance_score": "0.637489",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324800"
+        }
+      ],
+      "time_published": "20170712T070000",
+      "title": "Entegris Announces Single Ultraclean Filtration Solution For Fine Chemical And Semiconductor Manufacturing",
+      "topics": [
+        {
+          "relevance_score": "0.905611",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.827127",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/entegris-announces-single-ultraclean-filtration-solution-for-fine-chemical-and-semiconductor-manufacturing-300486360.html"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.216267,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The semiconductor industry is facing increasing challenges with contacts and interconnects (BEOL/MOL) at advanced nodes like 7nm and 5nm due to rising resistance and cost. New solutions are emerging, including the potential migration from tungsten to cobalt for MOL contacts, the use of cobalt as a replacement for copper in some BEOL layers, and the insertion of extreme ultraviolet (EUV) lithography to simplify process flows. These developments are crucial for continued transistor scaling and chip performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.915590",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338169"
+        },
+        {
+          "relevance_score": "0.744644",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234968"
+        },
+        {
+          "relevance_score": "0.647932",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118196"
+        },
+        {
+          "relevance_score": "0.611913",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249805"
+        }
+      ],
+      "time_published": "20170615T035125",
+      "title": "New BEOL/MOL Breakthroughs?",
+      "topics": [
+        {
+          "relevance_score": "0.931697",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.818325",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://semiengineering.com/new-beolmol-breakthroughs/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.316887,
+      "source": "The US-China Business Council",
+      "source_domain": "The US-China Business Council",
+      "summary": "The US-China Business Council (USCBC) announced the election of Evan Greenberg, Chairman and CEO of Chubb, as its new Chair. The council also elected new officers and board directors from prominent companies like Applied Materials, Coca-Cola, and PepsiCo. Greenberg emphasized USCBC's mission to advocate for greater US business access to China and support Chinese investment in the US, with the goal of creating more American jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.739931",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118334"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CB",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409303"
+        },
+        {
+          "relevance_score": "0.701131",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344470"
+        },
+        {
+          "relevance_score": "0.719535",
+          "ticker": "TMO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338834"
+        }
+      ],
+      "time_published": "20170607T035125",
+      "title": "Chubb CEO Evan Greenberg elected Chair of the US-China Business Council",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.605269",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.648127",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.631174",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.uschina.org/news-releases/chubb-ceo-evan-greenberg-elected-chair-of-the-us-china-business-council/"
+    },
+    {
+      "authors": [
+        "Dan Gallagher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.497737,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Applied Materials, a semiconductor-tool maker, reported a strong quarterly performance, easing investor concerns about its growth trajectory. The company saw significant increases in revenue and operating income, with operating margins reaching a seven-year high. This performance demonstrates continued robust demand for its semiconductor manufacturing equipment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.456880"
+        }
+      ],
+      "time_published": "20170518T035125",
+      "title": "Applied Materials: Plenty of Flash Left in the Pan",
+      "topics": [
+        {
+          "relevance_score": "0.911525",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.814556",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.705298",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/applied-materials-plenty-of-flash-left-in-the-pan-1495145542?gaa_at=eafs&gaa_n=AWEtsqcflvpgNFRdEkpGLM1Lem8GfYZyPqTX9MPNF4yYGW4knYFChbyBd6CZ&gaa_ts=690829f0&gaa_sig=2YEGK7cvM4xqhZB2KJNOiMC82DwJu2yqCuvyB3YHQ4y8gfxY7EN0vzI_7nvPPFwABMlHd8pkFjI9NSfHlSgFkQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.367907,
+      "source": "Finviz",
+      "source_domain": "Finviz",
+      "summary": "This article provides detailed stock information for SOXS, the Direxion Daily Semiconductor Bear 3X Shares ETF, as of its last close on December 18. It includes financial data, performance metrics, and a list of news articles related to the ETF, highlighting its leveraged inverse position against the semiconductor market. The ETF aims to achieve 300% of the inverse daily performance of the ICE Semiconductor Index.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SOXS",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.634837"
+        },
+        {
+          "relevance_score": "0.835109",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.439108"
+        },
+        {
+          "relevance_score": "0.649891",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.249835"
+        },
+        {
+          "relevance_score": "0.613967",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.244537"
+        },
+        {
+          "relevance_score": "0.612046",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.204335"
+        }
+      ],
+      "time_published": "20170424T131133",
+      "title": "SOXS - Direxion Daily Semiconductor Bear 3X Shares Stock Price and Quote",
+      "topics": [
+        {
+          "relevance_score": "0.949580",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.847571",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.742385",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://finviz.com/quote.ashx?t=SOXS"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.351841,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "Ultratech reported a significant increase in sales and swung into profit for its latest financial quarter, with revenues jumping 27% year-on-year to $57.4 million. This positive momentum comes shortly before Veeco Instruments is set to complete its $815 million acquisition of Ultratech. The company saw strong demand for its laser spike annealing systems and introduced a new laser melt anneal system, contributing to its financial recovery.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VECO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.483185"
+        },
+        {
+          "relevance_score": "0.615757",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309578"
+        },
+        {
+          "relevance_score": "0.576695",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.293990"
+        },
+        {
+          "relevance_score": "0.584585",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266894"
+        }
+      ],
+      "time_published": "20170421T054147",
+      "title": "Ultratech sales spike ahead of Veeco deal closure",
+      "topics": [
+        {
+          "relevance_score": "0.946613",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.820606",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.720420",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.607615",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://optics.org/news/8/4/34"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.300227,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The article discusses the growing electrochemical deposition (ECD) equipment market for IC packaging, driven by the ramp-up of 2.5D, 3D, and fan-out technologies. It highlights the challenges in ECD, such as depositing uniform and void-free metals at reasonable speeds for different interconnect structures like bumps, copper pillars, RDLs, and TSVs. The piece also details various ECD applications and the solutions offered by key equipment manufacturers like Applied Materials, Lam Research, and ClassOne Technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400537"
+        },
+        {
+          "relevance_score": "0.860550",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324303"
+        },
+        {
+          "relevance_score": "0.749412",
+          "ticker": "TEL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334847"
+        },
+        {
+          "relevance_score": "0.637934",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289279"
+        },
+        {
+          "relevance_score": "0.578230",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245607"
+        }
+      ],
+      "time_published": "20170410T035125",
+      "title": "Electroplating IC Packages",
+      "topics": [
+        {
+          "relevance_score": "0.904095",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.832686",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/electroplating-ic-packages/"
+    },
+    {
+      "authors": [
+        "Elektor Team"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19206,
+      "source": "Elektor Magazine",
+      "source_domain": "Elektor Magazine",
+      "summary": "Arrow Electronics is showcasing a range of products and services at Embedded World 2017 designed to help makers transform their ideas into production, highlighting new 96Boards products and online design tools. The company is also demonstrating its collaboration with Indiegogo to provide critical resources to entrepreneurs and offering a free, cloud-based version of Cadence OrCAD Capture for design engineers. Arrow will also feature its IoT solutions, including the SmartEverything IoT board and a new entry-level ARIS IoT platform variant.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ARW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.442264"
+        },
+        {
+          "relevance_score": "0.707506",
+          "ticker": "CDNS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.267583"
+        },
+        {
+          "relevance_score": "0.612919",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104019"
+        },
+        {
+          "relevance_score": "0.553798",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134840"
+        },
+        {
+          "relevance_score": "0.593026",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113444"
+        }
+      ],
+      "time_published": "20170310T035201",
+      "title": "Arrow showcases tools to aid journey from maker to production at Embedded World",
+      "topics": [
+        {
+          "relevance_score": "0.900156",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.elektormagazine.com/news/arrows-showcases-tools-to-aid-journey-from-maker-to-production"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.23734,
+      "source": "Applied Materials",
+      "source_domain": "Applied Materials",
+      "summary": "Applied Materials, Inc. announced the appointment of Thomas J. Iannotti as chairman of its Board of Directors, effective immediately, succeeding Willem P. Roelandts. Iannotti, who joined the board in 2005, brings over three decades of experience in the electronics industry, including a tenure as an executive at Hewlett-Packard Company. The company highlighted his deep knowledge and strong industry and governance experience as assets for leading the board during a period of significant innovation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400554"
+        },
+        {
+          "relevance_score": "0.612439",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108627"
+        },
+        {
+          "relevance_score": "0.624357",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113668"
+        }
+      ],
+      "time_published": "20170309T151600",
+      "title": "Applied Materials Names Thomas J. Iannotti Chairman of the Board of Directors",
+      "topics": [
+        {
+          "relevance_score": "0.810431",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-names-thomas-j-iannotti-chairman-board/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.569258,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Super Micro Computer, Inc. announced the opening of its new LEED Gold Certified distribution and final assembly center in Silicon Valley, which includes on-site clean fuel-cell electricity generation. This 182,000 square foot facility is the first of five new production hubs within Supermicro's Green Computing Park, expanding its existing 1.5 million square foot headquarters. The facility will generate its own clean fuel-cell based electricity, saving over $30 million in energy costs over 10 years and significantly reducing CO2 emissions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SMCI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.735133"
+        },
+        {
+          "relevance_score": "0.555791",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445426"
+        }
+      ],
+      "time_published": "20170308T070000",
+      "title": "Supermicro's Silicon Valley State-of-the-Art Server and Storage Manufacturing Facilities Go Green",
+      "topics": [
+        {
+          "relevance_score": "0.900185",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.838691",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.701144",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.631586",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/supermicros-silicon-valley-state-of-the-art-server-and-storage-manufacturing-facilities-go-green-300420034.html"
+    },
+    {
+      "authors": [
+        "Ryan Randazzo",
+        "and Jerod MacDonald-Evoy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.366527,
+      "source": "azcentral.com and The Arizona Republic",
+      "source_domain": "azcentral.com and The Arizona Republic",
+      "summary": "Intel Corp. announced a $7 billion investment to complete its Fab 42 facility in Chandler, Arizona, which was previously mothballed in 2014. This investment is expected to bring 3,000 new Intel jobs and an additional 7,000 related contractor and supplier jobs to the area. The facility will be used for advanced 7-nanometer computer chip manufacturing, powering technologies like artificial intelligence and advanced transportation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.485848"
+        },
+        {
+          "relevance_score": "0.618945",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347752"
+        },
+        {
+          "relevance_score": "0.553872",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265124"
+        }
+      ],
+      "time_published": "20170208T044149",
+      "title": "Intel says it's investing $7B in Chandler facility, bringing 3K jobs",
+      "topics": [
+        {
+          "relevance_score": "0.937751",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.810279",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.726145",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.636068",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.azcentral.com/story/money/business/jobs/2017/02/08/intel-says-s-investing-7b-chandler-facility-bringing-3000-jobs-fab-42/97648708/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.360418,
+      "source": "Panasonic Newsroom Global",
+      "source_domain": "Panasonic Newsroom Global",
+      "summary": "Panasonic Semiconductor Solutions Co., Ltd. (PSCS) and United Microelectronics Corporation (UMC) have agreed to jointly develop a mass production process for 40nm next-generation ReRAM. This collaboration will integrate PSCS's ReRAM process technologies with UMC's CMOS process, enabling ReRAM to be used as embedded memories in various system devices. Product samples are expected to ship in 2018, with PSCS aiming to be the first to mass produce in the industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UMC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427849"
+        },
+        {
+          "relevance_score": "0.645638",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345456"
+        }
+      ],
+      "time_published": "20170201T053727",
+      "title": "Panasonic and United Microelectronics Corporation Agreed to Develop Mass Production Process for Next Generation ReRAM | Devices | Products & Solutions | Press Releases",
+      "topics": [
+        {
+          "relevance_score": "0.906153",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.panasonic.com/global/press/en170201-3"
+    }
+  ],
+  "items": "28",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

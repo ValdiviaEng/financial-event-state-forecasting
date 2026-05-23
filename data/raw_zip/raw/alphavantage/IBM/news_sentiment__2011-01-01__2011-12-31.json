@@ -1,0 +1,1634 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "JOSHUA FREED",
+        "ASSOCIATED PRESS"
+      ],
+      "banner_image": "https://s.hdnux.com/photos/11/47/45/2536780/5/rawImage.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.354519,
+      "source": "San Antonio Express-News",
+      "source_domain": "San Antonio Express-News",
+      "summary": "Technology stocks, particularly Oracle Corp., experienced a decline after a weak earnings report, raising concerns about broader weak government and business spending. This downturn occurred despite pre-holiday optimism in European markets due to significant lending from the European Central Bank, though worry later set in about the underlying need for such assistance. The Dow Jones industrial average saw minimal gains, while the Nasdaq composite fell, and oil prices rose due to a larger-than-expected drop in U.S. crude supplies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.938763",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.303729"
+        },
+        {
+          "relevance_score": "0.738000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.423847"
+        }
+      ],
+      "time_published": "20111221T194100",
+      "title": "Tech stocks an Oracle of bad tidings",
+      "topics": [
+        {
+          "relevance_score": "0.915396",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.824856",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.822159",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.743982",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.614903",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.expressnews.com/us-world/article/tech-stocks-an-oracle-of-bad-tidings-2418379.php"
+    },
+    {
+      "authors": [
+        "Christian Sandstr\u00f6m"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.126898,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "This article examines why Kodak, despite anticipating the shift to digital photography and even pioneering some digital technologies, ultimately failed to adapt and thrive in the new market. It highlights Kodak's core business being film processing (\"doing the rest\"), which became obsolete with digital imaging, and how its former competitive advantages turned into liabilities. The piece argues that the company's vertically integrated film business model could not successfully transition to the low-margin digital camera market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KODK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.639315"
+        },
+        {
+          "relevance_score": "0.716331",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126245"
+        },
+        {
+          "relevance_score": "0.642248",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125421"
+        },
+        {
+          "relevance_score": "0.600519",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134415"
+        }
+      ],
+      "time_published": "20111209T170608",
+      "title": "You Press the Button. Kodak Used to Do the Rest.",
+      "topics": [
+        {
+          "relevance_score": "0.815273",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.931501",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.628794",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2011/12/09/189254/you-press-the-button-kodak-used-to-do-the-rest/"
+    },
+    {
+      "authors": [
+        "Bryon Moyer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.20781,
+      "source": "EEJournal",
+      "source_domain": "EEJournal",
+      "summary": "This article discusses the \"gate first\" versus \"gate last\" manufacturing process for MOS transistors, a debate that has significant implications for semiconductor companies. It highlights GLOBALFOUNDRIES' decision to stick with a \"gate first\" approach for their 28nm node while competitors mostly adopted \"gate last\" earlier, and explores the technical challenges and advantages of each method, particularly concerning reliability and area density. The author sits down with GLOBALFOUNDRIES\u2019 Jim Ballingall to understand their strategy and claims of overcoming \"gate first\" challenges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GFS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.269250"
+        },
+        {
+          "relevance_score": "0.646007",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122718"
+        }
+      ],
+      "time_published": "20111114T164619",
+      "title": "Gate First vs. Last",
+      "topics": [
+        {
+          "relevance_score": "0.812447",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.eejournal.com/article/20111114-gate/"
+    },
+    {
+      "authors": [
+        "John Goff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.2077,
+      "source": "InvestmentNews",
+      "source_domain": "InvestmentNews",
+      "summary": "Investors are pouring money into REIT mutual funds, reaching a five-year high in net inflows, as they seek higher yields amidst economic uncertainty and low-interest rate environments. The article explores the appeal of REITs due to their income generation, dividend growth, and inflation protection, despite some concerns about potential recessionary impacts on commercial real estate. Experts discuss the varied performance outlook for different property types and the importance of cash flow and long leases for weathering economic slowdowns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.917670",
+          "ticker": "C",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227951"
+        },
+        {
+          "relevance_score": "0.648364",
+          "ticker": "EQR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321565"
+        },
+        {
+          "relevance_score": "0.644754",
+          "ticker": "AVB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345153"
+        },
+        {
+          "relevance_score": "0.565555",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.142302"
+        }
+      ],
+      "time_published": "20111114T162109",
+      "title": "No ceiling for REIT mutual funds, as investors pile in",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.904641",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.849935",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.720062",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.646939",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.investmentnews.com/alternatives/no-ceiling-for-reit-mutual-funds-as-investors-pile-in/38844"
+    },
+    {
+      "authors": [
+        "Shruti Sabharwal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.153372,
+      "source": "The Economic Times",
+      "source_domain": "The Economic Times",
+      "summary": "Wipro Technologies is merging its global and domestic IT infrastructure management services businesses to streamline operations and reduce overlap. This move aims to present a unified \"One Wipro\" front to clients and leverage domestic expertise globally. Anand Sankaran will head the combined unit, reporting to him will be Deepak Jain, the former head of the technology infrastructure management business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WIT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320144"
+        },
+        {
+          "relevance_score": "0.700376",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102546"
+        },
+        {
+          "relevance_score": "0.613530",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142929"
+        },
+        {
+          "relevance_score": "0.641410",
+          "ticker": "CTSH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116258"
+        }
+      ],
+      "time_published": "20111027T180806",
+      "title": "Wipro Technologies to restructure IT infrastructure business by merging domestic, global functions",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.912126",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.644194",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://m.economictimes.com/tech/ites/wipro-technologies-to-restructure-it-infrastructure-business-by-merging-domestic-global-functions/articleshow/10503119.cms"
+    },
+    {
+      "authors": [
+        "Globe and Mail Update"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.12216,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Sam Palmisano will step down as CEO of IBM at the end of 2011, handing the role to global sales chief Virginia Rometty. Palmisano, who transformed IBM over nearly a decade from a PC hardware company to a services behemoth, will remain chairman. Rometty's appointment sets her up as a powerful woman in technology, rivaling Hewlett-Packard CEO Meg Whitman.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120397"
+        }
+      ],
+      "time_published": "20111025T165613",
+      "title": "IBM's Palmisano relinquishes CEO job",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/globe-investor/ibms-palmisano-relinquishes-ceo-job/article1359043/"
+    },
+    {
+      "authors": [
+        "Bloomberg News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.308931,
+      "source": "Crain's New York Business",
+      "source_domain": "Crain's New York Business",
+      "summary": "Virginia \"Ginni\" Rometty has been named the next CEO of IBM, becoming the first female chief executive in the company's 100-year history. She will take over from Sam Palmisano, effective January 1, 2012. Rometty, currently IBM's head of sales and marketing, is recognized for her role in integrating the PwC Consulting acquisition and expanding relationships with major clients.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307704"
+        }
+      ],
+      "time_published": "20111025T120000",
+      "title": "IBM names Rometty first female CEO",
+      "topics": [
+        {
+          "relevance_score": "0.900885",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738887",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.crainsnewyork.com/article/20111025/TECHNOLOGY/111029928/ibm-names-rometty-first-female-ceo"
+    },
+    {
+      "authors": [
+        "ANICK JESDANUN"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.197967,
+      "source": "Claims Journal",
+      "source_domain": "Claims Journal",
+      "summary": "The Internet Corporation for Assigned Names and Numbers (ICANN) has taken over the Time Zone Database, a crucial resource for computers and websites worldwide. This move comes after the database was removed from a U.S. government server due to a copyright infringement lawsuit. ICANN's management aims to ensure the stability and continued operation of this essential internet component, despite ongoing legal challenges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.606440",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236626"
+        },
+        {
+          "relevance_score": "0.602768",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240438"
+        },
+        {
+          "relevance_score": "0.633930",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139053"
+        },
+        {
+          "relevance_score": "0.556925",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123870"
+        }
+      ],
+      "time_published": "20111017T172604",
+      "title": "Time Zone Database Has New Home After Lawsuit",
+      "topics": [
+        {
+          "relevance_score": "0.824140",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.claimsjournal.com/news/national/2011/10/17/193148.htm"
+    },
+    {
+      "authors": [
+        "Ed Taylor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.396527,
+      "source": "East Valley Tribune",
+      "source_domain": "East Valley Tribune",
+      "summary": "Avnet has opened a new $26 million technology center in Chandler to build and supply complex computer and server systems to customers across North America. The Avnet Global Solutions Center employs 250 personnel and has the capacity to build and ship over 700,000 technology systems annually, custom-made for various industries. Despite economic slowdowns, Avnet has not seen a decrease in demand for its computer-integration services, highlighting its efficiency and partnership model with customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.843793"
+        },
+        {
+          "relevance_score": "0.728208",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222193"
+        },
+        {
+          "relevance_score": "0.639946",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117573"
+        }
+      ],
+      "time_published": "20111008T161127",
+      "title": "Avnet opens $26M tech center in Chandler",
+      "topics": [
+        {
+          "relevance_score": "0.832555",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.712948",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.642435",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.eastvalleytribune.com/money/avnet-opens-26m-tech-center-in-chandler/article_80e14224-f87c-52ff-9c83-2f6024961b83.html"
+    },
+    {
+      "authors": [
+        "IBM"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.354454,
+      "source": "Phys.org",
+      "source_domain": "Phys.org",
+      "summary": "IBM and 3M Corp. are collaborating to develop new electronic adhesives for creating 3D semiconductor \"towers,\" enabling microprocessors 1,000 times more powerful than current PC chips. This innovation aims to address critical technical challenges in 3D packaging, including heat dissipation, and allow for the stacking of up to 100 separate chips. The partnership combines IBM's expertise in semiconductor packaging processes with 3M's knowledge in adhesive materials to advance chip technology for faster and more powerful devices like smartphones and tablets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403290"
+        },
+        {
+          "relevance_score": "0.909628",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424463"
+        },
+        {
+          "relevance_score": "0.622232",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308918"
+        },
+        {
+          "relevance_score": "0.632678",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319555"
+        },
+        {
+          "relevance_score": "0.622340",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308360"
+        }
+      ],
+      "time_published": "20110908T171605",
+      "title": "3M and IBM to develop new types of adhesives to create 3D semiconductors",
+      "topics": [
+        {
+          "relevance_score": "0.911609",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.710029",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://phys.org/news/2011-09-3m-ibm-adhesives-3d-semiconductors.html"
+    },
+    {
+      "authors": [
+        "Mark Memmott"
+      ],
+      "banner_image": "https://media.npr.org/assets/img/2011/08/25/104116035-tim-cook-apple_wide-e67ae77011d88258385731ed0e2d31217e132062-s1200-c85.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.080063,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "Steve Jobs has stepped down as CEO of Apple Inc. due to an unspecified medical condition, with COO Tim Cook taking over the role. Cook, known for restructuring Apple's manufacturing operations and improving efficiency, has previously managed the company during Jobs' medical leaves. Jobs will remain as Apple's chairman, and the news led to a drop in Apple's stock price.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.187405"
+        },
+        {
+          "relevance_score": "0.649614",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137913"
+        }
+      ],
+      "time_published": "20110825T070000",
+      "title": "As Apple's Steve Jobs Steps Down, Tim Cook Steps Up : The Two-Way",
+      "topics": [
+        {
+          "relevance_score": "0.908154",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.737307",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.641177",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.npr.org/sections/thetwo-way/2011/08/25/139935243/as-apples-steve-jobs-steps-down-tim-cook-steps-up"
+    },
+    {
+      "authors": [
+        "NPR Staff and Wires"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.105415,
+      "source": "NPR",
+      "source_domain": "NPR",
+      "summary": "Steve Jobs, co-founder of Apple, has resigned as CEO due to his inability to meet job duties, likely linked to his ongoing medical condition. Tim Cook, the company's chief operating officer, has been named as his replacement, while Jobs will assume the role of Apple's chairman. Following the announcement, Apple's stock experienced a 5.4 percent drop in after-hours trading.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227778"
+        },
+        {
+          "relevance_score": "0.617790",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033756"
+        }
+      ],
+      "time_published": "20110824T184700",
+      "title": "Apple CEO Steve Jobs Stepping Down",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.npr.org/2011/08/24/139927531/apple-ceo-steve-jobs-to-step-down"
+    },
+    {
+      "authors": [
+        "Martha C. White"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.052569,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Hewlett-Packard's recent strategic shift, including potentially divesting its consumer hardware division and scrapping its mobile product line to focus on business services, has left investors and analysts divided. While some see the move as a smart pivot towards higher-margin software and services, others view it as another confusing decision in a series of missteps, exemplified by the significant stock price drop and concerns over the expensive Autonomy acquisition. The company is also criticized for poor communication regarding its new strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.317546",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013982"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.278469"
+        },
+        {
+          "relevance_score": "0.724579",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117942"
+        },
+        {
+          "relevance_score": "0.646291",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335486"
+        },
+        {
+          "relevance_score": "0.607903",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.096023"
+        }
+      ],
+      "time_published": "20110819T131800",
+      "title": "Hewlett-Packard\u2019s bewildering strategy shift",
+      "topics": [
+        {
+          "relevance_score": "0.842525",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.946893",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.628663",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna44204783"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://ichef.bbc.co.uk/news/976/compani/b8e622b3-f027-4aed-afc0-8260b07f8846.jpg or NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.054232,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "Hewlett Packard has announced plans to cease manufacturing PCs, tablets, and phones to concentrate on software. The company intends to acquire UK software firm Autonomy for \u00a37.1bn ($11.7bn) and is exploring options for selling its personal systems group, including its PC-making business, while discontinuing webOS devices. This move mirrors IBM's strategic shift away from hardware to focus on more profitable software and services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148584"
+        },
+        {
+          "relevance_score": "0.621422",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103782"
+        },
+        {
+          "relevance_score": "0.637440",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348257"
+        },
+        {
+          "relevance_score": "0.626796",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.220989"
+        }
+      ],
+      "time_published": "20110818T165557",
+      "title": "Hewlett Packard to exit computing and buy Autonomy",
+      "topics": [
+        {
+          "relevance_score": "0.919887",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.824873",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bbc.com/news/business-14584428"
+    },
+    {
+      "authors": [
+        "Manikandan Raman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.074295,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "Following Google's acquisition of Motorola Mobility for $12.5 billion, analysts are speculating that struggling handset makers Nokia and Research In Motion (RIM) could be the next acquisition targets. Both companies face significant challenges from the iPhone and low-cost Asian Android phones, leading to pressure from investors and potential interest from larger IT companies or even Microsoft.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NOK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.266066"
+        },
+        {
+          "relevance_score": "0.826234",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099770"
+        },
+        {
+          "relevance_score": "0.726057",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138005"
+        },
+        {
+          "relevance_score": "0.632302",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119682"
+        },
+        {
+          "relevance_score": "0.941491",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331141"
+        }
+      ],
+      "time_published": "20110816T090000",
+      "title": "Google-Motorola Deal: Nokia, RIM Could be Next Acquisition Targets",
+      "topics": [
+        {
+          "relevance_score": "0.925358",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.832147",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ibtimes.com/google-motorola-deal-nokia-rim-could-be-next-acquisition-targets-833639"
+    },
+    {
+      "authors": [
+        "Adam Satariano"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.104892,
+      "source": "Worcester Telegram",
+      "source_domain": "Worcester Telegram",
+      "summary": "Apple Inc. temporarily surpassed Exxon Mobil Corp. to become the world's largest business by market value, showcasing a remarkable comeback since Steve Jobs returned in 1997. Fuelled by strong sales of the iPad and iPhone, along with growth in China, Apple's market capitalization reached $347.3 billion, although Exxon regained its lead by the end of the trading day. The article highlights Apple's transformation from a struggling PC company to a global technology leader, significantly impacting the smartphone and digital music markets.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.625995",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144064"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406613"
+        },
+        {
+          "relevance_score": "0.945514",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.241610"
+        },
+        {
+          "relevance_score": "0.604873",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116384"
+        },
+        {
+          "relevance_score": "0.630765",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141174"
+        }
+      ],
+      "time_published": "20110810T165613",
+      "title": "Big juicy fat Apple",
+      "topics": [
+        {
+          "relevance_score": "0.946986",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.917968",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.telegram.com/story/news/local/north/2011/08/10/big-juicy-fat-apple/49939233007/"
+    },
+    {
+      "authors": [
+        "Bob Thompson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.181605,
+      "source": "CustomerThink",
+      "source_domain": "CustomerThink",
+      "summary": "This article discusses Forrester's new report on \"CXM\" (Customer Experience Management) solutions, defining CXM as technology for managing digital customer interactions. The author differentiates CXM as technology from CEM as methodology, noting its digital marketing slant and pointing out the omission of Voice of Customer (VoC) analytics from Forrester's CXM framework. The piece emphasizes the importance of a three-part approach to CEM success: standout experience, multi-channel orchestration, and VoC analytics.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FORR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270937"
+        },
+        {
+          "relevance_score": "0.637481",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101263"
+        },
+        {
+          "relevance_score": "0.633117",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122538"
+        }
+      ],
+      "time_published": "20110810T164555",
+      "title": "Forrester: \u201cCXM\u201d solutions emerging for (digital) Customer Experience Management",
+      "topics": [
+        {
+          "relevance_score": "0.824078",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://customerthink.com/forrester_cxm_solutions_emerging_for_digital_customer_experience_management/"
+    },
+    {
+      "authors": [
+        "JORDAN ROBERTSON",
+        "MICHAEL HILL"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.187787,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "International Business Machines (IBM) turned 100, reflecting on its foundational role in technology from bar codes to mainframe computers. The article highlights IBM's evolution, its impact on everyday technology, past struggles with bureaucracy, and its successful transformation into a leading technology services provider focusing on data solutions and advanced computing like Watson. Despite facing challenges and the rise of competitors, IBM continues to invest heavily in research and remains a significant force in the tech industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330518"
+        },
+        {
+          "relevance_score": "0.614368",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130646"
+        },
+        {
+          "relevance_score": "0.620536",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133033"
+        },
+        {
+          "relevance_score": "0.648324",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127584"
+        }
+      ],
+      "time_published": "20110616T075900",
+      "title": "For tech pioneer IBM, 100 years of 'Think'",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nbcnews.com/id/wbna43414686"
+    },
+    {
+      "authors": [
+        "Bruce Mackenzie-Low",
+        "HP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.113779,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "This article details how to troubleshoot Windows boot problems and slow boot times using the Microsoft Windows Performance Toolkit, specifically Xbootmgr and Xperf. These tools allow administrators to collect boot time statistics and analyze data through graphs, helping to pinpoint issues such as problematic device drivers, slow service startups, or excessive registry accesses. By understanding the data provided, admins can identify and resolve the root causes of sluggish boot performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.341427",
+          "ticker": "TTGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002651"
+        },
+        {
+          "relevance_score": "0.984987",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208249"
+        },
+        {
+          "relevance_score": "0.625281",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144405"
+        },
+        {
+          "relevance_score": "0.630273",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129275"
+        }
+      ],
+      "time_published": "20110607T175123",
+      "title": "Troubleshoot Windows boot problems with Xbootmgr",
+      "topics": [
+        {
+          "relevance_score": "0.903209",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techtarget.com/searchwindowsserver/tip/Troubleshoot-Windows-boot-problems-with-Xbootmgr"
+    },
+    {
+      "authors": [
+        "Nick Zulovich"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.065702,
+      "source": "Auto Remarketing",
+      "source_domain": "Auto Remarketing",
+      "summary": "Stacey Coopes, formerly executive vice president of marketing and technology at FordDirect, has been promoted to CEO. Coopes has been a key driver in the company's growth, leading initiatives that significantly increased lead volume for Ford dealers and improved lead conversion rates through innovative digital solutions and mobile technology. Her focus as CEO will continue to be on developing new ways to help Ford dealers sell more vehicles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "F",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336493"
+        },
+        {
+          "relevance_score": "0.557766",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011116"
+        },
+        {
+          "relevance_score": "0.551907",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026819"
+        },
+        {
+          "relevance_score": "0.546806",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001228"
+        },
+        {
+          "relevance_score": "0.516112",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016931"
+        }
+      ],
+      "time_published": "20110524T060000",
+      "title": "FordDirect Promotes Long-time Exec to CEO",
+      "topics": [
+        {
+          "relevance_score": "0.700992",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.601283",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.autoremarketing.com/ar/forddirect-promotes-long-time-exec-ceo/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.081973,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "Intel has launched its next-generation Ivy Bridge processors, featuring a 22 nanometre manufacturing process and new Tri-Gate \"3D\" transistors designed for improved power efficiency. This development aims to solidify Intel's market dominance against rivals like AMD and ARM, although the industry faces physical limits to Moore's Law. The company expects to begin commercial production later this year, with significant implications for both desktop and mobile devices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.744236",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.243024"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.433667"
+        },
+        {
+          "relevance_score": "0.632625",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104830"
+        },
+        {
+          "relevance_score": "0.605740",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131478"
+        }
+      ],
+      "time_published": "20110504T160628",
+      "title": "Intel unveils 22nm 3D Ivy Bridge processor",
+      "topics": [
+        {
+          "relevance_score": "0.925928",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bbc.com/news/technology-13283882"
+    },
+    {
+      "authors": [
+        "John Dobosz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.268227,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Itron, a producer of electricity, gas, water, and heat meters, is experiencing significant growth driven by the smart grid and prepaid electricity systems, particularly in emerging markets. The company reported strong Q1 2011 results, with revenue up 13% and net income up 7%, exceeding analyst forecasts. This growth comes as nearly half of the U.S. now uses smart meters, and prepaid electricity gains traction in regions like Africa and Asia.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ITRI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411714"
+        },
+        {
+          "relevance_score": "0.635762",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103748"
+        }
+      ],
+      "time_published": "20110429T181300",
+      "title": "Itron Grows With Smart Grid, Prepaid Electricity",
+      "topics": [
+        {
+          "relevance_score": "0.941260",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.815968",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602004",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.749214",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/johndobosz/2011/04/29/itron-grows-with-smart-grid-prepaid-electricy/"
+    },
+    {
+      "authors": [
+        "TNN"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.019283,
+      "source": "Times of India",
+      "source_domain": "Times of India",
+      "summary": "An exclusive opinion poll commissioned by ET found that Infosys employees strongly support founders becoming CEOs, with a significant majority wanting Nandan Nilekani to return as CEO and NR Narayana Murthy to remain active in the company. The poll also revealed employee concerns about the company's financial performance, attributing it to a lack of aggression and poor leadership, and showed strong support for Mohandas Pai following his resignation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INFY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.269682"
+        },
+        {
+          "relevance_score": "0.638008",
+          "ticker": "ACN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104419"
+        },
+        {
+          "relevance_score": "0.607151",
+          "ticker": "CTSH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130426"
+        },
+        {
+          "relevance_score": "0.561242",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.097624"
+        }
+      ],
+      "time_published": "20110429T160900",
+      "title": "NR Narayana Murthy: Infosys staff want founders to stay",
+      "topics": [
+        {
+          "relevance_score": "0.835947",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://timesofindia.indiatimes.com/jobs/infosys-staff-want-founders-to-stay/articleshow/8117435.cms"
+    },
+    {
+      "authors": [
+        "Liz Ayling"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.274274,
+      "source": "Times of Malta",
+      "source_domain": "Times of Malta",
+      "summary": "Philip Toledo Ltd, a leading Maltese ICT company, has expanded its operations into the Middle East, opening an office in Dubai Internet City and serving 400 new clients across a wide geographic region. CEO David Catania discusses the opportunities and challenges of this multinational move, highlighting the company's strategic investment and its model of customizing software for local needs which impressed international partners. The expansion represents a significant undertaking, fueling growth and opening new capabilities for the company, with a focus on long-term presence in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.329766",
+          "ticker": "PTLE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030358"
+        },
+        {
+          "relevance_score": "0.599700",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347919"
+        },
+        {
+          "relevance_score": "0.568341",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340664"
+        },
+        {
+          "relevance_score": "0.559522",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321471"
+        },
+        {
+          "relevance_score": "0.573740",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344227"
+        }
+      ],
+      "time_published": "20110427T173114",
+      "title": "Philip Toledo goes multinational, expands into the Middle East",
+      "topics": [
+        {
+          "relevance_score": "0.820409",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602175",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.609580",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.632528",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://timesofmalta.com/article/Philip-Toledo-goes-multinational-expands-into-the-Middle-East.362601"
+    },
+    {
+      "authors": [
+        "Plamena Pesheva"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.310754,
+      "source": "Patch",
+      "source_domain": "Patch",
+      "summary": "Yorktown Councilman Vishnu Patel was named one of three Inventors of the Year by the Eastern New York Intellectual Property Law Association (ENYIPLA) for his work on \"multiphase low dielectric constant material.\" This invention, patented with IBM colleagues, is used in integrated circuit chips. Patel, a former IBM scientist with over 65 patents, will receive a Senate proclamation and plaque at a ceremony.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341963"
+        }
+      ],
+      "time_published": "20110411T174100",
+      "title": "Councilman Vishnu Patel Named Inventor of the Year",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.732745",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.644856",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://patch.com/new-york/yorktown-somers/councilman-vishnu-patel-named-inventor-of-the-year"
+    },
+    {
+      "authors": [
+        "Matthew J. Desch",
+        "Elizabeth Olson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.220666,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Matthew Desch, CEO of Iridium Communications, recounts his career journey from software development at AT&T Bell Labs to leading a satellite communications company. He discusses key career transitions, including his time at Nortel Networks and Telcordia Technologies, and highlights the importance of setbacks as milestones. Desch also shares personal anecdotes, such as his passion for flying and funding his education through an Evans Scholarship.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IRDM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.465572"
+        },
+        {
+          "relevance_score": "0.682941",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136730"
+        },
+        {
+          "relevance_score": "0.646184",
+          "ticker": "MSI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109466"
+        },
+        {
+          "relevance_score": "0.579514",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116988"
+        }
+      ],
+      "time_published": "20110226T170108",
+      "title": "From Software to Satellites (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "0.816991",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/02/27/jobs/27boss.html"
+    },
+    {
+      "authors": [
+        "Anette J\u00f6nsson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.344801,
+      "source": "FinanceAsia",
+      "source_domain": "FinanceAsia",
+      "summary": "IBM has sold its remaining stake in Lenovo for $263 million, completing its divestment six years after selling its PC business to the Chinese company. This marks the sixth and final sell-down by IBM, capitalizing on a recent recovery in Lenovo's share price and strong investor demand. The sale follows a period of significant growth for Lenovo, including a nearly doubled net profit and a strategic joint venture in Japan.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324908"
+        }
+      ],
+      "time_published": "20110221T165613",
+      "title": "IBM sells remaining shares in Lenovo",
+      "topics": [
+        {
+          "relevance_score": "0.808794",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.935172",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.721766",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.843751",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.financeasia.com/article/ibm-sells-remaining-shares-in-lenovo/248717"
+    },
+    {
+      "authors": [
+        "AP"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.036914,
+      "source": "CBS News",
+      "source_domain": "CBS News",
+      "summary": "Kenneth Olsen, co-founder of Digital Equipment Corp. (DEC) and a computer industry pioneer, has died at 84. Olsen's vision played a crucial role in creating the market for \"minicomputers\" and bringing computing to a broader audience, though DEC eventually struggled with the shift to personal computers and open systems. His legacy includes fostering innovation and influencing many key figures in the technology industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.310201",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.045299"
+        }
+      ],
+      "time_published": "20110208T113000",
+      "title": "Computer Pioneer Ken Olsen Dies At Age 84",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.617382",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.cbsnews.com/news/computer-pioneer-ken-olsen-dies-at-age-84/"
+    },
+    {
+      "authors": [
+        "Glenn Rifkin"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.094075,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Ken Olsen, co-founder of Digital Equipment Corporation (DEC), the former second-largest computer company globally, died at 84. Despite building a technology giant known for minicomputers, Olsen was criticized for resisting the shift to personal computers, leading to his eventual resignation and DEC's acquisition by Compaq. His legacy as a computing pioneer, particularly in the \"second generation of computing,\" is celebrated by industry leaders like Bill Gates.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.728266",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133879"
+        },
+        {
+          "relevance_score": "0.629960",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240783"
+        },
+        {
+          "relevance_score": "0.608202",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102805"
+        }
+      ],
+      "time_published": "20110207T165613",
+      "title": "Ken Olsen, Who Built DEC Into a Power, Dies at 84 (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "0.934925",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.635252",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.627938",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/02/08/technology/business-computing/08olsen.html"
+    },
+    {
+      "authors": [
+        "Steve Lohr"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.191711,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Apple's extraordinary growth, despite its large size, is attributed to its platform strategy, which combines hardware, software, and services like iTunes and the App Store. This strategy creates a self-reinforcing network effect that benefits Apple and raises barriers to competitors. However, the company faces growing platform challenges from Google's Android software dominance in the smartphone market, raising questions about whether Apple can sustain its current model.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.482851"
+        },
+        {
+          "relevance_score": "0.704452",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.071245"
+        },
+        {
+          "relevance_score": "0.645786",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125379"
+        },
+        {
+          "relevance_score": "0.552622",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130236"
+        },
+        {
+          "relevance_score": "0.577675",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.183751"
+        }
+      ],
+      "time_published": "20110129T160130",
+      "title": "The Power of the Platform at Apple (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.831938",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.623456",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.609969",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/01/30/business/30unbox.html"
+    },
+    {
+      "authors": [
+        "Andrew S. Ross"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.108729,
+      "source": "SFGATE",
+      "source_domain": "SFGATE",
+      "summary": "A Morgan Stanley managing director in Menlo Park, Kamal Ahmed, has been linked to the Galleon Group insider trading investigation for allegedly providing information related to Advance Micro Devices' 2006 takeover of ATI Technologies. Ahmed is cooperating with investigators, and Morgan Stanley has placed him on leave. The article also touches on various economic prognoses for California, with mixed outlooks on job growth and unemployment for the coming years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.988881",
+          "ticker": "MS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.340769"
+        },
+        {
+          "relevance_score": "0.826408",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.038706"
+        },
+        {
+          "relevance_score": "0.608028",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014070"
+        },
+        {
+          "relevance_score": "0.608605",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042158"
+        },
+        {
+          "relevance_score": "0.596668",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009174"
+        }
+      ],
+      "time_published": "20110125T171616",
+      "title": "Bay Area Morgan Stanley exec tied to Galleon case",
+      "topics": [
+        {
+          "relevance_score": "0.903359",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.826584",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.749088",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.sfgate.com/business/bottomline/article/Bay-Area-Morgan-Stanley-exec-tied-to-Galleon-case-2461557.php"
+    },
+    {
+      "authors": [
+        "Steve Lohr"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.157365,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "This article draws parallels between the economic challenge posed by Japan in the 1980s and the current competition with China. It discusses how the U.S. responded to Japan's rise and explores the different yet similar strategies China employs, particularly in technology transfer and market access. The piece suggests that the solutions to the China challenge, much like with Japan, will require skillful government policy, smart private-sector strategies, and national investment in innovation and education within the United States.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300467",
+          "ticker": "CHN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044564"
+        },
+        {
+          "relevance_score": "0.940968",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213680"
+        },
+        {
+          "relevance_score": "0.822711",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245600"
+        },
+        {
+          "relevance_score": "0.726991",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139421"
+        },
+        {
+          "relevance_score": "0.632537",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136694"
+        }
+      ],
+      "time_published": "20110121T162558",
+      "title": "Maybe Japan Was Just a Warm-Up (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "0.923717",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.837636",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.713284",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.747354",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.617830",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/01/23/business/23japan.html"
+    },
+    {
+      "authors": [
+        "Michael Grotticelli"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.207758,
+      "source": "TVTechnology",
+      "source_domain": "TVTechnology",
+      "summary": "Evertz Microsystems has acquired UK-based automation software vendor Pharos for less than $5 million. This acquisition is part of Evertz's strategy to build out its product lines and support file-based environments, providing Evertz with automated control of devices and file management capabilities. Pharos will operate as a separate business unit, and its co-founders will remain with the company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.317332",
+          "ticker": "TGNA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.010380"
+        },
+        {
+          "relevance_score": "0.581307",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289031"
+        },
+        {
+          "relevance_score": "0.563442",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297406"
+        }
+      ],
+      "time_published": "20110105T175058",
+      "title": "Evertz acquires automation vendor Pharos",
+      "topics": [
+        {
+          "relevance_score": "0.922747",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.812248",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.tvtechnology.com/news/evertz-acquires-automation-vendor-pharos"
+    }
+  ],
+  "items": "33",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

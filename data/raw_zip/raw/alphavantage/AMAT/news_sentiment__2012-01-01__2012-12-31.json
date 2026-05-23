@@ -1,0 +1,582 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Gareth Halfacree"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.310377,
+      "source": "Bit-Tech",
+      "source_domain": "Bit-Tech",
+      "summary": "General Electric has developed a new cooling technology called Dual Piezoelectric Cooling Jets (DCJ) for electronic devices, based on elements originally for jet engines. This technology offers a solution that is half the thickness and uses half the energy of traditional fans, operating in near silence. GE claims the DCJ is suitable for ultra-thin consumer electronics, has a longer lifespan due to fewer moving parts, and has already been licensed for production.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438749"
+        },
+        {
+          "relevance_score": "0.623349",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225555"
+        },
+        {
+          "relevance_score": "0.647906",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.334854"
+        }
+      ],
+      "time_published": "20121213T113000",
+      "title": "GE unveils piezoelectric fan replacement technology",
+      "topics": [
+        {
+          "relevance_score": "0.925192",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://bit-tech.net/news/tech/cooling/ge-dcj/1/"
+    },
+    {
+      "authors": [
+        "staff-author"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.189427,
+      "source": "San Diego Business Journal",
+      "source_domain": "San Diego Business Journal",
+      "summary": "Dutch firm ASML Holding NV has agreed to acquire San Diego-based laser maker Cymer Inc. for approximately $2.55 billion in a cash and stock transaction. The acquisition, which sees Cymer transition from a supplier to a subsidiary of its primary customer, aims to accelerate the development of advanced lithography technology for semiconductor manufacturing. Despite the acquisition, Cymer is expected to maintain and potentially grow its operations in San Diego, with its commercial operations managed as an independent division.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.999877",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346064"
+        },
+        {
+          "relevance_score": "0.615107",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119343"
+        },
+        {
+          "relevance_score": "0.590539",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.108314"
+        },
+        {
+          "relevance_score": "0.585219",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128889"
+        },
+        {
+          "relevance_score": "0.571521",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141648"
+        }
+      ],
+      "time_published": "20121021T140629",
+      "title": "Dutch Firm to Buy Cymer for $2.55B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.935491",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.830299",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.736005",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.sdbj.com/uncategorized/dutch-firm-buy-cymer-255b/"
+    },
+    {
+      "authors": [
+        "By Washington Examiner"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.41939,
+      "source": "Washington Examiner",
+      "source_domain": "Washington Examiner",
+      "summary": "Applied Materials Inc. announced it will cut its global workforce by 6 to 9 percent, impacting 900 to 1,300 jobs, through a voluntary retirement program and layoffs. This move is a response to a sputtering economy and weak demand for its chip-making equipment, following a significant drop in its quarterly profit. The company expects these reductions to free up $140 million to $190 million annually and incur $180 million to $230 million in restructuring charges.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.409571"
+        }
+      ],
+      "time_published": "20121003T221600",
+      "title": "Applied Materials to cut workforce up to 9 percent",
+      "topics": [
+        {
+          "relevance_score": "0.916901",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.718384",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.638072",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.610460",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.609224",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.washingtonexaminer.com/news/196079/applied-materials-to-cut-workforce-up-to-9-percent/"
+    },
+    {
+      "authors": [
+        "Carmine Gallo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.38981,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "This article details how SanDisk co-founder Eli Harari, despite not inventing flash memory, developed the critical technology that enabled its widespread use in consumer electronics. Driven by passion and guided by his wife's insight, Harari focused on his unique skills in physics, leading to over 100 patents and the growth of SanDisk into a multi-billion dollar company. The article highlights the importance of combining passion, skills (assets), and market realities, as outlined by LinkedIn co-founder Reid Hoffman, for entrepreneurial success.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SNDK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.609220"
+        },
+        {
+          "relevance_score": "0.724048",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445296"
+        },
+        {
+          "relevance_score": "0.638867",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209745"
+        },
+        {
+          "relevance_score": "0.588712",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236956"
+        }
+      ],
+      "time_published": "20120820T105800",
+      "title": "How SanDisk's Co-founder Followed His Passion and Changed Your Life",
+      "topics": [
+        {
+          "relevance_score": "0.833451",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/carminegallo/2012/08/20/how-the-father-of-flash-followed-his-passion-and-changed-your-life/"
+    },
+    {
+      "authors": [
+        "Joel Hruska"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.345747,
+      "source": "ExtremeTech",
+      "source_domain": "ExtremeTech",
+      "summary": "Applied Materials has launched its new \"Amber\" PVD technology, an interconnect solution designed to address the challenges of building reliable interconnects at sub-20nm nodes. This technology uses a reflow process that leverages capillary action to create void-less interconnects, helping to extend the viability of current CMOS processes for several more years. The innovation pushes back the \"No Known Solution\" timeframe for various interconnect problems to 2019, providing crucial time for further research into advanced semiconductor manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.968560",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341139"
+        }
+      ],
+      "time_published": "20120711T140613",
+      "title": "Threading the nanoscale needle: Applied Materials launches new interconnect technology",
+      "topics": [
+        {
+          "relevance_score": "0.805633",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.872328",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.extremetech.com/computing/132613-threading-the-nanoscale-needle-applied-materials-launches-new-interconnect-technology"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.434826,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Applied Materials revised its fiscal year sales outlook downward due to weak demand for chip-making equipment. Shares of the company fell by 2.7% following the announcement. The semiconductor capital equipment company now expects revenue to fall below its previously stated range of $9.1 billion to $9.5 billion for the year ending in October.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.421308"
+        }
+      ],
+      "time_published": "20120710T161000",
+      "title": "Applied Materials slashes outlook",
+      "topics": [
+        {
+          "relevance_score": "0.945824",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.849616",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.705812",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.623066",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.608588",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/applied-materials-slashes-outlook-2012-07-10?gaa_at=eafs&gaa_n=AWEtsqd9Xhh-D73Qa9SXfSp9olZ1neRzU0RxWwq8bLetwyIyFvRien1ZJ_Ci&gaa_ts=6908ba0d&gaa_sig=1iqhFAQsGEyBQX2X_BVM7tzXG1uBRGBeYf3RxFdO6U2d2lczlXSzVAhZrXFhDnX_IScxOK1IEW5RWi0p_UaqDg%3D%3D"
+    },
+    {
+      "authors": [
+        "Katherine Bourzac"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.29855,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "A new method for creating copper wiring in computer chips by Applied Materials promises to improve computer performance by reducing defects in increasingly small interconnects. While this innovation addresses immediate manufacturing challenges for the next generation of chips, it doesn't solve the long-term problem of copper's performance limitations at smaller scales. Researchers are actively exploring alternative materials and structural designs to overcome the impending \"red brick wall\" of copper's physical limits, which are expected within five to ten years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.268966"
+        }
+      ],
+      "time_published": "20120710T140613",
+      "title": "Making Wiring that Doesn\u2019t Trip Up Computer Chips",
+      "topics": [
+        {
+          "relevance_score": "0.949203",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.739848",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2012/07/10/185008/making-wiring-that-doesnt-trip-up-computer-chips/"
+    },
+    {
+      "authors": [
+        "Joel Hruska"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.269672,
+      "source": "ExtremeTech",
+      "source_domain": "ExtremeTech",
+      "summary": "Applied Materials has introduced the new Centura Avatar etching system, designed to enable the commercial production of vertical 3D NAND transistors. This technology addresses the limitations of planar silicon scaling below 20nm by allowing manufacturers to build 3D NAND structures, which are significantly more difficult to create but offer tremendous efficiency gains in terms of cost per gigabyte and die density. The Avatar system is crucial for achieving the high aspect ratios and precision required for 3D NAND manufacturing, potentially extending the lifespan of older process geometries and providing a significant step forward for the semiconductor industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.965523",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318828"
+        },
+        {
+          "relevance_score": "0.741666",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.296687"
+        },
+        {
+          "relevance_score": "0.620949",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236236"
+        },
+        {
+          "relevance_score": "0.601604",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233425"
+        }
+      ],
+      "time_published": "20120627T140613",
+      "title": "New manufacturing technology enables vertical 3D NAND transistors, higher capacity SSDs",
+      "topics": [
+        {
+          "relevance_score": "0.912581",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.923474",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.extremetech.com/computing/131777-new-manufacturing-technology-enables-vertical-3d-transistors-higher-capacity-ssds"
+    },
+    {
+      "authors": [
+        "Peter Clarke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.431301,
+      "source": "EE Times",
+      "source_domain": "EE Times",
+      "summary": "Analog Devices Inc. and Taiwan Semiconductor Manufacturing Co. Ltd. have collaborated to develop a new 0.18-micron BCD analog manufacturing process, which offers significant improvements in noise, leakage current, linearity, and component matching for high-precision analog ICs. ADI has already utilized this process for various products, and TSMC is expected to make it available to other customers. The advancement is set to enhance analog performance across multiple device categories.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.533945"
+        },
+        {
+          "relevance_score": "0.601948",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343415"
+        }
+      ],
+      "time_published": "20120620T140124",
+      "title": "ADI, TSMC develop 180-nm precision analog process",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.942999",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.eetimes.com/adi-tsmc-develop-180-nm-precision-analog-process/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.437406,
+      "source": "Nanotechnology Now",
+      "source_domain": "Nanotechnology Now",
+      "summary": "Applied Materials introduced new PECVD film technology to enable higher-performance, high-resolution displays for next-generation tablet computers and TVs by facilitating metal oxide-based transistors. These advanced insulating films minimize hydrogen impurities, improving transistor stability and optimizing screen performance. The company is also developing advanced PVD solutions for metal oxide manufacturing, showcasing its commitment to advancing display technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411634"
+        }
+      ],
+      "time_published": "20120320T140614",
+      "title": "Applied Materials Introduces Advanced CVD Films to Enable Metal Oxide-Based High Resolution Displays",
+      "topics": [
+        {
+          "relevance_score": "0.934857",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736159",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nanotech-now.com/news.cgi?story_id=44749"
+    },
+    {
+      "authors": [
+        "Sebastian Anthony"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.224734,
+      "source": "ExtremeTech",
+      "source_domain": "ExtremeTech",
+      "summary": "This article discusses 3D chip stacking as the next major advancement in computing, moving beyond traditional 2D transistor scaling. It explains various techniques for stacking chips, including Bump + RDL, Through-Silicon Via (TSV), and silicon transposers, highlighting benefits like reduced power consumption and increased bandwidth. The piece also details the opening of a new 3D chip packaging lab by Applied Materials and A*STAR's Institute of Microelectronics (IME) to foster innovation in this field.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412750"
+        },
+        {
+          "relevance_score": "0.830469",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224620"
+        },
+        {
+          "relevance_score": "0.723418",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212213"
+        },
+        {
+          "relevance_score": "0.615432",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101889"
+        },
+        {
+          "relevance_score": "0.618341",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208344"
+        }
+      ],
+      "time_published": "20120307T140614",
+      "title": "The future of computers: 3D chip stacking",
+      "topics": [
+        {
+          "relevance_score": "0.733467",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.extremetech.com/science/119843-the-future-of-computers-3d-chip-stacking"
+    },
+    {
+      "authors": [
+        "Rebecca Boone"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.181988,
+      "source": "The Seattle Times",
+      "source_domain": "The Seattle Times",
+      "summary": "Steve Appleton, the CEO of Micron Technology Inc., died Friday morning when his experimental plane crashed at the Boise Airport. Known for his daredevil hobbies like stunt piloting and off-road racing, Appleton had led Micron for 18 years, navigating the company through significant financial swings. His death prompted an outpouring of tributes and raised questions about his risky pastimes, though the company board had previously accepted them as part of his personality.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.411644"
+        },
+        {
+          "relevance_score": "0.612295",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116360"
+        },
+        {
+          "relevance_score": "0.634041",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105826"
+        },
+        {
+          "relevance_score": "0.648948",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.111625"
+        },
+        {
+          "relevance_score": "0.626437",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148407"
+        }
+      ],
+      "time_published": "20120204T124100",
+      "title": "CEO of chip maker Micron dies in plane crash",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.930899",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.seattletimes.com/nation-world/ceo-of-chip-maker-micron-dies-in-plane-crash/"
+    },
+    {
+      "authors": [
+        "Robert Lavine"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.300913,
+      "source": "Global Corporate Venturing",
+      "source_domain": "Global Corporate Venturing",
+      "summary": "MTPV, a US-based developer of semiconductors that convert waste heat into energy, has successfully closed a $10 million Series B funding round. Applied Materials, through its corporate venturing fund Applied Ventures, was a key investor, participating in both tranches of the round. This investment will support the development of products aimed at making alternative energy and environmental solutions more accessible and affordable.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330079"
+        }
+      ],
+      "time_published": "20120130T140613",
+      "title": "MTPV heats up with $10m",
+      "topics": [
+        {
+          "relevance_score": "0.939697",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.817539",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://globalventuring.com/blog/2012/01/30/mtpv-heats-up-with-10m/"
+    }
+  ],
+  "items": "13",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

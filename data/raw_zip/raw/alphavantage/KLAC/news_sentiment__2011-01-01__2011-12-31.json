@@ -1,0 +1,102 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "KLA Instruments\u2122"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.41063,
+      "source": "AZoNano",
+      "source_domain": "AZoNano",
+      "summary": "The article discusses the application of 3D imaging and metrology, specifically using the Zeta-20 microscope, for data storage. It highlights how the Zeta-20 addresses extreme requirements in hard disk design by accurately measuring parameters like edge chamfer, disk rolloff, and read/write head characteristics crucial for high performance and failure analysis in data storage devices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439111"
+        }
+      ],
+      "time_published": "20111010T170559",
+      "title": "3D Imaging and Metrology for Data Storage Applications",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.739699",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.azonano.com/article.aspx?ArticleID=2935"
+    },
+    {
+      "authors": [],
+      "banner_image": "http://photos.prnewswire.com/prnh/20110314/SF64075",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.419112,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "KLA-Tencor Corporation introduced its newest high-performance component inspector, the ICOS CI-T620, designed for tape and reel packaged IC components. This system features dual tapers for improved output, superior inspection accuracy down to 5 micrometers, reduced cost of ownership through faster changeover and increased throughput, and broad inspection flexibility. The CI-T620 aims to lower total cost of ownership for customers and builds upon the success of KLA-Tencor's existing CI platform.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427094"
+        }
+      ],
+      "time_published": "20110314T043000",
+      "title": "KLA-Tencor\u2122 Introduces the ICOS\u00ae CI-T620 Packaged IC Component Inspector",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.812074",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/kla-tencor-introduces-the-icos-ci-t620-packaged-ic-component-inspector-117960179.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.45258,
+      "source": "Semiconductor Today",
+      "source_domain": "Semiconductor Today",
+      "summary": "KLA-Tencor has introduced the Candela 8620 inspection system, designed to enhance quality control for high-brightness LED (HB-LED) materials like gallium nitride, sapphire, and silicon carbide. This tool aims to improve MOCVD reactor uptime and yield by detecting and classifying sub-micron defects that are often missed by existing methods, addressing significant financial losses caused by process-induced defects. Early adopter Philips Lumileds has found the system crucial for accelerating process ramp and selecting high-quality sapphire vendors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.982309",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.467145"
+        }
+      ],
+      "time_published": "20110121T170558",
+      "title": "KLA-Tencor launches HB-LED inspection tool for improved substrate and MOCVD process control",
+      "topics": [
+        {
+          "relevance_score": "0.936046",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.818640",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.semiconductor-today.com/news_items/2011/JAN/KLA_210111.htm"
+    }
+  ],
+  "items": "3",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

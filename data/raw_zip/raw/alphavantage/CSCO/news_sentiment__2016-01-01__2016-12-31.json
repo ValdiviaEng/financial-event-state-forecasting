@@ -1,0 +1,2672 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Craig Matsumoto"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.057121,
+      "source": "SDxCentral",
+      "source_domain": "SDxCentral",
+      "summary": "In part two of this interview, former NetApp CEO Dan Warmenhoven discusses the intense consolidation and challenges facing the IT infrastructure market, including the Dell-EMC merger. He analyzes the strategies of major players like Dell, HPE, and Cisco, highlighting the difficulties in integration and market positioning in a landscape increasingly dominated by hyperscale cloud providers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.939165",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.062161"
+        },
+        {
+          "relevance_score": "0.602824",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.144601"
+        },
+        {
+          "relevance_score": "0.888823",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113506"
+        },
+        {
+          "relevance_score": "0.724523",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145030"
+        },
+        {
+          "relevance_score": "0.802990",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009435"
+        }
+      ],
+      "time_published": "20161216T070638",
+      "title": "Q&A: Dan Warmenhoven, Former NetApp CEO, Part 2",
+      "topics": [
+        {
+          "relevance_score": "0.926801",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.sdxcentral.com/news/qa-dan-warmenhoven-former-netapp-ceo-part-2/"
+    },
+    {
+      "authors": [
+        "Jonathan Vanian"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.105562,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Juniper Networks CEO Rami Rahim discusses the company's shift towards software-oriented networking products amidst the rise of cloud computing, competing with tech giants like Amazon and Google, and adapting business models from hardware-centric to subscription-based services. He emphasizes Juniper's challenger mindset in the industry and addresses the impact of cloud providers developing their own networking technologies. Rahim also touches on the company's stance on industry consolidation and the potential impact of the incoming Trump administration on business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149024"
+        },
+        {
+          "relevance_score": "0.742521",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120196"
+        },
+        {
+          "relevance_score": "0.621305",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135194"
+        },
+        {
+          "relevance_score": "0.641730",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137892"
+        },
+        {
+          "relevance_score": "0.618396",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103900"
+        }
+      ],
+      "time_published": "20161207T170000",
+      "title": "Juniper CEO On Amazon, Google, Cisco, And The Rise Of The Cloud",
+      "topics": [
+        {
+          "relevance_score": "0.907201",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.621861",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://fortune.com/2016/12/03/juniper-ceo-amazon-google-cisco-cloud/"
+    },
+    {
+      "authors": [
+        "Frederic Lardinois"
+      ],
+      "banner_image": "https://techcrunch.com/wp-content/uploads/2016/11/robert-junioer.jpg?w=1390&crop=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.215211,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "Juniper Networks has acquired AppFormix, a cloud operations management and optimization startup, to enhance its Contrail product line with real-time insights and predictive features. AppFormix, founded by Sumeet Singh, will continue to operate as a standalone brand and will help Juniper customers achieve a \"self-driving infrastructure\" with improved cloud orchestration, security, accounting, and planning. The acquisition aims to deliver an agile, virtualized networking experience, specifically benefiting OpenStack and Kubernetes users with automated monitoring designed for DevOps and developer agility.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428017"
+        },
+        {
+          "relevance_score": "0.604429",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142644"
+        },
+        {
+          "relevance_score": "0.604067",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129758"
+        }
+      ],
+      "time_published": "20161201T211500",
+      "title": "Juniper Networks acquires cloud optimization service AppFormix",
+      "topics": [
+        {
+          "relevance_score": "0.919810",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.835114",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://techcrunch.com/2016/12/01/juniper-networks-acquires-cloud-optimization-service-appformix/"
+    },
+    {
+      "authors": [
+        "Puja Tayal"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.20544,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "Broadcom is acquiring Brocade to leverage its strong cash flow and gain a leading position in the FC SAN switch market. Despite the Fibre Channel market's decline, Broadcom aims to create a broader enterprise storage portfolio and benefit from the fiber to Ethernet transition, while Brocade accepted the acquisition due to a compelling 47% premium amidst dwindling growth opportunities in its core business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255528"
+        },
+        {
+          "relevance_score": "0.710805",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121624"
+        }
+      ],
+      "time_published": "20161121T150400",
+      "title": "What\u2019s the Strategy behind Broadcom\u2019s Brocade Acquisition?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.826184",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://marketrealist.com/2016/11/broadcoms-strategy-behind-brocades-acquisition/"
+    },
+    {
+      "authors": [
+        "J\u00e9r\u00f4me Fleury"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.282071,
+      "source": "The Cloudflare Blog",
+      "source_domain": "The Cloudflare Blog",
+      "summary": "This article discusses the inherent unreliability of the Internet due to constant changes and failures, and how Cloudflare addresses this challenge. It details their approach to building a more resilient network by actively monitoring Internet quality, detecting brownouts, and implementing automated mitigation mechanisms. Through continuous improvement and real-time adjustments, Cloudflare aims to provide a more reliable service by minimizing the impact of external network events on their customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NET",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.467026"
+        },
+        {
+          "relevance_score": "0.606135",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238730"
+        },
+        {
+          "relevance_score": "0.555038",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123092"
+        }
+      ],
+      "time_published": "20161108T070619",
+      "title": "The Internet is Hostile: Building a More Resilient Network",
+      "topics": [
+        {
+          "relevance_score": "0.912950",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blog.cloudflare.com/the-internet-is-hostile-building-a-more-resilient-network/"
+    },
+    {
+      "authors": [
+        "Jonathan Vanian"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.155737,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Data storage company NetApp announced another round of layoffs, cutting 6% of its workforce, or about 640 employees. This follows previous job cuts, as the company struggles with the shift to cloud computing. NetApp expects related charges of $50 million to $60 million and hopes its focus on flash storage and hybrid cloud solutions will lead to \"moderated growth\" by May 2017.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.408334"
+        },
+        {
+          "relevance_score": "0.606465",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.246359"
+        },
+        {
+          "relevance_score": "0.625352",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227074"
+        },
+        {
+          "relevance_score": "0.604459",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138244"
+        },
+        {
+          "relevance_score": "0.646219",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105692"
+        }
+      ],
+      "time_published": "20161103T070638",
+      "title": "NetApp Continues To Layoff Employees",
+      "topics": [
+        {
+          "relevance_score": "0.946952",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.834140",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.707104",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://fortune.com/2016/11/03/netapp-layoff-employees/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.141529,
+      "source": "Channel Futures",
+      "source_domain": "Channel Futures",
+      "summary": "Broadcom Ltd. announced its agreement to acquire Brocade Communications Systems Inc. for $5.9 billion, including debt, to enhance its offerings in cloud computing and data centers. The acquisition focuses on Brocade's technology for linking computer-storage systems and enabling fast data transfer, with Broadcom planning to divest Brocade's internet gear businesses. This move is part of Broadcom's strategy to expand its chip manufacturing dominance and capitalize on the growing demand for storage solutions in enterprise.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304782"
+        },
+        {
+          "relevance_score": "0.611815",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139136"
+        }
+      ],
+      "time_published": "20161102T055715",
+      "title": "Broadcom to Buy Brocade for $5.9 Billion to Expand in Cloud",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.922239",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.channelfutures.com/channel-business/broadcom-to-buy-brocade-for-5-9-billion-to-expand-in-cloud"
+    },
+    {
+      "authors": [
+        "Andrew Wheeler"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.151383,
+      "source": "Engineering.com",
+      "source_domain": "Engineering.com",
+      "summary": "NVIDIA and FANUC have announced a collaboration to integrate AI into FANUC's Intelligent Edge Link and Drive (FIELD) system, aiming to boost robotics productivity in automated factories. This partnership will leverage NVIDIA's GPUs and deep learning software to enable robots to learn tasks faster and more efficiently, utilizing an edge computing architecture to process sensor data closer to the source. The initiative is set to enhance manufacturing capabilities and increase competition in the industrial robotics market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.486897"
+        },
+        {
+          "relevance_score": "0.616069",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116636"
+        },
+        {
+          "relevance_score": "0.555964",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.076807"
+        },
+        {
+          "relevance_score": "0.594658",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.086229"
+        }
+      ],
+      "time_published": "20161027T070645",
+      "title": "NVIDIA and FANUC Join Forces to Implement AI Robotics System",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.943098",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.627837",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.engineering.com/nvidia-and-fanuc-join-forces-to-implement-ai-robotics-system/"
+    },
+    {
+      "authors": [
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.11654,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "A massive DDoS cyberattack on Friday, October 21, 2016, crippled major internet services like Twitter, Netflix, and PayPal by overwhelming Dyn Inc.'s servers. The hacker group New World Hackers claimed responsibility, stating they leveraged a botnet of \"internet of things\" devices, such as connected cameras and thermostats, to launch attacks of unprecedented scale. Experts warn about the increasing vulnerability due to the proliferation of insecure IoT devices and the ease with which such attacks can be mounted.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.719951",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131928"
+        },
+        {
+          "relevance_score": "0.650781",
+          "ticker": "VRSN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.242001"
+        },
+        {
+          "relevance_score": "0.612253",
+          "ticker": "NFLX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.255245"
+        },
+        {
+          "relevance_score": "0.625279",
+          "ticker": "PYPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.250268"
+        },
+        {
+          "relevance_score": "0.587277",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142095"
+        }
+      ],
+      "time_published": "20161022T155200",
+      "title": "Hackers used 'internet of things' devices to cause Friday's massive DDoS cyberattack",
+      "topics": [
+        {
+          "relevance_score": "0.934359",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/science/hackers-ddos-attacks-1.3817392"
+    },
+    {
+      "authors": [
+        "Joseph Menn",
+        "Jim Finkle and Dustin Volz"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20161021&t=2&i=1157140417&w=640&cp=1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.181891,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Hackers launched a sophisticated distributed denial-of-service (DDoS) attack using an army of internet-connected devices, including webcams and digital recorders, to disrupt major websites like Twitter, PayPal, and Spotify. The attacks targeted Dyn, an internet infrastructure company, causing widespread outages in the US and Europe. Authorities are investigating this significant breach of internet stability, highlighting vulnerabilities in Internet of Things devices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.947202",
+          "ticker": "PYPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.278301"
+        },
+        {
+          "relevance_score": "0.626503",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.238165"
+        },
+        {
+          "relevance_score": "0.575941",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102733"
+        },
+        {
+          "relevance_score": "0.598558",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148649"
+        }
+      ],
+      "time_published": "20161022T013200",
+      "title": "Cyber attacks disrupt PayPal, Twitter, other sites",
+      "topics": [
+        {
+          "relevance_score": "0.903074",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/uk/cyber-attacks-disrupt-paypal-twitter-other-sites-idUSKCN12L1NF/"
+    },
+    {
+      "authors": [
+        "Michal Lev-Ram"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.018882,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Three prominent Fortune 500 CFOs discussed the challenges they face, including maximizing shareholder value, managing Wall Street expectations, and navigating acquisitions. They highlighted the importance of controlling financial narratives, anticipating investor reactions, and ensuring cultural fit during company integrations. Despite these pressures, the CFOs acknowledged that the economic climate has improved since 2008.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340344",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009613"
+        }
+      ],
+      "time_published": "20161017T160000",
+      "title": "What Keeps Fortune 500 CFOs Up At Night?",
+      "topics": [
+        {
+          "relevance_score": "0.941894",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.806891",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.725382",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.639278",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://fortune.com/2016/10/17/fortune-500-cfos-up-at-night/"
+    },
+    {
+      "authors": [
+        "India New England News"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.309849,
+      "source": "INDIA New England News",
+      "source_domain": "INDIA New England News",
+      "summary": "Altiostar Networks Inc., founded by Ashraf M. Dahod, has reportedly raised another $30 million, bringing its total funding to nearly $200 million. This latest equity funding round involved seven investors, adding to the $140 million previously secured, which included a significant investment from Cisco Systems. Dahod is a serial entrepreneur who has founded multiple successful tech companies, including Starent Networks, which was acquired by Cisco.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.916861",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305757"
+        }
+      ],
+      "time_published": "20161014T061651",
+      "title": "Cisco-backed Altiostar has now raised nearly $200 million in funding",
+      "topics": [
+        {
+          "relevance_score": "0.841736",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://indianewengland.com/cisco-backed-altiostar-now-raised-nearly-200-million-funding/"
+    },
+    {
+      "authors": [
+        "Mike Wheatley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.271315,
+      "source": "SiliconANGLE",
+      "source_domain": "SiliconANGLE",
+      "summary": "Pure Storage is expanding its converged infrastructure partnership with Cisco to validate FlashStack systems, positioning itself to compete with Dell EMC. This collaboration solidifies Cisco's alignment with smaller vendors following the Dell-EMC merger and offers Pure Storage increased sales opportunities and significant backing. The FlashStack solution offers benefits like reduced latency and data center footprint, with both companies enhancing customer support and channel programs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.498874"
+        },
+        {
+          "relevance_score": "0.726401",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116903"
+        },
+        {
+          "relevance_score": "0.582889",
+          "ticker": "SNA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325454"
+        },
+        {
+          "relevance_score": "0.550820",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.289678"
+        },
+        {
+          "relevance_score": "0.592644",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103298"
+        }
+      ],
+      "time_published": "20161014T000900",
+      "title": "Pure Storage expands converged infrastructure partnership with Cisco",
+      "topics": [
+        {
+          "relevance_score": "0.925854",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.615235",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://siliconangle.com/2016/10/14/pure-storage-outs-new-all-flash-array-tightens-partnership-with-cisco/"
+    },
+    {
+      "authors": [
+        "Brian Gaar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.13418,
+      "source": "Austin American-Statesman",
+      "source_domain": "Austin American-Statesman",
+      "summary": "Dell Inc. has hired Rory Read, former CEO of Advanced Micro Devices, to oversee global commercial sales, and Paul P\u00e9rez, a former Cisco Systems executive, as chief technology officer of its Enterprise Solutions Group. Both new hires are expected to strengthen Dell's position as an enterprise powerhouse. Read will focus on go-to-market initiatives, while P\u00e9rez will drive long-term enterprise technology strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.839944",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140107"
+        },
+        {
+          "relevance_score": "0.716836",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101379"
+        },
+        {
+          "relevance_score": "0.903888",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307716"
+        },
+        {
+          "relevance_score": "0.603027",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131639"
+        }
+      ],
+      "time_published": "20160924T055226",
+      "title": "Dell adds ex-AMD chief, former Cisco exec",
+      "topics": [
+        {
+          "relevance_score": "0.848484",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.statesman.com/story/business/2016/09/24/dell-adds-ex-amd-chief-former-cisco-exec/9883724007/"
+    },
+    {
+      "authors": [
+        "Frank Palumbo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.418759,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "This article discusses the continued partnership between Cisco and Dell EMC following Dell Technologies' acquisition of EMC Corp. It highlights the success of their converged infrastructure systems, Vblock and VxBlock, which combine Cisco's compute and networking technology with Dell EMC's storage. The author emphasizes the commitment from both companies to this collaboration, which has resulted in a $3B business and strong future growth potential.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.466395"
+        },
+        {
+          "relevance_score": "0.917614",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425791"
+        },
+        {
+          "relevance_score": "0.568047",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314240"
+        }
+      ],
+      "time_published": "20160919T061651",
+      "title": "Cisco and Dell EMC \u2013 Delivering Converged Infrastructure",
+      "topics": [
+        {
+          "relevance_score": "0.915890",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.828165",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/news/cisco-and-dell-emc-delivering-converged-infrastructure"
+    },
+    {
+      "authors": [
+        "|NULL"
+      ],
+      "banner_image": "|NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.29309,
+      "source": "CRN Magazine",
+      "source_domain": "CRN Magazine",
+      "summary": "|This article details the vendors included in Gartner's 2016 Magic Quadrant for Wired and Wireless LAN Infrastructure, highlighting market consolidation due to enterprise demand for single-vendor access solutions. It categorizes 16 vendors into Leaders, Visionaries, and Niche Players, providing strengths and weaknesses for key companies like Cisco, HPE-Aruba, Extreme Networks, and Fortinet within the evolving LAN landscape.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.426625"
+        },
+        {
+          "relevance_score": "0.933366",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339599"
+        },
+        {
+          "relevance_score": "0.825992",
+          "ticker": "FTNT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.282437"
+        },
+        {
+          "relevance_score": "0.729845",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237080"
+        },
+        {
+          "relevance_score": "0.616443",
+          "ticker": "ZBRA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130556"
+        }
+      ],
+      "time_published": "20160915T064141",
+      "title": "|Here's Who Made Gartner's 2016 Magic Quadrant For Wired And Wireless LAN Infrastructure",
+      "topics": [
+        {
+          "relevance_score": "0.817104",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.crn.com/slide-shows/networking/300082086/heres-who-made-gartners-2016-magic-quadrant-for-wired-and-wireless-lan-infrastructure"
+    },
+    {
+      "authors": [
+        "Jordan Robertson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.431618,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Cisco's network bugs are central to a bankruptcy fight between mobile game publisher Machine Zone and hosting company Peak Web. Peak Web filed for bankruptcy after losing Machine Zone's business, claiming the outages were due to faulty Cisco Systems switches, not their own fault. Cisco acknowledged the bug, but too late for Peak Web, leading to a trial slated for March 2017.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.432298"
+        }
+      ],
+      "time_published": "20160908T191900",
+      "title": "Cisco\u2019s Network Bugs Are Front and Center in Bankruptcy Fight",
+      "topics": [
+        {
+          "relevance_score": "0.817625",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2016-09-08/cisco-s-network-bugs-are-front-and-center-in-bankruptcy-fight"
+    },
+    {
+      "authors": [
+        "Adam Ozkan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.380985,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "Cisco ACI has achieved certified integration with ServiceNow, offering significant benefits for IT operations management. This integration provides a simplified view of IT infrastructure related to business services, enabling accurate dynamic service mapping, real-time infrastructure visibility, and cost savings through automation. It also enhances operational efficiency and helps IT organizations create realistic and guaranteed SLAs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NOW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.493843"
+        },
+        {
+          "relevance_score": "0.910660",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438008"
+        },
+        {
+          "relevance_score": "0.602147",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.268038"
+        }
+      ],
+      "time_published": "20160907T070632",
+      "title": "Cisco ACI Achieves Certified Integration with ServiceNow",
+      "topics": [
+        {
+          "relevance_score": "0.904287",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/datacenter/cisco-aci-achieves-certified-integration-with-servicenow"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.42302,
+      "source": "PRWeb",
+      "source_domain": "PRWeb",
+      "summary": "Altima Technologies, Inc. has updated its NetZoom Visio Stencils library with new devices from manufacturers like Panduit, F5 Networks, IBM, Emerson Network Power, Bosch Security Systems, Dell Computer, NetApp, APC, Cisco Systems, and RF Industries. These stencils allow IT and A/V professionals to create detailed network diagrams, rack elevations, and track data center equipment. NetZoom Visio Stencils are available via subscription, and new shape requests are fulfilled at no extra cost.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FFIV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.412854"
+        },
+        {
+          "relevance_score": "0.749459",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448525"
+        },
+        {
+          "relevance_score": "0.628769",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445323"
+        },
+        {
+          "relevance_score": "0.630913",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422764"
+        },
+        {
+          "relevance_score": "0.634290",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418210"
+        }
+      ],
+      "time_published": "20160906T110000",
+      "title": "NetZoom\u2122 Visio\u00ae Stencils Library Updated for Data Center and Network Devices from Panduit, F5 Networks, IBM, Emerson, Bosch and More Manufacturers",
+      "topics": [
+        {
+          "relevance_score": "0.608614",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prweb.com/releases/netzoom_visio_stencils_library_updated_for_data_center_and_network_devices_from_panduit_f5_networks_ibm_emerson_bosch_and_more_manufacturers/prweb13658603.htm"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.454095,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Videocon d2h has chosen Cisco Virtual DCM to enhance its video experiences for subscribers, leveraging Cisco's Virtualized Video Processing (V2P) platform for advanced video processing, virtualization, and orchestration. This deployment aims to provide Videocon d2h with bandwidth efficiencies to introduce new services like 4K, multiscreen, OTT, and Cloud DVR, addressing the increasing consumer demand for diverse video content across multiple devices. The collaboration highlights a commitment to deliver immersive, personalized viewing experiences and prepare for future cloud-based services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.489984"
+        }
+      ],
+      "time_published": "20160902T061651",
+      "title": "Videocon d2h Enhances Video Experiences with Cisco V2P, vDCM",
+      "topics": [
+        {
+          "relevance_score": "0.905602",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2016/m09/videocon-d2h-enhances-video-experiences-with-cisco-virtualized-video-processing.html"
+    },
+    {
+      "authors": [
+        "Taiwo-Hassan Adebayo"
+      ],
+      "banner_image": "https://www.premiumtimesng.com/wp-content/uploads/2016/08/Opeyemi-Onifade.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.482479,
+      "source": "Premium Times Nigeria",
+      "source_domain": "Premium Times Nigeria",
+      "summary": "This interview features Opeyemi Onifade, the first Nigerian to pass a highly difficult Cisco IT exam, the CCIE Mobility Written Exam. He discusses the challenges and opportunities for Nigerians in obtaining advanced Cisco certifications, emphasizing the importance of passion, dedication, and practical experience. Onifade also offers advice on leveraging these certifications for career advancement in Nigeria and globally.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.494112"
+        }
+      ],
+      "time_published": "20160830T100019",
+      "title": "INTERVIEW: How tech-savvy Nigerians can get top Cisco certifications \u2013 First Nigerian to pass key IT exam",
+      "topics": [
+        {
+          "relevance_score": "0.848215",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.premiumtimesng.com/features-and-interviews/210572-interview-how-tech-savvy-nigerians-can-get-top-cisco-certifications-first-nigerian-to-pass-key-it-exam.html"
+    },
+    {
+      "authors": [
+        "Paul Ausick"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.282293,
+      "source": "24/7 Wall St.",
+      "source_domain": "24/7 Wall St.",
+      "summary": "On Tuesday, the Dow Jones Industrial Average traded higher, primarily driven by strong performances from Nike and Cisco. Markets reacted positively to a better-than-expected Census Bureau report on new home sales and solid European market showings. Nike saw a 1.64% increase, while Cisco gained 1.08%, contributing to the upward movement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.947400",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331659"
+        },
+        {
+          "relevance_score": "0.802862",
+          "ticker": "NKE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342562"
+        },
+        {
+          "relevance_score": "0.645105",
+          "ticker": "DD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.214832"
+        },
+        {
+          "relevance_score": "0.641880",
+          "ticker": "CAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241661"
+        }
+      ],
+      "time_published": "20160823T160100",
+      "title": "Nike, Cisco Pull Dow Higher on Tuesday",
+      "topics": [
+        {
+          "relevance_score": "0.935807",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.838829",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.601590",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.600198",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.623815",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://247wallst.com/investing/2016/08/23/nike-cisco-pull-dow-higher-on-tuesday/?utm_source=robinhood"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.45899,
+      "source": "The Fiji Times",
+      "source_domain": "The Fiji Times",
+      "summary": "Cisco Systems Inc. announced plans to cut nearly 7% of its workforce, incurring charges of up to $400 million, as it transitions focus from legacy hardware to higher-margin software. This shift is a response to sluggish demand for its traditional networking products and intense competition. The company projected flat revenue for the first quarter and an earnings forecast below analysts' estimates.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.499058"
+        }
+      ],
+      "time_published": "20160819T061652",
+      "title": "Cisco to cut back on workforce",
+      "topics": [
+        {
+          "relevance_score": "0.942648",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.842490",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fijitimes.com.fj/cisco-to-cut-back-on-workforce/"
+    },
+    {
+      "authors": [
+        "Maria Deutscher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.124209,
+      "source": "SiliconANGLE",
+      "source_domain": "SiliconANGLE",
+      "summary": "Nutanix Inc. is now offering its hyperconverged infrastructure software on Cisco Systems Inc.'s UCS servers without Cisco's official support, leading to increased competition in the market. This move follows failed acquisition and partnership talks between the two companies. Nutanix claims its software performs well on UCS C-Series servers and is interoperable with Cisco's networking equipment, aiming to compete directly with other UCS-based hyperconverged offerings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.983847",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102032"
+        }
+      ],
+      "time_published": "20160818T112700",
+      "title": "Nutanix brings its software to Cisco\u2019s UCS servers without official backing",
+      "topics": [
+        {
+          "relevance_score": "0.823602",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://siliconangle.com/2016/08/18/nutanix-brings-its-software-to-ciscos-ucs-servers-without-official-backing/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.176245,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Cisco Systems is reportedly laying off about 14,000 employees, representing nearly 20 percent of its global workforce, as it transitions to a software-centric organization. This move follows similar job cuts by other major software companies like Microsoft and HP Inc this year. Cisco has been investing in new products such as data analytics software and cloud-based tools to offset sluggish spending in its traditional network hardware business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.298219"
+        },
+        {
+          "relevance_score": "0.625115",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.139746"
+        },
+        {
+          "relevance_score": "0.634615",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148844"
+        }
+      ],
+      "time_published": "20160817T013100",
+      "title": "Cisco Systems to lay off about 14,000 employees: Report",
+      "topics": [
+        {
+          "relevance_score": "0.916685",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.724445",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.614980",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.603646",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.cnbc.com/2016/08/17/cisco-systems-to-lay-off-about-14000-employees-report.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.469296,
+      "source": "EWM Interactive",
+      "source_domain": "EWM Interactive",
+      "summary": "This article analyzes Cisco's stock performance using the Elliott Wave Principle, suggesting that despite past survival through market crashes, the company might face a significant sell-off in the future. The analysis indicates that Cisco has not fully recovered from the 2000-2002 dot-com crash and that a completed 5-3 wave cycle points to another downtrend, potentially pushing prices below $8 a share. This forecast suggests that Cisco may not be a favorable long-term investment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.973677",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.452624"
+        }
+      ],
+      "time_published": "20160808T061651",
+      "title": "Cisco Might Not Survive Another Crisis",
+      "topics": [
+        {
+          "relevance_score": "0.905517",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.801988",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ewminteractive.com/cisco-might-not-survive-another-crisis"
+    },
+    {
+      "authors": [
+        "Greg McClure"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19313,
+      "source": "Purdue University",
+      "source_domain": "Purdue University",
+      "summary": "Jim Miller, a Purdue alumnus and Google's vice president of operations, delivered the keynote address at Purdue University's summer commencement. The ceremony saw approximately 1,403 students eligible for degrees. Miller shared how his Purdue education shaped his successful career at major companies like Google, Amazon, Cisco, IBM, Intel, and Teledesic.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.722880",
+          "ticker": "SANM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127407"
+        },
+        {
+          "relevance_score": "0.908865",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308784"
+        },
+        {
+          "relevance_score": "0.915204",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327346"
+        },
+        {
+          "relevance_score": "0.623954",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118656"
+        },
+        {
+          "relevance_score": "0.644167",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142215"
+        }
+      ],
+      "time_published": "20160806T072637",
+      "title": "Google executive speaks at Purdue summer commencement",
+      "topics": [
+        {
+          "relevance_score": "0.804980",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.purdue.edu/newsroom/archive/releases/2016/Q3/google-executive-to-speak-at-aug.-6-purdue-commencement.html"
+    },
+    {
+      "authors": [
+        "Jason Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.391461,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "This article details General Electric's ambitious digital transformation efforts, led by Bill Ruh, CEO of GE Digital and Chief Digital Officer. It highlights Ruh's career progression, from his early work with distributed systems to his experience in transforming large organizations like Software AG and Cisco. The article emphasizes GE's strategic shift towards becoming a digital industrial company, centered around its Predix platform and the concept of a \"digital thread\" connecting all industrial processes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.467475"
+        },
+        {
+          "relevance_score": "0.631517",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.292255"
+        }
+      ],
+      "time_published": "20160725T082100",
+      "title": "Digital Transformation At Scale At General Electric: Digital Influencer Bill Ruh",
+      "topics": [
+        {
+          "relevance_score": "0.876669",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.710864",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.642011",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/jasonbloomberg/2016/07/25/digital-transformation-at-scale-at-general-electric-digital-influencer-bill-ruh/"
+    },
+    {
+      "authors": [
+        "David Raths"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.229718,
+      "source": "Campus Technology",
+      "source_domain": "Campus Technology",
+      "summary": "Clemson University's Watt Family Innovation Center, opened in 2016, is a state-of-the-art facility designed for interactive learning and inter-disciplinary collaboration, emphasizing flexibility and transparency. With 73 tech-infused spaces and over 4,300 pieces of hardware from 65 vendors, it serves as a hub for Clemson's Creative Inquiry program. The project, initiated by former President James Barker and significantly funded by Charles Watt and other technology vendors, overcame budget challenges to create a valuable space for student preparation for the marketplace.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.312010",
+          "ticker": "EXTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008462"
+        },
+        {
+          "relevance_score": "0.743524",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316334"
+        },
+        {
+          "relevance_score": "0.624467",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326958"
+        }
+      ],
+      "time_published": "20160720T062701",
+      "title": "An Innovation Center Built for Flexibility and Transparency",
+      "topics": [
+        {
+          "relevance_score": "0.709572",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.948825",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://campustechnology.com/articles/2016/07/20/an-innovation-center-built-for-flexibility-and-transparency.aspx"
+    },
+    {
+      "authors": [
+        "Chalon Duncan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.249394,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "This article discusses the ongoing partnership between Cisco and Commvault in providing data protection solutions for hyperconverged environments. It highlights Commvault's status as a preferred solution partner, leveraging Cisco UCS S-Series storage servers for \"Backup as a Service,\" and then announces a new reference architecture for data protection with Cisco HyperFlex HX Series. The collaboration aims to offer validated, scalable backup solutions that reduce risk and complexity for customers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.325946",
+          "ticker": "CVLT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.025023"
+        },
+        {
+          "relevance_score": "0.983490",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.453274"
+        }
+      ],
+      "time_published": "20160715T061701",
+      "title": "Commvault Data Protection for HyperConverged Environments",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/datacenter/commvault-data-protection-for-hyperconverged-environments"
+    },
+    {
+      "authors": [
+        "Chris Mellor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.150517,
+      "source": "The Register",
+      "source_domain": "The Register",
+      "summary": "NetApp CEO George Kurian discusses the strategic importance of acquiring SolidFire, viewing it as a long-term bet to enable customers to build data center environments similar to Google or Amazon. He also touches on NetApp's approach to hyper-converged systems, object storage, and the company's Data Fabric strategy for managing data across on-premises and multi-cloud environments. Kurian emphasizes the necessity of making difficult decisions for a company's progress and the importance of leadership in an organization.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338153"
+        },
+        {
+          "relevance_score": "0.737156",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107569"
+        },
+        {
+          "relevance_score": "0.626518",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.019363"
+        }
+      ],
+      "time_published": "20160711T101000",
+      "title": "NetApp CEO Kurian: Buying SolidFire was a long-term strategic bet",
+      "topics": [
+        {
+          "relevance_score": "0.834103",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.903564",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.612835",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.theregister.com/2016/07/11/netapp_ceo_george_kurian_interview/"
+    },
+    {
+      "authors": [
+        "Rick Neale"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.334527,
+      "source": "Florida Today",
+      "source_domain": "Florida Today",
+      "summary": "Mark Randall, Adobe's vice president of innovation, discusses Kickbox, a program designed to foster grassroots innovation within the company. Kickbox provides employees with resources like a prepaid credit card and guidance to develop new software features, resulting in over 1,600 participants and influencing initiatives at other companies like Cisco. Randall emphasizes the importance of empowering all employees to innovate and allowing ideas to evolve through experimentation rather than early judgment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425491"
+        },
+        {
+          "relevance_score": "0.647208",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200977"
+        }
+      ],
+      "time_published": "20160711T055149",
+      "title": "Mark Randall pushing 'disruptive innovation' at Adobe",
+      "topics": [
+        {
+          "relevance_score": "0.936676",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.floridatoday.com/story/news/2016/07/11/mark-randall-pushing-disruptive-innovation-adobe/86484708/"
+    },
+    {
+      "authors": [
+        "Jon Swartz",
+        "Alexandra Mosher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.351609,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Adobe's chief strategist, Mark Randall, advocates for a culture of \"employee empowerment\" and calculated risk-taking through programs like Kickbox, which encourages employees to develop new ideas. He stresses that companies must embrace grassroots innovation to avoid becoming obsolete, using Kodak as an example of a company that failed to adapt its business and culture despite technological advancements. Randall warns that companies that do not risk failure may face a similar fate.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430026"
+        },
+        {
+          "relevance_score": "0.606787",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331234"
+        }
+      ],
+      "time_published": "20160701T055149",
+      "title": "Adobe pushes to staff to reach, fail, or risk becoming next Kodak",
+      "topics": [
+        {
+          "relevance_score": "0.808393",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/tech/2016/07/01/podcast-adobes-chief-strategist-employee-empowerment/86561730/"
+    },
+    {
+      "authors": [
+        "Beth Pinsker"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20160630&t=2&i=1140026786&w=900",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.119471,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "The Morgridge family, founders of Cisco Systems, discuss their approach to philanthropy through the Morgridge Family Foundation. Carrie Morgridge shares insights from her book \"Every Gift Matters,\" covering lessons learned from her upbringing, how she and her husband manage wealth distribution, and the values they instill in their children to continue their philanthropic efforts. The interview emphasizes hard work, empathy, and thoughtful giving.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106081"
+        }
+      ],
+      "time_published": "20160630T155100",
+      "title": "Q&A: Cisco's Morgridge family follows life lessons in giving away fortune",
+      "topics": [
+        {
+          "relevance_score": "0.849684",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.614680",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.reuters.com/article/markets/wealth/qa-ciscos-morgridge-family-follows-life-lessons-in-giving-away-fortune-idUSKCN0ZG2AZ/"
+    },
+    {
+      "authors": [
+        "Aaron Pressman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.163321,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Cisco Systems acquired CloudLock for nearly $300 million to strengthen its security unit. CloudLock specializes in helping corporate clients secure their operations across multiple outsourced cloud applications by monitoring users and data. This acquisition will bolster Cisco's growing security business, which saw a 17% revenue jump in the most recent quarter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300355"
+        },
+        {
+          "relevance_score": "0.643000",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111153"
+        },
+        {
+          "relevance_score": "0.632996",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119698"
+        },
+        {
+          "relevance_score": "0.621192",
+          "ticker": "WBD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139395"
+        },
+        {
+          "relevance_score": "0.603677",
+          "ticker": "WDAY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116915"
+        }
+      ],
+      "time_published": "20160628T061651",
+      "title": "Why Cisco Just Paid $300 Million for This Cloud Security Firm",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.929558",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://fortune.com/2016/06/28/cisco-security-cloudlock/"
+    },
+    {
+      "authors": [
+        "Mike Wheatley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.284192,
+      "source": "SiliconANGLE",
+      "source_domain": "SiliconANGLE",
+      "summary": "Four top Cisco executives, collectively known as \"MPLS\" (Mario Mazzola, Prem Jain, Luca Cafiero, and Soni Jiandani), have left the company after being transferred to advisory roles. Their departure stems from a \"disconnect regarding roles, responsibilities and charter\" following a major organizational reshuffle and the formation of a new Networking & Security Business Group. These executives had a long history with Cisco, having joined in 1993 and spearheaded numerous successful acquisitions under previous CEO John Chambers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.297755"
+        }
+      ],
+      "time_published": "20160606T225700",
+      "title": "Four top Cisco execs, collectively known as MPLS, leave the company",
+      "topics": [
+        {
+          "relevance_score": "0.925299",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.702417",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://siliconangle.com/2016/06/06/four-top-cisco-execs-collectively-known-as-mpls-leave-the-company/"
+    },
+    {
+      "authors": [
+        "Prashanth Shenoy"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.323594,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "Cisco has been recognized as a Leader in Gartner's 2016 WAN Optimization Magic Quadrant for the second consecutive year. The author highlights Cisco's Digital Network Architecture solutions, their ability to address market needs through network services convergence, flexible deployment choices, and their comprehensive offerings that meet and exceed hybrid WAN and SD-WAN requirements.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096578"
+        },
+        {
+          "relevance_score": "0.929843",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.594448"
+        }
+      ],
+      "time_published": "20160602T064645",
+      "title": "Cisco Recognized as A Leader in Gartner WAN OP MQ, 2nd Year in a Row",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/networking/cisco-recognized-as-a-leader-in-gartner-wan-op-mq-2nd-year-in-a-row"
+    },
+    {
+      "authors": [
+        "Kathleen Gallagher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.055669,
+      "source": "Milwaukee Journal Sentinel",
+      "source_domain": "Milwaukee Journal Sentinel",
+      "summary": "A Milwaukee research analyst, Mark Sailer, argues that investors seeking \"safe haven\" stocks like food and utility companies are taking a risky strategy due to inflated valuations and modest earnings growth. He suggests undervalued tech companies with strong balance sheets and higher dividend yields, such as Cisco, might be a better, less risky investment despite perception. Sailer highlights Cisco's potential upsides including a dominant market position, resilience to competition, benefits from a weaker U.S. dollar, and commitment to shareholder returns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.979318",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338880"
+        },
+        {
+          "relevance_score": "0.747328",
+          "ticker": "GIS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145709"
+        },
+        {
+          "relevance_score": "0.631636",
+          "ticker": "KO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117299"
+        },
+        {
+          "relevance_score": "0.641940",
+          "ticker": "PG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132434"
+        },
+        {
+          "relevance_score": "0.618532",
+          "ticker": "PEP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130445"
+        }
+      ],
+      "time_published": "20160514T061651",
+      "title": "Safe havens also come with risks, Milwaukee research analyst says",
+      "topics": [
+        {
+          "relevance_score": "0.907168",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.837767",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.735547",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.624064",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.640643",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://archive.jsonline.com/business/safe-havens-also-come-with-risks-milwaukee-research-analyst-says-b99723693z1-379529441.html"
+    },
+    {
+      "authors": [
+        "Craig Matsumoto"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.205097,
+      "source": "SDxCentral",
+      "source_domain": "SDxCentral",
+      "summary": "Arista Networks is hiring a U.S.-based contract manufacturer, a decision influenced by Cisco's patent lawsuits and the need for closer proximity to its engineering team. This move comes as the company continues to see strong financial growth, despite a slight slowdown in its impressive revenue expansion. The new manufacturing setup aims to mitigate risks from potential import injunctions related to ongoing legal disputes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ANET",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446177"
+        },
+        {
+          "relevance_score": "0.824682",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.217583"
+        },
+        {
+          "relevance_score": "0.636733",
+          "ticker": "JBL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.135732"
+        }
+      ],
+      "time_published": "20160505T055645",
+      "title": "Arista Will Ramp Manufacturing in the U.S.",
+      "topics": [
+        {
+          "relevance_score": "0.923942",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.926597",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.805357",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.sdxcentral.com/news/arista-will-ramp-manufacturing-in-the-us/"
+    },
+    {
+      "authors": [
+        "Paul Attfield"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.305747,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "This article discusses the evolution of hospitals towards being technology-driven \"digital hospitals.\" It highlights the new Oakville Trafalgar Memorial Hospital as a prime example, featuring advanced patient tracking, \"smart\" rooms, and enhanced security. The piece also explores the partnership between Mackenzie Health and Philips Electronics Ltd. to integrate future-proof technology and envisages hospitals becoming coordination hubs with a focus on remote patient management.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.918076",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.321292"
+        }
+      ],
+      "time_published": "20160502T061652",
+      "title": "The hospital of the future",
+      "topics": [
+        {
+          "relevance_score": "0.929964",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.925365",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.846992",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/industry-news/property-report/the-hospital-of-the-future/article29823293/"
+    },
+    {
+      "authors": [
+        "Pat Lopes Harris"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.257935,
+      "source": "SJSU Blogs",
+      "source_domain": "SJSU Blogs",
+      "summary": "The Charles W. Davidson College of Engineering at San Jose State University is celebrating its 70th anniversary with an awards banquet. The event will honor distinguished alumnus Roy Kusumoto and Dean's Service Award recipients Dr. David Hemker and Dr. Ivo Bolsens. Don Beall, former president, chairman, and CEO of Rockwell International, will be the keynote speaker and receive a Lifetime Achievement Award.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.328554",
+          "ticker": "CWT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013987"
+        },
+        {
+          "relevance_score": "0.725787",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338446"
+        },
+        {
+          "relevance_score": "0.602478",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303544"
+        },
+        {
+          "relevance_score": "0.830357",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339444"
+        },
+        {
+          "relevance_score": "0.628591",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315558"
+        }
+      ],
+      "time_published": "20160425T061706",
+      "title": "College of Engineering Celebrates 70th Anniversary",
+      "topics": [
+        {
+          "relevance_score": "0.810498",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.sjsu.edu/newsroom/2016/college-of-engineering-celebrates-70th-anniversary/"
+    },
+    {
+      "authors": [
+        "Rachel Lerman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.053202,
+      "source": "The Seattle Times",
+      "source_domain": "The Seattle Times",
+      "summary": "Manny Rivelo, who abruptly resigned as CEO of F5 Networks due to \"personal conduct\" matters, has been appointed CEO of AppViewX, a Plano, Texas-based company. AppViewX, which manages traffic to apps for large businesses, plans to move its headquarters to Seattle. F5's former CEO, John McAdam, temporarily stepped back into his role after Rivelo's departure and is maintaining Rivelo's strategic plans for the company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FFIV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105731"
+        },
+        {
+          "relevance_score": "0.640508",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028360"
+        }
+      ],
+      "time_published": "20160418T122500",
+      "title": "Ex-CEO of F5, who exited abruptly, takes top post at Texas company",
+      "topics": [
+        {
+          "relevance_score": "0.840292",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.seattletimes.com/business/technology/ex-ceo-of-f5-who-exited-abruptly-takes-top-post-at-texas-company/"
+    },
+    {
+      "authors": [
+        "Sarah Scully"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.186838,
+      "source": "Laredo Morning Times",
+      "source_domain": "Laredo Morning Times",
+      "summary": "Crown Castle has acquired Tower Development Corp. for $461 million, adding 336 towers to its U.S. portfolio to meet the rising demand for mobile data. This acquisition further solidifies its focus on the U.S. wireless market, which the company considers the most profitable, and complements its growing investment in small cells. The company anticipates this purchase will contribute $25 million to $27 million to its gross margins for tower space rentals in the next year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CCI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434022"
+        },
+        {
+          "relevance_score": "0.745142",
+          "ticker": "T",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143312"
+        },
+        {
+          "relevance_score": "0.700595",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136396"
+        },
+        {
+          "relevance_score": "0.646778",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122905"
+        }
+      ],
+      "time_published": "20160411T220900",
+      "title": "Crown Castle adds more than 300 towers",
+      "topics": [
+        {
+          "relevance_score": "0.926324",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.812306",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.745532",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.lmtonline.com/business/article/Crown-Castle-adds-more-than-300-towers-7241489.php"
+    },
+    {
+      "authors": [
+        "Tami Abdollah"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.228981,
+      "source": "CBC",
+      "source_domain": "CBC",
+      "summary": "Cisco Systems Inc. warns that self-spreading, virus-like ransomware, exemplified by the Samas strain, represents the next major cyber threat. Unlike traditional ransomware requiring user interaction, these new \"cryptoworms\" exploit server vulnerabilities autonomously, demanding significant ransoms and posing a more predictable defense challenge. The report highlights the increasing prevalence and financial impact of ransomware, with losses projected to surpass previous years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227787"
+        },
+        {
+          "relevance_score": "0.611259",
+          "ticker": "CRWD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.215736"
+        }
+      ],
+      "time_published": "20160411T093000",
+      "title": "Self-spreading ransomware next computer threat, Cisco Systems says",
+      "topics": [
+        {
+          "relevance_score": "0.913657",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.636985",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.cbc.ca/news/canada/kitchener-waterloo/self-spreading-ransomware-next-computer-threat-cisco-systems-says-1.3529824"
+    },
+    {
+      "authors": [
+        "Rick Vacek",
+        "Peter Corbett"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.152624,
+      "source": "GCU News",
+      "source_domain": "GCU News",
+      "summary": "Grand Canyon University's Colangelo College of Business has introduced a new undergraduate course on Pegasystems Inc. software, making it one of only two U.S. universities to offer such training. Taught by Dr. Elissa Torres, the course aims to prepare students for high-demand jobs in business-process and customer-relationship management, with potential for paid internships and strong recruiter interest. The initiative addresses a global need for Pegasystems specialists, with American Express, Cisco, Charles Schwab, and CVS among the major employers utilizing the software.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.902276",
+          "ticker": "LOPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303402"
+        },
+        {
+          "relevance_score": "0.633664",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141289"
+        },
+        {
+          "relevance_score": "0.632298",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101479"
+        },
+        {
+          "relevance_score": "0.631760",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130014"
+        },
+        {
+          "relevance_score": "0.600340",
+          "ticker": "SCHW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141995"
+        }
+      ],
+      "time_published": "20160328T065704",
+      "title": "CCOB's new Pegasystems software class sets GCU apart",
+      "topics": [
+        {
+          "relevance_score": "0.821733",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.gcu.edu/gcu-news/ccobs-new-pegasystems-software-class-sets-gcu-apart/"
+    },
+    {
+      "authors": [
+        "Josh Grunzweig",
+        "Bryan Lee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.17491,
+      "source": "Unit 42",
+      "source_domain": "Unit 42",
+      "summary": "This article details the evolution of the SamSa ransomware, first observed in December 2015, highlighting a shift towards targeted attacks rather than broad-net phishing campaigns. It discusses how the malware is manually deployed post-compromise using common system administrator tools and outlines its technical changes over time, including code obfuscation, file extension variations, ransom notice alterations, and changes in Bitcoin demands. Palo Alto Networks also tracks the attacker's profits and speculates on possible links to high-profile ransomware incidents.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336633"
+        },
+        {
+          "relevance_score": "0.621752",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147240"
+        },
+        {
+          "relevance_score": "0.618957",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115844"
+        },
+        {
+          "relevance_score": "0.626478",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121970"
+        }
+      ],
+      "time_published": "20160324T071215",
+      "title": "Evolution of SamSa Malware Suggests New Ransomware Tactics In Play",
+      "topics": [
+        {
+          "relevance_score": "0.913973",
+          "topic": "blockchain"
+        },
+        {
+          "relevance_score": "0.845110",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://unit42.paloaltonetworks.com/evolution-of-samsa-malware-suggests-new-ransomware-tactics-in-play/"
+    },
+    {
+      "authors": [
+        "Rik Kirkland"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.406216,
+      "source": "McKinsey & Company",
+      "source_domain": "McKinsey & Company",
+      "summary": "John Chambers, former CEO and executive chairman of Cisco Systems, discusses the digital era, calling it the \"biggest technology transition ever\" that will dwarf the information age. He emphasizes the need for companies to transform and adapt to avoid disruption, highlighting Cisco's own organizational changes and acquisition strategies. Chambers predicts significant economic value creation alongside tremendous disruption, with many companies failing to exist in meaningful ways if they don't innovate rapidly.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.444221"
+        }
+      ],
+      "time_published": "20160318T061651",
+      "title": "Cisco's John Chambers on the digital era",
+      "topics": [
+        {
+          "relevance_score": "0.933420",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/ciscos-john-chambers-on-the-digital-era"
+    },
+    {
+      "authors": [
+        "Zacks"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.110135,
+      "source": "Nasdaq",
+      "source_domain": "Nasdaq",
+      "summary": "Ingram Micro Inc. has acquired NETXUSA, Inc., a value-added distributor specializing in VoIP solutions and IP phones, for an undisclosed amount, aiming to strengthen its unified communications and collaboration (UCC) business. This acquisition is expected to be modestly accretive to Ingram Micro's 2016 non-GAAP earnings and add $125 million to its total revenue, despite facing headwinds in the declining PC market. The deal comes as Ingram Micro itself is in the process of being acquired by China's Tianjin Tianhai Investment Co. for $6 billion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.320451",
+          "ticker": "INGM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002423"
+        },
+        {
+          "relevance_score": "0.617660",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213617"
+        }
+      ],
+      "time_published": "20160318T012000",
+      "title": "Ingram Micro Acquires NETXUSA; Enhances UCC Capabilities",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.830357",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.728649",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.612208",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.nasdaq.com/articles/ingram-micro-acquires-netxusa-enhances-ucc-capabilities-2016-03-18"
+    },
+    {
+      "authors": [
+        "Paul Lewis",
+        "Jessica Klion"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.275463,
+      "source": "The Eno Center for Transportation",
+      "source_domain": "The Eno Center for Transportation",
+      "summary": "The USDOT announced the seven finalists for its Smart City Challenge, which will provide up to $50 million to one mid-sized U.S. city to integrate burgeoning transportation technologies. The finalists\u2014Austin, Columbus, Denver, Kansas City, Pittsburgh, Portland, and San Francisco\u2014each received $100,000 to further develop their proposals, which incorporate various smart technologies like driverless cars, real-time data, and intelligent transportation systems. The initiative aims to address urban mobility challenges, improve safety, enhance accessibility, and promote sustainable transportation through technological innovation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.938934",
+          "ticker": "ICFI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.245921"
+        },
+        {
+          "relevance_score": "0.647453",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349166"
+        },
+        {
+          "relevance_score": "0.568165",
+          "ticker": "F",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231691"
+        }
+      ],
+      "time_published": "20160317T222650",
+      "title": "USDOT Announces Seven \"Smart Cities\" Finalists",
+      "topics": [
+        {
+          "relevance_score": "0.907611",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.834337",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.629107",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://enotrans.org/article/usdot-announces-seven-smart-cities-finalists/"
+    },
+    {
+      "authors": [
+        "Ingrid Lunden"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.206599,
+      "source": "TechCrunch",
+      "source_domain": "TechCrunch",
+      "summary": "London-based eeGeo, a company specializing in interactive 3D mapping for interiors and VR, has raised $5 million in funding. The investment, led by NetSol Technologies, values eeGeo at over $26 million and will be used to expand its business and move into virtual reality environments. eeGeo plans to enhance its mapping data through crowdsourcing and continues to offer flexible 3D visualization solutions to its clients.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTWK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423062"
+        },
+        {
+          "relevance_score": "0.644746",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242140"
+        },
+        {
+          "relevance_score": "0.625159",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101646"
+        },
+        {
+          "relevance_score": "0.733820",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128954"
+        }
+      ],
+      "time_published": "20160316T074500",
+      "title": "EeGeo picks up $5M to build better 3D visuals for interiors and VR experiences",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.804841",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.622767",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://techcrunch.com/2016/03/16/eegeo-picks-up-5m-to-build-better-3d-visuals-for-interiors-and-vr-experiences/"
+    },
+    {
+      "authors": [
+        "By Gao Yuan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.32046,
+      "source": "China Daily",
+      "source_domain": "China Daily",
+      "summary": "Inspur Group Co Ltd plans to invest at least 1 billion yuan ($154 million) in overseas cloud computing acquisitions this year to expand its presence in the booming sector. The company is actively seeking advanced technologies in North America and is also set to launch a $100 million joint venture with Cisco Systems Inc in the first half of the year. This strategic move aims to enhance Inspur's core services and address areas where it lags, particularly in cloud-based operating systems and software.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.827874",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313382"
+        }
+      ],
+      "time_published": "20160308T080500",
+      "title": "Inspur has $154m yuan for overseas acquisitions drive",
+      "topics": [
+        {
+          "relevance_score": "0.945629",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.833181",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.chinadaily.com.cn/business/tech/2016-03/08/content_23777983.htm"
+    },
+    {
+      "authors": [
+        "Joe Panettieri"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.228511,
+      "source": "ChannelE2E",
+      "source_domain": "ChannelE2E",
+      "summary": "This article reviews the 2016 Gartner Magic Quadrant for Network Performance Monitoring & Diagnostics (NPMD), providing an overview of the market and analysis of key players. It categorizes vendors into Niche Players, Visionaries, Challengers, and Leaders, offering Gartner's strengths and cautions, alongside ChannelE2E's perspective on each company's partner program. The report highlights the growing NPMD market and the diverse solutions available for monitoring network traffic and optimizing performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.322790",
+          "ticker": "NABL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005068"
+        },
+        {
+          "relevance_score": "0.705782",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309820"
+        },
+        {
+          "relevance_score": "0.715882",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210372"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232058"
+        },
+        {
+          "relevance_score": "0.609137",
+          "ticker": "MSI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327925"
+        }
+      ],
+      "time_published": "20160308T070159",
+      "title": "Gartner Magic Quadrant 2016: Network Performance Monitoring & Diagnostics -",
+      "topics": [
+        {
+          "relevance_score": "0.937899",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.channele2e.com/perspective/gartner-magic-quadrant-2016-network-performance-monitoring-diagnostics"
+    },
+    {
+      "authors": [
+        "Tova Cohen"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.265045,
+      "source": "Haaretz",
+      "source_domain": "Haaretz",
+      "summary": "Cisco Systems Inc. announced its plan to acquire Israeli chip designer Leaba Semiconductor for $320 million in cash plus additional incentives. Leaba, founded in 2014, specializes in networking semiconductors, and Cisco aims to integrate Leaba's expertise to accelerate its next-generation product portfolio. Investors in Leaba include Pitango Venture Capital and Bessemer Venture Partners.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.629433",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112714"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410108"
+        }
+      ],
+      "time_published": "20160302T055716",
+      "title": "Cisco Acquires Israel's Leaba Semiconductor for $320 Million",
+      "topics": [
+        {
+          "relevance_score": "0.918896",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.836517",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.haaretz.com/israel-news/business/2016-03-02/ty-article/cisco-acquires-israels-leaba-semiconductor-for-320-million/0000017f-dc6c-d856-a37f-fdecd3420000"
+    },
+    {
+      "authors": [
+        "BiS Team"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.386452,
+      "source": "Bisinfotech",
+      "source_domain": "Bisinfotech",
+      "summary": "Radware reported significant growth in India for 2015, with a 24.5% increase in revenues and 33% growth in new clients, driven by demand for application delivery controllers and application security solutions. The company aims to solidify its market leadership in India, leveraging its advanced technology and strong commitment to the region. Radware's success is attributed to understanding customer needs and delivering innovative solutions across telecom, government, BFSI, and enterprise sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "RDWR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.821648"
+        },
+        {
+          "relevance_score": "0.589189",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224966"
+        },
+        {
+          "relevance_score": "0.552687",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.241222"
+        },
+        {
+          "relevance_score": "0.586004",
+          "ticker": "FTNT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211276"
+        }
+      ],
+      "time_published": "20160227T072126",
+      "title": "Radware withstand Unprecedented Growth in India \u2013 A Success Story",
+      "topics": [
+        {
+          "relevance_score": "0.931721",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.837607",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bisinfotech.com/radware-withstand-unprecedented-growth-in-india-a-success-story/"
+    },
+    {
+      "authors": [
+        "Tony Shakib"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.03333,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "Cisco's Digital Ceiling initiative aims to transform commercial indoor spaces by connecting previously siloed building systems like lighting, HVAC, and sensors onto a single IP network. This convergence allows for improved energy efficiency, reduced operational costs, and highly personalized user experiences. The article highlights how this technology can lead to significant energy savings and optimization of space utilization, citing Central Iowa Power Cooperative (CIPCO) as a successful implementation example.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.339386",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.042798"
+        }
+      ],
+      "time_published": "20160217T061651",
+      "title": "Cisco Digital Ceiling: Creating Smart and Securely Connected Indoor Spaces",
+      "topics": [
+        {
+          "relevance_score": "0.921563",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746115",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.612721",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://blogs.cisco.com/digital/cisco-digital-ceiling-creating-smart-and-securely-connected-indoor-spaces"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.200731,
+      "source": "The Hindu",
+      "source_domain": "The Hindu",
+      "summary": "Cisco Systems Inc. announced its acquisition of Jasper Technologies Inc., an Internet of Things (IoT) startup that connects various devices to the internet, for $1.4 billion in cash and equity. This move marks Cisco's largest acquisition since 2013 and is part of its strategy to find new growth avenues in the emerging IoT market, offering cutting-edge technology to its customers. Jasper's software platform helps monitor connected devices, a key aspect of Cisco's focus on the IoT space.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.411984"
+        },
+        {
+          "relevance_score": "0.624130",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149517"
+        },
+        {
+          "relevance_score": "0.625262",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142485"
+        },
+        {
+          "relevance_score": "0.613676",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140811"
+        }
+      ],
+      "time_published": "20160205T025700",
+      "title": "Cisco to pay $1.4 billion for IoT firm Jasper",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.915500",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.616806",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.thehindu.com/business/cisco-to-pay-14-billion-for-iot-firm-jasper/article8194264.ece"
+    },
+    {
+      "authors": [
+        "Don Clark"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.448335,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Cisco Systems Inc. announced its intention to acquire Jasper Technologies Inc. for $1.4 billion in cash, bolstering its position in the Internet of Things (IoT) market. Jasper, founded in 2004, provides services for connecting and monitoring various devices and specializes in managing wireless connections and billing relationships for IoT applications. Following the acquisition, Jasper will largely operate independently as part of Cisco's new IoT business unit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409649"
+        }
+      ],
+      "time_published": "20160203T061651",
+      "title": "Cisco to Buy Jasper in $1.4 Billion \u2018Things\u2019 Push",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.943469",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/cisco-to-buy-jasper-in-1-4-billion-things-push-1454536865?gaa_at=eafs&gaa_n=AWEtsqeKzlwqy1J2-d1yul4ZIrL78D6BBoJj0s6UxevCqK-xGrsEnEm6xB2j&gaa_ts=69084bda&gaa_sig=I5oF2-_sYDOtiBDRGXkQ1pUc5nokyt5HpzY3zrsr7YZzARQQMOzLgk8J0TlEMW88FUXfTt-gzdTcU9ijGFWrtQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.233297,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Southwest Airlines has launched an updated version of its iOS mobile app, featuring a faster and more streamlined interface with new functionalities like express booking. This update aims to enhance the mobile experience for customers, making it easier to browse and book flights, access trip information, and utilize Rapid Rewards features. The app integrates with Apple Wallet for boarding passes and provides updated interfaces for tracking Rapid Rewards tier status.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.972666",
+          "ticker": "LUV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.427125"
+        },
+        {
+          "relevance_score": "0.721936",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.198198"
+        },
+        {
+          "relevance_score": "0.583974",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.092346"
+        }
+      ],
+      "time_published": "20160113T100500",
+      "title": "Southwest Airlines Launches Updated Mobile App For iOS Users",
+      "topics": [
+        {
+          "relevance_score": "0.813408",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.736169",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/southwest-airlines-launches-updated-mobile-app-for-ios-users-300203582.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.30477,
+      "source": "PRWeb",
+      "source_domain": "PRWeb",
+      "summary": "Altima Technologies, Inc. has updated its NetZoom\u2122 Visio\u00ae Stencils Device Library with new equipment shapes from Cisco, DELL, HP, and IBM, among other manufacturers. NetZoom subscribers can request custom shapes for free and download them from VisioStencils.com. This update reinforces Altima Technologies' commitment to providing comprehensive and up-to-date visualization tools for IT and A/V professionals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.911818",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315506"
+        },
+        {
+          "relevance_score": "0.847822",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312078"
+        },
+        {
+          "relevance_score": "0.705524",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332334"
+        },
+        {
+          "relevance_score": "0.744159",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326222"
+        },
+        {
+          "relevance_score": "0.643189",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322950"
+        }
+      ],
+      "time_published": "20160112T110000",
+      "title": "NetZoom\u2122 Visio\u00ae Stencils Library Updates for Cisco, DELL, HP, and IBM devices",
+      "topics": [
+        {
+          "relevance_score": "0.906825",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prweb.com/releases/netzoom_visio_stencils_library_updates_for_cisco_dell_hp_and_ibm_devices/prweb13159961.htm"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.831477,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco opened its Toronto Innovation Centre, one of nine globally, to foster digital innovation and development with a focus on urban innovation, healthcare, and financial services. This center is the culmination of Cisco's multi-year investment in Canada and will serve as a hub for customers, partners, and academics to collaborate on solutions. Additionally, Cisco announced the Canadian Innovation Prize for startups and the Cisco Women Entrepreneurs' Circle to support women in technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.846227"
+        }
+      ],
+      "time_published": "20160112T061651",
+      "title": "Cisco Launches Toronto Innovation Centre to Accelerate Next Phase of Digitization in Canada",
+      "topics": [
+        {
+          "relevance_score": "0.906783",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.627878",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2016/m01/cisco-launches-toronto-innovation-centre-to-accelerate-next-phase-of-digitization-in-canada.html"
+    }
+  ],
+  "items": "60",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

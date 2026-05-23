@@ -1,0 +1,28 @@
+# File: configs/artifact_packet.example.yaml
+# Status: COMMENT-ONLY CONFIG SCAFFOLD - NOT ACTIVE CONFIG
+# Governing docs: ProjectDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; docs/Implementation_Decisions.md; docs/Data_Separation_And_Overfitting_Control.md
+#
+# Purpose:
+# - Future configuration family for serious-run artifact packet membership and validation policy.
+#
+# Planned config sections, comments only:
+# - packet_identity:
+#   Meaning: future artifact packet schema version, benchmark-family ID, run ID, and dataset version references.
+#   Planned keys: schema_version, benchmark_family_id, run_id_policy, dataset_version_required.
+#   Expected types: string, enum, boolean.
+#   Default policy: explicit values required for serious runs.
+#   Validation: required packet members must be present before claims.
+#   Benchmark impact: missing or changed packet fields affect auditability and comparability.
+# - required_members:
+#   Meaning: future list of dataset manifest, resolved config, folds, split manifest, preprocessing-fit manifest, predictions, metrics, overfitting diagnostics, and comparison summary.
+#   Planned keys: dataset_manifest, resolved_config, folds, split_manifest, preprocessing_fit_manifest, saved_predictions, metrics, overfitting_diagnostic_report, comparison_summary.
+#   Expected types: mapping and boolean flags.
+#   Default policy: no silent omissions.
+#   Validation: absent members block serious-run completion; in-sample prediction artifacts cannot support out-of-sample claims.
+#   Benchmark impact: packet completeness is mandatory for serious claims.
+#
+# Protected values:
+# - Target family, horizons, provider stack, universe, alignment, and evaluation protocol must match approved scope unless explicit approval changes them.
+#
+# Limitations:
+# - This file is not active until real keys are approved and implemented.

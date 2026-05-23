@@ -1,0 +1,524 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Chad Bray"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.387159,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Western Digital announced its acquisition of memory chip maker SanDisk for approximately $19 billion in a cash-and-stock deal. This acquisition represents a strategic move for Western Digital to become an innovative leader in the storage industry and capitalize on growth opportunities in the evolving storage market. The deal, which offers SanDisk investors a 15 percent premium, is part of a broader trend of consolidation among semiconductor and computer component suppliers facing pricing pressure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SNDKV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403919"
+        },
+        {
+          "relevance_score": "0.994074",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.388630"
+        },
+        {
+          "relevance_score": "0.643585",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330805"
+        },
+        {
+          "relevance_score": "0.559038",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311429"
+        }
+      ],
+      "time_published": "20151021T093156",
+      "title": "Western Digital to Buy Memory Chip Maker SanDisk for $19 Billion (Published 2015)",
+      "topics": [
+        {
+          "relevance_score": "0.915498",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.827717",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.nytimes.com/2015/10/22/business/dealbook/western-digital-to-buy-memory-chip-maker-sandisk-for-19-billion.html"
+    },
+    {
+      "authors": [
+        "Brett Molina"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.266441,
+      "source": "USA Today",
+      "source_domain": "USA Today",
+      "summary": "Semiconductor maker Lam Research announced its acquisition of fellow chipmaker KLA-Tencor for $10.6 billion, involving a mix of cash and stock. The deal is expected to close by mid-2016 and will create the second-largest semiconductor equipment company, according to Moody's Investors Service. This acquisition follows other significant deals in the chipmaking industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.738506",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102913"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.484806"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418097"
+        },
+        {
+          "relevance_score": "0.639004",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146528"
+        },
+        {
+          "relevance_score": "0.606255",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125995"
+        }
+      ],
+      "time_published": "20151021T075649",
+      "title": "Chip maker Lam Research acquires KLA-Tencor for $10.6B",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.946810",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.usatoday.com/story/tech/2015/10/21/chip-maker-lam-research-acquires-kla-tencor-106b/74319736/"
+    },
+    {
+      "authors": [
+        "Bruce Katz",
+        "Kelly Kline"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.279885,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "This article highlights how former industrial towns, specifically Fremont, California, and the Sheffield urban area in the U.K., are transforming into \"innovation districts.\" These districts foster advanced manufacturing by co-locating large companies like Tesla (TSLA) with startups, research institutions, and urban amenities, moving beyond the traditional image of manufacturing. The success of these hardware-software hubs is crucial for modern economies, contributing significantly to GDP and providing high-paying jobs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417923"
+        },
+        {
+          "relevance_score": "0.732520",
+          "ticker": "GM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208117"
+        },
+        {
+          "relevance_score": "0.630877",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.290366"
+        },
+        {
+          "relevance_score": "0.643698",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201860"
+        },
+        {
+          "relevance_score": "0.592328",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204552"
+        }
+      ],
+      "time_published": "20150721T094236",
+      "title": "What Tesla is doing in America\u2019s newest smokestacks-free manufacturing city",
+      "topics": [
+        {
+          "relevance_score": "0.946013",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.848964",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.710009",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.603194",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://fortune.com/2015/07/21/what-tesla-is-doing-in-americas-newest-smokestacks-free-manufacturing-city/"
+    },
+    {
+      "authors": [
+        "Anton Shilov"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.050237,
+      "source": "KitGuru",
+      "source_domain": "KitGuru",
+      "summary": "Intel, reversing its previous stance, is now exploring the use of extreme ultraviolet (EUV) lithography for its 7nm manufacturing process due to challenges faced with multi-patterning methods at 14nm and 10nm. While EUV offers benefits like finer feature sizes and improved yield, the readiness of commercial-scale EUV scanners remains a concern. Intel hopes EUV will allow a return to a two-year production cycle for new process technologies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.983646",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128592"
+        },
+        {
+          "relevance_score": "0.628648",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116570"
+        },
+        {
+          "relevance_score": "0.569386",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.097783"
+        }
+      ],
+      "time_published": "20150716T084659",
+      "title": "Intel wants to use EUV lithography for 7nm process technology",
+      "topics": [
+        {
+          "relevance_score": "0.929011",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.830605",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.kitguru.net/components/cpu/anton-shilov/intel-wants-to-use-euv-lithography-for-7nm-process-technology/"
+    },
+    {
+      "authors": [
+        "Christine Dobby"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.086273,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Wind Mobile CEO Alek Krstajic urged Ottawa to continue promoting competition in the telecom sector, arguing it forces incumbents like BCE, Rogers, and Telus to offer lower prices and prevents them from holding consumers hostage. He criticized the dominant players for their past public relations campaign against government regulations favoring new entrants and highlighted that the CRTC's recent ruling to regulate wholesale rates for roaming will help smaller competitors. Krstajic also suggested that the incumbents' high profit margins make it difficult for them to match price drops from new entrants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.607539",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102808"
+        },
+        {
+          "relevance_score": "0.895457",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.281089"
+        },
+        {
+          "relevance_score": "0.704475",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.112417"
+        },
+        {
+          "relevance_score": "0.553121",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.071290"
+        }
+      ],
+      "time_published": "20150602T094728",
+      "title": "Wind Mobile executive pushes Ottawa to increase telecom competition",
+      "topics": [
+        {
+          "relevance_score": "0.911125",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602595",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/report-on-business/wind-mobile-exec-pushes-ottawa-to-increase-telecom-competition/article24762338/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.329606,
+      "source": "Koreabizwire",
+      "source_domain": "Koreabizwire",
+      "summary": "Lam Research announced its Kiyo\u00ae F Series conductor etch system is enabling the transition of 3D NAND and advanced DRAM into volume production. The Kiyo F Series leverages proprietary Mixed-Mode Pulsing (MMP) technology to deliver the performance needed for advanced memory applications while maintaining high productivity. This product has secured critical etch market positions in advanced memory, leading to increased market share and enabling higher trim rates for 3D NAND staircase etch and achieving critical depth control for advanced DRAM devices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.487510"
+        },
+        {
+          "relevance_score": "0.715962",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349615"
+        },
+        {
+          "relevance_score": "0.629781",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220267"
+        }
+      ],
+      "time_published": "20150518T085716",
+      "title": "Lam Research Kiyo\u00ae F Series Enables Critical Conductor Etch for Advanced Memory",
+      "topics": [
+        {
+          "relevance_score": "0.801757",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.702869",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "http://koreabizwire.com/lam-research-kiyo-f-series-enables-critical-conductor-etch-for-advanced-memory/35337"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.100941,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "Applied Materials and Tokyo Electron Ltd. (TEL) have terminated their proposed $9.3 billion merger deal after encountering significant regulatory hurdles, primarily from the U.S. Department of Justice (DoJ). The DoJ feared the combined entity would create a near-monopoly in the fab tool business, limiting choices for chipmakers. Both companies, now fierce competitors once again, face the challenge of regaining market momentum lost during the prolonged merger process, with analysts noting wasted time and resources.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.225681"
+        },
+        {
+          "relevance_score": "0.611729",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128168"
+        },
+        {
+          "relevance_score": "0.604584",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146256"
+        },
+        {
+          "relevance_score": "0.613973",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105493"
+        },
+        {
+          "relevance_score": "0.618547",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.102703"
+        }
+      ],
+      "time_published": "20150427T075649",
+      "title": "Analysis: Applied-TEL Scrap Merger",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.938227",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.816416",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/applied-tel-scrap-merger-plans/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.302134,
+      "source": "MultiVu",
+      "source_domain": "MultiVu",
+      "summary": "KLA-Tencor announced two new advanced metrology systems, Archer\u2122 500LCM and SpectraFilm\u2122 LD10, designed to support the development and production of 16nm and below IC devices. These systems enhance the company's 5D\u2122 patterning control solution by providing improved overlay error feedback and precise film thickness and stress measurements for complex device structures like FinFETs and 3D NAND. The new offerings aim to help chipmakers resolve patterning issues and drive yield in advanced IC manufacturing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431497"
+        },
+        {
+          "relevance_score": "0.639726",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.220523"
+        },
+        {
+          "relevance_score": "0.599954",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244123"
+        }
+      ],
+      "time_published": "20150219T080000",
+      "title": "KLA-Tencor Extends its 5D\u2122 Patterning Control Solution with New Metrology Systems",
+      "topics": [
+        {
+          "relevance_score": "0.822426",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "http://www.multivu.com/players/English/7065553-kla-tencor-new-metrology-systems/"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.150917,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The semiconductor industry is facing challenges in replacing silicon as the channel material for future transistors at 10nm and 7nm. While germanium (Ge) and III-V materials were initially considered, complexities have led chipmakers to favor silicon-germanium (SiGe) for PFET and tensile silicon for NFET as an interim solution. The article discusses various integration methods like blanket and selective epitaxy, as well as alternative approaches such as wafer bonding, condensation, and melt/regrowth, highlighting the trade-offs and challenges associated with each.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.937388",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313933"
+        },
+        {
+          "relevance_score": "0.744987",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121811"
+        },
+        {
+          "relevance_score": "0.643114",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146748"
+        },
+        {
+          "relevance_score": "0.570437",
+          "ticker": "GLW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099823"
+        }
+      ],
+      "time_published": "20150122T075649",
+      "title": "Next Channel Materials?",
+      "topics": [
+        {
+          "relevance_score": "0.910884",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.841081",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/industry-to-rethink-channel-materials/"
+    },
+    {
+      "authors": [
+        "Anne Shields"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.322042,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article provides a detailed business overview of Applied Materials (AMAT), highlighting its position as the world's largest maker of semiconductor equipment by revenues. It discusses the company's core customers, reportable segments, and significant market shares, especially concerning its planned merger with Tokyo Electron. The article also mentions Applied Materials' key customers like Taiwan Semiconductor Manufacturing and Samsung Electronics, and its geographical revenue distribution.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.486483"
+        },
+        {
+          "relevance_score": "0.882249",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339758"
+        },
+        {
+          "relevance_score": "0.714302",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249704"
+        }
+      ],
+      "time_published": "20150114T124100",
+      "title": "Applied Materials: A detailed business overview",
+      "topics": [
+        {
+          "relevance_score": "0.916493",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.815407",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.743845",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/01/applied-materials-detailed-business-overview/"
+    }
+  ],
+  "items": "10",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

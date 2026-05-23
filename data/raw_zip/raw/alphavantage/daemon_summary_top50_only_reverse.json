@@ -1,0 +1,101 @@
+{
+  "attempts_logged_in_last_24h": 25,
+  "completed_request_count": 475,
+  "end_year": 2026,
+  "endpoint": "NEWS_SENTIMENT",
+  "generated_at_utc": "2026-05-03T03:18:02.675607+00:00",
+  "limit": 1000,
+  "max_successful_calls_per_24h": 25,
+  "next_pending_requests_preview": [
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\CVX\\news_sentiment__2010-01-01__2010-12-31.json",
+      "ticker": "CVX",
+      "time_from": "20100101T0000",
+      "time_to": "20101231T2359",
+      "year": 2010
+    },
+    {
+      "is_current_year": true,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2026-01-01__current.json",
+      "ticker": "AMD",
+      "time_from": "20260101T0000",
+      "time_to": "20260503T0309",
+      "year": 2026
+    },
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2025-01-01__2025-12-31.json",
+      "ticker": "AMD",
+      "time_from": "20250101T0000",
+      "time_to": "20251231T2359",
+      "year": 2025
+    },
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2024-01-01__2024-12-31.json",
+      "ticker": "AMD",
+      "time_from": "20240101T0000",
+      "time_to": "20241231T2359",
+      "year": 2024
+    },
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2023-01-01__2023-12-31.json",
+      "ticker": "AMD",
+      "time_from": "20230101T0000",
+      "time_to": "20231231T2359",
+      "year": 2023
+    },
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2022-01-01__2022-12-31.json",
+      "ticker": "AMD",
+      "time_from": "20220101T0000",
+      "time_to": "20221231T2359",
+      "year": 2022
+    },
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2021-01-01__2021-12-31.json",
+      "ticker": "AMD",
+      "time_from": "20210101T0000",
+      "time_to": "20211231T2359",
+      "year": 2021
+    },
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2020-01-01__2020-12-31.json",
+      "ticker": "AMD",
+      "time_from": "20200101T0000",
+      "time_to": "20201231T2359",
+      "year": 2020
+    },
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2019-01-01__2019-12-31.json",
+      "ticker": "AMD",
+      "time_from": "20190101T0000",
+      "time_to": "20191231T2359",
+      "year": 2019
+    },
+    {
+      "is_current_year": false,
+      "raw_path": "C:\\Users\\Karen\\OneDrive\\Documentos\\DATOS\\event-state-forecasting\\data\\raw\\alphavantage\\AMD\\news_sentiment__2018-01-01__2018-12-31.json",
+      "ticker": "AMD",
+      "time_from": "20180101T0000",
+      "time_to": "20181231T2359",
+      "year": 2018
+    }
+  ],
+  "pending_request_count": 375,
+  "planned_request_count_total": 850,
+  "provider": "alphavantage",
+  "reverse": true,
+  "start_year": 2010,
+  "successful_calls_logged_in_last_24h": 25,
+  "ticker_count": 50,
+  "ticker_range": "1-50",
+  "universe_file": null,
+  "universe_source": "hardcoded_top50"
+}

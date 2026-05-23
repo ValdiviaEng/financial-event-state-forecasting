@@ -1,0 +1,401 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Jerry Underwood"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.231068,
+      "source": "Alabama Department of Commerce",
+      "source_domain": "Alabama Department of Commerce",
+      "summary": "Carpenter Technology Corp. is building a new $20 million facility in Limestone County, Alabama, to produce superalloy powder for aircraft engines, further boosting the state's aerospace industry. This project, creating 50 new jobs, is located across from Carpenter's existing $518 million metals plant in Athens, which together will employ 250 people by 2017. The new facility is set to begin production in late 2015 and will supply Pratt & Whitney with materials for jet engines, anticipating a surge in demand for superalloy powder due to increasing aircraft engine operating temperatures and the need for improved fuel efficiency.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.349314",
+          "ticker": "CRS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.029437"
+        },
+        {
+          "relevance_score": "0.740367",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308909"
+        },
+        {
+          "relevance_score": "0.609538",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.285935"
+        },
+        {
+          "relevance_score": "0.623833",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273159"
+        }
+      ],
+      "time_published": "20131022T122145",
+      "title": "Carpenter superalloy powder project provides lift for state\u2019s aerospace sector",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.809054",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.710021",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.madeinalabama.com/2013/10/carpenter-superalloy-powder-project/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.290125,
+      "source": "NBC News",
+      "source_domain": "NBC News",
+      "summary": "Defense contractor Lockheed Martin announced plans to furlough 3,000 employees due to the government shutdown, with the number expected to increase if the shutdown continues. Other major companies, including United Technologies and Boeing, are also preparing for furloughs and delivery delays as the shutdown impacts federal inspections and funding. USEC Inc., a supplier of enriched uranium, may also furlough workers if the shutdown extends.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.411022"
+        },
+        {
+          "relevance_score": "0.737601",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227867"
+        },
+        {
+          "relevance_score": "0.614664",
+          "ticker": "NOC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.321638"
+        },
+        {
+          "relevance_score": "0.608098",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.327370"
+        },
+        {
+          "relevance_score": "0.587774",
+          "ticker": "LDOS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.252995"
+        }
+      ],
+      "time_published": "20131004T152700",
+      "title": "Lockheed Martin, others to send workers home over government shutdown",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.915984",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nbcnews.com/businessmain/lockheed-martin-others-send-workers-home-over-government-shutdown-8c11338787"
+    },
+    {
+      "authors": [
+        "Sikorsky Press Release"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.294592,
+      "source": "Vertical Mag",
+      "source_domain": "Vertical Mag",
+      "summary": "The FAA has approved a new \"Rig Approach\" system for Sikorsky S-92 helicopters, designed to provide a more automated and safer approach for offshore oil operations. Developed in collaboration with PHI, Inc., this system aims to reduce cockpit workload by 60 percent and can be retrofitted to existing aircraft. It significantly enhances safety margins during challenging weather conditions, establishing a new standard for offshore approach procedures.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.832778",
+          "ticker": "VTOL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316144"
+        },
+        {
+          "relevance_score": "0.703426",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311861"
+        },
+        {
+          "relevance_score": "0.606144",
+          "ticker": "APA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230291"
+        }
+      ],
+      "time_published": "20130506T135610",
+      "title": "FAA approves new platform approach system for S-92 helicopters",
+      "topics": [
+        {
+          "relevance_score": "0.947751",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://verticalmag.com/press-releases/faa-approves-new-platform-approach-system-for-s-92-helicopte/"
+    },
+    {
+      "authors": [
+        "Paul Boughton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.280824,
+      "source": "Engineer Live",
+      "source_domain": "Engineer Live",
+      "summary": "New regulations and demand for greater efficiency are driving innovations in turbine technology. GE is supplying advanced power generation technology for a project in Texas, replacing an older plant with a more efficient combined-cycle plant that meets EPA regulations. Siemens Energy has completed a highly efficient coal-fired power plant in West Virginia and is expanding its manufacturing facilities and signing new contracts for combined cycle power plants. Pratt & Whitney Power Systems has announced a new aeroderivative industrial gas turbine with high power output and efficiency, while GE's TM2500+ aeroderivative gas turbine received ecomagination qualification for distributed power generation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.931002",
+          "ticker": "FLR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348064"
+        },
+        {
+          "relevance_score": "0.894921",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404610"
+        },
+        {
+          "relevance_score": "0.705771",
+          "ticker": "ETN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304072"
+        },
+        {
+          "relevance_score": "0.604425",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207627"
+        },
+        {
+          "relevance_score": "0.565370",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209102"
+        }
+      ],
+      "time_published": "20130221T123628",
+      "title": "New regulations drive turbine innovations",
+      "topics": [
+        {
+          "relevance_score": "0.907351",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.825666",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.engineerlive.com/content/24200"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.218309,
+      "source": "Cision News",
+      "source_domain": "Cision News",
+      "summary": "Carrier Transicold has unveiled a new branding design for its Vector\u2122 and Supra\u2122 refrigeration units, featuring the Carrier blue oval logo surrounded by a slim silver oval background. This new design aims to enhance the visibility of the Carrier brand on the road and express the company's core values of innovation, quality, and performance for the cold chain. The logo will be applied to both the Vector and Supra ranges, including the Vector 1950 unit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.904461",
+          "ticker": "CARR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297590"
+        },
+        {
+          "relevance_score": "0.605402",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143222"
+        }
+      ],
+      "time_published": "20130218T131700",
+      "title": "Carrier Transicold Introduces New Branding Design on Vector\u2122 and Supra\u2122 Refrigeration Units",
+      "topics": [
+        {
+          "relevance_score": "0.706735",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.630614",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://news.cision.com/carrier-transicold/r/carrier-transicold-introduces-new-branding-design-on-vector--and-supra--refrigeration-units,c9371995"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.063949,
+      "source": "Leeham News and Analysis",
+      "source_domain": "Leeham News and Analysis",
+      "summary": "Embraer has officially selected Pratt & Whitney's PurePower Geared Turbofan (GTF) engines to re-engine its E-175, E-190, and E-195 E-Jet models, with entry into service planned for 2018. This decision marks a significant win for PW and a setback for competitors like Rolls-Royce and GE, further validating the GTF engine architecture already powering several new aircraft programs. The re-engined E-Jets are expected to achieve double-digit improvements in fuel burn, maintenance costs, emissions, and noise.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ERJ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432959"
+        },
+        {
+          "relevance_score": "0.847576",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313588"
+        },
+        {
+          "relevance_score": "0.707807",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.209835"
+        },
+        {
+          "relevance_score": "0.669073",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.203598"
+        },
+        {
+          "relevance_score": "0.550100",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140173"
+        }
+      ],
+      "time_published": "20130108T123130",
+      "title": "Embraer selects PW GTF for E-Jet RE; concept clarity comes at last",
+      "topics": [
+        {
+          "relevance_score": "0.914879",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.829402",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://leehamnews.com/2013/01/08/embraer-selects-pw-gtf-for-e-jet-re-concept-clarity-comes-at-last/"
+    },
+    {
+      "authors": [
+        "John Huotari"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14228,
+      "source": "Oak Ridge Today",
+      "source_domain": "Oak Ridge Today",
+      "summary": "Consolidated Nuclear Security LLC, a team including Bechtel and Lockheed Martin, has been awarded a five-year contract to manage the Y-12 National Security Complex and the Pantex Plant, taking over from B&W Y-12 on May 1. This contract, which also includes managing construction for the Uranium Processing Facility and potentially tritium operations at Savannah River Site, could save $3.27 billion over the next decade. The NNSA expects this consolidated contract to improve performance, merge operations, reduce costs, and support an integrated DOE/NNSA enterprise.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.938823",
+          "ticker": "BW",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.383138"
+        },
+        {
+          "relevance_score": "0.837363",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401331"
+        },
+        {
+          "relevance_score": "0.602440",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305418"
+        },
+        {
+          "relevance_score": "0.571292",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111063"
+        }
+      ],
+      "time_published": "20130108T115500",
+      "title": "Bechtel, Lockheed Martin team wins contract to manage Y-12, Pantex",
+      "topics": [
+        {
+          "relevance_score": "0.907732",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.708278",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://oakridgetoday.com/2013/01/08/bechtel-lockheed-martin-team-wins-contract-to-manage-y-12-pantex/"
+    },
+    {
+      "authors": [
+        "MICHAEL POLLICK"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.321735,
+      "source": "Sarasota Herald-Tribune",
+      "source_domain": "Sarasota Herald-Tribune",
+      "summary": "Radiant Power Corp. is set to integrate Dukane Seacom into its local operations, a move that will expand Radiant Power's sensors and instruments product offerings and increase its payroll. Dukane Seacom, known for manufacturing underwater acoustic locator beacons, was acquired by Radiant Power's parent company, Heico Corp., in 2009. This integration is expected to strengthen Radiant Power's relationship with L-3 Communications Inc., a prominent aviation and marine \"black box\" maker.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HEI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.490874"
+        },
+        {
+          "relevance_score": "0.678164",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107601"
+        }
+      ],
+      "time_published": "20130107T124651",
+      "title": "Radiant Power to integrate Dukane Seacom",
+      "topics": [
+        {
+          "relevance_score": "0.938115",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.726889",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.631954",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.heraldtribune.com/story/news/2013/01/07/radiant-power-to-integrate-dukane-seacom/29145019007/"
+    }
+  ],
+  "items": "8",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,1017 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Hilton Romanski"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.465002,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "Cisco announced a US$200 million joint venture with China Electronics Software Information Service Co., Ltd. to capitalize on China's rapidly growing internet market. This venture aims to create new, open standards-based products and cloud-based solutions for public and private projects in China, building on Cisco's 18 years of business in the country. Cisco will contribute 43% of the funding, and the agreement includes provisions for protecting technology and intellectual property.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.494632"
+        }
+      ],
+      "time_published": "20121221T142600",
+      "title": "Cisco Signs Joint Venture Agreement",
+      "topics": [
+        {
+          "relevance_score": "0.915069",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.916363",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://blogs.cisco.com/news/cisco-signs-joint-venture-agreement"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.032249,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced on December 20, 2012, that it completed the acquisition of Meraki, Inc., a cloud networking leader, for approximately $1.2 billion in cash. This acquisition expands Cisco's strategy to offer more software-centric solutions and strengthens its Unified Access platform by integrating Meraki's easy-to-deploy, cloud-managed on-premise networking solutions for midmarket businesses. The Meraki team will now become Cisco's Cloud Networking Group.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.324097",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015828"
+        }
+      ],
+      "time_published": "20121220T142600",
+      "title": "Cisco Completes Acquisition of Meraki",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.935316",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.602903",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2012/m12/cisco-completes-acquisition-of-meraki.html"
+    },
+    {
+      "authors": [
+        "Jessica Leber"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.276124,
+      "source": "MIT Technology Review",
+      "source_domain": "MIT Technology Review",
+      "summary": "General Electric is investing $1.5 billion over three years in what it calls the \"industrial Internet,\" aiming to leverage sensors and data analytics to significantly improve the efficiency of its industrial machinery. This initiative involves collecting and analyzing vast amounts of data from equipment like jet engines and power turbines to predict maintenance needs and optimize performance. GE believes that even small efficiency gains, like a 1 percent improvement in fuel efficiency, could translate into billions of dollars in savings for industries like aviation and power, as physical improvements are reaching their limits.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.454515"
+        },
+        {
+          "relevance_score": "0.722839",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342412"
+        },
+        {
+          "relevance_score": "0.647575",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236195"
+        },
+        {
+          "relevance_score": "0.607559",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131667"
+        }
+      ],
+      "time_published": "20121128T144631",
+      "title": "General Electric Pitches an Industrial Internet",
+      "topics": [
+        {
+          "relevance_score": "0.941245",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.810381",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.738043",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.646624",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.630729",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.technologyreview.com/2012/11/28/114725/general-electric-pitches-an-industrial-internet/"
+    },
+    {
+      "authors": [
+        "Nicola Leske"
+      ],
+      "banner_image": "https://www.reuters.com/resources/r/?m=02&d=20121123&t=2&i=688320146&w=900&fh=&fw=&ll=&pl=&sq=&r=LYNXMGE8AM0V0",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.112965,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Hewlett Packard Co acknowledged that its products might have reached Syria through resellers or distributors, despite the company's policy of not selling directly to countries under U.S. sanctions. This statement came in response to an SEC inquiry regarding reports of HP equipment being used in a Syrian surveillance system. HP also revealed it ended its contract with Area SpA, the Italian company implicated in the surveillance system, and reaffirmed its stance on indirect sales channels making diversions to sanctioned countries difficult to prevent.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.970034",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.306044"
+        },
+        {
+          "relevance_score": "0.634082",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.144566"
+        },
+        {
+          "relevance_score": "0.701810",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110679"
+        },
+        {
+          "relevance_score": "0.574342",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134554"
+        }
+      ],
+      "time_published": "20121123T223800",
+      "title": "HP says products may have been sold to Syria by others",
+      "topics": [
+        {
+          "relevance_score": "0.819634",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/technology/hp-says-products-may-have-been-sold-to-syria-by-others-idUSBRE8AM0U9/"
+    },
+    {
+      "authors": [
+        "John Tozzi"
+      ],
+      "banner_image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iss_uL2XInq4/v0/pi-l660-eutschland_news_pictures.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.01607,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Sandy Lerner, Cisco Systems co-founder, shared her experiences at a Women 2.0 conference, revealing that many venture capitalists initially rejected Cisco. A significant reason for these rejections was her presence as a female founder, highlighting the challenges women face in tech startup funding. This issue remains relevant, as women constitute a small percentage of executives in venture-backed companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334139",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014163"
+        }
+      ],
+      "time_published": "20121115T014100",
+      "title": "Sober Advice for Startups From Cisco's Co-Founder",
+      "topics": [
+        {
+          "relevance_score": "0.818093",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.724779",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2012-11-14/sober-advice-for-startups-from-ciscos-co-founder"
+    },
+    {
+      "authors": [
+        "Crystal Lindell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.391711,
+      "source": "Snack Food & Wholesale Bakery",
+      "source_domain": "Snack Food & Wholesale Bakery",
+      "summary": "Hershey has launched a \"Learn to Grow: Ghana Distance Learning Program\" that connects elementary students in Hershey, Pa., with students in Ghana through real-time, high-definition video technology. This program allows students to learn together, based on a co-developed curriculum, fostering cultural exchange and understanding the links between cocoa growing in Ghana and chocolate making in the U.S. The initiative is part of Hershey's broader commitment to cocoa sustainability and farmer development in West Africa.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HSY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.483629"
+        },
+        {
+          "relevance_score": "0.625467",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301210"
+        }
+      ],
+      "time_published": "20121114T145135",
+      "title": "Hershey creates sweet connection between students in U.S., Ghana",
+      "topics": [
+        {
+          "relevance_score": "0.738376",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.snackandbakery.com/articles/101714-hershey-creates-sweet-connection-between-students-in-us-ghana"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.041353,
+      "source": "www.carnival-news.com",
+      "source_domain": "www.carnival-news.com",
+      "summary": "Carnival Corp. & plc Chairman and CEO Micky Arison participated in an industry panel at the World Travel Market in London via videoconference from Miami. He joined other executives to discuss emerging global cruise markets, industry challenges, sales strategies, and the travel agent distribution system. The panel also fielded questions from the audience during the hour-long session.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.334102",
+          "ticker": "CUK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046388"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139109"
+        },
+        {
+          "relevance_score": "0.630139",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035682"
+        }
+      ],
+      "time_published": "20121106T142605",
+      "title": "Carnival Corp. & plc Chairman and CEO Micky Arison Participates in World Travel Market Industry Panel Live Via Videoconference",
+      "topics": [
+        {
+          "relevance_score": "0.733854",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.644466",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.carnival-news.com/2012/11/06/carnival-corp-plc-chairman-and-ceo-micky-arison-participates-in-world-travel-market-industry-panel-live-via-videoconference"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fwww.reuters.com%2Fresources%2Fr%2F%3Fm%3D02%26d%3D20121011%26t%3D2%26i%3D675038753%26w%3D1280%26h%3D1280%26unadjusted%3Dtrue?auth=14a82208e92a8b9487c0cdcad35414ea",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.260215,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Cisco Systems accused Huawei Technologies Co Ltd of misstating facts regarding their 2003 copyright infringement case, releasing segments from a previously sealed document to support its claim. Cisco asserts that Huawei electronically copied and inserted Cisco's code into its own, directly contradicting Huawei's previous statements that the disputed source code was received from a third party. This comes amid scrutiny of Huawei by the U.S. House Intelligence Committee over espionage concerns, prompting Cisco to reiterate its dispute is with a business rival, not the Chinese government.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.254757"
+        }
+      ],
+      "time_published": "20121011T194800",
+      "title": "Cisco says Huawei misstated facts in 2003 copyright case",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.reuters.com/article/technology/cisco-says-huawei-misstated-facts-in-2003-copyright-case-idUSBRE89A1GF/"
+    },
+    {
+      "authors": [
+        "Mark Chandler"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.301181,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "Cisco's Mark Chandler addresses statements made by Huawei's Charles Ding regarding a 2003-2004 intellectual property litigation. Chandler clarifies the nature of the dispute, highlighting allegations of direct, verbatim copying of Cisco\u2019s source code by Huawei based on a Neutral Expert's Final Source Code Report. Cisco challenges Huawei to publish the report to bring transparency to the matter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.326533"
+        }
+      ],
+      "time_published": "20121011T142600",
+      "title": "Huawei and Cisco\u2019s Source Code: Correcting the Record",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/news/huawei-and-ciscos-source-code-correcting-the-record"
+    },
+    {
+      "authors": [
+        "Staff and agencies"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.24122,
+      "source": "The Guardian",
+      "source_domain": "The Guardian",
+      "summary": "Cisco Systems has ended its seven-year sales partnership with ZTE Corp following an internal investigation into allegations that ZTE broke US sanctions by selling Cisco networking gear to Iran. This decision comes after reports of ZTE selling US tech products to Iranian firms, prompting probes by US authorities and allegations of a cover-up by ZTE's general counsel. The move also follows a US House intelligence committee report recommending that ZTE and Huawei be shut out of the US market due to security concerns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.244364"
+        }
+      ],
+      "time_published": "20121009T130500",
+      "title": "Cisco Systems ends ZTE partnership",
+      "topics": [
+        {
+          "relevance_score": "0.809463",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.theguardian.com/technology/2012/oct/09/cisco-systems-ends-zte-partnership"
+    },
+    {
+      "authors": [
+        "Robert J. Mullins"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.086223,
+      "source": "eWeek",
+      "source_domain": "eWeek",
+      "summary": "HP recommended Cisco networking components for specific needs in a new data center built for Diversified Agency Services (DAS), despite their heated rivalry. While HP supplied most of the hardware for the private cloud facility, it conceded that Cisco was a better choice for certain switches and routing capabilities, enhancing HP's credibility with the client. This project serves as a case study for consolidating disparate IT resources into a cloud-enabled data center, demonstrating that a multi-vendor approach can be beneficial.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.923987",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143504"
+        },
+        {
+          "relevance_score": "0.863271",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.095398"
+        },
+        {
+          "relevance_score": "0.624722",
+          "ticker": "OMC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.079100"
+        },
+        {
+          "relevance_score": "0.585308",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011237"
+        }
+      ],
+      "time_published": "20120927T145130",
+      "title": "HP, Cisco Network Hardware Coexist in Greenfield Data Center Project",
+      "topics": [
+        {
+          "relevance_score": "0.917258",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.eweek.com/networking/hp-cisco-hardware-coexist-in-greenfield-data-center-project/"
+    },
+    {
+      "authors": [
+        "Market Bureau"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.123999,
+      "source": "MarketExpress",
+      "source_domain": "MarketExpress",
+      "summary": "WNS (Holdings) Limited announced the appointment of Adrian Dillon and Renu Karnad to its Board of Directors. Mr. Dillon has held key finance roles at companies like Skype Limited and Agilent Technologies, while Mrs. Karnad is the Managing Director of Housing Development Finance Corporation Limited (HDFC Ltd). Their addition brings the total number of directors to eight, enhancing the board's independence.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.700004",
+          "ticker": "A",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117960"
+        },
+        {
+          "relevance_score": "0.629963",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122624"
+        },
+        {
+          "relevance_score": "0.722054",
+          "ticker": "WSM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115143"
+        }
+      ],
+      "time_published": "20120922T140111",
+      "title": "Adrian Dillon and Renu Karnad joins WNS board",
+      "topics": [
+        {
+          "relevance_score": "0.828330",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marketexpress.in/2012/09/adrian-dillon-renu-karnad-joins-wns-board.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.480887,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Meralco, the Philippines' largest electrical power distributor, is collaborating with Cisco to develop a future-ready energy utility system. This partnership focuses on enhancing automation and intelligence within Meralco's network through a robust IT infrastructure and smart grid technologies to improve efficiency and customer service. The initiative aims to transform power distribution from generation to retail by leveraging intelligent communication networks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.488707"
+        }
+      ],
+      "time_published": "20120822T142600",
+      "title": "Meralco and Cisco Collaborate on Future-Ready Energy Utilities for the Philippines",
+      "topics": [
+        {
+          "relevance_score": "0.813169",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746705",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2012/m08/meralco-and-cisco-collaborate-on-future-ready-energy-utilities-for-the-philippines.html"
+    },
+    {
+      "authors": [
+        "Jill Layfield"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.048328,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Jill Layfield, CEO of Backcountry.com, shares her career journey from an internship at 8x8 Inc. to leading the online outdoor gear retailer. She discusses her early life, education, experiences at various tech companies like Shutterfly, and the challenges and successes of her progression at Backcountry.com, including significant company growth and her role as a mentor.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.807558",
+          "ticker": "EGHT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128987"
+        },
+        {
+          "relevance_score": "0.633157",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.135683"
+        }
+      ],
+      "time_published": "20120811T143132",
+      "title": "The Trail to the Top (Published 2012)",
+      "topics": [
+        {
+          "relevance_score": "0.834949",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.843822",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.612893",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.636343",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2012/08/12/jobs/jill-layfield-of-backcountrycom-on-the-trail-to-the-top.html"
+    },
+    {
+      "authors": [
+        "Robin Wauters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.185136,
+      "source": "The Next Web",
+      "source_domain": "The Next Web",
+      "summary": "Cisco has expanded its board of directors with the addition of Marc Benioff, co-founder and CEO of Salesforce.com, and Dr. Kristina M. Johnson, CEO of Enduring Hydro. Benioff brings extensive experience from Salesforce.com and Oracle to the 14-member board, which now includes notable figures like former Yahoo CEO Carol Bartz.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.290015"
+        },
+        {
+          "relevance_score": "0.917311",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231449"
+        },
+        {
+          "relevance_score": "0.643180",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002531"
+        }
+      ],
+      "time_published": "20120802T140500",
+      "title": "Salesforce.com CEO Marc Benioff Joins Cisco's Board",
+      "topics": [
+        {
+          "relevance_score": "0.835962",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://thenextweb.com/news/cisco-expands-its-board-of-directors-with-salesforce-com-ceo-marc-benioff-and-kristina-johnson"
+    },
+    {
+      "authors": [
+        "Jay Yarow"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.324748,
+      "source": "Business Insider",
+      "source_domain": "Business Insider",
+      "summary": "Salesforce.com CEO Marc Benioff has joined Cisco's board of directors, effective August 1, 2012. Cisco also appointed Kristina M. Johnson, CEO of Enduring Hydro, LLC, to its board. These appointments bring Cisco's board to 14 members, with Benioff's focus on cloud computing expected to be a significant asset.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324725"
+        },
+        {
+          "relevance_score": "0.920717",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308528"
+        }
+      ],
+      "time_published": "20120802T123300",
+      "title": "Salesforce.com CEO Marc Benioff Joins The Board Of Cisco",
+      "topics": [
+        {
+          "relevance_score": "0.944269",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.businessinsider.com/salesforcecom-ceo-marc-benioff-joins-the-board-of-cisco-2012-8"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.403505,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced the completion of its acquisition of NDS Group Ltd., a provider of video software and content security solutions. This acquisition expands Cisco's video portfolio, accelerates its Videoscape platform, and broadens its global video footprint, particularly in new and emerging markets. The deal, valued at approximately $5 billion, is expected to be accretive to Cisco's EPS in the first full year on a non-GAAP basis.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428525"
+        }
+      ],
+      "time_published": "20120731T142600",
+      "title": "Cisco Completes Acquisition of NDS",
+      "topics": [
+        {
+          "relevance_score": "0.900552",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.823446",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2012/m07/cisco-completes-acquisition-of-nds.html"
+    },
+    {
+      "authors": [
+        "Yevgeniy Sverdlik"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.216396,
+      "source": "Data Center Dynamics",
+      "source_domain": "Data Center Dynamics",
+      "summary": "NetApp plans to build a US$75m research-and-development data center in North Carolina\u2019s Research Triangle Park. This facility will house a private-cloud environment for its engineering labs worldwide and serve as a showcase for dynamic and energy-efficient data centers. The project is expected to create 460 new jobs over four years, supported by a state grant of up to $12 million.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.431285"
+        },
+        {
+          "relevance_score": "0.603082",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107666"
+        },
+        {
+          "relevance_score": "0.612316",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120673"
+        }
+      ],
+      "time_published": "20120724T151615",
+      "title": "NetApp's future North Carolina data center to house private cloud",
+      "topics": [
+        {
+          "relevance_score": "0.936392",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.606808",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.datacenterdynamics.com/en/news/netapps-future-north-carolina-data-center-to-house-private-cloud/"
+    },
+    {
+      "authors": [
+        "Sachin Nigade"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.132167,
+      "source": "Insider Monkey",
+      "source_domain": "Insider Monkey",
+      "summary": "This article compiles various hedge fund and financial news from July 2012, including BlackRock's second-quarter profit decline, insider trading admissions and probes involving hedge fund consultants and managers, and the liquidation of Barton Biggs's hedge fund. It also covers industry trends such as the struggles of hedge funds, new product launches like Islamic forestry funds, and discussions on arbitration provisions and risk management.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.336940",
+          "ticker": "BKT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.027858"
+        },
+        {
+          "relevance_score": "0.988951",
+          "ticker": "BLK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.359053"
+        },
+        {
+          "relevance_score": "0.649877",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110704"
+        },
+        {
+          "relevance_score": "0.618829",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.309661"
+        },
+        {
+          "relevance_score": "0.589292",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143858"
+        }
+      ],
+      "time_published": "20120718T100000",
+      "title": "Hedge Fund News: BlackRock, Lloyd Blankfein, Jamie Dimon",
+      "topics": [
+        {
+          "relevance_score": "0.827402",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.810380",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.745873",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.619814",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.insidermonkey.com/blog/hedge-fund-news-blackrock-lloyd-blankfein-jamie-dimon-14833/"
+    },
+    {
+      "authors": [
+        "Shmulik Shelach"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.278151,
+      "source": "Globes - Israel Business News",
+      "source_domain": "Globes - Israel Business News",
+      "summary": "Stanley Black & Decker Inc. has acquired AeroScout Inc., a developer of real-time location systems for healthcare and industrial customers, for an estimated $200-250 million. AeroScout, founded in 1999, specializes in active real-time location services using a combination of communication technologies and Wi-Fi radio frequency signals. This acquisition will enhance Stanley Healthcare's solutions and help establish an Israeli R&D center.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SWK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429300"
+        },
+        {
+          "relevance_score": "0.606103",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105706"
+        }
+      ],
+      "time_published": "20120606T160600",
+      "title": "Stanley Black & Decker buys AeroScout",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.712036",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.705695",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.632466",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://en.globes.co.il/en/article-1000755062"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.401032,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "A Cisco study involving 600 U.S. IT and business leaders found that 95% of organizations allow employee-owned devices, indicating a growing acceptance of Bring Your Own Device (BYOD) in the enterprise. The study revealed significant cost and productivity benefits, with 76% of IT leaders viewing BYOD positively despite security and support challenges. Cisco is addressing this trend with \"Smart Solutions\" for enterprises and service providers to manage mobility, security, and virtualization, highlighting the expanding role of personal devices in the workplace and the need for a comprehensive mobility strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430418"
+        }
+      ],
+      "time_published": "20120516T142600",
+      "title": "Cisco Study: IT Saying Yes To BYOD",
+      "topics": [
+        {
+          "relevance_score": "0.907406",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2012/m05/cisco-study-it-saying-yes-to-byod.html"
+    },
+    {
+      "authors": [
+        "Brian D. Pacampara",
+        "The Motley Fool"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.252416,
+      "source": "Yahoo",
+      "source_domain": "Yahoo",
+      "summary": "Shares of F5 Networks (NAS: FFIV) surged 11% after the company reported second-quarter results that exceeded Wall Street expectations, with revenue climbing 22% to $339.6 million. Analysts at Deutsche Bank and Wunderlich raised their price targets on the stock due to strong demand and F5 gaining enterprise market share from Cisco Systems. However, with the stock up significantly and trading at a high P/E, the article suggests that the \"easy money\" for investors might have already been made.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FFIV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432416"
+        },
+        {
+          "relevance_score": "0.602048",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138727"
+        }
+      ],
+      "time_published": "20120419T150400",
+      "title": "Why F5 Networks Shares Popped",
+      "topics": [
+        {
+          "relevance_score": "0.935099",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.806697",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.730798",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.yahoo.com/2012-04-19-why-f5-networks-shares-popped.html"
+    },
+    {
+      "authors": [
+        "By David Zielenziger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.346258,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "IBM has secured a 10-year, $1 billion contract with Brazilian tycoon Eike Batista's EBX Group, expanding its presence in Brazil's growing market. The deal includes providing technology services to EBX's natural-resources divisions and acquiring a 20 percent stake in EBX subsidiary SIX Automacao. This partnership aligns with IBM's \"Smarter Planet\" agenda and follows other significant investments in Brazil by tech companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410458"
+        },
+        {
+          "relevance_score": "0.628600",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297988"
+        }
+      ],
+      "time_published": "20120405T094800",
+      "title": "IBM Strikes $1B Deal With Brazil Mogul Batista",
+      "topics": [
+        {
+          "relevance_score": "0.721738",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.929232",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.834999",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.601517",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.ibtimes.com/ibm-strikes-1b-deal-brazil-mogul-batista-434142"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.400983,
+      "source": "Cisco Newsroom",
+      "source_domain": "Cisco Newsroom",
+      "summary": "Cisco announced its intent to acquire Lightwire, Inc., a privately held company specializing in advanced optical interconnect technology. This acquisition, valued at approximately $271 million, aims to enhance Cisco's ability to deliver cost-effective, high-speed networks and support its service provider and data center customers. Lightwire's silicon photonics technology is expected to integrate into Cisco's Transceiver Modules Group to meet the growing demand for high-density optical connectivity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446118"
+        }
+      ],
+      "time_published": "20120224T142600",
+      "title": "Cisco Announces Intent to Acquire Lightwire",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.944076",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2012/m02/cisco-announces-intent-to-acquire-lightwire.html"
+    },
+    {
+      "authors": [
+        "Kerry A. Dolan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.043414,
+      "source": "Forbes India",
+      "source_domain": "Forbes India",
+      "summary": "Robert Pera, a former Apple engineer, became a billionaire at 33 by founding Ubiquiti Networks, a wireless-networking gear maker. His company achieved high-profit margins by outsourcing its sales function and focusing on developing countries and an online forum for customer interaction. Pera plans to expand Ubiquiti into a major player in the hardware market, competing with giants like Cisco and Huawei.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.621467",
+          "ticker": "FDS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121750"
+        },
+        {
+          "relevance_score": "0.700746",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114300"
+        },
+        {
+          "relevance_score": "0.621545",
+          "ticker": "MSI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109624"
+        },
+        {
+          "relevance_score": "0.630440",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134232"
+        }
+      ],
+      "time_published": "20120123T083500",
+      "title": "Robert Pera Quit Apple And Became a Billionaire",
+      "topics": [
+        {
+          "relevance_score": "0.827842",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.702138",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.forbesindia.com/article/cross-border/robert-pera-quit-apple-and-became-a-billionaire/32058/1"
+    }
+  ],
+  "items": "25",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

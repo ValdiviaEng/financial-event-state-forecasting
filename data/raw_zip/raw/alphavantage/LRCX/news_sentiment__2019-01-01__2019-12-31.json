@@ -1,0 +1,824 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.427508,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "This article highlights the top-performing Nasdaq stocks of 2019, following the Nasdaq Composite Index's rise past 9,000 points for the first time. AMD, Lam Research, and KLA are identified as leading the list of winners. It also notes that the five largest components\u2014Apple, Microsoft, Amazon.com, Facebook, and Google holding company Alphabet\u2014constitute 36% of the index's market value.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425110"
+        },
+        {
+          "relevance_score": "0.939487",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.716326"
+        },
+        {
+          "relevance_score": "0.813673",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410776"
+        },
+        {
+          "relevance_score": "0.736986",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208980"
+        },
+        {
+          "relevance_score": "0.633096",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.229076"
+        }
+      ],
+      "time_published": "20191228T090600",
+      "title": "Here are the best-performing Nasdaq stocks of 2019",
+      "topics": [
+        {
+          "relevance_score": "0.925762",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.844587",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/here-are-the-best-performing-nasdaq-stocks-of-2019-2019-12-27?gaa_at=eafs&gaa_n=AWEtsqdJLlJzoWl_CFJJx77Z1nMjgOGga9_XcHga6Km4rUpXNi8rNmMwC0mP&gaa_ts=6907feae&gaa_sig=FoGvSP3mJ7gH33h-CHTc5m8-aafxixSPxoRndfp2imFnPTCQAhg8Iv8rqpMI6yooifiyCp2C5U8OwkU-lwsDgw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.105062,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "The Franklin Systematic Style Premia ETF (FLSP) is an actively managed fund that employs two main strategies: one focusing on factors like value, momentum, and carry across various asset classes, and another using quality, momentum, and value for long/short positions in stocks and indices. While reasonably priced for an actively managed fund, it faces challenges with low liquidity and wide trading spreads. The ETF is designed for investors seeking active management rather than low-cost, diversified asset allocation, with its performance relying on the manager's ability to outperform the market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FLSP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146578"
+        },
+        {
+          "relevance_score": "0.627534",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112959"
+        },
+        {
+          "relevance_score": "0.587064",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.139925"
+        },
+        {
+          "relevance_score": "0.580369",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130587"
+        },
+        {
+          "relevance_score": "0.556430",
+          "ticker": "RTX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127534"
+        }
+      ],
+      "time_published": "20191224T185236",
+      "title": "Franklin Systematic Style Premia ETF",
+      "topics": [
+        {
+          "relevance_score": "0.901392",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://etfdb.com/etf/FLSP/"
+    },
+    {
+      "authors": [
+        "Anne Shields"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.340433,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "Applied Materials's merger with Tokyo Electron is expected to create a new company called Eteris, which will command a 25% market share in the chip manufacturing equipment market. The merger, valued at $9.39 billion, aims for significant cost savings and is anticipated to strengthen Applied Materials's competitive position by integrating complementary product lines.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.465485"
+        },
+        {
+          "relevance_score": "0.614378",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265957"
+        },
+        {
+          "relevance_score": "0.649901",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230299"
+        }
+      ],
+      "time_published": "20191127T183400",
+      "title": "What Tokyo Electron acquisition means for Applied Materials",
+      "topics": [
+        {
+          "relevance_score": "0.928354",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.800581",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.713337",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.609560",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://marketrealist.com/2015/01/acquisition-tokyo-electron-means-applied-materials/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.24382,
+      "source": "NVIDIA Newsroom",
+      "source_domain": "NVIDIA Newsroom",
+      "summary": "NVIDIA and Microsoft have announced a technology collaboration focused on intelligent edge computing to help industries manage and gain insights from vast amounts of data. This partnership integrates Microsoft Azure with the NVIDIA EGX platform and NVIDIA T4 GPUs to accelerate AI capabilities from the edge to the cloud. The collaboration aims to enable breakthrough experiences for customers across various industries, including retail, manufacturing, and smart cities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422713"
+        },
+        {
+          "relevance_score": "0.920135",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304499"
+        },
+        {
+          "relevance_score": "0.747075",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.218887"
+        },
+        {
+          "relevance_score": "0.705815",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237108"
+        },
+        {
+          "relevance_score": "0.612212",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106837"
+        }
+      ],
+      "time_published": "20191021T010126",
+      "title": "NVIDIA with Microsoft Announces Technology Collaboration for Era of Intelligent Edge",
+      "topics": [
+        {
+          "relevance_score": "0.942337",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.740515",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.613353",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "http://nvidianews.nvidia.com/news/nvidia-with-microsoft-announces-technology-collaboration-for-era-of-intelligent-edge"
+    },
+    {
+      "authors": [
+        "Robert Castellano"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.194154,
+      "source": "Seeking Alpha",
+      "source_domain": "Seeking Alpha",
+      "summary": "This article provides a comparative analysis of Applied Materials (AMAT) and Lam Research (LRCX), two companies that manufacture equipment for semiconductor devices. It focuses on their performance in key WFE equipment sectors like deposition and etch, highlighting Lam Research's outperformance in these areas and Applied Materials' declining market share in deposition. The author also notes AMAT's strong position in Implant/Doping and its growth in the CMP sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.248408"
+        },
+        {
+          "relevance_score": "0.927902",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118457"
+        }
+      ],
+      "time_published": "20191010T130600",
+      "title": "Applied Materials Vs. Lam Research: Making A Choice Amid Headwinds",
+      "topics": [
+        {
+          "relevance_score": "0.928903",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.828103",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.745135",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.628474",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://seekingalpha.com/article/4295936-applied-materials-vs-lam-research-making-a-choice-amid-headwinds"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.361455,
+      "source": "Nasdaq",
+      "source_domain": "Nasdaq",
+      "summary": "Lam Research Corporation announced the establishment of a new Korea Technology Center (KTC) in Gyeonggi-do, South Korea, through a Memorandum of Understanding with the Gyeonggi-do provincial government. This $50 million investment will create over 300 engineering jobs and aims to reposition South Korea as a tech powerhouse by focusing on key equipment for semiconductor manufacturing processes. The KTC will contribute to forming the world's largest semiconductor cluster in the region, alongside existing facilities of Samsung Electronics and SK Hynix.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.473384"
+        },
+        {
+          "relevance_score": "0.629109",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342662"
+        },
+        {
+          "relevance_score": "0.608375",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331820"
+        }
+      ],
+      "time_published": "20190927T041900",
+      "title": "Lam Research Announces New Technology Center in Gyeonggi-do, South Korea",
+      "topics": [
+        {
+          "relevance_score": "0.934149",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747561",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.615357",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.nasdaq.com/press-release/lam-research-announces-new-technology-center-in-gyeonggi-do-south-korea-2019-09-27"
+    },
+    {
+      "authors": [
+        "Himanshu Sorout"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.136575,
+      "source": "Wccftech",
+      "source_domain": "Wccftech",
+      "summary": "Ushio (TYO:6925) has achieved a breakthrough in the Extreme Ultraviolet (EUV) lithography market by perfecting a light source for testing patterned EUV masks, a critical component for enabling next-generation semiconductor manufacturing at nodes lower than 7nm. This innovation fills a crucial gap in the industry, positioning Ushio as a sole supplier for this niche and vital technology. The CEO, Koji Naito, highlighted that testing equipment was a bottleneck for EUV and their solution will boost production efficiency and yields, with the technology expected to turn profitable in the next fiscal year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.823483",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.274644"
+        },
+        {
+          "relevance_score": "0.634732",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138530"
+        },
+        {
+          "relevance_score": "0.618764",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148413"
+        },
+        {
+          "relevance_score": "0.589019",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147050"
+        },
+        {
+          "relevance_score": "0.565853",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125490"
+        }
+      ],
+      "time_published": "20190905T160000",
+      "title": "Ushio\u2019s Breakthrough In The Niche Extreme Ultraviolet Lithography market",
+      "topics": [
+        {
+          "relevance_score": "0.918018",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.833453",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://wccftech.com/ushios-breakthrough-in-the-niche-extreme-ultraviolet-lithography-market/"
+    },
+    {
+      "authors": [
+        "Frank Holmes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.226122,
+      "source": "USFunds",
+      "source_domain": "USFunds",
+      "summary": "This article discusses the concept of scarcity and its impact on value, using examples from the Popeyes chicken sandwich phenomenon, gold, municipal bonds, and share dilution. It also delves into the current economic climate, including the U.S.-China trade war, its effects on various markets, and global economic indicators for different sectors and regions. The author highlights both opportunities and threats in the precious metals, energy, emerging markets, and blockchain sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.324639",
+          "ticker": "GROW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008156"
+        },
+        {
+          "relevance_score": "0.618311",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343577"
+        },
+        {
+          "relevance_score": "0.636993",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.323572"
+        },
+        {
+          "relevance_score": "0.603239",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313750"
+        }
+      ],
+      "time_published": "20190830T002738",
+      "title": "The Power of Scarcity",
+      "topics": [
+        {
+          "relevance_score": "0.922610",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.843276",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.737636",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.637064",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.usfunds.com/resource/the-power-of-scarcity-2/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.157077,
+      "source": "The Straits Times",
+      "source_domain": "The Straits Times",
+      "summary": "South Korean President Moon Jae-in will invest in the NH-Amundi Victorious Korea Equity Fund, which supports local companies amidst a trade dispute with Japan. This fund focuses on Korean suppliers that could benefit from Japan's export curbs on key semiconductor materials. This move echoes a past presidential investment to promote economic agendas and aims to reduce South Korea's reliance on external factors for its manufacturing industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "KF",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312412"
+        },
+        {
+          "relevance_score": "0.619611",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118693"
+        },
+        {
+          "relevance_score": "0.636939",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112478"
+        },
+        {
+          "relevance_score": "0.633620",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112005"
+        },
+        {
+          "relevance_score": "0.602036",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112354"
+        }
+      ],
+      "time_published": "20190826T142300",
+      "title": "President Moon bets his own money on a Korean victory in trade spat with Japan",
+      "topics": [
+        {
+          "relevance_score": "0.930223",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.831143",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.725760",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.615897",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.637176",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.straitstimes.com/asia/east-asia/president-moon-bets-his-own-money-on-a-korean-victory-over-japan"
+    },
+    {
+      "authors": [
+        "Mark LaPedus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.22677,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "This article provides an overview of developments in the manufacturing and test sectors, highlighting new tools for 3D NAND production, financial results from KLA, and key partnerships and acquisitions in the silicon carbide and semiconductor industries. It also touches on market research for IC products and the competitive landscape between Intel and Samsung.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.943473",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346046"
+        },
+        {
+          "relevance_score": "0.725922",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.226307"
+        },
+        {
+          "relevance_score": "0.630016",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.271321"
+        },
+        {
+          "relevance_score": "0.601210",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.345882"
+        },
+        {
+          "relevance_score": "0.552696",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.128600"
+        }
+      ],
+      "time_published": "20190809T004644",
+      "title": "Week In Review: Manufacturing, Test",
+      "topics": [
+        {
+          "relevance_score": "0.918774",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.846865",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.708351",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.708375",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://semiengineering.com/week-in-review-manufacturing-test-58/"
+    },
+    {
+      "authors": [
+        "Ed Sperling"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.274962,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The article discusses how equipment and tool vendors are focusing on data, sensors, and AI to improve IC manufacturing yield and reduce costs, particularly for advanced nodes. It highlights challenges like increased data volume, process variability, and the need for new methods like I-PAT to identify and correct defects in real-time. The core message is that integrating manufacturing data with design processes is critical for success in an increasingly complex chip industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.917098",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309711"
+        },
+        {
+          "relevance_score": "0.834875",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.251893"
+        },
+        {
+          "relevance_score": "0.756902",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297874"
+        }
+      ],
+      "time_published": "20190424T004644",
+      "title": "Controlling IC Manufacturing Processes To Boost Yield",
+      "topics": [
+        {
+          "relevance_score": "0.901536",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.834842",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/controlling-ic-manufacturing-processes-to-boost-yield/"
+    },
+    {
+      "authors": [
+        "Sungho Yoon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.058411,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The memory market is experiencing a slowdown, with major players Micron Technology and Samsung Electronics reporting weaker-than-expected demand and output cuts. This analysis uses the Memory Inventory Cycle Index to predict that the market trough will occur in Q2 or Q3 2019, leading to stagnating sales in 2019 but a recovery in 2020, impacting fab utilization and silicon wafer shipments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.299150"
+        },
+        {
+          "relevance_score": "0.627289",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137299"
+        },
+        {
+          "relevance_score": "0.590871",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104962"
+        },
+        {
+          "relevance_score": "0.558562",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131392"
+        }
+      ],
+      "time_published": "20190418T005609",
+      "title": "Finding The Bottom Of The Memory Trough",
+      "topics": [
+        {
+          "relevance_score": "0.807967",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.711002",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.647043",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.907185",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.942529",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/finding-the-bottom-of-the-memory-trough/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.039199,
+      "source": "AlphaStreet",
+      "source_domain": "AlphaStreet",
+      "summary": "Intel reported mixed results for its fourth quarter of 2018, with earnings per share beating analyst estimates but revenue falling short. The stock dropped in after-hours trading, and the company issued a cautious outlook for 2019, citing intensifying trade concerns and other market dynamics. Despite the revenue miss, Intel's CFO highlighted record-breaking projections for the coming year driven by data growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.956382",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.338015"
+        },
+        {
+          "relevance_score": "0.637659",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112309"
+        },
+        {
+          "relevance_score": "0.604679",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127550"
+        },
+        {
+          "relevance_score": "0.646941",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105717"
+        },
+        {
+          "relevance_score": "0.567647",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.088869"
+        }
+      ],
+      "time_published": "20190124T003644",
+      "title": "Intel (INTC) Q4 2018 earnings report",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.837361",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.747146",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.627110",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://news.alphastreet.com/intel-corp-intc-q4-2018-earnings-report/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.017826,
+      "source": "AlphaStreet",
+      "source_domain": "AlphaStreet",
+      "summary": "Lam Research (LRCX) exceeded Q2 2019 earnings and revenue estimates, with EPS of $3.87 on revenue of $2.52 billion, causing its stock to jump 7% in after-hours trading. The company's CEO highlighted record revenue and EPS for the 2018 calendar year and announced a $5 billion share repurchase authorization. Lam Research also provided guidance for Q3 2019, expecting EPS of $3.21-$3.61 and revenue of $2.25-$2.55 billion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314987",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030125"
+        }
+      ],
+      "time_published": "20190123T004644",
+      "title": "Lam Research (LRCX) Q2 2019 earnings report",
+      "topics": [
+        {
+          "relevance_score": "0.923057",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.829863",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.alphastreet.com/lam-research-lrcx-q2-2019-earnings-results/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.424457,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "This article announces a new report on the global Semiconductor Manufacturing Equipment's Market by Research N Reports. The report forecasts a 6.9% CAGR, reaching US$ 70800 million by 2023, up from US$ 47400 million in 2017. It highlights the market fundamentals, regional market, global economic industry development, and key players in this sector.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.432071"
+        },
+        {
+          "relevance_score": "0.802178",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434354"
+        },
+        {
+          "relevance_score": "0.713403",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410843"
+        },
+        {
+          "relevance_score": "0.713502",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.440302"
+        },
+        {
+          "relevance_score": "0.616640",
+          "ticker": "TER",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.434055"
+        }
+      ],
+      "time_published": "20190115T120000",
+      "title": "Unlocks the Next Growth Phase with Semiconductor Manufacturing",
+      "topics": [
+        {
+          "relevance_score": "0.919068",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.800098",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1498688/unlocks-the-next-growth-phase-with-semiconductor-manufacturing-equipment-s-market-with-top-key-players-applied-materials-asml-holding-n-v-plasma-therm-lam-research-kla-tencor-corporation-advantest-teradyne-canon-nikon-hitachi-screen-holding.html"
+    }
+  ],
+  "items": "15",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

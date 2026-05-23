@@ -1,0 +1,232 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Iris Dorbian"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.171083,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Tilray Inc. has officially closed its merger with Privateer Holdings, a Seattle-based private equity firm. The deal, announced in June, gives Tilray control over releasing 75 million shares to Privateer's stockholders and is expected to provide Tilray with greater control and operating flexibility. This merger follows a busy year for Tilray, which also included acquisitions of Natura Natural Holdings and Manitoba Harvest.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TLRY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346772"
+        },
+        {
+          "relevance_score": "0.604576",
+          "ticker": "NDAQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100773"
+        },
+        {
+          "relevance_score": "0.607788",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125096"
+        }
+      ],
+      "time_published": "20191217T160900",
+      "title": "Tilray Closes Merger With Privateer",
+      "topics": [
+        {
+          "relevance_score": "0.926349",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.906169",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.845410",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.711205",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/irisdorbian/2019/12/17/tilray-closes-merger-with-privateer/"
+    },
+    {
+      "authors": [
+        "Murad Hemmadi"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.278011,
+      "source": "The Logic",
+      "source_domain": "The Logic",
+      "summary": "A report reveals that Canada's AI ethics test for government projects did not account for Palantir Technologies' controversial work with U.S. law enforcement agencies. Despite Ottawa's stance as a leader in ethical AI, federal procurement rules prevented officials from considering Palantir's involvement with U.S. immigration authorities and police forces when evaluating its bid for Canadian government contracts. This raises concerns about public confidence in the ethical use of AI by the government, especially given Palantir's history of controversial contracts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.270738"
+        }
+      ],
+      "time_published": "20191128T010652",
+      "title": "Ottawa\u2019s AI ethics test didn\u2019t consider Palantir\u2019s controversial work with U.S. law enforcement",
+      "topics": [
+        {
+          "relevance_score": "0.919778",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.649053",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://thelogic.co/news/exclusive/ottawas-ai-ethics-test-didnt-consider-palantirs-controversial-work-with-u-s-law-enforcement/"
+    },
+    {
+      "authors": [
+        "Justin Ling"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.100462,
+      "source": "Open Canada",
+      "source_domain": "Open Canada",
+      "summary": "Palantir Technologies is making a significant move into Canada, appointing former Canadian ambassador to the U.S., David MacNaughton, to head its operations. This expansion, particularly with an office in Ottawa, signals Palantir's intention to deepen ties with the Canadian government and expand its data analytics services, despite facing privacy concerns and a lack of profitability in its U.S. operations. The article explores the potential reasons behind this push, including improving its public image, accessing new talent, and tapping into Canada's emerging cybersecurity market, while also highlighting civil liberties concerns from advocates.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101358"
+        }
+      ],
+      "time_published": "20191025T010652",
+      "title": "Palantir\u2019s big push into Canada",
+      "topics": [
+        {
+          "relevance_score": "0.929647",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://opencanada.org/palantirs-big-push-into-canada/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.18876,
+      "source": "Investing.com",
+      "source_domain": "Investing.com",
+      "summary": "This article provides information on the Global X Cloud Computing ETF (CLOU), including its ticker symbol, current stock price, and trade exchange (NASDAQ). It offers key statistics such as the expense ratio, market capitalization, and inception date, and includes recent news and analysis related to cloud computing stocks. The article also lists major holdings of the ETF.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CLOU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.011938"
+        },
+        {
+          "relevance_score": "0.706506",
+          "ticker": "CRWD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.329741"
+        },
+        {
+          "relevance_score": "0.746181",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.312294"
+        },
+        {
+          "relevance_score": "0.643455",
+          "ticker": "AKAM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014485"
+        }
+      ],
+      "time_published": "20190716T141000",
+      "title": "CLOU Stock Price | Global X Cloud Computing ETF",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.811579",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.investing.com/etfs/global-x-cloud-computing"
+    },
+    {
+      "authors": [
+        "KEN SHREVE"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.313748,
+      "source": "Investor's Business Daily",
+      "source_domain": "Investor's Business Daily",
+      "summary": "The stock market, particularly the Nasdaq, turned lower on Monday, with Google-parent Alphabet's shares falling amid news of an impending antitrust probe by the U.S. Justice Department. Investors were also closely watching Apple stock ahead of its Worldwide Developers Conference.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.926061",
+          "ticker": "SQQQ",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.361418"
+        },
+        {
+          "relevance_score": "0.821660",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.739976"
+        },
+        {
+          "relevance_score": "0.810634",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.737704"
+        },
+        {
+          "relevance_score": "0.740768",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319586"
+        },
+        {
+          "relevance_score": "0.600242",
+          "ticker": "PLTR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233808"
+        }
+      ],
+      "time_published": "20190603T100300",
+      "title": "Stock Market Turns Lower; Google Shares Tank As U.S. Prepares Antitrust Probe",
+      "topics": [
+        {
+          "relevance_score": "0.923681",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.836796",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.700323",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.investors.com/market-trend/stock-market-today/stock-futures-dip-google-shares-fall-on-antitrust-probe/"
+    }
+  ],
+  "items": "5",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

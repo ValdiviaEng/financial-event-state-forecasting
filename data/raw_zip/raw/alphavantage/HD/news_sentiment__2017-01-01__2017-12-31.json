@@ -1,0 +1,2272 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Dow Jones Newswires"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.421481,
+      "source": "Fox Business",
+      "source_domain": "Fox Business",
+      "summary": "Home Depot has acquired the home-decor and textiles retailer The Company Store from Hanover Direct for an undisclosed amount. This acquisition is aimed at expanding Home Depot's online decor business by leveraging The Company Store's product development and sourcing capabilities. The deal, which closed on a Tuesday, did not include The Company Store's five retail locations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.391840"
+        }
+      ],
+      "time_published": "20171221T084000",
+      "title": "Home Depot buys The Company Store",
+      "topics": [
+        {
+          "relevance_score": "0.907274",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.843794",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.foxbusiness.com/features/home-depot-buys-the-company-store"
+    },
+    {
+      "authors": [
+        "Bowdeya Tweh",
+        "Allison Prang"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.493886,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Home Depot announced a $15 billion share buyback program and committed to increasing investments in its business ahead of an analyst meeting. The home-improvement retailer plans to focus these investments on its supply chain, delivery capabilities, employees, stores, and customer experience. These strategic moves come as the retail sector continues to evolve.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.491827"
+        }
+      ],
+      "time_published": "20171206T043641",
+      "title": "Home Depot to Launch $15 Billion Share Buyback Program",
+      "topics": [
+        {
+          "relevance_score": "0.916292",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.804393",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.715763",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/home-depot-to-launch-15-billion-share-buyback-program-1512560836?gaa_at=eafs&gaa_n=AWEtsqe9g_TFguMaSj98m8pUC9whtLMPe53RHcDNebywyGzf91K_lSJ-3XfJ&gaa_ts=69083484&gaa_sig=9tCwDFkDBuLV4wMh56KKsxTZfYL8hTtuQ0Fl81ETNDrazqwQDkVjPjEHH38C4QRzjVQqf2-fURJr2iSDpt9IbQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Jack Kaskey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.274952,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Nippon Paint Holdings Co. failed to reach an agreement to acquire Axalta Coating Systems Ltd., as the Japanese paintmaker was unwilling to meet Axalta's valuation expectations and take on the necessary debt. This outcome led to a plunge in Axalta's shares and a climb in Nippon Paint's stock. The failure of this deal reopens the possibility of Axalta merging with Akzo Nobel.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AXTA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.638610"
+        },
+        {
+          "relevance_score": "0.644784",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120928"
+        }
+      ],
+      "time_published": "20171130T175000",
+      "title": "Nippon Paint Fails to Strike Deal With Buffett-Backed Axalta",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.712621",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2017-11-30/nippon-paint-ends-talks-to-acquire-buffett-backed-axalta"
+    },
+    {
+      "authors": [
+        "Max B. Baker"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.134644,
+      "source": "Fort Worth Star-Telegram",
+      "source_domain": "Fort Worth Star-Telegram",
+      "summary": "Hal Lambert, a Fort Worth money manager and GOP activist, has launched the MAGA fund, an ETF that invests in companies supporting President Trump and Republican candidates. The fund started on September 7th, has grown by nearly 6 percent to $31 million in assets, and focuses on companies whose PACs and employees primarily contribute to Republicans. Lambert sees this as \"politically responsible investing\" and a new way for individuals to align their investments with their political views.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335452",
+          "ticker": "MAGA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015026"
+        },
+        {
+          "relevance_score": "0.744632",
+          "ticker": "LMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326212"
+        },
+        {
+          "relevance_score": "0.735370",
+          "ticker": "BA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341587"
+        },
+        {
+          "relevance_score": "0.735437",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.311926"
+        },
+        {
+          "relevance_score": "0.632077",
+          "ticker": "SBUX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.334313"
+        }
+      ],
+      "time_published": "20171121T173200",
+      "title": "How this Trump-inspired investment fund wants to Make America Great Again",
+      "topics": [
+        {
+          "relevance_score": "0.810709",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.701266",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "http://www.star-telegram.com/news/business/article185919878.html"
+    },
+    {
+      "authors": [
+        "Rodrigo Campos"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/L6D6K2QZ7BPTHD2J5G6X3T2VFE.JPG?smart=true&width=1280&height=720&q=80",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.193637,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "New exchange-traded funds (ETFs) have launched allowing investors to bet on the decline of brick-and-mortar retail and the rise of online sales, reflecting a trend amplified by Amazon's growth. Despite these new investment tools and warnings of a retail \"apocalypse,\" U.S. government data and recent company performance suggest that traditional stores, especially those adopting a \"click and mortar\" strategy or focusing on niche markets, are not only surviving but thriving. Large retailers like Walmart and Home Depot are demonstrating strong sales and using their distribution networks to compete effectively.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CLIX",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.320235"
+        },
+        {
+          "relevance_score": "0.847495",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341981"
+        },
+        {
+          "relevance_score": "0.709707",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438589"
+        },
+        {
+          "relevance_score": "0.605483",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347278"
+        }
+      ],
+      "time_published": "20171117T222100",
+      "title": "Despite Amazon, brick stores are not dead yet",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.900909",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.708132",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.reuters.com/article/us-usa-stocks-weekahead/despite-amazon-brick-stores-are-not-dead-yet-idUSKBN1DH2R4/"
+    },
+    {
+      "authors": [
+        "Jude Stewart"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288145,
+      "source": "Fast Company",
+      "source_domain": "Fast Company",
+      "summary": "The article explores the growing trend of companies, beyond just Pantone, declaring a \"Color of the Year\" (COTY) as a strategic marketing tool. Naming a COTY is an inexpensive way for brands to generate attention, drive both online and in-store traffic, and boost sales across their product ranges. The efforts have expanded across various industries, from paint manufacturers to roofing companies and even cheerleading uniform makers, highlighting its effectiveness in modern marketing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SHW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336361"
+        },
+        {
+          "relevance_score": "0.610442",
+          "ticker": "MAS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308688"
+        },
+        {
+          "relevance_score": "0.602102",
+          "ticker": "DD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.263800"
+        },
+        {
+          "relevance_score": "0.576225",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205841"
+        },
+        {
+          "relevance_score": "0.584052",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.231676"
+        }
+      ],
+      "time_published": "20171113T052606",
+      "title": "The Big Money Behind Naming A \"Color Of The Year\"",
+      "topics": [
+        {
+          "relevance_score": "0.814381",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.700257",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.634146",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.fastcompany.com/90149703/the-big-money-behind-naming-a-color-of-the-year/"
+    },
+    {
+      "authors": [
+        "Elisa Boxer"
+      ],
+      "banner_image": "https://www.inc.com/resizer/1W1-Q6L8c7t45j8sJ8sH8sQ8sQ8s=/1200x675/user_gallery/b32fe4ed47514128a1ea533e08a0d4a9.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.458004,
+      "source": "Inc.com",
+      "source_domain": "Inc.com",
+      "summary": "Former Home Depot CEO Frank Blake wrote over 25,000 handwritten thank-you notes to employees during his seven-year tenure, a practice he considers his most important mementos. Science supports the benefits of expressing gratitude, showing it increases happiness, engagement, and productivity for recipients, and optimism and health for givers. The article outlines four tips for leaders to effectively use handwritten notes to show appreciation, emphasizing specificity, systemization, convenience, and going beyond simple thanks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.492466"
+        }
+      ],
+      "time_published": "20171110T043641",
+      "title": "Home Depot\u2019s CEO Did This 25,000 Times. Science Says You Should Do It Too",
+      "topics": [
+        {
+          "relevance_score": "0.617191",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.inc.com/elisa-boxer/home-depots-ceo-did-this-25000-times-science-says-you-should-do-it-too.html"
+    },
+    {
+      "authors": [
+        "Lyn Alden"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.340253,
+      "source": "Lyn Alden - Investment Strategy",
+      "source_domain": "Lyn Alden - Investment Strategy",
+      "summary": "This article by Lyn Alden comprehensively explores share buybacks, detailing their mechanics, benefits, and drawbacks. It highlights how buybacks can enhance per-share metrics, outlines tax efficiencies and advantages for undervalued companies, while cautioning against poor market timing and reduced shareholder choice. The piece concludes with current market trends, advice on identifying buyback opportunities, and a list of companies effectively utilizing this strategy.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.809407",
+          "ticker": "SYLD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331770"
+        },
+        {
+          "relevance_score": "0.643791",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404489"
+        },
+        {
+          "relevance_score": "0.644896",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315497"
+        },
+        {
+          "relevance_score": "0.608755",
+          "ticker": "DG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343220"
+        },
+        {
+          "relevance_score": "0.624669",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414101"
+        }
+      ],
+      "time_published": "20171029T053141",
+      "title": "Share Buybacks (aka Repurchases): the Good, the Bad, and the Ugly",
+      "topics": [
+        {
+          "relevance_score": "0.906864",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.905828",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.818518",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.646169",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.638771",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.lynalden.com/share-buybacks/"
+    },
+    {
+      "authors": [
+        "Matthew Townsend"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.161384,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Lowe's Cos. announced it will begin selling Craftsman tools in the second half of 2018, a move expected to give it a significant advantage over competitor Home Depot Inc. The deal also includes the development of exclusive Craftsman-branded products for Lowe's. This strategic move aims to differentiate Lowe's by offering the once Sears exclusive 90-year-old tool brand.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.238428"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.538608"
+        }
+      ],
+      "time_published": "20171024T180100",
+      "title": "Lowe's to Sell Craftsman Tools, Gaining Edge Over Home Depot",
+      "topics": [
+        {
+          "relevance_score": "0.900885",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.731003",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2017-10-24/lowe-s-inks-deal-to-sell-craftsman-gaining-edge-over-home-depot"
+    },
+    {
+      "authors": [
+        "Associated Press; Nick Viviani"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.238808,
+      "source": "WIBW",
+      "source_domain": "WIBW",
+      "summary": "Sears announced it will no longer sell Whirlpool-branded appliances, ending a century-long business relationship. This decision stems from demands by Whirlpool that Sears claimed would make selling their products uncompetitive. The move highlights Sears' ongoing struggles against online retailers and big-box stores, as both companies saw their stock prices fall following the announcement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WHR",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.634184"
+        },
+        {
+          "relevance_score": "0.648989",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116813"
+        },
+        {
+          "relevance_score": "0.640196",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.103123"
+        },
+        {
+          "relevance_score": "0.639170",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.135828"
+        }
+      ],
+      "time_published": "20171024T160900",
+      "title": "Sears-Whirlpool curtail relationship after 100 years",
+      "topics": [
+        {
+          "relevance_score": "0.947285",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.831719",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.wibw.com/content/news/Sears-Whirlpool-curtail-relationship-after-100-years-452857853.html"
+    },
+    {
+      "authors": [
+        "Tribune Staff and Wire Report",
+        "Caleb Bauer",
+        "The Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.029866,
+      "source": "South Bend Tribune",
+      "source_domain": "South Bend Tribune",
+      "summary": "Sears will cease selling Whirlpool appliances, ending a century-long business relationship. Whirlpool stated the decision was made in May due to an inability to agree on terms for Whirlpool-branded products, though it will continue to supply Kenmore products to Sears. This split highlights Sears' ongoing struggles against competitors like Home Depot and Amazon.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WHR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.226845"
+        },
+        {
+          "relevance_score": "0.727815",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143670"
+        },
+        {
+          "relevance_score": "0.624535",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130421"
+        },
+        {
+          "relevance_score": "0.645801",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133373"
+        }
+      ],
+      "time_published": "20171024T054612",
+      "title": "Sears to stop selling Benton Harbor-based Whirlpool appliances after 100 years",
+      "topics": [
+        {
+          "relevance_score": "0.920392",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.844515",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.southbendtribune.com/story/business/2017/10/24/sears-to-stop-selling-benton-harbor-based-whirlpool-appliances-after-100-years/45719883/"
+    },
+    {
+      "authors": [
+        "Tonya Layman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.395325,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Carol Tom\u00e9, a self-proclaimed home improvement DIYer, was recognized at the 2017 Women Who Mean Business event. She emphasizes that her success is attributed to building a strong team. The article touches on her reflection of her first experience at a Home Depot store.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.382752"
+        }
+      ],
+      "time_published": "20171020T043642",
+      "title": "Carol Tom\u00e9, 2017 Women Who Mean Business: 'A legacy that I built the best team ever'",
+      "topics": [
+        {
+          "relevance_score": "0.921023",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bizjournals.com/atlanta/news/2017/10/20/carol-tom-2017-women-who-mean-business-a-legacy.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.030594,
+      "source": "The Home Depot",
+      "source_domain": "The Home Depot",
+      "summary": "The Home Depot organized a volunteer event where associates packed 3,000 clean-up kits for communities affected by recent hurricanes. These kits, containing essential supplies like scrub brushes and bleach, will be delivered to Texas and Florida by National Retail Systems and Convoy of Hope, demonstrating Home Depot's ongoing commitment to disaster relief.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.347444",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.009184"
+        }
+      ],
+      "time_published": "20170928T043642",
+      "title": "Relief Supplies for Communities in Need",
+      "topics": [
+        {
+          "relevance_score": "0.835986",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.644468",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://corporate.homedepot.com/news/foundation-and-community/relief-supplies-communities-need"
+    },
+    {
+      "authors": [
+        "Jessica Saunders"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.243013,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "The Atlanta Business Chronicle announced that Carol Tom\u00e9, CFO and Executive Vice President of Corporate Services for The Home Depot Inc., will receive the Lifetime Achievement Award at their Women Who Mean Business event on October 19. The award ceremony will take place at the Foundry at Puritan Mill in Atlanta.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.928975",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227327"
+        }
+      ],
+      "time_published": "20170926T043642",
+      "title": "Home Depot's Carol Tom\u00e9 among Women Who Mean Business honorees to be celebrated Oct. 19",
+      "topics": [
+        {
+          "relevance_score": "0.724522",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.644794",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/atlanta/news/2017/09/26/home-depots-carol-tom-among-women-who-mean.html"
+    },
+    {
+      "authors": [
+        "Cara Smith"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.411722,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Home Depot has leased a 300,000-square-foot warehouse in Houston to meet the high demand for building supplies following Hurricane Harvey. This move is a direct response to the long-term rebuilding efforts expected in the region.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418025"
+        }
+      ],
+      "time_published": "20170919T043641",
+      "title": "Exclusive: Due to Harvey demand, Home Depot inks large Houston warehouse lease",
+      "topics": [
+        {
+          "relevance_score": "0.940698",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.835341",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.bizjournals.com/houston/news/2017/09/19/exclusive-due-to-harvey-demand-home-depot-inks.html"
+    },
+    {
+      "authors": [
+        "Sarah Nassauer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.473768,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Home Depot Inc. and Lowe\u2019s Cos. are expediting supplies to Florida to aid in rebuilding efforts following Hurricane Irma, highlighting the increasing role big-box retailers play in natural disaster recovery. This rush to restock is crucial for local residents and first responders, and investors have already seen an uptick in the shares of these companies due to anticipated hurricane-related sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.500498"
+        },
+        {
+          "relevance_score": "0.847600",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.503204"
+        },
+        {
+          "relevance_score": "0.645343",
+          "ticker": "BLDR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339755"
+        }
+      ],
+      "time_published": "20170911T043642",
+      "title": "Home-Improvement Retailers Scramble to Restock in Florida",
+      "topics": [
+        {
+          "relevance_score": "0.845653",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.714707",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.614957",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/home-improvement-retailers-scramble-to-restock-in-florida-1505145492?gaa_at=eafs&gaa_n=AWEtsqee83ge-v7dMajSUhC1ABgfYU5aAGJMWyPAfW14Nn0PZygtoZWB-cpn&gaa_ts=69083486&gaa_sig=rmDDk_AEoE-D6dvsFc-NwPXqkaFTthu9mCFV3ZrPtZg0QIz8IoL9rQq7HnWqHRaF7BctlGovR9lS5GQCAa9Wng%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.504788,
+      "source": "Ranker",
+      "source_domain": "Ranker",
+      "summary": "This article lists notable past and present Home Depot employees, including executives, managers, and staff who have been crucial to the company's success. It highlights individuals like Arthur Blank, co-founder, Annette Verschuren, president of Home Depot Canada and Asia, and Carol B. Tom\u00e9, CFO. The list also features other significant figures within the company's history.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.546766"
+        }
+      ],
+      "time_published": "20170910T043642",
+      "title": "The Top Home Depot Employees",
+      "topics": [
+        {
+          "relevance_score": "0.836855",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.ranker.com/list/notable-home-depot-employees/reference"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.365084,
+      "source": "The Home Depot",
+      "source_domain": "The Home Depot",
+      "summary": "The Home Depot is partnering with Google Express to allow customers to shop using voice commands through the Google Assistant on Google Home devices, as well as on the Google Express website and app. This collaboration aims to provide greater convenience and an interconnected shopping experience for customers. The service is expected to launch in the fall of 2017.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.480755"
+        },
+        {
+          "relevance_score": "0.879678",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347326"
+        },
+        {
+          "relevance_score": "0.865880",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308697"
+        }
+      ],
+      "time_published": "20170906T000000",
+      "title": "Shop from Home Depot with just your voice thanks to the Google Assistant",
+      "topics": [
+        {
+          "relevance_score": "0.806285",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.802215",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://ir.homedepot.com/news-releases/2017/09-06-2017-122629479"
+    },
+    {
+      "authors": [
+        "Brandy McDonnell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.240172,
+      "source": "The Oklahoman",
+      "source_domain": "The Oklahoman",
+      "summary": "Blake Shelton's Ole Red Tishomingo, a new restaurant, live music venue, and retail space, is set to celebrate its grand opening on Saturday, September 30th, with an Opry-style performance and block party. The event will feature performances by RaeLynn, Jeannie Seely, John Conlee, and Ronnie Milsap, co-hosted by Shelton and Bill Cody. Proceeds from a private concert on September 29th will benefit J.C. Reaching Out, a local cancer charity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "RHP",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.476533"
+        },
+        {
+          "relevance_score": "0.634412",
+          "ticker": "MAR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332677"
+        },
+        {
+          "relevance_score": "0.592412",
+          "ticker": "MSI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126105"
+        },
+        {
+          "relevance_score": "0.567524",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116917"
+        },
+        {
+          "relevance_score": "0.560454",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137367"
+        }
+      ],
+      "time_published": "20170905T052126",
+      "title": "Grand opening planned for Blake Shelton's Ole Red Tishomingo",
+      "topics": [
+        {
+          "relevance_score": "0.821571",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.646539",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.oklahoman.com/story/entertainment/columns/brandy-mcdonnell/2017/09/05/grand-opening-planned-for-blake-sheltons-ole-red-tishomingo/60577365007/"
+    },
+    {
+      "authors": [
+        "Paul Tassin"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.629064,
+      "source": "Class Action Lawsuits",
+      "source_domain": "Class Action Lawsuits",
+      "summary": "A California man has filed a class action lawsuit against Home Depot, alleging the retailer mislabeled lower-quality eucalyptus wood as genuine mahogany. The plaintiff, Clyde Golden, claims Home Depot deceived consumers into paying premium prices for a product lacking the characteristics expected of true mahogany. The lawsuit seeks restitution and disgorgement of funds gained from the alleged mislabeling for all California residents who purchased such wood since 2011.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.638948"
+        }
+      ],
+      "time_published": "20170901T043642",
+      "title": "Home Depot Class Action: Customers Deceived by Mislabeled Lumber",
+      "topics": [
+        {
+          "relevance_score": "0.829624",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.725755",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/home-depot-class-action-customers-deceived-mislabeled-lumber/"
+    },
+    {
+      "authors": [
+        "Joshua Fechter"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.01198,
+      "source": "San Antonio Express-News",
+      "source_domain": "San Antonio Express-News",
+      "summary": "H-E-B and Walmart closed numerous stores in Houston and coastal Texas due to Tropical Storm Harvey, providing hurricane relief efforts. Both companies mobilized emergency response units, sent supplies, and pledged significant donations to aid victims. Despite closures and operational challenges, retailers are working to reopen stores and support affected communities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.975158",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101611"
+        },
+        {
+          "relevance_score": "0.646431",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.089549"
+        },
+        {
+          "relevance_score": "0.594857",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.053736"
+        },
+        {
+          "relevance_score": "0.562258",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117689"
+        }
+      ],
+      "time_published": "20170828T194100",
+      "title": "H-E-B, Walmart close Houston and coastal Texas stores, provide hurricane relief",
+      "topics": [
+        {
+          "relevance_score": "0.918542",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.630609",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.expressnews.com/business/local/article/H-E-B-Walmart-close-Houston-and-coastal-Texas-12074570.php"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.083769,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "U.S. stock markets ended mixed on Monday as investors assessed the impact of Hurricane Harvey on the energy sector. The Dow Jones Industrial Average saw a slight decline, while the S&P 500 and Nasdaq posted minor gains. Insurance companies like Travelers Cos. Inc. were among the biggest losers, reflecting concerns over hurricane-related damages.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.857855",
+          "ticker": "XLE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.331516"
+        },
+        {
+          "relevance_score": "0.911176",
+          "ticker": "TRV",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.376107"
+        },
+        {
+          "relevance_score": "0.836628",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.244369"
+        },
+        {
+          "relevance_score": "0.754329",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.277019"
+        },
+        {
+          "relevance_score": "0.736864",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239080"
+        }
+      ],
+      "time_published": "20170828T162900",
+      "title": "Stock market closes little changed as Hurricane Harvey hits energy sector",
+      "topics": [
+        {
+          "relevance_score": "0.904985",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.828372",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.703534",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/us-stock-futures-ease-with-energy-shares-set-for-scrutiny-as-harvey-hits-refineries-2017-08-28?gaa_at=eafs&gaa_n=AWEtsqeIXsQbocaoUhWugun31WNd8hyqD4hLtnElweEa37dVC4r3AXFxc1J7&gaa_ts=690844f7&gaa_sig=udGOV_IO4i_hA1ojE0zMxY3_4wfrSTgp-EzQxgQ4vvwmt3Nn75MP_gYxEHDcAKzv_VjKrOiMnBmXbLtbArg0zQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.048259,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "U.S. stock markets ended mixed on Monday as investors assessed the impact of Hurricane Harvey on the energy sector. The Dow Jones Industrial Average dropped slightly, while the S&P 500 and Nasdaq posted minor gains. Travelers Cos. and Goldman Sachs Group Inc. saw losses, while Home Depot Inc. and Apple Inc. were among the gainers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.348557",
+          "ticker": "IYE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.016016"
+        },
+        {
+          "relevance_score": "0.835406",
+          "ticker": "TRV",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.263090"
+        },
+        {
+          "relevance_score": "0.745985",
+          "ticker": "GS",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.239260"
+        },
+        {
+          "relevance_score": "0.620177",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213957"
+        },
+        {
+          "relevance_score": "0.614302",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221339"
+        }
+      ],
+      "time_published": "20170828T162900",
+      "title": "Stock market closes little changed as Hurricane Harvey hits energy sector",
+      "topics": [
+        {
+          "relevance_score": "0.933690",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.811252",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.733747",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/us-stock-futures-ease-with-energy-shares-set-for-scrutiny-as-harvey-hits-refineries-2017-08-28?gaa_at=eafs&gaa_n=AWEtsqdwpNFIZxl308zjg5CXAfVpco693_Y8JXhb6kZCyDbTL-eNv_ciCBjz&gaa_ts=690836cb&gaa_sig=aPBtowyICfnDFo97OFU4UuDUpPSmX35lwweuccEyTsynhWKYeirFSshAd8cv_o1V9Hw4FvU10EukOsEmfjLYIQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Tiffany Stecker"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.233183,
+      "source": "Genetic Literacy Project",
+      "source_domain": "Genetic Literacy Project",
+      "summary": "Scotts Miracle-Gro made a strategic decision to phase out neonicotinoid insecticides from its Ortho brand by 2021, driven by key retailers like Lowe's, The Home Depot, and Wal-Mart committing to remove these products from their shelves. This move allows Scotts Miracle-Gro to differentiate itself from competitors and addresses concerns about pollinator health by offering alternatives. The company's neonic alternatives utilize pyrethrins, spinosad, and sulfur.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SMG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338660"
+        },
+        {
+          "relevance_score": "0.894912",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205631"
+        },
+        {
+          "relevance_score": "0.807855",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.203008"
+        },
+        {
+          "relevance_score": "0.773031",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.243307"
+        }
+      ],
+      "time_published": "20170816T052620",
+      "title": "Why Scotts Miracle-Gro decided to phase out neonicotinoid insecticides",
+      "topics": [
+        {
+          "relevance_score": "0.845713",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.733210",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://geneticliteracyproject.org/2017/08/16/scotts-miracle-gro-decided-phase-neonicotinoid-insecticides/"
+    },
+    {
+      "authors": [
+        "Laura Drotleff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.215995,
+      "source": "Greenhouse Grower",
+      "source_domain": "Greenhouse Grower",
+      "summary": "Costa Farms has entered into an agreement for Markel Corporation to acquire a majority interest, a move CEO Joche Smith says will allow Costa Farms to retain its leadership and operational flexibility. This partnership is unique as Markel acts as a \"permanent capital solution,\" focusing on long-term investment rather than short-term private equity involvement. The acquisition provides Costa Farms with capital for continued growth and an expanded shareholder group while preserving its core operations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MKL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438540"
+        },
+        {
+          "relevance_score": "0.633852",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112356"
+        },
+        {
+          "relevance_score": "0.636983",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129013"
+        },
+        {
+          "relevance_score": "0.607744",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149277"
+        }
+      ],
+      "time_published": "20170801T025606",
+      "title": "Costa Farms Will Maintain Operations \u201cthe Costa Way\u201d With Acquisition, Says CEO Joche Smith",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.739482",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.626644",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.greenhousegrower.com/management/costa-farms-will-maintain-operations-the-costa-way-with-acquisition-says-ceo-joche-smith/"
+    },
+    {
+      "authors": [
+        "By Conor Berry"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.127855,
+      "source": "MassLive",
+      "source_domain": "MassLive",
+      "summary": "A public hearing regarding Costco's plan to build a self-service gas station in West Springfield has been continued to August 16th due to ongoing discussions about parking and traffic issues. The proposed project includes nine fuel pumps and a small attendant's kiosk, requiring a special permit and site plan review. Road design expert Juliet Locke also discussed the concept of \"road diets\" as a potential solution for current traffic congestion in the area.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.953701",
+          "ticker": "COST",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135542"
+        },
+        {
+          "relevance_score": "0.618187",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141337"
+        }
+      ],
+      "time_published": "20170728T185500",
+      "title": "West Springfield hearing on Costco gas station plan continued",
+      "topics": [
+        {
+          "relevance_score": "0.819441",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.707012",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.603243",
+          "topic": "energy_transportation"
+        }
+      ],
+      "url": "https://www.masslive.com/news/2017/07/costco_gas_station_plan.html"
+    },
+    {
+      "authors": [
+        "Nancy Dahlberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.177221,
+      "source": "Miami Herald",
+      "source_domain": "Miami Herald",
+      "summary": "Markel Corp., a financial holding company, is acquiring a majority stake in Costa Farms, the largest producer of ornamental plants in the U.S. Costa Farms will continue to operate with its current management, and the deal is expected to close in the third quarter. The acquisition allows Costa Farms access to significant capital for future growth and acquisitions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.332206",
+          "ticker": "MKL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.028985"
+        },
+        {
+          "relevance_score": "0.635320",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236455"
+        },
+        {
+          "relevance_score": "0.616793",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.208515"
+        },
+        {
+          "relevance_score": "0.612285",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236371"
+        }
+      ],
+      "time_published": "20170727T230500",
+      "title": "Deal in bloom: Costa Farms is being acquired",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.739770",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.617482",
+          "topic": "finance"
+        }
+      ],
+      "url": "http://www.miamiherald.com/news/business/article163830888.html"
+    },
+    {
+      "authors": [
+        "Joe McGauley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.10627,
+      "source": "Thrillist",
+      "source_domain": "Thrillist",
+      "summary": "A new analysis by LivePerson, a company providing live customer chat services, reveals which states have the most and least swear-happy residents based on millions of customer service interactions. The study found Virginia to be the most curse-prone, while Idaho was the most polite. It also noted significant differences in politeness and swearing based on gender and the type of industry customers were interacting with.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LPSN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130634"
+        },
+        {
+          "relevance_score": "0.632255",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129485"
+        },
+        {
+          "relevance_score": "0.612617",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132497"
+        },
+        {
+          "relevance_score": "0.623373",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133631"
+        }
+      ],
+      "time_published": "20170725T145600",
+      "title": "Here Are the States That Swear the Most",
+      "topics": [
+        {
+          "relevance_score": "0.617319",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.thrillist.com/news/nation/here-are-the-states-that-swear-the-most"
+    },
+    {
+      "authors": [
+        "Tomi Kilgore"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.16477,
+      "source": "Fox Business",
+      "source_domain": "Fox Business",
+      "summary": "Shares of Home Depot Inc. experienced their largest price drop in nearly 17 years, cutting $7.5 billion from its market capitalization. This plunge was attributed to fears of the \"Amazon effect\" after Sears Holdings Corp. announced a partnership with Amazon for Kenmore appliances. The stock's decline also significantly impacted the Dow Jones Industrial Average.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.409683"
+        },
+        {
+          "relevance_score": "0.712057",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131213"
+        },
+        {
+          "relevance_score": "0.617546",
+          "ticker": "BBY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.109863"
+        }
+      ],
+      "time_published": "20170720T160700",
+      "title": "Home Depot's Biggest Stock Price Plunge In 17 Years Shaves $7.5 Billion Off Market Cap",
+      "topics": [
+        {
+          "relevance_score": "0.912838",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.838265",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.foxbusiness.com/markets/home-depots-biggest-stock-price-plunge-in-17-years-shaves-7-5-billion-off-market-cap"
+    },
+    {
+      "authors": [
+        "CHRIS MATYSZCZYK"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.289351,
+      "source": "Inc.com",
+      "source_domain": "Inc.com",
+      "summary": "Jim Tinney, a 70-year-old Home Depot employee, was fired after attempting to stop shoplifters by throwing a paint roller extension at them, despite the company's strict \"no-confrontation\" policy for general staff. This incident highlights the tension between company safety policies and employee reactions to theft, particularly when similar actions by other employees have resulted in terminations that were later reversed. The article questions whether Home Depot could have found a \"middle ground\" for Tinney, perhaps through a reprimand and creating a safety video, given his presumed dedication.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.269816"
+        }
+      ],
+      "time_published": "20170717T043642",
+      "title": "Here's What Happened After a 70-Year-Old Home Depot Employee Tried to Stop Shoplifters (Clue: He Doesn't Work There Anymore)",
+      "topics": [
+        {
+          "relevance_score": "0.829347",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.635490",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.inc.com/chris-matyszczyk/home-depot-fired-an-employee-who-tried-to-stop-sho.html"
+    },
+    {
+      "authors": [
+        "Mike Hockett"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.027915,
+      "source": "Industrial Distribution",
+      "source_domain": "Industrial Distribution",
+      "summary": "Home Depot announced its agreement to acquire Compact Power Equipment Inc. for $265 million to enhance its offerings for professional customers. Compact Power, a long-standing commercial partner, provides equipment rental and maintenance services across the U.S. and Canada. This acquisition follows Home Depot's purchase of Interline Brands in 2015 and aims to improve the customer experience through expanded rental services.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.317754",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.005110"
+        }
+      ],
+      "time_published": "20170706T043642",
+      "title": "Home Depot To Acquire Compact Power Equipment For $265M",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.840361",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.737500",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.inddist.com/mergers-acquisitions/news/13774325/home-depot-to-acquire-compact-power-equipment-for-265m"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.480733,
+      "source": "The Home Depot",
+      "source_domain": "The Home Depot",
+      "summary": "The Home Depot announced a definitive agreement to acquire Compact Power Equipment, Inc. for $265 million in cash. This acquisition will enhance The Home Depot's equipment and tool rental offerings, particularly for Pros, and integrate Compact Power's maintenance services. The transaction is expected to close by the end of the company's fiscal second quarter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.467461"
+        }
+      ],
+      "time_published": "20170706T043641",
+      "title": "The Home Depot Agrees to Purchase Compact Power Equipment, Inc.",
+      "topics": [
+        {
+          "relevance_score": "0.915529",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.842888",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.625653",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.619189",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://ir.homedepot.com/news-releases/2017/07-06-2017-130500872"
+    },
+    {
+      "authors": [
+        "Dan O'Shea"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.076251,
+      "source": "Retail Dive",
+      "source_domain": "Retail Dive",
+      "summary": "Best Buy is on the verge of overtaking Sears as the third-largest appliance retailer in the U.S., according to an analysis by The Motley Fool. Sears has been steadily losing market share in the appliance sector, falling from its No. 1 position in 2013 to potentially losing its No. 3 spot. Despite Sears' efforts to innovate with new Appliance & Mattress stores, the general decline in its retail segments and store closures are making it difficult to compete with home improvement and electronics retailers who are expanding into appliances.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.739606",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141766"
+        },
+        {
+          "relevance_score": "0.946014",
+          "ticker": "BBY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316900"
+        },
+        {
+          "relevance_score": "0.742533",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105949"
+        }
+      ],
+      "time_published": "20170705T043642",
+      "title": "Best Buy poised to dethrone Sears in appliance sales",
+      "topics": [
+        {
+          "relevance_score": "0.930346",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.retaildive.com/news/best-buy-poised-to-dethrone-sears-in-appliance-sales/446432/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.034272,
+      "source": "ClassAction.org",
+      "source_domain": "ClassAction.org",
+      "summary": "An investigation into Soleus dehumidifiers sold by Gree USA was completed, concluding that products manufactured between 2010 and 2012 may be prone to fires and breakages due to substandard materials. Soleus removed affected dehumidifiers from sale in November 2012 after customer reports of critical flaws and a subsequent admission of fault by the company regarding design errors and fire risk. The situation has led to a legal battle between Soleus and Gree USA concerning allegations of damage to reputation and finances.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.348660",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.048577"
+        }
+      ],
+      "time_published": "20170626T043642",
+      "title": "Soleus Dehumidifier, Sold By Gree USA, May Be Prone To Fires, Breakages",
+      "topics": [
+        {
+          "relevance_score": "0.831371",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.718552",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.607793",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.classaction.org/gree-usa-and-soleus-dehumidifiers"
+    },
+    {
+      "authors": [
+        "Anne Bucher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.43436,
+      "source": "Class Action Lawsuits",
+      "source_domain": "Class Action Lawsuits",
+      "summary": "A class action lawsuit was filed against Behr Process Corp., The Home Depot Inc., and Home Depot USA Inc., alleging that Behr DeckOver deck resurfacing products are defective and deteriorate rapidly after application. Plaintiffs claim the product, marketed as a premium alternative to paint or stain, caused extensive damage and required costly repairs, contrary to its advertised benefits. The lawsuit seeks to represent U.S. consumers who purchased Behr DeckOver and asserts claims related to unjust enrichment, negligent misrepresentation, and consumer protection law violations, with a settlement later preliminarily approved and payments issued.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.411801"
+        }
+      ],
+      "time_published": "20170616T043642",
+      "title": "Home Depot Class Action Lawsuit Says Behr DeckOver is Defective",
+      "topics": [
+        {
+          "relevance_score": "0.911095",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.748418",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/home-depot-class-action-lawsuit-says-behr-deckover-defective/"
+    },
+    {
+      "authors": [
+        "Todd Shriber"
+      ],
+      "banner_image": "https://investorplace.com/wp-content/uploads/2017/04/fidelitymsn.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.216655,
+      "source": "InvestorPlace",
+      "source_domain": "InvestorPlace",
+      "summary": "This article highlights three Fidelity sector ETFs (FDIS, FHLC, FSTA) that offer low fees and strong performance. It explains that Fidelity's 11 sector ETFs are the cheapest in the market, even compared to Vanguard, charging 0.084% annually. The article details each ETF's holdings, performance, and investment appeal, noting their suitability for cost-conscious investors seeking exposure to specific market segments like consumer discretionary, healthcare, and consumer staples.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FDIS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308267"
+        },
+        {
+          "relevance_score": "0.609339",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148116"
+        },
+        {
+          "relevance_score": "0.553603",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.186649"
+        }
+      ],
+      "time_published": "20170615T081012",
+      "title": "3 Cheap Fidelity Sector ETFs That Are Soaring \u2013 FDIS, FHLC, FSTA",
+      "topics": [
+        {
+          "relevance_score": "0.940244",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.705811",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.719841",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.610896",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://investorplace.com/2017/06/cheap-fidelity-sector-etfs-fdis-fhlc-fsta/"
+    },
+    {
+      "authors": [
+        "Staff Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.140674,
+      "source": "The Columbus Dispatch",
+      "source_domain": "The Columbus Dispatch",
+      "summary": "Lithonia Lighting is recalling approximately 5,600 LBL4W model ceiling light fixtures manufactured between February 2016 and March 2017. The plastic diffuser lens on these fixtures can detach and fall, posing an impact hazard, though no injuries have been reported. Consumers should remove the existing lens and contact Lithonia Lighting for a free replacement lens to repair the unit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AYI",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.239288"
+        },
+        {
+          "relevance_score": "0.614853",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.133432"
+        },
+        {
+          "relevance_score": "0.625205",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.105697"
+        }
+      ],
+      "time_published": "20170608T035611",
+      "title": "Lithonia Lighting Recalls to Repair Ceiling Light Fixtures Due to Impact Hazard",
+      "topics": [
+        {
+          "relevance_score": "0.713809",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.623547",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.dispatch.com/story/news/columns/2017/06/08/lithonia-lighting-recalls-to-repair/20682455007/"
+    },
+    {
+      "authors": [
+        "Joyce Chepkemoi"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.226013,
+      "source": "WorldAtlas",
+      "source_domain": "WorldAtlas",
+      "summary": "The US federal government is the largest employer in the United States, followed by numerous privately owned companies. This article details some of the largest private employers, including Kroger, Target, and Yum! Brands, highlighting their employee numbers and business types. It also provides a comprehensive list of the top 25 largest private employers in the US as of 2015, featuring companies from various sectors like retail, finance, and technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.905598",
+          "ticker": "KR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316105"
+        },
+        {
+          "relevance_score": "0.877977",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255145"
+        },
+        {
+          "relevance_score": "0.810310",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248326"
+        },
+        {
+          "relevance_score": "0.758167",
+          "ticker": "YUM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212056"
+        },
+        {
+          "relevance_score": "0.668960",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.177785"
+        }
+      ],
+      "time_published": "20170606T045108",
+      "title": "The Largest Employers in the United States",
+      "topics": [
+        {
+          "relevance_score": "0.948814",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.worldatlas.com/articles/the-largest-private-employers-in-the-united-states.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.198466,
+      "source": "Finviz - Stock Screener",
+      "source_domain": "Finviz - Stock Screener",
+      "summary": "This page provides detailed stock price and quote information for DOG, the ProShares Short Dow30 -1x Shares ETF. It includes financial data, performance metrics, and a list of related news articles and analyses over several years, focusing on market trends, inverse ETFs, and economic forecasts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DOG",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.216316"
+        },
+        {
+          "relevance_score": "0.604903",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.198122"
+        },
+        {
+          "relevance_score": "0.601988",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.189132"
+        },
+        {
+          "relevance_score": "0.610521",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.218695"
+        },
+        {
+          "relevance_score": "0.619360",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.203908"
+        }
+      ],
+      "time_published": "20170525T155130",
+      "title": "DOG - ProShares Short Dow30 -1x Shares Stock Price and Quote",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.911793",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.836500",
+          "topic": "economy_monetary"
+        }
+      ],
+      "url": "https://finviz.com/quote.ashx?t=DOG"
+    },
+    {
+      "authors": [
+        "Rachel Abrams"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.178678,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Target has agreed to pay $18.5 million to 47 states and the District of Columbia to settle an investigation into a major 2013 security breach that exposed millions of customer records. The settlement requires Target to enhance its digital security measures. This breach, which cost Target $202 million in legal fees and other costs, led to the resignation of its former chief executive.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TGT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.227327"
+        },
+        {
+          "relevance_score": "0.646933",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.122601"
+        }
+      ],
+      "time_published": "20170523T053156",
+      "title": "Target to Pay $18.5 Million to 47 States in Security Breach Settlement (Published 2017)",
+      "topics": [
+        {
+          "relevance_score": "0.948555",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.704604",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.nytimes.com/2017/05/23/business/target-security-breach-settlement.html"
+    },
+    {
+      "authors": [
+        "Anne Bucher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.228249,
+      "source": "Class Action Lawsuits",
+      "source_domain": "Class Action Lawsuits",
+      "summary": "PPG Industries Inc. has agreed to a $6.5 million settlement in a class action lawsuit concerning its Olympic Rescue It! products. The lawsuit alleged that these products had design flaws causing them to peel, crack, and bubble on decking surfaces. The settlement offers reimbursement for product purchase price, removal costs, or replacement costs for affected Class Members.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PPG",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.432702"
+        },
+        {
+          "relevance_score": "0.615799",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118252"
+        },
+        {
+          "relevance_score": "0.636049",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141940"
+        }
+      ],
+      "time_published": "20170505T051206",
+      "title": "250 $6.5M Settlement Reached in Olympic Rescue It Class Action Lawsuit",
+      "topics": [
+        {
+          "relevance_score": "0.830890",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/6-5m-settlement-reached-olympic-rescue-class-action-lawsuit/"
+    },
+    {
+      "authors": [
+        "Meg Bryant"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19578,
+      "source": "Healthcare Dive",
+      "source_domain": "Healthcare Dive",
+      "summary": "Telemedicine provider Doctor On Demand is expanding its services to include laboratory diagnostic services starting this summer through partnerships with Quest Diagnostics and LabCorp. This integration will allow doctors to order tests and patients to choose labs based on price, location, and insurance needs. The move aims to make Doctor On Demand a more comprehensive medical practice, expanding beyond its on-demand video visits and mental health offerings.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DGX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346314"
+        },
+        {
+          "relevance_score": "0.909443",
+          "ticker": "LH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315406"
+        },
+        {
+          "relevance_score": "0.607704",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111308"
+        },
+        {
+          "relevance_score": "0.632284",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.126283"
+        },
+        {
+          "relevance_score": "0.610528",
+          "ticker": "DAL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148114"
+        }
+      ],
+      "time_published": "20170504T041652",
+      "title": "Doctor On Demand to offer lab services starting this summer",
+      "topics": [
+        {
+          "relevance_score": "0.911802",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.811687",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.healthcaredive.com/news/doctor-on-demand-to-offer-lab-services-starting-this-summer/441913/"
+    },
+    {
+      "authors": [
+        "Jim Harris"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.342714,
+      "source": "Transportation and Logistics International",
+      "source_domain": "Transportation and Logistics International",
+      "summary": "BlueLinx Corp. emphasizes its nationwide distribution network and personalized service for delivering building materials to customers across the contiguous 48 states. The article details BlueLinx's fleet replacement strategies, including acquiring used Peterbilt trucks for fuel efficiency and adding curtain side trailers, and highlights the company's significant cost savings by bringing maintenance coordination in-house. BlueLinx also plans to expand its use of onboard cameras to enhance liability protection and operational oversight.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BXC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428613"
+        },
+        {
+          "relevance_score": "0.624275",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330463"
+        },
+        {
+          "relevance_score": "0.621171",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301326"
+        }
+      ],
+      "time_published": "20170503T040156",
+      "title": "BlueLinx Corp.",
+      "topics": [
+        {
+          "relevance_score": "0.837350",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.728167",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.714988",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.613144",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://tlimagazine.com/news/bluelinx-corp/"
+    },
+    {
+      "authors": [
+        "Gary Dinges"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.241404,
+      "source": "Austin American-Statesman",
+      "source_domain": "Austin American-Statesman",
+      "summary": "Austin-based Yeti Coolers has filed another lawsuit, this time against Home Depot USA Inc. and Takeya USA Corp., accusing them of selling \"confusingly similar\" products that violate Yeti's trademarks. This marks at least the fifth lawsuit Yeti has initiated against competitors in recent months. Yeti alleges that the defendants' drinkware resembles its Rambler tumblers, causing consumer confusion and infringing upon its trade dress rights due to \"distinctive and non-functional features.\"",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.939608",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247029"
+        }
+      ],
+      "time_published": "20170414T043642",
+      "title": "Another Yeti suit: Company targets tumbler maker and Home Depot",
+      "topics": [
+        {
+          "relevance_score": "0.810975",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://www.statesman.com/story/business/2017/04/14/another-yeti-suit-company-targets-tumbler-maker-and-home-depot/10112708007/"
+    },
+    {
+      "authors": [
+        "MICHAEL TARM",
+        "AP Legal Affairs Writer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.405812,
+      "source": "WLUK",
+      "source_domain": "WLUK",
+      "summary": "An appeals court has reinstated a civil lawsuit against Home Depot, alleging negligence in the 2012 killing of a pregnant subordinate by her supervisor, Brian Cooper. The suit claims Home Depot failed to fire Cooper despite his history of sexual harassment and verbal abuse. The ruling focuses on corporate liability when supervisors use their authority to harm co-workers away from the workplace.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.423616"
+        }
+      ],
+      "time_published": "20170327T163100",
+      "title": "Suit alleging Home Depot negligence in Door Co. killing revived",
+      "topics": [
+        {
+          "relevance_score": "0.813134",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://fox11online.com/news/crime/suit-alleging-home-depot-negligence-in-door-co-killing-revived"
+    },
+    {
+      "authors": [
+        "David Siegel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.042296,
+      "source": "CVN News",
+      "source_domain": "CVN News",
+      "summary": "Home Depot settled a potentially $50 million traumatic brain injury lawsuit after opening statements in a California state court. The lawsuit involved Jaime Beltran, who sustained a brain injury when metal boxes fell on his head at a Home Depot store. While Home Depot admitted liability for the accident, the dispute centered on the severity of Beltran's injuries and the appropriate compensation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.330636",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.035813"
+        }
+      ],
+      "time_published": "20170317T132905",
+      "title": "Home Depot Settles Potentially $50M Traumatic Brain Injury Lawsuit After Opening Statements",
+      "topics": [
+        {
+          "relevance_score": "0.826831",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.749862",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://blog.cvn.com/home-depot-faces-potential-50m-verdict-as-traumatic-brain-injury-lawsuit-goes-to-trial"
+    },
+    {
+      "authors": [
+        "Irvin Jackson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.038217,
+      "source": "AboutLawsuits.com",
+      "source_domain": "AboutLawsuits.com",
+      "summary": "A product liability lawsuit has been filed against Home Depot and table saw manufacturers, alleging a Ridgid table saw is defectively designed because it lacks flesh-detecting safety technology. The plaintiff, Glen Avery, suffered a partial finger amputation and other severe injuries that he claims could have been prevented by readily available technology like SawStop. The lawsuit highlights a growing trend of similar claims against manufacturers for failing to incorporate proven safety features despite their awareness and licensing opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.314939",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003286"
+        }
+      ],
+      "time_published": "20170314T043642",
+      "title": "Home Depot Table Saw Lawsuit Alleges Defective Design Due to Lack of Available Safety Features",
+      "topics": [
+        {
+          "relevance_score": "0.827906",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.706646",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.aboutlawsuits.com/home-depot-table-saw-lawsuit-122111/"
+    },
+    {
+      "authors": [
+        "Michael A. Kakuk"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.379107,
+      "source": "Class Action Lawsuits",
+      "source_domain": "Class Action Lawsuits",
+      "summary": "A class action lawsuit has been filed against Home Depot, alleging that the home improvement retailer misleads customers about the actual dimensions of its \"dimensional\" lumber products. The complaint states that lumber labeled with certain sizes, such as 4x4s, are significantly smaller than advertised, leading to customers being deceived. The lawsuit seeks class certification, damages, and an injunction against Home Depot's advertising practices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.623986"
+        },
+        {
+          "relevance_score": "0.631151",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.124700"
+        }
+      ],
+      "time_published": "20170313T043642",
+      "title": "Home Depot Class Action Alleges Misleading Lumber Sizes",
+      "topics": [
+        {
+          "relevance_score": "0.923142",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.708567",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.601606",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://topclassactions.com/lawsuit-settlements/lawsuit-news/home-depot-class-action-alleges-misleading-lumber-sizes/"
+    },
+    {
+      "authors": [
+        "Atlanta Business Chronicle Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.539724,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "The Home Depot Inc. plans to hire 80,000 employees for the busy spring season across its U.S. stores and distribution centers. This includes bringing on 3,000 new workers specifically in the Chicago area. Available positions range from sales and cashiers to operations and online order fulfillment, offering both permanent part-time and seasonal roles.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.512659"
+        }
+      ],
+      "time_published": "20170302T130100",
+      "title": "Home Depot adding 3000 Chicago-area jobs this spring",
+      "topics": [
+        {
+          "relevance_score": "0.915573",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.824459",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bizjournals.com/chicago/news/2017/03/02/home-depot-adding-3-000-chicago-area-jobs-this.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.349504,
+      "source": "Investing.com",
+      "source_domain": "Investing.com",
+      "summary": "This article provides detailed information about the ProShares Ultra Consumer Services ETF (UCC), including its current stock price, trading exchange (NYSE), and various financial metrics. It also offers key statistics, performance data, top holdings, and news relevant to the consumer discretionary sector, highlighting UCC's profile as a leveraged equity ETF tracking the S&P Consumer Discretionary Select Sector Index.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "UCC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422083"
+        },
+        {
+          "relevance_score": "0.664489",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314111"
+        },
+        {
+          "relevance_score": "0.601888",
+          "ticker": "TSLA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341746"
+        },
+        {
+          "relevance_score": "0.564746",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329410"
+        },
+        {
+          "relevance_score": "0.569435",
+          "ticker": "MCD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322459"
+        }
+      ],
+      "time_published": "20170106T141020",
+      "title": "UCC Stock Price | ProShares Ultra Consumer Services ETF",
+      "topics": [
+        {
+          "relevance_score": "0.903269",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.804723",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.703136",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.investing.com/etfs/proshares-ultra-consumer-services"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.1121,
+      "source": "Warranty Week",
+      "source_domain": "Warranty Week",
+      "summary": "This article analyzes service contract pricing for dishwashers, revealing a wide range of pricing and plan durations across major retailers. It highlights that service contract prices average around 18% of the product's price, with significant variation depending on the retailer, administrator, and coverage length. The piece also discusses SquareTrade's financial performance prior to its acquisition by Allstate and Sears' sale of its Craftsman brand, noting the implications for the appliance service contract market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.863331",
+          "ticker": "AIZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111232"
+        },
+        {
+          "relevance_score": "0.806740",
+          "ticker": "ALL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.276338"
+        },
+        {
+          "relevance_score": "0.708213",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146005"
+        },
+        {
+          "relevance_score": "0.665262",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.072029"
+        },
+        {
+          "relevance_score": "0.626966",
+          "ticker": "LOW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.082345"
+        }
+      ],
+      "time_published": "20170105T035111",
+      "title": "Service Contract Pricing: Dishwashers, 5 January 2017",
+      "topics": [
+        {
+          "relevance_score": "0.834085",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.747593",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.644772",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.warrantyweek.com/archive/ww20170105.html"
+    }
+  ],
+  "items": "51",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

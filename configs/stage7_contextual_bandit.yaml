@@ -1,0 +1,88 @@
+{
+  "artifact_schema_version": "stage7_contextual_bandit_config_v1",
+  "protocol": {
+    "protocol_id": "stage7_contextual_bandit_two_sided_topk_v1",
+    "approval_basis": "ScopeDecisionLog S7B-DQ-001 through S7B-DQ-010 plus S7C-PARAM-001/002",
+    "benchmark_family_id": "phase1_top50_stage7_contextual_bandit",
+    "parent_benchmark_family_id": "phase1_top50",
+    "seed": 1729,
+    "benchmark_claim_requires_new_post_lockbox_holdout": true,
+    "development_replay_uses_current_lockbox": false,
+    "post_lockbox_holdout_evaluation_allowed": true,
+    "final_execution_training_enabled_by_default": false
+  },
+  "row_filters": {
+    "primary": "all_rows_primary",
+    "secondary": "news_days_secondary",
+    "news_day_column": "stage3_aligned_news_count"
+  },
+  "basket_policy": {
+    "primary_k": 5,
+    "diagnostic_k": [3, 10],
+    "tie_break_columns": ["canonical_ticker"]
+  },
+  "epsilon_policy": {
+    "primary_epsilon": 0.05,
+    "diagnostic_epsilon": [0.01, 0.1],
+    "selection_from_holdout_allowed": false
+  },
+  "context": {
+    "mode": "combined_stage3_features_plus_stage5_predictions",
+    "required_prediction_model_ids": [
+      "event_state_gated_fusion",
+      "market_random_forest",
+      "market_ridge",
+      "market_elastic_net"
+    ],
+    "primary_supervised_score_model_id": "event_state_gated_fusion",
+    "market_only_score_model_id": "market_random_forest",
+    "required_ablation": "stage5_predictions_only",
+    "recommended_ablation": "stage3_features_only_if_budget_allows",
+    "raw_news_text_in_scope": false,
+    "llm_context_in_scope": false
+  },
+  "policies": {
+    "mandatory_baselines": [
+      "random_top_bottom",
+      "epsilon_random",
+      "market_only_ranker",
+      "stage5_predictions_only_supervised",
+      "combined_supervised",
+      "static_validation_selected_rule"
+    ],
+    "adaptive_policies": ["epsilon_greedy"],
+    "abstain_cash_in_scope": false,
+    "cost_adjusted_trading_in_scope": false
+  },
+  "reward": {
+    "reward_family": "two_sided_forward_excess_return_package",
+    "top_metric": "top_k_mean_forward_excess_return",
+    "bottom_metric": "bottom_k_mean_forward_excess_return_lower_is_better",
+    "spread_metric": "top_minus_bottom_forward_excess_return_spread",
+    "rank_normalized_primary": false,
+    "sign_hit_primary": false,
+    "trading_pnl_primary": false
+  },
+  "output_policy": {
+    "save_benchmark_diagnostics": true,
+    "write_stage7c_docs": true,
+    "write_final_execution_stub": true,
+    "live_buy_sell_signal_approved": false,
+    "bottom_k_wording": "downside_or_avoid_diagnostic_candidates"
+  },
+  "data_update_policy": {
+    "approved_to_plan_provider_update": true,
+    "approved_to_call_providers_when_explicitly_executed": true,
+    "preserve_old_settings_archive": "data/stage7_contextual_bandit/phase1_top50/deprecated_stage6_settings",
+    "target_new_holdout_policy": "post_2026_02_13_after_approved_data_update",
+    "old_stage6_lockbox_start": "2025-09-30",
+    "old_stage6_lockbox_end": "2026-02-13"
+  },
+  "non_claims": [
+    "not_stage6_reinterpretation",
+    "not_live_buy_sell_signal",
+    "not_trading_profitability",
+    "not_provider_level_article_completeness",
+    "not_real_logged_policy_ipw_or_doubly_robust_evaluation"
+  ]
+}

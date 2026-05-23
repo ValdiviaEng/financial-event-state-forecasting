@@ -1,0 +1,4096 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Katie Thomas and Charles Ornstein"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.123999,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Cancer centers are re-evaluating the involvement of their doctors and researchers on corporate boards due to potential conflicts of interest. This article highlights several prominent hospital executives and cancer researchers who serve on the boards of publicly traded companies, detailing their affiliations and the significant compensation received. The financial figures underscore the dual roles these individuals play and the concerns these relationships may raise.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "WAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.000889"
+        },
+        {
+          "relevance_score": "0.846782",
+          "ticker": "CRL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.126835"
+        },
+        {
+          "relevance_score": "0.812625",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.148626"
+        },
+        {
+          "relevance_score": "0.708398",
+          "ticker": "LH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116738"
+        },
+        {
+          "relevance_score": "0.713293",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.108540"
+        }
+      ],
+      "time_published": "20181231T034119",
+      "title": "When Doctors Serve on Company Boards",
+      "topics": [
+        {
+          "relevance_score": "0.931708",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.nytimes.com/2018/12/31/health/cancer-centers-board-memberships-graphic.html"
+    },
+    {
+      "authors": [
+        "Alex Philippidis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.131194,
+      "source": "Genetic Engineering and Biotechnology News",
+      "source_domain": "Genetic Engineering and Biotechnology News",
+      "summary": "This article forecasts five key biopharma trends for 2019, including the advancement of cancer immunotherapies beyond CAR-T cells, a continued rise in M&A driven by specialization and disruptive deals, the increasing integration of digital therapeutics, significant growth in cell and gene therapy investments, and the impact of Wall Street volatility on biopharma investments with a focus on China and the UK. Despite market declines, optimism for targeted acquisitions and new technologies remains high.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.735984",
+          "ticker": "PJP",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.237242"
+        },
+        {
+          "relevance_score": "0.640965",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322093"
+        },
+        {
+          "relevance_score": "0.612778",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146742"
+        },
+        {
+          "relevance_score": "0.623580",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.210482"
+        },
+        {
+          "relevance_score": "0.619675",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.246466"
+        }
+      ],
+      "time_published": "20181230T031103",
+      "title": "5 Biopharma Trends to Watch in 2019",
+      "topics": [
+        {
+          "relevance_score": "0.941592",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.806605",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.736279",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.625538",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.genengnews.com/a-lists/5-biopharma-trends-to-watch-in-2019/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.313408,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "This article forecasts the global Merkel Cell Carcinoma Market from 2018-2023, highlighting key drivers such as increasing prevalence, growing geriatric population, and R&D expenditure. The market is segmented by diagnosis, treatment, and end-users, with major players including Pfizer Inc. and Merck & Co., Inc. Regional analysis indicates the Americas dominating the market, followed by Europe and Asia Pacific.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.903313",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327718"
+        },
+        {
+          "relevance_score": "0.705633",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313767"
+        },
+        {
+          "relevance_score": "0.747398",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331760"
+        },
+        {
+          "relevance_score": "0.618356",
+          "ticker": "GEHC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.252860"
+        },
+        {
+          "relevance_score": "0.560505",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227361"
+        }
+      ],
+      "time_published": "20181220T090500",
+      "title": "Merkel Cell Carcinoma Market 2018-2023 Global Prominent Key",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.744130",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.626150",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1452371/merkel-cell-carcinoma-market-2018-2023-global-prominent-key-players-are-pfizer-inc-merck-co-inc-oncosec-medical-incorporated-bristol-myers-squibb-company-general-electric-company-siemens-medical-solutions-usa-inc.html"
+    },
+    {
+      "authors": [
+        "Georgina Laud"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.212919,
+      "source": "Daily Express",
+      "source_domain": "Daily Express",
+      "summary": "Pharmaceutical giants GlaxoSmithKline Plc and Pfizer Inc are forming a joint venture, merging their consumer healthcare divisions and creating the world's biggest supplier of over-the-counter medicines, including popular brands like Advil and Panadol. Glaxo will hold a 68 percent share in the new company, which will eventually separate into a pharmaceuticals/vaccines company and a new consumer healthcare company. The merger is expected to have an impact on staff, though details are still being worked out.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.282095"
+        },
+        {
+          "relevance_score": "0.744484",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.230031"
+        },
+        {
+          "relevance_score": "0.602576",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.196264"
+        },
+        {
+          "relevance_score": "0.580451",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.196455"
+        }
+      ],
+      "time_published": "20181219T082200",
+      "title": "Advil and Panadol to MERGE: Will this affect the painkillers that YOU buy?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.909633",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.602479",
+          "topic": "ipo"
+        }
+      ],
+      "url": "https://www.express.co.uk/life-style/health/1061027/Advil-Panadol-merge-affect-you-painkillers-glaxo-GSK-pfizer"
+    },
+    {
+      "authors": [
+        "Merck & Co.",
+        "Inc."
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.004203,
+      "source": "www.drugdiscoverytrends.com",
+      "source_domain": "www.drugdiscoverytrends.com",
+      "summary": "The European Commission has approved Merck & Co.\u2019s Keytruda as an adjuvant treatment for adults with resected stage III melanoma and lymph node involvement. This approval is based on data from the pivotal Phase 3 EORTC1325/KEYNOTE-054 trial, which showed Keytruda significantly reduced the risk of recurrence or death by 44 percent compared to placebo. This marks Keytruda's first adjuvant approval in the EU, expanding its use beyond advanced and metastatic melanoma.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.330350",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.013281"
+        }
+      ],
+      "time_published": "20181218T025629",
+      "title": "EC Approves Merck\u2019s Keytruda as Adjuvant Therapy for Resected Stage III Melanoma",
+      "topics": [
+        {
+          "relevance_score": "0.928466",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.drugdiscoverytrends.com/ec-approves-mercks-keytruda-as-adjuvant-therapy-for-resected-stage-iii-melanoma/"
+    },
+    {
+      "authors": [
+        "Tamara Mathias"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.127654,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Merck & Co announced its acquisition of Antelliq Group for approximately $2.37 billion to strengthen its animal health division. Antelliq, a French company specializing in digital identification products for livestock, generated $406.51 million in sales in the year ended September 30. This move underscores Merck's commitment to its animal health business, a sector that has seen divestitures from competitors like Eli Lilly and Pfizer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.298138"
+        },
+        {
+          "relevance_score": "0.830376",
+          "ticker": "ZTS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131622"
+        },
+        {
+          "relevance_score": "0.749149",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140595"
+        },
+        {
+          "relevance_score": "0.600668",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.060203"
+        }
+      ],
+      "time_published": "20181214T140000",
+      "title": "Merck bolsters animal health unit with $2.4 billion Antelliq purchase",
+      "topics": [
+        {
+          "relevance_score": "0.933590",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.940369",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.reuters.com/article/world/merck-bolsters-animal-health-unit-with-24-billion-antelliq-purchase-idUSKBN1OD1DZ/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.012039,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The Human Growth Hormone (hGH) market is experiencing growth driven by new mergers and acquisitions and robust drug pipelines. Key players like Pfizer Inc. and Novo Nordisk are developing innovative treatments like hGH-CTP and Somapacitan. Despite high prevalence of growth hormone deficiency, strict regulations on hGH use by athletes pose a restraint to market expansion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.340054",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022696"
+        }
+      ],
+      "time_published": "20181207T135300",
+      "title": "Human Growth Hormone Market Views Sought On New Approach With Major Key Players Pfizer Inc., Genetech Inc., Merck & Co., Eli Lilly And Company, Novo Nordisk, Sandoz International GmbH",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.832276",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1425635/human-growth-hormone-market-views-sought-on-new-approach-with-major-key-players-pfizer-inc-genetech-inc-merck-co-eli-lilly-and-company-novo-nordisk-sandoz-international-gmbh.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.324294,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The Lichen Sclerosus Treatment Market is projected to reach USD 150 million by 2023, growing at a CAGR of 7.8% during the forecast period. Key drivers include the increasing prevalence of skin diseases and rising healthcare expenditure, despite challenges from a lack of specific treatments and awareness. Major players in the market include AstraZeneca, Bristol-Myers Squibb, and Pfizer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.948156",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.332408"
+        },
+        {
+          "relevance_score": "0.746172",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344373"
+        },
+        {
+          "relevance_score": "0.738916",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308689"
+        },
+        {
+          "relevance_score": "0.703760",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329892"
+        }
+      ],
+      "time_published": "20181128T114300",
+      "title": "Lichen Sclerosus Treatment Market Size Expected to Surpass USD",
+      "topics": [
+        {
+          "relevance_score": "0.920728",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.737013",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.609331",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1404709/lichen-sclerosus-treatment-market-size-expected-to-surpass-usd-150-million-with-eminent-key-players-astrazeneca-plc-bristol-myers-squibb-company-glaxosmithkline-plc-johnson-johnson-services-inc-merck-co-inc-pfizer-inc-sandoz-ag-by-2023.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.254574,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "This article provides an analysis of the global Lichen Nitidus Treatment Market, including market segmentation, key players, growth drivers, and market share analysis. The market is projected to grow at a CAGR of 8.8% during the forecast period of 2017 to 2024, reaching USD 93.1 million in 2016. Major companies like Pfizer Inc., Novartis AG, and Merck & Co., Inc. are identified as key players.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.270402"
+        },
+        {
+          "relevance_score": "0.714935",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283405"
+        }
+      ],
+      "time_published": "20181127T112600",
+      "title": "Lichen Nitidus Treatment Market Analysis By Top Key Players",
+      "topics": [
+        {
+          "relevance_score": "0.907788",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.817346",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.639305",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1401708/lichen-nitidus-treatment-market-analysis-by-top-key-players-of-industry-like-pfizer-inc-novartis-ag-merck-co-inc-sanofi-glaxosmithkline-plc-astrazeneca-hubei-gedian-humanwell-pharmaceutical-co-ltd-farmabios-spa-horizon-pharma-plc.html"
+    },
+    {
+      "authors": [
+        "Alex Philippidis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.394849,
+      "source": "Genetic Engineering and Biotechnology News",
+      "source_domain": "Genetic Engineering and Biotechnology News",
+      "summary": "This article lists the top 10 pharmaceutical companies of 2018, ranked by market capitalization as of November 13, 2018. It discusses how pharma companies generally surpassed EPS expectations in Q3 despite a stock market downturn, and details the combined market cap growth of the top companies compared to previous years. The piece also highlights the reasons for Bristol-Myers Squibb and Bayer missing the top 10 list.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IHE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.291496"
+        },
+        {
+          "relevance_score": "0.740657",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.446350"
+        },
+        {
+          "relevance_score": "0.715805",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.436816"
+        },
+        {
+          "relevance_score": "0.704637",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441339"
+        }
+      ],
+      "time_published": "20181119T023638",
+      "title": "Top 10 Pharma Companies of 2018",
+      "topics": [
+        {
+          "relevance_score": "0.823042",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.904112",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.716979",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.609519",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.genengnews.com/a-lists/top-10-pharma-companies-of-2018/"
+    },
+    {
+      "authors": [
+        "Eric Sagonowsky"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.087459,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Bristol-Myers Squibb (BMS) plans to lay off 69 employees at its Tampa \u201ccapability center\u201d in January 2019, a move the company says aligns with its goal to \"focus resources behind its highest priorities, accelerate its pipeline and simplify infrastructure.\" This decision comes as BMS faces increasing competition for its checkpoint inhibitor, Opdivo, against Merck\u2019s Keytruda, following recent setbacks that impacted investor confidence and stock performance. The company will offer severance packages and career transition services to affected employees.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.283791"
+        },
+        {
+          "relevance_score": "0.705056",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.116560"
+        }
+      ],
+      "time_published": "20181116T115000",
+      "title": "Bristol-Myers Squibb laying off 69 employees in Florida in push to 'focus resources'",
+      "topics": [
+        {
+          "relevance_score": "0.911239",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.741092",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma/bristol-myers-squibb-laying-off-69-employees-tampa"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.279573,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The global fibrous dysplasia market is projected to grow at a CAGR of approximately 6.2% by 2023, driven by the increasing prevalence of bone disorders and cases leading to cancer. Despite the lack of a cure, current treatments focus on preventing complications. Key market players include Novartis AG, Pfizer Inc, and Amgen Inc, with the Americas dominating the market due to advanced technology and high healthcare spending.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.993113",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303542"
+        },
+        {
+          "relevance_score": "0.794377",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.251366"
+        },
+        {
+          "relevance_score": "0.731452",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.249679"
+        },
+        {
+          "relevance_score": "0.589313",
+          "ticker": "BSX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.223907"
+        }
+      ],
+      "time_published": "20181110T150900",
+      "title": "Fibrous Dysplasia Market Foreseen to Draw a Promising Growth",
+      "topics": [
+        {
+          "relevance_score": "0.947497",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1297384/fibrous-dysplasia-market-foreseen-to-draw-a-promising-growth-with-6-2-cagr-expected-by-2023-key-vendors-novartis-ag-pfizer-inc-amgen-inc-aveo-pharmaceuticals-inc-bayer-ag-bellicum-pharmaceuticals-inc-mediapharma-srl-merck-co-inc-merrimack-ph.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.121728,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This page provides a detailed profile of the Distillate US Fundamental Stability & Value ETF (DSTL), covering its price, performance, holdings, expenses, and ESG scores. The ETF launched on October 24, 2018, and focuses on large-cap growth equities with an active management strategy. It includes data on its technicals, dividend, and comparisons to peer ETFs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DSTL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103194"
+        },
+        {
+          "relevance_score": "0.732055",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113676"
+        },
+        {
+          "relevance_score": "0.609452",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121734"
+        },
+        {
+          "relevance_score": "0.629995",
+          "ticker": "TMUS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119727"
+        },
+        {
+          "relevance_score": "0.624931",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100641"
+        }
+      ],
+      "time_published": "20181109T175218",
+      "title": "Distillate US Fundamental Stability & Value ETF",
+      "topics": [
+        {
+          "relevance_score": "0.949828",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://etfdb.com/etf/DSTL/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.427432,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The Male Hypogonadism Market is projected to reach $3,233 million by 2022, driven by increasing prevalence of testosterone deficiency, rising infertility rates, and growing awareness. North America held the largest market share in 2015 due to high patient awareness and advanced healthcare infrastructure, while Asia-Pacific is expected to exhibit the highest CAGR. Key players like AbbVie Inc., Allergan plc, and Bayer AG are focusing on product approvals and innovative solutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.440061"
+        },
+        {
+          "relevance_score": "0.808270",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428451"
+        },
+        {
+          "relevance_score": "0.709780",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409410"
+        }
+      ],
+      "time_published": "20181108T161800",
+      "title": "Male Hypogonadism Market: Growth & Revenue Opportunities by Top",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.740167",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1357367/male-hypogonadism-market-growth-revenue-opportunities-by-top-key-players-abbvie-inc-allergan-plc-astrazeneca-plc-bayer-ag-eli-lilly-and-company-ltd-endo-international-plc-merck-co-inc-ferring-holding-s-a-and-others.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.090347,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "This page provides a detailed profile of the ProShares Pet Care ETF (PAWZ), including its current price, vital statistics, holdings, performance metrics, and ESG scores. The ETF, which tracks the FactSet Pet Care Index, shows various financial data points like AUM, expense ratio, dividend information, and comparisons to other ETFs and category averages. It also lists its top holdings, geographic exposure, sector allocation, and offers technical analysis and downloadable reports for financial advisors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PAWZ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.069467"
+        },
+        {
+          "relevance_score": "0.706531",
+          "ticker": "ZTS",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.099120"
+        },
+        {
+          "relevance_score": "0.709880",
+          "ticker": "IDXX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.070887"
+        },
+        {
+          "relevance_score": "0.610644",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.096330"
+        }
+      ],
+      "time_published": "20181108T053900",
+      "title": "ProShares Pet Care ETF",
+      "topics": [
+        {
+          "relevance_score": "0.908881",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://etfdb.com/etf/PAWZ/"
+    },
+    {
+      "authors": [
+        "Allison DeAngelis"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.116838,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Brigham-born biotech startup ConsortiaTX has licensed a microbiome therapy from Brigham and Women's Hospital and Boston Children's Hospital to test a food allergy drug. This initiative is based on the scientific belief that gut bacteria play a crucial role in food allergies. The agreement was finalized late last week.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.618415",
+          "ticker": "MCRB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127009"
+        },
+        {
+          "relevance_score": "0.639157",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123993"
+        }
+      ],
+      "time_published": "20181030T025205",
+      "title": "Brigham-born biotech startup testing food allergy drug",
+      "topics": [
+        {
+          "relevance_score": "0.923536",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.bizjournals.com/boston/news/2018/10/30/brigham-born-biotech-startup-testing-food-allergy.html"
+    },
+    {
+      "authors": [
+        "John Miller and Michael Erman"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/vU-j2Iu31lP4I_eGZ5l_iKpHhTM=/960x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/Y2R7A6SWFJKHHEC2KWHK7L3B5A.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.32592,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "Novartis AG and Pfizer Inc have announced a collaboration to develop combination therapies for nonalcoholic steatohepatitis (NASH), a progressive fatty liver disease with no approved treatments. This partnership aims to tap into a potentially lucrative market, estimated to be between $20 billion and $35 billion, as NASH is closely linked to the obesity and diabetes epidemics. Their combined efforts will target different aspects of NASH, with Novartis's drug fighting inflammation and scarring, and Pfizer's drugs addressing fat accumulation in the liver.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404449"
+        },
+        {
+          "relevance_score": "0.700939",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300007"
+        },
+        {
+          "relevance_score": "0.649993",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239963"
+        }
+      ],
+      "time_published": "20181029T062500",
+      "title": "Novartis, Pfizer join forces on potentially lucrative fatty liver disease",
+      "topics": [
+        {
+          "relevance_score": "0.940115",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/novartis-pfizer-join-forces-on-potentially-lucrative-fatty-liver-disease-idUSKCN1N30L4/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.352285,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Eli Lilly and Company and Dicerna Pharmaceuticals announced a global licensing and research collaboration to discover and develop new medicines using Dicerna's proprietary GalXC\u2122 RNAi technology platform. The collaboration focuses on cardio-metabolic disease, neurodegeneration, and pain targets. Dicerna will receive an upfront payment of $100 million, an equity investment of $100 million, and is eligible for up to approximately $350 million per target in development and commercialization milestones plus royalties.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441075"
+        },
+        {
+          "relevance_score": "0.558530",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.297382"
+        }
+      ],
+      "time_published": "20181029T060000",
+      "title": "Lilly and Dicerna Announce RNAi Licensing and Research Collaboration",
+      "topics": [
+        {
+          "relevance_score": "0.915477",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.835426",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/lilly-and-dicerna-announce-rnai-licensing-and-research-collaboration-300739183.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.257473,
+      "source": "ETF Database",
+      "source_domain": "ETF Database",
+      "summary": "The Invesco Dow Jones Industrial Average Dividend ETF (DJD) tracks an index of dividend-paying stocks within the Dow Jones Industrial Average, weighted by their dividend yield. It offers concentrated exposure to 30 well-known U.S. blue-chip companies with a low expense ratio, making it suitable for investors seeking dividend income but understanding its lack of broad diversification. The article provides detailed performance data, holdings analysis, expense ratios, and ESG scores for DJD, comparing it against its peers and relevant benchmarks.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DJD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329197"
+        },
+        {
+          "relevance_score": "0.727107",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204409"
+        },
+        {
+          "relevance_score": "0.709848",
+          "ticker": "CVX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.223660"
+        },
+        {
+          "relevance_score": "0.719549",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227039"
+        },
+        {
+          "relevance_score": "0.733071",
+          "ticker": "UNH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200293"
+        }
+      ],
+      "time_published": "20181026T150936",
+      "title": "Invesco Dow Jones Industrial Average Dividend ETF",
+      "topics": [
+        {
+          "relevance_score": "0.927241",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.803409",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://etfdb.com/etf/DJD/"
+    },
+    {
+      "authors": [
+        "REUTERS"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.193454,
+      "source": "ET HealthWorld",
+      "source_domain": "ET HealthWorld",
+      "summary": "Merck & Co Inc announced its decision to retain its animal health business, stating that the company runs this segment effectively internally. This decision comes despite rival Eli Lilly having separated its animal health unit earlier in the year, which had sparked speculation about Merck potentially following suit.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265637"
+        },
+        {
+          "relevance_score": "0.721371",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138515"
+        }
+      ],
+      "time_published": "20181026T075200",
+      "title": "Merck says to retain animal health business as part of company",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://health.economictimes.indiatimes.com/news/industry/merck-says-to-retain-animal-health-business-as-part-of-company/66371645"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.399406,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The Male Hypogonadism Market is projected to reach $3,233 million by 2022, driven by increased prevalence of testosterone deficiency, rising infertility rates, and growing awareness. North America held the majority market share in 2015, while Asia-Pacific is expected to exhibit the highest CAGR. Key players are focusing on product approvals to enhance market share.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410280"
+        },
+        {
+          "relevance_score": "0.928666",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429435"
+        },
+        {
+          "relevance_score": "0.881070",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414731"
+        },
+        {
+          "relevance_score": "0.700638",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405109"
+        },
+        {
+          "relevance_score": "0.620060",
+          "ticker": "BIIB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330706"
+        }
+      ],
+      "time_published": "20181023T121900",
+      "title": "Male Hypogonadism Market shows future growth by companies",
+      "topics": [
+        {
+          "relevance_score": "0.904909",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.612123",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1321536/male-hypogonadism-market-shows-future-growth-by-companies-abbvie-inc-allergan-plc-astrazeneca-plc-bayer-ag-eli-lilly-and-company-ltd-endo-international-plc-merck-co-inc-ferring-holding-s-a.html"
+    },
+    {
+      "authors": [
+        "Bruce Japsen"
+      ],
+      "banner_image": "https://specials-images.forbesimg.com/imageserve/5b6f3b48a7ea4330623a8537/960x0.jpg?cropX1=0&cropX2=4000&cropY1=203&cropY2=2453",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.123421,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "After 20 years as CEO of Abbott Laboratories, Miles White has named Robert B. Ford as the company's president and chief operating officer, signaling a succession plan. Ford, a 22-year Abbott veteran and former EVP of the medical device business, will now oversee all operating businesses. White indicated this move as a critical step for the company's continuity and future growth, though he plans to remain in his current role for the time being.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339209"
+        },
+        {
+          "relevance_score": "0.739946",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.265770"
+        },
+        {
+          "relevance_score": "0.648423",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116422"
+        },
+        {
+          "relevance_score": "0.577431",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116354"
+        }
+      ],
+      "time_published": "20181018T080000",
+      "title": "After 20 Years, Abbott Labs CEO Miles White Has Successor In Mind",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.845087",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.944046",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/brucejapsen/2018/10/18/after-20-years-abbott-ceo-miles-white-has-his-successor-in-mind/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.177076,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "BioLabs@CIC Philadelphia is launching its free Science Insights series with an event focused on \"Insights into Immuno-Oncology: Fighting Cancer from Within\" on October 10th. This public event will feature an expert panel discussing how immunotherapy is revolutionizing cancer treatment. The program aims to share emerging therapies and technologies with the community.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335252",
+          "ticker": "CARM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022533"
+        },
+        {
+          "relevance_score": "0.708639",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272347"
+        },
+        {
+          "relevance_score": "0.629417",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.223516"
+        },
+        {
+          "relevance_score": "0.553032",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209675"
+        }
+      ],
+      "time_published": "20181009T153600",
+      "title": "BioLabs@CIC Philadelphia Launches Free Science Insights series with \u201cInsights into Immuno-Oncology: Fighting Cancer from Within\u201d Event, Wednesday October 10th, from 4 to 6:30 pm",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2018/10/09/1618842/0/en/BioLabs-CIC-Philadelphia-Launches-Free-Science-Insights-series-with-Insights-into-Immuno-Oncology-Fighting-Cancer-from-Within-Event-Wednesday-October-10th-from-4-to-6-30-pm.html"
+    },
+    {
+      "authors": [
+        "Joshua Burd"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.043043,
+      "source": "Real Estate NJ",
+      "source_domain": "Real Estate NJ",
+      "summary": "UNICOM Global has completed its acquisition of the former 1,100-acre Merck & Co. headquarters campus in Whitehouse Station, Readington, New Jersey. The IT services firm plans to establish a regional headquarters at the site, renaming it UNICOM Science and Technology Park. This investment is intended to expand UNICOM's information technology portfolio and services for industry leaders across various sectors in the Boston to Washington D.C. corridor.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.328426",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.041496"
+        }
+      ],
+      "time_published": "20181002T025629",
+      "title": "Sale of former Merck campus in Whitehouse Station complete, UNICOM says",
+      "topics": [
+        {
+          "relevance_score": "0.921640",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.821730",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.746277",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.616212",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://re-nj.com/sale-of-former-merck-campus-in-whitehouse-station-complete-unicom-says/"
+    },
+    {
+      "authors": [
+        "Neil Cotiaux"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.172955,
+      "source": "WilmingtonBiz",
+      "source_domain": "WilmingtonBiz",
+      "summary": "This article highlights four growing companies in the Wilmington area: Quality Chemical Laboratories, Filmwerks International, N2 Publishing, and SeaTox Research. These companies are contributing to job creation, economic growth, and the enhancement of the region's industry image through expansion, strategic funding, and innovative research. Their successes demonstrate strong economic vitality for the Wilmington area.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.328713",
+          "ticker": "LOB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046330"
+        },
+        {
+          "relevance_score": "0.621325",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.328538"
+        }
+      ],
+      "time_published": "20180928T025120",
+      "title": "The Next Big Breakout",
+      "topics": [
+        {
+          "relevance_score": "0.945740",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.837417",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.738211",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.649200",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.wilmingtonbiz.com/wilmingtonbiz_magazine/2018/09/28/the_next_big_breakout/17963"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://www.theglobeandmail.com/res/infographics/merck-ceo-kenneth-frazier-to-stay-in-role-beyond-2019/merck-ceo-kenneth-frazier-to-stay-in-role-beyond-2019.jpg",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.473373,
+      "source": "The Globe and Mail",
+      "source_domain": "The Globe and Mail",
+      "summary": "Merck & Co Inc. announced that CEO Kenneth Frazier will remain in his role beyond 2019, following the scrapping of its mandatory retirement policy for CEOs at age 65. Frazier, who has led the company since 2011 and overseen significant growth and success with its cancer drug Keytruda, will continue to steer the pharmaceutical giant. This decision was made to allow the Board to make the best possible succession decision without immediate age constraints.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.489696"
+        }
+      ],
+      "time_published": "20180926T025629",
+      "title": "Merck CEO Kenneth Frazier to stay in role beyond 2019",
+      "topics": [
+        {
+          "relevance_score": "0.907542",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.703985",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.628039",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.theglobeandmail.com/business/article-merck-ceo-kenneth-frazier-to-stay-in-role-beyond-2019/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.30591,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The global Lichen Nitidus Treatment Market is projected to grow at a CAGR of 8.7% to reach USD 170 million by 2023, driven by increasing prevalence of skin diseases, especially in the Americas and Europe. Key players in this market include Pfizer Inc., Novartis AG, and GlaxoSmithKline plc., with treatments ranging from oral and topical options to phototherapy. Regional analysis highlights the Americas as the largest market due to high skin disease prevalence and affordable treatment, while Europe follows due to increased awareness and demand for dermatology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.943848",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330446"
+        },
+        {
+          "relevance_score": "0.836656",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340963"
+        }
+      ],
+      "time_published": "20180924T122200",
+      "title": "Lichen Nitidus Treatment Market 2018-2023 Ongoing Trend | Growing at Remarkable CAGR of 8.7 % with Novartis Pfizer Inc., Novartis AG, Merck Sharp & Dohme Corp., a subsidiary of Merck & Co., Inc., Sanofi, GlaxoSmithKline plc., AstraZeneca, Hubei Gedian Hum",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.714414",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.649277",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1257964/lichen-nitidus-treatment-market-2018-2023-ongoing-trend-growing-at-remarkable-cagr-of-8-7-with-novartis-pfizer-inc-novartis-ag-merck-sharp-dohme-corp-a-subsidiary-of-merck-co-inc-sanofi-glaxosmithkline-plc-astrazeneca-hubei-gedian-hum.html"
+    },
+    {
+      "authors": [
+        "Mike Benson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.310607,
+      "source": "Market Realist",
+      "source_domain": "Market Realist",
+      "summary": "This article examines the EPS growth rates of five major pharmaceutical companies: Eli Lilly, Pfizer, Merck & Co., Allergan, and GlaxoSmithKline, comparing their performance in the second quarter of 2017 versus 2018. It details the individual EPS increases for each company and mentions their holdings within the iShares US Healthcare ETF. The article also hints at future discussions of revenue performance and 2018 estimates for these companies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.941091",
+          "ticker": "IHE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307701"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401003"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330070"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233389"
+        }
+      ],
+      "time_published": "20180918T103100",
+      "title": "A Review of Pharma Stocks\u2019 EPS Growth Rates",
+      "topics": [
+        {
+          "relevance_score": "0.940199",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.898257",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.669281",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://marketrealist.com/2018/09/a-review-of-pharma-stocks-eps-growth-rates/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.204836,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The global Lichen Sclerosus Treatment Market is projected to grow at a CAGR of 7.8% to reach USD 150 million by 2023. Key drivers include the increasing prevalence of skin diseases and rising healthcare expenditure, while challenges include a lack of specific treatments and awareness. Major players in the market include AstraZeneca plc, Bristol-Myers Squibb Company, GlaxoSmithKline plc, Johnson & Johnson Services, Inc., Merck & Co., Inc., and Pfizer Inc.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.929603",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238633"
+        },
+        {
+          "relevance_score": "0.715370",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.242061"
+        },
+        {
+          "relevance_score": "0.718026",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234422"
+        },
+        {
+          "relevance_score": "0.700522",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.202246"
+        }
+      ],
+      "time_published": "20180917T162200",
+      "title": "Lichen Sclerosus Treatment Market to Grow at a CAGR of 7.8%",
+      "topics": [
+        {
+          "relevance_score": "0.930436",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.706952",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.601414",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.643168",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1243273/lichen-sclerosus-treatment-market-to-grow-at-a-cagr-of-7-8-by-market-share-trend-analysis-with-astrazeneca-plc-bristol-myers-squibb-company-glaxosmithkline-plc-johnson-johnson-services-inc-merck-co-inc-pfizer-inc-till-2023.html"
+    },
+    {
+      "authors": [
+        "Jim Butschli"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.335554,
+      "source": "Healthcare Packaging",
+      "source_domain": "Healthcare Packaging",
+      "summary": "This article details the 2017 HCPC Compliance Package of the Year awards, focusing on Synergy Pharmaceuticals' Trulance and Merck's PREVYMIS Dosepak. Both companies were recognized for their innovative compliance packaging designed to improve patient adherence to medication regimens. The packaging solutions feature clear instructions, calendar blister packs, and design elements to facilitate ease of use and ensure patients take their medication correctly.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.449450"
+        },
+        {
+          "relevance_score": "0.744184",
+          "ticker": "WST",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330004"
+        },
+        {
+          "relevance_score": "0.639267",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.255092"
+        }
+      ],
+      "time_published": "20180913T025629",
+      "title": "Synergy Pharmaceuticals and Merck Earn HCPC Honors\u2014Part II of II",
+      "topics": [
+        {
+          "relevance_score": "0.945995",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.healthcarepackaging.com/design-materials/adherence-delivery/news/13295281/synergy-pharmaceuticals-and-merck-earn-hcpc-honorspart-ii-of-ii"
+    },
+    {
+      "authors": [
+        "Zacks Equity Research"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.154533,
+      "source": "Yahoo Finance",
+      "source_domain": "Yahoo Finance",
+      "summary": "Perrigo received FDA approval for its store brand over-the-counter equivalent of Johnson & Johnson's Imodium Multi-Symptom Relief tablet, which treats diarrhea symptoms. This approval aligns with Perrigo's strategy to expand its branded OTC opportunities in the U.S. and is expected to benefit the company following its decision to divest the RX segment due to declining sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PRGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266620"
+        },
+        {
+          "relevance_score": "0.744344",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120103"
+        },
+        {
+          "relevance_score": "0.642262",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118144"
+        }
+      ],
+      "time_published": "20180910T031124",
+      "title": "Perrigo's OTC Version of Diarrhea Drug Imodium Gets FDA Nod",
+      "topics": [
+        {
+          "relevance_score": "0.910876",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.822506",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://finance.yahoo.com/news/perrigo-apos-otc-version-diarrhea-133601573.html"
+    },
+    {
+      "authors": [
+        "Arlene Weintraub"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.051378,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "England's National Institute for Health and Care Excellence (NICE) has issued a partial rejection for Merck's Keytruda in Hodgkin lymphoma, stating it should not be used in patients already treated with Adcetris and an autologous stem cell transplant. NICE recommended Keytruda only for patients ineligible for stem cell transplant, citing a preference for Bristol-Myers Squibb\u2019s Opdivo and issues with Merck's cost-effectiveness data submission. This decision comes shortly after NICE also rejected Gilead\u2019s CAR-T treatment Yescarta, indicating a cautious stance by U.K. cost-effectiveness watchdogs towards expensive new immuno-oncology treatments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.728020",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216058"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.254271"
+        },
+        {
+          "relevance_score": "0.644349",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.116134"
+        }
+      ],
+      "time_published": "20180904T113600",
+      "title": "Merck gets partial thumbs-down on Keytruda in lymphoma from NICE cost-effectiveness watchdogs",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.645898",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma/merck-gets-partial-thumbs-down-keytruda-lymphoma-from-nice-cost-effectiveness-watchdogs"
+    },
+    {
+      "authors": [
+        "Marina Shegay"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.416904,
+      "source": "Life4me+",
+      "source_domain": "Life4me+",
+      "summary": "The FDA has approved two new drugs for HIV treatment, Delstrigo and Pifeltro, two months ahead of schedule. These drugs are suitable for adults with common strains of the virus and those naive to treatment. Pharmaceutical company Merck & Co Inc. plans to distribute both drugs within a month.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418505"
+        }
+      ],
+      "time_published": "20180831T123000",
+      "title": "FDA approved two new drugs for HIV treatment",
+      "topics": [
+        {
+          "relevance_score": "0.931249",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://life4me.plus/pt/news/fda-approved-two-new-drugs-for-hiv-treatment/"
+    },
+    {
+      "authors": [
+        "Fink Densford"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.394549,
+      "source": "Drug Delivery Business",
+      "source_domain": "Drug Delivery Business",
+      "summary": "The FDA issued a warning about a serious flesh-eating bacterial infection, Fournier\u2019s gangrene, linked to SGLT2 inhibitors used for type 2 diabetes. Between March 2013 and May 2018, 12 cases were reported, resulting in one death and multiple disfiguring surgeries for patients. The federal watchdog is requiring drug manufacturers, including Johnson & Johnson, Eli Lilly, Bristol-Myers Squibb, Astra Zeneca, Merck, and Pfizer, to add a new warning to their drug labels.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.837296",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.417382"
+        },
+        {
+          "relevance_score": "0.722484",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.388645"
+        },
+        {
+          "relevance_score": "0.742487",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.382438"
+        },
+        {
+          "relevance_score": "0.616192",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.390169"
+        },
+        {
+          "relevance_score": "0.627163",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.397468"
+        }
+      ],
+      "time_published": "20180831T015647",
+      "title": "FDA warns of flesh-eating genital infection linked to diabetes drug",
+      "topics": [
+        {
+          "relevance_score": "0.921732",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.600872",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.drugdeliverybusiness.com/fda-warns-of-flesh-eating-genital-infection-linked-to-diabetes-drug/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": "https://www.reuters.com/resizer/v2/https%3A%2F%2Fstorage.googleapis.com%2Freuters-borders%2Fimages%2Ftag-image-4ee4c2d3-c46b-42ce-9258-29d95f87b897%3Fw%3D1200%26h%3D628%26auto%3Dwebp%26action%3Dcrop%26aspect_ratio%3D1.91x1",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.357404,
+      "source": "Reuters",
+      "source_domain": "Reuters",
+      "summary": "The U.S. Food And Drug Administration has approved two new HIV oral drugs from Merck & Co Inc, nearly two months ahead of schedule. The drugs, Delstrigo and Pifeltro, are for adults with HIV-1 who have received no prior antiretroviral treatment. Merck expects to stock both treatments through wholesalers within a month.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.467501"
+        },
+        {
+          "relevance_score": "0.703137",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256609"
+        }
+      ],
+      "time_published": "20180830T205000",
+      "title": "FDA approves two new HIV drugs from Merck",
+      "topics": [
+        {
+          "relevance_score": "0.949044",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.reuters.com/article/business/healthcare-pharmaceuticals/fda-approves-two-new-hiv-drugs-from-merck-idUSKCN1LF2IK/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.422102,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The Global Competent Cells Market is projected to reach a valuation of US$ 2175 Million by 2022, growing at an average annual rate of 8.47% from 2014 to 2017. Key players in this market include Merck KGaA, Thermo Fisher Scientific, and Agilent Technologies, among others. The market growth is driven by factors such as rising intensity of research, government support, and increased funding for life science projects, particularly in North America.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.946886",
+          "ticker": "QGEN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.484635"
+        },
+        {
+          "relevance_score": "0.824427",
+          "ticker": "TMO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.405456"
+        },
+        {
+          "relevance_score": "0.716781",
+          "ticker": "A",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.395883"
+        },
+        {
+          "relevance_score": "0.648863",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.370186"
+        },
+        {
+          "relevance_score": "0.593264",
+          "ticker": "LH",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.389526"
+        }
+      ],
+      "time_published": "20180829T162700",
+      "title": "Competent Cells Market will touch a valuation of nearly US$ 2175 Million by 2022 | Worldwide Top Key Players - Merck KGaA, Thermo Fisher Scientific, Agilent, Takara Bio, Beijing TransGen Biotech, GeneScript, QIAGEN N.V., OriGene",
+      "topics": [
+        {
+          "relevance_score": "0.912729",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1210073/competent-cells-market-will-touch-a-valuation-of-nearly-us-2175-million-by-2022-worldwide-top-key-players-merck-kgaa-thermo-fisher-scientific-agilent-takara-bio-beijing-transgen-biotech-genescript-qiagen-n-v-origene.html"
+    },
+    {
+      "authors": [
+        "Carly Helfand"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.093363,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Johnson & Johnson's anticoagulant drug Xarelto failed in two separate studies presented at the European Society of Cardiology annual meeting, showing no improvement over a placebo in preventing blood clots or reducing cardiovascular events in heart failure patients. Despite these setbacks and previous trial failures, J&J's Janssen unit believes future studies and combined data could still lead to new approvals for Xarelto, which faces strong competition from Pfizer and Bristol-Myers Squibb's Eliquis.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.425575"
+        },
+        {
+          "relevance_score": "0.606716",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107115"
+        },
+        {
+          "relevance_score": "0.626304",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.100705"
+        },
+        {
+          "relevance_score": "0.576429",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.110654"
+        }
+      ],
+      "time_published": "20180827T105000",
+      "title": "ESC: Johnson & Johnson hunts for silver lining as Xarelto bombs blood clot, heart failure studies",
+      "topics": [
+        {
+          "relevance_score": "0.914324",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.628008",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/marketing/esc-johnson-johnson-admits-double-xarelto-flop-blood-clot-heart-failure-studies"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.403287,
+      "source": "News-Medical",
+      "source_domain": "News-Medical",
+      "summary": "The FDA has approved Agilent Technologies' Dako PD-L1 IHC 22C3 pharmDx assay for expanded use in urothelial carcinoma. This assay identifies patients who may benefit from Merck's KEYTRUDA as a first-line treatment, especially those ineligible for cisplatin-containing chemotherapy. Urothelial carcinoma is the fifth most common cancer in the US, and this expanded approval addresses a significant unmet need for new treatment options.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "A",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.496467"
+        },
+        {
+          "relevance_score": "0.887804",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319278"
+        }
+      ],
+      "time_published": "20180822T014207",
+      "title": "FDA approves Dako PD-L1 IHC 22C3 pharmDx assay for expanded use in urothelial carcinoma",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.news-medical.net/news/20180822/FDA-approves-Dako-PD-L1-IHC-22C3-pharmDx-assay-for-expanded-use-in-urothelial-carcinoma.aspx"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.105558,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The Testosterone Replacement Therapy (TRT) market, valued at USD 1.89 billion in 2014, is projected to reach USD 1.28 billion by 2023, experiencing a negative CAGR of -4.24%. Despite this, the demand for TRT is expected to rise due to the high prevalence of hypogonadism in men aged 40-79. Key players in the market include Allergan, Bayer, Novartis, Pfizer, Mylan, AbbVie Inc., and Eli Lilly and Company, with creams/gels and testosterone as an active ingredient dominating the product and ingredient segments respectively.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.948165",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134515"
+        },
+        {
+          "relevance_score": "0.702773",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142614"
+        },
+        {
+          "relevance_score": "0.705096",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129800"
+        },
+        {
+          "relevance_score": "0.602048",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136701"
+        }
+      ],
+      "time_published": "20180820T084400",
+      "title": "Testosterone Replacement Therapy Market Overview ,Product",
+      "topics": [
+        {
+          "relevance_score": "0.907695",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.739605",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1187257/testosterone-replacement-therapy-market-overview-product-portfolio-estimate-usd-value-1-28-billion-by-2023-allergan-bayer-novartis-pfizer-mylan-abbvie-inc-and-eli-lilly-and-company.html"
+    },
+    {
+      "authors": [
+        "Alexander Burik"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.268477,
+      "source": "Labiotech.eu",
+      "source_domain": "Labiotech.eu",
+      "summary": "Novo Nordisk has acquired UK biotech Ziylo for up to \u20ac702M ($800M) to gain full rights to its glucose-responsive insulin technology. This technology will be used by Novo Nordisk to develop \"smart\" insulin treatments for diabetes, designed to activate only when blood sugar levels are too high or too low, thereby reducing the risk of hypoglycemia. This acquisition aims to create safer and more convenient diabetes management for the 422 million people affected worldwide.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "NVO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.421885"
+        },
+        {
+          "relevance_score": "0.626578",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110435"
+        },
+        {
+          "relevance_score": "0.611308",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.248216"
+        }
+      ],
+      "time_published": "20180817T030134",
+      "title": "Novo Nordisk Buys British \u2018Smart\u2019 Insulin Diabetes Biotech in deal worth \u20ac702M",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.946553",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.labiotech.eu/trends-news/novo-nordisk-smart-insulin-diabetes/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.487028,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Eisai Inc. and Merck announced FDA approval of LENVIMA (lenvatinib) for the first-line treatment of unresectable hepatocellular carcinoma (HCC). This approval is based on results from the REFLECT trial, which demonstrated LENVIMA's efficacy in overall survival, progression-free survival, and objective response rate compared to sorafenib. This marks the second approval under the Eisai-Merck collaboration following Japan in March 2018.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.497614"
+        }
+      ],
+      "time_published": "20180816T161100",
+      "title": "Eisai And Merck Announce FDA Approval Of LENVIMA\u00ae (lenvatinib) Capsules For First-line Treatment Of Unresectable Hepatocellular Carcinoma (HCC)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/eisai-and-merck-announce-fda-approval-of-lenvima-lenvatinib-capsules-for-first-line-treatment-of-unresectable-hepatocellular-carcinoma-hcc-300698572.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.327483,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Perrigo Company plc announced a licensing agreement with Merck & Co, Inc. for exclusive U.S. rights to pursue regulatory approval for an over-the-counter (OTC) version of Nasonex\u00ae Nasal Spray. This move expands Perrigo's consumer healthcare strategy by leveraging its infrastructure for an Rx-to-OTC switch and aims to bring the product to consumers more quickly. The agreement also establishes a framework for future switch opportunities and a store brand alternative for Nasonex\u00ae.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PRGO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430011"
+        },
+        {
+          "relevance_score": "0.821291",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.256801"
+        }
+      ],
+      "time_published": "20180809T001100",
+      "title": "Perrigo Expands OTC Growth Strategy With Rx-To-OTC Switch Licensing For Nasonex\u00ae",
+      "topics": [
+        {
+          "relevance_score": "0.906554",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/perrigo-expands-otc-growth-strategy-with-rx-to-otc-switch-licensing-for-nasonex-300694573.html"
+    },
+    {
+      "authors": [
+        "Jacob Bell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.137738,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Allergan has filed a lawsuit against Pfizer regarding legal fees related to the marketing and sale of the opioid Kadian, claiming Pfizer has not upheld contractual obligations. The dispute stems from a complex chain of ownership of Kadian, with Allergan arguing that liabilities from pre-2009 marketing, originally conducted by Alpharma, should be covered by Pfizer due to its acquisition of King Pharmaceuticals. Allergan is seeking compensation for current and future legal costs associated with hundreds of lawsuits it faces regarding Kadian's promotion.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.343244",
+          "ticker": "KG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003850"
+        },
+        {
+          "relevance_score": "0.951572",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.303173"
+        },
+        {
+          "relevance_score": "0.861050",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.241106"
+        },
+        {
+          "relevance_score": "0.707911",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.107901"
+        },
+        {
+          "relevance_score": "0.632733",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.060772"
+        }
+      ],
+      "time_published": "20180803T024622",
+      "title": "Allergan sues Pfizer over legal fees tied to opioid marketing",
+      "topics": [
+        {
+          "relevance_score": "0.930551",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.842397",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.643059",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/allergan-sues-pfizer-over-legal-fees-tied-to-opioid-marketing/529326/"
+    },
+    {
+      "authors": [
+        "Carly Helfand"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.224927,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Bristol-Myers Squibb's key products, especially immuno-oncology drug Opdivo and anticoagulant Eliquis, surpassed sales expectations in Q2, driving company revenues to $5.7 billion and earnings per share to $1.01. Opdivo maintained market share in lung cancer and saw uptake in melanoma and kidney cancer, contributing to strong financial performance despite a European regulatory setback for its kidney cancer regimen. The company raised its full-year earnings guidance, but future performance hinges on upcoming data readouts for Opdivo in front-line lung cancer.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.420809"
+        },
+        {
+          "relevance_score": "0.603892",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.027921"
+        }
+      ],
+      "time_published": "20180726T122300",
+      "title": "Bristol-Myers surprise: Threatened I-O drug Opdivo stands its ground in lung cancer",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma/bms-opdivo-stands-its-ground-lung-cancer-to-fuel-q2-beats"
+    },
+    {
+      "authors": [
+        "Jacob Bell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.37104,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Roche is investing over $1 billion in PureTech Health's milk-derived exosome platform, which aims to enable oral administration of gene-regulating drugs. This technology seeks to package complex drugs to prevent degradation in the digestive system, allowing them to reach target cells. The collaboration focuses on making Roche's antisense oligonucleotide platform available in a pill form, addressing a major challenge in therapeutic development and patient preference for oral medications.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.962110",
+          "ticker": "PRTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.741775"
+        },
+        {
+          "relevance_score": "0.708852",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300530"
+        },
+        {
+          "relevance_score": "0.645748",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.325363"
+        },
+        {
+          "relevance_score": "0.648405",
+          "ticker": "BIIB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.222903"
+        },
+        {
+          "relevance_score": "0.570736",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.221002"
+        }
+      ],
+      "time_published": "20180720T031127",
+      "title": "Roche bets over $1B on tech that lets patients swallow antisense drugs",
+      "topics": [
+        {
+          "relevance_score": "0.912089",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.809027",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/roche-bets-over-1b-on-tech-that-lets-patients-swallow-antisense-drugs/528300/"
+    },
+    {
+      "authors": [
+        "Peter Loftus"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.261887,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Merck announced it would cut U.S. list prices for several drugs, including the hepatitis C treatment Zepatier, and pledged to limit future net price increases. This decision follows similar moves by other drugmakers like Novartis AG and Pfizer Inc., amid increasing public pressure over drug costs, and comes after President Trump criticized Pfizer's pricing plans.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.305532"
+        },
+        {
+          "relevance_score": "0.722949",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.232652"
+        }
+      ],
+      "time_published": "20180719T025629",
+      "title": "Merck to Limit Drug-Price Increases, Cut Some Prices",
+      "topics": [
+        {
+          "relevance_score": "0.920260",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.618297",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/merck-to-limit-drug-price-increases-cut-some-prices-1532037433?gaa_at=eafs&gaa_n=AWEtsqfdg92tEriysNAViYju-rE9JfVET_2dRHaFAXZcTR220hzpqKsfyoLy&gaa_ts=69081d0b&gaa_sig=1JdlLos6esYQ3KJVdCS1y6C-JsTkPp8KqLmZ-BYZ4nEWuVubuRSS2Q5Hv72SvBi_BQf0JZC7wiZq1GKMTnJm_g%3D%3D"
+    },
+    {
+      "authors": [
+        "Carly Helfand"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.14197,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Bristol-Myers Squibb's Opdivo-Yervoy combination received FDA approval for rare colon cancers, allowing it to compete with Merck's Keytruda. This marks another significant regulatory win for BMS, especially given Keytruda's broader existing approval for similar cancer types. The two companies continue their intense rivalry for market share across various cancer treatments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306452"
+        },
+        {
+          "relevance_score": "0.860193",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.111436"
+        }
+      ],
+      "time_published": "20180711T095800",
+      "title": "Bristol-Myers Squibb's Opdivo-Yervoy combo wins right to challenge Merck's Keytruda in rare cancer",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma/bms-opdivo-yervoy-combo-wins-right-to-challenge-merck-s-keytruda-rare-cancer-type"
+    },
+    {
+      "authors": [
+        "Jonathan D. Rockoff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.069157,
+      "source": "The Wall Street Journal",
+      "source_domain": "The Wall Street Journal",
+      "summary": "Pfizer Inc. announced it would defer some recent drug-price increases following criticism from President Donald Trump. The pharmaceutical giant had previously faced backlash after raising prices on over 40 drugs last week. This decision marks a reversal after the President denounced the higher prices on Twitter.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318114"
+        },
+        {
+          "relevance_score": "0.649787",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.132733"
+        },
+        {
+          "relevance_score": "0.632729",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.113713"
+        }
+      ],
+      "time_published": "20180710T030723",
+      "title": "Pfizer to Roll Back Price Increases After Trump Criticism",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.844058",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.wsj.com/articles/pfizer-to-roll-back-price-increases-after-trump-criticism-1531265030?gaa_at=eafs&gaa_n=AWEtsqeycOCEnNpW-T1sAnc5-XHeEUQkbgLo1bFRs3idc3yjaet3l1zNJmas&gaa_ts=69081f82&gaa_sig=yUqNGH_kETZAH8EgffvtTD96Vs6-eF41Z-uAKIIkJNVg3J2vU1iWWe4g4lN2bfe-LXGFG3fGx3wXw7lmEf3s0g%3D%3D"
+    },
+    {
+      "authors": [
+        "Lisa LaMotta"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.081702,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Novartis confirmed its plan to spin out its eye care device business Alcon into a standalone company in the first half of 2019, retaining its ophthalmology pharmaceutical portfolio. This move aligns with Novartis's strategy to focus on being a top pharma company with a concentration in oncology, as industry trends shifted away from diversified portfolios. Alcon is expected to trade on both the Swiss SIX Exchange and the New York Stock Exchange.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ALC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340738"
+        },
+        {
+          "relevance_score": "0.627880",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141727"
+        },
+        {
+          "relevance_score": "0.629883",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101439"
+        }
+      ],
+      "time_published": "20180629T014703",
+      "title": "Novartis to spin out Alcon into standalone device company",
+      "topics": [
+        {
+          "relevance_score": "0.907795",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.823172",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/novartis-to-spin-out-alcon-into-standalone-device-company/526864/"
+    },
+    {
+      "authors": [
+        "Nick Paul Taylor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.357639,
+      "source": "Fierce Biotech",
+      "source_domain": "Fierce Biotech",
+      "summary": "Carisma Therapeutics, a University of Pennsylvania spinout, has raised $53 million in an oversubscribed Series A round to advance its CAR-macrophage candidate into human testing. The company aims to develop therapies that target solid tumors more effectively than CAR-T cells by utilizing macrophages equipped with chimeric antigen receptors (CARs). The funding, co-led by AbbVie Ventures and HealthCap, will support an IND filing in 2019 and continued research into earlier-stage cancer opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.345603",
+          "ticker": "CARM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030871"
+        },
+        {
+          "relevance_score": "0.952716",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.710137"
+        },
+        {
+          "relevance_score": "0.644331",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348959"
+        },
+        {
+          "relevance_score": "0.586099",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326765"
+        }
+      ],
+      "time_published": "20180627T095500",
+      "title": "AbbVie powers CAR-macrophage startup Carisma to $53M A round",
+      "topics": [
+        {
+          "relevance_score": "0.933420",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.748701",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.fiercebiotech.com/abbvie-powers-car-macrophage-startup-carisma-to-53m-a-round"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.015347,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "U.S. stocks were down on Thursday due to trade tensions and a Supreme Court ruling on Internet sales tax. This pressure led the Dow Jones Industrial Average to fall below its 50-day moving average, which is currently at 24,859. In contrast, the S&P 500 and Nasdaq Composite showed greater resilience.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.336639",
+          "ticker": "TOPC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.036713"
+        },
+        {
+          "relevance_score": "0.700950",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.046401"
+        },
+        {
+          "relevance_score": "0.644614",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030768"
+        }
+      ],
+      "time_published": "20180621T121400",
+      "title": "Charting a market divergence, Dow industrials violate 50-day average",
+      "topics": [
+        {
+          "relevance_score": "0.916492",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.641571",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/charting-a-market-divergence-dow-industrials-violate-50-day-average-2018-06-21?gaa_at=eafs&gaa_n=AWEtsqeExwa0c_KpldKH3XqeAtxZsTslSDltQH82IZEqIOJyE2nhEV8z0Tsq&gaa_ts=69082550&gaa_sig=G8G_8wACa05Xvqn9f035DZV7Yj2_8dGm05rYqygqbD8JG3vp7uiDiOJdPL8KjWx5Ut7m6Yt4XcyQvwJJG-UKHQ%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.084309,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "On Thursday, U.S. stocks, particularly the Dow Jones Industrial Average, were under pressure due to trade tensions and a Supreme Court ruling on Internet sales tax. The Dow Industrials violated its 50-day moving average, which stands at 24,859. In contrast, the S&P 500 and Nasdaq Composite demonstrated greater resilience amidst the prevailing market conditions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DIA",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.420314"
+        },
+        {
+          "relevance_score": "0.729591",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124991"
+        },
+        {
+          "relevance_score": "0.632560",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148079"
+        }
+      ],
+      "time_published": "20180621T121400",
+      "title": "Charting a market divergence, Dow industrials violate 50-day average",
+      "topics": [
+        {
+          "relevance_score": "0.915008",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.640414",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/charting-a-market-divergence-dow-industrials-violate-50-day-average-2018-06-21?gaa_at=eafs&gaa_n=AWEtsqchWKx2BfQ1KflixLbmEidy-ox4G-wl_Pjunuolh_9DG21iuR9IWHnV&gaa_ts=69081297&gaa_sig=Z49Fq_nYxB3CO4anqubjVjSJ6MbkmRK4BKRkof-vwF9n2YZtivdcXFyhRI8pKsJYudHOtuto1Pos7saWxIJLgw%3D%3D"
+    },
+    {
+      "authors": [
+        "Angus Liu"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.117037,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Bristol-Myers Squibb's Opdivo has been approved in China for advanced non-small cell lung cancer, marking it as the country's first immuno-oncology and PD-1 therapy. This approval positions Opdivo, despite entering a market where it faces intense competition from Merck's Keytruda and several local firms, in the lucrative Chinese lung cancer market. Bristol-Myers Squibb is currently working on its pricing strategy, considering the value of the medicine and affordability for Chinese patients.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.979913",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331364"
+        },
+        {
+          "relevance_score": "0.872475",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136034"
+        },
+        {
+          "relevance_score": "0.718874",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.050311"
+        },
+        {
+          "relevance_score": "0.674740",
+          "ticker": "INCY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.084837"
+        },
+        {
+          "relevance_score": "0.619506",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.063111"
+        }
+      ],
+      "time_published": "20180615T095300",
+      "title": "Bristol-Myers\u2019 Opdivo ushers in a new era as the first I-O therapy approved in China",
+      "topics": [
+        {
+          "relevance_score": "0.932439",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.606959",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma-asia/opdivo-for-lung-cancer-first-i-o-therapy-approved-china"
+    },
+    {
+      "authors": [
+        "Eric Sagonowsky"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.302278,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "A report by EvaluatePharma predicts that AbbVie's Humira will remain the world's top-selling drug in 2024, despite a projected sales slip, followed by Merck's Keytruda and Celgene's Revlimid. The article details the top 10 drugs by projected sales in 2024, highlighting significant growth for drugs like Sanofi's Dupixent and notable newcomers such as Gilead's Biktarvy. It also mentions key factors contributing to Humira's sustained sales, including biosimilar settlements and price hikes.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329415"
+        },
+        {
+          "relevance_score": "0.969469",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.370792"
+        },
+        {
+          "relevance_score": "0.860645",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313020"
+        },
+        {
+          "relevance_score": "0.723254",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.271461"
+        },
+        {
+          "relevance_score": "0.633183",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235757"
+        }
+      ],
+      "time_published": "20180607T122100",
+      "title": "AbbVie's Humira, Merck's Keytruda and more: The top 10 drugs of 2024",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.916203",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma/abbvie-s-humira-merck-s-keytruda-and-more-top-10-drugs-2024"
+    },
+    {
+      "authors": [
+        "RP news wires",
+        "Noria Corporation"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.122685,
+      "source": "Reliable Plant",
+      "source_domain": "Reliable Plant",
+      "summary": "PRWT Services Inc., a minority-owned business enterprise, has acquired the Cherokee chemical manufacturing plant in Riverside, Pa., from Merck & Company Inc. The acquisition, made through its subsidiary Cherokee Pharmaceuticals LLC, includes a five-year supply agreement with Merck valued at $100 million to $200 million annually. This move allows PRWT to expand into the Life Sciences market and aligns with Merck's global manufacturing restructuring efforts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130970"
+        }
+      ],
+      "time_published": "20180531T025628",
+      "title": "PRWT acquires Merck chemical manufacturing plant",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.920163",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.803710",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.632172",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.reliableplant.com/Read/9797/prwt-acquires-merck-chemical-manufacturing-plant"
+    },
+    {
+      "authors": [
+        "Ron Leuty"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.189649,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "AstraZeneca has formally opened a 163,000-square-foot lab and office complex in South San Francisco, joining Merck and Bristol-Myers Squibb in expanding operations in the Bay Area. This move signifies a growing trend of traditional pharmaceutical companies establishing a presence in the region, known for its biotech innovation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301275"
+        },
+        {
+          "relevance_score": "0.620488",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236603"
+        },
+        {
+          "relevance_score": "0.619752",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131393"
+        },
+        {
+          "relevance_score": "0.634479",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.228923"
+        }
+      ],
+      "time_published": "20180523T162200",
+      "title": "Why Big Pharma is finally discovering the Bay Area",
+      "topics": [
+        {
+          "relevance_score": "0.926719",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.734950",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanfrancisco/news/2018/05/23/astrazeneca-merck-bristol-myers-squibb-azn-mrk-bms.html"
+    },
+    {
+      "authors": [
+        "Bernhard Ludvik",
+        "Juan P Fr\u00edas",
+        "Francisco J Tinahones",
+        "Julio Wainstein",
+        "Honghua Jiang",
+        "Kenneth E Robertson",
+        "Luis-Emilio Garc\u00eda-P\u00e9rez",
+        "D Bradley Woodward",
+        "Zvonko Milicevic"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.318057,
+      "source": "The Lancet",
+      "source_domain": "The Lancet",
+      "summary": "This 24-week, randomized, double-blind, placebo-controlled trial (AWARD-10) evaluated the safety and efficacy of dulaglutide as an add-on therapy to SGLT2 inhibitors in patients with inadequately controlled type 2 diabetes. The study found that dulaglutide significantly improved glycaemic control and was generally well-tolerated, with side effects consistent with its known safety profile. The research was funded by Eli Lilly and Company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.420606"
+        },
+        {
+          "relevance_score": "0.562605",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.296283"
+        },
+        {
+          "relevance_score": "0.597291",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.271543"
+        }
+      ],
+      "time_published": "20180523T025111",
+      "title": "Dulaglutide as add-on therapy to SGLT2 inhibitors in patients with inadequately controlled type 2 diabetes (AWARD-10): a 24-week, randomised, double-blind, placebo-controlled trial",
+      "topics": [
+        {
+          "relevance_score": "0.904698",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.thelancet.com/journals/landia/article/PIIS2213-8587(18)30023-8/abstract"
+    },
+    {
+      "authors": [
+        "Jacob Bell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.256324,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Johnson & Johnson, Pfizer, and Merck & Co. maintained their top positions among drug companies on the latest Fortune 500 list, ranking 37th, 57th, and 78th, respectively. Ten other drugmakers also made the list, with Regeneron Pharmaceuticals being the sole newcomer. Despite some shifts in rankings from the previous year, the major pharmaceutical companies continued to show strong revenues, collectively generating more than the other eight listed drugmakers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.748704",
+          "ticker": "REGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145835"
+        },
+        {
+          "relevance_score": "0.908309",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342464"
+        },
+        {
+          "relevance_score": "0.897046",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.286462"
+        },
+        {
+          "relevance_score": "0.829825",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.294100"
+        },
+        {
+          "relevance_score": "0.713615",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.180279"
+        }
+      ],
+      "time_published": "20180522T031626",
+      "title": "J&J, Pfizer, Merck again lead pharma in Fortune 500",
+      "topics": [
+        {
+          "relevance_score": "0.902622",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.801898",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.727950",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.648087",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/jj-pfizer-merck-again-lead-pharma-in-fortune-500/524093/"
+    },
+    {
+      "authors": [
+        "For Physician's Weekly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.315171,
+      "source": "Physician's Weekly",
+      "source_domain": "Physician's Weekly",
+      "summary": "The Merck Manual has released its 20th Edition, a comprehensive medical resource trusted by healthcare professionals for over a century. The updated version, available in print, app, and a free website, features expanded content, new illustrations, and addresses timely social and health issues. Published by Merck & Co., Inc. as a not-for-profit service, it continues to be a gold standard in medical reference.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.960626",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329101"
+        }
+      ],
+      "time_published": "20180522T025629",
+      "title": "The Merck Manual Is Introduced in its 20th Edition",
+      "topics": [
+        {
+          "relevance_score": "0.927500",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.physiciansweekly.com/post/the-merck-manual-is-introduced-in-its-20th-edition"
+    },
+    {
+      "authors": [
+        "Brett Molina (USA TODAY)"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.17871,
+      "source": "WUSA9",
+      "source_domain": "WUSA9",
+      "summary": "The FDA has approved Aimovig, the first drug specifically designed to prevent migraine headaches. The new drug works by blocking a key molecule involved in sparking migraine attacks and is administered once a month via self-injection. Clinical trials showed that most patients using Aimovig experienced at least one less migraine per month.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.482438"
+        },
+        {
+          "relevance_score": "0.568345",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118717"
+        },
+        {
+          "relevance_score": "0.598320",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122822"
+        },
+        {
+          "relevance_score": "0.595520",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123884"
+        },
+        {
+          "relevance_score": "0.580030",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.131840"
+        }
+      ],
+      "time_published": "20180518T154300",
+      "title": "FDA approves drug aimed at preventing migraines",
+      "topics": [
+        {
+          "relevance_score": "0.909865",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.wusa9.com/article/news/nation-world/fda-approves-drug-aimed-at-preventing-migraines/507-553503365"
+    },
+    {
+      "authors": [
+        "Seed World Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.25358,
+      "source": "www.seedworld.com",
+      "source_domain": "www.seedworld.com",
+      "summary": "Cibus, an advanced plant breeding company, has appointed Jim Hinrichs as its new Chief Financial Officer. Hinrichs brings over twenty-five years of experience, including leadership roles at multibillion-dollar companies like Cardinal Health, CareFusion, and Alere. His expertise in finance and mergers is expected to be crucial for Cibus's global expansion and commercial operations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.900193",
+          "ticker": "CAH",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310255"
+        },
+        {
+          "relevance_score": "0.719300",
+          "ticker": "ABT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.280892"
+        },
+        {
+          "relevance_score": "0.631402",
+          "ticker": "BDX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238373"
+        },
+        {
+          "relevance_score": "0.581864",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.145933"
+        }
+      ],
+      "time_published": "20180503T020138",
+      "title": "Cibus Names Jim Hinrichs Chief Financial Officer",
+      "topics": [
+        {
+          "relevance_score": "0.803059",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.728842",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.619011",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.seedworld.com/us/2018/05/03/cibus-names-jim-hinrichs-chief-financial-officer/"
+    },
+    {
+      "authors": [
+        "Nick Paul Taylor"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.217042,
+      "source": "Fierce Biotech",
+      "source_domain": "Fierce Biotech",
+      "summary": "Johnson & Johnson is acquiring BeneVir Biopharm for an upfront payment of $140 million, with potential milestones up to $900 million, targeting a preclinical oncolytic virus technology called T-Stealth. BeneVir's technology is designed to evade the immune system to allow oncolytic viruses to more effectively kill cancer cells and trigger an immune response in solid tumors. This acquisition highlights Big Pharma's increasing interest in oncolytic viruses as a complementary therapy to checkpoint inhibitors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.438053"
+        },
+        {
+          "relevance_score": "0.721016",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103649"
+        },
+        {
+          "relevance_score": "0.629718",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135832"
+        },
+        {
+          "relevance_score": "0.646378",
+          "ticker": "ABBV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148402"
+        }
+      ],
+      "time_published": "20180502T095100",
+      "title": "Johnson & Johnson pens $140M deal for preclinical oncolytic virus startup",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.901242",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.fiercebiotech.com/biotech/johnson-johnson-pens-140m-deal-for-preclinical-oncolytic-virus-startup"
+    },
+    {
+      "authors": [
+        "Dede Willams"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.203424,
+      "source": "CHEManager",
+      "source_domain": "CHEManager",
+      "summary": "GSK's new shingles vaccine, Shingrix, has rapidly dominated the US market since its launch in autumn 2017, capturing 99% market share by March 2018 and achieving \u00a3110 million in sales in Q1 2018. This success is largely attributed to CDC recommendations favoring Shingrix over Merck's Zostavax and an expanded age recommendation. Despite a potential hurdle with its two-dose schedule and a slump in other vaccine sales, GSK expects Shingrix sales to reach \u00a3440 million for the full year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GSK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.467484"
+        },
+        {
+          "relevance_score": "0.807067",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138562"
+        },
+        {
+          "relevance_score": "0.703682",
+          "ticker": "CVS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.247779"
+        },
+        {
+          "relevance_score": "0.578872",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.007516"
+        }
+      ],
+      "time_published": "20180502T023207",
+      "title": "GSK\u2019s Shingles Vaccine Captures US Market",
+      "topics": [
+        {
+          "relevance_score": "0.930357",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.920246",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.624395",
+          "topic": "retail_wholesale"
+        }
+      ],
+      "url": "https://chemanager-online.com/en/news/gsks-shingles-vaccine-captures-us-market"
+    },
+    {
+      "authors": [
+        "Jacob Bell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.341626,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Esperion Therapeutics' stock tumbled after data from a late-stage study of its cholesterol drug, bempedoic acid, showed more patient deaths in the treatment arm than in the placebo arm. Despite the company asserting the deaths were unrelated to the drug and analysts like Jefferies maintaining a \"Buy\" rating based on \"clean\" safety data, investors reacted negatively to the news. The study also showed an 18% reduction in \"bad\" cholesterol for treated patients, but the death imbalance still raised concerns.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.962072",
+          "ticker": "ESPR",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.790782"
+        },
+        {
+          "relevance_score": "0.608191",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137348"
+        }
+      ],
+      "time_published": "20180502T022108",
+      "title": "Esperion tumbles as patient deaths weigh on cholesterol drug",
+      "topics": [
+        {
+          "relevance_score": "0.916301",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.832935",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.604652",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/esperion-tumbles-as-patient-deaths-weigh-on-cholesterol-drug/522647/"
+    },
+    {
+      "authors": [
+        "Ned Pagliarulo"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.124248,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Bristol-Myers Squibb's cancer immunotherapy Opdivo saw a significant rise in sales during Q1 2018, earning over $1.5 billion, despite increasing competition from Merck's Keytruda, particularly in lung cancer. The company's growth was largely driven by Opdivo and anticoagulant Eliquis, with other product revenues declining. Analysts are questioning Opdivo's future growth prospects, especially in the competitive lung cancer market, though its position in other indications and Eliquis's success provide some stability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.097481"
+        },
+        {
+          "relevance_score": "0.871637",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.296538"
+        }
+      ],
+      "time_published": "20180426T015647",
+      "title": "Opdivo sales rise again, but analysts question what\u2019s next",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/opdivo-q1-sales-opdivo-eliquis-analysts-question-whats-next/522269/"
+    },
+    {
+      "authors": [
+        "Gabrielle Lakusta"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.202962,
+      "source": "Investing News Network",
+      "source_domain": "Investing News Network",
+      "summary": "Dar\u00e9 Bioscience and Juniper Pharmaceuticals have entered into an exclusive global licensing agreement for Juniper's intravaginal ring technology, including three preclinical candidates that offer sustained drug delivery. This agreement is expected to expand Dar\u00e9 Bioscience's women's health product pipeline significantly. Following the announcement, Dar\u00e9's share price saw a substantial increase, reflecting positive investor sentiment regarding the potential for this new technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.976454",
+          "ticker": "DARE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336454"
+        },
+        {
+          "relevance_score": "0.634580",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130592"
+        }
+      ],
+      "time_published": "20180425T155500",
+      "title": "Dar\u00e9 Bioscience and Juniper Pharmaceuticals Enter Global License Agreement",
+      "topics": [
+        {
+          "relevance_score": "0.903907",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.710249",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.623792",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.628975",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://investingnews.com/daily/life-science-investing/medical-device-investing/dare-bioscience-enters-worldwide-license-agreement-juniper-pharmaceuticals/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.208699,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "This article provides an overview of the VanEck Pharmaceutical ETF (PPH), including its current price, holdings, and relevant news. It details key statistics like market capitalization, assets under management, and expense ratios. The ETF tracks the MVIS US Listed Pharmaceutical 25 index and its top holdings include major pharmaceutical companies such as Eli Lilly, Novartis, and Merck.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PPH",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.055159"
+        },
+        {
+          "relevance_score": "0.748707",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.316240"
+        },
+        {
+          "relevance_score": "0.620125",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209414"
+        },
+        {
+          "relevance_score": "0.613357",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234037"
+        }
+      ],
+      "time_published": "20180418T193846",
+      "title": "VanEck Pharmaceutical ETF ETF Price, Holdings, & News (NASDAQ:PPH) $PPH",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.803789",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.724047",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PPH/"
+    },
+    {
+      "authors": [
+        "Helen Branswell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.031721,
+      "source": "STAT",
+      "source_domain": "STAT",
+      "summary": "The World Health Organization (WHO) is set to vote on updated recommendations for Sanofi Pasteur's dengue vaccine, Dengvaxia, which has been found to increase the risk of severe disease in individuals who have never been infected with dengue. This ruling is critical for the future of the world's first licensed dengue vaccine. An expert panel will decide on how and when the vaccine should and should not be administered, with a decision expected on Thursday.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "SNY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.251860"
+        },
+        {
+          "relevance_score": "0.621552",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113625"
+        },
+        {
+          "relevance_score": "0.638119",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149949"
+        }
+      ],
+      "time_published": "20180417T032610",
+      "title": "WHO ruling could put fate of world\u2019s first dengue vaccine on the line",
+      "topics": [
+        {
+          "relevance_score": "0.946504",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.statnews.com/2018/04/17/dengue-vaccine-sanofi-who/"
+    },
+    {
+      "authors": [
+        "Lisa LaMotta"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.081672,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Johnson & Johnson reported a strong first quarter with a 12.6% increase in sales, despite a 17% drop in sales for its blockbuster drug Remicade. The company attributes the Remicade decline to a \"one-time payment adjustment\" and is focusing on growth from other pharmaceutical products like Darzalex and Zytiga. J&J also raised its sales guidance for the year, confident in its diverse pipeline.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.745555",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.128218"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.235457"
+        },
+        {
+          "relevance_score": "0.614642",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.015802"
+        },
+        {
+          "relevance_score": "0.634290",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.044025"
+        }
+      ],
+      "time_published": "20180417T015647",
+      "title": "J&J unfazed by falling Remicade sales",
+      "topics": [
+        {
+          "relevance_score": "0.906346",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.918915",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/jj-unfazed-by-falling-remicade-sales/521514/"
+    },
+    {
+      "authors": [
+        "Carly Helfand"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.02892,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Ahead of the American Association for Cancer Research (AACR) annual meeting, an analyst has predicted Merck will emerge as the early winner over Bristol-Myers Squibb in the competition for first-line non-small cell lung cancer treatment. Merck is presenting Keytruda-chemo combo trial data with mature overall survival results, while Bristol-Myers Squibb will show Opdivo-Yervoy pairing data, which may be limited to a specific patient population and lack full overall survival figures. This comparison, though acknowledged as imperfect, is seen as crucial for investors evaluating the future dominance of these immuno-oncology regimens.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.954130",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.213166"
+        },
+        {
+          "relevance_score": "0.927938",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.226676"
+        }
+      ],
+      "time_published": "20180413T115000",
+      "title": "With big Keytruda and Opdivo data coming at AACR, analyst hands Merck the early edge",
+      "topics": [
+        {
+          "relevance_score": "0.916299",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.746309",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma/big-keytruda-and-opdivo-data-coming-at-aacr-analyst-hands-merck-early-edge"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.312681,
+      "source": "Cision News",
+      "source_domain": "Cision News",
+      "summary": "BerGenBio has completed recruitment for the first stage of its Phase II clinical trial (BGBC008) evaluating bemcentinib, a selective AXL inhibitor, in combination with KEYTRUDA\u00ae for advanced lung cancer. The trial enrolled 22 patients with previously treated advanced adenocarcinoma of the lung, aiming to assess anti-tumour activity, objective response rate, and safety. Interim results from this two-stage study, which is a collaboration with Merck & Co., Inc., are expected during 2018.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.920403",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.331520"
+        }
+      ],
+      "time_published": "20180410T080000",
+      "title": "BerGenBio completes recruitment into first stage of Phase II NSCLC trial with selective AXL inhibitor bemcentinib combined with KEYTRUDA\u00ae",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://news.cision.com/oncoinvent-asa/r/bergenbio-completes-recruitment-into-first-stage-of-phase-ii-nsclc-trial-with-selective-axl-inhibito,c2491305"
+    },
+    {
+      "authors": [
+        "Ned Pagliarulo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.513698,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "A closely watched cancer study by Incyte Corp. and Merck & Co. failed, as their drug combination of epacadostat and Keytruda showed no significant benefit in treating advanced melanoma compared to Keytruda alone. This setback led to a sharp drop in Incyte's shares and dampened hopes for IDO inhibitors as partners for anti-PD-1 checkpoint inhibition, also impacting rival NewLink Genetics Corp.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INCY",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.807412"
+        },
+        {
+          "relevance_score": "0.842969",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.420542"
+        },
+        {
+          "relevance_score": "0.703955",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.325852"
+        }
+      ],
+      "time_published": "20180406T024115",
+      "title": "Incyte cancer study fails, setting back drug combo hopes",
+      "topics": [
+        {
+          "relevance_score": "0.931339",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.605473",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/incyte-cancer-study-fails-setting-back-drug-combo-hopes/520781/"
+    },
+    {
+      "authors": [
+        "Jeff Neiburg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.193458,
+      "source": "The News Journal",
+      "source_domain": "The News Journal",
+      "summary": "Incyte Corporation's stock plummeted after its combination melanoma therapy drug, epacadostat with Merck's Keytruda, failed in phase 3 trials to improve effectiveness or survival rates over Keytruda alone. This news significantly impacted Incyte's shares and cast doubt on future cancer immunotherapy drug combinations. Despite the setback, Incyte stated it remains committed to cancer treatment research and will analyze the study data.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INCY",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.408681"
+        },
+        {
+          "relevance_score": "0.835381",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.201113"
+        },
+        {
+          "relevance_score": "0.616880",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112907"
+        }
+      ],
+      "time_published": "20180406T024115",
+      "title": "Incyte stock drops after melanoma therapy drug testing fails",
+      "topics": [
+        {
+          "relevance_score": "0.910789",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.946635",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.823258",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.delawareonline.com/story/money/business/2018/04/06/incyte-stock-drops-after-melanoma-therapy-drug-testing-fails/493349002/"
+    },
+    {
+      "authors": [
+        "Ned Pagliarulo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.346349,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Corning Inc. announced plans to build a new production facility in North Carolina, investing $200 million and creating 300 jobs to expand its pharmaceutical packaging business. The facility will support the production of Valor Glass, a crack-resistant glass technology developed with Pfizer and Merck, intended for biologics and injectable medicines. This is part of a larger $500 million investment into Valor Glass with potential to reach $4 billion, aiming to serve a significant market opportunity despite life sciences currently being a small fraction of Corning's total sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GLW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404886"
+        },
+        {
+          "relevance_score": "0.715491",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.314719"
+        },
+        {
+          "relevance_score": "0.647301",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326611"
+        }
+      ],
+      "time_published": "20180405T023143",
+      "title": "Corning to build NC facility in pharma packaging expansion",
+      "topics": [
+        {
+          "relevance_score": "0.941920",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.813470",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.642812",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/corning-to-build-nc-facility-in-pharma-packaging-expansion/520713/"
+    },
+    {
+      "authors": [
+        "Eric Sagonowsky"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.181979,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Bristol-Myers Squibb CEO Giovanni Caforio received an 18.7 million dollar compensation package in 2017, marking a 10% raise from the previous year. This increase was attributed to the company exceeding revenue targets, particularly for key drugs like Opdivo, Yervoy, Eliquis, and Sprycel, and advancing numerous pipeline projects. Despite some setbacks in early 2017, BMS rebounded in the latter half, with overall sales growing 7% to $20.8 billion, driven by strong performances from Eliquis and Opdivo.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343919"
+        },
+        {
+          "relevance_score": "0.706763",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.273564"
+        },
+        {
+          "relevance_score": "0.617532",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141739"
+        },
+        {
+          "relevance_score": "0.565799",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.054585"
+        },
+        {
+          "relevance_score": "0.591236",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.094460"
+        }
+      ],
+      "time_published": "20180328T112000",
+      "title": "Bristol-Myers CEO Giovanni Caforio nets $18.7M in 2017 pay, a 10% raise",
+      "topics": [
+        {
+          "relevance_score": "0.934635",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.940325",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/pharma/bristol-ceo-giovanni-caforio-nets-18-7m-2017-pay-a-10-raise"
+    },
+    {
+      "authors": [
+        "Ned Pagliarulo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.217361,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "A Phase 3 study combining Merck & Co.'s Keytruda with Incyte Corp.'s experimental drug epacadostat in metastatic melanoma patients is highly anticipated. The trial's results, expected in May, could significantly impact Incyte's market capitalization and offer crucial insights into optimal cancer immunotherapy combinations. Success would position epacadostat as a key partner for PD-1/L1 blockers, particularly in melanoma, while failure would temper enthusiasm for IDO inhibitors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INCY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124104"
+        },
+        {
+          "relevance_score": "0.931345",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347421"
+        },
+        {
+          "relevance_score": "0.716207",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.258054"
+        },
+        {
+          "relevance_score": "0.599631",
+          "ticker": "REGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147863"
+        }
+      ],
+      "time_published": "20180314T024115",
+      "title": "Incyte study could bring lessons for cancer immunotherapy",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.714766",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.621612",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/incyte-merck-echo-301-cancer-immunotherapy-epacadostat-ido/519040/"
+    },
+    {
+      "authors": [
+        "Ben Adams"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.207424,
+      "source": "Fierce Biotech",
+      "source_domain": "Fierce Biotech",
+      "summary": "Reshma Kewalramani, M.D., an Amgen veteran, has been promoted to Chief Medical Officer (CMO) and EVP of global medicines development and medical affairs at Vertex Pharmaceuticals after just one year with the company. She will succeed Jeffrey Chodakewitz, M.D., who is retiring, and will assume her new role on April 1st. Kewalramani's focus will largely be on Vertex's cystic fibrosis pipeline and earlier work in MRNA and gene editing.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VRTX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.340610"
+        },
+        {
+          "relevance_score": "0.824184",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142354"
+        },
+        {
+          "relevance_score": "0.633089",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.120128"
+        }
+      ],
+      "time_published": "20180226T094500",
+      "title": "Amgen veteran Reshma Kewalramani promoted to Vertex CMO",
+      "topics": [
+        {
+          "relevance_score": "0.902266",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.608838",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.fiercebiotech.com/biotech/amgen-veteran-reshma-kewalramani-promoted-to-vertex-cmo"
+    },
+    {
+      "authors": [
+        "Jacob Bell"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.288653,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "A federal judge reversed an earlier decision in a patent lawsuit, granting Gilead Sciences Inc. a reprieve from paying Merck & Co. $2.54 billion. The judge concluded that the patent at the core of the case, concerning hepatitis C treatments, was invalid, although Merck plans to appeal this reversal. This decision is significant for Gilead, especially as its Harvoni and Sovaldi franchises have seen substantial sales declines.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417345"
+        },
+        {
+          "relevance_score": "0.920189",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101397"
+        }
+      ],
+      "time_published": "20180221T023134",
+      "title": "Gilead wins reprieve in Merck\u2019s $2.5B patent lawsuit",
+      "topics": [
+        {
+          "relevance_score": "0.933650",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.736244",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.712570",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/gilead-wins-reprieve-in-mercks-25b-patent-lawsuit/517558/"
+    },
+    {
+      "authors": [
+        "Liu Jiaying and Coco Feng"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.231015,
+      "source": "Caixin Global",
+      "source_domain": "Caixin Global",
+      "summary": "U.S. pharmaceutical giant Merck & Co. has applied to launch its core cancer drug, Keytruda, in China, joining global rival Bristol-Myers Squibb in targeting the lucrative market. This move highlights a trend of foreign drugmakers bringing advanced treatments to China, catering to an increasingly affluent population and a regulator keen on speeding up drug approvals. While these PD-1 inhibitors show promise, some oncologists question their overall efficacy and note potential side effects.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.953856",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315158"
+        },
+        {
+          "relevance_score": "0.881705",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.202475"
+        },
+        {
+          "relevance_score": "0.620830",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117443"
+        }
+      ],
+      "time_published": "20180213T181700",
+      "title": "Merck to Launch Cutting-Edge Cancer Drug in China",
+      "topics": [
+        {
+          "relevance_score": "0.931628",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.caixinglobal.com/2018-02-13/merck-to-launch-cutting-edge-cancer-drug-in-china-101211282.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.346147,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "BioLife Solutions announced an OEM agreement to supply its CryoStor cell freeze media and HypoThermosol cell storage and shipping media under private label to MilliporeSigma. This formalizes a long-term relationship that has seen MilliporeSigma distribute BioLife's biopreservation products to over 600 customers in 2017. The collaboration aims to promote the adoption of engineered, pre-formulated GMP manufactured biopreservation media over home-brew solutions in the biotech research market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BLFS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.452715"
+        },
+        {
+          "relevance_score": "0.608270",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.238866"
+        }
+      ],
+      "time_published": "20180213T080000",
+      "title": "BioLife Solutions Executes OEM Agreement with MilliporeSigma",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/biolife-solutions-executes-oem-agreement-with-milliporesigma-300597536.html"
+    },
+    {
+      "authors": [
+        "Tharawat Magazine"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.705489,
+      "source": "Tharawat Magazine",
+      "source_domain": "Tharawat Magazine",
+      "summary": "Merck & Co. is one of the world's largest pharmaceutical companies, operating globally and known for its innovative health solutions, including significant vaccine developments. The article highlights its history, its role as a US subsidiary of Merck KGaA, and its pioneering patient assistance programs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.725867"
+        }
+      ],
+      "time_published": "20180212T025629",
+      "title": "Merck & Co.",
+      "topics": [
+        {
+          "relevance_score": "0.930992",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.tharawat-magazine.com/vocabulary/merck-co/"
+    },
+    {
+      "authors": [
+        "Jacob Bell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.202284,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Seattle Genetics (SeaGen) and Pieris Pharmaceuticals announced a collaboration to develop novel bispecific immuno-oncology treatments for solid tumors and blood cancers. Pieris will receive $30 million upfront and could earn over $1.2 billion in milestone payments and royalties. The deal leverages both companies' technologies, with SeaGen handling development and commercialization of most candidates.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PIRS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.439930"
+        },
+        {
+          "relevance_score": "0.620240",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212281"
+        },
+        {
+          "relevance_score": "0.608656",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121548"
+        },
+        {
+          "relevance_score": "0.641676",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.138505"
+        }
+      ],
+      "time_published": "20180209T044304",
+      "title": "SeaGen, Pieris ink deal for bispecific I/O drugs",
+      "topics": [
+        {
+          "relevance_score": "0.927779",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.817707",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/seagen-pieris-ink-deal-for-bispecific-io-drugs/516764/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.13203,
+      "source": "GSK",
+      "source_domain": "GSK",
+      "summary": "ViiV Healthcare, a global specialist HIV company, has filed patent infringement litigation against Gilead Sciences Inc. in the United States and Canada. The lawsuits allege that Gilead's triple combination HIV drug containing bictegravir infringes on ViiV Healthcare's patent covering dolutegravir. ViiV Healthcare is seeking financial redress, emphasizing the importance of intellectual property protections for ongoing research and development in the life-sciences industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GILD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.251308"
+        },
+        {
+          "relevance_score": "0.629367",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014436"
+        }
+      ],
+      "time_published": "20180207T023134",
+      "title": "ViiV Healthcare files patent infringement litigation against Gilead Sciences Inc. over bictegravir",
+      "topics": [
+        {
+          "relevance_score": "0.947362",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.gsk.com/en-gb/media/press-releases/viiv-healthcare-files-patent-infringement-litigation-against-gilead-sciences-inc-over-bictegravir/"
+    },
+    {
+      "authors": [
+        "Tracy Staton"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.226806,
+      "source": "Fierce Pharma",
+      "source_domain": "Fierce Pharma",
+      "summary": "Bristol-Myers Squibb's Opdivo-Yervoy combination therapy achieved a significant win in first-line lung cancer, beating chemotherapy in patients with a high tumor mutation burden in the Checkmate-227 trial. This success validates the PD-1-plus-CTLA4 approach and highlights tumor mutation burden as a predictive biomarker for immunotherapy response, providing Bristol-Myers with a crucial advantage in the competitive lung cancer market after previous setbacks. The company is now awaiting overall survival data, which is considered the gold standard in oncology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.499667"
+        },
+        {
+          "relevance_score": "0.708052",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.123698"
+        },
+        {
+          "relevance_score": "0.553955",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143308"
+        }
+      ],
+      "time_published": "20180205T110500",
+      "title": "Bristol-Myers' Opdivo-Yervoy team scores coveted win in first-line lung cancer",
+      "topics": [
+        {
+          "relevance_score": "0.923092",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.fiercepharma.com/marketing/bristol-myers-opdivo-yervoy-team-scores-coveted-win-first-line-lung-cancer"
+    },
+    {
+      "authors": [
+        "Jonathan Saltzman"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.229289,
+      "source": "The Boston Globe",
+      "source_domain": "The Boston Globe",
+      "summary": "Sanofi announced its acquisition of Waltham-based hemophilia specialist Bioverativ Inc. for $11.6 billion, marking its largest deal in seven years and expanding its presence in Massachusetts. This acquisition strengthens Sanofi\u2019s rare disease portfolio, providing new treatments for hemophilia and other blood disorders, and was partly influenced by the recent US tax cut. The deal, which offers Bioverativ shareholders a significant premium, is seen as a strategic move to offset declining sales of Sanofi's diabetes drugs and leverage Bioverativ's expertise in a growing market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.739295",
+          "ticker": "BIIB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127137"
+        },
+        {
+          "relevance_score": "0.717266",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313049"
+        },
+        {
+          "relevance_score": "0.617398",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212439"
+        },
+        {
+          "relevance_score": "0.649815",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.212769"
+        },
+        {
+          "relevance_score": "0.644945",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.232578"
+        }
+      ],
+      "time_published": "20180122T015626",
+      "title": "Sanofi expands footprint in Mass. with $11.6 billion purchase of Waltham-based Bioverativ",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.916659",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.631889",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.bostonglobe.com/business/2018/01/22/sanofi-buys-waltham-based-bioverativ-for-billion/iAwYSlh4Sbu5itiWrxguEN/story.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.004858,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Merck's shares surged after its key cancer drug Keytruda showed positive results in a late-stage clinical trial for advanced lung cancer. This news represents a setback for competitors Roche and Bristol-Myers Squibb Co., whose shares subsequently dropped. Keytruda had already been approved for this indication, and these latest results further support the FDA\u2019s decision.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413764"
+        },
+        {
+          "relevance_score": "0.720133",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.424345"
+        }
+      ],
+      "time_published": "20180121T122500",
+      "title": "Merck leaps past rivals with latest lung cancer drug results",
+      "topics": [
+        {
+          "relevance_score": "0.846698",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.942198",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/merck-leaps-past-rivals-with-latest-lung-cancer-drug-results-2018-01-16?gaa_at=eafs&gaa_n=AWEtsqcjDGLONjLgksBwBq_GkGROnw-19NYxMMekmT7NqmnU6n-8t1KPp_WN&gaa_ts=69081d0b&gaa_sig=MuJjbaF17bMm0aTte5t7nCFRWRMYD6lvlP4Tq6jwFneMPq_QQ3e0X9y-TyS46zJax7DJBaD6-upXPO31eq7bUQ%3D%3D"
+    },
+    {
+      "authors": [
+        "BOTWC Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.075253,
+      "source": "Because of Them We Can",
+      "source_domain": "Because of Them We Can",
+      "summary": "Kenneth Irvine Chenault, the outgoing CEO of American Express, has been appointed as Facebook's first African American board member. Facebook CEO Mark Zuckerberg expressed his admiration for Chenault's expertise in customer service, direct commerce, and brand building. Chenault, who is one of only four African Americans leading a Fortune 500 company, is set to retire from American Express on February 1 after 16 years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.982414",
+          "ticker": "AXP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.141829"
+        },
+        {
+          "relevance_score": "0.928999",
+          "ticker": "META",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253439"
+        },
+        {
+          "relevance_score": "0.608757",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.053718"
+        }
+      ],
+      "time_published": "20180119T015149",
+      "title": "Outgoing American Express CEO Kenneth Chenault Becomes Facebook\u2019s First Black Board Member",
+      "topics": [
+        {
+          "relevance_score": "0.737755",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.815495",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.becauseofthemwecan.com/blogs/botwc-firsts/outgoing-american-express-ceo-kenneth-chenault-becomes-facebooks-first-black-board-member"
+    },
+    {
+      "authors": [
+        "Tom Lynch"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.334213,
+      "source": "Bristol Myers Squibb",
+      "source_domain": "Bristol Myers Squibb",
+      "summary": "This article discusses Bristol Myers Squibb's collaborative approach to drug development, highlighting how external partnerships with academics, biotechs, and other experts are crucial to their innovation process. It provides examples of successful collaborations, particularly in immuno-oncology and fibrotic diseases, emphasizing that this strategy accelerates the discovery and delivery of transformative medicines to patients. The company believes in a broad-minded outlook to finding external innovation to strengthen its R&D efforts.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BMY",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401561"
+        },
+        {
+          "relevance_score": "0.576128",
+          "ticker": "AMGN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.319059"
+        },
+        {
+          "relevance_score": "0.558118",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330527"
+        },
+        {
+          "relevance_score": "0.550441",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.313342"
+        },
+        {
+          "relevance_score": "0.565982",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318794"
+        }
+      ],
+      "time_published": "20180108T015645",
+      "title": "Scientific Community Collaboration Ecosystem",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "0.747946",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.bms.com/life-and-science/news-and-perspectives/collaboration-ecosystem.html"
+    },
+    {
+      "authors": [
+        "Ned Pagliarulo"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.038616,
+      "source": "BioPharma Dive",
+      "source_domain": "BioPharma Dive",
+      "summary": "Pfizer Inc. is ending its research and early development efforts in common neurological diseases like Alzheimer's, resulting in about 300 job cuts across its research sites in Massachusetts and Connecticut. The company will re-allocate funding to other areas where it has stronger scientific leadership, though it will maintain late-stage development programs for existing drugs and research into rare neuromuscular and neurological diseases. Pfizer also plans to create a \"dedicated neuroscience venture fund\" to support external research in the space.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PFE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.238447"
+        },
+        {
+          "relevance_score": "0.608946",
+          "ticker": "BIIB",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144260"
+        },
+        {
+          "relevance_score": "0.632080",
+          "ticker": "MRK",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107138"
+        },
+        {
+          "relevance_score": "0.607351",
+          "ticker": "LLY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118366"
+        }
+      ],
+      "time_published": "20180107T030723",
+      "title": "Pfizer pulls back from neuroscience, ending research",
+      "topics": [
+        {
+          "relevance_score": "0.928876",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.biopharmadive.com/news/pfizer-ends-neuroscience-alzheimers-research-cuts-300-jobs/514210/"
+    }
+  ],
+  "items": "89",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

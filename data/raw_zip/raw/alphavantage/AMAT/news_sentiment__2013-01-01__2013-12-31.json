@@ -1,0 +1,612 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.322265,
+      "source": "Nanalyze",
+      "source_domain": "Nanalyze",
+      "summary": "Kateeva is using inkjet printing technology to make Organic Light-Emitting Diodes (OLEDs) more economically viable for mass production. Their YIELDjet system aims to reduce production costs and improve OLED lifetime by operating in a pure nitrogen chamber and significantly reducing particle contamination. This technology targets large markets for OLED TVs and flexible OLEDs, with projections for substantial market growth in the coming years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.830798",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318062"
+        },
+        {
+          "relevance_score": "0.716746",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.324524"
+        },
+        {
+          "relevance_score": "0.620964",
+          "ticker": "MSI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335053"
+        }
+      ],
+      "time_published": "20131214T120139",
+      "title": "Kateeva uses Inkjet Printing for OLEDs",
+      "topics": [
+        {
+          "relevance_score": "0.913382",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.805266",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nanalyze.com/2013/12/kateeva-uses-inkjet-printing-for-oleds/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.357832,
+      "source": "PR Newswire",
+      "source_domain": "PR Newswire",
+      "summary": "Axcelis Technologies has introduced the Purion H, a next-generation single wafer high current implanter, expanding its Purion platform. This new implanter offers advanced features such as scanned spot beam technology, contaminant minimization, and a common architecture to optimize device performance and yield for sub 16nm planar and 3-D devices. The Purion H is expected to become an industry standard due to its process flexibility and enabling process control.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.986257",
+          "ticker": "ACLS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.454667"
+        },
+        {
+          "relevance_score": "0.606607",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227940"
+        }
+      ],
+      "time_published": "20131203T080000",
+      "title": "Axcelis Introduces Next Generation Purion H\u2122 High Current Implanter",
+      "topics": [
+        {
+          "relevance_score": "0.902949",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.948077",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.prnewswire.com/news-releases/axcelis-introduces-next-generation-purion-h-high-current-implanter-234213271.html"
+    },
+    {
+      "authors": [
+        "Beacon Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.026681,
+      "source": "Flathead Beacon",
+      "source_domain": "Flathead Beacon",
+      "summary": "Applied Materials Inc., the largest chipmaking equipment supplier, acquired Tokyo Electron for $9.39 billion, creating a $29 billion tech giant. In Kalispell, Applied Materials' Semitool Business Unit, which plays a key role in the company's supply chain, is preparing for over $5 million in upgrades to its facilities next year, though these are not directly related to the acquisition. The deal aims to accelerate strategic visions and enhance innovation in the rapidly transforming semiconductor industry driven by mobile devices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300449",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.030149"
+        }
+      ],
+      "time_published": "20130928T120138",
+      "title": "Amid Global Deal, Kalispell\u2019s Semitool Unit Prepares for Upgrades",
+      "topics": [
+        {
+          "relevance_score": "0.924888",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.832893",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.712855",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://flatheadbeacon.com/2013/09/28/amid-global-deal-kalispells-semitool-unit-prepares-for-upgrades/"
+    },
+    {
+      "authors": [
+        "David Coursey"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.293422,
+      "source": "Dice",
+      "source_domain": "Dice",
+      "summary": "The pending merger between Applied Materials and Tokyo Electron is expected to result in significant cost savings, primarily through potential layoffs in sales, administration, and IT. While some analysts believe engineering and R&D will remain intact due to complementary technologies, a historical analysis of previous layoffs suggests a substantial number of job cuts could occur based on the companies' stated cost-saving goals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.295911"
+        }
+      ],
+      "time_published": "20130925T120138",
+      "title": "Applied Materials Merger Could Spell More Layoffs",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.844703",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.742947",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.dice.com/career-advice/applied-materials-merger-spell-layoffs-039"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.280377,
+      "source": "South China Morning Post",
+      "source_domain": "South China Morning Post",
+      "summary": "Applied Materials is set to acquire rival Tokyo Electron Ltd in an all-stock deal exceeding US$7 billion, uniting two of the largest chip-making equipment manufacturers. This acquisition aims to create a US$29 billion company, with Applied Materials shareholders owning 68%, amidst slowing demand and increasing consolidation in the semiconductor industry. The deal, expected to clear antitrust scrutiny, marks the second-largest foreign purchase of a Japanese company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.407968"
+        },
+        {
+          "relevance_score": "0.645950",
+          "ticker": "C",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.107222"
+        }
+      ],
+      "time_published": "20130925T094100",
+      "title": "Applied Materials, Tokyo Electron deal to create giant",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.849531",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.744919",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.scmp.com/business/companies/article/1317351/applied-materials-tokyo-electron-deal-create-giant"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.010881,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Applied Materials is acquiring Tokyo Electron in a significant tech merger valued at $9.3 billion. This deal will combine two major players in the global chip industry, with Applied Materials, already the world\u2019s largest maker of semiconductor capital equipment, becoming even larger. The article is set to detail five specific reasons behind this strategic acquisition.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.315790",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.001540"
+        }
+      ],
+      "time_published": "20130924T163800",
+      "title": "5 reasons Applied is buying Tokyo Electron",
+      "topics": [
+        {
+          "relevance_score": "0.916150",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.832551",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.715119",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/5-reasons-applied-is-buying-tokyo-electron-2013-09-24?gaa_at=eafs&gaa_n=AWEtsqcX-OiLT4Odp5dHhp3xjodxvTdcB-YbBLc3rb2lTIG166ilCEyeiUqB&gaa_ts=69089cea&gaa_sig=GP7sYwuEYxO3lOAtyHs3nKLNW5MQSM_Z89aL6KwIZaT1hN6yInJM_MuCYJQgFsQXhzfU-sM9uQpCmSAtpfSPbA%3D%3D"
+    },
+    {
+      "authors": [
+        "Tate Dwinnell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.010053,
+      "source": "Green Stocks Central",
+      "source_domain": "Green Stocks Central",
+      "summary": "Applied Materials (AMAT) is experiencing a five-year high surge following the announcement of its merger with Tokyo Electron Limited in an all-stock transaction valued at nearly $30 billion. The combined company, which will operate under a new name with dual headquarters and listings on the Tokyo Exchange and Nasdaq, anticipates closing the deal in about a year, with Applied Materials shareholders owning approximately 68% of the new entity. This merger aims to integrate complementary technologies in the semiconductor and display markets, promising expanded value for customers and enhanced financial performance.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.308033",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008417"
+        }
+      ],
+      "time_published": "20130924T120139",
+      "title": "Applied Materials (AMAT) Surges To 5Yr High On Tokyo Electron Mega Merger News",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.836487",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.710972",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://greenstockscentral.com/applied-materials-amat-surges-to-5yr-high-on-tokyo-electron-mega-merger-news-5232.html"
+    },
+    {
+      "authors": [
+        "Paul Toscano"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.371858,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Jim Cramer states that the proposed merger between Applied Materials and Tokyo Electron, which would create a $29 billion company, will not be approved by U.S. regulators due to antitrust concerns. He believes competitors like Intel and Samsung will fight the deal, and Washington has been unfriendly to large mergers this year. While the deal would benefit Applied Materials shareholders by raising stock prices, Cramer argues regulators will block it to prevent rising consumer prices on products like big screen TVs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.733955"
+        },
+        {
+          "relevance_score": "0.639753",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.327964"
+        },
+        {
+          "relevance_score": "0.635501",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.329705"
+        },
+        {
+          "relevance_score": "0.623677",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.314040"
+        },
+        {
+          "relevance_score": "0.640802",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.216097"
+        }
+      ],
+      "time_published": "20130924T101700",
+      "title": "Cramer: Applied Materials, Tokyo Electron deal won't happen",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.825221",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.723118",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cnbc.com/2013/09/24/cramer-applied-materials-tokyo-electron-deal-wont-happen.html"
+    },
+    {
+      "authors": [
+        "Sebastian Anthony"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.354097,
+      "source": "ExtremeTech",
+      "source_domain": "ExtremeTech",
+      "summary": "Applied Materials has detailed advancements beyond 14nm, focusing on material and architectural challenges for mass-producing transistors down to 3nm. The article discusses new materials like silicon-germanium for 7nm and future transistor structures like Gate All Around FETs and vertical tunneling FETs to overcome quantum tunneling and gate leakage. It also raises the question of whether scaling to such tiny geometries is truly worthwhile given the increasing complexity and cost.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.401020"
+        },
+        {
+          "relevance_score": "0.714373",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303284"
+        }
+      ],
+      "time_published": "20130726T120139",
+      "title": "7nm, 5nm, 3nm: The new materials and transistors that will take us to the limits of Moore's law",
+      "topics": [
+        {
+          "relevance_score": "0.925683",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.extremetech.com/science/162376-7nm-5nm-3nm-the-new-materials-and-transistors-that-will-take-us-to-the-limits-of-moores-law"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.514073,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "ASML's customers are intensifying their development efforts in extreme ultraviolet (EUV) lithography, with CEO Eric Meurice expressing confidence in its capabilities for the 10 nm node. The company's acquisition of Cymer has significantly advanced light source development, enabling routine production at 40 wafers per hour. ASML projects increased wafer per hour throughput and expects higher tool shipments, anticipating significant revenue contribution from EUV tools and overall sales growth, driven by key technology nodes and the mobile DRAM market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.912286",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.745660"
+        },
+        {
+          "relevance_score": "0.637596",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.424032"
+        },
+        {
+          "relevance_score": "0.635192",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422502"
+        },
+        {
+          "relevance_score": "0.608382",
+          "ticker": "KLAC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.406614"
+        }
+      ],
+      "time_published": "20130717T120632",
+      "title": "ASML customers \u2018intensify\u2019 EUV development",
+      "topics": [
+        {
+          "relevance_score": "0.904788",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.836771",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.722150",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://optics.org/news/4/7/25"
+    },
+    {
+      "authors": [
+        "Jim Carbone"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.29426,
+      "source": "Electronics360",
+      "source_domain": "Electronics360",
+      "summary": "Electronics distributors are expanding their value-added services to help OEMs and contract manufacturers reduce acquisition costs, speed time to market, ensure supply continuity, and mitigate supply chain risks. These services, ranging from design assistance and inventory management to reverse logistics like repair and recycling, are becoming a significant and growing revenue stream for distributors. The demand for such services has increased, particularly after supply chain disruptions like the 2011 disasters in Japan and Thailand, as customers prioritize continuity of supply over just purchasing price.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.911013",
+          "ticker": "ARW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302005"
+        },
+        {
+          "relevance_score": "0.707669",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.266138"
+        },
+        {
+          "relevance_score": "0.647394",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204865"
+        },
+        {
+          "relevance_score": "0.558651",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.281338"
+        }
+      ],
+      "time_published": "20130709T120631",
+      "title": "Removing Obstacles: Distributors Expand Services",
+      "topics": [
+        {
+          "relevance_score": "0.943441",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.800918",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://electronics360.globalspec.com/article/213/removing-obstacles-distributors-expand-services"
+    },
+    {
+      "authors": [
+        "Jeff Chappell"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.24628,
+      "source": "Semiconductor Engineering",
+      "source_domain": "Semiconductor Engineering",
+      "summary": "The article discusses the enduring relevance of merchant photomask makers despite the trend of leading-edge chipmakers establishing captive mask operations due to complexity and cost. It highlights that merchant suppliers serve two main roles: providing standard photomask sets for non-critical layers and acting as strategic partners or second sources for advanced photomasks to large chipmakers. The article also speculates on future consolidation within the merchant photomask industry as technology nodes advance and fewer companies can afford to operate at the leading edge.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PLAB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342180"
+        },
+        {
+          "relevance_score": "0.615492",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147068"
+        }
+      ],
+      "time_published": "20130620T132132",
+      "title": "Merchant Photomask Makers Remain Relevant",
+      "topics": [
+        {
+          "relevance_score": "0.904048",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.831702",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://semiengineering.com/merchant-photomask-makers-remain-relevant/"
+    },
+    {
+      "authors": [
+        "Aman Batheja",
+        "Alana Rocha"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.448165,
+      "source": "The Texas Tribune",
+      "source_domain": "The Texas Tribune",
+      "summary": "President Obama visited Austin, Texas, to kick off his \"Middle Class Jobs and Opportunity\" tour, praising the city's economic success. He toured Manor New Tech High School, Applied Materials, and Capital Factory, highlighting Austin as a model for job growth and innovation. The visit also saw a contrast in reactions from Texas Republican leaders, who used the opportunity to criticize federal economic policies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.402723"
+        }
+      ],
+      "time_published": "20130509T152000",
+      "title": "On Austin Visit, Obama Sings City\u2019s Praises",
+      "topics": [
+        {
+          "relevance_score": "0.926177",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.947975",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.724219",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.709179",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.texastribune.org/2013/05/09/obama-perry-visit/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.11029,
+      "source": "Optics.org",
+      "source_domain": "Optics.org",
+      "summary": "Eric Meurice, CEO of ASML for over eight years, is stepping down in July to become chairman of ASML Holdings, with current CFO Peter Wennink taking over as CEO. The transition comes as ASML nears the completion of its merger with Cymer and continues to make progress in its extreme ultraviolet (EUV) production tools, despite facing some delays. Meurice's tenure saw significant growth in ASML's sales and net profit, and the company expects continued progress in EUV lithography with rising unit shipments in the coming years.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ASML",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.135640"
+        },
+        {
+          "relevance_score": "0.582666",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.109099"
+        },
+        {
+          "relevance_score": "0.575828",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144403"
+        }
+      ],
+      "time_published": "20130417T120632",
+      "title": "ASML chief Meurice steps down",
+      "topics": [
+        {
+          "relevance_score": "0.909172",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.842405",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.822187",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.720552",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.626148",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://optics.org/news/4/4/24"
+    }
+  ],
+  "items": "14",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

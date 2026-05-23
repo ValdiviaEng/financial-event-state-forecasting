@@ -1,0 +1,3659 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Press Trust of India"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.383607,
+      "source": "Business Standard",
+      "source_domain": "Business Standard",
+      "summary": "SAP has been recognized as the top-rated technology workplace in India for 2019, based on employee ratings and reviews on job site Indeed. Adobe, VMware, and Microsoft followed, with ISRO ranking fifth, moving up from tenth place in the previous year. The survey also highlighted that a significant majority of job-seekers prioritize employer reputation and online company reviews when considering new job opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.920936",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.393609"
+        },
+        {
+          "relevance_score": "0.672156",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.392084"
+        },
+        {
+          "relevance_score": "0.572322",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400305"
+        },
+        {
+          "relevance_score": "0.588298",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.398977"
+        },
+        {
+          "relevance_score": "0.578588",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.425899"
+        }
+      ],
+      "time_published": "20191218T132500",
+      "title": "SAP best tech workplace in India, followed by Adobe, VMware: Report",
+      "topics": [
+        {
+          "relevance_score": "0.904451",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.business-standard.com/article/pti-stories/sap-ranks-highest-in-top-rated-tech-workplaces-in-india-119121800495_1.html"
+    },
+    {
+      "authors": [
+        "Antone Gonsalves"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.178275,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "Cisco plans to acquire Australia-based Exablaze, a manufacturer of high-performance switches and network interface cards used in high-frequency trading and computing. This acquisition mirrors rival Arista's purchase of Metamako and aims to leverage Exablaze's FPGA technology for future AI and machine learning applications. Cisco expects to complete the acquisition by April 2020 and sees it as a move into ultralow-latency switching, complementing its recent Silicon One ASIC announcement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.906799",
+          "ticker": "ANET",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.200418"
+        },
+        {
+          "relevance_score": "0.956790",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.283805"
+        },
+        {
+          "relevance_score": "0.640391",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.079312"
+        },
+        {
+          "relevance_score": "0.594228",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.081929"
+        }
+      ],
+      "time_published": "20191217T234653",
+      "title": "Cisco to acquire Exablaze for high-performance switching",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.948377",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techtarget.com/searchnetworking/news/252475631/Cisco-to-acquire-Exablaze-for-high-performance-switching"
+    },
+    {
+      "authors": [
+        "Omer Kabir"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.446234,
+      "source": "CTech",
+      "source_domain": "CTech",
+      "summary": "Cisco's new 8000 Series of carrier-class routers, powered by Israeli-developed Silicon One chips, aims to address internet bottlenecks and support next-generation web services. These routers are designed to replace complex server clusters for internet carriers, offering greater capacity and speed while consuming less power. The core technology stems from Cisco's 2016 acquisition of Israeli chip startup Leaba Semiconductor Ltd.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413353"
+        }
+      ],
+      "time_published": "20191215T125700",
+      "title": "A Silicon Chip Developed in Israel Powers Cisco\u2019s New Router Series",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.627584",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3775786,00.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.326138,
+      "source": "Cisco Systems",
+      "source_domain": "Cisco Systems",
+      "summary": "Cisco has announced its 'Internet for the Future' strategy, based on significant investments in Silicon+Optics+Software. This initiative introduces Cisco Silicon One, a unified silicon architecture for the network, and the new Cisco 8000 Series routers. The strategy aims to reduce costs and enhance capabilities for mass-scale networks to support future digital innovations like 5G, AI, and 16K streaming.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422467"
+        },
+        {
+          "relevance_score": "0.704963",
+          "ticker": "T",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.348266"
+        },
+        {
+          "relevance_score": "0.736898",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335177"
+        },
+        {
+          "relevance_score": "0.737686",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306451"
+        },
+        {
+          "relevance_score": "0.741332",
+          "ticker": "DIS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301866"
+        }
+      ],
+      "time_published": "20191211T000641",
+      "title": "Cisco Unveils Plan for Building Internet for the Next Decade of Digital Innovation",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://investor.cisco.com/news/news-details/2019/Cisco-Unveils-Plan-for-Building-Internet-for-the-Next-Decade-of-Digital-Innovation/default.aspx"
+    },
+    {
+      "authors": [
+        "Levi Sumagaysay"
+      ],
+      "banner_image": "https://www.siliconvalley.com/wp-content/uploads/2018/07/SJM_L-INTEL-0719-01.jpg?w=1024",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.146091,
+      "source": "SiliconValley.com",
+      "source_domain": "SiliconValley.com",
+      "summary": "Intel released compensation data for its U.S. employees from 2017 and 2018, revealing that white and Asian males were the highest earners in most occupation categories. The company, which is transparent about its diversity efforts, aims to encourage other tech firms to share similar data. This disclosure comes as the EEOC for the first time required companies to include pay data.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234434"
+        },
+        {
+          "relevance_score": "0.611163",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.130529"
+        },
+        {
+          "relevance_score": "0.732180",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124030"
+        },
+        {
+          "relevance_score": "0.702895",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101478"
+        },
+        {
+          "relevance_score": "0.717076",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149989"
+        }
+      ],
+      "time_published": "20191210T152800",
+      "title": "Which groups earn the most at Intel? Company offers peek at pay data other tech firms won\u2019t show",
+      "topics": [
+        {
+          "relevance_score": "0.812685",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.siliconvalley.com/2019/12/10/intel-offers-peek-into-pay-data-that-most-other-companies-wont/"
+    },
+    {
+      "authors": [
+        "aftermarketNews Staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.134102,
+      "source": "aftermarketNews",
+      "source_domain": "aftermarketNews",
+      "summary": "Hera Kitwan Siu, CEO of Greater China for Cisco Systems Inc., has been elected to the board of directors of The Goodyear Tire & Rubber Co. Her extensive background in technology, telecommunications, enterprise software, and education, particularly her deep knowledge of the China marketplace, is expected to be highly valuable to Goodyear's leadership in the future of mobility. Siu has held leadership roles at major companies including Pearson LLC, SAP, Nortel Inc., and Nokia Telecommunications Ltd.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.817002",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136118"
+        }
+      ],
+      "time_published": "20191210T000642",
+      "title": "Cisco\u2019s Hera Kitwan Siu Elected To Goodyear Board",
+      "topics": [
+        {
+          "relevance_score": "0.822625",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.735188",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.aftermarketnews.com/hera-kitwan-siu-elected-to-goodyear-board/"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.globenewswire.com/NewsRoom/AttachmentNg/ba43c99b-16d5-4a81-9e5a-dfb72b945da0",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.232152,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "Verizon Communications Inc. announced the election of Carol B. Tom\u00e9, former Chief Financial Officer and Executive Vice President - Corporate Services of The Home Depot, Inc., to its Board of Directors, effective January 1, 2020. Tom\u00e9 brings significant financial and strategic planning expertise from her 24-year career at Home Depot and her prior board directorships. Her addition will increase Verizon's board membership to 11.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VZ",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.387894"
+        },
+        {
+          "relevance_score": "0.811469",
+          "ticker": "HD",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219060"
+        },
+        {
+          "relevance_score": "0.621977",
+          "ticker": "UPS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.224914"
+        },
+        {
+          "relevance_score": "0.564437",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216865"
+        }
+      ],
+      "time_published": "20191205T135900",
+      "title": "Carol B. Tom\u00e9 Elected to Verizon Board of Directors",
+      "topics": [
+        {
+          "relevance_score": "0.809096",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.737979",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2019/12/05/1957011/0/en/Carol-B-Tom%C3%A9-Elected-to-Verizon-Board-of-Directors.html"
+    },
+    {
+      "authors": [
+        "Antone Gonsalves"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.041184,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "Three networking startups, Arrcus, DriveNets, and Volta Networks, are redefining routing by decoupling software from hardware, enabling it to run on commodity products. This disaggregation reduces operational expenses and adds flexibility, mirroring a trend previously seen in network switching. Industry analysts anticipate these companies could become M&A targets as service providers increasingly look towards white box routing for 5G deployments.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.738867",
+          "ticker": "DLR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.117003"
+        },
+        {
+          "relevance_score": "0.728700",
+          "ticker": "EQIX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140143"
+        },
+        {
+          "relevance_score": "0.624819",
+          "ticker": "AVGO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240205"
+        },
+        {
+          "relevance_score": "0.623385",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.225981"
+        },
+        {
+          "relevance_score": "0.628334",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245675"
+        }
+      ],
+      "time_published": "20191204T001205",
+      "title": "3 networking startups rearchitect routing",
+      "topics": [
+        {
+          "relevance_score": "0.914829",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.630047",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://www.techtarget.com/searchnetworking/news/252475008/3-networking-startups-rearchitect-routing"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.045208,
+      "source": "CRN Magazine",
+      "source_domain": "CRN Magazine",
+      "summary": "Gordon Mackintosh, Extreme Networks\u2019 vice president of worldwide channels, has left the company for an outside opportunity. Bob Gault, chief revenue services officer, will temporarily lead the partner organization as the company searches for a new channel leader. Extreme Networks is looking for a leader who values cloud and software-driven solutions, following its recent acquisition of Aerohive, which boosted its recurring revenue to over 25 percent.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "EXTR",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.137073"
+        },
+        {
+          "relevance_score": "0.635473",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.149892"
+        }
+      ],
+      "time_published": "20191127T001655",
+      "title": "Extreme Networks Channel Chief Gordon Mackintosh Departs: Exclusive",
+      "topics": [
+        {
+          "relevance_score": "0.842550",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.808965",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.crn.com/news/networking/extreme-networks-channel-chief-gordon-mackintosh-departs-exclusive"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.100636,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "This article provides details on the ProShares S&P Technology Dividend Aristocrats ETF (TDV), including its current price, holdings, and news. It outlines the ETF's investment strategy, key statistics, and a list of its top ten holdings, such as Cognex, Avnet, and Apple. The fund aims to track an equal-weighted index of U.S. technology companies with at least seven years of dividend growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "TDV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122702"
+        },
+        {
+          "relevance_score": "0.595319",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102105"
+        },
+        {
+          "relevance_score": "0.555569",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142633"
+        },
+        {
+          "relevance_score": "0.579035",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140738"
+        },
+        {
+          "relevance_score": "0.578797",
+          "ticker": "MSI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119826"
+        }
+      ],
+      "time_published": "20191109T100941",
+      "title": "ProShares S&P Technology Dividend Aristocrats ETF ETF Price, Holdings, & News (BATS:TDV)",
+      "topics": [
+        {
+          "relevance_score": "0.922593",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.822265",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/BATS/TDV/"
+    },
+    {
+      "authors": [
+        "Jessica Lyons Hardcastle"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.19603,
+      "source": "SDxCentral",
+      "source_domain": "SDxCentral",
+      "summary": "Digital Realty aims to unseat data center leader Equinix by addressing the \"data gravity problem\" with its new PlatformDigital. This platform offers a decentralized and interconnected architecture across its global data centers, launching with four new services and partnerships with companies like Cisco, IBM Cloud, and Vapor IO. Digital Realty is also expanding its retail colocation footprint, traditionally dominated by Equinix, through strategic acquisitions and joint ventures, including the recent Interxion deal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "EQIX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143195"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DLR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.315256"
+        },
+        {
+          "relevance_score": "0.616818",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234659"
+        },
+        {
+          "relevance_score": "0.551404",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.158675"
+        }
+      ],
+      "time_published": "20191107T001630",
+      "title": "Digital Realty\u2019s Plan to Overthrow Equinix Hinges On Data Gravity",
+      "topics": [
+        {
+          "relevance_score": "0.906284",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.829308",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.sdxcentral.com/news/digital-realtys-plan-to-overthrow-equinix-hinges-on-data-gravity/"
+    },
+    {
+      "authors": [
+        "Pedro Palandrani"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.269126,
+      "source": "Global X ETFs",
+      "source_domain": "Global X ETFs",
+      "summary": "The Global X Cybersecurity ETF (BUG) began trading on NASDAQ on October 29, 2019, seeking to invest in companies benefiting from increased cybersecurity technology adoption. The article details the growing threat of cybercrime, driven by the explosion of data and digital technologies like IoT and cloud computing, emphasizing its financial and societal costs. It highlights the increasing global spending on cybersecurity by individuals, companies, and governments as a critical measure against evolving cyberthreats.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.335909",
+          "ticker": "AIQ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.018051"
+        },
+        {
+          "relevance_score": "0.604009",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307078"
+        },
+        {
+          "relevance_score": "0.623795",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.339367"
+        },
+        {
+          "relevance_score": "0.621740",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.301552"
+        },
+        {
+          "relevance_score": "0.588954",
+          "ticker": "AKAM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.307391"
+        }
+      ],
+      "time_published": "20191029T234617",
+      "title": "Introducing the Global X Cybersecurity ETF (BUG)",
+      "topics": [
+        {
+          "relevance_score": "0.800909",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.723805",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.globalxetfs.com/articles/introducing-the-global-x-cybersecurity-etf-bug/"
+    },
+    {
+      "authors": [
+        "Mark Albertson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.214511,
+      "source": "SiliconANGLE",
+      "source_domain": "SiliconANGLE",
+      "summary": "Pensando Systems Inc., led by former Cisco executives including Prem Jain and John Chambers, has emerged from stealth mode with an ambitious plan to transform edge computing. The company aims to compete with Amazon Web Services Inc.'s Nitro by bringing critical IT services to the edge using programmable chips, replacing numerous appliances and simplifying architectures. Pensando\u2019s technology leverages a \"flow-based\" approach, which they believe offers a distinct advantage in the industry.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.936926",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.305640"
+        },
+        {
+          "relevance_score": "0.608279",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.233348"
+        },
+        {
+          "relevance_score": "0.568001",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.103131"
+        }
+      ],
+      "time_published": "20191029T133000",
+      "title": "Cisco alums reunite: Prem Jain\u2019s Pensando spins into the edge-computing conversation",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.604234",
+          "topic": "mergers_and_acquisitions"
+        }
+      ],
+      "url": "https://siliconangle.com/2019/10/29/cisco-alums-reunite-prem-jains-pensando-spins-edge-computing-conversation-pensandoio-guestoftheweek/"
+    },
+    {
+      "authors": [
+        "Jayson MacLean"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.058981,
+      "source": "Cantech Letter",
+      "source_domain": "Cantech Letter",
+      "summary": "PI Financial analyst Gus Papageorgiou has reiterated a \"Neutral\" rating on Celestica (TSX:CLS) but adjusted the target price from C$9.30 to C$8.80 following Celestica's decision to part ways with its largest customer, Cisco Systems. Despite the loss of 13% of its consolidated revenue, the analyst believes Celestica's margins are likely to improve because Cisco's business had lower-than-targeted returns. Celestica's Q3 2019 financials slightly exceeded expectations, with Papageorgiou supporting management's strategic direction to improve profitability.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CLS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.216586"
+        },
+        {
+          "relevance_score": "0.857611",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.276676"
+        }
+      ],
+      "time_published": "20191028T131600",
+      "title": "PI drops target price on Celestica after Cisco split",
+      "topics": [
+        {
+          "relevance_score": "0.914371",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.829684",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.713701",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.735827",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cantechletter.com/2019/10/pi-drops-target-price-on-celestica-after-cisco-split/"
+    },
+    {
+      "authors": [
+        "David Cearley",
+        "Brian Burke"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.369461,
+      "source": "Gartner",
+      "source_domain": "Gartner",
+      "summary": "Gartner has identified the top 10 strategic technology trends for 2020, emphasizing a \"people-centric smart spaces\" approach. These trends include technologies like hyperautomation, multiexperience, human augmentation, and practical blockchain, all aimed at delivering disruptive potential and rapid growth. The report highlights how these technologies will impact customers, employees, and society, creating more immersive and intelligent experiences.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "IT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.475148"
+        },
+        {
+          "relevance_score": "0.623321",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.330039"
+        },
+        {
+          "relevance_score": "0.638327",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343676"
+        },
+        {
+          "relevance_score": "0.587640",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.288211"
+        }
+      ],
+      "time_published": "20191021T003702",
+      "title": "Top 10 Strategic Technology Trends for 2020",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.826335",
+          "topic": "blockchain"
+        }
+      ],
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2019-10-21-gartner-identifies-the-top-10-strategic-technology-trends-for-2020"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.021022,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Former Cisco CEO John Chambers has re-teamed with a \"star team\" of engineers from Cisco Systems Inc. to launch a new startup called Pensando Systems. This ultra-secretive Silicon Valley company aims to challenge Amazon's AWS by developing hardware and software designed to improve the efficiency of computer servers, especially in cloud environments. The move comes as emerging technologies like 5G, IoT, and AI accelerate data growth and alter data consumption and location.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.834487",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.124060"
+        },
+        {
+          "relevance_score": "0.712408",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.129559"
+        }
+      ],
+      "time_published": "20191016T144000",
+      "title": "Ex-Cisco CEO John Chambers, star team of engineers have a startup targeting Amazon\u2019s AWS",
+      "topics": [
+        {
+          "relevance_score": "0.934095",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/ex-cisco-ceo-john-chambers-star-team-of-engineers-have-a-startup-targeting-amazons-aws-2019-10-16?gaa_at=eafs&gaa_n=AWEtsqetRptOC4xXMedsX4NcUEcdcbpZFWBpjYGA0T9zVimzozYD380sgKSR&gaa_ts=6907f53e&gaa_sig=j_lhyX14BN5RRzVZrPvG_8UyznHPB21Am5S1OAShBIAHlN51d_YvbEThyMOvmqmsKiLeUoESdXGtPh_peRA8TQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Cromwell Schubarth"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.043557,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "A group of former key Cisco executives, backed by $278 million, have unveiled a San Jose-based cloud tech startup after three years of stealth development. They aim to \"democratize the cloud\" and target Amazon's cloud dominance. The team previously sold billions of dollars worth of businesses to Cisco Systems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.831074",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201120"
+        },
+        {
+          "relevance_score": "0.702454",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.278772"
+        }
+      ],
+      "time_published": "20191016T110000",
+      "title": "Cisco veterans, backed by $278M, aim to disrupt Amazon's cloud dominance",
+      "topics": [
+        {
+          "relevance_score": "0.939473",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanjose/news/2019/10/16/pensando-systems-mpls-cisco-startup-chambers.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.352174,
+      "source": "www.intc.com",
+      "source_domain": "www.intc.com",
+      "summary": "Karen Walker is appointed as Intel's new Senior Vice President and Chief Marketing Officer, effective October 23, 2019. With over 20 years of experience in global technology marketing, including a previous CMO role at Cisco, Walker will be responsible for strengthening Intel's brand and driving growth strategies worldwide. Her appointment is expected to help Intel in its transformation and expansion into new market opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.494793"
+        },
+        {
+          "relevance_score": "0.615356",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.312740"
+        },
+        {
+          "relevance_score": "0.564057",
+          "ticker": "HPQ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237294"
+        }
+      ],
+      "time_published": "20190930T140000",
+      "title": "Karen Walker Joins Intel as Senior Vice President and Chief Marketing Officer",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.640817",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.intc.com/news-events/press-releases/detail/49/karen-walker-joins-intel-as-senior-vice-president-and-chief"
+    },
+    {
+      "authors": [
+        "Liyana Hasnan"
+      ],
+      "banner_image": "https://theaseanpost.com/sites/default/files/styles/article_header/public/field/image/190926%20CloudComputing%20AFP.jpg?itok=fG7O3YhH",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.175278,
+      "source": "The ASEAN Post",
+      "source_domain": "The ASEAN Post",
+      "summary": "Singapore is leading the cloud computing adoption in Southeast Asia, driven by its advanced digital infrastructure, government support, and high demand for skilled professionals. Despite its leadership, the country faces challenges with cybersecurity, as many firms struggle to keep pace with rapid cloud expansion and data security threats like those leading to data being sold on the Dark Web. However, organizations are encouraged to leverage cloud technology for competitive advantages rather than using it as a mere digital storage solution.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.937830",
+          "ticker": "AKAM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113516"
+        },
+        {
+          "relevance_score": "0.884236",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.237909"
+        },
+        {
+          "relevance_score": "0.750951",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.180075"
+        },
+        {
+          "relevance_score": "0.690328",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140667"
+        },
+        {
+          "relevance_score": "0.612831",
+          "ticker": "WDAY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.182767"
+        }
+      ],
+      "time_published": "20190926T234623",
+      "title": "Singapore leads in cloud tech",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.714480",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://theaseanpost.com/article/singapore-leads-cloud-tech"
+    },
+    {
+      "authors": [
+        "Sue Marek"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.349431,
+      "source": "Fierce Network",
+      "source_domain": "Fierce Network",
+      "summary": "This article profiles Anand Athreya, EVP and chief development officer at Juniper Networks, as a 2019 FierceTelecom Rising Star. It highlights his career trajectory, challenges he faces in his current role, and his approach to innovation and leadership, emphasizing the importance of authenticity and mentorship.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.526995"
+        },
+        {
+          "relevance_score": "0.604901",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105376"
+        }
+      ],
+      "time_published": "20190926T070000",
+      "title": "2019 FierceTelecom Rising Star \u2014 Juniper Networks\u2019 Anand Athreya",
+      "topics": [
+        {
+          "relevance_score": "0.806792",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.fierce-network.com/telecom/2019-fiercetelecom-rising-star-juniper-networks-anand-athreya"
+    },
+    {
+      "authors": [
+        "Simon Chatterjee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.427344,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "This article features testimonials from several Cisco Ensoft team members who joined the company shortly after graduating, often without a formal Computer Science background. They highlight the supportive culture, comprehensive training, challenging yet rewarding work, and the social environment that contributes to their positive experience at Cisco Ensoft. The team develops critical software for the internet's infrastructure, powering large routers and AI data centers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.403929"
+        }
+      ],
+      "time_published": "20190923T000642",
+      "title": "Joining Cisco\u2019s Ensoft Team",
+      "topics": [
+        {
+          "relevance_score": "0.808596",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/wearecisco/joining-ciscos-ensoft-team"
+    },
+    {
+      "authors": [
+        "Gillian Tan",
+        "Liana Baker",
+        "Ian King"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.009335,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Cisco Systems Inc. reportedly offered more than $7 billion to acquire software company Datadog Inc. shortly before Datadog's initial public offering. Datadog, however, rejected the acquisition bid, opting instead to pursue its IPO as it believed it could achieve a higher valuation as a public company over time. The company is now committed to going public, with its IPO expected to raise up to $624 million.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.327327",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.026826"
+        }
+      ],
+      "time_published": "20190918T203500",
+      "title": "Cisco Offered $7 Billion-Plus for DataDog As Company Prepares to IPO",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.838997",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2019-09-18/cisco-is-said-to-have-bid-7-billion-plus-for-datadog-before-ipo"
+    },
+    {
+      "authors": [
+        "Priyamvada Mathur"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.109644,
+      "source": "PitchBook",
+      "source_domain": "PitchBook",
+      "summary": "Datadog's IPO priced at $27 per share, giving the company an initial market cap of $7.83 billion, a 12-fold increase from its last private valuation in 2015. Despite raising less than $150 million in total VC financing and rejecting a $7 billion-plus buyout offer from Cisco Systems, the cloud-based monitoring software developer's founders, Olivier Pomel and Alexis L\u00ea-Qu\u00f4c, now hold stakes worth around $1 billion and $677 million respectively. The article details the company's valuation journey and the investors who benefited from its public debut.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DDOG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.341035"
+        },
+        {
+          "relevance_score": "0.627337",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.127812"
+        }
+      ],
+      "time_published": "20190917T000715",
+      "title": "Datadog collars 12x valuation step-up in $7.8B+ IPO [datagraphic]",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.916020",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://pitchbook.com/news/articles/datadog-collars-12x-valuation-step-up-in-78b-ipo-datagraphic"
+    },
+    {
+      "authors": [],
+      "banner_image": "https://www.marketbeat.com/logos/thumbnail/us-vegan-climate-etf-logo.png?v=20220616161908",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.128057,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "The US Vegan Climate ETF (VEGN) tracks a principles-based index of U.S. equities weighted by market-cap, focusing on vegan and climate-friendly investments. Launched on September 9, 2019, it has assets under management of $65.70 million and a net expense ratio of 0.60%. The ETF's holdings include major tech companies like Micron Technology, Alphabet, Cisco Systems, Apple, and NVIDIA, and its stock has seen a 2.0% decrease year-to-date as of February 27, 2026.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VEGN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.110431"
+        },
+        {
+          "relevance_score": "0.628758",
+          "ticker": "MU",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147323"
+        },
+        {
+          "relevance_score": "0.640714",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117389"
+        },
+        {
+          "relevance_score": "0.614238",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122294"
+        },
+        {
+          "relevance_score": "0.610340",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102957"
+        }
+      ],
+      "time_published": "20190910T085148",
+      "title": "US Vegan Climate ETF ETF Price, Holdings, & News (NYSEARCA:VEGN)",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/NYSEARCA/VEGN/"
+    },
+    {
+      "authors": [
+        "Ty Trumbull"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.280304,
+      "source": "ChannelE2E",
+      "source_domain": "ChannelE2E",
+      "summary": "ePlus Inc. has acquired Virginia Beach-based solutions provider ABS Technology for an undisclosed sum, enhancing ePlus' existing solutions portfolio and strengthening its presence in the mid-Atlantic region. This acquisition expands ePlus' capabilities in managed services, networking, collaboration, and security solutions, and adds a solid customer base including healthcare, education, and public sector verticals. This marks ePlus' second acquisition in the region in 2019, following SLAIT Consulting earlier in the year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.913113",
+          "ticker": "PLUS",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.462702"
+        },
+        {
+          "relevance_score": "0.625656",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211933"
+        },
+        {
+          "relevance_score": "0.623224",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201465"
+        },
+        {
+          "relevance_score": "0.620877",
+          "ticker": "FTNT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.240505"
+        }
+      ],
+      "time_published": "20190826T010653",
+      "title": "MSP Acquired: ePlus Buys ABS Technology",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.837204",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.channele2e.com/news/eplus-buys-abs-technology"
+    },
+    {
+      "authors": [
+        "Mary Raitt Jordan"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.540668,
+      "source": "Blueprint Magazine",
+      "source_domain": "Blueprint Magazine",
+      "summary": "Charlie Nugent of T. Rowe Price Associates Inc. discusses his firm's use of Integrated Project Delivery (IPD) for large-scale construction projects. This collaborative methodology fosters early involvement from all partners, shared responsibility, and has resulted in successful project outcomes with less conflict compared to traditional methods. T. Rowe Price has successfully implemented IPD for numerous renovations, including a multimillion-dollar project at their Baltimore headquarters.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.970968",
+          "ticker": "TROW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.791292"
+        },
+        {
+          "relevance_score": "0.628873",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309204"
+        }
+      ],
+      "time_published": "20190822T013137",
+      "title": "Charlie Nugent \u2013 T. Rowe Price Associates Inc.",
+      "topics": [
+        {
+          "relevance_score": "0.932257",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.707711",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bpcmag.com/case-studies/charlie-nugent-t-rowe-price-associates-inc/"
+    },
+    {
+      "authors": [
+        "Tom Huddleston Jr."
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.252358,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Eric Yuan, founder and CEO of Zoom, left a high-paying executive job at Cisco to pursue his vision for a better videoconferencing platform despite initial skepticism. His decision, driven by unhappiness with his previous role and a desire to innovate, led him to build Zoom into a company with a market valuation of roughly $42 billion, making him a billionaire with a 22% stake worth over $9 billion. The article highlights his journey from a young immigrant with visa struggles to a tech mogul, emphasizing the importance of passion and customer satisfaction in his success.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ZM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.532424"
+        },
+        {
+          "relevance_score": "0.709216",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132335"
+        },
+        {
+          "relevance_score": "0.643591",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.143798"
+        }
+      ],
+      "time_published": "20190821T092600",
+      "title": "Zoom's founder left a 6-figure job because he wasn't happy\u2014and following his heart made him a billionaire",
+      "topics": [
+        {
+          "relevance_score": "0.945315",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.811269",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.cnbc.com/2019/08/21/zoom-founder-left-job-because-he-wasnt-happy-became-billionaire.html"
+    },
+    {
+      "authors": [
+        "D. Jacques Smith",
+        "Stephanie Trunk",
+        "Randall A. Brater",
+        "Alexander S. Birkhold",
+        "Michael F. Dearington",
+        "Rebecca W. Foreman",
+        "Nadia Patel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.430312,
+      "source": "ArentFox Schiff",
+      "source_domain": "ArentFox Schiff",
+      "summary": "Cisco Systems agreed to pay $8.6 million in civil damages to settle claims of selling video surveillance technology with known security flaws to government agencies. Notably, $1.6 million of this settlement went to a whistleblower, marking the first whistleblower payment in a False Claims Act case involving cybersecurity vulnerabilities. The article also covers other False Claims Act cases involving Medicare Advantage fraud and unnecessary medical treatments, as well as an SEC insider trading conviction.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.425951"
+        }
+      ],
+      "time_published": "20190816T000642",
+      "title": "Whistleblower Collects on Cybersecurity FCA Case",
+      "topics": [
+        {
+          "relevance_score": "0.837108",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.748097",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.643639",
+          "topic": "life_sciences"
+        }
+      ],
+      "url": "https://www.afslaw.com/perspectives/investigations-blog/whistleblower-collects-cybersecurity-fca-case"
+    },
+    {
+      "authors": [
+        "Arthur Villasanta"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.171727,
+      "source": "International Business Times",
+      "source_domain": "International Business Times",
+      "summary": "Cisco Systems Inc. has initiated a second round of layoffs in 2019, impacting 488 employees in California, primarily in engineering roles at its San Jose headquarters and Milpitas. These firings are part of Cisco's ongoing shift from a hardware manufacturer to a software developer. The company has experienced continuous layoffs under CEO Chuck Robbins, with previous cuts in 2017 and 2016.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.963671",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.321805"
+        },
+        {
+          "relevance_score": "0.552196",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.136123"
+        },
+        {
+          "relevance_score": "0.594026",
+          "ticker": "GOOGL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.143266"
+        },
+        {
+          "relevance_score": "0.567967",
+          "ticker": "GOOG",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.115029"
+        }
+      ],
+      "time_published": "20190815T211500",
+      "title": "New Wave Of Cisco Firings Sees 500 People Lose Jobs",
+      "topics": [
+        {
+          "relevance_score": "0.845019",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.ibtimes.com/cisco-layoffs-2019-500-lose-jobs-engineering-san-jose-milpitas-2814058"
+    },
+    {
+      "authors": [
+        "Allison Levitsky"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.062181,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Cisco Systems Inc. laid off 488 workers at its San Jose and Milpitas offices, with 397 job cuts in San Jose and 91 in Milpitas. The networking hardware giant gave notice of these layoffs on July 30. This move follows a disappointing earnings outlook for the company.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.245751"
+        },
+        {
+          "relevance_score": "0.600074",
+          "ticker": "NTAP",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.141511"
+        }
+      ],
+      "time_published": "20190815T000642",
+      "title": "Cisco lays off 488 workers in San Jose and Milpitas amid disappointing earnings outlook",
+      "topics": [
+        {
+          "relevance_score": "0.937771",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.821391",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.603655",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanjose/news/2019/08/15/cisco-lays-off-488-workers-in-south-bay.html"
+    },
+    {
+      "authors": [
+        "Teri Robinson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.102684,
+      "source": "SC Media",
+      "source_domain": "SC Media",
+      "summary": "Microsoft's Threat Intelligence Center has reported that the state-backed Russian hacking group STRONTIUM has been attacking corporate IoT devices. These attacks exploited insecure IoT devices, such as printers, VOIP phones, and video decoders, which often had default passwords or unpatched software, to gain initial access to corporate networks and then move laterally to seek higher-value data. Security experts highlight the inherent insecurity of many IoT devices as a significant risk to organizations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.239457"
+        },
+        {
+          "relevance_score": "0.821515",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122083"
+        },
+        {
+          "relevance_score": "0.611481",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.002725"
+        },
+        {
+          "relevance_score": "0.609853",
+          "ticker": "AKAM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.140268"
+        },
+        {
+          "relevance_score": "0.637020",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.181011"
+        }
+      ],
+      "time_published": "20190807T005236",
+      "title": "Russian hacking group STRONTIUM attacking corporate IoT devices, Microsoft says",
+      "topics": [
+        {
+          "relevance_score": "0.916834",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.scworld.com/news/russian-hacking-group-strontium-attacking-corporate-iot-devices-microsoft-says"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.255629,
+      "source": "GlobeNewswire",
+      "source_domain": "GlobeNewswire",
+      "summary": "SurveyMonkey announced its agreement to acquire GetFeedback, a customer experience management company and a top-rated feedback solution for Salesforce, for approximately $68 million in cash and equity. This acquisition aims to enhance SurveyMonkey's enterprise offerings and integrations with customer systems of record, accelerating businesses' ability to act on customer insights. The transaction, expected to close in Q3 2019, is anticipated to be accretive to SurveyMonkey's revenue growth for the full year 2019.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.936215",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343177"
+        },
+        {
+          "relevance_score": "0.624692",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.234483"
+        },
+        {
+          "relevance_score": "0.631614",
+          "ticker": "MMM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244726"
+        },
+        {
+          "relevance_score": "0.629280",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201329"
+        },
+        {
+          "relevance_score": "0.620336",
+          "ticker": "WBA",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.236853"
+        }
+      ],
+      "time_published": "20190805T172600",
+      "title": "SurveyMonkey to Acquire Customer Experience Management Company GetFeedback",
+      "topics": [
+        {
+          "relevance_score": "0.927646",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.805428",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.globenewswire.com/news-release/2019/08/05/1897184/0/en/SurveyMonkey-to-Acquire-Customer-Experience-Management-Company-GetFeedback.html"
+    },
+    {
+      "authors": [
+        "Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.049253,
+      "source": "VOA - Voice of America English News",
+      "source_domain": "VOA - Voice of America English News",
+      "summary": "James Glenn, a computer security expert, won an $8.6 million settlement in a whistleblower lawsuit against Cisco Systems Inc. He reported critical security flaws in Cisco's video surveillance software nearly a decade ago, but Cisco kept the flaws quiet for five years and Glenn was fired by his employer. The case, brought under the False Claims Act, is considered trailblazing as it establishes cybersecurity vulnerabilities as a \"flawed product\" category.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.348352",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.008004"
+        }
+      ],
+      "time_published": "20190801T164300",
+      "title": "Whistleblower Vindicated in Cisco Cybersecurity Case",
+      "topics": [
+        {
+          "relevance_score": "0.921046",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.713687",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.609270",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.voanews.com/a/usa_whistleblower-vindicated-cisco-cybersecurity-case/6173056.html"
+    },
+    {
+      "authors": [
+        "Kenrick Cai"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.219037,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Dynatrace's stock soared 49% in its market debut, pushing its valuation to $6.7 billion, making it a success in the year's software industry IPOs. The company's CEO, John Van Siclen, revealed that a dinner four years prior in Linz, Austria, led to a strategic pivot towards cloud-based software, which significantly boosted its market position. Despite a $1 billion debt burden from a private equity spin-off, investors were reportedly comfortable due to Dynatrace's strong free cash flow and increasing subscription revenue.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "DT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.487769"
+        },
+        {
+          "relevance_score": "0.623342",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119046"
+        },
+        {
+          "relevance_score": "0.614806",
+          "ticker": "ORCL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147280"
+        },
+        {
+          "relevance_score": "0.602899",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.105875"
+        },
+        {
+          "relevance_score": "0.609730",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106808"
+        }
+      ],
+      "time_published": "20190801T113700",
+      "title": "Dynatrace\u2019s Stock Climbed 49% In Market Debut. Its CEO Recalls How A Dinner In Austria Put The Gears In Motion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "0.841709",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.713433",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/kenrickcai/2019/08/01/dynatrace-software-ipo-trading-debut/"
+    },
+    {
+      "authors": [
+        "Associated Press"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.215525,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "A former Cisco security expert, James Glenn, won an $8.6 million settlement in a whistleblower lawsuit against Cisco Systems Inc. Glenn lost his job after reporting critical security flaws in Cisco video surveillance software used at major U.S. international airports and federal agencies. The lawsuit, filed under the federal False Claims Act, was unsealed with the announcement of the settlement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.226050"
+        }
+      ],
+      "time_published": "20190731T224000",
+      "title": "Ex-Cisco security expert wins settlement in whistleblower case",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.725998",
+          "topic": "finance"
+        }
+      ],
+      "url": "http://www.marketwatch.com/story/ex-cisco-security-expert-wins-settlement-in-whistleblower-case-2019-07-31?gaa_at=eafs&gaa_n=AWEtsqe9SOjjzszD9TwhUj18fPhuX2PaT6AiRyCbrCa8YdsA6EEXlorfXHTE&gaa_ts=6907f540&gaa_sig=a8KYqoppMJpPPtIKfMarwf3g7bwSl3omUqk2tu3uyCIf3T0qbaXFLCrL9IxgezLGJWRYnCd-886M0JUtmyxEGg%3D%3D"
+    },
+    {
+      "authors": [
+        "Katie Benner",
+        "Kate Conger"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bearish",
+      "overall_sentiment_score": -0.423734,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Cisco Systems has agreed to pay $8.6 million to settle claims that it sold video surveillance technology with a significant security flaw to federal, state, and local government agencies. The flaw was identified in 2008 by a whistleblower, yet Cisco continued to sell the software until 2013, with the government asserting the software was \"of no value\" and sometimes detrimental to security. The settlement resolves claims filed under the False Claims Act.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.420650"
+        }
+      ],
+      "time_published": "20190731T000641",
+      "title": "Cisco to Pay $8.6 Million to Settle Government Claims of Flawed Tech (Published 2019)",
+      "topics": [
+        {
+          "relevance_score": "0.913886",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.733780",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.643462",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.nytimes.com/2019/07/31/technology/cisco-tech-flaw-sales.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.357508,
+      "source": "Jacobs",
+      "source_domain": "Jacobs",
+      "summary": "Jacobs Senior Vice President Heather L. Wishart-Smith discusses how the company leverages digital disruption, data analytics, and emerging technologies to create intelligent and sustainable solutions. The article highlights Jacobs\u2019 focus on connected mobility, places, assets, and delivery, supported by innovation in cybersecurity, IoT, predictive analytics, and geospatial science. It also emphasizes the company's internal culture of innovation to help clients transform their performance in a data-driven world.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.961928",
+          "ticker": "J",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.440389"
+        },
+        {
+          "relevance_score": "0.603738",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.317590"
+        },
+        {
+          "relevance_score": "0.558438",
+          "ticker": "AWK",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.290262"
+        }
+      ],
+      "time_published": "20190724T004114",
+      "title": "Turning Digital Disruption into Opportunities",
+      "topics": [
+        {
+          "relevance_score": "0.933161",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.jacobs.com/newsroom/news/turning-digital-disruption-opportunities"
+    },
+    {
+      "authors": [
+        "Yun Li"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.261522,
+      "source": "CNBC",
+      "source_domain": "CNBC",
+      "summary": "Fastenal, a major fastener distributor, missed earnings expectations and saw its stock drop due to tariff costs and inflation. The company indicated that price increases implemented to offset tariffs on Chinese goods were insufficient to counter broader marketplace inflation. This signals potential challenges for other companies heading into earnings season given ongoing trade tensions between the U.S. and China.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FAST",
+          "ticker_sentiment_label": "Bearish",
+          "ticker_sentiment_score": "-0.402006"
+        },
+        {
+          "relevance_score": "0.639997",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.101484"
+        }
+      ],
+      "time_published": "20190711T081500",
+      "title": "A giant manufacturer just gave a glimpse into this earnings season as it tanks on tariff costs",
+      "topics": [
+        {
+          "relevance_score": "0.912631",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.807308",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.725940",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.910206",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.cnbc.com/2019/07/11/fastenal-just-gave-us-a-glimpse-into-this-earnings-season-as-it-tanks-on-tariff-costs.html"
+    },
+    {
+      "authors": [
+        "Jessica Lyons Hardcastle"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.35463,
+      "source": "SDxCentral",
+      "source_domain": "SDxCentral",
+      "summary": "Cisco's $2.6 billion acquisition of Acacia Communications is a strategic move to bring coherent optical interconnect technology in-house, tapping into a multi-billion dollar market. This acquisition will strengthen Cisco's optical systems offerings, particularly in long-distance optical signal transmission, and increase its influence with cloud and service provider customers. The move underscores Cisco's belief in pluggable optics as the future of routing and switching and aligns with a trend of optical system vendors developing their own components.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.622421",
+          "ticker": "COHR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.346869"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.422599"
+        }
+      ],
+      "time_published": "20190710T000220",
+      "title": "Why did Cisco bet billions on Acacia? Because Coherent tech is a multi-billion market",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.810274",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.sdxcentral.com/news/why-did-cisco-bet-billions-on-acacia-because-coherent-tech-is-a-multi-billion-market/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.423191,
+      "source": "WilmerHale",
+      "source_domain": "WilmerHale",
+      "summary": "WilmerHale advised Acacia Communications in its definitive merger agreement to be acquired by Cisco Systems for approximately $3.1 billion in cash. Acacia Communications stockholders are set to receive $70.00 per share. The acquisition is anticipated to close during the second half of Cisco\u2019s fiscal year 2020, pending regulatory approvals.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.428010"
+        }
+      ],
+      "time_published": "20190709T000641",
+      "title": "WilmerHale Advises Acacia Communications in Acquisition by Cisco Systems",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.834620",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.wilmerhale.com/en/insights/news/20190709-wilmerhale-advises-acacia-communications-in-acquisition-by-cisco-systems"
+    },
+    {
+      "authors": [
+        "Meir Orbach"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.197833,
+      "source": "CTech",
+      "source_domain": "CTech",
+      "summary": "Microsoft Chairman John Thompson was among several high-profile private investors who backed Israeli networking software startup Drivenets. Drivenets, which emerged from stealth with $110 million in financing, also attracted investments from major tech executives like Steve Luczo of Seagate Technology, Mark McLaughlin (Palo Alto Networks), Pascal Cagni (C4 Ventures), Doug Gilstrap (Ericsson), and Israeli tech investor Benny Schnaider. The company, founded by Ido Susan and Hillel Kobrinsky, develops network management tools for communications service providers.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.645606",
+          "ticker": "ERIC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.114816"
+        },
+        {
+          "relevance_score": "0.926883",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.213375"
+        },
+        {
+          "relevance_score": "0.801227",
+          "ticker": "STX",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204152"
+        },
+        {
+          "relevance_score": "0.732492",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207557"
+        },
+        {
+          "relevance_score": "0.622834",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.309831"
+        }
+      ],
+      "time_published": "20190708T183700",
+      "title": "Microsoft Chairman Among Investors in Telecommunication Startup Drivenets",
+      "topics": [
+        {
+          "relevance_score": "0.810409",
+          "topic": "finance"
+        },
+        {
+          "relevance_score": "0.931621",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3765916,00.html"
+    },
+    {
+      "authors": [
+        "Floris Hulshoff Pol"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.172919,
+      "source": "Techzine Global",
+      "source_domain": "Techzine Global",
+      "summary": "Juniper Networks is focusing on simplifying cloud access for companies through software-defined networking, addressing the growing complexity of multi-cloud environments. The company proposes a five-step model for a smooth transition to the cloud, emphasizing automation, visibility, and analytics, ultimately aiming for a \"Self-Driving Network.\" Juniper is also collaborating with Nutanix and Red Hat to enhance its cloud solutions and integration capabilities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423723"
+        },
+        {
+          "relevance_score": "0.701070",
+          "ticker": "ANET",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.148334"
+        },
+        {
+          "relevance_score": "0.727784",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.129976"
+        },
+        {
+          "relevance_score": "0.612451",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211249"
+        },
+        {
+          "relevance_score": "0.600502",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.204601"
+        }
+      ],
+      "time_published": "20190708T142700",
+      "title": "Juniper Networks wants to simplify cloud access",
+      "topics": [
+        {
+          "relevance_score": "0.933631",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techzine.eu/blogs/infrastructure/42464/juniper-networks-wants-to-simplify-cloud-access/"
+    },
+    {
+      "authors": [
+        "Beth Pariseau"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.104733,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "Elastic SIEM is gaining interest from enterprises, especially former Splunk users, due to its promise of cost savings and its ability to centralize security analytics and IT monitoring data. The tool standardizes data schemas and offers a competitive alternative to established players like Splunk and AWS in the security analytics market. Its future integration with Endgame, an endpoint security company, is seen as a significant long-term appeal for the application.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.337287",
+          "ticker": "TTGT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.020542"
+        },
+        {
+          "relevance_score": "0.646571",
+          "ticker": "AFL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.302988"
+        },
+        {
+          "relevance_score": "0.630923",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.144393"
+        },
+        {
+          "relevance_score": "0.607407",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121341"
+        },
+        {
+          "relevance_score": "0.609301",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.134393"
+        }
+      ],
+      "time_published": "20190701T013151",
+      "title": "Elastic SIEM woos enterprises with cost savings",
+      "topics": [
+        {
+          "relevance_score": "0.938732",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techtarget.com/searchitoperations/news/252466110/Elastic-SIEM-woos-enterprises-with-cost-savings"
+    },
+    {
+      "authors": [
+        "Michael J. Kramer"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.47502,
+      "source": "Investopedia",
+      "source_domain": "Investopedia",
+      "summary": "Cisco Systems (CSCO) stock, despite a recent 10% drop, is attracting bullish options traders who anticipate a 7% rebound by early next year. This optimism is fueled by strong earnings growth expectations from analysts, who have been raising estimates and price targets. The stock trades at an attractive 2019 PE ratio of 15, and continued positive results could drive further upward movement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.494374"
+        }
+      ],
+      "time_published": "20190625T093400",
+      "title": "Cisco Options Traders Bet Stock Will Rebound 7% Short Term",
+      "topics": [
+        {
+          "relevance_score": "0.932692",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.805038",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.710196",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.investopedia.com/news/cisco-options-traders-bet-stock-will-rebound-7-short-term/"
+    },
+    {
+      "authors": [
+        "Alan Farley"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.139817,
+      "source": "Investopedia",
+      "source_domain": "Investopedia",
+      "summary": "This article analyzes Cisco Systems (CSCO) stock performance ahead of its fiscal Q2 earnings, noting its resilience despite broader market headwinds. It reviews Cisco's long-term and short-term chart history, highlighting key price levels, support, and resistance points, and suggests the stock is unlikely to sustain new highs in the current adverse market environment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112079"
+        }
+      ],
+      "time_published": "20190625T093400",
+      "title": "Cisco Stock: Price Levels to Watch After Earnings",
+      "topics": [
+        {
+          "relevance_score": "0.920467",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.835680",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.604531",
+          "topic": "economy_monetary"
+        },
+        {
+          "relevance_score": "0.834675",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.investopedia.com/news/cisco-price-levels-watch-after-earnings/"
+    },
+    {
+      "authors": [
+        "Antone Gonsalves"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.153696,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "Aruba, an HPE company, is integrating its NetInsight and User Experience Insight network analytics tools into its cloud-based Central 2.5 console, which is used to manage Aruba-powered wireless LANs. This integration aims to simplify network management for engineers by centralizing analytics. Additionally, Aruba is introducing a new virtual gateway for Microsoft Azure to enhance its SD-WAN capabilities, strengthening its competition with Cisco in the branch office market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.915571",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303565"
+        },
+        {
+          "relevance_score": "0.626863",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.219977"
+        },
+        {
+          "relevance_score": "0.643944",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.131978"
+        }
+      ],
+      "time_published": "20190620T003203",
+      "title": "Aruba NetInsight, User Experience Insight coming to Central",
+      "topics": [
+        {
+          "relevance_score": "0.915049",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techtarget.com/searchnetworking/news/252465455/Aruba-NetInsight-User-Experience-Insight-coming-to-Central"
+    },
+    {
+      "authors": [
+        "Robert Holly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.202678,
+      "source": "Home Health Care News",
+      "source_domain": "Home Health Care News",
+      "summary": "Cisco Systems Inc. and American Well are collaborating to develop telemedicine technology that turns regular televisions into virtual doctor's offices, targeting seniors and home care providers. This initiative aims to leverage the familiarity and ease of use of televisions for older adults, addressing common barriers to technology adoption and aligning with recent CMS expansions of telehealth benefits. The move follows similar efforts by companies like Comcast and Best Buy to enter the in-home health monitoring market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.409783"
+        },
+        {
+          "relevance_score": "0.719697",
+          "ticker": "CMCSA",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.119002"
+        },
+        {
+          "relevance_score": "0.632933",
+          "ticker": "BBY",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.112162"
+        }
+      ],
+      "time_published": "20190617T000641",
+      "title": "Cisco, American Well Developing Telemedicine-Enabled TV for Seniors",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "life_sciences"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://homehealthcarenews.com/2019/06/cisco-american-well-developing-telemedicine-enabled-tv-for-seniors-%EF%BB%BF/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.354044,
+      "source": "MarketBeat",
+      "source_domain": "MarketBeat",
+      "summary": "This article provides details on the Putnam Focused Large Cap Value ETF (PVAL), an actively managed, non-transparent ETF investing in large-cap value companies in the US. It lists current price, key statistics, holdings such as Citigroup and Walmart, and recent news headlines related to the fund. The ETF launched on May 25, 2021, and is managed by Putnam.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PVAL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.329319"
+        },
+        {
+          "relevance_score": "0.607092",
+          "ticker": "C",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.361986"
+        },
+        {
+          "relevance_score": "0.612893",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.350202"
+        },
+        {
+          "relevance_score": "0.649525",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.354474"
+        },
+        {
+          "relevance_score": "0.644668",
+          "ticker": "XOM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.387745"
+        }
+      ],
+      "time_published": "20190615T055133",
+      "title": "Putnam Focused Large Cap Value ETF ETF Price, Holdings, & News (NYSEARCA:PVAL)",
+      "topics": [
+        {
+          "relevance_score": "0.933345",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.835424",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.marketbeat.com/stocks/NYSEARCA/PVAL/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.17825,
+      "source": "Cision News",
+      "source_domain": "Cision News",
+      "summary": "KONE Corporation announced changes to its Executive Board, effective July 1, 2019. Maciej Kranz has been appointed Chief Technology Officer and Executive Vice President, KONE Technology and Innovations, joining the Executive Board. Tomio Pihkala will succeed Heikki Lepp\u00e4nen as Executive Vice President, New Equipment Business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.644327",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.183948"
+        }
+      ],
+      "time_published": "20190613T130000",
+      "title": "Changes in the KONE Executive Board \u2013 Maciej Kranz joins the Executive Board and Tomio Pihkala has been appointed EVP, New Equipment Business",
+      "topics": [
+        {
+          "relevance_score": "0.848164",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.887182",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.650041",
+          "topic": "real_estate"
+        }
+      ],
+      "url": "https://news.cision.com/kone-oyj/r/changes-in-the-kone-executive-board---maciej-kranz-joins-the-executive-board-and-tomio-pihkala-has-b,c2839936"
+    },
+    {
+      "authors": [
+        "Jason Kelly and Carol A Massar"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.278261,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "Cisco CEO Chuck Robbins discusses the company's resilient performance despite trade war tariffs, attributing it to a globally distributed and optimized supply chain. He also highlights how the shift to cloud computing, initially perceived as a threat, has significantly boosted Cisco's business. Robbins expressed greater concern about the macro-economic impact on customer sentiment rather than the direct effect of tariffs on Cisco Systems Inc.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.264079"
+        }
+      ],
+      "time_published": "20190607T090000",
+      "title": "Cisco CEO Chuck Robbins Talks About Trade and the Wonders of 5G",
+      "topics": [
+        {
+          "relevance_score": "0.815590",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.737579",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2019-06-07/cisco-ceo-chuck-robbins-talks-about-trade-and-the-wonders-of-5g"
+    },
+    {
+      "authors": [
+        "Antone Gonsalves"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.07114,
+      "source": "TechTarget",
+      "source_domain": "TechTarget",
+      "summary": "Arista has introduced new edge switches (720XP Series) and Wi-Fi 6 access points (C-250) to complete its campus wired and wireless product portfolio, meeting the demand for IoT and increased device support. While the technology is complete, Arista's success against established rivals like Cisco will depend on an effective sales and channel strategy, especially as its revenue is heavily reliant on large internet companies currently. The company aims for 2019 to be a critical year for demonstrating market traction in the enterprise data center and campus sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ANET",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227762"
+        },
+        {
+          "relevance_score": "0.601070",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.104192"
+        },
+        {
+          "relevance_score": "0.831923",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.112934"
+        }
+      ],
+      "time_published": "20190606T234654",
+      "title": "New Arista campus switches, APs complete product portfolio",
+      "topics": [
+        {
+          "relevance_score": "0.945153",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techtarget.com/searchnetworking/news/252464633/New-Arista-campus-switches-APs-complete-product-portfolio"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.333435,
+      "source": "AlphaStreet",
+      "source_domain": "AlphaStreet",
+      "summary": "Ciena Corp. reported a significant increase in Q2 2019 revenues and earnings, surpassing Wall Street expectations due to diversification initiatives and a growing customer base. The company's revenues rose 18.5% year-over-year to $865 million, and adjusted earnings more than doubled to $0.48 per share. Following the positive earnings report, Ciena's stock surged around 14% early Thursday.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CIEN",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.417668"
+        },
+        {
+          "relevance_score": "0.601796",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.227676"
+        }
+      ],
+      "time_published": "20190606T000146",
+      "title": "Ciena Corp. (CIEN) Q2 2019 earnings",
+      "topics": [
+        {
+          "relevance_score": "0.948852",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.814980",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://news.alphastreet.com/ciena-corp-cien-q2-2019-earnings/"
+    },
+    {
+      "authors": [
+        "Joe Panettieri"
+      ],
+      "banner_image": "NULL",
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.18862,
+      "source": "MSSP Alert",
+      "source_domain": "MSSP Alert",
+      "summary": "Palo Alto Networks has reportedly acquired Twistlock, an Israel-based cybersecurity startup specializing in container, serverless, and public cloud system protection, for an estimated $450 million to $500 million. This acquisition comes just before Palo Alto Networks' Ignite19 conference and follows other strategic moves to expand its MSSP-centric partner program. Twistlock's technology protects major cloud systems like Amazon Web Services, Microsoft Azure, Docker, Kubernetes, and Pivotal.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445497"
+        },
+        {
+          "relevance_score": "0.627742",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.101755"
+        },
+        {
+          "relevance_score": "0.643829",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.185418"
+        },
+        {
+          "relevance_score": "0.635902",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.171743"
+        },
+        {
+          "relevance_score": "0.605075",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.122549"
+        }
+      ],
+      "time_published": "20190529T010210",
+      "title": "Palo Alto Networks Acquires Cloud Container Security Provider Twistlock: Report -",
+      "topics": [
+        {
+          "relevance_score": "0.906116",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.801258",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.msspalert.com/news/palo-alto-networks-acquires-twistlock-report"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.394728,
+      "source": "Military Aerospace",
+      "source_domain": "Military Aerospace",
+      "summary": "Curtiss-Wright's Defense Solutions division has introduced the Parvus\u00ae DuraNET 3300, a MIL-rugged 1G/10G Ethernet Cisco\u00ae IOS\u00ae-managed switch tailored for the aerospace/defense market. This deployable 26-port Layer 2/Layer 3 Ethernet switch is designed for harsh environments, integrating Cisco's ESS-3300 embedded services switch technology with advanced security features and Power Over Ethernet capabilities. It is optimized for size, weight, and power (SWaP) and built to meet rigorous military and aviation standards.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CW",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.495295"
+        },
+        {
+          "relevance_score": "0.815825",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322500"
+        }
+      ],
+      "time_published": "20190529T000659",
+      "title": "Curtiss-Wright Debuts MIL-Rugged Cisco\u00ae-based 10GbE Managed Switch",
+      "topics": [
+        {
+          "relevance_score": "0.937632",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.713792",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.601673",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.militaryaerospace.com/directory/press-release/14061957/curtiss-wright-debuts-mil-rugged-cisco-based-10gbe-managed-switch"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.437227,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Chuck Robbins, CEO of Cisco Systems Inc., has successfully transformed the company since taking over from John Chambers in 2015. Despite a record revenue quarter just before his tenure, Robbins initiated a radical change, leading to growing revenue. His strategy involved a complete overhaul of Cisco's operations and focus.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.410013"
+        }
+      ],
+      "time_published": "20190528T150200",
+      "title": "Chuck Robbins decided to \u2018change everything\u2019 at Cisco, and it\u2019s working",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/chuck-robbins-decided-to-change-everything-at-cisco-and-its-working-2019-05-25?gaa_at=eafs&gaa_n=AWEtsqcRrZs9oFaxFLJ7dUOFhcGOc0nVlzxjTQlGG6V4KP4Dxux69Nlebpgo&gaa_ts=6907f53e&gaa_sig=T1A7uvIM4WZcoR7f_YtSc0jwmSir7accpUNcmTZnSpP__btKCzhwIzdBJtZE8e6yLlyu8Ui0Yvs1ujKtcr8eeA%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.462999,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "MarketWatch features an interview with Cisco Systems CEO Chuck Robbins, discussing the company's transformation towards cloud computing and software-subscription revenue since 2015. Robbins credits his rural upbringing for his team-oriented leadership style. Cisco has seen positive results recently, including better-than-expected earnings and a significant rise in stock value.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.479046"
+        }
+      ],
+      "time_published": "20190528T150200",
+      "title": "Five questions with Chuck Robbins on Cisco\u2019s transformation",
+      "topics": [
+        {
+          "relevance_score": "0.906050",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.808945",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/five-questions-with-chuck-robbins-on-ciscos-transformation-2019-05-25?gaa_at=eafs&gaa_n=AWEtsqeDaeX42jgaY-ShOCPj7jwydWztBXWYfNFCLQkmYO-XQ35aqThzLbfp&gaa_ts=6907f53b&gaa_sig=t7Myoa1GxFdNDViiV9K7EWK_54GxomolfBvfMkRBRxElgYhudLeieuigHMQH-sqoKUmfgi0Nge5El0HqbWEkCw%3D%3D"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.010339,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Cisco Systems Inc. is proactively addressing the impact of U.S.-China trade tariffs through pricing adjustments and collaboration with component suppliers. Despite increased tariffs, the company reported strong quarterly earnings and a positive revenue forecast, including a 6% increase in product orders from the Asia region. Cisco CEO Chuck Robbins confirmed that the company has fully implemented its strategies to mitigate the effects of the tariffs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.300302",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.014709"
+        }
+      ],
+      "time_published": "20190516T065500",
+      "title": "How Cisco is working around the China tariffs",
+      "topics": [
+        {
+          "relevance_score": "0.907214",
+          "topic": "earnings"
+        },
+        {
+          "relevance_score": "0.846190",
+          "topic": "economy_fiscal"
+        },
+        {
+          "relevance_score": "0.702093",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.marketwatch.com/story/how-cisco-is-working-around-the-china-tariffs-2019-05-15?gaa_at=eafs&gaa_n=AWEtsqfMI8jxzIypVLDbjSPsys3kUiku16JL4izxGodAxc0KFUsyksJ2DVW5&gaa_ts=6907f53e&gaa_sig=7uas19Vp-wlVFZASP8BGRL0Wm0KqfpQ-r9J2WsvrA4eG6D5z0e94NmOZ74zRHcmTxnFQQQB3wghDkOKAjl29kQ%3D%3D"
+    },
+    {
+      "authors": [
+        "James Thorne"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.204746,
+      "source": "GeekWire",
+      "source_domain": "GeekWire",
+      "summary": "F5 Networks announced two new senior executives: Mika Yamamoto as EVP and chief marketing & customer experience officer, and Geng Lin as CTO. AI2 appointed Bryan Hale as managing director of its incubator, while Groupon hired REI veteran Craig Rowley as chief marketing officer. The article also details several other notable tech hires and promotions across various Seattle-area companies, including EagleView, Adaptive Biotechnologies, Reverb, Genesys, Olis Robotics, and HNTB Corporation.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FFIV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.418067"
+        },
+        {
+          "relevance_score": "0.600108",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.205179"
+        },
+        {
+          "relevance_score": "0.640289",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.125368"
+        },
+        {
+          "relevance_score": "0.622243",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.111135"
+        },
+        {
+          "relevance_score": "0.605131",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127364"
+        }
+      ],
+      "time_published": "20190507T145300",
+      "title": "Tech Moves: F5 Networks lands former Marketo and J.P. Morgan execs; AI2 adds managing director; Groupon snags REI vet; and more",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.geekwire.com/2019/tech-moves-f5-networks-lands-former-marketo-j-p-morgan-execs-ai2-adds-managing-director-groupon-snags-rei-vet/"
+    },
+    {
+      "authors": [
+        "Reuters"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.43281,
+      "source": "Express Computer",
+      "source_domain": "Express Computer",
+      "summary": "Cisco Systems Inc. is updating its hardware for the upcoming Wi-Fi 6 standard, aiming to refresh its $28.2 billion infrastructure business and boost software revenue. The new access points and switches are designed to handle the growing number of connected devices and seamlessly integrate with future 5G networks, a move that aligns with Cisco's strategy to shift towards a software-based revenue model.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.430519"
+        }
+      ],
+      "time_published": "20190501T000643",
+      "title": "Cisco revamps its hardware for new Wi-Fi technology",
+      "topics": [
+        {
+          "relevance_score": "0.940748",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.expresscomputer.in/news/cisco-revamps-its-hardware-for-new-wi-fi-technology/35558/"
+    },
+    {
+      "authors": [
+        "Payal Ganguly"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.21375,
+      "source": "Techcircle",
+      "source_domain": "Techcircle",
+      "summary": "Anil Chawla, India managing director of customer engagement solutions at Verint Systems, discusses how speech analytics is enhancing customer experience. Verint is expanding its market in India by targeting insurance, digital wallet providers, and the fintech sector, leveraging its solutions to bridge gaps between front-end and back-office operations and provide actionable insights from unstructured data. The company's speech analytics tools help address customer complaints, offer real-time agent guidance, and improve several key performance indicators for clients across various sectors.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VRNT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.537784"
+        },
+        {
+          "relevance_score": "0.609274",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146256"
+        },
+        {
+          "relevance_score": "0.582847",
+          "ticker": "JPM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.121953"
+        },
+        {
+          "relevance_score": "0.566924",
+          "ticker": "EXPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.118919"
+        }
+      ],
+      "time_published": "20190424T013629",
+      "title": "Verint Systems' Anil Chawla on how speech analytics is bettering customer experience",
+      "topics": [
+        {
+          "relevance_score": "0.834715",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.techcircle.in/2019/04/24/verint-systems-anil-chawla-on-how-speech-analytics-is-bettering-customer-experience/"
+    },
+    {
+      "authors": [
+        "Afdhel Aziz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.345449,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "This article explores how Salesforce, through its pioneering Pledge 1% model, has inspired Silicon Valley companies to integrate philanthropy into their core business. Suzanne DiBianca, Chief Impact Officer at Salesforce, discusses the program's genesis, its evolution, and how it encourages companies to dedicate 1% of their equity, employee time, or product to community initiatives. The model has generated significant contributions and has been adopted by over 8,500 companies globally, emphasizing a holistic and integrated approach to corporate goodwill.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CRM",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.478162"
+        },
+        {
+          "relevance_score": "0.717328",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.336885"
+        },
+        {
+          "relevance_score": "0.648400",
+          "ticker": "EBAY",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.293252"
+        }
+      ],
+      "time_published": "20190418T090000",
+      "title": "The Power Of Purpose: How Salesforce And The Pledge 1% Model Is Inspiring Silicon Valley To Do Good",
+      "topics": [
+        {
+          "relevance_score": "0.810664",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/afdhelaziz/2019/04/18/the-power-of-purpose-how-salesforce-and-the-pledge-1-model-is-inspiring-silicon-valley-to-do-good/"
+    },
+    {
+      "authors": [
+        "Christine Fisher"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.324792,
+      "source": "Engadget",
+      "source_domain": "Engadget",
+      "summary": "In southwest England, 50 dairy cows are equipped with high-speed smart collars that control robotic milking systems, utilizing 5G technology. This initiative tests 5G's potential in agriculture and demonstrates Cisco Systems Inc.'s rural network capabilities, aiming to show how 5G can transmit data between sensors faster than traditional broadband. It highlights 5G's promise to make connected agricultural applications more efficient.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.942009",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320253"
+        }
+      ],
+      "time_published": "20190412T234800",
+      "title": "These British cows got access to 5G before most people",
+      "topics": [
+        {
+          "relevance_score": "0.600479",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.912251",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.engadget.com/2019-04-12-cisco-rural-5g-cow-smart-collars.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.319722,
+      "source": "CRN Magazine",
+      "source_domain": "CRN Magazine",
+      "summary": "Juniper Networks has completed the acquisition of AI-powered networking startup Mist Systems for $405 million, aiming to boost enterprise sales with an AI-driven end-to-end approach. Mist's technology, including its AI virtual assistant Marvis, will be integrated into Juniper's offerings to provide an AI-driven approach across the IT stack. Mist will maintain its open framework and continue to operate as a separate unit within Juniper, with no immediate changes to partner management or product sales.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.452026"
+        },
+        {
+          "relevance_score": "0.635007",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.149615"
+        }
+      ],
+      "time_published": "20190403T004128",
+      "title": "Juniper\u2019s Acquisition of Mist Will \u2018Blaze The Path To AI\u2019",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.933041",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.crn.com/news/networking/juniper-s-acquisition-of-mist-will-blaze-the-path-to-ai"
+    },
+    {
+      "authors": [
+        "William S. Morriss"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.017115,
+      "source": "Frost Brown Todd",
+      "source_domain": "Frost Brown Todd",
+      "summary": "The article discusses the unresolved tension in patent eligibility jurisprudence, specifically highlighting the inconsistency between the Supreme Court's Alice v. CLS Bank approach and the Federal Circuit's technical solution to a technical problem approach. It examines the SRI International v. Cisco case where the Federal Circuit applied its rule without fully clarifying how to harmonize these two different frameworks, especially when a claim provides a technical solution while also reciting an abstract idea. The author concludes that practitioners face uncertainty due to the Federal Circuit's failure to provide clear guidance, advising them to treat such claims as directed to eligible subject matter despite the existing inconsistencies.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.034567"
+        }
+      ],
+      "time_published": "20190401T000642",
+      "title": "SRI International v. Cisco: Patent Eligibility Unresolved Tension between Highest Courts",
+      "topics": [
+        {
+          "relevance_score": "0.809578",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://frostbrowntodd.com/sri-international-v-cisco-patent-eligibility-unresolved-tension-between-highest-courts/"
+    },
+    {
+      "authors": [
+        "Danny King"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.315254,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Raquel Gonzalez, Bank of America's Silicon Valley market president, is honored for her leadership and impact in the financial sector. She is recognized for her ability to influence conversations and resolve issues, having started her career with Bank of America in the late 1970s. Her mathematical acumen and pioneering spirit among Latinas in finance are highlighted.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BAC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.308983"
+        },
+        {
+          "relevance_score": "0.717011",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326885"
+        },
+        {
+          "relevance_score": "0.711042",
+          "ticker": "INTU",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.349841"
+        },
+        {
+          "relevance_score": "0.709688",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.303001"
+        }
+      ],
+      "time_published": "20190327T235142",
+      "title": "Bank of America's Silicon Valley market leader mixes math with a mission",
+      "topics": [
+        {
+          "relevance_score": "0.815200",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanjose/news/2019/03/27/raquel-gonzalez-bank-of-america-latina-leader.html"
+    },
+    {
+      "authors": [
+        "Patrick Moorhead"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.41297,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "This article examines Cisco's \"Conscious Culture\" strategy, highlighting its focus on creating a positive and inclusive environment for its employees. The culture is broken down into three areas: environment, characteristics, and experience, all built on principles of dignity, respect, fairness, and diversity, and ultimately contributing to higher employee retention and overall market success.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.423173"
+        }
+      ],
+      "time_published": "20190319T131800",
+      "title": "How Cisco Fosters A 'Conscious Culture' Within The Company",
+      "topics": [
+        {
+          "relevance_score": "0.808876",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/patrickmoorhead/2019/03/19/how-cisco-fosters-a-conscious-culture-within-the-company/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.370631,
+      "source": "NVIDIA Newsroom",
+      "source_domain": "NVIDIA Newsroom",
+      "summary": "Seven major systems manufacturers, including Cisco, Dell EMC, and HPE, are now offering NVIDIA T4 servers optimized for data science. These NVIDIA NGC-Ready validated servers feature T4 GPUs and CUDA-X AI acceleration libraries, providing a highly efficient platform for data analytics, machine learning, and deep learning. NVIDIA also launched an enterprise support service for NGC-Ready systems and announced T4 server certifications for virtual desktop and application virtualization solutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.441533"
+        },
+        {
+          "relevance_score": "0.958419",
+          "ticker": "NVDA",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.474187"
+        },
+        {
+          "relevance_score": "0.710730",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304566"
+        },
+        {
+          "relevance_score": "0.699673",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.322719"
+        },
+        {
+          "relevance_score": "0.592400",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.269818"
+        }
+      ],
+      "time_published": "20190318T003202",
+      "title": "Global Computer Companies Announce NVIDIA-Powered Enterprise Servers Optimized for Data Science",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        }
+      ],
+      "url": "http://nvidianews.nvidia.com/news/global-computer-companies-announce-nvidia-powered-enterprise-servers-optimized-for-data-science"
+    },
+    {
+      "authors": [
+        "Michael Vizard"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.278655,
+      "source": "Futuriom",
+      "source_domain": "Futuriom",
+      "summary": "Juniper Networks announced its intent to acquire Mist Systems for $405 million, accelerating its efforts to leverage AI for network management. This acquisition aims to integrate Mist's AI engine and natural language processing into Juniper's portfolio, addressing the industry's shift towards AI-driven networks. The move is expected to automate many low-level network management tasks and converge wireless network management with software-defined networking.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.433102"
+        },
+        {
+          "relevance_score": "0.714473",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.244757"
+        },
+        {
+          "relevance_score": "0.639224",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113511"
+        }
+      ],
+      "time_published": "20190306T004128",
+      "title": "Juniper Jumps On AI With Mist Acquisition",
+      "topics": [
+        {
+          "relevance_score": "0.937391",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.806543",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.futuriom.com/articles/news/juniper-acquisition-of-mist-networks-accelerates-ai-networking-arms-race/2019/03"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.048932,
+      "source": "MarketWatch",
+      "source_domain": "MarketWatch",
+      "summary": "Juniper Networks announced its intention to acquire Mist Systems, an AI-driven wireless-networks company, for $405 million in cash and assumption of equity awards. This acquisition is expected to close in Juniper's fiscal second quarter and will enable Juniper to compete more directly with HPE's Aruba and Cisco WLAN products, while helping diversify its business away from service providers. Juniper's stock was down 1% following the announcement, having lost 5.7% over the past three months.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.340426"
+        },
+        {
+          "relevance_score": "0.635255",
+          "ticker": "HPE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.127962"
+        },
+        {
+          "relevance_score": "0.602480",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.140236"
+        },
+        {
+          "relevance_score": "0.633881",
+          "ticker": "WFC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.146598"
+        }
+      ],
+      "time_published": "20190304T131000",
+      "title": "Juniper Networks to acquire Mist Systems for $405 million",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.808592",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.709964",
+          "topic": "financial_markets"
+        }
+      ],
+      "url": "http://www.marketwatch.com/story/juniper-networks-to-acquire-mist-systems-for-405-million-2019-03-04?gaa_at=eafs&gaa_n=AWEtsqd3oeo9xAmJFzFs_yTuSSx0DTQXTEfhQAuRe2xJlo0QUTvVUyxhm_Aq&gaa_ts=6907fd68&gaa_sig=9_i1oMsHQuKZeZCViQeU-sLvLGsfQoHpH4fjBw5Wyz2RcwVirMU4dIEE_eLNgv-abgdzY7IPUR3Nh6GZ1hfdTQ%3D%3D"
+    },
+    {
+      "authors": [
+        "Arif Janmohamed"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.202408,
+      "source": "Lightspeed Venture Partners",
+      "source_domain": "Lightspeed Venture Partners",
+      "summary": "Mist Systems has been acquired by Juniper Networks for over $400M, marking a significant milestone for the company and its founders, Sujai Hajela, Bob Friday, and Brett Galloway. Lightspeed Venture Partners, an early investor, highlights Mist Systems' revolutionary AI-driven wireless networking technology, which powers major enterprises. This acquisition is seen as a validation of Mist Systems' vision to disrupt the networking industry with its \"AI for IT\" solutions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "JNPR",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.440475"
+        },
+        {
+          "relevance_score": "0.734199",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.117119"
+        },
+        {
+          "relevance_score": "0.624572",
+          "ticker": "AMZN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.134247"
+        }
+      ],
+      "time_published": "20190304T004128",
+      "title": "Mist Systems joins Juniper Networks",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.817416",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://lsvp.com/stories/mist-systems-joins-juniper-networks/"
+    },
+    {
+      "authors": [
+        "Santanu Dasgupta"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.400858,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "This article details how Cisco\u2019s NFVI and Orchestration technologies power Rakuten Cloud Platform (RCP), Japan's newest mobile network. It explains RCP's design principles, architecture, and the technologies involved in creating a fully virtualized, common, and distributed telco cloud with end-to-end automation, spanning thousands of sites. The piece also highlights the zero-touch provisioning workflow for activating cell sites, demonstrating significant efficiency gains.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.404946"
+        }
+      ],
+      "time_published": "20190225T000642",
+      "title": "Enabling Rakuten Cloud Platform with Cisco NFVI and Orchestration Solutions",
+      "topics": [
+        {
+          "relevance_score": "0.922665",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/sp/enabling-rakuten-cloud-platform-with-cisco-nfvi-and-orchestration-solutions"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.292948,
+      "source": "CTech",
+      "source_domain": "CTech",
+      "summary": "Valmont Industries Inc., through its subsidiary Valley Irrigation, has partnered with Tel Aviv-based machine vision startup Prospera Technologies Inc. Their collaboration aims to integrate Prospera\u2019s AI-powered crop diagnosis and treatment recommendation technologies into Valley Irrigation\u2019s central pivot irrigation systems. The companies plan to invest over $40 million in this project over the next few years to enhance autonomous crop management.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VMI",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400504"
+        },
+        {
+          "relevance_score": "0.631534",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209350"
+        },
+        {
+          "relevance_score": "0.630416",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.201079"
+        }
+      ],
+      "time_published": "20190221T145400",
+      "title": "Agriculture Equipment Company Valmont Partners With Machine Vision Startup Prospera",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.746857",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.calcalistech.com/ctech/articles/0,7340,L-3756888,00.html"
+    },
+    {
+      "authors": [
+        "Amy Lamare"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.208449,
+      "source": "Celebrity Net Worth",
+      "source_domain": "Celebrity Net Worth",
+      "summary": "Ken and Michael Xie, founders of the cybersecurity firm Fortinet Inc., have become billionaires due to their company's success in the growing cybersecurity market. Fortinet, valued at $13 billion, has surpassed market growth rates and its shares have significantly increased since its 2009 IPO. Ken Xie, the largest individual shareholder, and Michael Xie continue to lead the company, focusing on emerging trends like mobile security.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FTNT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.429237"
+        },
+        {
+          "relevance_score": "0.642748",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.142540"
+        },
+        {
+          "relevance_score": "0.560922",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.147625"
+        }
+      ],
+      "time_published": "20190220T002210",
+      "title": "Cybersecurity Brothers Join Billionaire Club",
+      "topics": [
+        {
+          "relevance_score": "0.634938",
+          "topic": "ipo"
+        },
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.736592",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.celebritynetworth.com/articles/billionaire-news/cybersecurity-brothers-join-billionaire-club/"
+    },
+    {
+      "authors": [
+        "Bloomberg"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.179663,
+      "source": "Fortune",
+      "source_domain": "Fortune",
+      "summary": "Ken and Michael Xie, Chinese-born brothers, have become cybersecurity billionaires through their company, Fortinet Inc., co-founded almost two decades ago. Fortinet, valued at $13 billion, has thrived due to increasing cybersecurity priorities among companies, outpacing the market with a 20% revenue increase to $1.8 billion in 2018. Both brothers hold significant stakes, with Ken Xie (CEO) being the largest individual shareholder and Michael Xie (President and CTO) also having a substantial share, having collected millions through share transactions.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FTNT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.320784"
+        },
+        {
+          "relevance_score": "0.731934",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.211488"
+        },
+        {
+          "relevance_score": "0.640771",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022048"
+        }
+      ],
+      "time_published": "20190207T002210",
+      "title": "Silicon Valley Brothers Build Billion Dollar Cybersecurity Fortunes",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.948539",
+          "topic": "earnings"
+        }
+      ],
+      "url": "https://fortune.com/2019/02/07/silicon-valley-bros-build-billion-dollar-cybersecurity-fortunes/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.316115,
+      "source": "openPR.com",
+      "source_domain": "openPR.com",
+      "summary": "The Global Smart Learning Systems Market is projected to grow between 2019 and 2025, driven by technological enhancements, recent trends, and opportunities. Key market players include Adobe Systems Inc., Smart Technologies, Cisco Systems, and Intel Corporation. The report highlights growth factors such as increased demand for collaborative learning, innovative schools, and e-learning importance, with the Asia Pacific region anticipated to experience the fastest growth.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "ADBE",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.344986"
+        },
+        {
+          "relevance_score": "0.808088",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.343249"
+        },
+        {
+          "relevance_score": "0.848733",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.333008"
+        },
+        {
+          "relevance_score": "0.647773",
+          "ticker": "DELL",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.276467"
+        }
+      ],
+      "time_published": "20190205T084900",
+      "title": "Global Smart Learning Systems Market 2019-2025 Enhancement",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.717596",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.openpr.com/news/1559755/global-smart-learning-systems-market-2019-2025-enhancement-with-technology-growth-with-recent-trends-opportunity-by-top-market-players-such-as-adobe-systems-inc-smart-technologies-three-rivers-systems-cisco-systems-intel-corporation-saba-software.html"
+    },
+    {
+      "authors": [
+        "Mark Albertson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.447083,
+      "source": "SiliconANGLE",
+      "source_domain": "SiliconANGLE",
+      "summary": "Liz Centoni, Senior Vice President and General Manager of IoT at Cisco, is spearheading the company's efforts to provide products and services for the burgeoning Internet of Things space. Through new product launches like the Catalyst IE3x00 switch series and an IoT Developer Center, Cisco aims to simplify IoT deployment and foster developer engagement. Centoni also champions mentorship for women in tech, embodying Cisco's commitment to diversity in leadership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.445151"
+        }
+      ],
+      "time_published": "20190204T150000",
+      "title": "How Liz Centoni makes sure Cisco has a seat at the IoT table",
+      "topics": [
+        {
+          "relevance_score": "0.905000",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://siliconangle.com/2019/02/04/how-liz-centoni-makes-sure-cisco-has-a-seat-at-the-iot-table-cleur-guestoftheweek/"
+    },
+    {
+      "authors": [
+        "Philstar.com"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.176809,
+      "source": "Philstar.com",
+      "source_domain": "Philstar.com",
+      "summary": "PLDT Enterprise, the B2B arm of PLDT Inc., has partnered with ngena\u2014the Next Generation Enterprise Network Alliance\u2014to strengthen its position as the leading provider of fully-managed global SD-WAN services in the Philippines. This alliance allows PLDT to fortify its global Software-Defined Wide Area Network and enables alliance partners to offer connectivity services in the Philippines. ngena's network integrates alliance partners' networks into a single global Software-Defined Network, leveraging cloud and virtualization technologies from Cisco-Viptela.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.311401",
+          "ticker": "PHI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003959"
+        },
+        {
+          "relevance_score": "0.749002",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.327167"
+        }
+      ],
+      "time_published": "20190129T172000",
+      "title": "PLDT joins global alliance of next-generation enterprise networks",
+      "topics": [
+        {
+          "relevance_score": "0.943806",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.philstar.com/business/telecoms/2019/01/29/1889135/pldt-joins-global-alliance-next-generation-enterprise-networks"
+    },
+    {
+      "authors": [
+        "Nate Lanxon"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.192075,
+      "source": "Bloomberg.com",
+      "source_domain": "Bloomberg.com",
+      "summary": "BlackBerry Ltd. announced that former Cisco executive Bryan Palma will join the company as its new president and chief operating officer. Palma will report directly to CEO and chairman John Chen and will be responsible for BlackBerry's core product and services, including its Internet of Things business.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "BB",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.294966"
+        },
+        {
+          "relevance_score": "0.629573",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.113879"
+        }
+      ],
+      "time_published": "20190128T121400",
+      "title": "BlackBerry Names Former Cisco Executive Bryan Palma as COO",
+      "topics": [
+        {
+          "relevance_score": "0.819890",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bloomberg.com/news/articles/2019-01-28/blackberry-names-former-cisco-executive-bryan-palma-as-coo"
+    },
+    {
+      "authors": [
+        "Jennifer Elias"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.116685,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Cisco, undergoing a significant business model transformation, has recruited a high-level executive from rival Juniper to spearhead its new customer experience group. This move is part of Cisco's broader efforts to shake up its operations and leadership.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106071"
+        },
+        {
+          "relevance_score": "0.711436",
+          "ticker": "JNJ",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.102319"
+        }
+      ],
+      "time_published": "20190125T134900",
+      "title": "Exclusive: Cisco poaches Juniper executive to lead new customer experience group",
+      "topics": [
+        {
+          "relevance_score": "0.928187",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanjose/news/2019/01/25/cisco-shakeup-cx-juniper-alvio-barrios-csco-jnpr.html"
+    },
+    {
+      "authors": [
+        "Caroline Hilla"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.416574,
+      "source": "Cisco Blogs",
+      "source_domain": "Cisco Blogs",
+      "summary": "This article provides a comprehensive guide for attendees interested in manufacturing-related events at Cisco Live Barcelona, held from January 28 to February 1, 2019. It details booth location and hours, various speaking sessions with descriptions and speakers, and live demo opportunities related to Industrial IoT, security, and networking. The guide aims to help manufacturing professionals navigate the event and make the most of their experience.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.435580"
+        }
+      ],
+      "time_published": "20190125T000642",
+      "title": "The Ultimate Event Guide for Manufacturing at Cisco Live Barcelona",
+      "topics": [
+        {
+          "relevance_score": "0.908389",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.838315",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://blogs.cisco.com/manufacturing/the-ultimate-event-guide-for-manufacturing-at-cisco-live-barcelona"
+    },
+    {
+      "authors": [
+        "Michael Hayes"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.104529,
+      "source": "MSCI",
+      "source_domain": "MSCI",
+      "summary": "This article explores the evolving landscape of Credit Default Swap (CDS) hedging, noting a shift from single-name CDS trading to basket CDS indexes since 2014. It highlights that bond spreads may now offer more reliable insights and examines alternatives like equity options for hedging individual credit exposure, especially for short-term needs. The author emphasizes the importance for credit investors to review all available options for effective risk hedging.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.934229",
+          "ticker": "MSCI",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.133886"
+        },
+        {
+          "relevance_score": "0.834742",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.068416"
+        },
+        {
+          "relevance_score": "0.639763",
+          "ticker": "CBOE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.114910"
+        }
+      ],
+      "time_published": "20190123T005233",
+      "title": "CDS Hedging: Exploring all the Options",
+      "topics": [
+        {
+          "relevance_score": "0.943691",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.741469",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.msci.com/research-and-insights/blog-post/cds-hedging-exploring-all-the-options"
+    },
+    {
+      "authors": [
+        "Caroline Hroncich"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.22725,
+      "source": "Employee Benefit News",
+      "source_domain": "Employee Benefit News",
+      "summary": "AIG has introduced a new surrogacy reimbursement benefit and increased its adoption reimbursement to $13,800 per child, with a combined lifetime maximum of $27,600 per employee. These changes reflect an effort to support its diverse workforce and were influenced by an employee resource group. The company aims for these enhanced family-friendly benefits to aid in employee retention and engagement.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AIG",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.306492"
+        },
+        {
+          "relevance_score": "0.608514",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.129868"
+        }
+      ],
+      "time_published": "20190122T012700",
+      "title": "AIG adds surrogacy benefit, boosts adoption reimbursement",
+      "topics": [
+        {
+          "relevance_score": "0.841202",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.benefitnews.com/news/aig-adds-surrogacy-benefit-boosts-adoption-reimbursement"
+    },
+    {
+      "authors": [
+        "Cromwell Schubarth"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.126777,
+      "source": "The Business Journals",
+      "source_domain": "The Business Journals",
+      "summary": "Christine Heckart, formerly of Cisco and Brocade, has been appointed as the new CEO of San Mateo-based data log management startup Scalyr. She takes over from founding CEO Steve Newman, who was instrumental in the creation of Google Docs. This appointment marks a significant leadership change for the fast-growing startup.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.818117",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.106082"
+        }
+      ],
+      "time_published": "20190117T135700",
+      "title": "Former Cisco, Brocade exec is new CEO at fast-growing San Mateo startup",
+      "topics": [
+        {
+          "relevance_score": "0.921152",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.714116",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.bizjournals.com/sanjose/news/2019/01/17/christine-heckart-scalyr-ceo-cisco-brocade.html"
+    },
+    {
+      "authors": [
+        "Zaid Shoorbajee"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.061386,
+      "source": "CyberScoop",
+      "source_domain": "CyberScoop",
+      "summary": "A new variant of the Rocke cryptojacking malware has been observed by Palo Alto Networks that uninstalls cloud security services on Linux-based servers before mining cryptocurrency. This evasive technique allows the malware to bypass detection by completely removing the security programs from Tencent Cloud and Alibaba Cloud. Researchers believe this method of targeting and removing cloud security products may become a new trend for malware targeting public cloud infrastructure.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "PANW",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.271909"
+        },
+        {
+          "relevance_score": "0.608230",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.003241"
+        },
+        {
+          "relevance_score": "0.587529",
+          "ticker": "WDC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.104040"
+        }
+      ],
+      "time_published": "20190117T010210",
+      "title": "Rocke cryptojacking malware gets past cloud security programs by uninstalling them",
+      "topics": [
+        {
+          "relevance_score": "0.803832",
+          "topic": "blockchain"
+        },
+        {
+          "relevance_score": "0.944840",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://cyberscoop.com/rocke-group-cryptojacking-uninstalls-cloud-security/"
+    },
+    {
+      "authors": [
+        "Tom Arbuthnot"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.224873,
+      "source": "Tom Talks Blog",
+      "source_domain": "Tom Talks Blog",
+      "summary": "Yealink phones are the first IP Phones for Microsoft Teams to be generally available, with Crestron also having a GA model and more devices from AudioCodes, Crestron, and Polycom expected soon. The article details the user experience for Teams phones, including sign-in options, calling features, meeting capabilities, and voicemail access for both personal and shared modes. It also provides links to Microsoft's documentation on Teams phones and their deployment.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.828180",
+          "ticker": "AUDC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.209618"
+        },
+        {
+          "relevance_score": "0.941263",
+          "ticker": "MSFT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.253617"
+        },
+        {
+          "relevance_score": "0.613177",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.202732"
+        }
+      ],
+      "time_published": "20190108T235117",
+      "title": "First Microsoft Teams Phones are Generally Available from Yealink. AudioCodes, Crestron and Polycom coming soon",
+      "topics": [
+        {
+          "relevance_score": "0.943720",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://tomtalks.blog/first-microsoft-teams-phones-are-generally-available-from-yealink-audiocodes-crestron-and-polycom-coming-soon/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.438818,
+      "source": "Malaysiakini",
+      "source_domain": "Malaysiakini",
+      "summary": "Cisco (M) Sdn Bhd, a Malaysian security services company, has denied any affiliation with the US-based multinational Cisco Systems Inc. The clarification came after netizens confused the two similarly named companies, inundating Cisco Systems' Asean Facebook page with angry comments regarding an alleged insult against the former king by a Malaysian staff member. Cisco (M) Sdn Bhd stated that a person who allegedly made insulting comments regarding the former Yang di-Pertuan Agong Sultan Muhammad V is not the company\u2019s staff.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "CSCO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.400348"
+        }
+      ],
+      "time_published": "20190107T194500",
+      "title": "We're not the Cisco you're looking for, security firm tells netizens",
+      "topics": [
+        {
+          "relevance_score": "0.832305",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.malaysiakini.com/news/459272"
+    }
+  ],
+  "items": "86",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

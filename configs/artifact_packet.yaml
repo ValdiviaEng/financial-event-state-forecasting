@@ -1,0 +1,36 @@
+{
+  "artifact_schema_version": "stage4_artifact_packet_v1",
+  "stage4_pre_model_required_members": [
+    "dataset_manifest",
+    "feature_label_manifest",
+    "resolved_split_config",
+    "artifact_packet_config",
+    "split_manifest",
+    "fold_definitions",
+    "split_assignments",
+    "lockbox_record",
+    "leakage_validation"
+  ],
+  "serious_run_required_members": [
+    "dataset_manifest",
+    "feature_label_manifest",
+    "resolved_split_config",
+    "artifact_packet_config",
+    "split_manifest",
+    "fold_definitions",
+    "split_assignments",
+    "lockbox_record",
+    "leakage_validation",
+    "preprocessing_fit_manifest",
+    "saved_predictions",
+    "metrics",
+    "overfitting_diagnostic_report",
+    "comparison_summary"
+  ],
+  "claim_policy": {
+    "benchmark_claim_requires_full_serious_packet": true,
+    "missing_serious_member_status": "blocked_missing_required_members",
+    "stage4_pre_model_packet_is_not_a_benchmark_result": true
+  },
+  "benchmark_claim": false
+}

@@ -1,0 +1,105 @@
+{
+  "feed": [
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.282157,
+      "source": "General Electric",
+      "source_domain": "General Electric",
+      "summary": "EDF and GE announced a partnership to develop the first FlexEfficiency 50 combined-cycle power plant in Bouchain, France. This 510-megawatt plant, set to start in 2015, will demonstrate unprecedented flexibility and efficiency, achieving over 61% efficiency at base load and enabling greater integration of renewable energy sources. This collaboration builds on a 40-year strategic relationship between the two companies and represents a significant investment in clean and efficient natural gas-fired technology.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.309869",
+          "ticker": "GE",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022487"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.443180"
+        },
+        {
+          "relevance_score": "0.606011",
+          "ticker": "ED",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310570"
+        }
+      ],
+      "time_published": "20111208T164615",
+      "title": "EDF, GE Join Forces to Develop Most Flexible and Efficient Gas-Fired Power Plant in France",
+      "topics": [
+        {
+          "relevance_score": "0.949928",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.719352",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.ge.com/news/press-releases/edf-ge-join-forces-develop-most-flexible-and-efficient-gas-fired-power-plant-france"
+    },
+    {
+      "authors": [
+        "John Gregerson"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.342095,
+      "source": "Engineering News-Record | ENR",
+      "source_domain": "Engineering News-Record | ENR",
+      "summary": "Ameren's Sioux Energy Center in West Alton, Mo., completed a project to install two new wet flue gas desulfurization scrubber systems, investing over 2.2 million man-hours. This initiative, one of three by Ameren to reduce coal-fired powerplant emissions, is expected to cut sulfur dioxide emissions by 95% using Hitachi Power Systems of America's spray tower scrubber technology. The project highlighted collaborative efforts, early contractor and supplier involvement, and the use of advanced modeling for complex installations.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AEE",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.419381"
+        },
+        {
+          "relevance_score": "0.611266",
+          "ticker": "ETN",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.347825"
+        },
+        {
+          "relevance_score": "0.628053",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.335607"
+        },
+        {
+          "relevance_score": "0.621816",
+          "ticker": "PWR",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.338267"
+        }
+      ],
+      "time_published": "20111128T160605",
+      "title": "Missouri Coal-Fired Plant Comes Clean on Emissions",
+      "topics": [
+        {
+          "relevance_score": "0.931528",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.814535",
+          "topic": "real_estate"
+        },
+        {
+          "relevance_score": "0.616712",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.enr.com/articles/10991-missouri-coal-fired-plant-comes-clean-on-emissions"
+    }
+  ],
+  "items": "2",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

@@ -1,0 +1,457 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Sebastian Anthony"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.037691,
+      "source": "ExtremeTech",
+      "source_domain": "ExtremeTech",
+      "summary": "This article highlights Applied Materials as a crucial, though little-known, company behind major semiconductor manufacturing. It details how Applied Materials provides essential equipment and expertise for creating silicon chips, LCD displays, and solar cells, enabling advancements like Intel's 22nm process. The article also touches upon the complex collaboration between Applied Materials and chip manufacturers, including the strict confidentiality measures in place.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.323457",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.022237"
+        }
+      ],
+      "time_published": "20111201T160626",
+      "title": "Beyond 22nm: Applied Materials, the unsung hero of Silicon Valley",
+      "topics": [
+        {
+          "relevance_score": "0.914150",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.739415",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.extremetech.com/extreme/106899-beyond-22nm-applied-materials-the-unsung-silicon-hero"
+    },
+    {
+      "authors": [
+        "Robert Lavine"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.400317,
+      "source": "Global Corporate Venturing",
+      "source_domain": "Global Corporate Venturing",
+      "summary": "Joseph Jeong has joined Applied Ventures, the corporate venturing fund of Applied Materials, after completing his MBA and an internship at ARCH Venture Partners. His role will focus on energy storage and lighting opportunities, including working with portfolio company Tera-Barrier Films and assisting with deals in China and India. Prior to business school, Jeong worked as a cleantech engineer at Samsung SDI, specializing in lithium-ion batteries and fuel cell systems.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.443001"
+        }
+      ],
+      "time_published": "20111201T160626",
+      "title": "Joseph Jeong joins Applied Ventures",
+      "topics": [
+        {
+          "relevance_score": "0.737066",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.719472",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.802919",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.612532",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://globalventuring.com/blog/2011/12/01/joseph-jeong-joins-applied-ventures/"
+    },
+    {
+      "authors": [
+        "John Markoff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": -0.045067,
+      "source": "The New York Times",
+      "source_domain": "The New York Times",
+      "summary": "Intel announced a new 3-D transistor design called Finfet, which will allow for faster and more power-efficient computer chips. This innovation, based on building transistors upward like skyscrapers, is expected to make chips run 37% faster and cut power consumption by 50%. While Intel sees it as a way to maintain Moore's Law, competitors question the technology due to its emphasis on speed over low power, especially in the growing mobile device market.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.979161",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.272514"
+        },
+        {
+          "relevance_score": "0.629143",
+          "ticker": "TXN",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.118061"
+        },
+        {
+          "relevance_score": "0.706852",
+          "ticker": "AAPL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.203465"
+        },
+        {
+          "relevance_score": "0.560920",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.132849"
+        },
+        {
+          "relevance_score": "0.595629",
+          "ticker": "QCOM",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.167456"
+        }
+      ],
+      "time_published": "20110504T170100",
+      "title": "Intel Increases Transistor Speed by Building Upward (Published 2011)",
+      "topics": [
+        {
+          "relevance_score": "0.926957",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.737708",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.nytimes.com/2011/05/05/science/05chip.html"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.097023,
+      "source": "BBC",
+      "source_domain": "BBC",
+      "summary": "Intel has launched its next-generation Ivy Bridge processors, featuring a 22 nanometre manufacturing process and new Tri-Gate \"3D\" transistors designed for improved power efficiency. This development aims to solidify Intel's market dominance against rivals like AMD and ARM, although the industry faces physical limits to Moore's Law. The company expects to begin commercial production later this year, with significant implications for both desktop and mobile devices.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.740220",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.202123"
+        },
+        {
+          "relevance_score": "1.000000",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.408955"
+        },
+        {
+          "relevance_score": "0.638931",
+          "ticker": "IBM",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.119683"
+        },
+        {
+          "relevance_score": "0.619695",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.115761"
+        }
+      ],
+      "time_published": "20110504T160628",
+      "title": "Intel unveils 22nm 3D Ivy Bridge processor",
+      "topics": [
+        {
+          "relevance_score": "0.923594",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.bbc.com/news/technology-13283882"
+    },
+    {
+      "authors": [
+        "Associated Press business staff"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.445042,
+      "source": "Cleveland.com",
+      "source_domain": "Cleveland.com",
+      "summary": "Applied Materials Inc. announced its acquisition of Varian Semiconductor Equipment Associates Inc. for $4.9 billion. This strategic move grants Applied Materials access to Varian's leading ion implantation equipment technology, boosting its semiconductor business. The all-cash deal, valued at $63 per share, represents a significant premium for Varian shareholders and is expected to increase Applied Materials' adjusted profit within the first year.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.448898"
+        }
+      ],
+      "time_published": "20110504T120500",
+      "title": "Applied Materials buying Varian Semi for $4.9 billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.835058",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.740812",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.cleveland.com/business/2011/05/applied_materials_buying_varia.html"
+    },
+    {
+      "authors": [
+        "Eric Savitz"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.405241,
+      "source": "Forbes",
+      "source_domain": "Forbes",
+      "summary": "Applied Materials announced its agreement to acquire Varian Semiconductor for $4.9 billion, or $63 per share, representing a 55% premium. This deal consolidates two major players in the computer chip manufacturing equipment sector, with Varian's ion implantation technology joining Applied's Silicon Systems Group and potentially expanding into solar, display, and LED markets. The acquisition is expected to be accretive to Applied Materials' non-GAAP earnings in the first year and will be funded through a combination of cash and debt.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.414680"
+        }
+      ],
+      "time_published": "20110504T090600",
+      "title": "Applied Materials Agrees To Buy Varian Semi For $4.9 Billion",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "mergers_and_acquisitions"
+        },
+        {
+          "relevance_score": "0.842730",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.704409",
+          "topic": "financial_markets"
+        },
+        {
+          "relevance_score": "0.601267",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.639804",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.forbes.com/sites/ericsavitz/2011/05/04/applied-materials-agrees-to-buy-varian-semi-for-4-9-billion/"
+    },
+    {
+      "authors": [
+        "Mike Rogoway"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.039742,
+      "source": "OregonLive.com",
+      "source_domain": "OregonLive.com",
+      "summary": "The 2011 Japan earthquake badly damaged Intel's office in Tsukuba, activating sprinklers and soaking equipment, but no employees were injured. While Intel expects a minor impact on its business, the broader semiconductor industry faces potential months of shortages due to damage to Japanese suppliers, impacting memory chip and silicon wafer production. Companies like ON Semiconductor and Shin-Etsu Group in Vancouver are adjusting production to mitigate the supply chain disruption caused by the quake and subsequent power outages.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.966660",
+          "ticker": "INTC",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.136716"
+        },
+        {
+          "relevance_score": "0.706412",
+          "ticker": "ON",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.077400"
+        },
+        {
+          "relevance_score": "0.609609",
+          "ticker": "LRCX",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.033413"
+        },
+        {
+          "relevance_score": "0.616022",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "0.040549"
+        },
+        {
+          "relevance_score": "0.584299",
+          "ticker": "AMD",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.059665"
+        }
+      ],
+      "time_published": "20110314T221000",
+      "title": "Japan quake badly damaged Intel office, but injured no employees",
+      "topics": [
+        {
+          "relevance_score": "0.911104",
+          "topic": "manufacturing"
+        },
+        {
+          "relevance_score": "0.820632",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.645929",
+          "topic": "economy_macro"
+        }
+      ],
+      "url": "https://www.oregonlive.com/business/2011/03/japan_quake_badly_damaged_inte.html"
+    },
+    {
+      "authors": [
+        "Mladen Nizic"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.25135,
+      "source": "www.embedded.com",
+      "source_domain": "www.embedded.com",
+      "summary": "This article discusses the evolving nature of mixed-signal design, moving beyond the traditional view of simply combining analog and digital. It highlights the growing challenges and complexities in modern mixed-signal System-on-Chips (SoCs), particularly concerning verification, chip integration, and collaboration among design teams. The author emphasizes the need for new methodologies, cross-pollination of skills, and integrated flows to address these complexities and improve productivity.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.905883",
+          "ticker": "CDNS",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.326116"
+        },
+        {
+          "relevance_score": "0.649801",
+          "ticker": "ADI",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.207719"
+        },
+        {
+          "relevance_score": "0.560270",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.159651"
+        }
+      ],
+      "time_published": "20110214T162122",
+      "title": "Mixed-Signal = Analog + Digital, or is there more to it?",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.749140",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.embedded.com/mixed-signal-analog-digital-or-is-there-more-to-it/"
+    },
+    {
+      "authors": [],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Bullish",
+      "overall_sentiment_score": 0.575309,
+      "source": "Semiconductor Today",
+      "source_domain": "Semiconductor Today",
+      "summary": "Veeco Instruments Inc. has launched its TurboDisc MaxBright GaN MOCVD multi-reactor system for the production of high-brightness LEDs (HB-LEDs). This system boasts 500% productivity gain compared to the K465i, with increased wafer capacity and proprietary thermal control technology. MaxBright is designed to accelerate the industry's transition to LED lighting and further reduces LED manufacturing costs.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "VECO",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.859128"
+        },
+        {
+          "relevance_score": "0.631427",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318608"
+        }
+      ],
+      "time_published": "20110207T175609",
+      "title": "Veeco launches MOCVD multi-reactor system for HB-LEDs",
+      "topics": [
+        {
+          "relevance_score": "1.000000",
+          "topic": "technology"
+        },
+        {
+          "relevance_score": "0.827980",
+          "topic": "manufacturing"
+        }
+      ],
+      "url": "https://www.semiconductor-today.com/news_items/2011/FEB/VEECO_070211.htm"
+    },
+    {
+      "authors": [
+        "HT Correspondent"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.326356,
+      "source": "Hindustan Times",
+      "source_domain": "Hindustan Times",
+      "summary": "Global CEOs from companies like Wal-Mart, Rio Tinto, Tesco, and Applied Materials met with India's commerce and industry minister Anand Sharma, expressing interest in the growing Indian economy. Sharma highlighted opportunities for foreign direct investment in various sectors, particularly for retailers in developing back-end infrastructure. Tesco's CEO acknowledged scaling up investment opportunities.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "0.900108",
+          "ticker": "AMAT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.300665"
+        },
+        {
+          "relevance_score": "0.829973",
+          "ticker": "WMT",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.304103"
+        },
+        {
+          "relevance_score": "0.745059",
+          "ticker": "TSCO",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.342967"
+        }
+      ],
+      "time_published": "20110128T220600",
+      "title": "Top CEOs show India interest | Business News",
+      "topics": [
+        {
+          "relevance_score": "0.903378",
+          "topic": "economy_macro"
+        },
+        {
+          "relevance_score": "0.842589",
+          "topic": "retail_wholesale"
+        },
+        {
+          "relevance_score": "0.723635",
+          "topic": "economy_fiscal"
+        }
+      ],
+      "url": "https://www.hindustantimes.com/business/top-ceos-show-india-interest/story-2udrhmDvqv3JWIdFH7mD6I-amp.html"
+    }
+  ],
+  "items": "10",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}

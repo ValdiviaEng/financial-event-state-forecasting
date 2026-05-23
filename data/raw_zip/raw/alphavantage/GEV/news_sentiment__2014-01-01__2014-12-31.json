@@ -1,0 +1,91 @@
+{
+  "feed": [
+    {
+      "authors": [
+        "Tribune News Service"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "overall_sentiment_score": -0.150926,
+      "source": "St. Cloud Times",
+      "source_domain": "St. Cloud Times",
+      "summary": "Xcel Energy is being sued for $45 million in unpaid cost overruns by one of its top power plant contractors, Babcock & Wilcox Nuclear Energy, following an 18-month overhaul of its Prairie Island Nuclear Power plant. The lawsuit alleges breach of contract, unjust enrichment, and that Xcel refused to pay the full cost for replacing steam generators at the plant's Unit 2, a project that cost $285 million. Babcock & Wilcox claims Xcel's decision to do additional work simultaneously caused delays and increased costs, and also accused Xcel of not fully disclosing costs to regulators.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "XEL",
+          "ticker_sentiment_label": "Somewhat-Bearish",
+          "ticker_sentiment_score": "-0.222572"
+        },
+        {
+          "relevance_score": "0.641168",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Neutral",
+          "ticker_sentiment_score": "-0.130129"
+        }
+      ],
+      "time_published": "20141114T115558",
+      "title": "Xcel Energy sued for $45 million in overruns at nuclear plant",
+      "topics": [
+        {
+          "relevance_score": "0.927343",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.712248",
+          "topic": "finance"
+        }
+      ],
+      "url": "https://www.sctimes.com/story/news/local/minnesota/2014/11/14/xcel-energy-sued-million-overruns-nuclear-plant/19015223/"
+    },
+    {
+      "authors": [
+        "Sonal Patel"
+      ],
+      "banner_image": null,
+      "category_within_source": "General",
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.344927,
+      "source": "POWER Magazine",
+      "source_domain": "POWER Magazine",
+      "summary": "The 59-MW Gyeonggi Green Energy fuel cell park in South Korea, one of the world's largest, began operation in February, featuring 21 FuelCell Energy DFC3000 power plants. This opening highlights a robust global future for fuel cell technology, with significant growth observed in stationary power applications like molten carbonate fuel cells and expectations for continued expansion across various fuel cell types and regions. The article also details other ongoing fuel cell projects by FuelCell Energy in South Korea and the U.S., emphasizing the increasing market demand for stationary power plants.",
+      "ticker_sentiment": [
+        {
+          "relevance_score": "1.000000",
+          "ticker": "FCEL",
+          "ticker_sentiment_label": "Bullish",
+          "ticker_sentiment_score": "0.413076"
+        },
+        {
+          "relevance_score": "0.729376",
+          "ticker": "D",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.318503"
+        },
+        {
+          "relevance_score": "0.625463",
+          "ticker": "GEV",
+          "ticker_sentiment_label": "Somewhat-Bullish",
+          "ticker_sentiment_score": "0.310702"
+        }
+      ],
+      "time_published": "20140501T103223",
+      "title": "59-MW Fuel Cell Park Opening Heralds Robust Global Technology Future",
+      "topics": [
+        {
+          "relevance_score": "0.922562",
+          "topic": "energy_transportation"
+        },
+        {
+          "relevance_score": "0.834910",
+          "topic": "technology"
+        }
+      ],
+      "url": "https://www.powermag.com/59-mw-fuel-cell-park-opening-heralds-robust-global-technology-future/"
+    }
+  ],
+  "items": "2",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish"
+}
