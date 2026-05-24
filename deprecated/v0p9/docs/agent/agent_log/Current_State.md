@@ -1,0 +1,801 @@
+# Current State (Operational Memory)
+Last updated: 2026-05-23
+
+## Immutable Task Contract (USER-APPROVED)
+- Objective:
+  Maintain a documentation-first, benchmark-first phase-1 rebuild focused on testing whether event-state news features add value beyond market-only baselines for end-of-day multi-horizon excess-return forecasting, while continuing Alpha Vantage historical news backfill as an active operational task.
+- Hard constraints:
+  - archive remains reference-only unless explicitly reintroduced into active-root docs
+  - active truth must follow `ScopeDecisionLog.md` and `ResearchTruth.md`
+  - phase-1 target family is forward excess returns
+  - phase-1 horizons are `1d`, `5d`, `10d`, `20d`, and `60d`
+  - first serious benchmark universe is a reproducible top-50 liquid large-cap set; later expansions are new benchmark families
+  - canonical news alignment is same-day as-of-close
+  - serious claims require purged-plus-embargoed walk-forward plus final untouched lockbox
+  - phase 1 remains local CLI/artifact-driven only
+  - active Alpha Vantage runners must use successful-call budgeting and preserve truncation flags; incomplete DB is acceptable for now and later refinement should be handled by a separate script
+- Out of scope:
+  - user-facing service, API, or dashboard scope in phase 1
+  - static company metadata in phase 1
+  - uncertainty-aware outputs in phase 1
+  - graph-heavy cores, MoE, dynamic profiles, end-to-end text fine-tuning, broad derivative grids, and first-pass full live-universe benchmarking
+- Approval gates:
+  - any change to target family, horizon set, provider stack, universe definition, evaluation protocol, comparator ladder, or benchmark comparability
+  - any attempt to promote archived material into active truth without explicit active-root documentation
+  - any new provider, architecture branch, or benchmark-family expansion treated as comparable to the current benchmark without explicit approval
+- Canonical repo docs that define truth (links/paths):
+  - AgentRules.md
+  - docs/agent/AgentAppendices.md
+  - docs/agent/AgentMemory.md
+  - ScopeDefinition.md
+  - ScopeDecisionLog.md
+  - ResearchTruth.md
+
+## Current Priorities (max 7)
+- (P1) Preserve the completed Stage 6 clean-null result packet and do not change metric policy, result framing, lockbox interpretation, comparator roster, protected scope, or comparability without explicit approval.
+- (P2) Preserve the Stage 2, Stage 3, Stage 4, Stage 5, and Stage 6 row-universe digest, clean-window record, no-news flags, truncation-risk flags, label contract, split manifest, lockbox boundary, comparator roster, preprocessing manifests, saved-prediction schema, and evaluation policy as fixed evidence for the current result.
+- (P3) Preserve Stage 7A as research-only evidence, Stage 7B as completed decision evidence, Stage 7C as diagnostics-only implementation evidence with `benchmark_claim=false`, Stage 8 as plan-first raw-update tooling evidence with no live provider-call or benchmark claim, Stage 9 as documentation/operational-memory reconciliation only, Stage 10A as research-only workflow analysis, Stage 10B as completed decision-comparison/approval-capture evidence, and Stage 10C as local historical-prediction packet evidence with `benchmark_claim=false`; keep Stage 11 through Stage 12 plus remaining provider/utility/expansion scaffolds prompt-only/comment-only until explicitly approved and converted.
+- (P4) Preserve Alpha Vantage truncation and empty-feed limitation flags; provider-level article completeness is not claimed.
+- (P5) Keep benchmark comparability explicit whenever provider coverage, universe size, horizon handling, clean-window records, dataset versions, model rosters, metric policies, or result-class rules change.
+- (P6) Address API-key-bearing request URLs in raw Alpha Vantage ledgers before commit, sharing, or publication.
+- (P7) Keep later 100/500 ticker expansions separate benchmark families unless explicitly approved otherwise.
+
+## Task Register
+- Task ID: T-2026-04-03-0001
+- Title: Integrate research-workflow appendix and related governance updates
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-04-03
+- Last touched: 2026-04-03
+- Request IDs: R-2026-04-03-0001
+- Dependencies:
+- Blockers:
+- Approvals needed:
+- Benchmark status: not applicable
+- Stale-risk status: low
+- Evidence pointers: AgentRules.md; docs/agent/AgentAppendices.md; docs/agent/AgentTemplates.md; docs/agent/AgentGlossary.md; docs/agent/AgentCompliance.md; docs/agent/AgentResearchWorkflows.md; scripts/validate_agent_governance.py
+- Notes: Historical governance-integration task completed before later scope work.
+
+- Task ID: T-2026-04-13-0001
+- Title: Repair interaction-log memory to match current repository state
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-04-13
+- Last touched: 2026-04-13
+- Request IDs: R-2026-04-13-0001
+- Dependencies: ScopeDefinition.md; ScopeDecisionLog.md; ResearchTruth.md
+- Blockers:
+- Approvals needed:
+- Benchmark status: not applicable
+- Stale-risk status: low after repair
+- Evidence pointers: docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson; ScopeDefinition.md; ScopeDecisionLog.md; ResearchTruth.md
+- Notes: Repaired stale 2026-04-03 snapshot using authoritative repository artifacts created after the last logged session.
+
+- Task ID: T-2026-04-13-0002
+- Title: Continue Alpha Vantage historical news backfill for active universes
+- Status: in_progress
+- Priority: high
+- Owner: agent
+- Created: 2026-04-13
+- Last touched: 2026-05-21
+- Request IDs: R-2026-04-13-0001
+- Dependencies: ScopeDecisionLog.md; ResearchTruth.md; active standalone Alpha Vantage scripts
+- Blockers: provider-level article completeness remains unresolved; Alpha Vantage truncation refinement remains pending and live refinement is quota-limited, with latest observed summary showing total `199` pending requests and budget remaining `0/25`; later non-top-50 expansions remain separate benchmark-family work
+- Approvals needed: any provider-stack change or benchmark-family reinterpretation
+- Benchmark status: approved top-50 canonical raw file coverage complete after merge (`850/850`, `pending_request_count=0`); not yet benchmark-ready because truncation, downstream dataset construction, and validation docs remain unresolved
+- Stale-risk status: medium for raw-news completeness because bounded refinement is progressing but residual provider-limit truncation remains; high for downstream implementation until executable dataset tests and materialized dataset artifacts exist
+- Evidence pointers: data/raw/alphavantage/daemon_summary_top50_only_forward.json; data/manifests/alphavantage_top50_raw_merge_2026-05-06.json; docs/agent/agent_log/AlphaVantage_Raw_Merge_2026-05-06.md; data/raw/alphavantage/news_request_ledger.jsonl; runs/logs/alphavantage_news_top50_only_forward.log; scripts/run_alphavantage_news_top50_only_standalone.py; scripts/run_alphavantage_news_top51_100_only_standalone.py; scripts/run_alphavantage_news_multi_bucket_portable_standalone.py; scripts/alphavantage_news_bucket_common.py; docs/agent/agent_log/Project_Audit_2026-05-06.md
+- Notes: Alpha Vantage top-50 canonical raw file coverage was completed by merging 398 missing canonical windows from `data/raw_zip/raw/alphavantage` into `data/raw/alphavantage`. Request-boundary ticker normalization for dotted symbols like `BRK.B` and `BF.B` is implemented. The merged top-50 raw corpus has 850/850 canonical ticker-year/current files, 209143 feed rows, 92 likely truncated windows, 10 empty-feed windows, and 8 non-canonical AAPL slice files retained for traceability. Latest observed truncation-refinement summary generated 2026-05-20 reports total `planned=362`, `pending=199`, quarterly `planned=282`, `valid=84`, `missing=198`, `truncated=30`, `pending=198`, monthly `planned=80`, `valid=79`, `missing=1`, `truncated=37`, `pending=1`, and budget remaining `0/25`.
+
+- Task ID: T-2026-04-13-0003
+- Title: Recreate active-root theory/design docs for the approved phase-1 rebuild
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-04-13
+- Last touched: 2026-05-12
+- Request IDs: R-2026-04-13-0001; R-2026-05-06-0003; R-2026-05-07-0003; R-2026-05-12-0001
+- Dependencies: ScopeDecisionLog.md; ResearchTruth.md
+- Blockers: none for Stage 0 active documentation repair; downstream implementation remains blocked by Stage 1 raw audit, clean-window selection, truncation policy, comparator roster, executable tests, dataset validation, and API-key-bearing raw ledger handling
+- Approvals needed: none for Stage 0 documentation repair; further implementation decisions remain approval-gated where required
+- Benchmark status: documentation readiness only; no executable pipeline, dataset builder, model, benchmark runner, or benchmark result created
+- Stale-risk status: low for active documentation status after Stage 0 execution; medium for implementation readiness because executable tests and downstream contracts remain pending
+- Evidence pointers: ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Complete_Theoretical_Background.md; docs/References.md; docs/Implementation_Decisions.md; docs/Architecture_Map.md; Complete_guidebook.txt; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md; Stage0Prompt.md; docs/Unit_Testing.md; docs/db_Testing.md; docs/Benchmark_Testing.md; docs/Pipeline_Testing.md; docs/Data_Update_Strategy.md; ExecutionFlow.md; docs/testing_commands.md; README.md; src/event_state_forecasting/; configs/; tests/; docs/agent/agent_log/Project_Audit_2026-05-06.md; governance validator output `VALIDATION PASSED`; Stage 0 active-doc check output `STAGE0_ACTIVE_DOC_CHECK PASSED`
+- Notes: Minimum active-root theory/design/validation/operations/onboarding skeletons were created under R-2026-05-06-0003, comment-only scaffold files were created under R-2026-05-07-0003, and Stage 0 active documentation repair was executed under R-2026-05-12-0001. Stage 0 is complete as documentation readiness only and does not authorize broader pipeline coding.
+
+- Task ID: T-2026-04-16-0001
+- Title: Strengthen governance decision-presentation methodology across Agent rules and appendices
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-04-16
+- Last touched: 2026-04-16
+- Request IDs: R-2026-04-16-0001
+- Dependencies: AgentRules.md; docs/agent/AgentTemplates.md; docs/agent/AgentResearchWorkflows.md; docs/agent/AgentAppendices.md; docs/agent/AgentGlossary.md
+- Blockers:
+- Approvals needed: none after explicit user request
+- Benchmark status: not applicable
+- Stale-risk status: low
+- Evidence pointers: AgentRules.md; docs/agent/AgentTemplates.md; docs/agent/AgentResearchWorkflows.md; docs/agent/AgentAppendices.md; docs/agent/AgentGlossary.md
+- Notes: Added a mandatory decision-option matrix for approval-gate prompts with 6 fixed scoring dimensions plus 4 contextual metrics, and clarified ownership between research comparison methodology and approval-choice templates.
+
+- Task ID: T-2026-05-06-0001
+- Title: Audit current project state after database completion and update operational memory
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-06
+- Last touched: 2026-05-06
+- Request IDs: R-2026-05-06-0001
+- Dependencies: AgentRules.md; docs/agent/AgentMemory.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson; ScopeDefinition.md; ScopeDecisionLog.md; ResearchTruth.md
+- Blockers: none for audit completion; follow-up blockers from the audit were partly resolved by T-2026-05-06-0002 and R-2026-05-06-0003, while detailed contract refinement, truncation risk, and API-key-bearing raw ledgers remain
+- Approvals needed: none for audit/logging; approval required before any scope, benchmark, provider, universe, target, or dataset-contract change
+- Benchmark status: audit only; no benchmark run or comparability claim made
+- Stale-risk status: high follow-up risk recorded in audit report
+- Evidence pointers: docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson; docs/agent/agent_log/Project_Audit_2026-05-06.md; data/raw/alphavantage/daemon_summary_top50_only_forward.json; runs/logs/alphavantage_news_top50_only_forward.log; scripts/validate_agent_governance.py
+- Notes: Audit completed before the raw_zip merge. Its database-completion finding was superseded for canonical top-50 raw file coverage by T-2026-05-06-0002, but the audit remains valid for missing docs, stale references, and benchmark-readiness risks. Governance validator passes and active scripts compile.
+
+- Task ID: T-2026-05-06-0002
+- Title: Merge downloaded `raw_zip` Alpha Vantage data into canonical raw dataset and validate DB completeness
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-06
+- Last touched: 2026-05-06
+- Request IDs: R-2026-05-06-0002
+- Dependencies: data/raw_zip.zip or `raw_zip` folder; data/raw/alphavantage; data/raw/universe/top50_slickcharts_2026-04-10.csv; scripts/alphavantage_news_bucket_common.py; ScopeDecisionLog.md; ResearchTruth.md
+- Blockers: none for merge completion; remaining downstream blocker is provider-level truncation risk in 92 windows plus detailed validation/design contracts before benchmark dataset construction
+- Approvals needed: none for merging same-provider raw data into the approved top-50 phase-1 corpus; approval required before treating any non-top-50 expansion as comparable to the first benchmark family
+- Benchmark status: canonical top-50 raw file coverage complete; no benchmark run or leakage-controlled evaluation claim made
+- Stale-risk status: medium because file coverage is complete but truncation and downstream benchmark readiness remain unresolved
+- Evidence pointers: data/raw/alphavantage/daemon_summary_top50_only_forward.json; data/manifests/alphavantage_top50_raw_merge_2026-05-06.json; docs/agent/agent_log/AlphaVantage_Raw_Merge_2026-05-06.md
+- Notes: Copied 398 missing canonical files from `data/raw_zip/raw/alphavantage` to `data/raw/alphavantage`; no existing raw files were overwritten; request ledgers, summaries, and Zone.Identifier artifacts from raw_zip were not copied. The top-50 runner plan now reports 850 completed and 0 pending.
+
+- Task ID: T-2026-05-07-0001
+- Title: Create final broad ProjectDefinition.md from active docs, truth table, and answered questionnaire
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-07
+- Last touched: 2026-05-07
+- Request IDs: R-2026-05-07-0001
+- Dependencies: AgentRules.md; docs/agent/AgentMemory.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson; docs/agent/agent_log/Project_Audit_2026-05-06.md; ScopeDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; active docs under docs/
+- Blockers: none for the broad definition artifact; downstream implementation blockers remain for detailed contracts, clean-window selection, truncation policy, comparator roster, dataset validation, and active tests
+- Approvals needed: none for the requested documentation synthesis; approval remains required before changing scope, benchmark family, provider stack, universe, target family, horizon set, evaluation protocol, or benchmark comparability
+- Benchmark status: documentation-only; no benchmark run or comparability claim made
+- Stale-risk status: low for the created broad definition; downstream design/test contracts remain medium stale-risk until refined
+- Evidence pointers: ProjectDefinition.md; Complete_guidebook.txt; README.md; docs/Architecture_Map.md; docs/References.md; governance validator output `VALIDATION PASSED`
+- Notes: Created a broad non-code project definition grounded in the active truth table and answered decision questionnaire. The document explicitly avoids code, pseudo-code, and final module-level implementation contracts.
+
+- Task ID: T-2026-05-07-0002
+- Title: Create StructuralFolderMapPrompt.md for active-root comment-only scaffold generation
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-07
+- Last touched: 2026-05-07
+- Request IDs: R-2026-05-07-0002
+- Dependencies: AgentRules.md; docs/agent/AgentMemory.md; ProjectDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; docs/Implementation_Decisions.md; docs/Architecture_Map.md; deprecated_version/legacy_snapshot_20260402T115014Z as reference-only comparison material
+- Blockers: none for the prompt artifact; executing the prompt later must still avoid real implementation and must validate generated files as comment-only
+- Approvals needed: none for creating the requested prompt; approval remains required before changing scope, benchmark family, provider stack, universe, target family, horizon set, evaluation protocol, or benchmark comparability
+- Benchmark status: documentation-only; no scaffold execution, benchmark run, or comparability claim made
+- Stale-risk status: low for the prompt artifact; future scaffold execution must update design, validation, guidebook, README, and memory files
+- Evidence pointers: StructuralFolderMapPrompt.md; Complete_guidebook.txt; README.md; governance validator output `VALIDATION PASSED`
+- Notes: Created a reusable prompt for generating a hybrid active-root `src/`, `configs/`, and `tests/` scaffold in comment-only mode, with templates for variables, functions, imports, dependencies, logical flow, limitations, and blind spots.
+
+- Task ID: T-2026-05-07-0003
+- Title: Execute comment-only active-root folder scaffold
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-07
+- Last touched: 2026-05-07
+- Request IDs: R-2026-05-07-0003
+- Dependencies: AgentRules.md; docs/agent/AgentMemory.md; ProjectDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; StructuralFolderMapPrompt.md; docs/Implementation_Decisions.md; docs/Architecture_Map.md
+- Blockers: none for the structural scaffold; real implementation remains blocked by detailed contracts, clean-window selection, truncation policy, comparator roster, dataset validation, active executable tests, and API-key-bearing raw ledger handling
+- Approvals needed: none for the requested comment-only scaffold; approval remains required before changing scope, benchmark family, provider stack, universe, target family, horizon set, evaluation protocol, or benchmark comparability
+- Benchmark status: structural scaffold only; no executable pipeline, dataset builder, model, test suite, benchmark runner, or benchmark result created
+- Stale-risk status: low for scaffold existence; medium for implementation readiness because files are comment-only and contracts remain non-executable
+- Evidence pointers: src/event_state_forecasting/; configs/; tests/; Complete_guidebook.txt; docs/Architecture_Map.md; docs/Implementation_Decisions.md; docs/Execution_Plan.md; docs/Unit_Testing.md; docs/db_Testing.md; docs/Benchmark_Testing.md; docs/Pipeline_Testing.md; README.md; governance validator output `VALIDATION PASSED`; scaffold validation output `COMMENT_ONLY_VALIDATION PASSED`
+- Notes: Created the active-root folder structure from `StructuralFolderMapPrompt.md` with comment-only Python, YAML, and planned test files. Generated files document future responsibilities and blind spots only.
+
+- Task ID: T-2026-05-07-0004
+- Title: Upgrade Complete_guidebook.txt into comprehensive active-root map
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-07
+- Last touched: 2026-05-07
+- Request IDs: R-2026-05-07-0004
+- Dependencies: AgentRules.md; docs/agent/AgentMemory.md; feedbackprompt.md; Complete_guidebook.txt; ProjectDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; active scaffold files under src/, configs/, and tests/
+- Blockers: none for the guidebook upgrade; implementation blockers remain for detailed contracts, clean-window selection, truncation policy, comparator roster, dataset validation, executable tests, and API-key-bearing raw ledger handling
+- Approvals needed: none for the documentation-only guidebook upgrade; approval remains required before changing scope, benchmark family, provider stack, universe, target family, horizon set, evaluation protocol, or benchmark comparability
+- Benchmark status: documentation-only file map upgrade; no executable pipeline, dataset builder, active config, test suite, benchmark runner, benchmark dataset, model result, or serious benchmark claim created
+- Stale-risk status: low for guidebook file/function/config/test coverage after coverage validation; medium for implementation readiness because scaffold contracts remain comment-only
+- Evidence pointers: Complete_guidebook.txt; guidebook coverage check output `GUIDEBOOK_COVERAGE PASSED`; governance validator output `VALIDATION PASSED`
+- Notes: Upgraded `Complete_guidebook.txt` using the active-root truth stack and deprecated guidebooks as format/reference material only. The guidebook now lists active files, active script functions/classes, all 68 source scaffold files, 56 planned source functions, all 9 config scaffolds with 18 planned sections, all 23 planned-test scaffold files, data evidence, status cautions, and active-vs-deprecated comparison.
+
+- Task ID: T-2026-05-07-0005
+- Title: Formalize Option B data-separation and overfitting-control design
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-07
+- Last touched: 2026-05-07
+- Request IDs: R-2026-05-07-0005
+- Dependencies: AgentRules.md; docs/agent/AgentTemplates.md; ScopeDecisionLog.md DQ-012, DQ-013, DQ-018, DQ-021, DQ-023; ResearchTruth.md; ProjectDefinition.md; docs/Benchmark_Testing.md; docs/db_Testing.md; docs/Pipeline_Testing.md
+- Blockers: none for documentation refinement; implementation remains blocked until executable leakage, split-manifest, preprocessing-fit, saved-prediction, metric-predeclaration, and overfitting-diagnostic tests are created
+- Approvals needed: approval received from user for Option B; further approval still required before changing target family, horizon set, provider stack, universe definition, evaluation protocol beyond Option B, comparator ladder, dataset contracts beyond the approved refinement, or benchmark comparability
+- Benchmark status: design refinement only; preserves the approved purged-plus-embargoed walk-forward plus final lockbox while adding quantitative overfitting diagnostics and data-separation requirements; no benchmark run or result created
+- Stale-risk status: low for documentation propagation after validation; medium for implementation readiness because checks remain comment-only and non-executable
+- Evidence pointers: user approval for Option B in R-2026-05-07-0005; docs/Data_Separation_And_Overfitting_Control.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Complete_Theoretical_Background.md; docs/Implementation_Decisions.md; docs/Architecture_Map.md; docs/Execution_Plan.md; docs/Unit_Testing.md; docs/db_Testing.md; docs/Benchmark_Testing.md; docs/Pipeline_Testing.md; docs/Data_Update_Strategy.md; configs/; src/event_state_forecasting/; tests/; Complete_guidebook.txt; README.md; governance validator output `VALIDATION PASSED`; scaffold validation output `COMMENT_ONLY_VALIDATION PASSED`; guidebook coverage output `GUIDEBOOK_COVERAGE PASSED`
+- Notes: User chose Option B from the comparison: keep approved DQ-012 evaluation doctrine and add explicit overfitting diagnostics, metric discipline, and train/validation/lockbox data-separation contracts without selecting a different benchmark family. Contract propagation completed 2026-05-07 as documentation and comment-only scaffold updates only.
+
+- Task ID: T-2026-05-07-0006
+- Title: Create granular execution-stage guide and stage prompt files
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-07
+- Last touched: 2026-05-07
+- Request IDs: R-2026-05-07-0006
+- Dependencies: AgentRules.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Execution_Plan.md; docs/Data_Separation_And_Overfitting_Control.md; docs/Benchmark_Testing.md; docs/Pipeline_Testing.md; docs/db_Testing.md
+- Blockers: none for documentation and prompt creation; implementation remains blocked until the relevant stage prompt is executed with executable tests, clean-window resolution, truncation policy, comparator roster, dataset validation, and credential-ledger handling as applicable
+- Approvals needed: none for the documentation-only prompt package; approval remains required before changing scope, benchmark family, provider stack, universe, target family, horizon set, evaluation protocol beyond Option B, comparator ladder, dataset contracts beyond approved refinement, or benchmark comparability
+- Benchmark status: documentation and prompt artifacts only; no executable pipeline, dataset builder, active config, executable test suite, model, benchmark runner, materialized benchmark dataset, or benchmark result created
+- Stale-risk status: low for execution-stage documentation after validation; medium for implementation readiness because stage prompts are not execution evidence by themselves
+- Evidence pointers: docs/Detailed_Execution_Stages.md; Stage0Prompt.md; Stage0APrompt.md; Stage0BPrompt.md; Stage1Prompt.md; Stage2Prompt.md; Stage3Prompt.md; Stage4Prompt.md; Stage5Prompt.md; Stage6Prompt.md; docs/Execution_Plan.md; Complete_guidebook.txt; README.md; docs/References.md; governance validator output `VALIDATION PASSED`; prompt coverage output `STAGE_PROMPT_COVERAGE PASSED`; scaffold validation output `COMMENT_ONLY_VALIDATION PASSED`
+- Notes: Created a granular execution-stage guide plus nine reusable stage prompts with ownership, inputs, outputs, testing strategies, completion criteria, stop conditions, and final-response requirements.
+
+- Task ID: T-2026-05-12-0001
+- Title: Execute Stage 0 active documentation repair prompt
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-12
+- Last touched: 2026-05-12
+- Request IDs: R-2026-05-12-0001
+- Dependencies: Stage0Prompt.md; AgentRules.md; docs/agent/AgentMemory.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md
+- Blockers: none for Stage 0 completion; downstream implementation blockers remain for Stage 1 raw audit, clean-window selection, truncation policy, comparator roster, dataset validation, executable tests, and API-key-bearing raw ledger handling
+- Approvals needed: none for Stage 0 documentation/status repair; approval remains required before changing scope, benchmark family, provider stack, universe, target family, horizon set, evaluation protocol, comparator ladder, dataset contracts beyond approved refinement, or benchmark comparability
+- Benchmark status: documentation/status repair only; no executable pipeline, active config, executable test suite, dataset builder, benchmark runner, model, materialized benchmark dataset, or benchmark result created
+- Stale-risk status: low for Stage 0 docs after validation; medium for implementation readiness because downstream stages remain pending
+- Evidence pointers: Stage0Prompt.md; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md; README.md; Complete_guidebook.txt; docs/References.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson; governance validator output `VALIDATION PASSED`; Stage 0 active-doc check output `STAGE0_ACTIVE_DOC_CHECK PASSED`; scaffold validation output `COMMENT_ONLY_VALIDATION PASSED`
+- Notes: Executed the first stage prompt by recovering the active contract, auditing active theory/design/validation/operations/onboarding docs, correcting Stage 0 status drift, preserving non-implementation cautions, and recording evidence.
+
+- Task ID: T-2026-05-12-0002
+- Title: Execute Stage 1 raw data security and coverage audit
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-12
+- Last touched: 2026-05-12
+- Request IDs: R-2026-05-12-0002
+- Dependencies: Stage1Prompt.md; AgentRules.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/db_Testing.md; docs/Data_Update_Strategy.md; docs/Data_Separation_And_Overfitting_Control.md; docs/Detailed_Execution_Stages.md
+- Blockers: no Stage 1 audit blocker remains; downstream Stage 2 materialization is now blocked by executable dataset tests and absence of a materialized dataset/row digest. Stage 1's active-raw OHLCV absence finding was narrowed by the deprecated OHLCV salvage audit.
+- Approvals needed: approval is required before deleting raw data, overwriting raw data, rotating keys, committing/sharing ledgers, changing providers, changing universe, accepting truncation limitations as scientifically sufficient, or changing benchmark comparability
+- Benchmark status: raw audit only; complete parseable top-50 Alpha Vantage canonical file coverage is documented, but no benchmark dataset, feature pipeline, active config, executable test suite, model, benchmark runner, or benchmark result was created
+- Stale-risk status: low for Stage 1 raw audit facts after validation; medium for benchmark readiness because Alpha Vantage provider-level completeness is limitation-flagged, sensitive ledgers remain unsafe for publication, and executable dataset checks are absent
+- Evidence pointers: Stage1Prompt.md; docs/agent/agent_log/Stage1_Raw_Data_Security_And_Coverage_Audit_2026-05-12.md; data/manifests/stage1_raw_security_coverage_audit_2026-05-12.json; data/raw/universe/top50_slickcharts_2026-04-10.csv; data/raw/alphavantage/daemon_summary_top50_only_forward.json; data/manifests/alphavantage_top50_raw_merge_2026-05-06.json; README.md; docs/References.md; Complete_guidebook.txt; governance validator output `VALIDATION PASSED`; Stage 1 artifact consistency output `STAGE1_ARTIFACT_CHECK PASSED`; comment-only validation output `COMMENT_ONLY_VALIDATION PASSED`
+- Notes: Stage 1 audit found 850/850 canonical top-50 Alpha Vantage windows present and parseable, 0 parse failures, 209143 feed rows, 92 likely truncated windows, 10 empty-feed windows, 8 non-canonical AAPL slice files, and 2 sensitive Alpha Vantage URL/key-pattern files. The original 2026-05-12 active-OHLCV absence finding was superseded by the 2026-05-14 active raw Twelve Data 2010 backfill/audit for top-50 plus SPY support; active SEC raw support remains not evidenced and not required unless later consumed. No secrets were printed.
+
+- Task ID: T-2026-05-12-0003
+- Title: Execute Stage 2 dataset contract definition prompt
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-12
+- Last touched: 2026-05-14
+- Request IDs: R-2026-05-12-0003
+- Dependencies: Stage2Prompt.md; Stage 1 audit artifacts; ProjectDefinition.md; ResearchTruth.md; docs/db_Testing.md; docs/Pipeline_Testing.md; docs/Data_Separation_And_Overfitting_Control.md; configs/data_contracts.example.yaml; configs/phase1_top50_benchmark.yaml; docs/Detailed_Execution_Stages.md
+- Blockers: full Stage 2 materialization remains blocked by no executable dataset validation tests, no materialized dataset artifact, no dataset manifest, no row-universe digest, and no materialized clean-window record. OHLCV input evidence and clean-window candidate bounds are now available from the deprecated OHLCV salvage audit; Alpha Vantage truncation is a visible limitation rather than an input blocker.
+- Approvals needed: approval remains required before changing clean-window doctrine, changing providers, changing universe, dropping no-news rows, changing horizons, changing evaluation, changing dataset contracts beyond the documented Stage 2 contract, converting comment-only tests into executable tests, destructive raw-data actions, key rotation, sharing/committing sensitive ledgers/logs, or benchmark-comparability changes
+- Benchmark status: contract/blocker definition only; no materialized benchmark dataset, dataset builder, active config, executable test suite, feature/label pipeline, split runner, model, benchmark runner, predictions, metrics, or benchmark result created
+- Stale-risk status: low for documented Stage 2 input evidence after reconciliation; high for implementation readiness until executable tests and materialized dataset artifacts exist
+- Evidence pointers: Stage2Prompt.md; docs/agent/agent_log/Stage2_Dataset_Contract_Definition_2026-05-12.md; data/manifests/stage2_dataset_contract_definition_2026-05-12.json; scripts/audit_deprecated_ohlcv_salvage.py; docs/agent/agent_log/Stage2_Deprecated_OHLCV_Salvage_Audit_2026-05-13.md; data/manifests/stage2_deprecated_ohlcv_salvage_audit_2026-05-13.json; scripts/validate_stage2_inputs.py; docs/agent/agent_log/Stage2_Input_Readiness_Verification_2026-05-13.md; data/manifests/stage2_input_readiness_2026-05-13.json; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md; README.md; docs/References.md; Complete_guidebook.txt; docs/db_Testing.md; docs/Pipeline_Testing.md; governance validator output `VALIDATION PASSED`; Stage 2 input readiness output `blocking_inputs: executable_dataset_tests`; comment-only validation output `COMMENT_ONLY_VALIDATION PASSED`
+- Notes: Stage 2 defined planned storage path conventions, dataset versioning policy, base row identity, Option B split-eligibility fields, no-news/availability fields, branch row equality evidence, dataset manifest schema, clean-window candidate status, required future executable tests, and Stage 3 blockers. On 2026-05-13, deprecated Twelve Data parquet evidence and an OHLCV-derived all-horizon candidate window were verified; dataset materialization remains blocked by executable test absence.
+
+- Task ID: T-2026-05-12-0004
+- Title: Create quarterly Alpha Vantage truncation-refinement script
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-12
+- Last touched: 2026-05-13
+- Request IDs: R-2026-05-12-0004
+- Dependencies: scripts/alphavantage_news_bucket_common.py; data/manifests/stage1_raw_security_coverage_audit_2026-05-12.json; docs/Data_Update_Strategy.md; Stage 1/Stage 2 blocker records
+- Blockers: most live refinement downloads remain pending; latest observed plan-mode budget remaining is `0/25`, and refinement remains quota-limited. Current Stage 2 input readiness no longer blocks on refinement, but provider-level article completeness is not claimed and future artifacts must preserve limitation flags.
+- Approvals needed: approval remains required before changing providers, changing universe, destructive raw-data actions, key rotation, sharing/committing ledgers, changing clean-window doctrine, converting comment-only tests into executable tests, or changing benchmark comparability
+- Benchmark status: raw refinement tooling only for this task; later Stage 2 through Stage 6 artifacts now exist separately, with Stage 6 clean-null result evidence
+- Stale-risk status: medium for raw-news completeness because the refinement runner works and additional quarterly/monthly files have been downloaded, but `199` refinement requests remain pending and truncation still appears in quarterly/monthly refinement files; low for script syntax after compile validation
+- Evidence pointers: scripts/run_alphavantage_news_truncation_refinement_quarterly.py; scripts/run_alphavantage_news_truncation_refinement_standalone.py; scripts/validate_comment_only_scaffold.py; data/raw/alphavantage/daemon_summary_truncation_refinement.json; data/raw/alphavantage/daemon_summary_truncation_refinement_quarterly.json; docs/testing_commands.md; ExecutionFlow.md; README.md; Complete_guidebook.txt; py_compile output with no errors; standalone plan-mode output `sources=92`, `quarterly planned=282`, `monthly planned=0` from empty output root, and reverse next request `C 2026Q2`; latest observed regular summary generated 2026-05-20 reports total `planned=362`, `pending=199`, quarterly `planned=282`, `valid=84`, `missing=198`, `truncated=30`, `pending=198`, monthly `planned=80`, `valid=79`, `missing=1`, `truncated=37`, `pending=1`, `budget_remaining=0/25`; governance validator output `VALIDATION PASSED`; scaffold validation output `COMMENT_ONLY_VALIDATION PASSED`; Stage 1 OHLCV audit output `completed_with_limitations`
+- Notes: The repository runner reads the Stage 1 audit manifest, plans quarterly requests, validates actual files on disk, creates monthly follow-up requests when quarterly files still hit the provider limit, preserves canonical ticker storage while normalizing provider request tickers, uses shared successful-call budgeting, writes refinement summaries, redacts the API key from refinement ledger request URLs, supports compact stdout by default, and supports separate console/file log verbosity. On 2026-05-14, default console logging was aligned with the main Alpha Vantage builders, a concise budget-aware summary was added, and controlled one-call executions were run with spacing. A standalone standard-library-only portable runner was added on 2026-05-14 with embedded Stage 1 likely-truncated top-50 window IDs and `--order reverse` / `--reverse` support for last-entry-to-first execution on another machine.
+
+- Task ID: T-2026-05-13-0001
+- Title: Execute Stage 3 feature and label pipeline readiness check
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-13
+- Last touched: 2026-05-15
+- Request IDs: R-2026-05-13-0001; R-2026-05-14-0009
+- Dependencies: Stage3Prompt.md; Stage 2 artifacts; ProjectDefinition.md; ResearchTruth.md; ScopeDecisionLog.md; docs/Data_Separation_And_Overfitting_Control.md; docs/db_Testing.md; docs/Pipeline_Testing.md; configs/features.example.yaml; configs/labels.example.yaml; docs/Detailed_Execution_Stages.md
+- Blockers: none for Stage 3 feature/label materialization; downstream Stage 4 split, lockbox, leakage, and artifact-packet gates were materialized on 2026-05-15
+- Approvals needed: approval remains required before changing alignment, target family, horizon set, event representation, no-news policy, provider stack, universe, evaluation, dataset contract, accepting truncation limitations as scientifically sufficient, selecting benchmark-comparability changes, destructive raw-data actions, key rotation, or sharing/committing sensitive ledgers/logs
+- Benchmark status: Stage 3 feature/label artifacts feed Stage 4 split artifacts, Stage 5 model-output artifacts, and Stage 6 reporting artifacts
+- Stale-risk status: low for Stage 3 feature/label artifact status after validation and Stage 4/Stage 5/Stage 6 consumption
+- Evidence pointers: Stage3Prompt.md; scripts/validate_stage3_readiness.py; scripts/validate_stage3_completion.py; configs/features.yaml; configs/labels.yaml; docs/agent/agent_log/Stage3_Feature_Label_Pipeline_Readiness_2026-05-13.md; data/manifests/stage3_feature_label_pipeline_readiness_2026-05-13.json; docs/agent/agent_log/Stage3_Feature_Label_Pipeline_Readiness_2026-05-14.md; data/manifests/stage3_feature_label_pipeline_readiness_2026-05-14.json; docs/agent/agent_log/Stage3_Materialization_2026-05-15.md; data/manifests/stage3_completion_validation_2026-05-15.json; data/features/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1/; data/datasets/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086/; focused pytest output `13 passed`
+- Notes: Stage 3 materialized market features, event-state features, aligned news, and labels for dataset version `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086`, `117750` rows, and row digest `6868e3b80086196385c3570f709b8bf747ec3f5afebb46dc624dd69b117cb58c`. Labels use user-selected simple return minus leave-one-out equal-weight approved-universe reference. Event-state features use deterministic 8-dimensional hash embeddings and preserve truncation-risk flags.
+
+- Task ID: T-2026-05-13-0002
+- Title: Verify Stage 2 implementation inputs and add input-readiness gate
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-13
+- Last touched: 2026-05-14
+- Request IDs: R-2026-05-13-0002
+- Dependencies: Stage2Prompt.md; Stage 1 audit artifacts; Stage 2 contract artifacts; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Data_Separation_And_Overfitting_Control.md; docs/db_Testing.md; docs/Pipeline_Testing.md; configs/data_contracts.example.yaml; configs/phase1_top50_benchmark.yaml
+- Blockers: none for Stage 2 input readiness after executable dataset tests and materialized artifacts were created on 2026-05-14
+- Approvals needed: approval remains required before changing clean-window doctrine, changing providers, changing universe, dropping no-news rows, changing horizons, changing evaluation, changing dataset contracts beyond documented Stage 2 contract, converting comment-only tests into executable tests, destructive raw-data actions, key rotation, sharing/committing sensitive ledgers/logs, or benchmark-comparability changes
+- Benchmark status: Stage 2 input-readiness gate reports dataset-builder inputs ready; materialized Stage 2 through Stage 6 artifacts now exist separately, with Stage 6 clean-null result evidence
+- Stale-risk status: low for Stage 2 input readiness after validation and downstream consumption
+- Evidence pointers: scripts/audit_deprecated_ohlcv_salvage.py; docs/agent/agent_log/Stage2_Deprecated_OHLCV_Salvage_Audit_2026-05-13.md; data/manifests/stage2_deprecated_ohlcv_salvage_audit_2026-05-13.json; scripts/validate_stage2_inputs.py; docs/agent/agent_log/Stage2_Input_Readiness_Verification_2026-05-13.md; data/manifests/stage2_input_readiness_2026-05-13.json; README.md; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md; docs/References.md; docs/testing_commands.md; docs/db_Testing.md; docs/Pipeline_Testing.md; Complete_guidebook.txt; py_compile output with no errors; Stage 2 input readiness output `blocking_inputs: executable_dataset_tests`; governance validator output `VALIDATION PASSED`; comment-only validation output `COMMENT_ONLY_VALIDATION PASSED`
+- Notes: The user requested Stage 2 implementation and explicit input verification. The gate originally blocked on executable dataset tests; after the 2026-05-14 Stage 2 conversion and materialization, it reports ready for the dataset-builder gate.
+
+- Task ID: T-2026-05-13-0003
+- Title: Reconcile Stage 2 readiness after deprecated OHLCV and Alpha Vantage instruction
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-13
+- Last touched: 2026-05-13
+- Request IDs: R-2026-05-13-0003; R-2026-05-13-0004
+- Dependencies: user recap/continue request; Stage 2 input readiness artifacts; deprecated OHLCV parquet evidence; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Data_Separation_And_Overfitting_Control.md
+- Blockers: executable dataset tests remain absent; materialized dataset artifact, dataset manifest, row-universe digest, and materialized clean-window record remain absent
+- Approvals needed: explicit approval remains required before converting comment-only tests into executable tests, changing protected benchmark scope, destructive raw-data actions, key rotation, or sharing/committing sensitive ledgers/logs
+- Benchmark status: evidence reconciliation only; no materialized benchmark dataset, feature/label artifact, split runner, model, benchmark runner, prediction, metric, or benchmark result created
+- Stale-risk status: low for current Stage 2 input evidence after validation; medium for future dataset build until executable tests and materialized artifacts exist
+- Evidence pointers: scripts/audit_deprecated_ohlcv_salvage.py; docs/agent/agent_log/Stage2_Deprecated_OHLCV_Salvage_Audit_2026-05-13.md; data/manifests/stage2_deprecated_ohlcv_salvage_audit_2026-05-13.json; scripts/validate_stage2_inputs.py; docs/agent/agent_log/Stage2_Input_Readiness_Verification_2026-05-13.md; data/manifests/stage2_input_readiness_2026-05-13.json; docs/agent/agent_log/Stage3_Feature_Label_Pipeline_Readiness_2026-05-13.md; data/manifests/stage3_feature_label_pipeline_readiness_2026-05-13.json; README.md; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md; docs/References.md; docs/testing_commands.md; Complete_guidebook.txt; ResearchTruth.md; ProjectDefinition.md
+- Notes: Verified there is no deprecated DB file, but deprecated Twelve Data parquet price branches cover top-50 plus SPY and derive an all-horizon candidate as-of range of `2024-04-01` to `2024-10-03`. Alpha Vantage provider-level article completeness is not claimed; current news is used with visible limitation flags under latest user instruction.
+
+- Task ID: T-2026-05-13-0004
+- Title: Finish Stage 1 universe and OHLCV checklist audit
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-13
+- Last touched: 2026-05-14
+- Request IDs: R-2026-05-13-0005; R-2026-05-14-0002
+- Dependencies: Stage1Prompt.md; docs/Detailed_Execution_Stages.md; ScopeDecisionLog.md; ResearchTruth.md; docs/Data_Update_Strategy.md; data/raw/universe/top50_slickcharts_2026-04-10.csv; deprecated Twelve Data raw files and collection scripts
+- Blockers: no remaining Stage 1 top-50 OHLCV missing-entry blocker after active raw Twelve Data 2010 backfill and audit. Raw Slickcharts 2026-04-10 source/export remains not evidenced and is recorded as a provenance limitation, not a blocker under the latest instruction. Split-adjustment method and CVX OHLC anomaly patch policy remain future approval/design items before dataset materialization.
+- Approvals needed: approval required before changing universe scope, treating full S&P 500 as comparable to top-50, overwriting raw files, destructive raw-data actions, key rotation, sharing/committing sensitive ledgers/logs, or promoting deprecated archive content beyond specific limitation-flagged evidence
+- Benchmark status: Stage 1 audit addendum only; no materialized benchmark dataset, clean-window selection, feature/label artifact, split runner, model, benchmark runner, prediction, metric, or benchmark result created
+- Stale-risk status: low for top-50 internal consistency, active Twelve Data top-50 plus SPY full-window raw residency, and deprecated fallback evidence after validation; medium for historical universe provenance and future split/patch policy because raw Slickcharts source/export and active split-adjustment choice are not finalized
+- Evidence pointers: scripts/audit_stage1_universe_ohlcv.py; data/manifests/stage1_universe_ohlcv_audit_2026-05-14.json; scripts/download_missing_twelvedata_ohlcv.py; scripts/audit_twelvedata_ohlcv_coverage.py; data/manifests/twelvedata_missing_ohlcv_download_plan_2026-05-14.json; data/manifests/twelvedata_top50_ohlcv_download_execution_2026-05-14.json; data/manifests/twelvedata_top50_spy_ohlcv_backfill_2010_2026-05-14.json; data/manifests/twelvedata_top50_spy_ohlcv_backfill_2010_completion_2026-05-14.json; data/manifests/twelvedata_ohlcv_coverage_2010_audit_2026-05-14.json; docs/agent/agent_log/Stage1_Universe_And_OHLCV_Audit_2026-05-14.md; docs/agent/agent_log/TwelveData_OHLCV_2010_Coverage_And_Splits_2026-05-14.md; py_compile output with no errors; Stage 1 universe/OHLCV audit output `active_raw_twelvedata_present: 50/50`, `download_plan_missing_entries: 0`, `hard_blockers: none`; 2010 coverage audit output `top50_full_window_files: 50/50`, `support_full_window_files: 1/1`, `top50_with_post_first_gaps: 0`, `hard_blockers: none`; Alpha Vantage top-50 plan output `pending_request_count: 0`; truncation-refinement plan output exists
+- Notes: The audit verified the active top-50 has 50 unique tickers, is exactly the first 50 rows of the top-100 Slickcharts file, matches the deprecated copy, preserves `BRK.B`, and all 50 tickers appear in the 2026-03-19 S&P 500 snapshot. Active raw Twelve Data now covers `50/50` approved top-50 tickers plus SPY support with full-window files for requested window `2010-01-01` to `2026-05-13`; the latest majority-calendar date is `2026-05-12`, no post-first-available-date gaps were detected, and late-start tickers `ABBV`, `GEV`, `META`, `PLTR`, and `TSLA` are limitation-flagged. Deprecated raw/parquet evidence remains fallback/reference-only and derives all-horizon candidate as-of range `2024-04-01` to `2024-10-03`.
+
+- Task ID: T-2026-05-14-0001
+- Title: Backfill and audit active Twelve Data OHLCV to 2010
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-14
+- Last touched: 2026-05-14
+- Request IDs: R-2026-05-14-0002
+- Dependencies: AgentRules.md; docs/agent/AgentMemory.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; Stage1Prompt.md; docs/db_Testing.md; docs/Data_Update_Strategy.md; data/raw/universe/top50_slickcharts_2026-04-10.csv; scripts/download_missing_twelvedata_ohlcv.py; deprecated split-event and split-adjustment reference files
+- Blockers: none for active raw OHLCV missing-entry coverage back to 2010 where provider/listing history exists. Remaining downstream blockers are future split-adjustment method selection, one CVX OHLC anomaly patch/cleaning policy, Alpha Vantage residual truncation refinement, sensitive raw ledger handling for publication/commit, and executable dataset tests before Stage 2 materialization.
+- Approvals needed: approval required before selecting or implementing an active split-adjustment method, patching raw provider values, accepting residual truncation as scientifically sufficient, changing clean-window doctrine, converting comment-only tests into executable tests, destructive raw-data actions, key rotation, sharing/committing sensitive ledgers/logs, or changing benchmark comparability
+- Benchmark status: raw OHLCV coverage/backfill evidence only; no materialized benchmark dataset, clean-window selection, row digest, feature/label artifact, split runner, model, benchmark runner, prediction, metric, or benchmark result created
+- Stale-risk status: low for active raw OHLCV coverage evidence after validation; medium for dataset readiness until split/patch policy and executable dataset tests are resolved
+- Evidence pointers: data/raw/twelvedata/*/time_series__2010-01-01__2026-05-13.json; scripts/download_missing_twelvedata_ohlcv.py; scripts/audit_twelvedata_ohlcv_coverage.py; data/manifests/twelvedata_top50_spy_ohlcv_backfill_2010_2026-05-14.json; data/manifests/twelvedata_top50_spy_ohlcv_backfill_2010_completion_2026-05-14.json; data/manifests/twelvedata_ohlcv_coverage_2010_audit_2026-05-14.json; docs/agent/agent_log/TwelveData_OHLCV_2010_Coverage_And_Splits_2026-05-14.md; docs/agent/agent_log/Stage1_Universe_And_OHLCV_Audit_2026-05-14.md; py_compile output with no errors; governance validator output `VALIDATION PASSED`; comment-only validation output `COMMENT_ONLY_VALIDATION PASSED`; Stage 2 input readiness output blocking only `executable_dataset_tests`
+- Notes: Backfilled active raw Twelve Data OHLCV for the approved top-50 plus SPY support for requested window `2010-01-01` to `2026-05-13` without overwriting existing raw files. Audit reports `45` top-50 tickers complete from the 2010 reference-calendar start, `5` late-start tickers complete after first available date, `0` post-first-available-date gaps, `0` missing top-50 dates after first availability, latest majority-calendar date `2026-05-12`, and one CVX OHLC order anomaly on `2023-06-05`. Deprecated split-event and split-adjustment code exists as reference-only evidence; no active split method was selected.
+
+- Task ID: T-2026-05-14-0002
+- Title: Finalize Stage 0 through Stage 1 completion status and validation evidence
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-14
+- Last touched: 2026-05-14
+- Request IDs: R-2026-05-14-0004; R-2026-05-14-0005
+- Dependencies: AgentRules.md; docs/agent/AgentMemory.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md; Stage0Prompt.md; Stage0APrompt.md; Stage0BPrompt.md; Stage1Prompt.md; docs/Data_Separation_And_Overfitting_Control.md; active Stage 1 audit artifacts
+- Blockers: none for Stage 0, Stage 0A, Stage 0B, or Stage 1 finalization. Downstream Stage 2 materialization remains blocked by absent executable dataset tests, and future dataset work still needs split-adjustment and CVX anomaly policy decisions.
+- Approvals needed: ask user before any new benchmark-family, provider, universe, target, horizon, evaluation, split-adjustment, raw-value patching, destructive raw-data, key-rotation, publication, or benchmark-comparability decision
+- Benchmark status: stage-finalization audit only; no materialized benchmark dataset, feature/label artifact, split runner, model, benchmark runner, prediction, metric, or benchmark result created
+- Stale-risk status: low for Stage 0 through Stage 1 completion evidence after validation; high remains for downstream implementation readiness until executable dataset tests and materialized artifacts exist
+- Evidence pointers: scripts/validate_stage0_stage1_completion.py; data/manifests/stage0_stage1_completion_validation_2026-05-14.json; docs/agent/agent_log/Stage0_Stage1_Finalization_2026-05-14.md; docs/Detailed_Execution_Stages.md; docs/testing_commands.md; Complete_guidebook.txt; docs/agent/agent_log/Stage2_Dataset_Contract_Definition_2026-05-12.md; data/manifests/stage2_dataset_contract_definition_2026-05-12.json; docs/agent/agent_log/Stage3_Feature_Label_Pipeline_Readiness_2026-05-13.md; data/manifests/stage3_feature_label_pipeline_readiness_2026-05-13.json; data/manifests/stage2_input_readiness_2026-05-13.json; governance validator output `VALIDATION PASSED`; comment-only validator output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=100)`; Stage 2 readiness output `blocking_inputs: executable_dataset_tests`; Stage 0-1 validator output `STAGE0_STAGE1_COMPLETION_VALIDATION PASSED`
+- Notes: Finalization classified Stage 0, Stage 0A, Stage 0B, and Stage 1 as done with exact non-claims. Alpha Vantage pending refinement is not a Stage 1 blocker because current scripts can continue it, but provider-level article completeness is not claimed and future artifacts must preserve truncation flags. Active raw Twelve Data presence supersedes stale absent-payload references.
+
+- Task ID: T-2026-05-14-0003
+- Title: Materialize Stage 2 top-50 benchmark dataset
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-14
+- Last touched: 2026-05-14
+- Request IDs: R-2026-05-14-0006; R-2026-05-14-0007
+- Dependencies: Stage2Prompt.md; Stage 1 raw audit artifacts; active raw Twelve Data top-50 plus SPY files; Alpha Vantage top-50 raw corpus; `docs/Data_Separation_And_Overfitting_Control.md`; approved user decisions for top-50 materialization, current Alpha Vantage use with visible limitations, and derived-only CVX patch handling
+- Blockers: none for Stage 2 materialized dataset readiness; downstream Stage 3, Stage 4, Stage 5, and Stage 6 artifacts now exist, with Stage 6 recording a clean-null limitation-bearing result packet
+- Approvals needed: approval remains required before changing protected scope, active split-adjustment method, raw-value patching, residual truncation acceptance as scientifically sufficient, destructive raw-data actions, key rotation, sensitive ledger sharing/commit, or benchmark-comparability changes
+- Benchmark status: materialized Stage 2 row/availability dataset feeds Stage 3, Stage 4, and Stage 5 artifacts; no metrics, comparison summary, or benchmark result created
+- Stale-risk status: low for Stage 2 dataset artifact after validation and downstream consumption; medium for Stage 6 until metric, diagnostic, and reporting contracts exist
+- Evidence pointers: `src/event_state_forecasting/data/contracts.py`; `src/event_state_forecasting/data/universe.py`; `src/event_state_forecasting/dataset/panel_builder.py`; `src/event_state_forecasting/dataset/row_universe.py`; `src/event_state_forecasting/dataset/dataset_versioning.py`; `src/event_state_forecasting/cli/build_benchmark_dataset.py`; `tests/data/test_contracts_contract.py`; `tests/dataset/test_row_universe_contract.py`; `tests/dataset/test_panel_builder_contract.py`; `scripts/validate_stage2_completion.py`; `docs/agent/agent_log/Stage2_Materialization_2026-05-14.md`; `data/datasets/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086/`; `data/manifests/stage2_completion_validation_2026-05-14.json`; focused pytest output `8 passed`; Stage 2 completion validation output `STAGE2_COMPLETION_VALIDATION PASSED`
+- Notes: Built a partitioned Parquet dataset with `117750` rows, `471` as-of dates, `50` approved tickers, `23550` rows per horizon, row digest `6868e3b80086196385c3570f709b8bf747ec3f5afebb46dc624dd69b117cb58c`, and clean window `2024-04-01` through `2026-02-13`. `SPY` is retained only as support/reference data and excluded from dataset rows. The CVX patch manifest records no selected full-window patch events but preserves the audit-reported `2023-06-05` derived patch candidate without raw-file mutation.
+
+- Task ID: T-2026-05-15-0001
+- Title: Materialize Stage 4 split and packet gates
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-15
+- Last touched: 2026-05-15
+- Request IDs: R-2026-05-15-0002
+- Dependencies: Stage4Prompt.md; Stage 3 feature/label artifacts; docs/Data_Separation_And_Overfitting_Control.md; docs/Benchmark_Testing.md; docs/Pipeline_Testing.md; ScopeDecisionLog.md; ResearchTruth.md; user-approved last-20-percent lockbox and monthly fold cadence
+- Blockers: none for Stage 4 split and packet-gate materialization; downstream Stage 5 model/preprocessing/saved-prediction artifacts and Stage 6 metric/diagnostic/comparison artifacts now exist
+- Approvals needed: approval remains required before changing the lockbox boundary, fold cadence, purge/embargo policy, protected scope, comparator ladder, active split-adjustment method, raw-value patching, residual truncation acceptance as scientifically sufficient, destructive raw-data actions, key rotation, sensitive ledger sharing/commit, or benchmark-comparability treatment
+- Benchmark status: Stage 4 split/lockbox/leakage/artifact-packet/runner-gate artifacts feed Stage 5 model-output artifacts; no metric, overfitting diagnostic, comparison summary, or benchmark result created
+- Stale-risk status: low for Stage 4 split artifact status after validation and Stage 5 consumption; medium for downstream Stage 6 until metric, diagnostic, and reporting contracts exist
+- Evidence pointers: `Stage4Prompt.md`; `configs/splits.yaml`; `configs/artifact_packet.yaml`; `src/event_state_forecasting/split/purged_embargo.py`; `src/event_state_forecasting/split/lockbox.py`; `src/event_state_forecasting/split/leakage_checks.py`; `src/event_state_forecasting/benchmark/artifact_packet.py`; `src/event_state_forecasting/benchmark/runner.py`; `src/event_state_forecasting/cli/build_splits_and_packet.py`; `tests/split/test_purged_embargo_contract.py`; `tests/split/test_leakage_contract.py`; `tests/benchmark/test_artifact_packet_contract.py`; `tests/benchmark/test_benchmark_runner_contract.py`; `scripts/validate_stage4_completion.py`; `docs/agent/agent_log/Stage4_Split_And_Packet_Materialization_2026-05-15.md`; `data/splits/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1/`; `data/manifests/stage4_completion_validation_2026-05-15.json`; focused pytest output `22 passed`; Stage 4 completion validation output `STAGE4_COMPLETION_VALIDATION PASSED`
+- Notes: Built Stage 4 monthly expanding walk-forward split artifacts for the approved Stage 3 artifact version `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1`. The split manifest has `9` folds, `60` trading-date purge/embargo policy, final 20% lockbox from `2025-09-30` through `2026-02-13`, `1059750` assignment rows, and row digest `6868e3b80086196385c3570f709b8bf747ec3f5afebb46dc624dd69b117cb58c`. Stage 5 later supplied preprocessing-fit and saved-prediction artifacts; the serious-run packet remains blocked because metric, overfitting-diagnostic, and comparison-summary artifacts do not exist.
+
+- Task ID: T-2026-05-21-0001
+- Title: Finalize Stage 4 guidebook, docs, and validation reconciliation
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-21
+- Last touched: 2026-05-21
+- Request IDs: R-2026-05-21-0001
+- Dependencies: user request to finish Stage 4; AgentRules.md; docs/agent/AgentMemory.md; Stage4Prompt.md; Complete_guidebook.txt; docs/Detailed_Execution_Stages.md; Stage 4 materialized artifacts
+- Blockers: none for Stage 4 final guidebook and validation reconciliation; Stage 5 model/preprocessing/saved-prediction artifacts and Stage 6 metric/diagnostic/comparison artifacts now exist
+- Approvals needed: approval remains required before changing Stage 4 lockbox boundary, fold cadence, purge/embargo policy, protected scope, comparator ladder, active split-adjustment method, raw-value patching, residual truncation acceptance as scientifically sufficient, destructive raw-data actions, key rotation, sensitive ledger sharing/commit, or benchmark-comparability treatment
+- Benchmark status: documentation and validation reconciliation only for this task; Stage 4 artifacts now feed Stage 5 model-output artifacts, while no metric, diagnostic, comparison summary, or benchmark result was created
+- Stale-risk status: low for Stage 4 documentation/guidebook coverage after final reconciliation and validation; medium for Stage 6 until metric/reporting contracts and executable tests exist
+- Evidence pointers: `Complete_guidebook.txt` Section 10A; `Stage4Prompt.md`; `docs/Detailed_Execution_Stages.md`; `scripts/validate_stage0_stage1_completion.py`; `docs/testing_commands.md`; `data/manifests/stage0_stage1_completion_validation_2026-05-14.json`; `data/manifests/stage2_input_readiness_2026-05-13.json`; `data/manifests/stage3_completion_validation_2026-05-15.json`; `data/manifests/stage4_completion_validation_2026-05-15.json`; final `python -m pytest "tests"` output `22 passed`; final Stage 4 completion validation output `STAGE4_COMPLETION_VALIDATION PASSED`; governance validation output `VALIDATION PASSED`; comment-only validation output `COMMENT_ONLY_VALIDATION PASSED`
+- Notes: Finalized Stage 4 documentation by replacing stale future-test and blocker wording, adding detailed guidebook coverage for Stage 4 identity, split policy, row accounting, artifact files, code/tests, packet-gate meaning, and Stage 5 handoff requirements, and updating the Stage 0-1 validator to accept monotonic Alpha Vantage refinement progress rather than one historical pending-count snapshot. Latest observed Alpha Vantage refinement summary generated 2026-05-20 reports total `planned=362`, `pending=199`, quarterly `valid=84`, quarterly `missing=198`, monthly `valid=79`, monthly `missing=1`, and budget remaining `0/25`; this remains raw refinement evidence only and does not change Stage 4 artifacts or create provider-level article completeness.
+
+- Task ID: T-2026-05-21-0002
+- Title: Materialize Stage 5 model and saved-prediction artifacts
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-21
+- Last touched: 2026-05-21
+- Request IDs: R-2026-05-21-0001
+- Dependencies: Stage5Prompt.md; Stage 3 feature/label artifacts; Stage 4 split artifacts; user-approved pragmatic broader sklearn roster, model-specific train-only preprocessing, development-plus-lockbox prediction scope, and tiny fixed search policy
+- Blockers: none for Stage 5 model/prediction materialization; downstream Stage 6 reporting has since materialized a clean-null result packet
+- Approvals needed: approval remains required before changing the comparator roster, lockbox boundary, fold cadence, purge/embargo policy, protected scope, active split-adjustment method, raw-value patching, residual truncation acceptance as scientifically sufficient, destructive raw-data actions, key rotation, sensitive ledger sharing/commit, or benchmark-comparability treatment
+- Benchmark status: Stage 5 model/preprocessing/saved-prediction artifacts only; Stage 6 separately created metrics, diagnostics, comparison summary, and a clean-null serious result packet
+- Stale-risk status: low for Stage 5 artifact status after validation and Stage 6 consumption
+- Evidence pointers: `Stage5Prompt.md`; `configs/models.yaml`; `src/event_state_forecasting/models/comparator_ladder.py`; `src/event_state_forecasting/models/market_baselines.py`; `src/event_state_forecasting/models/gated_fusion.py`; `src/event_state_forecasting/models/training.py`; `src/event_state_forecasting/models/inference.py`; `src/event_state_forecasting/cli/train_models_and_predict.py`; `tests/models/test_comparator_ladder_contract.py`; `tests/models/test_gated_fusion_contract.py`; `tests/models/test_training_contract.py`; `tests/models/test_saved_predictions_contract.py`; `scripts/validate_stage5_completion.py`; `docs/agent/agent_log/Stage5_Model_And_Prediction_Materialization_2026-05-21.md`; `data/models/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1/`; `data/manifests/stage5_completion_validation_2026-05-21.json`; focused model pytest output `12 passed`; Stage 5 completion validation output `STAGE5_COMPLETION_VALIDATION PASSED`
+- Notes: Materialized the frozen Stage 5 roster `phase1_top50_pragmatic_broader_sklearn_v1` with `8` model IDs, `9` folds, `5` horizons, `360` model-fit records, `360` preprocessing-fit records, and `2088000` saved prediction rows. Saved predictions include validation and lockbox roles only. At Stage 5 completion, the serious-run packet was correctly blocked on missing metrics, overfitting diagnostics, and comparison summary; Stage 6 later created those artifacts. Seven Elastic Net fits recorded convergence warnings in training diagnostics; no metrics or results were computed in Stage 5.
+
+- Task ID: T-2026-05-21-0003
+- Title: Materialize Stage 6 serious benchmark reporting artifacts
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-21
+- Last touched: 2026-05-21
+- Request IDs: R-2026-05-21-0002
+- Dependencies: Stage6Prompt.md; Stage 5 saved predictions; user-approved strict market hurdle, short-horizon result rule, final-reporting lockbox use, and loss-delta paired comparison policy
+- Blockers: none for Stage 6 artifact materialization; remaining limitations are provider-level article completeness not claimed, active split-adjustment method not selected, and train-validation gap explicitly blocked by absent train predictions
+- Approvals needed: approval remains required before changing metric policy, result rule, lockbox interpretation, comparator roster, protected scope, active split-adjustment method, raw-value patching, residual truncation acceptance as scientifically sufficient, destructive raw-data actions, key rotation, sensitive ledger sharing/commit, or benchmark-comparability treatment
+- Benchmark status: Stage 6 serious benchmark reporting packet created; result class `clean_null`; comparability `limitation_bearing`; serious packet `passed`
+- Stale-risk status: low for Stage 6 artifact status after completion validation; medium for future reinterpretation unless limitations and comparability class are preserved
+- Evidence pointers: `Stage6Prompt.md`; `configs/evaluation.yaml`; `src/event_state_forecasting/evaluation/regression.py`; `src/event_state_forecasting/evaluation/ranking.py`; `src/event_state_forecasting/evaluation/statistical_tests.py`; `src/event_state_forecasting/evaluation/comparison_summary.py`; `src/event_state_forecasting/cli/run_benchmark.py`; `tests/evaluation/test_metric_contracts.py`; `scripts/validate_stage6_completion.py`; `docs/agent/agent_log/Stage6_Serious_Benchmark_Reporting_2026-05-21.md`; `data/benchmark_runs/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage6_reporting_v1/`; `data/manifests/stage6_completion_validation_2026-05-21.json`; focused evaluation pytest output `4 passed`; Stage 6 completion validation output `STAGE6_COMPLETION_VALIDATION PASSED`
+- Notes: Materialized Stage 6 reporting with `800` metric rows, `800` ranking diagnostic rows, and `800` paired comparison rows. The predeclared result rule used primary horizons `1d`, `5d`, and `10d`; event-state cleared `0/3` primary horizons in validation and `0/3` in lockbox on both primary loss deltas. Selected strict market hurdles were `market_elastic_net` for `1d`, `10d`, `20d`, and `60d`, and `market_ridge` for `5d`.
+
+- Task ID: T-2026-05-21-0004
+- Title: Verify active documentation and draft post-Stage-6 execution/API runbooks
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-21
+- Last touched: 2026-05-21
+- Request IDs: R-2026-05-21-0003
+- Dependencies: user request to verify documentation and draft `ExecutionPipeline.md` plus the former API-centric usage reference now replaced by `UsageManual.md`; AgentRules.md; docs/agent/AgentMemory.md; Stage 6 artifact/documentation state
+- Blockers: none for the documentation verification/runbook drafting pass
+- Approvals needed: approval remains required before treating these runbooks as a new Stage 7, adding a user-facing API/service, changing protected scope, accepting truncation as scientifically resolved, changing comparability, or publishing/sharing sensitive ledgers
+- Benchmark status: documentation-only runbook/API-reference pass; no new benchmark run, metric change, result reinterpretation, or comparability change
+- Stale-risk status: low after stale Stage 6 availability wording was repaired and final validation passed
+- Evidence pointers: `ExecutionPipeline.md`; former API-centric usage reference now replaced by `UsageManual.md`; `ExecutionFlow.md`; `docs/Data_Update_Strategy.md`; `docs/Execution_Plan.md`; `README.md`; `docs/Architecture_Map.md`; `docs/Unit_Testing.md`; `Complete_guidebook.txt`; targeted stale-wording grep with no matches; `python -m pytest "tests"` output `38 passed`; `python -m compileall -q src scripts tests` no output; Stage 0-1 through Stage 6 validator outputs passed; governance `VALIDATION PASSED`; scaffold `COMMENT_ONLY_VALIDATION PASSED (files_scanned=110)`
+- Notes: User requested documentation verification plus two draft runbooks: a zero-start retraining methodology for new/refined data and a usage reference for calling the model and reading inputs/outputs. The former API-centric usage reference was explicitly local CLI/artifact interface only and is now superseded by `UsageManual.md`, preserving the phase-1 no user-facing API/service boundary. No new benchmark run, result reinterpretation, comparability change, or Stage 7 contract was created.
+
+- Task ID: T-2026-05-22-0001
+- Title: Create proposed Stage 7-12 prompt package and Stage 10 DeepResearch topic prompts
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-22
+- Last touched: 2026-05-22
+- Request IDs: R-2026-05-22-0001
+- Dependencies: user request to continue if next steps existed; prior user request for Stage 7-12 prompt files only; AgentRules.md; docs/agent/AgentMemory.md; Stage6Prompt.md; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md; ExecutionPipeline.md; UsageManual.md; docs/Data_Update_Strategy.md; Complete_guidebook.txt
+- Blockers: none for prompt creation; all future execution remains blocked until the relevant prompt is explicitly executed with approvals, tests, and documentation updates
+- Approvals needed: approval remains required before executing contextual-bandit/RL work, daily/weekly provider update scripts, live provider calls, user-facing API/service work, update-to-prediction development, visualization implementation, Yahoo News scraping, local LLM processing, buy/sell or price-target methodology, protected-scope changes, metric/result-policy changes, or benchmark-comparability changes
+- Benchmark status: documentation-only prompt package; no implementation, provider call, data update, model run, visualization artifact, benchmark rerun, result reinterpretation, or comparability change created
+- Stale-risk status: low for prompt discoverability after index updates and validation; medium for future implementation topics until research, decision approval, executable tests, and comparability reviews are performed
+- Evidence pointers: `Stage7APrompt.md`; `Stage7BPrompt.md`; `Stage7CPrompt.md`; `Stage8Prompt.md`; `Stage9Prompt.md`; `Stage10APrompt.md`; `Stage10BPrompt.md`; `Stage10CPrompt.md`; `Stage11Prompt.md`; `Stage12Prompt.md`; `DeepResearch_Chat_Topic_Update_To_Prediction_Pipeline.md`; `DeepResearch_Chat_Topic_Daily_Weekly_Data_Refresh.md`; `DeepResearch_Chat_Topic_Top10_Multi_Horizon_Visualization.md`; `DeepResearch_Chat_Topic_Relevant_News_Attribution.md`; `DeepResearch_Chat_Topic_Prediction_Trajectory_Graphs.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `README.md`; `Complete_guidebook.txt`; governance validation output `VALIDATION PASSED`; scaffold validation output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=110)`; event-ledger parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Created proposed prompt artifacts for Stage 7A contextual-bandit research, Stage 7B contextual-bandit decision comparison, Stage 7C contextual-bandit documentation integration, Stage 8 daily/weekly news and OHLCV update scripts, Stage 9 final documentation reconciliation, Stage 10A/10B/10C update-to-prediction research/decisions/development-testing, Stage 11 holistic repo/model/state-of-art audit research, and Stage 12 DeepResearch topic prompt maintenance. Also created five Stage 10 DeepResearch chat topic prompts covering update-to-prediction orchestration, daily/weekly data refresh, top-10 multi-horizon visualization, relevant-news attribution, and prediction-trajectory graphs. All files explicitly preserve Stage 6 `clean_null` and `limitation_bearing` evidence and forbid execution or protected-scope drift without later approval.
+
+- Task ID: T-2026-05-22-0002
+- Title: Execute Stage 7A contextual-bandit feasibility research
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-22
+- Last touched: 2026-05-22
+- Request IDs: R-2026-05-22-0003
+- Dependencies: Stage7APrompt.md; AgentRules.md; docs/agent/AgentMemory.md; docs/agent/AgentResearchWorkflows.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Data_Separation_And_Overfitting_Control.md; docs/Benchmark_Testing.md; Stage6Prompt.md; configs/models.yaml; configs/evaluation.yaml; Stage 3 through Stage 6 artifact evidence
+- Blockers: none for Stage 7A research completion; Stage 7B/7C and any contextual-bandit implementation remain unexecuted and approval-gated
+- Approvals needed: approval remains required before contextual-bandit/RL implementation, policy training, logged/simulated-policy protocol selection, Stage 6 lockbox reuse, news-days-only benchmark-family treatment, data/provider changes, benchmark reruns, metric/result-policy changes, or benchmark-comparability changes
+- Benchmark status: research-only feasibility memo; no implementation, model training, provider call, data mutation, benchmark rerun, result reinterpretation, or comparability change; Stage 6 remains `clean_null` and `limitation_bearing`
+- Stale-risk status: low for Stage 7A research discoverability after docs/index/guidebook updates; medium for future Stage 7B decisions because lockbox, news-days-only, reward, action-space, baseline, and offline-evaluation protocol choices remain unresolved
+- Evidence pointers: `docs/research_results/stage7a_contextual_bandit_feasibility_2026-05-22.md`; `Stage7APrompt.md`; `docs/research_results/research_comparison_master_index.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `README.md`; `Complete_guidebook.txt`; `docs/References.md`; governance validation output `VALIDATION PASSED`; scaffold validation output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=110)`; event-ledger parse output `EVENT_LEDGER_JSONL_VALID`; targeted stale Stage 7A status grep with no matches
+- Notes: Stage 7A concluded that contextual bandits are conceptually appropriate only as a future experimental policy layer on frozen Stage 3 features and/or Stage 5 predictions, not as a Stage 6 result upgrade. A daily last-year/news-days-only replay is feasible only as a separate diagnostic or new benchmark family because it changes the row population and overlaps the current Stage 6 lockbox. Missing logged actions and propensities block standard real-policy IPW/DR offline evaluation claims. Stage 7B must compare benchmark family, eligible rows, action space, reward, context, update cadence, evaluation protocol, and baselines before any development approval.
+
+- Task ID: T-2026-05-22-0003
+- Title: Execute Stage 7B contextual-bandit decision draft
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-22
+- Last touched: 2026-05-22
+- Request IDs: R-2026-05-22-0004
+- Dependencies: Stage7BPrompt.md; docs/research_results/stage7a_contextual_bandit_feasibility_2026-05-22.md; AgentRules.md; docs/agent/AgentTemplates.md; docs/agent/AgentMemory.md; docs/agent/AgentResearchWorkflows.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Data_Separation_And_Overfitting_Control.md; docs/Benchmark_Testing.md; configs/models.yaml; configs/evaluation.yaml; Stage6Prompt.md
+- Blockers: none for Stage 7B draft completion; Stage 7C and any contextual-bandit implementation remain blocked until explicit owner approval resolves `S7B-DQ-001` through `S7B-DQ-010`
+- Approvals needed: approval remains required before Stage 7C execution, contextual-bandit/RL implementation, policy training, using the current Stage 6 lockbox for design or tuning, treating news-days-only as comparable to Stage 6, logged/simulated-policy protocol selection, reward/action/context/baseline finalization, provider/data changes, benchmark reruns, metric/result-policy changes, or benchmark-comparability changes
+- Benchmark status: draft-only decision comparison; no approved protocol, implementation, policy training, provider call, data mutation, benchmark rerun, Stage 6 reinterpretation, Stage 7C execution, or comparability change; Stage 6 remains `clean_null` and `limitation_bearing`
+- Stale-risk status: low for Stage 7B draft discoverability; later Stage 7B decisions and Stage 7C execution supersede the draft-only blocker status
+- Evidence pointers: `docs/research_results/stage7b_contextual_bandit_decision_draft_2026-05-22.md`; `ScopeDecisionLog.md` pending entries `S7B-DQ-001` through `S7B-DQ-010`; `Stage7BPrompt.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `README.md`; `Complete_guidebook.txt`; `docs/References.md`; `ResearchTruth.md`; governance validation output `VALIDATION PASSED`; scaffold validation output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=110)`; event-ledger parse output `EVENT_LEDGER_JSONL_VALID`; targeted stale Stage 7B status grep with no matches after reconciliation
+- Notes: Stage 7B originally drafted a conservative pending bundle; subsequent user answers converted the Stage 7 direction into direct contextual-bandit scope expansion with new post-lockbox holdout, two-track row filters, two-sided top/bottom-k diagnostics, supervised then epsilon-greedy flow, combined Stage 3 plus Stage 5 context, full baselines, and diagnostics/docs/stub output.
+
+- Task ID: T-2026-05-22-0004
+- Title: Collect Stage 7B contextual-bandit decisions
+- Status: done
+- Priority: high
+- Owner: user for decisions, agent for recording and context handoff
+- Created: 2026-05-22
+- Last touched: 2026-05-22
+- Request IDs: R-2026-05-22-0005
+- Dependencies: ScopeDecisionLog.md; docs/research_results/stage7b_contextual_bandit_decision_draft_2026-05-22.md; Stage7BPrompt.md; AgentRules.md; docs/agent/AgentTemplates.md
+- Blockers: Stage 7B decision collection is complete; Stage 7C diagnostics were later approved and executed separately. All-data final-execution training-output and live buy/sell signal work remain blocked until explicitly approved.
+- Approvals needed: future explicit approval remains required before final-execution-pipeline all-data live-use training mode, live buy/sell signals, Stage 6 result reinterpretation, news-days-only comparability treatment beyond diagnostics, raw-news/LLM context expansion, metric/result-policy changes, or benchmark-comparability promotion.
+- Benchmark status: decision collection complete; subsequent Stage 7C diagnostics are recorded in T-2026-05-22-0005.
+- Stale-risk status: low for S7B-DQ-001 through S7B-DQ-010 recording after ScopeDecisionLog updates; Stage 7C/implementation state remains blocked until future explicit approval
+- Evidence pointers: `ScopeDecisionLog.md`; user answer `A direct scope expansion.` for `S7B-DQ-001`; user answer `New post-lockbox holdout` for `S7B-DQ-002`; user answer `Two-track primary+secondary` for `S7B-DQ-003`; user confirmation of `Development-only rolling replay` with learning curves and separate later final-execution-pipeline concept for `S7B-DQ-004`; user answer `Top-k basket per horizon` plus bottom-k worst decisions for `S7B-DQ-005`; user answer `Two-sided forward-return package` for `S7B-DQ-006`; user answer `Supervised then epsilon-greedy` with supervised diagnostics before adaptivity for `S7B-DQ-007`; user answer `Combined Stage 3 + Stage 5` for `S7B-DQ-008`; user answer `Full baseline bundle` for `S7B-DQ-009`; user answer `Diagnostics + docs + stub` for `S7B-DQ-010`; event ledger approval events `E-2026-05-22-0028`, `E-2026-05-22-0030`, `E-2026-05-22-0032`, `E-2026-05-22-0034`, `E-2026-05-22-0036`, `E-2026-05-22-0038`, `E-2026-05-22-0040`, `E-2026-05-22-0042`, `E-2026-05-22-0044`, and `E-2026-05-22-0046`
+- Notes: Stage 7B decision collection is complete. The selected Stage 7 direction is direct contextual-bandit scope expansion; new post-lockbox holdout; all-row primary plus news-days secondary; development-only rolling replay with learning curves and later final-execution design stub; two-sided top-k per horizon; two-sided forward-return reward; supervised diagnostics first then epsilon-greedy; combined Stage 3 plus fold-safe Stage 5 context with predictions-only ablation; full baseline bundle; saved diagnostics plus Stage 7C docs plus final-execution stub. Bottom-k remains diagnostic only and not an approved live sell signal.
+
+- Task ID: T-2026-05-22-0005
+- Title: Execute Stage 7C contextual-bandit diagnostics and approved data update
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-22
+- Last touched: 2026-05-22
+- Request IDs: R-2026-05-22-0006
+- Dependencies: Stage7CPrompt.md; ScopeDecisionLog.md Stage 7B decisions and Stage 7C approvals; configs/stage7_contextual_bandit.yaml; configs/stage7_splits_post_lockbox_2026-05-22.yaml; Stage 2 through Stage 6 artifacts; approved Twelve Data update path
+- Blockers: all-data final-execution training-output remains unapproved; live buy/sell signals remain unapproved; real logged-policy IPW/DR claims remain blocked by missing logged actions/propensities; Alpha Vantage provider-level article completeness remains unclaimed.
+- Approvals needed: explicit future approval required before all-data final-execution training-output, live trading/sell/short outputs, Stage 6 result reinterpretation, raw-news/LLM context expansion, benchmark-comparability promotion, or provider/universe/target/horizon drift.
+- Benchmark status: Stage 7C diagnostics-only artifact materialized with `benchmark_claim=false`; Stage 6 remains `clean_null` and `limitation_bearing`.
+- Stale-risk status: low for Stage 7C artifact discoverability after docs/memory updates; medium for interpreting Stage 7C metrics because the new post-lockbox holdout has only 7 as-of dates and fold-specific repeated lockbox predictions.
+- Evidence pointers: `docs/research_results/stage7c_post_lockbox_diagnostics_2026-05-22.md`; `configs/stage7_contextual_bandit.yaml`; `configs/stage7_splits_post_lockbox_2026-05-22.yaml`; `src/event_state_forecasting/stage7/`; `tests/stage7/`; `scripts/validate_stage7_completion.py`; `data/manifests/stage7_twelvedata_ohlcv_coverage_audit_2026-05-22.json`; `docs/agent/agent_log/Stage7_TwelveData_OHLCV_Update_Audit_2026-05-22.md`; `data/datasets/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260225__src_909564d5ebd6__rows_7a440338a923/`; `data/features/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260225__src_909564d5ebd6__rows_7a440338a923__stage3_features_labels_v1/`; `data/splits/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260225__src_909564d5ebd6__rows_7a440338a923__stage3_features_labels_v1__stage4_splits_v1/`; `data/models/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260225__src_909564d5ebd6__rows_7a440338a923__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1/`; `data/stage7_contextual_bandit/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260225__src_909564d5ebd6__rows_7a440338a923__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage7_contextual_bandit_v1__post_lockbox_holdout/`; `data/manifests/stage7_post_lockbox_completion_validation_2026-05-22.json`
+- Notes: Stage 7C implemented two-sided top/bottom-k contextual-bandit diagnostics using frozen Stage 3 features plus fold-safe Stage 5 predictions, primary `k=5`, diagnostic `k=3/10`, primary epsilon `0.05`, and diagnostic epsilons `0.01/0.10`. The approved Twelve Data raw update completed for top-50 plus SPY to requested end date `2026-05-22`; the all-horizon clean-window candidate extends to `2026-02-25`; explicit post-Stage-6-lockbox holdout spans `2026-02-17` through `2026-02-25`. The final-execution stub exists but all-data final-execution training-output was not run.
+
+- Task ID: T-2026-05-22-0006
+- Title: Implement Stage 8 plan-first raw data update scripts
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-22
+- Last touched: 2026-05-22
+- Request IDs: R-2026-05-22-0007
+- Dependencies: Stage8Prompt.md; docs/Data_Update_Strategy.md; ExecutionPipeline.md; UsageManual.md; scripts/alphavantage_news_bucket_common.py; scripts/download_missing_twelvedata_ohlcv.py; approved top-50 universe and provider stack
+- Blockers: live provider calls remain unapproved; raw overwrites remain unapproved; provider-level Alpha Vantage article completeness remains unclaimed; downstream Stage 2 through Stage 6 rebuild/reinterpretation remains unapproved until raw changes are executed and reviewed.
+- Approvals needed: explicit future approval required before Stage 8 `--execute`, raw `--overwrite`, provider-stack/universe changes, benchmark reruns, Stage 6 result reinterpretation, prediction outputs, or live trading/signal outputs.
+- Benchmark status: Stage 8 is raw update tooling only with `benchmark_claim=false`; no provider calls were executed, no raw files were overwritten, no benchmark artifacts were rebuilt, and Stage 6 remains `clean_null`/`limitation_bearing`.
+- Stale-risk status: low for plan-mode script/test discoverability after docs and validations; medium for future live operational use because provider quota/response behavior must be verified at execution time.
+- Evidence pointers: `scripts/stage8_data_update_common.py`; `scripts/news_update_daily.py`; `scripts/news_update_weekly.py`; `scripts/OHLCV_daily_update.py`; `scripts/OHLCV_weekly_update.py`; `tests/ops/test_stage8_data_update_contract.py`; `scripts/validate_comment_only_scaffold.py`; `docs/Data_Update_Strategy.md`; `ExecutionPipeline.md`; `UsageManual.md`; `README.md`; `ResearchTruth.md`; `ScopeDecisionLog.md`; final `python -m pytest tests` output `55 passed`; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=129)`; `python -m compileall -q src scripts tests` no output; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Stage 8 added shared plan/execute helpers and four wrapper scripts using the prompt candidate names. Default mode writes manifests and performs no provider calls. Live mode requires `--execute`, API key availability, `--max-calls`, rate-limit delay controls, no-overwrite review, and redacted request ledgers. Manifests include refresh-impact warnings and non-claims for provider completeness, benchmark results, Stage 6 reinterpretation, and live trading signals.
+
+- Task ID: T-2026-05-22-0007
+- Title: Execute Stage 9 documentation and memory reconciliation
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-22
+- Last touched: 2026-05-22
+- Request IDs: R-2026-05-22-0008
+- Dependencies: Stage9Prompt.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; docs/Execution_Plan.md; docs/Detailed_Execution_Stages.md; ExecutionPipeline.md; UsageManual.md; Complete_guidebook.txt; README.md; Stage 8 plan-first script evidence
+- Blockers: Stage 10C was later approved/executed for the local saved-prediction packet path only; Stage 11 through Stage 12 workflows remain unapproved; Stage 8 live provider calls and raw overwrites remain unapproved; provider-level Alpha Vantage article completeness remains unclaimed; all-data final-execution training-output and live buy/sell signals remain unapproved.
+- Approvals needed: explicit future approval required before feature code beyond existing approved paths, live provider execution, raw overwrites, benchmark reruns, Stage 6 result reinterpretation, benchmark-comparability promotion, prediction outputs, sensitive-artifact sharing, user-facing API/service work, or live trading/signal outputs.
+- Benchmark status: Stage 9 is documentation and operational-memory reconciliation only; no provider calls, raw mutations, benchmark reruns, Stage 6 reinterpretation, prediction outputs, or trading signals were created. Stage 6 remains `clean_null` with `limitation_bearing`; Stage 7C remains diagnostics-only with `benchmark_claim=false`.
+- Stale-risk status: low for active Stage 9 status wording after reconciliation; reference-only deprecated artifact copies may intentionally retain historical wording and must not override active truth.
+- Evidence pointers: `Stage9Prompt.md`; `ScopeDecisionLog.md`; `ResearchTruth.md`; `ProjectDefinition.md`; `README.md`; `Complete_guidebook.txt`; `docs/Architecture_Map.md`; `docs/Unit_Testing.md`; `docs/Implementation_Decisions.md`; `docs/Pipeline_Testing.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `docs/References.md`; `docs/agent/agent_log/Current_State.md`; `docs/agent/agent_log/Event_Ledger.ndjson`; `python -m pytest tests` output `55 passed`; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=129)`; `python -m compileall -q src scripts tests` no output; final ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`; targeted active-doc stale-status grep with no unresolved Stage 9 not-executed matches after memory reconciliation
+- Notes: Stage 9 reconciled active docs and memory after Stage 8, repaired stale Stage 9/Stage 7B status language, updated Stage 2-through-Stage 8 implementation/test wording where it had drifted, and preserved all Stage 6/Stage 7C/Stage 8 non-claims.
+
+- Task ID: T-2026-05-22-0008
+- Title: Execute Stage 10A update-to-prediction and visualization research
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-22
+- Last touched: 2026-05-22
+- Request IDs: R-2026-05-22-0009
+- Dependencies: Stage10APrompt.md; ExecutionPipeline.md; UsageManual.md; docs/Data_Update_Strategy.md; Stage8Prompt.md; ScopeDecisionLog.md; ResearchTruth.md; docs/Data_Separation_And_Overfitting_Control.md; configs/models.yaml; configs/evaluation.yaml; DeepResearch_Chat_Topic_Update_To_Prediction_Pipeline.md; DeepResearch_Chat_Topic_Top10_Multi_Horizon_Visualization.md; DeepResearch_Chat_Topic_Relevant_News_Attribution.md; DeepResearch_Chat_Topic_Prediction_Trajectory_Graphs.md; DeepResearch_Chat_Topic_Daily_Weekly_Data_Refresh.md
+- Blockers: Stage 10B decision capture is complete and `S10B-DQ-001` through `S10B-DQ-010` are answered, but Stage 10C development still requires explicit implementation approval; persisted fitted-model serving is not evidenced; one-command update-to-prediction orchestration is not evidenced; visualization outputs are not evidenced; true fresh forecast rows need an approved non-benchmark forecast role or inference-package design.
+- Approvals needed: explicit future approval required before Stage 10C implementation, persisted inference packaging, new forecast row roles, prediction-output artifact creation, visualization artifact creation, live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
+- Benchmark status: Stage 10A is research-only; no benchmark rerun, metric/result-policy change, Stage 6 reinterpretation, Stage 7C promotion, prediction output, visualization output, or trading claim was created.
+- Stale-risk status: low for Stage 10A discoverability after docs/memory updates; high for any future implementation until Stage 10C is explicitly approved and implements the Stage 10B-resolved output purpose, generation mode, model packaging boundary, forecast-row role, visualization format, ranking policy, news selection, trajectory graph, validation bar, and sensitive-artifact policy.
+- Evidence pointers: `docs/research_results/stage10a_update_to_prediction_workflow_2026-05-22.md`; `Stage10APrompt.md`; `ScopeDecisionLog.md`; `ResearchTruth.md`; `README.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `Complete_guidebook.txt`; `docs/References.md`; `docs/research_results/research_comparison_master_index.md`; `python -m pytest tests` output `55 passed`; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=129)`; `python -m compileall -q src scripts tests` no output; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Stage 10A recommends Stage 10B decide on a local dated artifact packet, generation mode, model scope, explicit non-benchmark forecast role, static HTML plus CSV/Parquet visualization format, deterministic top-10 ranking, deterministic aligned-news display, trajectory graph semantics, validation bar, and sensitive-artifact exclusion before any Stage 10C development.
+
+- Task ID: T-2026-05-23-0001
+- Title: Execute Stage 10B update-to-prediction decision comparison
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-23
+- Last touched: 2026-05-23
+- Request IDs: R-2026-05-23-0001
+- Dependencies: Stage10BPrompt.md; Stage10APrompt.md; docs/research_results/stage10a_update_to_prediction_workflow_2026-05-22.md; Stage8Prompt.md; ExecutionPipeline.md; UsageManual.md; docs/Data_Update_Strategy.md; AgentRules.md; docs/agent/AgentTemplates.md; ScopeDecisionLog.md; ResearchTruth.md
+- Blockers: first Stage 10C local packet implementation later executed; persisted fitted-model serving remains not evidenced and is rejected for the first Stage 10C implementation path; fresh feature-only forecast rows need explicit future inference-package and forecast-row-role approval; service/API/dashboard scope and trading/signal outputs remain unapproved.
+- Approvals needed: explicit future approval required before extending Stage 10C beyond the local historical-prediction packet path, persisted inference packaging, new `forecast_candidate` role, live provider calls, raw overwrites, scheduled automation, local dashboard/service/API scope, LLM summaries, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
+- Benchmark status: Stage 10B is decision-comparison and approval capture only; no benchmark rerun, metric/result-policy change, Stage 6 reinterpretation, Stage 7C promotion, prediction output, visualization output, persisted inference package, service/API/dashboard, or trading claim was created.
+- Stale-risk status: low for Stage 10B discoverability after docs/memory updates; Stage 10C implementation stale-risk is now governed by the separate Stage 10C packet validation and non-claim checks.
+- Evidence pointers: `docs/research_results/stage10b_update_to_prediction_decision_matrix_2026-05-23.md`; `Stage10BPrompt.md`; `ScopeDecisionLog.md`; `ResearchTruth.md`; `README.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `docs/References.md`; `docs/research_results/research_comparison_master_index.md`; `Complete_guidebook.txt`; final `python -m pytest tests` output `55 passed`; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=129)`; `python -m compileall -q src scripts tests` no output; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Stage 10B normalizes Stage 10A handoff topics into `S10B-DQ-001` through `S10B-DQ-010`. All ten decisions are answered: local model-output / forecast-candidate artifacts; single local artifact CLI; saved-prediction extraction first with rebuild-output compatibility and no persisted inference package; versioned `data/prediction_outputs/phase1_top50/...` root; static HTML plus CSV/Parquet packet; event-state score primary, market-hurdle delta secondary, and cross-horizon diagnostic only; aligned-news fields required with validated snippets optional and no LLM summaries; history plus forecast markers primary with optional historical diagnostics and no projected path; full fail-closed packet/report validation; and secrets/raw-ledger exclusion. Stage 10C later implemented the first local packet path under these constraints.
+
+- Notes update: `S10B-DQ-010` is answered as Option A: packets/reports must exclude raw API-key-bearing ledgers, raw provider secrets, unsanitized request URLs, raw request ledgers, API keys, and unsanitized provider logs. Option B redacted operational summaries and Option C raw request ledgers are not approved for the first implementation path. All Stage 10B DQs are answered, but Stage 10C implementation still requires separate explicit approval.
+
+- Task ID: T-2026-05-23-0002
+- Title: Verify agent governance, memory hierarchy, guidebook, flow, prompts, truth, and decision logs
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-23
+- Last touched: 2026-05-23
+- Request IDs: R-2026-05-23-0002; R-2026-05-23-0003
+- Dependencies: AgentRules.md; docs/agent/AgentAppendices.md; docs/agent/AgentMemory.md; docs/agent/AgentGlossary.md; docs/agent/AgentCompliance.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson; ScopeDecisionLog.md; ResearchTruth.md; Complete_guidebook.txt; ExecutionFlow.md; ExecutionPipeline.md; Stage10CPrompt.md; Stage11Prompt.md; Stage12Prompt.md
+- Blockers: none for this verification/update pass; Stage 10C was later approved/executed separately for local saved-prediction packet generation only.
+- Approvals needed: explicit future approval remains required before extending Stage 10C beyond the local historical-prediction packet path, persisted inference packaging, new forecast-row semantics beyond Stage 10B, live provider calls, raw overwrites, service/API/dashboard scope, trading signals, Stage 6 reinterpretation, protected-scope changes, or benchmark-comparability promotion.
+- Benchmark status: governance/documentation verification only; no benchmark rerun, metric/result-policy change, Stage 6 reinterpretation, Stage 7C promotion, prediction output, visualization output, provider call, raw-data mutation, or implementation change was created.
+- Stale-risk status: low for checked governance hierarchy and Stage 10C prompt/flow discoverability after updates; reference-only `reset/` and deprecated copies remain non-authoritative unless explicitly adopted.
+- Evidence pointers: `AgentRules.md`; `docs/agent/AgentAppendices.md`; `docs/agent/AgentMemory.md`; `docs/agent/AgentGlossary.md`; `ScopeDecisionLog.md`; `ResearchTruth.md`; `Complete_guidebook.txt`; `ExecutionFlow.md`; `ExecutionPipeline.md`; `Stage10CPrompt.md`; `Stage11Prompt.md`; `Stage12Prompt.md`; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python -m pytest tests` output `55 passed`; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Verified the truth hierarchy and operational memory state after Stage 10B. Applied minimal stale-status repairs: `Stage10CPrompt.md` now reflects answered Stage 10B constraints and still blocks implementation without explicit approval; `ExecutionFlow.md` now includes Stage 7C validation and a Stage 10 boundary; `Complete_guidebook.txt` now describes `ExecutionFlow.md` through Stage 10B.
+
+- Task ID: T-2026-05-23-0003
+- Title: Execute and reconcile Stage 10C local prediction-output packet implementation
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-23
+- Last touched: 2026-05-23
+- Request IDs: R-2026-05-23-0004; R-2026-05-23-0005
+- Dependencies: Stage10CPrompt.md; ScopeDecisionLog.md Stage 10B decisions and Stage 10C approval; Stage 5 saved predictions; Stage 3 feature/label artifacts; Stage 6 evaluation context; UsageManual.md; ExecutionFlow.md; ResearchTruth.md
+- Blockers: none for the first local saved-prediction extraction packet path; persisted fitted-model serving is not evidenced; fresh feature-only forecast rows still need explicit future inference-package and row-role approval; service/API/dashboard scope and trading/signal outputs remain unapproved.
+- Approvals needed: explicit future approval required before persisted inference packaging, new `forecast_candidate` semantics, live provider calls, raw overwrites, hidden Stage 2-6 reruns, scheduled automation, service/API/dashboard scope, LLM summaries, trading/signal outputs, Stage 6 reinterpretation, protected-scope changes, or benchmark-comparability promotion.
+- Benchmark status: Stage 10C is a local historical-prediction output packet only; it is not a benchmark result, benchmark rerun, Stage 6 reinterpretation, positive result claim, fresh forecast inference, service/API output, or trading signal. Stage 6 remains `clean_null` with `limitation_bearing`.
+- Stale-risk status: low for active Stage 10C implementation/docs after reconciliation; medium for future prediction-output extensions because persisted inference and fresh forecast-row semantics remain unresolved.
+- Evidence pointers: `src/event_state_forecasting/stage10/prediction_outputs.py`; `src/event_state_forecasting/cli/generate_prediction_outputs.py`; `scripts/validate_stage10c_completion.py`; `tests/stage10/test_prediction_outputs_contract.py`; `data/prediction_outputs/phase1_top50/2026-05-23__cutoff_20260213__src_e4be8957b633__rows_6868e3b80086__stage5_b68e237c0d0f__prediction_outputs_v1/`; `data/manifests/stage10c_completion_validation_2026-05-23.json`; `Stage10CPrompt.md`; `ExecutionFlow.md`; `UsageManual.md`; `docs/testing_commands.md`; `README.md`; `Complete_guidebook.txt`; `ResearchTruth.md`; `ScopeDecisionLog.md`; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=133)`; `python scripts/validate_stage10c_completion.py ...` output `STAGE10C_COMPLETION_VALIDATION PASSED`; `python -m pytest tests/stage10` output `3 passed`; `python -m pytest tests` output `58 passed`; `python -m compileall -q src scripts tests` no output; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Stage 10C uses existing Stage 5 saved predictions, selects the latest saved-prediction snapshot at or before the data cutoff, ranks event-state predictions per horizon as primary, reports selected-market-hurdle deltas as secondary, keeps cross-horizon aggregation diagnostic only, includes deterministic aligned-news context without URLs or LLM summaries, creates trajectory markers without projected price paths, and validates non-claims plus sensitive-artifact exclusions.
+
+- Task ID: T-2026-05-23-0004
+- Title: Reconcile Stage 11 and DeepResearch prompts after Stage 10C
+- Status: done
+- Priority: medium
+- Owner: agent
+- Created: 2026-05-23
+- Last touched: 2026-05-23
+- Request IDs: R-2026-05-23-0006
+- Dependencies: Stage11Prompt.md; Stage12Prompt.md; DeepResearch_Chat_Topic_Update_To_Prediction_Pipeline.md; DeepResearch_Chat_Topic_Daily_Weekly_Data_Refresh.md; DeepResearch_Chat_Topic_Top10_Multi_Horizon_Visualization.md; DeepResearch_Chat_Topic_Relevant_News_Attribution.md; DeepResearch_Chat_Topic_Prediction_Trajectory_Graphs.md; Stage10CPrompt.md; ScopeDecisionLog.md; ResearchTruth.md; UsageManual.md; ExecutionFlow.md
+- Blockers: none for prompt maintenance; historical Stage 10A research memo still contains intentionally historical future-Stage-10C wording and was not rewritten.
+- Approvals needed: explicit future approval remains required before executing Stage 11 audit work, implementing Stage 12-derived changes, persisted inference packaging, new `forecast_candidate` semantics, live provider calls, raw overwrites, hidden Stage 2-6 reruns, scheduled automation, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, protected-scope changes, or benchmark-comparability promotion.
+- Benchmark status: prompt maintenance only; no code change, provider call, raw-data mutation, benchmark rerun, metric/result-policy change, new prediction artifact, Stage 6 reinterpretation, or benchmark-comparability promotion was created.
+- Stale-risk status: low for Stage 11, Stage 12, and the five DeepResearch prompt files after post-Stage-10C alignment; remaining stale-risk is in historical research documents or future extension scaffolds.
+- Evidence pointers: `Stage11Prompt.md`; `Stage12Prompt.md`; `DeepResearch_Chat_Topic_Update_To_Prediction_Pipeline.md`; `DeepResearch_Chat_Topic_Daily_Weekly_Data_Refresh.md`; `DeepResearch_Chat_Topic_Top10_Multi_Horizon_Visualization.md`; `DeepResearch_Chat_Topic_Relevant_News_Attribution.md`; `DeepResearch_Chat_Topic_Prediction_Trajectory_Graphs.md`; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=133)`; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Added explicit required-background tables to Stage 11 and all DeepResearch topic prompts, replaced stale pre-Stage-10C visualization/output wording with current Stage 10C packet facts, preserved the local CLI/artifact boundary, and kept Stage 10C `historical_prediction` semantics separate from unapproved future `forecast_candidate` semantics.
+
+- Task ID: T-2026-05-23-0005
+- Title: Update execution pipeline and convert usage reference into usage manual
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-23
+- Last touched: 2026-05-23
+- Request IDs: R-2026-05-23-0007
+- Dependencies: ExecutionPipeline.md; UsageManual.md; Complete_guidebook.txt; README.md; ExecutionFlow.md; ScopeDecisionLog.md; ResearchTruth.md; ProjectDefinition.md; Stage0Prompt.md through Stage12Prompt.md; DeepResearch_Chat_Topic_*.md; docs/Execution_Plan.md; docs/Architecture_Map.md; docs/research_results/stage10a_update_to_prediction_workflow_2026-05-22.md; docs/research_results/stage10b_update_to_prediction_decision_matrix_2026-05-23.md
+- Blockers: none for documentation/manual/runbook maintenance; deprecated Stage 7 artifact copies still mention the old usage filename as historical copied settings and were not edited.
+- Approvals needed: explicit future approval remains required before live provider calls, raw overwrites, persisted inference packaging, new `forecast_candidate` semantics, all-data final-execution training output, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, protected-scope changes, or benchmark-comparability promotion.
+- Benchmark status: documentation/manual/runbook update only; no code change, provider call, raw-data mutation, benchmark rerun, metric/result-policy change, new prediction artifact, Stage 6 reinterpretation, or benchmark-comparability promotion was created.
+- Stale-risk status: low for active runbook/manual references after converting `UsageManual.md`; remaining old-name references are only in deprecated copied artifact settings under `data/stage7_contextual_bandit/phase1_top50/deprecated_stage6_settings/`.
+- Evidence pointers: `ExecutionPipeline.md`; `UsageManual.md`; `Complete_guidebook.txt`; `README.md`; `ExecutionFlow.md`; `Stage7CPrompt.md`; `Stage8Prompt.md`; `Stage9Prompt.md`; `Stage10APrompt.md`; `Stage10BPrompt.md`; `Stage10CPrompt.md`; `Stage11Prompt.md`; `Stage12Prompt.md`; `DeepResearch_Chat_Topic_Update_To_Prediction_Pipeline.md`; `DeepResearch_Chat_Topic_Daily_Weekly_Data_Refresh.md`; `DeepResearch_Chat_Topic_Top10_Multi_Horizon_Visualization.md`; `DeepResearch_Chat_Topic_Relevant_News_Attribution.md`; `DeepResearch_Chat_Topic_Prediction_Trajectory_Graphs.md`; `ScopeDecisionLog.md`; `docs/Execution_Plan.md`; `docs/Architecture_Map.md`; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=133)`; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Rewrote `ExecutionPipeline.md` around run modes, approval gates, stage/function matrices, active/planned function catalog, raw update path, Stage 2-6 rebuild path, Stage 7C diagnostics, Stage 10C packet generation, validation, documentation propagation, and comparability rules. Renamed the usage reference to `UsageManual.md` and rewrote it as a holistic local usage manual with command inputs, outputs, artifact roots, active commands, planned/comment-only function entries, non-claims, and safety notes.
+
+- Task ID: T-2026-05-23-0006
+- Title: Restore detailed usage-reference material inside UsageManual.md
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-23
+- Last touched: 2026-05-23
+- Request IDs: R-2026-05-23-0008
+- Dependencies: UsageManual.md; prior UsageAPI.md references in historical ledger; active CLI files under `src/event_state_forecasting/cli/`; Stage 8 update scripts; validators; README current artifact counts
+- Blockers: the exact former `UsageAPI.md` body was not recoverable from git history or the workspace because the usage file is untracked in this repo state; restoration therefore used active code, docs, prompts, artifact manifests, and ledger evidence to reconstruct and preserve the useful command/interface details.
+- Approvals needed: none for this documentation correction; future approval remains required before live provider calls, raw overwrites, persisted inference packaging, new `forecast_candidate` semantics, all-data final-execution training output, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, protected-scope changes, or benchmark-comparability promotion.
+- Benchmark status: documentation/manual expansion only; no code change, provider call, raw-data mutation, benchmark rerun, metric/result-policy change, new prediction artifact, Stage 6 reinterpretation, or benchmark-comparability promotion was created.
+- Stale-risk status: lower for `UsageManual.md` after restoring former API-reference style material into the holistic manual structure; exact deleted prose cannot be proven because no tracked old file version exists.
+- Evidence pointers: `UsageManual.md`; `Complete_guidebook.txt`; `src/event_state_forecasting/cli/build_benchmark_dataset.py`; `src/event_state_forecasting/cli/build_features_and_labels.py`; `src/event_state_forecasting/cli/build_splits_and_packet.py`; `src/event_state_forecasting/cli/train_models_and_predict.py`; `src/event_state_forecasting/cli/run_benchmark.py`; `src/event_state_forecasting/cli/run_stage7_contextual_bandit.py`; `src/event_state_forecasting/cli/run_stage7_final_execution.py`; `src/event_state_forecasting/cli/generate_prediction_outputs.py`; `src/event_state_forecasting/stage10/prediction_outputs.py`; `configs/features.yaml`; `configs/labels.yaml`; `configs/splits.yaml`; `configs/models.yaml`; `configs/evaluation.yaml`; `scripts/stage8_data_update_common.py`; `README.md`; `UsageManual.md` line count output `1251`; heading grep found Model-Output Usage Interface, Table And Column Reference, Config Reference, and Documentation Maintenance Checklist; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=133)`; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Expanded `UsageManual.md` from a compressed 206-line manual into a fuller local usage/reference manual, then performed a second recovery pass to preserve more former API-reference value. The manual now has 1,251 lines and includes interface model, requirements, quick start, artifact inventory/counts, command flags, inputs, outputs, stdout summaries, model-output calling semantics, Stage 10C request/response contract, local consumption examples, table/column references, config references, artifact reading order, field guide, raw/provider utilities, planned/stubbed functions, error handling, overwrite semantics, and maintenance checklist.
+
+- Task ID: T-2026-05-23-0007
+- Title: Prepare repository for GitHub publishing and prompt archive relocation
+- Status: blocked_external_manual_repo_creation
+- Priority: high
+- Owner: agent
+- Created: 2026-05-23
+- Last touched: 2026-05-23
+- Request IDs: R-2026-05-23-0009
+- Dependencies: `.gitignore`; `docs/Prompts/`; `docs/Prompts/README.md`; `README.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `UsageManual.md`; `Complete_guidebook.txt`; `docs/Architecture_Map.md`; `scripts/validate_stage0_stage1_completion.py`; `scripts/validate_comment_only_scaffold.py`; `scripts/validate_agent_governance.py`
+- Blockers: User selected private repo `ValdiviaEng/financial-event-state-forecasting`, but GitHub repository creation is blocked because `gh` is not available in either the Windows shell or WSL distribution used by the workspace. User chose the GitHub UI path, so the next local action is to add the remote after the user creates the private repo and provides its URL.
+- Approvals needed: no additional repo-name approval is pending for `ValdiviaEng/financial-event-state-forecasting` private creation. Future approval remains required before live provider calls, raw overwrites, persisted inference packaging, new `forecast_candidate` semantics, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, protected-scope changes, or benchmark-comparability promotion.
+- Benchmark status: repository-publication hygiene only; no provider call, raw-data mutation, benchmark rerun, model training, prediction artifact, Stage 6 reinterpretation, or benchmark-comparability promotion was created.
+- Stale-risk status: low for active prompt paths after moving root prompt artifacts under `docs/Prompts/`; historical ledger entries and deprecated copied artifact settings may still contain old names as non-authoritative history.
+- Evidence pointers: `docs/Prompts/README.md`; moved prompt files under `docs/Prompts/`; `.gitignore`; `README.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `UsageManual.md`; `Complete_guidebook.txt`; `docs/Architecture_Map.md`; `scripts/validate_stage0_stage1_completion.py`; prompt-path grep found no active root-path prompt references; selected repo answer `ValdiviaEng/financial-event-state-forecasting` private; user chose GitHub UI path after `gh` was unavailable; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=133)`; `python scripts/validate_stage0_stage1_completion.py` output `STAGE0_STAGE1_COMPLETION_VALIDATION PASSED`; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`; `gh auth status` failed because `gh` is not recognized; WSL `gh auth status` failed with `gh: command not found`
+- Notes: Active root-level prompt artifacts were relocated into `docs/Prompts/`, prompt references were updated across active docs and validators, and `.gitignore` was tightened for public GitHub safety by excluding local secrets, raw/generated data, prediction/benchmark outputs, provider ledgers/logs, and local scratch/deprecated snapshots. The repo has not been created remotely yet because the GitHub CLI is unavailable.
+
+## Decisions and Approvals Index (REFERENCE-ONLY)
+- Approval event IDs: E-2026-04-03-0002; E-2026-04-13-0006; E-2026-04-16-0002; E-2026-05-07-0034; E-2026-05-15-0002; E-2026-05-15-0010; E-2026-05-21-0008; E-2026-05-21-0017; E-2026-05-22-0028; E-2026-05-22-0030; E-2026-05-22-0032; E-2026-05-22-0034; E-2026-05-22-0036; E-2026-05-22-0038; E-2026-05-22-0040; E-2026-05-22-0042; E-2026-05-22-0044; E-2026-05-22-0046; E-2026-05-22-0048; E-2026-05-22-0049; E-2026-05-22-0050; E-2026-05-22-0061; E-2026-05-22-0067; E-2026-05-22-0075; E-2026-05-23-0002; E-2026-05-23-0028; E-2026-05-23-0041
+- Scope decisions: ScopeDecisionLog.md
+- Current active truth: ResearchTruth.md
+
+## Open Questions for User
+- Pending for GitHub publication: user creates private repo `ValdiviaEng/financial-event-state-forecasting` in the GitHub UI and provides the remote URL, then local remote setup can continue.
+- Next research/product approval gate, if desired: persisted inference packaging, new `forecast_candidate` semantics, live provider calls, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
+
+## Last Session Delta
+- New requests: user requested GitHub-publication preparation, including moving root prompt artifacts into a docs subfolder, tightening publish safety, and asking the user to choose from several repository-name options before repo creation.
+- Tasks created/updated: T-2026-05-23-0007 created; the user selected `ValdiviaEng/financial-event-state-forecasting` as a private repo; after `gh` was unavailable, the user selected the GitHub UI creation path.
+- Work executed: moved active root prompt artifacts into `docs/Prompts/`; added `docs/Prompts/README.md`; updated active prompt-path references across docs and validators; tightened `.gitignore` for secrets, generated data, provider ledgers/logs, and local scratch/deprecated snapshots; repaired the Stage 0/1 validator to reuse the active scaffold allowlist and avoid brittle count blocking.
+- Evidence logged: `docs/Prompts/`; `.gitignore`; active docs and validator references; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=133)`; `python scripts/validate_stage0_stage1_completion.py` output `STAGE0_STAGE1_COMPLETION_VALIDATION PASSED`; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`; active prompt-path grep found no stale root-path prompt references; `gh` unavailable in Windows shell and WSL.
+- Blockers found: no contradiction requiring technical clarification; GitHub repo creation is externalized to the GitHub UI because `gh` is not installed/available in the execution environment.
+- Approvals required: approval remains required before creating the GitHub repository, persisted inference packaging, new `forecast_candidate` semantics, Stage 8 `--execute`, raw `--overwrite`, hidden Stage 2-6 reruns, service/API/dashboard scope, all-data final-execution training-output, live trading/sell/short outputs, raw-news/LLM context expansion, protected-scope changes, metric/result-policy changes, Stage 6 reinterpretation, or benchmark-comparability promotion.
+
+## Drift / Staleness Flags
+- `Current_State.md` had drifted badly from later owner-approved scope and active-root implementation work; repaired this session.
+- Interaction-log history remains incomplete for intermediate sessions between 2026-04-03 and this repair; repository artifacts are now referenced explicitly to reduce ambiguity.
+- Remaining stale-risk is concentrated in future provider/utility/expansion scaffolds, reference-only deprecated artifact copies, future Stage 10C extensions beyond historical-prediction packets, and any result reinterpretation because approved Stage 2 through Stage 8 plus Stage 10C contracts/claims have been converted only for their explicit scoped paths.
+- Alpha Vantage canonical top-50 file coverage is complete, but provider-level article completeness is not claimed because some yearly/current windows are likely truncated; downstream dataset and feature artifacts must carry limitation flags.
+- Documentation verification on 2026-05-21 repaired stale runbook/index wording that still described Stage 6 as unavailable despite Stage 6 completion.
+- Before this update, ownership of decision-presentation scoring was somewhat ambiguous between research-comparison rules and approval templates; this session clarified that approval-choice matrices belong to `AgentTemplates.md`, while broad research comparisons remain governed by `AgentResearchWorkflows.md`.
+- `ResearchTruth.md` stale Alpha Vantage daemon references were repaired to reference the current standalone/bucket runner architecture and the 2026-05-06 raw merge evidence.
+- 2026-05-06 raw merge completed canonical top-50 Alpha Vantage file coverage: 850/850 canonical windows and 0 pending in the refreshed top-50 runner summary.
+- Provider-level article completeness remains a limitation because 92 canonical windows have 1000 feed rows and are likely truncated under the Alpha Vantage response limit; current Stage 2 input readiness accepts current news with flags.
+- Minimum AgentRules-required theory/design/validation/operations/onboarding skeleton docs exist; approved Stage 2 through Stage 7C paths, Stage 8 update-script tests, and Stage 10C packet tests are executable, while remaining provider/utility/expansion scaffolds still need explicit contracts and approval before conversion.
+- `data/raw/alphavantage/news_request_ledger.jsonl` contains API-key-bearing request URLs; do not commit/share raw ledgers as-is and rotate the exposed provider key.
+- `ProjectDefinition.md` provides the broad non-code active project definition, but it does not authorize changing Stage 6 result policy, comparability treatment, or protected scope by itself.
+- `docs/Prompts/StructuralFolderMapPrompt.md` was executed once to create the original comment-only `src/`, `configs/`, and `tests/` scaffold. Approved Stage 2 through Stage 8 and Stage 10C paths/tests now supersede scaffold-only status only for those explicit paths.
+- `Complete_guidebook.txt` has been upgraded from a skeleton map into a comprehensive active-root map, but it remains a guidebook only and does not create additional benchmark-result evidence beyond the Stage 6 artifacts.
+- `docs/Data_Separation_And_Overfitting_Control.md` records the approved Option B validation-design contract; Stage 2 through Stage 6 enforce the converted portions, with train-validation gap explicitly blocked by absent Stage 5 train predictions.
+- `docs/Detailed_Execution_Stages.md` and the `docs/Prompts/Stage*Prompt.md` files now provide granular execution guidance, but they are prompt artifacts only and do not create implementation or validation evidence by themselves.
+- `docs/Prompts/Stage0Prompt.md` was executed on 2026-05-12; Stage 0 active documentation repair is complete as documentation readiness only, and later approved Stage 2 through Stage 8 plus Stage 10C work now provides separate implementation/test evidence for explicit scoped claims.
+- `docs/Prompts/Stage1Prompt.md` was executed on 2026-05-12; Stage 1 raw data status is documented as audit evidence only, with 850/850 parseable canonical top-50 Alpha Vantage windows, 92 likely truncated windows, 10 empty-feed windows, sensitive ledger/log risk, and active raw Twelve Data top-50 plus SPY support coverage back to 2010 after the 2026-05-14 backfill.
+- `docs/Prompts/Stage2Prompt.md` was executed on 2026-05-12 as a contract/blocker definition, reconciled on 2026-05-13 with deprecated OHLCV salvage evidence, and materialized on 2026-05-14 for the approved top-50 row universe with executable tests and validation evidence.
+- `scripts/validate_stage2_inputs.py` was created on 2026-05-13 as an executable Stage 2 input-readiness gate; after Stage 2 test conversion it reports `ready_for_dataset_builder_gate` and writes `data/manifests/stage2_input_readiness_2026-05-13.json` when run with `--write`.
+- `scripts/audit_deprecated_ohlcv_salvage.py` was created on 2026-05-13 and verifies deprecated Twelve Data parquet coverage for top-50 plus SPY with an all-horizon candidate as-of range of `2024-04-01` to `2024-10-03`.
+- `scripts/audit_twelvedata_ohlcv_coverage.py` was created on 2026-05-14 and verifies active raw Twelve Data top-50 plus SPY support full-window files for `2010-01-01` to `2026-05-13`; it reports no post-first-available-date gaps, five late-start tickers, latest majority-calendar date `2026-05-12`, and one CVX OHLC anomaly requiring future policy.
+- `scripts/run_alphavantage_news_truncation_refinement_quarterly.py` was created on 2026-05-12, tightened on 2026-05-13, and logging-aligned on 2026-05-14 to refine Stage 1 likely truncated Alpha Vantage windows into quarterly requests, validate on-disk files, create monthly follow-ups for truncated quarters, and keep stdout compact; latest observed summary generated 2026-05-20 shows total `199` pending refinement requests and budget remaining `0/25` in the rolling successful-call window.
+- `scripts/validate_comment_only_scaffold.py` now exists to enforce the remaining `src/`, `configs/`, and `tests/` comment-only invariant while exempting approved Stage 2 through Stage 7C executable paths, the Stage 8 ops test path, and Stage 10C executable packet paths.
+- `docs/Prompts/Stage3Prompt.md` was executed on 2026-05-13 as a readiness/blocker check, rechecked on 2026-05-14 after Stage 2 materialization, and materialized on 2026-05-15 after user decisions resolved the label-reference and event-state details. Stage 3 feature/label artifacts now exist and Stage 4 split artifacts consume them.
+- `docs/Prompts/Stage4Prompt.md` was executed on 2026-05-15 after user decisions froze the last-20-percent lockbox and monthly development fold cadence. Stage 4 split/lockbox/leakage/packet-gate artifacts now exist.
+- `docs/Prompts/Stage5Prompt.md` was executed on 2026-05-21 after user decisions froze the pragmatic broader sklearn roster, model-specific safe preprocessing, development-plus-lockbox saved-prediction scope, and tiny fixed search policy. Stage 5 model/preprocessing/saved-prediction artifacts now exist and feed Stage 6.
+- `docs/Prompts/Stage6Prompt.md` was executed on 2026-05-21 after user decisions froze the strict market hurdle, short-horizon result rule, final-reporting lockbox use, and loss-delta paired comparison policy. Stage 6 metric/diagnostic/comparison artifacts now exist; result class is `clean_null` and comparability is `limitation_bearing`.
+- `docs/Prompts/Stage7APrompt.md` through `docs/Prompts/Stage12Prompt.md` were created on 2026-05-22 as proposed prompt artifacts. Stage 7A was executed on 2026-05-22 as research-only and produced `docs/research_results/stage7a_contextual_bandit_feasibility_2026-05-22.md`; Stage 7B decision collection is complete in `ScopeDecisionLog.md`; Stage 7C was executed on 2026-05-22 as diagnostics-only implementation and produced contextual-bandit code/config/tests/artifacts plus a post-lockbox diagnostic holdout; Stage 8 was executed on 2026-05-22 as plan-first raw update scripts/tests; Stage 9 was executed on 2026-05-22 as documentation and operational-memory reconciliation only; Stage 10A was executed on 2026-05-22 as research-only update-to-prediction and visualization workflow analysis; Stage 10B was executed on 2026-05-23 as decision-comparison and approval capture, with all Stage 10B DQs answered; Stage 10C was executed on 2026-05-23 as local saved-prediction extraction packet generation. Stage 11 and Stage 12 prompt files were aligned to the post-Stage-10C state on 2026-05-23, but Stage 11/Stage 12 have not been executed and create no holistic audit result, DeepResearch maintenance result, user-facing service, or live trading output.
+- Five `docs/Prompts/DeepResearch_Chat_Topic_*.md` files were created on 2026-05-22 for Stage 10 research topics and updated on 2026-05-23 for the post-Stage-10C state. They are pasteable research prompts only and do not run code, fetch data, approve implementation, or change protected scope.
+- 2026-05-23 Stage 10C reconciliation repaired stale operational references after the local packet implementation and added Stage 10C CLI, validator, artifact, and non-claim discoverability across active docs.
+- 2026-05-23 Stage 11/DeepResearch prompt reconciliation repaired stale future-Stage-10 wording in prompt files and added explicit required-background file lists at the start of each updated prompt.
+- 2026-05-23 execution/usage reconciliation converted the old API-centric usage reference into `UsageManual.md`, rewrote `ExecutionPipeline.md` with active/planned function and requirement matrices, and updated active references/guidebook entries to the new manual name.
+- 2026-05-23 GitHub-prep hygiene moved active root prompt artifacts into `docs/Prompts/`, added a prompt archive README, updated active prompt-path references and validators, tightened `.gitignore`, and left remote repository creation blocked pending user name/visibility selection.

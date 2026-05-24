@@ -76,6 +76,7 @@ Last updated: 2026-05-24
 - Task ID: T-2026-04-13-0002
 - Title: Continue Alpha Vantage historical news backfill for active universes
 - Status: in_progress
+- Status: done
 - Priority: high
 - Owner: agent
 - Created: 2026-04-13
@@ -795,6 +796,38 @@ Last updated: 2026-05-24
 - Evidence pointers: `git branch --all --verbose --no-abbrev`; `git remote -v`; failed `git push origin HEAD:refs/heads/v0p9` output; local commit `f2ee39b document manual research roadmap`; failed `git push origin d2f403fa08e0bb07271d3f8efcf6dd04bc78e1ce:refs/heads/v0p9` output; failed `git push origin main` output; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson
 - Notes: Local `main`, `origin/main`, and `origin/master` were observed at `d2f403f finished stage 10` before new documentation commit preparation. No `v0p9` branch was visible locally or remotely before the failed push attempt. Local commit `f2ee39b` records the manual-research roadmap, append-only truth/theory addenda, manual-research archive, and memory updates. Remote `v0p9` and `main` pushes are still blocked by SSH identity configuration.
 
+- Task ID: T-2026-05-24-0004
+- Title: Prepare fresh-conversation passdown prompts for v1p0 planning
+- Status: in_progress
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0003
+- Dependencies: docs/NextSteps_Brainstorming.md; ScopeDecisionLog.md; ScopeDefinition.md; ResearchTruth.md; ProjectDefinition.md; UsageManual.md; docs/Architecture_Map.md; docs/agent/AgentMemory.md
+- Blockers: none for local passdown documentation; remote push remains blocked by SSH config
+- Approvals needed: explicit user approval before any future edits to `AgentRules.md` or `docs/agent/Agent*.md`; explicit user approval before deleting active decision files after consolidation; explicit approval remains required for live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion
+- Benchmark status: passdown/planning documentation only; no provider call, raw-data mutation, benchmark rerun, model training, prediction artifact, Stage 6 reinterpretation, trading signal, or comparability promotion
+- Stale-risk status: low after creating `docs/Passdown_NewPrompts.md`; future v1p0 execution should start from the passdown, then consolidate decisions into `ArchitecturalDesignDecisions.md`
+- Evidence pointers: docs/Passdown_NewPrompts.md; docs/NextSteps_Brainstorming.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson; ledger JSONL validation `EVENT_LEDGER_JSONL_VALID`; governance validation `VALIDATION PASSED`
+- Notes: User is considering a fresh conversation for v1p0 and provided a long prompt sequence. The passdown corrects naming/path issues, preserves no-information-loss consolidation intent, enforces approval gates around AgentRules/Agent*.md, and recommends a fresh conversation after the passdown document exists.
+
+- Task ID: T-2026-05-24-0005
+- Title: Consolidate deprecated v0p9 and v0p7 archive layout
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0004
+- Dependencies: deprecated/v0p9/; deprecated/v0p7/; docs/Passdown_NewPrompts.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson
+- Blockers: none for local deprecated-layout cleanup; remote push remains blocked by SSH config
+- Approvals needed: none for completed relocation of already-deprecated files; future active-file deprecations still require no-information-loss preservation and user approval where applicable
+- Benchmark status: filesystem/layout cleanup only; no provider call, raw-data mutation, benchmark rerun, model training, prediction artifact, Stage 6 reinterpretation, trading signal, or comparability promotion
+- Stale-risk status: lower after moving already-deprecated docs/code into root `deprecated/v0p9/` and old `deprecated_version/` into root `deprecated/v0p7/`; active `src/event_state_forecasting/**` remains deleted because that was the user-initiated deprecation state, not a new agent deprecation
+- Evidence pointers: deprecated/v0p9/docs/; deprecated/v0p9/src/; deprecated/v0p7/; docs/Passdown_NewPrompts.md; git status after relocation; ledger JSONL validation `EVENT_LEDGER_JSONL_VALID`; governance validation `VALIDATION PASSED`
+- Notes: Old `docs/deprecated/0p9` and `src/deprecated/v0p9` container folders were removed after moving contents to root `deprecated/v0p9/`. Moved Zone.Identifier metadata and Python cache artifacts under `deprecated/v0p9/` were removed as non-source junk.
+
 ## Decisions and Approvals Index (REFERENCE-ONLY)
 - Approval event IDs: E-2026-04-03-0002; E-2026-04-13-0006; E-2026-04-16-0002; E-2026-05-07-0034; E-2026-05-15-0002; E-2026-05-15-0010; E-2026-05-21-0008; E-2026-05-21-0017; E-2026-05-22-0028; E-2026-05-22-0030; E-2026-05-22-0032; E-2026-05-22-0034; E-2026-05-22-0036; E-2026-05-22-0038; E-2026-05-22-0040; E-2026-05-22-0042; E-2026-05-22-0044; E-2026-05-22-0046; E-2026-05-22-0048; E-2026-05-22-0049; E-2026-05-22-0050; E-2026-05-22-0061; E-2026-05-22-0067; E-2026-05-22-0075; E-2026-05-23-0002; E-2026-05-23-0028; E-2026-05-23-0041; E-2026-05-24-0001; E-2026-05-24-0007
 - Scope decisions: ScopeDecisionLog.md
@@ -805,12 +838,13 @@ Last updated: 2026-05-24
 - Next research/product approval gate, if desired: persisted inference packaging, new `forecast_candidate` semantics, live provider calls, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
 
 ## Last Session Delta
-- New requests: user requested a status recap, then continuation if clear; later requested pushing current `HEAD` to `v0p9`, pushing main afterward, and updating all agent memory files.
-- Tasks created/updated: T-2026-05-24-0001 through T-2026-05-24-0003 created for manual-research documentation synthesis, append-only truth/theory updates, and Git push/memory reconciliation.
-- Work executed: moved the manual-research archive under `docs/research/manual_research/`, removed moved `Zone.Identifier` artifacts from that archive, added `.gitignore` exceptions so the docs archive can be tracked, created `docs/research/manual_research/NextSteps-Research.md`, created `docs/NextSteps_Brainstorming.md`, appended addenda to `docs/Complete_Theoretical_Background.md` and `ResearchTruth.md`, verified those addenda are append-only, verified the manual-research archive is visible to Git, committed the documentation/memory bundle locally as `f2ee39b document manual research roadmap`, and attempted the requested pushes.
-- Evidence logged: `.gitignore`; `docs/research/manual_research/NextSteps-Research.md`; `docs/NextSteps_Brainstorming.md`; `docs/Complete_Theoretical_Background.md`; `ResearchTruth.md`; `git diff` append-only verification; `git diff --check` line-ending-only warnings; `git check-ignore -v` showing re-inclusion of manual-research docs; high-signal staged secret scan `NO_HIGH_SIGNAL_SECRET_MATCHES`; governance validation `VALIDATION PASSED`; ledger validation `EVENT_LEDGER_JSONL_VALID`; local commit `f2ee39b`; failed `git push origin HEAD:refs/heads/v0p9`, failed `git push origin d2f403fa08e0bb07271d3f8efcf6dd04bc78e1ce:refs/heads/v0p9`, and failed `git push origin main` output showing SSH identity path error.
-- Blockers found: both `v0p9` and `main` pushes are blocked until SSH authentication/config is fixed manually or an alternate approved remote/auth path is provided.
-- Approvals required: no additional approval is needed for local docs/memory commit preparation; pushing remains blocked externally by SSH. Future approval remains required before persisted inference packaging, new `forecast_candidate` semantics, Stage 8 `--execute`, raw `--overwrite`, hidden Stage 2-6 reruns, service/API/dashboard scope, all-data final-execution training-output, live trading/sell/short outputs, raw-news/LLM context expansion, protected-scope changes, metric/result-policy changes, Stage 6 reinterpretation, or benchmark-comparability promotion.
+- New requests: user asked whether `docs/NextSteps_Brainstorming.md` was truly complete relative to a scraped chat summary, accepted the answer, then requested a passdown for a fresh conversation and asked that all memory be logged first.
+- Tasks created/updated: T-2026-05-24-0004 created for passdown prompt cleanup and handoff documentation; T-2026-05-24-0005 created and completed for deprecated-layout cleanup.
+- Work executed: verified `docs/NextSteps_Brainstorming.md` has 979 lines and contains the detailed decision process, comparisons, selected roadmap, deferred items, and research references; created passdown documentation under `docs/Passdown_NewPrompts.md`; consolidated already-deprecated docs/code under root `deprecated/v0p9/`; moved old `deprecated_version/` to root `deprecated/v0p7/`; removed moved metadata/cache junk; updated passdown paths; validated memory and governance.
+- Evidence logged: `docs/NextSteps_Brainstorming.md`; `git show --stat --oneline HEAD~1 -- docs/NextSteps_Brainstorming.md`; `git log --oneline -- docs/NextSteps_Brainstorming.md`; `docs/Passdown_NewPrompts.md`; `deprecated/v0p9/docs/`; `deprecated/v0p9/src/`; `deprecated/v0p7/`; ledger JSONL validation `EVENT_LEDGER_JSONL_VALID`; governance validation `VALIDATION PASSED`.
+- Blockers found: remote pushes still blocked by SSH identity config; no blocker for local passdown documentation.
+- Stale-risk found: `git status` shows active `src/event_state_forecasting/**` files deleted and corresponding `deprecated/v0p9/src/**` files untracked, consistent with the user's stated v0p9 code deprecation move. The agent only relocated already-deprecated files into the requested root deprecated layout and did not deprecate additional active files.
+- Approvals required: future approval remains required before editing `AgentRules.md` or `docs/agent/Agent*.md`, before deleting active decision files after consolidation, before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
 
 ## Drift / Staleness Flags
 - `Current_State.md` had drifted badly from later owner-approved scope and active-root implementation work; repaired this session.
