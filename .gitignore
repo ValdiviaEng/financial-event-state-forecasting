@@ -113,5 +113,7 @@ reports/**
 
 # Local scratch and legacy snapshots not intended for GitHub publishing
 manual_research/
+!docs/research/manual_research/
+!docs/research/manual_research/**
 reset/
 deprecated_version/

@@ -1,5 +1,5 @@
 # Current State (Operational Memory)
-Last updated: 2026-05-23
+Last updated: 2026-05-24
 
 ## Immutable Task Contract (USER-APPROVED)
 - Objective:
@@ -747,22 +747,70 @@ Last updated: 2026-05-23
 - Evidence pointers: `docs/Prompts/README.md`; moved prompt files under `docs/Prompts/`; `.gitignore`; `README.md`; `docs/Execution_Plan.md`; `docs/Detailed_Execution_Stages.md`; `UsageManual.md`; `Complete_guidebook.txt`; `docs/Architecture_Map.md`; `scripts/validate_stage0_stage1_completion.py`; prompt-path grep found no active root-path prompt references; selected repo answer `ValdiviaEng/financial-event-state-forecasting` private; user chose GitHub UI path after `gh` was unavailable; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=133)`; `python scripts/validate_stage0_stage1_completion.py` output `STAGE0_STAGE1_COMPLETION_VALIDATION PASSED`; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`; `gh auth status` failed because `gh` is not recognized; WSL `gh auth status` failed with `gh: command not found`
 - Notes: Active root-level prompt artifacts were relocated into `docs/Prompts/`, prompt references were updated across active docs and validators, and `.gitignore` was tightened for public GitHub safety by excluding local secrets, raw/generated data, prediction/benchmark outputs, provider ledgers/logs, and local scratch/deprecated snapshots. The repo has not been created remotely yet because the GitHub CLI is unavailable.
 
+- Task ID: T-2026-05-24-0001
+- Title: Organize and synthesize manual research archive
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0001
+- Dependencies: docs/research/manual_research/; docs/research/manual_research/NextSteps-Research.md; docs/NextSteps_Brainstorming.md; .gitignore
+- Blockers: none for local documentation organization
+- Approvals needed: none for committed documentation archive; future implementation of roadmap items remains separately approval-gated
+- Benchmark status: research/documentation only; no provider call, raw-data mutation, benchmark rerun, model training, prediction artifact, Stage 6 reinterpretation, trading signal, or comparability promotion
+- Stale-risk status: low for active manual-research discoverability after relocation and synthesis; future roadmap entries remain design truth only until implemented and validated
+- Evidence pointers: docs/research/manual_research/; docs/research/manual_research/NextSteps-Research.md; docs/NextSteps_Brainstorming.md; .gitignore; `git check-ignore -v` showing docs/research/manual_research files are re-included; glob checks showing no Zone artifacts under docs/research/manual_research
+- Notes: The root manual-research archive was moved under docs/research/manual_research, moved Zone.Identifier artifacts were removed from that archive, and the selected next-phase roadmap was captured as documentation/design truth.
+
+- Task ID: T-2026-05-24-0002
+- Title: Append manual-research and next-roadmap truth/theory addenda
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0001
+- Dependencies: ResearchTruth.md; docs/Complete_Theoretical_Background.md; docs/research/manual_research/NextSteps-Research.md; docs/NextSteps_Brainstorming.md
+- Blockers: none for local documentation update
+- Approvals needed: none for append-only documentation; implementation of selected roadmap items remains separately approval-gated
+- Benchmark status: documentation/theory/truth update only; Stage 6 remains clean_null and limitation_bearing; no result reinterpretation or benchmark-comparability promotion
+- Stale-risk status: low after append-only verification; future roadmap items remain design-only until executable artifacts and validators exist
+- Evidence pointers: ResearchTruth.md addendum `## 12. Addendum 2026-05-24`; docs/Complete_Theoretical_Background.md addendum `## Addendum 2026-05-24`; `git diff -- ResearchTruth.md docs/Complete_Theoretical_Background.md` showing only added lines; `git diff --check` line-ending-only warnings
+- Notes: The addenda preserve the implemented-truth, research-synthesis, and future-design distinction and explicitly defer live forecasts, service/API/dashboard, trading signals, LLM summaries, provider expansion, and Stage 6 reinterpretation.
+
+- Task ID: T-2026-05-24-0003
+- Title: Push prior status to v0p9, push main, and update memory
+- Status: blocked
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0002
+- Dependencies: git remote origin; SSH authentication; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson
+- Blockers: `git push origin HEAD:refs/heads/v0p9` failed because SSH is configured to use a nonexistent identity path `\\wsl.localhost\\Ubuntu-24.04\\home\\berserker\\home\\berserker\\k\\.ssh\\berserker@github`; user does not allow private-key inspection
+- Approvals needed: user/manual SSH config fix or alternate approved remote/auth path before any push can succeed
+- Benchmark status: Git operation and memory reconciliation only; no provider call, raw-data mutation, benchmark rerun, model training, prediction artifact, Stage 6 reinterpretation, trading signal, or comparability promotion
+- Stale-risk status: medium until remote branch `v0p9` and updated `main` are pushed successfully
+- Evidence pointers: `git branch --all --verbose --no-abbrev`; `git remote -v`; failed `git push origin HEAD:refs/heads/v0p9` output; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson
+- Notes: Local `main`, `origin/main`, and `origin/master` were observed at `d2f403f finished stage 10` before new documentation commit preparation. No `v0p9` branch was visible locally or remotely before the failed push attempt.
+
 ## Decisions and Approvals Index (REFERENCE-ONLY)
-- Approval event IDs: E-2026-04-03-0002; E-2026-04-13-0006; E-2026-04-16-0002; E-2026-05-07-0034; E-2026-05-15-0002; E-2026-05-15-0010; E-2026-05-21-0008; E-2026-05-21-0017; E-2026-05-22-0028; E-2026-05-22-0030; E-2026-05-22-0032; E-2026-05-22-0034; E-2026-05-22-0036; E-2026-05-22-0038; E-2026-05-22-0040; E-2026-05-22-0042; E-2026-05-22-0044; E-2026-05-22-0046; E-2026-05-22-0048; E-2026-05-22-0049; E-2026-05-22-0050; E-2026-05-22-0061; E-2026-05-22-0067; E-2026-05-22-0075; E-2026-05-23-0002; E-2026-05-23-0028; E-2026-05-23-0041
+- Approval event IDs: E-2026-04-03-0002; E-2026-04-13-0006; E-2026-04-16-0002; E-2026-05-07-0034; E-2026-05-15-0002; E-2026-05-15-0010; E-2026-05-21-0008; E-2026-05-21-0017; E-2026-05-22-0028; E-2026-05-22-0030; E-2026-05-22-0032; E-2026-05-22-0034; E-2026-05-22-0036; E-2026-05-22-0038; E-2026-05-22-0040; E-2026-05-22-0042; E-2026-05-22-0044; E-2026-05-22-0046; E-2026-05-22-0048; E-2026-05-22-0049; E-2026-05-22-0050; E-2026-05-22-0061; E-2026-05-22-0067; E-2026-05-22-0075; E-2026-05-23-0002; E-2026-05-23-0028; E-2026-05-23-0041; E-2026-05-24-0001; E-2026-05-24-0007
 - Scope decisions: ScopeDecisionLog.md
 - Current active truth: ResearchTruth.md
 
 ## Open Questions for User
-- Pending for GitHub publication: user creates private repo `ValdiviaEng/financial-event-state-forecasting` in the GitHub UI and provides the remote URL, then local remote setup can continue.
+- Git push is blocked by local SSH identity configuration: Git is looking for `\\wsl.localhost\\Ubuntu-24.04\\home\\berserker\\home\\berserker\\k\\.ssh\\berserker@github`, which does not exist. User does not allow the agent to inspect private keys, so SSH config/key correction is manual unless the user provides a non-secret remote/auth path.
 - Next research/product approval gate, if desired: persisted inference packaging, new `forecast_candidate` semantics, live provider calls, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
 
 ## Last Session Delta
-- New requests: user requested GitHub-publication preparation, including moving root prompt artifacts into a docs subfolder, tightening publish safety, and asking the user to choose from several repository-name options before repo creation.
-- Tasks created/updated: T-2026-05-23-0007 created; the user selected `ValdiviaEng/financial-event-state-forecasting` as a private repo; after `gh` was unavailable, the user selected the GitHub UI creation path.
-- Work executed: moved active root prompt artifacts into `docs/Prompts/`; added `docs/Prompts/README.md`; updated active prompt-path references across docs and validators; tightened `.gitignore` for secrets, generated data, provider ledgers/logs, and local scratch/deprecated snapshots; repaired the Stage 0/1 validator to reuse the active scaffold allowlist and avoid brittle count blocking.
-- Evidence logged: `docs/Prompts/`; `.gitignore`; active docs and validator references; `python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; `python scripts/validate_comment_only_scaffold.py` output `COMMENT_ONLY_VALIDATION PASSED (files_scanned=133)`; `python scripts/validate_stage0_stage1_completion.py` output `STAGE0_STAGE1_COMPLETION_VALIDATION PASSED`; ledger JSONL parse output `EVENT_LEDGER_JSONL_VALID`; active prompt-path grep found no stale root-path prompt references; `gh` unavailable in Windows shell and WSL.
-- Blockers found: no contradiction requiring technical clarification; GitHub repo creation is externalized to the GitHub UI because `gh` is not installed/available in the execution environment.
-- Approvals required: approval remains required before creating the GitHub repository, persisted inference packaging, new `forecast_candidate` semantics, Stage 8 `--execute`, raw `--overwrite`, hidden Stage 2-6 reruns, service/API/dashboard scope, all-data final-execution training-output, live trading/sell/short outputs, raw-news/LLM context expansion, protected-scope changes, metric/result-policy changes, Stage 6 reinterpretation, or benchmark-comparability promotion.
+- New requests: user requested a status recap, then continuation if clear; later requested pushing current `HEAD` to `v0p9`, pushing main afterward, and updating all agent memory files.
+- Tasks created/updated: T-2026-05-24-0001 through T-2026-05-24-0003 created for manual-research documentation synthesis, append-only truth/theory updates, and Git push/memory reconciliation.
+- Work executed: moved the manual-research archive under `docs/research/manual_research/`, removed moved `Zone.Identifier` artifacts from that archive, added `.gitignore` exceptions so the docs archive can be tracked, created `docs/research/manual_research/NextSteps-Research.md`, created `docs/NextSteps_Brainstorming.md`, appended addenda to `docs/Complete_Theoretical_Background.md` and `ResearchTruth.md`, verified those addenda are append-only, verified the manual-research archive is visible to Git, and attempted `git push origin HEAD:refs/heads/v0p9` before committing new work as requested.
+- Evidence logged: `.gitignore`; `docs/research/manual_research/NextSteps-Research.md`; `docs/NextSteps_Brainstorming.md`; `docs/Complete_Theoretical_Background.md`; `ResearchTruth.md`; `git diff` append-only verification; `git diff --check` line-ending-only warnings; `git check-ignore -v` showing re-inclusion of manual-research docs; `git push origin HEAD:refs/heads/v0p9` failure output showing SSH identity path error.
+- Blockers found: both `v0p9` and `main` pushes are blocked until SSH authentication/config is fixed manually or an alternate approved remote/auth path is provided.
+- Approvals required: no additional approval is needed for local docs/memory commit preparation; pushing remains blocked externally by SSH. Future approval remains required before persisted inference packaging, new `forecast_candidate` semantics, Stage 8 `--execute`, raw `--overwrite`, hidden Stage 2-6 reruns, service/API/dashboard scope, all-data final-execution training-output, live trading/sell/short outputs, raw-news/LLM context expansion, protected-scope changes, metric/result-policy changes, Stage 6 reinterpretation, or benchmark-comparability promotion.
 
 ## Drift / Staleness Flags
 - `Current_State.md` had drifted badly from later owner-approved scope and active-root implementation work; repaired this session.
