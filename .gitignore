@@ -91,6 +91,9 @@ data/stage7_contextual_bandit/**
 !data/stage7_contextual_bandit/
 !data/stage7_contextual_bandit/**/
 !data/stage7_contextual_bandit/**/README.md
+data/diagnostics/**
+data/v1p0_first_slice_smoke/**
+data/v1p0_full_results/**
 
 # Provider ledgers and sensitive raw logs
 *request_ledger*.jsonl

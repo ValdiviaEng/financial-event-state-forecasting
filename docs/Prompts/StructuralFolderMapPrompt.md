@@ -25,7 +25,7 @@ Required reading order:
 11. `ScopeDecisionLog.md`
 12. `ResearchTruth.md`
 13. `docs/Implementation_Decisions.md`
-14. `docs/Architecture_Map.md`
+14. `Architecture_Map.md`
 15. `docs/Execution_Plan.md`
 16. validation and operations docs under `docs/`
 
@@ -261,7 +261,7 @@ Every generated Python file must follow this comment-only template.
 # File: relative/path/to/file.py
 # Status: COMMENT-ONLY SCAFFOLD - NOT IMPLEMENTED
 # Layer: [governance-adjacent | data | dataset | features | split | models | evaluation | benchmark | ops | utils | cli | tests]
-# Governing docs: AgentRules.md; ProjectDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; docs/Architecture_Map.md; docs/Implementation_Decisions.md
+# Governing docs: AgentRules.md; ProjectDefinition.md; ScopeDecisionLog.md; ResearchTruth.md; Architecture_Map.md; docs/Implementation_Decisions.md
 #
 # Purpose:
 # - Describe the future file responsibility in 2-5 concise comment lines.
@@ -538,7 +538,7 @@ When executing this prompt, follow this workflow.
 6. Validate generated contents in memory before writing.
 7. Write files only when every generated file passes comment-only validation.
 8. Update `Complete_guidebook.txt` for every created file or grouped responsibility.
-9. Update `docs/Architecture_Map.md`, `docs/Implementation_Decisions.md`, `docs/Execution_Plan.md`, `docs/Unit_Testing.md`, `docs/db_Testing.md`, `docs/Benchmark_Testing.md`, and `docs/Pipeline_Testing.md` as needed to record the new scaffold status.
+9. Update `Architecture_Map.md`, `docs/Implementation_Decisions.md`, `docs/Execution_Plan.md`, `docs/Unit_Testing.md`, `docs/db_Testing.md`, `docs/Benchmark_Testing.md`, and `docs/Pipeline_Testing.md` as needed to record the new scaffold status.
 10. Update `README.md` only if onboarding current-state text changes.
 11. Run `python scripts/validate_agent_governance.py`.
 12. Run a scaffold validation check that verifies generated Python and YAML files are comment-only.
@@ -575,7 +575,7 @@ Required updates:
 | File | Required Update |
 | --- | --- |
 | `Complete_guidebook.txt` | Add the new folder groups and file responsibilities. |
-| `docs/Architecture_Map.md` | Change missing-layer status to comment-only scaffold exists, if created. |
+| `Architecture_Map.md` | Change missing-layer status to comment-only scaffold exists, if created. |
 | `docs/Implementation_Decisions.md` | Record that scaffold files are comment-only and not active implementation. |
 | `docs/Execution_Plan.md` | Update Stage 0 or create a design-scaffold substage, but do not mark implementation stages complete. |
 | `docs/Unit_Testing.md` | Record comment-only planned tests exist, not executable tests. |

@@ -1,12 +1,12 @@
 # Current State (Operational Memory)
-Last updated: 2026-05-24
+Last updated: 2026-05-25
 
 ## Immutable Task Contract (USER-APPROVED)
 - Objective:
-  Maintain a documentation-first, benchmark-first phase-1 rebuild focused on testing whether event-state news features add value beyond market-only baselines for end-of-day multi-horizon excess-return forecasting, while continuing Alpha Vantage historical news backfill as an active operational task.
+  Maintain a documentation-first, benchmark-first v1p0 planning and implementation path focused on testing whether event-state news features add value beyond market-only baselines for end-of-day multi-horizon excess-return forecasting, while preserving the completed v0p9 historical evidence and non-claims.
 - Hard constraints:
   - archive remains reference-only unless explicitly reintroduced into active-root docs
-  - active truth must follow `ScopeDecisionLog.md` and `ResearchTruth.md`
+  - active v1p0 planning truth must follow `ArchitecturalDesignDecisions.md`, `ProjectDefinition.md`, `Architecture_Map.md`, and `ResearchTruth.md`; preserved historical decisions remain available under `deprecated/v0p9/docs/`
   - phase-1 target family is forward excess returns
   - phase-1 horizons are `1d`, `5d`, `10d`, `20d`, and `60d`
   - first serious benchmark universe is a reproducible top-50 liquid large-cap set; later expansions are new benchmark families
@@ -27,14 +27,20 @@ Last updated: 2026-05-24
   - AgentRules.md
   - docs/agent/AgentAppendices.md
   - docs/agent/AgentMemory.md
-  - ScopeDefinition.md
-  - ScopeDecisionLog.md
+  - ArchitecturalDesignDecisions.md
+  - ProjectDefinition.md
   - ResearchTruth.md
+  - Architecture_Map.md
+  - Complete_guidebook.txt
+  - LearningStrategy.md
+  - BenchmarkingStrategy.md
+  - VisualizationStrategy.md
+  - ExecutionFlow.md
 
 ## Current Priorities (max 7)
 - (P1) Preserve the completed Stage 6 clean-null result packet and do not change metric policy, result framing, lockbox interpretation, comparator roster, protected scope, or comparability without explicit approval.
 - (P2) Preserve the Stage 2, Stage 3, Stage 4, Stage 5, and Stage 6 row-universe digest, clean-window record, no-news flags, truncation-risk flags, label contract, split manifest, lockbox boundary, comparator roster, preprocessing manifests, saved-prediction schema, and evaluation policy as fixed evidence for the current result.
-- (P3) Preserve Stage 7A as research-only evidence, Stage 7B as completed decision evidence, Stage 7C as diagnostics-only implementation evidence with `benchmark_claim=false`, Stage 8 as plan-first raw-update tooling evidence with no live provider-call or benchmark claim, Stage 9 as documentation/operational-memory reconciliation only, Stage 10A as research-only workflow analysis, Stage 10B as completed decision-comparison/approval-capture evidence, and Stage 10C as local historical-prediction packet evidence with `benchmark_claim=false`; keep Stage 11 through Stage 12 plus remaining provider/utility/expansion scaffolds prompt-only/comment-only until explicitly approved and converted.
+- (P3) Preserve Stage 7A as research-only evidence, Stage 7B as completed decision evidence, Stage 7C as diagnostics-only implementation evidence with `benchmark_claim=false`, Stage 8 as plan-first raw-update tooling evidence with no live provider-call or benchmark claim, Stage 9 as documentation/operational-memory reconciliation only, Stage 10A as research-only workflow analysis, Stage 10B as completed decision-comparison/approval-capture evidence, Stage 10C as local historical-prediction packet evidence with `benchmark_claim=false`, and full-v1p0 Stage 15-40 evidence as non-claiming; Stage 39 final review did not approve positive claims or comparability promotion, Stage 18/30/31 were repaired through fixed multiseed TSMixer evidence, and Stage 32 completed only after explicit user override, rejecting the tuned TSMixer candidate from development evidence.
 - (P4) Preserve Alpha Vantage truncation and empty-feed limitation flags; provider-level article completeness is not claimed.
 - (P5) Keep benchmark comparability explicit whenever provider coverage, universe size, horizon handling, clean-window records, dataset versions, model rosters, metric policies, or result-class rules change.
 - (P6) Address API-key-bearing request URLs in raw Alpha Vantage ledgers before commit, sharing, or publication.
@@ -828,23 +834,366 @@ Last updated: 2026-05-24
 - Evidence pointers: deprecated/v0p9/docs/; deprecated/v0p9/src/; deprecated/v0p7/; docs/Passdown_NewPrompts.md; git status after relocation; ledger JSONL validation `EVENT_LEDGER_JSONL_VALID`; governance validation `VALIDATION PASSED`
 - Notes: Old `docs/deprecated/0p9` and `src/deprecated/v0p9` container folders were removed after moving contents to root `deprecated/v0p9/`. Moved Zone.Identifier metadata and Python cache artifacts under `deprecated/v0p9/` were removed as non-source junk.
 
+- Task ID: T-2026-05-24-0006
+- Title: Consolidate v1p0 architectural design decisions
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0005
+- Dependencies: docs/NextSteps_Brainstorming.md; ScopeDecisionLog.md; ScopeDefinition.md; ArchitecturalDesignDecisions.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson
+- Blockers: none for local decision consolidation; remote push remains blocked by SSH config
+- Approvals needed: explicit user approval remains required before editing `AgentRules.md` or `docs/agent/Agent*.md`, deleting/superseding active decision files, live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion
+- Benchmark status: documentation/design consolidation only; no provider call, raw-data mutation, benchmark rerun, model training, prediction artifact, Stage 6 reinterpretation, trading signal, or comparability promotion
+- Stale-risk status: lower after creating the active v1p0 decision consolidation; remaining risk is implementation naming/boundary drift until the first v1p0 slice is planned and executed from this artifact
+- Evidence pointers: ArchitecturalDesignDecisions.md; docs/NextSteps_Brainstorming.md; ScopeDecisionLog.md; ScopeDefinition.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson
+- Notes: Consolidated the selected performance-and-credibility v1p0 roadmap, first integrated thin slice, model/feature decisions, diagnostics, Stage 10C output boundaries, deferred items, active approval gates, and resolved/deprecated v0p9 decisions. Preserved reconciliation notes for stale ScopeDefinition restart-shell claims, old horizon/provider defaults, delayed news-alignment example, and uncertainty-output scope changes.
+
+- Task ID: T-2026-05-24-0007
+- Title: Execute initial v1p0 documentation sanitization
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0006
+- Dependencies: ArchitecturalDesignDecisions.md; ProjectDefinition.md; Architecture_Map.md; UsageManual.md; Complete_guidebook.txt; ResearchTruth.md; README.md; docs/Execution_Plan.md; docs/Passdown_NewPrompts.md
+- Blockers: none for approved local documentation sanitization; remote push remains blocked by SSH config; governance-path references were later reconciled after explicit approval
+- Approvals needed: explicit user approval remains required before editing `AgentRules.md` or `docs/agent/Agent*.md`, before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or moving/deleting source decision files
+- Benchmark status: documentation sanitization only; no provider call, raw-data mutation, benchmark rerun, model training, prediction artifact, Stage 6 reinterpretation, trading signal, or comparability promotion
+- Stale-risk status: lower after v1p0 root docs were sanitized; residual stale path references remain in historical audit files, deprecated archives, and manual-research archives
+- Evidence pointers: ProjectDefinition.md; Architecture_Map.md; UsageManual.md; Complete_guidebook.txt; ArchitecturalDesignDecisions.md; ResearchTruth.md; README.md; docs/Execution_Plan.md; docs/Passdown_NewPrompts.md; docs/Prompts/StructuralFolderMapPrompt.md; docs/Prompts/feedbackprompt.md; docs/Prompts/Stage0APrompt.md
+- Notes: User instructed not to move `ScopeDecisionLog.md`, `ScopeDefinition.md`, or `docs/NextSteps_Brainstorming.md`; `docs/NextSteps_Brainstorming.md` remains active due to importance. During validation, root `ScopeDecisionLog.md` and `ScopeDefinition.md` were observed deleted and preserved under `deprecated/v0p9/docs/`, consistent with user manual deprecation; active v1p0 docs were updated to reference preserved deprecated copies where needed. User approved moving `docs/Architecture_Map.md` to root `Architecture_Map.md`. User said the detailed `UsageManual.md` was already copied, so the active file was replaced with a v1p0 skeleton.
+
+- Task ID: T-2026-05-24-0008
+- Title: Create v1p0 strategy, execution-flow, governance, and stage-prompt planning suite
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0006; R-2026-05-24-0007
+- Dependencies: AgentRules.md; docs/agent/AgentMemory.md; docs/agent/AgentTemplates.md; docs/agent/AgentCompliance.md; docs/agent/AgentGlossary.md; ArchitecturalDesignDecisions.md; ProjectDefinition.md; ResearchTruth.md; Architecture_Map.md; Complete_guidebook.txt; ExecutionFlow.md; docs/Prompts/
+- Blockers: none for local documentation/planning suite completion; remote push remains blocked by SSH config
+- Approvals needed: no further approval for the completed local documentation changes; explicit approval still required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, broader model expansion beyond the first slice, or any future protected-governance edits
+- Benchmark status: governance/documentation/planning only; no provider call, raw-data mutation, benchmark rerun, model training, prediction artifact, Stage 6 reinterpretation, trading signal, service/API/dashboard, or comparability promotion
+- Stale-risk status: lower after governance refs, root strategy docs, execution flow, stage prompts, guidebook, architecture map, README, and prompt archive references were reconciled; historical/deprecated/manual-research archives intentionally retain older path references
+- Evidence pointers: AgentRules.md; docs/agent/AgentMemory.md; docs/agent/AgentTemplates.md; docs/agent/AgentCompliance.md; docs/agent/AgentGlossary.md; LearningStrategy.md; BenchmarkingStrategy.md; VisualizationStrategy.md; Unilu_Compatibility_requirements.md; ExecutionFlow.md; docs/Prompts/v1p0_Stage00_Governance_Context_Readiness.md through docs/Prompts/v1p0_Stage14_Integrated_Evidence_Review.md; Architecture_Map.md; Complete_guidebook.txt; README.md; docs/Prompts/README.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson; governance validation `VALIDATION PASSED`; ledger parse `EVENT_LEDGER_JSONL_VALID`; `git diff --check` with line-ending warnings only
+- Notes: User approved the proposed governance updates before protected governance files were edited. The v1p0 strategy docs and stage prompts are planning artifacts only and do not claim implementation. The prompt suite mirrors `ExecutionFlow.md` Stage 00 through Stage 14 and preserves no-live-provider, no-raw-overwrite, no-Stage-6-reinterpretation, no-service/API/dashboard, no-trading-output, and no-comparability-promotion gates.
+
+- Task ID: T-2026-05-24-0009
+- Title: Execute v1p0 first-slice smoke implementation
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0008
+- Dependencies: docs/Prompts/v1p0_Stage00_Governance_Context_Readiness.md through docs/Prompts/v1p0_Stage14_Integrated_Evidence_Review.md; configs/v1p0_version_manifest.yaml; configs/feature_registry_v1p0.yaml; configs/market_features_v1p0.yaml; configs/models_v1p0.yaml; configs/diagnostics_v1p0.yaml; configs/reporting_v1p0.yaml; src/event_state_forecasting/v1p0/; tests/v1p0/; scripts/run_v1p0_first_slice_smoke.py
+- Blockers: none for v1p0 smoke execution under required venv `~/venvs/ai`; remote push remains blocked by SSH config
+- Approvals needed: explicit approval remains required before serious historical benchmark reruns, live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or broader model expansion beyond this smoke slice
+- Benchmark status: v1p0 toy-data smoke implementation only; no serious benchmark rerun, no model-improvement claim, no Stage 6 reinterpretation, no trading signal, no live forecast, no service/API/dashboard, and no comparability promotion
+- Stale-risk status: lower for v1p0 implementation readiness after active smoke code/config/tests/script/docs; medium for first-slice benchmark readiness until real artifact-backed historical v1p0 runs are approved/executed
+- Evidence pointers: docs/v1p0_first_slice/Stage01_Reuse_Audit.md; docs/v1p0_first_slice/Stage14_Evidence_Review.md; src/event_state_forecasting/v1p0/; configs/v1p0_version_manifest.yaml; configs/feature_registry_v1p0.yaml; configs/market_features_v1p0.yaml; configs/models_v1p0.yaml; configs/diagnostics_v1p0.yaml; configs/reporting_v1p0.yaml; tests/v1p0/; scripts/run_v1p0_first_slice_smoke.py; data/v1p0_first_slice_smoke/first_slice_smoke_v1/v1p0_first_slice_smoke_summary.json; `source ~/venvs/ai/bin/activate && python -m pytest tests/v1p0` output `5 passed`; `source ~/venvs/ai/bin/activate && python scripts/run_v1p0_first_slice_smoke.py` completed with `benchmark_claim=false`, `model_count=2`, and XGBoost status `available`
+- Notes: Stage 01 selected rewrite over importing v0p9 code. Stages 02-13 have smoke code/tests. Stage 08 has fixed parameters and produced XGBoost smoke predictions under the required venv. Stage 14 records first-slice smoke evidence and residual benchmark-readiness limits.
+
+- Task ID: T-2026-05-24-0010
+- Title: Complete v1p0 per-stage smoke completion register and final audit
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0009
+- Dependencies: docs/v1p0_first_slice/Stage_Completion_Register.md; docs/v1p0_first_slice/Stage14_Evidence_Review.md; scripts/run_v1p0_first_slice_smoke.py; tests/v1p0/; ArchitecturalDesignDecisions.md; Architecture_Map.md; Complete_guidebook.txt
+- Blockers: none for local v1p0 smoke completion under required venv `~/venvs/ai`; remote push remains blocked by SSH config
+- Approvals needed: explicit approval remains required before serious historical benchmark reruns, live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, broader model expansion beyond this smoke slice, or protected governance edits
+- Benchmark status: per-stage v1p0 toy-data smoke evidence only; no serious benchmark rerun, no model-improvement claim, no Stage 6 reinterpretation, no trading signal, no live forecast, no service/API/dashboard, and no comparability promotion
+- Stale-risk status: lower after Stage 00 through Stage 14 each have explicit completion evidence and the smoke summary was regenerated with cleaned completed status; medium for benchmark readiness until real artifact-backed historical v1p0 runs are approved/executed
+- Evidence pointers: docs/v1p0_first_slice/Stage_Completion_Register.md; docs/v1p0_first_slice/Stage14_Evidence_Review.md; ArchitecturalDesignDecisions.md; Architecture_Map.md; Complete_guidebook.txt; data/v1p0_first_slice_smoke/first_slice_smoke_v1/v1p0_first_slice_smoke_summary.json; `source ~/venvs/ai/bin/activate && python -m pytest tests/v1p0` output `5 passed`; `source ~/venvs/ai/bin/activate && python scripts/run_v1p0_first_slice_smoke.py` completed with `status=v1p0_first_slice_smoke_completed`, `benchmark_claim=false`, `model_count=2`, and XGBoost status `available`; `source ~/venvs/ai/bin/activate && python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; PowerShell ledger parse output `EVENT_LEDGER_JSONL_VALID`
+- Notes: Added a detailed Stage 00 through Stage 14 completion matrix, recorded the v1p0 rewrite-over-reuse and required-venv decisions, linked the register from Stage 14 evidence, updated guidebook/architecture-map references, and reran validation. One attempted Bash ledger-parse command failed due shell quoting only and was superseded by successful PowerShell JSONL parsing.
+
+- Task ID: T-2026-05-24-0011
+- Title: Run v1p0 first-slice retrospective and add minimal runtime notes
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0010
+- Dependencies: docs/Retrospective_FirstSlice.md; UsageManual.md; AgentRules.md; docs/agent/AgentMemory.md; docs/agent/agent_log/Current_State.md; docs/agent/agent_log/Event_Ledger.ndjson
+- Blockers: none for local retrospective documentation; remote push remains blocked by SSH config
+- Approvals needed: future additions to `ArchitecturalDesignDecisions.md` should still be asked and approved one by one; future protected governance changes still require explicit approval unless the user gives similarly specific direct approval
+- Benchmark status: retrospective and operational-runbook update only; no provider call, raw-data mutation, benchmark rerun, model training, Stage 6 reinterpretation, trading signal, service/API/dashboard, or comparability promotion
+- Stale-risk status: lower after `~/venvs/ai` and WSL/PowerShell reproducibility caveats were recorded near usage and memory rules; no new ResearchTruth update was needed because no new scientific or benchmark truth was introduced beyond already recorded smoke evidence
+- Evidence pointers: docs/Retrospective_FirstSlice.md; UsageManual.md; AgentRules.md; docs/agent/AgentMemory.md; user approval responses for retrospective, usage, memory, candidate wording, and minimal direct protected-rule edits; governance validation `VALIDATION PASSED`; ledger parse `EVENT_LEDGER_JSONL_VALID`; `git diff --check` with no output
+- Notes: User first asked for clarification questions before approvals, then approved creating `docs/Retrospective_FirstSlice.md`, updating `UsageManual.md`, updating operational memory, including candidate rule wording in the retrospective, and making short minimal direct edits to `AgentRules.md`/`docs/agent/Agent*.md`. The protected-rule edits were limited to runtime-environment and shell-caveat reproducibility notes.
+
+- Task ID: T-2026-05-24-0012
+- Title: Execute final v1p0 sprint for smoke-scope testing and documentation consistency
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0011
+- Dependencies: docs/v1p0_final_sprint/Final_v1p0_Sprint_Report.md; tests/v1p0/; scripts/run_v1p0_first_slice_smoke.py; src/event_state_forecasting/v1p0/reporting.py; VisualizationStrategy.md; UsageManual.md; ResearchTruth.md; Architecture_Map.md; Complete_guidebook.txt
+- Blockers: none for local final sprint under required venv `~/venvs/ai`; remote push remains blocked by SSH config
+- Approvals needed: explicit approval remains required before serious historical v1p0 benchmark reruns, live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, broader model expansion, or positive benchmark claims
+- Benchmark status: smoke-scope final sprint only; `benchmark_claim=false`; no serious historical benchmark rerun, no model-improvement claim, no Stage 6 reinterpretation, no trading signal, no live forecast, no service/API/dashboard, and no comparability promotion
+- Stale-risk status: lower after report fidelity and visualization-readiness smoke checks were strengthened; chart bundles, dashboards, APIs, live displays, serious v1p0 benchmark artifacts, and publication-ready visualization remain unevidenced
+- Evidence pointers: docs/v1p0_final_sprint/Final_v1p0_Sprint_Report.md; `source ~/venvs/ai/bin/activate && python -m pytest tests/v1p0` output `5 passed`; `source ~/venvs/ai/bin/activate && python scripts/run_v1p0_first_slice_smoke.py` completed with `benchmark_claim=false`, `model_count=2`, and `prediction_rows=4`; PowerShell artifact check output `V1P0_FINAL_SPRINT_ARTIFACT_CHECK PASSED`; `source ~/venvs/ai/bin/activate && python scripts/validate_agent_governance.py` output `VALIDATION PASSED`; PowerShell ledger parse output `EVENT_LEDGER_JSONL_VALID`; `git diff --check` with no output; src/event_state_forecasting/v1p0/reporting.py; tests/v1p0/test_stage10_13_evaluation_reporting.py; VisualizationStrategy.md; UsageManual.md; ResearchTruth.md
+- Notes: Followed the requested order: testing, benchmarking, diagnostics, report fidelity, visualization readiness, documentation consistency. Stage 00 through Stage 14 prompts were skipped where already 100% smoke-completed in the stage register, except Stage 13 report fidelity was strengthened and revalidated. ResearchTruth was updated only for the artifact-backed report-fidelity truth already covered by RT-084.
+
+- Task ID: T-2026-05-24-0013
+- Title: Create full v1p0 planning prompt series and result-vault contract
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0012
+- Dependencies: ArchitecturalDesignDecisions.md; docs/NextSteps_Brainstorming.md; ResearchTruth.md; ExecutionFlow.md; docs/Prompts/; BenchmarkingStrategy.md; LearningStrategy.md; Architecture_Map.md; Complete_guidebook.txt; data/v1p0_full_results/README.md
+- Blockers: none for planning-only prompt/documentation work; remote push remains blocked by SSH config
+- Approvals needed: explicit future approval remains required before executing Stage 15 through Stage 40, creating code/config/test implementations beyond planning docs, serious historical benchmark reruns, live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: planning and prompt artifacts only; no code execution, model training, hyperparameter search, benchmark run, provider call, raw mutation, Stage 6 reinterpretation, trading signal, service/API/dashboard, or comparability promotion
+- Stale-risk status: lower after `ExecutionFlow.md`, prompt index, architecture map, guidebook, learning strategy, benchmarking strategy, README, and result-vault contract were aligned to distinguish first-slice smoke completion from full-v1p0 prompt-only planning
+- Evidence pointers: docs/Prompts/v1p0_Stage15_Full_Run_Governance_And_Result_Vault.md through docs/Prompts/v1p0_Stage40_V1p0_Completion_And_Next_Scope_Gate.md; ExecutionFlow.md; data/v1p0_full_results/README.md; docs/Prompts/README.md; Architecture_Map.md; Complete_guidebook.txt; BenchmarkingStrategy.md; LearningStrategy.md; README.md; governance validation `VALIDATION PASSED`; ledger parse `EVENT_LEDGER_JSONL_VALID`; `git diff --check` with no output
+- Notes: User explicitly instructed not to execute/create code yet. Work was limited to planning documents and prompts. The new prompt suite covers full-run governance, historical compatibility, production feature sidecars, sequence windows, full fixed baselines, XGBoost nested Optuna, overfit-frontier review, block-bootstrap uncertainty, FinBERT cache/ablation stages, TSMixer, ensembles, market-event fusion, full diagnostics, report/visualization fidelity, documentation truth audit, final claim review, and v1p0 completion gating.
+
+- Task ID: T-2026-05-24-0014
+- Title: Execute v1p0 Stage 15 full-run governance and result-vault readiness
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage15_Full_Run_Governance_And_Result_Vault.md; AgentRules.md; ArchitecturalDesignDecisions.md; docs/NextSteps_Brainstorming.md; ResearchTruth.md; BenchmarkingStrategy.md; LearningStrategy.md; ExecutionFlow.md; data/v1p0_full_results/README.md; docs/v1p0_first_slice/Stage_Completion_Register.md
+- Blockers: none for Stage 15 metadata readiness; remote push remains blocked by SSH config; full historical compatibility remains unvalidated until Stage 16
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: result-vault readiness metadata only; no model training, hyperparameter search, benchmark run, provider call, raw mutation, lockbox tuning, Stage 6 reinterpretation, trading output, or positive claim
+- Stale-risk status: lower for result-vault readiness after run ID naming, required fields, approval gates, blockers, and non-claims were recorded; full-run artifact compatibility remains the next gate
+- Evidence pointers: data/v1p0_full_results/Stage15_Result_Vault_Readiness.md; data/v1p0_full_results/README.md; docs/v1p0_first_slice/Stage_Completion_Register.md
+- Notes: Confirmed Stage 00 through Stage 14 are smoke-complete and should not be re-run unless evidence is missing. Added a future run-root naming convention for serious v1p0 result packets and recorded required fields for commands, environment, git state, source artifacts, hyperparameters, metrics, prediction evidence, overfit evidence, lockbox status, and claim status.
+
+- Task ID: T-2026-05-24-0015
+- Title: Execute v1p0 Stage 16 historical artifact compatibility gate
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage16_Historical_Artifact_Compatibility_Gate.md; Stage 2 through Stage 6 historical manifests; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage16__compat__20260524T060500Z__src_6dff1bd__run_6868e3b8/
+- Blockers: none for the selected `20260213` historical chain; newer `20260225` chain is not selected for this XGBoost gate because no matching Stage 6 benchmark packet exists
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: compatibility gate only; no new benchmark run, no model training, no hyperparameter search, no Stage 6 reinterpretation, and no comparability promotion
+- Stale-risk status: lower for historical input compatibility after row-universe, clean-window, horizon, label, split, prediction, and metric checks passed; Stage 17 feature-sidecar materialization remains pending
+- Evidence pointers: data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage16__compat__20260524T060500Z__src_6dff1bd__run_6868e3b8/stage16_compatibility_report.md; run_manifest.json; source_artifacts.json; ResearchTruth.md RT-086
+- Notes: Selected the `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086` chain because it has complete Stage 2 through Stage 6 evidence. Validation found 0 duplicate Stage 2 row keys, 0 duplicate Stage 3 row keys, 0 duplicate Stage 4 fold+row keys, 0 duplicate Stage 5 model+fold+row prediction keys, 0 unavailable labels, 0 null predictions, and 0 null Stage 6 RMSE/MAE values.
+
+- Task ID: T-2026-05-24-0016
+- Title: Execute v1p0 Stage 17 production market feature sidecars
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage17_Production_Market_Feature_Sidecars.md; configs/market_features_v1p0.yaml; configs/feature_registry_v1p0.yaml; scripts/build_v1p0_market_feature_sidecars.py; src/event_state_forecasting/v1p0/features.py; data/features/v1p0/market_lag_features_v1p0__source_6868e3b8__stage17_20260524T062000Z/
+- Blockers: none for Stage 17 feature materialization; Stage 19 model benchmark remains pending
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: feature-sidecar materialization only; no model training, benchmark metrics, hyperparameter search, Stage 6 reinterpretation, or comparability promotion
+- Stale-risk status: lower after full historical market feature sidecar, manifest, digest, registry mapping, usage note, tests, and result-vault packet were created; next gate is Stage 18/19 before model evidence exists
+- Evidence pointers: data/features/v1p0/market_lag_features_v1p0__source_6868e3b8__stage17_20260524T062000Z/feature_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage17__market_features__20260524T062000Z__src_6dff1bd__run_e1bdb390/stage17_feature_sidecar_report.md; scripts/build_v1p0_market_feature_sidecars.py; configs/feature_registry_v1p0.yaml; UsageManual.md; ResearchTruth.md RT-087; `python -m pytest tests/v1p0` output `5 passed`
+- Notes: Materialized 117750 feature rows and 39 feature columns using prior-row lag/rolling policy. Feature validation passed with 0 duplicate feature row keys, feature-label key equality, 0 duplicate split fold+row keys, 9 downstream folds, and expected first-date lag nulls. The feature registry now points to the validated artifact after validation passed.
+
+- Task ID: T-2026-05-24-0017
+- Title: Record v1p0 Stage 18 sequence-window deferral for XGBoost path
+- Status: skipped_for_current_xgboost_path
+- Priority: medium
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage18_Sequence_Window_Materialization.md; Stage 17 feature sidecar; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage18__sequence_windows_deferred__20260524T063500Z__src_6dff1bd__run_5e18d4f0/
+- Blockers: none for current XGBoost path; TSMixer sequence tensors remain deferred until that branch is resumed
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: skipped/deferred scope record only; no tensors, model training, benchmark metrics, hyperparameter search, Stage 6 reinterpretation, or comparability promotion
+- Stale-risk status: lower for the XGBoost path because unused sequence tensors were not materialized; future TSMixer work still needs contract/tests before tensors are built
+- Evidence pointers: data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage18__sequence_windows_deferred__20260524T063500Z__src_6dff1bd__run_5e18d4f0/stage18_sequence_window_deferral.md
+- Notes: Stage 18 is a TSMixer sequence-window stage. It was skipped for the current Stage 19-24 XGBoost path because XGBoost consumes the Stage 17 tabular feature sidecar. Future TSMixer work must define window lengths, tensor shapes, padding/missing-history policy, fold-local normalization, leakage tests, and memory/disk budgets before materialization.
+
+- Task ID: T-2026-05-24-0018
+- Title: Execute v1p0 Stage 19 historical lag-linear and fixed-XGBoost baseline predictions
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage19_Historical_Lag_Linear_And_Fixed_XGBoost_Benchmark.md; scripts/run_v1p0_historical_market_baselines.py; configs/models_v1p0.yaml; Stage 17 feature sidecar; Stage 4 splits; Stage 3 labels
+- Blockers: none for saved-prediction creation under required venv `~/venvs/ai`; Stage 20 metrics and diagnostics remain pending
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: saved predictions only; no metrics computed in Stage 19, no hyperparameter search, no Stage 6 reinterpretation, no comparability promotion, no positive result claim
+- Stale-risk status: lower after full historical fixed-baseline predictions, model manifest, fit/preprocessing records, validation, usage note, and result-vault packet were created; Stage 20 must compute diagnostics from saved predictions before tuning proceeds
+- Evidence pointers: data/models/v1p0/market_baselines_v1p0__features_e1bdb390__stage19_20260524T064500Z/model_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage19__fixed_baselines__20260524T064500Z__src_6dff1bd__run_f5bfd7fa/stage19_fixed_baseline_prediction_report.md; scripts/run_v1p0_historical_market_baselines.py; UsageManual.md; ResearchTruth.md RT-088
+- Notes: Generated 1467000 saved predictions for two fixed model IDs across 9 folds and 5 horizons: 945000 train diagnostics rows, 94500 validation rows, and 427500 lockbox rows. Validation found 0 duplicate model/fold/row predictions and 0 null predictions. Train rows are diagnostic-only and non-claim-bearing.
+
+- Task ID: T-2026-05-24-0019
+- Title: Execute v1p0 Stage 20 full diagnostic baseline gate
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage20_Full_Diagnostic_Baseline_Gate.md; scripts/run_v1p0_full_diagnostic_baseline_gate.py; Stage 19 saved predictions; Stage 17 feature sidecar metadata
+- Blockers: none for Stage 20 diagnostics; Stage 21 search-space freeze may proceed from development evidence with cautions
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: diagnostic baseline gate only; no hyperparameter search, no promotion claim, no Stage 6 reinterpretation, no comparability promotion
+- Stale-risk status: lower after metrics, train-validation gaps, fold dispersion, horizon stability, and strata diagnostics were recorded; XGBoost tuning must use development evidence only and retain lockbox separation
+- Evidence pointers: data/diagnostics/v1p0/stage20_baseline_diagnostics__stage19_f5bfd7fa__20260524T070000Z/diagnostic_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage20__diagnostics__20260524T070000Z__src_6dff1bd__run_8a2ccf4f/stage20_diagnostic_baseline_report.md; scripts/run_v1p0_full_diagnostic_baseline_gate.py; UsageManual.md; ResearchTruth.md RT-089
+- Notes: Consumed 1467000 saved predictions and wrote 270 metric rows, 180 train-validation gap rows, 60 fold-dispersion rows, 15 horizon-stability rows, and 210 strata rows. Gate status is `passed_with_cautions`; Stage 21 may proceed from development validation evidence only. Train-validation gap flags total 59 and fixed-XGBoost validation both-metric improvement rate mean versus lag-linear is 0.3333333333333333.
+
+- Task ID: T-2026-05-24-0020
+- Title: Execute v1p0 Stage 21 XGBoost search-space and objective freeze
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage21_XGBoost_Search_Space_And_Objective_Freeze.md; docs/NextSteps_Brainstorming.md Decisions 14-18; Stage 20 diagnostic manifest; configs/xgboost_search_v1p0.yaml; src/event_state_forecasting/v1p0/xgboost_search.py
+- Blockers: none for Stage 21 freeze; Stage 22 search may proceed using development train/validation evidence only
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, lockbox-guided tuning, or positive benchmark claims
+- Benchmark status: search-space/objective freeze only; no hyperparameter search, no tuned model fit, no benchmark result, no Stage 6 reinterpretation, no comparability promotion
+- Stale-risk status: lower for Stage 22 because search space, objective weights, penalties, budgets, stop rules, and lockbox policy are frozen with tests before search
+- Evidence pointers: configs/xgboost_search_v1p0.yaml; src/event_state_forecasting/v1p0/xgboost_search.py; scripts/freeze_v1p0_xgboost_search_space.py; tests/v1p0/test_stage21_xgboost_search_freeze.py; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage21__xgboost_search_freeze__20260524T071500Z__src_6dff1bd__run_2a802f16/search_space_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage21__xgboost_search_freeze__20260524T071500Z__src_6dff1bd__run_2a802f16/stage21_xgboost_search_space_freeze_report.md; UsageManual.md; ResearchTruth.md RT-090
+- Notes: Frozen config digest is `2a802f16fe6c3d49e07243b343e491dc4ab5e3701900fab1b841bac0d43ed400`. Candidate model ID is `market_xgboost_v2_nested_optuna_candidate`; hurdle model is `market_xgboost_v1_fixed`; objective is `guarded_hurdle_delta_v1` with horizon weights 30/25/20/15/10 and balanced RMSE/MAE. Budget is 100 random trials, 250 Optuna TPE trials, and 50 local-refinement trials. Lockbox is forbidden for Stage 22 search. Post-closeout validation passed with `python -m pytest tests/v1p0` reporting 9 passed, governance validation passed, ledger JSONL parsed, and `git diff --check` clean.
+
+- Task ID: T-2026-05-24-0021
+- Title: Execute v1p0 Stage 22 XGBoost nested random/TPE/refinement search
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage22_XGBoost_Nested_Random_And_Optuna_Search.md; configs/xgboost_search_v1p0.yaml; scripts/run_v1p0_xgboost_nested_search.py; Stage 17 feature sidecar; Stage 20 diagnostics; Stage 21 frozen search manifest
+- Blockers: none for Stage 22 search completion; Stage 23 frozen final evaluation remains pending
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, lockbox-guided tuning, or positive benchmark claims
+- Benchmark status: development-only search evidence; no final/lockbox evaluation, no benchmark improvement claim, no promotion claim, no Stage 6 reinterpretation
+- Stale-risk status: lower for Stage 23 because best development candidate config is frozen from validation-only search evidence, with lockbox usage recorded as false
+- Evidence pointers: scripts/run_v1p0_xgboost_nested_search.py; tests/v1p0/test_stage22_xgboost_search_run_contracts.py; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage22__xgboost_search__20260524T073000Z__src_6dff1bd__run_2a802f16/search_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage22__xgboost_search__20260524T073000Z__src_6dff1bd__run_2a802f16/best_development_candidate_config.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage22__xgboost_search__20260524T073000Z__src_6dff1bd__run_2a802f16/stage22_xgboost_search_report.md; UsageManual.md; ResearchTruth.md RT-091
+- Notes: Completed 400/400 frozen trials with 0 failed trials: 100 random, 250 Optuna TPE, and 50 local-refinement trials. Best development trial is `211` from `phase2_optuna_tpe`, with objective `0.0004255805611604635`, base hurdle delta `-0.0002272641102556583`, and total penalty `0.0006528446714161218`. The trial ledger has 400 rows, fold metrics have 36000 rows, the prediction index has 400 validation-only files and 18900000 indexed prediction rows, and `lockbox_rows_used` sums to 0. Post-closeout validation passed with `python -m pytest tests/v1p0` reporting 12 passed, governance validation passed, ledger JSONL parsed, and `git diff --check` clean.
+
+- Task ID: T-2026-05-24-0022
+- Title: Execute v1p0 Stage 23 XGBoost frozen final evaluation
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013
+- Dependencies: docs/Prompts/v1p0_Stage23_XGBoost_Frozen_Final_Evaluation.md; Stage 21 frozen objective config; Stage 22 search ledger and best development config; scripts/run_v1p0_xgboost_frozen_final_evaluation.py
+- Blockers: none for Stage 23 artifact creation; Stage 24 overfit frontier/promotion review remains pending before any result interpretation
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: frozen-final evaluation artifacts only; no promotion claim, no Stage 6 reinterpretation, no comparability promotion, no trading output
+- Stale-risk status: lower after saved predictions, metrics, hurdle deltas, fit/preprocessing records, and lockbox-free-selection provenance were recorded; Stage 24 must review overfit before any promotion recommendation
+- Evidence pointers: scripts/run_v1p0_xgboost_frozen_final_evaluation.py; tests/v1p0/test_stage23_xgboost_final_contracts.py; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage23__xgboost_frozen_final__20260524T083000Z__src_6dff1bd__run_689fbb80/final_evaluation_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage23__xgboost_frozen_final__20260524T083000Z__src_6dff1bd__run_689fbb80/stage23_xgboost_frozen_final_report.md; UsageManual.md; ResearchTruth.md RT-092
+- Notes: Generated 733500 saved prediction rows for `market_xgboost_v2_frozen_final`: 472500 train diagnostics rows, 47250 validation rows, and 213750 lockbox rows. Wrote 135 metric rows and 135 hurdle-delta rows. Lockbox policy records `frozen_before_lockbox_evaluation=true`, `lockbox_used_for_selection=false`, and `lockbox_metrics_computed_once_for_reporting=true`. Stage 23 report shows both-metric improvement rate versus fixed-XGBoost hurdle of 0.5777777777777777 on validation and 0.9555555555555556 on lockbox, but Stage 23 remains non-claiming by itself; Stage 24 review and Stage 39 claim review govern later language.
+
+- Task ID: T-2026-05-24-0023
+- Title: Execute v1p0 Stage 24 XGBoost overfit frontier and promotion review
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0013; R-2026-05-24-0014
+- Dependencies: docs/Prompts/v1p0_Stage24_XGBoost_Overfit_Frontier_And_Promotion_Review.md; Stage 22 trial ledger and fold metrics; Stage 23 final-evaluation metrics and hurdle deltas; scripts/run_v1p0_xgboost_overfit_promotion_review.py
+- Blockers: none for Stage 24 artifact creation; positive benchmark language remains blocked pending Stage 25 uncertainty evidence, Stage 35 full diagnostics, and Stage 39 final claim review
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: overfit-frontier and conservative classification evidence only; `classification=lockbox_reported_candidate`, `promotion_review_recommended=true`, and `positive_claim_approved=false`
+- Stale-risk status: lower for candidate triage after the frontier table, horizon review, and conservative classification were recorded; final claim language remains stale-risk until the later evidence gates complete
+- Evidence pointers: scripts/run_v1p0_xgboost_overfit_promotion_review.py; tests/v1p0/test_stage24_overfit_review_contracts.py; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage24__xgboost_overfit_review__20260524T084500Z__src_6dff1bd__run_689fbb80/review_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage24__xgboost_overfit_review__20260524T084500Z__src_6dff1bd__run_689fbb80/candidate_classification.json; UsageManual.md; ResearchTruth.md RT-093
+- Notes: Stage 24 wrote a 400-row overfit frontier summary and classified the frozen candidate as `lockbox_reported_candidate` because validation and lockbox both-metric improvement-rate floors cleared without lockbox selection. Validation both-metric improvement rate is 0.5777777777777777, lockbox both-metric improvement rate is 0.9555555555555556, and train-validation gap flag rate is 0.3333333333333333. The review recommends later promotion review, but no positive claim is approved. Post-closeout validation passed with `python -m pytest tests/v1p0` reporting 16 passed, governance validation passed, ledger JSONL parsed under the required venv, and `git diff --check` clean.
+
+- Task ID: T-2026-05-24-0024
+- Title: Execute v1p0 Stage 25 block-bootstrap uncertainty and overfit-pressure review
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-24
+- Last touched: 2026-05-24
+- Request IDs: R-2026-05-24-0014
+- Dependencies: docs/Prompts/v1p0_Stage25_Block_Bootstrap_Uncertainty.md; BenchmarkingStrategy.md Section 6; docs/NextSteps_Brainstorming.md Decision 25; Stage 19 fixed XGBoost predictions; Stage 23 frozen-final predictions; Stage 24 overfit review
+- Blockers: none for Stage 25 artifact creation; positive benchmark language remains blocked pending Stage 35 full diagnostics and Stage 39 final claim review
+- Approvals needed: explicit approval remains required before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark claims
+- Benchmark status: uncertainty and overfit-pressure evidence only; `uncertainty_classification=supportive_nonclaim_uncertainty`, `promotion_review_recommended=true`, and `positive_claim_approved=false`
+- Stale-risk status: lower for uncertainty evidence after moving-block bootstrap, date-clustered comparison, paired loss table, and train-to-validation/lockbox gap diagnostics were recorded; Stage 35/39 evidence gates remain required
+- Evidence pointers: scripts/run_v1p0_xgboost_block_bootstrap_uncertainty.py; tests/v1p0/test_stage25_block_bootstrap_uncertainty.py; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage25__block_bootstrap_uncertainty__20260524T090500Z__src_6dff1bd__run_689fbb80/uncertainty_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage25__block_bootstrap_uncertainty__20260524T090500Z__src_6dff1bd__run_689fbb80/stage25_block_bootstrap_uncertainty_report.md; UsageManual.md; ResearchTruth.md RT-094
+- Notes: Stage 25 used 5-trading-date moving blocks over `as_of_date` within split/horizon, 1000 resamples, and seed `20260524`. It wrote 733500 paired candidate/hurdle loss rows, block-bootstrap intervals, date-clustered comparison intervals, method comparisons, and train-to-real-data generalization gap intervals. Uncertainty classification is `supportive_nonclaim_uncertainty`; minimum improvement probability is 0.607, interval support rate is 0.55, lockbox interval support rate is 0.8, and diagnostic overfit-pressure flag rate is 0.2. Weaker validation 1d/5d/10d RMSE intervals cross zero, and 60d carries the main train-to-real-data gap pressure. No positive claim is approved. Post-closeout validation passed with `python -m pytest tests/v1p0` reporting 19 passed, governance validation passed, ledger JSONL parsed, and `git diff --check` clean.
+
+- Task ID: T-2026-05-25-0028
+- Title: Execute repaired v1p0 Stage 26 through fixed multiseed TSMixer boundary
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-25
+- Last touched: 2026-05-25
+- Request IDs: R-2026-05-25-0018
+- Dependencies: docs/Prompts/v1p0_Prompt_Status_Register.md; docs/Prompts/v1p0_Stage18_Sequence_Window_Materialization.md; docs/Prompts/v1p0_Stage28_FinBERT_Aggregation_Sidecars.md; docs/Prompts/v1p0_Stage30_TSMixer_Sequence_Smoke.md; docs/Prompts/v1p0_Stage31_TSMixer_Fixed_Multiseed_Benchmark.md; scripts/run_v1p0_stage26_through_tsmixer.py; src/event_state_forecasting/v1p0/final_sprint.py
+- Blockers: none for the Stage 31 boundary; Stage 32 later completed under T-2026-05-25-0029; Stage 33 ensemble and refreshed Stage 34-40 final review are not executed under the repaired Stage 31-32 evidence
+- Approvals needed: explicit approval remains required before running Stage 33 ensemble, refreshing Stage 34-40 with the repaired candidate set, live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, or positive benchmark language
+- Benchmark status: repaired sequence/TSMixer evidence only; Stage 31 fixed multiseed benchmark is non-claiming, `positive_claim_approved=false`, and no benchmark-comparability promotion is approved
+- Stale-risk status: lower for Stage 18/30/31 after real sequence tensors and fixed multiseed TSMixer evidence were materialized; stale-risk remains high for old Stage 34-40 packets because they predate the repaired 128d Stage 28/29 and Stage 31-32 evidence
+- Evidence pointers: scripts/run_v1p0_stage26_through_tsmixer.py; src/event_state_forecasting/v1p0/final_sprint.py; tests/v1p0/test_stage26_40_final_sprint_contracts.py; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage18__sequence_windows__20260525T145000Z__src_6dff1bd__run_052914ca/; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage28__finbert_aggregation_sidecars__20260525T150000Z__src_6dff1bd__run_b2c43a8a/; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage29__event_representation_gate__20260525T110500Z__src_6dff1bd__run_ad936935/; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage30__tsmixer_sequence_smoke__20260525T152000Z__src_6dff1bd__run_bdb60d04/; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage31__tsmixer_fixed_multiseed_benchmark__20260525T153000Z__src_6dff1bd__run_9aa67b49/; UsageManual.md; ResearchTruth.md RT-097 through RT-101
+- Notes: User selected the deterministic 128d FinBERT projection and heavy 5-seed 60d fixed TSMixer budget. Stage 18 materialized 20d and 60d sequence tensors; Stage 28 reran 128d FinBERT aggregation sidecars; Stage 29 reselected `event_finbert_topk_v1` from validation evidence; Stage 30 reran sequence-tensor smoke with `sequence_shape=[60,39]`, `parameter_count=4837`, and `final_training_loss=0.07785367965698242`; Stage 31 completed five fixed seeds over 60d windows and selected `market_tsmixer_v1_fixed_seed_02` as best seed, but validation evidence did not clear the market-XGBoost hurdle (`best_validation_weighted_delta_vs_market_xgb=0.364217420925252`, `best_validation_both_metric_improvement_rate_vs_market_xgb=0.022222222222222223`). Full `python -m pytest tests/v1p0` reported 25 passed, governance validation passed, YAML/JSON/ledger parse checks passed, and `git diff --check` reported only line-ending warnings.
+
+- Task ID: T-2026-05-25-0029
+- Title: Execute user-overridden v1p0 Stage 32 TSMixer optimization
+- Status: done
+- Priority: high
+- Owner: agent
+- Created: 2026-05-25
+- Last touched: 2026-05-25
+- Request IDs: R-2026-05-25-0019
+- Dependencies: docs/Prompts/v1p0_Stage32_TSMixer_Optimization_And_Overfit_Control.md; docs/Prompts/v1p0_Prompt_Status_Register.md; Stage 18 sequence tensors; Stage 31 fixed multiseed TSMixer manifest; scripts/run_v1p0_stage32_tsmixer_optimization.py; src/event_state_forecasting/v1p0/final_sprint.py
+- Blockers: none for Stage 32 completion; tuned TSMixer is rejected from development evidence; Stage 33 fixed-candidate ensemble and refreshed Stage 34-40 review still require explicit approval
+- Approvals needed: explicit approval remains required before Stage 33 ensemble execution, refreshed Stage 34-40 final review expansion, live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, positive benchmark language, or rerunning Stage 32 with a changed search contract
+- Benchmark status: development-only TSMixer optimization evidence; 60/60 Optuna trials completed with 2 seeds and zero lockbox rows used for optimization; tuned candidate rejected; `positive_claim_approved=false`
+- Stale-risk status: lower for Stage 32 after explicit override and heavy search completion; high for old Stage 35-40 packets because they predate Stage 31-32 repaired evidence
+- Evidence pointers: scripts/run_v1p0_stage32_tsmixer_optimization.py; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage32__tsmixer_optimization_overfit_control__20260525T160000Z__src_6dff1bd__run_54e692cf/stage32_tsmixer_optimization_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage32__tsmixer_optimization_overfit_control__20260525T160000Z__src_6dff1bd__run_54e692cf/best_candidate_manifest.json; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage32__tsmixer_optimization_overfit_control__20260525T160000Z__src_6dff1bd__run_54e692cf/trial_ledger.parquet; data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage32__tsmixer_optimization_overfit_control__20260525T160000Z__src_6dff1bd__run_54e692cf/overfit_frontier.parquet; ResearchTruth.md RT-102; UsageManual.md
+- Notes: User explicitly approved overriding Stage 31 and selected the heavy Optuna contract. Stage 32 ran 60 trials with two seeds, 8 epochs, 60d sequence tensors, and train/validation-only optimization. Best trial was 41 with `best_objective_value=0.1339986249075226`, hyperparameters `hidden_time=48`, `hidden_feature=128`, `learning_rate=0.0024461051111354356`, `weight_decay=1.540055796216907e-06`, `batch_size=512`, and `grad_clip_norm=2.0`. It was rejected because validation still did not clear the market-XGBoost hurdle (`validation_weighted_delta_vs_market_xgb=0.1337454887214977`, both-metric rate `0.022222222222222223`) and train-validation gap pressure was high (`0.7388888888888889`).
+
 ## Decisions and Approvals Index (REFERENCE-ONLY)
-- Approval event IDs: E-2026-04-03-0002; E-2026-04-13-0006; E-2026-04-16-0002; E-2026-05-07-0034; E-2026-05-15-0002; E-2026-05-15-0010; E-2026-05-21-0008; E-2026-05-21-0017; E-2026-05-22-0028; E-2026-05-22-0030; E-2026-05-22-0032; E-2026-05-22-0034; E-2026-05-22-0036; E-2026-05-22-0038; E-2026-05-22-0040; E-2026-05-22-0042; E-2026-05-22-0044; E-2026-05-22-0046; E-2026-05-22-0048; E-2026-05-22-0049; E-2026-05-22-0050; E-2026-05-22-0061; E-2026-05-22-0067; E-2026-05-22-0075; E-2026-05-23-0002; E-2026-05-23-0028; E-2026-05-23-0041; E-2026-05-24-0001; E-2026-05-24-0007
-- Scope decisions: ScopeDecisionLog.md
+- Approval event IDs: E-2026-04-03-0002; E-2026-04-13-0006; E-2026-04-16-0002; E-2026-05-07-0034; E-2026-05-15-0002; E-2026-05-15-0010; E-2026-05-21-0008; E-2026-05-21-0017; E-2026-05-22-0028; E-2026-05-22-0030; E-2026-05-22-0032; E-2026-05-22-0034; E-2026-05-22-0036; E-2026-05-22-0038; E-2026-05-22-0040; E-2026-05-22-0042; E-2026-05-22-0044; E-2026-05-22-0046; E-2026-05-22-0048; E-2026-05-22-0049; E-2026-05-22-0050; E-2026-05-22-0061; E-2026-05-22-0067; E-2026-05-22-0075; E-2026-05-23-0002; E-2026-05-23-0028; E-2026-05-23-0041; E-2026-05-24-0001; E-2026-05-24-0007; E-2026-05-24-0026; E-2026-05-24-0040
+- Scope decisions: ArchitecturalDesignDecisions.md; docs/NextSteps_Brainstorming.md; preserved deprecated copies under deprecated/v0p9/docs/
 - Current active truth: ResearchTruth.md
 
 ## Open Questions for User
 - Git push is blocked by local SSH identity configuration: Git is looking for `\\wsl.localhost\\Ubuntu-24.04\\home\\berserker\\home\\berserker\\k\\.ssh\\berserker@github`, which does not exist. User does not allow the agent to inspect private keys, so SSH config/key correction is manual unless the user provides a non-secret remote/auth path.
-- Next research/product approval gate, if desired: persisted inference packaging, new `forecast_candidate` semantics, live provider calls, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
+- Next research/product approval gate, if desired: Stage 33 fixed-candidate ensemble using Stage 31 fixed TSMixer only, refreshed Stage 34-40 non-claiming final diagnostics, persisted inference packaging, new `forecast_candidate` semantics, live provider calls, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
 
 ## Last Session Delta
-- New requests: user asked whether `docs/NextSteps_Brainstorming.md` was truly complete relative to a scraped chat summary, accepted the answer, then requested a passdown for a fresh conversation and asked that all memory be logged first.
-- Tasks created/updated: T-2026-05-24-0004 created for passdown prompt cleanup and handoff documentation; T-2026-05-24-0005 created and completed for deprecated-layout cleanup.
-- Work executed: verified `docs/NextSteps_Brainstorming.md` has 979 lines and contains the detailed decision process, comparisons, selected roadmap, deferred items, and research references; created passdown documentation under `docs/Passdown_NewPrompts.md`; consolidated already-deprecated docs/code under root `deprecated/v0p9/`; moved old `deprecated_version/` to root `deprecated/v0p7/`; removed moved metadata/cache junk; updated passdown paths; validated memory and governance.
-- Evidence logged: `docs/NextSteps_Brainstorming.md`; `git show --stat --oneline HEAD~1 -- docs/NextSteps_Brainstorming.md`; `git log --oneline -- docs/NextSteps_Brainstorming.md`; `docs/Passdown_NewPrompts.md`; `deprecated/v0p9/docs/`; `deprecated/v0p9/src/`; `deprecated/v0p7/`; ledger JSONL validation `EVENT_LEDGER_JSONL_VALID`; governance validation `VALIDATION PASSED`.
-- Blockers found: remote pushes still blocked by SSH identity config; no blocker for local passdown documentation.
-- Stale-risk found: `git status` shows active `src/event_state_forecasting/**` files deleted and corresponding `deprecated/v0p9/src/**` files untracked, consistent with the user's stated v0p9 code deprecation move. The agent only relocated already-deprecated files into the requested root deprecated layout and did not deprecate additional active files.
-- Approvals required: future approval remains required before editing `AgentRules.md` or `docs/agent/Agent*.md`, before deleting active decision files after consolidation, before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, or benchmark-comparability promotion.
+- New requests: user asked whether `docs/NextSteps_Brainstorming.md` was truly complete relative to a scraped chat summary, requested a passdown for a fresh conversation, requested deprecated-layout cleanup, asked to continue with v1p0 decision consolidation, provided prompts for verified deprecation, v1p0 project definition, v1p0 naming, and initial sanitization, approved proposed governance updates, asked to continue if next steps were clear, requested executing the v1p0 first slice stage-by-stage, asked for a status recap, asked to continue if next steps remained clear, requested a first-slice retrospective with question-first approval discipline, requested the final v1p0 sprint in strict order, clarified not to execute/create code and requested full-v1p0 planning prompts plus result-vault planning, requested continuation of the full-v1p0/XGBoost execution path if clear, asked for a recap, requested continuation of remaining clear next steps, asked for another recap, requested continuation if next steps were clear, then identified Stage 31-33 silent deferral as a critical prompt issue and requested Stage 16-40 prompt audit/repair.
+- Tasks created/updated: T-2026-05-24-0004 created for passdown prompt cleanup and handoff documentation; T-2026-05-24-0005 created and completed for deprecated-layout cleanup; T-2026-05-24-0006 created and completed for `ArchitecturalDesignDecisions.md` consolidation; T-2026-05-24-0007 created and completed for initial v1p0 documentation sanitization; T-2026-05-24-0008 created and completed for governance, strategy, execution-flow, and v1p0 stage-prompt planning; T-2026-05-24-0009 created and completed for v1p0 first-slice smoke execution under required venv `~/venvs/ai`; T-2026-05-24-0010 created and completed for the per-stage completion register and final audit; T-2026-05-24-0011 created and completed for the retrospective and minimal runtime notes; T-2026-05-24-0012 created and completed for the final v1p0 sprint; T-2026-05-24-0013 created and completed for full-v1p0 prompt planning; T-2026-05-24-0014 created and completed for Stage 15 result-vault readiness metadata; T-2026-05-24-0015 created and completed for Stage 16 historical artifact compatibility; T-2026-05-24-0016 created and completed for Stage 17 market feature sidecar materialization; T-2026-05-24-0017 recorded Stage 18 as skipped/deferred for the current XGBoost path; T-2026-05-24-0018 created and completed for Stage 19 fixed baseline saved predictions; T-2026-05-24-0019 created and completed for Stage 20 diagnostic baseline gate; T-2026-05-24-0020 created and completed for Stage 21 XGBoost search-space/objective freeze; T-2026-05-24-0021 created and completed for Stage 22 XGBoost nested search; T-2026-05-24-0022 created and completed for Stage 23 XGBoost frozen final evaluation; T-2026-05-24-0023 created and completed for Stage 24 XGBoost overfit frontier and promotion review; T-2026-05-24-0024 created and completed for Stage 25 block-bootstrap uncertainty and overfit-pressure review; T-2026-05-25-0025 created and completed for Stage 26-40 final-sprint execution and closeout validation; T-2026-05-25-0026 created and completed for Stage 16-40 prompt audit and blocker/decision-gate hardening.
+- Work executed: verified `docs/NextSteps_Brainstorming.md`; created `docs/Passdown_NewPrompts.md`; consolidated already-deprecated docs/code under root `deprecated/v0p9/`; moved old `deprecated_version/` to root `deprecated/v0p7/`; created `ArchitecturalDesignDecisions.md`; updated `ProjectDefinition.md` for v1p0; moved `docs/Architecture_Map.md` to root `Architecture_Map.md`; replaced then later expanded `UsageManual.md` for v1p0 smoke usage; rewrote `Complete_guidebook.txt` for v1p0 file flow; updated governance refs after approval; created `LearningStrategy.md`, `BenchmarkingStrategy.md`, `VisualizationStrategy.md`, `Unilu_Compatibility_requirements.md`, a v1p0 `ExecutionFlow.md`, 41 v1p0 stage prompts, v1p0 configs, active `src/event_state_forecasting/v1p0/` modules, `tests/v1p0/`, the smoke script, `docs/v1p0_first_slice/Stage_Completion_Register.md`, `docs/Retrospective_FirstSlice.md`, `docs/v1p0_final_sprint/Final_v1p0_Sprint_Report.md`, and `data/v1p0_full_results/README.md`; strengthened v1p0 report rendering/tests for metrics, strata, uncertainty sections and captions; extended `ExecutionFlow.md` for Stage 15 through Stage 40 full-v1p0 planning; executed Stage 15 metadata readiness by adding `data/v1p0_full_results/Stage15_Result_Vault_Readiness.md` and a result-run naming convention; executed Stage 16 compatibility validation and recorded a result-vault compatibility packet; executed Stage 17 market feature sidecar materialization and registry update; recorded Stage 18 sequence windows as skipped/deferred for the current XGBoost path; executed Stage 19 fixed lag-linear and fixed-XGBoost saved-prediction generation; executed Stage 20 diagnostic baseline gate; executed Stage 21 XGBoost search-space/objective freeze; executed Stage 22 development-only XGBoost nested search; executed Stage 23 XGBoost frozen final evaluation; executed Stage 24 XGBoost overfit frontier and promotion review; executed Stage 25 block-bootstrap uncertainty and overfit-pressure review.
+- Evidence logged: `docs/NextSteps_Brainstorming.md`; `docs/Passdown_NewPrompts.md`; `deprecated/v0p9/docs/`; `deprecated/v0p9/src/`; `deprecated/v0p7/`; `ArchitecturalDesignDecisions.md`; `ProjectDefinition.md`; `Architecture_Map.md`; `UsageManual.md`; `Complete_guidebook.txt`; `AgentRules.md`; `docs/agent/AgentMemory.md`; `docs/agent/AgentTemplates.md`; `docs/agent/AgentCompliance.md`; `docs/agent/AgentGlossary.md`; `LearningStrategy.md`; `BenchmarkingStrategy.md`; `VisualizationStrategy.md`; `Unilu_Compatibility_requirements.md`; `ExecutionFlow.md`; `docs/Prompts/v1p0_Stage00_*.md` through `docs/Prompts/v1p0_Stage40_*.md`; `docs/v1p0_first_slice/Stage_Completion_Register.md`; `docs/Retrospective_FirstSlice.md`; `docs/v1p0_final_sprint/Final_v1p0_Sprint_Report.md`; `data/v1p0_full_results/README.md`; `data/v1p0_full_results/Stage15_Result_Vault_Readiness.md`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage16__compat__20260524T060500Z__src_6dff1bd__run_6868e3b8/`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage17__market_features__20260524T062000Z__src_6dff1bd__run_e1bdb390/`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage18__sequence_windows_deferred__20260524T063500Z__src_6dff1bd__run_5e18d4f0/`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage19__fixed_baselines__20260524T064500Z__src_6dff1bd__run_f5bfd7fa/`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage20__diagnostics__20260524T070000Z__src_6dff1bd__run_8a2ccf4f/`; `data/features/v1p0/market_lag_features_v1p0__source_6868e3b8__stage17_20260524T062000Z/`; `data/models/v1p0/market_baselines_v1p0__features_e1bdb390__stage19_20260524T064500Z/`; `data/diagnostics/v1p0/stage20_baseline_diagnostics__stage19_f5bfd7fa__20260524T070000Z/`; `ResearchTruth.md` RT-085 through RT-089; `src/event_state_forecasting/v1p0/`; `tests/v1p0/`; `scripts/run_v1p0_first_slice_smoke.py`; `scripts/build_v1p0_market_feature_sidecars.py`; `scripts/run_v1p0_historical_market_baselines.py`; `scripts/run_v1p0_full_diagnostic_baseline_gate.py`; `data/v1p0_first_slice_smoke/first_slice_smoke_v1/`; docs/agent/agent_log/Event_Ledger.ndjson.
+- Stage 21 evidence additionally logged: `configs/xgboost_search_v1p0.yaml`; `src/event_state_forecasting/v1p0/xgboost_search.py`; `tests/v1p0/test_stage21_xgboost_search_freeze.py`; `scripts/freeze_v1p0_xgboost_search_space.py`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage21__xgboost_search_freeze__20260524T071500Z__src_6dff1bd__run_2a802f16/`; `ResearchTruth.md` RT-090.
+- Stage 22 evidence additionally logged: `scripts/run_v1p0_xgboost_nested_search.py`; `tests/v1p0/test_stage22_xgboost_search_run_contracts.py`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage22__xgboost_search__20260524T073000Z__src_6dff1bd__run_2a802f16/`; `ResearchTruth.md` RT-091.
+- Stage 23 evidence additionally logged: `scripts/run_v1p0_xgboost_frozen_final_evaluation.py`; `tests/v1p0/test_stage23_xgboost_final_contracts.py`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage23__xgboost_frozen_final__20260524T083000Z__src_6dff1bd__run_689fbb80/`; `ResearchTruth.md` RT-092.
+- Stage 24 evidence additionally logged: `scripts/run_v1p0_xgboost_overfit_promotion_review.py`; `tests/v1p0/test_stage24_overfit_review_contracts.py`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage24__xgboost_overfit_review__20260524T084500Z__src_6dff1bd__run_689fbb80/`; `ResearchTruth.md` RT-093.
+- Stage 25 evidence additionally logged: `scripts/run_v1p0_xgboost_block_bootstrap_uncertainty.py`; `tests/v1p0/test_stage25_block_bootstrap_uncertainty.py`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage25__block_bootstrap_uncertainty__20260524T090500Z__src_6dff1bd__run_689fbb80/`; `ResearchTruth.md` RT-094.
+- Stage 26-31 repaired TSMixer evidence additionally logged: `scripts/run_v1p0_stage26_through_tsmixer.py`; `src/event_state_forecasting/v1p0/final_sprint.py`; `tests/v1p0/test_stage26_40_final_sprint_contracts.py`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage18__sequence_windows__20260525T145000Z__src_6dff1bd__run_052914ca/`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage28__finbert_aggregation_sidecars__20260525T150000Z__src_6dff1bd__run_b2c43a8a/`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage29__event_representation_gate__20260525T110500Z__src_6dff1bd__run_ad936935/`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage30__tsmixer_sequence_smoke__20260525T152000Z__src_6dff1bd__run_bdb60d04/`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage31__tsmixer_fixed_multiseed_benchmark__20260525T153000Z__src_6dff1bd__run_9aa67b49/`; `ResearchTruth.md` RT-097 through RT-101.
+- Stage 32 optimization evidence additionally logged: `scripts/run_v1p0_stage32_tsmixer_optimization.py`; `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage32__tsmixer_optimization_overfit_control__20260525T160000Z__src_6dff1bd__run_54e692cf/`; `ResearchTruth.md` RT-102.
+- Blockers found: remote pushes still blocked by SSH identity config; no local v1p0 validation blocker remains under required venv `~/venvs/ai`; positive benchmark language and benchmark-comparability promotion remain unapproved after Stage 39; Stage 33 ensemble and refreshed Stage 34-40 final review remain future/approval-gated after the new Stage 31-32 evidence.
+- Stale-risk found: `ScopeDefinition.md` contains stale restart-shell status and older horizon/provider defaults relative to later active state; `ArchitecturalDesignDecisions.md` preserves these as resolved/deprecated reconciliation notes. Historical/deprecated/manual-research copies still contain old paths by design.
+- Approvals required: future approval remains required before protected governance edits, before deleting/superseding active decision files after consolidation, before Stage 33 ensemble execution, before refreshed Stage 34-40 final review expansion, before changing/rerunning the Stage 32 search contract, before live provider calls, raw overwrites, service/API/dashboard scope, trading/signal outputs, Stage 6 reinterpretation, benchmark-comparability promotion, positive benchmark language, or broader model expansion beyond the completed/deferred v1p0 scope.
 
 ## Drift / Staleness Flags
 - `Current_State.md` had drifted badly from later owner-approved scope and active-root implementation work; repaired this session.
@@ -881,3 +1230,18 @@ Last updated: 2026-05-24
 - 2026-05-23 Stage 11/DeepResearch prompt reconciliation repaired stale future-Stage-10 wording in prompt files and added explicit required-background file lists at the start of each updated prompt.
 - 2026-05-23 execution/usage reconciliation converted the old API-centric usage reference into `UsageManual.md`, rewrote `ExecutionPipeline.md` with active/planned function and requirement matrices, and updated active references/guidebook entries to the new manual name.
 - 2026-05-23 GitHub-prep hygiene moved active root prompt artifacts into `docs/Prompts/`, added a prompt archive README, updated active prompt-path references and validators, tightened `.gitignore`, and left remote repository creation blocked pending user name/visibility selection.
+- 2026-05-24 v1p0 first-slice completion evidence now includes a per-stage Stage 00 through Stage 14 register and a regenerated smoke summary with `status=v1p0_first_slice_smoke_completed`; this remains toy-data smoke evidence only and does not upgrade benchmark claims.
+- 2026-05-24 first-slice retrospective recorded process lessons and minimal runtime-environment notes. Future additions to `ArchitecturalDesignDecisions.md` should be asked and approved one by one before editing.
+- 2026-05-24 final v1p0 sprint strengthened static report fidelity and visualization-readiness smoke evidence for metrics, strata, and uncertainty tables. This remains smoke-only evidence with `benchmark_claim=false`.
+- 2026-05-24 full-v1p0 planning prompt suite now extends Stage 15 through Stage 40, with a planning-only result-vault contract under `data/v1p0_full_results/README.md`. No code, benchmark, training, or result artifact was executed by that planning step.
+- 2026-05-24 Stage 21 froze the XGBoost search space and guarded hurdle-delta objective with contract tests and a result-vault packet. This is search-contract evidence only, not hyperparameter-search, tuned-model, benchmark, or promotion evidence.
+- 2026-05-24 Stage 22 completed the development-only XGBoost random/TPE/refinement search with 400 completed trials and 0 lockbox usage. This is not final evaluation or promotion evidence; Stage 23 remains required for the frozen final candidate.
+- 2026-05-24 Stage 23 completed frozen-final XGBoost evaluation for `market_xgboost_v2_frozen_final`. This is final-evaluation artifact evidence only; Stage 24 later reviewed overfit, and Stage 39 claim review remains required before positive language.
+- 2026-05-24 Stage 24 completed XGBoost overfit-frontier and conservative promotion review. The candidate is classified as `lockbox_reported_candidate` with `promotion_review_recommended=true`, but `positive_claim_approved=false`; Stage 25 later added uncertainty evidence, and Stage 35 diagnostics plus Stage 39 final claim review remain required before positive language.
+- 2026-05-24 Stage 25 completed moving-block bootstrap uncertainty and train-to-real-data gap diagnostics. Evidence is `supportive_nonclaim_uncertainty`, but weaker validation intervals and 60d train-to-real-data gap pressure remain visible; Stage 35 diagnostics and Stage 39 final claim review remain required before positive language.
+- 2026-05-25 Stage 26 through Stage 40 were executed via `scripts/run_v1p0_stage26_40_final_sprint.py`. Stage 26 froze `ProsusAI/finbert`, Stage 27 materialized 67,840 article-level FinBERT cache rows, Stage 28 built FinBERT aggregation sidecars, Stage 29 selected `event_finbert_topk_v1` from validation-only event-representation evidence, Stage 30 completed smoke-only TSMixer evidence, Stages 31-33 were deferred, Stage 34 classified market+event fusion as `exploratory_only`, Stage 35-38 completed diagnostics/frontier/report/docs, Stage 39 completed final claim review with `positive_claim_approved=false`, and Stage 40 closed v1p0 with next-scope gates. Final closeout validation passed with `python -m pytest tests/v1p0` reporting 23 passed, governance validation passed, registry/ledger parse checks passed, and `git diff --check` reporting only line-ending warnings.
+- 2026-05-25 Stage 16 through Stage 40 prompt audit/repair hardened all full-v1p0 execution prompts with explicit objectives, truth-source resolution, inputs/outputs, success measurements, blocker/user-question rules, cascade handling, tests, and non-claims. Stage 18 and Stage 30-33 prompts now explicitly block silent TSMixer/ensemble deferral and require user resolution before downstream continuation.
+- 2026-05-25 all v1p0 prompt status lines were centralized through `docs/Prompts/v1p0_Prompt_Status_Register.md`. The register marks Stage 21-25 XGBoost as completed under current evidence, Stage 26 as completed FinBERT contract rather than XGBoost, Stage 18 and Stage 30-33 as requiring run/user resolution for the TSMixer/ensemble branch, Stage 28 as requiring user decision on deterministic embedding projection, and Stage 34-40 as needing rerun after dependency resolution.
+- 2026-05-25 user clarified that the immediate execution boundary means XGBoost through Stage 25. The agent did not rerun the 400-trial Stage 22 search because the status audit found no invalidating upstream changes; focused Stage 21-25 tests passed, manifest-chain validation passed, and the status register now records the boundary.
+- 2026-05-25 Stage 26 through Stage 31 were rerun/repaired under hardened prompts. Stage 28 used the user-selected deterministic 128d FinBERT projection, Stage 29 reselected `event_finbert_topk_v1` from validation evidence, Stage 18 materialized 20d/60d sequence tensors, Stage 30 smoke ran on real 60d sequence tensors, and Stage 31 completed heavy 5-seed 60d fixed TSMixer. Stage 31 best seed was `market_tsmixer_v1_fixed_seed_02`, but validation evidence did not clear the market-XGBoost hurdle (`best_validation_weighted_delta_vs_market_xgb=0.364217420925252`, both-metric rate `0.022222222222222223`), so Stage 32 is blocked unless the user explicitly overrides. Validation passed with full `python -m pytest tests/v1p0` reporting 25 passed, governance validation passed, YAML/JSON/ledger parse checks passed, and `git diff --check` reporting only line-ending warnings.
+- 2026-05-25 user explicitly overrode Stage 31 and selected the heavy Stage 32 Optuna contract. Stage 32 completed 60/60 train/validation-only Optuna trials with two seeds, zero lockbox rows used for optimization, and rejected the tuned TSMixer candidate. Best trial 41 had `validation_weighted_delta_vs_market_xgb=0.1337454887214977`, both-metric rate `0.022222222222222223`, and train-validation gap flag rate `0.7388888888888889`; positive benchmark claims remain unapproved and tuned TSMixer should not feed Stage 33/35.

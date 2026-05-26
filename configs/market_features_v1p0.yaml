@@ -1,0 +1,29 @@
+{
+  "schema_version": "market_features_v1p0_v1",
+  "feature_family_id": "market_lag_features_v1p0",
+  "row_key": ["benchmark_family_id", "canonical_ticker", "as_of_date", "horizon_id"],
+  "source_columns": ["market_close", "market_volume", "market_intraday_return"],
+  "lag_periods": [1, 2, 5],
+  "rolling_windows": [3, 5],
+  "rolling_min_periods": 2,
+  "null_policy": "preserve_unavailable_history_as_null",
+  "lookahead_policy": "shift_before_rolling_by_ticker",
+  "production_feature_set": {
+    "feature_schema_version": "market_lag_features_v1p0_full_v1",
+    "return_windows": [1, 5, 10, 20, 60],
+    "volatility_windows": [5, 20, 60],
+    "volume_ratio_windows": [5, 20, 60],
+    "high_low_range_windows": [5, 20],
+    "drawdown_windows": [20, 60],
+    "market_relative_return_windows": [5, 20, 60],
+    "min_periods_by_family": {
+      "returns": 1,
+      "volatility": 3,
+      "volume_ratio": 3,
+      "high_low_range": 3,
+      "drawdown": 5,
+      "market_relative_return": 1
+    },
+    "as_of_policy": "use_prior_trading_rows_only_for_rolling_and_return_windows"
+  }
+}

@@ -31,7 +31,7 @@ Required reading order:
 11. `ResearchTruth.md`
 12. `ScopeDefinition.md`
 13. `docs/Implementation_Decisions.md`
-14. `docs/Architecture_Map.md`
+14. `Architecture_Map.md`
 15. `docs/Execution_Plan.md`
 16. `docs/Unit_Testing.md`
 17. `docs/db_Testing.md`
@@ -59,7 +59,7 @@ The ownership hierarchy must not be lost.
 | `ProjectDefinition.md` | Broad active project definition at architecture, pipeline, responsibility, and benchmark-family level. | Final module-level implementation contract or code behavior. |
 | `ScopeDefinition.md` | Pre-decision questionnaire, option framing, evidence table, and contradiction inventory. | Current owner-approved scope after `ScopeDecisionLog.md` overrides it. |
 | `docs/Implementation_Decisions.md` | Active design decision ledger and open design decisions. | Theory truth or owner-approved scope changes. |
-| `docs/Architecture_Map.md` | Current architecture map and intended active layers. | Per-file exhaustive inventory or benchmark results. |
+| `Architecture_Map.md` | Current architecture map and intended active layers. | Per-file exhaustive inventory or benchmark results. |
 | Validation docs | Expected validation gates, planned tests, benchmark integrity, and pipeline gates. | Implementation truth or source-of-truth overrides. |
 | `Complete_guidebook.txt` | Human-readable repository file map and status index. | Scope decisions, research truth, theory claims, design overrides, or implementation claims not evidenced elsewhere. |
 | Deprecated guidebooks | Historical reference for useful guidebook format and coverage style. | Active truth, active implementation status, current provider stack, or current benchmark scope. |
@@ -239,7 +239,7 @@ Active docs:
 - `docs/Complete_Theoretical_Background.md`
 - `docs/References.md`
 - `docs/Implementation_Decisions.md`
-- `docs/Architecture_Map.md`
+- `Architecture_Map.md`
 - `docs/Execution_Plan.md`
 - `docs/Unit_Testing.md`
 - `docs/db_Testing.md`

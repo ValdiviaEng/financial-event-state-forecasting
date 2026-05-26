@@ -277,9 +277,13 @@ The validator may additionally check:
 - whether the validator file itself is listed in required files
 - whether `Current_State.md` appears to be missing mandatory subsections under the Task Register
 - whether obviously empty governance files exist where non-empty structure is expected
+- whether active design-path references in governance files remain consistent after approved path migrations, such as a moved architecture map or newly active decision-consolidation file
+- whether active governance files still reference deprecated decision-source paths without also referencing the active replacement source
 
 Optional advanced checks must remain conservative.
 False authority claims are forbidden.
+
+Path-consistency checks for design files should be opt-in or conservative unless the migrated path is explicitly approved and mechanically unambiguous.
 
 ---
 

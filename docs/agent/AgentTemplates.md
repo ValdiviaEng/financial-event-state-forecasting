@@ -655,6 +655,26 @@ Notes:
 
 ## 9. Governance Maintenance Templates
 
+### 9.0 File Deprecation / Reference Migration Record
+
+```text
+File(s) affected:
+Previous active path:
+Preserved path:
+New active source:
+User approval:
+Information-loss check:
+References updated:
+Files intentionally not updated:
+Reason not updated:
+Validation run:
+Remaining stale-risk:
+Related request IDs:
+Related task IDs:
+Related event IDs:
+Notes:
+```
+
 ### 9.1 Governance Change Record
 
 ```text

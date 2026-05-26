@@ -25,7 +25,7 @@ Create or verify the active-root `src/`, `configs/`, and `tests/` scaffold as co
 | `ScopeDecisionLog.md` | Protected benchmark values. |
 | `ResearchTruth.md` | Active truth and current repo reality. |
 | `StructuralFolderMapPrompt.md` | Scaffold shape and comment rules. |
-| `docs/Architecture_Map.md` | Intended package layers. |
+| `Architecture_Map.md` | Intended package layers. |
 | `docs/Implementation_Decisions.md` | Comment-only scaffold decision. |
 | `docs/Detailed_Execution_Stages.md` | Stage 0A requirements. |
 

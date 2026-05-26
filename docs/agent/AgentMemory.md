@@ -146,6 +146,8 @@ Meaningful change includes, at minimum:
 - reconciliation at session end
 - drift checkpoint
 - stale-risk discovery that changes planning or completion status
+- observed user/manual file move, deletion, deprecation, or path migration that affects active truth, active references, task status, or stale-risk
+- runtime environment or shell caveat that affects reproducible validation, such as a required venv or WSL/PowerShell quoting issue
 
 Do not delete or rewrite old events.
 If you must correct a mistake, append a correction event referencing the original event ID.
@@ -290,6 +292,7 @@ You MUST update both `Current_State.md` and `Event_Ledger.ndjson` immediately af
 - any scope change suggestion
 - any decision requiring user input
 - any correction to previously logged state
+- any observed user/manual file move, deletion, deprecation, or path migration that affects active truth, active references, task status, or stale-risk
 - session-ending reconciliation
 
 “Immediately” means before proceeding to additional implementation, additional claims, or additional branching decisions.
@@ -310,6 +313,7 @@ A meaningful change is any change that alters one or more of the following:
 - whether evidence now exists for a completion claim
 - whether a file or stage is stale-risk
 - whether the next action remains aligned with the approved contract
+- whether a manual or agent-executed file move/deprecation changed active truth or active references
 
 Usually NOT meaningful by themselves:
 
@@ -413,6 +417,8 @@ At minimum, the following event types are allowed and recommended:
 - `Fresh_start_reconstruction`
 - `Log_repair`
 - `Governance_change_logged`
+- `File_deprecated`
+- `Path_migrated`
 
 Do not invent near-duplicate event names if an existing one fits.
 

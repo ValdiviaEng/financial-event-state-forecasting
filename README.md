@@ -159,25 +159,35 @@ python scripts/OHLCV_daily_update.py --end-date 2026-05-22 --include-spy
 - Treat `runs/logs/alphavantage_news_daemon.log` as sensitive until its Alpha Vantage URL-bearing lines are sanitized or isolated.
 - Do not change Stage 6 metric policy, comparison framing, lockbox interpretation, comparator roster, protected scope, or benchmark comparability after result inspection without explicit approval.
 - Do not treat top-100/top-500 data collection as comparable to the approved top-50 benchmark family without explicit approval.
-- Archived files under `deprecated_version/` are reference-only unless reintroduced through active docs.
+- Archived files under `deprecated/v0p9/` and `deprecated/v0p7/` are reference-only unless reintroduced through active docs.
 
 ## Key Docs
 
 - `AgentRules.md`
 - `ProjectDefinition.md`
+- `ArchitecturalDesignDecisions.md`
+- `Architecture_Map.md`
 - `docs/Prompts/StructuralFolderMapPrompt.md`
-- `ScopeDecisionLog.md`
+- `docs/NextSteps_Brainstorming.md`
+- `deprecated/v0p9/docs/ScopeDecisionLog.md`
+- `deprecated/v0p9/docs/ScopeDefinition.md`
 - `ResearchTruth.md`
+- `LearningStrategy.md`
+- `BenchmarkingStrategy.md`
+- `VisualizationStrategy.md`
+- `Unilu_Compatibility_requirements.md`
 - `docs/Data_Separation_And_Overfitting_Control.md`
 - `docs/Detailed_Execution_Stages.md`
 - `docs/Complete_Theoretical_Background.md`
 - `docs/Implementation_Decisions.md`
-- `docs/Architecture_Map.md`
 - `docs/Execution_Plan.md`
 - `ExecutionPipeline.md`
 - `UsageManual.md`
 - `docs/Prompts/Stage0Prompt.md` through `docs/Prompts/Stage12Prompt.md`
+- `docs/Prompts/v1p0_Stage00_*.md` through `docs/Prompts/v1p0_Stage14_*.md`
+- `docs/Prompts/v1p0_Stage15_*.md` through `docs/Prompts/v1p0_Stage40_*.md`
 - `docs/Prompts/DeepResearch_Chat_Topic_*.md`
 - `docs/db_Testing.md`
 - `docs/Benchmark_Testing.md`
 - `ExecutionFlow.md`
+- `data/v1p0_full_results/README.md`

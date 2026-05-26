@@ -1,1187 +1,191 @@
 Complete Guidebook
 
-Status: active-root comprehensive repository map. Created 2026-05-06 as a skeleton guidebook and upgraded through Stage 6 serious benchmark reporting, the post-Stage-6 `ExecutionPipeline.md` plus usage-reference documentation pass, the 2026-05-22 Stage 7A research-only contextual-bandit feasibility memo, Stage 7B decision completion, Stage 7C diagnostics-only contextual-bandit implementation with an approved Twelve Data update and new post-Stage-6-lockbox holdout artifact, Stage 8 plan-first raw update script implementation, Stage 9 documentation reconciliation, Stage 10A research-only update-to-prediction/visualization workflow analysis, Stage 10B decision-comparison/approval capture, Stage 10C local prediction-output packet implementation, Stage 11/DeepResearch prompt maintenance, and the 2026-05-23 `ExecutionPipeline.md` plus `UsageManual.md` runbook/manual update. This file maps current repository files, statuses, functions, planned functions, configs, planned tests, data evidence, stage prompts, and reference-only areas. It does not override higher-authority truth sources.
+Status: active v1p0 guidebook and intended implementation-flow map
+
+Updated: 2026-05-24
+
+This guidebook explains how the active v1p0 files, folders, artifacts, and planned implementation stages connect. It is more detailed than `Architecture_Map.md`. The first-slice smoke implementation and Stage 15-23 full-v1p0/XGBoost artifacts exist where recorded; later full-v1p0 stages remain prompt-planned until future execution evidence exists.
 
 ## 1. Authority And Non-Override Rule
 
-This guidebook is a human-readable repository map. It is not the source of theory truth, scope truth, research truth, approval truth, implementation truth, or benchmark-result truth.
-
-If this file conflicts with a higher-authority source, the higher-authority source wins and this guidebook must be fixed.
-
-Authority stack for this guidebook:
+This file is a navigation and planning guide. It does not override governance, owner approvals, implemented truth, or validated artifacts.
 
 | Authority source | Owns |
 | --- | --- |
-| `AgentRules.md` | Governance constitution, source-of-truth hierarchy, approval gates, documentation-first discipline, benchmark integrity discipline. |
-| `docs/agent/AgentAppendices.md` | Appendix loading and appendix authority map. |
-| `docs/agent/AgentMemory.md` | Interaction-log and operational-memory procedure. |
-| `docs/agent/agent_log/Event_Ledger.ndjson` | Authoritative logged request, task, evidence, drift, and reconciliation events where entries exist. |
-| `docs/agent/agent_log/Current_State.md` | Derived operational snapshot, current priorities, blockers, and active tasks. |
-| `ScopeDecisionLog.md` | Owner-approved phase-1 scope decisions. |
-| `ResearchTruth.md` | Active research-truth synthesis, contradictions, historical-only evidence, and unknowns. |
-| `ProjectDefinition.md` | Broad active project definition at architecture, pipeline, responsibility, and benchmark-family level. |
-| `docs/Complete_Theoretical_Background.md` | Active theory truth source. |
-| `docs/Data_Separation_And_Overfitting_Control.md` | Active Option B validation-design contract for data separation, fold-local preprocessing, saved predictions, metric discipline, and overfitting diagnostics. |
-| `docs/Implementation_Decisions.md`, `docs/Architecture_Map.md`, `docs/Execution_Plan.md`, `docs/Detailed_Execution_Stages.md` | Active design, architecture, implementation sequencing, granular stage requirements, and prompt index. |
-| Validation docs and `tests/` | Planned and future validation expectations. |
-| Active scripts and data artifacts | Evidence of current implemented behavior or raw-data state only. |
-| Deprecated guidebooks and archived code | Reference-only format and historical implementation evidence. They cannot override active truth. |
+| `AgentRules.md` | Governance constitution and approval gates. |
+| `docs/agent/AgentMemory.md` | Memory and ledger procedure. |
+| `docs/agent/agent_log/Event_Ledger.ndjson` | Append-only event history. |
+| `docs/agent/agent_log/Current_State.md` | Operational snapshot and current blockers. |
+| `ArchitecturalDesignDecisions.md` | Active v1p0 architecture decisions. |
+| `ProjectDefinition.md` | v1p0 project definition and non-implementation boundary. |
+| `ResearchTruth.md` | Implemented truth and research-truth constraints. |
+| `Architecture_Map.md` | Active v1p0 folder/file map. |
+| `UsageManual.md` | Placeholder v1p0 manual until outputs exist. |
 
-## 2. Status Legend
+## 2. Current Status Summary
 
-| State | Meaning |
+| Area | Status |
 | --- | --- |
-| `governance-active` | Active governance file controlling agent behavior, appendix loading, compliance, or continuity. |
-| `truth-active` | Active project scope, owner decision, research truth, or broad definition file. |
-| `design-active` | Active theory, architecture, execution, validation, operations, or onboarding documentation. |
-| `script-active` | Executable active-root script evidenced as current behavior. |
-| `data-evidence` | Raw data, manifest, log, report, or summary artifact that evidences current state but is not implementation truth. |
-| `comment-only-scaffold` | Python scaffold file containing comments only and no runnable behavior. |
-| `comment-only-config-scaffold` | YAML scaffold file containing comments only and no active config keys. |
-| `planned-test-comment-only` | Test scaffold file containing comments only and no executable assertions or imports. |
-| `reference-only` | Historical, deprecated, course, reference, backup, or reset material that is not active truth unless explicitly adopted. |
-| `generated-or-local` | Local, generated, cache, secret, runtime, or VCS artifact that should be excluded or summarized only. |
-| `unknown-or-unverified` | File exists but status is not proven. Use `Plausible but unverified.` and propose verification. |
+| Version name | `v1p0` is the next implementation version. |
+| v1p0 implementation | First-slice smoke implementation exists; Stage 15-23 full-v1p0/XGBoost artifacts exist; later full-v1p0 stages remain unexecuted. |
+| v0p9 implementation | Historical/completed state only. |
+| Stage 6 result | `clean_null`, `limitation_bearing`; not reinterpreted. |
+| Usage manual | Documents validated v1p0 smoke and Stage 17-23 artifact commands only. |
+| Architecture map | Root file `Architecture_Map.md`. |
+| Decision sources | `ArchitecturalDesignDecisions.md` is active consolidation; `docs/NextSteps_Brainstorming.md` remains important and active. |
+| Deprecated layout | `deprecated/v0p9/` for v0p9, `deprecated/v0p7/` for older archive. |
 
-Deprecated states such as `implemented`, `blueprint`, and `mixed` are not used here unless translated into this active-root legend.
+## 3. v1p0 File Roles
 
-## 3. Protected Active Scope Summary
+### 3.1 Root Planning Files
 
-These protected values come from `ScopeDecisionLog.md`, `ResearchTruth.md`, and `ProjectDefinition.md`. This guidebook records them only so file-map readers can interpret repository status safely.
-
-| Protected area | Active definition |
-| --- | --- |
-| Target family | Forward excess returns. |
-| Horizons | `1d`, `5d`, `10d`, `20d`, `60d`. |
-| First serious universe | Reproducible top-50 liquid large-cap universe. |
-| OHLCV provider | Twelve Data. |
-| News provider | Alpha Vantage. |
-| SEC role | Static/company support only; phase-1 static company metadata remains deferred. |
-| Alignment | Same-day as-of-close; after-hours and non-trading-day news roll forward. |
-| Event representation | Pooled dense embeddings plus scalar enrichments. |
-| Fusion default | Simple gated fusion. |
-| No-news policy | Keep rows and encode explicit empty event state plus no-news indicators. |
-| Evaluation | Purged-plus-embargoed walk-forward plus final untouched lockbox. |
-| Data separation refinement | Option B: split manifests, train-fold-only preprocessing, predeclared metrics, saved out-of-sample predictions, lockbox isolation, and overfitting diagnostics. |
-| Phase-1 mode | Local CLI/artifact-driven research only. |
-| Serious-run artifacts | Dataset version, manifest, resolved config, split/preprocessing manifests, folds, saved predictions, metrics, overfitting diagnostics, and comparison summary. |
-
-This guidebook did not change these values.
-
-## 4. Current-State Cautions
-
-- Active `src/`, `configs/`, and `tests/` exist; approved Stage 2, Stage 3, Stage 4, Stage 5, Stage 6, Stage 7C, Stage 8, and Stage 10C test paths are executable, while remaining provider/utility/expansion scaffolds remain comment-only.
-- No single approved end-to-end rebuild command exists beyond the stagewise CLIs and validators.
-- Active Stage 3 configs exist at `configs/features.yaml` and `configs/labels.yaml`; active Stage 4 configs exist at `configs/splits.yaml`, `configs/stage7_splits_post_lockbox_2026-05-22.yaml`, and `configs/artifact_packet.yaml`; active Stage 5 config exists at `configs/models.yaml`; active Stage 6 config exists at `configs/evaluation.yaml`; active Stage 7C config exists at `configs/stage7_contextual_bandit.yaml`; other YAML files are comments only unless explicitly exempted.
-- Focused executable Stage 2 tests exist under `tests/data/` and `tests/dataset/`; executable Stage 3 tests exist under `tests/features/`; executable Stage 4 tests exist under `tests/split/` and `tests/benchmark/`; executable Stage 5 tests exist under `tests/models/`; executable Stage 6 tests exist under `tests/evaluation/`; executable Stage 7C tests exist under `tests/stage7/`; executable Stage 8 update-script tests exist under `tests/ops/`; executable Stage 10C tests exist under `tests/stage10/`; remaining provider/utility tests are comments only.
-- Active implementation currently consists of governance/raw-data scripts, Alpha Vantage standalone scripts, Stage 8 plan-first raw update scripts, the approved Stage 2 dataset-contract/materialization layer, the approved Stage 3 feature/label layer, the approved Stage 4 split/packet-gate layer, the approved Stage 5 model/preprocessing/prediction layer, the approved Stage 6 metric/diagnostic/comparison/reporting layer, the approved Stage 7C contextual-bandit diagnostics layer, and the approved Stage 10C local prediction-output packet layer.
-- Alpha Vantage top-50 canonical raw file coverage is `850/850`, but this is raw file coverage only.
-- Provider-level Alpha Vantage article completeness is not claimed; current news is used with explicit truncation limitation flags under the latest user instruction.
-- The raw merge manifest reports `92` likely truncated Alpha Vantage top-50 windows and `10` empty-feed windows.
-- `scripts/run_alphavantage_news_truncation_refinement_quarterly.py` exists to validate quarterly files, download missing quarterly slices, and create monthly follow-up requests for quarters that still return `limit` rows.
-- Raw request ledgers may contain API-key-bearing URLs and must not be committed, shared, or published as-is.
-- The 2026-05-12 Stage 1 audit also flags `runs/logs/alphavantage_news_daemon.log` as sensitive because it contains Alpha Vantage URL-bearing lines.
-- Active raw Twelve Data OHLCV is now verified for the approved top-50 plus SPY support with full-window files from `2010-01-01` to requested end date `2026-05-22`; `data/manifests/stage7_twelvedata_ohlcv_coverage_audit_2026-05-22.json` reports no post-first-available-date gaps, five late-start tickers, and one CVX OHLC anomaly handled by derived cleaning policy.
-- The 2026-05-14 Stage 2 materialization creates a top-50 row/availability dataset at `data/datasets/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086/`, with `117750` rows, row digest, manifest, clean-window record, and CVX derived patch manifest.
-- Stage 3 was materialized on 2026-05-15 for the approved Stage 2 dataset with `117750` feature/label rows and the Stage 2 row-universe digest.
-- Stage 4 was materialized on 2026-05-15 for the approved Stage 3 artifact with `9` monthly development folds, final 20% lockbox `2025-09-30` through `2026-02-13`, and `1059750` split-assignment rows.
-- Stage 4 final guidebook reconciliation on 2026-05-21 confirmed the Stage 4 docs, split artifact identity, packet-gate status, test list, and later Stage 5/Stage 6 handoff evidence are discoverable from this guidebook.
-- Stage 5 was materialized on 2026-05-21 for the approved Stage 4 artifact with `8` frozen model IDs, `360` model-fit records, `360` preprocessing-fit records, and `2088000` saved prediction rows.
-- Stage 6 was materialized on 2026-05-21 for the approved Stage 5 saved predictions with `800` metric rows, `800` ranking diagnostic rows, `800` paired comparison rows, passed serious-packet validation, result class `clean_null`, and comparability classification `limitation_bearing`.
-- Option B is partially executable through Stage 6 split, lockbox, leakage, packet-gate, fold-local preprocessing, saved-prediction, metric, diagnostic, and comparison checks; the train-validation gap diagnostic remains explicitly blocked because Stage 5 saved no train predictions.
-- Top-100/top-500 expansion data is not comparable to the first top-50 benchmark family unless explicitly approved.
-- Deprecated code is reference-only until deliberately reintroduced through active docs and approved scope.
-- A Stage 6 serious benchmark reporting packet exists with a clean-null conclusion. This is not a positive result claim, trading-profitability claim, provider-level article-completeness claim, or sentiment-string ablation claim.
-- Stage 7A contextual-bandit feasibility research has been executed as research-only in `docs/research_results/stage7a_contextual_bandit_feasibility_2026-05-22.md`; Stage 7B decisions are answered in `ScopeDecisionLog.md`; Stage 7C diagnostics are implemented and materialized with a new post-Stage-6-lockbox artifact. Stage 7C creates no all-data final-execution training-output, live buy/sell signal, Stage 6 reinterpretation, benchmark-family promotion, visualization output, or live inference API. Stage 8 is implemented as plan-first raw update scripts/tests only; it creates no live provider call, raw overwrite, provider-completeness claim, benchmark rerun, prediction output, or trading signal. Stage 9 is documentation and memory reconciliation only. Stage 10A is research-only workflow analysis; it creates no implementation, provider call, raw-data mutation, prediction output, visualization artifact, service/API scope, trading signal, or Stage 6 reinterpretation. Stage 10B is decision-comparison/approval capture with all `S10B-DQ-001` through `S10B-DQ-010` decisions answered; it created no implementation by itself. Stage 10C is implemented as local saved-prediction extraction packet generation with `historical_prediction` rows, static HTML plus CSV/Parquet artifacts, and validation; it creates no live provider call, raw overwrite, persisted inference package, new `forecast_candidate` role, service/API/dashboard scope, trading signal, Stage 6 reinterpretation, or benchmark-comparability promotion. Stage 11 and Stage 12 prompt artifacts were aligned to the post-Stage-10C state but remain unexecuted future prompt workflows.
-
-## 5. Per-File Entry Rules Used In This Guidebook
-
-Every active project-maintained file is either listed individually or deliberately grouped where per-file detail would duplicate reference-only or generated artifacts.
-
-For comment-only scaffold Python files, the following per-file statement applies unless a row says otherwise:
-
-- State: `comment-only-scaffold`.
-- Created: 2026-05-07, evidenced by scaffold ledger events `E-2026-05-07-0017` through `E-2026-05-07-0025`.
-- Last updated: 2026-05-07, evidenced by the same scaffold creation/update session.
-- Current owner/authority: `ProjectDefinition.md`, `ScopeDecisionLog.md`, `ResearchTruth.md`, `docs/Architecture_Map.md`, and `docs/Implementation_Decisions.md`.
-- Implementation status: non-executable comment-only scaffold; no imports, functions, assignments, classes, active config, or assertions.
-- What it currently contains: comment blocks for `File`, `Status`, `Layer`, `Governing docs`, `Purpose`, `In scope`, `Out of scope`, `Expected inputs`, `Expected outputs`, `Planned imported libraries`, `Planned internal dependencies`, `Planned configuration dependencies`, `Planned variables and constants`, `Planned functions`, `Planned tests`, `Known limitations and blind spots`, and `Completion rule`.
-- Internal dependencies: planned only and subordinate to the active architecture map.
-- Config dependencies: planned only and subordinate to comment-only config files until implementation is approved.
-- Benchmark implications: planned implications only; no current benchmark behavior.
-- Security/privacy implications: no active runtime behavior, but provider, ledger, and path comments identify future secret and raw-ledger risks where relevant.
-- Evidence pointers: file comments; `docs/Prompts/StructuralFolderMapPrompt.md`; `docs/agent/agent_log/Event_Ledger.ndjson` scaffold events; comment-only validation result recorded in `Current_State.md`.
-
-For comment-only config files, the following applies:
-
-- State: `comment-only-config-scaffold`.
-- Implementation status: comments only; no active YAML keys, values, anchors, imports, runtime parser behavior, or configuration effect.
-- Planned sections and keys are not active configuration.
-
-For planned-test comment-only files, the following applies:
-
-- State: `planned-test-comment-only`.
-- Implementation status: comments only; no executable imports, fixtures, assertions, test functions, or collection behavior.
-- Planned test purposes are future validation contracts only.
-
-For active scripts, implemented functions/classes are listed from direct file inspection and are limited to current script behavior. No script is treated as the full phase-1 benchmark pipeline.
-
-## 6. Root File Map
-
-| Path | State | Current role | Created / updated | Implementation status | Evidence and cautions |
+| File | Purpose | Inputs | Outputs | Dependencies | Validation expectation |
 | --- | --- | --- | --- | --- | --- |
-| `AgentRules.md` | `governance-active` | Binding governance constitution and source-of-truth hierarchy. | Not evidenced in repository materials for creation; active file read 2026-05-07. | Markdown governance, not code. | Controls approval gates, no-hallucination phrases, update propagation, benchmark comparability discipline. |
-| `ProjectDefinition.md` | `truth-active` | Broad active phase-1 project definition. | Created 2026-05-07; evidenced by header and `E-2026-05-07-0003`. | Markdown truth/design definition, not code. | Does not authorize implementation by itself. |
-| `docs/Prompts/StructuralFolderMapPrompt.md` | `design-active` | Reusable prompt for the active-root comment-only scaffold. | Created 2026-05-07; moved from root to `docs/Prompts/` on 2026-05-23. | Prompt artifact, not implementation. | Already executed once to create comment-only scaffold. |
-| `docs/Prompts/feedbackprompt.md` | `design-active` | Prompt specifying this guidebook upgrade. | Created 2026-05-07; moved from root to `docs/Prompts/` on 2026-05-23. | Prompt artifact, not implementation. | Must not change protected scope. |
-| `docs/Prompts/Stage0Prompt.md`, `docs/Prompts/Stage0APrompt.md`, `docs/Prompts/Stage0BPrompt.md`, `docs/Prompts/Stage1Prompt.md`, `docs/Prompts/Stage2Prompt.md`, `docs/Prompts/Stage3Prompt.md`, `docs/Prompts/Stage4Prompt.md`, `docs/Prompts/Stage5Prompt.md`, `docs/Prompts/Stage6Prompt.md`, `docs/Prompts/Stage7APrompt.md`, `docs/Prompts/Stage7BPrompt.md`, `docs/Prompts/Stage7CPrompt.md`, `docs/Prompts/Stage8Prompt.md`, `docs/Prompts/Stage9Prompt.md`, `docs/Prompts/Stage10APrompt.md`, `docs/Prompts/Stage10BPrompt.md`, `docs/Prompts/Stage10CPrompt.md`, `docs/Prompts/Stage11Prompt.md`, `docs/Prompts/Stage12Prompt.md` | `design-active` | Reusable stage execution or proposed future-stage prompts with ownership, inputs, outputs, testing strategy, completion criteria, and stop conditions. | Stage 0 through Stage 6 prompt files created 2026-05-07 by the stage-prompt expansion task; proposed Stage 7 through Stage 12 prompt files created 2026-05-22; moved from root to `docs/Prompts/` on 2026-05-23. | Prompt artifacts plus Stage 7C, Stage 8, Stage 9, Stage 10A research, Stage 10B answered-decision evidence, and Stage 10C local packet evidence. | Executing future prompts still requires current context checks, approval gates, tests, and memory updates. Stage 11 through Stage 12 remain proposed and not executed. |
-| `docs/Prompts/DeepResearch_Chat_Topic_Update_To_Prediction_Pipeline.md`, `docs/Prompts/DeepResearch_Chat_Topic_Daily_Weekly_Data_Refresh.md`, `docs/Prompts/DeepResearch_Chat_Topic_Top10_Multi_Horizon_Visualization.md`, `docs/Prompts/DeepResearch_Chat_Topic_Relevant_News_Attribution.md`, `docs/Prompts/DeepResearch_Chat_Topic_Prediction_Trajectory_Graphs.md` | `design-active` | Deep-research chat prompt artifacts for post-Stage-10C research topics. | Created 2026-05-22, updated 2026-05-23 with required-background sections and current Stage 10C context, and moved from root to `docs/Prompts/` on 2026-05-23. | Prompt artifacts, not implementation. | They can be pasted into a research chat; they do not run code, fetch provider data, approve implementation, or change protected scope. |
-| `ScopeDefinition.md` | `truth-active` | Pre-decision questionnaire, option framing, evidence table, and contradiction inventory. | Not evidenced in repository materials for creation. | Markdown scope framing. | Superseded by `ScopeDecisionLog.md` wherever owner decisions exist. |
-| `ScopeDecisionLog.md` | `truth-active` | Owner-approved decision register for 24 scope questions. | Not evidenced in repository materials for creation; active file updated before 2026-05-07 work. | Markdown decision log. | Highest authority for resolved phase-1 scope choices. |
-| `ResearchTruth.md` | `truth-active` | Active research-truth baseline and contradiction/unknown inventory. | Not evidenced in repository materials for creation; updated 2026-05-07 for scaffold status. | Markdown truth synthesis. | Higher authority than guidebook for research truth. |
-| `LEGACY_DEPRECATION_SUMMARY.md` | `truth-active` | Defines archive/reference boundary for deprecated implementation. | Not evidenced in repository materials. | Markdown boundary statement. | Prevents archive reactivation without active adoption. |
-| `README.md` | `design-active` | Current-state onboarding summary. | Updated 2026-05-07 for scaffold status. | Markdown onboarding. | Cannot override theory, scope, or design truth. |
-| `ExecutionFlow.md` | `design-active` | Safe command/runbook summary through Stage 10C local packet generation, with Stage 6/Stage 7C/Stage 10C validation commands and Stage 10C boundary. | Created 2026-05-06 in active-doc reconstruction; updated through the 2026-05-23 Stage 10C reconciliation. | Markdown operations runbook. | Records that no single one-command pipeline exists; Stage 10C is local artifact generation only, not persisted inference, provider execution, service/API/dashboard scope, or trading output. |
-| `ExecutionPipeline.md` | `design-active` | Active operations methodology for documentation maintenance, raw-data planning, approved Stage 2-6 rebuilds, Stage 7C diagnostics, Stage 8 plan-first updates, and Stage 10C output packets. | Created 2026-05-21; updated 2026-05-23 after Stage 10C and usage-manual reconciliation. | Markdown operations methodology. | Does not authorize protected-scope changes, provider-completeness claims, live provider calls, persisted inference packaging, service/API/dashboard scope, or benchmark-family changes. |
-| `UsageManual.md` | `design-active` | Holistic local usage manual for command invocation, inputs, outputs, artifact roots, active functions, model-output usage semantics, artifact/table column references, config references, and planned/comment-only functions through Stage 10C. | Renamed from the prior API-centric usage reference and rewritten/expanded 2026-05-23 to preserve local API-reference detail inside the manual structure. | Markdown usage manual. | Not a user-facing service API, dashboard, live inference API, persisted model-serving interface, or trading interface. |
-| `Complete_guidebook.txt` | `design-active` | This active file map and status index. | Created 2026-05-06; upgraded 2026-05-07. | Markdown/text repository map. | Must be maintained after file/responsibility changes. |
-| `project_one_page.tex` | `design-active` | Project summary artifact. | Not evidenced in repository materials. | LaTeX summary artifact. | Not active theory/design truth unless separately adopted. |
-| `.gitignore` | `design-active` | Ignore policy for local/generated artifacts. | Not evidenced in repository materials. | Git ignore rules. | Does not by itself prove sensitive files are absent. |
+| `ProjectDefinition.md` | Defines v1p0 scope, naming, protected scientific scope, first-slice boundary, and non-implementation status. | `ArchitecturalDesignDecisions.md`, `ResearchTruth.md`, memory. | Project definition for planning. | Governance and owner approvals. | Manual consistency review and governance validation. |
+| `ArchitecturalDesignDecisions.md` | Consolidates active architecture decisions for v1p0. | `docs/NextSteps_Brainstorming.md` and preserved deprecated copies of `ScopeDecisionLog.md` and `ScopeDefinition.md`. | Active decision truth. | Contradiction priority rules. | Manual review and memory evidence. |
+| `Architecture_Map.md` | Lists active folders/files and expected v1p0 responsibilities. | v1p0 decisions and project definition. | Architecture map. | Root docs and active memory. | Path-reference grep and manual review. |
+| `UsageManual.md` | Holds a placeholder until v1p0 usage exists. | v1p0 non-claims. | Barebones skeleton. | Project definition. | Must not contain stale v0p9 command claims. |
+| `Complete_guidebook.txt` | This guidebook. | Architecture map and decisions. | Detailed flow map. | Higher-authority docs. | Update whenever architecture or file flow changes. |
+| `README.md` | High-level onboarding. | Project definition and current state. | Quick orientation. | Root docs. | Should point to root `Architecture_Map.md`. |
 
-## 7. Active Documentation Map
+### 3.2 Active Decision And Truth Files
 
-| Path | State | Current role | Implementation status | Evidence and cautions |
+| File | Purpose | v1p0 handling |
+| --- | --- | --- |
+| `docs/NextSteps_Brainstorming.md` | Detailed v1p0 brainstorming and roadmap history. | Remains active in `docs/` due to importance. |
+| `deprecated/v0p9/docs/ScopeDecisionLog.md` | Historical owner-approved decision log. | Preserved after user manual deprecation; active planning uses `ArchitecturalDesignDecisions.md`. |
+| `deprecated/v0p9/docs/ScopeDefinition.md` | Older scope framing and contradiction inventory. | Preserved after user manual deprecation; active planning uses `ArchitecturalDesignDecisions.md`. |
+| `ResearchTruth.md` | Implemented truth and research truth. | Keep current with v1p0 non-claims and architecture-map path changes. |
+
+### 3.3 Supporting Documentation Folders
+
+| Folder | Purpose | Expected inputs | Expected outputs | Dependencies | Validation expectation |
+| --- | --- | --- | --- | --- | --- |
+| `docs/` | Supporting documentation, prompts, research, testing docs, and operational policy. | Root truth/design docs. | Markdown support docs. | Root truth stack. | Stale files should be preserved before removal. |
+| `docs/Prompts/` | Prompt artifacts for stage execution and future research prompts. | Active truth files and prior prompt history. | Prompt documents. | Owner approvals and current state. | Prompts do not approve implementation by themselves. |
+| `docs/research/` | Manual research archive and synthesis. | Manual/external research outputs. | Research docs and references. | Research workflow rules. | Research support only; no final claims. |
+| `docs/research_results/` | Historical research and stage memos. | Stage research outputs. | Research memos and comparison notes. | `ResearchTruth.md`. | Must not be treated as implementation evidence unless separately validated. |
+| `docs/agent/` | Agent governance appendices. | Governance rules. | Binding appendices. | Explicit user approval for edits. | Governance validator. |
+| `docs/agent/agent_log/` | Operational memory and event ledger. | Agent actions, validation output, evidence. | `Current_State.md`, `Event_Ledger.ndjson`. | `docs/agent/AgentMemory.md`. | Governance validator and JSONL parse. |
+
+## 4. v1p0 Source Layout
+
+The first active v1p0 source code now exists as a smoke implementation under `src/event_state_forecasting/v1p0/`. It is validated by `tests/v1p0/` and the local smoke script, but it is not a serious benchmark rerun.
+
+| Planned path | Purpose | Expected inputs | Expected outputs | Dependencies | Validation expectation |
+| --- | --- | --- | --- | --- | --- |
+| `src/event_state_forecasting/` | Package root for active v1p0 smoke implementation. | Architecture contracts and configs. | Python modules. | Tests and validators. | Import smoke tests and focused unit tests. |
+| `src/event_state_forecasting/v1p0/versioning.py` | Benchmark-family and component version helpers. | v1p0 naming and manifest schema. | Version IDs and manifest digests. | `configs/v1p0_version_manifest.yaml`. | Version-format tests. |
+| `src/event_state_forecasting/v1p0/registry.py` | Feature registry validation. | Feature registry config. | Registry digest and dependency checks. | `configs/feature_registry_v1p0.yaml`. | Registry smoke tests. |
+| `src/event_state_forecasting/v1p0/features.py` | Market lag/rolling sidecar and compatibility helpers. | Stage-compatible panel inputs. | Versioned feature frames. | Feature registry and data contracts. | Row identity, leakage, schema, and no-lookahead tests. |
+| `src/event_state_forecasting/v1p0/modeling.py` | Lag-linear model runner and dependency-aware fixed XGBoost path. | Feature sidecars, labels, splits, configs. | Saved prediction frames or explicit XGBoost blocker. | Preprocessing and split contracts. | Fold-local preprocessing and saved-prediction tests. |
+| `src/event_state_forecasting/v1p0/evaluation.py` | Metrics, strata, diagnostics, and uncertainty. | Predictions, labels, strata flags. | Metrics, diagnostic tables, intervals. | Model outputs. | Metric and diagnostic validators. |
+| `src/event_state_forecasting/v1p0/reporting.py` | Static smoke report generation. | Metrics, strata, uncertainty tables. | Static report packet. | Output schemas. | Report/data fidelity tests. |
+| `src/event_state_forecasting/v1p0/xgboost_search.py` | Frozen XGBoost search-config validation, guarded hurdle-delta objective helpers, and Stage 22 ledger/prediction validators. | Stage 21 search config, candidate/hurdle metrics, and Stage 22 trial artifacts. | Objective component dictionaries, config digests, ledger validation, prediction validation, and best-trial selection. | `configs/xgboost_search_v1p0.yaml`. | Horizon-weight, penalty, serialization, no-lockbox, and Stage 22 schema tests. |
+| `scripts/run_v1p0_first_slice_smoke.py` | Local smoke command. | v1p0 configs and toy frame. | Smoke CSV/HTML/JSON packet. | v1p0 package modules. | Smoke command execution. |
+| `scripts/freeze_v1p0_xgboost_search_space.py` | Stage 21 search-space freeze command. | Stage 20 diagnostic manifest and frozen search config. | Stage 21 result-vault packet. | `src/event_state_forecasting/v1p0/xgboost_search.py`. | Stage 21 contract tests plus packet manifest review. |
+| `scripts/run_v1p0_xgboost_nested_search.py` | Stage 22 development-only XGBoost random/TPE/refinement search command. | Stage 17 features, Stage 20 hurdle metrics, Stage 21 frozen config, labels, and development splits. | Trial ledger, fold metrics, validation-only trial predictions, overfit-frontier table, and best development config. | `src/event_state_forecasting/v1p0/xgboost_search.py`; required venv `~/venvs/ai`. | Stage 22 contract tests, full run manifest, and no-lockbox evidence. |
+| `scripts/run_v1p0_xgboost_frozen_final_evaluation.py` | Stage 23 frozen-final evaluation command. | Stage 22 best development config, Stage 17 features, labels, splits, and fixed-XGBoost hurdle metrics. | Saved predictions, metrics, hurdle deltas, fit/preprocessing records, and final-evaluation manifest. | `src/event_state_forecasting/v1p0/modeling.py`; required venv `~/venvs/ai`. | Frozen-config, prediction-schema, metric recomputation, and no-lockbox-tuning checks. |
+
+## 5. Intended v1p0 Config Layout
+
+| Planned path | Purpose | Expected inputs | Expected outputs | Validation expectation |
 | --- | --- | --- | --- | --- |
-| `docs/Complete_Theoretical_Background.md` | `design-active` | Active theory truth source for scientific objective, constraints, and non-goals. | Markdown theory doc. | Higher authority than guidebook for theory. |
-| `docs/References.md` | `design-active` | Curated references and evidence ledger. | Markdown reference ledger. | Some paper-note claims carry explicit uncertainty. |
-| `docs/Implementation_Decisions.md` | `design-active` | Active design decision ledger and open design issues. | Markdown design ledger. | Comparator roster and detailed contracts remain open. |
-| `docs/Data_Separation_And_Overfitting_Control.md` | `design-active` | Active Option B validation-design contract for data separation and overfitting controls. | Markdown design contract. | Does not create executable tests, dataset builder, model, benchmark run, or result. |
-| `docs/Architecture_Map.md` | `design-active` | Active architecture, layers, dependency direction, and scaffold status. | Markdown architecture map. | Does not claim executable implementation. |
-| `docs/Execution_Plan.md` | `design-active` | Stage gates and implementation sequencing. | Markdown execution plan. | Broader coding remains blocked by contracts and tests. |
-| `docs/Detailed_Execution_Stages.md` | `design-active` | Granular execution stage requirements, ownership, inputs, outputs, testing strategy, exit criteria, and blocker map. | Markdown execution guide. | Does not create implementation, active config, executable tests, or benchmark results. |
-| `docs/Unit_Testing.md` | `design-active` | Unit-test expectations and planned/executable test distinction. | Markdown validation doc. | Stage 2 through Stage 8 and Stage 10C tests are executable for approved claims; remaining provider/utility/expansion tests are scaffold-only. |
-| `docs/db_Testing.md` | `design-active` | Raw-data, dataset, schema, row, and artifact validation expectations. | Markdown validation doc. | Raw coverage is not benchmark readiness. |
-| `docs/Benchmark_Testing.md` | `design-active` | Benchmark integrity, comparability, invalidation, and serious-run rules. | Markdown validation doc. | Stage 6 serious packet exists with clean-null result and limitation-bearing comparability. |
-| `docs/Pipeline_Testing.md` | `design-active` | End-to-end pipeline gate expectations. | Markdown validation doc. | Stage 2 through Stage 6 gates are executable for the approved top-50 family; Stage 7C diagnostics and Stage 8 plan-first update tests are separate; no one-command pipeline exists. |
-| `docs/Data_Update_Strategy.md` | `design-active` | Refresh, invalidation, rollback, and update policy. | Markdown operations doc. | Alpha Vantage truncation refinement remains unresolved. |
-| `docs/testing_commands.md` | `design-active` | Current validated commands and unavailable command notes. | Markdown command ledger. | Must not imply unavailable tests/builds exist. |
-| `docs/research_results/` | `design-active` | Active research notes, comparison addenda, logs, and paper notes. | Markdown research area. | Use `research_comparison_master_index.md` and paper-note indexes for navigation; backup subdir is reference-only. |
-| `docs/research_results/research_comparison_master_index.md` | `design-active` | Index for research comparison files. | Markdown index. | Comparison support only, not final owner approval. |
-| `docs/research_results/stage7a_contextual_bandit_feasibility_2026-05-22.md` | `design-active` | Stage 7A research-only contextual-bandit feasibility memo. | Markdown research memo. | Creates no implementation, policy training, provider call, data mutation, benchmark rerun, Stage 6 reinterpretation, or approval for Stage 7B/7C. |
-| `docs/research_results/stage7b_contextual_bandit_decision_draft_2026-05-22.md` | `design-active` | Stage 7B draft-only contextual-bandit decision matrix, later superseded by answered `ScopeDecisionLog.md` decisions. | Markdown decision draft. | Historical decision draft only; later owner answers and Stage 7C approvals govern execution state. |
-| `docs/research_results/stage7c_post_lockbox_diagnostics_2026-05-22.md` | `data-evidence` | Stage 7C post-lockbox diagnostics summary. | Markdown diagnostic summary. | Diagnostics-only with `benchmark_claim=false`; not a live signal or all-data final-execution result. |
-| `docs/research_results/stage10a_update_to_prediction_workflow_2026-05-22.md` | `design-active` | Stage 10A research-only update-to-prediction and visualization workflow memo. | Markdown research memo. | Proposes Stage 10B decision topics only; creates no code, provider call, prediction artifact, visualization artifact, service/API, trading signal, or Stage 6 reinterpretation. |
-| `docs/research_results/stage10b_update_to_prediction_decision_matrix_2026-05-23.md` | `design-active` | Stage 10B decision-comparison and approval-capture memo for update-to-prediction outputs and visualization. | Markdown decision memo. | Records answered `S10B-DQ-001` through `S10B-DQ-010` decisions; creates no code, provider call, prediction artifact, visualization artifact, persisted inference package, service/API/dashboard, trading signal, or Stage 6 reinterpretation. |
-| `docs/research_results/paper_notes/restarting_research/index.md` | `design-active` | Index for restart paper notes. | Markdown index. | Some notes preserve DOI, venue, or source uncertainty. |
-| `docs/research_results/paper_notes/restarting_research/index_addendum_round2.md` | `design-active` | Round-2 paper-note index/addendum. | Markdown index. | Research support only. |
-| `docs/research_results/bkup/` | `reference-only` | Backup research material. | Markdown backup/reference area. | Not active truth unless re-adopted. |
-| `docs/course_material/` | `reference-only` | Course material. | Reference area. | Not active truth unless explicitly adopted. |
-| `docs/reference_guides/` | `reference-only` | External/reference guides. | Reference area. | Not active truth unless explicitly adopted. |
+| `configs/v1p0_version_manifest.yaml` | Defines v1p0 benchmark-family and component IDs. | v1p0 naming decision. | Manifest config. | Schema and naming checks. |
+| `configs/feature_registry_v1p0.yaml` | Maps model variants to feature sidecars. | Feature-sidecar decisions. | Registry config. | Registry path/schema checks. |
+| `configs/market_features_v1p0.yaml` | Defines lag/rolling windows and feature policies. | Market feature design. | Feature-build config. | Leakage and window validation. |
+| `configs/models_v1p0.yaml` | Defines `market_lag_linear_v1` and `market_xgboost_v1_fixed`. | Model decisions. | Model roster config. | Roster and dependency checks. |
+| `configs/xgboost_search_v1p0.yaml` | Defines the frozen Stage 21 XGBoost search space, objective, trial budget, stop rules, and lockbox policy. | Stage 20 diagnostics and XGBoost tuning decisions. | Search-freeze config. | Objective, budget, serialization, and no-lockbox tests. |
+| `configs/diagnostics_v1p0.yaml` | Defines strata, train-gap where available, and uncertainty outputs. | Diagnostics decisions. | Diagnostic config. | Diagnostic schema tests. |
+| `configs/reporting_v1p0.yaml` | Defines report clarity/fidelity behavior. | Stage 10C clarity decisions. | Report config. | Report consistency tests. |
 
-## 8. Agent Governance And Operational Memory Map
+## 6. Intended v1p0 Artifact Flow
 
-| Path | State | Current role | Implementation status | Evidence and cautions |
+| Artifact family | Purpose | Expected input | Expected output | Validation |
 | --- | --- | --- | --- | --- |
-| `docs/agent/AgentAppendices.md` | `governance-active` | Appendix authority and loading map. | Markdown governance appendix. | Must remain aligned with `AgentRules.md`. |
-| `docs/agent/AgentMemory.md` | `governance-active` | Binding interaction-log and continuity procedure. | Markdown governance appendix. | Requires request IDs, task IDs, event IDs, drift checkpoints, and reconciliation. |
-| `docs/agent/AgentGlossary.md` | `governance-active` | Canonical governance terminology. | Markdown governance appendix. | Reduces ambiguity for stale-risk, approval gates, and evidence. |
-| `docs/agent/AgentTemplates.md` | `governance-active` | Canonical record templates for tasks, approvals, contradictions, evidence, benchmarks, drift, and reconciliation. | Markdown governance appendix. | Approval matrix templates live here. |
-| `docs/agent/AgentResearchWorkflows.md` | `governance-active` | Repository-first research, paper-verification, and comparison workflow appendix. | Markdown governance appendix. | Mandatory for research-heavy work. |
-| `docs/agent/AgentCompliance.md` | `governance-active` | Mechanical compliance specification for governance validator. | Markdown governance appendix. | Defines what validation may and may not claim. |
-| `docs/agent/agent_log/Current_State.md` | `governance-active` | Derived operational memory snapshot. | Markdown operational log. | Must remain compact and not duplicate long guidebook contents. |
-| `docs/agent/agent_log/Event_Ledger.ndjson` | `governance-active` | Append-only event stream for request/task/evidence/drift history. | NDJSON operational ledger. | Option B approval was recorded through `E-2026-05-07-0035` before propagation work. |
-| `docs/agent/agent_log/Project_Audit_2026-05-06.md` | `data-evidence` | Audit report for active docs, scripts, data, and blockers. | Markdown evidence report. | Some audit database findings were superseded by later raw merge, but blocker categories remain useful. |
-| `docs/agent/agent_log/AlphaVantage_Raw_Merge_2026-05-06.md` | `data-evidence` | Human-readable raw merge report. | Markdown evidence report. | Supports top-50 raw file coverage, not benchmark readiness. |
-| `docs/agent/agent_log/Stage1_Raw_Data_Security_And_Coverage_Audit_2026-05-12.md` | `data-evidence` | Stage 1 raw data security and coverage audit report. | Markdown evidence report. | Includes credential-risk, truncation-risk, empty-feed, non-canonical-file, original OHLCV/SEC absence, and clean-window input summaries; later OHLCV addenda supersede the active raw OHLCV absence finding; not benchmark readiness. |
-| `docs/agent/agent_log/Stage1_Universe_And_OHLCV_Audit_2026-05-14.md` | `data-evidence` | Stage 1 universe and OHLCV addendum. | Markdown evidence report. | Records top-50 universe consistency and active raw Twelve Data residency; updated by the 2010 coverage audit. |
-| `docs/agent/agent_log/TwelveData_OHLCV_2010_Coverage_And_Splits_2026-05-14.md` | `data-evidence` | Active raw Twelve Data 2010 coverage and split-reference review. | Markdown evidence report. | Confirms top-50 plus SPY full-window raw files, no post-first-date gaps, late-start limitations, and reference-only deprecated split-adjustment method evidence. |
-| `docs/agent/agent_log/Stage0_Stage1_Finalization_2026-05-14.md` | `data-evidence` | Stage 0 through Stage 1 finalization report. | Markdown evidence report. | Records final Stage 0/0A/0B/1 status, validations, limitations, blockers, and non-claims. |
-| `docs/agent/agent_log/Stage2_Dataset_Contract_Definition_2026-05-12.md` | `data-evidence` | Stage 2 dataset contract and original blocker report. | Markdown evidence report. | Superseded for implementation status by the 2026-05-14 materialization report. |
-| `docs/agent/agent_log/Stage2_Deprecated_OHLCV_Salvage_Audit_2026-05-13.md` | `data-evidence` | Stage 2 deprecated OHLCV salvage audit report. | Markdown evidence report. | Verifies top-50 plus SPY Twelve Data parquet coverage from the deprecated snapshot with limitations; no active dataset. |
-| `docs/agent/agent_log/Stage2_Input_Readiness_Verification_2026-05-13.md` | `data-evidence` | Stage 2 input-readiness report. | Markdown evidence report. | Lists ready and blocked required inputs; no dataset builder run or dataset artifact. |
-| `docs/agent/agent_log/Stage2_Materialization_2026-05-14.md` | `data-evidence` | Stage 2 materialized dataset report. | Markdown evidence report. | Records dataset version, row counts, artifact paths, limitations, and validation evidence; no benchmark claim. |
-| `docs/agent/agent_log/Stage3_Feature_Label_Pipeline_Readiness_2026-05-13.md` | `data-evidence` | Historical Stage 3 readiness and blocker report before Stage 2 materialization. | Markdown evidence report. | Superseded for current dependency status by the 2026-05-14 recheck. |
-| `docs/agent/agent_log/Stage3_Feature_Label_Pipeline_Readiness_2026-05-14.md` | `data-evidence` | Historical Stage 3 readiness recheck after Stage 2 materialization. | Markdown evidence report. | Superseded for current completion status by the 2026-05-15 materialization report. |
-| `docs/agent/agent_log/Stage3_Materialization_2026-05-15.md` | `data-evidence` | Stage 3 materialized feature and label report. | Markdown evidence report. | Records feature/label artifacts, row counts, user-selected label reference, hash-embedding limitations, and validation evidence. |
-| `docs/agent/agent_log/Stage4_Split_And_Packet_Materialization_2026-05-15.md` | `data-evidence` | Stage 4 materialized split and packet-gate report. | Markdown evidence report. | Records fold count, lockbox boundary, split artifacts, packet-gate status, runner-gate status, limitations, and validation evidence. |
-| `docs/agent/agent_log/Stage5_Model_And_Prediction_Materialization_2026-05-21.md` | `data-evidence` | Stage 5 materialized model and saved-prediction report. | Markdown evidence report. | Records approved model decisions, artifact identity, row counts, model IDs, packet status, validation evidence, and limitations. |
-| `docs/agent/agent_log/Stage6_Serious_Benchmark_Reporting_2026-05-21.md` | `data-evidence` | Stage 6 materialized serious benchmark reporting report. | Markdown evidence report. | Records approved evaluation decisions, artifact identity, counts, result class, comparability, packet status, validation evidence, and limitations. |
+| Version manifest | Identifies v1p0 benchmark family and components. | Config and root decisions. | JSON/YAML manifest. | Naming and non-relabeling checks. |
+| Feature registry | Connects feature sidecars to model variants. | Feature outputs and configs. | Registry manifest. | Path and schema checks. |
+| Market lag/rolling sidecar | Adds temporal market features without mutating old Stage 3 artifacts. | Market panel and config. | Parquet plus manifest. | Row identity and no-lookahead checks. |
+| Sequence-window contract | Prepares later TSMixer work. | Market panel metadata. | Manifest-only or window artifact. | Shape and leakage checks. |
+| Lag-linear predictions | Creates temporal sanity baseline predictions. | Feature sidecar, labels, splits. | Saved predictions and manifest. | Saved-prediction schema checks. |
+| Fixed XGBoost predictions | Creates stronger honest market hurdle. | Feature sidecar, labels, splits. | Saved predictions and manifest. | Fold-local preprocessing checks. |
+| Diagnostics packet | Adds strata and uncertainty evidence. | Predictions, labels, flags. | Tables and manifests. | Diagnostic validators. |
+| XGBoost search freeze | Freezes the tuned-candidate search space and guarded hurdle-delta objective before search. | Stage 20 diagnostics and Stage 21 config. | `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage21__xgboost_search_freeze__20260524T071500Z__src_6dff1bd__run_2a802f16/`. | Objective determinism, horizon weights, penalties, no-lockbox, and serialization tests. |
+| XGBoost development search | Executes the frozen Stage 22 random/TPE/refinement search using development evidence only. | Stage 21 frozen config and development train/validation data. | `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage22__xgboost_search__20260524T073000Z__src_6dff1bd__run_2a802f16/`. | Trial ledger schema, prediction schema, no-lockbox, and best-trial selection tests. |
+| XGBoost frozen final | Evaluates the frozen Stage 22-selected candidate exactly once for reporting. | Best development config and full train/validation/lockbox split assignments. | `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage23__xgboost_frozen_final__20260524T083000Z__src_6dff1bd__run_689fbb80/`. | Saved-prediction schema, metric recomputation, no-lockbox-selection, and result-packet checks. |
+| Report packet | Improves local interpretability. | Metrics, predictions, news context. | Static report and tables. | Fidelity and non-claim tests. |
+| First-slice smoke packet | Demonstrates end-to-end v1p0 smoke execution. | Toy market panel and v1p0 configs. | `data/v1p0_first_slice_smoke/first_slice_smoke_v1/`. | `python scripts/run_v1p0_first_slice_smoke.py`; not benchmark evidence. |
+| Stage completion register | Records Stage 00 through Stage 14 completion status and evidence. | Stage prompts, tests, smoke script, docs. | `docs/v1p0_first_slice/Stage_Completion_Register.md`. | Per-stage evidence and non-claim review. |
+| Final v1p0 sprint report | Records ordered testing, benchmarking, diagnostics, report-fidelity, visualization-readiness, and documentation-consistency checks. | v1p0 tests, smoke artifacts, docs, memory. | `docs/v1p0_final_sprint/Final_v1p0_Sprint_Report.md`. | Smoke evidence only; no positive benchmark claim. |
+| Full v1p0 result vault | Result packet area for Stage 15-23 full-v1p0 preparation/search/final-evaluation artifacts and future serious experiments/benchmarks. | Stage 15-40 runs. | `data/v1p0_full_results/`. | Each packet must record hyperparameters/search spaces, metrics where applicable, runtime, overfit evidence, and non-claims. |
 
-## 9. Active Script Map And Implemented Functions
+## 7. v1p0 Stage Flow
 
-The active scripts are executable current behavior, but they are not a single one-command full phase-1 rebuild pipeline. They support governance validation, Alpha Vantage news collection/planning, Stage 8 plan-first raw update planning/execution gates, comment-only scaffold validation, Stage 0-1 completion validation, Stage 2 input readiness/completion, Stage 3 feature/label completion, Stage 4 split/packet completion, Stage 5 model/prediction completion, Stage 6 benchmark reporting completion, active raw Twelve Data OHLCV coverage auditing/downloading, and deprecated OHLCV salvage evidence.
-
-### 9.1 Governance Validator
-
-1) Path: `scripts/validate_agent_governance.py`
-- State: `script-active`.
-- Current owner/authority: `AgentRules.md`, `docs/agent/AgentCompliance.md`, and related governance appendices.
-- Current role: validates required governance files, markers, appendix references, active interaction-log structure, event ledger NDJSON shape, and conservative DONE-evidence checks.
-- Implementation status: executable Python script.
-- Implemented classes: `Finding`, `ValidatorState`.
-- Implemented functions: `read_text`, `require_markers`, `require_substrings`, `validate_required_files`, `validate_no_legacy_paths`, `validate_agent_rules`, `validate_agent_memory`, `validate_agent_glossary`, `validate_agent_templates`, `validate_agent_research_workflows`, `validate_agent_compliance`, `validate_agent_appendices`, `validate_current_state`, `validate_event_ledger`, `validate_validator_self_alignment`, `emit_report`, `main`.
-- Expected inputs: repository root as current working directory; governance files listed in `REQUIRED_FILES`.
-- Expected outputs: `VALIDATION PASSED` or `VALIDATION FAILED` plus findings.
-- Benchmark implications: structural governance only; does not validate scientific or benchmark readiness.
-- Security/privacy implications: reads repository files; no provider calls.
-
-### 9.2 Shared Alpha Vantage Bucket Core
-
-2) Path: `scripts/alphavantage_news_bucket_common.py`
-- State: `script-active`.
-- Current owner/authority: `ScopeDecisionLog.md` provider decision, `ResearchTruth.md`, `ProjectDefinition.md`, and operational memory events.
-- Current role: shared standard-library runner core for hardcoded Alpha Vantage ticker buckets.
-- Implementation status: executable Python helper module.
-- Implemented classes: `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow`, `BucketConfig`.
-- Implemented functions: `main_for_bucket`, `build_argument_parser`, `resolve_active_tickers`, `configure_logging`, `ensure_runtime_directories`, `migrate_seed_data`, `copy_seed_tree`, `ensure_current_year_aliases`, `load_api_key`, `build_year_windows`, `raw_news_path`, `build_pending_requests`, `build_progress_summary`, `load_recent_request_times`, `load_recent_success_times`, `seconds_until_budget_refresh`, `fetch_news_sentiment`, `build_error_record`, `append_jsonl`, `write_json_atomic`, `summary_path_for`, `log_path_for`, `classify_rate_limit_message`, `is_rate_limit_message`, `normalize_ticker_for_alphavantage`.
-- Expected inputs: bucket config, `.env` or explicit/fallback Alpha Vantage key, existing raw files, request ledger, ticker lists, year range, runner flags.
-- Expected outputs: raw JSON payloads, JSONL ledger records, daemon summary JSON, runtime logs.
-- Benchmark implications: raw news collection evidence only; top-50 raw file coverage is not benchmark readiness.
-- Security/privacy implications: request URLs in raw ledgers may contain API keys; ledgers must be sanitized before sharing.
-- Known limitations: one request per ticker-year can truncate at Alpha Vantage `limit=1000`; current top-50 evidence reports 92 likely truncated windows.
-
-### 9.3 Top-50 Alpha Vantage Standalone Runner
-
-3) Path: `scripts/run_alphavantage_news_top50_only_standalone.py`
-- State: `script-active`.
-- Current role: standalone Alpha Vantage `NEWS_SENTIMENT` runner for ranks 1-50.
-- Implementation status: executable Python script.
-- Implemented classes: `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow`.
-- Implemented functions: `build_argument_parser`, `main`, `build_error_record`, `ensure_runtime_directories`, `configure_logging`, `summary_path_for`, `log_path_for`, `migrate_seed_data`, `copy_seed_tree`, `ensure_current_year_aliases`, `load_api_key`, `load_tickers`, `build_year_windows`, `raw_news_path`, `build_pending_requests`, `build_progress_summary`, `load_recent_request_times`, `load_recent_success_times`, `seconds_until_budget_refresh`, `fetch_news_sentiment`, `append_jsonl`, `write_json_atomic`, `classify_rate_limit_message`, `is_rate_limit_message`, `normalize_ticker_for_alphavantage`.
-- Planned or implemented constants: `FALLBACK_API_KEY`, `TOP50_TICKERS`, path constants, `USER_AGENT`, `DEFAULT_UNIVERSE_SOURCE`.
-- Expected outputs: `data/raw/alphavantage/daemon_summary_top50_only_forward.json` and raw news files.
-- Evidence: top-50 plan summary now reports `850` complete and `0` pending.
-- Caution: this script does not create features, labels, splits, models, benchmark datasets, or serious results.
-
-### 9.4 Alpha Vantage Truncation Refinement
-
-4) Path: `scripts/run_alphavantage_news_truncation_refinement_quarterly.py`
-- State: `script-active`.
-- Current role: reads the Stage 1 audit manifest, validates actual quarterly files, plans/downloads missing quarterly Alpha Vantage `NEWS_SENTIMENT` slices, and creates monthly follow-up requests for any quarterly slice that remains truncated.
-- Implementation status: executable Python script.
-- Implemented classes: `TruncatedSourceWindow`, `RefinementRequest`, `FileInspection`, `RefinementPlan`.
-- Implemented functions include planning, quarterly/monthly request generation, local payload inspection, download verification, compact summary printing, redacted ledger writing, and rate-limit handling.
-- Expected inputs: Stage 1 audit manifest, existing raw Alpha Vantage yearly/current files, `.env` or explicit API key for live runs, and optional ticker/year/window filters.
-- Expected outputs: quarterly and monthly raw payloads under `data/raw/alphavantage/{ticker}/`, redacted refinement ledger entries, `data/raw/alphavantage/daemon_summary_truncation_refinement.json`, and the legacy-compatible `data/raw/alphavantage/daemon_summary_truncation_refinement_quarterly.json`.
-- Evidence: latest observed summary generated 2026-05-20 reports total `planned=362`, `pending=199`, quarterly `planned=282`, `valid=84`, `missing=198`, `truncated=30`, `pending=198`; monthly `planned=80`, `valid=79`, `missing=1`, `truncated=37`, `pending=1`; budget remaining `0/25` in the rolling successful-call window.
-- Caution: live mode consumes Alpha Vantage quota and still does not create dataset readiness, clean-window approval, features, labels, models, or benchmark results.
-
-4a) Path: `scripts/run_alphavantage_news_truncation_refinement_standalone.py`
-- State: `script-active`.
-- Current role: standalone portable Alpha Vantage truncation-refinement runner with the Stage 1 likely-truncated top-50 window IDs embedded, no repository manifest/helper-module requirement, and `--order reverse` / `--reverse` support for last-entry-to-first execution.
-- Implementation status: executable Python script using only the Python standard library.
-- Expected inputs: Alpha Vantage API key via `--api-key`, `ALPHAVANTAGE_API_KEY`, `ALPHA_VANTAGE_API_KEY`, or `.env`; optional `--output-root`, ticker/year/window filters, and optional manifest override.
-- Expected outputs: portable raw payloads under `{output_root}/data/raw/alphavantage/{ticker}/`, `news_request_ledger_truncation_refinement_standalone.jsonl`, `daemon_summary_truncation_refinement_standalone.json`, and `runs/logs/alphavantage_news_truncation_refinement_standalone.log`.
-- Caution: live mode consumes Alpha Vantage quota and the script is still raw-data refinement only, not dataset readiness or benchmark evidence.
-
-### 9.4a Stage 8 Plan-First Raw Update Scripts
-
-4b) Path: `scripts/stage8_data_update_common.py`
-- State: `script-active`.
-- Current role: shared Stage 8 helper for plan-first Alpha Vantage news and Twelve Data OHLCV updates.
-- Implementation status: executable Python helper module.
-- Implemented behavior: manifest-backed plan-only default, explicit `--execute` live gate, API-key loading from environment or `.env`, `--max-calls`, sleep/rate-limit control, no-overwrite default, redacted live request ledger, Alpha Vantage dotted-ticker request normalization, SPY support-ticker handling for Twelve Data, and downstream rebuild/non-claim notes.
-- Benchmark implications: raw-data update planning or execution evidence only; not a benchmark dataset, prediction output, provider-completeness guarantee, Stage 6 reinterpretation, or trading signal.
-- Security/privacy implications: shareable manifests and ledgers redact `apikey`, `api_key`, `token`, and `key` values; raw request ledgers still require review before sharing.
-
-4c) Paths: `scripts/news_update_daily.py`, `scripts/news_update_weekly.py`, `scripts/OHLCV_daily_update.py`, `scripts/OHLCV_weekly_update.py`
-- State: `script-active`.
-- Current role: thin Stage 8 wrapper entry points for daily/weekly Alpha Vantage news and Twelve Data OHLCV update planning.
-- Implementation status: executable Python scripts.
-- Expected inputs: approved top-50 universe CSV by default, optional date window, raw root, manifest path, ledger path, and live-mode flags.
-- Expected outputs: default plan manifests under `data/manifests/`; redacted request ledger only in live execution mode.
-- Caution: live mode is not authorized by the scripts themselves; it requires explicit user approval, `--execute`, API key availability, rate-limit controls, and no-overwrite review.
-
-### 9.5 Stage 2 Validation Scripts
-
-5) Path: `scripts/validate_comment_only_scaffold.py`
-- State: `script-active`.
-- Current role: validates that future-stage `src/`, `configs`, and `tests` scaffolds remain comment-only while approved Stage 2, Stage 3, Stage 4, Stage 5, Stage 6, Stage 7C, Stage 8, and Stage 10C executable test paths are exempted.
-- Implementation status: executable Python script.
-- Expected output: `COMMENT_ONLY_VALIDATION PASSED` or a fail-closed scaffold violation list.
-
-6) Path: `scripts/validate_stage2_inputs.py`
-- State: `script-active`.
-- Current role: validates Stage 2 input readiness without building a dataset.
-- Implementation status: executable Python script.
-- Expected output after Stage 2 test conversion: `status: ready_for_dataset_builder_gate`.
-
-6b) Path: `scripts/validate_stage2_completion.py`
-- State: `script-active`.
-- Current role: validates the materialized Stage 2 Parquet/JSON artifact set.
-- Implementation status: executable Python script.
-- Expected output: `STAGE2_COMPLETION_VALIDATION PASSED`.
-
-6c) Path: `scripts/validate_stage3_readiness.py`
-- State: `script-active`.
-- Current role: validates Stage 3 feature/label readiness against the materialized Stage 2 dataset without creating feature/label artifacts.
-- Implementation status: executable Python script.
-- Expected current output: `status: ready_for_stage3_implementation` with Stage 2 dataset readiness true and Stage 3 implementation readiness true.
-
-6d) Path: `scripts/validate_stage3_completion.py`
-- State: `script-active`.
-- Current role: validates the materialized Stage 3 market-feature, event-state, aligned-news, and label artifact set.
-- Implementation status: executable Python script.
-- Expected output: `STAGE3_COMPLETION_VALIDATION PASSED`.
-
-6e) Path: `scripts/validate_stage4_completion.py`
-- State: `script-active`.
-- Current role: validates the materialized Stage 4 split, lockbox, leakage, artifact-packet, and runner-gate artifact set.
-- Implementation status: executable Python script.
-- Expected output: `STAGE4_COMPLETION_VALIDATION PASSED`.
-
-6f) Path: `scripts/validate_stage5_completion.py`
-- State: `script-active`.
-- Current role: validates the materialized Stage 5 model, preprocessing-fit, saved-prediction, training-diagnostic, search-space, and packet-blocker artifact set.
-- Implementation status: executable Python script.
-- Expected output: `STAGE5_COMPLETION_VALIDATION PASSED`.
-
-6g) Path: `scripts/validate_stage6_completion.py`
-- State: `script-active`.
-- Current role: validates the materialized Stage 6 metric, ranking-diagnostic, paired-comparison, overfitting-diagnostic, comparison-summary, comparability, and serious-packet artifact set.
-- Implementation status: executable Python script.
-- Expected output: `STAGE6_COMPLETION_VALIDATION PASSED`.
-
-6h) Path: `scripts/validate_stage10c_completion.py`
-- State: `script-active`.
-- Current role: validates the materialized Stage 10C local prediction-output packet, including required files, manifest non-claims, row roles, top-10 counts, trajectory policy, and sensitive-artifact exclusion.
-- Implementation status: executable Python script.
-- Expected output: `STAGE10C_COMPLETION_VALIDATION PASSED`.
-
-6a) Path: `scripts/validate_stage0_stage1_completion.py`
-- State: `script-active`.
-- Current role: validates Stage 0 through Stage 1 completion evidence without building a dataset, executing provider calls, or changing benchmark scope.
-- Implementation status: executable Python script.
-- Expected output: `STAGE0_STAGE1_COMPLETION_VALIDATION PASSED`.
-
-7) Path: `scripts/audit_deprecated_ohlcv_salvage.py`
-- State: `script-active`.
-- Current role: audits deprecated Twelve Data parquet price evidence for top-50 plus SPY coverage, quality, split evidence, and clean-window candidate bounds.
-- Implementation status: executable Python script.
-- Expected output: `status: usable_as_salvage_evidence_with_limitations`.
-- Caution: this is evidence validation only; it does not copy deprecated data or create a materialized benchmark dataset.
-
-8) Path: `scripts/audit_twelvedata_ohlcv_coverage.py`
-- State: `script-active`.
-- Current role: audits active raw Twelve Data full-window OHLCV coverage for the approved top-50 plus SPY support, checks post-first-available-date gaps against a majority trading calendar, and records deprecated split-adjustment evidence as reference-only.
-- Implementation status: executable Python script.
-- Expected output: `status: complete_observed_life_with_late_start_limitations` with hard blockers `none` after the 2010 backfill.
-- Caution: this is evidence validation only; it does not choose a split-adjustment method, patch anomalies, select a clean window, or build a materialized benchmark dataset.
-
-### 9.6 Top-51-100 Standalone Runner Family
-
-9) Path: `scripts/run_alphavantage_news_top51_100_only_standalone.py`
-- State: `script-active`.
-- Current role: standalone Alpha Vantage runner for ranks 51-100.
-- Implementation status: executable Python script.
-- Implemented classes/functions: same helper pattern as `scripts/run_alphavantage_news_top50_only_standalone.py`, with bucket-specific ticker constants and output names.
-- Benchmark implications: separate expansion input only; not comparable to top-50 benchmark by default.
-
-9) Path: `scripts/run_alphavantage_news_top51_75_only_standalone.py`
-- State: `script-active`.
-- Current role: standalone Alpha Vantage runner for ranks 51-75.
-- Implementation status: executable Python script.
-- Implemented classes/functions: same helper pattern as `scripts/run_alphavantage_news_top50_only_standalone.py`, with bucket-specific ticker constants and output names.
-- Benchmark implications: separate expansion input only; not comparable to top-50 benchmark by default.
-
-10) Path: `scripts/run_alphavantage_news_top76_100_only_standalone.py`
-- State: `script-active`.
-- Current role: standalone Alpha Vantage runner for ranks 76-100.
-- Implementation status: executable Python script.
-- Implemented classes/functions: same helper pattern as `scripts/run_alphavantage_news_top50_only_standalone.py`, with bucket-specific ticker constants and output names.
-- Benchmark implications: separate expansion input only; not comparable to top-50 benchmark by default.
-
-### 9.7 Bucket Wrapper Scripts
-
-11) Path: `scripts/run_alphavantage_news_top101_200_only_standalone.py`
-- State: `script-active`.
-- Current role: wrapper for ranks 101-200 using `BucketConfig` and `main_for_bucket`.
-- Implementation status: executable wrapper; no local functions or classes.
-- Implemented local constants/imports: `FALLBACK_API_KEY`, `TOP101_200_TICKERS`, `CONFIG`; delegates to imported `main_for_bucket(CONFIG, sys.argv[1:])`.
-
-12) Path: `scripts/run_alphavantage_news_top201_300_only_standalone.py`
-- State: `script-active`.
-- Current role: wrapper for ranks 201-300 using `BucketConfig` and `main_for_bucket`.
-- Implementation status: executable wrapper; no local functions or classes.
-- Implemented local constants/imports: `FALLBACK_API_KEY`, `TOP201_300_TICKERS`, `CONFIG`; delegates to imported `main_for_bucket`.
-
-13) Path: `scripts/run_alphavantage_news_top301_400_only_standalone.py`
-- State: `script-active`.
-- Current role: wrapper for ranks 301-400 using `BucketConfig` and `main_for_bucket`.
-- Implementation status: executable wrapper; no local functions or classes.
-- Implemented local constants/imports: `FALLBACK_API_KEY`, `TOP301_400_TICKERS`, `CONFIG`; delegates to imported `main_for_bucket`.
-
-14) Path: `scripts/run_alphavantage_news_top401_500_only_standalone.py`
-- State: `script-active`.
-- Current role: wrapper for ranks 401-500 and optional expanded tickers using `BucketConfig` and `main_for_bucket`.
-- Implementation status: executable wrapper; no local functions or classes.
-- Implemented local constants/imports: `FALLBACK_API_KEY`, `TOP401_500_TICKERS`, `EXPANDED_UNIVERSE_TICKERS`, `CONFIG`; delegates to imported `main_for_bucket`.
-
-### 9.8 Portable Multi-Bucket Script
-
-15) Path: `scripts/run_alphavantage_news_multi_bucket_portable_standalone.py`
-- State: `script-active`.
-- Current role: self-contained portable Alpha Vantage `NEWS_SENTIMENT` runner for ranks 101-500 with optional expanded 401-500 universe.
-- Implementation status: executable Python script.
-- Implemented classes: `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow`.
-- Implemented functions: `build_argument_parser`, `main`, `resolve_active_tickers`, `configure_logging`, `ensure_runtime_directories`, `migrate_seed_data`, `ensure_current_year_aliases`, `load_api_key`, `build_year_windows`, `raw_news_path`, `build_pending_requests`, `build_progress_summary`, `load_recent_request_times`, `load_recent_success_times`, `seconds_until_budget_refresh`, `fetch_news_sentiment`, `build_error_record`, `append_jsonl`, `write_json_atomic`, `summary_path_for`, `log_path_for`, `classify_rate_limit_message`, `is_rate_limit_message`, `normalize_ticker_for_alphavantage`.
-- Benchmark implications: expansion collection only; not comparable to first top-50 benchmark by default.
-
-## 10. Data Evidence Map
-
-| Path | State | Current role | Key evidenced facts | Cautions |
+| Stage | Intent | Inputs | Outputs | Stop conditions |
 | --- | --- | --- | --- | --- |
-| `data/raw/universe/README.md` | `data-evidence` | Explains active universe raw files and reference boundary. | Updated after 2026-05-06 audit. | Does not create an executable universe builder. |
-| `data/raw/universe/top50_slickcharts_2026-04-10.csv` | `data-evidence` | First serious benchmark universe seed. | Top-50 liquid large-cap seed. | Must preserve benchmark-family identity. |
-| `data/raw/universe/top100_slickcharts_2026-04-10.csv` | `data-evidence` | Later expansion input. | Top-100 snapshot. | Not comparable to top-50 by default. |
-| `data/raw/universe/pilot10.csv` | `data-evidence` | Pilot universe artifact. | Historical/supporting seed. | Not current serious benchmark family. |
-| `data/raw/universe/latest_universe_snapshot.csv` | `data-evidence` | Universe snapshot artifact. | Supporting raw evidence. | Status beyond file presence not fully verified here. |
-| `data/raw/universe/sp500_snapshot_2026-03-19.csv` | `data-evidence` | S&P 500 snapshot artifact. | Supporting raw evidence. | Not the approved first serious universe by itself. |
-| `data/raw/universe/sp500_snapshot_2026-03-19.json` | `data-evidence` | S&P 500 snapshot metadata/artifact. | Supporting raw evidence. | Not the approved first serious universe by itself. |
-| `data/raw/universe/sp500_snapshot_2026-03-19.html` | `data-evidence` | HTML source snapshot. | Supporting raw evidence. | Reference/raw evidence only. |
-| `data/raw/alphavantage/` | `data-evidence` | Canonical raw Alpha Vantage news payload corpus and summaries. | Contains top-50 canonical raw windows after merge. | Raw payload volume is summarized here rather than listed per file. |
-| `data/raw/alphavantage/daemon_summary_top50_only_forward.json` | `data-evidence` | Current top-50 Alpha Vantage plan summary. | `ticker_count=50`, `start_year=2010`, `end_year=2026`, `planned_request_count_total=850`, `completed_request_count=850`, `pending_request_count=0`, `limit=1000`. | Raw file coverage only. |
-| `data/raw/alphavantage/daemon_summary_truncation_refinement.json` and `data/raw/alphavantage/daemon_summary_truncation_refinement_quarterly.json` | `data-evidence` | Truncation-refinement plan summaries. | Latest observed summary generated 2026-05-20 reports total `planned=362`, `pending=199`, quarterly `planned=282`, `valid=84`, `missing=198`, `truncated=30`, `pending=198`; monthly `planned=80`, `valid=79`, `missing=1`, `truncated=37`, `pending=1`; budget remaining `0/25`. | Raw refinement evidence only; not dataset readiness. |
-| `data/raw/alphavantage/news_request_ledger.jsonl` | `data-evidence` | Raw provider request ledger. | Evidence of attempted/successful provider calls. | May contain API-key-bearing request URLs; do not share as-is. |
-| `data/raw/alphavantage/call_status__AAPL.json` | `data-evidence` | Historical AAPL Alpha Vantage status artifact. | Supports truncation-risk evidence. | Superseded for top-50 coverage counts by merge manifest. |
-| `data/raw/alphavantage/truncated_calls__AAPL.json` | `data-evidence` | AAPL truncation evidence. | Supports provider-limit caution. | Not a full truncation-refinement solution. |
-| `data/raw/alphavantage/daemon_summary_top51_100_only_forward.json` and related non-top-50 summaries | `data-evidence` | Expansion runner summaries. | Evidence for later buckets where present. | Separate benchmark-family inputs unless explicitly approved. |
-| `data/manifests/alphavantage_top50_raw_merge_2026-05-06.json` | `data-evidence` | Machine-readable raw merge manifest. | `expected_canonical_window_count=850`, `final_canonical_window_count=850`, `after_missing_count=0`, `complete_ticker_count=50`, `copied_count=398`, `copy_error_count=0`, `parse_error_count=0`, `total_feed_rows_in_canonical_windows=209143`, `likely_truncated_window_count=92`, `empty_feed_window_count=10`, `extra_noncanonical_news_file_count=8`, `overlap_count=77`, `overlap_content_conflict_count=77`. | Benchmark readiness remains blocked. |
-| `data/manifests/stage1_raw_security_coverage_audit_2026-05-12.json` | `data-evidence` | Machine-readable Stage 1 raw audit manifest. | Confirms top-50 universe count `50`, canonical Alpha Vantage windows `850/850`, parse failures `0`, feed rows `209143`, likely truncated windows `92`, empty-feed windows `10`, top-50 non-canonical files `8`, sensitive-pattern files `2`, and absent Twelve Data OHLCV/SEC paths. | Stage 2 input evidence only; not dataset or benchmark readiness. |
-| `data/manifests/stage0_stage1_completion_validation_2026-05-14.json` | `data-evidence` | Machine-readable Stage 0 through Stage 1 completion validation manifest. | Confirms Stage 0, 0A, 0B, and 1 completion evidence while preserving non-claims. | Does not build a dataset or benchmark artifact. |
-| `data/manifests/stage2_deprecated_ohlcv_salvage_audit_2026-05-13.json` | `data-evidence` | Machine-readable deprecated OHLCV salvage audit manifest. | Confirms top-50 `50/50`, SPY present, `source=twelve_data`, candidate price intersection `2024-04-01` to `2024-12-30`, and all-horizon as-of candidate `2024-04-01` to `2024-10-03`. | Deprecated parquet evidence only; no active raw payloads or materialized dataset. |
-| `data/manifests/stage2_completion_validation_2026-05-14.json` | `data-evidence` | Machine-readable Stage 2 completion validation manifest. | Confirms the materialized Stage 2 dataset artifact set validates with `117750` rows and stable row digest. | Dataset readiness only; not feature, label, split, model, metric, or benchmark readiness. |
-| `data/manifests/stage3_feature_label_pipeline_readiness_2026-05-14.json` | `data-evidence` | Machine-readable Stage 3 readiness recheck manifest. | Confirms Stage 2 dataset prerequisites are ready for Stage 3 input use while implementation remains blocked by Stage 3 executable test/config/contract gaps. | Does not create features, labels, active configs, splits, models, metrics, or benchmark results. |
-| `data/manifests/stage3_completion_validation_2026-05-15.json` | `data-evidence` | Machine-readable Stage 3 completion validation manifest. | Confirms the materialized Stage 3 artifact set validates with `117750` rows, `67840` aligned news rows, 8-dimensional event-state hash embeddings, and stable row digest. | Feature/label readiness only; not split, model, metric, or benchmark readiness. |
-| `data/manifests/stage4_completion_validation_2026-05-15.json` | `data-evidence` | Machine-readable Stage 4 completion validation manifest. | Confirms the materialized Stage 4 artifact set validates with `9` folds, lockbox start `2025-09-30`, `1059750` assignment rows, passed pre-model packet, and gate-safe runner status. | Split/packet readiness only; not model, metric, comparison-summary, or benchmark readiness. |
-| `data/manifests/stage5_completion_validation_2026-05-21.json` | `data-evidence` | Machine-readable Stage 5 completion validation manifest. | Confirms the materialized Stage 5 artifact set validates with `8` models, `360` fit records, `360` preprocessing records, and `2088000` saved prediction rows. | Model-output readiness only; not metric, diagnostic, comparison-summary, or benchmark-result readiness. |
-| `data/manifests/stage6_completion_validation_2026-05-21.json` | `data-evidence` | Machine-readable Stage 6 completion validation manifest. | Confirms the materialized Stage 6 artifact set validates with `800` metric rows, `800` ranking diagnostic rows, `800` paired comparison rows, result class `clean_null`, comparability `limitation_bearing`, and serious packet `passed`. | Clean-null result evidence only; not a positive result, trading-profitability, provider-level article-completeness, or sentiment-string ablation claim. |
-| `data/manifests/stage10c_completion_validation_2026-05-23.json` | `data-evidence` | Machine-readable Stage 10C completion validation manifest. | Confirms the materialized Stage 10C packet validates with `250` model-output rows, `50` primary top-10 rows, `50` delta top-10 rows, `10` cross-horizon rows, `86` relevant-news rows, and `449` trajectory points. | Local historical-prediction packet validation only; not fresh future inference, benchmark result, service/API, or trading signal. |
-| `data/features/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1/` | `data-evidence` | Materialized Stage 3 feature and label artifact root. | Contains market features, event-state features, labels, aligned news, manifest, and row-universe digest. | Feature/label readiness only; Stage 5 and Stage 6 outputs exist separately. |
-| `data/splits/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1/` | `data-evidence` | Materialized Stage 4 split and packet-gate artifact root. | Contains split manifest, fold definitions, split assignments, lockbox record, leakage validation, artifact-packet validation, and benchmark runner gate. | Split/packet readiness only; Stage 5 and Stage 6 outputs exist separately. |
-| `data/models/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1/` | `data-evidence` | Materialized Stage 5 model and saved-prediction artifact root. | Contains model manifest, resolved model config, comparator roster record, model-fit manifest, preprocessing-fit manifest, saved predictions, training diagnostics, search-space summary, and serious-packet validation. | Stage 5 itself creates no metrics or result; Stage 6 consumes its saved predictions separately. |
-| `data/benchmark_runs/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage6_reporting_v1/` | `data-evidence` | Materialized Stage 6 benchmark reporting artifact root. | Contains resolved evaluation config, prediction-label validation, metrics, ranking diagnostics, paired comparisons, overfitting diagnostic report, comparison summary, benchmark comparability record, serious-packet validation, and evaluation manifest. | Result class is `clean_null`; comparability is `limitation_bearing`. |
-| `data/stage7_contextual_bandit/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260225__src_909564d5ebd6__rows_7a440338a923__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage7_contextual_bandit_v1__post_lockbox_holdout/` | `data-evidence` | Materialized Stage 7C post-lockbox contextual-bandit diagnostic artifact root. | Contains Stage 7 manifest, resolved config, context schema, policy manifest, policy selections, policy metrics, replay validation, data-update plan, and final-execution stub. | Diagnostics-only with `benchmark_claim=false`; not live trading, all-data final execution, or Stage 6 reinterpretation. |
-| `data/prediction_outputs/phase1_top50/2026-05-23__cutoff_20260213__src_e4be8957b633__rows_6868e3b80086__stage5_b68e237c0d0f__prediction_outputs_v1/` | `data-evidence` | Materialized Stage 10C local prediction-output packet root. | Contains manifest, model outputs, primary and delta top-10 tables, cross-horizon diagnostic, deterministic relevant-news context, trajectory points, limitations, static report, and validation report. | `historical_prediction` rows only; not benchmark evidence, fresh forecast inference, service/API/dashboard output, or trading advice. |
-| `data/datasets/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086/` | `data-evidence` | Materialized Stage 2 dataset root. | Contains partitioned Parquet panel, dataset manifest, row-universe digest, clean-window record, and CVX derived patch manifest for the approved top-50 row universe. | Dataset readiness only; downstream Stage 3 through Stage 6 artifacts exist separately. |
-| `data/raw_zip.zip` and `data/raw_zip/` | `data-evidence` | Source package/folder used for the 2026-05-06 raw merge. | Helped copy 398 missing canonical windows. | Merge input/reference only; not canonical active implementation. |
-| `runs/logs/` | `generated-or-local` | Runtime logs from Alpha Vantage runners. | Useful operational evidence. | Generated artifacts; summarize only. |
+| Sanitization | Make active docs consistent with v1p0. | Current docs and decisions. | Updated root docs and guidebook. | Missing preservation approval or unresolved contradiction. |
+| Structure planning | Decide exact source/config/test layout. | Architecture map and guidebook. | Planned file list and contracts. | Unknown imports or active/deprecated code confusion. |
+| Manifest slice | Create version and registry contracts. | v1p0 naming. | Manifest/config schemas. | Any attempt to relabel v0p9 artifacts. |
+| Feature slice | Define/build market lag sidecars. | Clean row universe and market data contracts. | Feature artifacts. | Leakage or row mismatch. |
+| Baseline slice | Implement lag-linear and fixed XGBoost dependency path. | Features, splits, labels. | Lag-linear smoke predictions; XGBoost blocker if dependency absent. | Lockbox tuning, fold-local preprocessing failure, or missing XGBoost dependency for full XGBoost predictions. |
+| Diagnostic slice | Add strata and uncertainty evidence. | Predictions, labels, flags. | Diagnostic artifacts. | Missing provenance or overfit checks. |
+| Report clarity slice | Refactor report wording/tables. | Diagnostic and prediction outputs. | Static report packet. | Report/data mismatch or unsupported claims. |
 
-## 10A. Stage 4 Finalization Detail
+## 7.1 v1p0 First-Slice Prompt Suite
 
-This section is the detailed guidebook map for the completed Stage 4 split and packet-gate boundary. It records infrastructure readiness only. Stage 5 later created model/preprocessing/saved-prediction artifacts separately; this Stage 4 section still does not create or imply any metric, overfitting diagnostic, comparison summary, lockbox result, or serious benchmark claim.
+The v1p0 execution prompts live under `docs/Prompts/` and mirror `ExecutionFlow.md`. They are instruction artifacts only; a stage becomes implemented only after code/config/artifact changes, tests, validation output, and memory evidence exist where applicable.
 
-### Stage 4 Artifact Identity
+| Prompt range | Purpose | Required grounding | Non-claim |
+| --- | --- | --- | --- |
+| `docs/Prompts/v1p0_Stage00_Governance_Context_Readiness.md` | Recover governance and readiness context. | Governance, memory, root v1p0 truth docs. | Does not implement code. |
+| `docs/Prompts/v1p0_Stage01_Reuse_Vs_Rewrite_Audit.md` | Audit v0p9 reuse versus rewrite. | Deprecated v0p9 source and v1p0 architecture docs. | Does not validate old code as v1p0-compatible. |
+| `docs/Prompts/v1p0_Stage02_*.md` through `docs/Prompts/v1p0_Stage06_*.md` | Define manifests, feature registry, market features, sidecar builder, and split/label compatibility. | `ExecutionFlow.md`, `LearningStrategy.md`, `Architecture_Map.md`, `Complete_guidebook.txt`. | Does not create benchmark evidence unless separately executed and validated. |
+| `docs/Prompts/v1p0_Stage07_*.md` through `docs/Prompts/v1p0_Stage12_*.md` | Define first benchmark models, prediction validation, diagnostics, strata, and uncertainty evidence. | `BenchmarkingStrategy.md`, saved-prediction contracts, labels, splits, manifests. | Does not prove model improvement by prompt existence. |
+| `docs/Prompts/v1p0_Stage13_*.md` | Define report clarity and fidelity work. | `VisualizationStrategy.md` and diagnostic outputs. | Does not create a dashboard, API, live forecast, price target, or trading output. |
+| `docs/Prompts/v1p0_Stage14_*.md` | Review first-slice evidence before broader expansion. | All prior stage outputs and validation evidence. | Does not approve broader expansion by itself. |
+| `docs/Prompts/v1p0_Stage15_*.md` through `docs/Prompts/v1p0_Stage40_*.md` | Define the remaining full-v1p0 execution plan. | `ExecutionFlow.md`, `docs/NextSteps_Brainstorming.md`, `ArchitecturalDesignDecisions.md`, strategy docs, and first-slice evidence. | Does not execute code, train models, run benchmarks, or create positive claims by prompt existence. |
 
-| Field | Value |
+## 8. Folder-Level Expectations
+
+| Folder | Owner stage | Expected content | Not allowed |
+| --- | --- | --- | --- |
+| `src/` | Structure planning and later implementation stages. | v1p0 code only after contracts are clear. | Blind code generation or accidental v0p9 dependency. |
+| `configs/` | Manifest/config planning. | v1p0 configs with explicit version names. | Silent mutation of v0p9 configs as if v1p0. |
+| `tests/` | Each implementation slice. | Focused tests and validators. | Passing status claims without running tests. |
+| `scripts/` | Validation and utility stages. | Governance and v1p0 validators. | Live provider scripts without approval. |
+| `data/` | Artifact-producing stages. | Versioned artifacts and manifests. | Raw overwrites or unmanifested outputs. |
+| `runs/` | Execution evidence. | Logs and summaries. | Secret-bearing logs in shared artifacts. |
+| `deprecated/` | Archive management. | v0p9 and v0p7 reference material. | Active truth claims. |
+
+## 9. Current Non-Claims
+
+The repository now has v1p0 smoke code, configs, tests, toy-data smoke artifacts, full historical Stage 17 market feature sidecars, Stage 19 fixed-baseline saved predictions, Stage 20 diagnostics, Stage 21 frozen XGBoost search-contract artifacts, Stage 22 development-search artifacts, and Stage 23 frozen-final evaluation artifacts. It does not yet have Stage 24 overfit/promotion review, live forecast outputs, or promoted model evidence.
+
+The historical v0p9 Stage 6 result remains `clean_null` and `limitation_bearing`. v1p0 may compare against historical evidence only through explicit, versioned, comparability-aware artifacts.
+
+## 10. Update Checklist
+
+When v1p0 work creates or changes files, update these in order:
+
+| Step | File |
 | --- | --- |
-| Benchmark family | `phase1_top50` |
-| Input Stage 2 dataset version | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086` |
-| Input Stage 3 artifact version | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1` |
-| Stage 4 artifact version | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1` |
-| Stage 4 artifact root | `data/splits/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1/` |
-| Row-universe digest | `6868e3b80086196385c3570f709b8bf747ec3f5afebb46dc624dd69b117cb58c` |
-| Input Stage 3 row count | `117750` |
-| Clean as-of window | `2024-04-01` through `2026-02-13` |
-| Label window max end | `2026-05-12` |
-| Benchmark claim flag | `false` |
+| 1 | `ArchitecturalDesignDecisions.md` if decisions changed. |
+| 2 | `ProjectDefinition.md` if scope or status changed. |
+| 3 | `Architecture_Map.md` if paths or responsibilities changed. |
+| 4 | `Complete_guidebook.txt` for detailed flow and connection updates. |
+| 5 | `UsageManual.md` only after actual v1p0 commands/artifacts exist. |
+| 6 | `docs/agent/agent_log/Current_State.md` and `Event_Ledger.ndjson` for memory. |
 
-### Stage 4 Split Policy
+## 11. Validation Checklist
 
-| Policy dimension | Materialized value |
+Before claiming completion of any v1p0 slice, run or create the relevant checks:
+
+| Check | Purpose |
 | --- | --- |
-| Split protocol | `purged_embargoed_walk_forward_with_final_untouched_lockbox` |
-| Development fold cadence | Monthly validation windows. |
-| Training window | Expanding training. |
-| Initial training date count | `126` trading dates. |
-| Validation date count | `21` trading dates per fold. |
-| Partial validation windows | Dropped by `partial_window_policy=drop_incomplete_final_development_window`. |
-| Purge/embargo policy | Maximum approved label horizon. |
-| Purge/embargo date count | `60` trading dates. |
-| Random shuffle allowed | `false`; serious time-shuffled evaluation remains forbidden. |
-| Lockbox policy | Final `20%` of Stage 3 as-of dates. |
-| Lockbox boundary | `2025-09-30` through `2026-02-13`. |
-| Lockbox date count | `95` as-of dates out of `471`. |
-| Lockbox row count | `23750` unique Stage 3 rows, repeated as lockbox assignments in each development fold. |
-| Lockbox access policy | Reporting only after development freeze. |
-
-### Stage 4 Row Accounting
-
-| Count | Value | Meaning |
-| --- | ---: | --- |
-| Development folds | `9` | Complete monthly validation windows before the lockbox. |
-| Split assignment rows | `1059750` | `117750` input rows assigned once per fold. |
-| Training assignments | `472500` | Rows available for fitting in fold-local training. |
-| Validation assignments | `47250` | Out-of-sample development rows across folds. |
-| Purged assignments | `43200` | Rows removed because their label windows overlap validation windows. |
-| Embargoed assignments | `91800` | Rows excluded by the 60-trading-date embargo window before validation. |
-| Lockbox assignments | `213750` | Final reporting-only rows repeated across the 9 fold assignment tables. |
-| Excluded assignments | `191250` | Future development-period rows not scored in the active fold. |
-| Excluded development dates not scored | `2025-09-29` | One incomplete final development date left outside monthly validation windows. |
-
-### Stage 4 Artifact Files
-
-| File | Current role | Validation status |
-| --- | --- | --- |
-| `split_manifest.json` | Canonical Stage 4 split identity, protocol, row accounting, fold definitions, lockbox record, limitations, and non-claims. | Validated by `scripts/validate_stage4_completion.py`. |
-| `fold_definitions.parquet` | One row per development fold with train, purge/embargo, validation, and lockbox boundaries. | Read and counted by the Stage 4 completion validator. |
-| `split_assignments.parquet` | Per-fold row assignments with `train`, `validation`, `purged`, `embargoed`, `lockbox`, or `excluded` roles plus flags. | Rechecked for duplicate row/fold assignments and leakage. |
-| `lockbox_record.json` | Final untouched lockbox boundary, forbidden uses, allowed reporting-only uses, row count, and digest. | Start date `2025-09-30`, end date `2026-02-13`, `95` dates, `23750` rows. |
-| `leakage_validation.json` | Fail-closed leakage validation result. | `status=passed`, `violation_count=0`. |
-| `artifact_packet_validation.json` | Bundle containing Stage 4 pre-model packet validation and serious-run packet validation. | Stage 4 pre-model packet `passed`; serious-run packet `blocked_missing_required_members`. |
-| `benchmark_runner_gate.json` | No-model benchmark-runner gate check. | `status=stage4_runner_gate_passed_no_model_execution`; training, prediction, metrics, and comparison-summary flags are all `false`. |
-
-### Stage 4 Code And Tests
-
-| Path | Stage 4 responsibility | Evidence |
-| --- | --- | --- |
-| `configs/splits.yaml` | Active split protocol, monthly cadence, expanding training, 60-trading-date purge/embargo, and final 20% lockbox. | Consumed by `src/event_state_forecasting/cli/build_splits_and_packet.py`. |
-| `configs/artifact_packet.yaml` | Required Stage 4 pre-model packet members and full serious-run packet members. | Serious-run packet blocks on missing preprocessing, prediction, metric, diagnostic, and comparison artifacts. |
-| `src/event_state_forecasting/split/lockbox.py` | Defines final untouched lockbox boundary and allowed/forbidden access policy. | Covered by `tests/split/test_purged_embargo_contract.py`. |
-| `src/event_state_forecasting/split/purged_embargo.py` | Builds monthly expanding purged-plus-embargoed folds, role assignments, row counts, and split manifest. | Covered by `tests/split/test_purged_embargo_contract.py`. |
-| `src/event_state_forecasting/split/leakage_checks.py` | Validates single row role per fold, train-only preprocessing allowance, lockbox isolation, train label-window overlap, chronological train boundary, validation membership, and embargo fit exclusion. | Covered by `tests/split/test_leakage_contract.py`. |
-| `src/event_state_forecasting/benchmark/artifact_packet.py` | Validates Stage 4 pre-model packet completeness and full serious-run packet completeness. | Covered by `tests/benchmark/test_artifact_packet_contract.py`. |
-| `src/event_state_forecasting/benchmark/runner.py` | Confirms runner cannot bypass Stage 4 gates and cannot train, predict, compute metrics, or create comparison summaries at Stage 4. | Covered by `tests/benchmark/test_benchmark_runner_contract.py`. |
-| `src/event_state_forecasting/cli/build_splits_and_packet.py` | Orchestrates Stage 4 artifact generation from the approved Stage 3 artifact. | Completion validator and focused tests cover its output contract. |
-| `scripts/validate_stage4_completion.py` | Revalidates the materialized Stage 4 artifact set from disk. | Expected output: `STAGE4_COMPLETION_VALIDATION PASSED`. |
-
-### Stage 4 Packet Gate Meaning
-
-The Stage 4 pre-model packet contains the evidence needed to start Stage 5 model work: dataset manifest, feature/label manifest, resolved split config, artifact-packet config, split manifest, fold definitions, split assignments, lockbox record, and leakage validation.
-
-At Stage 4 completion, the full serious-run packet correctly blocked on missing Stage 5 and Stage 6 members. After Stage 6 materialization, the full serious-run packet now passes with metrics, overfitting diagnostic report, and comparison summary present.
-
-### Stage 5 Handoff Requirements
-
-Stage 5 has now created model outputs using the frozen comparator roster, fold-local preprocessing artifacts, saved-prediction schema, identical market-only/event-state rows, untouched Stage 4 lockbox boundary, and executable model/prediction tests. Any future change to the Stage 4 lockbox boundary, fold cadence, purge/embargo count, benchmark family, provider coverage, target, horizon set, universe, comparator roster, or comparability treatment requires explicit approval.
-
-## 10B. Stage 5 Model And Prediction Detail
-
-This section is the detailed guidebook map for the completed Stage 5 model-output boundary. It records model/preprocessing/prediction readiness only. It does not create or imply a metric, overfitting diagnostic report, comparison summary, lockbox result, serious benchmark run, or serious benchmark claim.
-
-### Stage 5 Artifact Identity
-
-| Field | Value |
-| --- | --- |
-| Benchmark family | `phase1_top50` |
-| Input Stage 3 artifact version | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1` |
-| Input Stage 4 artifact version | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1` |
-| Stage 5 artifact version | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1` |
-| Stage 5 artifact root | `data/models/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1/` |
-| Row-universe digest | `6868e3b80086196385c3570f709b8bf747ec3f5afebb46dc624dd69b117cb58c` |
-| Benchmark claim flag | `false` |
-
-### Stage 5 Approved Decisions
-
-| Decision | Materialized value |
-| --- | --- |
-| Comparator roster | `phase1_top50_pragmatic_broader_sklearn_v1` |
-| Runtime dependency family | `sklearn` only for model estimators; no torch dependency introduced. |
-| Seed policy | Fixed seed `1729`. |
-| Search policy | `tiny_fixed_no_hyperparameter_search`; no hyperparameter grid or result-driven tuning. |
-| Preprocessing policy | Model-specific train-only preprocessing: median imputation for all learned models; scaling for linear, MLP, and gated fusion; imputation only for tree models. |
-| Prediction scope | Development validation plus lockbox predictions; no metrics or interpretation in Stage 5. |
-| Lockbox policy | Lockbox predictions created, but lockbox metrics and lockbox-based selection remain `false`. |
-
-### Stage 5 Model Roster
-
-| Model ID | Family | Branch | Inputs |
-| --- | --- | --- | --- |
-| `market_zero_excess_return` | constant zero | market-only | market row identity only |
-| `market_train_mean` | train-fold target mean | market-only | train labels only for training mean; no event-state inputs |
-| `market_ridge` | ridge regression | market-only | market features |
-| `market_elastic_net` | elastic net | market-only | market features |
-| `market_random_forest` | random forest regressor | market-only | market features |
-| `market_hist_gradient_boosting` | histogram gradient boosting regressor | market-only | market features |
-| `market_mlp` | sklearn MLP regressor | market-only | market features |
-| `event_state_gated_fusion` | simple gated fusion | event-state | market features plus event-state scalar/hash/no-news features |
-
-### Stage 5 Row Accounting
-
-| Count | Value | Meaning |
-| --- | ---: | --- |
-| Models | `8` | Frozen approved Stage 5 model IDs. |
-| Development folds | `9` | Same Stage 4 folds, consumed exactly. |
-| Horizons | `5` | Approved `1d`, `5d`, `10d`, `20d`, `60d`. |
-| Model-fit records | `360` | `8` models x `9` folds x `5` horizons. |
-| Preprocessing-fit records | `360` | One preprocessing record per model/fold/horizon, including no-op constant models. |
-| Saved prediction rows | `2088000` | Validation plus lockbox predictions for all models/folds/horizons. |
-| Validation prediction rows | `378000` | `47250` Stage 4 validation assignments x `8` models. |
-| Lockbox prediction rows | `1710000` | `213750` Stage 4 lockbox assignments x `8` models. |
-
-### Stage 5 Artifact Files
-
-| File | Current role | Validation status |
-| --- | --- | --- |
-| `model_manifest.json` | Canonical Stage 5 identity, counts, roster summary, output paths, non-claims, lockbox policy, and serious-packet status. | Validated by `scripts/validate_stage5_completion.py`. |
-| `resolved_model_config.json` | Exact config used for the Stage 5 run. | Copied from `configs/models.yaml` at build time. |
-| `comparator_roster_record.json` | Frozen roster, allowed inputs, seed, search policy, and model families. | Generated by `freeze_comparator_ladder`. |
-| `model_fit_manifest.parquet` | One row per model/fold/horizon fit with row counts, branch, search policy, status, and warning counts. | `360` rows. |
-| `preprocessing_fit_manifest.parquet` | One row per model/fold/horizon preprocessing fit with train-only role, fit row count, feature digest, and parameter-file pointer. | `360` rows; all `preprocessing_fit_allowed_only=true`. |
-| `preprocessing_params/*.json` | Per-model/fold/horizon imputer/scaler/no-op parameter payloads with digests. | Referenced by preprocessing manifest. |
-| `saved_predictions.parquet` | Out-of-sample prediction rows with row key, fold, horizon, model, dataset, feature artifact, split artifact, Stage 5 artifact, split role, and prediction. | `2088000` rows; only `validation` and `lockbox` roles. |
-| `training_diagnostics.parquet` | Fit status, warnings, training row counts, and train-target descriptive values without evaluation metrics. | `metrics_computed=false`. |
-| `search_space_summary.json` | Records `tiny_fixed_no_hyperparameter_search`, seed, model IDs, folds, horizons, and zero hyperparameter-search attempts. | Supports later overfitting diagnostics. |
-| `serious_packet_validation.json` | Full serious-run packet validation after Stage 5. | `blocked_missing_required_members` because metrics, overfitting diagnostic report, and comparison summary are absent. |
-
-### Stage 5 Code And Tests
-
-| Path | Stage 5 responsibility | Evidence |
-| --- | --- | --- |
-| `configs/models.yaml` | Active Stage 5 model roster, feature sets, preprocessing policy, saved-prediction schema, seed, and no-claim policy. | Consumed by `src/event_state_forecasting/cli/train_models_and_predict.py`. |
-| `src/event_state_forecasting/models/comparator_ladder.py` | Validates and freezes the approved comparator roster. | Covered by `tests/models/test_comparator_ladder_contract.py`. |
-| `src/event_state_forecasting/models/market_baselines.py` | Implements constant, linear, tree, boosting, and MLP market-only estimator factories. | Covered indirectly through Stage 5 materialization and model tests. |
-| `src/event_state_forecasting/models/gated_fusion.py` | Implements simple gated fusion using separate market/event branches and a train-fold combiner. | Covered by `tests/models/test_gated_fusion_contract.py`. |
-| `src/event_state_forecasting/models/training.py` | Implements train-only preprocessing validation, imputation/scaling, and preprocessing parameter digests. | Covered by `tests/models/test_training_contract.py`. |
-| `src/event_state_forecasting/models/inference.py` | Implements saved-prediction row-key construction and schema validation. | Covered by `tests/models/test_saved_predictions_contract.py`. |
-| `src/event_state_forecasting/cli/train_models_and_predict.py` | Orchestrates Stage 5 artifact generation from Stage 3 features/labels and Stage 4 splits. | Completion validator and focused model tests cover its output contract. |
-| `scripts/validate_stage5_completion.py` | Revalidates the materialized Stage 5 artifact set from disk. | Expected output: `STAGE5_COMPLETION_VALIDATION PASSED`. |
-
-### Stage 5 Packet Gate Meaning
-
-At Stage 5 completion, the full serious-run packet had dataset, feature/label, split, preprocessing-fit, and saved-prediction evidence present but correctly blocked on missing `metrics`, `overfitting_diagnostic_report`, and `comparison_summary`. Stage 6 later created those artifacts and the full serious-run packet now passes.
-
-### Stage 6 Handoff Resolution
-
-Stage 6 implemented metric contracts that consume saved predictions and frozen labels only, computed required regression and ranking diagnostics, produced the Option B overfitting diagnostic report, preserved the lockbox no-selection rule, produced a comparison summary, and revalidated the full artifact packet. Any future metric-list change, comparison-summary framing change, lockbox reinterpretation, comparator-roster change, target/horizon/universe/provider/split change, or benchmark-comparability change requires explicit approval.
-
-## 10C. Stage 6 Serious Benchmark Reporting Detail
-
-This section is the detailed guidebook map for the completed Stage 6 reporting boundary. It records metric, diagnostic, comparison, comparability, and packet evidence for the approved Stage 5 saved predictions. The current result is a clean null, not a positive result claim.
-
-### Stage 6 Artifact Identity
-
-| Field | Value |
-| --- | --- |
-| Benchmark family | `phase1_top50` |
-| Input Stage 5 artifact version | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1` |
-| Stage 6 artifact version | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage6_reporting_v1` |
-| Stage 6 artifact root | `data/benchmark_runs/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage6_reporting_v1/` |
-| Row-universe digest | `6868e3b80086196385c3570f709b8bf747ec3f5afebb46dc624dd69b117cb58c` |
-| Serious packet status | `passed` |
-| Result class | `clean_null` |
-| Comparability classification | `limitation_bearing` |
-
-### Stage 6 Approved Decisions
-
-| Decision | Materialized value |
-| --- | --- |
-| Strict market hurdle | Per-horizon best market-only model by validation RMSE then MAE. |
-| Result rule | `short_horizon_primary_3_v1`; primary horizons `1d`, `5d`, `10d`; all five horizons still reported. |
-| Lockbox use | `final_reporting_read_once_v1`; lockbox computed for final reporting only, not tuning. |
-| Paired comparison | `loss_delta_summary_no_p_values`; report mean deltas, standard errors, and positive-row rates without p-values. |
-| Event-state model | `event_state_gated_fusion`. |
-| Non-claims | Not trading profitability, not provider-level article completeness, not sentiment-string ablation. |
-
-### Stage 6 Row And Artifact Counts
-
-| Count | Value | Meaning |
-| --- | ---: | --- |
-| Models | `8` | Same frozen Stage 5 model IDs. |
-| Horizons | `5` | Approved `1d`, `5d`, `10d`, `20d`, `60d`. |
-| Metric rows | `800` | Fold and aggregate regression metrics with loss deltas. |
-| Ranking diagnostic rows | `800` | Fold and aggregate secondary ranking diagnostics. |
-| Paired comparison rows | `800` | Fold and aggregate paired loss-delta summaries versus selected market hurdles. |
-| Primary validation positive horizons | `0/3` | Event-state did not improve both primary losses on `1d`, `5d`, and `10d` in validation. |
-| Primary lockbox positive horizons | `0/3` | Event-state did not improve both primary losses on `1d`, `5d`, and `10d` in lockbox. |
-
-### Stage 6 Artifact Files
-
-| File | Current role | Validation status |
-| --- | --- | --- |
-| `evaluation_manifest.json` | Canonical Stage 6 identity, counts, output paths, selected hurdles, result class, comparability, limitations, and packet status. | Validated by `scripts/validate_stage6_completion.py`. |
-| `resolved_evaluation_config.json` | Exact resolved Stage 6 evaluation config copied from `configs/evaluation.yaml`. | Preserves predeclared metric/result policy. |
-| `prediction_label_validation.json` | Confirms saved predictions align with frozen labels, versions, roles, models, horizons, and folds. | `status=passed`. |
-| `metrics.parquet` | Regression metrics with RMSE, MAE, out-of-sample `R2`, row counts, and loss deltas. | `800` rows. |
-| `ranking_diagnostics.parquet` | Mandatory secondary ranking diagnostics. | `800` rows; ranking remains non-primary. |
-| `paired_comparisons.parquet` | Paired loss-delta summaries against selected strict market hurdles. | `800` rows; p-values are not reported. |
-| `overfitting_diagnostic_report.json` | Option B diagnostics: fold dispersion, positive rates, validation-to-lockbox degradation, paired policy, multiple-comparison note, and search-space summary. | `diagnostic_status=complete_with_explicit_train_gap_blocker`. |
-| `comparison_summary.json` | Topline metrics, ranking diagnostics, selected market hurdles, primary-horizon counts, result class, and non-claims. | `result_class=clean_null`. |
-| `benchmark_comparability.json` | Comparability classification and invalidation/limitation reasons. | `limitation_bearing`; no invalidating reasons. |
-| `serious_packet_validation.json` | Full serious-run packet validation after Stage 6. | `status=passed`; `serious_claim_allowed=true`. |
-
-### Stage 6 Code And Tests
-
-| Path | Stage 6 responsibility | Evidence |
-| --- | --- | --- |
-| `configs/evaluation.yaml` | Active Stage 6 metric policy, strict market hurdle rule, ranking diagnostics, paired comparison policy, result classification, lockbox policy, diagnostic policy, and non-claim policy. | Copied to `resolved_evaluation_config.json`. |
-| `src/event_state_forecasting/evaluation/regression.py` | Aligns predictions to labels, computes regression metrics, selects strict market hurdles, and attaches loss differences. | Covered by `tests/evaluation/test_metric_contracts.py`. |
-| `src/event_state_forecasting/evaluation/ranking.py` | Computes secondary cross-sectional ranking diagnostics while handling constant-rank cases without warnings. | Covered by `tests/evaluation/test_metric_contracts.py`. |
-| `src/event_state_forecasting/evaluation/statistical_tests.py` | Computes paired loss-delta summaries without p-values. | Covered by `tests/evaluation/test_metric_contracts.py`. |
-| `src/event_state_forecasting/evaluation/comparison_summary.py` | Builds overfitting diagnostic report, comparison summary, comparability record, result class, and limitation reasons. | Covered by `tests/evaluation/test_metric_contracts.py` and Stage 6 validator. |
-| `src/event_state_forecasting/cli/run_benchmark.py` | Orchestrates Stage 6 artifact generation from Stage 5 saved predictions and Stage 3 labels. | Completion validator and focused evaluation tests cover its output contract. |
-| `scripts/validate_stage6_completion.py` | Revalidates the materialized Stage 6 artifact set from disk. | Expected output: `STAGE6_COMPLETION_VALIDATION PASSED`. |
-
-### Stage 6 Result Meaning
-
-The strict market hurdles selected by the frozen validation rule are `market_elastic_net` for `1d`, `10d`, `20d`, and `60d`, and `market_ridge` for `5d`. The event-state gated fusion model did not clear the predeclared short-horizon primary hurdle because it improved on both mean squared and mean absolute loss deltas in `0/3` primary horizons in validation and `0/3` in lockbox.
-
-The comparability record has no invalidating reasons, but it remains limitation-bearing for three reasons: Alpha Vantage provider-level article completeness is not claimed, an active split-adjustment method is not selected while Stage 2 uses a derived manifest only, and the train-validation gap diagnostic is blocked because Stage 5 saved no train predictions.
-
-## 10D. Stage 10C Prediction-Output Packet Detail
-
-This section maps the completed Stage 10C local artifact boundary. It records readable model-output packet generation from existing Stage 5 saved predictions. It does not create fresh future inference, persisted model serving, a benchmark result, a Stage 6 reinterpretation, a service/API/dashboard, or trading advice.
-
-### Stage 10C Artifact Identity
-
-| Field | Value |
-| --- | --- |
-| Packet schema | `prediction_outputs_v1` |
-| Packet root | `data/prediction_outputs/phase1_top50/2026-05-23__cutoff_20260213__src_e4be8957b633__rows_6868e3b80086__stage5_b68e237c0d0f__prediction_outputs_v1/` |
-| Data cutoff | `2026-02-13` |
-| Input Stage 5 artifact | `phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_d26bdc8584c7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1` |
-| Row role | `historical_prediction` |
-| Benchmark claim | `false` |
-| Trading signal approved | `false` |
-
-### Stage 10C Artifact Files
-
-| File | Current role | Validation status |
-| --- | --- | --- |
-| `prediction_output_manifest.json` | Canonical identity, inputs, counts, output paths, ranking policy, Stage 6 context, and non-claims. | Validated by `scripts/validate_stage10c_completion.py`. |
-| `model_outputs.parquet` / `model_outputs.csv` | Per-ticker/per-horizon event-state model outputs with selected market-hurdle deltas and limitation flags. | `250` rows. |
-| `top10_primary_event_state.parquet` / `.csv` | Primary per-horizon top-10 event-state view. | `50` rows. |
-| `top10_delta_over_market.parquet` / `.csv` | Secondary per-horizon delta-over-market-hurdle view. | `50` rows. |
-| `cross_horizon_diagnostic.parquet` / `.csv` | Tertiary diagnostic cross-horizon view. | `10` rows; diagnostic only. |
-| `relevant_news_context.parquet` / `.csv` | Deterministic aligned-news context with snippets and limitation flags. | URLs and LLM summaries excluded. |
-| `trajectory_points.parquet` / `.csv` | Historical observed closes plus forecast markers. | No projected price path. |
-| `limitations.json` | Machine-readable non-claims and sensitive-artifact policy. | Validated. |
-| `report.html` | Static local HTML report generated from packet tables. | Offline artifact only. |
-| `validation_report.json` | Packet validation report. | `status=passed`. |
-
-### Stage 10C Code And Tests
-
-| Path | Stage 10C responsibility | Evidence |
-| --- | --- | --- |
-| `src/event_state_forecasting/stage10/prediction_outputs.py` | Generates and validates local prediction-output packets from existing Stage 5 saved predictions plus Stage 3/Stage 6 context. | Covered by `tests/stage10/test_prediction_outputs_contract.py`. |
-| `src/event_state_forecasting/cli/generate_prediction_outputs.py` | CLI wrapper for Stage 10C packet generation. | Packet generated under `data/prediction_outputs/phase1_top50/`. |
-| `scripts/validate_stage10c_completion.py` | Revalidates the materialized Stage 10C packet from disk. | Expected output: `STAGE10C_COMPLETION_VALIDATION PASSED`. |
-| `tests/stage10/test_prediction_outputs_contract.py` | Focused Stage 10C packet tests. | Expected focused result: `3 passed`. |
-
-## 11. Source Scaffold And Approved Implementation Map
-
-Coverage count: Python files under `src/event_state_forecasting/**/*.py`. Approved Stage 2 data/dataset, Stage 3 feature/label, Stage 4 split/packet, Stage 5 model/prediction, Stage 6 evaluation/reporting, Stage 7C diagnostics, and Stage 10C prediction-output paths are executable; remaining future-stage files remain comment-only scaffolds and contain the required scaffold comment blocks. Package-marker files have planned-function blocks stating no package-level functions are planned.
-
-### 11.1 Benchmark Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/benchmark/__init__.py` | No package-level functions planned. | Benchmark package marker. | Future package import/side-effect checks. |
-| `src/event_state_forecasting/benchmark/artifact_packet.py` | `validate_artifact_packet`, `validate_packet_config`, `build_stage4_member_map` implemented. | Stage 4 artifact-packet validation and serious-run packet blocking. | `tests/benchmark/test_artifact_packet_contract.py`. |
-| `src/event_state_forecasting/benchmark/registry.py` | `validate_benchmark_family_identity` planned only; not implemented. | Future benchmark-family and run identity registry. | Future benchmark-family identity tests. |
-| `src/event_state_forecasting/benchmark/runner.py` | `validate_gate_safe_runner` implemented. | Stage 4 gate-safe runner validation; no training, prediction, metrics, or benchmark result. | `tests/benchmark/test_benchmark_runner_contract.py`. |
-
-### 11.2 CLI Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/cli/__init__.py` | No package-level functions planned. | CLI package marker. | Future import side-effect checks. |
-| `src/event_state_forecasting/cli/audit_raw_data.py` | `run_raw_data_audit` planned only; not implemented. | Future raw provider coverage, schema, truncation, and credential-risk audit CLI. | Raw validation and integration planned tests. |
-| `src/event_state_forecasting/cli/build_benchmark_dataset.py` | `build_argument_parser`, `main` implemented. | Stage 2 manifest-backed benchmark dataset construction CLI. | `tests/dataset/test_panel_builder_contract.py`. |
-| `src/event_state_forecasting/cli/build_features_and_labels.py` | `build_argument_parser`, `main`, `run_feature_label_build`, `validate_stage3_configs` implemented. | Stage 3 market features, event-state features, no-news states, aligned-news audit, and labels CLI. | `tests/features/` and `scripts/validate_stage3_completion.py`. |
-| `src/event_state_forecasting/cli/build_splits_and_packet.py` | `build_argument_parser`, `main`, `run_stage4_build` implemented. | Stage 4 split, lockbox, leakage, artifact-packet, and runner-gate artifact CLI. | `tests/split/`, `tests/benchmark/`, and `scripts/validate_stage4_completion.py`. |
-| `src/event_state_forecasting/cli/build_market_data.py` | `run_market_data_build` planned only; not implemented. | Future approved OHLCV ingestion or normalization CLI. | Provider and market feature planned tests. |
-| `src/event_state_forecasting/cli/build_news_data.py` | `run_news_data_build` planned only; not implemented. | Future Alpha Vantage news normalization CLI. | Provider and news-alignment planned tests. |
-| `src/event_state_forecasting/cli/build_splits.py` | `run_split_build` planned only; not implemented. | Future purged-plus-embargoed fold and lockbox CLI. | Split planned tests. |
-| `src/event_state_forecasting/cli/generate_prediction_outputs.py` | `build_parser`, `main` implemented. | Stage 10C local prediction-output packet generation from existing Stage 5 saved predictions. | `tests/stage10/test_prediction_outputs_contract.py` and `scripts/validate_stage10c_completion.py`. |
-| `src/event_state_forecasting/cli/run_benchmark.py` | `build_parser`, `main`, `build_prediction_label_validation`, `build_stage6_member_map`, `build_evaluation_manifest`, `load_yaml_or_json`, `load_json`, `write_json`, `to_jsonable`, `now_utc` implemented. | Stage 6 serious benchmark reporting from saved predictions, metric/diagnostic/comparison artifact writing, packet validation, and comparability record generation. | `tests/evaluation/test_metric_contracts.py` and `scripts/validate_stage6_completion.py`. |
-| `src/event_state_forecasting/cli/sanitize_provider_ledgers.py` | `run_ledger_sanitization` planned only; not implemented. | Future provider-ledger sanitization CLI. | `tests/ops/test_ledger_sanitization_contract.py`. |
-| `src/event_state_forecasting/cli/summarize_run.py` | `run_summary_report` planned only; not implemented. | Future run-summary CLI. | Future summary/report tests. |
-| `src/event_state_forecasting/cli/train_models_and_predict.py` | `build_parser`, `main`, `load_training_panel`, `feature_columns_for_spec`, `make_estimator`, `build_search_space_summary`, `build_stage5_member_map`, `build_model_manifest`, `horizon_sort_key`, `load_yaml_or_json`, `load_json`, `write_json`, `now_utc` implemented. | Stage 5 model, preprocessing-fit, saved-prediction, search-space, and packet-blocker artifact CLI. | `tests/models/` and `scripts/validate_stage5_completion.py`. |
-| `src/event_state_forecasting/cli/validate_universe.py` | `run_universe_validation` planned only; not implemented. | Future frozen universe validation CLI. | `tests/data/test_universe_contract.py`. |
-
-### 11.3 Data Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/data/__init__.py` | No package-level functions planned. | Data package marker. | Future import side-effect checks. |
-| `src/event_state_forecasting/data/contracts.py` | `validate_panel_records`, `validate_manifest` implemented. | Stage 2 canonical schema and manifest contract definitions. | `tests/data/test_contracts_contract.py`. |
-| `src/event_state_forecasting/data/corporate_actions.py` | `validate_corporate_action_adjustments` planned only; not implemented. | Future split and adjustment support. | Future corporate-action tests. |
-| `src/event_state_forecasting/data/manifests.py` | `validate_manifest_record` planned only; not implemented. | Future manifest field definitions and validation. | Future manifest tests. |
-| `src/event_state_forecasting/data/providers/__init__.py` | No package-level functions planned. | Provider-boundary package marker. | Future provider import side-effect checks. |
-| `src/event_state_forecasting/data/providers/alphavantage_news.py` | `fetch_or_describe_news_window` planned only; not implemented. | Future Alpha Vantage provider boundary. | `tests/integration/test_provider_contracts.py`. |
-| `src/event_state_forecasting/data/providers/sec_support.py` | `validate_sec_support_artifact` planned only; not implemented. | Future SEC support boundary. | `tests/integration/test_provider_contracts.py`. |
-| `src/event_state_forecasting/data/providers/twelvedata_ohlcv.py` | `fetch_or_describe_ohlcv_window` planned only; not implemented. | Future Twelve Data OHLCV provider boundary. | `tests/integration/test_provider_contracts.py`. |
-| `src/event_state_forecasting/data/quality_checks.py` | `run_quality_checks` planned only; not implemented. | Future generic data-quality checks. | Future data-quality tests. |
-| `src/event_state_forecasting/data/raw_validation.py` | `validate_raw_provider_payloads` planned only; not implemented. | Future raw provider payload validation. | `tests/data/test_raw_validation_contract.py`. |
-| `src/event_state_forecasting/data/split_events.py` | `normalize_split_events` planned only; not implemented. | Future split-event evidence normalization. | Future split-event tests. |
-| `src/event_state_forecasting/data/storage_layout.py` | `describe_storage_layout` planned only; not implemented. | Future storage layer conventions. | Future storage-layout tests. |
-| `src/event_state_forecasting/data/universe.py` | `load_top50_universe`, `validate_top50_members` implemented. | Stage 2 frozen top-50 universe reading and validation. | `tests/data/test_universe_contract.py`. |
-
-### 11.4 Dataset Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/dataset/__init__.py` | No package-level functions planned. | Dataset package marker. | Future import side-effect checks. |
-| `src/event_state_forecasting/dataset/dataset_versioning.py` | `file_sha256`, `stable_json_digest`, `source_digest`, `build_dataset_version` implemented. | Stage 2 dataset version identity and source hashing. | `tests/dataset/test_panel_builder_contract.py`. |
-| `src/event_state_forecasting/dataset/panel_builder.py` | `build_stage2_benchmark_dataset`, `load_clean_window`, `load_twelvedata_prices`, `load_alphavantage_news_counts`, `build_panel_records` implemented. | Stage 2 market/news availability panel assembly and artifact writing. | `tests/dataset/test_panel_builder_contract.py`. |
-| `src/event_state_forecasting/dataset/row_universe.py` | `row_key`, `sorted_row_keys`, `row_universe_digest`, `compare_row_universes` implemented. | Stage 2 row-universe equality and digest checks. | `tests/dataset/test_row_universe_contract.py`. |
-
-### 11.5 Features Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/features/__init__.py` | No package-level functions planned. | Features package marker. | Future import side-effect checks. |
-| `src/event_state_forecasting/features/embeddings.py` | `build_article_embeddings`, `hash_text_embedding`, `pool_embeddings`, `article_text`, `stable_text_hash` implemented. | Deterministic local hash embedding interface for Stage 3. | Event-state tests and completion validator. |
-| `src/event_state_forecasting/features/event_state.py` | `build_event_state_features`, `load_and_align_alphavantage_articles`, `normalize_raw_article`, `canonical_alphavantage_path` implemented. | Stage 3 pooled hash embedding plus scalar enrichment construction. | `tests/features/test_event_state_contract.py`. |
-| `src/event_state_forecasting/features/labels.py` | `build_forward_excess_return_labels`, `simple_return` implemented. | Stage 3 forward excess-return labels using simple leave-one-out universe reference. | `tests/features/test_labels_contract.py`. |
-| `src/event_state_forecasting/features/market.py` | `build_market_features` implemented. | Stage 3 end-of-day market feature generation. | `tests/features/test_market_features_contract.py`. |
-| `src/event_state_forecasting/features/news_alignment.py` | `align_news_as_of_close`, `assign_prediction_date`, `parse_alpha_time_published`, roll-forward helpers implemented. | Stage 3 same-day as-of-close news alignment and roll-forward behavior. | `tests/features/test_news_alignment_contract.py`. |
-| `src/event_state_forecasting/features/no_news_state.py` | `build_no_news_states`, `validate_no_news_rows_preserved` implemented. | Stage 3 explicit empty event-state and no-news handling. | `tests/features/test_no_news_state_contract.py`. |
-| `src/event_state_forecasting/features/text_normalization.py` | `normalize_article_text` planned only; not implemented. | Future article text normalization and hashing preparation. | Future text-normalization tests. |
-
-### 11.6 Split Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/split/__init__.py` | No package-level functions planned. | Split package marker. | Future import side-effect checks. |
-| `src/event_state_forecasting/split/leakage_checks.py` | `validate_no_leakage` implemented. | Stage 4 leakage assertions for fold roles, lockbox isolation, label-window overlap, embargo misuse, and preprocessing-fit scope. | `tests/split/test_leakage_contract.py`. |
-| `src/event_state_forecasting/split/lockbox.py` | `define_lockbox_boundary` implemented. | Stage 4 final untouched lockbox boundary definition. | `tests/split/test_purged_embargo_contract.py`. |
-| `src/event_state_forecasting/split/purged_embargo.py` | `build_purged_embargoed_folds`, `validate_split_config`, `assign_fold_roles` implemented. | Stage 4 purged-plus-embargoed walk-forward folds and split-manifest accounting. | `tests/split/test_purged_embargo_contract.py`. |
-
-### 11.7 Models Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/models/__init__.py` | No package-level functions planned. | Models package marker. | Future import side-effect checks. |
-| `src/event_state_forecasting/models/comparator_ladder.py` | `ModelSpec`, `ComparatorLadderError`, `validate_model_config`, `freeze_comparator_ladder` implemented. | Stage 5 frozen comparator roster validation and allowed-input enforcement. | `tests/models/test_comparator_ladder_contract.py`. |
-| `src/event_state_forecasting/models/gated_fusion.py` | `SimpleGatedFusionRegressor`, `make_gated_fusion_estimator` implemented. | Stage 5 simple gated fusion estimator using market/event branches and train-fold combiner. | `tests/models/test_gated_fusion_contract.py`. |
-| `src/event_state_forecasting/models/inference.py` | `SavedPredictionSchemaError`, `make_row_key`, `build_prediction_frame`, `validate_saved_predictions` implemented. | Stage 5 saved-prediction schema and row-key validation. | `tests/models/test_saved_predictions_contract.py`. |
-| `src/event_state_forecasting/models/market_baselines.py` | `ConstantZeroRegressor`, `TrainMeanRegressor`, `make_market_estimator` implemented. | Stage 5 market-only baseline and comparator estimator factory. | Stage 5 materialization and `tests/models/`. |
-| `src/event_state_forecasting/models/training.py` | `TrainingContractError`, `FoldPreprocessor`, `validate_training_rows`, `fit_fold_preprocessor`, `stable_payload_digest` implemented. | Stage 5 fold-local train-only preprocessing and parameter digests. | `tests/models/test_training_contract.py`. |
-
-### 11.8 Evaluation Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/evaluation/__init__.py` | No package-level functions planned. | Evaluation package marker. | Future import side-effect checks. |
-| `src/event_state_forecasting/evaluation/comparison_summary.py` | `ComparisonSummaryError`, `build_overfitting_diagnostic_report`, `build_comparison_summary`, `build_benchmark_comparability_record`, `now_utc` implemented. | Stage 6 overfitting diagnostics, comparison-summary generation, result classification, and comparability classification. | `tests/evaluation/test_metric_contracts.py` and `scripts/validate_stage6_completion.py`. |
-| `src/event_state_forecasting/evaluation/ranking.py` | `RankingDiagnosticError`, `compute_ranking_diagnostics` implemented. | Stage 6 secondary ranking diagnostics. | `tests/evaluation/test_metric_contracts.py`. |
-| `src/event_state_forecasting/evaluation/regression.py` | `MetricContractError`, `align_predictions_with_labels`, `compute_regression_metrics`, `select_market_hurdles`, `attach_loss_differences` implemented. | Stage 6 primary regression metrics and strict market-hurdle selection. | `tests/evaluation/test_metric_contracts.py`. |
-| `src/event_state_forecasting/evaluation/statistical_tests.py` | `PairedComparisonError`, `compute_paired_loss_deltas` implemented. | Stage 6 paired loss-delta summaries with no p-values. | `tests/evaluation/test_metric_contracts.py`. |
-
-### 11.9 Stage 10 Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/stage10/__init__.py` | No package-level functions planned. | Stage 10 package marker. | Import side-effect covered by Stage 10C tests. |
-| `src/event_state_forecasting/stage10/prediction_outputs.py` | `Stage10CInputs`, `Stage10CPacketError`, `generate_stage10c_prediction_packet`, `validate_stage10c_packet`, packet builders, ranking helpers, output writers, and sensitive-exclusion checks implemented. | Stage 10C local prediction-output packet generation and validation. | `tests/stage10/test_prediction_outputs_contract.py` and `scripts/validate_stage10c_completion.py`. |
-
-### 11.10 Benchmark Operations Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/ops/__init__.py` | No package-level functions planned. | Ops package marker. | Future import side-effect checks. |
-| `src/event_state_forecasting/ops/data_refresh.py` | `assess_data_refresh_impact` planned only; not implemented. | Future refresh rules and benchmark invalidation hooks. | Future data-refresh tests. |
-| `src/event_state_forecasting/ops/ledger_sanitization.py` | `sanitize_provider_ledger` planned only; not implemented. | Future provider-ledger credential sanitization. | `tests/ops/test_ledger_sanitization_contract.py`. |
-| `src/event_state_forecasting/ops/rollback.py` | `plan_manifest_backed_rollback` planned only; not implemented. | Future manifest-backed rollback policy. | Future rollback tests. |
-| `src/event_state_forecasting/ops/truncation_refinement.py` | `plan_truncation_refinement` planned only; not implemented. | Future Alpha Vantage truncation refinement workflow. | `tests/ops/test_truncation_refinement_contract.py`. |
-
-### 11.11 Utils Layer
-
-| Path | Planned functions or implemented functions | Current role / purpose | Planned tests or linked tests |
-| --- | --- | --- | --- |
-| `src/event_state_forecasting/__init__.py` | No package-level functions planned. | Top-level package marker. | Future package import side-effect checks. |
-| `src/event_state_forecasting/utils/__init__.py` | No package-level functions planned. | Utility package marker. | Future utility import side-effect checks. |
-| `src/event_state_forecasting/utils/hashing.py` | `compute_stable_digest` planned only; not implemented. | Future stable hashing support. | Future hashing tests. |
-| `src/event_state_forecasting/utils/logging.py` | `describe_logging_context` planned only; not implemented. | Future logging conventions. | Future logging tests. |
-| `src/event_state_forecasting/utils/paths.py` | `resolve_project_path` planned only; not implemented. | Future canonical path resolution. | Future path tests. |
-| `src/event_state_forecasting/utils/reproducibility.py` | `describe_reproducibility_context` planned only; not implemented. | Future run metadata and deterministic seed documentation. | `tests/utils/test_reproducibility_contract.py`. |
-| `src/event_state_forecasting/utils/time.py` | `describe_trading_calendar_behavior` planned only; not implemented. | Future market-calendar and timestamp utility behavior. | Future calendar/time tests. |
-| `src/event_state_forecasting/utils/validation.py` | `describe_validation_result` planned only; not implemented. | Future generic validation result structures. | Future validation-helper tests. |
-
-## 12. Config Map
-
-Coverage count: 15 YAML files under `configs/*.yaml`, including active JSON-style YAML configs for Stage 3, Stage 4, Stage 5, and Stage 6. Example files remain comment-only scaffolds.
-
-| Path | Planned config sections | Purpose | Protected/benchmark cautions |
-| --- | --- | --- | --- |
-| `configs/artifact_packet.example.yaml` | `packet_identity`, `required_members` | Future serious-run artifact packet membership and validation policy. | Missing packet, split, preprocessing, prediction, metric, or diagnostic fields block serious claims. |
-| `configs/artifact_packet.yaml` | `stage4_pre_model_required_members`, `serious_run_required_members`, `claim_policy` | Active artifact-packet validation config used by Stage 4, Stage 5, and Stage 6 gates. | Full serious-run packet now passes after Stage 6 metrics, overfitting diagnostics, and comparison summary were created. |
-| `configs/data_contracts.example.yaml` | `row_contracts`, `artifact_schemas` | Future raw/interim/final/prediction/artifact data contracts. | Row-key drift can invalidate model comparisons. |
-| `configs/evaluation.example.yaml` | `regression_metrics`, `ranking_diagnostics`, `overfitting_diagnostics` | Future regression metrics, ranking diagnostics, overfitting diagnostics, paired tests, and summaries. | Metrics and diagnostics must consume saved out-of-sample predictions and frozen labels. |
-| `configs/evaluation.yaml` | `metric_policy`, `ranking_diagnostics`, `paired_comparison_policy`, `result_classification`, `lockbox_policy`, `diagnostic_policy`, `claim_policy` | Active Stage 6 metric, diagnostic, lockbox, comparison, and claim policy. | Metric-list or result-rule changes after result inspection require explicit approval and comparability review. |
-| `configs/features.example.yaml` | `news_alignment`, `event_state` | Future market/text/event-state/no-news feature configuration. | Alignment changes are leakage and comparability events. |
-| `configs/features.yaml` | `news_alignment`, `embeddings`, `event_state` | Active Stage 3 feature configuration. | Uses deterministic local hash embeddings and same-day as-of-close alignment. |
-| `configs/labels.example.yaml` | `target_family`, `horizons` | Future forward excess-return labels and approved horizons. | Only `1d`, `5d`, `10d`, `20d`, `60d` are in phase-1 scope. |
-| `configs/labels.yaml` | `target_family`, `horizons`, `reference_policy` | Active Stage 3 label configuration. | Uses leave-one-out equal-weight approved-universe simple excess-return labels. |
-| `configs/models.example.yaml` | `comparator_ladder`, `gated_fusion` | Future/reference comparator roster, simple gated fusion, training, and inference-output scaffold. | Superseded for active Stage 5 by `configs/models.yaml`. |
-| `configs/models.yaml` | `comparator_ladder`, `feature_sets`, `saved_prediction_schema`, `claim_policy` | Active Stage 5 model, preprocessing, feature-set, and saved-prediction configuration. | Roster changes after prediction materialization require explicit approval and comparability review. |
-| `configs/phase1_top50_benchmark.yaml` | `benchmark_family`, `artifacts` | Future protected first serious top-50 phase-1 benchmark config family. | Every protected value must be explicit; not active config. |
-| `configs/providers.example.yaml` | `twelvedata_ohlcv`, `alphavantage_news` | Future provider boundaries, request policy, validation, and secret handling. | Provider keys forbidden in config files; 92 likely truncated windows remain unresolved. |
-| `configs/splits.example.yaml` | `development_folds`, `lockbox` | Future purged/embargoed walk-forward splits, split manifests, and untouched lockbox. | Split changes affect serious result comparability. |
-| `configs/splits.yaml` | `fold_schedule`, `purge_embargo`, `lockbox` | Active Stage 4 split configuration. | Monthly expanding folds, 60-trading-date purge/embargo, and final 20% lockbox are frozen for current artifacts. |
-
-## 13. Planned-Test Scaffold Map
-
-Coverage count: Python files under `tests/**/*.py`. Stage 2, Stage 3, Stage 4, Stage 5, Stage 6, Stage 7C, Stage 8, and Stage 10C tests are executable; remaining provider/operations/utility tests remain comment-only planned tests.
-
-| Path | Target future module | Planned test purpose |
-| --- | --- | --- |
-| `tests/__init__.py` | tests package marker only | Mark future active-root test namespace without executable tests. |
-| `tests/benchmark/test_artifact_packet_contract.py` | `src/event_state_forecasting/benchmark/artifact_packet.py` | Executable Stage 4 tests verifying pre-model packets pass and serious-run packets fail closed when required serious-run artifacts are absent. |
-| `tests/benchmark/test_benchmark_runner_contract.py` | `src/event_state_forecasting/benchmark/runner.py` | Executable Stage 4 tests verifying the runner gate cannot train, predict, compute metrics, or allow benchmark-family drift. |
-| `tests/data/test_contracts_contract.py` | `src/event_state_forecasting/data/contracts.py` | Verify canonical schemas protect row keys, timestamps, labels, predictions, and artifacts. |
-| `tests/data/test_raw_validation_contract.py` | `src/event_state_forecasting/data/raw_validation.py` | Verify raw provider validation reports coverage, parse status, truncation, empty feeds, and credential risk. |
-| `tests/data/test_universe_contract.py` | `src/event_state_forecasting/data/universe.py` | Verify frozen universe parsing, canonical tickers, and expansion-family separation. |
-| `tests/dataset/test_panel_builder_contract.py` | `src/event_state_forecasting/dataset/panel_builder.py` | Verify panel assembly preserves row universe across branches. |
-| `tests/dataset/test_row_universe_contract.py` | `src/event_state_forecasting/dataset/row_universe.py` | Verify row-universe equality and no-news preservation. |
-| `tests/evaluation/test_metric_contracts.py` | `src/event_state_forecasting/evaluation/regression.py`; `src/event_state_forecasting/evaluation/ranking.py`; `src/event_state_forecasting/evaluation/statistical_tests.py`; `src/event_state_forecasting/evaluation/comparison_summary.py` | Executable Stage 6 tests verifying metrics and diagnostics consume saved out-of-sample predictions and frozen labels, ranking diagnostics stay secondary, paired loss deltas omit p-values, and result classification is predeclared. |
-| `tests/features/test_event_state_contract.py` | `src/event_state_forecasting/features/event_state.py` | Verify pooled embeddings, scalar enrichments, and no-news states align to row universe. |
-| `tests/features/test_labels_contract.py` | `src/event_state_forecasting/features/labels.py` | Verify forward excess-return labels for `1d`, `5d`, `10d`, `20d`, and `60d`. |
-| `tests/features/test_market_features_contract.py` | `src/event_state_forecasting/features/market.py` | Verify market features are as-of safe. |
-| `tests/features/test_news_alignment_contract.py` | `src/event_state_forecasting/features/news_alignment.py` | Verify same-day as-of-close alignment and roll-forward behavior. |
-| `tests/features/test_no_news_state_contract.py` | `src/event_state_forecasting/features/no_news_state.py` | Verify no-news days remain explicit rows. |
-| `tests/integration/test_pipeline_contract.py` | `src/event_state_forecasting/cli/build_benchmark_dataset.py`; `src/event_state_forecasting/cli/run_benchmark.py` | Verify pipeline gates run in order and fail closed, including Option B contamination blockers. |
-| `tests/integration/test_provider_contracts.py` | `src/event_state_forecasting/data/providers/alphavantage_news.py`; `src/event_state_forecasting/data/providers/twelvedata_ohlcv.py`; `src/event_state_forecasting/data/providers/sec_support.py` | Verify provider boundaries preserve raw payloads, canonical tickers, and secret safety. |
-| `tests/models/test_comparator_ladder_contract.py` | `src/event_state_forecasting/models/comparator_ladder.py` | Verify comparator roster, inputs, run order, and row equality. |
-| `tests/models/test_gated_fusion_contract.py` | `src/event_state_forecasting/models/gated_fusion.py` | Verify gated fusion consumes approved market/event-state inputs under row/split discipline. |
-| `tests/models/test_saved_predictions_contract.py` | `src/event_state_forecasting/models/inference.py` | Verify saved-prediction required fields, allowed split roles, duplicate detection, and model IDs. |
-| `tests/models/test_training_contract.py` | `src/event_state_forecasting/models/training.py` | Verify fold-local preprocessing fits on training rows only and rejects validation/disallowed fit rows. |
-| `tests/ops/test_ledger_sanitization_contract.py` | `src/event_state_forecasting/ops/ledger_sanitization.py` | Verify sanitized ledgers remove API-key-bearing URLs. |
-| `tests/ops/test_truncation_refinement_contract.py` | `src/event_state_forecasting/ops/truncation_refinement.py` | Verify truncated Alpha Vantage windows remain unresolved until refined or accepted. |
-| `tests/split/test_leakage_contract.py` | `src/event_state_forecasting/split/leakage_checks.py` | Executable Stage 4 tests verifying leakage checks block invalid label-window overlap and non-training preprocessing fit. |
-| `tests/split/test_purged_embargo_contract.py` | `src/event_state_forecasting/split/purged_embargo.py` | Executable Stage 4 tests verifying purged/embargoed walk-forward folds honor lockbox, training, and validation separation. |
-| `tests/stage10/test_prediction_outputs_contract.py` | `src/event_state_forecasting/stage10/prediction_outputs.py` | Executable Stage 10C tests verifying packet non-claims, output files, relevant-news exclusions, trajectory policy, latest-fold snapshot selection, and deterministic overwrite cleanup. |
-| `tests/utils/test_reproducibility_contract.py` | `src/event_state_forecasting/utils/reproducibility.py` | Verify metadata, seeds, config hashes, and artifact identity support reproducibility. |
-
-## 14. Function And Planned-Function Index
-
-### 14.1 Active Executable Script Functions And Classes
-
-| Path | Implemented classes | Implemented functions |
-| --- | --- | --- |
-| `scripts/validate_agent_governance.py` | `Finding`, `ValidatorState` | `read_text`, `require_markers`, `require_substrings`, `validate_required_files`, `validate_no_legacy_paths`, `validate_agent_rules`, `validate_agent_memory`, `validate_agent_glossary`, `validate_agent_templates`, `validate_agent_research_workflows`, `validate_agent_compliance`, `validate_agent_appendices`, `validate_current_state`, `validate_event_ledger`, `validate_validator_self_alignment`, `emit_report`, `main` |
-| `scripts/alphavantage_news_bucket_common.py` | `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow`, `BucketConfig` | `main_for_bucket`, `build_argument_parser`, `resolve_active_tickers`, `configure_logging`, `ensure_runtime_directories`, `migrate_seed_data`, `copy_seed_tree`, `ensure_current_year_aliases`, `load_api_key`, `build_year_windows`, `raw_news_path`, `build_pending_requests`, `build_progress_summary`, `load_recent_request_times`, `load_recent_success_times`, `seconds_until_budget_refresh`, `fetch_news_sentiment`, `build_error_record`, `append_jsonl`, `write_json_atomic`, `summary_path_for`, `log_path_for`, `classify_rate_limit_message`, `is_rate_limit_message`, `normalize_ticker_for_alphavantage` |
-| `scripts/run_alphavantage_news_top50_only_standalone.py` | `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow` | `build_argument_parser`, `main`, `build_error_record`, `ensure_runtime_directories`, `configure_logging`, `summary_path_for`, `log_path_for`, `migrate_seed_data`, `copy_seed_tree`, `ensure_current_year_aliases`, `load_api_key`, `load_tickers`, `build_year_windows`, `raw_news_path`, `build_pending_requests`, `build_progress_summary`, `load_recent_request_times`, `load_recent_success_times`, `seconds_until_budget_refresh`, `fetch_news_sentiment`, `append_jsonl`, `write_json_atomic`, `classify_rate_limit_message`, `is_rate_limit_message`, `normalize_ticker_for_alphavantage` |
-| `scripts/run_alphavantage_news_top51_100_only_standalone.py` | `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow` | Same top50-style helper set with bucket-specific constants and output paths. |
-| `scripts/run_alphavantage_news_top51_75_only_standalone.py` | `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow` | Same top50-style helper set with bucket-specific constants and output paths. |
-| `scripts/run_alphavantage_news_top76_100_only_standalone.py` | `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow` | Same top50-style helper set with bucket-specific constants and output paths. |
-| `scripts/run_alphavantage_news_top101_200_only_standalone.py` | none | none locally; delegates to imported `main_for_bucket`. |
-| `scripts/run_alphavantage_news_top201_300_only_standalone.py` | none | none locally; delegates to imported `main_for_bucket`. |
-| `scripts/run_alphavantage_news_top301_400_only_standalone.py` | none | none locally; delegates to imported `main_for_bucket`. |
-| `scripts/run_alphavantage_news_top401_500_only_standalone.py` | none | none locally; delegates to imported `main_for_bucket`. |
-| `scripts/run_alphavantage_news_multi_bucket_portable_standalone.py` | `AlphaVantageClientError`, `AlphaVantageRateLimitError`, `YearWindow` | `build_argument_parser`, `main`, `resolve_active_tickers`, `configure_logging`, `ensure_runtime_directories`, `migrate_seed_data`, `ensure_current_year_aliases`, `load_api_key`, `build_year_windows`, `raw_news_path`, `build_pending_requests`, `build_progress_summary`, `load_recent_request_times`, `load_recent_success_times`, `seconds_until_budget_refresh`, `fetch_news_sentiment`, `build_error_record`, `append_jsonl`, `write_json_atomic`, `summary_path_for`, `log_path_for`, `classify_rate_limit_message`, `is_rate_limit_message`, `normalize_ticker_for_alphavantage` |
-| `scripts/validate_comment_only_scaffold.py` | `Violation` | `build_argument_parser`, `main`, `resolve_root`, `iter_scaffold_files`, `find_violations` |
-| `scripts/validate_stage2_inputs.py` | `InputCheck` | `build_argument_parser`, `main`, `build_summary`, Stage 2 input check functions, `find_twelve_data_paths`, `has_executable_python`, `nested_get`, `print_summary` |
-| `scripts/validate_stage0_stage1_completion.py` | `CheckResult` | `build_argument_parser`, `main`, `build_summary`, Stage 0-1 completion check functions, `read_json_if_exists`, `resolve_project_path`, `print_summary` |
-| `scripts/validate_stage5_completion.py` | none | `build_parser`, `main`, `validate_stage5`, `load_yaml_or_json`, `load_json` |
-| `scripts/validate_stage6_completion.py` | none | `build_parser`, `main`, `validate_stage6`, `load_json` |
-| `scripts/audit_deprecated_ohlcv_salvage.py` | `BranchFrame` | `build_argument_parser`, `main`, `build_summary`, `audit_branch`, `build_clean_window_candidate`, `audit_quality`, `audit_split_events`, `audit_final_artifacts`, `print_summary` |
-
-### 14.2 Named Source Function Index
-
-This table began as a planned-function index. Rows marked as implemented are now executable under approved Stage 2, Stage 3, Stage 4, Stage 5, or Stage 6 scope; rows marked future or planned remain non-executable scaffolding. The source-layer tables above are the more specific authority for current implementation status.
-
-| Planned function | Path | Planned benchmark or validation implication |
-| --- | --- | --- |
-| `validate_artifact_packet` | `src/event_state_forecasting/benchmark/artifact_packet.py` | Implemented Stage 4 packet validation; pre-model packet passes and serious-run packet blocks without preprocessing, predictions, metrics, diagnostics, and comparison summary. |
-| `validate_benchmark_family_identity` | `src/event_state_forecasting/benchmark/registry.py` | Future benchmark-family comparability protection. |
-| `run_approved_benchmark` | `src/event_state_forecasting/benchmark/runner.py` | Future approved benchmark orchestration. |
-| `run_raw_data_audit` | `src/event_state_forecasting/cli/audit_raw_data.py` | Future raw coverage, truncation, and credential-risk audit. |
-| `run_benchmark_dataset_build` | `src/event_state_forecasting/cli/build_benchmark_dataset.py` | Future dataset construction gate. |
-| `run_feature_label_build` | `src/event_state_forecasting/cli/build_features_and_labels.py` | Future feature and label build gate. |
-| `run_market_data_build` | `src/event_state_forecasting/cli/build_market_data.py` | Future OHLCV data build gate. |
-| `run_news_data_build` | `src/event_state_forecasting/cli/build_news_data.py` | Future Alpha Vantage news normalization gate. |
-| `run_split_build` | `src/event_state_forecasting/cli/build_splits.py` | Future fold and lockbox build gate. |
-| `run_stage4_build` | `src/event_state_forecasting/cli/build_splits_and_packet.py` | Implemented Stage 4 split, lockbox, leakage, artifact-packet, and runner-gate build orchestration. |
-| `main` | `src/event_state_forecasting/cli/train_models_and_predict.py` | Implemented Stage 5 model, preprocessing-fit, saved-prediction, search-space, and packet-blocker artifact build orchestration. |
-| `main` | `src/event_state_forecasting/cli/run_benchmark.py` | Implemented Stage 6 serious benchmark reporting from saved predictions. |
-| `run_ledger_sanitization` | `src/event_state_forecasting/cli/sanitize_provider_ledgers.py` | Future API-key-bearing ledger mitigation. |
-| `run_summary_report` | `src/event_state_forecasting/cli/summarize_run.py` | Future run summary generation. |
-| `run_universe_validation` | `src/event_state_forecasting/cli/validate_universe.py` | Future frozen-universe validation. |
-| `describe_contract_family` | `src/event_state_forecasting/data/contracts.py` | Future schema and contract definition. |
-| `validate_corporate_action_adjustments` | `src/event_state_forecasting/data/corporate_actions.py` | Future split/adjustment validation. |
-| `validate_manifest_record` | `src/event_state_forecasting/data/manifests.py` | Future manifest validation. |
-| `fetch_or_describe_news_window` | `src/event_state_forecasting/data/providers/alphavantage_news.py` | Future Alpha Vantage provider boundary. |
-| `validate_sec_support_artifact` | `src/event_state_forecasting/data/providers/sec_support.py` | Future SEC support artifact validation. |
-| `fetch_or_describe_ohlcv_window` | `src/event_state_forecasting/data/providers/twelvedata_ohlcv.py` | Future Twelve Data OHLCV provider boundary. |
-| `run_quality_checks` | `src/event_state_forecasting/data/quality_checks.py` | Future generic data-quality gate. |
-| `validate_raw_provider_payloads` | `src/event_state_forecasting/data/raw_validation.py` | Future raw provider validation. |
-| `normalize_split_events` | `src/event_state_forecasting/data/split_events.py` | Future split-event evidence normalization. |
-| `describe_storage_layout` | `src/event_state_forecasting/data/storage_layout.py` | Future storage convention definition. |
-| `validate_frozen_universe` | `src/event_state_forecasting/data/universe.py` | Future universe validation. |
-| `describe_dataset_version` | `src/event_state_forecasting/dataset/dataset_versioning.py` | Future dataset version identity and invalidation. |
-| `build_benchmark_panel` | `src/event_state_forecasting/dataset/panel_builder.py` | Future benchmark panel construction. |
-| `validate_row_universe_equality` | `src/event_state_forecasting/dataset/row_universe.py` | Future row equality gate. |
-| `build_article_embeddings` | `src/event_state_forecasting/features/embeddings.py` | Future dense text embedding construction. |
-| `build_event_state_features` | `src/event_state_forecasting/features/event_state.py` | Future event-state feature construction. |
-| `build_forward_excess_return_labels` | `src/event_state_forecasting/features/labels.py` | Future approved-horizon label construction. |
-| `build_market_features` | `src/event_state_forecasting/features/market.py` | Future as-of-safe market features. |
-| `align_news_as_of_close` | `src/event_state_forecasting/features/news_alignment.py` | Future same-day as-of-close alignment and roll-forward. |
-| `build_no_news_states` | `src/event_state_forecasting/features/no_news_state.py` | Future explicit no-news row/state handling. |
-| `normalize_article_text` | `src/event_state_forecasting/features/text_normalization.py` | Future article text normalization. |
-| `define_lockbox_boundary` | `src/event_state_forecasting/split/lockbox.py` | Implemented Stage 4 final untouched lockbox boundary helper. |
-| `build_purged_embargoed_folds` | `src/event_state_forecasting/split/purged_embargo.py` | Implemented Stage 4 leakage-controlled monthly walk-forward folds, role assignments, and split manifest. |
-| `validate_no_leakage` | `src/event_state_forecasting/split/leakage_checks.py` | Implemented Stage 4 leakage, preprocessing-fit, embargo, and lockbox contamination blocker. |
-| `validate_model_config` | `src/event_state_forecasting/models/comparator_ladder.py` | Implemented Stage 5 roster and allowed-input validation. |
-| `freeze_comparator_ladder` | `src/event_state_forecasting/models/comparator_ladder.py` | Implemented Stage 5 comparator roster record generation. |
-| `make_gated_fusion_estimator` | `src/event_state_forecasting/models/gated_fusion.py` | Implemented Stage 5 simple gated-fusion estimator factory. |
-| `build_prediction_frame` | `src/event_state_forecasting/models/inference.py` | Implemented Stage 5 saved-prediction table builder. |
-| `validate_saved_predictions` | `src/event_state_forecasting/models/inference.py` | Implemented Stage 5 saved-prediction schema and split-role validation. |
-| `make_market_estimator` | `src/event_state_forecasting/models/market_baselines.py` | Implemented Stage 5 market-only estimator factory. |
-| `fit_fold_preprocessor` | `src/event_state_forecasting/models/training.py` | Implemented Stage 5 train-only preprocessing fit helper. |
-| `build_overfitting_diagnostic_report` | `src/event_state_forecasting/evaluation/comparison_summary.py` | Implemented Stage 6 Option B overfitting diagnostic report builder. |
-| `build_comparison_summary` | `src/event_state_forecasting/evaluation/comparison_summary.py` | Implemented Stage 6 comparison summary and result classifier. |
-| `build_benchmark_comparability_record` | `src/event_state_forecasting/evaluation/comparison_summary.py` | Implemented Stage 6 comparability classifier. |
-| `compute_ranking_diagnostics` | `src/event_state_forecasting/evaluation/ranking.py` | Implemented Stage 6 secondary ranking diagnostics. |
-| `compute_regression_metrics` | `src/event_state_forecasting/evaluation/regression.py` | Implemented Stage 6 primary regression metrics. |
-| `select_market_hurdles` | `src/event_state_forecasting/evaluation/regression.py` | Implemented Stage 6 strict market-hurdle selection. |
-| `compute_paired_loss_deltas` | `src/event_state_forecasting/evaluation/statistical_tests.py` | Implemented Stage 6 paired loss-delta summaries without p-values. |
-| `assess_data_refresh_impact` | `src/event_state_forecasting/ops/data_refresh.py` | Future refresh/invalidation assessment. |
-| `sanitize_provider_ledger` | `src/event_state_forecasting/ops/ledger_sanitization.py` | Future provider ledger sanitization. |
-| `plan_manifest_backed_rollback` | `src/event_state_forecasting/ops/rollback.py` | Future manifest-backed rollback planning. |
-| `plan_truncation_refinement` | `src/event_state_forecasting/ops/truncation_refinement.py` | Future Alpha Vantage truncation refinement. |
-| `compute_stable_digest` | `src/event_state_forecasting/utils/hashing.py` | Future stable artifact hashing. |
-| `describe_logging_context` | `src/event_state_forecasting/utils/logging.py` | Future logging/redaction context. |
-| `resolve_project_path` | `src/event_state_forecasting/utils/paths.py` | Future canonical path resolution. |
-| `describe_reproducibility_context` | `src/event_state_forecasting/utils/reproducibility.py` | Future reproducibility metadata. |
-| `describe_trading_calendar_behavior` | `src/event_state_forecasting/utils/time.py` | Future market-calendar and timestamp behavior. |
-| `describe_validation_result` | `src/event_state_forecasting/utils/validation.py` | Future validation result shape. |
-
-### 14.3 Package-Marker Files With No Planned Functions
-
-`src/event_state_forecasting/__init__.py`, `src/event_state_forecasting/benchmark/__init__.py`, `src/event_state_forecasting/cli/__init__.py`, `src/event_state_forecasting/data/__init__.py`, `src/event_state_forecasting/data/providers/__init__.py`, `src/event_state_forecasting/dataset/__init__.py`, `src/event_state_forecasting/evaluation/__init__.py`, `src/event_state_forecasting/features/__init__.py`, `src/event_state_forecasting/models/__init__.py`, `src/event_state_forecasting/ops/__init__.py`, `src/event_state_forecasting/split/__init__.py`, and `src/event_state_forecasting/utils/__init__.py` are package markers. Their comments explicitly state no package-level functions are planned.
-
-## 15. Config Section Index
-
-Some config sections are now active for approved Stage 3, Stage 4, Stage 5, and Stage 6 paths. Example files remain comment-only planned sections.
-
-| Planned section | Config file | Planned keys or responsibilities |
-| --- | --- | --- |
-| `packet_identity` | `configs/artifact_packet.example.yaml` | `schema_version`, `benchmark_family_id`, `run_id_policy`, `dataset_version_required`. |
-| `required_members` | `configs/artifact_packet.example.yaml` | `dataset_manifest`, `resolved_config`, `folds`, `split_manifest`, `preprocessing_fit_manifest`, `saved_predictions`, `metrics`, `overfitting_diagnostic_report`, `comparison_summary`. |
-| `stage4_pre_model_required_members` | `configs/artifact_packet.yaml` | Active Stage 4 packet members required before Stage 5 model work. |
-| `serious_run_required_members` | `configs/artifact_packet.yaml` | Active full serious-run packet members required before benchmark claims. |
-| `row_contracts` | `configs/data_contracts.example.yaml` | Row-key policy and row equality validation. |
-| `artifact_schemas` | `configs/data_contracts.example.yaml` | Schema versions and required fields. |
-| `regression_metrics` | `configs/evaluation.example.yaml` | Primary metric set and saved-prediction inputs. |
-| `ranking_diagnostics` | `configs/evaluation.example.yaml` | Secondary diagnostics under identical rows/horizons. |
-| `overfitting_diagnostics` | `configs/evaluation.example.yaml` | Train-validation gaps, fold dispersion, lockbox degradation, paired-comparison note, multiple-comparison note, and search-space summary. |
-| `metric_policy` | `configs/evaluation.yaml` | Active Stage 6 primary regression metrics, zero-return `R2` baseline, strict market-hurdle candidates, and event-state model ID. |
-| `ranking_diagnostics` | `configs/evaluation.yaml` | Active Stage 6 secondary ranking diagnostic list, cross-section minimum, top/bottom fraction, and non-primary flag. |
-| `paired_comparison_policy` | `configs/evaluation.yaml` | Active Stage 6 loss-delta summary policy with no p-values. |
-| `result_classification` | `configs/evaluation.yaml` | Active Stage 6 `short_horizon_primary_3_v1` rule and all-horizon reporting policy. |
-| `lockbox_policy` | `configs/evaluation.yaml` | Active Stage 6 final reporting read policy and no-lockbox-tuning flag. |
-| `diagnostic_policy` | `configs/evaluation.yaml` | Active Stage 6 train-gap blocking, fold-dispersion metrics, multiple-comparison note, and search-space summary requirements. |
-| `claim_policy` | `configs/evaluation.yaml` | Active Stage 6 serious-packet requirement and out-of-scope sentiment-string analysis flags. |
-| `news_alignment` | `configs/features.example.yaml` | Same-day as-of-close cutoff and calendar behavior. |
-| `event_state` | `configs/features.example.yaml` | Embedding, scalar enrichment, and no-news feature settings. |
-| `news_alignment` | `configs/features.yaml` | Active Stage 3 as-of-close and roll-forward policy. |
-| `embeddings` | `configs/features.yaml` | Active Stage 3 deterministic hash embedding policy. |
-| `event_state` | `configs/features.yaml` | Active Stage 3 deterministic hash embedding and scalar enrichment policy. |
-| `target_family` | `configs/labels.example.yaml` | Forward excess-return target family. |
-| `horizons` | `configs/labels.example.yaml` | Approved `1d`, `5d`, `10d`, `20d`, `60d` horizon set. |
-| `reference_policy` | `configs/labels.yaml` | Active Stage 3 leave-one-out approved-universe reference policy. |
-| `comparator_ladder` | `configs/models.example.yaml` | Future exact comparator roster. |
-| `gated_fusion` | `configs/models.example.yaml` | Future simple gated fusion settings. |
-| `comparator_ladder` | `configs/models.yaml` | Active Stage 5 roster ID, seed, search policy, preprocessing policy, prediction scope, model IDs, allowed inputs, and fixed model parameters. |
-| `feature_sets` | `configs/models.yaml` | Active Stage 5 market features, event-state features, and gated-fusion gate features. |
-| `saved_prediction_schema` | `configs/models.yaml` | Active Stage 5 required prediction columns and allowed/forbidden split roles. |
-| `claim_policy` | `configs/models.yaml` | Active Stage 5 no-metrics, no-comparison, no-claim policy. |
-| `benchmark_family` | `configs/phase1_top50_benchmark.yaml` | Protected benchmark family identity. |
-| `artifacts` | `configs/phase1_top50_benchmark.yaml` | Required serious-run artifact references. |
-| `twelvedata_ohlcv` | `configs/providers.example.yaml` | Future OHLCV provider boundary and validation. |
-| `alphavantage_news` | `configs/providers.example.yaml` | Future news provider boundary, truncation policy, and secret safety. |
-| `development_folds` | `configs/splits.example.yaml` | Future purged/embargoed walk-forward folds. |
-| `lockbox` | `configs/splits.example.yaml` | Future final untouched lockbox boundary. |
-| `fold_schedule` | `configs/splits.yaml` | Active Stage 4 monthly expanding fold schedule. |
-| `purge_embargo` | `configs/splits.yaml` | Active Stage 4 60-trading-date purge/embargo policy. |
-| `lockbox` | `configs/splits.yaml` | Active Stage 4 final 20% lockbox policy. |
-
-## 16. Reference-Only And Generated Areas
-
-| Path | State | Current role | Caution |
-| --- | --- | --- | --- |
-| `deprecated_version/legacy_snapshot_20260402T115014Z/` | `reference-only` | Archived historical implementation and docs. | Do not copy active-status claims, Finnhub provider assumptions, static KB defaults, uncertainty defaults, or executable pipeline claims into active truth. |
-| `deprecated_version/legacy_snapshot_20260402T115014Z/Complete_guidebook.txt` | `reference-only` | Detailed legacy guidebook format reference. | Useful format discipline only. |
-| `deprecated_version/legacy_snapshot_20260402T115014Z/docs/Complete_guidebook.txt` | `reference-only` | Detailed legacy docs guidebook reference. | Historical-only. |
-| `deprecated_version/legacy_snapshot_20260402T115014Z/Theoretical_Background/Complete_guidebook.txt` | `reference-only` | Theoretical-background legacy guidebook reference. | Historical-only. |
-| `reset/` | `reference-only` | Reusable scaffold and governance reset material. | Not current project truth. |
-| `.git/` | `generated-or-local` | Git internals. | Excluded from guidebook file map except as VCS infrastructure. |
-| `.env` | `generated-or-local` | Local secret file. | Do not read or quote contents. |
-| `.env*Zone.Identifier*`, `*Zone.Identifier*` | `generated-or-local` | Local Windows metadata. | Summarize only. |
-| `scripts/__pycache__/` | `generated-or-local` | Python bytecode cache. | Generated; not implementation source. |
-| `data/raw/alphavantage/news_request_ledger.parquet` if present | `generated-or-local` | Raw/generated ledger artifact. | Treat as sensitive until sanitized. |
-
-## 17. Active vs Deprecated Guidebook Comparison
-
-What the active guidebook does better:
-
-- Preserves the active AgentRules ownership hierarchy and no-override rule.
-- Uses current owner-approved phase-1 scope from `ScopeDecisionLog.md`.
-- Uses current provider stack: Twelve Data for OHLCV, Alpha Vantage for news, and SEC support only.
-- Distinguishes approved executable Stage 2 through Stage 8 plus Stage 10C paths/tests from remaining comment-only scaffolds.
-- Records current Alpha Vantage raw file coverage and truncation blockers without claiming benchmark readiness.
-
-What the deprecated guidebook does better:
-
-- Provides a detailed file-by-file format.
-- Includes clear per-file roles, implementation notes, and test notes.
-- Includes implementation-level function and module coverage for the historical snapshot.
-- Offers a practical example of a guidebook as a working repository map.
-
-What the old active skeleton guidebook did worse before this upgrade:
-
-- It grouped most scaffold files by directory rather than listing every active file.
-- It did not list planned functions, planned config sections, or planned test targets.
-- It did not include coverage counts or guidebook audit checks.
-- It did not include an explicit active-vs-deprecated comparison.
-
-What the deprecated guidebook does worse or dangerously:
-
-- It reflects a historical snapshot, not the active root.
-- It treats Finnhub-era assumptions and legacy code paths as historical implementation reality.
-- It includes paths and executable modules that do not exist as active implementation in this root.
-- It can tempt accidental reactivation of archive claims, static company KB behavior, uncertainty-aware defaults, and richer model branches outside phase 1.
-- It lacks the current AgentRules interaction-log and approval-gate discipline.
-
-Mixed approach adopted here:
-
-- Borrow the deprecated guidebook's detailed per-file style, status legend discipline, implementation-note discipline, test-note discipline, and practical inventory approach.
-- Use only active-root truth from `AgentRules.md`, `ProjectDefinition.md`, `ScopeDecisionLog.md`, `ResearchTruth.md`, active docs, active scripts, active data evidence, and generated scaffold comments.
-- Reject deprecated implementation status claims, provider assumptions, active path claims, static-KB phase-1 claims, uncertainty defaults, and archive-as-active behavior.
-- Preserve guidebook role as a map, not an authority source.
-
-## 18. Guidebook Coverage Audit
-
-| Coverage item | Result |
-| --- | --- |
-| Root files covered | `AgentRules.md`, `ProjectDefinition.md`, `ExecutionPipeline.md`, `UsageManual.md`, `ScopeDefinition.md`, `ScopeDecisionLog.md`, `ResearchTruth.md`, `LEGACY_DEPRECATION_SUMMARY.md`, `README.md`, `ExecutionFlow.md`, `Complete_guidebook.txt`, `project_one_page.tex`, `.gitignore`; root prompt files are now covered under `docs/Prompts/`. |
-| Stage prompt files covered | 19 of 19 `docs/Prompts/Stage*Prompt.md` files. |
-| DeepResearch topic prompt files covered | 5 of 5 `docs/Prompts/DeepResearch_Chat_Topic_*.md` files. |
-| Active top-level docs covered | 13 active docs under `docs/` plus grouped research/reference areas. |
-| Agent governance docs covered | 6 `docs/agent/Agent*.md` files plus `Current_State.md`, `Event_Ledger.ndjson`, and audit/merge reports. |
-| Active scripts covered | 26 `scripts/*.py` files. |
-| Source scaffold files covered | 70 of 70 `src/event_state_forecasting/**/*.py` files. |
-| Named planned and implemented source functions covered | Covered in source-layer tables; package-marker files still have no package-level functions planned. |
-| Config files covered | 15 of 15 `configs/*.yaml` files. |
-| Planned and active config sections covered | 39 of 39 planned/active sections. |
-| Test files covered | 25 of 25 `tests/**/*.py` files. |
-| Stage 4 final artifact detail covered | Yes; see Section 10A for identity, policy, row accounting, artifact files, code/tests, packet gate meaning, and Stage 5 handoff requirements. |
-| Stage 5 model/prediction artifact detail covered | Yes; see Section 10B for identity, approved decisions, model roster, row accounting, artifact files, code/tests, packet gate meaning, and Stage 6 handoff requirements. |
-| Stage 6 serious benchmark reporting detail covered | Yes; see Section 10C for identity, decisions, row/artifact counts, artifact files, code/tests, result meaning, and limitations. |
-| Deprecated guidebook comparison covered | Yes. |
-| Comment-only status preserved | Yes. |
-| Active provider stack preserved | Twelve Data + Alpha Vantage + SEC support only. |
-| No-go scope protected | Static KB, uncertainty-aware outputs, graph-heavy cores, MoE, dynamic profiles, end-to-end fine-tuning, broad derivative grids, dashboards, APIs, auth, and full live-universe first-pass benchmarking are not promoted into phase 1. |
-
-Known guidebook limitations:
-
-- This guidebook condenses scaffold comment blocks into map tables and indexes rather than duplicating every comment line verbatim.
-- Exact creation dates are recorded only where evidenced by file headers or ledger events; otherwise dates remain `Not evidenced in repository materials.`
-- Generated/raw data files under `data/raw/alphavantage/` are summarized because listing every payload would turn the guidebook into a raw-data dump.
-- Deprecated archive internals are summarized and referenced only; per-file archive mapping remains out of active scope unless explicitly requested.
-
-## 19. Practical Next Implementation Order
-
-1. Treat the current Stage 6 artifact root as the fixed clean-null reporting packet for the approved top-50 benchmark family.
-2. Preserve Alpha Vantage truncation and empty-feed limitation flags in any follow-up report; provider-level article completeness is not claimed.
-3. Keep the Stage 5 comparator roster and Stage 6 metric/result policy frozen unless an explicit approval and comparability review changes them.
-4. Sanitize or isolate API-key-bearing provider ledgers and rotate exposed provider keys before sharing or publication.
-5. Decide whether to pursue Alpha Vantage truncation refinement, active split-adjustment method selection, or a new feature/model branch only through explicit approval because each can affect comparability.
-6. Implement future active pipeline stages only after contracts and tests are specific enough to satisfy AgentRules documentation-first discipline.
-
-## 20. Completion Statement For This Guidebook Upgrade
-
-This guidebook records the comprehensive active-root file/function/config/test map, Option B documentation contract, detailed stage prompt files through proposed Stage 12, Stage 10 DeepResearch topic prompt files, Stage 1 raw audit artifacts, Stage 2 materialized dataset artifacts, Stage 3 feature/label artifacts, Stage 4 split/packet artifacts, Stage 5 model/prediction artifacts, and Stage 6 metric/diagnostic/comparison artifacts. The current benchmark result is `clean_null` with `limitation_bearing` comparability as evidenced by the Stage 6 artifacts; this guidebook itself creates no additional result claim.
+| Governance validator | Confirms governance/memory structure. |
+| Ledger JSONL parse | Confirms event ledger remains parseable. |
+| Path-reference grep | Confirms moved docs are not referenced by stale active paths. |
+| Config schema test | Confirms v1p0 configs are loadable and versioned. |
+| Unit/contract tests | Confirms code behavior for the slice. |
+| Artifact validator | Confirms outputs have manifests, provenance, and schema. |
+| Non-claim review | Confirms reports do not imply live forecasts, trading advice, Stage 6 reinterpretation, or comparability promotion. |

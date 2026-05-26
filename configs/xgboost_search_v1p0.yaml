@@ -1,0 +1,92 @@
+{
+  "schema_version": "xgboost_search_v1p0_v1",
+  "implementation_version": "v1p0",
+  "freeze_id": "xgboost_search_space_v1p0_stage21_freeze_v1",
+  "generated_at_utc": "2026-05-24T07:15:00Z",
+  "candidate_model_id": "market_xgboost_v2_nested_optuna_candidate",
+  "frozen_final_model_id": "market_xgboost_v2_frozen_final",
+  "hurdle_model_id": "market_xgboost_v1_fixed",
+  "source_diagnostic_artifact_id": "stage20_baseline_diagnostics__stage19_f5bfd7fa__20260524T070000Z",
+  "allowed_tuning_split_roles": ["train", "validation"],
+  "forbidden_tuning_split_roles": ["lockbox"],
+  "nested_split_policy": {
+    "outer_source": "existing_stage4_development_folds",
+    "fit_role": "train",
+    "selection_role": "validation",
+    "lockbox_role": "lockbox",
+    "lockbox_use": "forbidden_until_frozen_final_reporting"
+  },
+  "search_phases": [
+    {"phase_id": "phase0_fixed_baseline_reference", "status": "completed_stage19_reference", "trial_count": 0, "model_id": "market_xgboost_v1_fixed"},
+    {"phase_id": "phase1_random", "status": "frozen_for_stage22", "trial_count": 100, "sampler": "random", "seed": 1729},
+    {"phase_id": "phase2_optuna_tpe", "status": "frozen_for_stage22", "trial_count": 250, "sampler": "optuna_tpe", "seed": 1730, "n_startup_trials": 25, "multivariate": true},
+    {"phase_id": "phase3_local_refinement", "status": "frozen_for_stage22", "trial_count": 50, "sampler": "bounded_local_refinement", "seed": 1731},
+    {"phase_id": "phase4_freeze", "status": "future_after_search", "trial_count": 0, "requires_complete_trial_ledger": true},
+    {"phase_id": "phase5_final_evaluation", "status": "future_after_freeze", "trial_count": 0, "lockbox_allowed_after_freeze": true}
+  ],
+  "budgets": {
+    "random_trials": 100,
+    "optuna_tpe_trials": 250,
+    "local_refinement_trials": 50,
+    "max_total_trials": 400,
+    "max_parallel_jobs": 1,
+    "per_trial_timeout_seconds": 900
+  },
+  "fixed_xgboost_params": {
+    "objective": "reg:squarederror",
+    "eval_metric": "rmse",
+    "tree_method": "hist",
+    "n_jobs": 1,
+    "random_state_policy": "derive_from_trial_seed"
+  },
+  "search_space": {
+    "n_estimators": {"type": "int", "low": 100, "high": 900, "step": 50},
+    "max_depth": {"type": "int", "low": 2, "high": 6, "step": 1},
+    "learning_rate": {"type": "float", "low": 0.005, "high": 0.2, "log": true},
+    "subsample": {"type": "float", "low": 0.55, "high": 1.0, "log": false},
+    "colsample_bytree": {"type": "float", "low": 0.55, "high": 1.0, "log": false},
+    "min_child_weight": {"type": "float", "low": 1.0, "high": 50.0, "log": true},
+    "gamma": {"type": "float", "low": 0.0, "high": 10.0, "log": false},
+    "reg_alpha": {"type": "float", "low": 0.0, "high": 5.0, "log": false},
+    "reg_lambda": {"type": "float", "low": 0.1, "high": 50.0, "log": true}
+  },
+  "objective": {
+    "objective_id": "guarded_hurdle_delta_v1",
+    "direction": "minimize",
+    "hurdle_delta_definition": "candidate_metric_minus_hurdle_metric; lower is better; negative means candidate improves over hurdle",
+    "selection_split_role": "validation",
+    "train_gap_split_role": "train",
+    "forbidden_split_roles": ["lockbox"],
+    "horizon_weights": {"1d": 0.30, "5d": 0.25, "10d": 0.20, "20d": 0.15, "60d": 0.10},
+    "metric_weights": {"rmse": 0.50, "mae": 0.50},
+    "penalties": {
+      "one_sided_improvement": {"weight": 0.0005, "description": "penalize folds where exactly one of RMSE or MAE improves"},
+      "train_validation_gap": {"weight": 0.001, "validation_to_train_ratio_threshold": 1.25},
+      "horizon_instability": {"weight": 0.5, "statistic": "stddev_of_horizon_composite_deltas"},
+      "fold_instability": {"weight": 0.25, "statistic": "stddev_of_fold_composite_deltas"},
+      "complexity": {"weight": 0.0005, "n_estimators_reference": 900, "max_depth_reference": 6}
+    }
+  },
+  "early_stop_rules": {
+    "minimum_trials_before_stop": 150,
+    "patience_trials": 75,
+    "minimum_objective_improvement": 0.00005,
+    "stop_if_nonfinite_objective": true,
+    "stop_if_lockbox_access_detected": true
+  },
+  "overfit_frontier_criteria": {
+    "train_validation_gap_warning_ratio": 1.25,
+    "candidate_demote_if_validation_worse_than_hurdle_on_primary_horizons": ["1d", "5d", "10d"],
+    "candidate_demote_if_one_sided_gain_rate_exceeds": 0.50,
+    "candidate_demote_if_horizon_instability_penalty_exceeds": 0.002,
+    "candidate_demote_if_fold_instability_penalty_exceeds": 0.002
+  },
+  "non_claims": [
+    "not_hyperparameter_search",
+    "not_model_fit",
+    "not_benchmark_result",
+    "not_promotion_claim",
+    "not_stage6_reinterpretation",
+    "not_lockbox_tuning"
+  ]
+}

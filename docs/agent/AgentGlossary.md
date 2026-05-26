@@ -45,16 +45,16 @@ Only terms that materially reduce ambiguity belong here.
 
 ### 2.1 Meaningful change
 
-**Strict definition**  
+**Strict definition**
 A change is meaningful if it alters scope, task state, approval state, execution status, evidence status, benchmark comparability, stale-risk, or the alignment of the next action with the approved contract.
 
-**Why it matters operationally**  
+**Why it matters operationally**
 Meaningful changes trigger mandatory updates to `Current_State.md` and `Event_Ledger.ndjson`, and often require downstream document review.
 
-**What it is not**  
+**What it is not**
 A typo fix, formatting cleanup, cosmetic wording tweak, or trial command with no state consequence is not meaningful by itself.
 
-**Typical consequences**  
+**Typical consequences**
 - append ledger event
 - update `Current_State.md`
 - review dependent tasks or files if the change propagates
@@ -685,6 +685,24 @@ It is not simple duplication of the same metadata mirror three times.
 - record three source links
 - record discrepancies explicitly
 - preserve `Uncertain, verify manually.` when full agreement is not reached
+
+---
+
+### 2.31 Preserved deprecated source
+
+**Strict definition**
+A preserved deprecated source is a file or artifact moved out of active truth into an approved deprecated/archive location while remaining available as historical evidence or reference material.
+
+**Why it matters operationally**
+Preserved deprecated sources can support reconciliation and provenance, but they do not override active truth files.
+
+**What it is not**
+It is not deletion, active truth, or approval to relabel old artifacts as a new version.
+
+**Typical consequences**
+- active references should prefer the current source
+- historical references may point to the preserved deprecated path
+- memory should record the preservation and any remaining stale-risk
 
 ---
 

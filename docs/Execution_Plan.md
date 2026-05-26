@@ -30,7 +30,7 @@ Status: active-root execution plan. Stages below describe approved order and gat
 
 - Objective: restore AgentRules-required active-root theory, design, validation, and operations docs.
 - Dependencies: `AgentRules.md`, `ScopeDecisionLog.md`, `ResearchTruth.md`.
-- Files involved: `docs/Complete_Theoretical_Background.md`, `docs/References.md`, `docs/Implementation_Decisions.md`, `docs/Architecture_Map.md`, `Complete_guidebook.txt`, validation docs, operations docs, `README.md`.
+- Files involved: `docs/Complete_Theoretical_Background.md`, `docs/References.md`, `docs/Implementation_Decisions.md`, `Architecture_Map.md`, `Complete_guidebook.txt`, validation docs, operations docs, `README.md`.
 - Required tests: governance validator.
 - Completion criteria: required skeleton docs exist, stale daemon/universe references repaired, operational memory updated.
 - Status: completed as active documentation repair; later approved Stage 2 through Stage 8 plus Stage 10C scoped work now provides separate implementation, diagnostic, update-tooling, or output-packet evidence for approved claims.

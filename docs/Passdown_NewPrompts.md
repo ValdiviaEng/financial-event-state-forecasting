@@ -31,11 +31,11 @@ Read these first:
 - `docs/agent/AgentTemplates.md`
 - `ProjectDefinition.md`
 - `ResearchTruth.md`
-- `ScopeDefinition.md`
-- `ScopeDecisionLog.md`
+- `deprecated/v0p9/docs/ScopeDefinition.md`
+- `deprecated/v0p9/docs/ScopeDecisionLog.md`
 - `docs/NextSteps_Brainstorming.md`
 - `UsageManual.md`
-- `docs/Architecture_Map.md`
+- `Architecture_Map.md`
 - `Complete_guidebook.txt`
 - `ExecutionFlow.md`
 - `ExecutionPipeline.md`
@@ -55,14 +55,14 @@ Create `ArchitecturalDesignDecisions.md` as the final active decision file for v
 Consolidate the contents of:
 
 - `docs/NextSteps_Brainstorming.md`
-- `ScopeDecisionLog.md`
-- `ScopeDefinition.md`
+- `deprecated/v0p9/docs/ScopeDecisionLog.md`
+- `deprecated/v0p9/docs/ScopeDefinition.md`
 
 Priority for contradictions:
 
 1. `docs/NextSteps_Brainstorming.md`
-2. `ScopeDecisionLog.md`
-3. `ScopeDefinition.md`
+2. preserved `ScopeDecisionLog.md` content under `deprecated/v0p9/docs/`
+3. preserved `ScopeDefinition.md` content under `deprecated/v0p9/docs/`
 
 Rules:
 
@@ -131,7 +131,7 @@ Goals:
 - Make active context files consistent with v1p0.
 - Convert `UsageManual.md` into a barebones placeholder/manual skeleton until v1p0 outputs exist.
 - Update or remove stale documentation in `docs/` only after preserving deprecated copies.
-- Move `docs/Architecture_Map.md` to root as `Architecture_Map.md` if approved and update references.
+- The architecture map move was approved by the user and executed during initial v1p0 sanitization; future active references should use root `Architecture_Map.md`.
 - Update `Complete_guidebook.txt` to match the v1p0 architecture and file flow.
 
 For every folder/file in the architecture map, include:

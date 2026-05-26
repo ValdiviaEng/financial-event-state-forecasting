@@ -1,0 +1,32 @@
+{
+  "schema_version": "v1p0_version_manifest_v1",
+  "implementation_version": "v1p0",
+  "benchmark_family_id": "phase1_top50_v1p0",
+  "source_family_id": "phase1_top50_v0p9_reference_only",
+  "non_relabeling_policy": "v0p9_artifacts_may_be_referenced_but_not_labeled_as_v1p0_outputs",
+  "components": [
+    {"component_id": "market_lag_features_v1p0", "component_type": "feature_sidecar", "status": "first_slice"},
+    {"component_id": "market_lag_linear_v1", "component_type": "model", "status": "first_slice"},
+    {"component_id": "market_xgboost_v1_fixed", "component_type": "model", "status": "dependency_aware"},
+    {"component_id": "market_xgboost_v2_nested_optuna_candidate", "component_type": "model_search_candidate", "status": "development_search_completed"},
+    {"component_id": "market_xgboost_v2_frozen_final_pending_stage23", "component_type": "model_candidate_config", "status": "evaluated_as_market_xgboost_v2_frozen_final"},
+    {"component_id": "market_xgboost_v2_frozen_final", "component_type": "model", "status": "lockbox_reported_candidate_uncertainty_supportive_pending_stage39_claim_review"},
+    {"component_id": "xgboost_search_space_v1p0_stage21_freeze_v1", "component_type": "search_space", "status": "frozen"},
+    {"component_id": "xgboost_stage24_overfit_review", "component_type": "review", "status": "completed_nonclaim"},
+    {"component_id": "xgboost_stage25_block_bootstrap_uncertainty", "component_type": "uncertainty_review", "status": "completed_nonclaim"},
+    {"component_id": "article_finbert_mean_embedding_logits_v1", "component_type": "article_embedding_cache", "status": "completed_nonclaim"},
+    {"component_id": "event_finbert_mean_v1", "component_type": "event_feature_sidecar", "status": "completed_nonclaim_projected_128d"},
+    {"component_id": "event_finbert_recency_v1", "component_type": "event_feature_sidecar", "status": "completed_nonclaim_projected_128d"},
+    {"component_id": "event_finbert_topk_v1", "component_type": "event_feature_sidecar", "status": "selected_by_stage29_validation_nonclaim_projected_128d"},
+    {"component_id": "event_finbert_count_recency_v1", "component_type": "event_feature_sidecar", "status": "completed_nonclaim_projected_128d"},
+    {"component_id": "event_market_horizon_fusion_v1", "component_type": "model", "status": "exploratory_only_nonclaim"},
+    {"component_id": "market_sequence_window_60d_v1", "component_type": "sequence_feature_tensor", "status": "completed_nonclaim"},
+    {"component_id": "market_tsmixer_v1_smoke", "component_type": "model_smoke", "status": "completed_smoke_only_on_stage18_60d_sequence_tensor"},
+    {"component_id": "market_tsmixer_v1", "component_type": "model", "status": "fixed_multiseed_completed_stage32_override_rejected_tuned_candidate"},
+    {"component_id": "tsmixer_stage32_heavy_optuna", "component_type": "model_search", "status": "completed_nonclaim_tuned_candidate_rejected"},
+    {"component_id": "v1p0_stage35_full_diagnostics", "component_type": "evaluation", "status": "completed_nonclaim"},
+    {"component_id": "v1p0_stage39_claim_review", "component_type": "claim_review", "status": "completed_no_positive_claim"},
+    {"component_id": "v1p0_diagnostics_core", "component_type": "evaluation", "status": "first_slice"},
+    {"component_id": "v1p0_static_report", "component_type": "report", "status": "first_slice"}
+  ]
+}

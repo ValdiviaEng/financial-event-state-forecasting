@@ -1,0 +1,12 @@
+{
+  "schema_version": "diagnostics_v1p0_v1",
+  "metrics": ["rmse", "mae", "r2_oos"],
+  "strata": {
+    "article_count_buckets": [0, 1, 3]
+  },
+  "uncertainty": {
+    "method": "date_clustered_normal_ci",
+    "confidence_level": 0.95,
+    "later_requirement": "block_bootstrap_before_candidate_promotion"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": "reporting_v1p0_v1",
+  "report_id": "v1p0_static_first_slice_report",
+  "required_caveats": [
+    "historical smoke output only",
+    "not trading advice",
+    "not a live forecast",
+    "not a Stage 6 reinterpretation"
+  ],
+  "forbidden_phrases": ["buy", "sell", "price target", "live forecast", "trading signal"]
+}

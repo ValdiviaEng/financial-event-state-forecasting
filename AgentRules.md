@@ -198,6 +198,14 @@ The user-approved task contract is fixed unless explicitly revised with user app
 
 `docs/agent/AgentMemory.md`, `docs/agent/AgentGlossary.md`, `docs/agent/AgentTemplates.md`, `docs/agent/AgentAppendices.md`, and `docs/agent/AgentCompliance.md` do not override this constitution, but where this constitution explicitly invokes them, their referenced procedures, definitions, and templates are binding.
 
+### 2.15 Version and archive non-relabeling
+
+Historical or deprecated artifacts must not be relabeled as a newer implementation version.
+
+A new version name may point only to newly planned, implemented, or validated artifacts created under that version's explicit contracts.
+
+Deprecated or preserved sources may be cited as historical evidence, but they do not become active truth unless explicitly reintroduced through the active truth stack.
+
 ---
 
 ## 3. Interaction-Log and Memory (Governance Procedures)
@@ -297,7 +305,7 @@ In long sessions, it must record a drift checkpoint at least once every 5 meanin
 If theory changes, review and update in order:
 
 1. `docs/Implementation_Decisions.md`
-2. `docs/Architecture_Map.md`
+2. `Architecture_Map.md`
 3. `Complete_guidebook.txt`
 4. `docs/Execution_Plan.md`
 5. benchmark governance if affected
@@ -309,7 +317,7 @@ If theory changes, review and update in order:
 #### Design changed
 If design changes, review and update in order:
 
-1. `docs/Architecture_Map.md`
+1. `Architecture_Map.md`
 2. `Complete_guidebook.txt`
 3. `docs/Execution_Plan.md`
 4. code scaffolds and code
@@ -394,7 +402,8 @@ Read:
 Read:
 
 - `docs/Implementation_Decisions.md`
-- `docs/Architecture_Map.md`
+- `ArchitecturalDesignDecisions.md`
+- `Architecture_Map.md`
 - `Complete_guidebook.txt`
 - `docs/Execution_Plan.md`
 
@@ -458,7 +467,8 @@ These define:
 Primary design truth sources include:
 
 - `docs/Implementation_Decisions.md`
-- `docs/Architecture_Map.md`
+- `ArchitecturalDesignDecisions.md`
+- `Architecture_Map.md`
 - `Complete_guidebook.txt`
 - `docs/Execution_Plan.md`
 
@@ -571,7 +581,17 @@ Curated paper and evidence ledger.
 #### `docs/Implementation_Decisions.md`
 Primary design decision ledger for non-trivial implementation choices.
 
-#### `docs/Architecture_Map.md`
+#### `ArchitecturalDesignDecisions.md`
+Active consolidated architectural decision source.
+
+Must define:
+- current active design decisions
+- active version naming
+- design truth versus implemented truth
+- deprecated or resolved decision-source reconciliation
+- approval gates that constrain implementation
+
+#### `Architecture_Map.md`
 Defines module boundaries, data flow, control flow, folder responsibilities, and dependency graph.
 
 #### `Complete_guidebook.txt`
@@ -626,6 +646,8 @@ Governs refresh cadence, rebuild rules, retraining triggers, benchmark invalidat
 
 #### `ExecutionFlow.md`
 Terminal runbook for using completed or partially completed code.
+
+Runtime environment notes that affect reproducibility, such as a required venv or WSL/PowerShell caveat, must be kept in usage/runbook docs and operational memory.
 
 #### `README.md`
 Current-state onboarding summary only.
@@ -692,8 +714,21 @@ The agent must stop and request explicit user approval before:
 11. revising scientific framing represented in theory or README
 12. changing canonical comparison methodology or scoring definitions used across active research comparison docs
 13. making large edits to this file
+14. moving, deleting, deprecating, or removing active references to decision-source files unless the user explicitly approves the agent-executed action or the user performed the move manually
 
 The exact approval request structure must follow `docs/agent/AgentTemplates.md`.
+
+### 9.2 Verified deprecation and reference migration
+
+Before moving, deleting, or removing active references to a decision-source file, the agent must verify:
+
+1. the information has been consolidated or preserved without known information loss
+2. a preserved copy exists in the approved archive location if archival is requested
+3. active references are updated to the new active source or preserved deprecated path
+4. the user explicitly approved agent-executed deprecation, unless the user performed the move manually
+5. the action and evidence are logged in operational memory
+
+If any of these checks cannot be satisfied, the agent must stop and ask for clarification before proceeding.
 
 ### 9.1 Decision-option presentation requirements
 

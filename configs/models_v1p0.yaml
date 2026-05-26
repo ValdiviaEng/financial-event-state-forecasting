@@ -1,0 +1,23 @@
+{
+  "schema_version": "models_v1p0_v1",
+  "seed": 1729,
+  "models": [
+    {
+      "model_id": "market_lag_linear_v1",
+      "family": "ridge_linear",
+      "branch": "market_only",
+      "preprocessing": "median_impute_scale",
+      "params": {"alpha": 1.0}
+    },
+    {
+      "model_id": "market_xgboost_v1_fixed",
+      "family": "xgboost_regressor",
+      "branch": "market_only",
+      "preprocessing": "median_impute",
+      "params": {"n_estimators": 50, "max_depth": 3, "learning_rate": 0.05, "subsample": 1.0, "colsample_bytree": 1.0, "objective": "reg:squarederror", "random_state": 1729, "n_jobs": 1}
+    }
+  ],
+  "saved_prediction_schema": {
+    "required_columns": ["row_key", "benchmark_family_id", "canonical_ticker", "as_of_date", "horizon_id", "fold_id", "split_role", "model_id", "model_family", "branch", "dataset_version", "feature_artifact_version", "split_artifact_version", "v1p0_artifact_version", "prediction"]
+  }
+}
