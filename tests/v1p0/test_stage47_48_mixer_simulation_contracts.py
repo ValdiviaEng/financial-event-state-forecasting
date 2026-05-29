@@ -34,6 +34,16 @@ def test_stage48_frozen_tsmixer_mixer_contract_forbids_direct_tsmixer_tuning() -
     assert "no_tsmixer_training_or_tuning_executed" in contract["non_claims"]
 
 
+def test_stage43_xgboost_contract_guards_short_horizon_flat_predictions() -> None:
+    module = _load_script("run_updated_dataset_xgboost_tuning.py")
+    contract = module.updated_xgboost_search_contract()
+
+    assert contract["search_space"]["gamma"]["high"] <= 1e-3
+    assert contract["search_space"]["reg_alpha"]["high"] <= 1e-3
+    assert contract["prediction_diversity_gate"]["split_role"] == "validation"
+    assert contract["prediction_diversity_gate"]["horizons"] == ["1d", "5d", "10d"]
+
+
 def test_stage47_rank_builder_fold_means_and_skips_constant_horizons() -> None:
     module = _load_script("run_updated_dataset_lockbox_portfolio_simulation.py")
     rows = []
@@ -48,7 +58,7 @@ def test_stage47_rank_builder_fold_means_and_skips_constant_horizons() -> None:
     assert set(signals["horizon_id"]) == {"1d"}
     top = signals[(signals["side"] == "top") & (signals["rank"] == 1)].iloc[0]
     assert top["canonical_ticker"] == "AAA"
-    assert top["fold_mean_prediction"] == 1.1
+    assert top["fold_mean_prediction"] == 1.0
 
 
 def test_stage47_sell_policy_uses_requested_botk_thresholds() -> None:

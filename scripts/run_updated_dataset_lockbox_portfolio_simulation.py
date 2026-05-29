@@ -216,17 +216,50 @@ def build_rank_signals(predictions: pd.DataFrame) -> pd.DataFrame:
         raise RuntimeError(f"predictions missing required columns: {sorted(missing)}")
     frame = predictions[predictions["split_role"] == "lockbox"].copy()
     frame["as_of_date"] = pd.to_datetime(frame["as_of_date"]).dt.strftime("%Y-%m-%d")
-    grouped = frame.groupby(["model_id", "canonical_ticker", "as_of_date", "horizon_id"], as_index=False)["prediction"].mean().rename(columns={"prediction": "fold_mean_prediction"})
-    records: list[dict[str, Any]] = []
-    for (model_id, as_of_date, horizon_id), group in grouped.groupby(["model_id", "as_of_date", "horizon_id"], sort=True):
-        unique_predictions = group["fold_mean_prediction"].nunique(dropna=False)
-        if unique_predictions <= 1:
+
+    fold_records: list[dict[str, Any]] = []
+    for (model_id, as_of_date, horizon_id, fold_id), group in frame.groupby(["model_id", "as_of_date", "horizon_id", "fold_id"], sort=True):
+        if group["prediction"].nunique(dropna=False) <= 1:
             continue
-        top = group.sort_values(["fold_mean_prediction", "canonical_ticker"], ascending=[False, True]).head(TOP_K)
-        bot = group.sort_values(["fold_mean_prediction", "canonical_ticker"], ascending=[True, True]).head(BOT_K)
+        top = group.sort_values(["prediction", "canonical_ticker"], ascending=[False, True]).head(TOP_K)
+        bot = group.sort_values(["prediction", "canonical_ticker"], ascending=[True, True]).head(BOT_K)
         for side, side_frame in [("top", top), ("bot", bot)]:
             for rank, row in enumerate(side_frame.itertuples(index=False), start=1):
-                records.append({"model_id": model_id, "as_of_date": as_of_date, "horizon_id": horizon_id, "side": side, "rank": int(rank), "canonical_ticker": row.canonical_ticker, "fold_mean_prediction": float(row.fold_mean_prediction), "constant_horizon_skipped": False})
+                fold_records.append(
+                    {
+                        "model_id": model_id,
+                        "as_of_date": as_of_date,
+                        "horizon_id": horizon_id,
+                        "fold_id": fold_id,
+                        "side": side,
+                        "rank": float(rank),
+                        "canonical_ticker": row.canonical_ticker,
+                    }
+                )
+
+    if not fold_records:
+        return pd.DataFrame(columns=["model_id", "as_of_date", "horizon_id", "side", "rank", "canonical_ticker", "fold_mean_prediction", "constant_horizon_skipped"])
+
+    fold_frame = pd.DataFrame.from_records(fold_records)
+    agg = fold_frame.groupby(["model_id", "as_of_date", "horizon_id", "side", "canonical_ticker"], as_index=False)["rank"].mean()
+
+    records: list[dict[str, Any]] = []
+    for (model_id, as_of_date, horizon_id, side), group in agg.groupby(["model_id", "as_of_date", "horizon_id", "side"], sort=True):
+        group = group.sort_values(["rank", "canonical_ticker"], ascending=[True, True])
+        limit = TOP_K if side == "top" else BOT_K
+        for out_rank, row in enumerate(group.head(limit).itertuples(index=False), start=1):
+            records.append(
+                {
+                    "model_id": model_id,
+                    "as_of_date": as_of_date,
+                    "horizon_id": horizon_id,
+                    "side": side,
+                    "rank": int(out_rank),
+                    "canonical_ticker": row.canonical_ticker,
+                    "fold_mean_prediction": float(row.rank),
+                    "constant_horizon_skipped": False,
+                }
+            )
     return pd.DataFrame.from_records(records)
 
 

@@ -39,6 +39,8 @@ SOURCE_ID = "6dff1bd"
 DEFAULT_TRIAL_COUNT = 800
 MODEL_ID = "updated_av_xgboost_event_market_optuna_v1"
 PREVIOUS_MODEL_ID = "market_xgboost_v2_frozen_final"
+DIVERSITY_CHECK_HORIZONS = ("1d", "5d", "10d")
+MIN_PREDICTION_RANGE = 1e-8
 
 
 def updated_xgboost_search_contract(trial_count: int = DEFAULT_TRIAL_COUNT) -> dict[str, Any]:
@@ -75,8 +77,8 @@ def updated_xgboost_search_contract(trial_count: int = DEFAULT_TRIAL_COUNT) -> d
             "colsample_bytree": {"type": "float", "low": 0.50, "high": 1.0, "log": False},
             "colsample_bylevel": {"type": "float", "low": 0.50, "high": 1.0, "log": False},
             "min_child_weight": {"type": "float", "low": 0.5, "high": 80.0, "log": True},
-            "gamma": {"type": "float", "low": 0.0, "high": 20.0, "log": False},
-            "reg_alpha": {"type": "float", "low": 1e-8, "high": 20.0, "log": True},
+            "gamma": {"type": "float", "low": 1e-12, "high": 1e-3, "log": True},
+            "reg_alpha": {"type": "float", "low": 1e-12, "high": 1e-3, "log": True},
             "reg_lambda": {"type": "float", "low": 1e-3, "high": 200.0, "log": True},
             "max_delta_step": {"type": "int", "low": 0, "high": 5, "step": 1},
             "max_bin": {"type": "categorical", "choices": [128, 256, 512]},
@@ -98,6 +100,11 @@ def updated_xgboost_search_contract(trial_count: int = DEFAULT_TRIAL_COUNT) -> d
             "not_stage6_reinterpretation",
             "not_trading_signal",
         ],
+        "prediction_diversity_gate": {
+            "split_role": "validation",
+            "horizons": list(DIVERSITY_CHECK_HORIZONS),
+            "minimum_prediction_range_per_fold": MIN_PREDICTION_RANGE,
+        },
     }
 
 
@@ -352,6 +359,7 @@ def _execute_trial(trial_number: int, params: dict[str, Any], bundles: list[dict
     started = time.perf_counter()
     fold_metrics: list[dict[str, Any]] = []
     predictions: list[pd.DataFrame] = []
+    diversity_violations: list[dict[str, Any]] = []
     training_seconds = 0.0
     inference_seconds = 0.0
     try:
@@ -365,6 +373,10 @@ def _execute_trial(trial_number: int, params: dict[str, Any], bundles: list[dict
             train_pred = estimator.predict(bundle["x_train"])
             validation_pred = estimator.predict(bundle["x_validation"])
             lockbox_pred = estimator.predict(bundle["x_lockbox"]) if save_predictions and len(bundle["x_lockbox"]) else np.array([], dtype="float64")
+            if bundle["horizon_id"] in DIVERSITY_CHECK_HORIZONS:
+                prediction_range = float(np.max(validation_pred) - np.min(validation_pred)) if len(validation_pred) else 0.0
+                if prediction_range < MIN_PREDICTION_RANGE:
+                    diversity_violations.append({"fold_id": bundle["fold_id"], "horizon_id": bundle["horizon_id"], "prediction_range": prediction_range})
             predict_seconds = time.perf_counter() - predict_started
             training_seconds += fit_seconds
             inference_seconds += predict_seconds
@@ -377,7 +389,7 @@ def _execute_trial(trial_number: int, params: dict[str, Any], bundles: list[dict
                 if len(lockbox_pred):
                     predictions.append(_prediction_frame(bundle["lockbox_meta"], trial_number, lockbox_pred))
         candidate_metrics = pd.DataFrame.from_records(fold_metrics)
-        summary = _summarize_trial(candidate_metrics, previous_metrics, params, contract)
+        summary = _summarize_trial(candidate_metrics, previous_metrics, params, contract, diversity_violations)
         prediction_index = None
         if save_predictions:
             all_predictions = pd.concat(predictions, ignore_index=True)
@@ -427,7 +439,7 @@ def _prediction_frame(meta: pd.DataFrame, trial_number: int, prediction: np.ndar
     return output
 
 
-def _summarize_trial(candidate_metrics: pd.DataFrame, previous_metrics: pd.DataFrame, params: dict[str, Any], contract: dict[str, Any]) -> dict[str, Any]:
+def _summarize_trial(candidate_metrics: pd.DataFrame, previous_metrics: pd.DataFrame, params: dict[str, Any], contract: dict[str, Any], diversity_violations: list[dict[str, Any]] | None = None) -> dict[str, Any]:
     combined = pd.concat([candidate_metrics, previous_metrics], ignore_index=True, sort=False)
     deltas = compute_pairwise_deltas(combined, PREVIOUS_MODEL_ID, [MODEL_ID])
     validation = deltas[deltas["split_role"] == "validation"].copy()
@@ -439,7 +451,8 @@ def _summarize_trial(candidate_metrics: pd.DataFrame, previous_metrics: pd.DataF
     gap_penalty = max(0.0, validation_weighted - train_weighted) * 0.10 if np.isfinite(train_weighted) else 0.0
     low_support_penalty = max(0.0, 0.50 - validation_rate) * 0.001
     complexity_penalty = _complexity_proxy(params, contract) * 0.0005
-    objective_value = validation_weighted + gap_penalty + low_support_penalty + complexity_penalty
+    diversity_penalty = 1.0 if diversity_violations else 0.0
+    objective_value = validation_weighted + gap_penalty + low_support_penalty + complexity_penalty + diversity_penalty
     return {
         "objective_value": float(objective_value),
         "validation_weighted_delta_vs_previous": float(validation_weighted),
@@ -449,6 +462,8 @@ def _summarize_trial(candidate_metrics: pd.DataFrame, previous_metrics: pd.DataF
         "gap_penalty": float(gap_penalty),
         "low_support_penalty": float(low_support_penalty),
         "complexity_penalty": float(complexity_penalty),
+        "prediction_diversity_penalty": float(diversity_penalty),
+        "prediction_diversity_violation_count": 0 if diversity_violations is None else int(len(diversity_violations)),
         "lockbox_rows_used_for_tuning": 0,
     }
 
@@ -482,6 +497,8 @@ def _ledger_record(trial_number: int, params: dict[str, Any], summary: dict[str,
         "gap_penalty": 0.0 if summary is None else float(summary["gap_penalty"]),
         "low_support_penalty": 0.0 if summary is None else float(summary["low_support_penalty"]),
         "complexity_penalty": 0.0 if summary is None else float(summary["complexity_penalty"]),
+        "prediction_diversity_penalty": 0.0 if summary is None else float(summary.get("prediction_diversity_penalty", 0.0)),
+        "prediction_diversity_violation_count": 0 if summary is None else int(summary.get("prediction_diversity_violation_count", 0)),
         "lockbox_rows_used_for_tuning": 0,
         "training_time_seconds": round(training_seconds, 6),
         "inference_time_seconds": round(inference_seconds, 6),
@@ -497,7 +514,10 @@ def _build_overfit_frontier(ledger: pd.DataFrame) -> pd.DataFrame:
         return pd.DataFrame()
     completed["generalization_gap"] = completed["validation_weighted_delta_vs_previous"].astype("float64") - completed["train_weighted_delta_vs_previous"].astype("float64")
     completed["overfit_frontier_flag"] = completed["generalization_gap"] > completed["generalization_gap"].median()
-    return completed[["trial_number", "objective_value", "validation_weighted_delta_vs_previous", "train_weighted_delta_vs_previous", "generalization_gap", "complexity_penalty", "overfit_frontier_flag", "params_json"]]
+    columns = ["trial_number", "objective_value", "validation_weighted_delta_vs_previous", "train_weighted_delta_vs_previous", "generalization_gap", "complexity_penalty", "overfit_frontier_flag", "params_json"]
+    if "prediction_diversity_violation_count" in completed.columns:
+        columns.insert(-1, "prediction_diversity_violation_count")
+    return completed[columns]
 
 
 def _best_candidate_config(best: dict[str, Any], params: dict[str, Any], contract: dict[str, Any], feature_columns: list[str]) -> dict[str, Any]:

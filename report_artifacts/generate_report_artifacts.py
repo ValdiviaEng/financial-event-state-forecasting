@@ -18,7 +18,7 @@ OUT = Path("report_artifacts")
 S43 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage43__xgboost_tuning__20260528T100000Z__src_6dff1bd__run_40f1c9a0")
 S44 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage44__tsmixer_training__20260528T120000Z__src_6dff1bd__run_6817ae4c")
 S48 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage48__frozen_tsmixer_horizon_mixer__20260529T093301Z__src_6dff1bd__run_fc4c1756")
-S47 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage47__lockbox_portfolio_simulation__20260529T095157Z__src_6dff1bd__run_8317929b")
+S47 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage47__lockbox_portfolio_simulation__20260529T113128Z__src_6dff1bd__run_dfcd4579")
 S6 = Path("data/benchmark_runs/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_c82c06990ba7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage6_reporting_v1")
 
 HORIZON_ORDER = ["1d", "5d", "10d", "20d", "60d"]
