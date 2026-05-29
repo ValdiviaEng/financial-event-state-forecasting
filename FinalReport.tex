@@ -8,25 +8,25 @@
 
 \title[Leakage-Aware Event-State Forecasting]{Leakage-Aware Deep Learning for Financial Event-State Forecasting}
 
-\author{ValdiviaEng}
+\author{Jose Ignacio Valdivia Aguero}
 \affiliation{%
   \institution{University of Luxembourg}
   \country{Luxembourg}
 }
 
 \begin{abstract}
-This project studies whether aligned company-news event states improve multi-horizon excess-return forecasting beyond strong market baselines. I built a local, reproducible artifact pipeline for the top-50 liquid U.S. equities, with same-day-as-close news alignment, no-news states, purged expanding folds, an untouched lockbox, fold-local preprocessing, saved predictions, tuning ledgers, and conservative claim gates. The strongest current active model is an updated Alpha Vantage XGBoost model: 800 development trials produced a post-selection lockbox weighted error delta of $-5.34\times10^{-4}$ versus the prior XGBoost baseline. A no-direct-TSMixer horizon mixer improved validation error, but degraded versus XGBoost on lockbox, illustrating selection pressure. A historical portfolio simulation is reported only as a diagnostic. The main conclusion is methodological: in noisy financial forecasting, leakage control and non-claiming uncertainty analysis are as important as model complexity.
+This project studies whether aligned company-news event states improve multi-horizon excess-return forecasting beyond strong market baselines. I built a local, reproducible artifact pipeline for the top-50 liquid U.S. equities, with same-day-as-close news alignment, no-news states, purged expanding folds, an untouched lockbox, fold-local preprocessing, saved predictions, tuning ledgers, and conservative claim gates. The strongest current active model is an optimal model XGBoost configuration: 800 development trials produced a post-selection lockbox weighted error delta of $-5.34\times10^{-4}$ versus the prior XGBoost baseline. An optimal mixed model (frozen-base horizon mixer) improved validation error, but degraded versus optimal model XGBoost on lockbox, illustrating selection pressure. A historical portfolio simulation is reported only as a diagnostic. The main conclusion is methodological: in noisy financial forecasting, leakage control and non-claiming uncertainty analysis are as important as model complexity.
 \end{abstract}
 
 \maketitle
 
 \section{Introduction}
-Financial news may contain useful short-lived information, but return prediction is low signal-to-noise and highly vulnerable to leakage, multiple testing, and post-hoc trading narratives. The project therefore frames the task as end-of-day forecasting of forward excess returns for horizons $\{1,5,10,20,60\}$ days, not as price prediction or trading advice. The contribution is a reproducible deep-learning-ready benchmark: top-50 equities, Alpha Vantage news, Twelve Data OHLCV, explicit no-news rows, purged walk-forward development folds, a final lockbox, and artifact-backed model comparisons. The implemented roster spans linear and tree market baselines, FinBERT feature sidecars, TSMixer sequence diagnostics, XGBoost tuning, and horizon-level XGB/TSMixer mixing. AUC is intentionally not reported: the target is continuous excess return, so RMSE/MAE, zero-baseline $R^2$, rank IC, bootstrap support, and lockbox deltas are the relevant metrics.
+Financial news may contain useful short-lived information, but return prediction is low signal-to-noise and highly vulnerable to leakage, multiple testing, and post-hoc trading narratives. The project therefore frames the task as end-of-day forecasting of forward excess returns for horizons $\{1,5,10,20,60\}$ days, not as price prediction or trading advice. The contribution is a reproducible deep-learning-ready benchmark: top-50 equities, Alpha Vantage news, Twelve Data OHLCV, explicit no-news rows, purged walk-forward development folds, a final lockbox, and artifact-backed model comparisons. The implemented roster spans linear and tree market baselines, FinBERT feature sidecars, TSMixer sequence diagnostics, optimal model XGBoost tuning, and horizon-level XGBoost/TSMixer mixing. AUC is intentionally not reported: the target is continuous excess return, so RMSE/MAE, zero-baseline $R^2$, rank IC, bootstrap support, and lockbox deltas are the relevant metrics.
 
 \begin{figure*}[t]
   \centering
   \includegraphics[width=0.98\textwidth]{report_artifacts/main_results_panel.pdf}
-  \caption{Core evidence. A: XGBoost tuning converged over 800 train/validation-only trials. B: lockbox RMSE by horizon. C: Stage 48 validation gains over XGBoost did not transfer to lockbox. D: the portfolio simulation is diagnostic only; high returns are not claim evidence.}
+  \caption{Core evidence. A: XGBoost tuning converged over 800 train/validation-only trials. B: lockbox RMSE by horizon. C: validation gains over optimal model XGBoost did not transfer to lockbox. D: the portfolio simulation is diagnostic only; high returns are not claim evidence.}
   \Description{Four-panel figure showing tuning objective, RMSE bars, weighted error deltas, and portfolio return versus drawdown.}
   \label{fig:main}
 \end{figure*}
@@ -37,34 +37,12 @@ The design follows market-efficiency and asset-pricing cautions from Fama, Fama-
 \section{Experiments}
 \textbf{Data and splits.} The benchmark uses 50 liquid equities, five horizons, forward leave-one-out excess-return labels, and explicit event-state rows for no-news dates. The enhanced Alpha Vantage rebuild aligned 166,711 news rows while preserving provider-truncation limitations. Stage 4 defines nine expanding walk-forward development folds plus a held-out lockbox ending 2026-02-13; lockbox rows are never used for tuning.
 
-\textbf{Models and training.} The main tuned model is the Stage 43 XGBoost event-market candidate, selected from 800 Optuna trials by a guarded validation objective over RMSE/MAE horizon deltas. The TSMixer branch exposed a readout bug: prior mean-time pooling was stale; the corrected readout is flattened time-feature state. Because a corrected full TSMixer search was estimated at 23.1 hours and was rejected, Stage 48 tuned only a lightweight horizon mixer over frozen Stage 43 XGBoost and frozen Stage 44 TSMixer predictions; no TSMixer weights were retrained.
+\textbf{Models and training.} The main tuned model is the optimal model XGBoost event-market candidate, selected from 800 Optuna trials by a guarded validation objective over RMSE/MAE horizon deltas. The TSMixer branch exposed a readout bug: prior mean-time pooling was stale; the corrected readout is flattened time-feature state. Because a corrected full TSMixer search was estimated at 23.1 hours and was rejected, the optimal mixed model (frozen-base horizon mixer) tuned only a lightweight horizon mixer over frozen optimal model XGBoost and frozen optimal model TSMixer predictions; no TSMixer weights were retrained.
 
-\begin{table}[t]
-\caption{Replicable result summary. Negative deltas mean lower error.}
-\label{tab:results}
-\scriptsize
-\begin{tabular}{llr}
-\toprule
-Item & Split/metric & Value \\
-\midrule
-Stage 43 XGB & trials / best trial & 800 / 798 \\
-Stage 43 XGB & lockbox delta vs prior XGB & $-5.34\times10^{-4}$ \\
-Stage 43 XGB & lockbox both-metric improvement & 62.2\% \\
-Stage 48 mixer & trials / best trial & 800 / 391 \\
-Stage 48 mixer & validation delta vs XGB & $-2.97\times10^{-4}$ \\
-Stage 48 mixer & lockbox delta vs XGB & $+9.20\times10^{-5}$ \\
-Stage 48 mixer & lockbox improvement vs XGB & 11.1\% \\
-Portfolio diagnostic & rows / initial capital & 75 / \$100k \\
-Best portfolio row & final equity / return & \$115,045 / 15.0\% \\
-ROC-AUC & applicability & N/A: regression target \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\textbf{Results.} Figure~\ref{fig:main} and Table~\ref{tab:results} show the key pattern. XGBoost improved against the prior XGBoost family on lockbox, but the Stage 48 mixer is a cautionary counterexample: it improved validation and the frozen TSMixer diagnostic input, yet was worse than XGBoost on lockbox. Stage 25 block-bootstrap evidence was supportive for the earlier frozen XGBoost candidate, but final claim gates remain conservative.
+\textbf{Results.} Figure~\ref{fig:main} shows the key pattern. Optimal model XGBoost improved against the prior XGBoost family on lockbox, but the optimal mixed model (frozen-base horizon mixer) is a cautionary counterexample: it improved validation and the frozen optimal model TSMixer diagnostic input, yet was worse than optimal model XGBoost on lockbox. Block-bootstrap evidence was supportive for the earlier frozen XGBoost candidate, but final claim gates remain conservative.
 
 \section{Discussion}
-The strongest lesson is that financial deep learning must be evaluated as a system, not as a model leaderboard. The project found real engineering gains: leakage-aware splits, saved predictions, uncertainty diagnostics, tuning traces, and stronger market baselines. It also found failure modes: stale TSMixer readout semantics, validation-to-lockbox degradation, and portfolio-like diagnostics that can look persuasive while remaining non-causal and assumption-dependent. The transparent conclusion is therefore narrow: the updated XGBoost pipeline is the current strongest active evidence; the frozen-TSMixer mixer did not earn a positive lockbox claim; event-state value is not proven; and all outputs remain historical diagnostics, not live forecasts or trading signals.
+The strongest lesson is that financial deep learning must be evaluated as a system, not as a model leaderboard. The project found real engineering gains: leakage-aware splits, saved predictions, uncertainty diagnostics, tuning traces, and stronger market baselines. It also found failure modes: validation-to-lockbox degradation and portfolio-like diagnostics that can look persuasive while remaining non-causal and assumption-dependent. A practical bottleneck remains data compilation: API limits (25 calls/day) slow dataset refresh, so webscraping is advised to expand coverage. The transparent conclusion is therefore narrow: the optimal model XGBoost pipeline is the current strongest active evidence; the optimal mixed model (frozen-base horizon mixer) did not earn a positive lockbox claim; event-state value is not proven; and all outputs remain historical diagnostics, not live forecasts or trading signals.
 
 \clearpage
 
@@ -78,36 +56,36 @@ The strongest lesson is that financial deep learning must be evaluated as a syst
 
 \section{Artifact Roots and Replication Commands}
 \begingroup\scriptsize\sloppy
-Primary evidence roots are Stage 43 XGBoost tuning \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage43__xgboost_tuning__20260528T100000Z__src_6dff1bd__run_40f1c9a0/}; Stage 48 horizon mixer \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage48__frozen_tsmixer_horizon_mixer__20260529T093301Z__src_6dff1bd__run_fc4c1756/}; and Stage 47 portfolio simulation \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage47__lockbox_portfolio_simulation__20260529T095157Z__src_6dff1bd__run_8317929b/}. Validation command: \texttt{source \string~/venvs/ai/bin/activate \&\& python -m pytest tests}.
+Primary evidence roots are the optimal model XGBoost tuning \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage43__xgboost_tuning__20260528T100000Z__src_6dff1bd__run_40f1c9a0/}, the frozen-base horizon mixer \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage48__frozen_tsmixer_horizon_mixer__20260529T093301Z__src_6dff1bd__run_fc4c1756/}, and the portfolio simulation diagnostic \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage47__lockbox_portfolio_simulation__20260529T095157Z__src_6dff1bd__run_8317929b/}. Validation command: \texttt{source \string~/venvs/ai/bin/activate \&\& python -m pytest tests}.
 \endgroup
 
 \section{Supplementary Visualizations}
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/tuning_curves.pdf}
-  \caption{Optuna incumbent curves for Stage 43 XGBoost and Stage 48 horizon mixer.}
+\caption{Optuna incumbent curves for optimal model XGBoost and the frozen-base horizon mixer.}
   \Description{Two line plots of trial objective and best-so-far objective.}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/lockbox_rmse_mae.pdf}
-  \caption{Lockbox RMSE and MAE by horizon for XGBoost, frozen TSMixer diagnostic input, and Stage 48 mixer.}
+\caption{Lockbox RMSE and MAE by horizon for optimal model XGBoost, frozen optimal model TSMixer diagnostic input, and the frozen-base horizon mixer.}
   \Description{Grouped bar charts of RMSE and MAE over five forecast horizons.}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/mixer_weights_deltas.pdf}
-  \caption{Stage 48 horizon-specific raw mixer weights and lockbox horizon deltas.}
-  \Description{Bar charts of XGBoost and TSMixer weights and candidate-minus-baseline deltas.}
+\caption{Horizon-specific raw mixer weights and lockbox horizon deltas.}
+\Description{Bar charts of optimal model XGBoost and optimal model TSMixer weights and candidate-minus-baseline deltas.}
 \end{figure}
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/portfolio_diagnostics.pdf}
-  \caption{Historical portfolio diagnostics: final equity by policy and return versus turnover.}
-  \Description{Horizontal bar chart and scatter plot for diagnostic portfolio simulations.}
+\caption{Historical portfolio diagnostics: final equity by policy and return versus turnover.}
+\Description{Horizontal bar chart and scatter plot for diagnostic portfolio simulations.}
 \end{figure}
 
 \begin{figure}[H]

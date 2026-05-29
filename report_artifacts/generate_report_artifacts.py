@@ -10,6 +10,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from matplotlib import colors as mcolors
 from matplotlib.ticker import PercentFormatter
 
 
@@ -23,17 +24,31 @@ S6 = Path("data/benchmark_runs/phase1_top50/phase1_top50__stage2_dataset_v1__cw_
 HORIZON_ORDER = ["1d", "5d", "10d", "20d", "60d"]
 HWEIGHTS = {"1d": 0.30, "5d": 0.25, "10d": 0.20, "20d": 0.15, "60d": 0.10}
 MODEL_SHORT = {
-    "updated_av_xgboost_event_market_optuna_v1": "Stage 43 XGB",
-    "updated_av_tsmixer_event_market_optuna_v1_seed_mean": "Frozen Stage 44 TSMixer",
-    "updated_av_xgb_frozen_tsmixer_horizon_mixer_v1": "Stage 48 mixer",
-    "market_xgboost_v2_frozen_final": "v1p0 XGB final",
+    "updated_av_xgboost_event_market_optuna_v1": "XGBoost",
+    "updated_av_tsmixer_event_market_optuna_v1_seed_mean": "TSMixer",
+    "updated_av_xgb_frozen_tsmixer_horizon_mixer_v1": "Mixed model",
 }
 COLORS = {
-    "Stage 43 XGB": "#2563eb",
-    "Frozen Stage 44 TSMixer": "#059669",
-    "Stage 48 mixer": "#d97706",
-    "v1p0 XGB final": "#7c3aed",
+    "Mixed model": "#2563eb",
+    "TSMixer": "#dc2626",
+    "XGBoost": "#f59e0b",
 }
+POLICY_ORDER = ["one_d_bot10", "botk_2_of_5", "botk_3_of_5", "botk_4_of_5", "none"]
+POLICY_SHADE = {
+    "one_d_bot10": 0.15,
+    "botk_2_of_5": 0.30,
+    "botk_3_of_5": 0.45,
+    "botk_4_of_5": 0.60,
+    "none": 0.78,
+}
+
+
+def blend_with_white(color: str, strength: float) -> str:
+    rgb = np.array(mcolors.to_rgb(color))
+    white = np.array([1.0, 1.0, 1.0])
+    strength = float(np.clip(strength, 0.0, 1.0))
+    blended = rgb * (1.0 - strength) + white * strength
+    return mcolors.to_hex(blended)
 
 
 def weighted_delta(deltas: pd.DataFrame) -> float:
@@ -58,15 +73,17 @@ def main() -> None:
     tsm_metrics = pd.read_parquet(S44 / "best_tsmixer_metrics.parquet")
     mix_metrics = pd.read_parquet(S48 / "best_mixer_metrics.parquet")
     metrics = pd.concat([xgb_metrics, tsm_metrics, mix_metrics], ignore_index=True, sort=False)
-    metrics["model_short"] = metrics["model_id"].map(MODEL_SHORT).fillna(metrics["model_id"])
+    metrics["model_short"] = metrics["model_id"].map(MODEL_SHORT)
+    metrics = metrics[metrics["model_short"].notna()].copy()
     lock_metrics = metrics[metrics["split_role"].eq("lockbox")].copy()
     metric_summary = lock_metrics.groupby(["model_short", "horizon_id"], as_index=False).agg(rmse=("rmse", "mean"), mae=("mae", "mean"), r2=("r2_oos_zero_baseline", "mean"))
     metric_summary["horizon_id"] = pd.Categorical(metric_summary["horizon_id"], HORIZON_ORDER, ordered=True)
     metric_summary = metric_summary.sort_values(["horizon_id", "model_short"])
 
     deltas48 = pd.read_parquet(S48 / "horizon_metric_deltas.parquet")
-    deltas48["baseline_short"] = deltas48["baseline_model_id"].map(MODEL_SHORT).fillna(deltas48["baseline_model_id"])
+    deltas48["baseline_short"] = deltas48["baseline_model_id"].map(MODEL_SHORT)
     deltas48["metric_delta"] = 0.5 * deltas48["rmse_delta_candidate_minus_baseline"] + 0.5 * deltas48["mae_delta_candidate_minus_baseline"]
+    deltas48 = deltas48[deltas48["baseline_short"].notna()].copy()
     delta_rows = []
     for (base, split), group in deltas48.groupby(["baseline_short", "split_role"], sort=True):
         delta_rows.append({"baseline_short": base, "split_role": split, "weighted_delta": weighted_delta(group), "improve_rate": float(group["both_metrics_improve"].mean())})
@@ -78,7 +95,8 @@ def main() -> None:
     coef_summary = coef_summary[coef_summary["mode"].notna()].sort_values("horizon_id")
 
     port = pd.read_parquet(S47 / "simulation_summary.parquet")
-    port["model_short"] = port["model_id"].map(MODEL_SHORT).fillna(port["model_id"])
+    port["model_short"] = port["model_id"].map(MODEL_SHORT)
+    port = port[port["model_short"].notna()].copy()
     port["horizon_id"] = pd.Categorical(port["horizon_id"], HORIZON_ORDER, ordered=True)
     port_mean = port.groupby(["model_short", "sell_policy"], as_index=False).agg(mean_final_equity=("final_equity", "mean"), best_final_equity=("final_equity", "max"), mean_drawdown=("max_drawdown_pct", "mean"))
 
@@ -91,6 +109,7 @@ def main() -> None:
     write_metric_bars(metric_summary)
     write_mixer_diagnostics(coef_summary, deltas48)
     write_portfolio_diagnostics(port, port_mean)
+    write_portfolio_policy_returns(port)
     write_ranking_uncertainty(rank_summary)
 
     metric_summary.to_csv(OUT / "lockbox_metric_summary.csv", index=False)
@@ -114,11 +133,11 @@ def main() -> None:
         "stage43_trials": int(len(ledger43)),
         "stage47_rows": int(len(port)),
         "stage48_best_trial": int(best48["trial_number"]),
-        "stage48_lockbox_delta_vs_tsmixer": float(delta_summary[(delta_summary.baseline_short.eq("Frozen Stage 44 TSMixer")) & (delta_summary.split_role.eq("lockbox"))]["weighted_delta"].iloc[0]),
-        "stage48_lockbox_delta_vs_xgb": float(delta_summary[(delta_summary.baseline_short.eq("Stage 43 XGB")) & (delta_summary.split_role.eq("lockbox"))]["weighted_delta"].iloc[0]),
-        "stage48_lockbox_rate_vs_xgb": float(delta_summary[(delta_summary.baseline_short.eq("Stage 43 XGB")) & (delta_summary.split_role.eq("lockbox"))]["improve_rate"].iloc[0]),
+        "stage48_lockbox_delta_vs_tsmixer": float(delta_summary[(delta_summary.baseline_short.eq("TSMixer")) & (delta_summary.split_role.eq("lockbox"))]["weighted_delta"].iloc[0]),
+        "stage48_lockbox_delta_vs_xgb": float(delta_summary[(delta_summary.baseline_short.eq("XGBoost")) & (delta_summary.split_role.eq("lockbox"))]["weighted_delta"].iloc[0]),
+        "stage48_lockbox_rate_vs_xgb": float(delta_summary[(delta_summary.baseline_short.eq("XGBoost")) & (delta_summary.split_role.eq("lockbox"))]["improve_rate"].iloc[0]),
         "stage48_trials": int(len(ledger48)),
-        "stage48_validation_delta_vs_xgb": float(delta_summary[(delta_summary.baseline_short.eq("Stage 43 XGB")) & (delta_summary.split_role.eq("validation"))]["weighted_delta"].iloc[0]),
+        "stage48_validation_delta_vs_xgb": float(delta_summary[(delta_summary.baseline_short.eq("XGBoost")) & (delta_summary.split_role.eq("validation"))]["weighted_delta"].iloc[0]),
     }
     (OUT / "summary_numbers.json").write_text(json.dumps(summary, indent=2, sort_keys=True), encoding="utf-8")
     print(json.dumps({"status": "figures_created", "files": sorted(path.name for path in OUT.iterdir())}, sort_keys=True))
@@ -137,10 +156,10 @@ def write_main_panel(ledger43: pd.DataFrame, metric_summary: pd.DataFrame, delta
     ax.legend(frameon=False, fontsize=8)
 
     ax = axs[0, 1]
-    subset = metric_summary[metric_summary["model_short"].isin(["Stage 43 XGB", "Stage 48 mixer", "Frozen Stage 44 TSMixer"])]
+    subset = metric_summary[metric_summary["model_short"].isin(["XGBoost", "Mixed model", "TSMixer"])]
     x = np.arange(len(HORIZON_ORDER))
     width = 0.24
-    for index, model in enumerate(["Stage 43 XGB", "Stage 48 mixer", "Frozen Stage 44 TSMixer"]):
+    for index, model in enumerate(["XGBoost", "Mixed model", "TSMixer"]):
         values = subset[subset["model_short"].eq(model)].set_index("horizon_id").reindex(HORIZON_ORDER)["rmse"].to_numpy()
         ax.bar(x + (index - 1) * width, values, width=width, label=model, color=COLORS[model], alpha=0.85)
     ax.set_title("B. Lockbox RMSE by horizon")
@@ -154,7 +173,7 @@ def write_main_panel(ledger43: pd.DataFrame, metric_summary: pd.DataFrame, delta
     order_split = ["train", "validation", "lockbox"]
     width = 0.35
     x = np.arange(len(order_split))
-    for index, base in enumerate(["Stage 43 XGB", "Frozen Stage 44 TSMixer"]):
+    for index, base in enumerate(["XGBoost", "TSMixer"]):
         values = delta_summary[delta_summary["baseline_short"].eq(base)].set_index("split_role").reindex(order_split)["weighted_delta"].to_numpy()
         ax.bar(x + (index - 0.5) * width, values, width=width, label=f"vs {base}", color=["#d97706", "#059669"][index], alpha=0.88)
     ax.axhline(0, color="black", lw=0.8)
@@ -166,7 +185,7 @@ def write_main_panel(ledger43: pd.DataFrame, metric_summary: pd.DataFrame, delta
     ax.legend(frameon=False, fontsize=8)
 
     ax = axs[1, 1]
-    for model in ["Stage 43 XGB", "Stage 48 mixer", "Frozen Stage 44 TSMixer"]:
+    for model in ["XGBoost", "Mixed model", "TSMixer"]:
         subset = port[port["model_short"].eq(model)]
         ax.scatter(subset["max_drawdown_pct"], subset["total_return"], s=36, alpha=0.7, label=model, color=COLORS[model])
     ax.axhline(0, color="black", lw=0.8)
@@ -200,12 +219,12 @@ def write_tuning_curves(ledger43: pd.DataFrame, ledger48: pd.DataFrame) -> None:
 
 
 def write_metric_bars(metric_summary: pd.DataFrame) -> None:
-    subset = metric_summary[metric_summary["model_short"].isin(["Stage 43 XGB", "Stage 48 mixer", "Frozen Stage 44 TSMixer"])]
+    subset = metric_summary[metric_summary["model_short"].isin(["XGBoost", "Mixed model", "TSMixer"])]
     fig, axs = plt.subplots(1, 2, figsize=(10.8, 3.8), constrained_layout=True)
     x = np.arange(len(HORIZON_ORDER))
     for ax, metric, ylabel in [(axs[0], "rmse", "RMSE"), (axs[1], "mae", "MAE")]:
         width = 0.24
-        for index, model in enumerate(["Stage 43 XGB", "Stage 48 mixer", "Frozen Stage 44 TSMixer"]):
+        for index, model in enumerate(["XGBoost", "Mixed model", "TSMixer"]):
             values = subset[subset["model_short"].eq(model)].set_index("horizon_id").reindex(HORIZON_ORDER)[metric].to_numpy()
             ax.bar(x + (index - 1) * width, values, width=width, label=model, color=COLORS[model], alpha=0.85)
         ax.set_title(f"Lockbox {ylabel}")
@@ -223,8 +242,8 @@ def write_mixer_diagnostics(coef_summary: pd.DataFrame, deltas48: pd.DataFrame) 
     x = np.arange(len(HORIZON_ORDER))
     ax = axs[0]
     coef_plot = coef_summary.set_index("horizon_id").reindex(HORIZON_ORDER)
-    ax.bar(x - 0.17, coef_plot["xgb"], width=0.34, label="XGB weight", color=COLORS["Stage 43 XGB"])
-    ax.bar(x + 0.17, coef_plot["tsmixer"], width=0.34, label="TSMixer weight", color=COLORS["Frozen Stage 44 TSMixer"])
+    ax.bar(x - 0.17, coef_plot["xgb"], width=0.34, label="XGB weight", color=COLORS["XGBoost"])
+    ax.bar(x + 0.17, coef_plot["tsmixer"], width=0.34, label="TSMixer weight", color=COLORS["TSMixer"])
     ax.axhline(0, color="black", lw=0.8)
     ax.set_xticks(x)
     ax.set_xticklabels(HORIZON_ORDER)
@@ -235,7 +254,7 @@ def write_mixer_diagnostics(coef_summary: pd.DataFrame, deltas48: pd.DataFrame) 
 
     ax = axs[1]
     lock_delta = deltas48[deltas48["split_role"].eq("lockbox")].groupby(["baseline_short", "horizon_id"], as_index=False).agg(metric_delta=("metric_delta", "mean"), improve_rate=("both_metrics_improve", "mean"))
-    for index, base in enumerate(["Stage 43 XGB", "Frozen Stage 44 TSMixer"]):
+    for index, base in enumerate(["XGBoost", "TSMixer"]):
         values = lock_delta[lock_delta["baseline_short"].eq(base)].set_index("horizon_id").reindex(HORIZON_ORDER)["metric_delta"].to_numpy()
         ax.bar(x + (index - 0.5) * 0.34, values, width=0.34, label=f"vs {base}", color=["#d97706", "#059669"][index], alpha=0.88)
     ax.axhline(0, color="black", lw=0.8)
@@ -264,7 +283,7 @@ def write_portfolio_diagnostics(port: pd.DataFrame, port_mean: pd.DataFrame) -> 
     ax.grid(axis="x", alpha=0.25)
 
     ax = axs[1]
-    for model in ["Stage 43 XGB", "Stage 48 mixer", "Frozen Stage 44 TSMixer"]:
+    for model in ["XGBoost", "Mixed model", "TSMixer"]:
         subset = port[port["model_short"].eq(model)]
         ax.scatter(subset["initial_capital_turnover"], subset["total_return"], s=36, alpha=0.75, label=model, color=COLORS[model])
     ax.axhline(0, color="black", lw=0.8)
@@ -309,6 +328,61 @@ def write_ranking_uncertainty(rank_summary: pd.DataFrame) -> None:
     ax.legend(frameon=False, fontsize=8)
     fig.savefig(OUT / "ranking_uncertainty.pdf", bbox_inches="tight")
     plt.close(fig)
+
+
+def write_portfolio_policy_returns(port: pd.DataFrame) -> None:
+    plot = port.copy()
+    plot["horizon_id"] = pd.Categorical(plot["horizon_id"], HORIZON_ORDER, ordered=True)
+    plot["sell_policy"] = pd.Categorical(plot["sell_policy"], POLICY_ORDER, ordered=True)
+    plot = plot.sort_values(["horizon_id", "model_short", "sell_policy"])
+
+    model_order = ["Mixed model", "TSMixer", "XGBoost"]
+    model_colors = {model: COLORS[model] for model in model_order}
+    policy_legend = ["one_d_bot10", "botk_2_of_5", "botk_3_of_5", "botk_4_of_5", "none"]
+    policy_labels = {
+        "one_d_bot10": "1d",
+        "botk_2_of_5": "2 of 5",
+        "botk_3_of_5": "3 of 5",
+        "botk_4_of_5": "4 of 5",
+        "none": "none",
+    }
+
+    for horizon in HORIZON_ORDER:
+        slice_df = plot[plot["horizon_id"].eq(horizon)].copy()
+        slice_df["model_short"] = pd.Categorical(slice_df["model_short"], model_order, ordered=True)
+        slice_df = slice_df.sort_values(["model_short", "sell_policy"])
+        labels = slice_df.apply(lambda row: f"{row['model_short']} | {policy_labels[str(row['sell_policy'])]}", axis=1)
+
+        fig, ax = plt.subplots(figsize=(9.2, 4.6), constrained_layout=True)
+        x = np.arange(len(slice_df))
+        colors = []
+        for _, row in slice_df.iterrows():
+            base = model_colors[str(row["model_short"])]
+            shade = POLICY_SHADE[str(row["sell_policy"])]
+            colors.append(blend_with_white(base, shade))
+        ax.bar(x, slice_df["total_return"], color=colors, alpha=0.95, edgecolor="#111827", linewidth=0.6, zorder=3)
+        ax.axhline(0, color="black", lw=0.8)
+        ax.set_axisbelow(True)
+        ax.set_title(f"Lockbox portfolio return by model and policy ({horizon})")
+        ax.set_ylabel("total return")
+        ax.set_xticks(x)
+        ax.set_xticklabels(labels, rotation=35, ha="right", fontsize=7)
+        ax.grid(axis="y", alpha=0.25)
+        ax.yaxis.set_major_formatter(PercentFormatter(1.0))
+
+        model_handles = [
+            plt.Line2D([0], [0], color=model_colors[m], lw=6, label=m) for m in model_order
+        ]
+        policy_handles = [
+            plt.Line2D([0], [0], color=blend_with_white("#000000", POLICY_SHADE[p]), lw=6, label=policy_labels[p])
+            for p in policy_legend
+        ]
+        model_legend = ax.legend(handles=model_handles, title="model", frameon=False, fontsize=8, loc="upper left")
+        ax.legend(handles=policy_handles, title="policy", frameon=False, fontsize=8, loc="upper right")
+        ax.add_artist(model_legend)
+
+        fig.savefig(OUT / f"portfolio_returns_by_policy_model_{horizon}.pdf", bbox_inches="tight")
+        plt.close(fig)
 
 
 if __name__ == "__main__":

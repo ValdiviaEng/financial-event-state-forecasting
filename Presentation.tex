@@ -9,7 +9,7 @@
 \hypersetup{bookmarks=false}
 
 \title[Event-State Forecasting]{Leakage-Aware Deep Learning for Financial Event-State Forecasting}
-\author{ValdiviaEng}
+\author{Jose Ignacio Valdivia Aguero}
 \institute{University of Luxembourg}
 \date{DL Course Project}
 
@@ -33,8 +33,8 @@
 \begin{column}{0.48\textwidth}
 \textbf{Answer}
 \begin{itemize}
-  \item The strongest active evidence is a tuned XGBoost event-market baseline.
-  \item A frozen-TSMixer mixer improved validation but not XGBoost lockbox.
+  \item The strongest active evidence is an optimal model XGBoost event-market baseline.
+  \item The optimal mixed model (frozen-base horizon mixer) improved validation but not optimal model XGBoost lockbox.
   \item The main contribution is a rigorous, reproducible evaluation system.
 \end{itemize}
 \end{column}
@@ -97,7 +97,7 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \textbf{Deep learning candidates}
 \begin{itemize}
   \item FinBERT/BERT for semantic financial text features.
-  \item TSMixer and Transformer-family sequence models.
+  \item Optimal model TSMixer and Transformer-family sequence models.
   \item PatchTST, iTransformer, TFT, and Chronos motivate richer temporal architectures.
 \end{itemize}
 \end{column}
@@ -119,7 +119,7 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \begin{itemize}
   \item Lag/rolling features.
   \item Linear and fixed XGBoost baselines.
-  \item Stage 43: 800-trial tuned XGBoost.
+  \item Optimal model XGBoost: 800-trial tuned baseline.
 \end{itemize}
 \end{column}
 \begin{column}{0.30\textwidth}
@@ -127,7 +127,7 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \begin{itemize}
   \item TSMixer diagnostics.
   \item Readout correction audit.
-  \item Stage 48: horizon mixer only.
+  \item Optimal mixed model (frozen-base horizon mixer): horizon mixer only.
 \end{itemize}
 \end{column}
 \end{columns}
@@ -139,8 +139,8 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \end{center}
 \vspace{-0.5em}
 \begin{itemize}
-  \item Stage 43 XGBoost: 800 completed trials, best trial 798.
-  \item Stage 48 mixer: 800 completed meta/mixer trials, best trial 391.
+  \item Optimal model XGBoost: 800 completed trials, best trial 798.
+  \item Optimal mixed model (frozen-base horizon mixer): 800 completed meta/mixer trials, best trial 391.
   \item Both searches used zero lockbox rows for tuning.
 \end{itemize}
 \end{frame}
@@ -152,7 +152,7 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \vspace{-0.5em}
 \begin{itemize}
   \item Regression metrics are primary because labels are continuous forward excess returns.
-  \item The Stage 48 mixer does not dominate Stage 43 XGBoost on lockbox.
+  \item The optimal mixed model does not dominate optimal model XGBoost on lockbox.
 \end{itemize}
 \end{frame}
 
@@ -162,8 +162,8 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \end{center}
 \vspace{-0.5em}
 \begin{itemize}
-  \item Stage 48 improved validation weighted error vs XGBoost by $-2.97\times10^{-4}$.
-  \item It worsened post-selection lockbox weighted error vs XGBoost by $+9.20\times10^{-5}$.
+  \item The optimal mixed model improved validation weighted error vs optimal model XGBoost by $-2.97\times10^{-4}$.
+  \item It worsened post-selection lockbox weighted error vs optimal model XGBoost by $+9.20\times10^{-5}$.
   \item Conclusion: stronger architectures require stronger selection controls, not looser claims.
 \end{itemize}
 \end{frame}
@@ -181,12 +181,12 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 
 \begin{frame}{Portfolio Simulation: Diagnostic Only}
 \begin{center}
-\includegraphics[width=0.92\textwidth]{report_artifacts/portfolio_diagnostics.pdf}
+\includegraphics[width=0.82\textwidth]{report_artifacts/portfolio_diagnostics.pdf}
 \end{center}
 \vspace{-0.5em}
 \begin{itemize}
   \item Initial capital: \$100k; long-only, fractional shares, no costs, no slippage, no taxes.
-  \item Best historical row: \$115,045 final equity, but it uses frozen TSMixer diagnostic predictions.
+  \item Best historical row: \$115,045 final equity, but it uses frozen optimal model TSMixer diagnostic predictions.
   \item This is not a buy/sell system and not benchmark claim evidence.
 \end{itemize}
 \end{frame}
@@ -198,10 +198,10 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \toprule
 Evidence & Result & Interpretation \\
 \midrule
-Stage 43 XGB & lockbox delta $-5.34\times10^{-4}$ & active strongest evidence \\
-Stage 43 XGB & 62.2\% both-metric improvement & non-claim improvement evidence \\
-Stage 48 mixer & validation delta $-2.97\times10^{-4}$ & tuned signal looked useful \\
-Stage 48 mixer & lockbox delta $+9.20\times10^{-5}$ & did not beat XGBoost lockbox \\
+Optimal model XGBoost & lockbox delta $-5.34\times10^{-4}$ & active strongest evidence \\
+Optimal model XGBoost & 62.2\% both-metric improvement & non-claim improvement evidence \\
+Optimal mixed model & validation delta $-2.97\times10^{-4}$ & tuned signal looked useful \\
+Optimal mixed model & lockbox delta $+9.20\times10^{-5}$ & did not beat optimal model XGBoost lockbox \\
 ROC-AUC & not reported & target is continuous regression \\
 Portfolio & diagnostic only & no trading/signal claim \\
 \bottomrule
@@ -223,8 +223,8 @@ Portfolio & diagnostic only & no trading/signal claim \\
 \textbf{Cautions}
 \begin{itemize}
   \item Validation improvement did not guarantee lockbox improvement.
-  \item Stale TSMixer readout invalidated earlier deep evidence.
   \item Portfolio-looking plots can mislead without transaction realism and causal validation.
+  \item Data compilation is a bottleneck: API limits (25 calls/day) slow dataset refresh; webscraping is advised to expand coverage.
 \end{itemize}
 \end{column}
 \end{columns}
@@ -232,79 +232,20 @@ Portfolio & diagnostic only & no trading/signal claim \\
 
 \begin{frame}{Final Conclusion}
 \begin{block}{Scientific conclusion}
-The updated XGBoost event-market pipeline is the current strongest artifact-backed evidence, but event-state value and deep-sequence superiority are not proven.
+The optimal model XGBoost event-market pipeline is the current strongest artifact-backed evidence, but event-state value and deep-sequence superiority are not proven.
 \end{block}
 \begin{block}{Deep learning conclusion}
-For financial forecasting, the most important DL competence is not just adding BERT, TSMixer, or Transformers; it is controlling leakage, validating architecture semantics, and resisting overfit narratives.
+For financial forecasting, the most important DL competence is not just adding BERT, optimal model TSMixer, or Transformers; it is controlling leakage, validating architecture semantics, and resisting overfit narratives.
 \end{block}
-\begin{block}{Non-claim boundary}
-No live forecast, no trading advice, no benchmark-comparability promotion, and no Stage 6 reinterpretation.
+\begin{block}{Performance and simulation conclusion}
+Performance gains are modest and fragile across horizons, and portfolio simulations remain diagnostic-only; the strongest evidence is the optimal model XGBoost lockbox deltas, not the historical portfolio curves.
 \end{block}
 \end{frame}
 
-\appendix
-
-\begin{frame}{Speaker Script: 8 Minute Timing}
-\scriptsize
-\begin{tabular}{@{}p{0.14\textwidth}p{0.80\textwidth}@{}}
-\toprule
-Time & Script focus \\
-\midrule
-0:00--0:40 & State the problem: event-state forecasting is attractive but leakage-prone. \\
-0:40--1:30 & Explain the split protocol and why lockbox isolation is the core of the work. \\
-1:30--2:30 & Position SOTA: FinBERT/BERT, boosting, TFT/PatchTST/iTransformer/Chronos. \\
-2:30--3:30 & Explain the implemented model stack and the TSMixer correction. \\
-3:30--4:40 & Walk through tuning curves: 800 trials, no lockbox tuning. \\
-4:40--5:50 & Present RMSE/MAE and mixer lockbox degradation honestly. \\
-5:50--6:40 & Explain uncertainty/ranking and why AUC is not applicable. \\
-6:40--7:20 & Discuss portfolio diagnostics as non-claim evidence only. \\
-7:20--8:00 & Conclude with the methodological lesson and non-claim boundary. \\
-\bottomrule
-\end{tabular}
-\end{frame}
-
-\begin{frame}{Delivery Guidelines for the Grading Rubric}
-\small
-\begin{columns}[T]
-\begin{column}{0.48\textwidth}
-\textbf{Presentation mechanics}
-\begin{itemize}
-  \item Logical sequence: problem, protocol, SOTA, models, results, discussion.
-  \item Keep one claim per slide; point to figures rather than reading every number.
-  \item Use 8 minutes, leaving 1--2 minutes for questions if the slot allows.
-\end{itemize}
-\end{column}
-\begin{column}{0.48\textwidth}
-\textbf{Delivery behavior}
-\begin{itemize}
-  \item Make eye contact after each slide transition.
-  \item Stand still for key results; gesture only to highlight axes or deltas.
-  \item Speak slowly on limitations: this demonstrates scientific maturity.
-\end{itemize}
-\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Likely Q\&A}
-\small
-\begin{itemize}
-  \item \textbf{Why no AUC?} Labels are continuous excess returns; classification AUC would require an extra directional label and a different objective.
-  \item \textbf{Why not claim the portfolio result?} It is historical, frictionless, post-selection, and partly uses stale/frozen TSMixer diagnostic predictions.
-  \item \textbf{Where is deep learning?} FinBERT sidecars, TSMixer sequence modeling, horizon mixing, and comparison to modern time-series architectures; the project also shows why DL claims need robust validation.
-  \item \textbf{What would improve next?} Corrected TSMixer rerun, stronger event encoders, larger universe as a new benchmark family, and cost-aware portfolio diagnostics.
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Key References Mentioned}
-\scriptsize
-\begin{columns}[T]
-\begin{column}{0.48\textwidth}
-Fama (1970); Fama and French (1993); Campbell, Lo, and MacKinlay (1997); Tetlock (2007); Loughran and McDonald (2011); Devlin et al. (2019); Araci (2019); Chen and Guestrin (2016); Ke et al. (2017).
-\end{column}
-\begin{column}{0.48\textwidth}
-Lim et al. (2021); Nie et al. (2023); Liu et al. (2024); Ansari et al. (2024); Hyndman and Koehler (2006); Bergmeir et al. (2018); Harvey et al. (2016); Fawcett (2006).
-\end{column}
-\end{columns}
+\begin{frame}
+  \centering
+  \vspace{2.2em}
+  {\LARGE THANK YOU}
 \end{frame}
 
 \end{document}

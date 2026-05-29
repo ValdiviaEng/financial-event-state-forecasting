@@ -1392,6 +1392,12 @@ edgers, and con-
  []
 
 
+Overfull \hbox (4.01025pt too wide) in paragraph at lines 21--21
+\TU/LinLibertine(0)/m/n/9 (frozen-base horizon mixer) improved validation error
+, but degraded
+ []
+
+
 Overfull \hbox (1.73102pt too wide) in paragraph at lines 24--25
 \TU/LinLibertine(0)/m/n/9 parisons. The implemented roster spans linear and tre
 e market base-
@@ -1406,13 +1412,58 @@ Overfull \hbox (2.68803pt too wide) in paragraph at lines 38--39
  []
 
 
-Overfull \hbox (1.87651pt too wide) in paragraph at lines 40--41
-\TU/LinLibertine(0)/m/n/9 Because a corrected full TSMixer search was estimated
- at 23.1 hours
+Overfull \hbox (1.49553pt too wide) in paragraph at lines 40--41
+\TU/LinLibertine(0)/m/n/9 (frozen-base horizon mixer) tuned only a lightweight 
+horizon mixer
  []
 
+
+Overfull \hbox (14.29051pt too wide) in paragraph at lines 40--41
+\TU/LinLibertine(0)/m/n/9 over frozen optimal model XGBoost and frozen optimal 
+model TSMixer
+ []
+
+[1.1
+
+]
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 47.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
+pping=tex-text;" at 9.0pt
+ -> LinBiolinum_R.otf
+LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
+(Font)              scaled to size 7.0pt on input line 47.
+Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
+pping=tex-text;" at 7.0pt
+ -> LinBiolinum_R.otf
+ [2.2] (FinalReport.bbl
+LaTeX Info: Redefining \tempurl on input line 72.
+LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
+(Font)              scaled to size 7.0pt on input line 84.
+Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
+mapping=tex-text;" at 7.0pt
+ -> LinLibertine_RI.otf
+LaTeX Info: Redefining \tempurl on input line 88.
+LaTeX Info: Redefining \tempurl on input line 114.
+LaTeX Info: Redefining \tempurl on input line 130.
+LaTeX Info: Redefining \tempurl on input line 145.
+LaTeX Info: Redefining \tempurl on input line 160.
+LaTeX Info: Redefining \tempurl on input line 174.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+LaTeX Info: Redefining \tempurl on input line 188.
+LaTeX Info: Redefining \tempurl on input line 202.
+LaTeX Info: Redefining \tempurl on input line 232.
+LaTeX Info: Redefining \tempurl on input line 248.
+LaTeX Info: Redefining \tempurl on input line 264.
+LaTeX Info: Redefining \tempurl on input line 280.
+LaTeX Info: Redefining \tempurl on input line 296.
+) [3.3
+
+]
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 45.
+(Font)              scaled to size 6.0pt on input line 58.
 Requested font "[LinLibertine_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;m
 apping=tex-text;" at 6.0pt
  -> LinLibertine_R.otf
@@ -1439,63 +1490,6 @@ Requested font "ntxsyc" at 6.5pt
  -> ntxsyc
 Requested font "ntxexa" at 6.5pt
  -> ntxexa
-
-Overfull \hbox (9.68855pt too wide) in paragraph at lines 67--68
-\TU/LinLibertine(0)/m/n/9 also found failure modes: stale TSMixer readout seman
-tics, validation-
- []
-
-
-Overfull \hbox (1.22029pt too wide) in paragraph at lines 67--68
-\TU/LinLibertine(0)/m/n/9 to-lockbox degradation, and portfolio-like diagnostic
-s that can look
- []
-
-
-Overfull \hbox (1.45052pt too wide) in paragraph at lines 67--68
-\TU/LinLibertine(0)/m/n/9 persuasive while remaining non-causal and assumption-
-dependent.
- []
-
-[1.1
-
-]
-LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 69.
-Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
-pping=tex-text;" at 9.0pt
- -> LinBiolinum_R.otf
-LaTeX Font Info:    Font shape `TU/LinBiolinum(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 69.
-Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=dflt;+tnum;+lnum;ma
-pping=tex-text;" at 7.0pt
- -> LinBiolinum_R.otf
- [2.2
-
-] (FinalReport.bbl
-LaTeX Info: Redefining \tempurl on input line 72.
-LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 84.
-Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
-mapping=tex-text;" at 7.0pt
- -> LinLibertine_RI.otf
-LaTeX Info: Redefining \tempurl on input line 88.
-LaTeX Info: Redefining \tempurl on input line 114.
-LaTeX Info: Redefining \tempurl on input line 130.
-LaTeX Info: Redefining \tempurl on input line 145.
-LaTeX Info: Redefining \tempurl on input line 160.
-LaTeX Info: Redefining \tempurl on input line 174.
-LaTeX Info: Redefining \tempurl on input line 188.
-LaTeX Info: Redefining \tempurl on input line 202.
-LaTeX Info: Redefining \tempurl on input line 232.
-LaTeX Info: Redefining \tempurl on input line 248.
-LaTeX Info: Redefining \tempurl on input line 264.
-LaTeX Info: Redefining \tempurl on input line 280.
-LaTeX Info: Redefining \tempurl on input line 296.
-) [3.3
-
-
-]
 Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03
 ;" at 6.0pt
  -> Inconsolatazi4-Regular.otf
@@ -1504,13 +1498,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (10.6033pt too wide) in paragraph at lines 81--83
-[][][][] [] [][][][][][][] [] [][][][] [] [][][][][][][] [] [][][][][] [] [][][
-][][][][] [] [][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][]
- [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][] [] [][][][] [] [
-][][][][][][] [] [][][][] [] [][][][][][][][][]$[]\TU/LinLibertine(0)/m/n/6 . V
-alidation command: \TU/inconsolata(0)/m/n/6 source ~/venvs/ai/bin/activate && p
-ython
+Overfull \hbox (33.65929pt too wide) in paragraph at lines 59--61
+\TU/LinLibertine(0)/m/n/6 diagnostic []$[][][][] [] [][][][] [] [][][][] [] [][
+][][][][][] [] [][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][] [] []
+[] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][] [] [][][][][][
+][][][][] [] [][][][][][][][][][][][][][][][][] [] [][][][] [] [][][][][][][] [
+] [][][][] [] [][][][][][][][][]$[]. Validation command: \TU/inconsolata(0)/m/n
+/6 source ~/venvs/ai/bin/activate
  []
 
 File: report_artifacts/tuning_curves.pdf Graphic file (type pdf)
@@ -1540,6 +1534,6 @@ File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
 ) [6.6] (FinalReport.aux)
 Package rerunfilecheck Info: File `FinalReport.out' has not changed.
-(rerunfilecheck)             Checksum: 3F127504232E6C3B1BB9E2BC2EFFF62C;1094.
+(rerunfilecheck)             Checksum: CC335E2B2EE397CFF69379A579BDA40C;1094.
  )
-Output written on FinalReport.xdv (6 pages, 155492 bytes).
+Output written on FinalReport.xdv (6 pages, 153492 bytes).
