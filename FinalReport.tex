@@ -59,12 +59,14 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + lockbox & reports \\
 \label{tab:protocol}
 \end{table}
 
-\textbf{Models and training.} XGBoost is the primary event-market candidate, selected from the full 800-trial Optuna search. Its short-horizon portfolio rankings are flat for the 1d and 5d simulations, which identifies a concrete signal-construction issue for the next portfolio simulation. The TSMixer branch remains a frozen sequence-model comparator, and the Mixed model is a lightweight frozen-base horizon mixer over XGBoost and TSMixer predictions; no TSMixer weights were retrained.
+\textbf{Model-selection rationale.} The model roster was chosen to separate three questions. First, XGBoost is a strong tabular baseline for sparse market/event features and gives a high bar for calibrated return-level prediction. Second, TSMixer tests whether a 60-day sequence representation can extract temporal structure that a same-row tree model misses. Third, the Mixed model asks whether frozen XGBoost and TSMixer predictions can be combined horizon by horizon without retraining the sequence model. I also built a contextual bandit ranking protocol because the downstream use case is naturally cross-sectional: choose top and bottom baskets, not just minimize pointwise error. That protocol used combined feature and prediction contexts, primary $k=5$, $\epsilon=0.05$, 47,250 context rows, and 374,220 selection rows; it guided the ranking-family roadmap while the final comparison here is XGBoost, TSMixer, and the Mixed model.
 
-\textbf{Results.} Figure~\ref{fig:main} shows the key pattern. XGBoost is the strongest active model on lockbox error metrics: per-horizon RMSE is 0.0214, 0.0468, 0.0661, 0.0943, and 0.1929 for 1d, 5d, 10d, 20d, and 60d respectively (Appendix Table~\ref{tab:lockbox_horizon_results}). TSMixer is the strongest lockbox ranking model in the portfolio simulation: every best-by-horizon portfolio row is TSMixer, including 15.05\% at 1d and 12.43\% at 60d (Appendix Table~\ref{tab:portfolio_horizon_results}). The Mixed model improved validation fit but did not beat XGBoost on lockbox error. Thus, error forecasting and cross-sectional ranking produce different winners.
+\textbf{Models and training.} XGBoost is the primary event-market candidate, selected from the full 800-trial Optuna search. The selected trial used 21 features: seven market OHLCV and intraday variables, aligned-news/provider flags, minutes since latest aligned article, eight event-state hash embeddings, and no-news/empty-state flags. Its tree configuration is deliberately small and regularized: 200 histogram trees, depth 2, learning rate 0.0403, subsample 0.987, column subsample 0.543, $\gamma=0.502$, $\alpha=7.74$, and $\lambda=0.151$. The TSMixer incumbent is trial 307 from the sequence branch: 60-day windows, 21 features, two-seed mean, 10 epochs, batch size 2048, four mixer blocks, hidden widths 32/384/32, dropout 0.2, learning rate 0.00401, and 83,017 parameters. The Mixed model is an 800-trial frozen-base horizon mixer over XGBoost and TSMixer predictions; no TSMixer weights were retrained.
+
+\textbf{Results.} Figure~\ref{fig:main} shows the key pattern. XGBoost is the strongest active model on lockbox error metrics: per-horizon RMSE is 0.0214, 0.0468, 0.0661, 0.0943, and 0.1929 for 1d, 5d, 10d, 20d, and 60d respectively (Appendix Table~\ref{tab:lockbox_horizon_results}). TSMixer is the strongest lockbox ranking model in the portfolio simulation: every best-by-horizon portfolio row is TSMixer, including 15.05\% at 1d and 12.43\% at 60d (Appendix Table~\ref{tab:portfolio_horizon_results}). The fuller model and horizon simulation table shows why this is not a contradiction: XGBoost dominates calibrated RMSE and MAE, but its 1d/5d ranking simulations stay at the initial capital with zero trades, whereas TSMixer creates useful ranked baskets across all horizons (Appendix Table~\ref{tab:portfolio_model_horizon_results}). The Mixed model improved validation fit but did not beat XGBoost on lockbox error. Thus, error forecasting and cross-sectional ranking produce different winners.
 
 \section{Discussion}
-The strongest lesson is that financial deep learning must be evaluated as a full forecasting system, not as an isolated model leaderboard. XGBoost is the best calibrated error forecaster because it improves the prior XGBoost lockbox weighted error and clears more than half of RMSE/MAE comparisons. TSMixer is the best ranking forecaster because its sequence predictions translate most strongly into lockbox portfolio simulations. The Mixed model adds scientific value by showing that strong validation performance does not automatically translate to lockbox performance. Next steps are to try a deeper reinforcement learning model with capacity to rank predictions from most probable to least probable, expand data collection beyond the 25-call/day API bottleneck, and add transaction costs for richer portfolio evaluation. The project therefore produces a strong excess-return forecasting benchmark, an objective-specific model conclusion, and a concrete roadmap for improving the next model family.
+The strongest lesson is that financial deep learning must be evaluated as a full forecasting system, not as an isolated model leaderboard. XGBoost is the best calibrated error forecaster because it improves the prior XGBoost lockbox weighted error and clears more than half of RMSE/MAE comparisons. Its shallow, strongly regularized trees are well matched to robust point prediction, but that same shrinkage can compress cross-sectional dispersion. TSMixer is the best ranking forecaster because its sequence predictions translate most strongly into lockbox portfolio simulations. The likely mechanism is objective mismatch: RMSE and MAE reward accurate return levels, while the portfolio simulation rewards relative ordering among names on each rebalance date. A sequence model can be worse in absolute error while still placing the better candidates higher in the cross-section. The Mixed model adds scientific value by showing that strong validation performance does not automatically translate to lockbox performance. Next steps are to try a deeper reinforcement learning model with capacity to rank predictions from most probable to least probable, expand data collection beyond the 25 API calls per day bottleneck, and add transaction costs for richer portfolio evaluation. The project therefore produces a strong excess-return forecasting benchmark, an objective-specific model conclusion, and a concrete roadmap for improving the next model family.
 
 \clearpage
 
@@ -80,6 +82,24 @@ The strongest lesson is that financial deep learning must be evaluated as a full
 \begingroup\scriptsize\sloppy
 Repository: \url{https://github.com/ValdiviaEng/financial-event-state-forecasting.git}. Primary evidence roots are XGBoost \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage43__xgboost_tuning__20260528T100000Z__src_6dff1bd__run_40f1c9a0/}, the Mixed model \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage48__frozen_tsmixer_horizon_mixer__20260529T093301Z__src_6dff1bd__run_fc4c1756/}, and the lockbox portfolio simulation \url{data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage47__lockbox_portfolio_simulation__20260529T095157Z__src_6dff1bd__run_8317929b/}. Validation command: \texttt{source \string~/venvs/ai/bin/activate \&\& python -m pytest tests}.
 \endgroup
+
+\section{Model and Policy Configuration Details}
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Selected model-family and ranking-policy configuration. The active lockbox comparison uses XGBoost, TSMixer, and the Mixed model; the contextual-bandit protocol records the ranking-oriented direction used for future model selection.}
+\begin{tabular}{@{}p{0.15\linewidth}p{0.22\linewidth}p{0.53\linewidth}@{}}
+\toprule
+Family & Selection basis & Configuration details \\
+\midrule
+XGBoost & Trial 798 from 800 validation-selected trials & 21 event-market features; 200 histogram trees; max\_depth 2; learning rate 0.0403; subsample 0.987; colsample\_bytree 0.543; colsample\_bylevel 0.897; $\gamma=0.502$; min child weight 9.60; $\alpha=7.74$; $\lambda=0.151$; max\_bin 512. \\
+TSMixer & Trial 307 sequence incumbent & 60-day windows; 21 features; two-seed mean; 10 epochs; batch size 2048; four mixer blocks; hidden time/feature/head widths 32/384/32; dropout 0.2; learning rate 0.00401; weight decay $3.1\times10^{-5}$; 83,017 parameters. \\
+Mixed model & Trial 391 from 800 validation-selected trials & Frozen-base horizon mixer over XGBoost and TSMixer predictions. Horizon modes: elastic net for 1d, ridge for 5d, convex blends for 10d/20d/60d. TSMixer blend weights were 0.606, 0.323, 0.661, 0.426, and 0.615 for 1d, 5d, 10d, 20d, and 60d. \\
+Contextual bandit & Ranking-policy design & Combined feature/prediction contexts; primary basket size $k=5$; diagnostic $k\in\{3,10\}$; primary $\epsilon=0.05$; diagnostic $\epsilon\in\{0.01,0.10\}$; 47,250 context rows; 374,220 selection rows; 11 policy variants. \\
+\bottomrule
+\end{tabular}
+\label{tab:model_config_details}
+\end{table}
 
 \section{Exact Lockbox Results}
 \begin{table}[H]
@@ -126,6 +146,34 @@ Horizon & Model / policy & Return & Final equity & Trades \\
 \bottomrule
 \end{tabular}
 \label{tab:portfolio_horizon_results}
+\end{table}
+
+\begin{table}[H]
+\centering
+\scriptsize
+\caption{Best lockbox simulation row for each model and horizon. Initial capital is \$100,000. Turnover is total traded notional divided by initial capital.}
+\begin{tabular}{@{}lllrrrrr@{}}
+\toprule
+Model & Horizon & Best policy & Return & Final equity & Max DD & Trades & Turnover \\
+\midrule
+XGBoost & 1d & one\_d\_bot10 & 0.00\% & \$100,000 & 0.00\% & 0 & 0.0x \\
+XGBoost & 5d & one\_d\_bot10 & 0.00\% & \$100,000 & 0.00\% & 0 & 0.0x \\
+XGBoost & 10d & one\_d\_bot10 & 0.00\% & \$100,000 & 0.00\% & 0 & 0.0x \\
+XGBoost & 20d & botk\_2\_of\_5 & 3.16\% & \$103,160 & -5.14\% & 1681 & 4.7x \\
+XGBoost & 60d & one\_d\_bot10 & 3.13\% & \$103,125 & -4.32\% & 1280 & 1.4x \\
+TSMixer & 1d & one\_d\_bot10 & 15.05\% & \$115,045 & -5.20\% & 1161 & 34.0x \\
+TSMixer & 5d & one\_d\_bot10 & 5.24\% & \$105,240 & -5.73\% & 1831 & 21.8x \\
+TSMixer & 10d & none & 9.48\% & \$109,482 & -5.07\% & 1780 & 10.0x \\
+TSMixer & 20d & none & 7.54\% & \$107,536 & -6.40\% & 1680 & 4.7x \\
+TSMixer & 60d & botk\_3\_of\_5 & 12.43\% & \$112,434 & -4.69\% & 1319 & 1.4x \\
+Mixed model & 1d & botk\_4\_of\_5 & 8.39\% & \$108,393 & -10.03\% & 1267 & 54.1x \\
+Mixed model & 5d & one\_d\_bot10 & 4.82\% & \$104,820 & -6.14\% & 1830 & 21.9x \\
+Mixed model & 10d & none & 9.48\% & \$109,482 & -5.07\% & 1780 & 10.0x \\
+Mixed model & 20d & botk\_2\_of\_5 & 7.09\% & \$107,090 & -6.71\% & 1680 & 4.8x \\
+Mixed model & 60d & one\_d\_bot10 & 7.48\% & \$107,483 & -4.68\% & 1456 & 1.6x \\
+\bottomrule
+\end{tabular}
+\label{tab:portfolio_model_horizon_results}
 \end{table}
 
 \section{Supplementary Visualizations}

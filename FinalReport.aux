@@ -30,10 +30,10 @@
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Protocol: Leakage-aware artifact pipeline.\relax }}{1}{table.caption.4}\protected@file@percent }
 \newlabel{tab:protocol}{{1}{1}{Protocol: Leakage-aware artifact pipeline.\relax }{table.caption.4}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3}Experiments}{1}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{1}{section.4}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Core evidence. A: XGBoost tuning used train/validation-only selection. B: lockbox RMSE by horizon. C: Mixed model validation gains did not transfer to lockbox. D: the lockbox portfolio simulation summarizes realized forecast rankings over the 137-day evaluation window.\relax }}{2}{figure.caption.3}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:main}{{1}{2}{Core evidence. A: XGBoost tuning used train/validation-only selection. B: lockbox RMSE by horizon. C: Mixed model validation gains did not transfer to lockbox. D: the lockbox portfolio simulation summarizes realized forecast rankings over the 137-day evaluation window.\relax }{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{2}{section.4}\protected@file@percent }
 \bibstyle{ACM-Reference-Format}
 \bibdata{FinalReport}
 \bibcite{Ansari2024Chronos}{{1}{2024}{{Ansari et~al\mbox  {.}}}{{}}}
@@ -55,22 +55,27 @@
 \bibcite{Tetlock2007}{{17}{2007}{{Tetlock}}{{}}}
 \@writefile{toc}{\contentsline {section}{References}{3}{section*.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {A}Artifact Roots and Replication Commands}{4}{appendix.A}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {B}Exact Lockbox Results}{4}{appendix.B}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Lockbox metrics by model and horizon. Lower RMSE/MAE is better; $R^2$ is against the zero-return baseline.\relax }}{4}{table.caption.7}\protected@file@percent }
-\newlabel{tab:lockbox_horizon_results}{{2}{4}{Lockbox metrics by model and horizon. Lower RMSE/MAE is better; $R^2$ is against the zero-return baseline.\relax }{table.caption.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Best portfolio row by horizon over the 137-day lockbox interval. The rows summarize realized forecast-ranking simulations under the stated frictionless assumptions.\relax }}{4}{table.caption.8}\protected@file@percent }
-\newlabel{tab:portfolio_horizon_results}{{3}{4}{Best portfolio row by horizon over the 137-day lockbox interval. The rows summarize realized forecast-ranking simulations under the stated frictionless assumptions.\relax }{table.caption.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {C}Supplementary Visualizations}{5}{appendix.C}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Optuna incumbent curves for XGBoost and the Mixed model.\relax }}{5}{figure.caption.9}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Lockbox RMSE and MAE by horizon for XGBoost, TSMixer, and the Mixed model.\relax }}{5}{figure.caption.10}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Horizon-specific raw mixer weights and lockbox horizon deltas.\relax }}{6}{figure.caption.11}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Portfolio simulations over the 2025-09-30 to 2026-02-13 lockbox interval (137 calendar days): final equity by policy and return versus turnover.\relax }}{6}{figure.caption.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {B}Model and Policy Configuration Details}{4}{appendix.B}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Selected model-family and ranking-policy configuration. The active lockbox comparison uses XGBoost, TSMixer, and the Mixed model; the contextual-bandit protocol records the ranking-oriented direction used for future model selection.\relax }}{4}{table.caption.7}\protected@file@percent }
+\newlabel{tab:model_config_details}{{2}{4}{Selected model-family and ranking-policy configuration. The active lockbox comparison uses XGBoost, TSMixer, and the Mixed model; the contextual-bandit protocol records the ranking-oriented direction used for future model selection.\relax }{table.caption.7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Exact Lockbox Results}{4}{appendix.C}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Lockbox metrics by model and horizon. Lower RMSE/MAE is better; $R^2$ is against the zero-return baseline.\relax }}{4}{table.caption.8}\protected@file@percent }
+\newlabel{tab:lockbox_horizon_results}{{3}{4}{Lockbox metrics by model and horizon. Lower RMSE/MAE is better; $R^2$ is against the zero-return baseline.\relax }{table.caption.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Best portfolio row by horizon over the 137-day lockbox interval. The rows summarize realized forecast-ranking simulations under the stated frictionless assumptions.\relax }}{4}{table.caption.9}\protected@file@percent }
+\newlabel{tab:portfolio_horizon_results}{{4}{4}{Best portfolio row by horizon over the 137-day lockbox interval. The rows summarize realized forecast-ranking simulations under the stated frictionless assumptions.\relax }{table.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Best lockbox simulation row for each model and horizon. Initial capital is \$100,000. Turnover is total traded notional divided by initial capital.\relax }}{5}{table.caption.10}\protected@file@percent }
+\newlabel{tab:portfolio_model_horizon_results}{{5}{5}{Best lockbox simulation row for each model and horizon. Initial capital is \$100,000. Turnover is total traded notional divided by initial capital.\relax }{table.caption.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {D}Supplementary Visualizations}{5}{appendix.D}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Optuna incumbent curves for XGBoost and the Mixed model.\relax }}{5}{figure.caption.11}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Lockbox RMSE and MAE by horizon for XGBoost, TSMixer, and the Mixed model.\relax }}{5}{figure.caption.12}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Horizon-specific raw mixer weights and lockbox horizon deltas.\relax }}{6}{figure.caption.13}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Portfolio simulations over the 2025-09-30 to 2026-02-13 lockbox interval (137 calendar days): final equity by policy and return versus turnover.\relax }}{6}{figure.caption.14}\protected@file@percent }
 \newlabel{tocindent-1}{0pt}
 \newlabel{tocindent0}{0pt}
-\newlabel{tocindent1}{6.255pt}
+\newlabel{tocindent1}{6.309pt}
 \newlabel{tocindent2}{0pt}
 \newlabel{tocindent3}{0pt}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Portfolio return bars by horizon, model, sell policy, and SP50 benchmark proxy over the 137-day lockbox interval.\relax }}{7}{figure.caption.13}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ranking signal quality and block-bootstrap support.\relax }}{7}{figure.caption.14}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Portfolio return bars by horizon, model, sell policy, and SP50 benchmark proxy over the 137-day lockbox interval.\relax }}{7}{figure.caption.15}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Ranking signal quality and block-bootstrap support.\relax }}{7}{figure.caption.16}\protected@file@percent }
 \newlabel{TotPages}{{7}{7}{}{page.7}{}}
 \gdef \@abspage@last{7}
