@@ -18,7 +18,7 @@
 \begin{frame}
   \titlepage
   \vspace{-0.5em}
-  \centering\small Historical research artifact only: no trading advice, no live forecast, no positive benchmark claim.
+  \centering\small Multi-horizon excess-return forecasting with leakage-aware deep-learning benchmarks.
 \end{frame}
 
 \begin{frame}{Talk Roadmap}
@@ -33,9 +33,9 @@
 \begin{column}{0.48\textwidth}
 \textbf{Answer}
 \begin{itemize}
-  \item The strongest active evidence is an optimal model XGBoost event-market baseline.
-  \item The optimal mixed model (frozen-base horizon mixer) improved validation but not optimal model XGBoost lockbox.
-  \item The main contribution is a rigorous, reproducible evaluation system.
+  \item XGBoost is the strongest lockbox RMSE/MAE forecaster.
+  \item TSMixer is the strongest lockbox portfolio-ranking model.
+  \item The main contribution is a rigorous, reproducible forecasting system.
 \end{itemize}
 \end{column}
 \end{columns}
@@ -52,7 +52,7 @@
 \end{column}
 \begin{column}{0.42\textwidth}
 \begin{block}{Design principle}
-Train/validation is for search. Lockbox is for one final post-selection diagnostic.
+Train/validation is for search. Lockbox is the final excess-return forecasting test.
 \end{block}
 \begin{block}{Metric principle}
 ROC-AUC is not applicable: this is continuous excess-return regression.
@@ -66,13 +66,13 @@ ROC-AUC is not applicable: this is continuous excess-return regression.
 \small
 \begin{tabular}{@{}llll@{}}
 \toprule
-Stage & Artifact & Key guardrail & Output \\
+Stage & Artifact & Key control & Output \\
 \midrule
 Data & Top-50 + OHLCV + news & no raw overwrite & row universe \\
 Features & market + event states & no-news rows preserved & sidecars \\
 Splits & expanding folds + lockbox & purge/embargo & split manifest \\
 Training & fold-local preprocessing & no lockbox tuning & saved preds \\
-Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
+Evaluation & RMSE/MAE + rank IC & bootstrap + lockbox & reports \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -88,7 +88,7 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \begin{column}{0.50\textwidth}
 \textbf{Financial ML baselines}
 \begin{itemize}
-  \item Efficient-market caution and expected-return multiple testing.
+  \item Efficient-market discipline and expected-return multiple testing.
   \item Gradient boosting is still a very strong tabular baseline.
   \item Forecast metrics: RMSE, MAE, OOS $R^2$, rank IC.
 \end{itemize}
@@ -97,7 +97,7 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \textbf{Deep learning candidates}
 \begin{itemize}
   \item FinBERT/BERT for semantic financial text features.
-  \item Optimal model TSMixer and Transformer-family sequence models.
+  \item TSMixer and Transformer-family sequence models.
   \item PatchTST, iTransformer, TFT, and Chronos motivate richer temporal architectures.
 \end{itemize}
 \end{column}
@@ -119,15 +119,15 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \begin{itemize}
   \item Lag/rolling features.
   \item Linear and fixed XGBoost baselines.
-  \item Optimal model XGBoost: 800-trial tuned baseline.
+  \item XGBoost: 800-trial tuned baseline.
 \end{itemize}
 \end{column}
 \begin{column}{0.30\textwidth}
 \textbf{Sequence/Mixer}
 \begin{itemize}
-  \item TSMixer diagnostics.
+  \item TSMixer sequence models.
   \item Readout correction audit.
-  \item Optimal mixed model (frozen-base horizon mixer): horizon mixer only.
+  \item Mixed model: frozen-base horizon mixer.
 \end{itemize}
 \end{column}
 \end{columns}
@@ -139,9 +139,31 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \end{center}
 \vspace{-0.5em}
 \begin{itemize}
-  \item Optimal model XGBoost: 800 completed trials, best trial 798.
-  \item Optimal mixed model (frozen-base horizon mixer): 800 completed meta/mixer trials, best trial 391.
+  \item XGBoost Optuna search completed 800 trials; selected model wins lockbox RMSE/MAE.
+  \item Mixed model completed 800 meta/mixer trials; validation gains did not beat XGBoost error on lockbox.
   \item Both searches used zero lockbox rows for tuning.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Exact Lockbox RMSE by Horizon}
+\begin{center}
+\small
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+Horizon & XGBoost & TSMixer & Mixed model & Best \\
+\midrule
+1d & 0.0214 & 0.0221 & 0.0214 & XGBoost \\
+5d & 0.0468 & 0.0469 & 0.0469 & XGBoost \\
+10d & 0.0661 & 0.0670 & 0.0665 & XGBoost \\
+20d & 0.0943 & 0.0949 & 0.0944 & XGBoost \\
+60d & 0.1929 & 0.1972 & 0.1942 & XGBoost \\
+\bottomrule
+\end{tabular}
+\end{center}
+\vspace{0.4em}
+\begin{itemize}
+  \item Error increases sharply with horizon, as expected for longer excess-return windows.
+  \item XGBoost is the most consistent lockbox error-metric model.
 \end{itemize}
 \end{frame}
 
@@ -152,19 +174,29 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \vspace{-0.5em}
 \begin{itemize}
   \item Regression metrics are primary because labels are continuous forward excess returns.
-  \item The optimal mixed model does not dominate optimal model XGBoost on lockbox.
+  \item XGBoost gives the strongest lockbox RMSE profile across horizons.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Deep Learning Lesson: Validation Gains Are Not Enough}
+\begin{frame}{Error Winner vs Ranking Winner}
 \begin{center}
-\includegraphics[width=0.92\textwidth]{report_artifacts/mixer_weights_deltas.pdf}
+\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+Question & Winner & Evidence \\
+\midrule
+Lowest lockbox RMSE/MAE & XGBoost & best RMSE across all 5 horizons \\
+Best lockbox portfolio simulation & TSMixer & 15.05\%, \$115,045 over 137 days \\
+Best Mixed model role & validation fusion & validation delta $-2.97\times10^{-4}$ vs XGB \\
+Mixed lockbox error vs XGB & XGBoost & Mixed delta $+9.20\times10^{-5}$ \\
+Main interpretation & objective matters & calibrated error and ranking diverge \\
+\bottomrule
+\end{tabular}
 \end{center}
-\vspace{-0.5em}
+\vspace{0.4em}
 \begin{itemize}
-  \item The optimal mixed model improved validation weighted error vs optimal model XGBoost by $-2.97\times10^{-4}$.
-  \item It worsened post-selection lockbox weighted error vs optimal model XGBoost by $+9.20\times10^{-5}$.
-  \item Conclusion: stronger architectures require stronger selection controls, not looser claims.
+  \item XGBoost learned the most accurate excess-return levels under RMSE/MAE.
+  \item TSMixer produced the strongest cross-sectional ranking signal in portfolio simulation.
 \end{itemize}
 \end{frame}
 
@@ -174,36 +206,70 @@ Evaluation & RMSE/MAE + rank IC & bootstrap + claim gate & reports \\
 \end{center}
 \vspace{-0.5em}
 \begin{itemize}
-  \item Rank IC and hit-rate diagnostics are secondary: useful for interpretation, not primary selection.
+  \item Rank IC and hit-rate results describe cross-sectional forecast quality.
   \item Moving-block bootstrap checks temporal dependence and uncertainty.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Portfolio Simulation: Diagnostic Only}
+\begin{frame}{Lockbox Portfolio Simulation}
 \begin{center}
-\includegraphics[width=0.82\textwidth]{report_artifacts/portfolio_diagnostics.pdf}
+\includegraphics[width=0.82\textwidth]{report_artifacts/portfolio_simulations.pdf}
 \end{center}
 \vspace{-0.5em}
 \begin{itemize}
   \item Initial capital: \$100k; long-only, fractional shares, no costs, no slippage, no taxes.
-  \item Best historical row: \$115,045 final equity, but it uses frozen optimal model TSMixer diagnostic predictions.
-  \item This is not a buy/sell system and not benchmark claim evidence.
+  \item Lockbox trading window: 2025-09-30 to 2026-02-13, 137 calendar days, about 4.5 months.
+  \item Best row: \$115,045 final equity; it uses frozen TSMixer sequence predictions.
+  \item XGBoost short-horizon no-trade cases identify flat-rank signal construction for the next model.
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Main Numerical Takeaways}
+\begin{frame}{Portfolio Bar Charts by Horizon}
+\begin{center}
+\includegraphics[width=0.31\textwidth]{report_artifacts/portfolio_returns_by_policy_model_1d.pdf}
+\includegraphics[width=0.31\textwidth]{report_artifacts/portfolio_returns_by_policy_model_5d.pdf}
+\includegraphics[width=0.31\textwidth]{report_artifacts/portfolio_returns_by_policy_model_10d.pdf}
+\includegraphics[width=0.31\textwidth]{report_artifacts/portfolio_returns_by_policy_model_20d.pdf}
+\includegraphics[width=0.31\textwidth]{report_artifacts/portfolio_returns_by_policy_model_60d.pdf}
+\end{center}
+\vspace{-0.6em}
+\begin{itemize}
+  \item Bars include model-policy simulations plus Equal-weight SP50 and Rank-weight SP50 proxies.
+  \item The 15.05\% top row is over 137 calendar days, not a long annual test.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Main Numerical Results}
 \begin{center}
 \small
 \begin{tabular}{@{}lll@{}}
 \toprule
 Evidence & Result & Interpretation \\
 \midrule
-Optimal model XGBoost & lockbox delta $-5.34\times10^{-4}$ & active strongest evidence \\
-Optimal model XGBoost & 62.2\% both-metric improvement & non-claim improvement evidence \\
-Optimal mixed model & validation delta $-2.97\times10^{-4}$ & tuned signal looked useful \\
-Optimal mixed model & lockbox delta $+9.20\times10^{-5}$ & did not beat optimal model XGBoost lockbox \\
-ROC-AUC & not reported & target is continuous regression \\
-Portfolio & diagnostic only & no trading/signal claim \\
+XGBoost lockbox delta & $-5.34\times10^{-4}$ vs prior XGB & best error forecaster \\
+XGBoost both-metric rate & 62.2\% & consistent error improvement \\
+TSMixer best portfolio row & 15.05\%, \$115,045 & best ranking simulation \\
+Mixed validation delta & $-2.97\times10^{-4}$ vs XGB & looked useful in search \\
+Mixed lockbox delta & $+9.20\times10^{-5}$ vs XGB & fusion did not beat XGBoost error \\
+ROC-AUC & not reported & continuous regression target \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{frame}
+
+\begin{frame}{How Good Is the Final Model?}
+\begin{center}
+\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+Dimension & Judgment & Evidence \\
+\midrule
+Error forecasting & XGBoost leads & best RMSE across all horizons \\
+Relative error gain & measurable & XGBoost delta $-5.34\times10^{-4}$ \\
+Ranking simulation & TSMixer leads & 15.05\% top row over 137 days \\
+Mixed model value & useful validation fusion & $-2.97\times10^{-4}$ validation delta \\
+Model-selection lesson & objective-specific winner & error and ranking diverge \\
+Research value & strong & leakage-aware artifacts and audits \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -216,15 +282,15 @@ Portfolio & diagnostic only & no trading/signal claim \\
 \begin{itemize}
   \item Reproducibility can be engineered through manifests, saved predictions, and tests.
   \item Tree baselines are hard to beat in small financial tabular settings.
-  \item Deep sequence models need architecture audits and strong baselines.
+  \item Deep sequence models need architecture audits and strong baselines; high validation score does not automatically translate to lockbox performance.
 \end{itemize}
 \end{column}
 \begin{column}{0.48\textwidth}
-\textbf{Cautions}
+\textbf{Next steps}
 \begin{itemize}
-  \item Validation improvement did not guarantee lockbox improvement.
-  \item Portfolio-looking plots can mislead without transaction realism and causal validation.
-  \item Data compilation is a bottleneck: API limits (25 calls/day) slow dataset refresh; webscraping is advised to expand coverage.
+  \item Try a deeper reinforcement learning model with capacity to rank predictions from most probable to least probable.
+  \item Expand data collection beyond API limits with a reproducible scraping/cache layer.
+  \item Add transaction costs and slippage before any portfolio-style interpretation.
 \end{itemize}
 \end{column}
 \end{columns}
@@ -232,13 +298,13 @@ Portfolio & diagnostic only & no trading/signal claim \\
 
 \begin{frame}{Final Conclusion}
 \begin{block}{Scientific conclusion}
-The optimal model XGBoost event-market pipeline is the current strongest artifact-backed evidence, but event-state value and deep-sequence superiority are not proven.
+XGBoost is the final strongest lockbox error forecaster; TSMixer is the strongest lockbox ranking-simulation model.
 \end{block}
 \begin{block}{Deep learning conclusion}
-For financial forecasting, the most important DL competence is not just adding BERT, optimal model TSMixer, or Transformers; it is controlling leakage, validating architecture semantics, and resisting overfit narratives.
+For financial forecasting, the most important DL competence is not just adding BERT, TSMixer, or Transformers; it is controlling leakage, validating architecture semantics, and resisting overfit narratives.
 \end{block}
 \begin{block}{Performance and simulation conclusion}
-Performance gains are modest and fragile across horizons, and portfolio simulations remain diagnostic-only; the strongest evidence is the optimal model XGBoost lockbox deltas, not the historical portfolio curves.
+Performance gains are measurable across the lockbox: XGBoost improves calibrated excess-return error, while TSMixer gives the best realized portfolio-ranking simulation at 15.05\% over 137 calendar days.
 \end{block}
 \end{frame}
 

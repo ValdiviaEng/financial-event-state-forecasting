@@ -787,34 +787,49 @@ File: report_artifacts/tuning_curves.pdf Graphic file (type pdf)
 <use report_artifacts/tuning_curves.pdf>
  [7
 
+] [8
+
 ]
 File: report_artifacts/lockbox_rmse_mae.pdf Graphic file (type pdf)
 <use report_artifacts/lockbox_rmse_mae.pdf>
- [8
-
-]
-File: report_artifacts/mixer_weights_deltas.pdf Graphic file (type pdf)
-<use report_artifacts/mixer_weights_deltas.pdf>
  [9
+
+] [10
 
 ]
 File: report_artifacts/ranking_uncertainty.pdf Graphic file (type pdf)
 <use report_artifacts/ranking_uncertainty.pdf>
- [10
-
-]
-File: report_artifacts/portfolio_diagnostics.pdf Graphic file (type pdf)
-<use report_artifacts/portfolio_diagnostics.pdf>
  [11
 
 ]
-Overfull \hbox (19.63597pt too wide) in paragraph at lines 210--210
- [] 
- []
+File: report_artifacts/portfolio_simulations.pdf Graphic file (type pdf)
+<use report_artifacts/portfolio_simulations.pdf>
+ [12
 
-[12
+]
+File: report_artifacts/portfolio_returns_by_policy_model_1d.pdf Graphic file (t
+ype pdf)
+<use report_artifacts/portfolio_returns_by_policy_model_1d.pdf>
+File: report_artifacts/portfolio_returns_by_policy_model_5d.pdf Graphic file (t
+ype pdf)
+<use report_artifacts/portfolio_returns_by_policy_model_5d.pdf>
+File: report_artifacts/portfolio_returns_by_policy_model_10d.pdf Graphic file (
+type pdf)
+<use report_artifacts/portfolio_returns_by_policy_model_10d.pdf>
+File: report_artifacts/portfolio_returns_by_policy_model_20d.pdf Graphic file (
+type pdf)
+<use report_artifacts/portfolio_returns_by_policy_model_20d.pdf>
+File: report_artifacts/portfolio_returns_by_policy_model_60d.pdf Graphic file (
+type pdf)
+<use report_artifacts/portfolio_returns_by_policy_model_60d.pdf>
+ [13
 
-] [13
+] [14
+
+]
+[15
+
+] [16
 
 ]
 Missing character: There is no 2 ("32) in font nullfont!
@@ -823,9 +838,9 @@ Missing character: There is no 2 ("32) in font nullfont!
 Missing character: There is no 7 ("37) in font nullfont!
 Missing character: There is no 3 ("33) in font nullfont!
 Missing character: There is no 2 ("32) in font nullfont!
-[14
+[17
 
-] [15
+] [18
 
 ]
 \tf@nav=\write6
@@ -841,4 +856,4 @@ Missing character: There is no 2 ("32) in font nullfont!
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  )
-Output written on Presentation.xdv (15 pages, 127988 bytes).
+Output written on Presentation.xdv (18 pages, 145624 bytes).

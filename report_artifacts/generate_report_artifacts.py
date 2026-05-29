@@ -18,11 +18,15 @@ OUT = Path("report_artifacts")
 S43 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage43__xgboost_tuning__20260528T100000Z__src_6dff1bd__run_40f1c9a0")
 S44 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage44__tsmixer_training__20260528T120000Z__src_6dff1bd__run_6817ae4c")
 S48 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage48__frozen_tsmixer_horizon_mixer__20260529T093301Z__src_6dff1bd__run_fc4c1756")
-S47 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage47__lockbox_portfolio_simulation__20260529T113128Z__src_6dff1bd__run_dfcd4579")
+S47 = Path("data/v1p0_full_results/v1p0__phase1_top50_updated_av__stage47__lockbox_portfolio_simulation__20260529T095157Z__src_6dff1bd__run_8317929b")
 S6 = Path("data/benchmark_runs/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_c82c06990ba7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage6_reporting_v1")
+MARKET = Path("data/features/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_c82c06990ba7__rows_6868e3b80086__stage3_features_labels_v1/market_features.parquet")
 
 HORIZON_ORDER = ["1d", "5d", "10d", "20d", "60d"]
 HWEIGHTS = {"1d": 0.30, "5d": 0.25, "10d": 0.20, "20d": 0.15, "60d": 0.10}
+LOCKBOX_START_DATE = "2025-09-30"
+LOCKBOX_END_DATE = "2026-02-13"
+LOCKBOX_LABEL = "lockbox 2025-09-30 to 2026-02-13, 137 calendar days"
 MODEL_SHORT = {
     "updated_av_xgboost_event_market_optuna_v1": "XGBoost",
     "updated_av_tsmixer_event_market_optuna_v1_seed_mean": "TSMixer",
@@ -49,6 +53,55 @@ def blend_with_white(color: str, strength: float) -> str:
     strength = float(np.clip(strength, 0.0, 1.0))
     blended = rgb * (1.0 - strength) + white * strength
     return mcolors.to_hex(blended)
+
+
+def compute_portfolio_benchmark_returns(market: pd.DataFrame, port: pd.DataFrame) -> dict[str, float]:
+    start_date = LOCKBOX_START_DATE
+    final_date = str(port["final_mark_date"].max())
+    prices = market[market["horizon_id"].eq("1d")].drop_duplicates(["canonical_ticker", "as_of_date"]).copy()
+    dates = sorted(prices["as_of_date"].unique().tolist())
+    start_idx = dates.index(start_date)
+    execution_dates = dates[start_idx + 1 :]
+    execution_dates = [date for date in execution_dates if date <= final_date]
+    if not execution_dates:
+        return {"Equal-weight SP50": 0.0, "Rank-weight SP50": 0.0}
+
+    first_execution = execution_dates[0]
+    start_prices = prices[prices["as_of_date"].eq(first_execution)].set_index("canonical_ticker")["market_open"]
+    final_prices = prices[prices["as_of_date"].eq(final_date)].set_index("canonical_ticker")["market_open"]
+    tickers = sorted(set(start_prices.index) & set(final_prices.index))
+    equal_return = float((final_prices.reindex(tickers) / start_prices.reindex(tickers) - 1.0).mean())
+
+    price_lookup = {(row.canonical_ticker, row.as_of_date): float(row.market_open) for row in prices.itertuples(index=False)}
+    value = 1.0
+    previous_date = first_execution
+    weights = _daily_value_weights(prices, start_date)
+    for signal_date, execution_date in zip(dates[start_idx + 1 :], execution_dates[1:]):
+        returns = []
+        active_weights = []
+        for ticker, weight in weights.items():
+            old_price = price_lookup.get((ticker, previous_date))
+            new_price = price_lookup.get((ticker, execution_date))
+            if old_price and new_price and old_price > 0:
+                returns.append(new_price / old_price - 1.0)
+                active_weights.append(weight)
+        if active_weights:
+            normalized = np.array(active_weights, dtype="float64") / float(np.sum(active_weights))
+            value *= 1.0 + float(np.sum(normalized * np.array(returns, dtype="float64")))
+        weights = _daily_value_weights(prices, signal_date)
+        previous_date = execution_date
+    return {"Equal-weight SP50": equal_return, "Rank-weight SP50": float(value - 1.0)}
+
+
+def _daily_value_weights(prices: pd.DataFrame, signal_date: str) -> dict[str, float]:
+    day = prices[prices["as_of_date"].eq(signal_date)].copy()
+    if day.empty:
+        return {}
+    day["value_proxy"] = day["market_close"].astype("float64") * day["market_volume"].astype("float64")
+    day = day.sort_values(["value_proxy", "canonical_ticker"], ascending=[False, True]).reset_index(drop=True)
+    scores = np.arange(len(day), 0, -1, dtype="float64")
+    weights = scores / scores.sum()
+    return {str(ticker): float(weight) for ticker, weight in zip(day["canonical_ticker"], weights)}
 
 
 def weighted_delta(deltas: pd.DataFrame) -> float:
@@ -99,6 +152,9 @@ def main() -> None:
     port = port[port["model_short"].notna()].copy()
     port["horizon_id"] = pd.Categorical(port["horizon_id"], HORIZON_ORDER, ordered=True)
     port_mean = port.groupby(["model_short", "sell_policy"], as_index=False).agg(mean_final_equity=("final_equity", "mean"), best_final_equity=("final_equity", "max"), mean_drawdown=("max_drawdown_pct", "mean"))
+    market = pd.read_parquet(MARKET, columns=["canonical_ticker", "as_of_date", "horizon_id", "market_open", "market_close", "market_volume"])
+    market["as_of_date"] = pd.to_datetime(market["as_of_date"]).dt.strftime("%Y-%m-%d")
+    benchmark_returns = compute_portfolio_benchmark_returns(market, port)
 
     rank = pd.read_parquet(S6 / "ranking_diagnostics.parquet")
     rank_lock = rank[rank["split_role"].eq("lockbox")].copy()
@@ -107,9 +163,9 @@ def main() -> None:
     write_main_panel(ledger43, metric_summary, delta_summary, port)
     write_tuning_curves(ledger43, ledger48)
     write_metric_bars(metric_summary)
-    write_mixer_diagnostics(coef_summary, deltas48)
-    write_portfolio_diagnostics(port, port_mean)
-    write_portfolio_policy_returns(port)
+    write_mixer_analysis(coef_summary, deltas48)
+    write_portfolio_simulations(port, port_mean)
+    write_portfolio_policy_returns(port, benchmark_returns)
     write_ranking_uncertainty(rank_summary)
 
     metric_summary.to_csv(OUT / "lockbox_metric_summary.csv", index=False)
@@ -151,7 +207,7 @@ def write_main_panel(ledger43: pd.DataFrame, metric_summary: pd.DataFrame, delta
     ax.axvline(798, color="#111827", ls="--", lw=1)
     ax.set_title("A. XGBoost Optuna search (800 trials)")
     ax.set_xlabel("trial")
-    ax.set_ylabel("guarded objective")
+    ax.set_ylabel("validation objective")
     ax.grid(alpha=0.25)
     ax.legend(frameon=False, fontsize=8)
 
@@ -177,7 +233,7 @@ def write_main_panel(ledger43: pd.DataFrame, metric_summary: pd.DataFrame, delta
         values = delta_summary[delta_summary["baseline_short"].eq(base)].set_index("split_role").reindex(order_split)["weighted_delta"].to_numpy()
         ax.bar(x + (index - 0.5) * width, values, width=width, label=f"vs {base}", color=["#d97706", "#059669"][index], alpha=0.88)
     ax.axhline(0, color="black", lw=0.8)
-    ax.set_title("C. Stage 48 weighted error deltas")
+    ax.set_title("C. Mixed model weighted error deltas")
     ax.set_xticks(x)
     ax.set_xticklabels(order_split)
     ax.set_ylabel("candidate - baseline; lower is better")
@@ -192,7 +248,7 @@ def write_main_panel(ledger43: pd.DataFrame, metric_summary: pd.DataFrame, delta
     ax.axvline(0, color="black", lw=0.8)
     ax.xaxis.set_major_formatter(PercentFormatter(1.0))
     ax.yaxis.set_major_formatter(PercentFormatter(1.0))
-    ax.set_title("D. Historical lockbox portfolios")
+    ax.set_title("D. Lockbox portfolio simulations")
     ax.set_xlabel("max drawdown")
     ax.set_ylabel("total return")
     ax.grid(alpha=0.25)
@@ -205,7 +261,9 @@ def write_main_panel(ledger43: pd.DataFrame, metric_summary: pd.DataFrame, delta
 
 def write_tuning_curves(ledger43: pd.DataFrame, ledger48: pd.DataFrame) -> None:
     fig, axs = plt.subplots(1, 2, figsize=(10.5, 3.6), constrained_layout=True)
-    for ax, data, title, best in [(axs[0], ledger43, "Stage 43 XGBoost", 798), (axs[1], ledger48, "Stage 48 frozen-TSMixer mixer", 391)]:
+    best_xgb = int(ledger43.sort_values(["objective_value", "trial_number"]).iloc[0]["trial_number"])
+    best_mixer = int(ledger48.sort_values(["objective_value", "trial_number"]).iloc[0]["trial_number"])
+    for ax, data, title, best in [(axs[0], ledger43, "XGBoost Optuna search", best_xgb), (axs[1], ledger48, "Mixed model tuning", best_mixer)]:
         ax.plot(data["trial_number"], data["objective_value"], color="#cbd5e1", lw=0.6, label="trial")
         ax.plot(data["trial_number"], data["best_so_far"], color="#dc2626", lw=2, label="incumbent")
         ax.axvline(best, color="#111827", ls="--", lw=1, label=f"best {best}")
@@ -237,7 +295,7 @@ def write_metric_bars(metric_summary: pd.DataFrame) -> None:
     plt.close(fig)
 
 
-def write_mixer_diagnostics(coef_summary: pd.DataFrame, deltas48: pd.DataFrame) -> None:
+def write_mixer_analysis(coef_summary: pd.DataFrame, deltas48: pd.DataFrame) -> None:
     fig, axs = plt.subplots(1, 2, figsize=(10.8, 3.8), constrained_layout=True)
     x = np.arange(len(HORIZON_ORDER))
     ax = axs[0]
@@ -247,7 +305,7 @@ def write_mixer_diagnostics(coef_summary: pd.DataFrame, deltas48: pd.DataFrame) 
     ax.axhline(0, color="black", lw=0.8)
     ax.set_xticks(x)
     ax.set_xticklabels(HORIZON_ORDER)
-    ax.set_title("Stage 48 mean raw weights")
+    ax.set_title("Mixed model mean raw weights")
     ax.set_ylabel("raw coefficient")
     ax.grid(axis="y", alpha=0.25)
     ax.legend(frameon=False, fontsize=8)
@@ -260,7 +318,7 @@ def write_mixer_diagnostics(coef_summary: pd.DataFrame, deltas48: pd.DataFrame) 
     ax.axhline(0, color="black", lw=0.8)
     ax.set_xticks(x)
     ax.set_xticklabels(HORIZON_ORDER)
-    ax.set_title("Stage 48 lockbox horizon deltas")
+    ax.set_title("Mixed model lockbox horizon deltas")
     ax.set_ylabel("mean RMSE/MAE delta")
     ax.grid(axis="y", alpha=0.25)
     ax.legend(frameon=False, fontsize=8)
@@ -268,7 +326,7 @@ def write_mixer_diagnostics(coef_summary: pd.DataFrame, deltas48: pd.DataFrame) 
     plt.close(fig)
 
 
-def write_portfolio_diagnostics(port: pd.DataFrame, port_mean: pd.DataFrame) -> None:
+def write_portfolio_simulations(port: pd.DataFrame, port_mean: pd.DataFrame) -> None:
     fig, axs = plt.subplots(1, 2, figsize=(10.8, 3.8), constrained_layout=True)
     ax = axs[0]
     mean_plot = port_mean.sort_values("mean_final_equity")
@@ -279,7 +337,7 @@ def write_portfolio_diagnostics(port: pd.DataFrame, port_mean: pd.DataFrame) -> 
     ax.set_yticks(y)
     ax.set_yticklabels([f"{model}\n{policy}" for model, policy in zip(mean_plot["model_short"], mean_plot["sell_policy"])], fontsize=6)
     ax.set_xlabel("mean final equity over horizons")
-    ax.set_title("Portfolio diagnostic: policy mean")
+    ax.set_title(f"Portfolio simulation: policy mean ({LOCKBOX_LABEL})")
     ax.grid(axis="x", alpha=0.25)
 
     ax = axs[1]
@@ -291,10 +349,10 @@ def write_portfolio_diagnostics(port: pd.DataFrame, port_mean: pd.DataFrame) -> 
     ax.set_xscale("symlog", linthresh=0.1)
     ax.set_xlabel("turnover / initial capital")
     ax.set_ylabel("total return")
-    ax.set_title("Return vs turnover")
+    ax.set_title(f"Return vs turnover ({LOCKBOX_LABEL})")
     ax.grid(alpha=0.25)
     ax.legend(frameon=False, fontsize=7)
-    fig.savefig(OUT / "portfolio_diagnostics.pdf", bbox_inches="tight")
+    fig.savefig(OUT / "portfolio_simulations.pdf", bbox_inches="tight")
     plt.close(fig)
 
 
@@ -308,7 +366,7 @@ def write_ranking_uncertainty(rank_summary: pd.DataFrame) -> None:
     ax.set_yticks(y)
     ax.set_yticklabels(rank_plot["model_id"], fontsize=6)
     ax.set_xlabel("mean Spearman rank IC")
-    ax.set_title("Stage 6 ranking diagnostic")
+    ax.set_title("Ranking signal quality")
     ax.grid(axis="x", alpha=0.25)
 
     ax = axs[1]
@@ -323,14 +381,14 @@ def write_ranking_uncertainty(rank_summary: pd.DataFrame) -> None:
     ax.xaxis.set_major_formatter(PercentFormatter(1.0))
     ax.set_yticks(y)
     ax.set_yticklabels(labels)
-    ax.set_title("Stage 25 block-bootstrap support")
+    ax.set_title("Block-bootstrap ranking support")
     ax.grid(axis="x", alpha=0.25)
     ax.legend(frameon=False, fontsize=8)
     fig.savefig(OUT / "ranking_uncertainty.pdf", bbox_inches="tight")
     plt.close(fig)
 
 
-def write_portfolio_policy_returns(port: pd.DataFrame) -> None:
+def write_portfolio_policy_returns(port: pd.DataFrame, benchmark_returns: dict[str, float]) -> None:
     plot = port.copy()
     plot["horizon_id"] = pd.Categorical(plot["horizon_id"], HORIZON_ORDER, ordered=True)
     plot["sell_policy"] = pd.Categorical(plot["sell_policy"], POLICY_ORDER, ordered=True)
@@ -351,19 +409,23 @@ def write_portfolio_policy_returns(port: pd.DataFrame) -> None:
         slice_df = plot[plot["horizon_id"].eq(horizon)].copy()
         slice_df["model_short"] = pd.Categorical(slice_df["model_short"], model_order, ordered=True)
         slice_df = slice_df.sort_values(["model_short", "sell_policy"])
-        labels = slice_df.apply(lambda row: f"{row['model_short']} | {policy_labels[str(row['sell_policy'])]}", axis=1)
+        labels = slice_df.apply(lambda row: f"{row['model_short']} | {policy_labels[str(row['sell_policy'])]}", axis=1).tolist()
+        values = slice_df["total_return"].astype("float64").tolist()
 
         fig, ax = plt.subplots(figsize=(9.2, 4.6), constrained_layout=True)
-        x = np.arange(len(slice_df))
+        labels.extend(benchmark_returns.keys())
+        values.extend(benchmark_returns.values())
+        x = np.arange(len(values))
         colors = []
         for _, row in slice_df.iterrows():
             base = model_colors[str(row["model_short"])]
             shade = POLICY_SHADE[str(row["sell_policy"])]
             colors.append(blend_with_white(base, shade))
-        ax.bar(x, slice_df["total_return"], color=colors, alpha=0.95, edgecolor="#111827", linewidth=0.6, zorder=3)
+        colors.extend(["#7c3aed", "#a855f7"])
+        ax.bar(x, values, color=colors, alpha=0.95, edgecolor="#111827", linewidth=0.6, zorder=3)
         ax.axhline(0, color="black", lw=0.8)
         ax.set_axisbelow(True)
-        ax.set_title(f"Lockbox portfolio return by model and policy ({horizon})")
+        ax.set_title(f"Lockbox portfolio return by model and policy ({horizon}; {LOCKBOX_LABEL})")
         ax.set_ylabel("total return")
         ax.set_xticks(x)
         ax.set_xticklabels(labels, rotation=35, ha="right", fontsize=7)
@@ -373,6 +435,10 @@ def write_portfolio_policy_returns(port: pd.DataFrame) -> None:
         model_handles = [
             plt.Line2D([0], [0], color=model_colors[m], lw=6, label=m) for m in model_order
         ]
+        model_handles.extend([
+            plt.Line2D([0], [0], color="#7c3aed", lw=6, label="Equal-weight SP50"),
+            plt.Line2D([0], [0], color="#a855f7", lw=6, label="Rank-weight SP50"),
+        ])
         policy_handles = [
             plt.Line2D([0], [0], color=blend_with_white("#000000", POLICY_SHADE[p]), lw=6, label=policy_labels[p])
             for p in policy_legend
