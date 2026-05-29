@@ -114,6 +114,26 @@ The first v1p0 implementation slice should be small enough to validate end-to-en
 | Trajectory graphs | Show historical observed context plus forecast markers; no projected price paths or horizon fan charts. |
 | Validation | Packet/report validation must cover manifest identity, provenance, rows, horizons, cutoff correctness, rank determinism, report consistency, non-claims, no-network/service behavior, and sensitive-artifact exclusion. |
 
+## 8A. Stage 47 Lockbox Portfolio Simulation Decisions
+
+These decisions govern the new Stage 47 prompt and any implementation that follows it. They authorize a historical counterfactual diagnostic only; they do not approve trading advice, live forecasts, portfolio recommendations, or benchmark-claim upgrades.
+
+| Area | Decision |
+| --- | --- |
+| Output status | Stage 47 is a historical lockbox-only simulation diagnostic with `benchmark_claim=false`, `trading_signal_approved=false`, and no Stage 6 reinterpretation. |
+| Candidate roster | Run every valid best individual model and the best valid mixed model on the same updated Alpha Vantage lockbox and price universe. Under the 2026-05-29 owner override, the current frozen Stage 44 TSMixer may be used as a diagnostic input only, with no direct TSMixer tuning or retraining. |
+| Stale-model guard | Current Stage 43 XGBoost is valid active evidence. Current frozen Stage 44 TSMixer is diagnostic-only stale-readout evidence under explicit owner override. Stage 45 XGBoost+TSMixer meta remains stale historical evidence and must not be reused as the final mixed model. |
+| Ranking aggregation | Collapse duplicate lockbox fold predictions by fold-mean before ranking. |
+| Constant signals | Skip model/date/horizon slices that are cross-sectionally constant after fold-mean aggregation; do not fabricate deterministic tie rankings. |
+| Entry policy | Use horizon-specific top10 lists and rank weights: `22%`, `18%`, `15%`, `12%`, `8%`, then `5%` for ranks 6 through 10. |
+| Horizon allocation | `1d` rebalances to top10 target weights; longer horizons spend only `1 / horizon_days` of available cash per rebalance slice and track lots independently. |
+| Neutral holdings | If a held ticker appears on neither a horizon entry list nor valid sell-pressure list, continue holding until horizon expiry. |
+| Sell pressure | Simulations must include `one_d_bot10`, `none`, `botk_4_of_5`, `botk_3_of_5`, and `botk_2_of_5` sell policies. In the defined primary policy, sell pressure is non-constant `1d` bot-k only. Non-1d bot-k lists are diagnostics-only for that primary policy and must not trigger liquidation. |
+| Execution price | Execute at next trading-day `market_open`; mark final holdings to the last available lockbox-date `market_open` when no next open exists. |
+| Frictions | First simulation uses fractional shares, no costs, no slippage, no taxes, no dividends, no shorting, no leverage, and no borrowing. |
+| Required artifacts | Emit manifest, run manifest, rank lists, trade ledger, holdings or lot ledger, equity curve, exposure/turnover/allocation diagnostics, summary JSON, and a human-readable report. |
+| Completion guard | Stage 47 cannot call the roster complete unless every valid best individual and mixed model is simulated or explicitly recorded as stale, missing, or schema-blocked. |
+
 ## 9. Out Of Scope Or Deferred
 
 | Item | Status |

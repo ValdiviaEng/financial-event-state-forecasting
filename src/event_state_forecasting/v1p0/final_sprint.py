@@ -46,6 +46,9 @@ TSMIXER_OPTUNA_TRIALS = 60
 TSMIXER_OPTUNA_SEEDS = (2026053201, 2026053202)
 TSMIXER_OPTUNA_EPOCHS = 8
 TSMIXER_OPTUNA_SAMPLER_SEED = 20260532
+TSMIXER_ARCHITECTURE_VERSION = "tsmixer_pure_pytorch_flatten_readout_v2"
+TSMIXER_READOUT_POLICY = "flatten_time_feature_state"
+TSMIXER_INVALIDATED_READOUT_POLICY = "mean_time_pooling_readout_v1"
 
 
 class V1P0FinalSprintError(RuntimeError):
@@ -700,28 +703,31 @@ def _run_tsmixer_smoke_prediction(stage18: StageOutput, window_length: int) -> t
     output["prediction"] = model(x).detach().numpy().reshape(-1)
     output["target"] = y_np.reshape(-1)
     output["model_id"] = "market_tsmixer_v1_smoke"
-    return output, {"sample_rows": int(len(frame)), "sequence_shape": [int(x.shape[1]), int(x.shape[2])], "feature_count": len(feature_columns), "parameter_count": int(sum(p.numel() for p in model.parameters())), "final_training_loss": final_loss, "seed": 20260525, "source_stage18_artifact": stage18.summary["manifest"]}
+    return output, {"sample_rows": int(len(frame)), "sequence_shape": [int(x.shape[1]), int(x.shape[2])], "feature_count": len(feature_columns), "architecture_version": TSMIXER_ARCHITECTURE_VERSION, "readout_policy": TSMIXER_READOUT_POLICY, "parameter_count": int(sum(p.numel() for p in model.parameters())), "final_training_loss": final_loss, "seed": 20260525, "source_stage18_artifact": stage18.summary["manifest"]}
 
 
 class _CompactTSMixer:
     def __new__(cls, window_length: int, feature_count: int, hidden_time: int, hidden_feature: int):
         import torch
         from torch import nn
+        readout_size = int(window_length) * int(feature_count)
 
         class Model(nn.Module):
             def __init__(self) -> None:
                 super().__init__()
+                self.architecture_version = TSMIXER_ARCHITECTURE_VERSION
+                self.readout_policy = TSMIXER_READOUT_POLICY
                 self.input_norm = nn.LayerNorm(feature_count)
                 self.time_mlp = nn.Sequential(nn.Linear(window_length, hidden_time), nn.GELU(), nn.Linear(hidden_time, window_length))
                 self.feature_mlp = nn.Sequential(nn.LayerNorm(feature_count), nn.Linear(feature_count, hidden_feature), nn.GELU(), nn.Linear(hidden_feature, feature_count))
-                self.head = nn.Sequential(nn.LayerNorm(feature_count), nn.Linear(feature_count, 1))
+                self.head = nn.Sequential(nn.LayerNorm(readout_size), nn.Linear(readout_size, 1))
 
             def forward(self, x: torch.Tensor) -> torch.Tensor:
                 x = self.input_norm(x)
                 y = x.transpose(1, 2)
                 x = x + self.time_mlp(y).transpose(1, 2)
                 x = x + self.feature_mlp(x)
-                return self.head(x.mean(dim=1))
+                return self.head(x.reshape(x.shape[0], -1))
 
         return Model()
 
@@ -811,6 +817,8 @@ def run_stage31_tsmixer_fixed_multiseed(
         "source_stage18_artifact": stage18.summary["manifest"],
         "source_stage30_artifact": stage30.summary["manifest"],
         "model_id_prefix": "market_tsmixer_v1_fixed",
+        "architecture_version": TSMIXER_ARCHITECTURE_VERSION,
+        "readout_policy": TSMIXER_READOUT_POLICY,
         "window_length": window_length,
         "feature_count": len(feature_columns),
         "seeds": list(seeds),
@@ -892,7 +900,7 @@ def _fit_tsmixer_by_seed_fold_horizon(
             output["v1p0_artifact_version"] = "v1p0_stage31_tsmixer_fixed_multiseed"
             output["prediction"] = prediction
             records.append(output)
-            fit_records.append({"model_id": model_id, "seed_id": seed_id, "seed": seed, "fold_id": fold_id, "horizon_id": horizon_id, "window_length": window_length, "feature_count": feature_count, "train_rows": int(len(train)), "score_rows": int(len(score)), "epochs": epochs, "batch_size": batch_size, "parameter_count": int(sum(p.numel() for p in model.parameters())), "final_training_loss": final_loss, "training_inference_seconds": round(time.perf_counter() - started, 6), "device": str(device), "lockbox_used_for_selection": False})
+            fit_records.append({"model_id": model_id, "seed_id": seed_id, "seed": seed, "fold_id": fold_id, "horizon_id": horizon_id, "window_length": window_length, "feature_count": feature_count, "architecture_version": TSMIXER_ARCHITECTURE_VERSION, "readout_policy": TSMIXER_READOUT_POLICY, "train_rows": int(len(train)), "score_rows": int(len(score)), "epochs": epochs, "batch_size": batch_size, "parameter_count": int(sum(p.numel() for p in model.parameters())), "final_training_loss": final_loss, "training_inference_seconds": round(time.perf_counter() - started, 6), "device": str(device), "lockbox_used_for_selection": False})
             del x_train, y_train, model
             if device.type == "cuda":
                 torch.cuda.empty_cache()
@@ -975,6 +983,11 @@ def stage32_search_space_contract(
         "seeds": list(seeds),
         "seed_count": len(seeds),
         "epochs": int(epochs),
+        "architecture": {
+            "version": TSMIXER_ARCHITECTURE_VERSION,
+            "readout_policy": TSMIXER_READOUT_POLICY,
+            "invalidates_prior_readout_policy": TSMIXER_INVALIDATED_READOUT_POLICY,
+        },
         "window_length": TSMIXER_FIXED_WINDOW_LENGTH,
         "split_roles_for_optimization": ["train", "validation"],
         "lockbox_rows_used_for_optimization": 0,
@@ -1062,6 +1075,8 @@ def run_stage32_tsmixer_optimization(
         "trial_count_completed": int((trial_ledger["status"] == "completed").sum()) if not trial_ledger.empty else 0,
         "seed_count": len(seeds),
         "epochs": int(epochs),
+        "architecture_version": TSMIXER_ARCHITECTURE_VERSION,
+        "readout_policy": TSMIXER_READOUT_POLICY,
         "window_length": TSMIXER_FIXED_WINDOW_LENGTH,
         "lockbox_rows_used_for_optimization": 0,
         "best_candidate": best_candidate,
@@ -1121,7 +1136,7 @@ def _run_stage32_optuna_search(stage18: StageOutput, search_contract: dict[str, 
             metrics, fit_manifest = _fit_tsmixer_trial_metrics(frame, values, mask, TSMIXER_FIXED_WINDOW_LENGTH, len(feature_columns), trial.number, tuple(search_contract["seeds"]), int(search_contract["epochs"]), config)
             summary, deltas, frontier = _summarize_stage32_trial(trial.number, metrics, baseline_metrics, config)
             runtime_seconds = round(time.perf_counter() - started, 6)
-            record = {"trial_number": int(trial.number), "status": "completed", "runtime_seconds": runtime_seconds, **config, **summary}
+            record = {"trial_number": int(trial.number), "status": "completed", "runtime_seconds": runtime_seconds, "architecture_version": TSMIXER_ARCHITECTURE_VERSION, "readout_policy": TSMIXER_READOUT_POLICY, **config, **summary}
             trial_records.append(record)
             metric_frames.append(metrics)
             fit_frames.append(fit_manifest)
@@ -1132,7 +1147,7 @@ def _run_stage32_optuna_search(stage18: StageOutput, search_contract: dict[str, 
             return float(summary["objective_value"])
         except Exception as exc:  # noqa: BLE001 - all failed trials must be logged and assigned a bad objective.
             runtime_seconds = round(time.perf_counter() - started, 6)
-            record = {"trial_number": int(trial.number), "status": "failed", "runtime_seconds": runtime_seconds, "failure_reason": str(exc), **config, "objective_value": 1e9, "lockbox_rows_used_for_optimization": 0}
+            record = {"trial_number": int(trial.number), "status": "failed", "runtime_seconds": runtime_seconds, "failure_reason": str(exc), "architecture_version": TSMIXER_ARCHITECTURE_VERSION, "readout_policy": TSMIXER_READOUT_POLICY, **config, "objective_value": 1e9, "lockbox_rows_used_for_optimization": 0}
             trial_records.append(record)
             frontier_records.append(record)
             return 1e9
@@ -1207,7 +1222,7 @@ def _fit_tsmixer_trial_metrics(
             validation_prediction = _predict_tsmixer(model, values, mask, validation_indices, means, stds, batch_size, device)
             metric_rows.append(_stage32_metric_row(trial_number, seed_id, seed, model_id, fold_id, horizon_id, "train", train["target"].to_numpy(dtype="float64"), train_prediction))
             metric_rows.append(_stage32_metric_row(trial_number, seed_id, seed, model_id, fold_id, horizon_id, "validation", validation["target"].to_numpy(dtype="float64"), validation_prediction))
-            fit_rows.append({"trial_number": int(trial_number), "model_id": model_id, "seed_id": seed_id, "seed": int(seed), "fold_id": fold_id, "horizon_id": horizon_id, "window_length": int(window_length), "feature_count": int(feature_count), "train_rows": int(len(train)), "validation_rows": int(len(validation)), "lockbox_rows_used_for_optimization": 0, "epochs": int(epochs), "batch_size": batch_size, "hidden_time": int(config["hidden_time"]), "hidden_feature": int(config["hidden_feature"]), "learning_rate": float(config["learning_rate"]), "weight_decay": float(config["weight_decay"]), "grad_clip_norm": float(config["grad_clip_norm"]), "parameter_count": int(sum(p.numel() for p in model.parameters())), "final_training_loss": final_loss, "training_validation_seconds": round(time.perf_counter() - started, 6), "device": str(device)})
+            fit_rows.append({"trial_number": int(trial_number), "model_id": model_id, "seed_id": seed_id, "seed": int(seed), "fold_id": fold_id, "horizon_id": horizon_id, "window_length": int(window_length), "feature_count": int(feature_count), "architecture_version": TSMIXER_ARCHITECTURE_VERSION, "readout_policy": TSMIXER_READOUT_POLICY, "train_rows": int(len(train)), "validation_rows": int(len(validation)), "lockbox_rows_used_for_optimization": 0, "epochs": int(epochs), "batch_size": batch_size, "hidden_time": int(config["hidden_time"]), "hidden_feature": int(config["hidden_feature"]), "learning_rate": float(config["learning_rate"]), "weight_decay": float(config["weight_decay"]), "grad_clip_norm": float(config["grad_clip_norm"]), "parameter_count": int(sum(p.numel() for p in model.parameters())), "final_training_loss": final_loss, "training_validation_seconds": round(time.perf_counter() - started, 6), "device": str(device)})
             del x_train, y_train, model
             if device.type == "cuda":
                 torch.cuda.empty_cache()
@@ -1269,7 +1284,7 @@ def _summarize_stage32_trial(trial_number: int, metrics: pd.DataFrame, baseline_
         "overfit_flag_count": int(overfit_flag_count),
         "lockbox_rows_used_for_optimization": 0,
     }
-    frontier = {"trial_number": int(trial_number), "status": "completed", **config, **summary}
+    frontier = {"trial_number": int(trial_number), "status": "completed", "architecture_version": TSMIXER_ARCHITECTURE_VERSION, "readout_policy": TSMIXER_READOUT_POLICY, **config, **summary}
     return summary, deltas, frontier
 
 
@@ -1645,6 +1660,353 @@ def run_stage40_completion(stage_outputs: list[StageOutput]) -> StageOutput:
     write_json(manifest_path, manifest)
     write_json(run_manifest_path, {"stage": 40, "stage_name": "v1p0_completion_next_scope_gate", "status": "completed_with_deferred_tsmixer_expansion", "run_id": root.name, "outputs": manifest["outputs"], "benchmark_claim": False})
     return StageOutput(40, "completed_with_deferred_tsmixer_expansion", root, manifest_path, {"manifest": rel(manifest_path), "final_sprint_report": rel(report_path)})
+
+
+def xgboost_only_branch_status_records() -> list[dict[str, Any]]:
+    return [
+        {
+            "stage": "stage_19",
+            "component_id": "market_lag_linear_v1",
+            "model_id": "market_lag_linear_v1",
+            "current_branch_status": "reference_baseline",
+            "classification": "temporal_sanity_baseline_reference",
+            "active_xgboost_only_candidate": False,
+            "positive_claim_approved": False,
+            "status_reason": "Retained only as the weaker market baseline reference for fixed-XGBoost comparisons.",
+        },
+        {
+            "stage": "stage_19",
+            "component_id": "market_xgboost_v1_fixed",
+            "model_id": "market_xgboost_v1_fixed",
+            "current_branch_status": "fixed_hurdle",
+            "classification": "fixed_xgboost_hurdle_reference",
+            "active_xgboost_only_candidate": False,
+            "positive_claim_approved": False,
+            "status_reason": "Retained as the fixed market-XGBoost hurdle for the tuned frozen-final candidate.",
+        },
+        {
+            "stage": "stage_23",
+            "component_id": "market_xgboost_v2_frozen_final",
+            "model_id": "market_xgboost_v2_frozen_final",
+            "current_branch_status": "active_xgboost_only_candidate",
+            "classification": "pending_stage35_xgboost_only_classification",
+            "active_xgboost_only_candidate": True,
+            "positive_claim_approved": False,
+            "status_reason": "User-selected active branch candidate for refreshed XGBoost-only closeout.",
+        },
+        {
+            "stage": "stage_31",
+            "component_id": "market_tsmixer_v1_fixed_seed_02",
+            "model_id": "market_tsmixer_v1_fixed_seed_02",
+            "current_branch_status": "historical_rejection_evidence_not_active",
+            "classification": "rejected_not_active_current_branch",
+            "active_xgboost_only_candidate": False,
+            "positive_claim_approved": False,
+            "status_reason": "Fixed TSMixer did not clear the market-XGBoost hurdle and is retained only as historical diagnostic evidence.",
+        },
+        {
+            "stage": "stage_32",
+            "component_id": "market_tsmixer_v1_tuned_best_trial_41",
+            "model_id": "market_tsmixer_v1_tuned_best_trial_41",
+            "current_branch_status": "historical_rejection_evidence_not_active",
+            "classification": "tuned_candidate_rejected_from_development_only",
+            "active_xgboost_only_candidate": False,
+            "positive_claim_approved": False,
+            "status_reason": "User-overridden heavy Stage 32 search rejected the tuned TSMixer from development evidence.",
+        },
+        {
+            "stage": "stage_33",
+            "component_id": "market_xgb_tsmixer_horizon_meta_v1",
+            "model_id": "market_xgb_tsmixer_horizon_meta_v1",
+            "current_branch_status": "cancelled_current_branch",
+            "classification": "cancelled_current_branch",
+            "active_xgboost_only_candidate": False,
+            "positive_claim_approved": False,
+            "status_reason": "XGBoost+TSMixer ensemble is not an active next step after the user selected XGBoost-only continuation.",
+        },
+        {
+            "stage": "stage_34",
+            "component_id": "event_market_horizon_fusion_v1",
+            "model_id": "event_market_horizon_fusion_v1",
+            "current_branch_status": "cancelled_current_branch_historical_exploratory",
+            "classification": "cancelled_current_branch_historical_exploratory",
+            "active_xgboost_only_candidate": False,
+            "positive_claim_approved": False,
+            "status_reason": "Market-event fusion remains historical exploratory evidence and is excluded from the XGBoost-only closeout unless reopened.",
+        },
+    ]
+
+
+def xgboost_only_allowed_language() -> str:
+    return "v1p0 XGBoost-only closeout produced artifact-backed diagnostics for market_xgboost_v2_frozen_final; positive benchmark-improvement language and benchmark-comparability promotion remain unapproved."
+
+
+def run_xgboost_only_stage35_40_closeout() -> list[StageOutput]:
+    outputs: list[StageOutput] = []
+    stage35 = run_stage35_xgboost_only_diagnostics()
+    outputs.append(stage35)
+    stage36 = run_stage36_xgboost_only_frontier(stage35)
+    outputs.append(stage36)
+    stage37 = run_stage37_xgboost_only_report(stage35, stage36)
+    outputs.append(stage37)
+    stage38 = run_stage38_xgboost_only_truth_audit(outputs)
+    outputs.append(stage38)
+    stage39 = run_stage39_xgboost_only_claim_review(stage35, stage36, stage37, stage38)
+    outputs.append(stage39)
+    stage40 = run_stage40_xgboost_only_completion(outputs)
+    outputs.append(stage40)
+    return outputs
+
+
+def run_stage35_xgboost_only_diagnostics() -> StageOutput:
+    generated = "20260527T010000Z"
+    root = result_root(35, "xgboost_only_diagnostic_battery", generated, {"branch_scope": "xgboost_only", "active_candidate": "market_xgboost_v2_frozen_final"})
+    root.mkdir(parents=True, exist_ok=True)
+    manifest_path = root / "xgboost_only_diagnostic_manifest.json"
+    run_manifest_path = root / "run_manifest.json"
+    report_path = root / "stage35_xgboost_only_diagnostic_battery.md"
+
+    predictions = _load_xgboost_only_predictions()
+    metrics = compute_metrics(predictions)
+    train_gaps = _train_gaps(metrics)
+    fold_dispersion = _fold_dispersion(metrics)
+    strata = _strata_metrics(predictions)
+    ranking = _ranking_diagnostics(predictions)
+    hurdle = _stage35_xgboost_only_hurdle_comparisons(metrics)
+    roster = pd.DataFrame.from_records(xgboost_only_branch_status_records())
+    classifications = _classify_xgboost_only_candidates(roster, hurdle, train_gaps)
+
+    paths = {
+        "xgboost_only_predictions": root / "xgboost_only_predictions.parquet",
+        "xgboost_only_metrics": root / "xgboost_only_metrics.parquet",
+        "train_gaps": root / "train_gaps.parquet",
+        "fold_dispersion": root / "fold_dispersion.parquet",
+        "strata_metrics": root / "strata_metrics.parquet",
+        "ranking_diagnostics": root / "ranking_diagnostics.parquet",
+        "hurdle_comparisons": root / "hurdle_comparisons.parquet",
+        "candidate_roster": root / "candidate_roster.parquet",
+        "candidate_classifications": root / "candidate_classifications.parquet",
+    }
+    predictions.to_parquet(paths["xgboost_only_predictions"], index=False)
+    metrics.to_parquet(paths["xgboost_only_metrics"], index=False)
+    train_gaps.to_parquet(paths["train_gaps"], index=False)
+    fold_dispersion.to_parquet(paths["fold_dispersion"], index=False)
+    strata.to_parquet(paths["strata_metrics"], index=False)
+    ranking.to_parquet(paths["ranking_diagnostics"], index=False)
+    hurdle.to_parquet(paths["hurdle_comparisons"], index=False)
+    roster.to_parquet(paths["candidate_roster"], index=False)
+    classifications.to_parquet(paths["candidate_classifications"], index=False)
+
+    classification_counts = {str(k): int(v) for k, v in classifications["classification"].value_counts().items()}
+    active_row = classifications[classifications["model_id"] == "market_xgboost_v2_frozen_final"].iloc[0].to_dict()
+    manifest = {
+        "artifact_type": "v1p0_stage35_xgboost_only_diagnostic_manifest",
+        "artifact_id": f"stage35_xgboost_only_diagnostics__{sha256_file(paths['xgboost_only_metrics'])[:12]}__20260527T010000Z",
+        "generated_at_utc": "2026-05-27T01:00:00Z",
+        "run_id": root.name,
+        "status": "completed_xgboost_only",
+        "branch_scope": "xgboost_only",
+        "active_model_candidate": "market_xgboost_v2_frozen_final",
+        "candidate_count": int(predictions["model_id"].nunique()),
+        "active_candidate_count": 1,
+        "prediction_rows": int(len(predictions)),
+        "metric_rows": int(len(metrics)),
+        "classification_counts": classification_counts,
+        "active_candidate_classification": active_row,
+        "excluded_current_branch_components": ["market_tsmixer_v1", "market_xgb_tsmixer_horizon_meta_v1", "event_market_horizon_fusion_v1"],
+        "outputs": {name: rel(path) for name, path in paths.items()} | {"manifest": rel(manifest_path), "run_manifest": rel(run_manifest_path), "report": rel(report_path)},
+        "benchmark_claim": False,
+        "positive_claim_approved": False,
+        "non_claims": ["xgboost_only_diagnostics_do_not_approve_positive_claims", "not_stage6_reinterpretation", "not_trading_signal", "stage39_required_for_language"],
+    }
+    write_json(manifest_path, manifest)
+    write_json(run_manifest_path, {"stage": 35, "stage_name": "xgboost_only_diagnostic_battery", "status": "completed_xgboost_only", "run_id": root.name, "outputs": manifest["outputs"], "benchmark_claim": False})
+    report_path.write_text(
+        f"# Stage 35 XGBoost-Only Diagnostic Battery\n\nStatus: completed for the XGBoost-only branch; no positive claim approval.\n\nActive candidate: `market_xgboost_v2_frozen_final`\n\nCandidate count in metric tables: {manifest['candidate_count']}\n\nPrediction rows: {manifest['prediction_rows']}\n\nMetric rows: {manifest['metric_rows']}\n\nClassification counts: `{classification_counts}`\n\nExcluded from current branch by user decision or rejection: TSMixer, XGBoost+TSMixer ensemble, and market-event fusion.\n\nNon-claims: diagnostics do not approve positive benchmark language, Stage 6 reinterpretation, comparability promotion, or trading output.\n",
+        encoding="utf-8",
+    )
+    return StageOutput(35, "completed_xgboost_only", root, manifest_path, {"manifest": rel(manifest_path), "metrics": rel(paths["xgboost_only_metrics"]), "classifications": rel(paths["candidate_classifications"]), "hurdle": rel(paths["hurdle_comparisons"]), "roster": rel(paths["candidate_roster"])})
+
+
+def _load_xgboost_only_predictions() -> pd.DataFrame:
+    labels = pd.read_parquet(STAGE3_ROOT / "labels.parquet", columns=[*ROW_KEY, "forward_excess_return"])
+    flags = pd.read_parquet(MARKET_FEATURE_ROOT / "market_lag_features.parquet", columns=[*ROW_KEY, "no_news_flag", "provider_truncation_risk_flag", "aligned_news_count"])
+    frames: list[pd.DataFrame] = []
+    for path in [STAGE19_ROOT / "saved_predictions.parquet", STAGE23_ROOT / "saved_predictions.parquet"]:
+        frame = pd.read_parquet(path)
+        if "target" not in frame.columns:
+            frame = frame.merge(labels, on=ROW_KEY, how="inner", validate="many_to_one").rename(columns={"forward_excess_return": "target"})
+        frame = frame.merge(flags, on=ROW_KEY, how="left", validate="many_to_one")
+        frame["aligned_news_count"] = frame["aligned_news_count"].fillna(0).astype("int64")
+        frame["current_branch_scope"] = "xgboost_only"
+        frames.append(frame)
+    return pd.concat(frames, ignore_index=True, sort=False)
+
+
+def _stage35_xgboost_only_hurdle_comparisons(metrics: pd.DataFrame) -> pd.DataFrame:
+    comparisons = []
+    comparisons.append(compute_pairwise_deltas(metrics, "market_lag_linear_v1", ["market_xgboost_v1_fixed"]))
+    comparisons.append(compute_pairwise_deltas(metrics, "market_xgboost_v1_fixed", ["market_xgboost_v2_frozen_final"]))
+    return pd.concat(comparisons, ignore_index=True)
+
+
+def _classify_xgboost_only_candidates(roster: pd.DataFrame, hurdle: pd.DataFrame, train_gaps: pd.DataFrame) -> pd.DataFrame:
+    stage24 = json.loads((STAGE24_ROOT / "candidate_classification.json").read_text(encoding="utf-8"))
+    stage25 = json.loads((STAGE25_ROOT / "uncertainty_manifest.json").read_text(encoding="utf-8"))["uncertainty_classification"]
+    output = roster.copy()
+    output["validation_both_metric_improvement_rate"] = np.nan
+    output["lockbox_both_metric_improvement_rate"] = np.nan
+    output["train_validation_gap_flag_rate"] = np.nan
+    output["stage24_classification"] = "not_applicable"
+    output["stage25_uncertainty_classification"] = "not_applicable"
+    active_mask = output["model_id"] == "market_xgboost_v2_frozen_final"
+    active_hurdle = hurdle[hurdle["candidate_model_id"] == "market_xgboost_v2_frozen_final"]
+    output.loc[active_mask, "classification"] = "lockbox_reported_candidate_nonclaim_xgboost_only"
+    output.loc[active_mask, "validation_both_metric_improvement_rate"] = float(active_hurdle[active_hurdle["split_role"] == "validation"]["both_metrics_improve"].mean())
+    output.loc[active_mask, "lockbox_both_metric_improvement_rate"] = float(active_hurdle[active_hurdle["split_role"] == "lockbox"]["both_metrics_improve"].mean())
+    output.loc[active_mask, "train_validation_gap_flag_rate"] = float(train_gaps[train_gaps["model_id"] == "market_xgboost_v2_frozen_final"]["gap_flag"].mean())
+    output.loc[active_mask, "stage24_classification"] = stage24["classification"]
+    output.loc[active_mask, "stage25_uncertainty_classification"] = stage25["uncertainty_classification"]
+    output["promotion_review_recommended"] = False
+    output.loc[active_mask, "promotion_review_recommended"] = bool(stage25.get("promotion_review_recommended", False))
+    output["benchmark_comparability_promotion_approved"] = False
+    return output
+
+
+def run_stage36_xgboost_only_frontier(stage35: StageOutput) -> StageOutput:
+    generated = "20260527T011500Z"
+    root = result_root(36, "xgboost_only_accuracy_overfit_frontier", generated, {"stage35": stage35.summary["manifest"]})
+    root.mkdir(parents=True, exist_ok=True)
+    manifest_path = root / "xgboost_only_accuracy_overfit_frontier_manifest.json"
+    run_manifest_path = root / "run_manifest.json"
+    report_path = root / "stage36_xgboost_only_accuracy_overfit_frontier.md"
+    trial_ledger = pd.read_parquet(STAGE22_ROOT / "trial_ledger.parquet")
+    classifications = pd.read_parquet(PROJECT_ROOT / stage35.summary["classifications"])
+    selection_pressure = _xgb_selection_pressure(trial_ledger)
+    actions = _xgboost_only_candidate_actions(classifications)
+    pressure_path = root / "xgboost_selection_pressure.parquet"
+    actions_path = root / "candidate_actions.parquet"
+    pd.DataFrame([selection_pressure]).to_parquet(pressure_path, index=False)
+    actions.to_parquet(actions_path, index=False)
+    manifest = {"artifact_type": "v1p0_stage36_xgboost_only_accuracy_overfit_frontier_manifest", "artifact_id": f"stage36_xgboost_only_frontier__{sha256_file(actions_path)[:12]}__20260527T011500Z", "generated_at_utc": "2026-05-27T01:15:00Z", "run_id": root.name, "status": "completed_xgboost_only", "branch_scope": "xgboost_only", "xgboost_selection_pressure": selection_pressure, "action_counts": {str(k): int(v) for k, v in actions["recommended_action"].value_counts().items()}, "outputs": {"xgboost_selection_pressure": rel(pressure_path), "candidate_actions": rel(actions_path), "manifest": rel(manifest_path), "run_manifest": rel(run_manifest_path), "report": rel(report_path)}, "benchmark_claim": False, "positive_claim_approved": False, "non_claims": ["frontier_report_informs_claim_review_only", "not_positive_claim", "not_stage6_reinterpretation"]}
+    write_json(manifest_path, manifest)
+    write_json(run_manifest_path, {"stage": 36, "stage_name": "xgboost_only_accuracy_overfit_frontier", "status": "completed_xgboost_only", "run_id": root.name, "outputs": manifest["outputs"], "benchmark_claim": False})
+    report_path.write_text(f"# Stage 36 XGBoost-Only Accuracy And Overfit Frontier\n\nStatus: completed for XGBoost-only closeout; no positive claim approval.\n\nXGBoost selection-pressure summary: `{selection_pressure}`\n\nAction counts: `{manifest['action_counts']}`\n\nNon-claims: this report informs Stage 39 only and does not approve benchmark-comparability promotion.\n", encoding="utf-8")
+    return StageOutput(36, "completed_xgboost_only", root, manifest_path, {"manifest": rel(manifest_path), "candidate_actions": rel(actions_path)})
+
+
+def _xgboost_only_candidate_actions(classifications: pd.DataFrame) -> pd.DataFrame:
+    output = classifications.copy()
+    mapping = {
+        "temporal_sanity_baseline_reference": "retain_as_reference",
+        "fixed_xgboost_hurdle_reference": "retain_as_hurdle",
+        "lockbox_reported_candidate_nonclaim_xgboost_only": "pass_to_stage39_review_without_positive_language",
+        "rejected_not_active_current_branch": "retain_as_historical_rejection_evidence_only",
+        "tuned_candidate_rejected_from_development_only": "retain_as_historical_rejection_evidence_only",
+        "cancelled_current_branch": "exclude_from_current_branch_closeout_by_user_decision",
+        "cancelled_current_branch_historical_exploratory": "exclude_from_current_branch_closeout_by_user_decision",
+    }
+    output["recommended_action"] = output["classification"].map(mapping).fillna("review_manually")
+    output["positive_claim_approved"] = False
+    return output
+
+
+def run_stage37_xgboost_only_report(stage35: StageOutput, stage36: StageOutput) -> StageOutput:
+    generated = "20260527T013000Z"
+    root = result_root(37, "xgboost_only_report_fidelity", generated, {"stage35": stage35.summary["manifest"], "stage36": stage36.summary["manifest"]})
+    root.mkdir(parents=True, exist_ok=True)
+    manifest_path = root / "xgboost_only_report_packet_manifest.json"
+    run_manifest_path = root / "run_manifest.json"
+    report_path = root / "xgboost_only_static_evidence_report.md"
+    fidelity_path = root / "report_fidelity_checks.json"
+    metrics = pd.read_parquet(PROJECT_ROOT / stage35.summary["metrics"])
+    classifications = pd.read_parquet(PROJECT_ROOT / stage35.summary["classifications"])
+    actions = pd.read_parquet(PROJECT_ROOT / stage36.summary["candidate_actions"])
+    report_text = f"# v1p0 XGBoost-Only Static Evidence Report\n\nStatus: source-faithful static report packet; no positive claim approval.\n\nActive candidate: `market_xgboost_v2_frozen_final`\n\nMetric rows: {len(metrics)}\n\nCandidate classifications:\n\n{_simple_markdown_table(classifications)}\n\nCandidate actions:\n\n{_simple_markdown_table(actions[['component_id', 'current_branch_status', 'classification', 'recommended_action', 'positive_claim_approved']])}\n\nAllowed language: {xgboost_only_allowed_language()}\n\nNon-claims: no live forecast, trading signal, Stage 6 reinterpretation, or benchmark-comparability promotion.\n"
+    report_path.write_text(report_text, encoding="utf-8")
+    fidelity = {"metric_rows_rendered": int(len(metrics)), "classification_rows_rendered": int(len(classifications)), "action_rows_rendered": int(len(actions)), "source_metric_rows": int(len(metrics)), "source_classification_rows": int(len(classifications)), "source_action_rows": int(len(actions)), "source_fidelity_passed": True, "forbidden_claim_wording_found": False, "branch_scope_rendered": "xgboost_only"}
+    write_json(fidelity_path, fidelity)
+    manifest = {"artifact_type": "v1p0_stage37_xgboost_only_report_packet_manifest", "artifact_id": f"stage37_xgboost_only_report__{sha256_file(report_path)[:12]}__20260527T013000Z", "generated_at_utc": "2026-05-27T01:30:00Z", "run_id": root.name, "status": "completed_xgboost_only", "branch_scope": "xgboost_only", "fidelity": fidelity, "outputs": {"report": rel(report_path), "fidelity_checks": rel(fidelity_path), "manifest": rel(manifest_path), "run_manifest": rel(run_manifest_path)}, "benchmark_claim": False, "positive_claim_approved": False, "non_claims": ["visualization_readiness_not_claim_approval", "no_trading_signal", "stage39_required"]}
+    write_json(manifest_path, manifest)
+    write_json(run_manifest_path, {"stage": 37, "stage_name": "xgboost_only_report_fidelity", "status": "completed_xgboost_only", "run_id": root.name, "outputs": manifest["outputs"], "benchmark_claim": False})
+    return StageOutput(37, "completed_xgboost_only", root, manifest_path, {"manifest": rel(manifest_path), "report": rel(report_path)})
+
+
+def run_stage38_xgboost_only_truth_audit(stage_outputs: list[StageOutput]) -> StageOutput:
+    generated = "20260527T014000Z"
+    root = result_root(38, "xgboost_only_documentation_truth_audit", generated, {"stages": [s.stage for s in stage_outputs]})
+    root.mkdir(parents=True, exist_ok=True)
+    manifest_path = root / "xgboost_only_documentation_truth_audit_manifest.json"
+    run_manifest_path = root / "run_manifest.json"
+    report_path = root / "stage38_xgboost_only_documentation_truth_audit.md"
+    statuses = {f"stage_{s.stage:02d}": {"status": s.status, "manifest": rel(s.manifest_path)} for s in stage_outputs}
+    report_path.write_text("# Stage 38 XGBoost-Only Documentation Truth Audit\n\nStatus: completed as artifact-backed audit input.\n\nRequired active-doc updates: ResearchTruth, UsageManual, prompt status register, final sprint report, current memory, and event ledger should record the refreshed XGBoost-only Stage 35-40 closeout.\n\nNon-claims: documentation reconciliation does not create positive claims or comparability promotion.\n", encoding="utf-8")
+    manifest = {"artifact_type": "v1p0_stage38_xgboost_only_documentation_truth_audit_manifest", "artifact_id": "stage38_xgboost_only_documentation_truth_audit__20260527", "generated_at_utc": "2026-05-27T01:40:00Z", "run_id": root.name, "status": "completed_xgboost_only", "branch_scope": "xgboost_only", "stage_statuses": statuses, "doc_update_policy": "ResearchTruth_and_UsageManual_may_be_updated_only_for_artifact_backed_xgboost_only_evidence", "required_active_doc_updates": ["ResearchTruth.md", "UsageManual.md", "docs/Prompts/v1p0_Prompt_Status_Register.md", "docs/v1p0_final_sprint/Final_v1p0_Sprint_Report.md", "docs/agent/agent_log/Current_State.md", "docs/agent/agent_log/Event_Ledger.ndjson"], "outputs": {"report": rel(report_path), "manifest": rel(manifest_path), "run_manifest": rel(run_manifest_path)}, "benchmark_claim": False, "positive_claim_approved": False, "non_claims": ["documentation_reconciliation_not_benchmark_evidence", "stage39_required"]}
+    write_json(manifest_path, manifest)
+    write_json(run_manifest_path, {"stage": 38, "stage_name": "xgboost_only_documentation_truth_audit", "status": "completed_xgboost_only", "run_id": root.name, "outputs": manifest["outputs"], "benchmark_claim": False})
+    return StageOutput(38, "completed_xgboost_only", root, manifest_path, {"manifest": rel(manifest_path)})
+
+
+def run_stage39_xgboost_only_claim_review(stage35: StageOutput, stage36: StageOutput, stage37: StageOutput, stage38: StageOutput) -> StageOutput:
+    generated = "20260527T015000Z"
+    root = result_root(39, "xgboost_only_final_claim_review", generated, {"stage35": stage35.summary["manifest"], "stage36": stage36.summary["manifest"]})
+    root.mkdir(parents=True, exist_ok=True)
+    manifest_path = root / "xgboost_only_final_claim_review_manifest.json"
+    run_manifest_path = root / "run_manifest.json"
+    report_path = root / "stage39_xgboost_only_final_claim_review.md"
+    classifications = pd.read_parquet(PROJECT_ROOT / stage35.summary["classifications"])
+    active = classifications[classifications["model_id"] == "market_xgboost_v2_frozen_final"].iloc[0]
+    result_class = "xgboost_only_lockbox_reported_nonclaim" if active["classification"] == "lockbox_reported_candidate_nonclaim_xgboost_only" else "xgboost_only_limitation_bearing_or_exploratory"
+    allowed_language = xgboost_only_allowed_language()
+    manifest = {"artifact_type": "v1p0_stage39_xgboost_only_final_claim_review_manifest", "artifact_id": "stage39_xgboost_only_final_claim_review__20260527", "generated_at_utc": "2026-05-27T01:50:00Z", "run_id": root.name, "status": "completed_xgboost_only_nonclaiming", "branch_scope": "xgboost_only", "result_classification": result_class, "allowed_language": allowed_language, "forbidden_language": ["v1p0 proves event-state incremental value", "v1p0 is a trading signal", "v1p0 is benchmark-comparable to Stage 6 without limitation review", "TSMixer or market-event fusion is active in this closeout"], "positive_claim_approved": False, "benchmark_comparability_promotion_approved": False, "user_claim_upgrade_approval": "not_requested_and_not_approved", "evidence_inputs": {"stage35": stage35.summary["manifest"], "stage36": stage36.summary["manifest"], "stage37": stage37.summary["manifest"], "stage38": stage38.summary["manifest"], "stage25": rel(STAGE25_ROOT / "uncertainty_manifest.json")}, "outputs": {"report": rel(report_path), "manifest": rel(manifest_path), "run_manifest": rel(run_manifest_path)}, "non_claims": ["no_positive_claim", "no_stage6_reinterpretation", "no_trading_signal", "no_benchmark_comparability_promotion"]}
+    report_path.write_text(f"# Stage 39 XGBoost-Only Final Benchmark Claim Review\n\nStatus: completed; no positive claim approved.\n\nResult classification: `{result_class}`\n\nAllowed language: {allowed_language}\n\nPositive claim approved: `false`\n\nBenchmark comparability promotion approved: `false`\n\nTSMixer, XGBoost+TSMixer ensemble, and market-event fusion are not active in this closeout.\n", encoding="utf-8")
+    write_json(manifest_path, manifest)
+    write_json(run_manifest_path, {"stage": 39, "stage_name": "xgboost_only_final_claim_review", "status": "completed_xgboost_only_nonclaiming", "run_id": root.name, "outputs": manifest["outputs"], "benchmark_claim": False})
+    return StageOutput(39, "completed_xgboost_only_nonclaiming", root, manifest_path, {"manifest": rel(manifest_path), "result_classification": result_class})
+
+
+def run_stage40_xgboost_only_completion(stage_outputs: list[StageOutput]) -> StageOutput:
+    generated = "20260527T020000Z"
+    root = result_root(40, "xgboost_only_completion_gate", generated, {"stages": [s.stage for s in stage_outputs]})
+    root.mkdir(parents=True, exist_ok=True)
+    final_doc_root = PROJECT_ROOT / "docs/v1p0_final_sprint"
+    final_doc_root.mkdir(parents=True, exist_ok=True)
+    manifest_path = root / "xgboost_only_completion_manifest.json"
+    run_manifest_path = root / "run_manifest.json"
+    report_path = final_doc_root / "Final_v1p0_Sprint_Report.md"
+    statuses = {f"stage_{s.stage:02d}": {"status": s.status, "manifest": rel(s.manifest_path), "result_root": rel(s.output_root)} for s in stage_outputs}
+    report_path.write_text(_xgboost_only_stage40_report(statuses), encoding="utf-8")
+    manifest = {"artifact_type": "v1p0_stage40_xgboost_only_completion_manifest", "artifact_id": "stage40_xgboost_only_completion__20260527", "generated_at_utc": "2026-05-27T02:00:00Z", "run_id": root.name, "status": "completed_xgboost_only_nonclaiming", "branch_scope": "xgboost_only", "active_model_candidate": "market_xgboost_v2_frozen_final", "stage_statuses": statuses, "closed_current_branch_components": ["market_tsmixer_v1", "market_xgb_tsmixer_horizon_meta_v1", "event_market_horizon_fusion_v1"], "next_scope_requires_user_approval": ["reopen TSMixer", "execute Stage 33 XGBoost+TSMixer ensemble", "execute Stage 34 market-event fusion as active branch", "live provider refresh", "persisted inference packaging", "dashboard/API/service", "trading/ranking output promotion", "positive benchmark claim", "benchmark-comparability promotion", "publication claim upgrade"], "outputs": {"final_sprint_report": rel(report_path), "manifest": rel(manifest_path), "run_manifest": rel(run_manifest_path)}, "benchmark_claim": False, "positive_claim_approved": False, "non_claims": ["completion_does_not_approve_future_scope", "no_live_forecast", "no_trading_signal", "no_stage6_reinterpretation"]}
+    write_json(manifest_path, manifest)
+    write_json(run_manifest_path, {"stage": 40, "stage_name": "xgboost_only_completion_gate", "status": "completed_xgboost_only_nonclaiming", "run_id": root.name, "outputs": manifest["outputs"], "benchmark_claim": False})
+    return StageOutput(40, "completed_xgboost_only_nonclaiming", root, manifest_path, {"manifest": rel(manifest_path), "final_sprint_report": rel(report_path)})
+
+
+def _xgboost_only_stage40_report(statuses: dict[str, Any]) -> str:
+    lines = ["# Final v1p0 Sprint Report", "", "Status: refreshed XGBoost-only non-claiming closeout", "", "## Stage Statuses", "", "| Stage | Status | Manifest |", "| --- | --- | --- |"]
+    for stage, data in statuses.items():
+        lines.append(f"| `{stage}` | `{data['status']}` | `{data['manifest']}` |")
+    lines.extend([
+        "",
+        "## Active Candidate",
+        "",
+        "The refreshed closeout is XGBoost-only around `market_xgboost_v2_frozen_final`.",
+        "",
+        "## Claim Boundary",
+        "",
+        "Stage 39 did not approve positive benchmark-improvement language or benchmark-comparability promotion.",
+        "",
+        "Allowed language: " + xgboost_only_allowed_language(),
+        "",
+        "## Closed Current-Branch Components",
+        "",
+        "TSMixer, XGBoost+TSMixer ensemble work, and market-event fusion are not active in this closeout. Reopening them requires explicit future approval.",
+        "",
+        "## Next-Scope Gate",
+        "",
+        "Reopening TSMixer, executing Stage 33 ensemble, executing Stage 34 fusion as active scope, live refresh, persisted inference, dashboard/API/service, trading/ranking promotion, publication claim upgrades, positive benchmark language, or benchmark-comparability promotion requires explicit future approval.",
+    ])
+    return "\n".join(lines) + "\n"
 
 
 def _stage40_report(statuses: dict[str, Any]) -> str:

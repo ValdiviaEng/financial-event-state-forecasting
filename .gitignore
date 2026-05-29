@@ -39,6 +39,8 @@ Thumbs.db
 .ipynb_checkpoints/
 
 # Raw and generated data contents
+data.zip
+data/raw_zip2_extended_granularity/
 data/raw/**
 !data/raw/
 !data/raw/**/

@@ -54,7 +54,7 @@
       "latest_validated_manifest_path": "data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage18__sequence_windows__20260525T145000Z__src_6dff1bd__run_052914ca/sequence_window_manifest.json",
       "latest_validated_feature_schema_version": "market_sequence_window_60d_v1",
       "row_key": ["benchmark_family_id", "canonical_ticker", "as_of_date", "horizon_id"],
-      "limitations": ["sequence_tensor_input_only", "not_model_evidence", "fold_local_normalization_required"]
+      "limitations": ["sequence_tensor_input_only", "not_model_evidence", "fold_local_normalization_required", "not_active_xgboost_only_branch"]
     },
     {
       "feature_family_id": "market_event_fusion_features_v1",
@@ -64,7 +64,7 @@
       "latest_validated_feature_schema_version": "market_lag_features_v1p0_plus_event_finbert_topk_v1",
       "component_feature_family_ids": ["market_lag_features_v1p0", "event_finbert_topk_v1"],
       "row_key": ["benchmark_family_id", "canonical_ticker", "as_of_date", "horizon_id"],
-      "limitations": ["composite_model_input_record", "stage34_classified_exploratory_only", "not_positive_event_value_claim"]
+      "limitations": ["composite_model_input_record", "stage34_classified_exploratory_only", "not_positive_event_value_claim", "not_active_xgboost_only_branch"]
     }
   ],
   "model_feature_dependencies": [

@@ -2,7 +2,7 @@
 
 Status: active prompt execution status and rerun register.
 
-Updated: 2026-05-25
+Updated: 2026-05-29
 
 ## Purpose
 
@@ -17,6 +17,7 @@ This register tracks the current execution status of every v1p0 prompt after the
 - `needs_run`: no valid completed artifact exists under the current prompt.
 - `needs_rerun`: an old artifact exists but does not satisfy the hardened prompt or is stale due to dependencies.
 - `stale_if_dependency_changes`: current artifact is usable only if listed dependencies are unchanged.
+- `cancelled_current_branch`: prompt/artifact may remain historical evidence, but the current user-selected workflow does not consume it.
 
 ## Current Register
 
@@ -53,16 +54,17 @@ This register tracks the current execution status of every v1p0 prompt after the
 | 28 | `v1p0_Stage28_FinBERT_Aggregation_Ablations.md` | completed_current | User selected 128d rerun with diagnostics; Stage 28 reran with deterministic 128-d projection. | Stage 29 reran against the new 128d sidecars. |
 | 29 | `v1p0_Stage29_Event_Representation_Benchmark_Gate.md` | completed_current | Reran using the 128d Stage 28 sidecars; selected `event_finbert_topk_v1` from validation only. | Feeds future Stage 34 rerun. |
 | 30 | `v1p0_Stage30_TSMixer_Sequence_Dataset_And_Smoke.md` | completed_current | Reran using real Stage 18 60d sequence tensors; old tabular-substitute smoke is superseded. | Enabled Stage 31. |
-| 31 | `v1p0_Stage31_TSMixer_Fixed_Multiseed_Benchmark.md` | completed_current | Heavy 5-seed 60d fixed TSMixer benchmark completed; best validation weighted delta vs market XGBoost was positive and both-metric rate was 0.0222. | Stage 32 optimization is not recommended without user override; downstream diagnostics need rerun if continuing. |
-| 32 | `v1p0_Stage32_TSMixer_Optimization_And_Overfit_Control.md` | completed_current | User explicitly overrode Stage 31 and selected heavy Optuna; Stage 32 completed 60/60 trials with 2 seeds, zero lockbox rows for optimization, and rejected the tuned candidate from development evidence. | Tuned TSMixer should not feed Stage 33/35; use Stage 31 fixed TSMixer only if the user explicitly approves downstream work. |
-| 33 | `v1p0_Stage33_Market_Ensemble_Horizon_Meta.md` | needs_user_decision | Stage 31 fixed TSMixer predictions exist and Stage 32 rejected the tuned candidate; running Stage 33 with the fixed TSMixer still requires explicit approval. | Blocks refreshed full candidate roster for Stage 35+. |
-| 34 | `v1p0_Stage34_Market_Event_Horizon_Fusion.md` | needs_rerun | Existing fusion is usable as exploratory evidence but must be rerun or revalidated after Stage 28/29 and Stage 31-33 status resolution. | Feeds Stage 35+. |
-| 35 | `v1p0_Stage35_Full_Diagnostic_Battery_And_Error_Analysis.md` | needs_rerun | Current diagnostics omit repaired Stage 31 fixed TSMixer and Stage 32 rejection evidence. | Must rerun after Stage 31-34 adjustments. |
-| 36 | `v1p0_Stage36_Accuracy_Overfit_Frontier_Report.md` | needs_rerun | Must refresh after Stage 35 rerun and any TSMixer/ensemble additions. | Feeds Stage 37/39. |
-| 37 | `v1p0_Stage37_Report_Visualization_Fidelity_Full_Packet.md` | needs_rerun | Must refresh after Stage 35/36 rerun. | Feeds Stage 39. |
-| 38 | `v1p0_Stage38_Documentation_Truth_Consistency_Audit.md` | needs_rerun | Must refresh after changed Stage 28 or Stage 31-37 evidence. | Feeds Stage 39/40. |
-| 39 | `v1p0_Stage39_Final_Benchmark_Claim_Review.md` | needs_rerun | Existing non-claim remains valid, but final review must rerun after new diagnostics. | Controls final language. |
-| 40 | `v1p0_Stage40_V1p0_Completion_And_Next_Scope_Gate.md` | needs_rerun | Existing closure is invalid under hardened prompt until critical deferrals are executed or explicitly user-approved. | Final completion gate. |
+| 31 | `v1p0_Stage31_TSMixer_Fixed_Multiseed_Benchmark.md` | completed_current | Heavy 5-seed 60d fixed TSMixer benchmark completed; best validation weighted delta vs market XGBoost was positive and both-metric rate was 0.0222. | Historical rejection evidence only for the current XGBoost-only branch. |
+| 32 | `v1p0_Stage32_TSMixer_Optimization_And_Overfit_Control.md` | completed_current | User explicitly overrode Stage 31 and selected heavy Optuna; Stage 32 completed 60/60 trials with 2 seeds, zero lockbox rows for optimization, and rejected the tuned candidate from development evidence. | Tuned TSMixer must not feed downstream work; TSMixer is closed for the active XGBoost-only branch. |
+| 33 | `v1p0_Stage33_Market_Ensemble_Horizon_Meta.md` | cancelled_current_branch | User selected an XGBoost-only path after Stage 31-32 and ad-hoc diagnostics showed TSMixer underperformed as a regression model. | XGBoost+TSMixer ensemble is not an active next step. |
+| 34 | `v1p0_Stage34_Market_Event_Horizon_Fusion.md` | cancelled_current_branch | Existing fusion remains historical exploratory evidence, but model-only XGBoost is the active branch. | Do not feed active XGBoost-only final review unless the user later reopens event/fusion scope. |
+| 35 | `v1p0_Stage35_Full_Diagnostic_Battery_And_Error_Analysis.md` | completed_current | Refreshed as an XGBoost-only diagnostic closeout using Stage 21-25 evidence; TSMixer, TSMixer ensembles, and market-event fusion are explicitly excluded from the active candidate roster. | Feeds refreshed Stage 36/37/39. |
+| 36 | `v1p0_Stage36_Accuracy_Overfit_Frontier_Report.md` | completed_current | Refreshed as XGBoost-only frontier evidence after Stage 35 XGBoost-only diagnostics. | Feeds refreshed Stage 37/39. |
+| 37 | `v1p0_Stage37_Report_Visualization_Fidelity_Full_Packet.md` | completed_current | Refreshed after XGBoost-only Stage 35/36 outputs. | Feeds refreshed Stage 39. |
+| 38 | `v1p0_Stage38_Documentation_Truth_Consistency_Audit.md` | completed_current | Refreshed after the XGBoost-only branch decision and Stage 35-37 closeout packets. | Feeds refreshed Stage 39/40. |
+| 39 | `v1p0_Stage39_Final_Benchmark_Claim_Review.md` | completed_current | Refreshed for the current XGBoost-only branch; result classification is `xgboost_only_lockbox_reported_nonclaim`, with positive claim and comparability promotion unapproved. | Controls current final language. |
+| 40 | `v1p0_Stage40_V1p0_Completion_And_Next_Scope_Gate.md` | completed_current | Refreshed XGBoost-only completion gate recorded with next-scope approval list. | Final completion gate for the active branch. |
+| 47 | `v1p0_Stage47_Lockbox_Portfolio_Simulation.md` | completed_current | Historical lockbox-only portfolio simulation completed using Stage 43 XGBoost, the user-approved current frozen Stage 44 TSMixer diagnostic input, and the newly tuned no-direct-TSMixer Stage 48 horizon mixer; latest run includes drawdown, exposure, turnover, allocation, and lot-PnL diagnostics. | Post-selection diagnostic only; no trading/product/claim scope. |
 
 ## Immediate Execution Boundary
 
@@ -72,6 +74,12 @@ This register tracks the current execution status of every v1p0 prompt after the
 - XGBoost Stage 21-25 validation after the status update passed with focused tests (`14 passed`), manifest-chain validation (`XGBOOST_STAGE21_25_ARTIFACT_CHAIN_OK`), and status-register validation (`XGBOOST_STATUS_REGISTER_OK stages=21-25`).
 - 2026-05-25 continuation approval executed Stage 26 through Stage 31 with user-selected 128d FinBERT projection and heavy 5-seed 60d TSMixer.
 - 2026-05-25 user explicitly overrode Stage 31 and selected the heavy Stage 32 Optuna contract. Stage 32 completed 60/60 trials with 2 seeds, used zero lockbox rows for optimization, and rejected the tuned TSMixer candidate from development evidence.
+- 2026-05-27 user selected the active path forward: disregard TSMixer and continue with an XGBoost-only model workflow. Stage 33 and Stage 34 are therefore cancelled for the current branch, and the next executable workflow is an XGBoost-only Stage 35-40 closeout using Stage 21-25 evidence.
+- 2026-05-27 refreshed XGBoost-only Stage 35-40 closeout completed via `scripts/run_v1p0_xgboost_only_stage35_40_closeout.py`; `positive_claim_approved=false` and `benchmark_comparability_promotion_approved=false` remain in force.
+- 2026-05-29 corrected the TSMixer readout contract from stale mean-time pooling to flattened time-feature readout. Prior TSMixer-derived Stage 42, updated Stage 44, and updated Stage 45 meta evidence must be treated as stale until rerun with the corrected architecture; updated Stage 43 XGBoost evidence is not affected by this algorithm correction.
+- 2026-05-29 user rejected the estimated 23-hour corrected TSMixer tuning run and instructed that no direct TSMixer tuning is allowed; the current frozen best Stage 44 TSMixer artifact may be used as a diagnostic input only.
+- 2026-05-29 Stage 48 frozen-TSMixer horizon mixer completed 800/800 meta/mixer trials with zero lockbox rows used for tuning and no TSMixer training/tuning.
+- 2026-05-29 Stage 47 lockbox portfolio simulation completed across Stage 43 XGBoost, current frozen Stage 44 TSMixer diagnostic input, and the Stage 48 mixed model for sell policies `one_d_bot10`, `none`, `botk_4_of_5`, `botk_3_of_5`, and `botk_2_of_5`; latest result root is `v1p0__phase1_top50_updated_av__stage47__lockbox_portfolio_simulation__20260529T095157Z__src_6dff1bd__run_8317929b/`.
 
 ## Non-Claims
 

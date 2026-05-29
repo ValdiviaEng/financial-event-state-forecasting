@@ -13,6 +13,8 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 from event_state_forecasting.v1p0.final_sprint import (  # noqa: E402
+    TSMIXER_ARCHITECTURE_VERSION,
+    TSMIXER_READOUT_POLICY,
     _CompactTSMixer,
     _build_sequence_tensors,
     compute_pairwise_deltas,
@@ -21,6 +23,8 @@ from event_state_forecasting.v1p0.final_sprint import (  # noqa: E402
     sha256_text,
     stage32_search_space_contract,
     stable_digest,
+    xgboost_only_allowed_language,
+    xgboost_only_branch_status_records,
 )
 
 
@@ -82,6 +86,10 @@ def test_stage31_compact_tsmixer_forward_shape() -> None:
     output = model(torch.zeros((7, 4, 3), dtype=torch.float32))
 
     assert output.shape == (7, 1)
+    assert model.architecture_version == TSMIXER_ARCHITECTURE_VERSION
+    assert model.readout_policy == TSMIXER_READOUT_POLICY
+    assert model.head[0].normalized_shape == (12,)
+    assert model.head[1].in_features == 12
 
 
 def test_stage32_search_contract_is_train_validation_only() -> None:
@@ -90,7 +98,28 @@ def test_stage32_search_contract_is_train_validation_only() -> None:
     assert contract["search_policy"] == "user_override_heavy_optuna_after_negative_stage31_recommendation"
     assert contract["trial_count"] == 60
     assert contract["seed_count"] == 2
+    assert contract["architecture"]["version"] == TSMIXER_ARCHITECTURE_VERSION
+    assert contract["architecture"]["readout_policy"] == TSMIXER_READOUT_POLICY
     assert contract["split_roles_for_optimization"] == ["train", "validation"]
     assert contract["lockbox_rows_used_for_optimization"] == 0
     assert contract["freeze_gate"]["positive_claim_approved"] is False
     assert contract["search_space"]["hidden_time"]["choices"] == [16, 32, 48, 64]
+
+
+def test_xgboost_only_branch_status_closes_tsmixer_and_fusion() -> None:
+    records = {record["component_id"]: record for record in xgboost_only_branch_status_records()}
+
+    assert records["market_xgboost_v2_frozen_final"]["active_xgboost_only_candidate"] is True
+    assert records["market_tsmixer_v1_tuned_best_trial_41"]["classification"] == "tuned_candidate_rejected_from_development_only"
+    assert records["market_xgb_tsmixer_horizon_meta_v1"]["current_branch_status"] == "cancelled_current_branch"
+    assert records["event_market_horizon_fusion_v1"]["current_branch_status"] == "cancelled_current_branch_historical_exploratory"
+    assert all(record["positive_claim_approved"] is False for record in records.values())
+
+
+def test_xgboost_only_allowed_language_preserves_nonclaims() -> None:
+    language = xgboost_only_allowed_language()
+
+    assert "XGBoost-only" in language
+    assert "positive benchmark-improvement language" in language
+    assert "remain unapproved" in language
+    assert "fusion diagnostics" not in language

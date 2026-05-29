@@ -47,6 +47,7 @@ The selected implementation path is an **Integrated Thin Slice** followed by con
 | Future ensemble policy | Always explore | Explore XGBoost + TSMixer combinations after standalone models exist |
 | First high-accuracy ensemble | Horizon meta | Horizon-specific regularized combiner fits the multi-horizon benchmark |
 | First market+event fusion | Horizon-specific fusion | News/event value likely differs by horizon |
+| Lockbox portfolio simulation | Historical non-claim diagnostic stage | Simulate all valid best individual and mixed models without using stale artifacts or creating trading advice |
 | Deferred/rejected now | Dashboard/API/service, live forecasts, trading signals, LLM summaries, provider expansion | Out of scope or premature until stronger evidence exists |
 
 ### First Integrated Thin Slice Deliverables
@@ -779,6 +780,20 @@ The user rejected simple average and fixed weighted average as too low ambition 
 | Trading signals | Current evidence is `clean_null`; trading/advice claims are disallowed |
 | LLM summaries | Nondeterministic, costly, and unnecessary before deterministic snippets/FinBERT are proven |
 | Provider expansion | Current Alpha Vantage truncation/no-news behavior should be measured first |
+
+### Decision 38: Lockbox Portfolio Simulation Diagnostic Stage
+
+**Question:** How should the requested lockbox portfolio simulation be scoped so it is useful for diagnostics without becoming a trading-output or benchmark-claim upgrade?
+
+**User decision:** Add a Stage 47 prompt for a historical lockbox-only portfolio simulation across all valid best individual models and the best valid mixed model. On 2026-05-29 the user further directed that no direct TSMixer tuning is allowed and that the current frozen best TSMixer artifact should be used as the TSMixer diagnostic input.
+
+**Simulation policy:** Use Stage 43 XGBoost as current valid updated Alpha Vantage evidence. Use the current frozen Stage 44 TSMixer as diagnostic-only stale-readout evidence under explicit owner override, without direct TSMixer tuning or retraining. Use a newly tuned no-direct-TSMixer-tuning horizon mixer as the mixed model when available, not the stale Stage 45 meta artifact. Fold-mean duplicate lockbox predictions before ranking, skip constant/no-signal horizons, use the selected rank weights, keep horizon lots independent, and use a simple no-friction fractional-share long-only simulation.
+
+**Sell-pressure clarification:** Entry and expiry are horizon-specific, but liquidation pressure is always the model's non-constant `1d` bot-k list. Bot-k lists for `5d`, `10d`, `20d`, `60d`, or any non-1d horizon are diagnostics-only and must not trigger next-day sells.
+
+**Additional simulation variants:** Also run no signal-driven liquidation, liquidation only when bot-k appears on at least 4 of 5 horizons, liquidation only when bot-k appears on at least 3 of 5 horizons, and liquidation only when bot-k appears on at least 2 of 5 horizons.
+
+**Reasoning:** The user does not want a longer-horizon downside flag to force selling into a potentially short-term-worst day. The 1d bot-k list is the only near-term sell-pressure proxy, while longer-horizon signals remain independent for entries, holding windows, and diagnostics.
 
 ## Final Selected Roadmap
 

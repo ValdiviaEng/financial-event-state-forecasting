@@ -1,8 +1,8 @@
 # Usage Manual
 
-Status: v1p0 smoke and Stage 17-40 artifact usage manual
+Status: v1p0 smoke, XGBoost-only active workflow, validated raw-merge utility, and enhanced Stage 2-6 comparison usage manual
 
-Updated: 2026-05-25
+Updated: 2026-05-28
 
 The previous detailed Stage 10C/v0p9 usage manual has been preserved separately by the user. This active file documents validated v1p0 local commands only.
 
@@ -17,7 +17,7 @@ It must not be read as evidence of a serious benchmark rerun, live forecast, ser
 | Area | Status |
 | --- | --- |
 | v1p0 implementation | First-slice smoke implementation exists under `src/event_state_forecasting/v1p0/`. |
-| v1p0 commands | Stage 17-25 commands, `python scripts/run_v1p0_stage26_through_tsmixer.py`, and `python scripts/run_v1p0_stage32_tsmixer_optimization.py` exist and passed under `~/venvs/ai`; the older Stage 26-40 runner is stale for refreshed final review. |
+| v1p0 commands | Stage 17-25 XGBoost commands and the refreshed XGBoost-only Stage 35-40 closeout command exist and passed under `~/venvs/ai`; TSMixer commands remain historical diagnostics only and are not active next steps. |
 | v1p0 artifact roots | Smoke root: `data/v1p0_first_slice_smoke/first_slice_smoke_v1/`. |
 | v1p0 feature sidecars | Stage 17 feature root: `data/features/v1p0/market_lag_features_v1p0__source_6868e3b8__stage17_20260524T062000Z/`. |
 | v1p0 saved predictions | Stage 19 model root: `data/models/v1p0/market_baselines_v1p0__features_e1bdb390__stage19_20260524T064500Z/`. |
@@ -27,9 +27,11 @@ It must not be read as evidence of a serious benchmark rerun, live forecast, ser
 | v1p0 frozen final | Stage 23 result root: `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage23__xgboost_frozen_final__20260524T083000Z__src_6dff1bd__run_689fbb80/`. |
 | v1p0 overfit review | Stage 24 result root: `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage24__xgboost_overfit_review__20260524T084500Z__src_6dff1bd__run_689fbb80/`. |
 | v1p0 uncertainty review | Stage 25 result root: `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage25__block_bootstrap_uncertainty__20260524T090500Z__src_6dff1bd__run_689fbb80/`. |
-| v1p0 final sprint | Stage 26-40 completion manifest exists, but refreshed completion must account for repaired Stage 31 and Stage 32 rejection evidence before reuse. |
+| v1p0 final sprint | Refreshed XGBoost-only Stage 35-40 closeout exists as non-claiming current-branch evidence; older Stage 26-40 packets remain historical. |
 | v1p0 report outputs | Smoke report: `data/v1p0_first_slice_smoke/first_slice_smoke_v1/report.html`. |
-| v1p0 tests/validators | `python -m pytest tests/v1p0` should pass under `~/venvs/ai`; focused Stage 26-40 contracts passed with 4 tests before final-sprint execution. |
+| v1p0 tests/validators | `python -m pytest tests/v1p0` should pass under `~/venvs/ai`; focused Stage 26-40/XGBoost-only closeout contracts are included. |
+| Alpha Vantage raw merge | Non-destructive versioned merge utility exists for `data/raw/alphavantage/` plus `data/raw_zip2_extended_granularity/raw/alphavantage/`; validated run root: `data/raw/alphavantage_merged_versions/alphavantage_canonical_plus_zip2_extended_granularity__20260528T045221Z/`. |
+| Enhanced Stage 2-6 comparison | Non-destructive rerun from the merged Alpha Vantage root completed with new versioned Stage 2-6 roots and comparison artifacts; baseline and enhanced result classes both remain `clean_null`. |
 | v0p9 artifacts | Historical/completed state only; do not relabel as v1p0. |
 | Fixed XGBoost | Available in required venv `~/venvs/ai`; smoke summary records `status=available`. |
 
@@ -38,7 +40,7 @@ It must not be read as evidence of a serious benchmark rerun, live forecast, ser
 This manual does not claim:
 
 - live provider execution,
-- raw-data mutation,
+- canonical raw overwrite or hidden raw-source mutation,
 - hidden Stage 2 through Stage 6 reruns,
 - persisted inference packaging,
 - new `forecast_candidate` semantics,
@@ -78,12 +80,37 @@ python scripts/run_v1p0_xgboost_nested_search.py
 python scripts/run_v1p0_xgboost_frozen_final_evaluation.py
 python scripts/run_v1p0_xgboost_overfit_promotion_review.py
 python scripts/run_v1p0_xgboost_block_bootstrap_uncertainty.py
-python scripts/run_v1p0_stage26_through_tsmixer.py --projection-dim 128 --tsmixer-window-length 60 --tsmixer-epochs 8 --tsmixer-batch-size 1024
-python scripts/run_v1p0_stage32_tsmixer_optimization.py --approval-id user_override_stage32_heavy_optuna_2026-05-25 --override-stage31-recommendation --trial-count 60 --epochs 8 --seeds 2026053201,2026053202
-python scripts/run_v1p0_stage26_40_final_sprint.py
+python scripts/run_v1p0_xgboost_only_stage35_40_closeout.py
+python scripts/run_v1p0_xgb_tsmixer_stratified_diagnostic.py
 ```
 
-The smoke command writes toy-data outputs only. The Stage 17 feature-sidecar command writes historical market feature sidecars only. The Stage 19 baseline command writes fixed-model saved predictions and train diagnostics. The Stage 20 command computes diagnostics from saved predictions. The Stage 21 command freezes search-space and objective configuration only. The Stage 22 command runs development-only XGBoost search and writes trial artifacts without lockbox use. The Stage 23 command evaluates the frozen candidate once and preserves claim-review boundaries. The Stage 24 command records overfit evidence and conservative classification without approving positive claims. The Stage 25 command records moving-block bootstrap uncertainty and train-to-real-data gap diagnostics without approving positive claims. The Stage 26-through-TSMixer command writes the FinBERT contract/cache, user-approved 128d FinBERT sidecars, event-representation gate, Stage 18 sequence tensors, Stage 30 real-sequence smoke, and Stage 31 fixed multiseed TSMixer evidence. The Stage 32 command requires explicit user override evidence and writes train/validation-only heavy Optuna evidence with zero lockbox rows used for optimization; the 2026-05-25 run rejected the tuned TSMixer candidate from development evidence. The older Stage 26-40 command writes FinBERT/event/fusion/final diagnostic packets from the earlier available-candidate branch and is now stale for refreshed final review after Stage 31-32. None of these commands call market/news providers, mutate raw data, reinterpret Stage 6, or create a positive benchmark claim.
+The smoke command writes toy-data outputs only. The Stage 17 feature-sidecar command writes historical market feature sidecars only. The Stage 19 baseline command writes fixed-model saved predictions and train diagnostics. The Stage 20 command computes diagnostics from saved predictions. The Stage 21 command freezes search-space and objective configuration only. The Stage 22 command runs development-only XGBoost search and writes trial artifacts without lockbox use. The Stage 23 command evaluates the frozen candidate once and preserves claim-review boundaries. The Stage 24 command records overfit evidence and conservative classification without approving positive claims. The Stage 25 command records moving-block bootstrap uncertainty and train-to-real-data gap diagnostics without approving positive claims. The XGBoost-only Stage 35-40 closeout command records current-branch diagnostics, report fidelity, claim review, and completion status around `market_xgboost_v2_frozen_final` while preserving `positive_claim_approved=false`. The XGBoost-vs-TSMixer diagnostic command is post-hoc diagnostics-only and exists to document why TSMixer is not active. Historical TSMixer commands remain available for reproducibility, but they are not part of the active XGBoost-only workflow. None of these commands call market/news providers, overwrite canonical raw data, reinterpret Stage 6, or create a positive benchmark claim.
+
+## 5A. Validated Raw Merge Commands
+
+Use these only for local raw-audit/merge maintenance. They do not call providers and do not overwrite `data/raw/alphavantage/`.
+
+```bash
+source ~/venvs/ai/bin/activate
+python scripts/merge_alphavantage_news_raw_roots.py --dry-run
+python scripts/merge_alphavantage_news_raw_roots.py
+python scripts/validate_alphavantage_news_merge_output.py --run-root data/raw/alphavantage_merged_versions/alphavantage_canonical_plus_zip2_extended_granularity__20260528T045221Z
+```
+
+The validated 2026-05-28 merge wrote a separate ignored output root under `data/raw/alphavantage_merged_versions/`, retained `608238` merged feed rows across `1408` news files, and validated `608238` per-article provenance records. Canonical adoption or replacement of `data/raw/alphavantage/` still requires explicit approval.
+
+## 5B. Enhanced Stage 2-6 Comparison Commands
+
+Use these only for the validated local enhanced comparison path. They do not call providers, do not overwrite canonical raw data, and do not approve positive benchmark language.
+
+```bash
+source ~/venvs/ai/bin/activate
+python scripts/run_enhanced_alphavantage_stage2_6_pipeline.py --json
+python scripts/run_enhanced_alphavantage_stage2_6_pipeline.py --comparison-only --enhanced-stage2-root data/datasets/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_c82c06990ba7__rows_6868e3b80086 --enhanced-stage3-root data/features/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_c82c06990ba7__rows_6868e3b80086__stage3_features_labels_v1 --enhanced-stage6-root data/benchmark_runs/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_c82c06990ba7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage6_reporting_v1 --json
+python scripts/validate_enhanced_stage2_6_comparison.py --comparison-json data/benchmark_runs/phase1_top50/phase1_top50__stage2_dataset_v1__cw_20240401_20260213__src_c82c06990ba7__rows_6868e3b80086__stage3_features_labels_v1__stage4_splits_v1__stage5_models_v1__stage6_reporting_v1/enhanced_vs_baseline_comparison.json
+```
+
+The validated enhanced rerun wrote Stage 2-6 roots with source digest `c82c06990ba7`, increased aligned news rows from `67840` to `166711`, and generated `enhanced_vs_baseline_comparison.json` plus `.md`. Both baseline and enhanced Stage 6 packets remain `clean_null` with comparability `limitation_bearing`; provider-level completeness, positive benchmark language, and benchmark-comparability promotion remain unapproved.
 
 ## 6. v1p0 Smoke Artifacts
 
@@ -202,9 +229,14 @@ These artifacts classify uncertainty as `supportive_nonclaim_uncertainty`, but `
 | `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage34__market_event_horizon_fusion__20260525T114500Z__src_6dff1bd__run_8d6ed544/market_event_fusion_manifest.json` | Market+event horizon fusion evidence classified `exploratory_only`. |
 | `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage35__full_diagnostic_battery__20260525T120000Z__src_6dff1bd__run_01835475/full_diagnostic_manifest.json` | Full diagnostic battery across available candidates. |
 | `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage39__final_benchmark_claim_review__20260525T125000Z__src_6dff1bd__run_fc51d717/final_claim_review_manifest.json` | Final claim review: no positive claim or comparability promotion approved. |
+| `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage35__xgboost_only_diagnostic_battery__20260527T010000Z__src_6dff1bd__run_0d72db4b/xgboost_only_diagnostic_manifest.json` | Refreshed XGBoost-only diagnostic battery around `market_xgboost_v2_frozen_final`; TSMixer/fusion closed for current branch. |
+| `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage39__xgboost_only_final_claim_review__20260527T015000Z__src_6dff1bd__run_4ba71f22/xgboost_only_final_claim_review_manifest.json` | Refreshed XGBoost-only final claim review: `positive_claim_approved=false`, `benchmark_comparability_promotion_approved=false`. |
+| `data/v1p0_full_results/v1p0__phase1_top50_v1p0__stage40__xgboost_only_completion_gate__20260527T020000Z__src_6dff1bd__run_2bd1eee0/xgboost_only_completion_manifest.json` | Refreshed XGBoost-only completion gate and next-scope approval list. |
 | `docs/v1p0_final_sprint/Final_v1p0_Sprint_Report.md` | Stage 26-40 status report and next-scope gate. |
 
-These artifacts remain local research artifacts. They do not approve live forecasts, trading outputs, services, provider completeness, Stage 6 reinterpretation, or positive benchmark-improvement language. Stage 35 through Stage 40 must be rerun before any refreshed final review includes the new 128d event sidecars and Stage 31-32 TSMixer evidence.
+These artifacts remain local research artifacts. They do not approve live forecasts, trading outputs, services, provider completeness, Stage 6 reinterpretation, or positive benchmark-improvement language. The current refreshed closeout is XGBoost-only and does not consume TSMixer, XGBoost+TSMixer ensemble, or market-event fusion as active candidates.
+
+As of the current workflow decision and refreshed closeout, TSMixer and market-event fusion are not active next steps. Reopening them requires explicit future approval.
 
 ## 16. Pointer Files
 

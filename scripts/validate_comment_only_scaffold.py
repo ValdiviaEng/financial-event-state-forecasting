@@ -2,9 +2,9 @@
 """Validate that active scaffold trees are comment-only.
 
 The active-root rebuild still keeps future-stage `src/`, `configs/`, and
-`tests/` files as comment-only scaffolds. Approved Stage 2 through Stage 7C paths
-and the Stage 8 ops test path are explicitly exempt because they have been
-converted to executable code with tests.
+`tests/` files as comment-only scaffolds. Approved Stage 2 through Stage 10C
+paths, the Stage 8 ops test path, and approved v1p0 paths are explicitly
+exempt because they have been converted to executable code with tests.
 
 Scope: only `.py`, `.yml`, `.yaml` files under `src/`, `configs/`, and `tests/`.
 """
@@ -21,15 +21,23 @@ PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_DIRS = ("src", "configs", "tests")
 ALLOWED_EXTENSIONS = {".py", ".yml", ".yaml"}
 APPROVED_EXECUTABLE_RELATIVE_PATHS = {
+    "configs/diagnostics_v1p0.yaml",
+    "configs/feature_registry_v1p0.yaml",
     "configs/features.yaml",
     "configs/artifact_packet.yaml",
     "configs/evaluation.yaml",
     "configs/labels.yaml",
+    "configs/market_features_v1p0.yaml",
     "configs/models.yaml",
+    "configs/models_v1p0.yaml",
+    "configs/reporting_v1p0.yaml",
     "configs/splits.yaml",
     "configs/stage7_contextual_bandit.example.yaml",
     "configs/stage7_contextual_bandit.yaml",
     "configs/stage7_splits_post_lockbox_2026-05-22.yaml",
+    "configs/v1p0_version_manifest.yaml",
+    "configs/xgboost_search_v1p0.yaml",
+    "src/event_state_forecasting/__init__.py",
     "src/event_state_forecasting/cli/build_benchmark_dataset.py",
     "src/event_state_forecasting/cli/build_features_and_labels.py",
     "src/event_state_forecasting/cli/build_splits_and_packet.py",
@@ -74,6 +82,15 @@ APPROVED_EXECUTABLE_RELATIVE_PATHS = {
     "src/event_state_forecasting/stage7/replay.py",
     "src/event_state_forecasting/stage10/__init__.py",
     "src/event_state_forecasting/stage10/prediction_outputs.py",
+    "src/event_state_forecasting/v1p0/__init__.py",
+    "src/event_state_forecasting/v1p0/evaluation.py",
+    "src/event_state_forecasting/v1p0/features.py",
+    "src/event_state_forecasting/v1p0/final_sprint.py",
+    "src/event_state_forecasting/v1p0/modeling.py",
+    "src/event_state_forecasting/v1p0/registry.py",
+    "src/event_state_forecasting/v1p0/reporting.py",
+    "src/event_state_forecasting/v1p0/versioning.py",
+    "src/event_state_forecasting/v1p0/xgboost_search.py",
     "tests/benchmark/test_artifact_packet_contract.py",
     "tests/benchmark/test_benchmark_runner_contract.py",
     "tests/data/test_contracts_contract.py",
@@ -96,6 +113,15 @@ APPROVED_EXECUTABLE_RELATIVE_PATHS = {
     "tests/stage7/test_stage7_final_execution_contract.py",
     "tests/stage7/test_stage7_policy_metrics_contract.py",
     "tests/stage10/test_prediction_outputs_contract.py",
+    "tests/v1p0/test_stage02_04_contracts.py",
+    "tests/v1p0/test_stage05_09_models.py",
+    "tests/v1p0/test_stage10_13_evaluation_reporting.py",
+    "tests/v1p0/test_stage21_xgboost_search_freeze.py",
+    "tests/v1p0/test_stage22_xgboost_search_run_contracts.py",
+    "tests/v1p0/test_stage23_xgboost_final_contracts.py",
+    "tests/v1p0/test_stage24_overfit_review_contracts.py",
+    "tests/v1p0/test_stage25_block_bootstrap_uncertainty.py",
+    "tests/v1p0/test_stage26_40_final_sprint_contracts.py",
     "tests/ops/test_stage8_data_update_contract.py",
 }
 

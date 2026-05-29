@@ -14,9 +14,13 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SRC_ROOT = PROJECT_ROOT / "src"
-if str(SRC_ROOT) not in sys.path:
-    sys.path.insert(0, str(SRC_ROOT))
+SCRIPTS_ROOT = PROJECT_ROOT / "scripts"
+if str(SCRIPTS_ROOT) not in sys.path:
+    sys.path.insert(0, str(SCRIPTS_ROOT))
+
+from _v0p9_package_alias import install_v0p9_event_state_package  # noqa: E402
+
+install_v0p9_event_state_package(PROJECT_ROOT)
 
 from event_state_forecasting.data.contracts import BENCHMARK_FAMILY_ID, ROW_KEY_FIELDS  # noqa: E402
 from event_state_forecasting.split.leakage_checks import validate_no_leakage  # noqa: E402

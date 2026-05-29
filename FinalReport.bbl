@@ -1,0 +1,293 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{17}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Ansari et~al\mbox{.}(2024)]%
+        {Ansari2024Chronos}
+\bibfield{author}{\bibinfo{person}{Abdul~Fatir Ansari},
+  \bibinfo{person}{Lorenzo Stella}, \bibinfo{person}{Caner Turkmen},
+  \bibinfo{person}{Xiyuan Zhang}, \bibinfo{person}{Pedro Mercado},
+  \bibinfo{person}{Huibin Shen}, \bibinfo{person}{Oleksandr Shchur},
+  \bibinfo{person}{Syama~Sundar Rangapuram}, \bibinfo{person}{Sebastian
+  Pineda-Arango}, \bibinfo{person}{Shubham Kapoor}, \bibinfo{person}{Jasper
+  Zschiegner}, \bibinfo{person}{Danielle~C. Maddix},
+  \bibinfo{person}{Michael~W. Mahoney}, \bibinfo{person}{Kari Torkkola},
+  \bibinfo{person}{Andrew~Gordon Wilson}, \bibinfo{person}{Michael
+  Bohlke-Schneider}, {and} \bibinfo{person}{Yuyang Wang}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{Chronos: Learning the Language of Time Series}.
+\newblock \bibinfo{journal}{\emph{Transactions on Machine Learning Research}}
+  (\bibinfo{year}{2024}).
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=gerNCVqqtR}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Araci(2019)]%
+        {Araci2019FinBERT}
+\bibfield{author}{\bibinfo{person}{Dogu Araci}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{FinBERT}: Financial Sentiment Analysis with
+  Pre-trained Language Models}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1908.10063}}
+  (\bibinfo{year}{2019}).
+\newblock
+\urldef\tempurl%
+\url{https://arxiv.org/abs/1908.10063}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Bergmeir et~al\mbox{.}(2018)]%
+        {Bergmeir2018}
+\bibfield{author}{\bibinfo{person}{Christoph Bergmeir}, \bibinfo{person}{Rob~J.
+  Hyndman}, {and} \bibinfo{person}{Bonsoo Koo}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A Note on the Validity of Cross-validation for
+  Evaluating Autoregressive Time Series Prediction}.
+\newblock \bibinfo{journal}{\emph{Computational Statistics and Data Analysis}}
+  \bibinfo{volume}{120} (\bibinfo{year}{2018}), \bibinfo{pages}{70--83}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.csda.2017.11.003}
+\showDOI{\tempurl}
+
+
+\bibitem[Campbell et~al\mbox{.}(1997)]%
+        {Campbell1997}
+\bibfield{author}{\bibinfo{person}{John~Y. Campbell},
+  \bibinfo{person}{Andrew~W. Lo}, {and} \bibinfo{person}{A.~Craig MacKinlay}.}
+  \bibinfo{year}{1997}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{The Econometrics of Financial Markets}}.
+\newblock \bibinfo{publisher}{Princeton University Press}.
+\newblock
+
+
+\bibitem[Chen and Guestrin(2016)]%
+        {ChenGuestrin2016}
+\bibfield{author}{\bibinfo{person}{Tianqi Chen} {and} \bibinfo{person}{Carlos
+  Guestrin}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{{XGBoost}: A Scalable Tree Boosting System}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 22nd ACM SIGKDD International
+  Conference on Knowledge Discovery and Data Mining}}.
+  \bibinfo{pages}{785--794}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1145/2939672.2939785}
+\showDOI{\tempurl}
+
+
+\bibitem[Devlin et~al\mbox{.}(2019)]%
+        {Devlin2019BERT}
+\bibfield{author}{\bibinfo{person}{Jacob Devlin}, \bibinfo{person}{Ming-Wei
+  Chang}, \bibinfo{person}{Kenton Lee}, {and} \bibinfo{person}{Kristina
+  Toutanova}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{{BERT}: Pre-training of Deep Bidirectional
+  Transformers for Language Understanding}. In
+  \bibinfo{booktitle}{\emph{Proceedings of NAACL-HLT}}.
+  \bibinfo{pages}{4171--4186}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.18653/v1/N19-1423}
+\showDOI{\tempurl}
+
+
+\bibitem[Fama(1970)]%
+        {Fama1970}
+\bibfield{author}{\bibinfo{person}{Eugene~F. Fama}.}
+  \bibinfo{year}{1970}\natexlab{}.
+\newblock \showarticletitle{Efficient Capital Markets: A Review of Theory and
+  Empirical Work}.
+\newblock \bibinfo{journal}{\emph{The Journal of Finance}}
+  \bibinfo{volume}{25}, \bibinfo{number}{2} (\bibinfo{year}{1970}),
+  \bibinfo{pages}{383--417}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.2307/2325486}
+\showDOI{\tempurl}
+
+
+\bibitem[Fama and French(1993)]%
+        {FamaFrench1993}
+\bibfield{author}{\bibinfo{person}{Eugene~F. Fama} {and}
+  \bibinfo{person}{Kenneth~R. French}.} \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Common Risk Factors in the Returns on Stocks and
+  Bonds}.
+\newblock \bibinfo{journal}{\emph{Journal of Financial Economics}}
+  \bibinfo{volume}{33}, \bibinfo{number}{1} (\bibinfo{year}{1993}),
+  \bibinfo{pages}{3--56}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/0304-405X(93)90023-5}
+\showDOI{\tempurl}
+
+
+\bibitem[Fawcett(2006)]%
+        {Fawcett2006}
+\bibfield{author}{\bibinfo{person}{Tom Fawcett}.}
+  \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{An Introduction to {ROC} Analysis}.
+\newblock \bibinfo{journal}{\emph{Pattern Recognition Letters}}
+  \bibinfo{volume}{27}, \bibinfo{number}{8} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{861--874}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.patrec.2005.10.010}
+\showDOI{\tempurl}
+
+
+\bibitem[Harvey et~al\mbox{.}(2016)]%
+        {Harvey2016}
+\bibfield{author}{\bibinfo{person}{Campbell~R. Harvey}, \bibinfo{person}{Yan
+  Liu}, {and} \bibinfo{person}{Heqing Zhu}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{... and the Cross-Section of Expected Returns}.
+\newblock \bibinfo{journal}{\emph{The Review of Financial Studies}}
+  \bibinfo{volume}{29}, \bibinfo{number}{1} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{5--68}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1093/rfs/hhv059}
+\showDOI{\tempurl}
+
+
+\bibitem[Hyndman and Koehler(2006)]%
+        {HyndmanKoehler2006}
+\bibfield{author}{\bibinfo{person}{Rob~J. Hyndman} {and}
+  \bibinfo{person}{Anne~B. Koehler}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Another Look at Measures of Forecast Accuracy}.
+\newblock \bibinfo{journal}{\emph{International Journal of Forecasting}}
+  \bibinfo{volume}{22}, \bibinfo{number}{4} (\bibinfo{year}{2006}),
+  \bibinfo{pages}{679--688}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.ijforecast.2006.03.001}
+\showDOI{\tempurl}
+
+
+\bibitem[Ke et~al\mbox{.}(2017)]%
+        {Ke2017LightGBM}
+\bibfield{author}{\bibinfo{person}{Guolin Ke}, \bibinfo{person}{Qi Meng},
+  \bibinfo{person}{Thomas Finley}, \bibinfo{person}{Taifeng Wang},
+  \bibinfo{person}{Wei Chen}, \bibinfo{person}{Weidong Ma},
+  \bibinfo{person}{Qiwei Ye}, {and} \bibinfo{person}{Tie-Yan Liu}.}
+  \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{{LightGBM}: A Highly Efficient Gradient Boosting
+  Decision Tree}. In \bibinfo{booktitle}{\emph{Advances in Neural Information
+  Processing Systems}}. \bibinfo{pages}{3146--3154}.
+\newblock
+
+
+\bibitem[Lim et~al\mbox{.}(2021)]%
+        {Lim2021TFT}
+\bibfield{author}{\bibinfo{person}{Bryan Lim}, \bibinfo{person}{Sercan~O.
+  Arik}, \bibinfo{person}{Nicolas Loeff}, {and} \bibinfo{person}{Tomas
+  Pfister}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Temporal Fusion Transformers for Interpretable
+  Multi-horizon Time Series Forecasting}.
+\newblock \bibinfo{journal}{\emph{International Journal of Forecasting}}
+  \bibinfo{volume}{37}, \bibinfo{number}{4} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{1748--1764}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.ijforecast.2021.03.012}
+\showDOI{\tempurl}
+
+
+\bibitem[Liu et~al\mbox{.}(2024)]%
+        {Liu2024iTransformer}
+\bibfield{author}{\bibinfo{person}{Yong Liu}, \bibinfo{person}{Haixu Wu},
+  \bibinfo{person}{Jianmin Wang}, {and} \bibinfo{person}{Mingsheng Long}.}
+  \bibinfo{year}{2024}\natexlab{}.
+\newblock \showarticletitle{{iTransformer}: Inverted Transformers Are Effective
+  for Time Series Forecasting}. In \bibinfo{booktitle}{\emph{International
+  Conference on Learning Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=JePfAI8fah}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Loughran and McDonald(2011)]%
+        {LoughranMcDonald2011}
+\bibfield{author}{\bibinfo{person}{Tim Loughran} {and} \bibinfo{person}{Bill
+  McDonald}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{When Is a Liability Not a Liability? Textual
+  Analysis, Dictionaries, and 10-Ks}.
+\newblock \bibinfo{journal}{\emph{The Journal of Finance}}
+  \bibinfo{volume}{66}, \bibinfo{number}{1} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{35--65}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1111/j.1540-6261.2010.01625.x}
+\showDOI{\tempurl}
+
+
+\bibitem[Nie et~al\mbox{.}(2023)]%
+        {Nie2023PatchTST}
+\bibfield{author}{\bibinfo{person}{Yuqi Nie}, \bibinfo{person}{Nam~H. Nguyen},
+  \bibinfo{person}{Phanwadee Sinthong}, {and} \bibinfo{person}{Jayant
+  Kalagnanam}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \showarticletitle{A Time Series is Worth 64 Words: Long-term
+  Forecasting with Transformers}. In \bibinfo{booktitle}{\emph{International
+  Conference on Learning Representations}}.
+\newblock
+\urldef\tempurl%
+\url{https://openreview.net/forum?id=Jbdc0vTOcol}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Tetlock(2007)]%
+        {Tetlock2007}
+\bibfield{author}{\bibinfo{person}{Paul~C. Tetlock}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Giving Content to Investor Sentiment: The Role of
+  Media in the Stock Market}.
+\newblock \bibinfo{journal}{\emph{The Journal of Finance}}
+  \bibinfo{volume}{62}, \bibinfo{number}{3} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{1139--1168}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1111/j.1540-6261.2007.01232.x}
+\showDOI{\tempurl}
+
+
+\end{thebibliography}
