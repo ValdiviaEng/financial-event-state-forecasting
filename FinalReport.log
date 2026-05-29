@@ -1405,18 +1405,10 @@ Overfull \hbox (2.68803pt too wide) in paragraph at lines 38--39
  explicit event-
  []
 
-Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03
-;" at 9.0pt
- -> Inconsolatazi4-Regular.otf
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `inconsolata' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
-Overfull \hbox (127.96901pt too wide) in paragraph at lines 40--41
-[]\TU/LinLibertine(0)/b/n/9 Models and training. \TU/LinLibertine(0)/m/n/9 The 
-main tuned model is \TU/inconsolata(0)/m/n/9 updated_av_xgboost_event_market_op
-tuna_v1\TU/LinLibertine(0)/m/n/9 ,
+Overfull \hbox (1.87651pt too wide) in paragraph at lines 40--41
+\TU/LinLibertine(0)/m/n/9 Because a corrected full TSMixer search was estimated
+ at 23.1 hours
  []
 
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/n' will be
@@ -1481,90 +1473,73 @@ pping=tex-text;" at 7.0pt
  [2.2
 
 ] (FinalReport.bbl
+LaTeX Info: Redefining \tempurl on input line 72.
 LaTeX Font Info:    Font shape `TU/LinLibertine(0)/m/it' will be
-(Font)              scaled to size 7.0pt on input line 54.
+(Font)              scaled to size 7.0pt on input line 84.
 Requested font "[LinLibertine_RI.otf]/OT:script=latn;language=dflt;+tnum;+lnum;
 mapping=tex-text;" at 7.0pt
  -> LinLibertine_RI.otf
-LaTeX Info: Redefining \tempurl on input line 73.
-LaTeX Info: Redefining \tempurl on input line 89.
-LaTeX Info: Redefining \tempurl on input line 113.
-LaTeX Info: Redefining \tempurl on input line 128.
-LaTeX Info: Redefining \tempurl on input line 143.
-LaTeX Info: Redefining \tempurl on input line 158.
-LaTeX Info: Redefining \tempurl on input line 172.
-LaTeX Info: Redefining \tempurl on input line 186.
-LaTeX Info: Redefining \tempurl on input line 200.
-LaTeX Info: Redefining \tempurl on input line 229.
-LaTeX Info: Redefining \tempurl on input line 243.
-LaTeX Info: Redefining \tempurl on input line 259.
-LaTeX Info: Redefining \tempurl on input line 273.
-LaTeX Info: Redefining \tempurl on input line 289.
-)
-Overfull \hbox (505.54274pt too wide) in paragraph at lines 77--78
-\TU/LinLibertine(0)/m/n/9 Primary evidence roots are: Stage 43 XGBoost tuning \
-TU/inconsolata(0)/m/n/9 data/v1p0_full_results/v1p0__phase1_top50_updated_av__s
-tage43__xgboost_tuning__20260528T100000Z__src_6dff1bd__run_40f1c9a0/\TU/LinLibe
-rtine(0)/m/n/9 ;
- []
+LaTeX Info: Redefining \tempurl on input line 88.
+LaTeX Info: Redefining \tempurl on input line 114.
+LaTeX Info: Redefining \tempurl on input line 130.
+LaTeX Info: Redefining \tempurl on input line 145.
+LaTeX Info: Redefining \tempurl on input line 160.
+LaTeX Info: Redefining \tempurl on input line 174.
+LaTeX Info: Redefining \tempurl on input line 188.
+LaTeX Info: Redefining \tempurl on input line 202.
+LaTeX Info: Redefining \tempurl on input line 232.
+LaTeX Info: Redefining \tempurl on input line 248.
+LaTeX Info: Redefining \tempurl on input line 264.
+LaTeX Info: Redefining \tempurl on input line 280.
+LaTeX Info: Redefining \tempurl on input line 296.
+) [3.3
 
 
-Overfull \hbox (231.2775pt too wide) in paragraph at lines 77--78
-\TU/LinLibertine(0)/m/n/9 Stage 48 horizon mixer \TU/inconsolata(0)/m/n/9 ...st
-age48__frozen_tsmixer_horizon_mixer__20260529T093301Z__src_6dff1bd__run_fc4c175
-6/\TU/LinLibertine(0)/m/n/9 ;
- []
+]
+Requested font "[Inconsolatazi4-Regular.otf]/OT:script=latn;language=dflt;+ss03
+;" at 6.0pt
+ -> Inconsolatazi4-Regular.otf
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `inconsolata' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-
-Overfull \hbox (251.82451pt too wide) in paragraph at lines 77--78
-\TU/LinLibertine(0)/m/n/9 Stage 47 portfolio simulation \TU/inconsolata(0)/m/n/
-9 ...stage47__lockbox_portfolio_simulation__20260529T095157Z__src_6dff1bd__run_
-8317929b/\TU/LinLibertine(0)/m/n/9 .
- []
-
-
-Overfull \hbox (17.45477pt too wide) in paragraph at lines 77--78
-\TU/LinLibertine(0)/m/n/9 Validation command: \TU/inconsolata(0)/m/n/9 source ~
-/venvs/ai/bin/activate && python
+Overfull \hbox (10.6033pt too wide) in paragraph at lines 81--83
+[][][][] [] [][][][][][][] [] [][][][] [] [][][][][][][] [] [][][][][] [] [][][
+][][][][] [] [][] [] [][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][]
+ [] [][][][][][][][][][] [] [][][][][][][][][][][][][][][][][] [] [][][][] [] [
+][][][][][][] [] [][][][] [] [][][][][][][][][]$[]\TU/LinLibertine(0)/m/n/6 . V
+alidation command: \TU/inconsolata(0)/m/n/6 source ~/venvs/ai/bin/activate && p
+ython
  []
 
 File: report_artifacts/tuning_curves.pdf Graphic file (type pdf)
 <use report_artifacts/tuning_curves.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: report_artifacts/lockbox_rmse_mae.pdf Graphic file (type pdf)
 <use report_artifacts/lockbox_rmse_mae.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: report_artifacts/mixer_weights_deltas.pdf Graphic file (type pdf)
 <use report_artifacts/mixer_weights_deltas.pdf>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [4.4
+
+
+]
 File: report_artifacts/portfolio_diagnostics.pdf Graphic file (type pdf)
 <use report_artifacts/portfolio_diagnostics.pdf>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: report_artifacts/ranking_uncertainty.pdf Graphic file (type pdf)
 <use report_artifacts/ranking_uncertainty.pdf>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [5.5]
 (se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (se-utf32be.def
 File: se-utf32be.def 2019/11/29 v1.12 stringenc: UTF-32BE
-) [3.3
-
-] [4.4
-
-] [5.5
-
-] (FinalReport.aux)
+) [6.6] (FinalReport.aux)
 Package rerunfilecheck Info: File `FinalReport.out' has not changed.
 (rerunfilecheck)             Checksum: 3F127504232E6C3B1BB9E2BC2EFFF62C;1094.
  )
-Output written on FinalReport.xdv (5 pages, 147432 bytes).
+Output written on FinalReport.xdv (6 pages, 155492 bytes).

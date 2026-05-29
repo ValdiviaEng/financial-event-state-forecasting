@@ -72,6 +72,7 @@ The strongest lesson is that financial deep learning must be evaluated as a syst
 \bibliography{FinalReport}
 
 \clearpage
+\onecolumn
 
 \appendix
 
@@ -81,35 +82,35 @@ Primary evidence roots are Stage 43 XGBoost tuning \url{data/v1p0_full_results/v
 \endgroup
 
 \section{Supplementary Visualizations}
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/tuning_curves.pdf}
   \caption{Optuna incumbent curves for Stage 43 XGBoost and Stage 48 horizon mixer.}
   \Description{Two line plots of trial objective and best-so-far objective.}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/lockbox_rmse_mae.pdf}
   \caption{Lockbox RMSE and MAE by horizon for XGBoost, frozen TSMixer diagnostic input, and Stage 48 mixer.}
   \Description{Grouped bar charts of RMSE and MAE over five forecast horizons.}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/mixer_weights_deltas.pdf}
   \caption{Stage 48 horizon-specific raw mixer weights and lockbox horizon deltas.}
   \Description{Bar charts of XGBoost and TSMixer weights and candidate-minus-baseline deltas.}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/portfolio_diagnostics.pdf}
   \caption{Historical portfolio diagnostics: final equity by policy and return versus turnover.}
   \Description{Horizontal bar chart and scatter plot for diagnostic portfolio simulations.}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
   \includegraphics[width=\linewidth]{report_artifacts/ranking_uncertainty.pdf}
   \caption{Ranking diagnostics and block-bootstrap support retained as secondary evidence.}

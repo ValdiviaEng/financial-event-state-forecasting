@@ -50,9 +50,8 @@
   \bibinfo{person}{Andrew~Gordon Wilson}, \bibinfo{person}{Michael
   Bohlke-Schneider}, {and} \bibinfo{person}{Yuyang Wang}.}
   \bibinfo{year}{2024}\natexlab{}.
-\newblock \showarticletitle{Chronos: Learning the Language of Time Series}.
-\newblock \bibinfo{journal}{\emph{Transactions on Machine Learning Research}}
-  (\bibinfo{year}{2024}).
+\newblock \bibinfo{title}{Chronos: Learning the Language of Time Series}.
+\newblock \bibinfo{howpublished}{Transactions on Machine Learning Research}.
 \newblock
 \urldef\tempurl%
 \url{https://openreview.net/forum?id=gerNCVqqtR}
@@ -64,11 +63,11 @@
         {Araci2019FinBERT}
 \bibfield{author}{\bibinfo{person}{Dogu Araci}.}
   \bibinfo{year}{2019}\natexlab{}.
-\newblock \showarticletitle{{FinBERT}: Financial Sentiment Analysis with
+\newblock \bibinfo{title}{{FinBERT}: Financial Sentiment Analysis with
   Pre-trained Language Models}.
-\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:1908.10063}}
-  (\bibinfo{year}{2019}).
 \newblock
+\newblock
+\showeprint[arxiv]{1908.10063}~[cs.CL]
 \urldef\tempurl%
 \url{https://arxiv.org/abs/1908.10063}
 \showURL{%
@@ -96,7 +95,8 @@
   \bibinfo{person}{Andrew~W. Lo}, {and} \bibinfo{person}{A.~Craig MacKinlay}.}
   \bibinfo{year}{1997}\natexlab{}.
 \newblock \bibinfo{booktitle}{\emph{The Econometrics of Financial Markets}}.
-\newblock \bibinfo{publisher}{Princeton University Press}.
+\newblock \bibinfo{publisher}{Princeton University Press},
+  \bibinfo{address}{Princeton, NJ, USA}.
 \newblock
 
 
@@ -107,6 +107,7 @@
 \newblock \showarticletitle{{XGBoost}: A Scalable Tree Boosting System}. In
   \bibinfo{booktitle}{\emph{Proceedings of the 22nd ACM SIGKDD International
   Conference on Knowledge Discovery and Data Mining}}.
+  \bibinfo{publisher}{ACM}, \bibinfo{address}{New York, NY, USA},
   \bibinfo{pages}{785--794}.
 \newblock
 \urldef\tempurl%
@@ -122,7 +123,8 @@
 \newblock \showarticletitle{{BERT}: Pre-training of Deep Bidirectional
   Transformers for Language Understanding}. In
   \bibinfo{booktitle}{\emph{Proceedings of NAACL-HLT}}.
-  \bibinfo{pages}{4171--4186}.
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Minneapolis, Minnesota}, \bibinfo{pages}{4171--4186}.
 \newblock
 \urldef\tempurl%
 \url{https://doi.org/10.18653/v1/N19-1423}
@@ -210,7 +212,8 @@
   \bibinfo{year}{2017}\natexlab{}.
 \newblock \showarticletitle{{LightGBM}: A Highly Efficient Gradient Boosting
   Decision Tree}. In \bibinfo{booktitle}{\emph{Advances in Neural Information
-  Processing Systems}}. \bibinfo{pages}{3146--3154}.
+  Processing Systems}}. \bibinfo{publisher}{Curran Associates, Inc.},
+  \bibinfo{address}{Red Hook, NY, USA}, \bibinfo{pages}{3146--3154}.
 \newblock
 
 
@@ -238,6 +241,8 @@
 \newblock \showarticletitle{{iTransformer}: Inverted Transformers Are Effective
   for Time Series Forecasting}. In \bibinfo{booktitle}{\emph{International
   Conference on Learning Representations}}.
+  \bibinfo{publisher}{OpenReview.net}, \bibinfo{address}{Online},
+  \bibinfo{numpages}{1}~pages.
 \newblock
 \urldef\tempurl%
 \url{https://openreview.net/forum?id=JePfAI8fah}
@@ -268,6 +273,8 @@
 \newblock \showarticletitle{A Time Series is Worth 64 Words: Long-term
   Forecasting with Transformers}. In \bibinfo{booktitle}{\emph{International
   Conference on Learning Representations}}.
+  \bibinfo{publisher}{OpenReview.net}, \bibinfo{address}{Online},
+  \bibinfo{numpages}{1}~pages.
 \newblock
 \urldef\tempurl%
 \url{https://openreview.net/forum?id=Jbdc0vTOcol}
